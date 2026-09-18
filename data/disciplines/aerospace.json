@@ -1752,6 +1752,61 @@
       ]
     },
     {
+      "id": "ae-personal-flight-systems",
+      "name": "Personal Flight Systems: Jet Suits & Human-Carrying VTOL",
+      "category": "Air Vehicle Design",
+      "level": 4,
+      "priority": "optional",
+      "summary": "The engineering of jet suits, jetpacks and personal VTOL: thrust-to-weight, fuel fraction, stability with a human in the loop, and safety.",
+      "prerequisites": [
+        "ae-uav-drone-engineering",
+        "ae-gas-turbine-engines",
+        "ae-flight-dynamics"
+      ],
+      "related": [
+        "ai-wearable-robotics-exoskeletons",
+        "ae-rocketry-basics"
+      ],
+      "topics": [
+        {
+          "name": "History: rocket belts, jetpacks and jet suits",
+          "id": "ae-personal-flight-systems-1"
+        },
+        {
+          "name": "Thrust-to-weight and hover power requirements",
+          "id": "ae-personal-flight-systems-2"
+        },
+        {
+          "name": "Fuel mass fraction and endurance limits",
+          "id": "ae-personal-flight-systems-3"
+        },
+        {
+          "name": "Micro gas turbines and electric ducted fans",
+          "id": "ae-personal-flight-systems-4"
+        },
+        {
+          "name": "Thrust vectoring and body-in-the-loop control",
+          "id": "ae-personal-flight-systems-5"
+        },
+        {
+          "name": "Stability augmentation and fly-by-wire for individuals",
+          "id": "ae-personal-flight-systems-6"
+        },
+        {
+          "name": "Heat, noise and exhaust hazards to the pilot",
+          "id": "ae-personal-flight-systems-7"
+        },
+        {
+          "name": "Failure modes, redundancy and safe landing",
+          "id": "ae-personal-flight-systems-8"
+        },
+        {
+          "name": "Regulation and certification of personal aircraft",
+          "id": "ae-personal-flight-systems-9"
+        }
+      ]
+    },
+    {
       "id": "ae-air-transportation-traffic-management",
       "name": "Air Transportation and Air Traffic Management",
       "category": "Air Vehicle Design",
@@ -5604,13 +5659,14 @@
       "priority": "important",
       "summary": "How avionics are architected and integrated into aircraft and spacecraft: redundancy, modular avionics, networks and certification.",
       "prerequisites": [
-        "el-avionics-systems",
-        "ae-aerospace-systems-engineering"
+        "ae-aerospace-systems-engineering",
+        "ae-command-data-handling"
       ],
       "related": [
         "el-avionics-buses-protocols",
         "el-spacecraft-electronics",
-        "el-reliability-fault-tolerance"
+        "el-reliability-fault-tolerance",
+        "el-avionics-systems"
       ],
       "topics": [
         {
@@ -5841,6 +5897,59 @@
         {
           "name": "End-of-life disposal planning",
           "id": "ae-space-mission-design-12"
+        }
+      ]
+    },
+    {
+      "id": "ae-planetary-protection",
+      "name": "Planetary Protection & Contamination Control",
+      "category": "Space Missions & Exploration",
+      "level": 3,
+      "priority": "important",
+      "summary": "Keeping Earth life off other worlds, and alien material away from Earth, so that the search for life stays trustworthy.",
+      "prerequisites": [
+        "ae-space-mission-design",
+        "bi-microbiology"
+      ],
+      "related": [
+        "bi-astrobiology"
+      ],
+      "topics": [
+        {
+          "name": "Why planetary protection matters (forward and backward contamination)",
+          "id": "ae-planetary-protection-1"
+        },
+        {
+          "name": "COSPAR policy and mission categories I-V",
+          "id": "ae-planetary-protection-2"
+        },
+        {
+          "name": "Bioburden: spores, cleanrooms and assay methods",
+          "id": "ae-planetary-protection-3"
+        },
+        {
+          "name": "Sterilisation: dry heat, vapour hydrogen peroxide, radiation",
+          "id": "ae-planetary-protection-4"
+        },
+        {
+          "name": "Organic and molecular contamination control",
+          "id": "ae-planetary-protection-5"
+        },
+        {
+          "name": "Special regions on Mars and icy moons",
+          "id": "ae-planetary-protection-6"
+        },
+        {
+          "name": "Sample return containment and restricted Earth return",
+          "id": "ae-planetary-protection-7"
+        },
+        {
+          "name": "Human missions and planetary protection",
+          "id": "ae-planetary-protection-8"
+        },
+        {
+          "name": "Case studies: Viking, Mars 2020, Europa Clipper, OSIRIS-REx",
+          "id": "ae-planetary-protection-9"
         }
       ]
     },

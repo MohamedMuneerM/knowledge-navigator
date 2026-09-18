@@ -118,18 +118,6 @@
           "depth": "full"
         },
         {
-          "chapter": "ma-sequences-series",
-          "why": "Taylor series underpin linearisation, error estimates and numerical methods.",
-          "depth": "selected",
-          "focus": [
-            "ma-sequences-series-1",
-            "ma-sequences-series-2",
-            "ma-sequences-series-7",
-            "ma-sequences-series-9",
-            "ma-sequences-series-10"
-          ]
-        },
-        {
           "chapter": "ma-linear-algebra",
           "why": "Rotation matrices, state vectors and Kalman filters are linear algebra.",
           "depth": "full"
@@ -190,30 +178,6 @@
             "ma-mathematical-methods-6",
             "ma-mathematical-methods-7",
             "ma-mathematical-methods-9"
-          ]
-        },
-        {
-          "chapter": "ma-introduction-to-proofs",
-          "why": "Only the logic and proof basics needed to follow the real-analysis ideas behind PDE theory.",
-          "depth": "selected",
-          "focus": [
-            "ma-introduction-to-proofs-1",
-            "ma-introduction-to-proofs-2",
-            "ma-introduction-to-proofs-3",
-            "ma-introduction-to-proofs-4",
-            "ma-introduction-to-proofs-5"
-          ]
-        },
-        {
-          "chapter": "ma-real-analysis",
-          "why": "Only the core ideas (limits, convergence, Taylor's theorem) that PDE methods lean on.",
-          "depth": "selected",
-          "focus": [
-            "ma-real-analysis-1",
-            "ma-real-analysis-2",
-            "ma-real-analysis-3",
-            "ma-real-analysis-3-2",
-            "ma-real-analysis-4-2"
           ]
         },
         {

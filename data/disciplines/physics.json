@@ -1357,6 +1357,195 @@
       ]
     },
     {
+      "id": "ph-quantum-error-correction",
+      "name": "Quantum Error Correction & Fault Tolerance",
+      "category": "Quantum Physics",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "How fragile qubits are protected from noise with redundancy, from the first bit-flip code to surface codes and fault-tolerant computation.",
+      "prerequisites": [
+        "ph-quantum-information-science",
+        "ma-algebraic-coding-theory"
+      ],
+      "related": [
+        "ma-algebraic-coding-theory"
+      ],
+      "topics": [
+        {
+          "name": "Noise channels and the need for error correction",
+          "id": "ph-quantum-error-correction-1"
+        },
+        {
+          "name": "Three-qubit bit-flip and phase-flip codes",
+          "id": "ph-quantum-error-correction-2"
+        },
+        {
+          "name": "Shor and Steane codes",
+          "id": "ph-quantum-error-correction-3"
+        },
+        {
+          "name": "Knill-Laflamme conditions",
+          "id": "ph-quantum-error-correction-4"
+        },
+        {
+          "name": "Stabilizer formalism and the Pauli group",
+          "id": "ph-quantum-error-correction-5"
+        },
+        {
+          "name": "CSS codes from classical codes",
+          "id": "ph-quantum-error-correction-6"
+        },
+        {
+          "name": "Toric and surface codes",
+          "id": "ph-quantum-error-correction-7"
+        },
+        {
+          "name": "Syndrome extraction and decoding algorithms",
+          "id": "ph-quantum-error-correction-8"
+        },
+        {
+          "name": "The threshold theorem",
+          "id": "ph-quantum-error-correction-9"
+        },
+        {
+          "name": "Fault-tolerant gates and transversality",
+          "id": "ph-quantum-error-correction-10"
+        },
+        {
+          "name": "Magic state distillation",
+          "id": "ph-quantum-error-correction-11"
+        },
+        {
+          "name": "Logical qubit overhead and resource estimates",
+          "id": "ph-quantum-error-correction-12"
+        },
+        {
+          "name": "Bosonic and LDPC codes (frontier)",
+          "id": "ph-quantum-error-correction-13"
+        }
+      ]
+    },
+    {
+      "id": "ph-quantum-communication-networks",
+      "name": "Quantum Communication, Cryptography & Networks",
+      "category": "Quantum Physics",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Using entanglement and single photons to send information securely: quantum key distribution, teleportation, repeaters and the quantum internet.",
+      "prerequisites": [
+        "ph-quantum-information-science",
+        "ph-quantum-optics"
+      ],
+      "related": [],
+      "topics": [
+        {
+          "name": "No-cloning and its consequences",
+          "id": "ph-quantum-communication-networks-1"
+        },
+        {
+          "name": "BB84 and E91 quantum key distribution",
+          "id": "ph-quantum-communication-networks-2"
+        },
+        {
+          "name": "Security proofs and practical attacks",
+          "id": "ph-quantum-communication-networks-3"
+        },
+        {
+          "name": "Continuous-variable QKD",
+          "id": "ph-quantum-communication-networks-4"
+        },
+        {
+          "name": "Quantum teleportation and entanglement swapping",
+          "id": "ph-quantum-communication-networks-5"
+        },
+        {
+          "name": "Photon sources and single-photon detectors",
+          "id": "ph-quantum-communication-networks-6"
+        },
+        {
+          "name": "Fibre and free-space (satellite) links",
+          "id": "ph-quantum-communication-networks-7"
+        },
+        {
+          "name": "Quantum repeaters and quantum memories",
+          "id": "ph-quantum-communication-networks-8"
+        },
+        {
+          "name": "Entanglement distillation",
+          "id": "ph-quantum-communication-networks-9"
+        },
+        {
+          "name": "Quantum network architectures and the quantum internet",
+          "id": "ph-quantum-communication-networks-10"
+        },
+        {
+          "name": "Post-quantum vs quantum cryptography",
+          "id": "ph-quantum-communication-networks-11"
+        }
+      ]
+    },
+    {
+      "id": "ph-superconducting-quantum-circuits",
+      "name": "Superconducting Circuits & Circuit QED",
+      "category": "Quantum Physics",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "How today's leading quantum processors are built: Josephson junctions, transmon qubits, microwave control and dispersive readout.",
+      "prerequisites": [
+        "ph-quantum-information-science",
+        "ph-solid-state-physics"
+      ],
+      "related": [
+        "el-quantum-technologies"
+      ],
+      "topics": [
+        {
+          "name": "Superconductivity essentials for qubits (BCS, flux quantisation)",
+          "id": "ph-superconducting-quantum-circuits-1"
+        },
+        {
+          "name": "The Josephson junction and its nonlinearity",
+          "id": "ph-superconducting-quantum-circuits-2"
+        },
+        {
+          "name": "Quantising LC and nonlinear circuits",
+          "id": "ph-superconducting-quantum-circuits-3"
+        },
+        {
+          "name": "Charge, flux and transmon qubits",
+          "id": "ph-superconducting-quantum-circuits-4"
+        },
+        {
+          "name": "Circuit QED and the Jaynes-Cummings model",
+          "id": "ph-superconducting-quantum-circuits-5"
+        },
+        {
+          "name": "Dispersive readout and quantum-limited amplifiers",
+          "id": "ph-superconducting-quantum-circuits-6"
+        },
+        {
+          "name": "Single- and two-qubit gates with microwave pulses",
+          "id": "ph-superconducting-quantum-circuits-7"
+        },
+        {
+          "name": "Decoherence sources: T1, T2, TLS defects",
+          "id": "ph-superconducting-quantum-circuits-8"
+        },
+        {
+          "name": "Cryogenics and dilution refrigerators",
+          "id": "ph-superconducting-quantum-circuits-9"
+        },
+        {
+          "name": "Chip design, fabrication and packaging",
+          "id": "ph-superconducting-quantum-circuits-10"
+        },
+        {
+          "name": "Scaling: couplers, crosstalk and wiring",
+          "id": "ph-superconducting-quantum-circuits-11"
+        }
+      ]
+    },
+    {
       "id": "ph-quantum-field-theory-qft",
       "name": "Quantum Field Theory (QFT)",
       "category": "Quantum Physics",
@@ -1585,10 +1774,11 @@
       "summary": "Black holes as theoretical laboratories: thermodynamics, Hawking radiation and the information paradox.",
       "prerequisites": [
         "ph-general-relativity",
-        "ph-quantum-field-theory-qft"
+        "ph-thermodynamics-statistical-mechanics"
       ],
       "related": [
-        "ph-compact-objects"
+        "ph-compact-objects",
+        "ph-quantum-field-theory-qft"
       ],
       "topics": [
         {
@@ -1625,7 +1815,8 @@
       "priority": "advanced",
       "summary": "Research approaches to reconciling general relativity with quantum theory, including strings, loops and holography.",
       "prerequisites": [
-        "ph-black-hole-physics"
+        "ph-black-hole-physics",
+        "ph-quantum-field-theory-qft"
       ],
       "related": [
         "ph-string-theory"
@@ -1808,7 +1999,7 @@
       "summary": "Group theory and representations as the language of symmetry in quantum mechanics, particles and crystals.",
       "prerequisites": [
         "ph-quantum-mechanics",
-        "ma-group-theory"
+        "ma-representation-theory"
       ],
       "related": [
         "ma-symmetries-groups-in-physics",
@@ -4482,7 +4673,8 @@
       "summary": "Planets around other stars: how they are found, what they are like, and where habitable worlds might be.",
       "prerequisites": [
         "ph-planetary-science",
-        "ph-observational-astronomy-telescopes"
+        "ph-observational-astronomy-telescopes",
+        "ph-celestial-mechanics"
       ],
       "related": [
         "ea-planetary-atmospheres-and-climates",

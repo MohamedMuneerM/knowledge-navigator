@@ -558,6 +558,11 @@
           "depth": "full"
         },
         {
+          "chapter": "ai-llmops",
+          "why": "Shipping an LLM feature is the start; tracing, guardrails and cost control keep it alive in production.",
+          "depth": "full"
+        },
+        {
           "chapter": "ai-monitoring-maintenance",
           "why": "Detecting drift, degraded quality and failures once a model is live.",
           "depth": "full"

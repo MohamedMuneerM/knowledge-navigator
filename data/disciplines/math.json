@@ -3952,8 +3952,7 @@
       "priority": "core",
       "summary": "Heat, wave and Laplace equations and beyond: classification, solution methods and well-posedness of PDEs.",
       "prerequisites": [
-        "ma-mathematical-methods",
-        "ma-real-analysis"
+        "ma-mathematical-methods"
       ],
       "topics": [
         {
@@ -6006,6 +6005,64 @@
         {
           "name": "A/B testing",
           "id": "ma-experimental-design-7"
+        }
+      ]
+    },
+    {
+      "id": "ma-survey-sampling",
+      "name": "Survey Sampling & Data Collection",
+      "category": "Probability & Statistics",
+      "level": 3,
+      "priority": "important",
+      "summary": "How to collect data that actually represents a population: sampling designs, estimation, questionnaires and the biases that ruin conclusions.",
+      "prerequisites": [
+        "ma-inferential-statistics"
+      ],
+      "related": [],
+      "topics": [
+        {
+          "name": "Populations, frames and sampling units",
+          "id": "ma-survey-sampling-1"
+        },
+        {
+          "name": "Simple random sampling and estimators",
+          "id": "ma-survey-sampling-2"
+        },
+        {
+          "name": "Stratified sampling and allocation",
+          "id": "ma-survey-sampling-3"
+        },
+        {
+          "name": "Cluster and multistage sampling",
+          "id": "ma-survey-sampling-4"
+        },
+        {
+          "name": "Systematic and probability-proportional-to-size sampling",
+          "id": "ma-survey-sampling-5"
+        },
+        {
+          "name": "Ratio and regression estimators",
+          "id": "ma-survey-sampling-6"
+        },
+        {
+          "name": "Design effects and variance estimation",
+          "id": "ma-survey-sampling-7"
+        },
+        {
+          "name": "Nonresponse, weighting and imputation",
+          "id": "ma-survey-sampling-8"
+        },
+        {
+          "name": "Questionnaire design and measurement error",
+          "id": "ma-survey-sampling-9"
+        },
+        {
+          "name": "Observational data, convenience samples and selection bias",
+          "id": "ma-survey-sampling-10"
+        },
+        {
+          "name": "Sample size and power planning",
+          "id": "ma-survey-sampling-11"
         }
       ]
     },

@@ -1183,6 +1183,11 @@
           "depth": "full"
         },
         {
+          "chapter": "ae-personal-flight-systems",
+          "why": "The real-world state of the art for flying humans: jet suits, their thrust budgets and why stability is so hard.",
+          "depth": "full"
+        },
+        {
           "chapter": "ae-flight-control-systems",
           "why": "Elective: autopilots and fly-by-wire, needed for any suit that flies itself when the pilot cannot.",
           "depth": "full"

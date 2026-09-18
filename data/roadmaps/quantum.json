@@ -387,6 +387,11 @@
           "depth": "full"
         },
         {
+          "chapter": "ph-quantum-error-correction",
+          "why": "Useful quantum computers need logical qubits; error correction is the bridge from noisy hardware to reliable computation.",
+          "depth": "full"
+        },
+        {
           "chapter": "ma-error-correcting-codes",
           "why": "Hamming and LDPC codes and their decoders, whose ideas carry into quantum LDPC and surface-code decoding.",
           "depth": "selected",
@@ -419,6 +424,11 @@
           "depth": "full"
         },
         {
+          "chapter": "ph-quantum-communication-networks",
+          "why": "QKD and quantum networks are the most mature quantum technology after sensing.",
+          "depth": "full"
+        },
+        {
           "chapter": "ph-atom-light-interaction-laser-cooling",
           "why": "Rabi oscillations, optical Bloch equations and ion or atom traps are how gates are actually applied.",
           "depth": "full"
@@ -448,6 +458,11 @@
             "ph-solid-state-physics-18",
             "ph-solid-state-physics-19"
           ]
+        },
+        {
+          "chapter": "ph-superconducting-quantum-circuits",
+          "why": "Transmon qubits are the workhorse of today's quantum processors; this is how they are built and controlled.",
+          "depth": "full"
         },
         {
           "chapter": "ph-cryophysics",

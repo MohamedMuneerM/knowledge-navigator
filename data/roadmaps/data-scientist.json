@@ -202,6 +202,11 @@
           "depth": "full"
         },
         {
+          "chapter": "ma-survey-sampling",
+          "why": "Good analysis starts with good data; sampling design decides what your data can and cannot tell you.",
+          "depth": "full"
+        },
+        {
           "chapter": "ma-regression-analysis",
           "why": "Linear and generalised linear regression is the most-used modelling tool in data science.",
           "depth": "full"

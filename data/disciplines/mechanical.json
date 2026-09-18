@@ -1305,7 +1305,6 @@
       "priority": "core",
       "summary": "Energy, heat and work in engineering systems: properties of substances, the first and second laws, entropy and exergy.",
       "prerequisites": [
-        "me-introduction-to-engineering-mechanical-design",
         "ma-calculus",
         "ph-introductory-heat-thermodynamics"
       ],

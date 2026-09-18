@@ -5603,7 +5603,8 @@
       "related": [
         "ea-historical-geology",
         "ea-geobiology",
-        "ch-astrochemistry"
+        "ch-astrochemistry",
+        "ch-prebiotic-systems-chemistry"
       ]
     },
     {
@@ -5624,7 +5625,8 @@
         "ph-astrobiology",
         "ph-exoplanets",
         "ea-comparative-planetology",
-        "ae-planetary-exploration-systems"
+        "ae-planetary-exploration-systems",
+        "ae-planetary-protection"
       ],
       "topics": [
         {

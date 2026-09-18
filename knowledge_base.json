@@ -3,10 +3,10 @@
   "generatedAt": "2026-09-18",
   "stats": {
     "disciplines": 11,
-    "chapters": 1423,
-    "topics": 14344,
+    "chapters": 1432,
+    "topics": 14439,
     "roadmaps": 13,
-    "prerequisiteLinks": 2415
+    "prerequisiteLinks": 2430
   },
   "subjects": [
     {
@@ -2035,7 +2035,7 @@
             "ma-algebraic-coding-theory"
           ],
           "unlocks": [],
-          "order": 170,
+          "order": 171,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 11,
@@ -2365,8 +2365,7 @@
           ],
           "unlocks": [
             "ma-algebraic-combinatorics",
-            "ma-representation-theory",
-            "ph-symmetry-group-theory"
+            "ma-representation-theory"
           ],
           "order": 52,
           "stage": 7,
@@ -2619,7 +2618,8 @@
           "unlocks": [
             "ma-lie-theory",
             "ma-abstract-harmonic-analysis",
-            "ma-symmetries-groups-in-physics"
+            "ma-symmetries-groups-in-physics",
+            "ph-symmetry-group-theory"
           ],
           "order": 75,
           "stage": 8,
@@ -2899,9 +2899,10 @@
           ],
           "unlocks": [
             "ma-coding-theory-combinatorial-aspects",
-            "ma-error-correcting-codes"
+            "ma-error-correcting-codes",
+            "ph-quantum-error-correction"
           ],
-          "order": 124,
+          "order": 125,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 10,
@@ -3089,7 +3090,7 @@
             "ma-quantum-groups",
             "ma-sub-riemannian-geometry"
           ],
-          "order": 168,
+          "order": 169,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 18,
@@ -3162,7 +3163,7 @@
             "ma-k-theory",
             "ma-derived-algebraic-geometry"
           ],
-          "order": 141,
+          "order": 142,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 11,
@@ -3224,7 +3225,7 @@
           "unlocks": [
             "ma-noncommutative-geometry"
           ],
-          "order": 202,
+          "order": 203,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 22,
@@ -3527,7 +3528,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 142,
+          "order": 143,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 14,
@@ -3596,7 +3597,7 @@
             "ma-elliptic-curves",
             "ma-arithmetic-geometry"
           ],
-          "order": 143,
+          "order": 144,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 11,
@@ -3666,7 +3667,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 171,
+          "order": 172,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 15,
@@ -3716,7 +3717,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 144,
+          "order": 145,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 16,
@@ -3768,7 +3769,7 @@
           "unlocks": [
             "ma-modular-forms"
           ],
-          "order": 172,
+          "order": 173,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 13,
@@ -3828,7 +3829,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 203,
+          "order": 204,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 20,
@@ -3883,7 +3884,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 145,
+          "order": 146,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 11,
@@ -3947,7 +3948,6 @@
             "ma-measure-theory-integration",
             "ma-summability-divergent-series",
             "ma-convex-analysis",
-            "ma-partial-differential-equations-pdes",
             "ma-integral-equations",
             "ma-functional-equations",
             "ma-differential-geometry",
@@ -4409,7 +4409,7 @@
             "ph-mathematical-physics"
           ],
           "unlocks": [],
-          "order": 125,
+          "order": 126,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 13,
@@ -4469,7 +4469,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 126,
+          "order": 127,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 14,
@@ -4609,7 +4609,7 @@
             "ma-optimal-transport",
             "ma-kernel-methods"
           ],
-          "order": 137,
+          "order": 138,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 12,
@@ -4700,7 +4700,7 @@
           "unlocks": [
             "ma-noncommutative-geometry"
           ],
-          "order": 173,
+          "order": 174,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 13,
@@ -4766,7 +4766,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 174,
+          "order": 175,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 17,
@@ -4821,7 +4821,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 175,
+          "order": 176,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 16,
@@ -4871,7 +4871,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 176,
+          "order": 177,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 16,
@@ -4970,7 +4970,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 177,
+          "order": 178,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 16,
@@ -5078,7 +5078,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 178,
+          "order": 179,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 17,
@@ -5500,8 +5500,7 @@
           "priority": "core",
           "summary": "Heat, wave and Laplace equations and beyond: classification, solution methods and well-posedness of PDEs.",
           "prerequisites": [
-            "ma-mathematical-methods",
-            "ma-real-analysis"
+            "ma-mathematical-methods"
           ],
           "related": [],
           "unlocks": [
@@ -5523,7 +5522,7 @@
           "order": 113,
           "stage": 9,
           "depth": 9,
-          "ancestorCount": 14,
+          "ancestorCount": 11,
           "topics": [
             {
               "id": "ma-partial-differential-equations-pdes-7",
@@ -5929,7 +5928,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 146,
+          "order": 147,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 13,
@@ -6026,7 +6025,7 @@
             "ai-special-deep-learning-topics"
           ],
           "unlocks": [],
-          "order": 204,
+          "order": 205,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 25,
@@ -6530,7 +6529,7 @@
             "ma-noncommutative-geometry",
             "ma-sub-riemannian-geometry"
           ],
-          "order": 169,
+          "order": 170,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 16,
@@ -6599,7 +6598,7 @@
           "unlocks": [
             "ma-mirror-symmetry"
           ],
-          "order": 179,
+          "order": 180,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 15,
@@ -6659,7 +6658,7 @@
             "ma-arithmetic-geometry",
             "ma-derived-algebraic-geometry"
           ],
-          "order": 138,
+          "order": 139,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 11,
@@ -6731,7 +6730,7 @@
           "unlocks": [
             "ma-stochastic-geometry"
           ],
-          "order": 147,
+          "order": 148,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 12,
@@ -6785,7 +6784,7 @@
           "unlocks": [
             "ma-information-geometry-ml-context"
           ],
-          "order": 180,
+          "order": 181,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 19,
@@ -6830,7 +6829,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 198,
+          "order": 199,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 16,
@@ -6871,7 +6870,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 215,
+          "order": 216,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 28,
@@ -7131,7 +7130,7 @@
             "ma-geometric-topology",
             "ma-fiber-bundles"
           ],
-          "order": 139,
+          "order": 140,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 14,
@@ -7201,7 +7200,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 181,
+          "order": 182,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 17,
@@ -7263,7 +7262,7 @@
           "unlocks": [
             "ma-higher-dimensional-algebra"
           ],
-          "order": 182,
+          "order": 183,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 14,
@@ -7330,7 +7329,7 @@
           "unlocks": [
             "ma-low-dimensional-topology"
           ],
-          "order": 183,
+          "order": 184,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 17,
@@ -7382,7 +7381,7 @@
           "unlocks": [
             "ma-k-theory"
           ],
-          "order": 184,
+          "order": 185,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 17,
@@ -7433,7 +7432,7 @@
             "ma-topological-data-analysis"
           ],
           "unlocks": [],
-          "order": 185,
+          "order": 186,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 13,
@@ -7479,7 +7478,7 @@
           "unlocks": [
             "ma-quantum-topology"
           ],
-          "order": 208,
+          "order": 209,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 18,
@@ -7524,7 +7523,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 216,
+          "order": 217,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 24,
@@ -7848,12 +7847,12 @@
             "ma-mathematical-statistics",
             "ma-bayesian-statistics",
             "ma-multivariate-statistics",
+            "ma-survey-sampling",
             "ma-nonparametric-statistics",
             "ma-foundations-of-machine-learning",
             "ma-actuarial-mathematics",
             "ea-geoscience-data-analysis",
             "ai-ml-experimentation-evaluation",
-            "ai-business-analytics",
             "me-measurements-instrumentation",
             "me-manufacturing-systems-quality",
             "ae-aerospace-instrumentation"
@@ -8284,8 +8283,10 @@
           "related": [
             "ch-chemometrics"
           ],
-          "unlocks": [],
-          "order": 153,
+          "unlocks": [
+            "ai-business-analytics"
+          ],
+          "order": 154,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 14,
@@ -8328,6 +8329,80 @@
           ]
         },
         {
+          "id": "ma-survey-sampling",
+          "name": "Survey Sampling & Data Collection",
+          "category": "Probability & Statistics",
+          "level": 3,
+          "priority": "important",
+          "summary": "How to collect data that actually represents a population: sampling designs, estimation, questionnaires and the biases that ruin conclusions.",
+          "prerequisites": [
+            "ma-inferential-statistics"
+          ],
+          "related": [],
+          "unlocks": [],
+          "order": 121,
+          "stage": 9,
+          "depth": 9,
+          "ancestorCount": 12,
+          "topics": [
+            {
+              "id": "ma-survey-sampling-1",
+              "name": "Populations, frames and sampling units",
+              "priority": "important"
+            },
+            {
+              "id": "ma-survey-sampling-2",
+              "name": "Simple random sampling and estimators",
+              "priority": "important"
+            },
+            {
+              "id": "ma-survey-sampling-3",
+              "name": "Stratified sampling and allocation",
+              "priority": "important"
+            },
+            {
+              "id": "ma-survey-sampling-4",
+              "name": "Cluster and multistage sampling",
+              "priority": "important"
+            },
+            {
+              "id": "ma-survey-sampling-5",
+              "name": "Systematic and probability-proportional-to-size sampling",
+              "priority": "important"
+            },
+            {
+              "id": "ma-survey-sampling-6",
+              "name": "Ratio and regression estimators",
+              "priority": "important"
+            },
+            {
+              "id": "ma-survey-sampling-7",
+              "name": "Design effects and variance estimation",
+              "priority": "important"
+            },
+            {
+              "id": "ma-survey-sampling-8",
+              "name": "Nonresponse, weighting and imputation",
+              "priority": "important"
+            },
+            {
+              "id": "ma-survey-sampling-9",
+              "name": "Questionnaire design and measurement error",
+              "priority": "important"
+            },
+            {
+              "id": "ma-survey-sampling-10",
+              "name": "Observational data, convenience samples and selection bias",
+              "priority": "important"
+            },
+            {
+              "id": "ma-survey-sampling-11",
+              "name": "Sample size and power planning",
+              "priority": "important"
+            }
+          ]
+        },
+        {
           "id": "ma-time-series-analysis",
           "name": "Time Series Analysis",
           "category": "Probability & Statistics",
@@ -8343,7 +8418,7 @@
           "unlocks": [
             "ai-time-series-forecasting"
           ],
-          "order": 155,
+          "order": 156,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 14,
@@ -8397,7 +8472,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 127,
+          "order": 128,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 12,
@@ -8445,7 +8520,7 @@
           "unlocks": [
             "bi-epidemiology"
           ],
-          "order": 156,
+          "order": 157,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 14,
@@ -8494,7 +8569,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 157,
+          "order": 158,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 14,
@@ -8548,7 +8623,7 @@
             "ma-measure-concentration",
             "ma-stochastic-geometry"
           ],
-          "order": 140,
+          "order": 141,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 14,
@@ -8621,7 +8696,7 @@
             "ma-financial-mathematics",
             "ma-mean-field-games"
           ],
-          "order": 186,
+          "order": 187,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 17,
@@ -8673,7 +8748,7 @@
             "ai-causal-inference"
           ],
           "unlocks": [],
-          "order": 187,
+          "order": 188,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 18,
@@ -8738,7 +8813,7 @@
             "ma-statistical-learning-theory",
             "ma-compressed-sensing"
           ],
-          "order": 148,
+          "order": 149,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 15,
@@ -8784,7 +8859,7 @@
             "ma-high-dimensional-probability"
           ],
           "unlocks": [],
-          "order": 188,
+          "order": 189,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 15,
@@ -8826,7 +8901,7 @@
             "ai-statistical-learning-theory"
           ],
           "unlocks": [],
-          "order": 189,
+          "order": 190,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 19,
@@ -9164,7 +9239,7 @@
             "ma-numerical-solutions-of-pdes",
             "mt-computational-materials-intro"
           ],
-          "order": 154,
+          "order": 155,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 14,
@@ -9289,7 +9364,7 @@
           "unlocks": [
             "me-design-optimization"
           ],
-          "order": 121,
+          "order": 122,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 15,
@@ -9422,10 +9497,10 @@
             "mt-phase-field-mesoscale",
             "ae-computational-fluid-dynamics"
           ],
-          "order": 201,
+          "order": 202,
           "stage": 11,
           "depth": 11,
-          "ancestorCount": 23,
+          "ancestorCount": 21,
           "topics": [
             {
               "id": "ma-numerical-solutions-of-pdes-1",
@@ -9477,7 +9552,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 149,
+          "order": 150,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 14,
@@ -9651,7 +9726,7 @@
           "unlocks": [
             "ma-reinforcement-learning-mathematics"
           ],
-          "order": 122,
+          "order": 123,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 12,
@@ -10063,7 +10138,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 150,
+          "order": 151,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 14,
@@ -10118,7 +10193,7 @@
           "unlocks": [
             "ae-trajectory-optimization"
           ],
-          "order": 151,
+          "order": 152,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 13,
@@ -10168,7 +10243,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 190,
+          "order": 191,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 19,
@@ -10218,7 +10293,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 191,
+          "order": 192,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 14,
@@ -10801,7 +10876,7 @@
           "unlocks": [
             "ma-information-communication-theory"
           ],
-          "order": 158,
+          "order": 159,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 17,
@@ -10980,7 +11055,7 @@
             "ma-neural-network-mathematics",
             "ma-reinforcement-learning-mathematics"
           ],
-          "order": 128,
+          "order": 129,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 13,
@@ -11039,7 +11114,7 @@
             "ai-types-of-machine-learning"
           ],
           "unlocks": [],
-          "order": 159,
+          "order": 160,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 15,
@@ -11148,7 +11223,7 @@
             "ai-probabilistic-ai"
           ],
           "unlocks": [],
-          "order": 160,
+          "order": 161,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 15,
@@ -11205,7 +11280,7 @@
             "ai-data-preprocessing-feature-engineering"
           ],
           "unlocks": [],
-          "order": 161,
+          "order": 162,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 15,
@@ -11263,7 +11338,7 @@
             "ma-matrix-analysis"
           ],
           "unlocks": [],
-          "order": 162,
+          "order": 163,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 19,
@@ -11312,7 +11387,7 @@
             "ai-types-of-machine-learning"
           ],
           "unlocks": [],
-          "order": 192,
+          "order": 193,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 23,
@@ -11366,7 +11441,7 @@
           "unlocks": [
             "ma-neural-differential-equations"
           ],
-          "order": 193,
+          "order": 194,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 16,
@@ -11420,7 +11495,7 @@
             "ai-model-free-methods"
           ],
           "unlocks": [],
-          "order": 194,
+          "order": 195,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 16,
@@ -11478,7 +11553,7 @@
             "ai-optimization-theory"
           ],
           "unlocks": [],
-          "order": 205,
+          "order": 206,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 22,
@@ -11657,7 +11732,7 @@
           "unlocks": [
             "ma-optics"
           ],
-          "order": 129,
+          "order": 130,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 14,
@@ -11716,7 +11791,7 @@
             "ma-quantum-field-theory",
             "ma-mathematical-chemistry"
           ],
-          "order": 130,
+          "order": 131,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 20,
@@ -11780,7 +11855,7 @@
             "ch-statistical-thermodynamics"
           ],
           "unlocks": [],
-          "order": 131,
+          "order": 132,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 14,
@@ -11845,7 +11920,7 @@
           "unlocks": [
             "ma-quantum-field-theory"
           ],
-          "order": 132,
+          "order": 133,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 16,
@@ -11914,10 +11989,10 @@
           "unlocks": [
             "ma-geophysical-environmental-mathematics"
           ],
-          "order": 163,
+          "order": 164,
           "stage": 10,
           "depth": 10,
-          "ancestorCount": 19,
+          "ancestorCount": 16,
           "topics": [
             {
               "id": "ma-fluid-mechanics-6",
@@ -11983,10 +12058,10 @@
             "ae-aerospace-structures"
           ],
           "unlocks": [],
-          "order": 164,
+          "order": 165,
           "stage": 10,
           "depth": 10,
-          "ancestorCount": 22,
+          "ancestorCount": 19,
           "topics": [
             {
               "id": "ma-solid-mechanics-4",
@@ -12035,7 +12110,7 @@
             "ph-modern-optics"
           ],
           "unlocks": [],
-          "order": 165,
+          "order": 166,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 15,
@@ -12172,7 +12247,7 @@
             "ch-symmetry-group-theory"
           ],
           "unlocks": [],
-          "order": 133,
+          "order": 134,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 19,
@@ -12234,7 +12309,7 @@
             "ph-positional-astronomy"
           ],
           "unlocks": [],
-          "order": 134,
+          "order": 135,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 15,
@@ -12288,10 +12363,10 @@
             "ea-geodynamics"
           ],
           "unlocks": [],
-          "order": 167,
+          "order": 168,
           "stage": 10,
           "depth": 10,
-          "ancestorCount": 15,
+          "ancestorCount": 12,
           "topics": [
             {
               "id": "ma-geophysics-3",
@@ -12335,7 +12410,7 @@
             "ph-quantum-field-theory-qft"
           ],
           "unlocks": [],
-          "order": 195,
+          "order": 196,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 25,
@@ -12393,10 +12468,10 @@
             "ph-chaos-theory-nonlinear-dynamics"
           ],
           "unlocks": [],
-          "order": 196,
+          "order": 197,
           "stage": 10,
           "depth": 10,
-          "ancestorCount": 20,
+          "ancestorCount": 17,
           "topics": [
             {
               "id": "ma-solitons-integrable-systems-4",
@@ -12556,7 +12631,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 123,
+          "order": 124,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 13,
@@ -12738,7 +12813,7 @@
             "ch-cheminformatics-ml"
           ],
           "unlocks": [],
-          "order": 166,
+          "order": 167,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 27,
@@ -12842,7 +12917,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 135,
+          "order": 136,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 12,
@@ -12973,7 +13048,7 @@
             "el-state-space-digital-control"
           ],
           "unlocks": [],
-          "order": 136,
+          "order": 137,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 11,
@@ -13081,7 +13156,7 @@
             "ph-econophysics"
           ],
           "unlocks": [],
-          "order": 206,
+          "order": 207,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 22,
@@ -13153,7 +13228,7 @@
             "el-digital-communications"
           ],
           "unlocks": [],
-          "order": 207,
+          "order": 208,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 18,
@@ -13204,10 +13279,10 @@
             "ea-numerical-weather-prediction"
           ],
           "unlocks": [],
-          "order": 214,
+          "order": 215,
           "stage": 12,
           "depth": 12,
-          "ancestorCount": 28,
+          "ancestorCount": 26,
           "topics": [
             {
               "id": "ma-geophysical-environmental-mathematics-5",
@@ -13255,7 +13330,7 @@
             "ma-topological-data-analysis-tda"
           ],
           "unlocks": [],
-          "order": 197,
+          "order": 198,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 13,
@@ -13341,7 +13416,7 @@
           "unlocks": [
             "ma-derived-algebraic-geometry"
           ],
-          "order": 209,
+          "order": 210,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 15,
@@ -13383,7 +13458,7 @@
             "ph-string-theory"
           ],
           "unlocks": [],
-          "order": 210,
+          "order": 211,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 21,
@@ -13425,7 +13500,7 @@
           "unlocks": [
             "ma-quantum-topology"
           ],
-          "order": 211,
+          "order": 212,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 20,
@@ -13465,7 +13540,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 199,
+          "order": 200,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 15,
@@ -13511,7 +13586,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 217,
+          "order": 218,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 21,
@@ -13591,7 +13666,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 152,
+          "order": 153,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 15,
@@ -13636,7 +13711,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 212,
+          "order": 213,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 21,
@@ -13676,7 +13751,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 200,
+          "order": 201,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 18,
@@ -13722,7 +13797,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 213,
+          "order": 214,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 24,
@@ -14464,6 +14539,7 @@
             "ph-electronics-for-physicists",
             "ph-physics-education",
             "bi-membranes-transport-bioelectricity",
+            "el-electrical-materials",
             "me-system-dynamics",
             "ae-space-environment"
           ],
@@ -15025,7 +15101,6 @@
             "ph-accelerator-physics",
             "ph-energy-physics",
             "ea-geomagnetism-and-paleomagnetism",
-            "el-electrical-materials",
             "el-electromagnetics",
             "mt-optical-photonic-materials",
             "ae-electric-propulsion"
@@ -15154,7 +15229,7 @@
             "el-electromagnetics"
           ],
           "unlocks": [],
-          "order": 66,
+          "order": 67,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 24,
@@ -15244,6 +15319,7 @@
           ],
           "unlocks": [
             "ph-advanced-statistical-mechanics",
+            "ph-black-hole-physics",
             "ph-computational-physics",
             "ph-cold-atom-physics",
             "ph-solid-state-physics",
@@ -15601,7 +15677,6 @@
             "ph-experimental-techniques",
             "ph-philosophy-of-physics",
             "el-nanoelectronics",
-            "el-quantum-technologies",
             "mt-electronic-properties"
           ],
           "order": 21,
@@ -15856,6 +15931,9 @@
             "cs-quantum-computing"
           ],
           "unlocks": [
+            "ph-quantum-error-correction",
+            "ph-quantum-communication-networks",
+            "ph-superconducting-quantum-circuits",
             "ph-quantum-sensing-metrology",
             "ch-quantum-computing-chemistry",
             "ai-quantum-machine-learning"
@@ -15913,6 +15991,245 @@
           ]
         },
         {
+          "id": "ph-quantum-error-correction",
+          "name": "Quantum Error Correction & Fault Tolerance",
+          "category": "Quantum Physics",
+          "level": 4,
+          "priority": "advanced",
+          "summary": "How fragile qubits are protected from noise with redundancy, from the first bit-flip code to surface codes and fault-tolerant computation.",
+          "prerequisites": [
+            "ph-quantum-information-science",
+            "ma-algebraic-coding-theory"
+          ],
+          "related": [
+            "ma-algebraic-coding-theory"
+          ],
+          "unlocks": [],
+          "order": 69,
+          "stage": 8,
+          "depth": 11,
+          "ancestorCount": 24,
+          "topics": [
+            {
+              "id": "ph-quantum-error-correction-1",
+              "name": "Noise channels and the need for error correction",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-error-correction-2",
+              "name": "Three-qubit bit-flip and phase-flip codes",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-error-correction-3",
+              "name": "Shor and Steane codes",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-error-correction-4",
+              "name": "Knill-Laflamme conditions",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-error-correction-5",
+              "name": "Stabilizer formalism and the Pauli group",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-error-correction-6",
+              "name": "CSS codes from classical codes",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-error-correction-7",
+              "name": "Toric and surface codes",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-error-correction-8",
+              "name": "Syndrome extraction and decoding algorithms",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-error-correction-9",
+              "name": "The threshold theorem",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-error-correction-10",
+              "name": "Fault-tolerant gates and transversality",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-error-correction-11",
+              "name": "Magic state distillation",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-error-correction-12",
+              "name": "Logical qubit overhead and resource estimates",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-error-correction-13",
+              "name": "Bosonic and LDPC codes (frontier)",
+              "priority": "advanced"
+            }
+          ]
+        },
+        {
+          "id": "ph-quantum-communication-networks",
+          "name": "Quantum Communication, Cryptography & Networks",
+          "category": "Quantum Physics",
+          "level": 4,
+          "priority": "advanced",
+          "summary": "Using entanglement and single photons to send information securely: quantum key distribution, teleportation, repeaters and the quantum internet.",
+          "prerequisites": [
+            "ph-quantum-information-science",
+            "ph-quantum-optics"
+          ],
+          "related": [],
+          "unlocks": [],
+          "order": 87,
+          "stage": 9,
+          "depth": 12,
+          "ancestorCount": 26,
+          "topics": [
+            {
+              "id": "ph-quantum-communication-networks-1",
+              "name": "No-cloning and its consequences",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-communication-networks-2",
+              "name": "BB84 and E91 quantum key distribution",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-communication-networks-3",
+              "name": "Security proofs and practical attacks",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-communication-networks-4",
+              "name": "Continuous-variable QKD",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-communication-networks-5",
+              "name": "Quantum teleportation and entanglement swapping",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-communication-networks-6",
+              "name": "Photon sources and single-photon detectors",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-communication-networks-7",
+              "name": "Fibre and free-space (satellite) links",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-communication-networks-8",
+              "name": "Quantum repeaters and quantum memories",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-communication-networks-9",
+              "name": "Entanglement distillation",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-communication-networks-10",
+              "name": "Quantum network architectures and the quantum internet",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-quantum-communication-networks-11",
+              "name": "Post-quantum vs quantum cryptography",
+              "priority": "advanced"
+            }
+          ]
+        },
+        {
+          "id": "ph-superconducting-quantum-circuits",
+          "name": "Superconducting Circuits & Circuit QED",
+          "category": "Quantum Physics",
+          "level": 4,
+          "priority": "advanced",
+          "summary": "How today's leading quantum processors are built: Josephson junctions, transmon qubits, microwave control and dispersive readout.",
+          "prerequisites": [
+            "ph-quantum-information-science",
+            "ph-solid-state-physics"
+          ],
+          "related": [
+            "el-quantum-technologies"
+          ],
+          "unlocks": [],
+          "order": 70,
+          "stage": 8,
+          "depth": 11,
+          "ancestorCount": 23,
+          "topics": [
+            {
+              "id": "ph-superconducting-quantum-circuits-1",
+              "name": "Superconductivity essentials for qubits (BCS, flux quantisation)",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-superconducting-quantum-circuits-2",
+              "name": "The Josephson junction and its nonlinearity",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-superconducting-quantum-circuits-3",
+              "name": "Quantising LC and nonlinear circuits",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-superconducting-quantum-circuits-4",
+              "name": "Charge, flux and transmon qubits",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-superconducting-quantum-circuits-5",
+              "name": "Circuit QED and the Jaynes-Cummings model",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-superconducting-quantum-circuits-6",
+              "name": "Dispersive readout and quantum-limited amplifiers",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-superconducting-quantum-circuits-7",
+              "name": "Single- and two-qubit gates with microwave pulses",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-superconducting-quantum-circuits-8",
+              "name": "Decoherence sources: T1, T2, TLS defects",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-superconducting-quantum-circuits-9",
+              "name": "Cryogenics and dilution refrigerators",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-superconducting-quantum-circuits-10",
+              "name": "Chip design, fabrication and packaging",
+              "priority": "advanced"
+            },
+            {
+              "id": "ph-superconducting-quantum-circuits-11",
+              "name": "Scaling: couplers, crosstalk and wiring",
+              "priority": "advanced"
+            }
+          ]
+        },
+        {
           "id": "ph-quantum-field-theory-qft",
           "name": "Quantum Field Theory (QFT)",
           "category": "Quantum Physics",
@@ -15927,10 +16244,10 @@
             "ma-quantum-field-theory"
           ],
           "unlocks": [
-            "ph-black-hole-physics",
+            "ph-quantum-gravity",
             "ph-string-theory"
           ],
-          "order": 67,
+          "order": 68,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 22,
@@ -16214,18 +16531,19 @@
           "summary": "Black holes as theoretical laboratories: thermodynamics, Hawking radiation and the information paradox.",
           "prerequisites": [
             "ph-general-relativity",
-            "ph-quantum-field-theory-qft"
+            "ph-thermodynamics-statistical-mechanics"
           ],
           "related": [
-            "ph-compact-objects"
+            "ph-compact-objects",
+            "ph-quantum-field-theory-qft"
           ],
           "unlocks": [
             "ph-quantum-gravity"
           ],
-          "order": 84,
-          "stage": 9,
-          "depth": 12,
-          "ancestorCount": 25,
+          "order": 54,
+          "stage": 7,
+          "depth": 10,
+          "ancestorCount": 23,
           "topics": [
             {
               "id": "ph-black-hole-physics-4",
@@ -16267,16 +16585,17 @@
           "priority": "advanced",
           "summary": "Research approaches to reconciling general relativity with quantum theory, including strings, loops and holography.",
           "prerequisites": [
-            "ph-black-hole-physics"
+            "ph-black-hole-physics",
+            "ph-quantum-field-theory-qft"
           ],
           "related": [
             "ph-string-theory"
           ],
           "unlocks": [],
-          "order": 98,
-          "stage": 10,
-          "depth": 13,
-          "ancestorCount": 26,
+          "order": 96,
+          "stage": 9,
+          "depth": 12,
+          "ancestorCount": 29,
           "topics": [
             {
               "id": "ph-quantum-gravity-1",
@@ -16326,7 +16645,7 @@
             "ma-mirror-symmetry"
           ],
           "unlocks": [],
-          "order": 93,
+          "order": 97,
           "stage": 9,
           "depth": 12,
           "ancestorCount": 25,
@@ -16499,7 +16818,7 @@
           "summary": "Group theory and representations as the language of symmetry in quantum mechanics, particles and crystals.",
           "prerequisites": [
             "ph-quantum-mechanics",
-            "ma-group-theory"
+            "ma-representation-theory"
           ],
           "related": [
             "ma-symmetries-groups-in-physics",
@@ -16511,7 +16830,7 @@
           "order": 32,
           "stage": 7,
           "depth": 10,
-          "ancestorCount": 21,
+          "ancestorCount": 22,
           "topics": [
             {
               "id": "ph-symmetry-group-theory-7",
@@ -16676,7 +16995,7 @@
             "ma-asymptotic-methods"
           ],
           "unlocks": [],
-          "order": 68,
+          "order": 71,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 28,
@@ -16908,7 +17227,7 @@
             "ph-nanophotonics-plasmonics",
             "ph-ultrafast-physics"
           ],
-          "order": 55,
+          "order": 56,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 22,
@@ -16972,8 +17291,10 @@
             "ph-advanced-quantum-mechanics"
           ],
           "related": [],
-          "unlocks": [],
-          "order": 69,
+          "unlocks": [
+            "ph-quantum-communication-networks"
+          ],
+          "order": 72,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 24,
@@ -17038,7 +17359,7 @@
             "mt-metamaterials"
           ],
           "unlocks": [],
-          "order": 85,
+          "order": 88,
           "stage": 9,
           "depth": 12,
           "ancestorCount": 27,
@@ -17090,7 +17411,7 @@
             "ch-ultrafast-nonlinear-spectroscopy"
           ],
           "unlocks": [],
-          "order": 86,
+          "order": 89,
           "stage": 9,
           "depth": 12,
           "ancestorCount": 24,
@@ -17230,7 +17551,7 @@
           "unlocks": [
             "ph-chemical-physics-physical-chemistry"
           ],
-          "order": 56,
+          "order": 57,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 19,
@@ -17315,7 +17636,7 @@
             "ph-cold-atom-physics",
             "ph-quantum-sensing-metrology"
           ],
-          "order": 70,
+          "order": 73,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 23,
@@ -17390,7 +17711,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 87,
+          "order": 90,
           "stage": 9,
           "depth": 12,
           "ancestorCount": 27,
@@ -17443,7 +17764,7 @@
             "el-quantum-technologies"
           ],
           "unlocks": [],
-          "order": 88,
+          "order": 91,
           "stage": 9,
           "depth": 12,
           "ancestorCount": 25,
@@ -17698,13 +18019,15 @@
             "ch-solid-state-chemistry"
           ],
           "unlocks": [
+            "ph-superconducting-quantum-circuits",
             "ph-nanophotonics-plasmonics",
             "ph-materials-physics",
             "ph-spintronics",
             "ph-quantum-many-body-theory",
             "ph-topological-phases-of-matter",
             "ph-engineering-physics",
-            "ph-nanoscience-nanotechnology"
+            "ph-nanoscience-nanotechnology",
+            "el-quantum-technologies"
           ],
           "order": 29,
           "stage": 7,
@@ -17910,7 +18233,7 @@
             "el-electrical-materials"
           ],
           "unlocks": [],
-          "order": 58,
+          "order": 59,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 22,
@@ -18058,7 +18381,7 @@
             "mt-magnetic-materials"
           ],
           "unlocks": [],
-          "order": 71,
+          "order": 74,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 22,
@@ -18107,7 +18430,7 @@
           "unlocks": [
             "ph-quantum-materials"
           ],
-          "order": 72,
+          "order": 75,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 24,
@@ -18184,7 +18507,7 @@
             "ph-quantum-materials"
           ],
           "unlocks": [],
-          "order": 73,
+          "order": 76,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 24,
@@ -18242,7 +18565,7 @@
             "mt-2d-materials"
           ],
           "unlocks": [],
-          "order": 94,
+          "order": 98,
           "stage": 9,
           "depth": 12,
           "ancestorCount": 25,
@@ -18384,7 +18707,7 @@
             "ph-energy-physics"
           ],
           "unlocks": [],
-          "order": 74,
+          "order": 77,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 25,
@@ -19084,7 +19407,7 @@
             "ai-ai-for-science"
           ],
           "unlocks": [],
-          "order": 59,
+          "order": 60,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 27,
@@ -19161,7 +19484,7 @@
             "el-software-defined-radio-sdr"
           ],
           "unlocks": [],
-          "order": 75,
+          "order": 78,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 29,
@@ -19335,7 +19658,7 @@
             "ph-compact-objects",
             "ph-neutrino-astronomy"
           ],
-          "order": 57,
+          "order": 58,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 24,
@@ -19448,7 +19771,7 @@
           "unlocks": [
             "ph-space-physics"
           ],
-          "order": 80,
+          "order": 83,
           "stage": 9,
           "depth": 12,
           "ancestorCount": 26,
@@ -19531,7 +19854,7 @@
             "ea-geomagnetism-and-paleomagnetism"
           ],
           "unlocks": [],
-          "order": 95,
+          "order": 99,
           "stage": 10,
           "depth": 13,
           "ancestorCount": 27,
@@ -19615,7 +19938,7 @@
           "unlocks": [
             "ph-interstellar-medium-star-formation"
           ],
-          "order": 54,
+          "order": 55,
           "stage": 7,
           "depth": 10,
           "ancestorCount": 20,
@@ -19687,7 +20010,7 @@
             "ch-astrochemistry"
           ],
           "unlocks": [],
-          "order": 89,
+          "order": 92,
           "stage": 9,
           "depth": 12,
           "ancestorCount": 28,
@@ -19776,7 +20099,9 @@
             "ae-orbital-perturbations",
             "ae-three-body-problem"
           ],
-          "unlocks": [],
+          "unlocks": [
+            "ph-exoplanets"
+          ],
           "order": 19,
           "stage": 5,
           "depth": 8,
@@ -19956,7 +20281,8 @@
           "summary": "Planets around other stars: how they are found, what they are like, and where habitable worlds might be.",
           "prerequisites": [
             "ph-planetary-science",
-            "ph-observational-astronomy-telescopes"
+            "ph-observational-astronomy-telescopes",
+            "ph-celestial-mechanics"
           ],
           "related": [
             "ea-planetary-atmospheres-and-climates",
@@ -19965,10 +20291,10 @@
           "unlocks": [
             "ph-astrobiology"
           ],
-          "order": 60,
+          "order": 61,
           "stage": 8,
           "depth": 11,
-          "ancestorCount": 28,
+          "ancestorCount": 29,
           "topics": [
             {
               "id": "ph-exoplanets-1",
@@ -20043,10 +20369,10 @@
             "ea-astrobiology-and-planetary-habitability"
           ],
           "unlocks": [],
-          "order": 82,
+          "order": 85,
           "stage": 9,
           "depth": 12,
-          "ancestorCount": 32,
+          "ancestorCount": 33,
           "topics": [
             {
               "id": "ph-astrobiology-1",
@@ -20119,7 +20445,7 @@
           "unlocks": [
             "ph-galaxy-formation-evolution"
           ],
-          "order": 81,
+          "order": 84,
           "stage": 9,
           "depth": 12,
           "ancestorCount": 25,
@@ -20314,7 +20640,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 96,
+          "order": 100,
           "stage": 10,
           "depth": 13,
           "ancestorCount": 30,
@@ -20388,7 +20714,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 76,
+          "order": 79,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 26,
@@ -20473,7 +20799,7 @@
           "unlocks": [
             "ph-gravitational-wave-astronomy"
           ],
-          "order": 90,
+          "order": 93,
           "stage": 9,
           "depth": 12,
           "ancestorCount": 28,
@@ -20565,7 +20891,7 @@
           "unlocks": [
             "ph-neutrino-astronomy"
           ],
-          "order": 77,
+          "order": 80,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 29,
@@ -20634,7 +20960,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 97,
+          "order": 101,
           "stage": 10,
           "depth": 13,
           "ancestorCount": 29,
@@ -20699,7 +21025,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 91,
+          "order": 94,
           "stage": 9,
           "depth": 12,
           "ancestorCount": 33,
@@ -21110,7 +21436,7 @@
           "unlocks": [
             "ph-high-energy-experimental-physics"
           ],
-          "order": 61,
+          "order": 62,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 24,
@@ -21205,7 +21531,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 92,
+          "order": 95,
           "stage": 9,
           "depth": 12,
           "ancestorCount": 27,
@@ -21337,7 +21663,7 @@
             "el-control-theory"
           ],
           "unlocks": [],
-          "order": 62,
+          "order": 63,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 23,
@@ -21408,7 +21734,7 @@
             "bi-neurotechnology-methods"
           ],
           "unlocks": [],
-          "order": 63,
+          "order": 64,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 21,
@@ -21615,7 +21941,7 @@
             "bi-protein-structure-function"
           ],
           "unlocks": [],
-          "order": 64,
+          "order": 65,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 24,
@@ -21688,7 +22014,7 @@
             "ch-molecular-reaction-dynamics"
           ],
           "unlocks": [],
-          "order": 83,
+          "order": 86,
           "stage": 9,
           "depth": 12,
           "ancestorCount": 29,
@@ -21748,7 +22074,7 @@
             "me-micro-nano-mechanics"
           ],
           "unlocks": [],
-          "order": 65,
+          "order": 66,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 22,
@@ -21809,7 +22135,7 @@
             "ma-financial-mathematics"
           ],
           "unlocks": [],
-          "order": 78,
+          "order": 81,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 21,
@@ -21850,7 +22176,7 @@
             "ma-network-science"
           ],
           "unlocks": [],
-          "order": 79,
+          "order": 82,
           "stage": 8,
           "depth": 11,
           "ancestorCount": 21,
@@ -26315,7 +26641,9 @@
           "related": [
             "bi-metabolism"
           ],
-          "unlocks": [],
+          "unlocks": [
+            "ch-prebiotic-systems-chemistry"
+          ],
           "order": 82,
           "stage": 14,
           "depth": 15,
@@ -28978,6 +29306,78 @@
           ]
         },
         {
+          "id": "ch-prebiotic-systems-chemistry",
+          "name": "Prebiotic & Systems Chemistry",
+          "category": "Earth & Space Chemistry",
+          "level": 4,
+          "priority": "advanced",
+          "summary": "The chemistry that could have turned simple molecules into the first living systems, and the networks of reactions that behave like life.",
+          "prerequisites": [
+            "ch-metabolism-bioenergetics"
+          ],
+          "related": [
+            "bi-origin-of-life",
+            "ch-astrochemistry"
+          ],
+          "unlocks": [],
+          "order": 101,
+          "stage": 15,
+          "depth": 16,
+          "ancestorCount": 19,
+          "topics": [
+            {
+              "id": "ch-prebiotic-systems-chemistry-1",
+              "name": "Early Earth environments and feedstock molecules",
+              "priority": "advanced"
+            },
+            {
+              "id": "ch-prebiotic-systems-chemistry-2",
+              "name": "Miller-Urey and its successors",
+              "priority": "advanced"
+            },
+            {
+              "id": "ch-prebiotic-systems-chemistry-3",
+              "name": "Formose reaction and sugar synthesis",
+              "priority": "advanced"
+            },
+            {
+              "id": "ch-prebiotic-systems-chemistry-4",
+              "name": "Nucleotide synthesis and the RNA world",
+              "priority": "advanced"
+            },
+            {
+              "id": "ch-prebiotic-systems-chemistry-5",
+              "name": "Amino acids, peptides and homochirality",
+              "priority": "advanced"
+            },
+            {
+              "id": "ch-prebiotic-systems-chemistry-6",
+              "name": "Mineral surfaces and hydrothermal settings",
+              "priority": "advanced"
+            },
+            {
+              "id": "ch-prebiotic-systems-chemistry-7",
+              "name": "Protocells, vesicles and compartmentalisation",
+              "priority": "advanced"
+            },
+            {
+              "id": "ch-prebiotic-systems-chemistry-8",
+              "name": "Autocatalysis and self-replicating systems",
+              "priority": "advanced"
+            },
+            {
+              "id": "ch-prebiotic-systems-chemistry-9",
+              "name": "Chemical reaction networks and emergence",
+              "priority": "advanced"
+            },
+            {
+              "id": "ch-prebiotic-systems-chemistry-10",
+              "name": "Delivery of organics by meteorites and comets",
+              "priority": "advanced"
+            }
+          ]
+        },
+        {
           "id": "ch-nuclear-radiochemistry",
           "name": "Nuclear & Radiochemistry",
           "category": "Nuclear & Radiochemistry",
@@ -29831,7 +30231,7 @@
             "ph-quantum-materials"
           ],
           "unlocks": [],
-          "order": 101,
+          "order": 102,
           "stage": 15,
           "depth": 16,
           "ancestorCount": 37,
@@ -32827,7 +33227,8 @@
             "bi-extremophiles",
             "bi-gravitational-space-biology",
             "bi-bioregenerative-life-support",
-            "ea-geobiology"
+            "ea-geobiology",
+            "ae-planetary-protection"
           ],
           "order": 14,
           "stage": 7,
@@ -37217,7 +37618,8 @@
           "related": [
             "ea-historical-geology",
             "ea-geobiology",
-            "ch-astrochemistry"
+            "ch-astrochemistry",
+            "ch-prebiotic-systems-chemistry"
           ],
           "unlocks": [
             "bi-astrobiology"
@@ -37302,7 +37704,8 @@
             "ph-astrobiology",
             "ph-exoplanets",
             "ea-comparative-planetology",
-            "ae-planetary-exploration-systems"
+            "ae-planetary-exploration-systems",
+            "ae-planetary-protection"
           ],
           "unlocks": [
             "bi-biosignatures-life-detection"
@@ -39166,7 +39569,7 @@
           "order": 62,
           "stage": 9,
           "depth": 10,
-          "ancestorCount": 22,
+          "ancestorCount": 19,
           "topics": [
             {
               "id": "ea-geodynamics-1",
@@ -39312,7 +39715,7 @@
           "order": 56,
           "stage": 9,
           "depth": 10,
-          "ancestorCount": 22,
+          "ancestorCount": 19,
           "topics": [
             {
               "id": "ea-seismology-1",
@@ -41358,7 +41761,7 @@
           "order": 80,
           "stage": 11,
           "depth": 12,
-          "ancestorCount": 39,
+          "ancestorCount": 37,
           "topics": [
             {
               "id": "ea-numerical-weather-prediction-1",
@@ -41717,7 +42120,7 @@
           "order": 81,
           "stage": 11,
           "depth": 12,
-          "ancestorCount": 35,
+          "ancestorCount": 33,
           "topics": [
             {
               "id": "ea-climate-modeling-1",
@@ -41921,7 +42324,7 @@
           "order": 68,
           "stage": 10,
           "depth": 11,
-          "ancestorCount": 24,
+          "ancestorCount": 21,
           "topics": [
             {
               "id": "ea-earthquake-geology-and-seismic-hazard-1",
@@ -43285,7 +43688,7 @@
           "order": 83,
           "stage": 11,
           "depth": 12,
-          "ancestorCount": 30,
+          "ancestorCount": 28,
           "topics": [
             {
               "id": "ea-computational-geoscience-1",
@@ -51942,8 +52345,8 @@
           "priority": "important",
           "summary": "How conductors, dielectrics, magnetic materials, semiconductors and superconductors behave, and how to choose them in electrical design.",
           "prerequisites": [
-            "ph-classical-electromagnetism",
-            "mt-atomic-bonding"
+            "mt-atomic-bonding",
+            "ph-introductory-electricity-magnetism"
           ],
           "related": [
             "ph-materials-physics",
@@ -51956,10 +52359,10 @@
             "el-semiconductor-physics",
             "el-high-voltage-engineering"
           ],
-          "order": 154,
-          "stage": 9,
-          "depth": 9,
-          "ancestorCount": 16,
+          "order": 95,
+          "stage": 8,
+          "depth": 8,
+          "ancestorCount": 11,
           "topics": [
             {
               "id": "el-electrical-materials-1",
@@ -52043,7 +52446,7 @@
             "el-magnetic-circuits-transformers",
             "el-electromagnetic-compatibility-emcemi"
           ],
-          "order": 152,
+          "order": 153,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 14,
@@ -52146,7 +52549,7 @@
             "el-optical-fiber-communications",
             "el-photonics-silicon-photonics"
           ],
-          "order": 213,
+          "order": 214,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 15,
@@ -52230,7 +52633,7 @@
             "el-high-speed-digital-design",
             "el-high-speed-design"
           ],
-          "order": 214,
+          "order": 215,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 18,
@@ -52312,7 +52715,7 @@
             "el-radar-systems",
             "el-wireless-communications"
           ],
-          "order": 268,
+          "order": 270,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 16,
@@ -52395,7 +52798,7 @@
           "unlocks": [
             "el-rf-ic-design"
           ],
-          "order": 269,
+          "order": 271,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 23,
@@ -52477,7 +52880,7 @@
           "unlocks": [
             "el-defense-electronics"
           ],
-          "order": 319,
+          "order": 329,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 22,
@@ -52544,10 +52947,10 @@
             "ph-computational-physics"
           ],
           "unlocks": [],
-          "order": 320,
+          "order": 330,
           "stage": 12,
           "depth": 12,
-          "ancestorCount": 31,
+          "ancestorCount": 29,
           "topics": [
             {
               "id": "el-computational-electromagnetics-1",
@@ -52610,10 +53013,10 @@
             "el-semiconductor-devices",
             "el-cmos-technology"
           ],
-          "order": 210,
-          "stage": 10,
-          "depth": 10,
-          "ancestorCount": 17,
+          "order": 154,
+          "stage": 9,
+          "depth": 9,
+          "ancestorCount": 12,
           "topics": [
             {
               "id": "el-semiconductor-physics-5",
@@ -52810,13 +53213,12 @@
             "el-environmental-challenges",
             "el-flexible-printed-electronics",
             "el-advanced-materials",
-            "el-nanoelectronics",
-            "el-quantum-technologies"
+            "el-nanoelectronics"
           ],
-          "order": 265,
-          "stage": 11,
-          "depth": 11,
-          "ancestorCount": 18,
+          "order": 216,
+          "stage": 10,
+          "depth": 10,
+          "ancestorCount": 13,
           "topics": [
             {
               "id": "el-semiconductor-devices-1",
@@ -52887,10 +53289,10 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 302,
-          "stage": 12,
-          "depth": 12,
-          "ancestorCount": 19,
+          "order": 272,
+          "stage": 11,
+          "depth": 11,
+          "ancestorCount": 14,
           "topics": [
             {
               "id": "el-power-devices-1",
@@ -52955,10 +53357,10 @@
             "el-semiconductor-fabrication",
             "el-ic-packaging"
           ],
-          "order": 270,
-          "stage": 11,
-          "depth": 11,
-          "ancestorCount": 18,
+          "order": 218,
+          "stage": 10,
+          "depth": 10,
+          "ancestorCount": 13,
           "topics": [
             {
               "id": "el-cmos-technology-1",
@@ -53009,10 +53411,10 @@
           "unlocks": [
             "el-mems-sensor-technologies"
           ],
-          "order": 308,
-          "stage": 12,
-          "depth": 12,
-          "ancestorCount": 19,
+          "order": 281,
+          "stage": 11,
+          "depth": 11,
+          "ancestorCount": 14,
           "topics": [
             {
               "id": "el-mems-devices-1",
@@ -53061,10 +53463,10 @@
             "ph-nanoscience-nanotechnology"
           ],
           "unlocks": [],
-          "order": 321,
-          "stage": 12,
-          "depth": 12,
-          "ancestorCount": 20,
+          "order": 289,
+          "stage": 11,
+          "depth": 11,
+          "ancestorCount": 15,
           "topics": [
             {
               "id": "el-semiconductor-fabrication-1",
@@ -53147,10 +53549,10 @@
             "mt-semiconductor-materials"
           ],
           "unlocks": [],
-          "order": 322,
-          "stage": 12,
-          "depth": 12,
-          "ancestorCount": 19,
+          "order": 290,
+          "stage": 11,
+          "depth": 11,
+          "ancestorCount": 14,
           "topics": [
             {
               "id": "el-ic-packaging-1",
@@ -53524,7 +53926,7 @@
           "unlocks": [
             "el-sensor-interfacing"
           ],
-          "order": 95,
+          "order": 96,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 9,
@@ -53577,7 +53979,7 @@
             "el-oscillators-timing",
             "el-analog-ic-design"
           ],
-          "order": 104,
+          "order": 105,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 13,
@@ -53652,7 +54054,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 110,
+          "order": 111,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 12,
@@ -53712,7 +54114,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 111,
+          "order": 112,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 11,
@@ -53761,7 +54163,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 161,
+          "order": 162,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 14,
@@ -53816,7 +54218,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 112,
+          "order": 113,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 13,
@@ -53876,7 +54278,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 157,
+          "order": 158,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 12,
@@ -54070,7 +54472,7 @@
           "unlocks": [
             "el-digital-vlsi-design"
           ],
-          "order": 96,
+          "order": 97,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 12,
@@ -54302,7 +54704,7 @@
             "el-signal-integrity-testing",
             "el-high-speed-interfaces"
           ],
-          "order": 271,
+          "order": 273,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 22,
@@ -54578,7 +54980,7 @@
             "el-power-quality"
           ],
           "unlocks": [],
-          "order": 113,
+          "order": 114,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 10,
@@ -54637,7 +55039,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 139,
+          "order": 140,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 10,
@@ -54677,7 +55079,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 114,
+          "order": 115,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 16,
@@ -54742,7 +55144,7 @@
             "el-reliability-fault-tolerance",
             "el-safety-standards"
           ],
-          "order": 115,
+          "order": 116,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 13,
@@ -54852,7 +55254,7 @@
           "unlocks": [
             "el-certification-regulatory-strategy"
           ],
-          "order": 272,
+          "order": 274,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 20,
@@ -54907,7 +55309,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 323,
+          "order": 331,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 25,
@@ -55133,7 +55535,7 @@
             "el-biomedical-signal-processing",
             "ai-speech-audio-processing"
           ],
-          "order": 158,
+          "order": 159,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 11,
@@ -55211,7 +55613,7 @@
             "ma-bayesian-statistics"
           ],
           "unlocks": [],
-          "order": 249,
+          "order": 252,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 18,
@@ -55287,7 +55689,7 @@
             "el-software-defined-radio-sdr",
             "el-aircraft-communication"
           ],
-          "order": 105,
+          "order": 106,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 14,
@@ -55364,7 +55766,7 @@
             "el-optical-fiber-communications",
             "el-defense-electronics"
           ],
-          "order": 159,
+          "order": 160,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 16,
@@ -55449,7 +55851,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 235,
+          "order": 238,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 17,
@@ -55497,7 +55899,7 @@
             "ma-algebraic-coding-theory"
           ],
           "unlocks": [],
-          "order": 248,
+          "order": 251,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 17,
@@ -55579,7 +55981,7 @@
           "unlocks": [
             "el-advanced-connectivity"
           ],
-          "order": 316,
+          "order": 326,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 25,
@@ -55662,7 +56064,7 @@
             "ph-modern-optics"
           ],
           "unlocks": [],
-          "order": 284,
+          "order": 291,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 27,
@@ -55747,7 +56149,7 @@
             "el-avionics-systems",
             "el-spacecraft-electronics"
           ],
-          "order": 106,
+          "order": 107,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 10,
@@ -55837,7 +56239,7 @@
           "unlocks": [
             "el-advanced-control-systems"
           ],
-          "order": 162,
+          "order": 163,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 12,
@@ -55915,7 +56317,7 @@
             "ma-control-theory"
           ],
           "unlocks": [],
-          "order": 250,
+          "order": 253,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 13,
@@ -56115,7 +56517,7 @@
             "el-path-planning-navigation",
             "el-robot-operating-system-ros"
           ],
-          "order": 163,
+          "order": 164,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 12,
@@ -56167,7 +56569,7 @@
             "ai-control-systems"
           ],
           "unlocks": [],
-          "order": 216,
+          "order": 219,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 18,
@@ -56221,7 +56623,7 @@
             "el-simultaneous-localization-and-mapping-slam",
             "el-autonomous-driving"
           ],
-          "order": 217,
+          "order": 220,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 21,
@@ -56276,7 +56678,7 @@
             "el-autonomous-navigation-systems",
             "el-autonomous-driving"
           ],
-          "order": 218,
+          "order": 221,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 19,
@@ -56330,7 +56732,7 @@
             "ai-robot-software-ros"
           ],
           "unlocks": [],
-          "order": 219,
+          "order": 222,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 18,
@@ -56389,7 +56791,7 @@
           "unlocks": [
             "el-autonomous-navigation-systems"
           ],
-          "order": 285,
+          "order": 292,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 22,
@@ -56437,7 +56839,7 @@
             "ai-mobile-robotics"
           ],
           "unlocks": [],
-          "order": 324,
+          "order": 332,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 35,
@@ -56484,7 +56886,7 @@
           "unlocks": [
             "el-power-distribution-management"
           ],
-          "order": 97,
+          "order": 98,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 12,
@@ -56548,7 +56950,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 155,
+          "order": 156,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 13,
@@ -56604,7 +57006,7 @@
           "unlocks": [
             "el-thermal-design"
           ],
-          "order": 98,
+          "order": 99,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 11,
@@ -56721,7 +57123,7 @@
             "el-dc-ac-conversion-inverters",
             "el-power-quality"
           ],
-          "order": 107,
+          "order": 108,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 13,
@@ -56814,7 +57216,7 @@
             "el-charging-circuits",
             "el-energy-harvesting"
           ],
-          "order": 164,
+          "order": 165,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 14,
@@ -56871,7 +57273,7 @@
           "unlocks": [
             "el-power-factor-correction-pfc"
           ],
-          "order": 220,
+          "order": 223,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 17,
@@ -56927,7 +57329,7 @@
           "unlocks": [
             "el-power-factor-correction-pfc"
           ],
-          "order": 165,
+          "order": 166,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 14,
@@ -56987,7 +57389,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 286,
+          "order": 293,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 19,
@@ -57031,7 +57433,7 @@
             "el-renewable-grid-integration",
             "el-electric-vehicle-ev-systems"
           ],
-          "order": 166,
+          "order": 167,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 14,
@@ -57098,7 +57500,7 @@
           "unlocks": [
             "el-hvdc-facts"
           ],
-          "order": 251,
+          "order": 254,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 17,
@@ -57225,7 +57627,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 221,
+          "order": 224,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 16,
@@ -57283,7 +57685,7 @@
           "unlocks": [
             "el-energy-innovations"
           ],
-          "order": 236,
+          "order": 239,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 15,
@@ -57336,7 +57738,7 @@
             "el-electrical-machines",
             "el-power-system-fundamentals"
           ],
-          "order": 211,
+          "order": 212,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 18,
@@ -57412,7 +57814,7 @@
           "unlocks": [
             "el-product-safety"
           ],
-          "order": 99,
+          "order": 100,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 10,
@@ -57490,7 +57892,7 @@
             "el-electric-drives",
             "el-power-generation"
           ],
-          "order": 266,
+          "order": 268,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 19,
@@ -57564,7 +57966,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 325,
+          "order": 333,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 20,
@@ -57637,7 +58039,7 @@
             "el-electric-vehicle-ev-systems"
           ],
           "unlocks": [],
-          "order": 317,
+          "order": 327,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 25,
@@ -57713,7 +58115,7 @@
             "el-smart-grid-energy",
             "el-high-voltage-engineering"
           ],
-          "order": 267,
+          "order": 269,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 19,
@@ -57787,10 +58189,10 @@
             "me-renewable-energy-systems"
           ],
           "unlocks": [],
-          "order": 303,
+          "order": 314,
           "stage": 12,
           "depth": 12,
-          "ancestorCount": 23,
+          "ancestorCount": 22,
           "topics": [
             {
               "id": "el-power-generation-1",
@@ -57856,7 +58258,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 304,
+          "order": 315,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 20,
@@ -57932,7 +58334,7 @@
             "el-hvdc-facts",
             "el-power-system-operation"
           ],
-          "order": 300,
+          "order": 312,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 25,
@@ -57998,7 +58400,7 @@
           "unlocks": [
             "el-power-system-protection"
           ],
-          "order": 301,
+          "order": 313,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 20,
@@ -58057,7 +58459,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 340,
+          "order": 346,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 21,
@@ -58141,7 +58543,7 @@
           "unlocks": [
             "el-renewable-grid-integration"
           ],
-          "order": 341,
+          "order": 347,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 28,
@@ -58208,7 +58610,7 @@
             "el-power-analysis"
           ],
           "unlocks": [],
-          "order": 309,
+          "order": 318,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 24,
@@ -58268,7 +58670,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 343,
+          "order": 348,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 34,
@@ -58332,7 +58734,7 @@
             "el-smart-grid-energy"
           ],
           "unlocks": [],
-          "order": 351,
+          "order": 354,
           "stage": 14,
           "depth": 14,
           "ancestorCount": 34,
@@ -58404,7 +58806,7 @@
             "el-renewable-grid-integration"
           ],
           "unlocks": [],
-          "order": 305,
+          "order": 316,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 32,
@@ -58461,7 +58863,7 @@
             "ma-operations-research"
           ],
           "unlocks": [],
-          "order": 344,
+          "order": 349,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 26,
@@ -58531,7 +58933,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 326,
+          "order": 334,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 24,
@@ -58776,7 +59178,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 100,
+          "order": 101,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 15,
@@ -59042,7 +59444,7 @@
             "el-embedded-linux",
             "el-secure-boot-root-of-trust"
           ],
-          "order": 116,
+          "order": 117,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 16,
@@ -59102,7 +59504,7 @@
             "el-implantable-devices",
             "el-wearable-technology-deep-dive"
           ],
-          "order": 117,
+          "order": 118,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 15,
@@ -59153,7 +59555,7 @@
             "el-low-power-design"
           ],
           "unlocks": [],
-          "order": 167,
+          "order": 168,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 16,
@@ -59342,7 +59744,7 @@
             "el-testing-strategies",
             "el-static-analysis-linters"
           ],
-          "order": 118,
+          "order": 119,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 16,
@@ -59398,7 +59800,7 @@
             "cs-systems-programming"
           ],
           "unlocks": [],
-          "order": 168,
+          "order": 169,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 17,
@@ -59458,7 +59860,7 @@
             "el-device-drivers",
             "el-real-time-concepts"
           ],
-          "order": 108,
+          "order": 109,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 18,
@@ -59523,7 +59925,7 @@
             "el-error-handling-diagnostics",
             "el-reliability-fault-tolerance"
           ],
-          "order": 119,
+          "order": 120,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 15,
@@ -59582,7 +59984,7 @@
           "unlocks": [
             "el-board-support-packages-bsp"
           ],
-          "order": 169,
+          "order": 170,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 20,
@@ -59637,7 +60039,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 237,
+          "order": 240,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 23,
@@ -59683,7 +60085,7 @@
             "el-configuration-management"
           ],
           "unlocks": [],
-          "order": 191,
+          "order": 192,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 16,
@@ -59737,7 +60139,7 @@
           "unlocks": [
             "el-over-the-air-ota-update-strategies"
           ],
-          "order": 170,
+          "order": 171,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 18,
@@ -59794,7 +60196,7 @@
             "el-firmware-updates-ota"
           ],
           "unlocks": [],
-          "order": 287,
+          "order": 294,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 26,
@@ -59848,7 +60250,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 205,
+          "order": 206,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 16,
@@ -59896,7 +60298,7 @@
             "el-deterministic-networking",
             "ae-flight-software"
           ],
-          "order": 160,
+          "order": 161,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 19,
@@ -59954,7 +60356,7 @@
           "unlocks": [
             "el-rtos-services"
           ],
-          "order": 215,
+          "order": 217,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 20,
@@ -60010,7 +60412,7 @@
           "unlocks": [
             "el-real-time-operating-systems-rtos"
           ],
-          "order": 273,
+          "order": 275,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 21,
@@ -60061,7 +60463,7 @@
             "cs-operating-systems"
           ],
           "unlocks": [],
-          "order": 306,
+          "order": 317,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 22,
@@ -60132,7 +60534,7 @@
             "el-linux-system-services",
             "el-boot-time-optimization"
           ],
-          "order": 171,
+          "order": 172,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 20,
@@ -60200,7 +60602,7 @@
           "unlocks": [
             "el-containers-virtualization"
           ],
-          "order": 222,
+          "order": 225,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 21,
@@ -60249,7 +60651,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 252,
+          "order": 255,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 21,
@@ -60300,7 +60702,7 @@
             "cs-virtualization-containers"
           ],
           "unlocks": [],
-          "order": 288,
+          "order": 295,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 22,
@@ -60500,7 +60902,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 149,
+          "order": 150,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 7,
@@ -60548,7 +60950,7 @@
             "el-soft-processors-ip-cores",
             "el-high-level-synthesis-hls"
           ],
-          "order": 109,
+          "order": 110,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 8,
@@ -60605,7 +61007,7 @@
           "unlocks": [
             "el-advanced-fpga-techniques"
           ],
-          "order": 172,
+          "order": 173,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 19,
@@ -60659,7 +61061,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 209,
+          "order": 210,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 9,
@@ -60703,7 +61105,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 253,
+          "order": 256,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 20,
@@ -60756,10 +61158,10 @@
             "el-asic-physical-design",
             "el-neuromorphic-computing"
           ],
-          "order": 307,
-          "stage": 12,
-          "depth": 12,
-          "ancestorCount": 26,
+          "order": 276,
+          "stage": 11,
+          "depth": 11,
+          "ancestorCount": 22,
           "topics": [
             {
               "id": "el-digital-vlsi-design-1",
@@ -60919,10 +61321,10 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 342,
-          "stage": 13,
-          "depth": 13,
-          "ancestorCount": 29,
+          "order": 328,
+          "stage": 12,
+          "depth": 12,
+          "ancestorCount": 25,
           "topics": [
             {
               "id": "el-asic-physical-design-1",
@@ -61010,8 +61412,10 @@
           "related": [
             "cs-advanced-computer-architecture"
           ],
-          "unlocks": [],
-          "order": 151,
+          "unlocks": [
+            "el-hardware-software-codesign"
+          ],
+          "order": 152,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 17,
@@ -61049,6 +61453,80 @@
           ]
         },
         {
+          "id": "el-hardware-software-codesign",
+          "name": "Hardware/Software Co-Design",
+          "category": "FPGA, ASIC & VLSI Design",
+          "level": 4,
+          "priority": "advanced",
+          "summary": "Deciding what runs in software and what becomes hardware, then designing both together for performance, power and cost.",
+          "prerequisites": [
+            "el-system-on-chip-soc"
+          ],
+          "related": [],
+          "unlocks": [],
+          "order": 211,
+          "stage": 9,
+          "depth": 9,
+          "ancestorCount": 18,
+          "topics": [
+            {
+              "id": "el-hardware-software-codesign-1",
+              "name": "Co-design motivation and design-space exploration",
+              "priority": "advanced"
+            },
+            {
+              "id": "el-hardware-software-codesign-2",
+              "name": "System modelling and executable specifications",
+              "priority": "advanced"
+            },
+            {
+              "id": "el-hardware-software-codesign-3",
+              "name": "Profiling and hotspot analysis",
+              "priority": "advanced"
+            },
+            {
+              "id": "el-hardware-software-codesign-4",
+              "name": "Hardware/software partitioning",
+              "priority": "advanced"
+            },
+            {
+              "id": "el-hardware-software-codesign-5",
+              "name": "Accelerators and custom instructions",
+              "priority": "advanced"
+            },
+            {
+              "id": "el-hardware-software-codesign-6",
+              "name": "Interfaces: buses, DMA, memory-mapped I/O",
+              "priority": "advanced"
+            },
+            {
+              "id": "el-hardware-software-codesign-7",
+              "name": "High-level synthesis in co-design flows",
+              "priority": "advanced"
+            },
+            {
+              "id": "el-hardware-software-codesign-8",
+              "name": "Virtual prototypes and co-simulation",
+              "priority": "advanced"
+            },
+            {
+              "id": "el-hardware-software-codesign-9",
+              "name": "Driver and firmware for custom hardware",
+              "priority": "advanced"
+            },
+            {
+              "id": "el-hardware-software-codesign-10",
+              "name": "Performance, power and area trade-offs",
+              "priority": "advanced"
+            },
+            {
+              "id": "el-hardware-software-codesign-11",
+              "name": "Case studies: DSP, crypto and ML accelerators",
+              "priority": "advanced"
+            }
+          ]
+        },
+        {
           "id": "el-analog-ic-design",
           "name": "Analog Integrated Circuit Design",
           "category": "FPGA, ASIC & VLSI Design",
@@ -61063,10 +61541,10 @@
           "unlocks": [
             "el-rf-ic-design"
           ],
-          "order": 318,
-          "stage": 12,
-          "depth": 12,
-          "ancestorCount": 27,
+          "order": 288,
+          "stage": 11,
+          "depth": 11,
+          "ancestorCount": 23,
           "topics": [
             {
               "id": "el-analog-ic-design-1",
@@ -61148,9 +61626,9 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 345,
-          "stage": 13,
-          "depth": 13,
+          "order": 335,
+          "stage": 12,
+          "depth": 12,
           "ancestorCount": 33,
           "topics": [
             {
@@ -61639,7 +62117,7 @@
             "el-biosensors-medical-sensors",
             "el-chemical-sensors"
           ],
-          "order": 153,
+          "order": 155,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 21,
@@ -61693,7 +62171,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 212,
+          "order": 213,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 22,
@@ -61814,7 +62292,7 @@
             "el-wearable-technology-deep-dive",
             "el-bio-integrated-electronics"
           ],
-          "order": 238,
+          "order": 241,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 32,
@@ -61887,7 +62365,7 @@
             "ch-bioanalytical-chemistry-sensors"
           ],
           "unlocks": [],
-          "order": 239,
+          "order": 242,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 29,
@@ -61933,10 +62411,10 @@
             "el-mems-devices"
           ],
           "unlocks": [],
-          "order": 339,
-          "stage": 13,
-          "depth": 13,
-          "ancestorCount": 20,
+          "order": 319,
+          "stage": 12,
+          "depth": 12,
+          "ancestorCount": 15,
           "topics": [
             {
               "id": "el-mems-sensor-technologies-1",
@@ -61988,7 +62466,7 @@
             "el-underwater-systems",
             "el-advanced-sensing"
           ],
-          "order": 173,
+          "order": 174,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 20,
@@ -62117,7 +62595,7 @@
             "ai-actuators-sensors"
           ],
           "unlocks": [],
-          "order": 120,
+          "order": 121,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 24,
@@ -62418,7 +62896,7 @@
           "unlocks": [
             "el-design-for-x-dfx"
           ],
-          "order": 121,
+          "order": 122,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 7,
@@ -62469,7 +62947,7 @@
             "el-design-for-x-dfx"
           ],
           "unlocks": [],
-          "order": 122,
+          "order": 123,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 7,
@@ -62570,7 +63048,7 @@
             "el-high-speed-digital-design"
           ],
           "unlocks": [],
-          "order": 274,
+          "order": 277,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 22,
@@ -62620,7 +63098,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 123,
+          "order": 124,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 13,
@@ -62682,7 +63160,7 @@
           "unlocks": [
             "el-regulatory-compliance-testing"
           ],
-          "order": 223,
+          "order": 226,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 19,
@@ -62736,7 +63214,7 @@
             "el-thermal-management"
           ],
           "unlocks": [],
-          "order": 275,
+          "order": 278,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 26,
@@ -62785,7 +63263,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 140,
+          "order": 141,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 7,
@@ -63008,7 +63486,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 103,
+          "order": 104,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 15,
@@ -63052,7 +63530,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 141,
+          "order": 142,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 15,
@@ -63096,7 +63574,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 124,
+          "order": 125,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 15,
@@ -63145,7 +63623,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 310,
+          "order": 320,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 23,
@@ -63281,7 +63759,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 142,
+          "order": 143,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 16,
@@ -63335,7 +63813,7 @@
             "el-vehicle-electronics-architecture",
             "el-in-vehicle-networking"
           ],
-          "order": 125,
+          "order": 126,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 15,
@@ -63467,7 +63945,7 @@
             "el-opc-ua-opc-unified-architecture",
             "el-mining-heavy-industry"
           ],
-          "order": 126,
+          "order": 127,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 17,
@@ -63548,7 +64026,7 @@
             "el-industrial-protocols"
           ],
           "unlocks": [],
-          "order": 192,
+          "order": 193,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 18,
@@ -63601,7 +64079,7 @@
           "unlocks": [
             "el-safety-protocols"
           ],
-          "order": 193,
+          "order": 194,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 18,
@@ -63655,7 +64133,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 194,
+          "order": 195,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 18,
@@ -63702,7 +64180,7 @@
           "unlocks": [
             "el-time-sensitive-networking-tsn"
           ],
-          "order": 254,
+          "order": 257,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 22,
@@ -63748,7 +64226,7 @@
             "cs-advanced-networking"
           ],
           "unlocks": [],
-          "order": 289,
+          "order": 296,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 23,
@@ -63793,7 +64271,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 255,
+          "order": 258,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 31,
@@ -63929,7 +64407,7 @@
             "el-precision-agriculture",
             "el-environmental-climate-monitoring"
           ],
-          "order": 127,
+          "order": 128,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 15,
@@ -63992,7 +64470,7 @@
           "unlocks": [
             "el-infotainment-telematics"
           ],
-          "order": 128,
+          "order": 129,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 15,
@@ -64056,7 +64534,7 @@
           "unlocks": [
             "el-space-satellite-systems"
           ],
-          "order": 143,
+          "order": 144,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 15,
@@ -64096,7 +64574,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 144,
+          "order": 145,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 16,
@@ -64151,7 +64629,7 @@
             "el-iot-middleware",
             "el-iot-data-models"
           ],
-          "order": 129,
+          "order": 130,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 16,
@@ -64281,7 +64759,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 145,
+          "order": 146,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 15,
@@ -64325,7 +64803,7 @@
             "el-fog-computing",
             "el-edge-intelligence"
           ],
-          "order": 130,
+          "order": 131,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 15,
@@ -64374,7 +64852,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 195,
+          "order": 196,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 16,
@@ -64418,7 +64896,7 @@
             "el-iot-cloud-platforms",
             "el-data-management"
           ],
-          "order": 131,
+          "order": 132,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 15,
@@ -64484,7 +64962,7 @@
             "el-digital-twins",
             "el-smart-cities"
           ],
-          "order": 174,
+          "order": 175,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 19,
@@ -64568,7 +65046,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 196,
+          "order": 197,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 17,
@@ -64610,7 +65088,7 @@
             "el-over-the-air-ota-update-strategies",
             "el-observability-telemetry"
           ],
-          "order": 224,
+          "order": 227,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 20,
@@ -64669,7 +65147,7 @@
             "el-field-diagnostics-remote-troubleshooting",
             "el-product-analytics-telemetry"
           ],
-          "order": 278,
+          "order": 282,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 21,
@@ -64723,7 +65201,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 311,
+          "order": 321,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 22,
@@ -64776,7 +65254,7 @@
           "unlocks": [
             "el-extended-reality-integration"
           ],
-          "order": 256,
+          "order": 259,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 20,
@@ -64828,7 +65306,7 @@
             "el-api-architectures",
             "el-iot-data-models"
           ],
-          "order": 101,
+          "order": 102,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 15,
@@ -64892,7 +65370,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 156,
+          "order": 157,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 16,
@@ -64938,7 +65416,7 @@
             "ma-information-theory"
           ],
           "unlocks": [],
-          "order": 197,
+          "order": 198,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 16,
@@ -64977,7 +65455,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 198,
+          "order": 199,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 16,
@@ -65024,7 +65502,7 @@
             "cs-backend-development"
           ],
           "unlocks": [],
-          "order": 175,
+          "order": 176,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 17,
@@ -65076,7 +65554,7 @@
           "unlocks": [
             "el-data-exchange-standards"
           ],
-          "order": 199,
+          "order": 200,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 19,
@@ -65125,7 +65603,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 257,
+          "order": 260,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 20,
@@ -65171,7 +65649,7 @@
           "unlocks": [
             "el-analytics-visualization"
           ],
-          "order": 176,
+          "order": 177,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 19,
@@ -65223,7 +65701,7 @@
             "cs-information-visualization"
           ],
           "unlocks": [],
-          "order": 225,
+          "order": 228,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 20,
@@ -65390,7 +65868,7 @@
           "unlocks": [
             "el-physical-security"
           ],
-          "order": 177,
+          "order": 178,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 20,
@@ -65511,7 +65989,7 @@
             "cs-network-security"
           ],
           "unlocks": [],
-          "order": 132,
+          "order": 133,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 20,
@@ -65571,7 +66049,7 @@
           "unlocks": [
             "el-threat-mitigation"
           ],
-          "order": 178,
+          "order": 179,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 25,
@@ -65635,7 +66113,7 @@
           "unlocks": [
             "el-threat-mitigation"
           ],
-          "order": 133,
+          "order": 134,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 20,
@@ -65695,7 +66173,7 @@
           "unlocks": [
             "el-cybersecurity-standards"
           ],
-          "order": 226,
+          "order": 229,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 28,
@@ -65744,7 +66222,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 240,
+          "order": 243,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 21,
@@ -65841,7 +66319,7 @@
             "el-compliance-regulations",
             "el-medical-data-security"
           ],
-          "order": 134,
+          "order": 135,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 15,
@@ -65898,7 +66376,7 @@
             "cs-security-governance-privacy"
           ],
           "unlocks": [],
-          "order": 179,
+          "order": 180,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 16,
@@ -66185,7 +66663,7 @@
           "unlocks": [
             "el-multi-device-multi-platform-development"
           ],
-          "order": 135,
+          "order": 136,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 9,
@@ -66246,7 +66724,7 @@
             "cs-command-line-shell"
           ],
           "unlocks": [],
-          "order": 146,
+          "order": 147,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 9,
@@ -66293,7 +66771,7 @@
             "cs-devops-cicd"
           ],
           "unlocks": [],
-          "order": 147,
+          "order": 148,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 9,
@@ -66335,7 +66813,7 @@
             "cs-mobile-development"
           ],
           "unlocks": [],
-          "order": 200,
+          "order": 201,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 19,
@@ -66391,7 +66869,7 @@
             "el-continuous-integration-continuous-deployment-cicd",
             "el-testing-validation"
           ],
-          "order": 180,
+          "order": 181,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 17,
@@ -66453,7 +66931,7 @@
             "cs-software-testing"
           ],
           "unlocks": [],
-          "order": 227,
+          "order": 230,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 18,
@@ -66510,7 +66988,7 @@
             "cs-program-analysis-verification"
           ],
           "unlocks": [],
-          "order": 181,
+          "order": 182,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 17,
@@ -66570,7 +67048,7 @@
           "unlocks": [
             "el-agile-devops-for-embedded"
           ],
-          "order": 228,
+          "order": 231,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 20,
@@ -66622,7 +67100,7 @@
             "cs-devops-cicd"
           ],
           "unlocks": [],
-          "order": 282,
+          "order": 286,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 21,
@@ -66726,7 +67204,7 @@
             "cs-site-reliability-engineering"
           ],
           "unlocks": [],
-          "order": 102,
+          "order": 103,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 15,
@@ -66781,7 +67259,7 @@
             "el-trace-profiling",
             "el-remote-debugging"
           ],
-          "order": 136,
+          "order": 137,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 16,
@@ -66842,7 +67320,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 137,
+          "order": 138,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 17,
@@ -66900,7 +67378,7 @@
           "unlocks": [
             "el-performance-analysis"
           ],
-          "order": 201,
+          "order": 202,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 17,
@@ -66951,7 +67429,7 @@
             "cs-performance-engineering"
           ],
           "unlocks": [],
-          "order": 241,
+          "order": 244,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 18,
@@ -67000,7 +67478,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 202,
+          "order": 203,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 17,
@@ -67040,7 +67518,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 182,
+          "order": 183,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 17,
@@ -67099,7 +67577,7 @@
             "el-hardware-accelerators",
             "el-reinforcement-learning"
           ],
-          "order": 183,
+          "order": 184,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 27,
@@ -67221,7 +67699,7 @@
             "el-ml-applications-on-embedded",
             "el-deep-learning-on-edge"
           ],
-          "order": 229,
+          "order": 232,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 28,
@@ -67287,7 +67765,7 @@
             "ai-data-preprocessing-feature-engineering"
           ],
           "unlocks": [],
-          "order": 230,
+          "order": 233,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 28,
@@ -67341,7 +67819,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 276,
+          "order": 279,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 29,
@@ -67405,7 +67883,7 @@
             "el-deep-learning-on-edge",
             "el-edge-ai-for-vision"
           ],
-          "order": 258,
+          "order": 261,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 28,
@@ -67455,7 +67933,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 290,
+          "order": 297,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 30,
@@ -67509,7 +67987,7 @@
             "cs-gpu-programming"
           ],
           "unlocks": [],
-          "order": 259,
+          "order": 262,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 29,
@@ -67565,7 +68043,7 @@
             "el-federated-learning",
             "el-edge-intelligence"
           ],
-          "order": 291,
+          "order": 298,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 30,
@@ -67611,7 +68089,7 @@
             "ai-privacy-in-ai"
           ],
           "unlocks": [],
-          "order": 327,
+          "order": 336,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 31,
@@ -67653,7 +68131,7 @@
             "ai-deep-reinforcement-learning"
           ],
           "unlocks": [],
-          "order": 260,
+          "order": 263,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 31,
@@ -67696,7 +68174,7 @@
           "unlocks": [
             "el-image-processing"
           ],
-          "order": 138,
+          "order": 139,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 9,
@@ -67756,7 +68234,7 @@
             "el-computer-vision-libraries",
             "el-feature-detection-matching"
           ],
-          "order": 184,
+          "order": 185,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 18,
@@ -67805,7 +68283,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 231,
+          "order": 234,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 19,
@@ -67865,7 +68343,7 @@
             "el-object-detection-recognition",
             "el-stereo-vision-depth"
           ],
-          "order": 232,
+          "order": 235,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 19,
@@ -67924,7 +68402,7 @@
           "unlocks": [
             "el-edge-ai-for-vision"
           ],
-          "order": 292,
+          "order": 299,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 31,
@@ -67977,7 +68455,7 @@
           "unlocks": [
             "el-3d-vision"
           ],
-          "order": 293,
+          "order": 300,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 20,
@@ -68023,7 +68501,7 @@
             "ai-3d-computer-vision"
           ],
           "unlocks": [],
-          "order": 328,
+          "order": 337,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 21,
@@ -68066,7 +68544,7 @@
             "el-deep-learning-on-edge"
           ],
           "unlocks": [],
-          "order": 329,
+          "order": 338,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 41,
@@ -68111,7 +68589,7 @@
             "el-infotainment-telematics",
             "el-automotive-standards"
           ],
-          "order": 185,
+          "order": 186,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 16,
@@ -68172,7 +68650,7 @@
             "el-automotive-protocols"
           ],
           "unlocks": [],
-          "order": 186,
+          "order": 187,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 16,
@@ -68225,7 +68703,7 @@
             "me-automotive-engineering"
           ],
           "unlocks": [],
-          "order": 242,
+          "order": 245,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 25,
@@ -68284,7 +68762,7 @@
           "unlocks": [
             "el-advanced-driver-assistance-systems-adas"
           ],
-          "order": 243,
+          "order": 246,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 25,
@@ -68344,7 +68822,7 @@
             "me-energy-storage-power-integration"
           ],
           "unlocks": [],
-          "order": 233,
+          "order": 236,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 31,
@@ -68399,7 +68877,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 244,
+          "order": 247,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 19,
@@ -68461,7 +68939,7 @@
           "unlocks": [
             "el-testing-validation"
           ],
-          "order": 234,
+          "order": 237,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 29,
@@ -68515,7 +68993,7 @@
           "unlocks": [
             "el-autonomous-driving"
           ],
-          "order": 294,
+          "order": 301,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 33,
@@ -68583,7 +69061,7 @@
             "ai-autonomous-driving"
           ],
           "unlocks": [],
-          "order": 330,
+          "order": 339,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 46,
@@ -68643,7 +69121,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 295,
+          "order": 302,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 34,
@@ -68701,10 +69179,9 @@
           "unlocks": [
             "el-aircraft-communication",
             "el-avionics-buses-protocols",
-            "el-safety-certification",
-            "ae-avionics-systems-integration"
+            "el-safety-certification"
           ],
-          "order": 203,
+          "order": 204,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 20,
@@ -68774,7 +69251,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 245,
+          "order": 248,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 26,
@@ -68822,7 +69299,7 @@
             "ae-command-data-handling"
           ],
           "unlocks": [],
-          "order": 246,
+          "order": 249,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 29,
@@ -68871,7 +69348,7 @@
           "unlocks": [
             "el-environmental-challenges"
           ],
-          "order": 187,
+          "order": 188,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 26,
@@ -68933,7 +69410,7 @@
             "ae-airworthiness-certification"
           ],
           "unlocks": [],
-          "order": 261,
+          "order": 264,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 29,
@@ -68983,10 +69460,10 @@
           "unlocks": [
             "el-spacecraft-electronics"
           ],
-          "order": 331,
-          "stage": 12,
-          "depth": 12,
-          "ancestorCount": 38,
+          "order": 303,
+          "stage": 11,
+          "depth": 11,
+          "ancestorCount": 36,
           "topics": [
             {
               "id": "el-environmental-challenges-1",
@@ -69041,10 +69518,10 @@
           "unlocks": [
             "el-space-satellite-systems"
           ],
-          "order": 346,
-          "stage": 13,
-          "depth": 13,
-          "ancestorCount": 47,
+          "order": 340,
+          "stage": 12,
+          "depth": 12,
+          "ancestorCount": 45,
           "topics": [
             {
               "id": "el-spacecraft-electronics-1",
@@ -69096,7 +69573,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 347,
+          "order": 350,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 27,
@@ -69218,7 +69695,7 @@
           "unlocks": [
             "el-diagnostic-equipment"
           ],
-          "order": 279,
+          "order": 283,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 37,
@@ -69265,7 +69742,7 @@
             "el-home-healthcare-devices",
             "el-telemedicine-digital-health"
           ],
-          "order": 280,
+          "order": 284,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 33,
@@ -69319,7 +69796,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 283,
+          "order": 287,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 33,
@@ -69373,7 +69850,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 312,
+          "order": 322,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 34,
@@ -69422,7 +69899,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 313,
+          "order": 323,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 34,
@@ -69477,7 +69954,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 204,
+          "order": 205,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 18,
@@ -69523,7 +70000,7 @@
             "ph-medical-physics"
           ],
           "unlocks": [],
-          "order": 332,
+          "order": 341,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 38,
@@ -69590,7 +70067,7 @@
           "unlocks": [
             "el-implantable-devices"
           ],
-          "order": 296,
+          "order": 304,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 35,
@@ -69652,7 +70129,7 @@
             "mt-biomaterials"
           ],
           "unlocks": [],
-          "order": 333,
+          "order": 342,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 38,
@@ -69709,7 +70186,7 @@
             "ai-wearable-robotics-exoskeletons"
           ],
           "unlocks": [],
-          "order": 281,
+          "order": 285,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 35,
@@ -69814,7 +70291,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 150,
+          "order": 151,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 15,
@@ -69864,7 +70341,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 247,
+          "order": 250,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 22,
@@ -69924,7 +70401,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 206,
+          "order": 207,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 17,
@@ -69984,7 +70461,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 207,
+          "order": 208,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 17,
@@ -70038,7 +70515,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 208,
+          "order": 209,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 18,
@@ -70088,7 +70565,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 263,
+          "order": 266,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 22,
@@ -70142,10 +70619,10 @@
             "el-spacecraft-electronics"
           ],
           "unlocks": [],
-          "order": 352,
-          "stage": 14,
-          "depth": 14,
-          "ancestorCount": 50,
+          "order": 351,
+          "stage": 13,
+          "depth": 13,
+          "ancestorCount": 48,
           "topics": [
             {
               "id": "el-space-satellite-systems-1",
@@ -70195,10 +70672,10 @@
           "unlocks": [
             "el-bio-integrated-electronics"
           ],
-          "order": 334,
-          "stage": 12,
-          "depth": 12,
-          "ancestorCount": 19,
+          "order": 305,
+          "stage": 11,
+          "depth": 11,
+          "ancestorCount": 14,
           "topics": [
             {
               "id": "el-flexible-printed-electronics-1",
@@ -70253,7 +70730,7 @@
             "ph-modern-optics"
           ],
           "unlocks": [],
-          "order": 297,
+          "order": 306,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 20,
@@ -70297,7 +70774,7 @@
             "mt-fuel-cell-hydrogen"
           ],
           "unlocks": [],
-          "order": 298,
+          "order": 307,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 17,
@@ -70349,7 +70826,7 @@
             "ai-wearable-ai-assistants-ar"
           ],
           "unlocks": [],
-          "order": 299,
+          "order": 308,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 21,
@@ -70446,10 +70923,10 @@
             "mt-metamaterials"
           ],
           "unlocks": [],
-          "order": 335,
-          "stage": 12,
-          "depth": 12,
-          "ancestorCount": 19,
+          "order": 309,
+          "stage": 11,
+          "depth": 11,
+          "ancestorCount": 14,
           "topics": [
             {
               "id": "el-advanced-materials-1",
@@ -70500,10 +70977,10 @@
             "mt-2d-materials"
           ],
           "unlocks": [],
-          "order": 336,
-          "stage": 12,
-          "depth": 12,
-          "ancestorCount": 26,
+          "order": 310,
+          "stage": 11,
+          "depth": 11,
+          "ancestorCount": 24,
           "topics": [
             {
               "id": "el-nanoelectronics-1",
@@ -70570,10 +71047,10 @@
             "ai-hardware-for-ai"
           ],
           "unlocks": [],
-          "order": 348,
-          "stage": 13,
-          "depth": 13,
-          "ancestorCount": 36,
+          "order": 343,
+          "stage": 12,
+          "depth": 12,
+          "ancestorCount": 34,
           "topics": [
             {
               "id": "el-neuromorphic-computing-1",
@@ -70615,8 +71092,7 @@
           "priority": "advanced",
           "summary": "The electrical engineering of quantum technology: qubit hardware and control electronics, quantum sensing, QKD, QRNGs and post-quantum crypto.",
           "prerequisites": [
-            "ph-quantum-mechanics",
-            "el-semiconductor-devices"
+            "ph-solid-state-physics"
           ],
           "related": [
             "ph-quantum-information-science",
@@ -70625,10 +71101,10 @@
             "cs-quantum-computing"
           ],
           "unlocks": [],
-          "order": 337,
-          "stage": 12,
-          "depth": 12,
-          "ancestorCount": 26,
+          "order": 311,
+          "stage": 11,
+          "depth": 11,
+          "ancestorCount": 22,
           "topics": [
             {
               "id": "el-quantum-technologies-1",
@@ -70685,7 +71161,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 264,
+          "order": 267,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 23,
@@ -70734,7 +71210,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 349,
+          "order": 352,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 26,
@@ -70786,7 +71262,7 @@
             "ai-edge-ai-embedded-ml"
           ],
           "unlocks": [],
-          "order": 338,
+          "order": 344,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 33,
@@ -70835,10 +71311,10 @@
           "unlocks": [
             "el-bio-nano-things"
           ],
-          "order": 350,
-          "stage": 13,
-          "depth": 13,
-          "ancestorCount": 43,
+          "order": 345,
+          "stage": 12,
+          "depth": 12,
+          "ancestorCount": 39,
           "topics": [
             {
               "id": "el-bio-integrated-electronics-1",
@@ -70885,9 +71361,9 @@
           "related": [],
           "unlocks": [],
           "order": 353,
-          "stage": 14,
-          "depth": 14,
-          "ancestorCount": 44,
+          "stage": 13,
+          "depth": 13,
+          "ancestorCount": 40,
           "topics": [
             {
               "id": "el-bio-nano-things-1",
@@ -71069,7 +71545,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 188,
+          "order": 189,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 12,
@@ -71135,7 +71611,7 @@
             "el-automotive-standards",
             "el-safety-certification"
           ],
-          "order": 189,
+          "order": 190,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 15,
@@ -71190,7 +71666,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 148,
+          "order": 149,
           "stage": 8,
           "depth": 8,
           "ancestorCount": 16,
@@ -71257,7 +71733,7 @@
             "cs-security-governance-privacy"
           ],
           "unlocks": [],
-          "order": 277,
+          "order": 280,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 29,
@@ -72069,7 +72545,7 @@
           "unlocks": [
             "el-manufacturing-scale-up"
           ],
-          "order": 190,
+          "order": 191,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 8,
@@ -72128,7 +72604,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 314,
+          "order": 324,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 21,
@@ -72216,7 +72692,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 262,
+          "order": 265,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 9,
@@ -72304,7 +72780,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 315,
+          "order": 325,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 22,
@@ -73778,7 +74254,7 @@
             "ma-causal-inference"
           ],
           "unlocks": [],
-          "order": 64,
+          "order": 63,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 17,
@@ -73964,7 +74440,7 @@
             "ma-bayesian-statistics"
           ],
           "unlocks": [],
-          "order": 70,
+          "order": 69,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 20,
@@ -74916,7 +75392,7 @@
             "ai-probabilistic-programming",
             "ai-generative-models"
           ],
-          "order": 56,
+          "order": 55,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 19,
@@ -74991,7 +75467,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 71,
+          "order": 70,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 23,
@@ -75083,6 +75559,7 @@
             "ai-word-representations",
             "ai-hardware-for-ai",
             "ai-interpretability-explainability-xai",
+            "ai-ai-safety",
             "ai-bio-inspired-ai",
             "ai-neuro-symbolic-ai"
           ],
@@ -75452,7 +75929,7 @@
             "ai-core-vision-tasks",
             "ai-robustness-security"
           ],
-          "order": 59,
+          "order": 58,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 18,
@@ -75672,7 +76149,7 @@
           "unlocks": [
             "ai-attention-transformers"
           ],
-          "order": 60,
+          "order": 59,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 18,
@@ -75743,7 +76220,7 @@
             "ai-large-language-models-llms",
             "ai-multimodal-fusion"
           ],
-          "order": 75,
+          "order": 74,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 19,
@@ -76111,7 +76588,7 @@
           "unlocks": [
             "ai-ai-for-science"
           ],
-          "order": 67,
+          "order": 66,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 21,
@@ -76288,7 +76765,7 @@
           "unlocks": [
             "ai-ai-for-science"
           ],
-          "order": 97,
+          "order": 98,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 20,
@@ -76668,8 +77145,7 @@
           "unlocks": [
             "el-reinforcement-learning",
             "ai-dynamic-programming",
-            "ai-multi-armed-bandits",
-            "ai-ai-safety"
+            "ai-multi-armed-bandits"
           ],
           "order": 32,
           "stage": 8,
@@ -76880,7 +77356,7 @@
           "unlocks": [
             "ai-model-free-methods"
           ],
-          "order": 61,
+          "order": 60,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 18,
@@ -76931,7 +77407,7 @@
           "unlocks": [
             "ai-deep-reinforcement-learning"
           ],
-          "order": 76,
+          "order": 75,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 19,
@@ -77117,7 +77593,7 @@
             "ai-recommender-systems"
           ],
           "unlocks": [],
-          "order": 57,
+          "order": 56,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 17,
@@ -77260,7 +77736,7 @@
           "unlocks": [
             "ai-world-models-simulation"
           ],
-          "order": 106,
+          "order": 107,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 24,
@@ -78134,7 +78610,7 @@
             "ai-prompt-engineering"
           ],
           "unlocks": [],
-          "order": 107,
+          "order": 108,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 25,
@@ -78204,7 +78680,7 @@
           "unlocks": [
             "ai-wearable-ai-assistants-ar"
           ],
-          "order": 101,
+          "order": 102,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 29,
@@ -78391,7 +78867,7 @@
             "ai-vision-language-models",
             "ai-robot-perception"
           ],
-          "order": 77,
+          "order": 76,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 20,
@@ -78601,7 +79077,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 98,
+          "order": 99,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 27,
@@ -78750,7 +79226,8 @@
             "ai-conversational-ai-voice-assistants",
             "ai-retrieval-augmented-generation",
             "ai-autonomous-agents",
-            "ai-llm-evaluation"
+            "ai-llm-evaluation",
+            "ai-llmops"
           ],
           "order": 10,
           "stage": 4,
@@ -79310,7 +79787,7 @@
           "unlocks": [
             "ai-llm-fine-tuning"
           ],
-          "order": 68,
+          "order": 67,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 23,
@@ -79383,6 +79860,79 @@
           ]
         },
         {
+          "id": "ai-llmops",
+          "name": "LLMOps: Running LLM Applications in Production",
+          "category": "Large Language Models & LLM Engineering",
+          "level": 4,
+          "priority": "important",
+          "summary": "Operating LLM-powered products reliably: serving, tracing, guardrails, cost control and continuous evaluation.",
+          "prerequisites": [
+            "ai-llm-application-engineering",
+            "ai-model-deployment"
+          ],
+          "related": [
+            "ai-monitoring-maintenance",
+            "ai-llm-evaluation"
+          ],
+          "unlocks": [],
+          "order": 95,
+          "stage": 12,
+          "depth": 12,
+          "ancestorCount": 25,
+          "topics": [
+            {
+              "id": "ai-llmops-1",
+              "name": "LLM serving options: APIs, self-hosting, gateways",
+              "priority": "important"
+            },
+            {
+              "id": "ai-llmops-2",
+              "name": "Prompt and model versioning",
+              "priority": "important"
+            },
+            {
+              "id": "ai-llmops-3",
+              "name": "Tracing and observability for chains and agents",
+              "priority": "important"
+            },
+            {
+              "id": "ai-llmops-4",
+              "name": "Online evaluation, feedback loops and regression testing",
+              "priority": "important"
+            },
+            {
+              "id": "ai-llmops-5",
+              "name": "Guardrails: input/output filtering, PII, jailbreak defence",
+              "priority": "important"
+            },
+            {
+              "id": "ai-llmops-6",
+              "name": "Latency optimisation: caching, streaming, batching",
+              "priority": "important"
+            },
+            {
+              "id": "ai-llmops-7",
+              "name": "Cost monitoring and token budgets",
+              "priority": "important"
+            },
+            {
+              "id": "ai-llmops-8",
+              "name": "Model routing and fallbacks",
+              "priority": "important"
+            },
+            {
+              "id": "ai-llmops-9",
+              "name": "Data governance and retention",
+              "priority": "important"
+            },
+            {
+              "id": "ai-llmops-10",
+              "name": "Incident response for AI features",
+              "priority": "important"
+            }
+          ]
+        },
+        {
           "id": "ai-llm-fine-tuning",
           "name": "LLM Fine-Tuning & Post-Training",
           "category": "Large Language Models & LLM Engineering",
@@ -79397,7 +79947,7 @@
             "ai-large-language-models-llms"
           ],
           "unlocks": [],
-          "order": 102,
+          "order": 103,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 30,
@@ -79481,7 +80031,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 111,
+          "order": 112,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 21,
@@ -79530,7 +80080,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 95,
+          "order": 96,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 20,
@@ -79592,7 +80142,7 @@
           "unlocks": [
             "ai-cross-modal-generation"
           ],
-          "order": 103,
+          "order": 104,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 24,
@@ -79667,7 +80217,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 108,
+          "order": 109,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 31,
@@ -79719,7 +80269,7 @@
           "unlocks": [
             "ai-generative-ai-frontiers"
           ],
-          "order": 114,
+          "order": 115,
           "stage": 14,
           "depth": 14,
           "ancestorCount": 31,
@@ -79772,7 +80322,7 @@
             "ai-business-analytics"
           ],
           "unlocks": [],
-          "order": 78,
+          "order": 77,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 22,
@@ -80352,7 +80902,7 @@
           "summary": "Applying data science to business questions: A/B testing and experimentation, causal inference, customer, marketing and product analytics, forecasting and recommendations.",
           "prerequisites": [
             "ai-exploratory-data-analysis-eda",
-            "ma-inferential-statistics"
+            "ma-experimental-design"
           ],
           "related": [
             "ai-causal-inference",
@@ -80360,10 +80910,10 @@
             "ai-recommender-systems"
           ],
           "unlocks": [],
-          "order": 55,
-          "stage": 9,
-          "depth": 9,
-          "ancestorCount": 17,
+          "order": 79,
+          "stage": 11,
+          "depth": 11,
+          "ancestorCount": 20,
           "topics": [
             {
               "id": "ai-business-analytics-1",
@@ -80605,7 +81155,7 @@
           "unlocks": [
             "ai-model-deployment"
           ],
-          "order": 65,
+          "order": 64,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 21,
@@ -80701,11 +81251,12 @@
             "ai-llm-application-engineering"
           ],
           "unlocks": [
+            "ai-llmops",
             "ai-monitoring-maintenance",
             "ai-feature-engineering-at-scale",
             "ai-cloud-ml-platforms"
           ],
-          "order": 79,
+          "order": 78,
           "stage": 11,
           "depth": 11,
           "ancestorCount": 22,
@@ -80877,7 +81428,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 99,
+          "order": 100,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 25,
@@ -81074,7 +81625,7 @@
             "cs-high-performance-computing"
           ],
           "unlocks": [],
-          "order": 72,
+          "order": 71,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 31,
@@ -81172,7 +81723,7 @@
           "unlocks": [
             "ai-edge-ai-embedded-ml"
           ],
-          "order": 69,
+          "order": 68,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 24,
@@ -81849,7 +82400,7 @@
             "ai-manipulation",
             "ai-wearable-robotics-exoskeletons"
           ],
-          "order": 62,
+          "order": 61,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 16,
@@ -82035,7 +82586,7 @@
             "ai-mobile-robotics",
             "ai-manipulation"
           ],
-          "order": 63,
+          "order": 62,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 22,
@@ -82516,7 +83067,7 @@
             "ai-autonomous-driving",
             "ai-swarm-multi-robot-systems"
           ],
-          "order": 100,
+          "order": 101,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 39,
@@ -82604,7 +83155,7 @@
             "el-advanced-driver-assistance-systems-adas"
           ],
           "unlocks": [],
-          "order": 115,
+          "order": 116,
           "stage": 14,
           "depth": 14,
           "ancestorCount": 41,
@@ -82694,7 +83245,7 @@
             "ae-uav-drone-engineering"
           ],
           "unlocks": [],
-          "order": 104,
+          "order": 105,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 36,
@@ -82871,7 +83422,7 @@
             "me-robot-mechanism-design"
           ],
           "unlocks": [],
-          "order": 116,
+          "order": 117,
           "stage": 14,
           "depth": 14,
           "ancestorCount": 42,
@@ -82954,7 +83505,7 @@
             "ai-wearable-robotics-exoskeletons"
           ],
           "unlocks": [],
-          "order": 109,
+          "order": 110,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 29,
@@ -83036,7 +83587,7 @@
             "ai-evolutionary-computation"
           ],
           "unlocks": [],
-          "order": 117,
+          "order": 118,
           "stage": 14,
           "depth": 14,
           "ancestorCount": 44,
@@ -83123,7 +83674,7 @@
             "ai-humanoid-robotics",
             "ai-robot-learning"
           ],
-          "order": 105,
+          "order": 106,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 40,
@@ -83214,7 +83765,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 113,
+          "order": 114,
           "stage": 14,
           "depth": 14,
           "ancestorCount": 48,
@@ -83386,7 +83937,7 @@
             "bi-musculoskeletal-modeling-human-augmentation"
           ],
           "unlocks": [],
-          "order": 96,
+          "order": 97,
           "stage": 12,
           "depth": 12,
           "ancestorCount": 34,
@@ -83480,7 +84031,7 @@
             "cs-virtual-augmented-reality"
           ],
           "unlocks": [],
-          "order": 118,
+          "order": 119,
           "stage": 14,
           "depth": 14,
           "ancestorCount": 34,
@@ -83632,7 +84183,7 @@
             "cs-computing-ethics"
           ],
           "unlocks": [],
-          "order": 66,
+          "order": 65,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 21,
@@ -83814,10 +84365,11 @@
           "priority": "important",
           "summary": "Making advanced AI systems do what we intend: alignment, reward hacking, specification gaming, distribution shift, oversight and corrigibility.",
           "prerequisites": [
-            "ai-rl-fundamentals"
+            "ai-neural-network-foundations"
           ],
           "related": [
-            "ai-llm-evaluation"
+            "ai-llm-evaluation",
+            "ai-rl-fundamentals"
           ],
           "unlocks": [],
           "order": 54,
@@ -84143,7 +84695,7 @@
             "bi-brain-computer-interfaces"
           ],
           "unlocks": [],
-          "order": 73,
+          "order": 72,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 26,
@@ -84296,7 +84848,7 @@
             "ai-cognitive-architectures"
           ],
           "unlocks": [],
-          "order": 112,
+          "order": 113,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 28,
@@ -84346,7 +84898,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 58,
+          "order": 57,
           "stage": 9,
           "depth": 9,
           "ancestorCount": 24,
@@ -84392,7 +84944,7 @@
             "ai-types-of-machine-learning"
           ],
           "unlocks": [],
-          "order": 74,
+          "order": 73,
           "stage": 10,
           "depth": 10,
           "ancestorCount": 18,
@@ -84453,7 +85005,7 @@
             "ch-automated-ai-driven-chemistry"
           ],
           "unlocks": [],
-          "order": 110,
+          "order": 111,
           "stage": 13,
           "depth": 13,
           "ancestorCount": 25,
@@ -84513,7 +85065,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 119,
+          "order": 120,
           "stage": 14,
           "depth": 14,
           "ancestorCount": 31,
@@ -84558,7 +85110,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 120,
+          "order": 121,
           "stage": 15,
           "depth": 15,
           "ancestorCount": 33,
@@ -84690,8 +85242,7 @@
             "me-engineering-computation",
             "me-professional-practice-engineering-economics",
             "me-statics",
-            "me-engineering-materials",
-            "me-engineering-thermodynamics"
+            "me-engineering-materials"
           ],
           "order": 2,
           "stage": 2,
@@ -86242,7 +86793,7 @@
           "order": 48,
           "stage": 9,
           "depth": 10,
-          "ancestorCount": 23,
+          "ancestorCount": 20,
           "topics": [
             {
               "id": "me-continuum-mechanics-elasticity-plasticity-1",
@@ -86396,7 +86947,6 @@
           "priority": "core",
           "summary": "Energy, heat and work in engineering systems: properties of substances, the first and second laws, entropy and exergy.",
           "prerequisites": [
-            "me-introduction-to-engineering-mechanical-design",
             "ma-calculus",
             "ph-introductory-heat-thermodynamics"
           ],
@@ -86414,7 +86964,7 @@
           "order": 16,
           "stage": 7,
           "depth": 8,
-          "ancestorCount": 10,
+          "ancestorCount": 9,
           "topics": [
             {
               "id": "me-engineering-thermodynamics-1",
@@ -86523,7 +87073,7 @@
           "order": 19,
           "stage": 8,
           "depth": 9,
-          "ancestorCount": 12,
+          "ancestorCount": 11,
           "topics": [
             {
               "id": "me-applied-thermodynamics-1",
@@ -86709,7 +87259,7 @@
           "order": 40,
           "stage": 9,
           "depth": 10,
-          "ancestorCount": 23,
+          "ancestorCount": 20,
           "topics": [
             {
               "id": "me-advanced-fluid-mechanics-1",
@@ -87516,7 +88066,7 @@
           "order": 62,
           "stage": 10,
           "depth": 11,
-          "ancestorCount": 26,
+          "ancestorCount": 23,
           "topics": [
             {
               "id": "me-advanced-vibrations-rotordynamics-1",
@@ -89019,7 +89569,7 @@
           "order": 68,
           "stage": 11,
           "depth": 12,
-          "ancestorCount": 34,
+          "ancestorCount": 32,
           "topics": [
             {
               "id": "me-computational-fluid-dynamics-1",
@@ -90304,7 +90854,7 @@
           "order": 57,
           "stage": 10,
           "depth": 11,
-          "ancestorCount": 26,
+          "ancestorCount": 23,
           "topics": [
             {
               "id": "me-turbomachinery-1",
@@ -90392,7 +90942,7 @@
           "order": 67,
           "stage": 11,
           "depth": 12,
-          "ancestorCount": 28,
+          "ancestorCount": 25,
           "topics": [
             {
               "id": "me-power-plants-energy-conversion-1",
@@ -90978,7 +91528,7 @@
           "order": 75,
           "stage": 13,
           "depth": 14,
-          "ancestorCount": 46,
+          "ancestorCount": 43,
           "topics": [
             {
               "id": "me-soft-robotics-mechanics-1",
@@ -91046,7 +91596,7 @@
           "order": 66,
           "stage": 10,
           "depth": 11,
-          "ancestorCount": 31,
+          "ancestorCount": 28,
           "topics": [
             {
               "id": "me-mechanical-metamaterials-1",
@@ -97962,7 +98512,7 @@
           "order": 63,
           "stage": 11,
           "depth": 12,
-          "ancestorCount": 35,
+          "ancestorCount": 33,
           "topics": [
             {
               "id": "mt-phase-field-mesoscale-1",
@@ -99077,7 +99627,7 @@
           "order": 20,
           "stage": 7,
           "depth": 9,
-          "ancestorCount": 12,
+          "ancestorCount": 11,
           "topics": [
             {
               "id": "ae-aerospace-thermodynamics-1",
@@ -99561,7 +100111,7 @@
             "ae-aeroelasticity",
             "ae-propellers-piston-electric-propulsion"
           ],
-          "order": 47,
+          "order": 46,
           "stage": 9,
           "depth": 11,
           "ancestorCount": 20,
@@ -99666,7 +100216,7 @@
             "ae-rocket-nozzles-thrust-vector-control",
             "ae-atmospheric-entry"
           ],
-          "order": 48,
+          "order": 47,
           "stage": 9,
           "depth": 11,
           "ancestorCount": 22,
@@ -99767,7 +100317,7 @@
             "ae-computational-fluid-dynamics",
             "ae-hypersonic-aerothermodynamics"
           ],
-          "order": 65,
+          "order": 66,
           "stage": 10,
           "depth": 12,
           "ancestorCount": 21,
@@ -99849,7 +100399,7 @@
           "unlocks": [
             "ae-unsteady-aerodynamics-aeroacoustics"
           ],
-          "order": 82,
+          "order": 83,
           "stage": 11,
           "depth": 13,
           "ancestorCount": 25,
@@ -99924,7 +100474,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 68,
+          "order": 69,
           "stage": 10,
           "depth": 12,
           "ancestorCount": 28,
@@ -100005,10 +100555,10 @@
             "cs-high-performance-computing"
           ],
           "unlocks": [],
-          "order": 85,
+          "order": 86,
           "stage": 11,
           "depth": 13,
-          "ancestorCount": 41,
+          "ancestorCount": 39,
           "topics": [
             {
               "id": "ae-computational-fluid-dynamics-1",
@@ -100093,7 +100643,7 @@
           "unlocks": [
             "ae-thermal-protection-systems"
           ],
-          "order": 88,
+          "order": 89,
           "stage": 11,
           "depth": 13,
           "ancestorCount": 27,
@@ -100179,7 +100729,7 @@
             "me-acoustics-noise-control"
           ],
           "unlocks": [],
-          "order": 97,
+          "order": 98,
           "stage": 12,
           "depth": 14,
           "ancestorCount": 26,
@@ -100262,7 +100812,7 @@
             "ae-uav-drone-engineering",
             "ae-air-transportation-traffic-management"
           ],
-          "order": 64,
+          "order": 65,
           "stage": 10,
           "depth": 12,
           "ancestorCount": 21,
@@ -100344,7 +100894,7 @@
             "ae-flight-dynamics",
             "ae-aircraft-design"
           ],
-          "order": 80,
+          "order": 81,
           "stage": 11,
           "depth": 13,
           "ancestorCount": 22,
@@ -100427,10 +100977,11 @@
           ],
           "unlocks": [
             "ae-flight-control-systems",
+            "ae-personal-flight-systems",
             "ae-rotorcraft-engineering",
             "ae-flight-testing"
           ],
-          "order": 91,
+          "order": 92,
           "stage": 12,
           "depth": 14,
           "ancestorCount": 27,
@@ -100508,7 +101059,7 @@
             "el-state-space-digital-control"
           ],
           "unlocks": [],
-          "order": 101,
+          "order": 102,
           "stage": 13,
           "depth": 15,
           "ancestorCount": 29,
@@ -100593,7 +101144,7 @@
             "ae-airworthiness-certification",
             "ae-multidisciplinary-design-optimization"
           ],
-          "order": 92,
+          "order": 93,
           "stage": 12,
           "depth": 14,
           "ancestorCount": 29,
@@ -100686,8 +101237,10 @@
             "el-autonomous-navigation-systems",
             "ai-aerial-robotics-drones"
           ],
-          "unlocks": [],
-          "order": 83,
+          "unlocks": [
+            "ae-personal-flight-systems"
+          ],
+          "order": 84,
           "stage": 11,
           "depth": 13,
           "ancestorCount": 25,
@@ -100760,6 +101313,75 @@
           ]
         },
         {
+          "id": "ae-personal-flight-systems",
+          "name": "Personal Flight Systems: Jet Suits & Human-Carrying VTOL",
+          "category": "Air Vehicle Design",
+          "level": 4,
+          "priority": "optional",
+          "summary": "The engineering of jet suits, jetpacks and personal VTOL: thrust-to-weight, fuel fraction, stability with a human in the loop, and safety.",
+          "prerequisites": [
+            "ae-uav-drone-engineering",
+            "ae-gas-turbine-engines",
+            "ae-flight-dynamics"
+          ],
+          "related": [
+            "ai-wearable-robotics-exoskeletons",
+            "ae-rocketry-basics"
+          ],
+          "unlocks": [],
+          "order": 110,
+          "stage": 13,
+          "depth": 15,
+          "ancestorCount": 34,
+          "topics": [
+            {
+              "id": "ae-personal-flight-systems-1",
+              "name": "History: rocket belts, jetpacks and jet suits",
+              "priority": "optional"
+            },
+            {
+              "id": "ae-personal-flight-systems-2",
+              "name": "Thrust-to-weight and hover power requirements",
+              "priority": "optional"
+            },
+            {
+              "id": "ae-personal-flight-systems-3",
+              "name": "Fuel mass fraction and endurance limits",
+              "priority": "optional"
+            },
+            {
+              "id": "ae-personal-flight-systems-4",
+              "name": "Micro gas turbines and electric ducted fans",
+              "priority": "optional"
+            },
+            {
+              "id": "ae-personal-flight-systems-5",
+              "name": "Thrust vectoring and body-in-the-loop control",
+              "priority": "optional"
+            },
+            {
+              "id": "ae-personal-flight-systems-6",
+              "name": "Stability augmentation and fly-by-wire for individuals",
+              "priority": "optional"
+            },
+            {
+              "id": "ae-personal-flight-systems-7",
+              "name": "Heat, noise and exhaust hazards to the pilot",
+              "priority": "optional"
+            },
+            {
+              "id": "ae-personal-flight-systems-8",
+              "name": "Failure modes, redundancy and safe landing",
+              "priority": "optional"
+            },
+            {
+              "id": "ae-personal-flight-systems-9",
+              "name": "Regulation and certification of personal aircraft",
+              "priority": "optional"
+            }
+          ]
+        },
+        {
           "id": "ae-air-transportation-traffic-management",
           "name": "Air Transportation and Air Traffic Management",
           "category": "Air Vehicle Design",
@@ -100773,7 +101395,7 @@
             "el-aircraft-communication"
           ],
           "unlocks": [],
-          "order": 84,
+          "order": 85,
           "stage": 11,
           "depth": 13,
           "ancestorCount": 22,
@@ -100842,7 +101464,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 106,
+          "order": 107,
           "stage": 13,
           "depth": 15,
           "ancestorCount": 28,
@@ -100919,7 +101541,7 @@
             "me-energy-storage-power-integration"
           ],
           "unlocks": [],
-          "order": 107,
+          "order": 108,
           "stage": 13,
           "depth": 15,
           "ancestorCount": 31,
@@ -101182,7 +101804,7 @@
             "ae-spacecraft-structures-mechanisms",
             "ae-spacecraft-assembly-integration-test"
           ],
-          "order": 49,
+          "order": 48,
           "stage": 9,
           "depth": 11,
           "ancestorCount": 18,
@@ -101583,7 +102205,7 @@
             "me-advanced-vibrations-rotordynamics"
           ],
           "unlocks": [],
-          "order": 74,
+          "order": 75,
           "stage": 10,
           "depth": 12,
           "ancestorCount": 29,
@@ -101666,7 +102288,7 @@
             "mt-lightweight-structures"
           ],
           "unlocks": [],
-          "order": 60,
+          "order": 61,
           "stage": 9,
           "depth": 11,
           "ancestorCount": 24,
@@ -101742,7 +102364,7 @@
           "order": 40,
           "stage": 8,
           "depth": 10,
-          "ancestorCount": 19,
+          "ancestorCount": 18,
           "topics": [
             {
               "id": "ae-combustion-fundamentals-1",
@@ -101821,10 +102443,11 @@
           ],
           "unlocks": [
             "ae-aircraft-design",
+            "ae-personal-flight-systems",
             "ae-turbomachinery",
             "ae-ramjets-scramjets-combined-cycle"
           ],
-          "order": 66,
+          "order": 67,
           "stage": 10,
           "depth": 12,
           "ancestorCount": 23,
@@ -101916,7 +102539,7 @@
           "unlocks": [
             "ae-electric-aircraft-advanced-air-mobility"
           ],
-          "order": 69,
+          "order": 70,
           "stage": 10,
           "depth": 12,
           "ancestorCount": 23,
@@ -101993,7 +102616,7 @@
             "ae-engine-cycles-turbopumps-feed-systems"
           ],
           "unlocks": [],
-          "order": 89,
+          "order": 90,
           "stage": 11,
           "depth": 13,
           "ancestorCount": 24,
@@ -102068,7 +102691,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 90,
+          "order": 91,
           "stage": 11,
           "depth": 13,
           "ancestorCount": 31,
@@ -102155,7 +102778,7 @@
           "order": 29,
           "stage": 8,
           "depth": 10,
-          "ancestorCount": 15,
+          "ancestorCount": 14,
           "topics": [
             {
               "id": "ae-rocket-propulsion-fundamentals-1",
@@ -102244,10 +102867,10 @@
             "ae-solid-rocket-motors",
             "ae-hybrid-rocket-propulsion"
           ],
-          "order": 50,
+          "order": 49,
           "stage": 9,
           "depth": 11,
-          "ancestorCount": 23,
+          "ancestorCount": 22,
           "topics": [
             {
               "id": "ae-rocket-propellants-performance-1",
@@ -102326,7 +102949,7 @@
           "unlocks": [
             "ae-liquid-rocket-engines"
           ],
-          "order": 70,
+          "order": 71,
           "stage": 10,
           "depth": 12,
           "ancestorCount": 25,
@@ -102404,7 +103027,7 @@
             "ae-nuclear-propulsion",
             "ae-launch-vehicle-design"
           ],
-          "order": 81,
+          "order": 82,
           "stage": 11,
           "depth": 13,
           "ancestorCount": 36,
@@ -102496,10 +103119,10 @@
             "ch-propellant-chemistry"
           ],
           "unlocks": [],
-          "order": 71,
+          "order": 72,
           "stage": 10,
           "depth": 12,
-          "ancestorCount": 24,
+          "ancestorCount": 23,
           "topics": [
             {
               "id": "ae-solid-rocket-motors-1",
@@ -102582,10 +103205,10 @@
             "ch-propellant-chemistry"
           ],
           "unlocks": [],
-          "order": 72,
+          "order": 73,
           "stage": 10,
           "depth": 12,
-          "ancestorCount": 24,
+          "ancestorCount": 23,
           "topics": [
             {
               "id": "ae-hybrid-rocket-propulsion-1",
@@ -102642,10 +103265,10 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 53,
+          "order": 52,
           "stage": 9,
           "depth": 11,
-          "ancestorCount": 25,
+          "ancestorCount": 24,
           "topics": [
             {
               "id": "ae-propulsion-testing-1",
@@ -102724,10 +103347,10 @@
             "ae-turbomachinery"
           ],
           "unlocks": [],
-          "order": 94,
+          "order": 95,
           "stage": 12,
           "depth": 14,
-          "ancestorCount": 45,
+          "ancestorCount": 42,
           "topics": [
             {
               "id": "ae-engine-cycles-turbopumps-feed-systems-1",
@@ -102823,7 +103446,7 @@
             "ch-combustion-chemistry"
           ],
           "unlocks": [],
-          "order": 98,
+          "order": 99,
           "stage": 12,
           "depth": 14,
           "ancestorCount": 37,
@@ -102898,10 +103521,10 @@
           "unlocks": [
             "ae-advanced-propulsion-concepts"
           ],
-          "order": 57,
+          "order": 58,
           "stage": 9,
           "depth": 11,
-          "ancestorCount": 21,
+          "ancestorCount": 20,
           "topics": [
             {
               "id": "ae-electric-propulsion-1",
@@ -102983,7 +103606,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 99,
+          "order": 100,
           "stage": 12,
           "depth": 14,
           "ancestorCount": 45,
@@ -103052,10 +103675,10 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 79,
+          "order": 80,
           "stage": 10,
           "depth": 12,
-          "ancestorCount": 22,
+          "ancestorCount": 21,
           "topics": [
             {
               "id": "ae-advanced-propulsion-concepts-1",
@@ -103539,7 +104162,7 @@
           "unlocks": [
             "ae-space-situational-awareness-debris"
           ],
-          "order": 45,
+          "order": 44,
           "stage": 8,
           "depth": 10,
           "ancestorCount": 24,
@@ -103611,7 +104234,7 @@
           "unlocks": [
             "ae-in-space-servicing-assembly-manufacturing"
           ],
-          "order": 46,
+          "order": 45,
           "stage": 8,
           "depth": 10,
           "ancestorCount": 18,
@@ -103683,7 +104306,7 @@
             "ph-celestial-mechanics"
           ],
           "unlocks": [],
-          "order": 61,
+          "order": 62,
           "stage": 9,
           "depth": 11,
           "ancestorCount": 19,
@@ -103756,7 +104379,7 @@
             "ma-optimization-algorithms"
           ],
           "unlocks": [],
-          "order": 62,
+          "order": 63,
           "stage": 9,
           "depth": 11,
           "ancestorCount": 22,
@@ -103830,7 +104453,7 @@
             "ae-launch-vehicle-design",
             "ae-guidance-algorithms"
           ],
-          "order": 51,
+          "order": 50,
           "stage": 9,
           "depth": 11,
           "ancestorCount": 29,
@@ -103915,7 +104538,7 @@
             "ae-launch-vehicle-dynamics-control",
             "ae-reusable-launch-systems"
           ],
-          "order": 93,
+          "order": 94,
           "stage": 12,
           "depth": 14,
           "ancestorCount": 44,
@@ -104004,7 +104627,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 100,
+          "order": 101,
           "stage": 13,
           "depth": 15,
           "ancestorCount": 45,
@@ -104080,7 +104703,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 102,
+          "order": 103,
           "stage": 13,
           "depth": 15,
           "ancestorCount": 50,
@@ -104150,7 +104773,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 103,
+          "order": 104,
           "stage": 13,
           "depth": 15,
           "ancestorCount": 46,
@@ -104239,7 +104862,7 @@
             "ae-thermal-protection-systems",
             "ae-descent-landing-systems"
           ],
-          "order": 67,
+          "order": 68,
           "stage": 10,
           "depth": 12,
           "ancestorCount": 28,
@@ -104319,7 +104942,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 95,
+          "order": 96,
           "stage": 12,
           "depth": 14,
           "ancestorCount": 33,
@@ -104390,7 +105013,7 @@
           "unlocks": [
             "ae-planetary-exploration-systems"
           ],
-          "order": 86,
+          "order": 87,
           "stage": 11,
           "depth": 13,
           "ancestorCount": 29,
@@ -104731,7 +105354,7 @@
           "unlocks": [
             "ae-spacecraft-design"
           ],
-          "order": 52,
+          "order": 51,
           "stage": 9,
           "depth": 11,
           "ancestorCount": 24,
@@ -104915,6 +105538,7 @@
             "el-avionics-buses-protocols"
           ],
           "unlocks": [
+            "ae-avionics-systems-integration",
             "ae-flight-software"
           ],
           "order": 33,
@@ -104987,7 +105611,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 73,
+          "order": 74,
           "stage": 10,
           "depth": 12,
           "ancestorCount": 23,
@@ -105062,10 +105686,10 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 54,
+          "order": 53,
           "stage": 9,
           "depth": 11,
-          "ancestorCount": 20,
+          "ancestorCount": 19,
           "topics": [
             {
               "id": "ae-spacecraft-propulsion-systems-1",
@@ -105636,7 +106260,7 @@
           "unlocks": [
             "ae-gnc-system-design-verification"
           ],
-          "order": 75,
+          "order": 76,
           "stage": 10,
           "depth": 12,
           "ancestorCount": 31,
@@ -105709,7 +106333,7 @@
             "el-avionics-systems"
           ],
           "unlocks": [],
-          "order": 87,
+          "order": 88,
           "stage": 11,
           "depth": 13,
           "ancestorCount": 40,
@@ -105774,19 +106398,20 @@
           "priority": "important",
           "summary": "How avionics are architected and integrated into aircraft and spacecraft: redundancy, modular avionics, networks and certification.",
           "prerequisites": [
-            "el-avionics-systems",
-            "ae-aerospace-systems-engineering"
+            "ae-aerospace-systems-engineering",
+            "ae-command-data-handling"
           ],
           "related": [
             "el-avionics-buses-protocols",
             "el-spacecraft-electronics",
-            "el-reliability-fault-tolerance"
+            "el-reliability-fault-tolerance",
+            "el-avionics-systems"
           ],
           "unlocks": [],
-          "order": 43,
-          "stage": 8,
-          "depth": 10,
-          "ancestorCount": 22,
+          "order": 54,
+          "stage": 9,
+          "depth": 11,
+          "ancestorCount": 26,
           "topics": [
             {
               "id": "ae-avionics-systems-integration-1",
@@ -105949,7 +106574,7 @@
             "ai-motion-planning-navigation"
           ],
           "unlocks": [],
-          "order": 78,
+          "order": 79,
           "stage": 10,
           "depth": 12,
           "ancestorCount": 45,
@@ -106014,6 +106639,7 @@
           ],
           "related": [],
           "unlocks": [
+            "ae-planetary-protection",
             "ae-mission-operations-ground-systems",
             "ae-spacecraft-design",
             "ae-human-spaceflight-life-support",
@@ -106088,6 +106714,73 @@
           ]
         },
         {
+          "id": "ae-planetary-protection",
+          "name": "Planetary Protection & Contamination Control",
+          "category": "Space Missions & Exploration",
+          "level": 3,
+          "priority": "important",
+          "summary": "Keeping Earth life off other worlds, and alien material away from Earth, so that the search for life stays trustworthy.",
+          "prerequisites": [
+            "ae-space-mission-design",
+            "bi-microbiology"
+          ],
+          "related": [
+            "bi-astrobiology"
+          ],
+          "unlocks": [],
+          "order": 56,
+          "stage": 9,
+          "depth": 11,
+          "ancestorCount": 27,
+          "topics": [
+            {
+              "id": "ae-planetary-protection-1",
+              "name": "Why planetary protection matters (forward and backward contamination)",
+              "priority": "important"
+            },
+            {
+              "id": "ae-planetary-protection-2",
+              "name": "COSPAR policy and mission categories I-V",
+              "priority": "important"
+            },
+            {
+              "id": "ae-planetary-protection-3",
+              "name": "Bioburden: spores, cleanrooms and assay methods",
+              "priority": "important"
+            },
+            {
+              "id": "ae-planetary-protection-4",
+              "name": "Sterilisation: dry heat, vapour hydrogen peroxide, radiation",
+              "priority": "important"
+            },
+            {
+              "id": "ae-planetary-protection-5",
+              "name": "Organic and molecular contamination control",
+              "priority": "important"
+            },
+            {
+              "id": "ae-planetary-protection-6",
+              "name": "Special regions on Mars and icy moons",
+              "priority": "important"
+            },
+            {
+              "id": "ae-planetary-protection-7",
+              "name": "Sample return containment and restricted Earth return",
+              "priority": "important"
+            },
+            {
+              "id": "ae-planetary-protection-8",
+              "name": "Human missions and planetary protection",
+              "priority": "important"
+            },
+            {
+              "id": "ae-planetary-protection-9",
+              "name": "Case studies: Viking, Mars 2020, Europa Clipper, OSIRIS-REx",
+              "priority": "important"
+            }
+          ]
+        },
+        {
           "id": "ae-small-satellites-cubesats",
           "name": "Small Satellites and CubeSats",
           "category": "Space Missions & Exploration",
@@ -106099,7 +106792,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 44,
+          "order": 43,
           "stage": 8,
           "depth": 10,
           "ancestorCount": 12,
@@ -106179,7 +106872,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 56,
+          "order": 57,
           "stage": 9,
           "depth": 11,
           "ancestorCount": 27,
@@ -106256,7 +106949,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 76,
+          "order": 77,
           "stage": 10,
           "depth": 12,
           "ancestorCount": 37,
@@ -106330,7 +107023,7 @@
             "bi-bioregenerative-life-support"
           ],
           "unlocks": [],
-          "order": 58,
+          "order": 59,
           "stage": 9,
           "depth": 11,
           "ancestorCount": 28,
@@ -106415,7 +107108,7 @@
           "unlocks": [
             "ae-space-resources-surface-systems"
           ],
-          "order": 96,
+          "order": 97,
           "stage": 12,
           "depth": 14,
           "ancestorCount": 35,
@@ -106489,7 +107182,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 59,
+          "order": 60,
           "stage": 9,
           "depth": 11,
           "ancestorCount": 25,
@@ -106566,7 +107259,7 @@
             "ea-mars-geology"
           ],
           "unlocks": [],
-          "order": 109,
+          "order": 111,
           "stage": 13,
           "depth": 15,
           "ancestorCount": 36,
@@ -106638,7 +107331,7 @@
             "ai-manipulation"
           ],
           "unlocks": [],
-          "order": 63,
+          "order": 64,
           "stage": 9,
           "depth": 11,
           "ancestorCount": 23,
@@ -106889,7 +107582,7 @@
             "el-testing-validation"
           ],
           "unlocks": [],
-          "order": 77,
+          "order": 78,
           "stage": 10,
           "depth": 12,
           "ancestorCount": 24,
@@ -106974,7 +107667,7 @@
           ],
           "related": [],
           "unlocks": [],
-          "order": 104,
+          "order": 105,
           "stage": 13,
           "depth": 15,
           "ancestorCount": 35,
@@ -107056,7 +107749,7 @@
             "el-safety-certification"
           ],
           "unlocks": [],
-          "order": 105,
+          "order": 106,
           "stage": 13,
           "depth": 15,
           "ancestorCount": 34,
@@ -107195,7 +107888,7 @@
             "me-design-optimization"
           ],
           "unlocks": [],
-          "order": 108,
+          "order": 109,
           "stage": 13,
           "depth": 15,
           "ancestorCount": 32,
@@ -108133,18 +108826,6 @@
               "depth": "full"
             },
             {
-              "chapter": "ma-sequences-series",
-              "why": "Taylor series underpin linearisation, error estimates and numerical methods.",
-              "depth": "selected",
-              "focus": [
-                "ma-sequences-series-1",
-                "ma-sequences-series-2",
-                "ma-sequences-series-7",
-                "ma-sequences-series-9",
-                "ma-sequences-series-10"
-              ]
-            },
-            {
               "chapter": "ma-linear-algebra",
               "why": "Rotation matrices, state vectors and Kalman filters are linear algebra.",
               "depth": "full"
@@ -108205,30 +108886,6 @@
                 "ma-mathematical-methods-6",
                 "ma-mathematical-methods-7",
                 "ma-mathematical-methods-9"
-              ]
-            },
-            {
-              "chapter": "ma-introduction-to-proofs",
-              "why": "Only the logic and proof basics needed to follow the real-analysis ideas behind PDE theory.",
-              "depth": "selected",
-              "focus": [
-                "ma-introduction-to-proofs-1",
-                "ma-introduction-to-proofs-2",
-                "ma-introduction-to-proofs-3",
-                "ma-introduction-to-proofs-4",
-                "ma-introduction-to-proofs-5"
-              ]
-            },
-            {
-              "chapter": "ma-real-analysis",
-              "why": "Only the core ideas (limits, convergence, Taylor's theorem) that PDE methods lean on.",
-              "depth": "selected",
-              "focus": [
-                "ma-real-analysis-1",
-                "ma-real-analysis-2",
-                "ma-real-analysis-3",
-                "ma-real-analysis-3-2",
-                "ma-real-analysis-4-2"
               ]
             },
             {
@@ -109425,6 +110082,11 @@
               ]
             },
             {
+              "chapter": "ph-celestial-mechanics",
+              "why": "Orbits and resonances explain how exoplanets are found and whether their climates are stable.",
+              "depth": "full"
+            },
+            {
               "chapter": "ph-waves-oscillations",
               "why": "Wave physics needed for optics and spectroscopy.",
               "depth": "selected",
@@ -109969,6 +110631,21 @@
               "chapter": "ea-meteoritics-and-cosmochemistry",
               "why": "Elective: meteorites such as Murchison carry amino acids and record the chemistry of the early Solar System.",
               "depth": "full"
+            },
+            {
+              "chapter": "ch-biochemistry-structure-function",
+              "depth": "selected",
+              "why": "Elective groundwork: the chemist's view of biomolecules, needed before prebiotic chemistry."
+            },
+            {
+              "chapter": "ch-metabolism-bioenergetics",
+              "depth": "selected",
+              "why": "Elective groundwork: the reaction networks of metabolism that prebiotic chemistry tries to reach from scratch."
+            },
+            {
+              "chapter": "ch-prebiotic-systems-chemistry",
+              "depth": "full",
+              "why": "Elective: the chemistry of how non-living molecules could become the first living systems."
             }
           ]
         }
@@ -111966,6 +112643,11 @@
             {
               "chapter": "ae-flight-dynamics",
               "why": "Elective (flight-control background): dynamic modes and handling qualities of flying vehicles.",
+              "depth": "full"
+            },
+            {
+              "chapter": "ae-personal-flight-systems",
+              "why": "The real-world state of the art for flying humans: jet suits, their thrust budgets and why stability is so hard.",
               "depth": "full"
             },
             {
@@ -114192,6 +114874,11 @@
               "depth": "full"
             },
             {
+              "chapter": "el-hardware-software-codesign",
+              "why": "Elective: the capstone skill of a computer engineer, splitting a system between silicon and code.",
+              "depth": "full"
+            },
+            {
               "chapter": "cs-advanced-computer-architecture",
               "why": "Accelerators, coherence and in-memory computing: where architecture research is heading.",
               "depth": "full"
@@ -115239,6 +115926,11 @@
               "depth": "full"
             },
             {
+              "chapter": "ai-llmops",
+              "why": "Shipping an LLM feature is the start; tracing, guardrails and cost control keep it alive in production.",
+              "depth": "full"
+            },
+            {
               "chapter": "ai-monitoring-maintenance",
               "why": "Detecting drift, degraded quality and failures once a model is live.",
               "depth": "full"
@@ -115561,6 +116253,11 @@
             {
               "chapter": "ma-inferential-statistics",
               "why": "Sampling distributions, confidence intervals and hypothesis tests are how you generalise from data to a population.",
+              "depth": "full"
+            },
+            {
+              "chapter": "ma-survey-sampling",
+              "why": "Good analysis starts with good data; sampling design decides what your data can and cannot tell you.",
               "depth": "full"
             },
             {
@@ -116320,6 +117017,11 @@
               "depth": "full"
             },
             {
+              "chapter": "ph-quantum-error-correction",
+              "why": "Useful quantum computers need logical qubits; error correction is the bridge from noisy hardware to reliable computation.",
+              "depth": "full"
+            },
+            {
               "chapter": "ma-error-correcting-codes",
               "why": "Hamming and LDPC codes and their decoders, whose ideas carry into quantum LDPC and surface-code decoding.",
               "depth": "selected",
@@ -116352,6 +117054,11 @@
               "depth": "full"
             },
             {
+              "chapter": "ph-quantum-communication-networks",
+              "why": "QKD and quantum networks are the most mature quantum technology after sensing.",
+              "depth": "full"
+            },
+            {
               "chapter": "ph-atom-light-interaction-laser-cooling",
               "why": "Rabi oscillations, optical Bloch equations and ion or atom traps are how gates are actually applied.",
               "depth": "full"
@@ -116381,6 +117088,11 @@
                 "ph-solid-state-physics-18",
                 "ph-solid-state-physics-19"
               ]
+            },
+            {
+              "chapter": "ph-superconducting-quantum-circuits",
+              "why": "Transmon qubits are the workhorse of today's quantum processors; this is how they are built and controlled.",
+              "depth": "full"
             },
             {
               "chapter": "ph-cryophysics",

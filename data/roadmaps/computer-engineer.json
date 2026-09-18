@@ -662,6 +662,11 @@
           "depth": "full"
         },
         {
+          "chapter": "el-hardware-software-codesign",
+          "why": "Elective: the capstone skill of a computer engineer, splitting a system between silicon and code.",
+          "depth": "full"
+        },
+        {
           "chapter": "cs-advanced-computer-architecture",
           "why": "Accelerators, coherence and in-memory computing: where architecture research is heading.",
           "depth": "full"

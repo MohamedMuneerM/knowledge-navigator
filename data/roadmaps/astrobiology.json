@@ -162,6 +162,11 @@
           ]
         },
         {
+          "chapter": "ph-celestial-mechanics",
+          "why": "Orbits and resonances explain how exoplanets are found and whether their climates are stable.",
+          "depth": "full"
+        },
+        {
           "chapter": "ph-waves-oscillations",
           "why": "Wave physics needed for optics and spectroscopy.",
           "depth": "selected",
@@ -706,6 +711,21 @@
           "chapter": "ea-meteoritics-and-cosmochemistry",
           "why": "Elective: meteorites such as Murchison carry amino acids and record the chemistry of the early Solar System.",
           "depth": "full"
+        },
+        {
+          "chapter": "ch-biochemistry-structure-function",
+          "depth": "selected",
+          "why": "Elective groundwork: the chemist's view of biomolecules, needed before prebiotic chemistry."
+        },
+        {
+          "chapter": "ch-metabolism-bioenergetics",
+          "depth": "selected",
+          "why": "Elective groundwork: the reaction networks of metabolism that prebiotic chemistry tries to reach from scratch."
+        },
+        {
+          "chapter": "ch-prebiotic-systems-chemistry",
+          "depth": "full",
+          "why": "Elective: the chemistry of how non-living molecules could become the first living systems."
         }
       ]
     }
