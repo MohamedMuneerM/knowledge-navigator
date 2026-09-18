@@ -1,0 +1,55 @@
+{
+  "id": "ma-integral-transforms",
+  "name": "Integral Transforms",
+  "category": "Differential Equations & Dynamical Systems",
+  "level": 2,
+  "priority": "important",
+  "summary": "Laplace, Fourier and Mellin transforms that turn differential equations into algebra, essential in engineering and signal analysis.",
+  "prerequisites": [
+    "ma-ordinary-differential-equations-odes"
+  ],
+  "related": [
+    "ph-mathematical-physics",
+    "el-signals-and-systems"
+  ],
+  "topics": [
+    {
+      "id": "ma-integral-transforms-1",
+      "name": "Laplace transforms",
+      "sub": [
+        {
+          "id": "ma-integral-transforms-1-1",
+          "name": "Properties and inverse transforms"
+        },
+        {
+          "id": "ma-integral-transforms-1-2",
+          "name": "Solving ODEs and transfer functions"
+        },
+        {
+          "id": "ma-integral-transforms-1-3",
+          "name": "Convolution"
+        }
+      ]
+    },
+    {
+      "id": "ma-integral-transforms-2",
+      "name": "Fourier transforms"
+    },
+    {
+      "id": "ma-integral-transforms-4",
+      "name": "Hankel transform"
+    },
+    {
+      "id": "ma-integral-transforms-3",
+      "name": "Mellin transforms"
+    },
+    {
+      "id": "ma-integral-transforms-5",
+      "name": "Z-transform"
+    },
+    {
+      "id": "ma-integral-transforms-6",
+      "name": "Operational calculus and applications to PDEs"
+    }
+  ]
+}

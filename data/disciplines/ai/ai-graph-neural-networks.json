@@ -1,0 +1,74 @@
+{
+  "id": "ai-graph-neural-networks",
+  "name": "Graph Neural Networks",
+  "category": "Deep Learning",
+  "level": 4,
+  "priority": "important",
+  "summary": "Deep learning on graph-structured data (molecules, social networks, maps) using message passing, graph convolutions, graph attention and graph transformers.",
+  "prerequisites": [
+    "ai-graph-based-ml",
+    "ai-regularization-normalization"
+  ],
+  "related": [
+    "ai-special-deep-learning-topics",
+    "ai-graph-based-ml"
+  ],
+  "topics": [
+    {
+      "id": "ai-graph-neural-networks-1",
+      "name": "Graphs as data: node-, edge- and graph-level tasks"
+    },
+    {
+      "id": "ai-graph-neural-networks-2",
+      "name": "Adjacency, degree and Laplacian matrices"
+    },
+    {
+      "id": "ai-graph-neural-networks-3",
+      "name": "Shallow node embeddings: DeepWalk and node2vec"
+    },
+    {
+      "id": "ai-graph-neural-networks-4",
+      "name": "Spectral graph convolutions (ChebNet, GCN)"
+    },
+    {
+      "id": "ai-graph-neural-networks-5",
+      "name": "The message-passing framework"
+    },
+    {
+      "id": "ai-graph-neural-networks-6",
+      "name": "Inductive learning and neighbour sampling (GraphSAGE)"
+    },
+    {
+      "id": "ai-graph-neural-networks-7",
+      "name": "Graph attention networks"
+    },
+    {
+      "id": "ai-graph-neural-networks-8",
+      "name": "Graph pooling and readout for graph classification"
+    },
+    {
+      "id": "ai-graph-neural-networks-9",
+      "name": "Expressive power and the Weisfeiler-Lehman test (GIN)"
+    },
+    {
+      "id": "ai-graph-neural-networks-10",
+      "name": "Over-smoothing and over-squashing"
+    },
+    {
+      "id": "ai-graph-neural-networks-11",
+      "name": "Graph transformers"
+    },
+    {
+      "id": "ai-graph-neural-networks-12",
+      "name": "Knowledge-graph embeddings (TransE, RotatE)"
+    },
+    {
+      "id": "ai-graph-neural-networks-13",
+      "name": "Equivariant GNNs for molecules and physics"
+    },
+    {
+      "id": "ai-graph-neural-networks-14",
+      "name": "Libraries and applications (PyTorch Geometric, DGL)"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "bi-animal-behavior",
+  "name": "Animal Behaviour & Behavioural Ecology",
+  "category": "Ecology & Environment",
+  "level": 3,
+  "priority": "important",
+  "summary": "Why animals behave as they do, from instinct and learning to foraging, mating systems, communication and cooperation.",
+  "prerequisites": [
+    "bi-ecology",
+    "bi-animal-diversity"
+  ],
+  "related": [
+    "ma-game-theory"
+  ],
+  "topics": [
+    {
+      "id": "bi-animal-behavior-1",
+      "name": "Tinbergen's four questions and the history of ethology"
+    },
+    {
+      "id": "bi-animal-behavior-2",
+      "name": "Innate behaviour, learning and cognition in animals"
+    },
+    {
+      "id": "bi-animal-behavior-3",
+      "name": "Neuroethology: neural mechanisms of natural behaviour"
+    },
+    {
+      "id": "bi-animal-behavior-4",
+      "name": "Foraging theory"
+    },
+    {
+      "id": "bi-animal-behavior-5",
+      "name": "Predator avoidance and antipredator behaviour"
+    },
+    {
+      "id": "bi-animal-behavior-6",
+      "name": "Habitat selection, territoriality and migration"
+    },
+    {
+      "id": "bi-animal-behavior-7",
+      "name": "Animal navigation and orientation"
+    },
+    {
+      "id": "bi-animal-behavior-8",
+      "name": "Communication and signal evolution"
+    },
+    {
+      "id": "bi-animal-behavior-9",
+      "name": "Mating systems and sexual conflict"
+    },
+    {
+      "id": "bi-animal-behavior-10",
+      "name": "Parental care"
+    },
+    {
+      "id": "bi-animal-behavior-11",
+      "name": "Social behaviour, eusociality and kin selection"
+    },
+    {
+      "id": "bi-animal-behavior-12",
+      "name": "Evolutionary game theory in behaviour"
+    }
+  ]
+}

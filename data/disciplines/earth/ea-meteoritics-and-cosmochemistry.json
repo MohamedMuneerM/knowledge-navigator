@@ -1,0 +1,56 @@
+{
+  "id": "ea-meteoritics-and-cosmochemistry",
+  "name": "Meteoritics & Cosmochemistry",
+  "category": "Planetary Geoscience",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "What meteorites and returned samples reveal about the Solar System's birth, its building blocks and the timing of planet formation.",
+  "prerequisites": [
+    "ea-comparative-planetology",
+    "ea-isotope-geochemistry",
+    "ea-mineralogy"
+  ],
+  "related": [
+    "ph-planetary-science",
+    "ch-geochemistry-cosmochemistry",
+    "ph-celestial-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "ea-meteoritics-and-cosmochemistry-1",
+      "name": "Meteorite falls, finds and classification"
+    },
+    {
+      "id": "ea-meteoritics-and-cosmochemistry-2",
+      "name": "Chondrites: chondrules, CAIs and matrix"
+    },
+    {
+      "id": "ea-meteoritics-and-cosmochemistry-3",
+      "name": "Achondrites and differentiated parent bodies"
+    },
+    {
+      "id": "ea-meteoritics-and-cosmochemistry-4",
+      "name": "Iron and stony-iron meteorites"
+    },
+    {
+      "id": "ea-meteoritics-and-cosmochemistry-5",
+      "name": "Solar nebula chemistry and volatility trends"
+    },
+    {
+      "id": "ea-meteoritics-and-cosmochemistry-6",
+      "name": "Short-lived radionuclides and early Solar System chronology (Al-Mg, Hf-W)"
+    },
+    {
+      "id": "ea-meteoritics-and-cosmochemistry-7",
+      "name": "Presolar grains and nucleosynthetic anomalies"
+    },
+    {
+      "id": "ea-meteoritics-and-cosmochemistry-8",
+      "name": "Martian and lunar meteorites"
+    },
+    {
+      "id": "ea-meteoritics-and-cosmochemistry-9",
+      "name": "Sample-return missions: Apollo, Stardust, Hayabusa and OSIRIS-REx"
+    }
+  ]
+}

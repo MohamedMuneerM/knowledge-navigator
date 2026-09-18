@@ -1,0 +1,46 @@
+{
+  "id": "el-peripheral-controllers",
+  "name": "Peripheral Controllers",
+  "category": "Microcontrollers, Processors & Architectures",
+  "level": 2,
+  "priority": "core",
+  "summary": "Programming the on-chip peripherals every firmware engineer uses: timers and PWM, ADC/DAC, DMA, RTC, watchdogs, GPIO, interrupt controllers and CRC.",
+  "prerequisites": [
+    "el-embedded-systems-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-peripheral-controllers-1",
+      "name": "Timers and PWM (Pulse Width Modulation)"
+    },
+    {
+      "id": "el-peripheral-controllers-2",
+      "name": "ADC and DAC peripherals"
+    },
+    {
+      "id": "el-peripheral-controllers-3",
+      "name": "DMA controllers"
+    },
+    {
+      "id": "el-peripheral-controllers-4",
+      "name": "Real-Time Clock (RTC)"
+    },
+    {
+      "id": "el-peripheral-controllers-5",
+      "name": "Watchdog timers"
+    },
+    {
+      "id": "el-peripheral-controllers-6",
+      "name": "GPIO (General Purpose I/O)"
+    },
+    {
+      "id": "el-peripheral-controllers-7",
+      "name": "Interrupt controllers (NVIC, GIC)"
+    },
+    {
+      "id": "el-peripheral-controllers-8",
+      "name": "CRC generators"
+    }
+  ]
+}

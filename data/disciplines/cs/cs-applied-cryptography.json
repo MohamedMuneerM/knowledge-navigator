@@ -1,0 +1,76 @@
+{
+  "id": "cs-applied-cryptography",
+  "name": "Applied Cryptography",
+  "category": "Security",
+  "level": 3,
+  "priority": "important",
+  "summary": "Using cryptography correctly in real systems: symmetric and public-key primitives, authenticated encryption, signatures, PKI, TLS and common pitfalls.",
+  "prerequisites": [
+    "cs-computer-security",
+    "ma-elementary-number-theory"
+  ],
+  "related": [
+    "ma-cryptography",
+    "ma-cryptographic-number-theory",
+    "el-cryptography-fundamentals",
+    "el-key-management"
+  ],
+  "topics": [
+    {
+      "id": "cs-applied-cryptography-1",
+      "name": "Security definitions and threat models for cryptography"
+    },
+    {
+      "id": "cs-applied-cryptography-2",
+      "name": "Symmetric encryption: block ciphers, AES and modes of operation"
+    },
+    {
+      "id": "cs-applied-cryptography-3",
+      "name": "Stream ciphers and authenticated encryption (AES-GCM, ChaCha20-Poly1305)"
+    },
+    {
+      "id": "cs-applied-cryptography-4",
+      "name": "Hash functions and message authentication codes"
+    },
+    {
+      "id": "cs-applied-cryptography-5",
+      "name": "Public-key encryption: RSA and elliptic-curve cryptography"
+    },
+    {
+      "id": "cs-applied-cryptography-6",
+      "name": "Key exchange: Diffie-Hellman and ECDH"
+    },
+    {
+      "id": "cs-applied-cryptography-7",
+      "name": "Digital signatures"
+    },
+    {
+      "id": "cs-applied-cryptography-8",
+      "name": "Public-key infrastructure and certificates"
+    },
+    {
+      "id": "cs-applied-cryptography-9",
+      "name": "TLS in depth"
+    },
+    {
+      "id": "cs-applied-cryptography-10",
+      "name": "Password hashing and key derivation"
+    },
+    {
+      "id": "cs-applied-cryptography-11",
+      "name": "Randomness and key management"
+    },
+    {
+      "id": "cs-applied-cryptography-12",
+      "name": "Secure messaging protocols (Signal)"
+    },
+    {
+      "id": "cs-applied-cryptography-13",
+      "name": "Implementation pitfalls and side channels"
+    },
+    {
+      "id": "cs-applied-cryptography-14",
+      "name": "Using cryptographic libraries correctly"
+    }
+  ]
+}

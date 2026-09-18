@@ -1,0 +1,63 @@
+{
+  "id": "ea-hydrogeology",
+  "name": "Hydrogeology",
+  "category": "Hydrology & Water Resources",
+  "level": 3,
+  "priority": "core",
+  "summary": "The science of groundwater: aquifers, flow, wells, groundwater chemistry and modelling.",
+  "prerequisites": [
+    "ea-hydrology",
+    "ea-physical-geology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-hydrogeology-1",
+      "name": "Aquifers, aquitards and hydrogeological properties"
+    },
+    {
+      "id": "ea-hydrogeology-2",
+      "name": "Porosity, permeability and hydraulic conductivity"
+    },
+    {
+      "id": "ea-hydrogeology-3",
+      "name": "Darcy's law and hydraulic head"
+    },
+    {
+      "id": "ea-hydrogeology-4",
+      "name": "The groundwater flow equation; confined and unconfined aquifers"
+    },
+    {
+      "id": "ea-hydrogeology-5",
+      "name": "Flow nets and regional groundwater flow systems"
+    },
+    {
+      "id": "ea-hydrogeology-6",
+      "name": "Well hydraulics and pumping tests (Theis, Cooper-Jacob)"
+    },
+    {
+      "id": "ea-hydrogeology-7",
+      "name": "Recharge and groundwater-surface water interaction"
+    },
+    {
+      "id": "ea-hydrogeology-8",
+      "name": "Groundwater chemistry and water-rock interaction"
+    },
+    {
+      "id": "ea-hydrogeology-9",
+      "name": "Solute transport: advection, dispersion and retardation"
+    },
+    {
+      "id": "ea-hydrogeology-10",
+      "name": "Unsaturated (vadose) zone flow"
+    },
+    {
+      "id": "ea-hydrogeology-11",
+      "name": "Groundwater modelling (e.g. MODFLOW)"
+    },
+    {
+      "id": "ea-hydrogeology-12",
+      "name": "Groundwater depletion, land subsidence and seawater intrusion"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ch-supramolecular-chemistry",
+  "name": "Supramolecular Chemistry",
+  "category": "Surfaces, Catalysis & Supramolecular Chemistry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Chemistry beyond the molecule: molecular recognition, self-assembly and molecular machines.",
+  "prerequisites": [
+    "ch-physical-organic-chemistry",
+    "ch-coordination-chemistry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-supramolecular-chemistry-1",
+      "name": "Non-covalent interactions and molecular recognition"
+    },
+    {
+      "id": "ch-supramolecular-chemistry-2",
+      "name": "Host-guest chemistry: crown ethers, cryptands, cyclodextrins and calixarenes"
+    },
+    {
+      "id": "ch-supramolecular-chemistry-3",
+      "name": "Anion recognition"
+    },
+    {
+      "id": "ch-supramolecular-chemistry-4",
+      "name": "Thermodynamics of binding; chelate and macrocyclic effects"
+    },
+    {
+      "id": "ch-supramolecular-chemistry-5",
+      "name": "Self-assembly and metallo-supramolecular architectures"
+    },
+    {
+      "id": "ch-supramolecular-chemistry-6",
+      "name": "Mechanically interlocked molecules: rotaxanes and catenanes"
+    },
+    {
+      "id": "ch-supramolecular-chemistry-7",
+      "name": "Molecular machines and switches"
+    },
+    {
+      "id": "ch-supramolecular-chemistry-8",
+      "name": "Dynamic covalent chemistry and systems chemistry"
+    },
+    {
+      "id": "ch-supramolecular-chemistry-9",
+      "name": "Crystal engineering and cocrystals"
+    },
+    {
+      "id": "ch-supramolecular-chemistry-10",
+      "name": "Supramolecular polymers and gels"
+    }
+  ]
+}

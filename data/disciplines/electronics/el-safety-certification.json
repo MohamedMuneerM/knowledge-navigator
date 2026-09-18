@@ -1,0 +1,37 @@
+{
+  "id": "el-safety-certification",
+  "name": "Avionics Safety & Certification",
+  "category": "Automotive, Aerospace & Defense Systems",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Certifying airborne electronics: DO-178C software, DO-254 hardware, DO-160 environmental testing, ARP4754A and design assurance levels.",
+  "prerequisites": [
+    "el-safety-standards",
+    "el-avionics-systems"
+  ],
+  "related": [
+    "ae-airworthiness-certification"
+  ],
+  "topics": [
+    {
+      "id": "el-safety-certification-1",
+      "name": "DO-178C (software development)"
+    },
+    {
+      "id": "el-safety-certification-2",
+      "name": "DO-254 (hardware development)"
+    },
+    {
+      "id": "el-safety-certification-3",
+      "name": "DO-160 (environmental testing)"
+    },
+    {
+      "id": "el-safety-certification-4",
+      "name": "ARP4754A (development process)"
+    },
+    {
+      "id": "el-safety-certification-5",
+      "name": "Design Assurance Levels (DAL A-E)"
+    }
+  ]
+}

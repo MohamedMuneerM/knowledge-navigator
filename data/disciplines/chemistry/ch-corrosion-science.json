@@ -1,0 +1,53 @@
+{
+  "id": "ch-corrosion-science",
+  "name": "Corrosion Science & Protection",
+  "category": "Electrochemistry & Energy",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Why metals corrode in water, air and hot gases, and how coatings, inhibitors and electrochemical protection stop it.",
+  "prerequisites": [
+    "ch-electrochemistry"
+  ],
+  "related": [
+    "mt-corrosion",
+    "mt-high-temperature-oxidation"
+  ],
+  "topics": [
+    {
+      "id": "ch-corrosion-science-1",
+      "name": "Thermodynamics of corrosion and Pourbaix diagrams"
+    },
+    {
+      "id": "ch-corrosion-science-2",
+      "name": "Kinetics: mixed-potential theory and Evans diagrams"
+    },
+    {
+      "id": "ch-corrosion-science-3",
+      "name": "Forms of corrosion: uniform, pitting, crevice, galvanic and intergranular"
+    },
+    {
+      "id": "ch-corrosion-science-4",
+      "name": "Stress-corrosion cracking and hydrogen embrittlement"
+    },
+    {
+      "id": "ch-corrosion-science-5",
+      "name": "High-temperature oxidation and hot corrosion"
+    },
+    {
+      "id": "ch-corrosion-science-6",
+      "name": "Passivity and passive films"
+    },
+    {
+      "id": "ch-corrosion-science-7",
+      "name": "Protection: coatings, inhibitors, cathodic and anodic protection"
+    },
+    {
+      "id": "ch-corrosion-science-8",
+      "name": "Corrosion in aerospace, marine and energy systems"
+    },
+    {
+      "id": "ch-corrosion-science-9",
+      "name": "Corrosion testing and monitoring"
+    }
+  ]
+}

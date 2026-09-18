@@ -1,0 +1,60 @@
+{
+  "id": "ae-history-of-flight-and-spaceflight",
+  "name": "History of Flight and Spaceflight",
+  "category": "Introduction to Aerospace",
+  "level": 1,
+  "priority": "optional",
+  "summary": "Traces aviation and spaceflight from early balloons and the Wright brothers to the Space Race, the Shuttle and today's commercial space era.",
+  "prerequisites": [],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-history-of-flight-and-spaceflight-1",
+      "name": "Early flight: kites, balloons, gliders, Cayley and Lilienthal"
+    },
+    {
+      "id": "ae-history-of-flight-and-spaceflight-2",
+      "name": "The Wright brothers and the invention of controlled powered flight"
+    },
+    {
+      "id": "ae-history-of-flight-and-spaceflight-3",
+      "name": "Aviation in the World Wars and the rise of the jet engine"
+    },
+    {
+      "id": "ae-history-of-flight-and-spaceflight-4",
+      "name": "Breaking the sound barrier and the supersonic era"
+    },
+    {
+      "id": "ae-history-of-flight-and-spaceflight-5",
+      "name": "Commercial aviation: the jet age, wide-bodies and fly-by-wire"
+    },
+    {
+      "id": "ae-history-of-flight-and-spaceflight-6",
+      "name": "Rocketry pioneers: Tsiolkovsky, Goddard, Oberth, von Braun, Korolev"
+    },
+    {
+      "id": "ae-history-of-flight-and-spaceflight-7",
+      "name": "The Space Race: Sputnik, Gagarin, Mercury, Gemini and Apollo"
+    },
+    {
+      "id": "ae-history-of-flight-and-spaceflight-8",
+      "name": "Space stations: Salyut, Skylab, Mir and the International Space Station"
+    },
+    {
+      "id": "ae-history-of-flight-and-spaceflight-9",
+      "name": "The Space Shuttle era, Challenger and Columbia"
+    },
+    {
+      "id": "ae-history-of-flight-and-spaceflight-10",
+      "name": "Robotic exploration: Voyager, Hubble, Mars rovers, JWST"
+    },
+    {
+      "id": "ae-history-of-flight-and-spaceflight-11",
+      "name": "The commercial space era: SpaceX, reusable rockets, mega-constellations"
+    },
+    {
+      "id": "ae-history-of-flight-and-spaceflight-12",
+      "name": "Artemis, Chinese and Indian space programs and the return to the Moon"
+    }
+  ]
+}

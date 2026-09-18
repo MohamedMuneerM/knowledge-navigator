@@ -1,0 +1,70 @@
+{
+  "id": "bi-human-anatomy",
+  "name": "Human Anatomy & Histology",
+  "category": "Anatomy & Physiology",
+  "level": 2,
+  "priority": "core",
+  "summary": "The structure of the human body, from tissues seen under the microscope to the organ systems, organised by body region and system.",
+  "prerequisites": [
+    "bi-introductory-biology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-human-anatomy-1",
+      "name": "Anatomical terminology, planes, regions and body cavities"
+    },
+    {
+      "id": "bi-human-anatomy-2",
+      "name": "Histology: epithelial, connective, muscle and nervous tissue"
+    },
+    {
+      "id": "bi-human-anatomy-3",
+      "name": "The integumentary system"
+    },
+    {
+      "id": "bi-human-anatomy-4",
+      "name": "The skeletal system: bone tissue, the axial and appendicular skeleton"
+    },
+    {
+      "id": "bi-human-anatomy-5",
+      "name": "Joints: types, structure and range of motion"
+    },
+    {
+      "id": "bi-human-anatomy-6",
+      "name": "The muscular system: major muscle groups, origins, insertions and actions"
+    },
+    {
+      "id": "bi-human-anatomy-7",
+      "name": "Nervous system anatomy: brain, spinal cord and peripheral nerves"
+    },
+    {
+      "id": "bi-human-anatomy-8",
+      "name": "Special sense organs: eye and ear"
+    },
+    {
+      "id": "bi-human-anatomy-9",
+      "name": "Cardiovascular anatomy: heart, arteries, veins and capillary beds"
+    },
+    {
+      "id": "bi-human-anatomy-10",
+      "name": "Respiratory anatomy"
+    },
+    {
+      "id": "bi-human-anatomy-11",
+      "name": "Digestive system anatomy"
+    },
+    {
+      "id": "bi-human-anatomy-12",
+      "name": "Urinary and reproductive anatomy"
+    },
+    {
+      "id": "bi-human-anatomy-13",
+      "name": "Endocrine glands and lymphatic organs"
+    },
+    {
+      "id": "bi-human-anatomy-14",
+      "name": "Surface anatomy and medical imaging views (X-ray, CT, MRI)"
+    }
+  ]
+}

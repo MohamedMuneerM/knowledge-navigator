@@ -1,0 +1,60 @@
+{
+  "id": "cs-virtualization-containers",
+  "name": "Virtualization & Containers",
+  "category": "Operating Systems",
+  "level": 3,
+  "priority": "important",
+  "summary": "How virtual machines and containers isolate and package software, from hypervisors and hardware support to Docker and Kubernetes.",
+  "prerequisites": [
+    "cs-operating-systems"
+  ],
+  "related": [
+    "el-containers-virtualization"
+  ],
+  "topics": [
+    {
+      "id": "cs-virtualization-containers-1",
+      "name": "Virtualization concepts: full, para- and hardware-assisted virtualization"
+    },
+    {
+      "id": "cs-virtualization-containers-2",
+      "name": "Hypervisors: type 1 and type 2 (KVM, Xen, VMware, Hyper-V)"
+    },
+    {
+      "id": "cs-virtualization-containers-3",
+      "name": "CPU and memory virtualization (VT-x, nested page tables)"
+    },
+    {
+      "id": "cs-virtualization-containers-4",
+      "name": "I/O virtualization"
+    },
+    {
+      "id": "cs-virtualization-containers-5",
+      "name": "Linux namespaces and cgroups"
+    },
+    {
+      "id": "cs-virtualization-containers-6",
+      "name": "Containers and images: Docker and the OCI standards"
+    },
+    {
+      "id": "cs-virtualization-containers-7",
+      "name": "Writing Dockerfiles and building images"
+    },
+    {
+      "id": "cs-virtualization-containers-8",
+      "name": "Container networking and storage"
+    },
+    {
+      "id": "cs-virtualization-containers-9",
+      "name": "Container orchestration with Kubernetes"
+    },
+    {
+      "id": "cs-virtualization-containers-10",
+      "name": "Lightweight VMs and sandboxes (Firecracker, gVisor, unikernels)"
+    },
+    {
+      "id": "cs-virtualization-containers-11",
+      "name": "Container security and isolation"
+    }
+  ]
+}

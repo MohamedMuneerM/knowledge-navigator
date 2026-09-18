@@ -1,0 +1,26 @@
+{
+  "id": "ma-mathematical-aesthetics",
+  "name": "Mathematical Aesthetics",
+  "category": "History, Philosophy & Education",
+  "level": 2,
+  "priority": "optional",
+  "summary": "What mathematicians mean by beauty, elegance and creativity, and how they shape the subject.",
+  "prerequisites": [
+    "ma-introduction-to-proofs"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-mathematical-aesthetics-1",
+      "name": "Beauty in mathematics"
+    },
+    {
+      "id": "ma-mathematical-aesthetics-2",
+      "name": "Mathematical creativity"
+    },
+    {
+      "id": "ma-mathematical-aesthetics-3",
+      "name": "Problem solving heuristics (Polya)"
+    }
+  ]
+}

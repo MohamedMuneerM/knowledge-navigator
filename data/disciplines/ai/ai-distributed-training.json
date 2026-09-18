@@ -1,0 +1,73 @@
+{
+  "id": "ai-distributed-training",
+  "name": "Distributed Training",
+  "category": "AI Systems & Infrastructure",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Training large models across many accelerators with data, tensor and pipeline parallelism, ZeRO/FSDP and collective communication.",
+  "prerequisites": [
+    "ai-hardware-for-ai",
+    "ai-deep-learning-frameworks",
+    "cs-parallel-computing"
+  ],
+  "related": [
+    "cs-distributed-systems",
+    "cs-high-performance-computing"
+  ],
+  "topics": [
+    {
+      "id": "ai-distributed-training-1",
+      "name": "Data Parallelism"
+    },
+    {
+      "id": "ai-distributed-training-2",
+      "name": "Model Parallelism"
+    },
+    {
+      "id": "ai-distributed-training-3",
+      "name": "Pipeline Parallelism"
+    },
+    {
+      "id": "ai-distributed-training-4",
+      "name": "Tensor Parallelism"
+    },
+    {
+      "id": "ai-distributed-training-5",
+      "name": "Zero Redundancy Optimizer (ZeRO)"
+    },
+    {
+      "id": "ai-distributed-training-6",
+      "name": "Distributed Frameworks",
+      "sub": [
+        {
+          "id": "ai-distributed-training-6-1",
+          "name": "Horovod"
+        },
+        {
+          "id": "ai-distributed-training-6-2",
+          "name": "PyTorch Distributed"
+        },
+        {
+          "id": "ai-distributed-training-6-3",
+          "name": "DeepSpeed"
+        },
+        {
+          "id": "ai-distributed-training-6-4",
+          "name": "FSDP"
+        }
+      ]
+    },
+    {
+      "id": "ai-distributed-training-7",
+      "name": "Collective communication (all-reduce, NCCL)"
+    },
+    {
+      "id": "ai-distributed-training-8",
+      "name": "Activation checkpointing and mixed precision at scale"
+    },
+    {
+      "id": "ai-distributed-training-9",
+      "name": "Fault tolerance and scaling efficiency"
+    }
+  ]
+}

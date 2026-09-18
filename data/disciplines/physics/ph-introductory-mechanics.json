@@ -1,0 +1,80 @@
+{
+  "id": "ph-introductory-mechanics",
+  "name": "Introductory Mechanics",
+  "category": "Introductory Physics",
+  "level": 1,
+  "priority": "core",
+  "summary": "Algebra-based first course on motion, forces, energy and momentum, the on-ramp to all of physics.",
+  "prerequisites": [
+    "ph-measurement-units-vectors"
+  ],
+  "related": [
+    "ph-physics-education"
+  ],
+  "topics": [
+    {
+      "id": "ph-introductory-mechanics-1",
+      "name": "Motion in one dimension: displacement, velocity and acceleration"
+    },
+    {
+      "id": "ph-introductory-mechanics-2",
+      "name": "Constant-acceleration equations and free fall"
+    },
+    {
+      "id": "ph-introductory-mechanics-3",
+      "name": "Motion in two dimensions and projectile motion"
+    },
+    {
+      "id": "ph-introductory-mechanics-4",
+      "name": "Relative motion"
+    },
+    {
+      "id": "ph-introductory-mechanics-5",
+      "name": "Newton's laws of motion"
+    },
+    {
+      "id": "ph-introductory-mechanics-6",
+      "name": "Free-body diagrams: friction, tension and normal forces"
+    },
+    {
+      "id": "ph-introductory-mechanics-7",
+      "name": "Uniform circular motion and centripetal force"
+    },
+    {
+      "id": "ph-introductory-mechanics-8",
+      "name": "Work, kinetic energy and the work-energy theorem"
+    },
+    {
+      "id": "ph-introductory-mechanics-9",
+      "name": "Potential energy and conservation of energy"
+    },
+    {
+      "id": "ph-introductory-mechanics-10",
+      "name": "Power and efficiency"
+    },
+    {
+      "id": "ph-introductory-mechanics-11",
+      "name": "Linear momentum, impulse and collisions"
+    },
+    {
+      "id": "ph-introductory-mechanics-12",
+      "name": "Rotational kinematics and torque"
+    },
+    {
+      "id": "ph-introductory-mechanics-13",
+      "name": "Moment of inertia and angular momentum"
+    },
+    {
+      "id": "ph-introductory-mechanics-14",
+      "name": "Static equilibrium"
+    },
+    {
+      "id": "ph-introductory-mechanics-15",
+      "name": "Newton's law of universal gravitation and circular orbits"
+    },
+    {
+      "id": "ph-introductory-mechanics-16",
+      "name": "Fluids: pressure, buoyancy, Archimedes' and Bernoulli's principles"
+    }
+  ]
+}

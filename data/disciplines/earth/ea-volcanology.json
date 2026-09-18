@@ -1,0 +1,61 @@
+{
+  "id": "ea-volcanology",
+  "name": "Volcanology",
+  "category": "Natural Hazards",
+  "level": 3,
+  "priority": "important",
+  "summary": "The physics and chemistry of volcanic eruptions, volcanic landforms and products, and how volcanoes are monitored and their hazards assessed.",
+  "prerequisites": [
+    "ea-igneous-petrology",
+    "ea-natural-hazards-and-disaster-risk"
+  ],
+  "related": [
+    "ph-geophysics"
+  ],
+  "topics": [
+    {
+      "id": "ea-volcanology-1",
+      "name": "Global distribution of volcanism and tectonic settings"
+    },
+    {
+      "id": "ea-volcanology-2",
+      "name": "Magma ascent, storage and degassing"
+    },
+    {
+      "id": "ea-volcanology-3",
+      "name": "Eruption styles: effusive to Plinian; the Volcanic Explosivity Index"
+    },
+    {
+      "id": "ea-volcanology-4",
+      "name": "Lava flows and lava domes"
+    },
+    {
+      "id": "ea-volcanology-5",
+      "name": "Explosive eruptions: fragmentation, plumes and tephra fall"
+    },
+    {
+      "id": "ea-volcanology-6",
+      "name": "Pyroclastic density currents"
+    },
+    {
+      "id": "ea-volcanology-7",
+      "name": "Lahars, debris avalanches and sector collapse"
+    },
+    {
+      "id": "ea-volcanology-8",
+      "name": "Volcanic gases and climate effects of eruptions"
+    },
+    {
+      "id": "ea-volcanology-9",
+      "name": "Volcano monitoring: seismicity, deformation and gas"
+    },
+    {
+      "id": "ea-volcanology-10",
+      "name": "Volcanic hazard assessment and crisis management"
+    },
+    {
+      "id": "ea-volcanology-11",
+      "name": "Case studies of landmark eruptions"
+    }
+  ]
+}

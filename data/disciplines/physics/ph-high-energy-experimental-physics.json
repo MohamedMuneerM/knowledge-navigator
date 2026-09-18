@@ -1,0 +1,31 @@
+{
+  "id": "ph-high-energy-experimental-physics",
+  "name": "High-Energy Experimental Physics",
+  "category": "Experimental Physics & Instrumentation",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How collider, fixed-target and underground experiments are designed, run and analysed.",
+  "prerequisites": [
+    "ph-particle-physics",
+    "ph-detector-physics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-high-energy-experimental-physics-1",
+      "name": "Collider experiments"
+    },
+    {
+      "id": "ph-high-energy-experimental-physics-2",
+      "name": "Fixed-target experiments"
+    },
+    {
+      "id": "ph-high-energy-experimental-physics-3",
+      "name": "Underground experiments"
+    },
+    {
+      "id": "ph-high-energy-experimental-physics-4",
+      "name": "Neutrino detectors"
+    }
+  ]
+}

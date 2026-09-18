@@ -1,0 +1,70 @@
+{
+  "id": "me-lightweight-structures-composites",
+  "name": "Lightweight Structures & Composite Design",
+  "category": "Solid Mechanics & Structures",
+  "level": 4,
+  "priority": "important",
+  "summary": "Designing stiff, strong structures at minimum mass with thin-walled sections, sandwich panels, composite laminates, lattices and structural optimisation.",
+  "prerequisites": [
+    "me-advanced-mechanics-of-materials",
+    "me-materials-selection",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "mt-composites",
+    "mt-fibre-composites-mechanics-manufacturing",
+    "mt-lightweight-structures",
+    "ae-composite-structures",
+    "ae-lightweight-structural-design"
+  ],
+  "topics": [
+    {
+      "id": "me-lightweight-structures-composites-1",
+      "name": "Lightweighting strategy: specific stiffness/strength and structural efficiency"
+    },
+    {
+      "id": "me-lightweight-structures-composites-2",
+      "name": "Thin-walled open and closed sections: bending, torsion and shear flow"
+    },
+    {
+      "id": "me-lightweight-structures-composites-3",
+      "name": "Plate and shell buckling; stiffened panels and crippling"
+    },
+    {
+      "id": "me-lightweight-structures-composites-4",
+      "name": "Sandwich structures: face/core design and failure modes"
+    },
+    {
+      "id": "me-lightweight-structures-composites-5",
+      "name": "Composite lamina mechanics: micromechanics and orthotropic properties"
+    },
+    {
+      "id": "me-lightweight-structures-composites-6",
+      "name": "Classical laminate theory (ABD matrix) and laminate stacking design"
+    },
+    {
+      "id": "me-lightweight-structures-composites-7",
+      "name": "Composite failure criteria (Tsai-Wu, Hashin) and damage"
+    },
+    {
+      "id": "me-lightweight-structures-composites-8",
+      "name": "Composite manufacturing routes (layup, RTM, filament winding, automated fibre placement) and design implications"
+    },
+    {
+      "id": "me-lightweight-structures-composites-9",
+      "name": "Joining lightweight structures: bonded and bolted composite joints"
+    },
+    {
+      "id": "me-lightweight-structures-composites-10",
+      "name": "Lattice and cellular structures for additive manufacturing"
+    },
+    {
+      "id": "me-lightweight-structures-composites-11",
+      "name": "Crashworthiness and energy absorption"
+    },
+    {
+      "id": "me-lightweight-structures-composites-12",
+      "name": "Frames, shells and protective panels for wearable and mobile machines"
+    }
+  ]
+}

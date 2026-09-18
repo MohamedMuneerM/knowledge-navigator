@@ -1,0 +1,59 @@
+{
+  "id": "ai-robot-perception",
+  "name": "Robot Perception",
+  "category": "Robotics Foundations",
+  "level": 3,
+  "priority": "important",
+  "summary": "How robots interpret sensor data: object recognition, pose estimation, depth and 3D reconstruction, point clouds, calibration and visual odometry.",
+  "prerequisites": [
+    "ai-actuators-sensors",
+    "ai-core-vision-tasks"
+  ],
+  "related": [
+    "el-perception-sensing",
+    "ai-3d-computer-vision",
+    "el-simultaneous-localization-and-mapping-slam"
+  ],
+  "topics": [
+    {
+      "id": "ai-robot-perception-1",
+      "name": "Computer Vision for Robotics"
+    },
+    {
+      "id": "ai-robot-perception-2",
+      "name": "Object Recognition"
+    },
+    {
+      "id": "ai-robot-perception-3",
+      "name": "Pose Estimation"
+    },
+    {
+      "id": "ai-robot-perception-4",
+      "name": "Scene Understanding"
+    },
+    {
+      "id": "ai-robot-perception-5",
+      "name": "3D Reconstruction"
+    },
+    {
+      "id": "ai-robot-perception-6",
+      "name": "Depth Perception"
+    },
+    {
+      "id": "ai-robot-perception-7",
+      "name": "Visual Odometry"
+    },
+    {
+      "id": "ai-robot-perception-8",
+      "name": "Point-cloud processing and registration (PCL, ICP)"
+    },
+    {
+      "id": "ai-robot-perception-9",
+      "name": "Sensor calibration: camera intrinsics, camera-lidar and hand-eye"
+    },
+    {
+      "id": "ai-robot-perception-10",
+      "name": "Tactile and force perception"
+    }
+  ]
+}

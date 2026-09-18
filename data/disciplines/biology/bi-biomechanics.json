@@ -1,0 +1,73 @@
+{
+  "id": "bi-biomechanics",
+  "name": "Biomechanics",
+  "category": "Biomechanics & Human Performance",
+  "level": 3,
+  "priority": "important",
+  "summary": "Mechanics applied to living things: tissue mechanics, musculoskeletal forces, human gait and animal locomotion.",
+  "prerequisites": [
+    "bi-muscle-biology",
+    "me-mechanics-of-materials",
+    "me-dynamics"
+  ],
+  "related": [
+    "ph-fluid-mechanics",
+    "ph-soft-matter-physics",
+    "me-biomechanics",
+    "mt-biological-bioinspired"
+  ],
+  "topics": [
+    {
+      "id": "bi-biomechanics-1",
+      "name": "Mechanical properties of biological tissues: stress, strain, viscoelasticity"
+    },
+    {
+      "id": "bi-biomechanics-2",
+      "name": "Bone mechanics and remodelling (Wolff's law)"
+    },
+    {
+      "id": "bi-biomechanics-3",
+      "name": "Tendon, ligament and cartilage mechanics"
+    },
+    {
+      "id": "bi-biomechanics-4",
+      "name": "Muscle mechanics and the Hill muscle model"
+    },
+    {
+      "id": "bi-biomechanics-5",
+      "name": "Joint mechanics, levers and moment arms"
+    },
+    {
+      "id": "bi-biomechanics-6",
+      "name": "Kinematics of human movement and motion capture"
+    },
+    {
+      "id": "bi-biomechanics-7",
+      "name": "Kinetics: ground reaction forces, inverse dynamics and joint torques"
+    },
+    {
+      "id": "bi-biomechanics-8",
+      "name": "Gait analysis: walking and running"
+    },
+    {
+      "id": "bi-biomechanics-9",
+      "name": "Balance, posture and fall mechanics"
+    },
+    {
+      "id": "bi-biomechanics-10",
+      "name": "Injury biomechanics and impact tolerance"
+    },
+    {
+      "id": "bi-biomechanics-11",
+      "name": "Comparative locomotion: flying, swimming and scaling laws"
+    },
+    {
+      "id": "bi-biomechanics-12",
+      "name": "Cell and tissue mechanobiology: how cells sense and respond to force"
+    },
+    {
+      "id": "bi-biomechanics-13",
+      "name": "Biofluid mechanics: blood flow and respiration"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "ph-laser-physics",
+  "name": "Laser Physics",
+  "category": "Optics & Photonics",
+  "level": 3,
+  "priority": "important",
+  "summary": "How lasers work, from stimulated emission and optical cavities to pulsed operation and laser types.",
+  "prerequisites": [
+    "ph-classical-optics",
+    "ph-quantum-mechanics"
+  ],
+  "related": [
+    "ph-modern-optics",
+    "el-optoelectronic-devices"
+  ],
+  "topics": [
+    {
+      "id": "ph-laser-physics-1",
+      "name": "Absorption, spontaneous and stimulated emission (Einstein coefficients)"
+    },
+    {
+      "id": "ph-laser-physics-2",
+      "name": "Population inversion and pumping schemes"
+    },
+    {
+      "id": "ph-laser-physics-3",
+      "name": "Optical gain, gain saturation and threshold"
+    },
+    {
+      "id": "ph-laser-physics-4",
+      "name": "Laser rate equations"
+    },
+    {
+      "id": "ph-laser-physics-5",
+      "name": "Optical resonators and cavity stability"
+    },
+    {
+      "id": "ph-laser-physics-6",
+      "name": "Longitudinal and transverse modes; Gaussian beams"
+    },
+    {
+      "id": "ph-laser-physics-7",
+      "name": "Linewidth, coherence and frequency stabilization"
+    },
+    {
+      "id": "ph-laser-physics-8",
+      "name": "Q-switching and mode-locking"
+    },
+    {
+      "id": "ph-laser-physics-9",
+      "name": "Laser types: gas, solid-state, dye, fibre and semiconductor lasers"
+    },
+    {
+      "id": "ph-laser-physics-10",
+      "name": "Tunable lasers and optical frequency combs"
+    },
+    {
+      "id": "ph-laser-physics-11",
+      "name": "Laser safety"
+    },
+    {
+      "id": "ph-laser-physics-12",
+      "name": "Applications of lasers in science and industry"
+    }
+  ]
+}

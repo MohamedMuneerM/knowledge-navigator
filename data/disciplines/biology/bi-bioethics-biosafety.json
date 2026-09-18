@@ -1,0 +1,58 @@
+{
+  "id": "bi-bioethics-biosafety",
+  "name": "Bioethics, Biosafety & Biosecurity",
+  "category": "Bioethics, History & Society",
+  "level": 2,
+  "priority": "optional",
+  "summary": "The ethical and safety questions raised by biological research and biotechnology, and the rules that govern them.",
+  "prerequisites": [
+    "bi-introductory-biology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-bioethics-biosafety-1",
+      "name": "Ethical frameworks: principlism, consequentialism, deontology"
+    },
+    {
+      "id": "bi-bioethics-biosafety-2",
+      "name": "Research ethics: informed consent, IRBs and the Belmont Report"
+    },
+    {
+      "id": "bi-bioethics-biosafety-3",
+      "name": "Animal research ethics"
+    },
+    {
+      "id": "bi-bioethics-biosafety-4",
+      "name": "Research integrity, misconduct and reproducibility"
+    },
+    {
+      "id": "bi-bioethics-biosafety-5",
+      "name": "Genetic privacy and discrimination"
+    },
+    {
+      "id": "bi-bioethics-biosafety-6",
+      "name": "Reproductive technologies and embryo research"
+    },
+    {
+      "id": "bi-bioethics-biosafety-7",
+      "name": "Gene editing and enhancement"
+    },
+    {
+      "id": "bi-bioethics-biosafety-8",
+      "name": "Neuroethics and brain-computer interfaces"
+    },
+    {
+      "id": "bi-bioethics-biosafety-9",
+      "name": "Biosafety levels and laboratory containment"
+    },
+    {
+      "id": "bi-bioethics-biosafety-10",
+      "name": "Dual-use research, gain-of-function and biosecurity"
+    },
+    {
+      "id": "bi-bioethics-biosafety-11",
+      "name": "Environmental ethics and GMOs"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "el-product-safety",
+  "name": "Product Safety",
+  "category": "Standards, Compliance & Certifications",
+  "level": 3,
+  "priority": "important",
+  "summary": "Electrical product-safety certification: UL, CSA, TUV, the CB Scheme and IEC 62368-1.",
+  "prerequisites": [
+    "el-international-standards-organizations",
+    "el-electrical-installations"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-product-safety-1",
+      "name": "UL (Underwriters Laboratories) standards"
+    },
+    {
+      "id": "el-product-safety-2",
+      "name": "CSA (Canadian Standards Association)"
+    },
+    {
+      "id": "el-product-safety-3",
+      "name": "TÜV certifications"
+    },
+    {
+      "id": "el-product-safety-4",
+      "name": "CB Scheme (international safety)"
+    },
+    {
+      "id": "el-product-safety-5",
+      "name": "IEC 62368-1 (audio/video/ICT equipment safety)"
+    },
+    {
+      "id": "el-product-safety-6",
+      "name": "Hazard-based safety engineering (IEC 62368-1)"
+    },
+    {
+      "id": "el-product-safety-7",
+      "name": "Insulation, creepage and clearance"
+    },
+    {
+      "id": "el-product-safety-8",
+      "name": "Touch current, fire enclosures and safety markings"
+    }
+  ]
+}

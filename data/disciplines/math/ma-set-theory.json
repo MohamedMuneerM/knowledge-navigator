@@ -1,0 +1,54 @@
+{
+  "id": "ma-set-theory",
+  "name": "Set Theory",
+  "category": "Foundations & Mathematical Logic",
+  "level": 3,
+  "priority": "important",
+  "summary": "Sets, relations, cardinals and ordinals, from naive set theory to the ZFC axioms that serve as the standard foundation of mathematics.",
+  "prerequisites": [
+    "ma-introduction-to-proofs"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-set-theory-1",
+      "name": "Naive set theory"
+    },
+    {
+      "id": "ma-set-theory-6",
+      "name": "Relations, functions and equivalence classes"
+    },
+    {
+      "id": "ma-set-theory-5",
+      "name": "Infinite sets and cardinality"
+    },
+    {
+      "id": "ma-set-theory-2",
+      "name": "Axiomatic set theory (ZFC)"
+    },
+    {
+      "id": "ma-set-theory-7",
+      "name": "Well-orderings and transfinite induction"
+    },
+    {
+      "id": "ma-set-theory-4",
+      "name": "Ordinal numbers"
+    },
+    {
+      "id": "ma-set-theory-3",
+      "name": "Cardinal numbers"
+    },
+    {
+      "id": "ma-set-theory-8",
+      "name": "The axiom of choice, Zorn's lemma and the well-ordering theorem"
+    },
+    {
+      "id": "ma-set-theory-9",
+      "name": "The continuum hypothesis and independence results (forcing overview)"
+    },
+    {
+      "id": "ma-set-theory-10",
+      "name": "Large cardinals (introduction)"
+    }
+  ]
+}

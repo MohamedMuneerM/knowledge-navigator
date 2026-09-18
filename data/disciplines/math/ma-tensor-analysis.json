@@ -1,0 +1,51 @@
+{
+  "id": "ma-tensor-analysis",
+  "name": "Tensor Analysis",
+  "category": "Geometry",
+  "level": 3,
+  "priority": "important",
+  "summary": "Tensors, index notation and covariant differentiation, the working language of continuum mechanics, electromagnetism and relativity.",
+  "prerequisites": [
+    "ma-vector-calculus",
+    "ma-linear-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-tensor-analysis-1",
+      "name": "Index notation and the summation convention"
+    },
+    {
+      "id": "ma-tensor-analysis-2",
+      "name": "Vectors, covectors and change of basis"
+    },
+    {
+      "id": "ma-tensor-analysis-3",
+      "name": "Tensors as multilinear maps; tensor algebra"
+    },
+    {
+      "id": "ma-tensor-analysis-4",
+      "name": "Metric tensor, raising and lowering indices"
+    },
+    {
+      "id": "ma-tensor-analysis-5",
+      "name": "Curvilinear coordinates and Christoffel symbols"
+    },
+    {
+      "id": "ma-tensor-analysis-6",
+      "name": "Covariant derivative and parallel transport"
+    },
+    {
+      "id": "ma-tensor-analysis-7",
+      "name": "Riemann curvature tensor, Ricci tensor and scalar curvature"
+    },
+    {
+      "id": "ma-tensor-analysis-8",
+      "name": "Tensor calculus in continuum mechanics and electromagnetism"
+    },
+    {
+      "id": "ma-tensor-analysis-9",
+      "name": "Isotropic tensors and tensor symmetries"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "ma-cryptography",
+  "name": "Cryptography",
+  "category": "Theoretical Computer Science",
+  "level": 3,
+  "priority": "important",
+  "summary": "The mathematics of secure communication: symmetric and public-key schemes, hash functions, signatures and protocols.",
+  "prerequisites": [
+    "ma-cryptographic-number-theory",
+    "ma-complexity-theory"
+  ],
+  "related": [
+    "el-cryptography-fundamentals",
+    "ma-cryptographic-number-theory",
+    "cs-applied-cryptography"
+  ],
+  "topics": [
+    {
+      "id": "ma-cryptography-5",
+      "name": "Classical ciphers and perfect secrecy"
+    },
+    {
+      "id": "ma-cryptography-2",
+      "name": "Symmetric cryptography"
+    },
+    {
+      "id": "ma-cryptography-6",
+      "name": "Block ciphers and modes of operation"
+    },
+    {
+      "id": "ma-cryptography-4",
+      "name": "Hash functions"
+    },
+    {
+      "id": "ma-cryptography-7",
+      "name": "Message authentication codes"
+    },
+    {
+      "id": "ma-cryptography-1",
+      "name": "Public-key cryptography"
+    },
+    {
+      "id": "ma-cryptography-8",
+      "name": "Digital signatures"
+    },
+    {
+      "id": "ma-cryptography-3",
+      "name": "Cryptographic protocols"
+    },
+    {
+      "id": "ma-cryptography-9",
+      "name": "Provable security and reductions"
+    },
+    {
+      "id": "ma-cryptography-10",
+      "name": "Post-quantum cryptography"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ea-planetary-surfaces-and-impact-cratering",
+  "name": "Planetary Surfaces & Impact Cratering",
+  "category": "Planetary Geoscience",
+  "level": 3,
+  "priority": "important",
+  "summary": "The geology of solid planetary surfaces: impact cratering, volcanism, tectonics and erosion, and how surfaces are mapped and dated.",
+  "prerequisites": [
+    "ea-comparative-planetology",
+    "ea-physical-geology"
+  ],
+  "related": [
+    "ph-planetary-science",
+    "ae-planetary-exploration-systems"
+  ],
+  "topics": [
+    {
+      "id": "ea-planetary-surfaces-and-impact-cratering-1",
+      "name": "Impact mechanics: contact, excavation and modification"
+    },
+    {
+      "id": "ea-planetary-surfaces-and-impact-cratering-2",
+      "name": "Crater morphology: simple, complex and multi-ring basins"
+    },
+    {
+      "id": "ea-planetary-surfaces-and-impact-cratering-3",
+      "name": "Shock metamorphism and impact melts"
+    },
+    {
+      "id": "ea-planetary-surfaces-and-impact-cratering-4",
+      "name": "Crater counting and surface-age chronology"
+    },
+    {
+      "id": "ea-planetary-surfaces-and-impact-cratering-5",
+      "name": "Terrestrial impact structures (Chicxulub, Vredefort, Sudbury)"
+    },
+    {
+      "id": "ea-planetary-surfaces-and-impact-cratering-6",
+      "name": "Planetary volcanism and cryovolcanism"
+    },
+    {
+      "id": "ea-planetary-surfaces-and-impact-cratering-7",
+      "name": "Planetary tectonics"
+    },
+    {
+      "id": "ea-planetary-surfaces-and-impact-cratering-8",
+      "name": "Aeolian, fluvial and glacial processes beyond Earth"
+    },
+    {
+      "id": "ea-planetary-surfaces-and-impact-cratering-9",
+      "name": "Regoliths and space weathering"
+    },
+    {
+      "id": "ea-planetary-surfaces-and-impact-cratering-10",
+      "name": "Planetary remote sensing and geologic mapping"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "cs-history-of-computing",
+  "name": "History of Computing",
+  "category": "Society, Ethics & Profession",
+  "level": 1,
+  "priority": "optional",
+  "summary": "How computing developed from mechanical calculators to cloud and AI, and the people and ideas that shaped it.",
+  "prerequisites": [],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-history-of-computing-1",
+      "name": "Early calculating devices: abacus to mechanical calculators"
+    },
+    {
+      "id": "cs-history-of-computing-2",
+      "name": "Babbage, Lovelace and the Analytical Engine"
+    },
+    {
+      "id": "cs-history-of-computing-3",
+      "name": "Turing, computability and wartime code-breaking"
+    },
+    {
+      "id": "cs-history-of-computing-4",
+      "name": "The first electronic computers (ENIAC, EDVAC, Manchester Baby)"
+    },
+    {
+      "id": "cs-history-of-computing-5",
+      "name": "Mainframes, transistors and integrated circuits"
+    },
+    {
+      "id": "cs-history-of-computing-6",
+      "name": "Programming languages from FORTRAN to today"
+    },
+    {
+      "id": "cs-history-of-computing-7",
+      "name": "Personal computers and the microprocessor revolution"
+    },
+    {
+      "id": "cs-history-of-computing-8",
+      "name": "Unix, free software and open source"
+    },
+    {
+      "id": "cs-history-of-computing-9",
+      "name": "ARPANET, the Internet and the Web"
+    },
+    {
+      "id": "cs-history-of-computing-10",
+      "name": "Mobile, cloud and the rise of AI"
+    }
+  ]
+}

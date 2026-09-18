@@ -1,0 +1,88 @@
+{
+  "id": "mt-plasticity-strengthening",
+  "name": "Plasticity & Strengthening Mechanisms",
+  "category": "Mechanical Behaviour",
+  "level": 3,
+  "priority": "core",
+  "summary": "Connects dislocation behaviour to macroscopic yielding and explains every major way to make metals stronger.",
+  "prerequisites": [
+    "mt-mechanical-properties",
+    "mt-defects"
+  ],
+  "related": [
+    "ma-solid-mechanics",
+    "me-continuum-mechanics-elasticity-plasticity"
+  ],
+  "topics": [
+    {
+      "id": "mt-plasticity-strengthening-1",
+      "name": "Theoretical shear strength and why real crystals are weaker"
+    },
+    {
+      "id": "mt-plasticity-strengthening-2",
+      "name": "Resolved shear stress and Schmid's law; critical resolved shear stress"
+    },
+    {
+      "id": "mt-plasticity-strengthening-3",
+      "name": "Single-crystal deformation: easy glide, multiple slip and stage I-III hardening"
+    },
+    {
+      "id": "mt-plasticity-strengthening-4",
+      "name": "Deformation by twinning"
+    },
+    {
+      "id": "mt-plasticity-strengthening-5",
+      "name": "Polycrystal plasticity: Taylor factor and compatibility"
+    },
+    {
+      "id": "mt-plasticity-strengthening-6",
+      "name": "Dislocation multiplication (Frank-Read sources) and forest hardening (Taylor equation)"
+    },
+    {
+      "id": "mt-plasticity-strengthening-7",
+      "name": "Strengthening mechanisms",
+      "sub": [
+        {
+          "id": "mt-plasticity-strengthening-7-1",
+          "name": "Grain-size (Hall-Petch) strengthening"
+        },
+        {
+          "id": "mt-plasticity-strengthening-7-2",
+          "name": "Solid-solution strengthening"
+        },
+        {
+          "id": "mt-plasticity-strengthening-7-3",
+          "name": "Precipitation and dispersion strengthening (cutting vs Orowan looping)"
+        },
+        {
+          "id": "mt-plasticity-strengthening-7-4",
+          "name": "Strain (work) hardening"
+        },
+        {
+          "id": "mt-plasticity-strengthening-7-5",
+          "name": "Transformation and composite strengthening"
+        }
+      ]
+    },
+    {
+      "id": "mt-plasticity-strengthening-8",
+      "name": "Yield-point phenomena, strain ageing and Lüders bands"
+    },
+    {
+      "id": "mt-plasticity-strengthening-9",
+      "name": "Temperature and strain-rate dependence of flow stress; thermally activated glide; Peierls stress in BCC"
+    },
+    {
+      "id": "mt-plasticity-strengthening-10",
+      "name": "Yield criteria: Tresca and von Mises; flow rules and plastic anisotropy (Hill)"
+    },
+    {
+      "id": "mt-plasticity-strengthening-11",
+      "name": "Strength-ductility trade-off and strategies to overcome it (TRIP, TWIP, bimodal grains)"
+    },
+    {
+      "id": "mt-plasticity-strengthening-12",
+      "name": "Introduction to crystal plasticity and dislocation dynamics modelling"
+    }
+  ]
+}

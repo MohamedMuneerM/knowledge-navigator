@@ -1,0 +1,70 @@
+{
+  "id": "me-thermal-management-compact-power",
+  "name": "Thermal Management of Compact Power Systems",
+  "category": "Energy & Power Systems",
+  "level": 4,
+  "priority": "important",
+  "summary": "Keeping motors, drives, batteries and electronics in dense machines and wearables within temperature limits using conduction, liquid, phase-change and thermoelectric cooling.",
+  "prerequisites": [
+    "me-thermal-fluid-systems-design"
+  ],
+  "related": [
+    "el-thermal-management",
+    "el-thermal-design",
+    "ae-spacecraft-thermal-control"
+  ],
+  "topics": [
+    {
+      "id": "me-thermal-management-compact-power-1",
+      "name": "Heat sources and thermal budgets in compact machines (motors, drives, batteries, electronics)"
+    },
+    {
+      "id": "me-thermal-management-compact-power-2",
+      "name": "Heat spreading, heat sinks and fin optimisation"
+    },
+    {
+      "id": "me-thermal-management-compact-power-3",
+      "name": "Thermal interface materials and contact resistance"
+    },
+    {
+      "id": "me-thermal-management-compact-power-4",
+      "name": "Forced-air cooling and fan selection"
+    },
+    {
+      "id": "me-thermal-management-compact-power-5",
+      "name": "Liquid cooling: cold plates, pumps, radiators and loop design"
+    },
+    {
+      "id": "me-thermal-management-compact-power-6",
+      "name": "Microchannel and jet-impingement cooling"
+    },
+    {
+      "id": "me-thermal-management-compact-power-7",
+      "name": "Heat pipes, vapour chambers and loop heat pipes"
+    },
+    {
+      "id": "me-thermal-management-compact-power-8",
+      "name": "Phase-change materials for transient thermal buffering"
+    },
+    {
+      "id": "me-thermal-management-compact-power-9",
+      "name": "Thermoelectric coolers and heat pumps"
+    },
+    {
+      "id": "me-thermal-management-compact-power-10",
+      "name": "Two-phase and spray cooling"
+    },
+    {
+      "id": "me-thermal-management-compact-power-11",
+      "name": "Motor and actuator thermal management (winding temperature, potting, housings)"
+    },
+    {
+      "id": "me-thermal-management-compact-power-12",
+      "name": "Human-contact and wearable thermal limits (skin temperature, garment cooling)"
+    },
+    {
+      "id": "me-thermal-management-compact-power-13",
+      "name": "Thermal simulation and testing (conjugate heat transfer CFD, IR thermography)"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "el-safety-standards",
+  "name": "Safety Standards",
+  "category": "Standards, Compliance & Certifications",
+  "level": 3,
+  "priority": "important",
+  "summary": "Functional-safety standards across industries: IEC 61508, ISO 26262, IEC 62304, IEC 60601, DO-178C/DO-254 and EN 50128.",
+  "prerequisites": [
+    "el-international-standards-organizations",
+    "el-reliability-testing"
+  ],
+  "related": [
+    "cs-program-analysis-verification"
+  ],
+  "topics": [
+    {
+      "id": "el-safety-standards-1",
+      "name": "IEC 61508 (Functional Safety)"
+    },
+    {
+      "id": "el-safety-standards-2",
+      "name": "ISO 26262 (Automotive Functional Safety)"
+    },
+    {
+      "id": "el-safety-standards-3",
+      "name": "IEC 62304 (Medical Device Software)"
+    },
+    {
+      "id": "el-safety-standards-4",
+      "name": "IEC 60601 (Medical Electrical Equipment)"
+    },
+    {
+      "id": "el-safety-standards-5",
+      "name": "DO-178C (Avionics Software)"
+    },
+    {
+      "id": "el-safety-standards-6",
+      "name": "DO-254 (Avionics Hardware)"
+    },
+    {
+      "id": "el-safety-standards-7",
+      "name": "EN 50128 (Railway Safety Software)"
+    }
+  ]
+}

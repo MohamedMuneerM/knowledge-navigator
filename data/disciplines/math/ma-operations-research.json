@@ -1,0 +1,47 @@
+{
+  "id": "ma-operations-research",
+  "name": "Operations Research",
+  "category": "Applied & Interdisciplinary Mathematics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Mathematics for better decisions in organisations: queues, scheduling, inventory and supply-chain models.",
+  "prerequisites": [
+    "ma-linear-programming",
+    "ma-stochastic-processes"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-operations-research-5",
+      "name": "Decision analysis"
+    },
+    {
+      "id": "ma-operations-research-1",
+      "name": "Queuing theory"
+    },
+    {
+      "id": "ma-operations-research-2",
+      "name": "Scheduling theory"
+    },
+    {
+      "id": "ma-operations-research-3",
+      "name": "Inventory theory"
+    },
+    {
+      "id": "ma-operations-research-6",
+      "name": "Simulation modelling"
+    },
+    {
+      "id": "ma-operations-research-7",
+      "name": "Project management: CPM and PERT"
+    },
+    {
+      "id": "ma-operations-research-4",
+      "name": "Supply chain optimization"
+    },
+    {
+      "id": "ma-operations-research-8",
+      "name": "Reliability theory"
+    }
+  ]
+}

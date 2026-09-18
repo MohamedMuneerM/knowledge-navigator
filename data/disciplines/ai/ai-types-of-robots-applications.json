@@ -1,0 +1,144 @@
+{
+  "id": "ai-types-of-robots-applications",
+  "name": "Types of Robots & Applications",
+  "category": "Robot Platforms & Locomotion",
+  "level": 2,
+  "priority": "important",
+  "summary": "A survey of robot families and application domains, from industrial arms and self-driving cars to drones, legged, medical, field, soft, swarm and micro robots.",
+  "prerequisites": [
+    "ai-robot-fundamentals"
+  ],
+  "related": [
+    "el-robot-types-applications",
+    "ai-legged-locomotion",
+    "ai-humanoid-robotics"
+  ],
+  "topics": [
+    {
+      "id": "ai-types-of-robots-applications-1",
+      "name": "Industrial Robotics",
+      "sub": [
+        {
+          "id": "ai-types-of-robots-applications-1-1",
+          "name": "Manufacturing robots"
+        },
+        {
+          "id": "ai-types-of-robots-applications-1-2",
+          "name": "Assembly robots"
+        },
+        {
+          "id": "ai-types-of-robots-applications-1-3",
+          "name": "Welding robots"
+        }
+      ]
+    },
+    {
+      "id": "ai-types-of-robots-applications-2",
+      "name": "Autonomous Vehicles",
+      "sub": [
+        {
+          "id": "ai-types-of-robots-applications-2-1",
+          "name": "Self-driving cars"
+        },
+        {
+          "id": "ai-types-of-robots-applications-2-2",
+          "name": "Perception systems"
+        },
+        {
+          "id": "ai-types-of-robots-applications-2-3",
+          "name": "Decision making"
+        },
+        {
+          "id": "ai-types-of-robots-applications-2-4",
+          "name": "V2X communication"
+        }
+      ]
+    },
+    {
+      "id": "ai-types-of-robots-applications-3",
+      "name": "Unmanned Aerial Vehicles (UAVs/Drones)",
+      "sub": [
+        {
+          "id": "ai-types-of-robots-applications-3-1",
+          "name": "Quadcopters"
+        },
+        {
+          "id": "ai-types-of-robots-applications-3-2",
+          "name": "Fixed-wing UAVs"
+        },
+        {
+          "id": "ai-types-of-robots-applications-3-3",
+          "name": "Flight control"
+        }
+      ]
+    },
+    {
+      "id": "ai-types-of-robots-applications-4",
+      "name": "Autonomous Mobile Robots (AMRs)"
+    },
+    {
+      "id": "ai-types-of-robots-applications-5",
+      "name": "Legged Robots",
+      "sub": [
+        {
+          "id": "ai-types-of-robots-applications-5-1",
+          "name": "Bipeds"
+        },
+        {
+          "id": "ai-types-of-robots-applications-5-2",
+          "name": "Quadrupeds"
+        },
+        {
+          "id": "ai-types-of-robots-applications-5-3",
+          "name": "Hexapods"
+        }
+      ]
+    },
+    {
+      "id": "ai-types-of-robots-applications-6",
+      "name": "Humanoid Robots"
+    },
+    {
+      "id": "ai-types-of-robots-applications-7",
+      "name": "Medical & Healthcare Robotics",
+      "sub": [
+        {
+          "id": "ai-types-of-robots-applications-7-1",
+          "name": "Surgical robots"
+        },
+        {
+          "id": "ai-types-of-robots-applications-7-2",
+          "name": "Rehabilitation robots"
+        },
+        {
+          "id": "ai-types-of-robots-applications-7-3",
+          "name": "Assistive robots"
+        }
+      ]
+    },
+    {
+      "id": "ai-types-of-robots-applications-8",
+      "name": "Agricultural Robotics"
+    },
+    {
+      "id": "ai-types-of-robots-applications-9",
+      "name": "Space Robotics"
+    },
+    {
+      "id": "ai-types-of-robots-applications-10",
+      "name": "Underwater Robotics (AUVs/ROVs)"
+    },
+    {
+      "id": "ai-types-of-robots-applications-11",
+      "name": "Soft Robotics"
+    },
+    {
+      "id": "ai-types-of-robots-applications-12",
+      "name": "Swarm Robotics"
+    },
+    {
+      "id": "ai-types-of-robots-applications-13",
+      "name": "Micro/Nano Robotics"
+    }
+  ]
+}

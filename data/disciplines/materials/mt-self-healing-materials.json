@@ -1,0 +1,47 @@
+{
+  "id": "mt-self-healing-materials",
+  "name": "Self-Healing & Adaptive Materials",
+  "category": "Frontier Materials",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Studies materials that repair damage on their own, extending service life of coatings, composites, concrete and soft robots.",
+  "prerequisites": [
+    "mt-composites",
+    "mt-smart-materials"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "mt-self-healing-materials-1",
+      "name": "Damage and healing concepts; healing efficiency"
+    },
+    {
+      "id": "mt-self-healing-materials-2",
+      "name": "Extrinsic healing: microcapsules and vascular networks"
+    },
+    {
+      "id": "mt-self-healing-materials-3",
+      "name": "Intrinsic healing polymers: reversible covalent bonds (Diels-Alder) and supramolecular chemistry"
+    },
+    {
+      "id": "mt-self-healing-materials-4",
+      "name": "Vitrimers and covalent adaptable networks"
+    },
+    {
+      "id": "mt-self-healing-materials-5",
+      "name": "Self-healing composites and coatings"
+    },
+    {
+      "id": "mt-self-healing-materials-6",
+      "name": "Self-healing concrete (bacterial and autogenous)"
+    },
+    {
+      "id": "mt-self-healing-materials-7",
+      "name": "Self-healing metals and ceramics"
+    },
+    {
+      "id": "mt-self-healing-materials-8",
+      "name": "Self-healing soft robots and electronics"
+    }
+  ]
+}

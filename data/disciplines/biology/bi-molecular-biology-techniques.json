@@ -1,0 +1,59 @@
+{
+  "id": "bi-molecular-biology-techniques",
+  "name": "Molecular Biology Techniques",
+  "category": "Laboratory & Research Methods",
+  "level": 2,
+  "priority": "core",
+  "summary": "The core toolkit for working with DNA and RNA: extraction, PCR, gels, cloning, sequencing and measuring gene expression.",
+  "prerequisites": [
+    "bi-laboratory-fundamentals",
+    "bi-molecular-biology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-molecular-biology-techniques-1",
+      "name": "Nucleic acid extraction and quantification"
+    },
+    {
+      "id": "bi-molecular-biology-techniques-2",
+      "name": "Restriction enzymes and DNA ligation"
+    },
+    {
+      "id": "bi-molecular-biology-techniques-3",
+      "name": "Agarose gel electrophoresis"
+    },
+    {
+      "id": "bi-molecular-biology-techniques-4",
+      "name": "Polymerase chain reaction (PCR) and primer design"
+    },
+    {
+      "id": "bi-molecular-biology-techniques-5",
+      "name": "Quantitative PCR (qPCR) and RT-qPCR"
+    },
+    {
+      "id": "bi-molecular-biology-techniques-6",
+      "name": "Molecular cloning: vectors, transformation and selection"
+    },
+    {
+      "id": "bi-molecular-biology-techniques-7",
+      "name": "Modern assembly methods: Gibson, Golden Gate"
+    },
+    {
+      "id": "bi-molecular-biology-techniques-8",
+      "name": "DNA sequencing in the lab: Sanger and library preparation"
+    },
+    {
+      "id": "bi-molecular-biology-techniques-9",
+      "name": "Southern and Northern blotting; in situ hybridisation"
+    },
+    {
+      "id": "bi-molecular-biology-techniques-10",
+      "name": "Site-directed mutagenesis"
+    },
+    {
+      "id": "bi-molecular-biology-techniques-11",
+      "name": "Transfection and reporter gene assays"
+    }
+  ]
+}

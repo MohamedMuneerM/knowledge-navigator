@@ -1,0 +1,62 @@
+{
+  "id": "ch-fuel-cells-hydrogen",
+  "name": "Fuel Cells, Electrolysis & Hydrogen Chemistry",
+  "category": "Electrochemistry & Energy",
+  "level": 4,
+  "priority": "important",
+  "summary": "Converting chemical energy to electricity and back: fuel cells, water electrolysers and the hydrogen economy.",
+  "prerequisites": [
+    "ch-electrochemistry"
+  ],
+  "related": [
+    "el-energy-innovations",
+    "ph-energy-physics",
+    "mt-fuel-cell-hydrogen"
+  ],
+  "topics": [
+    {
+      "id": "ch-fuel-cells-hydrogen-1",
+      "name": "Fuel-cell thermodynamics and efficiency"
+    },
+    {
+      "id": "ch-fuel-cells-hydrogen-2",
+      "name": "Oxygen reduction and hydrogen oxidation electrocatalysis"
+    },
+    {
+      "id": "ch-fuel-cells-hydrogen-3",
+      "name": "Proton-exchange membrane fuel cells: membranes, catalysts and membrane-electrode assemblies"
+    },
+    {
+      "id": "ch-fuel-cells-hydrogen-4",
+      "name": "Solid-oxide fuel cells and ceramic ion conductors"
+    },
+    {
+      "id": "ch-fuel-cells-hydrogen-5",
+      "name": "Alkaline, phosphoric-acid, molten-carbonate and direct-methanol fuel cells"
+    },
+    {
+      "id": "ch-fuel-cells-hydrogen-6",
+      "name": "Water electrolysis: alkaline, PEM and solid-oxide; HER and OER catalysts"
+    },
+    {
+      "id": "ch-fuel-cells-hydrogen-7",
+      "name": "Hydrogen production: steam reforming, electrolysis and photocatalysis"
+    },
+    {
+      "id": "ch-fuel-cells-hydrogen-8",
+      "name": "Hydrogen storage: compressed, cryogenic, metal hydrides and chemical carriers (ammonia, LOHC)"
+    },
+    {
+      "id": "ch-fuel-cells-hydrogen-9",
+      "name": "Electrochemical CO2 and N2 reduction"
+    },
+    {
+      "id": "ch-fuel-cells-hydrogen-10",
+      "name": "Durability, poisoning and degradation"
+    },
+    {
+      "id": "ch-fuel-cells-hydrogen-11",
+      "name": "Fuel cells in vehicles, aerospace and portable power"
+    }
+  ]
+}

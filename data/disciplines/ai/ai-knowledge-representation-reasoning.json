@@ -1,0 +1,116 @@
+{
+  "id": "ai-knowledge-representation-reasoning",
+  "name": "Knowledge Representation & Reasoning",
+  "category": "Classical AI: Search, Logic & Planning",
+  "level": 3,
+  "priority": "important",
+  "summary": "How to encode knowledge about the world (ontologies, rules, frames, knowledge graphs, fuzzy sets) so machines can reason with it.",
+  "prerequisites": [
+    "ai-logic-automated-reasoning"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-knowledge-representation-reasoning-1",
+      "name": "Logic-Based Representations",
+      "sub": [
+        {
+          "id": "ai-knowledge-representation-reasoning-1-1",
+          "name": "Propositional logic"
+        },
+        {
+          "id": "ai-knowledge-representation-reasoning-1-2",
+          "name": "First-order logic"
+        },
+        {
+          "id": "ai-knowledge-representation-reasoning-1-3",
+          "name": "Description logics"
+        }
+      ]
+    },
+    {
+      "id": "ai-knowledge-representation-reasoning-2",
+      "name": "Rule-Based Systems",
+      "sub": [
+        {
+          "id": "ai-knowledge-representation-reasoning-2-1",
+          "name": "Production systems"
+        },
+        {
+          "id": "ai-knowledge-representation-reasoning-2-2",
+          "name": "Forward and backward chaining"
+        }
+      ]
+    },
+    {
+      "id": "ai-knowledge-representation-reasoning-3",
+      "name": "Semantic Representations",
+      "sub": [
+        {
+          "id": "ai-knowledge-representation-reasoning-3-1",
+          "name": "Ontologies"
+        },
+        {
+          "id": "ai-knowledge-representation-reasoning-3-2",
+          "name": "Semantic networks"
+        },
+        {
+          "id": "ai-knowledge-representation-reasoning-3-3",
+          "name": "Frames"
+        },
+        {
+          "id": "ai-knowledge-representation-reasoning-3-4",
+          "name": "Knowledge graphs"
+        }
+      ]
+    },
+    {
+      "id": "ai-knowledge-representation-reasoning-4",
+      "name": "Expert Systems",
+      "sub": [
+        {
+          "id": "ai-knowledge-representation-reasoning-4-1",
+          "name": "Inference engines"
+        },
+        {
+          "id": "ai-knowledge-representation-reasoning-4-2",
+          "name": "Knowledge bases"
+        },
+        {
+          "id": "ai-knowledge-representation-reasoning-4-3",
+          "name": "Explanation facilities"
+        }
+      ]
+    },
+    {
+      "id": "ai-knowledge-representation-reasoning-5",
+      "name": "Fuzzy Logic",
+      "sub": [
+        {
+          "id": "ai-knowledge-representation-reasoning-5-1",
+          "name": "Fuzzy sets"
+        },
+        {
+          "id": "ai-knowledge-representation-reasoning-5-2",
+          "name": "Fuzzy inference systems"
+        },
+        {
+          "id": "ai-knowledge-representation-reasoning-5-3",
+          "name": "Defuzzification"
+        }
+      ]
+    },
+    {
+      "id": "ai-knowledge-representation-reasoning-6",
+      "name": "Nonmonotonic and default reasoning"
+    },
+    {
+      "id": "ai-knowledge-representation-reasoning-7",
+      "name": "Reasoning about actions, time and events (situation and event calculus)"
+    },
+    {
+      "id": "ai-knowledge-representation-reasoning-8",
+      "name": "Semantic Web technologies: RDF, OWL and SPARQL"
+    }
+  ]
+}

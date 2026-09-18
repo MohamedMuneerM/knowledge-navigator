@@ -1,0 +1,35 @@
+{
+  "id": "ma-stochastic-geometry",
+  "name": "Stochastic Geometry",
+  "category": "Emerging & Advanced Areas",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Random geometric structures: point processes, random tessellations and random sets.",
+  "prerequisites": [
+    "ma-measure-theoretic-probability",
+    "ma-integral-geometry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-stochastic-geometry-2",
+      "name": "Point processes (Poisson point process)"
+    },
+    {
+      "id": "ma-stochastic-geometry-1",
+      "name": "Random geometric structures"
+    },
+    {
+      "id": "ma-stochastic-geometry-3",
+      "name": "Random tessellations"
+    },
+    {
+      "id": "ma-stochastic-geometry-4",
+      "name": "Boolean models and random sets"
+    },
+    {
+      "id": "ma-stochastic-geometry-5",
+      "name": "Applications to wireless networks and materials"
+    }
+  ]
+}

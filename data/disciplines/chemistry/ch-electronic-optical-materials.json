@@ -1,0 +1,61 @@
+{
+  "id": "ch-electronic-optical-materials",
+  "name": "Electronic, Photonic & Magnetic Materials Chemistry",
+  "category": "Polymer, Materials & Solid-State Chemistry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The chemistry behind semiconductors, organic electronics, light-emitting and magnetic materials.",
+  "prerequisites": [
+    "ch-solid-state-chemistry",
+    "ch-polymer-chemistry"
+  ],
+  "related": [
+    "el-semiconductor-physics",
+    "el-optoelectronic-devices",
+    "el-cmos-technology",
+    "mt-semiconductor-materials",
+    "mt-optical-photonic-materials"
+  ],
+  "topics": [
+    {
+      "id": "ch-electronic-optical-materials-1",
+      "name": "Semiconductor materials: silicon, III-V, II-VI and wide-bandgap semiconductors"
+    },
+    {
+      "id": "ch-electronic-optical-materials-2",
+      "name": "Semiconductor processing chemistry: doping, etching, photolithography and photoresists"
+    },
+    {
+      "id": "ch-electronic-optical-materials-3",
+      "name": "Organic semiconductors and conjugated polymers"
+    },
+    {
+      "id": "ch-electronic-optical-materials-4",
+      "name": "OLEDs and emissive materials"
+    },
+    {
+      "id": "ch-electronic-optical-materials-5",
+      "name": "Organic field-effect transistors and printed electronics"
+    },
+    {
+      "id": "ch-electronic-optical-materials-6",
+      "name": "Transparent conductors and thermoelectric materials"
+    },
+    {
+      "id": "ch-electronic-optical-materials-7",
+      "name": "Phosphors, laser materials and luminescent materials"
+    },
+    {
+      "id": "ch-electronic-optical-materials-8",
+      "name": "Nonlinear optical and photonic materials"
+    },
+    {
+      "id": "ch-electronic-optical-materials-9",
+      "name": "Magnetic materials and molecular magnets"
+    },
+    {
+      "id": "ch-electronic-optical-materials-10",
+      "name": "Materials for quantum technologies"
+    }
+  ]
+}

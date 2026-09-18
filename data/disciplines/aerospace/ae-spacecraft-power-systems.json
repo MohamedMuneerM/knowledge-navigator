@@ -1,0 +1,68 @@
+{
+  "id": "ae-spacecraft-power-systems",
+  "name": "Spacecraft Electrical Power Systems",
+  "category": "Spacecraft Subsystems",
+  "level": 3,
+  "priority": "core",
+  "summary": "Generating, storing, regulating and distributing electrical power on spacecraft: solar arrays, batteries, RTGs and power electronics.",
+  "prerequisites": [
+    "ae-spacecraft-bus-fundamentals",
+    "el-circuit-theory"
+  ],
+  "related": [
+    "el-battery-technologies",
+    "el-power-distribution-management",
+    "el-spacecraft-electronics",
+    "me-energy-storage-power-integration"
+  ],
+  "topics": [
+    {
+      "id": "ae-spacecraft-power-systems-1",
+      "name": "Power system architecture: DET versus peak-power tracking, regulated versus unregulated buses"
+    },
+    {
+      "id": "ae-spacecraft-power-systems-2",
+      "name": "Power budgets and duty cycles"
+    },
+    {
+      "id": "ae-spacecraft-power-systems-3",
+      "name": "Solar cells: silicon and multi-junction, efficiency, degradation"
+    },
+    {
+      "id": "ae-spacecraft-power-systems-4",
+      "name": "Solar array design and sizing, including eclipse"
+    },
+    {
+      "id": "ae-spacecraft-power-systems-5",
+      "name": "Deployable and flexible arrays"
+    },
+    {
+      "id": "ae-spacecraft-power-systems-6",
+      "name": "Batteries: lithium-ion, depth of discharge and cycle life"
+    },
+    {
+      "id": "ae-spacecraft-power-systems-7",
+      "name": "Battery sizing and charge control"
+    },
+    {
+      "id": "ae-spacecraft-power-systems-8",
+      "name": "Radioisotope power systems: RTGs and MMRTG"
+    },
+    {
+      "id": "ae-spacecraft-power-systems-9",
+      "name": "Fuel cells and space nuclear reactors"
+    },
+    {
+      "id": "ae-spacecraft-power-systems-10",
+      "name": "Power conditioning, distribution and protection"
+    },
+    {
+      "id": "ae-spacecraft-power-systems-11",
+      "name": "Harness design and grounding"
+    },
+    {
+      "id": "ae-spacecraft-power-systems-12",
+      "name": "Power system testing"
+    }
+  ]
+}

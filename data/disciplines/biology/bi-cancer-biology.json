@@ -1,0 +1,60 @@
+{
+  "id": "bi-cancer-biology",
+  "name": "Cancer Biology",
+  "category": "Health & Biomedical Sciences",
+  "level": 4,
+  "priority": "important",
+  "summary": "The molecular and cellular basis of cancer, organised around the hallmarks of cancer, and the logic of modern cancer therapy.",
+  "prerequisites": [
+    "bi-cell-signaling",
+    "bi-gene-regulation-epigenetics",
+    "bi-genetics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-cancer-biology-1",
+      "name": "The hallmarks of cancer"
+    },
+    {
+      "id": "bi-cancer-biology-2",
+      "name": "Oncogenes and tumour suppressors"
+    },
+    {
+      "id": "bi-cancer-biology-3",
+      "name": "Genome instability and DNA repair defects"
+    },
+    {
+      "id": "bi-cancer-biology-4",
+      "name": "Cell cycle deregulation and evasion of apoptosis"
+    },
+    {
+      "id": "bi-cancer-biology-5",
+      "name": "Tumour metabolism"
+    },
+    {
+      "id": "bi-cancer-biology-6",
+      "name": "Angiogenesis, invasion and metastasis"
+    },
+    {
+      "id": "bi-cancer-biology-7",
+      "name": "The tumour microenvironment and cancer immunology"
+    },
+    {
+      "id": "bi-cancer-biology-8",
+      "name": "Clonal evolution and tumour heterogeneity"
+    },
+    {
+      "id": "bi-cancer-biology-9",
+      "name": "Cancer stem cells"
+    },
+    {
+      "id": "bi-cancer-biology-10",
+      "name": "Therapies: chemotherapy, radiotherapy, targeted drugs and immunotherapy"
+    },
+    {
+      "id": "bi-cancer-biology-11",
+      "name": "Cancer genomics and precision oncology"
+    }
+  ]
+}

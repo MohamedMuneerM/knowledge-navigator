@@ -1,0 +1,67 @@
+{
+  "id": "bi-human-physiology",
+  "name": "Human Physiology",
+  "category": "Anatomy & Physiology",
+  "level": 2,
+  "priority": "core",
+  "summary": "How the organ systems of the human body work and are regulated to keep conditions stable (homeostasis).",
+  "prerequisites": [
+    "bi-human-anatomy",
+    "bi-membranes-transport-bioelectricity"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-human-physiology-1",
+      "name": "Homeostasis, negative and positive feedback"
+    },
+    {
+      "id": "bi-human-physiology-2",
+      "name": "Nervous system physiology: neurons, reflexes and autonomic control"
+    },
+    {
+      "id": "bi-human-physiology-3",
+      "name": "Muscle physiology: skeletal, cardiac and smooth muscle (overview)"
+    },
+    {
+      "id": "bi-human-physiology-4",
+      "name": "Cardiovascular physiology: cardiac cycle, ECG, blood pressure and its regulation"
+    },
+    {
+      "id": "bi-human-physiology-5",
+      "name": "Blood: composition, haemostasis and blood groups"
+    },
+    {
+      "id": "bi-human-physiology-6",
+      "name": "Respiratory physiology: ventilation, gas exchange and O2/CO2 transport"
+    },
+    {
+      "id": "bi-human-physiology-7",
+      "name": "Renal physiology: filtration, reabsorption, secretion and urine concentration"
+    },
+    {
+      "id": "bi-human-physiology-8",
+      "name": "Fluid, electrolyte and acid-base balance"
+    },
+    {
+      "id": "bi-human-physiology-9",
+      "name": "Gastrointestinal physiology: digestion, absorption and motility"
+    },
+    {
+      "id": "bi-human-physiology-10",
+      "name": "Human nutrition: macronutrients, micronutrients and energy balance"
+    },
+    {
+      "id": "bi-human-physiology-11",
+      "name": "Endocrine physiology overview"
+    },
+    {
+      "id": "bi-human-physiology-12",
+      "name": "Thermoregulation"
+    },
+    {
+      "id": "bi-human-physiology-13",
+      "name": "Integrated responses: exercise, altitude and stress"
+    }
+  ]
+}

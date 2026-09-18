@@ -1,0 +1,59 @@
+{
+  "id": "cs-interpreters-runtime-systems",
+  "name": "Interpreters, Virtual Machines & Runtime Systems",
+  "category": "Programming Languages & Compilers",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How language runtimes execute programs: interpreters, bytecode virtual machines, garbage collectors and just-in-time compilers.",
+  "prerequisites": [
+    "cs-compilers",
+    "cs-systems-programming"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-interpreters-runtime-systems-1",
+      "name": "Tree-walking interpreters"
+    },
+    {
+      "id": "cs-interpreters-runtime-systems-2",
+      "name": "Bytecode design and stack-based virtual machines"
+    },
+    {
+      "id": "cs-interpreters-runtime-systems-3",
+      "name": "Register-based virtual machines"
+    },
+    {
+      "id": "cs-interpreters-runtime-systems-4",
+      "name": "Object representation and dynamic dispatch"
+    },
+    {
+      "id": "cs-interpreters-runtime-systems-5",
+      "name": "Garbage collection: mark-sweep, copying and generational"
+    },
+    {
+      "id": "cs-interpreters-runtime-systems-6",
+      "name": "Concurrent and incremental garbage collection"
+    },
+    {
+      "id": "cs-interpreters-runtime-systems-7",
+      "name": "Just-in-time compilation and tracing JITs"
+    },
+    {
+      "id": "cs-interpreters-runtime-systems-8",
+      "name": "Inline caches and speculative optimization"
+    },
+    {
+      "id": "cs-interpreters-runtime-systems-9",
+      "name": "Case studies: JVM, CPython, V8 and the .NET CLR"
+    },
+    {
+      "id": "cs-interpreters-runtime-systems-10",
+      "name": "WebAssembly as a portable runtime"
+    },
+    {
+      "id": "cs-interpreters-runtime-systems-11",
+      "name": "Runtime support for concurrency: green threads and async runtimes"
+    }
+  ]
+}

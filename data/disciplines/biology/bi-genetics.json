@@ -1,0 +1,71 @@
+{
+  "id": "bi-genetics",
+  "name": "Genetics",
+  "category": "Genetics & Genomics",
+  "level": 2,
+  "priority": "core",
+  "summary": "How traits are inherited and how genes are found and analysed: Mendelian and chromosomal inheritance, mutation, mapping and genetic analysis.",
+  "prerequisites": [
+    "bi-cell-biology",
+    "ma-elementary-probability"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-genetics-1",
+      "name": "Meiosis, sexual life cycles and the chromosomal basis of inheritance"
+    },
+    {
+      "id": "bi-genetics-2",
+      "name": "Mendel's laws: segregation and independent assortment"
+    },
+    {
+      "id": "bi-genetics-3",
+      "name": "Probability in genetics: Punnett squares, branch diagrams and chi-square tests"
+    },
+    {
+      "id": "bi-genetics-4",
+      "name": "Extensions of Mendel: incomplete dominance, codominance, multiple alleles, epistasis, penetrance"
+    },
+    {
+      "id": "bi-genetics-5",
+      "name": "Sex determination and sex-linked inheritance"
+    },
+    {
+      "id": "bi-genetics-6",
+      "name": "Linkage, recombination and genetic mapping"
+    },
+    {
+      "id": "bi-genetics-7",
+      "name": "Pedigree analysis of human traits"
+    },
+    {
+      "id": "bi-genetics-8",
+      "name": "Mutation types, mutagenesis and forward genetic screens"
+    },
+    {
+      "id": "bi-genetics-9",
+      "name": "Complementation tests and gene interaction"
+    },
+    {
+      "id": "bi-genetics-10",
+      "name": "Chromosomal aberrations: aneuploidy, polyploidy and rearrangements"
+    },
+    {
+      "id": "bi-genetics-11",
+      "name": "Bacterial and phage genetics: conjugation, transformation, transduction"
+    },
+    {
+      "id": "bi-genetics-12",
+      "name": "Extranuclear inheritance: mitochondrial and chloroplast genes"
+    },
+    {
+      "id": "bi-genetics-13",
+      "name": "Reverse genetics: knockouts, knockdowns and suppressor/enhancer screens"
+    },
+    {
+      "id": "bi-genetics-14",
+      "name": "Genetics of model organisms (yeast, fly, worm, mouse) as analytical tools"
+    }
+  ]
+}

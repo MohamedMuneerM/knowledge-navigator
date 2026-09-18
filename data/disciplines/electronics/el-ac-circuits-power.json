@@ -1,0 +1,73 @@
+{
+  "id": "el-ac-circuits-power",
+  "name": "AC Circuits, Power & Three-Phase Systems",
+  "category": "Fundamentals & Mathematics",
+  "level": 2,
+  "priority": "core",
+  "summary": "The second circuits course: sinusoidal steady state, complex power, resonance, coupled coils, two-ports and balanced three-phase systems.",
+  "prerequisites": [
+    "el-circuit-theory",
+    "el-mathematical-foundations"
+  ],
+  "related": [
+    "ma-circuit-theory"
+  ],
+  "topics": [
+    {
+      "id": "el-ac-circuits-power-1",
+      "name": "Sinusoids, phasors and impedance/admittance"
+    },
+    {
+      "id": "el-ac-circuits-power-2",
+      "name": "Sinusoidal steady-state analysis (nodal, mesh, theorems in the phasor domain)"
+    },
+    {
+      "id": "el-ac-circuits-power-3",
+      "name": "RMS and average values of periodic waveforms"
+    },
+    {
+      "id": "el-ac-circuits-power-4",
+      "name": "Instantaneous, average, reactive and complex power"
+    },
+    {
+      "id": "el-ac-circuits-power-5",
+      "name": "Power factor and power-factor correction"
+    },
+    {
+      "id": "el-ac-circuits-power-6",
+      "name": "Maximum average power transfer"
+    },
+    {
+      "id": "el-ac-circuits-power-7",
+      "name": "Resonance (series and parallel) and quality factor"
+    },
+    {
+      "id": "el-ac-circuits-power-8",
+      "name": "Frequency response of circuits and Bode plots"
+    },
+    {
+      "id": "el-ac-circuits-power-9",
+      "name": "Magnetically coupled circuits, mutual inductance and the ideal transformer"
+    },
+    {
+      "id": "el-ac-circuits-power-10",
+      "name": "Balanced three-phase circuits: wye and delta connections"
+    },
+    {
+      "id": "el-ac-circuits-power-11",
+      "name": "Three-phase power and its measurement (two-wattmeter method)"
+    },
+    {
+      "id": "el-ac-circuits-power-12",
+      "name": "Unbalanced three-phase loads (introduction)"
+    },
+    {
+      "id": "el-ac-circuits-power-13",
+      "name": "Two-port networks (z, y, h and ABCD parameters)"
+    },
+    {
+      "id": "el-ac-circuits-power-14",
+      "name": "Non-sinusoidal waveforms: Fourier series applied to circuits"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "ae-fatigue-fracture-damage-tolerance",
+  "name": "Fatigue, Fracture and Damage Tolerance",
+  "category": "Structures & Materials",
+  "level": 3,
+  "priority": "important",
+  "summary": "Why aerospace structures crack and how they are designed and inspected so cracks never become catastrophic.",
+  "prerequisites": [
+    "ae-aerospace-structures",
+    "ae-aerospace-materials"
+  ],
+  "related": [
+    "mt-fracture-mechanics",
+    "mt-fatigue-failure-analysis",
+    "me-fatigue-fracture-creep"
+  ],
+  "topics": [
+    {
+      "id": "ae-fatigue-fracture-damage-tolerance-1",
+      "name": "Lessons from failures: Comet, Aloha 243 and others"
+    },
+    {
+      "id": "ae-fatigue-fracture-damage-tolerance-2",
+      "name": "Stress concentrations"
+    },
+    {
+      "id": "ae-fatigue-fracture-damage-tolerance-3",
+      "name": "High-cycle fatigue: S-N curves and mean-stress effects"
+    },
+    {
+      "id": "ae-fatigue-fracture-damage-tolerance-4",
+      "name": "Cumulative damage: Miner's rule"
+    },
+    {
+      "id": "ae-fatigue-fracture-damage-tolerance-5",
+      "name": "Low-cycle fatigue and strain-life methods"
+    },
+    {
+      "id": "ae-fatigue-fracture-damage-tolerance-6",
+      "name": "Linear elastic fracture mechanics: stress intensity factor, fracture toughness"
+    },
+    {
+      "id": "ae-fatigue-fracture-damage-tolerance-7",
+      "name": "Fatigue crack growth: Paris law"
+    },
+    {
+      "id": "ae-fatigue-fracture-damage-tolerance-8",
+      "name": "Safe-life, fail-safe and damage-tolerant design philosophies"
+    },
+    {
+      "id": "ae-fatigue-fracture-damage-tolerance-9",
+      "name": "Fracture control for spacecraft and pressure vessels (NASA-STD-5019)"
+    },
+    {
+      "id": "ae-fatigue-fracture-damage-tolerance-10",
+      "name": "Non-destructive inspection methods and intervals"
+    },
+    {
+      "id": "ae-fatigue-fracture-damage-tolerance-11",
+      "name": "Structural health monitoring"
+    }
+  ]
+}

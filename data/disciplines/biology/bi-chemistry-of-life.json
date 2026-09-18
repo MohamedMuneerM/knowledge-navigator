@@ -1,0 +1,65 @@
+{
+  "id": "bi-chemistry-of-life",
+  "name": "Chemistry of Life",
+  "category": "Foundations of Biology",
+  "level": 1,
+  "priority": "core",
+  "summary": "The chemistry a biologist needs: bonds, water, pH, carbon compounds and the structure of the four families of biological macromolecules.",
+  "prerequisites": [
+    "bi-introductory-biology",
+    "ch-introductory-chemistry"
+  ],
+  "related": [
+    "ch-atomic-structure-periodicity"
+  ],
+  "topics": [
+    {
+      "id": "bi-chemistry-of-life-1",
+      "name": "Elements of life, atomic structure and isotopes (including radioisotopes in biology)"
+    },
+    {
+      "id": "bi-chemistry-of-life-2",
+      "name": "Covalent, ionic and hydrogen bonds; van der Waals and hydrophobic interactions"
+    },
+    {
+      "id": "bi-chemistry-of-life-3",
+      "name": "Properties of water: cohesion, heat capacity, solvent behaviour"
+    },
+    {
+      "id": "bi-chemistry-of-life-4",
+      "name": "Acids, bases, pH and biological buffers"
+    },
+    {
+      "id": "bi-chemistry-of-life-5",
+      "name": "Carbon chemistry and the main functional groups"
+    },
+    {
+      "id": "bi-chemistry-of-life-6",
+      "name": "Condensation and hydrolysis: building and breaking polymers"
+    },
+    {
+      "id": "bi-chemistry-of-life-7",
+      "name": "Carbohydrates: monosaccharides, disaccharides, polysaccharides"
+    },
+    {
+      "id": "bi-chemistry-of-life-8",
+      "name": "Lipids: fats, phospholipids, steroids"
+    },
+    {
+      "id": "bi-chemistry-of-life-9",
+      "name": "Proteins: amino acids, peptide bonds and the four levels of structure"
+    },
+    {
+      "id": "bi-chemistry-of-life-10",
+      "name": "Nucleic acids: nucleotides, DNA and RNA"
+    },
+    {
+      "id": "bi-chemistry-of-life-11",
+      "name": "Energy, free energy and chemical reactions in cells (introductory)"
+    },
+    {
+      "id": "bi-chemistry-of-life-12",
+      "name": "Enzymes as catalysts: active site, substrate and denaturation"
+    }
+  ]
+}

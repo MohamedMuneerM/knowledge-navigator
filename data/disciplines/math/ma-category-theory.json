@@ -1,0 +1,60 @@
+{
+  "id": "ma-category-theory",
+  "name": "Category Theory",
+  "category": "Foundations & Mathematical Logic",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The language of objects and structure-preserving maps (functors, natural transformations, limits, adjunctions) that unifies algebra, topology and logic.",
+  "prerequisites": [
+    "ma-abstract-algebra"
+  ],
+  "related": [
+    "cs-functional-programming"
+  ],
+  "topics": [
+    {
+      "id": "ma-category-theory-1",
+      "name": "Categories and functors"
+    },
+    {
+      "id": "ma-category-theory-2",
+      "name": "Natural transformations"
+    },
+    {
+      "id": "ma-category-theory-8",
+      "name": "Universal properties and the Yoneda lemma"
+    },
+    {
+      "id": "ma-category-theory-3",
+      "name": "Limits and colimits"
+    },
+    {
+      "id": "ma-category-theory-4",
+      "name": "Adjoint functors"
+    },
+    {
+      "id": "ma-category-theory-9",
+      "name": "Monads and algebras"
+    },
+    {
+      "id": "ma-category-theory-10",
+      "name": "Monoidal categories"
+    },
+    {
+      "id": "ma-category-theory-11",
+      "name": "Abelian categories"
+    },
+    {
+      "id": "ma-category-theory-5",
+      "name": "Topos theory"
+    },
+    {
+      "id": "ma-category-theory-6",
+      "name": "Higher category theory"
+    },
+    {
+      "id": "ma-category-theory-7",
+      "name": "Category-theoretic physics"
+    }
+  ]
+}

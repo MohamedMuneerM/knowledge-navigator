@@ -1,0 +1,59 @@
+{
+  "id": "ea-glaciology",
+  "name": "Glaciology & the Cryosphere",
+  "category": "Earth Surface Processes",
+  "level": 3,
+  "priority": "important",
+  "summary": "Glaciers, ice sheets, sea ice, snow and permafrost: how ice forms, flows and responds to climate, and its role in sea level.",
+  "prerequisites": [
+    "ea-physical-geology",
+    "ma-calculus"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-glaciology-1",
+      "name": "Components of the cryosphere and their distribution"
+    },
+    {
+      "id": "ea-glaciology-2",
+      "name": "Snow to firn to glacier ice"
+    },
+    {
+      "id": "ea-glaciology-3",
+      "name": "Glacier mass balance and energy balance"
+    },
+    {
+      "id": "ea-glaciology-4",
+      "name": "Ice deformation (Glen's flow law) and basal sliding"
+    },
+    {
+      "id": "ea-glaciology-5",
+      "name": "Glacier hydrology and surges"
+    },
+    {
+      "id": "ea-glaciology-6",
+      "name": "Ice sheets and ice shelves: Greenland and Antarctica"
+    },
+    {
+      "id": "ea-glaciology-7",
+      "name": "Ice-sheet instabilities and sea-level contribution"
+    },
+    {
+      "id": "ea-glaciology-8",
+      "name": "Sea ice: formation, extent and climate feedbacks"
+    },
+    {
+      "id": "ea-glaciology-9",
+      "name": "Permafrost and periglacial processes"
+    },
+    {
+      "id": "ea-glaciology-10",
+      "name": "Ice cores as climate archives"
+    },
+    {
+      "id": "ea-glaciology-11",
+      "name": "Glacial erosion, deposition and landforms"
+    }
+  ]
+}

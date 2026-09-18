@@ -1,0 +1,78 @@
+{
+  "id": "ae-compressible-flow-gas-dynamics",
+  "name": "Compressible Flow and Gas Dynamics",
+  "category": "Aerodynamics",
+  "level": 3,
+  "priority": "core",
+  "summary": "High-speed flow of gases: sound waves, shocks, expansions and nozzle flow, the basis of supersonic flight and rocket nozzles.",
+  "prerequisites": [
+    "ae-aerodynamics-fundamentals",
+    "ae-aerospace-thermodynamics"
+  ],
+  "related": [
+    "ph-fluid-mechanics",
+    "me-advanced-fluid-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "ae-compressible-flow-gas-dynamics-1",
+      "name": "Speed of sound and Mach number"
+    },
+    {
+      "id": "ae-compressible-flow-gas-dynamics-2",
+      "name": "Isentropic flow relations and stagnation properties"
+    },
+    {
+      "id": "ae-compressible-flow-gas-dynamics-3",
+      "name": "Normal shock waves: Rankine-Hugoniot relations"
+    },
+    {
+      "id": "ae-compressible-flow-gas-dynamics-4",
+      "name": "Oblique shock waves and the theta-beta-Mach relation"
+    },
+    {
+      "id": "ae-compressible-flow-gas-dynamics-5",
+      "name": "Prandtl-Meyer expansion waves"
+    },
+    {
+      "id": "ae-compressible-flow-gas-dynamics-6",
+      "name": "Shock-expansion theory for supersonic airfoils"
+    },
+    {
+      "id": "ae-compressible-flow-gas-dynamics-7",
+      "name": "Quasi-one-dimensional flow: converging-diverging nozzles and choking"
+    },
+    {
+      "id": "ae-compressible-flow-gas-dynamics-8",
+      "name": "Nozzle operating regimes: over-expansion, under-expansion, shocks in the nozzle"
+    },
+    {
+      "id": "ae-compressible-flow-gas-dynamics-9",
+      "name": "Diffusers and supersonic wind tunnels"
+    },
+    {
+      "id": "ae-compressible-flow-gas-dynamics-10",
+      "name": "Fanno flow (friction) and Rayleigh flow (heat addition)"
+    },
+    {
+      "id": "ae-compressible-flow-gas-dynamics-11",
+      "name": "Linearised subsonic flow and compressibility corrections (Prandtl-Glauert)"
+    },
+    {
+      "id": "ae-compressible-flow-gas-dynamics-12",
+      "name": "Critical Mach number, drag divergence and the transonic regime"
+    },
+    {
+      "id": "ae-compressible-flow-gas-dynamics-13",
+      "name": "Linearised supersonic flow and wave drag"
+    },
+    {
+      "id": "ae-compressible-flow-gas-dynamics-14",
+      "name": "Method of characteristics"
+    },
+    {
+      "id": "ae-compressible-flow-gas-dynamics-15",
+      "name": "Unsteady waves and shock tubes"
+    }
+  ]
+}

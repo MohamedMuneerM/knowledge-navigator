@@ -1,0 +1,55 @@
+{
+  "id": "ea-lunar-geology",
+  "name": "Geology of the Moon",
+  "category": "Planetary Geoscience",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "The Moon's origin, crust, volcanism and impact history, the Apollo sample record and the science of lunar exploration.",
+  "prerequisites": [
+    "ea-planetary-surfaces-and-impact-cratering",
+    "ea-igneous-petrology"
+  ],
+  "related": [
+    "ph-planetary-science",
+    "ae-planetary-exploration-systems",
+    "ae-space-resources-surface-systems"
+  ],
+  "topics": [
+    {
+      "id": "ea-lunar-geology-1",
+      "name": "Origin of the Moon: the giant-impact hypothesis"
+    },
+    {
+      "id": "ea-lunar-geology-2",
+      "name": "The lunar magma ocean and anorthositic highlands"
+    },
+    {
+      "id": "ea-lunar-geology-3",
+      "name": "Mare basalts and lunar volcanism"
+    },
+    {
+      "id": "ea-lunar-geology-4",
+      "name": "KREEP and the Procellarum region"
+    },
+    {
+      "id": "ea-lunar-geology-5",
+      "name": "Lunar stratigraphy and the basin-forming epoch"
+    },
+    {
+      "id": "ea-lunar-geology-6",
+      "name": "The Apollo and Luna samples"
+    },
+    {
+      "id": "ea-lunar-geology-7",
+      "name": "Lunar regolith and space weathering"
+    },
+    {
+      "id": "ea-lunar-geology-8",
+      "name": "Polar volatiles and water ice"
+    },
+    {
+      "id": "ea-lunar-geology-9",
+      "name": "Lunar resources, ISRU and the Artemis era"
+    }
+  ]
+}

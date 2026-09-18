@@ -1,0 +1,100 @@
+{
+  "id": "ph-solid-state-physics",
+  "name": "Solid State Physics",
+  "category": "Condensed Matter Physics",
+  "level": 3,
+  "priority": "core",
+  "summary": "Crystals, electrons and phonons in solids, and how they explain metals, semiconductors, magnets and superconductors.",
+  "prerequisites": [
+    "ph-quantum-mechanics",
+    "ph-thermodynamics-statistical-mechanics"
+  ],
+  "related": [
+    "el-semiconductor-physics",
+    "mt-electronic-properties",
+    "ch-structural-methods-diffraction",
+    "ch-solid-state-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "ph-solid-state-physics-1",
+      "name": "Crystal structures and crystallography"
+    },
+    {
+      "id": "ph-solid-state-physics-2",
+      "name": "Reciprocal lattice and Brillouin zones"
+    },
+    {
+      "id": "ph-solid-state-physics-3",
+      "name": "X-ray diffraction"
+    },
+    {
+      "id": "ph-solid-state-physics-20",
+      "name": "Free-electron models (Drude and Sommerfeld)"
+    },
+    {
+      "id": "ph-solid-state-physics-5",
+      "name": "Phonons and lattice dynamics"
+    },
+    {
+      "id": "ph-solid-state-physics-4",
+      "name": "Band theory of solids"
+    },
+    {
+      "id": "ph-solid-state-physics-10",
+      "name": "Metals and Fermi surfaces"
+    },
+    {
+      "id": "ph-solid-state-physics-9",
+      "name": "Insulators"
+    },
+    {
+      "id": "ph-solid-state-physics-8",
+      "name": "Semiconductors (intrinsic, extrinsic, p-n junctions)"
+    },
+    {
+      "id": "ph-solid-state-physics-6",
+      "name": "Electrical conductivity"
+    },
+    {
+      "id": "ph-solid-state-physics-7",
+      "name": "Thermal conductivity"
+    },
+    {
+      "id": "ph-solid-state-physics-17",
+      "name": "Electron-phonon interactions"
+    },
+    {
+      "id": "ph-solid-state-physics-14",
+      "name": "Dielectrics"
+    },
+    {
+      "id": "ph-solid-state-physics-13",
+      "name": "Magnetism (ferro-, antiferro-, ferri-, para-, dia-)"
+    },
+    {
+      "id": "ph-solid-state-physics-11",
+      "name": "Superconductivity (BCS theory, Type I/II)"
+    },
+    {
+      "id": "ph-solid-state-physics-12",
+      "name": "High-temperature superconductivity"
+    },
+    {
+      "id": "ph-solid-state-physics-15",
+      "name": "Defects and dislocations"
+    },
+    {
+      "id": "ph-solid-state-physics-16",
+      "name": "Surface physics"
+    },
+    {
+      "id": "ph-solid-state-physics-18",
+      "name": "Hall effect and quantum Hall effect"
+    },
+    {
+      "id": "ph-solid-state-physics-19",
+      "name": "Topological insulators"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "el-telemedicine-digital-health",
+  "name": "Telemedicine & Digital Health",
+  "category": "Medical, Industrial & Other Application Domains",
+  "level": 3,
+  "priority": "optional",
+  "summary": "Connected care: teleconsultation, remote diagnostics, EHRs, health information exchange, mHealth apps and decision support.",
+  "prerequisites": [
+    "el-patient-monitoring"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-telemedicine-digital-health-1",
+      "name": "Teleconsultation platforms"
+    },
+    {
+      "id": "el-telemedicine-digital-health-2",
+      "name": "Remote diagnostics"
+    },
+    {
+      "id": "el-telemedicine-digital-health-3",
+      "name": "Electronic Health Records (EHR)"
+    },
+    {
+      "id": "el-telemedicine-digital-health-4",
+      "name": "Health Information Exchange (HIE)"
+    },
+    {
+      "id": "el-telemedicine-digital-health-5",
+      "name": "mHealth applications"
+    },
+    {
+      "id": "el-telemedicine-digital-health-6",
+      "name": "Prescription management"
+    },
+    {
+      "id": "el-telemedicine-digital-health-7",
+      "name": "Clinical decision support systems"
+    }
+  ]
+}

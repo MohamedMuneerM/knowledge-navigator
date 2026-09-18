@@ -1,0 +1,73 @@
+{
+  "id": "mt-crystallography-diffraction",
+  "name": "Crystallography & Diffraction",
+  "category": "Structure of Materials",
+  "level": 2,
+  "priority": "core",
+  "summary": "Covers the symmetry language of crystals and the diffraction theory used to determine structure from X-ray, electron and neutron scattering.",
+  "prerequisites": [
+    "mt-crystal-structures",
+    "ma-linear-algebra",
+    "ph-introductory-waves-sound-light"
+  ],
+  "related": [
+    "ph-solid-state-physics",
+    "ma-group-theory",
+    "ea-mineralogy",
+    "ch-structural-methods-diffraction"
+  ],
+  "topics": [
+    {
+      "id": "mt-crystallography-diffraction-1",
+      "name": "Symmetry operations: rotation, reflection, inversion, screw axes and glide planes"
+    },
+    {
+      "id": "mt-crystallography-diffraction-2",
+      "name": "Point groups and crystal classes; Hermann-Mauguin notation"
+    },
+    {
+      "id": "mt-crystallography-diffraction-3",
+      "name": "Space groups and reading the International Tables for Crystallography"
+    },
+    {
+      "id": "mt-crystallography-diffraction-4",
+      "name": "Stereographic projection and Wulff nets"
+    },
+    {
+      "id": "mt-crystallography-diffraction-5",
+      "name": "Vector and matrix treatment of lattices; metric tensor; zone axes and the Weiss zone law"
+    },
+    {
+      "id": "mt-crystallography-diffraction-6",
+      "name": "The reciprocal lattice and its relation to lattice planes"
+    },
+    {
+      "id": "mt-crystallography-diffraction-7",
+      "name": "Bragg's law, the Laue equations and the Ewald sphere"
+    },
+    {
+      "id": "mt-crystallography-diffraction-8",
+      "name": "Atomic scattering factors and the structure factor; systematic absences"
+    },
+    {
+      "id": "mt-crystallography-diffraction-9",
+      "name": "Diffraction intensities: multiplicity, Lorentz-polarisation, temperature (Debye-Waller) factors"
+    },
+    {
+      "id": "mt-crystallography-diffraction-10",
+      "name": "Powder diffraction patterns and indexing cubic and non-cubic crystals"
+    },
+    {
+      "id": "mt-crystallography-diffraction-11",
+      "name": "Comparison of X-ray, electron and neutron diffraction"
+    },
+    {
+      "id": "mt-crystallography-diffraction-12",
+      "name": "Quasicrystals and incommensurate structures"
+    },
+    {
+      "id": "mt-crystallography-diffraction-13",
+      "name": "Tensor properties of crystals and Neumann's principle (anisotropy of conductivity, elasticity, piezoelectricity)"
+    }
+  ]
+}

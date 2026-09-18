@@ -1,0 +1,69 @@
+{
+  "id": "ch-electrochemistry",
+  "name": "Electrochemistry",
+  "category": "Electrochemistry & Energy",
+  "level": 3,
+  "priority": "important",
+  "summary": "Electrode thermodynamics and kinetics, the double layer, mass transport and the core electrochemical techniques.",
+  "prerequisites": [
+    "ch-redox-electrochemistry-basics",
+    "ch-chemical-kinetics"
+  ],
+  "related": [
+    "mt-electrochemistry"
+  ],
+  "topics": [
+    {
+      "id": "ch-electrochemistry-1",
+      "name": "Electrode potentials and electrochemical thermodynamics"
+    },
+    {
+      "id": "ch-electrochemistry-2",
+      "name": "The electrical double layer: Helmholtz, Gouy-Chapman and Stern models"
+    },
+    {
+      "id": "ch-electrochemistry-3",
+      "name": "Electrode kinetics: the Butler-Volmer and Tafel equations"
+    },
+    {
+      "id": "ch-electrochemistry-4",
+      "name": "Mass transport: diffusion, migration and convection"
+    },
+    {
+      "id": "ch-electrochemistry-5",
+      "name": "Cyclic voltammetry: theory and interpretation"
+    },
+    {
+      "id": "ch-electrochemistry-6",
+      "name": "Rotating disk electrodes and hydrodynamic methods"
+    },
+    {
+      "id": "ch-electrochemistry-7",
+      "name": "Electrochemical impedance and equivalent circuits"
+    },
+    {
+      "id": "ch-electrochemistry-8",
+      "name": "Electrocatalysis fundamentals"
+    },
+    {
+      "id": "ch-electrochemistry-9",
+      "name": "Semiconductor electrochemistry and photoelectrochemistry"
+    },
+    {
+      "id": "ch-electrochemistry-10",
+      "name": "Electrolytes: aqueous, non-aqueous, ionic liquids and solids; ionic conductivity"
+    },
+    {
+      "id": "ch-electrochemistry-11",
+      "name": "Electrodeposition and electroplating"
+    },
+    {
+      "id": "ch-electrochemistry-12",
+      "name": "Industrial electrochemistry: chlor-alkali and aluminium smelting"
+    },
+    {
+      "id": "ch-electrochemistry-13",
+      "name": "Bioelectrochemistry"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "ea-introductory-oceanography",
+  "name": "Introduction to Oceanography",
+  "category": "Oceanography",
+  "level": 2,
+  "priority": "core",
+  "summary": "A survey of the ocean: its basins, water, circulation, waves, tides, life and role in climate.",
+  "prerequisites": [
+    "ea-introduction-to-earth-science"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-introductory-oceanography-1",
+      "name": "History of ocean exploration and methods of study"
+    },
+    {
+      "id": "ea-introductory-oceanography-2",
+      "name": "Ocean basins and seafloor features"
+    },
+    {
+      "id": "ea-introductory-oceanography-3",
+      "name": "Marine sediments"
+    },
+    {
+      "id": "ea-introductory-oceanography-4",
+      "name": "Properties of seawater: temperature, salinity and density"
+    },
+    {
+      "id": "ea-introductory-oceanography-5",
+      "name": "Air-sea interaction and ocean heat transport"
+    },
+    {
+      "id": "ea-introductory-oceanography-6",
+      "name": "Surface currents and gyres"
+    },
+    {
+      "id": "ea-introductory-oceanography-7",
+      "name": "Deep-water circulation"
+    },
+    {
+      "id": "ea-introductory-oceanography-8",
+      "name": "Waves and tsunamis"
+    },
+    {
+      "id": "ea-introductory-oceanography-9",
+      "name": "Tides"
+    },
+    {
+      "id": "ea-introductory-oceanography-10",
+      "name": "Coasts, beaches and estuaries"
+    },
+    {
+      "id": "ea-introductory-oceanography-11",
+      "name": "Marine life and primary productivity"
+    },
+    {
+      "id": "ea-introductory-oceanography-12",
+      "name": "Ocean resources, pollution and the ocean in a changing climate"
+    }
+  ]
+}

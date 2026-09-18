@@ -1,0 +1,62 @@
+{
+  "id": "ph-advanced-cosmology",
+  "name": "Cosmological Perturbations & Large-Scale Structure",
+  "category": "Galaxies & Cosmology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Graduate cosmology: how tiny early fluctuations grew into the CMB anisotropies and the cosmic web, and how we measure them.",
+  "prerequisites": [
+    "ph-cosmology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-advanced-cosmology-1",
+      "name": "Relativistic perturbation theory and gauge choices"
+    },
+    {
+      "id": "ph-advanced-cosmology-2",
+      "name": "Boltzmann equations for photons, baryons and dark matter"
+    },
+    {
+      "id": "ph-advanced-cosmology-3",
+      "name": "Initial conditions from inflation: quantum fluctuations"
+    },
+    {
+      "id": "ph-advanced-cosmology-4",
+      "name": "CMB temperature anisotropies and the angular power spectrum"
+    },
+    {
+      "id": "ph-advanced-cosmology-5",
+      "name": "CMB polarization and B-modes"
+    },
+    {
+      "id": "ph-advanced-cosmology-6",
+      "name": "Growth of structure and the matter power spectrum"
+    },
+    {
+      "id": "ph-advanced-cosmology-7",
+      "name": "Baryon acoustic oscillations"
+    },
+    {
+      "id": "ph-advanced-cosmology-8",
+      "name": "Nonlinear structure: spherical collapse and the halo mass function"
+    },
+    {
+      "id": "ph-advanced-cosmology-9",
+      "name": "N-body simulations"
+    },
+    {
+      "id": "ph-advanced-cosmology-10",
+      "name": "Galaxy clustering and redshift-space distortions"
+    },
+    {
+      "id": "ph-advanced-cosmology-11",
+      "name": "Weak gravitational lensing and cosmic shear"
+    },
+    {
+      "id": "ph-advanced-cosmology-12",
+      "name": "Cosmological parameter estimation and current tensions"
+    }
+  ]
+}

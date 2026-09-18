@@ -1,0 +1,70 @@
+{
+  "id": "mt-interfaces-microstructure-evolution",
+  "name": "Interfaces & Microstructure Evolution",
+  "category": "Thermodynamics & Kinetics",
+  "level": 3,
+  "priority": "core",
+  "summary": "Studies surfaces and interfaces and the processes that reshape microstructure over time: recovery, recrystallisation, grain growth, coarsening and sintering.",
+  "prerequisites": [
+    "mt-phase-transformations"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "mt-interfaces-microstructure-evolution-1",
+      "name": "Surface free energy, surface stress and the Wulff construction"
+    },
+    {
+      "id": "mt-interfaces-microstructure-evolution-2",
+      "name": "Grain-boundary structure: tilt and twist boundaries, CSL model, boundary energy and mobility"
+    },
+    {
+      "id": "mt-interfaces-microstructure-evolution-3",
+      "name": "Interphase interfaces: coherent, semi-coherent and incoherent"
+    },
+    {
+      "id": "mt-interfaces-microstructure-evolution-4",
+      "name": "Triple junctions, dihedral angles and wetting"
+    },
+    {
+      "id": "mt-interfaces-microstructure-evolution-5",
+      "name": "Adsorption and segregation to surfaces and grain boundaries"
+    },
+    {
+      "id": "mt-interfaces-microstructure-evolution-6",
+      "name": "Stored energy of cold work"
+    },
+    {
+      "id": "mt-interfaces-microstructure-evolution-7",
+      "name": "Recovery: polygonisation and subgrain formation"
+    },
+    {
+      "id": "mt-interfaces-microstructure-evolution-8",
+      "name": "Recrystallisation: nucleation, growth, kinetics and recrystallisation diagrams"
+    },
+    {
+      "id": "mt-interfaces-microstructure-evolution-9",
+      "name": "Normal and abnormal grain growth; Zener pinning"
+    },
+    {
+      "id": "mt-interfaces-microstructure-evolution-10",
+      "name": "Particle coarsening: Ostwald ripening and LSW theory"
+    },
+    {
+      "id": "mt-interfaces-microstructure-evolution-11",
+      "name": "Microstructural instabilities: spheroidisation and Rayleigh instability"
+    },
+    {
+      "id": "mt-interfaces-microstructure-evolution-12",
+      "name": "Texture evolution during deformation and annealing"
+    },
+    {
+      "id": "mt-interfaces-microstructure-evolution-13",
+      "name": "Introduction to sintering as capillarity-driven evolution"
+    },
+    {
+      "id": "mt-interfaces-microstructure-evolution-14",
+      "name": "Quantitative microstructure description: stereology, grain-size distributions"
+    }
+  ]
+}

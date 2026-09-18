@@ -1,0 +1,66 @@
+{
+  "id": "ai-constraint-satisfaction",
+  "name": "Constraint Satisfaction & Constraint Programming",
+  "category": "Classical AI: Search, Logic & Planning",
+  "level": 3,
+  "priority": "important",
+  "summary": "Solving problems defined by variables, domains and constraints (scheduling, timetabling, configuration) with backtracking, propagation and modern CP/SAT solvers.",
+  "prerequisites": [
+    "ai-classical-ai-gofai-good-old-fashioned-ai"
+  ],
+  "related": [
+    "ma-combinatorial-optimization",
+    "ma-integer-programming",
+    "ai-classical-ai-gofai-good-old-fashioned-ai"
+  ],
+  "topics": [
+    {
+      "id": "ai-constraint-satisfaction-1",
+      "name": "Formulating CSPs: variables, domains and constraints"
+    },
+    {
+      "id": "ai-constraint-satisfaction-2",
+      "name": "Constraint graphs, global constraints (alldifferent, cumulative)"
+    },
+    {
+      "id": "ai-constraint-satisfaction-3",
+      "name": "Backtracking search with variable and value ordering (MRV, degree, LCV)"
+    },
+    {
+      "id": "ai-constraint-satisfaction-4",
+      "name": "Forward checking and maintaining arc consistency (MAC)"
+    },
+    {
+      "id": "ai-constraint-satisfaction-5",
+      "name": "Consistency: node, arc (AC-3), path and k-consistency"
+    },
+    {
+      "id": "ai-constraint-satisfaction-6",
+      "name": "Local search for CSPs: min-conflicts and tabu search"
+    },
+    {
+      "id": "ai-constraint-satisfaction-7",
+      "name": "Exploiting structure: tree-structured CSPs, cutset conditioning, tree decomposition"
+    },
+    {
+      "id": "ai-constraint-satisfaction-8",
+      "name": "Constraint optimization and soft constraints"
+    },
+    {
+      "id": "ai-constraint-satisfaction-9",
+      "name": "SAT and MaxSAT encodings of constraint problems"
+    },
+    {
+      "id": "ai-constraint-satisfaction-10",
+      "name": "Constraint programming solvers and languages (MiniZinc, OR-Tools CP-SAT)"
+    },
+    {
+      "id": "ai-constraint-satisfaction-11",
+      "name": "Scheduling and timetabling as constraint problems"
+    },
+    {
+      "id": "ai-constraint-satisfaction-12",
+      "name": "Distributed constraint satisfaction"
+    }
+  ]
+}

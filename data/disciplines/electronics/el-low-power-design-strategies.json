@@ -1,0 +1,44 @@
+{
+  "id": "el-low-power-design-strategies",
+  "name": "Low-Power Design Strategies",
+  "category": "Microcontrollers, Processors & Architectures",
+  "level": 3,
+  "priority": "important",
+  "summary": "System-level strategies for battery life: duty cycling, peripheral power management, sub-microamp modes and power profiling.",
+  "prerequisites": [
+    "el-low-power-design"
+  ],
+  "related": [
+    "el-low-power-design"
+  ],
+  "topics": [
+    {
+      "id": "el-low-power-design-strategies-1",
+      "name": "Duty cycling and sleep modes"
+    },
+    {
+      "id": "el-low-power-design-strategies-2",
+      "name": "Dynamic Voltage and Frequency Scaling (DVFS)"
+    },
+    {
+      "id": "el-low-power-design-strategies-3",
+      "name": "Clock gating and power gating"
+    },
+    {
+      "id": "el-low-power-design-strategies-4",
+      "name": "Peripheral power management"
+    },
+    {
+      "id": "el-low-power-design-strategies-5",
+      "name": "Wake-up source optimization"
+    },
+    {
+      "id": "el-low-power-design-strategies-6",
+      "name": "Ultra-low-power modes (sub-µA)"
+    },
+    {
+      "id": "el-low-power-design-strategies-7",
+      "name": "Power profiling and optimization tools"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "el-quality-management",
+  "name": "Quality Management",
+  "category": "Standards, Compliance & Certifications",
+  "level": 3,
+  "priority": "optional",
+  "summary": "Quality-management systems for electronics manufacturers: ISO 9001, ISO 13485, AS9100, IATF 16949, Six Sigma and Lean.",
+  "prerequisites": [
+    "el-international-standards-organizations"
+  ],
+  "related": [
+    "me-manufacturing-systems-quality"
+  ],
+  "topics": [
+    {
+      "id": "el-quality-management-1",
+      "name": "ISO 9001 (Quality Management Systems)"
+    },
+    {
+      "id": "el-quality-management-2",
+      "name": "ISO 13485 (Medical Devices QMS)"
+    },
+    {
+      "id": "el-quality-management-3",
+      "name": "AS9100 (Aerospace QMS)"
+    },
+    {
+      "id": "el-quality-management-4",
+      "name": "IATF 16949 (Automotive QMS)"
+    },
+    {
+      "id": "el-quality-management-5",
+      "name": "Six Sigma and Lean Manufacturing"
+    }
+  ]
+}

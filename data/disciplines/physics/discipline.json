@@ -1,0 +1,33 @@
+{
+  "id": "physics",
+  "name": "Physics",
+  "icon": "⚛️",
+  "color": "#60c5f8",
+  "prefix": "ph",
+  "description": "Physics studies matter, energy, space and time, from everyday motion to quantum fields and the large-scale structure of the Universe. This map runs from introductory, algebra-based physics through the classical and quantum core to condensed matter, AMO, nuclear, particle and plasma physics, a deep astronomy and astrophysics track, and applied and interdisciplinary fields.",
+  "categories": [
+    "Introductory Physics",
+    "Mechanics, Waves & Fluids",
+    "Electromagnetism",
+    "Thermal & Statistical Physics",
+    "Quantum Physics",
+    "Relativity & Gravitation",
+    "Mathematical & Computational Methods",
+    "Optics & Photonics",
+    "Atomic, Molecular & Optical Physics",
+    "Nuclear & Particle Physics",
+    "Condensed Matter Physics",
+    "Plasma Physics",
+    "Nonlinear Dynamics & Complex Systems",
+    "Astronomy Foundations",
+    "Observational Astronomy & Data",
+    "Stars, the Sun & Interstellar Medium",
+    "Planetary Science & Exoplanets",
+    "Galaxies & Cosmology",
+    "High-Energy & Multi-Messenger Astrophysics",
+    "Experimental Physics & Instrumentation",
+    "Applied Physics",
+    "Interdisciplinary Physics",
+    "Foundations, History & Education"
+  ]
+}

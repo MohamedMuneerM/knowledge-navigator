@@ -1,0 +1,38 @@
+{
+  "id": "ma-econometrics",
+  "name": "Econometrics",
+  "category": "Probability & Statistics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Statistical methods for economic data: endogeneity, instrumental variables, panel data and time-series econometrics.",
+  "prerequisites": [
+    "ma-regression-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-econometrics-4",
+      "name": "The classical linear model in economics"
+    },
+    {
+      "id": "ma-econometrics-5",
+      "name": "Endogeneity and omitted variables"
+    },
+    {
+      "id": "ma-econometrics-2",
+      "name": "Instrumental variables"
+    },
+    {
+      "id": "ma-econometrics-1",
+      "name": "Panel data analysis"
+    },
+    {
+      "id": "ma-econometrics-3",
+      "name": "Time series econometrics"
+    },
+    {
+      "id": "ma-econometrics-6",
+      "name": "Discrete choice models"
+    }
+  ]
+}

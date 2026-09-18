@@ -1,0 +1,58 @@
+{
+  "id": "ma-lie-theory",
+  "name": "Lie Theory",
+  "category": "Algebra",
+  "level": 4,
+  "priority": "important",
+  "summary": "Continuous symmetry: Lie groups, Lie algebras, root systems and their representations, central to geometry and physics.",
+  "prerequisites": [
+    "ma-representation-theory",
+    "ma-differential-topology"
+  ],
+  "related": [
+    "ma-symmetries-groups-in-physics",
+    "ph-symmetry-group-theory"
+  ],
+  "topics": [
+    {
+      "id": "ma-lie-theory-6",
+      "name": "Matrix Lie groups and examples (SO(n), SU(n), SL(n))"
+    },
+    {
+      "id": "ma-lie-theory-1",
+      "name": "Lie groups"
+    },
+    {
+      "id": "ma-lie-theory-7",
+      "name": "The exponential map and the Lie algebra of a Lie group"
+    },
+    {
+      "id": "ma-lie-theory-2",
+      "name": "Lie algebras"
+    },
+    {
+      "id": "ma-lie-theory-8",
+      "name": "Solvable, nilpotent and semisimple Lie algebras"
+    },
+    {
+      "id": "ma-lie-theory-4",
+      "name": "Root systems"
+    },
+    {
+      "id": "ma-lie-theory-5",
+      "name": "Weyl groups"
+    },
+    {
+      "id": "ma-lie-theory-9",
+      "name": "Classification of complex semisimple Lie algebras"
+    },
+    {
+      "id": "ma-lie-theory-3",
+      "name": "Lie group representations"
+    },
+    {
+      "id": "ma-lie-theory-10",
+      "name": "Highest-weight theory"
+    }
+  ]
+}

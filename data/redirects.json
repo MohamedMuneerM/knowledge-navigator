@@ -1,0 +1,8 @@
+{
+  "_comment": "Old id -> new id. When a chapter or topic id has to change, add it here so saved progress follows it. Never reuse an old id for something else.",
+  "chapters": {},
+  "topics": {
+    "el-configuration-management-5": "el-device-configuration-management-5",
+    "el-configuration-management-6": "el-device-configuration-management-6"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "ai-recurrent-neural-networks-rnns",
+  "name": "Recurrent Neural Networks (RNNs)",
+  "category": "Deep Learning",
+  "level": 3,
+  "priority": "core",
+  "summary": "Neural networks for sequences: vanilla RNNs, LSTMs and GRUs, bidirectional and deep RNNs, and sequence-to-sequence encoder-decoders.",
+  "prerequisites": [
+    "ai-regularization-normalization"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-recurrent-neural-networks-rnns-1",
+      "name": "Vanilla RNN"
+    },
+    {
+      "id": "ai-recurrent-neural-networks-rnns-8",
+      "name": "Backpropagation through time (BPTT) and gradient clipping"
+    },
+    {
+      "id": "ai-recurrent-neural-networks-rnns-2",
+      "name": "Long Short-Term Memory (LSTM)"
+    },
+    {
+      "id": "ai-recurrent-neural-networks-rnns-3",
+      "name": "Gated Recurrent Unit (GRU)"
+    },
+    {
+      "id": "ai-recurrent-neural-networks-rnns-4",
+      "name": "Bidirectional RNNs"
+    },
+    {
+      "id": "ai-recurrent-neural-networks-rnns-5",
+      "name": "Deep RNNs"
+    },
+    {
+      "id": "ai-recurrent-neural-networks-rnns-6",
+      "name": "Sequence-to-Sequence Models"
+    },
+    {
+      "id": "ai-recurrent-neural-networks-rnns-7",
+      "name": "Encoder-Decoder Architecture"
+    },
+    {
+      "id": "ai-recurrent-neural-networks-rnns-9",
+      "name": "Language modelling with RNNs"
+    }
+  ]
+}

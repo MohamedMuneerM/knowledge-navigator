@@ -1,0 +1,63 @@
+{
+  "id": "cs-database-internals",
+  "name": "Database System Implementation",
+  "category": "Data Management",
+  "level": 3,
+  "priority": "important",
+  "summary": "How a database engine works inside: storage, buffer management, indexing, query processing and optimization, concurrency control and recovery.",
+  "prerequisites": [
+    "cs-databases",
+    "cs-operating-systems"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-database-internals-1",
+      "name": "DBMS architecture"
+    },
+    {
+      "id": "cs-database-internals-2",
+      "name": "Storage: disks, pages, files and record layout"
+    },
+    {
+      "id": "cs-database-internals-3",
+      "name": "Buffer-pool management"
+    },
+    {
+      "id": "cs-database-internals-4",
+      "name": "Indexing: B+ trees, hash indexes and LSM trees"
+    },
+    {
+      "id": "cs-database-internals-5",
+      "name": "Query processing: external sorting and join algorithms"
+    },
+    {
+      "id": "cs-database-internals-6",
+      "name": "Query optimization: cost models and plan search"
+    },
+    {
+      "id": "cs-database-internals-7",
+      "name": "Concurrency control: two-phase locking, MVCC and optimistic methods"
+    },
+    {
+      "id": "cs-database-internals-8",
+      "name": "Isolation levels and anomalies"
+    },
+    {
+      "id": "cs-database-internals-9",
+      "name": "Logging and recovery (ARIES)"
+    },
+    {
+      "id": "cs-database-internals-10",
+      "name": "Column stores and analytical query engines"
+    },
+    {
+      "id": "cs-database-internals-11",
+      "name": "Distributed databases: partitioning, replication and distributed transactions"
+    },
+    {
+      "id": "cs-database-internals-12",
+      "name": "In-memory and NewSQL databases"
+    }
+  ]
+}

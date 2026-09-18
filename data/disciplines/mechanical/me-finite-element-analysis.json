@@ -1,0 +1,78 @@
+{
+  "id": "me-finite-element-analysis",
+  "name": "Finite Element Analysis",
+  "category": "Computational Engineering & Simulation",
+  "level": 3,
+  "priority": "core",
+  "summary": "The finite element method for structural, thermal and dynamic analysis, from stiffness matrices to responsible use of commercial codes.",
+  "prerequisites": [
+    "me-mechanics-of-materials",
+    "me-engineering-computation"
+  ],
+  "related": [
+    "ma-numerical-solutions-of-pdes",
+    "ae-finite-element-analysis-aerospace"
+  ],
+  "topics": [
+    {
+      "id": "me-finite-element-analysis-1",
+      "name": "Overview of FEA and the direct stiffness method"
+    },
+    {
+      "id": "me-finite-element-analysis-2",
+      "name": "Spring, bar and truss elements; assembly and boundary conditions"
+    },
+    {
+      "id": "me-finite-element-analysis-3",
+      "name": "Beam and frame elements"
+    },
+    {
+      "id": "me-finite-element-analysis-4",
+      "name": "Weak forms, variational principles and the Galerkin method"
+    },
+    {
+      "id": "me-finite-element-analysis-5",
+      "name": "Shape functions and the isoparametric formulation"
+    },
+    {
+      "id": "me-finite-element-analysis-6",
+      "name": "2D elements for plane stress, plane strain and axisymmetry"
+    },
+    {
+      "id": "me-finite-element-analysis-7",
+      "name": "3D solid, plate and shell elements"
+    },
+    {
+      "id": "me-finite-element-analysis-8",
+      "name": "Numerical integration (Gauss quadrature)"
+    },
+    {
+      "id": "me-finite-element-analysis-9",
+      "name": "Meshing, element quality, convergence and error estimation"
+    },
+    {
+      "id": "me-finite-element-analysis-10",
+      "name": "Thermal (heat-transfer) FEA"
+    },
+    {
+      "id": "me-finite-element-analysis-11",
+      "name": "Modal and dynamic analysis"
+    },
+    {
+      "id": "me-finite-element-analysis-12",
+      "name": "Linear buckling analysis"
+    },
+    {
+      "id": "me-finite-element-analysis-13",
+      "name": "Nonlinear FEA: geometric nonlinearity, plasticity, hyperelasticity and contact"
+    },
+    {
+      "id": "me-finite-element-analysis-14",
+      "name": "Explicit dynamics, impact and crash simulation"
+    },
+    {
+      "id": "me-finite-element-analysis-15",
+      "name": "Verification, validation and good practice with commercial codes (ANSYS, Abaqus)"
+    }
+  ]
+}

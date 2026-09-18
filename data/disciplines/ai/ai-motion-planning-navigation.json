@@ -1,0 +1,142 @@
+{
+  "id": "ai-motion-planning-navigation",
+  "name": "Motion Planning & Navigation",
+  "category": "Robotics Foundations",
+  "level": 3,
+  "priority": "core",
+  "summary": "Planning collision-free paths and trajectories with graph search, sampling-based planners and optimization, plus localization and SLAM for navigation.",
+  "prerequisites": [
+    "ai-kinematics-dynamics",
+    "ai-classical-ai-gofai-good-old-fashioned-ai"
+  ],
+  "related": [
+    "el-path-planning-navigation",
+    "el-simultaneous-localization-and-mapping-slam",
+    "el-autonomous-navigation-systems",
+    "ai-mobile-robotics"
+  ],
+  "topics": [
+    {
+      "id": "ai-motion-planning-navigation-7",
+      "name": "Configuration space and obstacles"
+    },
+    {
+      "id": "ai-motion-planning-navigation-8",
+      "name": "Collision checking"
+    },
+    {
+      "id": "ai-motion-planning-navigation-1",
+      "name": "Path Planning",
+      "sub": [
+        {
+          "id": "ai-motion-planning-navigation-1-1",
+          "name": "A*"
+        },
+        {
+          "id": "ai-motion-planning-navigation-1-2",
+          "name": "Dijkstra's algorithm"
+        },
+        {
+          "id": "ai-motion-planning-navigation-1-3",
+          "name": "D* and D* Lite"
+        }
+      ]
+    },
+    {
+      "id": "ai-motion-planning-navigation-2",
+      "name": "Sampling-Based Planning",
+      "sub": [
+        {
+          "id": "ai-motion-planning-navigation-2-1",
+          "name": "Rapidly-exploring Random Trees (RRT)"
+        },
+        {
+          "id": "ai-motion-planning-navigation-2-2",
+          "name": "RRT*"
+        },
+        {
+          "id": "ai-motion-planning-navigation-2-3",
+          "name": "Probabilistic Roadmaps (PRM)"
+        }
+      ]
+    },
+    {
+      "id": "ai-motion-planning-navigation-3",
+      "name": "Trajectory Optimization",
+      "sub": [
+        {
+          "id": "ai-motion-planning-navigation-3-1",
+          "name": "Minimum jerk"
+        },
+        {
+          "id": "ai-motion-planning-navigation-3-2",
+          "name": "Time-optimal trajectories"
+        }
+      ]
+    },
+    {
+      "id": "ai-motion-planning-navigation-4",
+      "name": "Motion Primitives"
+    },
+    {
+      "id": "ai-motion-planning-navigation-5",
+      "name": "SLAM (Simultaneous Localization and Mapping)",
+      "sub": [
+        {
+          "id": "ai-motion-planning-navigation-5-1",
+          "name": "EKF-SLAM"
+        },
+        {
+          "id": "ai-motion-planning-navigation-5-2",
+          "name": "FastSLAM"
+        },
+        {
+          "id": "ai-motion-planning-navigation-5-3",
+          "name": "Graph-based SLAM"
+        },
+        {
+          "id": "ai-motion-planning-navigation-5-4",
+          "name": "Visual SLAM"
+        },
+        {
+          "id": "ai-motion-planning-navigation-5-5",
+          "name": "LiDAR SLAM"
+        }
+      ]
+    },
+    {
+      "id": "ai-motion-planning-navigation-6",
+      "name": "Localization",
+      "sub": [
+        {
+          "id": "ai-motion-planning-navigation-6-1",
+          "name": "Kalman filters"
+        },
+        {
+          "id": "ai-motion-planning-navigation-6-2",
+          "name": "Extended Kalman filters"
+        },
+        {
+          "id": "ai-motion-planning-navigation-6-3",
+          "name": "Unscented Kalman filters"
+        },
+        {
+          "id": "ai-motion-planning-navigation-6-4",
+          "name": "Particle filters"
+        },
+        {
+          "id": "ai-motion-planning-navigation-6-5",
+          "name": "Monte Carlo localization"
+        }
+      ]
+    },
+    {
+      "id": "ai-motion-planning-navigation-9",
+      "name": "Artificial potential fields"
+    },
+    {
+      "id": "ai-motion-planning-navigation-10",
+      "name": "Optimization-based motion planning (CHOMP, TrajOpt)"
+    }
+  ]
+}

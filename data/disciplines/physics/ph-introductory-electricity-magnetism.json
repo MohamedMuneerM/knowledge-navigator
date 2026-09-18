@@ -1,0 +1,77 @@
+{
+  "id": "ph-introductory-electricity-magnetism",
+  "name": "Introductory Electricity & Magnetism",
+  "category": "Introductory Physics",
+  "level": 1,
+  "priority": "core",
+  "summary": "Algebra-based introduction to charge, fields, circuits, magnetism and induction.",
+  "prerequisites": [
+    "ph-introductory-mechanics"
+  ],
+  "related": [
+    "el-circuit-theory",
+    "el-basic-electricity"
+  ],
+  "topics": [
+    {
+      "id": "ph-introductory-electricity-magnetism-1",
+      "name": "Electric charge and Coulomb's law"
+    },
+    {
+      "id": "ph-introductory-electricity-magnetism-2",
+      "name": "Electric fields and field lines"
+    },
+    {
+      "id": "ph-introductory-electricity-magnetism-3",
+      "name": "Electric potential, potential energy and voltage"
+    },
+    {
+      "id": "ph-introductory-electricity-magnetism-4",
+      "name": "Capacitance and capacitors"
+    },
+    {
+      "id": "ph-introductory-electricity-magnetism-5",
+      "name": "Electric current, resistance and Ohm's law"
+    },
+    {
+      "id": "ph-introductory-electricity-magnetism-6",
+      "name": "Electric power and energy"
+    },
+    {
+      "id": "ph-introductory-electricity-magnetism-7",
+      "name": "DC circuits: series, parallel and Kirchhoff's rules"
+    },
+    {
+      "id": "ph-introductory-electricity-magnetism-8",
+      "name": "RC circuits: charging and discharging"
+    },
+    {
+      "id": "ph-introductory-electricity-magnetism-9",
+      "name": "Magnets and magnetic fields"
+    },
+    {
+      "id": "ph-introductory-electricity-magnetism-10",
+      "name": "Magnetic forces on moving charges and currents"
+    },
+    {
+      "id": "ph-introductory-electricity-magnetism-11",
+      "name": "Magnetic fields from currents: Ampère's law and solenoids"
+    },
+    {
+      "id": "ph-introductory-electricity-magnetism-12",
+      "name": "Electromagnetic induction: Faraday's and Lenz's laws"
+    },
+    {
+      "id": "ph-introductory-electricity-magnetism-13",
+      "name": "Generators, motors and transformers"
+    },
+    {
+      "id": "ph-introductory-electricity-magnetism-14",
+      "name": "Alternating current and household electricity"
+    },
+    {
+      "id": "ph-introductory-electricity-magnetism-15",
+      "name": "Electrical safety"
+    }
+  ]
+}

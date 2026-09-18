@@ -1,0 +1,74 @@
+{
+  "id": "ai-multi-agent-systems",
+  "name": "Multi-Agent Systems",
+  "category": "Reasoning Under Uncertainty & Decision Making",
+  "level": 3,
+  "priority": "important",
+  "summary": "How multiple autonomous agents reason, communicate, compete and cooperate, using game theory, social choice, mechanism design and coordination protocols.",
+  "prerequisites": [
+    "ai-probabilistic-ai",
+    "ma-game-theory"
+  ],
+  "related": [
+    "ai-advanced-rl-topics",
+    "ai-autonomous-agents"
+  ],
+  "topics": [
+    {
+      "id": "ai-multi-agent-systems-1",
+      "name": "Agents and environments with many agents"
+    },
+    {
+      "id": "ai-multi-agent-systems-2",
+      "name": "Agent architectures: reactive, deliberative, hybrid and BDI"
+    },
+    {
+      "id": "ai-multi-agent-systems-3",
+      "name": "Agent communication languages and protocols (FIPA-ACL, contract net)"
+    },
+    {
+      "id": "ai-multi-agent-systems-4",
+      "name": "Non-cooperative games for agents: Nash and correlated equilibria"
+    },
+    {
+      "id": "ai-multi-agent-systems-5",
+      "name": "Computing equilibria and learning in games"
+    },
+    {
+      "id": "ai-multi-agent-systems-6",
+      "name": "Cooperative games and coalition formation (core, Shapley value)"
+    },
+    {
+      "id": "ai-multi-agent-systems-7",
+      "name": "Social choice and voting"
+    },
+    {
+      "id": "ai-multi-agent-systems-8",
+      "name": "Mechanism design and auctions"
+    },
+    {
+      "id": "ai-multi-agent-systems-9",
+      "name": "Negotiation and bargaining"
+    },
+    {
+      "id": "ai-multi-agent-systems-10",
+      "name": "Distributed task allocation and coordination"
+    },
+    {
+      "id": "ai-multi-agent-systems-11",
+      "name": "Consensus and distributed decision making"
+    },
+    {
+      "id": "ai-multi-agent-systems-12",
+      "name": "Multi-agent reinforcement learning overview"
+    },
+    {
+      "id": "ai-multi-agent-systems-13",
+      "name": "Multi-agent LLM systems"
+    },
+    {
+      "id": "ai-multi-agent-systems-14",
+      "name": "Agent-based modelling and simulation (NetLogo, Mesa)"
+    }
+  ]
+}

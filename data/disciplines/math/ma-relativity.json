@@ -1,0 +1,50 @@
+{
+  "id": "ma-relativity",
+  "name": "Relativity",
+  "category": "Mathematical Physics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Special and general relativity as geometry: Lorentz transformations, curved spacetime, Einstein's equations and the Schwarzschild solution.",
+  "prerequisites": [
+    "ma-tensor-analysis",
+    "ma-classical-mechanics"
+  ],
+  "related": [
+    "ph-special-relativity",
+    "ph-general-relativity"
+  ],
+  "topics": [
+    {
+      "id": "ma-relativity-1",
+      "name": "Special relativity"
+    },
+    {
+      "id": "ma-relativity-5",
+      "name": "Minkowski spacetime and four-vectors"
+    },
+    {
+      "id": "ma-relativity-6",
+      "name": "Manifolds, metrics and curvature for relativity"
+    },
+    {
+      "id": "ma-relativity-3",
+      "name": "Einstein field equations"
+    },
+    {
+      "id": "ma-relativity-2",
+      "name": "General relativity"
+    },
+    {
+      "id": "ma-relativity-4",
+      "name": "Schwarzschild solution"
+    },
+    {
+      "id": "ma-relativity-7",
+      "name": "Black holes and cosmological solutions"
+    },
+    {
+      "id": "ma-relativity-8",
+      "name": "Gravitational waves (linearised gravity)"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "bi-structural-biology",
+  "name": "Structural Biology",
+  "category": "Biochemistry & Structural Biology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The methods that reveal 3D molecular structures (X-ray, NMR, cryo-EM, prediction) and what those structures teach us.",
+  "prerequisites": [
+    "bi-protein-structure-function",
+    "ch-molecular-spectroscopy"
+  ],
+  "related": [
+    "ph-biophysics",
+    "ch-structural-methods-diffraction",
+    "ch-magnetic-resonance",
+    "ch-biophysical-chemistry",
+    "mt-xray-neutron-methods",
+    "mt-electron-microscopy"
+  ],
+  "topics": [
+    {
+      "id": "bi-structural-biology-1",
+      "name": "Why structure matters: the structure-function paradigm and the Protein Data Bank"
+    },
+    {
+      "id": "bi-structural-biology-2",
+      "name": "X-ray crystallography: crystals, diffraction, phasing and refinement"
+    },
+    {
+      "id": "bi-structural-biology-3",
+      "name": "NMR spectroscopy of biomolecules"
+    },
+    {
+      "id": "bi-structural-biology-4",
+      "name": "Cryo-electron microscopy and single-particle analysis"
+    },
+    {
+      "id": "bi-structural-biology-5",
+      "name": "Cryo-electron tomography and in situ structural biology"
+    },
+    {
+      "id": "bi-structural-biology-6",
+      "name": "Small-angle scattering, mass spectrometry and integrative/hybrid methods"
+    },
+    {
+      "id": "bi-structural-biology-7",
+      "name": "Computational structure prediction: AlphaFold and related tools"
+    },
+    {
+      "id": "bi-structural-biology-8",
+      "name": "Molecular dynamics simulation of biomolecules"
+    },
+    {
+      "id": "bi-structural-biology-9",
+      "name": "Structure-based drug design"
+    }
+  ]
+}

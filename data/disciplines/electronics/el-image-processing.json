@@ -1,0 +1,41 @@
+{
+  "id": "el-image-processing",
+  "name": "Image Processing",
+  "category": "Machine Learning & Edge AI",
+  "level": 3,
+  "priority": "important",
+  "summary": "Classical image operations: filtering, edge detection, morphology, histograms, geometric transforms and frequency analysis.",
+  "prerequisites": [
+    "el-image-acquisition",
+    "el-signal-processing-fundamentals"
+  ],
+  "related": [
+    "ai-image-processing-fundamentals"
+  ],
+  "topics": [
+    {
+      "id": "el-image-processing-1",
+      "name": "Filtering (Gaussian, median, bilateral)"
+    },
+    {
+      "id": "el-image-processing-2",
+      "name": "Edge detection (Sobel, Canny)"
+    },
+    {
+      "id": "el-image-processing-3",
+      "name": "Morphological operations (erosion, dilation)"
+    },
+    {
+      "id": "el-image-processing-4",
+      "name": "Histogram equalization"
+    },
+    {
+      "id": "el-image-processing-5",
+      "name": "Image transformations (scaling, rotation, affine, perspective)"
+    },
+    {
+      "id": "el-image-processing-6",
+      "name": "Fourier transform for image analysis"
+    }
+  ]
+}

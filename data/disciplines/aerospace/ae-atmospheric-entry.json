@@ -1,0 +1,63 @@
+{
+  "id": "ae-atmospheric-entry",
+  "name": "Atmospheric Entry Flight Mechanics",
+  "category": "Entry, Descent & Landing",
+  "level": 3,
+  "priority": "core",
+  "summary": "Flight mechanics of vehicles entering a planetary atmosphere: ballistic and lifting entry, deceleration, heating and entry corridors.",
+  "prerequisites": [
+    "ae-orbital-mechanics",
+    "ae-compressible-flow-gas-dynamics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-atmospheric-entry-1",
+      "name": "Entry mission types: Earth return, planetary entry, aerocapture"
+    },
+    {
+      "id": "ae-atmospheric-entry-2",
+      "name": "Planar entry equations of motion"
+    },
+    {
+      "id": "ae-atmospheric-entry-3",
+      "name": "Ballistic entry: Allen-Eggers solution and peak deceleration"
+    },
+    {
+      "id": "ae-atmospheric-entry-4",
+      "name": "Ballistic coefficient and its effects"
+    },
+    {
+      "id": "ae-atmospheric-entry-5",
+      "name": "Lifting and gliding entry"
+    },
+    {
+      "id": "ae-atmospheric-entry-6",
+      "name": "Skip entry"
+    },
+    {
+      "id": "ae-atmospheric-entry-7",
+      "name": "Entry corridors and flight-path angle constraints"
+    },
+    {
+      "id": "ae-atmospheric-entry-8",
+      "name": "Heating rate and total heat load estimates"
+    },
+    {
+      "id": "ae-atmospheric-entry-9",
+      "name": "Aerocapture and aerobraking"
+    },
+    {
+      "id": "ae-atmospheric-entry-10",
+      "name": "Entry vehicle shapes: capsules, lifting bodies, winged vehicles"
+    },
+    {
+      "id": "ae-atmospheric-entry-11",
+      "name": "Planetary atmospheres: Earth, Mars, Venus, Titan, gas giants"
+    },
+    {
+      "id": "ae-atmospheric-entry-12",
+      "name": "Entry trajectory simulation and dispersions"
+    }
+  ]
+}

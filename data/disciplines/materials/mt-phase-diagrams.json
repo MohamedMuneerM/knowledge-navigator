@@ -1,0 +1,66 @@
+{
+  "id": "mt-phase-diagrams",
+  "name": "Phase Diagrams",
+  "category": "Thermodynamics & Kinetics",
+  "level": 2,
+  "priority": "core",
+  "summary": "Teaches how to read and construct equilibrium phase diagrams and use them to predict the microstructure of alloys and ceramics.",
+  "prerequisites": [
+    "mt-thermodynamics-of-materials"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "mt-phase-diagrams-1",
+      "name": "Phases, components and microstructure; solubility limits"
+    },
+    {
+      "id": "mt-phase-diagrams-2",
+      "name": "Binary isomorphous systems (Cu-Ni): liquidus, solidus, tie lines"
+    },
+    {
+      "id": "mt-phase-diagrams-3",
+      "name": "The lever rule and phase compositions/amounts"
+    },
+    {
+      "id": "mt-phase-diagrams-4",
+      "name": "Development of microstructure during equilibrium and non-equilibrium cooling (coring)"
+    },
+    {
+      "id": "mt-phase-diagrams-5",
+      "name": "Binary eutectic systems (Pb-Sn): eutectic microstructures and hypo/hypereutectic alloys"
+    },
+    {
+      "id": "mt-phase-diagrams-6",
+      "name": "Peritectic, monotectic, eutectoid and peritectoid reactions"
+    },
+    {
+      "id": "mt-phase-diagrams-7",
+      "name": "Intermediate phases and intermetallic compounds"
+    },
+    {
+      "id": "mt-phase-diagrams-8",
+      "name": "Congruent and incongruent phase transformations"
+    },
+    {
+      "id": "mt-phase-diagrams-9",
+      "name": "The iron-carbon (Fe-Fe3C) phase diagram: ferrite, austenite, cementite and pearlite"
+    },
+    {
+      "id": "mt-phase-diagrams-10",
+      "name": "Ceramic phase diagrams (Al2O3-Cr2O3, MgO-Al2O3, ZrO2-CaO, SiO2-Al2O3)"
+    },
+    {
+      "id": "mt-phase-diagrams-11",
+      "name": "Ternary phase diagrams: isothermal and vertical sections, liquidus projections"
+    },
+    {
+      "id": "mt-phase-diagrams-12",
+      "name": "Deriving phase diagrams from free-energy curves"
+    },
+    {
+      "id": "mt-phase-diagrams-13",
+      "name": "Experimental determination of phase diagrams (thermal analysis, metallography, diffraction)"
+    }
+  ]
+}

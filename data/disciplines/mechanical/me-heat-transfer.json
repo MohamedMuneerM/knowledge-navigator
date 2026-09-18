@@ -1,0 +1,73 @@
+{
+  "id": "me-heat-transfer",
+  "name": "Heat & Mass Transfer",
+  "category": "Thermal-Fluid Sciences",
+  "level": 3,
+  "priority": "core",
+  "summary": "Conduction, convection and radiation, from fins and transient cooling to heat exchangers, boiling and mass transfer.",
+  "prerequisites": [
+    "me-fluid-mechanics",
+    "ma-ordinary-differential-equations-odes"
+  ],
+  "related": [
+    "ch-transport-phenomena"
+  ],
+  "topics": [
+    {
+      "id": "me-heat-transfer-1",
+      "name": "Modes of heat transfer and the energy balance"
+    },
+    {
+      "id": "me-heat-transfer-2",
+      "name": "1D steady conduction: thermal-resistance networks, contact resistance, critical insulation"
+    },
+    {
+      "id": "me-heat-transfer-3",
+      "name": "Heat generation and extended surfaces (fins)"
+    },
+    {
+      "id": "me-heat-transfer-4",
+      "name": "2D steady conduction: shape factors and finite-difference methods"
+    },
+    {
+      "id": "me-heat-transfer-5",
+      "name": "Transient conduction: lumped capacitance, Biot and Fourier numbers, one-term solutions"
+    },
+    {
+      "id": "me-heat-transfer-6",
+      "name": "Convection fundamentals: boundary layers and dimensionless groups (Nu, Re, Pr)"
+    },
+    {
+      "id": "me-heat-transfer-7",
+      "name": "Forced convection in external flow: plates, cylinders and tube banks"
+    },
+    {
+      "id": "me-heat-transfer-8",
+      "name": "Forced convection in internal flow: pipes and ducts"
+    },
+    {
+      "id": "me-heat-transfer-9",
+      "name": "Natural (free) convection"
+    },
+    {
+      "id": "me-heat-transfer-10",
+      "name": "Boiling and condensation"
+    },
+    {
+      "id": "me-heat-transfer-11",
+      "name": "Heat exchangers: types, LMTD and effectiveness-NTU methods"
+    },
+    {
+      "id": "me-heat-transfer-12",
+      "name": "Radiation: blackbody, emissivity and view factors"
+    },
+    {
+      "id": "me-heat-transfer-13",
+      "name": "Radiation exchange between surfaces (radiosity networks)"
+    },
+    {
+      "id": "me-heat-transfer-14",
+      "name": "Mass transfer: Fick's law, diffusion and heat-mass transfer analogies"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ma-matrix-methods-for-ml",
+  "name": "Matrix Methods for ML",
+  "category": "Machine Learning & Data Science Mathematics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Matrix and tensor factorisations used in data analysis, recommendation and signal processing.",
+  "prerequisites": [
+    "ma-numerical-linear-algebra",
+    "ma-foundations-of-machine-learning"
+  ],
+  "related": [
+    "ai-mathematics-statistics",
+    "ma-matrix-analysis"
+  ],
+  "topics": [
+    {
+      "id": "ma-matrix-methods-for-ml-3",
+      "name": "SVD and low-rank approximation"
+    },
+    {
+      "id": "ma-matrix-methods-for-ml-1",
+      "name": "Matrix factorization"
+    },
+    {
+      "id": "ma-matrix-methods-for-ml-4",
+      "name": "Non-negative matrix factorisation"
+    },
+    {
+      "id": "ma-matrix-methods-for-ml-5",
+      "name": "Matrix completion"
+    },
+    {
+      "id": "ma-matrix-methods-for-ml-2",
+      "name": "Tensor decomposition"
+    }
+  ]
+}

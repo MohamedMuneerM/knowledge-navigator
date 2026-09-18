@@ -1,0 +1,105 @@
+{
+  "id": "ai-core-ml-concepts",
+  "name": "Core ML Concepts",
+  "category": "Machine Learning Foundations",
+  "level": 2,
+  "priority": "core",
+  "summary": "The core vocabulary of machine learning: the ML pipeline, generalization, overfitting, the bias-variance trade-off, regularization, validation and metrics.",
+  "prerequisites": [
+    "ai-introduction-to-ai-ml",
+    "ai-mathematics-statistics",
+    "ai-programming-tools"
+  ],
+  "related": [
+    "ma-foundations-of-machine-learning",
+    "ai-ml-experimentation-evaluation"
+  ],
+  "topics": [
+    {
+      "id": "ai-core-ml-concepts-7",
+      "name": "Supervised, unsupervised and reinforcement learning compared"
+    },
+    {
+      "id": "ai-core-ml-concepts-1",
+      "name": "Machine Learning Pipeline",
+      "sub": [
+        {
+          "id": "ai-core-ml-concepts-1-1",
+          "name": "Problem formulation"
+        },
+        {
+          "id": "ai-core-ml-concepts-1-2",
+          "name": "Data collection"
+        },
+        {
+          "id": "ai-core-ml-concepts-1-3",
+          "name": "Model selection"
+        },
+        {
+          "id": "ai-core-ml-concepts-1-4",
+          "name": "Training and validation"
+        },
+        {
+          "id": "ai-core-ml-concepts-1-5",
+          "name": "Deployment"
+        }
+      ]
+    },
+    {
+      "id": "ai-core-ml-concepts-2",
+      "name": "Bias-Variance Tradeoff"
+    },
+    {
+      "id": "ai-core-ml-concepts-3",
+      "name": "Overfitting and Underfitting"
+    },
+    {
+      "id": "ai-core-ml-concepts-4",
+      "name": "Regularization Techniques",
+      "sub": [
+        {
+          "id": "ai-core-ml-concepts-4-1",
+          "name": "L1/L2 regularization"
+        },
+        {
+          "id": "ai-core-ml-concepts-4-2",
+          "name": "Dropout"
+        },
+        {
+          "id": "ai-core-ml-concepts-4-3",
+          "name": "Early stopping"
+        }
+      ]
+    },
+    {
+      "id": "ai-core-ml-concepts-5",
+      "name": "Cross-Validation"
+    },
+    {
+      "id": "ai-core-ml-concepts-6",
+      "name": "Model Evaluation Metrics",
+      "sub": [
+        {
+          "id": "ai-core-ml-concepts-6-1",
+          "name": "Classification metrics (accuracy, precision, recall, F1, AUC-ROC)"
+        },
+        {
+          "id": "ai-core-ml-concepts-6-2",
+          "name": "Regression metrics (MSE, MAE, R²)"
+        },
+        {
+          "id": "ai-core-ml-concepts-6-3",
+          "name": "Ranking metrics"
+        }
+      ]
+    },
+    {
+      "id": "ai-core-ml-concepts-8",
+      "name": "Loss functions and empirical risk minimization"
+    },
+    {
+      "id": "ai-core-ml-concepts-9",
+      "name": "Hyperparameters and model selection"
+    }
+  ]
+}

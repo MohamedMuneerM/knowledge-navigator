@@ -1,0 +1,55 @@
+{
+  "id": "bi-systems-neuroscience",
+  "name": "Systems Neuroscience",
+  "category": "Neuroscience",
+  "level": 4,
+  "priority": "important",
+  "summary": "How circuits of neurons work together to process information, store memories and generate behaviour.",
+  "prerequisites": [
+    "bi-sensory-systems",
+    "bi-motor-systems"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-systems-neuroscience-1",
+      "name": "Circuit motifs: feedforward, feedback, recurrent excitation and inhibition"
+    },
+    {
+      "id": "bi-systems-neuroscience-2",
+      "name": "Neural coding: rate, timing and population codes"
+    },
+    {
+      "id": "bi-systems-neuroscience-3",
+      "name": "Brain rhythms and oscillations"
+    },
+    {
+      "id": "bi-systems-neuroscience-4",
+      "name": "Hippocampus, place cells, grid cells and spatial navigation"
+    },
+    {
+      "id": "bi-systems-neuroscience-5",
+      "name": "Memory systems: declarative, procedural and working memory"
+    },
+    {
+      "id": "bi-systems-neuroscience-6",
+      "name": "Prefrontal cortex and executive control"
+    },
+    {
+      "id": "bi-systems-neuroscience-7",
+      "name": "Neuromodulatory systems and brain states"
+    },
+    {
+      "id": "bi-systems-neuroscience-8",
+      "name": "Decision-making circuits"
+    },
+    {
+      "id": "bi-systems-neuroscience-9",
+      "name": "Large-scale networks and connectomes"
+    },
+    {
+      "id": "bi-systems-neuroscience-10",
+      "name": "Comparing circuits across species (invertebrate model circuits)"
+    }
+  ]
+}

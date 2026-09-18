@@ -1,0 +1,55 @@
+{
+  "id": "ma-abstract-algebra",
+  "name": "Abstract Algebra",
+  "category": "Algebra",
+  "level": 3,
+  "priority": "core",
+  "summary": "Groups, rings and fields: the axiomatic study of algebraic structure that underlies number theory, geometry and cryptography.",
+  "prerequisites": [
+    "ma-introduction-to-proofs",
+    "ma-linear-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-abstract-algebra-7",
+      "name": "Binary operations and the definition of a group; examples"
+    },
+    {
+      "id": "ma-abstract-algebra-1",
+      "name": "Groups and subgroups"
+    },
+    {
+      "id": "ma-abstract-algebra-8",
+      "name": "Cyclic groups, Lagrange's theorem and cosets"
+    },
+    {
+      "id": "ma-abstract-algebra-9",
+      "name": "Homomorphisms, normal subgroups, quotients and isomorphism theorems"
+    },
+    {
+      "id": "ma-abstract-algebra-2",
+      "name": "Rings and ideals"
+    },
+    {
+      "id": "ma-abstract-algebra-10",
+      "name": "Polynomial rings and factorisation"
+    },
+    {
+      "id": "ma-abstract-algebra-3",
+      "name": "Fields and field extensions"
+    },
+    {
+      "id": "ma-abstract-algebra-4",
+      "name": "Modules"
+    },
+    {
+      "id": "ma-abstract-algebra-5",
+      "name": "Algebraic structures"
+    },
+    {
+      "id": "ma-abstract-algebra-6",
+      "name": "Universal algebra"
+    }
+  ]
+}

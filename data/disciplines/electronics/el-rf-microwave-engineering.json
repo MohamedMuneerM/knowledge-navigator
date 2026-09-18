@@ -1,0 +1,64 @@
+{
+  "id": "el-rf-microwave-engineering",
+  "name": "RF & Microwave Engineering",
+  "category": "Electromagnetics, RF & Microwave",
+  "level": 3,
+  "priority": "important",
+  "summary": "Designing circuits above ~100 MHz: microwave network analysis, matching, couplers, filters, amplifiers, mixers, oscillators and RF system budgets.",
+  "prerequisites": [
+    "el-transmission-lines",
+    "el-electromagnetic-waves",
+    "el-diode-transistor-circuits"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-rf-microwave-engineering-1",
+      "name": "Microwave network analysis: Z, Y, S and ABCD matrices, signal-flow graphs"
+    },
+    {
+      "id": "el-rf-microwave-engineering-2",
+      "name": "Impedance matching and tuning networks"
+    },
+    {
+      "id": "el-rf-microwave-engineering-3",
+      "name": "Microwave resonators"
+    },
+    {
+      "id": "el-rf-microwave-engineering-4",
+      "name": "Power dividers and directional couplers"
+    },
+    {
+      "id": "el-rf-microwave-engineering-5",
+      "name": "Microwave filter design (insertion-loss method, Richards and Kuroda)"
+    },
+    {
+      "id": "el-rf-microwave-engineering-6",
+      "name": "Ferrite devices: circulators and isolators"
+    },
+    {
+      "id": "el-rf-microwave-engineering-7",
+      "name": "Noise figure, non-linearity, IP3 and dynamic range"
+    },
+    {
+      "id": "el-rf-microwave-engineering-8",
+      "name": "Microwave amplifier design: stability, gain circles, LNAs and PAs"
+    },
+    {
+      "id": "el-rf-microwave-engineering-9",
+      "name": "Mixers and microwave oscillators"
+    },
+    {
+      "id": "el-rf-microwave-engineering-10",
+      "name": "RF receiver and transmitter architectures, cascade budgets"
+    },
+    {
+      "id": "el-rf-microwave-engineering-11",
+      "name": "Vector network analyzer measurements and calibration"
+    },
+    {
+      "id": "el-rf-microwave-engineering-12",
+      "name": "Millimetre-wave design and RF PCB practice"
+    }
+  ]
+}

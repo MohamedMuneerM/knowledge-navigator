@@ -1,0 +1,60 @@
+{
+  "id": "ai-big-data-technologies",
+  "name": "Big Data Technologies",
+  "category": "Data Science",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Processing data too large for one machine with the Hadoop ecosystem, Spark, Kafka, Flink and distributed stream processing.",
+  "prerequisites": [
+    "ai-data-engineering"
+  ],
+  "related": [
+    "cs-data-engineering",
+    "cs-distributed-systems",
+    "cs-nosql-data-systems"
+  ],
+  "topics": [
+    {
+      "id": "ai-big-data-technologies-1",
+      "name": "Hadoop Ecosystem",
+      "sub": [
+        {
+          "id": "ai-big-data-technologies-1-1",
+          "name": "HDFS"
+        },
+        {
+          "id": "ai-big-data-technologies-1-2",
+          "name": "MapReduce"
+        },
+        {
+          "id": "ai-big-data-technologies-1-3",
+          "name": "Hive"
+        },
+        {
+          "id": "ai-big-data-technologies-1-4",
+          "name": "Pig"
+        }
+      ]
+    },
+    {
+      "id": "ai-big-data-technologies-2",
+      "name": "Apache Spark"
+    },
+    {
+      "id": "ai-big-data-technologies-3",
+      "name": "Apache Kafka"
+    },
+    {
+      "id": "ai-big-data-technologies-4",
+      "name": "Apache Flink"
+    },
+    {
+      "id": "ai-big-data-technologies-5",
+      "name": "Distributed Computing"
+    },
+    {
+      "id": "ai-big-data-technologies-6",
+      "name": "Stream Processing"
+    }
+  ]
+}

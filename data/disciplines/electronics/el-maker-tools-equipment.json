@@ -1,0 +1,36 @@
+{
+  "id": "el-maker-tools-equipment",
+  "name": "Maker Tools & Equipment",
+  "category": "Professional Practice, Business & Community",
+  "level": 1,
+  "priority": "optional",
+  "summary": "Equipping a workshop: 3D printers, CNC, laser cutters, soldering and rework stations, benches and hand tools.",
+  "prerequisites": [],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-maker-tools-equipment-1",
+      "name": "3D printers (FDM, SLA, SLS)"
+    },
+    {
+      "id": "el-maker-tools-equipment-2",
+      "name": "CNC machines (milling, routing)"
+    },
+    {
+      "id": "el-maker-tools-equipment-3",
+      "name": "Laser cutters and engravers"
+    },
+    {
+      "id": "el-maker-tools-equipment-4",
+      "name": "Soldering stations and hot air rework"
+    },
+    {
+      "id": "el-maker-tools-equipment-5",
+      "name": "Electronics workbenches"
+    },
+    {
+      "id": "el-maker-tools-equipment-6",
+      "name": "Hand tools and precision instruments"
+    }
+  ]
+}

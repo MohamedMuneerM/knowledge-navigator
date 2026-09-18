@@ -1,0 +1,58 @@
+{
+  "id": "mt-thermoelectric-thermal-energy",
+  "name": "Thermoelectric & Thermal Energy Materials",
+  "category": "Energy Materials",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Covers materials that convert heat directly to electricity or store and manage heat, including thermoelectrics for spacecraft power and phase-change materials.",
+  "prerequisites": [
+    "mt-thermal-properties",
+    "mt-semiconductor-materials"
+  ],
+  "related": [
+    "el-energy-harvesting",
+    "ph-energy-physics"
+  ],
+  "topics": [
+    {
+      "id": "mt-thermoelectric-thermal-energy-1",
+      "name": "Seebeck, Peltier and Thomson effects"
+    },
+    {
+      "id": "mt-thermoelectric-thermal-energy-2",
+      "name": "Figure of merit ZT and device efficiency"
+    },
+    {
+      "id": "mt-thermoelectric-thermal-energy-3",
+      "name": "Decoupling electrical and thermal transport: phonon-glass electron-crystal"
+    },
+    {
+      "id": "mt-thermoelectric-thermal-energy-4",
+      "name": "Thermoelectric materials: Bi2Te3, PbTe, SiGe, skutterudites, half-Heuslers"
+    },
+    {
+      "id": "mt-thermoelectric-thermal-energy-5",
+      "name": "Nanostructuring and band engineering to raise ZT"
+    },
+    {
+      "id": "mt-thermoelectric-thermal-energy-6",
+      "name": "Radioisotope thermoelectric generators (RTGs) for spacecraft"
+    },
+    {
+      "id": "mt-thermoelectric-thermal-energy-7",
+      "name": "Thermoelectric coolers and waste-heat recovery"
+    },
+    {
+      "id": "mt-thermoelectric-thermal-energy-8",
+      "name": "Phase-change materials for thermal energy storage"
+    },
+    {
+      "id": "mt-thermoelectric-thermal-energy-9",
+      "name": "Thermochemical and sensible heat storage materials"
+    },
+    {
+      "id": "mt-thermoelectric-thermal-energy-10",
+      "name": "Radiative cooling and spectrally selective surfaces"
+    }
+  ]
+}

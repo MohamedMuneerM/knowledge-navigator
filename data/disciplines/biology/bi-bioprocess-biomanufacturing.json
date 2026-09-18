@@ -1,0 +1,56 @@
+{
+  "id": "bi-bioprocess-biomanufacturing",
+  "name": "Bioprocess Engineering & Biomanufacturing",
+  "category": "Biotechnology & Bioengineering",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Turning engineered cells into products at scale: fermentation, bioreactors, purification and quality control.",
+  "prerequisites": [
+    "bi-genetic-engineering-biotechnology",
+    "bi-metabolism",
+    "ch-material-energy-balances"
+  ],
+  "related": [
+    "ch-chemical-reaction-engineering",
+    "ch-transport-phenomena",
+    "ch-separation-processes"
+  ],
+  "topics": [
+    {
+      "id": "bi-bioprocess-biomanufacturing-1",
+      "name": "Microbial growth kinetics and the Monod model"
+    },
+    {
+      "id": "bi-bioprocess-biomanufacturing-2",
+      "name": "Bioreactor design: batch, fed-batch and continuous culture"
+    },
+    {
+      "id": "bi-bioprocess-biomanufacturing-3",
+      "name": "Mass transfer, oxygen supply and scale-up"
+    },
+    {
+      "id": "bi-bioprocess-biomanufacturing-4",
+      "name": "Mammalian cell culture for biologics"
+    },
+    {
+      "id": "bi-bioprocess-biomanufacturing-5",
+      "name": "Downstream processing and purification"
+    },
+    {
+      "id": "bi-bioprocess-biomanufacturing-6",
+      "name": "Process monitoring, control and quality by design"
+    },
+    {
+      "id": "bi-bioprocess-biomanufacturing-7",
+      "name": "Good manufacturing practice (GMP) and regulatory requirements"
+    },
+    {
+      "id": "bi-bioprocess-biomanufacturing-8",
+      "name": "Industrial enzymes, biofuels and bio-based chemicals"
+    },
+    {
+      "id": "bi-bioprocess-biomanufacturing-9",
+      "name": "Cell and gene therapy manufacturing"
+    }
+  ]
+}

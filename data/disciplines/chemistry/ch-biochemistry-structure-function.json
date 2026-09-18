@@ -1,0 +1,66 @@
+{
+  "id": "ch-biochemistry-structure-function",
+  "name": "Biochemistry I: Biomolecular Structure & Function",
+  "category": "Biochemistry & Chemical Biology",
+  "level": 2,
+  "priority": "core",
+  "summary": "The chemistry of proteins, enzymes, carbohydrates, lipids and nucleic acids and how their structure sets their function.",
+  "prerequisites": [
+    "ch-organic-reactions-ii",
+    "bi-introductory-biology"
+  ],
+  "related": [
+    "bi-biochemistry",
+    "bi-protein-structure-function"
+  ],
+  "topics": [
+    {
+      "id": "ch-biochemistry-structure-function-1",
+      "name": "Water, pH and buffers in biological systems"
+    },
+    {
+      "id": "ch-biochemistry-structure-function-2",
+      "name": "Amino acids and the peptide bond"
+    },
+    {
+      "id": "ch-biochemistry-structure-function-3",
+      "name": "Protein structure from primary to quaternary; folding and stability"
+    },
+    {
+      "id": "ch-biochemistry-structure-function-4",
+      "name": "Protein function: myoglobin, hemoglobin and allostery"
+    },
+    {
+      "id": "ch-biochemistry-structure-function-5",
+      "name": "Enzymes: catalysis, Michaelis-Menten kinetics and inhibition"
+    },
+    {
+      "id": "ch-biochemistry-structure-function-6",
+      "name": "Vitamins and coenzymes"
+    },
+    {
+      "id": "ch-biochemistry-structure-function-7",
+      "name": "Carbohydrates and glycobiology basics"
+    },
+    {
+      "id": "ch-biochemistry-structure-function-8",
+      "name": "Lipids and biological membranes"
+    },
+    {
+      "id": "ch-biochemistry-structure-function-9",
+      "name": "Membrane transport and signalling basics"
+    },
+    {
+      "id": "ch-biochemistry-structure-function-10",
+      "name": "Nucleotides and the structure of DNA and RNA"
+    },
+    {
+      "id": "ch-biochemistry-structure-function-11",
+      "name": "Replication, transcription and translation from a chemical view"
+    },
+    {
+      "id": "ch-biochemistry-structure-function-12",
+      "name": "Protein purification and characterization methods"
+    }
+  ]
+}

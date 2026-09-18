@@ -1,0 +1,70 @@
+{
+  "id": "mt-materials-selection",
+  "name": "Materials Selection in Design",
+  "category": "Materials Selection, Design & Sustainability",
+  "level": 3,
+  "priority": "core",
+  "summary": "Teaches the systematic Ashby method for choosing the best material and process for a component using property charts, performance indices and cost.",
+  "prerequisites": [
+    "mt-mechanical-properties",
+    "mt-thermal-properties",
+    "me-mechanics-of-materials"
+  ],
+  "related": [
+    "me-materials-selection"
+  ],
+  "topics": [
+    {
+      "id": "mt-materials-selection-1",
+      "name": "Materials in the design process: conceptual, embodiment and detailed design"
+    },
+    {
+      "id": "mt-materials-selection-2",
+      "name": "The families of engineering materials and materials information for design"
+    },
+    {
+      "id": "mt-materials-selection-3",
+      "name": "Material property charts (modulus-density, strength-density, toughness-strength and more)"
+    },
+    {
+      "id": "mt-materials-selection-4",
+      "name": "Translating design requirements: function, constraints, objectives and free variables"
+    },
+    {
+      "id": "mt-materials-selection-5",
+      "name": "Deriving material performance indices (e.g. E^(1/2)/ρ for a light stiff beam)"
+    },
+    {
+      "id": "mt-materials-selection-6",
+      "name": "Screening and ranking with charts and selection lines"
+    },
+    {
+      "id": "mt-materials-selection-7",
+      "name": "Case studies: oars, flywheels, springs, pressure vessels, heat exchangers"
+    },
+    {
+      "id": "mt-materials-selection-8",
+      "name": "Multiple constraints and conflicting objectives; penalty functions and trade-off surfaces"
+    },
+    {
+      "id": "mt-materials-selection-9",
+      "name": "Selection of material and shape: shape factors"
+    },
+    {
+      "id": "mt-materials-selection-10",
+      "name": "Process selection: process attributes, process charts and economic batch size"
+    },
+    {
+      "id": "mt-materials-selection-11",
+      "name": "Cost modelling of materials and processes"
+    },
+    {
+      "id": "mt-materials-selection-12",
+      "name": "Using selection software and databases (Granta EduPack/Selector, MatWeb)"
+    },
+    {
+      "id": "mt-materials-selection-13",
+      "name": "Industrial design, aesthetics and perceived attributes of materials"
+    }
+  ]
+}

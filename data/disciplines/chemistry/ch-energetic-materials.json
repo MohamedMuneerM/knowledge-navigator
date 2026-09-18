@@ -1,0 +1,56 @@
+{
+  "id": "ch-energetic-materials",
+  "name": "Energetic Materials Science",
+  "category": "Combustion, Propellants & Energetic Materials",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "An academic, conceptual treatment of how energetic materials store and release energy, and how they are made safe; no synthesis.",
+  "prerequisites": [
+    "ch-combustion-chemistry"
+  ],
+  "related": [
+    "ae-solid-rocket-motors"
+  ],
+  "topics": [
+    {
+      "id": "ch-energetic-materials-1",
+      "name": "Classes of energetic materials: propellants, explosives and pyrotechnics (conceptual)"
+    },
+    {
+      "id": "ch-energetic-materials-2",
+      "name": "Oxygen balance and energy content"
+    },
+    {
+      "id": "ch-energetic-materials-3",
+      "name": "Thermochemistry and performance prediction"
+    },
+    {
+      "id": "ch-energetic-materials-4",
+      "name": "Detonation theory: Chapman-Jouguet and ZND models"
+    },
+    {
+      "id": "ch-energetic-materials-5",
+      "name": "Deflagration-to-detonation transition"
+    },
+    {
+      "id": "ch-energetic-materials-6",
+      "name": "Sensitivity: impact, friction, electrostatic and thermal"
+    },
+    {
+      "id": "ch-energetic-materials-7",
+      "name": "Thermal decomposition, stability and ageing"
+    },
+    {
+      "id": "ch-energetic-materials-8",
+      "name": "Pyrotechnic chemistry: colour, light and gas generators (airbags)"
+    },
+    {
+      "id": "ch-energetic-materials-9",
+      "name": "Insensitive munitions and safety testing"
+    },
+    {
+      "id": "ch-energetic-materials-10",
+      "name": "Legal, regulatory and ethical framework"
+    }
+  ]
+}

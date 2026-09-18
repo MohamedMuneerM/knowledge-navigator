@@ -1,0 +1,42 @@
+{
+  "id": "el-threat-mitigation",
+  "name": "Threat Mitigation",
+  "category": "Security, Privacy & Trust",
+  "level": 3,
+  "priority": "important",
+  "summary": "Finding and reducing risk: threat modelling (STRIDE), vulnerability scanning, penetration testing, audits and zero trust.",
+  "prerequisites": [
+    "el-firmware-software-security",
+    "el-network-security"
+  ],
+  "related": [
+    "cs-offensive-security",
+    "cs-computer-security"
+  ],
+  "topics": [
+    {
+      "id": "el-threat-mitigation-1",
+      "name": "Vulnerability scanning and assessment"
+    },
+    {
+      "id": "el-threat-mitigation-2",
+      "name": "Penetration testing"
+    },
+    {
+      "id": "el-threat-mitigation-3",
+      "name": "Security audits"
+    },
+    {
+      "id": "el-threat-mitigation-4",
+      "name": "Threat modeling (STRIDE, DREAD)"
+    },
+    {
+      "id": "el-threat-mitigation-5",
+      "name": "Attack surface reduction"
+    },
+    {
+      "id": "el-threat-mitigation-6",
+      "name": "Zero trust architecture"
+    }
+  ]
+}

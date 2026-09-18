@@ -1,0 +1,72 @@
+{
+  "id": "cs-hci",
+  "name": "Human-Computer Interaction",
+  "category": "Human-Computer Interaction",
+  "level": 2,
+  "priority": "important",
+  "summary": "How people perceive, think and act with technology, and the user-centred process of researching, designing, prototyping and evaluating interfaces.",
+  "prerequisites": [
+    "cs-program-design"
+  ],
+  "related": [
+    "ai-human-robot-interaction-hri"
+  ],
+  "topics": [
+    {
+      "id": "cs-hci-1",
+      "name": "What HCI is and why usability matters"
+    },
+    {
+      "id": "cs-hci-2",
+      "name": "Human perception, cognition and memory limits"
+    },
+    {
+      "id": "cs-hci-3",
+      "name": "Models of interaction: Norman's action cycle, affordances and mental models"
+    },
+    {
+      "id": "cs-hci-4",
+      "name": "The user-centred design process"
+    },
+    {
+      "id": "cs-hci-5",
+      "name": "Needfinding: interviews, observation and contextual inquiry"
+    },
+    {
+      "id": "cs-hci-6",
+      "name": "Personas, scenarios and task analysis"
+    },
+    {
+      "id": "cs-hci-7",
+      "name": "Sketching, storyboarding and low-fidelity prototyping"
+    },
+    {
+      "id": "cs-hci-8",
+      "name": "Usability heuristics and heuristic evaluation"
+    },
+    {
+      "id": "cs-hci-9",
+      "name": "Usability testing and think-aloud studies"
+    },
+    {
+      "id": "cs-hci-10",
+      "name": "Controlled experiments and statistical analysis in HCI"
+    },
+    {
+      "id": "cs-hci-11",
+      "name": "Input devices, interaction techniques and Fitts's law"
+    },
+    {
+      "id": "cs-hci-12",
+      "name": "Designing for AI-powered, conversational and ubiquitous interfaces"
+    },
+    {
+      "id": "cs-hci-13",
+      "name": "Collaborative and social computing"
+    },
+    {
+      "id": "cs-hci-14",
+      "name": "Ethics, dark patterns and accountability in design"
+    }
+  ]
+}

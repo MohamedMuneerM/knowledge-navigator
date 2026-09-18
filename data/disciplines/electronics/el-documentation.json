@@ -1,0 +1,41 @@
+{
+  "id": "el-documentation",
+  "name": "Engineering Documentation",
+  "category": "Embedded Development Practices & Debugging",
+  "level": 2,
+  "priority": "important",
+  "summary": "Writing the documents engineering teams rely on: code docs with Doxygen, READMEs, ADRs, API specs, manuals and datasheets.",
+  "prerequisites": [
+    "el-version-control"
+  ],
+  "related": [
+    "cs-software-engineering-process",
+    "cs-professional-practice"
+  ],
+  "topics": [
+    {
+      "id": "el-documentation-1",
+      "name": "Code comments and inline documentation"
+    },
+    {
+      "id": "el-documentation-2",
+      "name": "Doxygen (documentation generation)"
+    },
+    {
+      "id": "el-documentation-3",
+      "name": "Markdown for README and wikis"
+    },
+    {
+      "id": "el-documentation-4",
+      "name": "Architecture decision records (ADR)"
+    },
+    {
+      "id": "el-documentation-5",
+      "name": "API documentation (Swagger/OpenAPI)"
+    },
+    {
+      "id": "el-documentation-6",
+      "name": "User manuals and datasheets"
+    }
+  ]
+}

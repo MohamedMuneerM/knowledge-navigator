@@ -1,0 +1,32 @@
+{
+  "id": "ph-econophysics",
+  "name": "Econophysics",
+  "category": "Interdisciplinary Physics",
+  "level": 4,
+  "priority": "optional",
+  "summary": "Statistical-physics models of markets and economies.",
+  "prerequisites": [
+    "ph-complex-systems-networks"
+  ],
+  "related": [
+    "ma-financial-mathematics"
+  ],
+  "topics": [
+    {
+      "id": "ph-econophysics-1",
+      "name": "Statistical approaches to economic systems"
+    },
+    {
+      "id": "ph-econophysics-2",
+      "name": "Financial market physics"
+    },
+    {
+      "id": "ph-econophysics-3",
+      "name": "Complex systems in economics"
+    },
+    {
+      "id": "ph-econophysics-4",
+      "name": "Agent-based modeling"
+    }
+  ]
+}

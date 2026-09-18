@@ -1,0 +1,67 @@
+{
+  "id": "mt-thermal-properties",
+  "name": "Thermal Properties of Materials",
+  "category": "Electronic, Optical, Magnetic & Thermal Properties",
+  "level": 2,
+  "priority": "important",
+  "summary": "Explains heat capacity, thermal expansion, thermal conductivity and thermal shock, and why they matter for engines, electronics and spacecraft.",
+  "prerequisites": [
+    "mt-thermodynamics-of-materials",
+    "mt-crystal-structures"
+  ],
+  "related": [
+    "ph-solid-state-physics",
+    "el-thermal-management",
+    "me-heat-transfer"
+  ],
+  "topics": [
+    {
+      "id": "mt-thermal-properties-1",
+      "name": "Heat capacity: classical Dulong-Petit, Einstein and Debye models"
+    },
+    {
+      "id": "mt-thermal-properties-2",
+      "name": "Phonons as heat carriers: lattice vibrations and the phonon picture"
+    },
+    {
+      "id": "mt-thermal-properties-3",
+      "name": "Thermal expansion: anharmonic potentials, coefficient of thermal expansion and the Grüneisen parameter"
+    },
+    {
+      "id": "mt-thermal-properties-4",
+      "name": "Negative and near-zero expansion materials (Invar, ZrW2O8, Zerodur)"
+    },
+    {
+      "id": "mt-thermal-properties-5",
+      "name": "Thermal conductivity in metals (Wiedemann-Franz law) and in insulators (phonon scattering, Umklapp)"
+    },
+    {
+      "id": "mt-thermal-properties-6",
+      "name": "Thermal conductivity of polymers, composites, foams and aerogels"
+    },
+    {
+      "id": "mt-thermal-properties-7",
+      "name": "Thermal diffusivity and transient heat flow"
+    },
+    {
+      "id": "mt-thermal-properties-8",
+      "name": "Thermal stresses from constrained expansion and CTE mismatch"
+    },
+    {
+      "id": "mt-thermal-properties-9",
+      "name": "Thermal shock resistance and thermal shock parameters"
+    },
+    {
+      "id": "mt-thermal-properties-10",
+      "name": "Radiative properties: emissivity and absorptivity"
+    },
+    {
+      "id": "mt-thermal-properties-11",
+      "name": "Measuring thermal properties: laser flash, dilatometry, DSC"
+    },
+    {
+      "id": "mt-thermal-properties-12",
+      "name": "Thermal management materials: heat spreaders, thermal interface materials, insulators"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "el-eda-electronic-design-automation-tools",
+  "name": "EDA (Electronic Design Automation) Tools",
+  "category": "Professional Practice, Business & Community",
+  "level": 2,
+  "priority": "optional",
+  "summary": "The EDA tool landscape: KiCad, Altium, OrCAD and Cadence for boards; Virtuoso and Synopsys for chips; Vivado and Quartus for FPGAs.",
+  "prerequisites": [
+    "el-schematic-design"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-eda-electronic-design-automation-tools-1",
+      "name": "Schematic capture: KiCad, Eagle, Altium Designer, OrCAD, Cadence"
+    },
+    {
+      "id": "el-eda-electronic-design-automation-tools-2",
+      "name": "PCB layout tools"
+    },
+    {
+      "id": "el-eda-electronic-design-automation-tools-3",
+      "name": "IC design: Cadence Virtuoso, Mentor Graphics, Synopsys"
+    },
+    {
+      "id": "el-eda-electronic-design-automation-tools-4",
+      "name": "FPGA tools: Xilinx Vivado, Intel Quartus"
+    },
+    {
+      "id": "el-eda-electronic-design-automation-tools-5",
+      "name": "Simulation and verification tools"
+    }
+  ]
+}

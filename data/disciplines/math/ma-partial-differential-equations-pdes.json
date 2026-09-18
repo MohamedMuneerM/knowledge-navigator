@@ -1,0 +1,74 @@
+{
+  "id": "ma-partial-differential-equations-pdes",
+  "name": "Partial Differential Equations (PDEs)",
+  "category": "Differential Equations & Dynamical Systems",
+  "level": 3,
+  "priority": "core",
+  "summary": "Heat, wave and Laplace equations and beyond: classification, solution methods and well-posedness of PDEs.",
+  "prerequisites": [
+    "ma-mathematical-methods"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-partial-differential-equations-pdes-7",
+      "name": "Derivation of the classical PDEs from conservation laws"
+    },
+    {
+      "id": "ma-partial-differential-equations-pdes-1",
+      "name": "First-order PDEs"
+    },
+    {
+      "id": "ma-partial-differential-equations-pdes-8",
+      "name": "Method of characteristics"
+    },
+    {
+      "id": "ma-partial-differential-equations-pdes-2",
+      "name": "Second-order PDEs"
+    },
+    {
+      "id": "ma-partial-differential-equations-pdes-9",
+      "name": "Classification of second-order equations"
+    },
+    {
+      "id": "ma-partial-differential-equations-pdes-5",
+      "name": "Hyperbolic equations"
+    },
+    {
+      "id": "ma-partial-differential-equations-pdes-10",
+      "name": "Wave equation: d'Alembert's solution and energy methods"
+    },
+    {
+      "id": "ma-partial-differential-equations-pdes-4",
+      "name": "Parabolic equations"
+    },
+    {
+      "id": "ma-partial-differential-equations-pdes-11",
+      "name": "Heat equation: fundamental solution and maximum principle"
+    },
+    {
+      "id": "ma-partial-differential-equations-pdes-3",
+      "name": "Elliptic equations"
+    },
+    {
+      "id": "ma-partial-differential-equations-pdes-12",
+      "name": "Laplace and Poisson equations: harmonic functions and Green's functions"
+    },
+    {
+      "id": "ma-partial-differential-equations-pdes-13",
+      "name": "Fourier methods and separation of variables"
+    },
+    {
+      "id": "ma-partial-differential-equations-pdes-14",
+      "name": "Well-posedness, weak solutions and Sobolev spaces"
+    },
+    {
+      "id": "ma-partial-differential-equations-pdes-6",
+      "name": "Nonlinear PDEs"
+    },
+    {
+      "id": "ma-partial-differential-equations-pdes-15",
+      "name": "Conservation laws and shocks"
+    }
+  ]
+}

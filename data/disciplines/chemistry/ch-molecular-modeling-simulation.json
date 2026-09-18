@@ -1,0 +1,63 @@
+{
+  "id": "ch-molecular-modeling-simulation",
+  "name": "Molecular Modeling & Simulation",
+  "category": "Computational & Theoretical Chemistry",
+  "level": 3,
+  "priority": "important",
+  "summary": "Force fields, molecular dynamics and Monte Carlo simulation for predicting structure, dynamics and free energies.",
+  "prerequisites": [
+    "ch-statistical-thermodynamics",
+    "cs-programming-fundamentals"
+  ],
+  "related": [
+    "ph-computational-physics",
+    "ma-monte-carlo-methods",
+    "mt-molecular-dynamics-monte-carlo"
+  ],
+  "topics": [
+    {
+      "id": "ch-molecular-modeling-simulation-1",
+      "name": "Molecular mechanics force fields and parametrization"
+    },
+    {
+      "id": "ch-molecular-modeling-simulation-2",
+      "name": "Energy minimization and conformational searching"
+    },
+    {
+      "id": "ch-molecular-modeling-simulation-3",
+      "name": "Molecular dynamics: integrators, thermostats and barostats"
+    },
+    {
+      "id": "ch-molecular-modeling-simulation-4",
+      "name": "Monte Carlo simulation methods"
+    },
+    {
+      "id": "ch-molecular-modeling-simulation-5",
+      "name": "Periodic boundary conditions and long-range electrostatics"
+    },
+    {
+      "id": "ch-molecular-modeling-simulation-6",
+      "name": "Solvation models: explicit and implicit"
+    },
+    {
+      "id": "ch-molecular-modeling-simulation-7",
+      "name": "Free-energy methods: umbrella sampling, thermodynamic integration and FEP"
+    },
+    {
+      "id": "ch-molecular-modeling-simulation-8",
+      "name": "Enhanced sampling and rare events"
+    },
+    {
+      "id": "ch-molecular-modeling-simulation-9",
+      "name": "Coarse-grained models"
+    },
+    {
+      "id": "ch-molecular-modeling-simulation-10",
+      "name": "Trajectory analysis and comparison with experiment"
+    },
+    {
+      "id": "ch-molecular-modeling-simulation-11",
+      "name": "Simulation software (GROMACS, LAMMPS, OpenMM)"
+    }
+  ]
+}

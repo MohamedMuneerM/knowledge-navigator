@@ -1,0 +1,39 @@
+{
+  "id": "ma-transcendental-number-theory",
+  "name": "Transcendental Number Theory",
+  "category": "Number Theory",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Proving numbers such as e and pi are transcendental, and Diophantine approximation of real numbers by rationals.",
+  "prerequisites": [
+    "ma-field-theory",
+    "ma-complex-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-transcendental-number-theory-3",
+      "name": "Liouville numbers and Diophantine approximation"
+    },
+    {
+      "id": "ma-transcendental-number-theory-1",
+      "name": "Transcendental numbers"
+    },
+    {
+      "id": "ma-transcendental-number-theory-4",
+      "name": "Transcendence of e and pi"
+    },
+    {
+      "id": "ma-transcendental-number-theory-5",
+      "name": "Lindemann-Weierstrass and Gelfond-Schneider theorems"
+    },
+    {
+      "id": "ma-transcendental-number-theory-6",
+      "name": "Baker's theory of linear forms in logarithms"
+    },
+    {
+      "id": "ma-transcendental-number-theory-2",
+      "name": "Algebraic independence"
+    }
+  ]
+}

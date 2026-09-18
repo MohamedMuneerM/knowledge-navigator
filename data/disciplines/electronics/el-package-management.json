@@ -1,0 +1,36 @@
+{
+  "id": "el-package-management",
+  "name": "Package Management",
+  "category": "Embedded Development Practices & Debugging",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Managing third-party dependencies for embedded projects with Conan, vcpkg, opkg/apt and Yocto layers.",
+  "prerequisites": [
+    "el-build-systems"
+  ],
+  "related": [
+    "cs-command-line-shell"
+  ],
+  "topics": [
+    {
+      "id": "el-package-management-1",
+      "name": "Conan (C/C++ package manager)"
+    },
+    {
+      "id": "el-package-management-2",
+      "name": "vcpkg (Microsoft C++ library manager)"
+    },
+    {
+      "id": "el-package-management-3",
+      "name": "opkg (embedded Linux)"
+    },
+    {
+      "id": "el-package-management-4",
+      "name": "apt/dpkg (Debian-based)"
+    },
+    {
+      "id": "el-package-management-5",
+      "name": "Yocto recipes and layers"
+    }
+  ]
+}

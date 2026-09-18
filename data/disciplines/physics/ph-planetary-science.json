@@ -1,0 +1,85 @@
+{
+  "id": "ph-planetary-science",
+  "name": "Planetary Science",
+  "category": "Planetary Science & Exoplanets",
+  "level": 3,
+  "priority": "important",
+  "summary": "The physics of planets, moons, asteroids and comets: their formation, interiors, surfaces and atmospheres.",
+  "prerequisites": [
+    "ph-astrophysics",
+    "ph-thermodynamics-statistical-mechanics"
+  ],
+  "related": [
+    "ph-geophysics",
+    "ph-celestial-mechanics",
+    "ea-comparative-planetology",
+    "ma-mathematical-aspects-of-astronomy",
+    "ch-geochemistry-cosmochemistry",
+    "ch-astrochemistry",
+    "ea-planetary-surfaces-and-impact-cratering",
+    "ea-planetary-atmospheres-and-climates",
+    "ae-planetary-exploration-systems"
+  ],
+  "topics": [
+    {
+      "id": "ph-planetary-science-9",
+      "name": "A tour of the Solar System and its inventory"
+    },
+    {
+      "id": "ph-planetary-science-3",
+      "name": "Orbital dynamics"
+    },
+    {
+      "id": "ph-planetary-science-5",
+      "name": "Planetary formation"
+    },
+    {
+      "id": "ph-planetary-science-2",
+      "name": "Planetary interiors"
+    },
+    {
+      "id": "ph-planetary-science-10",
+      "name": "Planetary surfaces and impact cratering"
+    },
+    {
+      "id": "ph-planetary-science-1",
+      "name": "Planetary atmospheres"
+    },
+    {
+      "id": "ph-planetary-science-11",
+      "name": "Planetary magnetic fields and magnetospheres"
+    },
+    {
+      "id": "ph-planetary-science-12",
+      "name": "Moons, rings and tidal heating"
+    },
+    {
+      "id": "ph-planetary-science-8",
+      "name": "Comets and asteroids"
+    },
+    {
+      "id": "ph-planetary-science-13",
+      "name": "The Kuiper Belt, dwarf planets and the Oort Cloud"
+    },
+    {
+      "id": "ph-planetary-science-7",
+      "name": "Meteoritics"
+    },
+    {
+      "id": "ph-planetary-science-4",
+      "name": "Exoplanets"
+    },
+    {
+      "id": "ph-planetary-science-6",
+      "name": "Astrobiology"
+    },
+    {
+      "id": "ph-planetary-science-14",
+      "name": "Planetary exploration missions and remote sensing"
+    },
+    {
+      "id": "ph-planetary-science-15",
+      "name": "Planetary defence and impact hazards"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "bi-gene-regulation-epigenetics",
+  "name": "Gene Regulation & Epigenetics",
+  "category": "Cell & Molecular Biology",
+  "level": 3,
+  "priority": "important",
+  "summary": "How cells switch genes on and off and remember those states: transcription control, chromatin, DNA methylation and non-coding RNA.",
+  "prerequisites": [
+    "bi-molecular-biology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-gene-regulation-epigenetics-1",
+      "name": "Transcription factors, DNA-binding domains and combinatorial control"
+    },
+    {
+      "id": "bi-gene-regulation-epigenetics-2",
+      "name": "Promoters, enhancers, silencers, insulators and 3D genome looping"
+    },
+    {
+      "id": "bi-gene-regulation-epigenetics-3",
+      "name": "The general transcription machinery, Mediator and RNA polymerase II pausing"
+    },
+    {
+      "id": "bi-gene-regulation-epigenetics-4",
+      "name": "Chromatin remodelling complexes"
+    },
+    {
+      "id": "bi-gene-regulation-epigenetics-5",
+      "name": "Histone modifications and the 'histone code'"
+    },
+    {
+      "id": "bi-gene-regulation-epigenetics-6",
+      "name": "DNA methylation, CpG islands and their readers"
+    },
+    {
+      "id": "bi-gene-regulation-epigenetics-7",
+      "name": "Polycomb and Trithorax: epigenetic memory"
+    },
+    {
+      "id": "bi-gene-regulation-epigenetics-8",
+      "name": "Genomic imprinting and X-chromosome inactivation"
+    },
+    {
+      "id": "bi-gene-regulation-epigenetics-9",
+      "name": "Post-transcriptional regulation: mRNA stability, localisation and translation control"
+    },
+    {
+      "id": "bi-gene-regulation-epigenetics-10",
+      "name": "Regulatory non-coding RNAs: miRNA, siRNA and lncRNA"
+    },
+    {
+      "id": "bi-gene-regulation-epigenetics-11",
+      "name": "Transgenerational epigenetic inheritance: evidence and controversy"
+    },
+    {
+      "id": "bi-gene-regulation-epigenetics-12",
+      "name": "Epigenetics in development, disease and ageing"
+    }
+  ]
+}

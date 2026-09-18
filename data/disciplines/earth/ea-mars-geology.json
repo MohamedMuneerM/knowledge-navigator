@@ -1,0 +1,55 @@
+{
+  "id": "ea-mars-geology",
+  "name": "Geology of Mars",
+  "category": "Planetary Geoscience",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Mars's geological history, from its ancient watery surface to today's cold desert, and what rovers and orbiters have found.",
+  "prerequisites": [
+    "ea-planetary-surfaces-and-impact-cratering",
+    "ea-sedimentology-and-stratigraphy"
+  ],
+  "related": [
+    "ph-planetary-science",
+    "ae-planetary-exploration-systems",
+    "ae-space-resources-surface-systems"
+  ],
+  "topics": [
+    {
+      "id": "ea-mars-geology-1",
+      "name": "Global structure: the crustal dichotomy and Tharsis"
+    },
+    {
+      "id": "ea-mars-geology-2",
+      "name": "Geologic periods: Noachian, Hesperian and Amazonian"
+    },
+    {
+      "id": "ea-mars-geology-3",
+      "name": "Martian volcanism"
+    },
+    {
+      "id": "ea-mars-geology-4",
+      "name": "Water on ancient Mars: valley networks, deltas and lakes"
+    },
+    {
+      "id": "ea-mars-geology-5",
+      "name": "Aqueous mineralogy: clays, sulfates and carbonates"
+    },
+    {
+      "id": "ea-mars-geology-6",
+      "name": "Polar caps, ground ice and climate cycles"
+    },
+    {
+      "id": "ea-mars-geology-7",
+      "name": "Aeolian activity and dust"
+    },
+    {
+      "id": "ea-mars-geology-8",
+      "name": "Rover and orbiter findings (Curiosity, Perseverance)"
+    },
+    {
+      "id": "ea-mars-geology-9",
+      "name": "Habitability and Mars sample return"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ai-interpretability-explainability-xai",
+  "name": "Interpretability & Explainability (XAI)",
+  "category": "AI Safety, Ethics & Governance",
+  "level": 3,
+  "priority": "important",
+  "summary": "Understanding why models make their predictions, from feature attributions like SHAP and LIME to counterfactuals and mechanistic interpretability.",
+  "prerequisites": [
+    "ai-neural-network-foundations"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-interpretability-explainability-xai-9",
+      "name": "Interpretable-by-design models (GAMs, rule lists, sparse linear models)"
+    },
+    {
+      "id": "ai-interpretability-explainability-xai-1",
+      "name": "Feature Attribution",
+      "sub": [
+        {
+          "id": "ai-interpretability-explainability-xai-1-1",
+          "name": "SHAP"
+        },
+        {
+          "id": "ai-interpretability-explainability-xai-1-2",
+          "name": "LIME"
+        },
+        {
+          "id": "ai-interpretability-explainability-xai-1-3",
+          "name": "Integrated Gradients"
+        }
+      ]
+    },
+    {
+      "id": "ai-interpretability-explainability-xai-2",
+      "name": "Attention Visualization"
+    },
+    {
+      "id": "ai-interpretability-explainability-xai-3",
+      "name": "Concept-Based Explanations"
+    },
+    {
+      "id": "ai-interpretability-explainability-xai-4",
+      "name": "Counterfactual Explanations"
+    },
+    {
+      "id": "ai-interpretability-explainability-xai-5",
+      "name": "Prototype-Based Explanations"
+    },
+    {
+      "id": "ai-interpretability-explainability-xai-6",
+      "name": "Mechanistic Interpretability"
+    },
+    {
+      "id": "ai-interpretability-explainability-xai-7",
+      "name": "Probing Classifiers"
+    },
+    {
+      "id": "ai-interpretability-explainability-xai-8",
+      "name": "Saliency Maps"
+    },
+    {
+      "id": "ai-interpretability-explainability-xai-10",
+      "name": "Evaluating explanations: faithfulness and plausibility"
+    }
+  ]
+}

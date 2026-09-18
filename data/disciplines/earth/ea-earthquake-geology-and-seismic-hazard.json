@@ -1,0 +1,51 @@
+{
+  "id": "ea-earthquake-geology-and-seismic-hazard",
+  "name": "Earthquake Geology & Seismic Hazard",
+  "category": "Natural Hazards",
+  "level": 3,
+  "priority": "important",
+  "summary": "How earthquakes and tsunamis are studied in the field and quantified as hazards, from active faults to hazard maps and early warning.",
+  "prerequisites": [
+    "ea-seismology",
+    "ea-structural-geology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-earthquake-geology-and-seismic-hazard-1",
+      "name": "Active faults and the earthquake cycle"
+    },
+    {
+      "id": "ea-earthquake-geology-and-seismic-hazard-2",
+      "name": "Paleoseismology and trenching"
+    },
+    {
+      "id": "ea-earthquake-geology-and-seismic-hazard-3",
+      "name": "Fault slip rates from geology and geodesy"
+    },
+    {
+      "id": "ea-earthquake-geology-and-seismic-hazard-4",
+      "name": "Ground motion, attenuation and site effects"
+    },
+    {
+      "id": "ea-earthquake-geology-and-seismic-hazard-5",
+      "name": "Liquefaction and co-seismic landslides"
+    },
+    {
+      "id": "ea-earthquake-geology-and-seismic-hazard-6",
+      "name": "Probabilistic seismic hazard analysis (PSHA)"
+    },
+    {
+      "id": "ea-earthquake-geology-and-seismic-hazard-7",
+      "name": "Earthquake forecasting and early warning"
+    },
+    {
+      "id": "ea-earthquake-geology-and-seismic-hazard-8",
+      "name": "Induced seismicity"
+    },
+    {
+      "id": "ea-earthquake-geology-and-seismic-hazard-9",
+      "name": "Tsunami generation, propagation and warning"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "ch-photochemistry",
+  "name": "Photochemistry & Photophysics",
+  "category": "Physical Chemistry",
+  "level": 3,
+  "priority": "important",
+  "summary": "What happens after a molecule absorbs light: excited-state decay, energy and electron transfer, and light-driven reactions.",
+  "prerequisites": [
+    "ch-molecular-spectroscopy",
+    "ch-organic-reactions-ii"
+  ],
+  "related": [
+    "ea-atmospheric-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "ch-photochemistry-1",
+      "name": "Excited states: singlets, triplets and state diagrams"
+    },
+    {
+      "id": "ch-photochemistry-2",
+      "name": "Radiative and non-radiative decay; quantum yields and lifetimes"
+    },
+    {
+      "id": "ch-photochemistry-3",
+      "name": "Energy transfer: Förster (FRET) and Dexter mechanisms"
+    },
+    {
+      "id": "ch-photochemistry-4",
+      "name": "Photoinduced electron transfer and Marcus theory"
+    },
+    {
+      "id": "ch-photochemistry-5",
+      "name": "Organic photochemistry: [2+2] photocycloaddition, Norrish reactions and photoisomerization"
+    },
+    {
+      "id": "ch-photochemistry-6",
+      "name": "Photochemistry of metal complexes"
+    },
+    {
+      "id": "ch-photochemistry-7",
+      "name": "Photosensitization and singlet oxygen"
+    },
+    {
+      "id": "ch-photochemistry-8",
+      "name": "Photocatalysis and photoredox basics"
+    },
+    {
+      "id": "ch-photochemistry-9",
+      "name": "Photochemistry in nature: vision and photosynthesis"
+    },
+    {
+      "id": "ch-photochemistry-10",
+      "name": "Time-resolved techniques: transient absorption and time-correlated single-photon counting"
+    }
+  ]
+}

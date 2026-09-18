@@ -1,0 +1,69 @@
+{
+  "id": "me-engineering-computation",
+  "name": "Engineering Computation & Numerical Methods",
+  "category": "Foundations & Professional Practice",
+  "level": 2,
+  "priority": "important",
+  "summary": "Programming and numerical methods that mechanical engineers use daily to solve equations, fit data and simulate systems.",
+  "prerequisites": [
+    "me-introduction-to-engineering-mechanical-design",
+    "ma-calculus",
+    "cs-programming-fundamentals",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ma-numerical-methods-for-calculus",
+    "ph-computational-physics",
+    "ae-computational-methods-aerospace"
+  ],
+  "topics": [
+    {
+      "id": "me-engineering-computation-1",
+      "name": "Programming for engineers in Python or MATLAB: variables, control flow, functions"
+    },
+    {
+      "id": "me-engineering-computation-2",
+      "name": "Arrays, vectorisation and plotting engineering data"
+    },
+    {
+      "id": "me-engineering-computation-3",
+      "name": "Algorithm development: flowcharts and pseudocode"
+    },
+    {
+      "id": "me-engineering-computation-4",
+      "name": "Numerical error: round-off, truncation and Taylor series"
+    },
+    {
+      "id": "me-engineering-computation-5",
+      "name": "Root finding: bisection, Newton's method and secant method"
+    },
+    {
+      "id": "me-engineering-computation-6",
+      "name": "Linear systems: Gaussian elimination and LU decomposition"
+    },
+    {
+      "id": "me-engineering-computation-7",
+      "name": "Curve fitting: least-squares regression and interpolation"
+    },
+    {
+      "id": "me-engineering-computation-8",
+      "name": "Numerical differentiation and integration"
+    },
+    {
+      "id": "me-engineering-computation-9",
+      "name": "Numerical solution of ODEs: Euler and Runge-Kutta methods"
+    },
+    {
+      "id": "me-engineering-computation-10",
+      "name": "Optimization basics for engineering problems"
+    },
+    {
+      "id": "me-engineering-computation-11",
+      "name": "Symbolic computation and units-aware computing"
+    },
+    {
+      "id": "me-engineering-computation-12",
+      "name": "Handling test data: import, filtering and visualisation"
+    }
+  ]
+}

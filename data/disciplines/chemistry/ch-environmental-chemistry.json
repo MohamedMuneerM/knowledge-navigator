@@ -1,0 +1,64 @@
+{
+  "id": "ch-environmental-chemistry",
+  "name": "Environmental Chemistry",
+  "category": "Environmental & Green Chemistry",
+  "level": 3,
+  "priority": "important",
+  "summary": "Chemical processes in water, soil and air, and the sources, fate and effects of pollutants.",
+  "prerequisites": [
+    "ch-organic-reactions-i",
+    "ch-redox-electrochemistry-basics"
+  ],
+  "related": [
+    "el-environmental-chemical-compliance",
+    "ea-water-quality-and-pollution",
+    "ea-contaminants-remediation-and-environmental-health",
+    "ea-biogeochemical-cycles"
+  ],
+  "topics": [
+    {
+      "id": "ch-environmental-chemistry-1",
+      "name": "Environmental compartments and biogeochemical cycles (C, N, S, P)"
+    },
+    {
+      "id": "ch-environmental-chemistry-2",
+      "name": "Natural water chemistry: hardness and alkalinity"
+    },
+    {
+      "id": "ch-environmental-chemistry-3",
+      "name": "Water pollution: nutrients, heavy metals, organics and pathogens"
+    },
+    {
+      "id": "ch-environmental-chemistry-4",
+      "name": "Water and wastewater treatment chemistry"
+    },
+    {
+      "id": "ch-environmental-chemistry-5",
+      "name": "Soil chemistry: minerals, organic matter and ion exchange"
+    },
+    {
+      "id": "ch-environmental-chemistry-6",
+      "name": "Persistent organic pollutants, pesticides and PFAS"
+    },
+    {
+      "id": "ch-environmental-chemistry-7",
+      "name": "Environmental fate and transport: partitioning (Kow, Henry's law) and degradation"
+    },
+    {
+      "id": "ch-environmental-chemistry-8",
+      "name": "Toxic metals: speciation of mercury, lead, arsenic and cadmium"
+    },
+    {
+      "id": "ch-environmental-chemistry-9",
+      "name": "Energy, climate and the chemistry of the carbon cycle"
+    },
+    {
+      "id": "ch-environmental-chemistry-10",
+      "name": "Environmental analysis and monitoring"
+    },
+    {
+      "id": "ch-environmental-chemistry-11",
+      "name": "Chemical regulation and environmental risk (REACH, TSCA)"
+    }
+  ]
+}

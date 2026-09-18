@@ -1,0 +1,58 @@
+{
+  "id": "ae-interplanetary-trajectories",
+  "name": "Interplanetary Trajectories",
+  "category": "Orbital Mechanics & Astrodynamics",
+  "level": 3,
+  "priority": "core",
+  "summary": "Designing trips to the Moon and planets: patched conics, launch windows, porkchop plots and gravity assists.",
+  "prerequisites": [
+    "ae-orbital-maneuvers"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-interplanetary-trajectories-1",
+      "name": "Interplanetary Hohmann transfers and synodic periods"
+    },
+    {
+      "id": "ae-interplanetary-trajectories-2",
+      "name": "Sphere of influence"
+    },
+    {
+      "id": "ae-interplanetary-trajectories-3",
+      "name": "Patched-conic approximation"
+    },
+    {
+      "id": "ae-interplanetary-trajectories-4",
+      "name": "Departure hyperbola, C3 and declination"
+    },
+    {
+      "id": "ae-interplanetary-trajectories-5",
+      "name": "Arrival: capture, aerocapture and flyby"
+    },
+    {
+      "id": "ae-interplanetary-trajectories-6",
+      "name": "Porkchop plots from Lambert solutions"
+    },
+    {
+      "id": "ae-interplanetary-trajectories-7",
+      "name": "Gravity assists and B-plane targeting"
+    },
+    {
+      "id": "ae-interplanetary-trajectories-8",
+      "name": "Multiple gravity-assist tours (VEEGA, Cassini, Voyager)"
+    },
+    {
+      "id": "ae-interplanetary-trajectories-9",
+      "name": "Lunar trajectories: free-return and translunar injection"
+    },
+    {
+      "id": "ae-interplanetary-trajectories-10",
+      "name": "Planetary ephemerides (JPL DE, SPICE)"
+    },
+    {
+      "id": "ae-interplanetary-trajectories-11",
+      "name": "Low-thrust interplanetary trajectories"
+    }
+  ]
+}

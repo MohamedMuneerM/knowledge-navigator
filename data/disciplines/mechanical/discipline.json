@@ -1,0 +1,29 @@
+{
+  "id": "mechanical",
+  "name": "Mechanical Engineering",
+  "icon": "⚙️",
+  "color": "#f87171",
+  "prefix": "me",
+  "description": "Mechanical engineering designs, analyses and makes machines and thermal-fluid systems: mechanics, materials, thermodynamics, fluids and heat transfer, machine design, manufacturing, dynamics and control, robotics and energy systems, from first workshop skills to research frontiers.",
+  "categories": [
+    "Foundations & Professional Practice",
+    "Engineering Graphics, CAD & Tolerancing",
+    "Engineering Mechanics",
+    "Engineering Materials",
+    "Solid Mechanics & Structures",
+    "Thermal-Fluid Sciences",
+    "System Dynamics, Measurement & Control",
+    "Vibrations & Acoustics",
+    "Mechanisms & Kinematics of Machinery",
+    "Machine Design & Machine Elements",
+    "Manufacturing Engineering",
+    "Computational Engineering & Simulation",
+    "Design Methodology, Product Development & Reliability",
+    "Fluid Power",
+    "Mechatronics & Robotics",
+    "Biomechanics & Wearable Systems",
+    "Energy & Power Systems",
+    "Automotive & Vehicle Engineering",
+    "Frontiers of Mechanical Engineering"
+  ]
+}

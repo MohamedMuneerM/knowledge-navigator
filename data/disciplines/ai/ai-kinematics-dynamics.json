@@ -1,0 +1,78 @@
+{
+  "id": "ai-kinematics-dynamics",
+  "name": "Kinematics & Dynamics",
+  "category": "Robotics Foundations",
+  "level": 3,
+  "priority": "core",
+  "summary": "The mathematics of robot motion: rigid-body transforms, forward and inverse kinematics, Jacobians, statics and manipulator dynamics.",
+  "prerequisites": [
+    "ai-robot-fundamentals",
+    "ma-linear-algebra",
+    "me-dynamics"
+  ],
+  "related": [
+    "el-kinematics-dynamics",
+    "me-robot-mechanics",
+    "me-kinematics-of-mechanisms"
+  ],
+  "topics": [
+    {
+      "id": "ai-kinematics-dynamics-8",
+      "name": "Rigid-body motions: rotation matrices, Euler angles, quaternions, homogeneous transforms"
+    },
+    {
+      "id": "ai-kinematics-dynamics-9",
+      "name": "Screw theory: twists, wrenches and the product-of-exponentials formula"
+    },
+    {
+      "id": "ai-kinematics-dynamics-1",
+      "name": "Forward Kinematics"
+    },
+    {
+      "id": "ai-kinematics-dynamics-2",
+      "name": "Inverse Kinematics"
+    },
+    {
+      "id": "ai-kinematics-dynamics-3",
+      "name": "Denavit-Hartenberg Parameters"
+    },
+    {
+      "id": "ai-kinematics-dynamics-4",
+      "name": "Jacobian Matrix"
+    },
+    {
+      "id": "ai-kinematics-dynamics-5",
+      "name": "Velocity Kinematics"
+    },
+    {
+      "id": "ai-kinematics-dynamics-6",
+      "name": "Robot Dynamics",
+      "sub": [
+        {
+          "id": "ai-kinematics-dynamics-6-1",
+          "name": "Newton-Euler formulation"
+        },
+        {
+          "id": "ai-kinematics-dynamics-6-2",
+          "name": "Lagrangian formulation"
+        }
+      ]
+    },
+    {
+      "id": "ai-kinematics-dynamics-7",
+      "name": "Manipulator Dynamics"
+    },
+    {
+      "id": "ai-kinematics-dynamics-10",
+      "name": "Singularities, manipulability and redundancy"
+    },
+    {
+      "id": "ai-kinematics-dynamics-11",
+      "name": "Statics: mapping forces with the Jacobian transpose"
+    },
+    {
+      "id": "ai-kinematics-dynamics-12",
+      "name": "Kinematics of closed chains and parallel mechanisms"
+    }
+  ]
+}

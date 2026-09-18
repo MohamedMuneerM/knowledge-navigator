@@ -1,0 +1,71 @@
+{
+  "id": "me-wearable-mechanisms-exoskeletons",
+  "name": "Wearable Mechanisms & Exoskeletons",
+  "category": "Biomechanics & Wearable Systems",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Designing machines worn on the body, from passive supports to powered exoskeletons and suits, with emphasis on human-machine joints and interfaces.",
+  "prerequisites": [
+    "me-biomechanics",
+    "me-robot-mechanism-design"
+  ],
+  "related": [
+    "ai-human-robot-interaction-hri",
+    "ai-wearable-robotics-exoskeletons",
+    "bi-musculoskeletal-modeling-human-augmentation"
+  ],
+  "topics": [
+    {
+      "id": "me-wearable-mechanisms-exoskeletons-1",
+      "name": "Exoskeleton and exosuit classes: passive/active, upper/lower body, industrial, medical, military"
+    },
+    {
+      "id": "me-wearable-mechanisms-exoskeletons-2",
+      "name": "Deriving requirements from human biomechanics: joint torques, powers and ranges of motion"
+    },
+    {
+      "id": "me-wearable-mechanisms-exoskeletons-3",
+      "name": "Human-machine joint alignment: misalignment, self-aligning and remote-centre-of-motion mechanisms"
+    },
+    {
+      "id": "me-wearable-mechanisms-exoskeletons-4",
+      "name": "Physical human-robot interface: cuffs, straps, pressure distribution and skin comfort"
+    },
+    {
+      "id": "me-wearable-mechanisms-exoskeletons-5",
+      "name": "Load paths, load transfer to the ground and body-weight support"
+    },
+    {
+      "id": "me-wearable-mechanisms-exoskeletons-6",
+      "name": "Actuation and transmission choices for wearables (cable-driven, series elastic, hydraulic)"
+    },
+    {
+      "id": "me-wearable-mechanisms-exoskeletons-7",
+      "name": "Soft exosuits and textile-based actuation"
+    },
+    {
+      "id": "me-wearable-mechanisms-exoskeletons-8",
+      "name": "Control: transparency, assist-as-needed, impedance and admittance control"
+    },
+    {
+      "id": "me-wearable-mechanisms-exoskeletons-9",
+      "name": "Intent detection: EMG, IMUs, force sensing and gait-phase estimation"
+    },
+    {
+      "id": "me-wearable-mechanisms-exoskeletons-10",
+      "name": "Evaluation: metabolic cost, kinematics and user acceptance"
+    },
+    {
+      "id": "me-wearable-mechanisms-exoskeletons-11",
+      "name": "Safety, fit, donning/doffing and standards (ISO 13482)"
+    },
+    {
+      "id": "me-wearable-mechanisms-exoskeletons-12",
+      "name": "Powered prostheses and orthoses"
+    },
+    {
+      "id": "me-wearable-mechanisms-exoskeletons-13",
+      "name": "Power, thermal and mass budgets for full-body powered suits"
+    }
+  ]
+}

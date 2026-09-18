@@ -1,0 +1,60 @@
+{
+  "id": "ch-fuels-petroleum-chemistry",
+  "name": "Fuels & Petroleum Chemistry",
+  "category": "Combustion, Propellants & Energetic Materials",
+  "level": 3,
+  "priority": "important",
+  "summary": "Composition, refining and properties of fossil, bio- and synthetic fuels, including aviation and rocket kerosene.",
+  "prerequisites": [
+    "ch-organic-reactions-i"
+  ],
+  "related": [
+    "ea-petroleum-geology"
+  ],
+  "topics": [
+    {
+      "id": "ch-fuels-petroleum-chemistry-1",
+      "name": "Formation and composition of petroleum, natural gas and coal"
+    },
+    {
+      "id": "ch-fuels-petroleum-chemistry-2",
+      "name": "Crude-oil refining: distillation, cracking, reforming, alkylation and hydrotreating"
+    },
+    {
+      "id": "ch-fuels-petroleum-chemistry-3",
+      "name": "Fuel properties: heating value, octane and cetane numbers, volatility and flash point"
+    },
+    {
+      "id": "ch-fuels-petroleum-chemistry-4",
+      "name": "Gasoline, diesel and jet fuels (Jet A, JP-8, RP-1)"
+    },
+    {
+      "id": "ch-fuels-petroleum-chemistry-5",
+      "name": "Lubricants and fuel additives"
+    },
+    {
+      "id": "ch-fuels-petroleum-chemistry-6",
+      "name": "Natural gas processing and LNG"
+    },
+    {
+      "id": "ch-fuels-petroleum-chemistry-7",
+      "name": "Coal chemistry, gasification and syngas"
+    },
+    {
+      "id": "ch-fuels-petroleum-chemistry-8",
+      "name": "Biofuels: ethanol, biodiesel, renewable diesel and sustainable aviation fuel"
+    },
+    {
+      "id": "ch-fuels-petroleum-chemistry-9",
+      "name": "Synthetic fuels: Fischer-Tropsch, methanol and e-fuels"
+    },
+    {
+      "id": "ch-fuels-petroleum-chemistry-10",
+      "name": "Hydrogen, ammonia and methane as fuels"
+    },
+    {
+      "id": "ch-fuels-petroleum-chemistry-11",
+      "name": "Petrochemical feedstocks: olefins and aromatics"
+    }
+  ]
+}

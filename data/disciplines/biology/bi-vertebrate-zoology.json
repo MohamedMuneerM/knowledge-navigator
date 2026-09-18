@@ -1,0 +1,58 @@
+{
+  "id": "bi-vertebrate-zoology",
+  "name": "Vertebrate Zoology & Comparative Anatomy",
+  "category": "Biodiversity & Systematics",
+  "level": 3,
+  "priority": "important",
+  "summary": "The evolution, form and diversity of vertebrates, from jawless fishes to mammals, with comparative anatomy of their organ systems.",
+  "prerequisites": [
+    "bi-animal-diversity"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-vertebrate-zoology-1",
+      "name": "Chordate origins and the vertebrate body plan"
+    },
+    {
+      "id": "bi-vertebrate-zoology-2",
+      "name": "Jawless fishes and the origin of jaws"
+    },
+    {
+      "id": "bi-vertebrate-zoology-3",
+      "name": "Cartilaginous and bony fishes"
+    },
+    {
+      "id": "bi-vertebrate-zoology-4",
+      "name": "The transition to land: tetrapod origins and amphibians"
+    },
+    {
+      "id": "bi-vertebrate-zoology-5",
+      "name": "The amniotic egg; reptiles including turtles and crocodilians"
+    },
+    {
+      "id": "bi-vertebrate-zoology-6",
+      "name": "Dinosaurs and the evolution of birds and flight (ornithology)"
+    },
+    {
+      "id": "bi-vertebrate-zoology-7",
+      "name": "Mammalian origins, diversity and characteristics (mammalogy)"
+    },
+    {
+      "id": "bi-vertebrate-zoology-8",
+      "name": "Comparative anatomy: skeleton and musculature"
+    },
+    {
+      "id": "bi-vertebrate-zoology-9",
+      "name": "Comparative anatomy: nervous, circulatory, respiratory and digestive systems"
+    },
+    {
+      "id": "bi-vertebrate-zoology-10",
+      "name": "Vertebrate locomotion: swimming, walking, flying"
+    },
+    {
+      "id": "bi-vertebrate-zoology-11",
+      "name": "Vertebrate life histories and reproductive strategies"
+    }
+  ]
+}

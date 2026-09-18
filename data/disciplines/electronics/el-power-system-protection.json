@@ -1,0 +1,62 @@
+{
+  "id": "el-power-system-protection",
+  "name": "Power System Protection & Switchgear",
+  "category": "Electrical Machines & Power Systems",
+  "level": 4,
+  "priority": "important",
+  "summary": "Detecting and isolating faults: protective relays and schemes, coordination, circuit breakers and digital substations.",
+  "prerequisites": [
+    "el-power-system-fault-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-power-system-protection-1",
+      "name": "Protection philosophy: zones, selectivity, speed, reliability"
+    },
+    {
+      "id": "el-power-system-protection-2",
+      "name": "Current and voltage transformers for protection, CT saturation"
+    },
+    {
+      "id": "el-power-system-protection-3",
+      "name": "Overcurrent relays and time-current coordination"
+    },
+    {
+      "id": "el-power-system-protection-4",
+      "name": "Directional protection"
+    },
+    {
+      "id": "el-power-system-protection-5",
+      "name": "Distance protection of lines"
+    },
+    {
+      "id": "el-power-system-protection-6",
+      "name": "Differential protection of transformers, generators and busbars"
+    },
+    {
+      "id": "el-power-system-protection-7",
+      "name": "Pilot and communication-assisted line protection"
+    },
+    {
+      "id": "el-power-system-protection-8",
+      "name": "Generator and motor protection"
+    },
+    {
+      "id": "el-power-system-protection-9",
+      "name": "Circuit breakers: arc interruption, SF6 and vacuum"
+    },
+    {
+      "id": "el-power-system-protection-10",
+      "name": "Numerical relays and IEC 61850 digital substations"
+    },
+    {
+      "id": "el-power-system-protection-11",
+      "name": "Distribution protection: fuses, reclosers and sectionalizers"
+    },
+    {
+      "id": "el-power-system-protection-12",
+      "name": "Protection challenges with inverter-based resources"
+    }
+  ]
+}

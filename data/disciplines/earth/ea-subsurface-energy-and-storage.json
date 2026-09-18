@@ -1,0 +1,49 @@
+{
+  "id": "ea-subsurface-energy-and-storage",
+  "name": "Geothermal Energy & Subsurface Storage",
+  "category": "Earth Resources & Applied Geology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Using the subsurface for low-carbon energy and waste storage: geothermal systems, carbon storage, hydrogen and nuclear waste.",
+  "prerequisites": [
+    "ea-hydrogeology",
+    "ea-earth-resources-and-energy"
+  ],
+  "related": [
+    "ph-energy-physics"
+  ],
+  "topics": [
+    {
+      "id": "ea-subsurface-energy-and-storage-1",
+      "name": "Geothermal systems: hydrothermal, hot dry rock and enhanced geothermal"
+    },
+    {
+      "id": "ea-subsurface-energy-and-storage-2",
+      "name": "Geothermal exploration and reservoir engineering"
+    },
+    {
+      "id": "ea-subsurface-energy-and-storage-3",
+      "name": "Geological carbon storage: trapping mechanisms and site selection"
+    },
+    {
+      "id": "ea-subsurface-energy-and-storage-4",
+      "name": "Monitoring and leakage risk of CO2 storage"
+    },
+    {
+      "id": "ea-subsurface-energy-and-storage-5",
+      "name": "Underground hydrogen and natural (geologic) hydrogen"
+    },
+    {
+      "id": "ea-subsurface-energy-and-storage-6",
+      "name": "Compressed-air and thermal energy storage"
+    },
+    {
+      "id": "ea-subsurface-energy-and-storage-7",
+      "name": "Geological disposal of nuclear waste"
+    },
+    {
+      "id": "ea-subsurface-energy-and-storage-8",
+      "name": "Induced seismicity from subsurface operations"
+    }
+  ]
+}

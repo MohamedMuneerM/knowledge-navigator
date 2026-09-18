@@ -1,0 +1,38 @@
+{
+  "id": "ma-mathematical-writing-communication",
+  "name": "Mathematical Writing & Communication",
+  "category": "History, Philosophy & Education",
+  "level": 2,
+  "priority": "important",
+  "summary": "Writing clear proofs and mathematical exposition, typesetting with LaTeX and presenting mathematics to different audiences.",
+  "prerequisites": [
+    "ma-introduction-to-proofs"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-mathematical-writing-communication-1",
+      "name": "Proof writing"
+    },
+    {
+      "id": "ma-mathematical-writing-communication-4",
+      "name": "Structuring arguments and avoiding common errors"
+    },
+    {
+      "id": "ma-mathematical-writing-communication-5",
+      "name": "Typesetting with LaTeX"
+    },
+    {
+      "id": "ma-mathematical-writing-communication-2",
+      "name": "Mathematical exposition"
+    },
+    {
+      "id": "ma-mathematical-writing-communication-3",
+      "name": "Technical communication"
+    },
+    {
+      "id": "ma-mathematical-writing-communication-6",
+      "name": "Giving mathematical talks"
+    }
+  ]
+}

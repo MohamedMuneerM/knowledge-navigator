@@ -1,0 +1,54 @@
+{
+  "id": "ma-commutative-algebra",
+  "name": "Commutative Algebra",
+  "category": "Algebra",
+  "level": 4,
+  "priority": "important",
+  "summary": "Commutative rings and modules (Noetherian rings, localisation, primary decomposition, dimension), the algebraic engine of algebraic geometry and number theory.",
+  "prerequisites": [
+    "ma-ring-theory"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-commutative-algebra-1",
+      "name": "Ideals and modules"
+    },
+    {
+      "id": "ma-commutative-algebra-5",
+      "name": "Exact sequences and tensor products"
+    },
+    {
+      "id": "ma-commutative-algebra-3",
+      "name": "Localization"
+    },
+    {
+      "id": "ma-commutative-algebra-2",
+      "name": "Noetherian rings"
+    },
+    {
+      "id": "ma-commutative-algebra-6",
+      "name": "Hilbert's basis theorem and Nullstellensatz"
+    },
+    {
+      "id": "ma-commutative-algebra-4",
+      "name": "Primary decomposition"
+    },
+    {
+      "id": "ma-commutative-algebra-7",
+      "name": "Integral extensions"
+    },
+    {
+      "id": "ma-commutative-algebra-8",
+      "name": "Dimension theory and Krull dimension"
+    },
+    {
+      "id": "ma-commutative-algebra-9",
+      "name": "Dedekind domains and discrete valuation rings"
+    },
+    {
+      "id": "ma-commutative-algebra-10",
+      "name": "Completions"
+    }
+  ]
+}

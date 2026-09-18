@@ -1,0 +1,136 @@
+{
+  "id": "ai-control-systems",
+  "name": "Control Systems",
+  "category": "Robotics Foundations",
+  "level": 3,
+  "priority": "core",
+  "summary": "Feedback control for robots: PID, state-space, optimal, nonlinear, robust, adaptive and model-predictive control, plus force and visual servoing.",
+  "prerequisites": [
+    "ai-kinematics-dynamics",
+    "ma-integral-transforms"
+  ],
+  "related": [
+    "ma-control-theory",
+    "el-control-theory",
+    "el-robot-control",
+    "me-feedback-control"
+  ],
+  "topics": [
+    {
+      "id": "ai-control-systems-1",
+      "name": "Classical Control",
+      "sub": [
+        {
+          "id": "ai-control-systems-1-1",
+          "name": "PID control"
+        },
+        {
+          "id": "ai-control-systems-1-2",
+          "name": "Lead-lag compensators"
+        }
+      ]
+    },
+    {
+      "id": "ai-control-systems-2",
+      "name": "Modern Control",
+      "sub": [
+        {
+          "id": "ai-control-systems-2-1",
+          "name": "State-space representation"
+        },
+        {
+          "id": "ai-control-systems-2-2",
+          "name": "Pole placement"
+        }
+      ]
+    },
+    {
+      "id": "ai-control-systems-3",
+      "name": "Optimal Control",
+      "sub": [
+        {
+          "id": "ai-control-systems-3-1",
+          "name": "LQR (Linear Quadratic Regulator)"
+        },
+        {
+          "id": "ai-control-systems-3-2",
+          "name": "LQG (Linear Quadratic Gaussian)"
+        }
+      ]
+    },
+    {
+      "id": "ai-control-systems-4",
+      "name": "Nonlinear Control",
+      "sub": [
+        {
+          "id": "ai-control-systems-4-1",
+          "name": "Feedback linearization"
+        },
+        {
+          "id": "ai-control-systems-4-2",
+          "name": "Sliding mode control"
+        },
+        {
+          "id": "ai-control-systems-4-3",
+          "name": "Lyapunov methods"
+        }
+      ]
+    },
+    {
+      "id": "ai-control-systems-5",
+      "name": "Robust Control",
+      "sub": [
+        {
+          "id": "ai-control-systems-5-1",
+          "name": "H∞ control"
+        },
+        {
+          "id": "ai-control-systems-5-2",
+          "name": "μ-synthesis"
+        }
+      ]
+    },
+    {
+      "id": "ai-control-systems-6",
+      "name": "Model Predictive Control (MPC)"
+    },
+    {
+      "id": "ai-control-systems-7",
+      "name": "Adaptive Control"
+    },
+    {
+      "id": "ai-control-systems-8",
+      "name": "Force Control",
+      "sub": [
+        {
+          "id": "ai-control-systems-8-1",
+          "name": "Impedance control"
+        },
+        {
+          "id": "ai-control-systems-8-2",
+          "name": "Admittance control"
+        },
+        {
+          "id": "ai-control-systems-8-3",
+          "name": "Hybrid force/position control"
+        }
+      ]
+    },
+    {
+      "id": "ai-control-systems-9",
+      "name": "Visual Servoing"
+    },
+    {
+      "id": "ai-control-systems-10",
+      "name": "Computed-torque (inverse dynamics) joint control"
+    },
+    {
+      "id": "ai-control-systems-11",
+      "name": "Operational-space (task-space) control"
+    },
+    {
+      "id": "ai-control-systems-12",
+      "name": "Whole-body and multi-task control"
+    }
+  ]
+}

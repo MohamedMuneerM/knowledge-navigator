@@ -1,0 +1,67 @@
+{
+  "id": "el-digital-vlsi-design",
+  "name": "Digital VLSI Circuit Design",
+  "category": "FPGA, ASIC & VLSI Design",
+  "level": 3,
+  "priority": "important",
+  "summary": "Designing digital logic at the transistor level in CMOS: inverters, gates, sizing, logical effort, interconnect, power, datapaths and memories.",
+  "prerequisites": [
+    "el-semiconductor-devices",
+    "el-logic-families"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-digital-vlsi-design-1",
+      "name": "MOS transistor models for digital design"
+    },
+    {
+      "id": "el-digital-vlsi-design-2",
+      "name": "CMOS inverter: voltage transfer curve, noise margins, delay and power"
+    },
+    {
+      "id": "el-digital-vlsi-design-3",
+      "name": "Static CMOS logic and transistor sizing"
+    },
+    {
+      "id": "el-digital-vlsi-design-4",
+      "name": "Logical effort and gate-delay optimization"
+    },
+    {
+      "id": "el-digital-vlsi-design-5",
+      "name": "Ratioed, dynamic and pass-transistor logic"
+    },
+    {
+      "id": "el-digital-vlsi-design-6",
+      "name": "Sequential elements: latches, flip-flops and their timing"
+    },
+    {
+      "id": "el-digital-vlsi-design-7",
+      "name": "Interconnect RC and wire delay"
+    },
+    {
+      "id": "el-digital-vlsi-design-8",
+      "name": "Dynamic and leakage power; low-power circuit techniques"
+    },
+    {
+      "id": "el-digital-vlsi-design-9",
+      "name": "Datapath design: adders and multipliers"
+    },
+    {
+      "id": "el-digital-vlsi-design-10",
+      "name": "Memory arrays: SRAM cells and sense amplifiers"
+    },
+    {
+      "id": "el-digital-vlsi-design-11",
+      "name": "Layout, design rules and stick diagrams"
+    },
+    {
+      "id": "el-digital-vlsi-design-12",
+      "name": "Process variation and design corners"
+    },
+    {
+      "id": "el-digital-vlsi-design-13",
+      "name": "Clocking and clock distribution"
+    }
+  ]
+}

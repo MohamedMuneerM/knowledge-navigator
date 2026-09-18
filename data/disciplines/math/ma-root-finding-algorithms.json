@@ -1,0 +1,42 @@
+{
+  "id": "ma-root-finding-algorithms",
+  "name": "Root-Finding Algorithms",
+  "category": "Numerical Analysis & Scientific Computing",
+  "level": 2,
+  "priority": "important",
+  "summary": "Solving f(x) = 0 numerically: bisection, fixed-point iteration, Newton and secant methods and their convergence rates.",
+  "prerequisites": [
+    "ma-error-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-root-finding-algorithms-1",
+      "name": "Bisection method"
+    },
+    {
+      "id": "ma-root-finding-algorithms-4",
+      "name": "Fixed-point iteration"
+    },
+    {
+      "id": "ma-root-finding-algorithms-2",
+      "name": "Newton's method"
+    },
+    {
+      "id": "ma-root-finding-algorithms-3",
+      "name": "Secant method"
+    },
+    {
+      "id": "ma-root-finding-algorithms-5",
+      "name": "Order of convergence"
+    },
+    {
+      "id": "ma-root-finding-algorithms-6",
+      "name": "Systems of nonlinear equations"
+    },
+    {
+      "id": "ma-root-finding-algorithms-7",
+      "name": "Polynomial root finding"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "el-ml-algorithms-for-resource-constrained-devices",
+  "name": "ML Algorithms for Resource-Constrained Devices",
+  "category": "Machine Learning & Edge AI",
+  "level": 3,
+  "priority": "important",
+  "summary": "Classical ML algorithms that fit on small devices: decision trees and forests, k-NN, SVM, regression, naive Bayes and anomaly detection.",
+  "prerequisites": [
+    "ai-core-ml-concepts",
+    "el-embedded-systems-fundamentals"
+  ],
+  "related": [
+    "ai-types-of-machine-learning",
+    "ai-ensemble-methods"
+  ],
+  "topics": [
+    {
+      "id": "el-ml-algorithms-for-resource-constrained-devices-1",
+      "name": "Decision trees and random forests"
+    },
+    {
+      "id": "el-ml-algorithms-for-resource-constrained-devices-2",
+      "name": "K-Nearest Neighbors (K-NN)"
+    },
+    {
+      "id": "el-ml-algorithms-for-resource-constrained-devices-3",
+      "name": "Support Vector Machines (SVM)"
+    },
+    {
+      "id": "el-ml-algorithms-for-resource-constrained-devices-4",
+      "name": "Linear and logistic regression"
+    },
+    {
+      "id": "el-ml-algorithms-for-resource-constrained-devices-5",
+      "name": "Naive Bayes"
+    },
+    {
+      "id": "el-ml-algorithms-for-resource-constrained-devices-6",
+      "name": "Ensemble methods"
+    },
+    {
+      "id": "el-ml-algorithms-for-resource-constrained-devices-7",
+      "name": "Anomaly detection algorithms"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "ae-propulsion-testing",
+  "name": "Propulsion Testing",
+  "category": "Rocket Propulsion",
+  "level": 3,
+  "priority": "important",
+  "summary": "How rocket and jet engines are tested: test stands, instrumentation, test campaigns, data analysis and test safety.",
+  "prerequisites": [
+    "ae-rocket-propulsion-fundamentals",
+    "ae-aerospace-instrumentation"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-propulsion-testing-1",
+      "name": "Test objectives: development, qualification and acceptance testing"
+    },
+    {
+      "id": "ae-propulsion-testing-2",
+      "name": "Test stand design: thrust structure, flame deflector, propellant systems"
+    },
+    {
+      "id": "ae-propulsion-testing-3",
+      "name": "Thrust measurement and load cell calibration"
+    },
+    {
+      "id": "ae-propulsion-testing-4",
+      "name": "Pressure, temperature and flow measurement in engines"
+    },
+    {
+      "id": "ae-propulsion-testing-5",
+      "name": "High-speed data acquisition and video"
+    },
+    {
+      "id": "ae-propulsion-testing-6",
+      "name": "Altitude simulation: vacuum chambers and diffusers"
+    },
+    {
+      "id": "ae-propulsion-testing-7",
+      "name": "Static-fire and hot-fire test campaigns"
+    },
+    {
+      "id": "ae-propulsion-testing-8",
+      "name": "Gas turbine test cells and correction to standard day"
+    },
+    {
+      "id": "ae-propulsion-testing-9",
+      "name": "Test safety: hazard analysis, blast zones, remote operations"
+    },
+    {
+      "id": "ae-propulsion-testing-10",
+      "name": "Environmental and acoustic effects of testing"
+    },
+    {
+      "id": "ae-propulsion-testing-11",
+      "name": "Post-test data reduction and performance reconstruction"
+    },
+    {
+      "id": "ae-propulsion-testing-12",
+      "name": "Integrated stage testing and green runs"
+    }
+  ]
+}

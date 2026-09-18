@@ -1,0 +1,54 @@
+{
+  "id": "bi-plant-agricultural-biotech",
+  "name": "Crop Science & Plant Biotechnology",
+  "category": "Plant Biology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Applying plant biology to food: domestication, breeding, genetic modification and genome editing of crops.",
+  "prerequisites": [
+    "bi-plant-physiology",
+    "bi-genetic-engineering-biotechnology"
+  ],
+  "related": [
+    "ch-food-agricultural-chemistry",
+    "ea-soil-science"
+  ],
+  "topics": [
+    {
+      "id": "bi-plant-agricultural-biotech-1",
+      "name": "Crop domestication and the origins of agriculture"
+    },
+    {
+      "id": "bi-plant-agricultural-biotech-2",
+      "name": "Plant breeding: selection, hybrids and marker-assisted selection"
+    },
+    {
+      "id": "bi-plant-agricultural-biotech-3",
+      "name": "Genomic selection and speed breeding"
+    },
+    {
+      "id": "bi-plant-agricultural-biotech-4",
+      "name": "Plant transformation: Agrobacterium and biolistics"
+    },
+    {
+      "id": "bi-plant-agricultural-biotech-5",
+      "name": "GM crops: traits, adoption and regulation"
+    },
+    {
+      "id": "bi-plant-agricultural-biotech-6",
+      "name": "Genome-edited crops"
+    },
+    {
+      "id": "bi-plant-agricultural-biotech-7",
+      "name": "Improving photosynthesis and nitrogen use"
+    },
+    {
+      "id": "bi-plant-agricultural-biotech-8",
+      "name": "Controlled-environment agriculture and vertical farming"
+    },
+    {
+      "id": "bi-plant-agricultural-biotech-9",
+      "name": "Plant tissue culture and micropropagation"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ph-string-theory",
+  "name": "String Theory",
+  "category": "Relativity & Gravitation",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Research-level theory of relativistic strings as a candidate framework unifying gravity with quantum field theory.",
+  "prerequisites": [
+    "ph-quantum-field-theory-qft",
+    "ph-general-relativity"
+  ],
+  "related": [
+    "ph-quantum-gravity",
+    "ma-mirror-symmetry"
+  ],
+  "topics": [
+    {
+      "id": "ph-string-theory-1",
+      "name": "The relativistic point particle and the Nambu-Goto string"
+    },
+    {
+      "id": "ph-string-theory-2",
+      "name": "The Polyakov action and worldsheet symmetries"
+    },
+    {
+      "id": "ph-string-theory-3",
+      "name": "Light-cone quantization of the bosonic string"
+    },
+    {
+      "id": "ph-string-theory-4",
+      "name": "Open and closed string spectra; the critical dimension"
+    },
+    {
+      "id": "ph-string-theory-5",
+      "name": "Conformal field theory on the worldsheet"
+    },
+    {
+      "id": "ph-string-theory-6",
+      "name": "D-branes and gauge fields"
+    },
+    {
+      "id": "ph-string-theory-7",
+      "name": "Superstrings and supersymmetry"
+    },
+    {
+      "id": "ph-string-theory-8",
+      "name": "Compactification, extra dimensions and T-duality"
+    },
+    {
+      "id": "ph-string-theory-9",
+      "name": "String dualities and M-theory"
+    },
+    {
+      "id": "ph-string-theory-10",
+      "name": "String theory and holography"
+    }
+  ]
+}

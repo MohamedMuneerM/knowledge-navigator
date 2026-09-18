@@ -1,0 +1,55 @@
+{
+  "id": "ch-modern-synthetic-methods",
+  "name": "Modern Synthetic Methods",
+  "category": "Organic Chemistry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Contemporary catalytic and enabling methods that have reshaped how molecules are made.",
+  "prerequisites": [
+    "ch-organic-synthesis",
+    "ch-organometallic-chemistry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-modern-synthetic-methods-1",
+      "name": "Cross-coupling methodology: Suzuki, Negishi, Sonogashira, Buchwald-Hartwig"
+    },
+    {
+      "id": "ch-modern-synthetic-methods-2",
+      "name": "Olefin metathesis"
+    },
+    {
+      "id": "ch-modern-synthetic-methods-3",
+      "name": "C-H functionalization"
+    },
+    {
+      "id": "ch-modern-synthetic-methods-4",
+      "name": "Organocatalysis: enamine, iminium, hydrogen-bonding and NHC catalysis"
+    },
+    {
+      "id": "ch-modern-synthetic-methods-5",
+      "name": "Photoredox catalysis"
+    },
+    {
+      "id": "ch-modern-synthetic-methods-6",
+      "name": "Synthetic electrochemistry (electrosynthesis)"
+    },
+    {
+      "id": "ch-modern-synthetic-methods-7",
+      "name": "Biocatalysis and chemoenzymatic synthesis"
+    },
+    {
+      "id": "ch-modern-synthetic-methods-8",
+      "name": "Flow chemistry and continuous manufacturing"
+    },
+    {
+      "id": "ch-modern-synthetic-methods-9",
+      "name": "Click chemistry and late-stage functionalization"
+    },
+    {
+      "id": "ch-modern-synthetic-methods-10",
+      "name": "Skeletal editing"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "el-soft-processors-ip-cores",
+  "name": "Soft Processors & IP Cores",
+  "category": "FPGA, ASIC & VLSI Design",
+  "level": 3,
+  "priority": "important",
+  "summary": "Building systems inside an FPGA from soft processors (MicroBlaze, Nios, RISC-V) and IP cores on AXI, Avalon or Wishbone buses.",
+  "prerequisites": [
+    "el-fpga-design-flow",
+    "el-processor-architecture-concepts"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-soft-processors-ip-cores-1",
+      "name": "MicroBlaze (Xilinx soft processor)"
+    },
+    {
+      "id": "el-soft-processors-ip-cores-2",
+      "name": "Nios II (Intel soft processor)"
+    },
+    {
+      "id": "el-soft-processors-ip-cores-3",
+      "name": "RISC-V soft cores (VexRiscv, PicoRV32)"
+    },
+    {
+      "id": "el-soft-processors-ip-cores-4",
+      "name": "IP core integration"
+    },
+    {
+      "id": "el-soft-processors-ip-cores-5",
+      "name": "AXI bus protocol"
+    },
+    {
+      "id": "el-soft-processors-ip-cores-6",
+      "name": "Avalon bus protocol"
+    },
+    {
+      "id": "el-soft-processors-ip-cores-7",
+      "name": "Wishbone bus"
+    }
+  ]
+}

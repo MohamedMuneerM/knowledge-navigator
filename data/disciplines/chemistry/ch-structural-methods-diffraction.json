@@ -1,0 +1,60 @@
+{
+  "id": "ch-structural-methods-diffraction",
+  "name": "X-ray Crystallography & Diffraction Methods",
+  "category": "Analytical Chemistry & Instrumentation",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Determining atomic structures of crystals and molecules from X-ray, neutron and electron diffraction.",
+  "prerequisites": [
+    "ch-symmetry-group-theory",
+    "ch-instrumental-analysis"
+  ],
+  "related": [
+    "ph-solid-state-physics",
+    "mt-crystallography-diffraction",
+    "mt-xray-neutron-methods",
+    "bi-structural-biology"
+  ],
+  "topics": [
+    {
+      "id": "ch-structural-methods-diffraction-1",
+      "name": "Crystal lattices, unit cells and Miller indices"
+    },
+    {
+      "id": "ch-structural-methods-diffraction-2",
+      "name": "Space groups and the International Tables"
+    },
+    {
+      "id": "ch-structural-methods-diffraction-3",
+      "name": "X-ray generation, scattering and Bragg's law"
+    },
+    {
+      "id": "ch-structural-methods-diffraction-4",
+      "name": "Structure factors and the phase problem"
+    },
+    {
+      "id": "ch-structural-methods-diffraction-5",
+      "name": "Single-crystal diffraction: data collection and reduction"
+    },
+    {
+      "id": "ch-structural-methods-diffraction-6",
+      "name": "Structure solution (direct methods, Patterson, dual-space) and refinement"
+    },
+    {
+      "id": "ch-structural-methods-diffraction-7",
+      "name": "Powder diffraction and Rietveld refinement"
+    },
+    {
+      "id": "ch-structural-methods-diffraction-8",
+      "name": "Neutron and electron diffraction"
+    },
+    {
+      "id": "ch-structural-methods-diffraction-9",
+      "name": "Macromolecular crystallography and cryo-EM overview"
+    },
+    {
+      "id": "ch-structural-methods-diffraction-10",
+      "name": "Crystallographic databases (CSD, ICSD, PDB) and validation"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "cs-command-line-shell",
+  "name": "The Command Line & Developer Tools",
+  "category": "Computing Foundations",
+  "level": 1,
+  "priority": "core",
+  "summary": "The everyday toolkit of a programmer: the Unix shell, text processing, scripting, remote access, editors and build automation.",
+  "prerequisites": [
+    "cs-programming-fundamentals"
+  ],
+  "related": [
+    "el-package-management",
+    "el-build-systems"
+  ],
+  "topics": [
+    {
+      "id": "cs-command-line-shell-1",
+      "name": "The terminal, the shell and the filesystem hierarchy"
+    },
+    {
+      "id": "cs-command-line-shell-2",
+      "name": "Navigating and manipulating files: ls, cd, cp, mv, rm, find"
+    },
+    {
+      "id": "cs-command-line-shell-3",
+      "name": "Users, permissions and ownership"
+    },
+    {
+      "id": "cs-command-line-shell-4",
+      "name": "Pipes, redirection and standard streams"
+    },
+    {
+      "id": "cs-command-line-shell-5",
+      "name": "Text processing with grep, sed, awk, sort and cut"
+    },
+    {
+      "id": "cs-command-line-shell-6",
+      "name": "Regular expressions"
+    },
+    {
+      "id": "cs-command-line-shell-7",
+      "name": "Shell scripting: variables, conditionals, loops and functions"
+    },
+    {
+      "id": "cs-command-line-shell-8",
+      "name": "Processes and job control: ps, kill, signals and background jobs"
+    },
+    {
+      "id": "cs-command-line-shell-9",
+      "name": "Environment variables and the PATH"
+    },
+    {
+      "id": "cs-command-line-shell-10",
+      "name": "Package managers (apt, Homebrew, winget) and installing tools"
+    },
+    {
+      "id": "cs-command-line-shell-11",
+      "name": "Remote machines: SSH, keys, scp and rsync"
+    },
+    {
+      "id": "cs-command-line-shell-12",
+      "name": "Text editors: Vim basics and a modern IDE (VS Code)"
+    },
+    {
+      "id": "cs-command-line-shell-13",
+      "name": "Build automation with Make"
+    },
+    {
+      "id": "cs-command-line-shell-14",
+      "name": "Overview of debugging and profiling tools"
+    },
+    {
+      "id": "cs-command-line-shell-15",
+      "name": "Dotfiles and customizing your environment"
+    }
+  ]
+}

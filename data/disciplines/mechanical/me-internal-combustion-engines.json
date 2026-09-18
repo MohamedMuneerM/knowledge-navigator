@@ -1,0 +1,73 @@
+{
+  "id": "me-internal-combustion-engines",
+  "name": "Internal Combustion Engines",
+  "category": "Energy & Power Systems",
+  "level": 3,
+  "priority": "important",
+  "summary": "How reciprocating engines work and are designed: cycles, performance, air and fuel systems, combustion, emissions and boosting.",
+  "prerequisites": [
+    "me-applied-thermodynamics",
+    "me-fluid-mechanics"
+  ],
+  "related": [
+    "el-powertrain-systems"
+  ],
+  "topics": [
+    {
+      "id": "me-internal-combustion-engines-1",
+      "name": "Engine types, operating cycles and geometry"
+    },
+    {
+      "id": "me-internal-combustion-engines-2",
+      "name": "Performance parameters: IMEP, BMEP, efficiencies and specific fuel consumption"
+    },
+    {
+      "id": "me-internal-combustion-engines-3",
+      "name": "Ideal and real engine cycles; fuel-air cycle analysis"
+    },
+    {
+      "id": "me-internal-combustion-engines-4",
+      "name": "Air intake, volumetric efficiency and valve timing"
+    },
+    {
+      "id": "me-internal-combustion-engines-5",
+      "name": "Fuel systems: port and direct injection"
+    },
+    {
+      "id": "me-internal-combustion-engines-6",
+      "name": "Spark-ignition combustion, knock and octane rating"
+    },
+    {
+      "id": "me-internal-combustion-engines-7",
+      "name": "Compression-ignition (diesel) combustion and cetane rating"
+    },
+    {
+      "id": "me-internal-combustion-engines-8",
+      "name": "Turbocharging and supercharging"
+    },
+    {
+      "id": "me-internal-combustion-engines-9",
+      "name": "Heat transfer, friction and lubrication in engines"
+    },
+    {
+      "id": "me-internal-combustion-engines-10",
+      "name": "Emissions formation and aftertreatment (catalysts, particulate filters, SCR)"
+    },
+    {
+      "id": "me-internal-combustion-engines-11",
+      "name": "Engine testing and dynamometers"
+    },
+    {
+      "id": "me-internal-combustion-engines-12",
+      "name": "Advanced combustion modes and alternative fuels, including hydrogen engines"
+    },
+    {
+      "id": "me-internal-combustion-engines-13",
+      "name": "Hybridisation and the future of the combustion engine"
+    },
+    {
+      "id": "me-internal-combustion-engines-14",
+      "name": "Small engines for portable power and range extenders"
+    }
+  ]
+}

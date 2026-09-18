@@ -1,0 +1,48 @@
+{
+  "id": "ma-symmetries-groups-in-physics",
+  "name": "Symmetries & Groups in Physics",
+  "category": "Mathematical Physics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "How symmetry shapes physical law: Lie groups and representations in physics, gauge symmetry and Noether's theorem.",
+  "prerequisites": [
+    "ma-representation-theory",
+    "ma-classical-mechanics"
+  ],
+  "related": [
+    "ph-symmetry-group-theory",
+    "ma-representation-theory",
+    "ma-lie-theory",
+    "ch-symmetry-group-theory"
+  ],
+  "topics": [
+    {
+      "id": "ma-symmetries-groups-in-physics-4",
+      "name": "Symmetry groups of physical systems"
+    },
+    {
+      "id": "ma-symmetries-groups-in-physics-1",
+      "name": "Lie groups in physics"
+    },
+    {
+      "id": "ma-symmetries-groups-in-physics-5",
+      "name": "Rotation group, SU(2) and spin"
+    },
+    {
+      "id": "ma-symmetries-groups-in-physics-6",
+      "name": "Lorentz and Poincare groups"
+    },
+    {
+      "id": "ma-symmetries-groups-in-physics-3",
+      "name": "Noether's theorem"
+    },
+    {
+      "id": "ma-symmetries-groups-in-physics-2",
+      "name": "Gauge symmetry"
+    },
+    {
+      "id": "ma-symmetries-groups-in-physics-7",
+      "name": "Symmetry in particle physics: SU(3) and the quark model"
+    }
+  ]
+}

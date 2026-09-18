@@ -1,0 +1,58 @@
+{
+  "id": "ae-trajectory-optimization",
+  "name": "Spacecraft Trajectory Optimisation",
+  "category": "Orbital Mechanics & Astrodynamics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Optimal-control methods for finding minimum-fuel or minimum-time trajectories for launchers, landers and spacecraft.",
+  "prerequisites": [
+    "ae-interplanetary-trajectories",
+    "ma-calculus-of-variations-optimal-control"
+  ],
+  "related": [
+    "ma-nonlinear-programming",
+    "ma-optimization-algorithms"
+  ],
+  "topics": [
+    {
+      "id": "ae-trajectory-optimization-1",
+      "name": "Formulating trajectory optimisation problems"
+    },
+    {
+      "id": "ae-trajectory-optimization-2",
+      "name": "Pontryagin's minimum principle"
+    },
+    {
+      "id": "ae-trajectory-optimization-3",
+      "name": "Primer vector theory for impulsive trajectories"
+    },
+    {
+      "id": "ae-trajectory-optimization-4",
+      "name": "Indirect methods: shooting and multiple shooting"
+    },
+    {
+      "id": "ae-trajectory-optimization-5",
+      "name": "Direct methods: transcription and nonlinear programming"
+    },
+    {
+      "id": "ae-trajectory-optimization-6",
+      "name": "Collocation and pseudospectral methods"
+    },
+    {
+      "id": "ae-trajectory-optimization-7",
+      "name": "Convex optimisation for trajectory design"
+    },
+    {
+      "id": "ae-trajectory-optimization-8",
+      "name": "Global search: genetic algorithms and differential evolution for tours"
+    },
+    {
+      "id": "ae-trajectory-optimization-9",
+      "name": "Low-thrust trajectory optimisation"
+    },
+    {
+      "id": "ae-trajectory-optimization-10",
+      "name": "Software tools: GPOPS, PyGMO, EMTG, CasADi"
+    }
+  ]
+}

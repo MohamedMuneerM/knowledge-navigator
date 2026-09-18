@@ -1,0 +1,69 @@
+{
+  "id": "ai-logic-automated-reasoning",
+  "name": "Logic & Automated Reasoning",
+  "category": "Classical AI: Search, Logic & Planning",
+  "level": 2,
+  "priority": "important",
+  "summary": "How AI systems represent facts in propositional and first-order logic and derive new conclusions automatically with inference, SAT solvers and theorem provers.",
+  "prerequisites": [
+    "ai-classical-ai-gofai-good-old-fashioned-ai"
+  ],
+  "related": [
+    "ma-formal-verification",
+    "ma-logic-proof-theory"
+  ],
+  "topics": [
+    {
+      "id": "ai-logic-automated-reasoning-1",
+      "name": "Knowledge-based agents and the knowledge base"
+    },
+    {
+      "id": "ai-logic-automated-reasoning-2",
+      "name": "Propositional logic: syntax, semantics and truth tables"
+    },
+    {
+      "id": "ai-logic-automated-reasoning-3",
+      "name": "Entailment, validity and satisfiability"
+    },
+    {
+      "id": "ai-logic-automated-reasoning-4",
+      "name": "Propositional inference: resolution and Horn clauses"
+    },
+    {
+      "id": "ai-logic-automated-reasoning-5",
+      "name": "SAT solving: DPLL, CDCL and local search (WalkSAT)"
+    },
+    {
+      "id": "ai-logic-automated-reasoning-6",
+      "name": "First-order logic: syntax, semantics, quantifiers"
+    },
+    {
+      "id": "ai-logic-automated-reasoning-7",
+      "name": "Knowledge engineering in first-order logic"
+    },
+    {
+      "id": "ai-logic-automated-reasoning-8",
+      "name": "Unification and lifted inference"
+    },
+    {
+      "id": "ai-logic-automated-reasoning-9",
+      "name": "Forward and backward chaining in first-order logic"
+    },
+    {
+      "id": "ai-logic-automated-reasoning-10",
+      "name": "Resolution theorem proving and completeness"
+    },
+    {
+      "id": "ai-logic-automated-reasoning-11",
+      "name": "Logic programming with Prolog"
+    },
+    {
+      "id": "ai-logic-automated-reasoning-12",
+      "name": "Answer set programming and Datalog"
+    },
+    {
+      "id": "ai-logic-automated-reasoning-13",
+      "name": "SMT solvers and automated theorem provers (Z3, Vampire, Lean)"
+    }
+  ]
+}

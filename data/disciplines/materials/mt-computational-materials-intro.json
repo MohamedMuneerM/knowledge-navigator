@@ -1,0 +1,57 @@
+{
+  "id": "mt-computational-materials-intro",
+  "name": "Introduction to Computational Materials Science",
+  "category": "Computational Materials Science",
+  "level": 3,
+  "priority": "important",
+  "summary": "Introduces modelling across length and time scales and the numerical methods that let materials scientists simulate diffusion, heat flow and structure.",
+  "prerequisites": [
+    "mt-diffusion",
+    "ma-numerical-solutions-of-odes"
+  ],
+  "related": [
+    "ph-computational-physics"
+  ],
+  "topics": [
+    {
+      "id": "mt-computational-materials-intro-1",
+      "name": "The multiscale landscape: electrons, atoms, microstructure and continuum"
+    },
+    {
+      "id": "mt-computational-materials-intro-2",
+      "name": "Scientific programming for materials (Python, NumPy, visualisation)"
+    },
+    {
+      "id": "mt-computational-materials-intro-3",
+      "name": "Finite-difference solutions of diffusion and heat-flow problems"
+    },
+    {
+      "id": "mt-computational-materials-intro-4",
+      "name": "Introduction to finite element analysis for materials problems"
+    },
+    {
+      "id": "mt-computational-materials-intro-5",
+      "name": "Interatomic potentials and energy minimisation"
+    },
+    {
+      "id": "mt-computational-materials-intro-6",
+      "name": "Random numbers and Monte Carlo sampling"
+    },
+    {
+      "id": "mt-computational-materials-intro-7",
+      "name": "Structure generation and visualisation (supercells, defects, OVITO/VESTA)"
+    },
+    {
+      "id": "mt-computational-materials-intro-8",
+      "name": "Verification, validation and uncertainty in simulation"
+    },
+    {
+      "id": "mt-computational-materials-intro-9",
+      "name": "Materials databases and open data (Materials Project, AFLOW, OQMD)"
+    },
+    {
+      "id": "mt-computational-materials-intro-10",
+      "name": "Workflow tools and high-performance computing basics"
+    }
+  ]
+}

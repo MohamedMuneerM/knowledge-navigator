@@ -1,0 +1,62 @@
+{
+  "id": "cs-advanced-networking",
+  "name": "Advanced Networking: SDN, Data Centers & Wireless",
+  "category": "Computer Networks",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Current networking research and practice: software-defined and programmable networks, data-center networking, modern transport, measurement and wireless systems.",
+  "prerequisites": [
+    "cs-computer-networks"
+  ],
+  "related": [
+    "el-time-sensitive-networking-tsn",
+    "el-cellular-technologies",
+    "el-short-range-wireless"
+  ],
+  "topics": [
+    {
+      "id": "cs-advanced-networking-1",
+      "name": "Software-defined networking and OpenFlow"
+    },
+    {
+      "id": "cs-advanced-networking-2",
+      "name": "Programmable data planes (P4)"
+    },
+    {
+      "id": "cs-advanced-networking-3",
+      "name": "Network function virtualization"
+    },
+    {
+      "id": "cs-advanced-networking-4",
+      "name": "Data-center network topologies and transport"
+    },
+    {
+      "id": "cs-advanced-networking-5",
+      "name": "Advanced congestion control (BBR, DCTCP)"
+    },
+    {
+      "id": "cs-advanced-networking-6",
+      "name": "QUIC and HTTP/3"
+    },
+    {
+      "id": "cs-advanced-networking-7",
+      "name": "Internet measurement"
+    },
+    {
+      "id": "cs-advanced-networking-8",
+      "name": "Wireless networking: MAC protocols and mobility"
+    },
+    {
+      "id": "cs-advanced-networking-9",
+      "name": "5G core networks and mobile edge computing"
+    },
+    {
+      "id": "cs-advanced-networking-10",
+      "name": "Satellite and delay-tolerant networking"
+    },
+    {
+      "id": "cs-advanced-networking-11",
+      "name": "Network verification"
+    }
+  ]
+}

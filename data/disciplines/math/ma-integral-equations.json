@@ -1,0 +1,39 @@
+{
+  "id": "ma-integral-equations",
+  "name": "Integral Equations",
+  "category": "Differential Equations & Dynamical Systems",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Equations where the unknown function appears under an integral: Fredholm and Volterra theory and their applications.",
+  "prerequisites": [
+    "ma-real-analysis",
+    "ma-linear-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-integral-equations-3",
+      "name": "Classification of integral equations"
+    },
+    {
+      "id": "ma-integral-equations-1",
+      "name": "Fredholm equations"
+    },
+    {
+      "id": "ma-integral-equations-2",
+      "name": "Volterra equations"
+    },
+    {
+      "id": "ma-integral-equations-4",
+      "name": "Neumann series and successive approximations"
+    },
+    {
+      "id": "ma-integral-equations-5",
+      "name": "Fredholm alternative"
+    },
+    {
+      "id": "ma-integral-equations-6",
+      "name": "Integral equations with symmetric kernels"
+    }
+  ]
+}

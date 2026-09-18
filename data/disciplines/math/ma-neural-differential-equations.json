@@ -1,0 +1,38 @@
+{
+  "id": "ma-neural-differential-equations",
+  "name": "Neural Differential Equations",
+  "category": "Differential Equations & Dynamical Systems",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Differential equations with learned right-hand sides (neural ODEs) and physics-informed neural networks for solving PDEs.",
+  "prerequisites": [
+    "ma-numerical-solutions-of-odes",
+    "ma-neural-network-mathematics"
+  ],
+  "related": [
+    "ai-ai-for-science",
+    "ai-special-deep-learning-topics"
+  ],
+  "topics": [
+    {
+      "id": "ma-neural-differential-equations-1",
+      "name": "Neural ODEs"
+    },
+    {
+      "id": "ma-neural-differential-equations-3",
+      "name": "Adjoint method for gradients"
+    },
+    {
+      "id": "ma-neural-differential-equations-4",
+      "name": "Neural SDEs and controlled differential equations"
+    },
+    {
+      "id": "ma-neural-differential-equations-2",
+      "name": "Physics-informed neural networks"
+    },
+    {
+      "id": "ma-neural-differential-equations-5",
+      "name": "Neural operators"
+    }
+  ]
+}

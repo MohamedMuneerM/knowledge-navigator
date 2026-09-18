@@ -1,0 +1,54 @@
+{
+  "id": "ea-mineral-physics-and-deep-earth",
+  "name": "Mineral Physics & Earth's Deep Interior",
+  "category": "Mineralogy & Petrology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The physics of minerals and rocks at high pressure and temperature, and what it reveals about the mantle and core.",
+  "prerequisites": [
+    "ea-mineralogy",
+    "ea-solid-earth-geophysics"
+  ],
+  "related": [
+    "ph-geophysics",
+    "ph-materials-physics"
+  ],
+  "topics": [
+    {
+      "id": "ea-mineral-physics-and-deep-earth-1",
+      "name": "Equations of state and elasticity of minerals"
+    },
+    {
+      "id": "ea-mineral-physics-and-deep-earth-2",
+      "name": "High-pressure experiments: diamond-anvil cell, multi-anvil press and shock compression"
+    },
+    {
+      "id": "ea-mineral-physics-and-deep-earth-3",
+      "name": "Mantle phase transitions: olivine to wadsleyite, ringwoodite and bridgmanite"
+    },
+    {
+      "id": "ea-mineral-physics-and-deep-earth-4",
+      "name": "Rheology: diffusion creep, dislocation creep and mantle viscosity"
+    },
+    {
+      "id": "ea-mineral-physics-and-deep-earth-5",
+      "name": "Rock physics: porosity, permeability, seismic velocity and attenuation"
+    },
+    {
+      "id": "ea-mineral-physics-and-deep-earth-6",
+      "name": "Composition and structure of the upper mantle, transition zone and lower mantle"
+    },
+    {
+      "id": "ea-mineral-physics-and-deep-earth-7",
+      "name": "The core: composition, light elements, inner-core growth and anisotropy"
+    },
+    {
+      "id": "ea-mineral-physics-and-deep-earth-8",
+      "name": "The core-mantle boundary, D'' layer and large low-shear-velocity provinces"
+    },
+    {
+      "id": "ea-mineral-physics-and-deep-earth-9",
+      "name": "Geochemical reservoirs, mantle mixing and Earth's thermal evolution"
+    }
+  ]
+}

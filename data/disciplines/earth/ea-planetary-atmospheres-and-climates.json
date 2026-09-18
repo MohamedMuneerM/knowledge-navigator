@@ -1,0 +1,58 @@
+{
+  "id": "ea-planetary-atmospheres-and-climates",
+  "name": "Planetary Atmospheres & Climates",
+  "category": "Planetary Geoscience",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The origin, evolution, structure and climates of atmospheres across the Solar System and on exoplanets.",
+  "prerequisites": [
+    "ea-comparative-planetology",
+    "ea-atmospheric-radiation",
+    "ea-atmospheric-thermodynamics-and-cloud-physics"
+  ],
+  "related": [
+    "ph-planetary-science",
+    "ph-atmospheric-environmental-physics",
+    "ph-space-physics",
+    "ph-exoplanets",
+    "ae-atmospheric-entry"
+  ],
+  "topics": [
+    {
+      "id": "ea-planetary-atmospheres-and-climates-1",
+      "name": "Origin of planetary atmospheres: outgassing and delivery"
+    },
+    {
+      "id": "ea-planetary-atmospheres-and-climates-2",
+      "name": "Atmospheric escape and isotopic evidence"
+    },
+    {
+      "id": "ea-planetary-atmospheres-and-climates-3",
+      "name": "Radiative balance and greenhouse effects; runaway greenhouse on Venus"
+    },
+    {
+      "id": "ea-planetary-atmospheres-and-climates-4",
+      "name": "Mars: CO2 atmosphere, dust storms and ancient climate"
+    },
+    {
+      "id": "ea-planetary-atmospheres-and-climates-5",
+      "name": "Titan's methane cycle"
+    },
+    {
+      "id": "ea-planetary-atmospheres-and-climates-6",
+      "name": "Giant-planet atmospheres: bands, jets and storms"
+    },
+    {
+      "id": "ea-planetary-atmospheres-and-climates-7",
+      "name": "Comparative atmospheric dynamics"
+    },
+    {
+      "id": "ea-planetary-atmospheres-and-climates-8",
+      "name": "Habitable zones and climate stability"
+    },
+    {
+      "id": "ea-planetary-atmospheres-and-climates-9",
+      "name": "Exoplanet atmospheres and their observation"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ae-combustion-fundamentals",
+  "name": "Combustion for Aerospace Propulsion",
+  "category": "Air-Breathing Propulsion & Combustion",
+  "level": 3,
+  "priority": "important",
+  "summary": "The chemistry and physics of burning fuels in engines: thermochemistry, kinetics, flames, sprays and detonations.",
+  "prerequisites": [
+    "ae-aerospace-thermodynamics",
+    "ch-chemical-equilibrium",
+    "ch-chemical-kinetics-intro"
+  ],
+  "related": [
+    "ph-chemical-physics-physical-chemistry",
+    "ch-combustion-chemistry",
+    "me-combustion-engineering"
+  ],
+  "topics": [
+    {
+      "id": "ae-combustion-fundamentals-1",
+      "name": "Stoichiometry, equivalence ratio and mixture fraction"
+    },
+    {
+      "id": "ae-combustion-fundamentals-2",
+      "name": "Thermochemistry and adiabatic flame temperature"
+    },
+    {
+      "id": "ae-combustion-fundamentals-3",
+      "name": "Chemical equilibrium and dissociation at high temperature"
+    },
+    {
+      "id": "ae-combustion-fundamentals-4",
+      "name": "Chemical kinetics: reaction rates, Arrhenius law, mechanisms"
+    },
+    {
+      "id": "ae-combustion-fundamentals-5",
+      "name": "Ignition and extinction"
+    },
+    {
+      "id": "ae-combustion-fundamentals-6",
+      "name": "Premixed laminar flames: flame speed and thickness"
+    },
+    {
+      "id": "ae-combustion-fundamentals-7",
+      "name": "Non-premixed (diffusion) flames"
+    },
+    {
+      "id": "ae-combustion-fundamentals-8",
+      "name": "Droplet evaporation and spray combustion"
+    },
+    {
+      "id": "ae-combustion-fundamentals-9",
+      "name": "Turbulent combustion regimes"
+    },
+    {
+      "id": "ae-combustion-fundamentals-10",
+      "name": "Detonation: Chapman-Jouguet theory and ZND structure"
+    },
+    {
+      "id": "ae-combustion-fundamentals-11",
+      "name": "Pollutant formation: NOx, CO, soot"
+    },
+    {
+      "id": "ae-combustion-fundamentals-12",
+      "name": "Gas turbine combustor design and flame stabilisation"
+    }
+  ]
+}

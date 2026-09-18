@@ -1,0 +1,50 @@
+{
+  "id": "bi-cell-culture-flow-cytometry",
+  "name": "Cell Culture & Cell-Based Assays",
+  "category": "Laboratory & Research Methods",
+  "level": 3,
+  "priority": "important",
+  "summary": "Growing and manipulating cells outside the body and measuring them at scale: culture technique, flow cytometry and cell-based assays.",
+  "prerequisites": [
+    "bi-molecular-biology-techniques"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-cell-culture-flow-cytometry-1",
+      "name": "Mammalian cell culture: media, passaging and contamination control"
+    },
+    {
+      "id": "bi-cell-culture-flow-cytometry-2",
+      "name": "Primary cells, cell lines and authentication"
+    },
+    {
+      "id": "bi-cell-culture-flow-cytometry-3",
+      "name": "Cryopreservation"
+    },
+    {
+      "id": "bi-cell-culture-flow-cytometry-4",
+      "name": "Cell counting, viability and proliferation assays"
+    },
+    {
+      "id": "bi-cell-culture-flow-cytometry-5",
+      "name": "Flow cytometry principles and panel design"
+    },
+    {
+      "id": "bi-cell-culture-flow-cytometry-6",
+      "name": "Fluorescence-activated cell sorting (FACS)"
+    },
+    {
+      "id": "bi-cell-culture-flow-cytometry-7",
+      "name": "Gene delivery: transfection and viral transduction"
+    },
+    {
+      "id": "bi-cell-culture-flow-cytometry-8",
+      "name": "High-throughput and high-content screening"
+    },
+    {
+      "id": "bi-cell-culture-flow-cytometry-9",
+      "name": "3D culture and co-culture systems"
+    }
+  ]
+}

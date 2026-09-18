@@ -1,0 +1,61 @@
+{
+  "id": "ph-atom-light-interaction-laser-cooling",
+  "name": "Atom-Light Interaction & Laser Cooling",
+  "category": "Atomic, Molecular & Optical Physics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The quantum theory of atoms driven by laser light and its use to cool, trap and control atoms and ions.",
+  "prerequisites": [
+    "ph-atomic-physics",
+    "ph-laser-physics"
+  ],
+  "related": [
+    "ph-quantum-optics"
+  ],
+  "topics": [
+    {
+      "id": "ph-atom-light-interaction-laser-cooling-1",
+      "name": "The two-level atom and the rotating-wave approximation"
+    },
+    {
+      "id": "ph-atom-light-interaction-laser-cooling-2",
+      "name": "Rabi oscillations and dressed states"
+    },
+    {
+      "id": "ph-atom-light-interaction-laser-cooling-3",
+      "name": "Optical Bloch equations and the density matrix"
+    },
+    {
+      "id": "ph-atom-light-interaction-laser-cooling-4",
+      "name": "Spontaneous emission, linewidths and line broadening"
+    },
+    {
+      "id": "ph-atom-light-interaction-laser-cooling-5",
+      "name": "Saturation spectroscopy and Doppler-free techniques"
+    },
+    {
+      "id": "ph-atom-light-interaction-laser-cooling-6",
+      "name": "Optical pumping"
+    },
+    {
+      "id": "ph-atom-light-interaction-laser-cooling-7",
+      "name": "Radiation pressure and Doppler cooling"
+    },
+    {
+      "id": "ph-atom-light-interaction-laser-cooling-8",
+      "name": "Sub-Doppler (polarization-gradient) cooling"
+    },
+    {
+      "id": "ph-atom-light-interaction-laser-cooling-9",
+      "name": "Magneto-optical traps and optical dipole traps"
+    },
+    {
+      "id": "ph-atom-light-interaction-laser-cooling-10",
+      "name": "Ion trapping and laser cooling of ions"
+    },
+    {
+      "id": "ph-atom-light-interaction-laser-cooling-11",
+      "name": "Electromagnetically induced transparency and coherent population trapping"
+    }
+  ]
+}

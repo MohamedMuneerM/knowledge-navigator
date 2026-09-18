@@ -1,0 +1,38 @@
+{
+  "id": "el-motion-position-sensors",
+  "name": "Motion & Position Sensors",
+  "category": "Sensors, Transducers & Actuators",
+  "level": 2,
+  "priority": "important",
+  "summary": "Detecting motion and measuring position with PIR and microwave sensors, encoders, potentiometers, LVDTs and resolvers.",
+  "prerequisites": [
+    "el-intro-microcontrollers"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-motion-position-sensors-1",
+      "name": "PIR (Passive Infrared) motion sensors"
+    },
+    {
+      "id": "el-motion-position-sensors-2",
+      "name": "Microwave motion sensors"
+    },
+    {
+      "id": "el-motion-position-sensors-3",
+      "name": "Encoders (rotary, linear, absolute, incremental)"
+    },
+    {
+      "id": "el-motion-position-sensors-4",
+      "name": "Potentiometers and rotary position sensors"
+    },
+    {
+      "id": "el-motion-position-sensors-5",
+      "name": "Linear variable differential transformers (LVDT)"
+    },
+    {
+      "id": "el-motion-position-sensors-6",
+      "name": "Resolver"
+    }
+  ]
+}

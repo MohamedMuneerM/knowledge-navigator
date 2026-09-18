@@ -1,0 +1,63 @@
+{
+  "id": "bi-genomics",
+  "name": "Genomics",
+  "category": "Genetics & Genomics",
+  "level": 3,
+  "priority": "core",
+  "summary": "Studying whole genomes: sequencing technologies, assembly, annotation, comparative genomics and genome function at scale.",
+  "prerequisites": [
+    "bi-genetics",
+    "bi-molecular-biology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-genomics-1",
+      "name": "Genome anatomy: genes, repeats, non-coding DNA and genome size (C-value paradox)"
+    },
+    {
+      "id": "bi-genomics-2",
+      "name": "Sanger sequencing and the Human Genome Project"
+    },
+    {
+      "id": "bi-genomics-3",
+      "name": "Next-generation short-read sequencing"
+    },
+    {
+      "id": "bi-genomics-4",
+      "name": "Long-read sequencing: PacBio and nanopore; telomere-to-telomere genomes"
+    },
+    {
+      "id": "bi-genomics-5",
+      "name": "Genome assembly and quality assessment"
+    },
+    {
+      "id": "bi-genomics-6",
+      "name": "Genome annotation: gene prediction and functional annotation"
+    },
+    {
+      "id": "bi-genomics-7",
+      "name": "Genetic variation: SNPs, indels, structural and copy-number variants"
+    },
+    {
+      "id": "bi-genomics-8",
+      "name": "Comparative genomics, synteny and conserved elements"
+    },
+    {
+      "id": "bi-genomics-9",
+      "name": "Genome evolution: gene duplication, horizontal gene transfer and whole-genome duplication"
+    },
+    {
+      "id": "bi-genomics-10",
+      "name": "Functional genomics: genome-wide screens, ENCODE and regulatory element maps"
+    },
+    {
+      "id": "bi-genomics-11",
+      "name": "Metagenomics and environmental DNA"
+    },
+    {
+      "id": "bi-genomics-12",
+      "name": "Pangenomes and population-scale sequencing projects"
+    }
+  ]
+}

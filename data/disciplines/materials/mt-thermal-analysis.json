@@ -1,0 +1,57 @@
+{
+  "id": "mt-thermal-analysis",
+  "name": "Thermal Analysis & Thermophysical Testing",
+  "category": "Materials Characterization",
+  "level": 3,
+  "priority": "important",
+  "summary": "Uses controlled heating and cooling to measure transitions, reactions, stability and thermal properties of materials.",
+  "prerequisites": [
+    "mt-characterization-fundamentals",
+    "mt-phase-diagrams"
+  ],
+  "related": [
+    "ch-instrumental-analysis"
+  ],
+  "topics": [
+    {
+      "id": "mt-thermal-analysis-1",
+      "name": "Principles of thermal analysis and instrument calibration"
+    },
+    {
+      "id": "mt-thermal-analysis-2",
+      "name": "Differential scanning calorimetry (DSC): Tg, melting, crystallisation and cure"
+    },
+    {
+      "id": "mt-thermal-analysis-3",
+      "name": "Differential thermal analysis (DTA) for high-temperature transitions"
+    },
+    {
+      "id": "mt-thermal-analysis-4",
+      "name": "Thermogravimetric analysis (TGA): decomposition, oxidation and filler content"
+    },
+    {
+      "id": "mt-thermal-analysis-5",
+      "name": "Evolved gas analysis (TGA-MS, TGA-FTIR)"
+    },
+    {
+      "id": "mt-thermal-analysis-6",
+      "name": "Dilatometry: thermal expansion and phase-transformation start temperatures"
+    },
+    {
+      "id": "mt-thermal-analysis-7",
+      "name": "Dynamic mechanical analysis (DMA) and thermomechanical analysis (TMA)"
+    },
+    {
+      "id": "mt-thermal-analysis-8",
+      "name": "Thermal conductivity and diffusivity: laser flash, hot disk and guarded hot plate"
+    },
+    {
+      "id": "mt-thermal-analysis-9",
+      "name": "Kinetic analysis of thermal data (Kissinger, isoconversional methods)"
+    },
+    {
+      "id": "mt-thermal-analysis-10",
+      "name": "Calorimetry for battery safety (accelerating rate calorimetry)"
+    }
+  ]
+}

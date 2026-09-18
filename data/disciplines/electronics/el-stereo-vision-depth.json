@@ -1,0 +1,36 @@
+{
+  "id": "el-stereo-vision-depth",
+  "name": "Stereo Vision & Depth",
+  "category": "Machine Learning & Edge AI",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Recovering depth from stereo cameras, structured light and time-of-flight.",
+  "prerequisites": [
+    "el-feature-detection-matching"
+  ],
+  "related": [
+    "ai-3d-computer-vision"
+  ],
+  "topics": [
+    {
+      "id": "el-stereo-vision-depth-1",
+      "name": "Stereo camera calibration"
+    },
+    {
+      "id": "el-stereo-vision-depth-2",
+      "name": "Disparity map computation"
+    },
+    {
+      "id": "el-stereo-vision-depth-3",
+      "name": "Depth estimation"
+    },
+    {
+      "id": "el-stereo-vision-depth-4",
+      "name": "Structured light systems"
+    },
+    {
+      "id": "el-stereo-vision-depth-5",
+      "name": "Time-of-Flight (ToF) cameras"
+    }
+  ]
+}

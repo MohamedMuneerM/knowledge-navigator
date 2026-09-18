@@ -1,0 +1,58 @@
+{
+  "id": "ae-descent-landing-systems",
+  "name": "Descent and Landing Systems",
+  "category": "Entry, Descent & Landing",
+  "level": 4,
+  "priority": "important",
+  "summary": "Slowing down and landing safely after entry: parachutes, inflatable decelerators, retropropulsion and precision landing.",
+  "prerequisites": [
+    "ae-atmospheric-entry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-descent-landing-systems-1",
+      "name": "EDL sequence design and timeline"
+    },
+    {
+      "id": "ae-descent-landing-systems-2",
+      "name": "Parachute types: drogue, main, disk-gap-band, ringsail"
+    },
+    {
+      "id": "ae-descent-landing-systems-3",
+      "name": "Parachute inflation, loads and supersonic parachute testing"
+    },
+    {
+      "id": "ae-descent-landing-systems-4",
+      "name": "Inflatable aerodynamic decelerators (HIAD, LOFTID)"
+    },
+    {
+      "id": "ae-descent-landing-systems-5",
+      "name": "Supersonic retropropulsion"
+    },
+    {
+      "id": "ae-descent-landing-systems-6",
+      "name": "Terminal descent: powered descent, sky crane, airbags"
+    },
+    {
+      "id": "ae-descent-landing-systems-7",
+      "name": "Landing gear and touchdown dynamics"
+    },
+    {
+      "id": "ae-descent-landing-systems-8",
+      "name": "Terrain-relative navigation and hazard detection and avoidance"
+    },
+    {
+      "id": "ae-descent-landing-systems-9",
+      "name": "Precision landing guidance"
+    },
+    {
+      "id": "ae-descent-landing-systems-10",
+      "name": "Water landing and recovery operations"
+    },
+    {
+      "id": "ae-descent-landing-systems-11",
+      "name": "EDL case studies: Apollo, Viking, Mars Pathfinder, Curiosity, Perseverance, Chandrayaan-3"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "el-force-strain-load-sensors",
+  "name": "Force, Strain & Load Sensors",
+  "category": "Sensors, Transducers & Actuators",
+  "level": 2,
+  "priority": "important",
+  "summary": "Measuring force, weight, torque and pressure with strain-gauge load cells, FSRs and piezoelectric sensors.",
+  "prerequisites": [
+    "el-sensor-interfacing"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-force-strain-load-sensors-1",
+      "name": "Load cells and strain gauges"
+    },
+    {
+      "id": "el-force-strain-load-sensors-2",
+      "name": "Force-sensitive resistors (FSR)"
+    },
+    {
+      "id": "el-force-strain-load-sensors-3",
+      "name": "Piezoelectric force sensors"
+    },
+    {
+      "id": "el-force-strain-load-sensors-4",
+      "name": "Torque sensors"
+    },
+    {
+      "id": "el-force-strain-load-sensors-5",
+      "name": "Pressure mats"
+    },
+    {
+      "id": "el-force-strain-load-sensors-6",
+      "name": "Wheatstone bridges and strain-gauge amplifiers"
+    },
+    {
+      "id": "el-force-strain-load-sensors-7",
+      "name": "Load-cell calibration, creep and drift"
+    }
+  ]
+}

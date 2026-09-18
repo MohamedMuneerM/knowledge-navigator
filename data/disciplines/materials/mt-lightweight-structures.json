@@ -1,0 +1,59 @@
+{
+  "id": "mt-lightweight-structures",
+  "name": "Lightweight Structures: Cellular, Sandwich & Architected Materials",
+  "category": "Lightweight & Protective Structures",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Shows how to make structures as light as possible by combining material choice with shape: foams, honeycombs, sandwich panels, lattices and hybrid materials.",
+  "prerequisites": [
+    "mt-materials-selection",
+    "mt-composites"
+  ],
+  "related": [
+    "me-lightweight-structures-composites",
+    "ae-lightweight-structural-design",
+    "me-mechanical-metamaterials"
+  ],
+  "topics": [
+    {
+      "id": "mt-lightweight-structures-1",
+      "name": "Lightweighting strategy: material, shape, and structural efficiency"
+    },
+    {
+      "id": "mt-lightweight-structures-2",
+      "name": "Cellular solids: honeycombs and foams; Gibson-Ashby scaling laws"
+    },
+    {
+      "id": "mt-lightweight-structures-3",
+      "name": "Metallic, polymeric and ceramic foams: processing and properties"
+    },
+    {
+      "id": "mt-lightweight-structures-4",
+      "name": "Sandwich panel design: face and core selection, failure-mode maps"
+    },
+    {
+      "id": "mt-lightweight-structures-5",
+      "name": "Architected lattice materials: stretching- vs bending-dominated lattices, Maxwell's criterion"
+    },
+    {
+      "id": "mt-lightweight-structures-6",
+      "name": "Micro- and nano-architected materials"
+    },
+    {
+      "id": "mt-lightweight-structures-7",
+      "name": "Designing hybrid materials: filling holes in property space"
+    },
+    {
+      "id": "mt-lightweight-structures-8",
+      "name": "Topology optimisation and generative design"
+    },
+    {
+      "id": "mt-lightweight-structures-9",
+      "name": "Lightweighting case studies: aircraft, vehicles, bicycles and space structures"
+    },
+    {
+      "id": "mt-lightweight-structures-10",
+      "name": "Lightweight frames for wearable exoskeletons: stiffness, strength and fatigue constraints"
+    }
+  ]
+}

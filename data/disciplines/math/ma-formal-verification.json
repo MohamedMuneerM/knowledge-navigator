@@ -1,0 +1,46 @@
+{
+  "id": "ma-formal-verification",
+  "name": "Formal Verification",
+  "category": "Theoretical Computer Science",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Proving that programs and proofs are correct: program semantics, model checking and interactive proof assistants.",
+  "prerequisites": [
+    "ma-type-theory",
+    "cs-programming-languages"
+  ],
+  "related": [
+    "cs-program-analysis-verification",
+    "el-design-verification"
+  ],
+  "topics": [
+    {
+      "id": "ma-formal-verification-1",
+      "name": "Program semantics"
+    },
+    {
+      "id": "ma-formal-verification-4",
+      "name": "Hoare logic"
+    },
+    {
+      "id": "ma-formal-verification-5",
+      "name": "Temporal logic"
+    },
+    {
+      "id": "ma-formal-verification-2",
+      "name": "Model checking"
+    },
+    {
+      "id": "ma-formal-verification-6",
+      "name": "SAT and SMT solvers"
+    },
+    {
+      "id": "ma-formal-verification-3",
+      "name": "Proof assistants"
+    },
+    {
+      "id": "ma-formal-verification-7",
+      "name": "Formalising mathematics (Lean, Coq, Isabelle)"
+    }
+  ]
+}

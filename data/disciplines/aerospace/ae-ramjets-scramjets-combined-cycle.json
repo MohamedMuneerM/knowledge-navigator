@@ -1,0 +1,59 @@
+{
+  "id": "ae-ramjets-scramjets-combined-cycle",
+  "name": "Ramjets, Scramjets and Combined-Cycle Propulsion",
+  "category": "Air-Breathing Propulsion & Combustion",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Air-breathing propulsion for supersonic and hypersonic flight, and combined-cycle engines that bridge aircraft and rocket propulsion.",
+  "prerequisites": [
+    "ae-gas-turbine-engines",
+    "ae-combustion-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-ramjets-scramjets-combined-cycle-1",
+      "name": "Ramjet cycle and performance"
+    },
+    {
+      "id": "ae-ramjets-scramjets-combined-cycle-2",
+      "name": "Supersonic inlets: external, mixed and internal compression; unstart"
+    },
+    {
+      "id": "ae-ramjets-scramjets-combined-cycle-3",
+      "name": "Scramjet cycle and supersonic combustion"
+    },
+    {
+      "id": "ae-ramjets-scramjets-combined-cycle-4",
+      "name": "Fuel injection, mixing and flameholding in supersonic flow"
+    },
+    {
+      "id": "ae-ramjets-scramjets-combined-cycle-5",
+      "name": "Isolators and dual-mode ramjet/scramjet operation"
+    },
+    {
+      "id": "ae-ramjets-scramjets-combined-cycle-6",
+      "name": "Hydrocarbon versus hydrogen fuels and thermal management"
+    },
+    {
+      "id": "ae-ramjets-scramjets-combined-cycle-7",
+      "name": "Turbine-based combined cycle (TBCC)"
+    },
+    {
+      "id": "ae-ramjets-scramjets-combined-cycle-8",
+      "name": "Rocket-based combined cycle (RBCC) and air-augmented rockets"
+    },
+    {
+      "id": "ae-ramjets-scramjets-combined-cycle-9",
+      "name": "Precooled engines (SABRE concept)"
+    },
+    {
+      "id": "ae-ramjets-scramjets-combined-cycle-10",
+      "name": "Pressure-gain combustion: pulse and rotating detonation engines"
+    },
+    {
+      "id": "ae-ramjets-scramjets-combined-cycle-11",
+      "name": "Flight demonstrators: X-43, X-51 and HIFiRE"
+    }
+  ]
+}

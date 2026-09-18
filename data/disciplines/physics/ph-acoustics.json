@@ -1,0 +1,57 @@
+{
+  "id": "ph-acoustics",
+  "name": "Acoustics",
+  "category": "Mechanics, Waves & Fluids",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "The physics of sound in air, water and solids, and its uses in music, buildings, medicine and sensing.",
+  "prerequisites": [
+    "ph-waves-oscillations",
+    "ph-fluid-mechanics"
+  ],
+  "related": [
+    "me-acoustics-noise-control"
+  ],
+  "topics": [
+    {
+      "id": "ph-acoustics-1",
+      "name": "Physical acoustics (sound wave properties)"
+    },
+    {
+      "id": "ph-acoustics-2",
+      "name": "Musical acoustics"
+    },
+    {
+      "id": "ph-acoustics-3",
+      "name": "Architectural acoustics"
+    },
+    {
+      "id": "ph-acoustics-4",
+      "name": "Environmental acoustics"
+    },
+    {
+      "id": "ph-acoustics-5",
+      "name": "Speech acoustics"
+    },
+    {
+      "id": "ph-acoustics-6",
+      "name": "Psychoacoustics (human sound perception)"
+    },
+    {
+      "id": "ph-acoustics-7",
+      "name": "Electroacoustics"
+    },
+    {
+      "id": "ph-acoustics-8",
+      "name": "Underwater acoustics"
+    },
+    {
+      "id": "ph-acoustics-9",
+      "name": "Ultrasonics"
+    },
+    {
+      "id": "ph-acoustics-10",
+      "name": "Infrasound"
+    }
+  ]
+}

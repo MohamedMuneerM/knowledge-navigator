@@ -1,0 +1,37 @@
+{
+  "id": "ma-high-dimensional-probability",
+  "name": "High-Dimensional Probability",
+  "category": "Probability & Statistics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Probability when the dimension is large: concentration of measure, random vectors and matrices, and high-dimensional statistics.",
+  "prerequisites": [
+    "ma-probability-theory",
+    "ma-matrix-analysis"
+  ],
+  "related": [
+    "ma-measure-concentration"
+  ],
+  "topics": [
+    {
+      "id": "ma-high-dimensional-probability-1",
+      "name": "Concentration of measure"
+    },
+    {
+      "id": "ma-high-dimensional-probability-4",
+      "name": "Sub-Gaussian and sub-exponential random variables"
+    },
+    {
+      "id": "ma-high-dimensional-probability-5",
+      "name": "Random vectors in high dimensions"
+    },
+    {
+      "id": "ma-high-dimensional-probability-2",
+      "name": "Random matrix theory"
+    },
+    {
+      "id": "ma-high-dimensional-probability-3",
+      "name": "High-dimensional statistics"
+    }
+  ]
+}

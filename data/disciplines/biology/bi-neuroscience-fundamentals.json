@@ -1,0 +1,62 @@
+{
+  "id": "bi-neuroscience-fundamentals",
+  "name": "Introduction to Neuroscience",
+  "category": "Neuroscience",
+  "level": 2,
+  "priority": "core",
+  "summary": "A first course on the nervous system: neurons and synapses, brain organisation, senses, movement, and the biology of behaviour and mind.",
+  "prerequisites": [
+    "bi-membranes-transport-bioelectricity"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-neuroscience-fundamentals-1",
+      "name": "Neurons and glia: cell types and structure"
+    },
+    {
+      "id": "bi-neuroscience-fundamentals-2",
+      "name": "The action potential and its propagation"
+    },
+    {
+      "id": "bi-neuroscience-fundamentals-3",
+      "name": "Synaptic transmission and neurotransmitter systems"
+    },
+    {
+      "id": "bi-neuroscience-fundamentals-4",
+      "name": "Organisation of the nervous system: CNS, PNS and autonomic"
+    },
+    {
+      "id": "bi-neuroscience-fundamentals-5",
+      "name": "Tour of the brain: brainstem, cerebellum, diencephalon, basal ganglia and cortex"
+    },
+    {
+      "id": "bi-neuroscience-fundamentals-6",
+      "name": "Sensory systems overview: vision, hearing, touch, taste and smell"
+    },
+    {
+      "id": "bi-neuroscience-fundamentals-7",
+      "name": "Motor systems overview: spinal reflexes to motor cortex"
+    },
+    {
+      "id": "bi-neuroscience-fundamentals-8",
+      "name": "Brain development and plasticity (overview)"
+    },
+    {
+      "id": "bi-neuroscience-fundamentals-9",
+      "name": "Learning and memory (overview)"
+    },
+    {
+      "id": "bi-neuroscience-fundamentals-10",
+      "name": "Emotion, motivation, sleep and consciousness (overview)"
+    },
+    {
+      "id": "bi-neuroscience-fundamentals-11",
+      "name": "Methods for studying the brain: lesions, recording, imaging"
+    },
+    {
+      "id": "bi-neuroscience-fundamentals-12",
+      "name": "Neurological and psychiatric disorders (overview)"
+    }
+  ]
+}

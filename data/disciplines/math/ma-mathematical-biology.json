@@ -1,0 +1,56 @@
+{
+  "id": "ma-mathematical-biology",
+  "name": "Mathematical Biology",
+  "category": "Applied & Interdisciplinary Mathematics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Mathematical models of living systems: populations, epidemics, neurons, ecology and molecular biology.",
+  "prerequisites": [
+    "ma-dynamical-systems",
+    "ma-mathematical-modeling",
+    "bi-introductory-biology"
+  ],
+  "related": [
+    "bi-population-ecology",
+    "bi-systems-biology",
+    "bi-population-genetics"
+  ],
+  "topics": [
+    {
+      "id": "ma-mathematical-biology-1",
+      "name": "Population dynamics"
+    },
+    {
+      "id": "ma-mathematical-biology-4",
+      "name": "Ecology models"
+    },
+    {
+      "id": "ma-mathematical-biology-2",
+      "name": "Epidemiological modeling (SIR, SEIR models)"
+    },
+    {
+      "id": "ma-mathematical-biology-7",
+      "name": "Reaction-diffusion and pattern formation"
+    },
+    {
+      "id": "ma-mathematical-biology-3",
+      "name": "Neural modeling"
+    },
+    {
+      "id": "ma-mathematical-biology-8",
+      "name": "Enzyme kinetics and biochemical networks"
+    },
+    {
+      "id": "ma-mathematical-biology-6",
+      "name": "Systems biology"
+    },
+    {
+      "id": "ma-mathematical-biology-5",
+      "name": "DNA and protein modeling"
+    },
+    {
+      "id": "ma-mathematical-biology-9",
+      "name": "Population genetics and evolutionary dynamics"
+    }
+  ]
+}

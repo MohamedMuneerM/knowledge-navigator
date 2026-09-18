@@ -1,0 +1,48 @@
+{
+  "id": "ma-specialized-algebraic-structures",
+  "name": "Specialized Algebraic Structures",
+  "category": "Algebra",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "A tour of structures that appear in physics and computing: quaternions, octonions, Clifford, Boolean, tensor and exterior algebras.",
+  "prerequisites": [
+    "ma-abstract-algebra"
+  ],
+  "related": [
+    "ma-order-lattices"
+  ],
+  "topics": [
+    {
+      "id": "ma-specialized-algebraic-structures-1",
+      "name": "Quaternions and octonions"
+    },
+    {
+      "id": "ma-specialized-algebraic-structures-2",
+      "name": "Clifford algebras"
+    },
+    {
+      "id": "ma-specialized-algebraic-structures-3",
+      "name": "Boolean algebra"
+    },
+    {
+      "id": "ma-specialized-algebraic-structures-4",
+      "name": "Lattices and ordered structures"
+    },
+    {
+      "id": "ma-specialized-algebraic-structures-5",
+      "name": "Tensor algebra"
+    },
+    {
+      "id": "ma-specialized-algebraic-structures-6",
+      "name": "Exterior algebra"
+    },
+    {
+      "id": "ma-specialized-algebraic-structures-7",
+      "name": "Hopf algebras (introduction)"
+    },
+    {
+      "id": "ma-specialized-algebraic-structures-8",
+      "name": "Jordan and other non-associative algebras"
+    }
+  ]
+}

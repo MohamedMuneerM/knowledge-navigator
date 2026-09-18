@@ -1,0 +1,39 @@
+{
+  "id": "ma-geophysics",
+  "name": "Geophysics",
+  "category": "Mathematical Physics",
+  "level": 3,
+  "priority": "optional",
+  "summary": "Mathematical models of the solid Earth: seismic waves and gravitational fields.",
+  "prerequisites": [
+    "ma-partial-differential-equations-pdes"
+  ],
+  "related": [
+    "ph-geophysics",
+    "ea-solid-earth-geophysics",
+    "ea-seismology",
+    "ea-geodynamics"
+  ],
+  "topics": [
+    {
+      "id": "ma-geophysics-3",
+      "name": "Elastic wave equations in the Earth"
+    },
+    {
+      "id": "ma-geophysics-1",
+      "name": "Seismology"
+    },
+    {
+      "id": "ma-geophysics-2",
+      "name": "Gravitational theory"
+    },
+    {
+      "id": "ma-geophysics-4",
+      "name": "Geomagnetism and dynamo theory (introduction)"
+    },
+    {
+      "id": "ma-geophysics-5",
+      "name": "Inverse problems in geophysics"
+    }
+  ]
+}

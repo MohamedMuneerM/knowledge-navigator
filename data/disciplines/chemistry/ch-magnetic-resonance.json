@@ -1,0 +1,58 @@
+{
+  "id": "ch-magnetic-resonance",
+  "name": "Magnetic Resonance Spectroscopy (NMR & EPR)",
+  "category": "Physical Chemistry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The theory and practice of pulsed NMR and EPR, from spin physics to multidimensional and solid-state experiments.",
+  "prerequisites": [
+    "ch-molecular-spectroscopy",
+    "ch-organic-spectroscopy"
+  ],
+  "related": [
+    "ph-medical-physics",
+    "bi-structural-biology"
+  ],
+  "topics": [
+    {
+      "id": "ch-magnetic-resonance-1",
+      "name": "Nuclear spin, the Zeeman interaction and the vector model"
+    },
+    {
+      "id": "ch-magnetic-resonance-2",
+      "name": "Bloch equations, relaxation (T1, T2) and the rotating frame"
+    },
+    {
+      "id": "ch-magnetic-resonance-3",
+      "name": "Pulsed Fourier-transform NMR and the product-operator formalism"
+    },
+    {
+      "id": "ch-magnetic-resonance-4",
+      "name": "Theory of chemical shift and J-coupling"
+    },
+    {
+      "id": "ch-magnetic-resonance-5",
+      "name": "Multidimensional NMR pulse sequences"
+    },
+    {
+      "id": "ch-magnetic-resonance-6",
+      "name": "Dynamic NMR, chemical exchange and the nuclear Overhauser effect"
+    },
+    {
+      "id": "ch-magnetic-resonance-7",
+      "name": "Solid-state NMR: magic-angle spinning and cross-polarization"
+    },
+    {
+      "id": "ch-magnetic-resonance-8",
+      "name": "NMR of biomolecules and materials"
+    },
+    {
+      "id": "ch-magnetic-resonance-9",
+      "name": "EPR: g-values, hyperfine coupling and pulsed EPR"
+    },
+    {
+      "id": "ch-magnetic-resonance-10",
+      "name": "MRI principles and hyperpolarization"
+    }
+  ]
+}

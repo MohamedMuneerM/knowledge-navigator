@@ -1,0 +1,62 @@
+{
+  "id": "ae-finite-element-analysis-aerospace",
+  "name": "Finite Element Analysis for Aerospace Structures",
+  "category": "Structures & Materials",
+  "level": 3,
+  "priority": "important",
+  "summary": "Finite element modelling of aerospace structures for stress, buckling, vibration and thermal analysis.",
+  "prerequisites": [
+    "ae-aerospace-structures",
+    "ae-computational-methods-aerospace"
+  ],
+  "related": [
+    "ma-numerical-solutions-of-pdes",
+    "me-finite-element-analysis"
+  ],
+  "topics": [
+    {
+      "id": "ae-finite-element-analysis-aerospace-1",
+      "name": "Matrix structural analysis and the direct stiffness method"
+    },
+    {
+      "id": "ae-finite-element-analysis-aerospace-2",
+      "name": "Truss and beam elements"
+    },
+    {
+      "id": "ae-finite-element-analysis-aerospace-3",
+      "name": "Variational formulation and shape functions"
+    },
+    {
+      "id": "ae-finite-element-analysis-aerospace-4",
+      "name": "Plane stress, plate and shell elements"
+    },
+    {
+      "id": "ae-finite-element-analysis-aerospace-5",
+      "name": "Solid elements and meshing practice"
+    },
+    {
+      "id": "ae-finite-element-analysis-aerospace-6",
+      "name": "Boundary conditions and load application"
+    },
+    {
+      "id": "ae-finite-element-analysis-aerospace-7",
+      "name": "Modal and buckling analysis with FEA"
+    },
+    {
+      "id": "ae-finite-element-analysis-aerospace-8",
+      "name": "Thermal and thermo-structural analysis"
+    },
+    {
+      "id": "ae-finite-element-analysis-aerospace-9",
+      "name": "Nonlinear analysis: geometric, material and contact"
+    },
+    {
+      "id": "ae-finite-element-analysis-aerospace-10",
+      "name": "Model verification, mesh convergence and correlation with tests"
+    },
+    {
+      "id": "ae-finite-element-analysis-aerospace-11",
+      "name": "Industry tools: NASTRAN, Abaqus, ANSYS and FEMAP workflows"
+    }
+  ]
+}

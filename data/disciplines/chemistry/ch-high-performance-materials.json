@@ -1,0 +1,74 @@
+{
+  "id": "ch-high-performance-materials",
+  "name": "High-Performance & Extreme-Environment Materials Chemistry",
+  "category": "Polymer, Materials & Solid-State Chemistry",
+  "level": 4,
+  "priority": "important",
+  "summary": "Chemistry of the fibres, resins, composites, ceramics and coatings used in rockets, armour and extreme environments.",
+  "prerequisites": [
+    "ch-materials-chemistry",
+    "mt-composites"
+  ],
+  "related": [
+    "el-advanced-materials",
+    "ph-materials-physics",
+    "mt-aerospace-materials",
+    "mt-thermal-protection-systems",
+    "mt-impact-protective-materials",
+    "mt-ceramic-matrix-composites"
+  ],
+  "topics": [
+    {
+      "id": "ch-high-performance-materials-1",
+      "name": "High-performance fibres: carbon fibre, aramids (Kevlar), UHMWPE and PBO"
+    },
+    {
+      "id": "ch-high-performance-materials-2",
+      "name": "High-temperature polymers: polyimides, PEEK, bismaleimides and cyanate esters"
+    },
+    {
+      "id": "ch-high-performance-materials-3",
+      "name": "Thermoset resins: epoxy chemistry and curing"
+    },
+    {
+      "id": "ch-high-performance-materials-4",
+      "name": "Fibre-reinforced polymer composites and fibre-matrix interfaces"
+    },
+    {
+      "id": "ch-high-performance-materials-5",
+      "name": "Ceramic-matrix and carbon-carbon composites"
+    },
+    {
+      "id": "ch-high-performance-materials-6",
+      "name": "Ultra-high-temperature ceramics (ZrB2, HfC) and refractory metals"
+    },
+    {
+      "id": "ch-high-performance-materials-7",
+      "name": "Thermal protection systems and ablative materials"
+    },
+    {
+      "id": "ch-high-performance-materials-8",
+      "name": "Superalloys and thermal/environmental barrier coatings: oxidation chemistry"
+    },
+    {
+      "id": "ch-high-performance-materials-9",
+      "name": "Lightweight alloys: titanium, aluminium-lithium and magnesium"
+    },
+    {
+      "id": "ch-high-performance-materials-10",
+      "name": "Armour and impact-resistant materials: ceramics and laminates"
+    },
+    {
+      "id": "ch-high-performance-materials-11",
+      "name": "Energy-absorbing and shear-thickening materials"
+    },
+    {
+      "id": "ch-high-performance-materials-12",
+      "name": "Space-environment durability: atomic oxygen, UV, radiation and vacuum outgassing"
+    },
+    {
+      "id": "ch-high-performance-materials-13",
+      "name": "Adhesives and sealants for extreme environments"
+    }
+  ]
+}

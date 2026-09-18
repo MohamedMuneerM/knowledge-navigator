@@ -1,0 +1,55 @@
+{
+  "id": "bi-molecular-evolution-phylogenetics",
+  "name": "Molecular Evolution & Phylogenetics",
+  "category": "Evolution",
+  "level": 3,
+  "priority": "important",
+  "summary": "Reading evolutionary history from DNA and protein sequences: substitution models, molecular clocks and tree-building methods.",
+  "prerequisites": [
+    "bi-population-genetics",
+    "bi-molecular-biology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-molecular-evolution-phylogenetics-1",
+      "name": "The neutral and nearly neutral theories of molecular evolution"
+    },
+    {
+      "id": "bi-molecular-evolution-phylogenetics-2",
+      "name": "Substitution rates, dN/dS and signatures of selection"
+    },
+    {
+      "id": "bi-molecular-evolution-phylogenetics-3",
+      "name": "Models of nucleotide and amino acid substitution"
+    },
+    {
+      "id": "bi-molecular-evolution-phylogenetics-4",
+      "name": "Molecular clocks and divergence-time estimation"
+    },
+    {
+      "id": "bi-molecular-evolution-phylogenetics-5",
+      "name": "Tree-building methods: distance, parsimony, maximum likelihood and Bayesian"
+    },
+    {
+      "id": "bi-molecular-evolution-phylogenetics-6",
+      "name": "Tree support, bootstrapping and model selection"
+    },
+    {
+      "id": "bi-molecular-evolution-phylogenetics-7",
+      "name": "Gene trees versus species trees, incomplete lineage sorting and phylogenomics"
+    },
+    {
+      "id": "bi-molecular-evolution-phylogenetics-8",
+      "name": "Gene family evolution, orthology and paralogy"
+    },
+    {
+      "id": "bi-molecular-evolution-phylogenetics-9",
+      "name": "Ancestral sequence reconstruction"
+    },
+    {
+      "id": "bi-molecular-evolution-phylogenetics-10",
+      "name": "Phylodynamics: viral evolution and epidemic trees"
+    }
+  ]
+}

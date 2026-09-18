@@ -1,0 +1,57 @@
+{
+  "id": "ae-three-body-problem",
+  "name": "Three-Body Problem and Libration-Point Orbits",
+  "category": "Orbital Mechanics & Astrodynamics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The circular restricted three-body problem, Lagrange points, halo orbits and the low-energy transfers used by modern lunar and astronomy missions.",
+  "prerequisites": [
+    "ae-interplanetary-trajectories",
+    "ma-dynamical-systems"
+  ],
+  "related": [
+    "ph-celestial-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "ae-three-body-problem-1",
+      "name": "Circular restricted three-body problem (CR3BP) equations in the rotating frame"
+    },
+    {
+      "id": "ae-three-body-problem-2",
+      "name": "Jacobi constant and zero-velocity surfaces"
+    },
+    {
+      "id": "ae-three-body-problem-3",
+      "name": "Lagrange points and their stability"
+    },
+    {
+      "id": "ae-three-body-problem-4",
+      "name": "Periodic orbits: Lyapunov, halo and vertical orbits"
+    },
+    {
+      "id": "ae-three-body-problem-5",
+      "name": "Differential correction and continuation methods"
+    },
+    {
+      "id": "ae-three-body-problem-6",
+      "name": "Invariant manifolds and the Interplanetary Superhighway"
+    },
+    {
+      "id": "ae-three-body-problem-7",
+      "name": "Near-rectilinear halo orbits (Gateway) and distant retrograde orbits"
+    },
+    {
+      "id": "ae-three-body-problem-8",
+      "name": "Low-energy lunar transfers and weak-stability-boundary transfers"
+    },
+    {
+      "id": "ae-three-body-problem-9",
+      "name": "Station-keeping at libration points"
+    },
+    {
+      "id": "ae-three-body-problem-10",
+      "name": "Ephemeris models and transition to real missions (JWST, SOHO)"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "ai-deep-reinforcement-learning",
+  "name": "Deep Reinforcement Learning",
+  "category": "Reinforcement Learning",
+  "level": 4,
+  "priority": "important",
+  "summary": "Combining deep networks with RL: DQN and its extensions, distributional RL and practical deep policy-gradient methods.",
+  "prerequisites": [
+    "ai-model-free-methods",
+    "ai-neural-network-foundations"
+  ],
+  "related": [
+    "el-reinforcement-learning"
+  ],
+  "topics": [
+    {
+      "id": "ai-deep-reinforcement-learning-1",
+      "name": "Deep Q-Networks (DQN)"
+    },
+    {
+      "id": "ai-deep-reinforcement-learning-7",
+      "name": "Experience replay and target networks"
+    },
+    {
+      "id": "ai-deep-reinforcement-learning-2",
+      "name": "Double DQN"
+    },
+    {
+      "id": "ai-deep-reinforcement-learning-3",
+      "name": "Dueling DQN"
+    },
+    {
+      "id": "ai-deep-reinforcement-learning-4",
+      "name": "Prioritized Experience Replay"
+    },
+    {
+      "id": "ai-deep-reinforcement-learning-5",
+      "name": "Rainbow DQN"
+    },
+    {
+      "id": "ai-deep-reinforcement-learning-6",
+      "name": "Distributional RL (C51, QR-DQN)"
+    },
+    {
+      "id": "ai-deep-reinforcement-learning-8",
+      "name": "Generalized advantage estimation and PPO implementation details"
+    },
+    {
+      "id": "ai-deep-reinforcement-learning-9",
+      "name": "Environments and benchmarks (Gymnasium, Atari, MuJoCo)"
+    }
+  ]
+}

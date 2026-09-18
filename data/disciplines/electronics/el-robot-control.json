@@ -1,0 +1,41 @@
+{
+  "id": "el-robot-control",
+  "name": "Robot Control",
+  "category": "Control Systems & Robotics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Controlling robot joints and interaction: PID and feedforward, computed torque, adaptive, impedance and force control.",
+  "prerequisites": [
+    "el-kinematics-dynamics",
+    "el-control-theory"
+  ],
+  "related": [
+    "ai-control-systems"
+  ],
+  "topics": [
+    {
+      "id": "el-robot-control-1",
+      "name": "PID control for joint positioning"
+    },
+    {
+      "id": "el-robot-control-2",
+      "name": "Feedforward control"
+    },
+    {
+      "id": "el-robot-control-3",
+      "name": "Computed torque control"
+    },
+    {
+      "id": "el-robot-control-4",
+      "name": "Adaptive and robust control"
+    },
+    {
+      "id": "el-robot-control-5",
+      "name": "Impedance and force control"
+    },
+    {
+      "id": "el-robot-control-6",
+      "name": "Compliance control"
+    }
+  ]
+}

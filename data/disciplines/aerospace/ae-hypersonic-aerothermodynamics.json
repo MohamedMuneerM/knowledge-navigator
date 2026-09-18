@@ -1,0 +1,68 @@
+{
+  "id": "ae-hypersonic-aerothermodynamics",
+  "name": "Hypersonic Flow and Aerothermodynamics",
+  "category": "Aerodynamics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Flow above about Mach 5, where thin shock layers, high-temperature gas chemistry and severe heating dominate the design of entry vehicles and hypersonic aircraft.",
+  "prerequisites": [
+    "ae-compressible-flow-gas-dynamics",
+    "ae-viscous-flow-boundary-layers",
+    "me-heat-transfer"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-hypersonic-aerothermodynamics-1",
+      "name": "Characteristics of hypersonic flow: thin shock layers, entropy layers, viscous interaction"
+    },
+    {
+      "id": "ae-hypersonic-aerothermodynamics-2",
+      "name": "Newtonian and modified Newtonian theory"
+    },
+    {
+      "id": "ae-hypersonic-aerothermodynamics-3",
+      "name": "Hypersonic similarity and Mach-number independence"
+    },
+    {
+      "id": "ae-hypersonic-aerothermodynamics-4",
+      "name": "High-temperature gas effects: vibrational excitation, dissociation, ionisation"
+    },
+    {
+      "id": "ae-hypersonic-aerothermodynamics-5",
+      "name": "Thermochemical nonequilibrium and finite-rate chemistry"
+    },
+    {
+      "id": "ae-hypersonic-aerothermodynamics-6",
+      "name": "Stagnation-point heating: Fay-Riddell and Sutton-Graves correlations"
+    },
+    {
+      "id": "ae-hypersonic-aerothermodynamics-7",
+      "name": "Convective and radiative heating"
+    },
+    {
+      "id": "ae-hypersonic-aerothermodynamics-8",
+      "name": "Hypersonic boundary layers and transition"
+    },
+    {
+      "id": "ae-hypersonic-aerothermodynamics-9",
+      "name": "Shock-wave/boundary-layer interaction"
+    },
+    {
+      "id": "ae-hypersonic-aerothermodynamics-10",
+      "name": "Surface catalysis and gas-surface interaction"
+    },
+    {
+      "id": "ae-hypersonic-aerothermodynamics-11",
+      "name": "Rarefied flow and DSMC"
+    },
+    {
+      "id": "ae-hypersonic-aerothermodynamics-12",
+      "name": "Hypersonic vehicle concepts: waveriders, lifting bodies, boost-glide vehicles"
+    },
+    {
+      "id": "ae-hypersonic-aerothermodynamics-13",
+      "name": "Hypersonic ground test facilities and flight experiments"
+    }
+  ]
+}

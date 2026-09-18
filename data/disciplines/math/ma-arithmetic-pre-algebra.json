@@ -1,0 +1,60 @@
+{
+  "id": "ma-arithmetic-pre-algebra",
+  "name": "Arithmetic & Pre-Algebra",
+  "category": "Pre-University Foundations",
+  "level": 1,
+  "priority": "core",
+  "summary": "Whole numbers, fractions, decimals, percentages, ratios, negative numbers and first use of variables: the bedrock every later chapter assumes.",
+  "prerequisites": [],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-arithmetic-pre-algebra-1",
+      "name": "Place value, whole numbers and the four operations"
+    },
+    {
+      "id": "ma-arithmetic-pre-algebra-2",
+      "name": "Order of operations and mental arithmetic"
+    },
+    {
+      "id": "ma-arithmetic-pre-algebra-3",
+      "name": "Factors, multiples, primes, GCD and LCM"
+    },
+    {
+      "id": "ma-arithmetic-pre-algebra-4",
+      "name": "Fractions: equivalence, simplifying and arithmetic"
+    },
+    {
+      "id": "ma-arithmetic-pre-algebra-5",
+      "name": "Decimals and rounding"
+    },
+    {
+      "id": "ma-arithmetic-pre-algebra-6",
+      "name": "Percentages, percentage change and simple interest"
+    },
+    {
+      "id": "ma-arithmetic-pre-algebra-7",
+      "name": "Ratios, rates and proportional reasoning"
+    },
+    {
+      "id": "ma-arithmetic-pre-algebra-8",
+      "name": "Negative numbers and the number line"
+    },
+    {
+      "id": "ma-arithmetic-pre-algebra-9",
+      "name": "Exponents, square roots and scientific notation"
+    },
+    {
+      "id": "ma-arithmetic-pre-algebra-10",
+      "name": "Units, measurement and unit conversion"
+    },
+    {
+      "id": "ma-arithmetic-pre-algebra-11",
+      "name": "Estimation and checking answers"
+    },
+    {
+      "id": "ma-arithmetic-pre-algebra-12",
+      "name": "Variables, expressions and simple one-step equations"
+    }
+  ]
+}

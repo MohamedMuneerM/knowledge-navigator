@@ -1,0 +1,69 @@
+{
+  "id": "bi-bioinformatics",
+  "name": "Bioinformatics",
+  "category": "Quantitative & Computational Biology",
+  "level": 3,
+  "priority": "core",
+  "summary": "Computational tools for biological sequences and data: databases, alignment, sequence search, variant and expression analysis, and phylogenetics.",
+  "prerequisites": [
+    "bi-molecular-biology",
+    "bi-quantitative-biology-data-analysis"
+  ],
+  "related": [
+    "cs-algorithms"
+  ],
+  "topics": [
+    {
+      "id": "bi-bioinformatics-1",
+      "name": "Biological databases: GenBank, UniProt, PDB, Ensembl"
+    },
+    {
+      "id": "bi-bioinformatics-2",
+      "name": "File formats: FASTA, FASTQ, SAM/BAM, VCF, GFF"
+    },
+    {
+      "id": "bi-bioinformatics-3",
+      "name": "Pairwise alignment: dot plots, Needleman-Wunsch, Smith-Waterman and scoring matrices"
+    },
+    {
+      "id": "bi-bioinformatics-4",
+      "name": "Database search: BLAST and its statistics"
+    },
+    {
+      "id": "bi-bioinformatics-5",
+      "name": "Multiple sequence alignment"
+    },
+    {
+      "id": "bi-bioinformatics-6",
+      "name": "Profiles, motifs and hidden Markov models (Pfam, HMMER)"
+    },
+    {
+      "id": "bi-bioinformatics-7",
+      "name": "Read mapping and variant calling"
+    },
+    {
+      "id": "bi-bioinformatics-8",
+      "name": "RNA-seq analysis pipeline"
+    },
+    {
+      "id": "bi-bioinformatics-9",
+      "name": "Genome browsers and annotation resources"
+    },
+    {
+      "id": "bi-bioinformatics-10",
+      "name": "Phylogenetic analysis in practice"
+    },
+    {
+      "id": "bi-bioinformatics-11",
+      "name": "Protein structure and function prediction tools"
+    },
+    {
+      "id": "bi-bioinformatics-12",
+      "name": "Workflow managers, the command line and HPC for biology"
+    },
+    {
+      "id": "bi-bioinformatics-13",
+      "name": "Gene ontology and pathway enrichment analysis"
+    }
+  ]
+}

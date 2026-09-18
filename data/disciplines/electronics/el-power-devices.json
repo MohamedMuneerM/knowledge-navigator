@@ -1,0 +1,50 @@
+{
+  "id": "el-power-devices",
+  "name": "Power Devices",
+  "category": "Semiconductor Devices & Fabrication",
+  "level": 3,
+  "priority": "important",
+  "summary": "Power semiconductors (Si, SiC and GaN MOSFETs, IGBTs, power diodes) and the gate drivers and heat sinking they need.",
+  "prerequisites": [
+    "el-semiconductor-devices"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-power-devices-1",
+      "name": "Power MOSFETs (Si, SiC, GaN)"
+    },
+    {
+      "id": "el-power-devices-2",
+      "name": "IGBTs (Insulated Gate Bipolar Transistors)"
+    },
+    {
+      "id": "el-power-devices-3",
+      "name": "Power diodes and rectifiers"
+    },
+    {
+      "id": "el-power-devices-4",
+      "name": "Gate drivers and isolated drivers"
+    },
+    {
+      "id": "el-power-devices-5",
+      "name": "Thermal management and heatsinking"
+    },
+    {
+      "id": "el-power-devices-6",
+      "name": "Key parameters: on-resistance, breakdown voltage, gate charge, reverse recovery"
+    },
+    {
+      "id": "el-power-devices-7",
+      "name": "Safe operating area and avalanche ruggedness"
+    },
+    {
+      "id": "el-power-devices-8",
+      "name": "Wide-bandgap devices (SiC, GaN): benefits and design challenges"
+    },
+    {
+      "id": "el-power-devices-9",
+      "name": "Power modules and packaging"
+    }
+  ]
+}

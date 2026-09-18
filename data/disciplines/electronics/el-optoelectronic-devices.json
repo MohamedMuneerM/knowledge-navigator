@@ -1,0 +1,45 @@
+{
+  "id": "el-optoelectronic-devices",
+  "name": "Optoelectronic Devices",
+  "category": "Semiconductor Devices & Fabrication",
+  "level": 2,
+  "priority": "important",
+  "summary": "Devices that convert between light and electricity: LEDs, laser diodes, photodetectors, solar cells, optocouplers and fiber components.",
+  "prerequisites": [
+    "el-active-components"
+  ],
+  "related": [
+    "ph-modern-optics",
+    "mt-optical-photonic-materials"
+  ],
+  "topics": [
+    {
+      "id": "el-optoelectronic-devices-1",
+      "name": "Light-Emitting Diodes (LED) and OLED"
+    },
+    {
+      "id": "el-optoelectronic-devices-2",
+      "name": "Laser diodes and VCSELs"
+    },
+    {
+      "id": "el-optoelectronic-devices-3",
+      "name": "Photodiodes and photodetectors"
+    },
+    {
+      "id": "el-optoelectronic-devices-4",
+      "name": "Phototransistors"
+    },
+    {
+      "id": "el-optoelectronic-devices-5",
+      "name": "Solar cells and photovoltaics"
+    },
+    {
+      "id": "el-optoelectronic-devices-6",
+      "name": "Optocouplers and optical isolators"
+    },
+    {
+      "id": "el-optoelectronic-devices-7",
+      "name": "Fiber optic components"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "el-electric-vehicle-ev-systems",
+  "name": "Electric Vehicle (EV) Systems",
+  "category": "Automotive, Aerospace & Defense Systems",
+  "level": 3,
+  "priority": "important",
+  "summary": "The electrical system of an EV: battery pack and BMS, traction inverter and motor, DC-DC and on-board chargers, charging standards and thermal management.",
+  "prerequisites": [
+    "el-battery-management-systems-bms",
+    "el-dc-ac-conversion-inverters",
+    "el-vehicle-electronics-architecture"
+  ],
+  "related": [
+    "el-electric-drives",
+    "me-automotive-engineering",
+    "me-energy-storage-power-integration"
+  ],
+  "topics": [
+    {
+      "id": "el-electric-vehicle-ev-systems-1",
+      "name": "Battery Management System (BMS)"
+    },
+    {
+      "id": "el-electric-vehicle-ev-systems-2",
+      "name": "Motor controllers and inverters"
+    },
+    {
+      "id": "el-electric-vehicle-ev-systems-3",
+      "name": "DC-DC converters"
+    },
+    {
+      "id": "el-electric-vehicle-ev-systems-4",
+      "name": "On-board chargers (AC-DC)"
+    },
+    {
+      "id": "el-electric-vehicle-ev-systems-5",
+      "name": "Charging standards (CCS, CHAdeMO, Tesla)"
+    },
+    {
+      "id": "el-electric-vehicle-ev-systems-6",
+      "name": "Thermal management systems"
+    },
+    {
+      "id": "el-electric-vehicle-ev-systems-7",
+      "name": "Range estimation and energy management"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "ae-applied-aerodynamics-flight-vehicles",
+  "name": "Applied Aerodynamics of Flight Vehicles",
+  "category": "Aerodynamics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Applies aerodynamic theory to complete vehicles: drag build-up, high-lift, transonic and supersonic configurations, and missile and launcher aerodynamics.",
+  "prerequisites": [
+    "ae-compressible-flow-gas-dynamics",
+    "ae-viscous-flow-boundary-layers"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-applied-aerodynamics-flight-vehicles-1",
+      "name": "Drag breakdown and component drag build-up"
+    },
+    {
+      "id": "ae-applied-aerodynamics-flight-vehicles-2",
+      "name": "Airfoil and wing design for cruise"
+    },
+    {
+      "id": "ae-applied-aerodynamics-flight-vehicles-3",
+      "name": "High-lift system design"
+    },
+    {
+      "id": "ae-applied-aerodynamics-flight-vehicles-4",
+      "name": "Transonic aerodynamics: supercritical airfoils, area rule, wing sweep"
+    },
+    {
+      "id": "ae-applied-aerodynamics-flight-vehicles-5",
+      "name": "Supersonic configurations: slender wings, wave drag minimisation"
+    },
+    {
+      "id": "ae-applied-aerodynamics-flight-vehicles-6",
+      "name": "Vortex lift and high angle-of-attack aerodynamics"
+    },
+    {
+      "id": "ae-applied-aerodynamics-flight-vehicles-7",
+      "name": "Wing-body interference and engine installation effects"
+    },
+    {
+      "id": "ae-applied-aerodynamics-flight-vehicles-8",
+      "name": "Aerodynamics of bodies of revolution: missiles and launch vehicles"
+    },
+    {
+      "id": "ae-applied-aerodynamics-flight-vehicles-9",
+      "name": "Fin design and rocket aerodynamic coefficients (normal force, CP, damping)"
+    },
+    {
+      "id": "ae-applied-aerodynamics-flight-vehicles-10",
+      "name": "Base drag and plume-induced flow effects"
+    },
+    {
+      "id": "ae-applied-aerodynamics-flight-vehicles-11",
+      "name": "Aerodynamic databases from analysis, CFD and test"
+    }
+  ]
+}

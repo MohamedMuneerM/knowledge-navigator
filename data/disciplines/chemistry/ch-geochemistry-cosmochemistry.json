@@ -1,0 +1,67 @@
+{
+  "id": "ch-geochemistry-cosmochemistry",
+  "name": "Geochemistry & Cosmochemistry",
+  "category": "Earth & Space Chemistry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The chemical composition and evolution of the Earth, planets and meteorites, traced with elements and isotopes.",
+  "prerequisites": [
+    "ch-descriptive-inorganic-chemistry",
+    "ch-chemical-thermodynamics",
+    "ch-nuclear-radiochemistry",
+    "ea-mineralogy"
+  ],
+  "related": [
+    "ph-planetary-science",
+    "ph-geophysics",
+    "ea-geochemistry-fundamentals",
+    "ea-isotope-geochemistry",
+    "ea-meteoritics-and-cosmochemistry"
+  ],
+  "topics": [
+    {
+      "id": "ch-geochemistry-cosmochemistry-1",
+      "name": "Nucleosynthesis and the cosmic abundances of the elements"
+    },
+    {
+      "id": "ch-geochemistry-cosmochemistry-2",
+      "name": "Meteorites and the composition of the early solar system"
+    },
+    {
+      "id": "ch-geochemistry-cosmochemistry-3",
+      "name": "Differentiation of the Earth: core, mantle and crust"
+    },
+    {
+      "id": "ch-geochemistry-cosmochemistry-4",
+      "name": "Goldschmidt classification and element partitioning"
+    },
+    {
+      "id": "ch-geochemistry-cosmochemistry-5",
+      "name": "Crystal chemistry of silicate minerals"
+    },
+    {
+      "id": "ch-geochemistry-cosmochemistry-6",
+      "name": "Igneous and metamorphic geochemistry; trace elements"
+    },
+    {
+      "id": "ch-geochemistry-cosmochemistry-7",
+      "name": "Radiogenic isotopes and geochronology"
+    },
+    {
+      "id": "ch-geochemistry-cosmochemistry-8",
+      "name": "Stable isotope geochemistry (O, C, H, S)"
+    },
+    {
+      "id": "ch-geochemistry-cosmochemistry-9",
+      "name": "Weathering, sediments and geochemical cycles"
+    },
+    {
+      "id": "ch-geochemistry-cosmochemistry-10",
+      "name": "Organic geochemistry and the formation of fossil fuels"
+    },
+    {
+      "id": "ch-geochemistry-cosmochemistry-11",
+      "name": "Planetary geochemistry: the Moon, Mars and asteroids"
+    }
+  ]
+}

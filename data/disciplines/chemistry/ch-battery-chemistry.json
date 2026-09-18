@@ -1,0 +1,79 @@
+{
+  "id": "ch-battery-chemistry",
+  "name": "Battery Chemistry & Electrochemical Energy Storage",
+  "category": "Electrochemistry & Energy",
+  "level": 4,
+  "priority": "important",
+  "summary": "The chemistry of batteries and supercapacitors, from lithium-ion electrodes and electrolytes to next-generation cells.",
+  "prerequisites": [
+    "ch-electrochemistry",
+    "ch-solid-state-chemistry"
+  ],
+  "related": [
+    "el-battery-technologies",
+    "el-battery-management-systems-bms",
+    "mt-battery-materials"
+  ],
+  "topics": [
+    {
+      "id": "ch-battery-chemistry-1",
+      "name": "Battery fundamentals: capacity, voltage, energy and power density, C-rate"
+    },
+    {
+      "id": "ch-battery-chemistry-2",
+      "name": "Primary batteries: alkaline, lithium primary and zinc-air"
+    },
+    {
+      "id": "ch-battery-chemistry-3",
+      "name": "Lead-acid and nickel-based batteries"
+    },
+    {
+      "id": "ch-battery-chemistry-4",
+      "name": "Lithium-ion intercalation chemistry"
+    },
+    {
+      "id": "ch-battery-chemistry-5",
+      "name": "Cathode materials: layered oxides (NMC, NCA), LFP and spinels"
+    },
+    {
+      "id": "ch-battery-chemistry-6",
+      "name": "Anode materials: graphite, silicon, lithium titanate and lithium metal"
+    },
+    {
+      "id": "ch-battery-chemistry-7",
+      "name": "Electrolytes, additives and the solid-electrolyte interphase (SEI)"
+    },
+    {
+      "id": "ch-battery-chemistry-8",
+      "name": "Degradation mechanisms and cycle life"
+    },
+    {
+      "id": "ch-battery-chemistry-9",
+      "name": "Thermal runaway, abuse tolerance and battery safety"
+    },
+    {
+      "id": "ch-battery-chemistry-10",
+      "name": "Solid-state batteries and solid electrolytes"
+    },
+    {
+      "id": "ch-battery-chemistry-11",
+      "name": "Beyond lithium-ion: sodium-ion, lithium-sulfur, metal-air and multivalent batteries"
+    },
+    {
+      "id": "ch-battery-chemistry-12",
+      "name": "Redox flow batteries and grid storage"
+    },
+    {
+      "id": "ch-battery-chemistry-13",
+      "name": "Supercapacitors and pseudocapacitors"
+    },
+    {
+      "id": "ch-battery-chemistry-14",
+      "name": "Battery characterization and testing methods"
+    },
+    {
+      "id": "ch-battery-chemistry-15",
+      "name": "Recycling and critical battery materials"
+    }
+  ]
+}

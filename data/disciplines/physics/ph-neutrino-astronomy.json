@@ -1,0 +1,39 @@
+{
+  "id": "ph-neutrino-astronomy",
+  "name": "Neutrino Astronomy",
+  "category": "High-Energy & Multi-Messenger Astrophysics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Using neutrinos from the Sun, supernovae and distant cosmic accelerators as a window on the Universe.",
+  "prerequisites": [
+    "ph-astroparticle-physics",
+    "ph-stellar-astrophysics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-neutrino-astronomy-4",
+      "name": "Neutrino detection"
+    },
+    {
+      "id": "ph-neutrino-astronomy-5",
+      "name": "Neutrino oscillations in matter (MSW effect)"
+    },
+    {
+      "id": "ph-neutrino-astronomy-1",
+      "name": "Solar neutrinos"
+    },
+    {
+      "id": "ph-neutrino-astronomy-2",
+      "name": "Supernova neutrinos"
+    },
+    {
+      "id": "ph-neutrino-astronomy-3",
+      "name": "High-energy neutrino sources"
+    },
+    {
+      "id": "ph-neutrino-astronomy-6",
+      "name": "The cosmic neutrino background"
+    }
+  ]
+}

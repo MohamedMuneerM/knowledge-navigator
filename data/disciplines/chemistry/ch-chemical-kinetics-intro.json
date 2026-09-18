@@ -1,0 +1,55 @@
+{
+  "id": "ch-chemical-kinetics-intro",
+  "name": "Introductory Chemical Kinetics",
+  "category": "General Chemistry",
+  "level": 2,
+  "priority": "core",
+  "summary": "How fast reactions go, rate laws, activation energy, mechanisms and catalysis at general-chemistry level.",
+  "prerequisites": [
+    "ch-states-of-matter-solutions",
+    "ma-precalculus"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-chemical-kinetics-intro-1",
+      "name": "Reaction rates and how they are measured"
+    },
+    {
+      "id": "ch-chemical-kinetics-intro-2",
+      "name": "Rate laws, reaction orders and rate constants"
+    },
+    {
+      "id": "ch-chemical-kinetics-intro-3",
+      "name": "Method of initial rates"
+    },
+    {
+      "id": "ch-chemical-kinetics-intro-4",
+      "name": "Integrated rate laws (zero, first, second order) and half-lives"
+    },
+    {
+      "id": "ch-chemical-kinetics-intro-5",
+      "name": "Collision theory and activation energy"
+    },
+    {
+      "id": "ch-chemical-kinetics-intro-6",
+      "name": "The Arrhenius equation and temperature dependence"
+    },
+    {
+      "id": "ch-chemical-kinetics-intro-7",
+      "name": "Reaction mechanisms, elementary steps and the rate-determining step"
+    },
+    {
+      "id": "ch-chemical-kinetics-intro-8",
+      "name": "Steady-state and pre-equilibrium approximations (introductory)"
+    },
+    {
+      "id": "ch-chemical-kinetics-intro-9",
+      "name": "Catalysis: homogeneous, heterogeneous and enzymes"
+    },
+    {
+      "id": "ch-chemical-kinetics-intro-10",
+      "name": "Kinetics in context: ozone depletion, drug shelf life, radioactive decay"
+    }
+  ]
+}

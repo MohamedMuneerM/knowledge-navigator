@@ -1,0 +1,56 @@
+{
+  "id": "el-test-equipment",
+  "name": "Test Equipment",
+  "category": "Measurement, Testing & Validation",
+  "level": 2,
+  "priority": "important",
+  "summary": "The electronics lab toolkit: multimeters, oscilloscopes, logic, spectrum and network analyzers, generators, supplies and electronic loads.",
+  "prerequisites": [
+    "el-hands-on-electronics"
+  ],
+  "related": [
+    "ph-measurement-instrumentation"
+  ],
+  "topics": [
+    {
+      "id": "el-test-equipment-1",
+      "name": "Digital multimeters (DMM)"
+    },
+    {
+      "id": "el-test-equipment-2",
+      "name": "Oscilloscopes (analog, digital, mixed-signal)"
+    },
+    {
+      "id": "el-test-equipment-3",
+      "name": "Logic analyzers"
+    },
+    {
+      "id": "el-test-equipment-4",
+      "name": "Spectrum analyzers"
+    },
+    {
+      "id": "el-test-equipment-5",
+      "name": "Signal generators (function, arbitrary waveform)"
+    },
+    {
+      "id": "el-test-equipment-6",
+      "name": "Power supplies (linear, programmable)"
+    },
+    {
+      "id": "el-test-equipment-7",
+      "name": "Electronic loads"
+    },
+    {
+      "id": "el-test-equipment-8",
+      "name": "Network analyzers (VNA)"
+    },
+    {
+      "id": "el-test-equipment-9",
+      "name": "LCR meters (inductance, capacitance, resistance)"
+    },
+    {
+      "id": "el-test-equipment-10",
+      "name": "Protocol analyzers (CAN, SPI, I²C, USB)"
+    }
+  ]
+}

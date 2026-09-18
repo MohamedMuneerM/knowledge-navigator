@@ -1,0 +1,67 @@
+{
+  "id": "mt-atomic-bonding",
+  "name": "Atomic Structure, Bonding & Solid-State Chemistry",
+  "category": "Foundations",
+  "level": 2,
+  "priority": "core",
+  "summary": "Explains how electrons bind atoms into solids and how bond type controls melting point, stiffness, expansion and conductivity.",
+  "prerequisites": [
+    "mt-intro-to-materials",
+    "ch-introductory-chemistry"
+  ],
+  "related": [
+    "ch-atomic-structure-periodicity",
+    "ch-chemical-bonding-molecular-structure",
+    "ch-solid-state-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "mt-atomic-bonding-1",
+      "name": "Atomic structure: electrons, orbitals, quantum numbers and electron configurations"
+    },
+    {
+      "id": "mt-atomic-bonding-2",
+      "name": "The periodic table and periodic trends (radius, ionisation energy, electronegativity)"
+    },
+    {
+      "id": "mt-atomic-bonding-3",
+      "name": "Ionic bonding, lattice energy and the Born-Haber cycle"
+    },
+    {
+      "id": "mt-atomic-bonding-4",
+      "name": "Covalent bonding: Lewis structures, VSEPR, hybridisation and molecular orbitals"
+    },
+    {
+      "id": "mt-atomic-bonding-5",
+      "name": "Metallic bonding and the free-electron picture"
+    },
+    {
+      "id": "mt-atomic-bonding-6",
+      "name": "Secondary bonding: van der Waals, dipole interactions and hydrogen bonds"
+    },
+    {
+      "id": "mt-atomic-bonding-7",
+      "name": "Interatomic force and potential-energy curves (Lennard-Jones, Morse)"
+    },
+    {
+      "id": "mt-atomic-bonding-8",
+      "name": "Linking bond energy to melting point, elastic modulus and thermal expansion"
+    },
+    {
+      "id": "mt-atomic-bonding-9",
+      "name": "From molecular orbitals to energy bands: metals, semiconductors and insulators"
+    },
+    {
+      "id": "mt-atomic-bonding-10",
+      "name": "Mixed bonding and the bonding triangle (van Arkel-Ketelaar)"
+    },
+    {
+      "id": "mt-atomic-bonding-11",
+      "name": "Introduction to solid-state reactions, stoichiometry and chemical kinetics"
+    },
+    {
+      "id": "mt-atomic-bonding-12",
+      "name": "Acids, bases, oxidation-reduction and solutions for materials engineers"
+    }
+  ]
+}

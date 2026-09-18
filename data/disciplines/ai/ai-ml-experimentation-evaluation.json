@@ -1,0 +1,75 @@
+{
+  "id": "ai-ml-experimentation-evaluation",
+  "name": "ML Experimentation & Evaluation Methodology",
+  "category": "Machine Learning Foundations",
+  "level": 3,
+  "priority": "core",
+  "summary": "How to run trustworthy ML experiments: choosing metrics and baselines, avoiding leakage, comparing models statistically and reporting reproducible results.",
+  "prerequisites": [
+    "ai-types-of-machine-learning",
+    "ai-data-preprocessing-feature-engineering",
+    "ma-inferential-statistics"
+  ],
+  "related": [
+    "ma-experimental-design",
+    "ai-core-ml-concepts"
+  ],
+  "topics": [
+    {
+      "id": "ai-ml-experimentation-evaluation-1",
+      "name": "Framing the problem and choosing metrics aligned with the real goal"
+    },
+    {
+      "id": "ai-ml-experimentation-evaluation-2",
+      "name": "Baselines, sanity checks and simple heuristics"
+    },
+    {
+      "id": "ai-ml-experimentation-evaluation-3",
+      "name": "Data splitting strategies: stratified, grouped and temporal splits"
+    },
+    {
+      "id": "ai-ml-experimentation-evaluation-4",
+      "name": "Data leakage: common sources and how to prevent it"
+    },
+    {
+      "id": "ai-ml-experimentation-evaluation-5",
+      "name": "Cross-validation and nested cross-validation for model selection"
+    },
+    {
+      "id": "ai-ml-experimentation-evaluation-6",
+      "name": "Hyperparameter tuning protocols and search budgets"
+    },
+    {
+      "id": "ai-ml-experimentation-evaluation-7",
+      "name": "Learning curves, error analysis and slicing"
+    },
+    {
+      "id": "ai-ml-experimentation-evaluation-8",
+      "name": "Statistical comparison of models: bootstrap intervals, paired tests, McNemar"
+    },
+    {
+      "id": "ai-ml-experimentation-evaluation-9",
+      "name": "Calibration and reliability diagrams"
+    },
+    {
+      "id": "ai-ml-experimentation-evaluation-10",
+      "name": "Evaluation under class imbalance and unequal costs"
+    },
+    {
+      "id": "ai-ml-experimentation-evaluation-11",
+      "name": "Ablation studies"
+    },
+    {
+      "id": "ai-ml-experimentation-evaluation-12",
+      "name": "Reproducibility: seeds, environment and data versioning, reporting standards"
+    },
+    {
+      "id": "ai-ml-experimentation-evaluation-13",
+      "name": "Offline versus online evaluation: A/B tests and interleaving"
+    },
+    {
+      "id": "ai-ml-experimentation-evaluation-14",
+      "name": "Benchmark design, dataset shift and test-set reuse"
+    }
+  ]
+}

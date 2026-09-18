@@ -1,0 +1,68 @@
+{
+  "id": "bi-introductory-biology",
+  "name": "Introductory Biology",
+  "category": "Foundations of Biology",
+  "level": 1,
+  "priority": "core",
+  "summary": "A first tour of the living world: what life is, how cells work, how traits are inherited, how species evolve and how ecosystems fit together.",
+  "prerequisites": [],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-introductory-biology-1",
+      "name": "Biology as a science: the unifying themes of the life sciences"
+    },
+    {
+      "id": "bi-introductory-biology-2",
+      "name": "Characteristics of life: organisation, metabolism, homeostasis, growth, reproduction, response, evolution"
+    },
+    {
+      "id": "bi-introductory-biology-3",
+      "name": "Levels of biological organisation from molecules to the biosphere"
+    },
+    {
+      "id": "bi-introductory-biology-4",
+      "name": "Basic chemistry of life: atoms, water and the four classes of biological molecules"
+    },
+    {
+      "id": "bi-introductory-biology-5",
+      "name": "Cell theory, prokaryotic and eukaryotic cells, and the main organelles"
+    },
+    {
+      "id": "bi-introductory-biology-6",
+      "name": "Energy in living things: an overview of photosynthesis and cellular respiration"
+    },
+    {
+      "id": "bi-introductory-biology-7",
+      "name": "Cell division: mitosis and meiosis at a glance"
+    },
+    {
+      "id": "bi-introductory-biology-8",
+      "name": "Heredity basics: genes, alleles, dominance and Mendel's laws"
+    },
+    {
+      "id": "bi-introductory-biology-9",
+      "name": "From DNA to protein: the central dogma in outline"
+    },
+    {
+      "id": "bi-introductory-biology-10",
+      "name": "Evolution basics: variation, natural selection, adaptation and common descent"
+    },
+    {
+      "id": "bi-introductory-biology-11",
+      "name": "The diversity of life: three domains and the major kingdoms"
+    },
+    {
+      "id": "bi-introductory-biology-12",
+      "name": "Organism basics: how plants and animals are built and kept alive"
+    },
+    {
+      "id": "bi-introductory-biology-13",
+      "name": "Ecosystems basics: food chains, energy flow, nutrient cycles and biomes"
+    },
+    {
+      "id": "bi-introductory-biology-14",
+      "name": "Humans and the biosphere: biodiversity loss, disease and biotechnology in everyday life"
+    }
+  ]
+}

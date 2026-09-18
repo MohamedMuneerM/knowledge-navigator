@@ -1,0 +1,30 @@
+{
+  "id": "materials",
+  "name": "Materials Science & Engineering",
+  "icon": "🧱",
+  "color": "#2dd4bf",
+  "prefix": "mt",
+  "description": "How the structure of materials, from atoms to microstructure, controls their properties, and how processing and selection turn metals, ceramics, polymers, composites and functional materials into reliable, high-performance products.",
+  "categories": [
+    "Foundations",
+    "Structure of Materials",
+    "Thermodynamics & Kinetics",
+    "Mechanical Behaviour",
+    "Electronic, Optical, Magnetic & Thermal Properties",
+    "Metals & Alloys",
+    "Ceramics & Glasses",
+    "Polymers & Soft Matter",
+    "Composites",
+    "Materials Characterization",
+    "Materials Processing & Manufacturing",
+    "Corrosion, Wear & Degradation",
+    "Materials Selection, Design & Sustainability",
+    "Nanomaterials & Biomaterials",
+    "Energy Materials",
+    "Smart & Active Materials",
+    "Aerospace & Extreme-Environment Materials",
+    "Lightweight & Protective Structures",
+    "Computational Materials Science",
+    "Frontier Materials"
+  ]
+}

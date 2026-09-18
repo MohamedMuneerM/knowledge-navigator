@@ -1,0 +1,58 @@
+{
+  "id": "el-statistical-signal-processing",
+  "name": "Statistical Signal Processing",
+  "category": "Signal Processing & Communications",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Estimation, detection and spectral analysis for signals buried in noise, the theory behind radar, communications and sensor systems.",
+  "prerequisites": [
+    "el-digital-signal-processing-dsp",
+    "ma-stochastic-processes"
+  ],
+  "related": [
+    "ma-time-series-analysis",
+    "ma-bayesian-statistics"
+  ],
+  "topics": [
+    {
+      "id": "el-statistical-signal-processing-1",
+      "name": "Random processes: stationarity, autocorrelation and power spectral density"
+    },
+    {
+      "id": "el-statistical-signal-processing-2",
+      "name": "Classical estimation: MVU estimators and the Cramér-Rao bound"
+    },
+    {
+      "id": "el-statistical-signal-processing-3",
+      "name": "Maximum-likelihood and least-squares estimation"
+    },
+    {
+      "id": "el-statistical-signal-processing-4",
+      "name": "Bayesian estimation: MMSE and MAP"
+    },
+    {
+      "id": "el-statistical-signal-processing-5",
+      "name": "Wiener filtering"
+    },
+    {
+      "id": "el-statistical-signal-processing-6",
+      "name": "Kalman filtering and its extensions"
+    },
+    {
+      "id": "el-statistical-signal-processing-7",
+      "name": "Detection theory: Neyman-Pearson, likelihood-ratio tests and ROC curves"
+    },
+    {
+      "id": "el-statistical-signal-processing-8",
+      "name": "Non-parametric spectral estimation (periodogram, Welch)"
+    },
+    {
+      "id": "el-statistical-signal-processing-9",
+      "name": "Parametric and subspace spectral estimation (AR models, MUSIC, ESPRIT)"
+    },
+    {
+      "id": "el-statistical-signal-processing-10",
+      "name": "Array signal processing and beamforming"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ch-bioinorganic-chemistry",
+  "name": "Bioinorganic Chemistry",
+  "category": "Inorganic Chemistry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The roles of metal ions in biology and medicine, from oxygen transport to nitrogen fixation.",
+  "prerequisites": [
+    "ch-coordination-chemistry",
+    "ch-biochemistry-structure-function"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-bioinorganic-chemistry-1",
+      "name": "Metals in biology: essential elements, uptake, transport and storage"
+    },
+    {
+      "id": "ch-bioinorganic-chemistry-2",
+      "name": "Metalloproteins: coordination environments and structure"
+    },
+    {
+      "id": "ch-bioinorganic-chemistry-3",
+      "name": "Oxygen transport: hemoglobin, myoglobin and hemocyanin"
+    },
+    {
+      "id": "ch-bioinorganic-chemistry-4",
+      "name": "Electron-transfer proteins: cytochromes, iron-sulfur clusters and blue copper"
+    },
+    {
+      "id": "ch-bioinorganic-chemistry-5",
+      "name": "Metalloenzymes: nitrogenase, hydrogenase, cytochrome P450 and methane monooxygenase"
+    },
+    {
+      "id": "ch-bioinorganic-chemistry-6",
+      "name": "Photosystem II and the oxygen-evolving complex"
+    },
+    {
+      "id": "ch-bioinorganic-chemistry-7",
+      "name": "Zinc enzymes and structural metal sites"
+    },
+    {
+      "id": "ch-bioinorganic-chemistry-8",
+      "name": "Metals in medicine: platinum drugs, gadolinium contrast, metal toxicity and chelation therapy"
+    },
+    {
+      "id": "ch-bioinorganic-chemistry-9",
+      "name": "Biomineralization"
+    },
+    {
+      "id": "ch-bioinorganic-chemistry-10",
+      "name": "Bioinspired and artificial metalloenzymes"
+    }
+  ]
+}

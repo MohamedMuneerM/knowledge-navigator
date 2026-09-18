@@ -1,0 +1,44 @@
+{
+  "id": "ea-history-and-philosophy-of-earth-science",
+  "name": "History, Philosophy & Communication of Earth Science",
+  "category": "Sustainability, Policy & Society",
+  "level": 1,
+  "priority": "optional",
+  "summary": "How our understanding of the Earth developed, how geoscience reasons, and how to communicate it ethically to the public.",
+  "prerequisites": [],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-history-and-philosophy-of-earth-science-1",
+      "name": "Early ideas: Steno, Hutton, Lyell and deep time"
+    },
+    {
+      "id": "ea-history-and-philosophy-of-earth-science-2",
+      "name": "Darwin, fossils and the age of the Earth debate"
+    },
+    {
+      "id": "ea-history-and-philosophy-of-earth-science-3",
+      "name": "Wegener and the plate-tectonics revolution"
+    },
+    {
+      "id": "ea-history-and-philosophy-of-earth-science-4",
+      "name": "The discovery of climate change: Tyndall to Keeling"
+    },
+    {
+      "id": "ea-history-and-philosophy-of-earth-science-5",
+      "name": "The Space Age and Earth observation"
+    },
+    {
+      "id": "ea-history-and-philosophy-of-earth-science-6",
+      "name": "Reasoning in the historical sciences: multiple working hypotheses"
+    },
+    {
+      "id": "ea-history-and-philosophy-of-earth-science-7",
+      "name": "Geoethics and the responsibilities of geoscientists"
+    },
+    {
+      "id": "ea-history-and-philosophy-of-earth-science-8",
+      "name": "Science communication, hazard communication and public engagement"
+    }
+  ]
+}

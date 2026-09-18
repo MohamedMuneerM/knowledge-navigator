@@ -1,0 +1,35 @@
+{
+  "id": "el-medical-data-security",
+  "name": "Medical Data Security",
+  "category": "Medical, Industrial & Other Application Domains",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Protecting health data in devices and systems: HIPAA compliance, encryption, secure transmission, access control and audit trails.",
+  "prerequisites": [
+    "el-privacy-protection",
+    "el-regulatory-standards"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-medical-data-security-1",
+      "name": "HIPAA compliance"
+    },
+    {
+      "id": "el-medical-data-security-2",
+      "name": "Data encryption and anonymization"
+    },
+    {
+      "id": "el-medical-data-security-3",
+      "name": "Secure data transmission"
+    },
+    {
+      "id": "el-medical-data-security-4",
+      "name": "Access control and audit trails"
+    },
+    {
+      "id": "el-medical-data-security-5",
+      "name": "Privacy by design"
+    }
+  ]
+}

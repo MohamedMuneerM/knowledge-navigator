@@ -1,0 +1,32 @@
+{
+  "id": "el-data-compression",
+  "name": "Data Compression",
+  "category": "IoT Architectures, Platforms & Data",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Shrinking data for storage and transmission: lossless (zlib, LZ4, Brotli), lossy and streaming compression for telemetry.",
+  "prerequisites": [
+    "el-data-serialization-formats"
+  ],
+  "related": [
+    "ma-information-theory"
+  ],
+  "topics": [
+    {
+      "id": "el-data-compression-1",
+      "name": "Lossless compression (zlib, LZ4, Brotli)"
+    },
+    {
+      "id": "el-data-compression-2",
+      "name": "Lossy compression (for audio, video, images)"
+    },
+    {
+      "id": "el-data-compression-3",
+      "name": "Streaming compression"
+    },
+    {
+      "id": "el-data-compression-4",
+      "name": "Compression for telemetry data"
+    }
+  ]
+}

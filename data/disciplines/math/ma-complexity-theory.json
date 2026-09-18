@@ -1,0 +1,54 @@
+{
+  "id": "ma-complexity-theory",
+  "name": "Complexity Theory",
+  "category": "Theoretical Computer Science",
+  "level": 3,
+  "priority": "important",
+  "summary": "What can be computed efficiently: P, NP, NP-completeness, space and randomised complexity classes.",
+  "prerequisites": [
+    "ma-computability-theory",
+    "ma-algorithm-analysis"
+  ],
+  "related": [
+    "ai-computational-complexity",
+    "cs-advanced-algorithms"
+  ],
+  "topics": [
+    {
+      "id": "ma-complexity-theory-3",
+      "name": "Computational complexity classes"
+    },
+    {
+      "id": "ma-complexity-theory-1",
+      "name": "P vs NP"
+    },
+    {
+      "id": "ma-complexity-theory-2",
+      "name": "NP-completeness"
+    },
+    {
+      "id": "ma-complexity-theory-5",
+      "name": "Cook-Levin theorem and reductions"
+    },
+    {
+      "id": "ma-complexity-theory-6",
+      "name": "Space complexity: PSPACE, L and NL"
+    },
+    {
+      "id": "ma-complexity-theory-7",
+      "name": "Randomised complexity: BPP"
+    },
+    {
+      "id": "ma-complexity-theory-8",
+      "name": "Polynomial hierarchy"
+    },
+    {
+      "id": "ma-complexity-theory-4",
+      "name": "Circuit complexity"
+    },
+    {
+      "id": "ma-complexity-theory-9",
+      "name": "Interactive proofs and PCP (overview)"
+    }
+  ]
+}

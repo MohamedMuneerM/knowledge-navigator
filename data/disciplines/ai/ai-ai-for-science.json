@@ -1,0 +1,53 @@
+{
+  "id": "ai-ai-for-science",
+  "name": "AI for Science",
+  "category": "Emerging & Frontier Fields",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Using ML to accelerate science: protein structure, drug and materials discovery, climate, physics, chemistry and mathematics.",
+  "prerequisites": [
+    "ai-graph-neural-networks",
+    "ai-special-deep-learning-topics"
+  ],
+  "related": [
+    "ph-computational-physics",
+    "bi-machine-learning-biology",
+    "ch-cheminformatics-ml",
+    "mt-materials-informatics",
+    "ch-automated-ai-driven-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "ai-ai-for-science-1",
+      "name": "AI for Drug Discovery"
+    },
+    {
+      "id": "ai-ai-for-science-2",
+      "name": "AI for Materials Science"
+    },
+    {
+      "id": "ai-ai-for-science-3",
+      "name": "AI for Climate Modeling"
+    },
+    {
+      "id": "ai-ai-for-science-4",
+      "name": "AI for Physics"
+    },
+    {
+      "id": "ai-ai-for-science-5",
+      "name": "AI for Biology (AlphaFold, etc.)"
+    },
+    {
+      "id": "ai-ai-for-science-6",
+      "name": "AI for Chemistry"
+    },
+    {
+      "id": "ai-ai-for-science-7",
+      "name": "AI for Mathematics"
+    },
+    {
+      "id": "ai-ai-for-science-8",
+      "name": "Scientific Machine Learning"
+    }
+  ]
+}

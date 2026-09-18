@@ -1,0 +1,50 @@
+{
+  "id": "ea-numerical-weather-prediction",
+  "name": "Numerical Weather Prediction & Data Assimilation",
+  "category": "Meteorology & Atmospheric Science",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How computer models forecast the atmosphere: numerical methods, physical parameterisations, data assimilation and ensembles.",
+  "prerequisites": [
+    "ea-weather-analysis-and-forecasting",
+    "ma-numerical-solutions-of-pdes"
+  ],
+  "related": [
+    "ma-geophysical-environmental-mathematics",
+    "ph-chaos-theory-nonlinear-dynamics"
+  ],
+  "topics": [
+    {
+      "id": "ea-numerical-weather-prediction-1",
+      "name": "Model equations and grids; spectral and finite-volume methods"
+    },
+    {
+      "id": "ea-numerical-weather-prediction-2",
+      "name": "Time stepping, stability and numerical dispersion"
+    },
+    {
+      "id": "ea-numerical-weather-prediction-3",
+      "name": "Physical parameterisations: convection, radiation, boundary layer and microphysics"
+    },
+    {
+      "id": "ea-numerical-weather-prediction-4",
+      "name": "Data assimilation: optimal interpolation, 3D/4D-Var and ensemble Kalman filters"
+    },
+    {
+      "id": "ea-numerical-weather-prediction-5",
+      "name": "Predictability and chaos"
+    },
+    {
+      "id": "ea-numerical-weather-prediction-6",
+      "name": "Ensemble forecasting and probabilistic forecasts"
+    },
+    {
+      "id": "ea-numerical-weather-prediction-7",
+      "name": "Forecast verification"
+    },
+    {
+      "id": "ea-numerical-weather-prediction-8",
+      "name": "Machine-learning weather models"
+    }
+  ]
+}

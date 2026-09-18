@@ -1,0 +1,68 @@
+{
+  "id": "ae-aerospace-instrumentation",
+  "name": "Aerospace Instrumentation and Experimental Methods",
+  "category": "Engineering Foundations",
+  "level": 2,
+  "priority": "important",
+  "summary": "How aerospace engineers measure pressure, temperature, force, strain, motion and flow, acquire data and quantify uncertainty.",
+  "prerequisites": [
+    "el-circuit-theory",
+    "ae-introduction-to-aerospace-engineering",
+    "ma-inferential-statistics"
+  ],
+  "related": [
+    "ph-measurement-instrumentation",
+    "el-signal-conditioning",
+    "me-measurements-instrumentation"
+  ],
+  "topics": [
+    {
+      "id": "ae-aerospace-instrumentation-1",
+      "name": "Measurement systems: sensors, signal conditioning, acquisition"
+    },
+    {
+      "id": "ae-aerospace-instrumentation-2",
+      "name": "Uncertainty analysis and error propagation"
+    },
+    {
+      "id": "ae-aerospace-instrumentation-3",
+      "name": "Statistics of measurements and design of experiments"
+    },
+    {
+      "id": "ae-aerospace-instrumentation-4",
+      "name": "Pressure measurement: transducers, pitot-static probes, scanners"
+    },
+    {
+      "id": "ae-aerospace-instrumentation-5",
+      "name": "Temperature measurement: thermocouples, RTDs, infrared"
+    },
+    {
+      "id": "ae-aerospace-instrumentation-6",
+      "name": "Force and moment measurement: load cells and balances"
+    },
+    {
+      "id": "ae-aerospace-instrumentation-7",
+      "name": "Strain gauges and Wheatstone bridges"
+    },
+    {
+      "id": "ae-aerospace-instrumentation-8",
+      "name": "Accelerometers, gyroscopes and vibration measurement"
+    },
+    {
+      "id": "ae-aerospace-instrumentation-9",
+      "name": "Flow measurement: hot-wire anemometry, PIV, LDV"
+    },
+    {
+      "id": "ae-aerospace-instrumentation-10",
+      "name": "Data acquisition: sampling, aliasing, filtering and ADC resolution"
+    },
+    {
+      "id": "ae-aerospace-instrumentation-11",
+      "name": "Calibration and traceability"
+    },
+    {
+      "id": "ae-aerospace-instrumentation-12",
+      "name": "Technical reporting of experimental results"
+    }
+  ]
+}

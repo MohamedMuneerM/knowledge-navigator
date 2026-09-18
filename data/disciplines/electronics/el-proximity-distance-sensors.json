@@ -1,0 +1,50 @@
+{
+  "id": "el-proximity-distance-sensors",
+  "name": "Proximity & Distance Sensors",
+  "category": "Sensors, Transducers & Actuators",
+  "level": 2,
+  "priority": "important",
+  "summary": "Detecting presence and measuring distance with infrared, ultrasonic, LiDAR, ToF, radar, capacitive, inductive and Hall-effect sensors.",
+  "prerequisites": [
+    "el-intro-microcontrollers"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-proximity-distance-sensors-1",
+      "name": "Infrared proximity sensors"
+    },
+    {
+      "id": "el-proximity-distance-sensors-2",
+      "name": "Ultrasonic distance sensors (ToF)"
+    },
+    {
+      "id": "el-proximity-distance-sensors-3",
+      "name": "LIDAR (Light Detection and Ranging) - 1D, 2D, 3D"
+    },
+    {
+      "id": "el-proximity-distance-sensors-4",
+      "name": "Laser rangefinders"
+    },
+    {
+      "id": "el-proximity-distance-sensors-5",
+      "name": "Time-of-Flight (ToF) cameras"
+    },
+    {
+      "id": "el-proximity-distance-sensors-6",
+      "name": "Radar sensors (mmWave, UWB)"
+    },
+    {
+      "id": "el-proximity-distance-sensors-7",
+      "name": "Capacitive proximity sensors"
+    },
+    {
+      "id": "el-proximity-distance-sensors-8",
+      "name": "Inductive proximity sensors"
+    },
+    {
+      "id": "el-proximity-distance-sensors-9",
+      "name": "Hall effect sensors"
+    }
+  ]
+}

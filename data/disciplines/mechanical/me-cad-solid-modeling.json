@@ -1,0 +1,68 @@
+{
+  "id": "me-cad-solid-modeling",
+  "name": "CAD & Parametric Solid Modeling",
+  "category": "Engineering Graphics, CAD & Tolerancing",
+  "level": 2,
+  "priority": "core",
+  "summary": "Building 3D parametric part and assembly models, generating drawings and managing design data in modern CAD systems.",
+  "prerequisites": [
+    "me-engineering-drawing-sketching"
+  ],
+  "related": [
+    "cs-geometric-modeling"
+  ],
+  "topics": [
+    {
+      "id": "me-cad-solid-modeling-1",
+      "name": "CAD landscape: parametric, direct and cloud CAD (SolidWorks, Fusion, Onshape, NX, CATIA, Creo)"
+    },
+    {
+      "id": "me-cad-solid-modeling-2",
+      "name": "Sketches, geometric constraints and design intent"
+    },
+    {
+      "id": "me-cad-solid-modeling-3",
+      "name": "Feature-based modeling: extrude, revolve, sweep, loft, fillet, shell, patterns"
+    },
+    {
+      "id": "me-cad-solid-modeling-4",
+      "name": "Parameters, equations and configurations/design tables"
+    },
+    {
+      "id": "me-cad-solid-modeling-5",
+      "name": "Assemblies: mates/joints, top-down vs bottom-up design, interference checking"
+    },
+    {
+      "id": "me-cad-solid-modeling-6",
+      "name": "Motion studies and mechanism simulation inside CAD"
+    },
+    {
+      "id": "me-cad-solid-modeling-7",
+      "name": "Detail drawings generated from 3D models"
+    },
+    {
+      "id": "me-cad-solid-modeling-8",
+      "name": "Sheet-metal, weldment and mold-tooling features"
+    },
+    {
+      "id": "me-cad-solid-modeling-9",
+      "name": "Surface modeling for complex shapes"
+    },
+    {
+      "id": "me-cad-solid-modeling-10",
+      "name": "Standard part libraries and purchased components"
+    },
+    {
+      "id": "me-cad-solid-modeling-11",
+      "name": "Mass properties and basic in-CAD simulation"
+    },
+    {
+      "id": "me-cad-solid-modeling-12",
+      "name": "File formats and interoperability (STEP, IGES, STL, 3MF, Parasolid)"
+    },
+    {
+      "id": "me-cad-solid-modeling-13",
+      "name": "Product data management (PDM/PLM), revision control and model-based definition (MBD)"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "ae-aerospace-materials",
+  "name": "Aerospace Materials and Selection",
+  "category": "Structures & Materials",
+  "level": 2,
+  "priority": "important",
+  "summary": "The engineering properties of the metals, composites, ceramics and polymers used in aircraft and spacecraft and how to choose among them.",
+  "prerequisites": [
+    "ae-introduction-to-aerospace-engineering",
+    "me-engineering-materials"
+  ],
+  "related": [
+    "mt-aerospace-materials",
+    "me-materials-selection"
+  ],
+  "topics": [
+    {
+      "id": "ae-aerospace-materials-1",
+      "name": "Material requirements in aerospace: specific strength and specific stiffness"
+    },
+    {
+      "id": "ae-aerospace-materials-2",
+      "name": "Mechanical properties: stress-strain, strength, toughness, fatigue, creep"
+    },
+    {
+      "id": "ae-aerospace-materials-3",
+      "name": "Aluminium alloys and aluminium-lithium"
+    },
+    {
+      "id": "ae-aerospace-materials-4",
+      "name": "Titanium alloys"
+    },
+    {
+      "id": "ae-aerospace-materials-5",
+      "name": "Steels and nickel-based superalloys for engines"
+    },
+    {
+      "id": "ae-aerospace-materials-6",
+      "name": "Fibre-reinforced composites: carbon, glass, aramid"
+    },
+    {
+      "id": "ae-aerospace-materials-7",
+      "name": "Ceramics and ceramic-matrix composites"
+    },
+    {
+      "id": "ae-aerospace-materials-8",
+      "name": "Polymers, adhesives, sealants and elastomers"
+    },
+    {
+      "id": "ae-aerospace-materials-9",
+      "name": "Materials for extreme environments: cryogenic, high temperature, vacuum and radiation"
+    },
+    {
+      "id": "ae-aerospace-materials-10",
+      "name": "Corrosion and environmental degradation"
+    },
+    {
+      "id": "ae-aerospace-materials-11",
+      "name": "Materials selection: Ashby charts and performance indices"
+    },
+    {
+      "id": "ae-aerospace-materials-12",
+      "name": "Material allowables and qualification (MMPDS, CMH-17)"
+    }
+  ]
+}

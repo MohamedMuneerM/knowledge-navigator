@@ -1,0 +1,55 @@
+{
+  "id": "ma-algebraic-number-theory",
+  "name": "Algebraic Number Theory",
+  "category": "Number Theory",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Number fields and their rings of integers: ideals, class groups, units, valuations and a glimpse of class field theory.",
+  "prerequisites": [
+    "ma-field-theory",
+    "ma-elementary-number-theory"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-algebraic-number-theory-2",
+      "name": "Algebraic number fields"
+    },
+    {
+      "id": "ma-algebraic-number-theory-1",
+      "name": "Algebraic integers"
+    },
+    {
+      "id": "ma-algebraic-number-theory-6",
+      "name": "Norm, trace and discriminant"
+    },
+    {
+      "id": "ma-algebraic-number-theory-4",
+      "name": "Ideal theory"
+    },
+    {
+      "id": "ma-algebraic-number-theory-7",
+      "name": "Dedekind domains and factorisation of prime ideals"
+    },
+    {
+      "id": "ma-algebraic-number-theory-8",
+      "name": "Class group and finiteness of class number"
+    },
+    {
+      "id": "ma-algebraic-number-theory-9",
+      "name": "Dirichlet's unit theorem"
+    },
+    {
+      "id": "ma-algebraic-number-theory-10",
+      "name": "Cyclotomic fields"
+    },
+    {
+      "id": "ma-algebraic-number-theory-5",
+      "name": "Valuations"
+    },
+    {
+      "id": "ma-algebraic-number-theory-3",
+      "name": "Class field theory"
+    }
+  ]
+}

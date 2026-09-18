@@ -1,0 +1,104 @@
+{
+  "id": "ma-ordinary-differential-equations-odes",
+  "name": "Ordinary Differential Equations (ODEs)",
+  "category": "Differential Equations & Dynamical Systems",
+  "level": 2,
+  "priority": "core",
+  "summary": "Equations for rates of change: solving first- and higher-order ODEs and linear systems, with qualitative and existence theory.",
+  "prerequisites": [
+    "ma-calculus"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-ordinary-differential-equations-odes-6",
+      "name": "Modelling with differential equations; direction fields"
+    },
+    {
+      "id": "ma-ordinary-differential-equations-odes-1",
+      "name": "First-order ODEs",
+      "sub": [
+        {
+          "id": "ma-ordinary-differential-equations-odes-1-1",
+          "name": "Separable equations"
+        },
+        {
+          "id": "ma-ordinary-differential-equations-odes-1-2",
+          "name": "Linear first-order equations and integrating factors"
+        },
+        {
+          "id": "ma-ordinary-differential-equations-odes-1-3",
+          "name": "Exact equations"
+        },
+        {
+          "id": "ma-ordinary-differential-equations-odes-1-4",
+          "name": "Autonomous equations and equilibria"
+        }
+      ]
+    },
+    {
+      "id": "ma-ordinary-differential-equations-odes-2",
+      "name": "Higher-order ODEs"
+    },
+    {
+      "id": "ma-ordinary-differential-equations-odes-3",
+      "name": "Linear differential equations",
+      "sub": [
+        {
+          "id": "ma-ordinary-differential-equations-odes-3-1",
+          "name": "Constant-coefficient equations"
+        },
+        {
+          "id": "ma-ordinary-differential-equations-odes-3-2",
+          "name": "Undetermined coefficients"
+        },
+        {
+          "id": "ma-ordinary-differential-equations-odes-3-3",
+          "name": "Variation of parameters"
+        }
+      ]
+    },
+    {
+      "id": "ma-ordinary-differential-equations-odes-7",
+      "name": "Mechanical and electrical oscillations; resonance"
+    },
+    {
+      "id": "ma-ordinary-differential-equations-odes-8",
+      "name": "Laplace transform methods for ODEs"
+    },
+    {
+      "id": "ma-ordinary-differential-equations-odes-9",
+      "name": "Series solutions and special equations"
+    },
+    {
+      "id": "ma-ordinary-differential-equations-odes-4",
+      "name": "Systems of ODEs",
+      "sub": [
+        {
+          "id": "ma-ordinary-differential-equations-odes-4-1",
+          "name": "Eigenvalue method"
+        },
+        {
+          "id": "ma-ordinary-differential-equations-odes-4-2",
+          "name": "Matrix exponential"
+        },
+        {
+          "id": "ma-ordinary-differential-equations-odes-4-3",
+          "name": "Phase portraits of 2x2 systems"
+        }
+      ]
+    },
+    {
+      "id": "ma-ordinary-differential-equations-odes-10",
+      "name": "Nonlinear systems, linearisation and stability"
+    },
+    {
+      "id": "ma-ordinary-differential-equations-odes-5",
+      "name": "Existence and uniqueness theorems"
+    },
+    {
+      "id": "ma-ordinary-differential-equations-odes-11",
+      "name": "Boundary value problems (introduction)"
+    }
+  ]
+}

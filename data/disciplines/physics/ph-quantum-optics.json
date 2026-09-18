@@ -1,0 +1,47 @@
+{
+  "id": "ph-quantum-optics",
+  "name": "Quantum Optics",
+  "category": "Optics & Photonics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The quantum nature of light and its interaction with matter: photons, coherent and squeezed states, cavity QED.",
+  "prerequisites": [
+    "ph-laser-physics",
+    "ph-advanced-quantum-mechanics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-quantum-optics-1",
+      "name": "Single photons"
+    },
+    {
+      "id": "ph-quantum-optics-2",
+      "name": "Coherent states"
+    },
+    {
+      "id": "ph-quantum-optics-3",
+      "name": "Quantum coherence"
+    },
+    {
+      "id": "ph-quantum-optics-4",
+      "name": "Squeezed light"
+    },
+    {
+      "id": "ph-quantum-optics-5",
+      "name": "Quantum entanglement in optics"
+    },
+    {
+      "id": "ph-quantum-optics-6",
+      "name": "Cavity QED"
+    },
+    {
+      "id": "ph-quantum-optics-7",
+      "name": "Photon statistics"
+    },
+    {
+      "id": "ph-quantum-optics-8",
+      "name": "Light-matter interactions"
+    }
+  ]
+}

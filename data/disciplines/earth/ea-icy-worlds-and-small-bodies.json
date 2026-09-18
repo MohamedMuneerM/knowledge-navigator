@@ -1,0 +1,51 @@
+{
+  "id": "ea-icy-worlds-and-small-bodies",
+  "name": "Icy Worlds, Asteroids & Comets",
+  "category": "Planetary Geoscience",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The geology of outer-Solar-System moons, dwarf planets, asteroids and comets, including ocean worlds.",
+  "prerequisites": [
+    "ea-planetary-surfaces-and-impact-cratering"
+  ],
+  "related": [
+    "ph-planetary-science",
+    "ph-celestial-mechanics",
+    "ae-planetary-exploration-systems",
+    "ae-space-resources-surface-systems"
+  ],
+  "topics": [
+    {
+      "id": "ea-icy-worlds-and-small-bodies-1",
+      "name": "Icy satellite geology and ice tectonics"
+    },
+    {
+      "id": "ea-icy-worlds-and-small-bodies-2",
+      "name": "Ocean worlds: Europa, Enceladus and Ganymede"
+    },
+    {
+      "id": "ea-icy-worlds-and-small-bodies-3",
+      "name": "Titan: surface, lakes and organics"
+    },
+    {
+      "id": "ea-icy-worlds-and-small-bodies-4",
+      "name": "Cryovolcanism and plumes"
+    },
+    {
+      "id": "ea-icy-worlds-and-small-bodies-5",
+      "name": "Asteroids: composition, spectral classes and rubble piles"
+    },
+    {
+      "id": "ea-icy-worlds-and-small-bodies-6",
+      "name": "Comets: structure, activity and missions"
+    },
+    {
+      "id": "ea-icy-worlds-and-small-bodies-7",
+      "name": "Kuiper Belt objects and Pluto"
+    },
+    {
+      "id": "ea-icy-worlds-and-small-bodies-8",
+      "name": "Planetary defence against impacts"
+    }
+  ]
+}

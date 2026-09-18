@@ -1,0 +1,79 @@
+{
+  "id": "ai-wearable-robotics-exoskeletons",
+  "name": "Wearable Robotics & Exoskeletons",
+  "category": "Human-Centred Robotics & Augmentation",
+  "level": 4,
+  "priority": "important",
+  "summary": "Robots worn on the body, including powered exoskeletons, soft exosuits and prostheses, that augment or restore human strength and mobility.",
+  "prerequisites": [
+    "ai-control-systems",
+    "ai-human-robot-interaction-hri",
+    "bi-biomechanics",
+    "me-machine-design-fundamentals"
+  ],
+  "related": [
+    "el-wearable-technology-deep-dive",
+    "el-biomedical-signal-processing",
+    "ai-soft-robotics",
+    "me-wearable-mechanisms-exoskeletons",
+    "bi-musculoskeletal-modeling-human-augmentation"
+  ],
+  "topics": [
+    {
+      "id": "ai-wearable-robotics-exoskeletons-1",
+      "name": "Taxonomy: upper- and lower-limb, full-body, rigid exoskeletons and soft exosuits"
+    },
+    {
+      "id": "ai-wearable-robotics-exoskeletons-2",
+      "name": "Human biomechanics and gait analysis for wearable design"
+    },
+    {
+      "id": "ai-wearable-robotics-exoskeletons-3",
+      "name": "Kinematic compatibility and joint misalignment"
+    },
+    {
+      "id": "ai-wearable-robotics-exoskeletons-4",
+      "name": "Actuation for wearables: series-elastic, cable-driven, quasi-direct-drive, hydraulic"
+    },
+    {
+      "id": "ai-wearable-robotics-exoskeletons-5",
+      "name": "Power and energy: batteries, efficiency and metabolic cost"
+    },
+    {
+      "id": "ai-wearable-robotics-exoskeletons-6",
+      "name": "Detecting user intent: EMG, EEG/brain-computer interfaces, force and IMU sensing"
+    },
+    {
+      "id": "ai-wearable-robotics-exoskeletons-7",
+      "name": "Gait-phase estimation"
+    },
+    {
+      "id": "ai-wearable-robotics-exoskeletons-8",
+      "name": "Control strategies: assist-as-needed, impedance/admittance and torque control"
+    },
+    {
+      "id": "ai-wearable-robotics-exoskeletons-9",
+      "name": "Human-in-the-loop optimization of assistance"
+    },
+    {
+      "id": "ai-wearable-robotics-exoskeletons-10",
+      "name": "Powered prostheses: ankle, knee and hand"
+    },
+    {
+      "id": "ai-wearable-robotics-exoskeletons-11",
+      "name": "Industrial and military exoskeletons for load carrying and strength augmentation"
+    },
+    {
+      "id": "ai-wearable-robotics-exoskeletons-12",
+      "name": "Rehabilitation exoskeletons and clinical evaluation"
+    },
+    {
+      "id": "ai-wearable-robotics-exoskeletons-13",
+      "name": "Human-machine interfaces and feedback (haptics, heads-up displays)"
+    },
+    {
+      "id": "ai-wearable-robotics-exoskeletons-14",
+      "name": "Safety, standards (ISO 13482) and regulation"
+    }
+  ]
+}

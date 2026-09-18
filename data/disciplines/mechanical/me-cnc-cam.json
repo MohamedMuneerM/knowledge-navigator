@@ -1,0 +1,67 @@
+{
+  "id": "me-cnc-cam",
+  "name": "CNC Machining & CAM",
+  "category": "Manufacturing Engineering",
+  "level": 3,
+  "priority": "important",
+  "summary": "Programming and running computer-numerically-controlled machine tools, by hand in G-code and from CAD models with CAM software.",
+  "prerequisites": [
+    "me-machining-processes",
+    "me-cad-solid-modeling"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "me-cnc-cam-1",
+      "name": "CNC machine architecture: axes, drives, spindles and controllers"
+    },
+    {
+      "id": "me-cnc-cam-2",
+      "name": "Coordinate systems, work offsets and tool-length compensation"
+    },
+    {
+      "id": "me-cnc-cam-3",
+      "name": "G-code and M-code programming by hand"
+    },
+    {
+      "id": "me-cnc-cam-4",
+      "name": "Canned cycles, subprograms and parametric (macro) programming"
+    },
+    {
+      "id": "me-cnc-cam-5",
+      "name": "CAM workflow: stock, setups, toolpaths and post-processors"
+    },
+    {
+      "id": "me-cnc-cam-6",
+      "name": "2.5D milling strategies: facing, pocketing, contouring, drilling"
+    },
+    {
+      "id": "me-cnc-cam-7",
+      "name": "3D surface machining and high-speed/adaptive toolpaths"
+    },
+    {
+      "id": "me-cnc-cam-8",
+      "name": "Multi-axis (4- and 5-axis) machining"
+    },
+    {
+      "id": "me-cnc-cam-9",
+      "name": "CNC turning and mill-turn"
+    },
+    {
+      "id": "me-cnc-cam-10",
+      "name": "Feeds and speeds, chip load and tool deflection"
+    },
+    {
+      "id": "me-cnc-cam-11",
+      "name": "Toolpath simulation, verification and collision checking"
+    },
+    {
+      "id": "me-cnc-cam-12",
+      "name": "Other CNC processes: routers, laser, plasma, waterjet and wire EDM"
+    },
+    {
+      "id": "me-cnc-cam-13",
+      "name": "In-process probing and on-machine metrology"
+    }
+  ]
+}

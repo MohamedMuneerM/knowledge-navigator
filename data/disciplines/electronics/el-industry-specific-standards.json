@@ -1,0 +1,34 @@
+{
+  "id": "el-industry-specific-standards",
+  "name": "Industry-Specific Standards",
+  "category": "Standards, Compliance & Certifications",
+  "level": 3,
+  "priority": "optional",
+  "summary": "Sector standards: AUTOSAR, CENELEC railway, ISA automation, ASHRAE building and IEEE 2030 smart-grid standards.",
+  "prerequisites": [
+    "el-international-standards-organizations"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-industry-specific-standards-1",
+      "name": "AUTOSAR (Automotive)"
+    },
+    {
+      "id": "el-industry-specific-standards-2",
+      "name": "CENELEC for railways"
+    },
+    {
+      "id": "el-industry-specific-standards-3",
+      "name": "ANSI/ISA standards (Industrial Automation)"
+    },
+    {
+      "id": "el-industry-specific-standards-4",
+      "name": "ASHRAE (HVAC systems)"
+    },
+    {
+      "id": "el-industry-specific-standards-5",
+      "name": "Smart grid standards (IEEE 2030)"
+    }
+  ]
+}

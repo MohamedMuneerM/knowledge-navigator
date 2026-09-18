@@ -1,0 +1,46 @@
+{
+  "id": "el-buses-communication",
+  "name": "Buses & Bus Interfacing",
+  "category": "Digital Electronics",
+  "level": 2,
+  "priority": "important",
+  "summary": "Connecting processors, memory and peripherals: parallel buses, arbitration, tristate drivers, address decoding and DMA.",
+  "prerequisites": [
+    "el-sequential-logic"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-buses-communication-1",
+      "name": "Parallel buses and bus arbitration"
+    },
+    {
+      "id": "el-buses-communication-2",
+      "name": "Bus protocols and timing"
+    },
+    {
+      "id": "el-buses-communication-3",
+      "name": "Tristate buffers and bus drivers"
+    },
+    {
+      "id": "el-buses-communication-4",
+      "name": "Address decoding"
+    },
+    {
+      "id": "el-buses-communication-5",
+      "name": "DMA (Direct Memory Access)"
+    },
+    {
+      "id": "el-buses-communication-6",
+      "name": "Synchronous vs asynchronous buses and handshaking"
+    },
+    {
+      "id": "el-buses-communication-7",
+      "name": "Memory-mapped vs port-mapped I/O"
+    },
+    {
+      "id": "el-buses-communication-8",
+      "name": "Interrupt-driven I/O and interrupt controllers"
+    }
+  ]
+}

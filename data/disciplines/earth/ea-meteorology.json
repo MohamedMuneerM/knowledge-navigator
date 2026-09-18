@@ -1,0 +1,69 @@
+{
+  "id": "ea-meteorology",
+  "name": "Introduction to Meteorology",
+  "category": "Meteorology & Atmospheric Science",
+  "level": 2,
+  "priority": "core",
+  "summary": "The atmosphere and its weather: energy, moisture, clouds, winds and the storms and systems that bring day-to-day weather.",
+  "prerequisites": [
+    "ea-introduction-to-earth-science",
+    "ph-introductory-heat-thermodynamics"
+  ],
+  "related": [
+    "ph-atmospheric-environmental-physics"
+  ],
+  "topics": [
+    {
+      "id": "ea-meteorology-1",
+      "name": "Composition and vertical structure of the atmosphere"
+    },
+    {
+      "id": "ea-meteorology-2",
+      "name": "Solar and terrestrial radiation; the energy balance"
+    },
+    {
+      "id": "ea-meteorology-3",
+      "name": "Temperature: daily and seasonal cycles"
+    },
+    {
+      "id": "ea-meteorology-4",
+      "name": "Humidity, condensation and dew point"
+    },
+    {
+      "id": "ea-meteorology-5",
+      "name": "Atmospheric stability and cloud development"
+    },
+    {
+      "id": "ea-meteorology-6",
+      "name": "Cloud types and precipitation processes"
+    },
+    {
+      "id": "ea-meteorology-7",
+      "name": "Pressure, forces and winds (pressure gradient, Coriolis, friction)"
+    },
+    {
+      "id": "ea-meteorology-8",
+      "name": "Local winds and the global circulation"
+    },
+    {
+      "id": "ea-meteorology-9",
+      "name": "Air masses and fronts"
+    },
+    {
+      "id": "ea-meteorology-10",
+      "name": "Mid-latitude cyclones"
+    },
+    {
+      "id": "ea-meteorology-11",
+      "name": "Thunderstorms and tornadoes"
+    },
+    {
+      "id": "ea-meteorology-12",
+      "name": "Hurricanes and tropical cyclones"
+    },
+    {
+      "id": "ea-meteorology-13",
+      "name": "Weather observation, maps and forecasting basics"
+    }
+  ]
+}

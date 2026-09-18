@@ -1,0 +1,76 @@
+{
+  "id": "mt-thermodynamics-of-materials",
+  "name": "Thermodynamics of Materials",
+  "category": "Thermodynamics & Kinetics",
+  "level": 2,
+  "priority": "core",
+  "summary": "Applies the laws of thermodynamics to solids and solutions to predict which phases are stable and what drives change in materials.",
+  "prerequisites": [
+    "mt-atomic-bonding",
+    "ma-multivariable-calculus"
+  ],
+  "related": [
+    "ph-thermodynamics-statistical-mechanics",
+    "ma-thermodynamics",
+    "ch-chemical-thermodynamics",
+    "me-engineering-thermodynamics"
+  ],
+  "topics": [
+    {
+      "id": "mt-thermodynamics-of-materials-1",
+      "name": "Thermodynamic systems, state functions and the first law; enthalpy and heat capacity"
+    },
+    {
+      "id": "mt-thermodynamics-of-materials-2",
+      "name": "Entropy and the second law; statistical interpretation of entropy"
+    },
+    {
+      "id": "mt-thermodynamics-of-materials-3",
+      "name": "Gibbs and Helmholtz free energies; conditions for equilibrium"
+    },
+    {
+      "id": "mt-thermodynamics-of-materials-4",
+      "name": "Third law and the temperature dependence of thermodynamic properties"
+    },
+    {
+      "id": "mt-thermodynamics-of-materials-5",
+      "name": "Maxwell relations and thermodynamic identities"
+    },
+    {
+      "id": "mt-thermodynamics-of-materials-6",
+      "name": "Unary phase equilibria: Clausius-Clapeyron equation and one-component phase diagrams"
+    },
+    {
+      "id": "mt-thermodynamics-of-materials-7",
+      "name": "Solutions: partial molar quantities and chemical potential"
+    },
+    {
+      "id": "mt-thermodynamics-of-materials-8",
+      "name": "Ideal, regular and non-ideal solutions; activity and activity coefficients"
+    },
+    {
+      "id": "mt-thermodynamics-of-materials-9",
+      "name": "Free-energy-composition curves and the common tangent construction"
+    },
+    {
+      "id": "mt-thermodynamics-of-materials-10",
+      "name": "Gibbs phase rule"
+    },
+    {
+      "id": "mt-thermodynamics-of-materials-11",
+      "name": "Reaction equilibria, equilibrium constants and Ellingham diagrams"
+    },
+    {
+      "id": "mt-thermodynamics-of-materials-12",
+      "name": "Thermodynamics of point defects"
+    },
+    {
+      "id": "mt-thermodynamics-of-materials-13",
+      "name": "Surfaces and interfaces: surface energy and capillarity (Gibbs-Thomson effect)"
+    },
+    {
+      "id": "mt-thermodynamics-of-materials-14",
+      "name": "Introduction to statistical thermodynamics: partition functions and Einstein/Debye solids"
+    }
+  ]
+}

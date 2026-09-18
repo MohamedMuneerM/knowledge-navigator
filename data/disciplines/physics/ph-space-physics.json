@@ -1,0 +1,66 @@
+{
+  "id": "ph-space-physics",
+  "name": "Space Physics",
+  "category": "Stars, the Sun & Interstellar Medium",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The plasma environment of space: the solar wind, magnetospheres, radiation belts, aurorae and space weather.",
+  "prerequisites": [
+    "ph-sun-heliophysics"
+  ],
+  "related": [
+    "ph-plasma-physics",
+    "ae-space-environment",
+    "ea-geomagnetism-and-paleomagnetism"
+  ],
+  "topics": [
+    {
+      "id": "ph-space-physics-1",
+      "name": "Solar physics"
+    },
+    {
+      "id": "ph-space-physics-4",
+      "name": "Heliophysics"
+    },
+    {
+      "id": "ph-space-physics-2",
+      "name": "Solar wind"
+    },
+    {
+      "id": "ph-space-physics-7",
+      "name": "The interplanetary magnetic field and the edge of the heliosphere"
+    },
+    {
+      "id": "ph-space-physics-3",
+      "name": "Magnetospheres"
+    },
+    {
+      "id": "ph-space-physics-8",
+      "name": "Radiation belts and trapped particles"
+    },
+    {
+      "id": "ph-space-physics-9",
+      "name": "Aurorae and magnetosphere-ionosphere coupling"
+    },
+    {
+      "id": "ph-space-physics-6",
+      "name": "Ionosphere physics"
+    },
+    {
+      "id": "ph-space-physics-5",
+      "name": "Space weather"
+    },
+    {
+      "id": "ph-space-physics-10",
+      "name": "Planetary magnetospheres beyond Earth"
+    },
+    {
+      "id": "ph-space-physics-11",
+      "name": "Spacecraft environment effects: charging and radiation damage"
+    },
+    {
+      "id": "ph-space-physics-12",
+      "name": "In-situ space plasma measurements"
+    }
+  ]
+}

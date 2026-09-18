@@ -1,0 +1,56 @@
+{
+  "id": "bi-computational-biology-algorithms",
+  "name": "Algorithms for Computational Biology",
+  "category": "Quantitative & Computational Biology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The algorithms and probabilistic models behind bioinformatics tools: dynamic programming, indexing, assembly graphs and HMMs.",
+  "prerequisites": [
+    "bi-bioinformatics",
+    "ma-probability-theory",
+    "ma-graph-theory",
+    "cs-algorithms"
+  ],
+  "related": [
+    "ma-dynamic-programming",
+    "ma-probabilistic-models"
+  ],
+  "topics": [
+    {
+      "id": "bi-computational-biology-algorithms-1",
+      "name": "Dynamic programming for alignment and its variants"
+    },
+    {
+      "id": "bi-computational-biology-algorithms-2",
+      "name": "Exact string matching: suffix trees, suffix arrays and the Burrows-Wheeler transform"
+    },
+    {
+      "id": "bi-computational-biology-algorithms-3",
+      "name": "Genome assembly: overlap graphs and de Bruijn graphs"
+    },
+    {
+      "id": "bi-computational-biology-algorithms-4",
+      "name": "Hidden Markov models: Viterbi, forward-backward and Baum-Welch"
+    },
+    {
+      "id": "bi-computational-biology-algorithms-5",
+      "name": "Phylogenetic algorithms: Felsenstein's pruning and tree search"
+    },
+    {
+      "id": "bi-computational-biology-algorithms-6",
+      "name": "RNA secondary structure prediction"
+    },
+    {
+      "id": "bi-computational-biology-algorithms-7",
+      "name": "Clustering and dimensionality reduction for expression data"
+    },
+    {
+      "id": "bi-computational-biology-algorithms-8",
+      "name": "Motif finding: Gibbs sampling and expectation-maximisation"
+    },
+    {
+      "id": "bi-computational-biology-algorithms-9",
+      "name": "Network inference and graph algorithms in biology"
+    }
+  ]
+}

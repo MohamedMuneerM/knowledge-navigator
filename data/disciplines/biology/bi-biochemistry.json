@@ -1,0 +1,66 @@
+{
+  "id": "bi-biochemistry",
+  "name": "Biochemistry",
+  "category": "Biochemistry & Structural Biology",
+  "level": 2,
+  "priority": "core",
+  "summary": "The chemistry of living systems from the biology side: protein structure, enzyme kinetics, biomolecules and the energetics that drive metabolism.",
+  "prerequisites": [
+    "bi-chemistry-of-life",
+    "ch-organic-structure-bonding"
+  ],
+  "related": [
+    "ph-chemical-physics-physical-chemistry",
+    "ch-biochemistry-structure-function"
+  ],
+  "topics": [
+    {
+      "id": "bi-biochemistry-1",
+      "name": "Amino acids, peptide bonds and protein structure hierarchy"
+    },
+    {
+      "id": "bi-biochemistry-2",
+      "name": "Protein function: myoglobin, hemoglobin, oxygen binding and cooperativity"
+    },
+    {
+      "id": "bi-biochemistry-3",
+      "name": "Enzymes: catalytic strategies and cofactors"
+    },
+    {
+      "id": "bi-biochemistry-4",
+      "name": "Enzyme kinetics: Michaelis-Menten, Lineweaver-Burk and inhibition"
+    },
+    {
+      "id": "bi-biochemistry-5",
+      "name": "Enzyme regulation: allostery, covalent modification and zymogens"
+    },
+    {
+      "id": "bi-biochemistry-6",
+      "name": "Carbohydrates and glycobiology"
+    },
+    {
+      "id": "bi-biochemistry-7",
+      "name": "Lipids and biological membranes"
+    },
+    {
+      "id": "bi-biochemistry-8",
+      "name": "Nucleotides and nucleic acid chemistry"
+    },
+    {
+      "id": "bi-biochemistry-9",
+      "name": "Vitamins and coenzymes"
+    },
+    {
+      "id": "bi-biochemistry-10",
+      "name": "Bioenergetics: free energy, coupled reactions, ATP and redox potentials"
+    },
+    {
+      "id": "bi-biochemistry-11",
+      "name": "Overview of metabolism: catabolism, anabolism and metabolic maps"
+    },
+    {
+      "id": "bi-biochemistry-12",
+      "name": "Signal transduction biochemistry (overview)"
+    }
+  ]
+}

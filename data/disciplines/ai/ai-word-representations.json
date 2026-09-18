@@ -1,0 +1,71 @@
+{
+  "id": "ai-word-representations",
+  "name": "Word Representations",
+  "category": "Natural Language & Speech Processing",
+  "level": 3,
+  "priority": "core",
+  "summary": "Representing words and sentences as vectors, from one-hot and count-based methods to word2vec, GloVe and contextual embeddings.",
+  "prerequisites": [
+    "ai-traditional-nlp-techniques",
+    "ai-neural-network-foundations"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-word-representations-1",
+      "name": "One-Hot Encoding"
+    },
+    {
+      "id": "ai-word-representations-4",
+      "name": "Distributional hypothesis and co-occurrence matrices"
+    },
+    {
+      "id": "ai-word-representations-5",
+      "name": "Latent semantic analysis with SVD"
+    },
+    {
+      "id": "ai-word-representations-2",
+      "name": "Word Embeddings",
+      "sub": [
+        {
+          "id": "ai-word-representations-2-1",
+          "name": "Word2Vec (Skip-gram, CBOW)"
+        },
+        {
+          "id": "ai-word-representations-2-2",
+          "name": "GloVe"
+        },
+        {
+          "id": "ai-word-representations-2-3",
+          "name": "FastText"
+        }
+      ]
+    },
+    {
+      "id": "ai-word-representations-3",
+      "name": "Contextualized Embeddings",
+      "sub": [
+        {
+          "id": "ai-word-representations-3-1",
+          "name": "ELMo"
+        },
+        {
+          "id": "ai-word-representations-3-2",
+          "name": "BERT embeddings"
+        },
+        {
+          "id": "ai-word-representations-3-3",
+          "name": "Sentence embeddings (Sentence-BERT)"
+        }
+      ]
+    },
+    {
+      "id": "ai-word-representations-6",
+      "name": "Evaluating embeddings: similarity and analogy benchmarks"
+    },
+    {
+      "id": "ai-word-representations-7",
+      "name": "Bias in word embeddings"
+    }
+  ]
+}

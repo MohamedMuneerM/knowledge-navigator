@@ -1,0 +1,50 @@
+{
+  "id": "ma-inferential-statistics",
+  "name": "Inferential Statistics",
+  "category": "Probability & Statistics",
+  "level": 2,
+  "priority": "core",
+  "summary": "Drawing conclusions from data: sampling distributions, estimation, confidence intervals and hypothesis tests.",
+  "prerequisites": [
+    "ma-probability-theory",
+    "ma-descriptive-statistics"
+  ],
+  "related": [
+    "ai-mathematics-statistics",
+    "ph-data-analysis-statistics"
+  ],
+  "topics": [
+    {
+      "id": "ma-inferential-statistics-5",
+      "name": "Populations, samples and sampling distributions"
+    },
+    {
+      "id": "ma-inferential-statistics-1",
+      "name": "Parameter estimation"
+    },
+    {
+      "id": "ma-inferential-statistics-4",
+      "name": "Maximum likelihood estimation"
+    },
+    {
+      "id": "ma-inferential-statistics-3",
+      "name": "Confidence intervals"
+    },
+    {
+      "id": "ma-inferential-statistics-2",
+      "name": "Hypothesis testing"
+    },
+    {
+      "id": "ma-inferential-statistics-6",
+      "name": "t-tests, chi-squared tests and F-tests"
+    },
+    {
+      "id": "ma-inferential-statistics-7",
+      "name": "p-values, power and multiple testing"
+    },
+    {
+      "id": "ma-inferential-statistics-8",
+      "name": "Survey sampling and bias"
+    }
+  ]
+}

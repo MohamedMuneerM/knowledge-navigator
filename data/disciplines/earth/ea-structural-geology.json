@@ -1,0 +1,65 @@
+{
+  "id": "ea-structural-geology",
+  "name": "Structural Geology",
+  "category": "Structural Geology & Tectonics",
+  "level": 2,
+  "priority": "core",
+  "summary": "How rocks deform: stress, strain and rheology, and the faults, folds and fabrics they produce.",
+  "prerequisites": [
+    "ea-physical-geology",
+    "ph-introductory-mechanics"
+  ],
+  "related": [
+    "ma-solid-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "ea-structural-geology-1",
+      "name": "Geologic maps, attitudes (strike/dip) and orientation data"
+    },
+    {
+      "id": "ea-structural-geology-2",
+      "name": "Stereographic projection and stereonets"
+    },
+    {
+      "id": "ea-structural-geology-3",
+      "name": "Stress: traction, principal stresses and Mohr circles"
+    },
+    {
+      "id": "ea-structural-geology-4",
+      "name": "Strain: homogeneous strain, the strain ellipse and progressive deformation"
+    },
+    {
+      "id": "ea-structural-geology-5",
+      "name": "Rheology: elastic, viscous and plastic behaviour"
+    },
+    {
+      "id": "ea-structural-geology-6",
+      "name": "Brittle deformation: fracture mechanics, joints and Anderson fault theory"
+    },
+    {
+      "id": "ea-structural-geology-7",
+      "name": "Faults: normal, reverse/thrust and strike-slip; fault rocks"
+    },
+    {
+      "id": "ea-structural-geology-8",
+      "name": "Folds: geometry, classification and mechanisms of folding"
+    },
+    {
+      "id": "ea-structural-geology-9",
+      "name": "Foliations, lineations and cleavage"
+    },
+    {
+      "id": "ea-structural-geology-10",
+      "name": "Ductile shear zones and kinematic indicators"
+    },
+    {
+      "id": "ea-structural-geology-11",
+      "name": "Microstructures and deformation mechanisms"
+    },
+    {
+      "id": "ea-structural-geology-12",
+      "name": "Balanced and restored cross-sections"
+    }
+  ]
+}

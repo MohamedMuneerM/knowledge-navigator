@@ -1,0 +1,55 @@
+{
+  "id": "ae-thermal-protection-systems",
+  "name": "Thermal Protection Systems",
+  "category": "Entry, Descent & Landing",
+  "level": 4,
+  "priority": "important",
+  "summary": "Heat shields and hot structures that let vehicles survive entry: materials, sizing, testing and failures.",
+  "prerequisites": [
+    "ae-atmospheric-entry",
+    "ae-hypersonic-aerothermodynamics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-thermal-protection-systems-1",
+      "name": "Heat management strategies: heat sink, radiative, ablative, transpiration"
+    },
+    {
+      "id": "ae-thermal-protection-systems-2",
+      "name": "Ablator physics: pyrolysis, char, recession"
+    },
+    {
+      "id": "ae-thermal-protection-systems-3",
+      "name": "Ablative materials: AVCOAT, PICA, SLA-561V, carbon phenolic"
+    },
+    {
+      "id": "ae-thermal-protection-systems-4",
+      "name": "Reusable TPS: silica tiles, blankets, reinforced carbon-carbon"
+    },
+    {
+      "id": "ae-thermal-protection-systems-5",
+      "name": "Hot structures and ceramic-matrix composites"
+    },
+    {
+      "id": "ae-thermal-protection-systems-6",
+      "name": "TPS sizing and thermal response modelling"
+    },
+    {
+      "id": "ae-thermal-protection-systems-7",
+      "name": "Arc-jet and plasma wind tunnel testing"
+    },
+    {
+      "id": "ae-thermal-protection-systems-8",
+      "name": "Seals, gaps and attachment"
+    },
+    {
+      "id": "ae-thermal-protection-systems-9",
+      "name": "Damage tolerance and the Columbia accident"
+    },
+    {
+      "id": "ae-thermal-protection-systems-10",
+      "name": "Flexible and inflatable TPS"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "el-thermal-management",
+  "name": "Thermal Management",
+  "category": "Power Electronics & Power Management",
+  "level": 2,
+  "priority": "important",
+  "summary": "Keeping electronics cool: heat-dissipation calculations, heatsinks, interface materials, fans and liquid cooling, derating.",
+  "prerequisites": [
+    "el-active-components",
+    "ph-introductory-heat-thermodynamics"
+  ],
+  "related": [
+    "el-thermal-design",
+    "me-heat-transfer",
+    "me-thermal-management-compact-power"
+  ],
+  "topics": [
+    {
+      "id": "el-thermal-management-1",
+      "name": "Heat dissipation calculations"
+    },
+    {
+      "id": "el-thermal-management-2",
+      "name": "Heatsink design and selection"
+    },
+    {
+      "id": "el-thermal-management-3",
+      "name": "Thermal interface materials"
+    },
+    {
+      "id": "el-thermal-management-4",
+      "name": "Active cooling (fans, liquid cooling)"
+    },
+    {
+      "id": "el-thermal-management-5",
+      "name": "Thermal monitoring and protection"
+    },
+    {
+      "id": "el-thermal-management-6",
+      "name": "Derating and thermal cycling"
+    }
+  ]
+}

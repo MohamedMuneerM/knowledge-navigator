@@ -1,0 +1,67 @@
+{
+  "id": "bi-macroevolution-history-of-life",
+  "name": "Macroevolution & the History of Life",
+  "category": "Evolution",
+  "level": 3,
+  "priority": "important",
+  "summary": "Evolution on the grand scale: the fossil record, major transitions, adaptive radiations and mass extinctions across 4 billion years.",
+  "prerequisites": [
+    "bi-evolutionary-biology"
+  ],
+  "related": [
+    "ph-planetary-science",
+    "ea-historical-geology",
+    "ea-paleontology",
+    "ea-geobiology"
+  ],
+  "topics": [
+    {
+      "id": "bi-macroevolution-history-of-life-1",
+      "name": "The geologic time scale, fossilisation and radiometric dating"
+    },
+    {
+      "id": "bi-macroevolution-history-of-life-2",
+      "name": "Earliest life, stromatolites and the rise of oxygen"
+    },
+    {
+      "id": "bi-macroevolution-history-of-life-3",
+      "name": "The origin of eukaryotes and endosymbiosis"
+    },
+    {
+      "id": "bi-macroevolution-history-of-life-4",
+      "name": "Multicellularity and the Ediacaran biota"
+    },
+    {
+      "id": "bi-macroevolution-history-of-life-5",
+      "name": "The Cambrian explosion and animal body plans"
+    },
+    {
+      "id": "bi-macroevolution-history-of-life-6",
+      "name": "Colonisation of land by plants, fungi and animals"
+    },
+    {
+      "id": "bi-macroevolution-history-of-life-7",
+      "name": "Major transitions in evolution"
+    },
+    {
+      "id": "bi-macroevolution-history-of-life-8",
+      "name": "Adaptive radiation and key innovations"
+    },
+    {
+      "id": "bi-macroevolution-history-of-life-9",
+      "name": "Mass extinctions and recovery"
+    },
+    {
+      "id": "bi-macroevolution-history-of-life-10",
+      "name": "Paleobiology: dinosaurs, the rise of mammals and flowering plants"
+    },
+    {
+      "id": "bi-macroevolution-history-of-life-11",
+      "name": "Rates of evolution: gradualism versus punctuated equilibrium"
+    },
+    {
+      "id": "bi-macroevolution-history-of-life-12",
+      "name": "Macroevolutionary patterns: diversification rates and trait evolution on trees"
+    }
+  ]
+}

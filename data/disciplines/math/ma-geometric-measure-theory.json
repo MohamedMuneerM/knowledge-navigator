@@ -1,0 +1,35 @@
+{
+  "id": "ma-geometric-measure-theory",
+  "name": "Geometric Measure Theory",
+  "category": "Emerging & Advanced Areas",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Measure-theoretic study of surfaces: rectifiable sets, currents and minimal surfaces.",
+  "prerequisites": [
+    "ma-measure-theory-integration",
+    "ma-differential-geometry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-geometric-measure-theory-3",
+      "name": "Hausdorff measure"
+    },
+    {
+      "id": "ma-geometric-measure-theory-1",
+      "name": "Rectifiability"
+    },
+    {
+      "id": "ma-geometric-measure-theory-4",
+      "name": "Currents and varifolds"
+    },
+    {
+      "id": "ma-geometric-measure-theory-2",
+      "name": "Minimal surfaces"
+    },
+    {
+      "id": "ma-geometric-measure-theory-5",
+      "name": "Plateau's problem"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ae-space-business-economics",
+  "name": "Space Business and Economics",
+  "category": "Space Policy & Business",
+  "level": 2,
+  "priority": "optional",
+  "summary": "How the space economy works: markets, business models, costs, financing and the NewSpace industry.",
+  "prerequisites": [
+    "ae-space-and-orbits-at-a-glance"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-space-business-economics-1",
+      "name": "The size and structure of the space economy"
+    },
+    {
+      "id": "ae-space-business-economics-2",
+      "name": "Launch market and pricing"
+    },
+    {
+      "id": "ae-space-business-economics-3",
+      "name": "Satellite communications, broadband and direct-to-device markets"
+    },
+    {
+      "id": "ae-space-business-economics-4",
+      "name": "Earth observation and data businesses"
+    },
+    {
+      "id": "ae-space-business-economics-5",
+      "name": "Navigation and timing services"
+    },
+    {
+      "id": "ae-space-business-economics-6",
+      "name": "Commercial human spaceflight and space tourism"
+    },
+    {
+      "id": "ae-space-business-economics-7",
+      "name": "Commercial space stations and in-space economy"
+    },
+    {
+      "id": "ae-space-business-economics-8",
+      "name": "Government as customer: contracts, fixed-price versus cost-plus"
+    },
+    {
+      "id": "ae-space-business-economics-9",
+      "name": "Venture financing and NewSpace start-ups"
+    },
+    {
+      "id": "ae-space-business-economics-10",
+      "name": "Space insurance"
+    },
+    {
+      "id": "ae-space-business-economics-11",
+      "name": "Cost drivers and cost reduction strategies"
+    }
+  ]
+}

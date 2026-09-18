@@ -1,0 +1,65 @@
+{
+  "id": "cs-application-security",
+  "name": "Secure Software & Web Application Security",
+  "category": "Security",
+  "level": 3,
+  "priority": "important",
+  "summary": "Building software that resists attack: the secure development life cycle, the OWASP Top 10, secure coding, security testing and supply-chain security.",
+  "prerequisites": [
+    "cs-computer-security",
+    "cs-backend-development"
+  ],
+  "related": [
+    "el-firmware-software-security"
+  ],
+  "topics": [
+    {
+      "id": "cs-application-security-1",
+      "name": "The secure software development life cycle"
+    },
+    {
+      "id": "cs-application-security-2",
+      "name": "The OWASP Top 10"
+    },
+    {
+      "id": "cs-application-security-3",
+      "name": "Injection attacks: SQL, command and template injection"
+    },
+    {
+      "id": "cs-application-security-4",
+      "name": "Cross-site scripting and Content Security Policy"
+    },
+    {
+      "id": "cs-application-security-5",
+      "name": "Cross-site request forgery and the same-origin policy"
+    },
+    {
+      "id": "cs-application-security-6",
+      "name": "Authentication and session-management flaws"
+    },
+    {
+      "id": "cs-application-security-7",
+      "name": "Insecure deserialization and server-side request forgery"
+    },
+    {
+      "id": "cs-application-security-8",
+      "name": "Secure coding in C/C++ and memory-safe alternatives"
+    },
+    {
+      "id": "cs-application-security-9",
+      "name": "Input validation and output encoding"
+    },
+    {
+      "id": "cs-application-security-10",
+      "name": "Security testing: SAST, DAST and fuzzing"
+    },
+    {
+      "id": "cs-application-security-11",
+      "name": "Software supply-chain and dependency security"
+    },
+    {
+      "id": "cs-application-security-12",
+      "name": "API security"
+    }
+  ]
+}

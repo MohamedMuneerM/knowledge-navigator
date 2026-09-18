@@ -1,0 +1,57 @@
+{
+  "id": "ma-financial-mathematics",
+  "name": "Financial Mathematics",
+  "category": "Applied & Interdisciplinary Mathematics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Pricing and risk in financial markets: arbitrage, Black-Scholes, stochastic interest rates and portfolio theory.",
+  "prerequisites": [
+    "ma-stochastic-calculus",
+    "ma-partial-differential-equations-pdes"
+  ],
+  "related": [
+    "ph-econophysics"
+  ],
+  "topics": [
+    {
+      "id": "ma-financial-mathematics-8",
+      "name": "Interest, present value and bonds"
+    },
+    {
+      "id": "ma-financial-mathematics-9",
+      "name": "Arbitrage and binomial option pricing"
+    },
+    {
+      "id": "ma-financial-mathematics-3",
+      "name": "Stochastic finance"
+    },
+    {
+      "id": "ma-financial-mathematics-1",
+      "name": "Option pricing"
+    },
+    {
+      "id": "ma-financial-mathematics-2",
+      "name": "Black-Scholes equation"
+    },
+    {
+      "id": "ma-financial-mathematics-10",
+      "name": "The Greeks and hedging"
+    },
+    {
+      "id": "ma-financial-mathematics-6",
+      "name": "Interest rate models"
+    },
+    {
+      "id": "ma-financial-mathematics-5",
+      "name": "Portfolio optimization"
+    },
+    {
+      "id": "ma-financial-mathematics-4",
+      "name": "Risk theory"
+    },
+    {
+      "id": "ma-financial-mathematics-7",
+      "name": "Quantitative modeling"
+    }
+  ]
+}

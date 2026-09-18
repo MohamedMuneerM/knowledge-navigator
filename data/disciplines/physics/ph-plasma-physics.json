@@ -1,0 +1,77 @@
+{
+  "id": "ph-plasma-physics",
+  "name": "Plasma Physics",
+  "category": "Plasma Physics",
+  "level": 3,
+  "priority": "important",
+  "summary": "The physics of ionized gases, the most common state of visible matter in the Universe, from lab to stars.",
+  "prerequisites": [
+    "ph-classical-electromagnetism",
+    "ph-thermodynamics-statistical-mechanics"
+  ],
+  "related": [
+    "ph-space-physics"
+  ],
+  "topics": [
+    {
+      "id": "ph-plasma-physics-1",
+      "name": "What is a plasma: Debye shielding and the plasma parameter"
+    },
+    {
+      "id": "ph-plasma-physics-2",
+      "name": "Plasma frequency and collective behaviour"
+    },
+    {
+      "id": "ph-plasma-physics-3",
+      "name": "Single-particle motion: gyration and guiding-centre drifts"
+    },
+    {
+      "id": "ph-plasma-physics-4",
+      "name": "Adiabatic invariants and magnetic mirrors"
+    },
+    {
+      "id": "ph-plasma-physics-5",
+      "name": "Plasmas as fluids: the two-fluid equations"
+    },
+    {
+      "id": "ph-plasma-physics-6",
+      "name": "Magnetohydrodynamics (MHD) and frozen-in flux"
+    },
+    {
+      "id": "ph-plasma-physics-7",
+      "name": "Waves in plasmas: Langmuir, ion-acoustic, Alfven and electromagnetic waves"
+    },
+    {
+      "id": "ph-plasma-physics-8",
+      "name": "Collisions, diffusion and transport"
+    },
+    {
+      "id": "ph-plasma-physics-9",
+      "name": "MHD equilibrium and instabilities"
+    },
+    {
+      "id": "ph-plasma-physics-10",
+      "name": "Kinetic theory: the Vlasov equation"
+    },
+    {
+      "id": "ph-plasma-physics-11",
+      "name": "Landau damping"
+    },
+    {
+      "id": "ph-plasma-physics-12",
+      "name": "Nonlinear effects: sheaths, solitons and shocks"
+    },
+    {
+      "id": "ph-plasma-physics-13",
+      "name": "Plasma diagnostics: Langmuir probes, interferometry and spectroscopy"
+    },
+    {
+      "id": "ph-plasma-physics-14",
+      "name": "Low-temperature and industrial plasmas"
+    },
+    {
+      "id": "ph-plasma-physics-15",
+      "name": "Space and astrophysical plasmas (overview)"
+    }
+  ]
+}

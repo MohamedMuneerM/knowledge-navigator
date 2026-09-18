@@ -1,0 +1,76 @@
+{
+  "id": "mt-fibre-composites-mechanics-manufacturing",
+  "name": "Fibre-Reinforced Composites: Mechanics & Manufacturing",
+  "category": "Composites",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Goes deep into laminate analysis, damage tolerance and manufacturing of advanced fibre composites such as the CFRP used in modern aircraft and rockets.",
+  "prerequisites": [
+    "mt-composites",
+    "ma-linear-algebra",
+    "me-mechanics-of-materials"
+  ],
+  "related": [
+    "ma-solid-mechanics",
+    "ae-composite-structures",
+    "me-lightweight-structures-composites"
+  ],
+  "topics": [
+    {
+      "id": "mt-fibre-composites-mechanics-manufacturing-1",
+      "name": "Carbon-fibre manufacture: PAN and pitch precursors, stabilisation, carbonisation and graphitisation"
+    },
+    {
+      "id": "mt-fibre-composites-mechanics-manufacturing-2",
+      "name": "Anisotropic elasticity of a lamina: compliance and stiffness matrices"
+    },
+    {
+      "id": "mt-fibre-composites-mechanics-manufacturing-3",
+      "name": "Classical laminate theory: ABD matrix, coupling and symmetric/balanced laminates"
+    },
+    {
+      "id": "mt-fibre-composites-mechanics-manufacturing-4",
+      "name": "Hygrothermal stresses and residual stresses in laminates"
+    },
+    {
+      "id": "mt-fibre-composites-mechanics-manufacturing-5",
+      "name": "Lamina failure criteria: maximum stress, Tsai-Hill, Tsai-Wu, Hashin and Puck"
+    },
+    {
+      "id": "mt-fibre-composites-mechanics-manufacturing-6",
+      "name": "Progressive damage: matrix cracking, delamination and fibre failure"
+    },
+    {
+      "id": "mt-fibre-composites-mechanics-manufacturing-7",
+      "name": "Impact damage and compression-after-impact (CAI); damage-tolerant design"
+    },
+    {
+      "id": "mt-fibre-composites-mechanics-manufacturing-8",
+      "name": "Fatigue and environmental durability of composites"
+    },
+    {
+      "id": "mt-fibre-composites-mechanics-manufacturing-9",
+      "name": "Manufacturing: prepreg lay-up and autoclave curing, out-of-autoclave processes"
+    },
+    {
+      "id": "mt-fibre-composites-mechanics-manufacturing-10",
+      "name": "Liquid moulding (RTM, VARTM, infusion), filament winding and pultrusion"
+    },
+    {
+      "id": "mt-fibre-composites-mechanics-manufacturing-11",
+      "name": "Automated fibre placement and tape laying; thermoplastic composites and welding"
+    },
+    {
+      "id": "mt-fibre-composites-mechanics-manufacturing-12",
+      "name": "Defects: porosity, wrinkles and fibre misalignment; NDI of composites"
+    },
+    {
+      "id": "mt-fibre-composites-mechanics-manufacturing-13",
+      "name": "Joining composites: bonded and bolted joints"
+    },
+    {
+      "id": "mt-fibre-composites-mechanics-manufacturing-14",
+      "name": "Composite overwrapped pressure vessels (COPVs) and cryogenic composite tanks"
+    }
+  ]
+}

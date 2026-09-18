@@ -1,0 +1,55 @@
+{
+  "id": "bi-developmental-neurobiology",
+  "name": "Developmental Neurobiology",
+  "category": "Neuroscience",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How the nervous system is built: neurogenesis, migration, axon guidance, synapse formation and experience-dependent refinement.",
+  "prerequisites": [
+    "bi-cellular-molecular-neuroscience",
+    "bi-developmental-biology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-developmental-neurobiology-1",
+      "name": "Neural induction and patterning of the neural tube"
+    },
+    {
+      "id": "bi-developmental-neurobiology-2",
+      "name": "Neurogenesis and neural stem cells"
+    },
+    {
+      "id": "bi-developmental-neurobiology-3",
+      "name": "Neuronal migration and cortical layering"
+    },
+    {
+      "id": "bi-developmental-neurobiology-4",
+      "name": "Axon guidance: growth cones and guidance cues"
+    },
+    {
+      "id": "bi-developmental-neurobiology-5",
+      "name": "Synapse formation and specificity"
+    },
+    {
+      "id": "bi-developmental-neurobiology-6",
+      "name": "Neurotrophic factors and programmed neuronal death"
+    },
+    {
+      "id": "bi-developmental-neurobiology-7",
+      "name": "Activity-dependent refinement and critical periods"
+    },
+    {
+      "id": "bi-developmental-neurobiology-8",
+      "name": "Adult neurogenesis"
+    },
+    {
+      "id": "bi-developmental-neurobiology-9",
+      "name": "Neurodevelopmental disorders: autism, intellectual disability"
+    },
+    {
+      "id": "bi-developmental-neurobiology-10",
+      "name": "Axon regeneration and why the CNS fails to repair"
+    }
+  ]
+}

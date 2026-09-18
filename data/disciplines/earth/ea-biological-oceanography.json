@@ -1,0 +1,53 @@
+{
+  "id": "ea-biological-oceanography",
+  "name": "Biological Oceanography",
+  "category": "Oceanography",
+  "level": 3,
+  "priority": "important",
+  "summary": "How marine life is distributed and controlled by physics and chemistry, and how ocean ecosystems function and change.",
+  "prerequisites": [
+    "ea-introductory-oceanography",
+    "bi-ecology"
+  ],
+  "related": [
+    "bi-marine-freshwater-biology"
+  ],
+  "topics": [
+    {
+      "id": "ea-biological-oceanography-1",
+      "name": "Marine habitats and the physical controls on life"
+    },
+    {
+      "id": "ea-biological-oceanography-2",
+      "name": "Phytoplankton and primary production: light and nutrient limitation"
+    },
+    {
+      "id": "ea-biological-oceanography-3",
+      "name": "Zooplankton and marine food webs"
+    },
+    {
+      "id": "ea-biological-oceanography-4",
+      "name": "The microbial loop and marine microbes"
+    },
+    {
+      "id": "ea-biological-oceanography-5",
+      "name": "Seasonal cycles, blooms and upwelling ecosystems"
+    },
+    {
+      "id": "ea-biological-oceanography-6",
+      "name": "Benthic and deep-sea communities, including hydrothermal vents"
+    },
+    {
+      "id": "ea-biological-oceanography-7",
+      "name": "Coral reefs and coastal ecosystems (mangroves, kelp, seagrass)"
+    },
+    {
+      "id": "ea-biological-oceanography-8",
+      "name": "Fisheries oceanography"
+    },
+    {
+      "id": "ea-biological-oceanography-9",
+      "name": "Marine ecosystems under warming, acidification and deoxygenation"
+    }
+  ]
+}

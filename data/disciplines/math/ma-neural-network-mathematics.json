@@ -1,0 +1,41 @@
+{
+  "id": "ma-neural-network-mathematics",
+  "name": "Neural Network Mathematics",
+  "category": "Machine Learning & Data Science Mathematics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Theory of deep learning: universal approximation, loss landscapes, generalisation and infinite-width limits.",
+  "prerequisites": [
+    "ma-gradient-based-optimization",
+    "ma-foundations-of-machine-learning"
+  ],
+  "related": [
+    "ai-neural-network-foundations"
+  ],
+  "topics": [
+    {
+      "id": "ma-neural-network-mathematics-4",
+      "name": "Neural networks as function classes"
+    },
+    {
+      "id": "ma-neural-network-mathematics-2",
+      "name": "Universal approximation"
+    },
+    {
+      "id": "ma-neural-network-mathematics-3",
+      "name": "Optimization landscapes"
+    },
+    {
+      "id": "ma-neural-network-mathematics-1",
+      "name": "Deep learning theory"
+    },
+    {
+      "id": "ma-neural-network-mathematics-5",
+      "name": "Generalisation and double descent"
+    },
+    {
+      "id": "ma-neural-network-mathematics-6",
+      "name": "Neural tangent kernel and infinite-width limits"
+    }
+  ]
+}

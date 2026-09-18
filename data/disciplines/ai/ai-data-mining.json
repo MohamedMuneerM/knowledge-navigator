@@ -1,0 +1,46 @@
+{
+  "id": "ai-data-mining",
+  "name": "Data Mining",
+  "category": "Data Science",
+  "level": 3,
+  "priority": "important",
+  "summary": "Discovering patterns in large datasets: frequent patterns and association rules, sequential patterns, anomalies and link analysis.",
+  "prerequisites": [
+    "ai-types-of-machine-learning",
+    "ai-databases"
+  ],
+  "related": [
+    "cs-information-retrieval",
+    "ai-anomaly-detection"
+  ],
+  "topics": [
+    {
+      "id": "ai-data-mining-1",
+      "name": "Pattern Discovery"
+    },
+    {
+      "id": "ai-data-mining-2",
+      "name": "Association Rules"
+    },
+    {
+      "id": "ai-data-mining-3",
+      "name": "Sequential Pattern Mining"
+    },
+    {
+      "id": "ai-data-mining-4",
+      "name": "Anomaly Detection"
+    },
+    {
+      "id": "ai-data-mining-5",
+      "name": "Link Analysis"
+    },
+    {
+      "id": "ai-data-mining-6",
+      "name": "Text and web mining"
+    },
+    {
+      "id": "ai-data-mining-7",
+      "name": "Graph mining"
+    }
+  ]
+}

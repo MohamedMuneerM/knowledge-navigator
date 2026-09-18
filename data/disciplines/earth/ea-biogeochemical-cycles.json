@@ -1,0 +1,58 @@
+{
+  "id": "ea-biogeochemical-cycles",
+  "name": "Biogeochemistry & Global Element Cycles",
+  "category": "Geochemistry & Geochronology",
+  "level": 3,
+  "priority": "important",
+  "summary": "How carbon, oxygen, nitrogen, phosphorus, sulfur and metals cycle between life, rocks, water and air on timescales from days to aeons.",
+  "prerequisites": [
+    "ea-geochemistry-fundamentals",
+    "ch-organic-structure-bonding"
+  ],
+  "related": [
+    "bi-ecosystem-ecology",
+    "ch-environmental-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "ea-biogeochemical-cycles-1",
+      "name": "Box models, reservoirs, fluxes and residence times"
+    },
+    {
+      "id": "ea-biogeochemical-cycles-2",
+      "name": "The short-term (biological) carbon cycle: photosynthesis, respiration and soils"
+    },
+    {
+      "id": "ea-biogeochemical-cycles-3",
+      "name": "The long-term (geological) carbon cycle and the silicate-weathering thermostat"
+    },
+    {
+      "id": "ea-biogeochemical-cycles-4",
+      "name": "The ocean carbon pumps and the anthropogenic CO2 perturbation"
+    },
+    {
+      "id": "ea-biogeochemical-cycles-5",
+      "name": "The oxygen cycle and the history of atmospheric O2"
+    },
+    {
+      "id": "ea-biogeochemical-cycles-6",
+      "name": "The nitrogen cycle: fixation, nitrification, denitrification and human alteration"
+    },
+    {
+      "id": "ea-biogeochemical-cycles-7",
+      "name": "The phosphorus and sulfur cycles"
+    },
+    {
+      "id": "ea-biogeochemical-cycles-8",
+      "name": "Trace-metal and micronutrient cycles (iron, mercury)"
+    },
+    {
+      "id": "ea-biogeochemical-cycles-9",
+      "name": "Organic geochemistry: organic matter preservation, kerogen and biomarkers"
+    },
+    {
+      "id": "ea-biogeochemical-cycles-10",
+      "name": "Methane and other greenhouse-gas budgets"
+    }
+  ]
+}

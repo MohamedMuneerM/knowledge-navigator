@@ -1,0 +1,66 @@
+{
+  "id": "mt-fatigue-failure-analysis",
+  "name": "Fatigue & Failure Analysis",
+  "category": "Mechanical Behaviour",
+  "level": 3,
+  "priority": "core",
+  "summary": "Covers failure under cyclic loading and the forensic methods used to find out why real components broke.",
+  "prerequisites": [
+    "mt-fracture-mechanics"
+  ],
+  "related": [
+    "el-reliability-testing",
+    "me-fatigue-fracture-creep",
+    "ae-fatigue-fracture-damage-tolerance"
+  ],
+  "topics": [
+    {
+      "id": "mt-fatigue-failure-analysis-1",
+      "name": "Cyclic stresses: amplitude, mean stress and stress ratio"
+    },
+    {
+      "id": "mt-fatigue-failure-analysis-2",
+      "name": "Stress-life (S-N) approach and endurance limit; mean-stress corrections (Goodman, Gerber)"
+    },
+    {
+      "id": "mt-fatigue-failure-analysis-3",
+      "name": "Strain-life approach: Coffin-Manson and cyclic stress-strain behaviour"
+    },
+    {
+      "id": "mt-fatigue-failure-analysis-4",
+      "name": "Fatigue crack initiation: persistent slip bands, notches and surface effects"
+    },
+    {
+      "id": "mt-fatigue-failure-analysis-5",
+      "name": "Fatigue crack growth: Paris law, threshold and crack closure"
+    },
+    {
+      "id": "mt-fatigue-failure-analysis-6",
+      "name": "Variable-amplitude loading and cumulative damage (Miner's rule)"
+    },
+    {
+      "id": "mt-fatigue-failure-analysis-7",
+      "name": "Factors affecting fatigue life: surface finish, residual stresses, shot peening, environment"
+    },
+    {
+      "id": "mt-fatigue-failure-analysis-8",
+      "name": "Thermal and thermomechanical fatigue; fretting fatigue"
+    },
+    {
+      "id": "mt-fatigue-failure-analysis-9",
+      "name": "Fatigue of welds, composites and polymers"
+    },
+    {
+      "id": "mt-fatigue-failure-analysis-10",
+      "name": "Failure analysis methodology: evidence gathering, visual inspection and fractography (beach marks, striations)"
+    },
+    {
+      "id": "mt-fatigue-failure-analysis-11",
+      "name": "Root-cause analysis tools: fault trees, fishbone diagrams and FMEA"
+    },
+    {
+      "id": "mt-fatigue-failure-analysis-12",
+      "name": "Classic case studies: Liberty ships, Comet airliner, Aloha 243, Challenger O-rings, Columbia foam strike"
+    }
+  ]
+}

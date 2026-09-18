@@ -1,0 +1,54 @@
+{
+  "id": "cs-ai-assisted-software-development",
+  "name": "AI-Assisted Software Development & Program Synthesis",
+  "category": "Emerging Computing & Frontiers",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "The fast-moving frontier where programs write programs: classic program synthesis, LLM coding assistants and agents, and how to evaluate and safely adopt them.",
+  "prerequisites": [
+    "cs-software-maintenance-evolution",
+    "ai-llm-application-engineering"
+  ],
+  "related": [
+    "ai-large-language-models-llms",
+    "ai-autonomous-agents"
+  ],
+  "topics": [
+    {
+      "id": "cs-ai-assisted-software-development-1",
+      "name": "Classic program synthesis: deductive, enumerative and example-based"
+    },
+    {
+      "id": "cs-ai-assisted-software-development-2",
+      "name": "Large language models for code: capabilities and limits"
+    },
+    {
+      "id": "cs-ai-assisted-software-development-3",
+      "name": "Code completion and chat assistants in the IDE"
+    },
+    {
+      "id": "cs-ai-assisted-software-development-4",
+      "name": "Agentic coding tools and autonomous software agents"
+    },
+    {
+      "id": "cs-ai-assisted-software-development-5",
+      "name": "Specifying tasks and engineering context for code generation"
+    },
+    {
+      "id": "cs-ai-assisted-software-development-6",
+      "name": "Evaluating generated code: benchmarks, tests and review"
+    },
+    {
+      "id": "cs-ai-assisted-software-development-7",
+      "name": "Security, licensing and provenance of AI-generated code"
+    },
+    {
+      "id": "cs-ai-assisted-software-development-8",
+      "name": "AI for testing, program repair and program analysis"
+    },
+    {
+      "id": "cs-ai-assisted-software-development-9",
+      "name": "Human-AI collaboration in software teams"
+    }
+  ]
+}

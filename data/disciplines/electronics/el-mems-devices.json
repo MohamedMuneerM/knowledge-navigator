@@ -1,0 +1,41 @@
+{
+  "id": "el-mems-devices",
+  "name": "MEMS Devices",
+  "category": "Semiconductor Devices & Fabrication",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Micro-electromechanical devices built with chip technology: accelerometers, gyroscopes, pressure sensors, microphones, oscillators and micro-mirrors.",
+  "prerequisites": [
+    "el-cmos-technology"
+  ],
+  "related": [
+    "me-micro-nano-mechanics",
+    "el-mems-sensor-technologies"
+  ],
+  "topics": [
+    {
+      "id": "el-mems-devices-1",
+      "name": "MEMS accelerometers and gyroscopes"
+    },
+    {
+      "id": "el-mems-devices-2",
+      "name": "MEMS pressure sensors"
+    },
+    {
+      "id": "el-mems-devices-3",
+      "name": "MEMS microphones"
+    },
+    {
+      "id": "el-mems-devices-4",
+      "name": "MEMS oscillators"
+    },
+    {
+      "id": "el-mems-devices-5",
+      "name": "MEMS actuators"
+    },
+    {
+      "id": "el-mems-devices-6",
+      "name": "Optical MEMS and micro-mirrors"
+    }
+  ]
+}

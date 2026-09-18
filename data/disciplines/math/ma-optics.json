@@ -1,0 +1,41 @@
+{
+  "id": "ma-optics",
+  "name": "Optics",
+  "category": "Mathematical Physics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Mathematical optics: ray optics, wave optics, diffraction and Fourier optics.",
+  "prerequisites": [
+    "ma-electromagnetism"
+  ],
+  "related": [
+    "ph-classical-optics",
+    "ph-modern-optics"
+  ],
+  "topics": [
+    {
+      "id": "ma-optics-1",
+      "name": "Geometric optics"
+    },
+    {
+      "id": "ma-optics-4",
+      "name": "Fermat's principle and ray tracing"
+    },
+    {
+      "id": "ma-optics-2",
+      "name": "Wave optics"
+    },
+    {
+      "id": "ma-optics-5",
+      "name": "Interference and diffraction"
+    },
+    {
+      "id": "ma-optics-3",
+      "name": "Fourier optics"
+    },
+    {
+      "id": "ma-optics-6",
+      "name": "Polarisation and Jones calculus"
+    }
+  ]
+}

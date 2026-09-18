@@ -1,0 +1,88 @@
+{
+  "id": "ai-attention-transformers",
+  "name": "Attention & Transformers",
+  "category": "Deep Learning",
+  "level": 3,
+  "priority": "core",
+  "summary": "Attention mechanisms and the transformer architecture that underlies modern language, vision and multimodal models.",
+  "prerequisites": [
+    "ai-recurrent-neural-networks-rnns"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-attention-transformers-1",
+      "name": "Attention Mechanisms",
+      "sub": [
+        {
+          "id": "ai-attention-transformers-1-1",
+          "name": "Self-attention"
+        },
+        {
+          "id": "ai-attention-transformers-1-2",
+          "name": "Cross-attention"
+        },
+        {
+          "id": "ai-attention-transformers-1-3",
+          "name": "Multi-head attention"
+        }
+      ]
+    },
+    {
+      "id": "ai-attention-transformers-2",
+      "name": "Transformer Architecture",
+      "sub": [
+        {
+          "id": "ai-attention-transformers-2-1",
+          "name": "Encoder-only (BERT)"
+        },
+        {
+          "id": "ai-attention-transformers-2-2",
+          "name": "Decoder-only (GPT)"
+        },
+        {
+          "id": "ai-attention-transformers-2-3",
+          "name": "Encoder-decoder (T5)"
+        }
+      ]
+    },
+    {
+      "id": "ai-attention-transformers-6",
+      "name": "Transformer blocks: residual connections, layer norm and feed-forward layers"
+    },
+    {
+      "id": "ai-attention-transformers-3",
+      "name": "Positional Encoding"
+    },
+    {
+      "id": "ai-attention-transformers-4",
+      "name": "Vision Transformers (ViT)"
+    },
+    {
+      "id": "ai-attention-transformers-5",
+      "name": "Efficient Transformers",
+      "sub": [
+        {
+          "id": "ai-attention-transformers-5-1",
+          "name": "Sparse attention"
+        },
+        {
+          "id": "ai-attention-transformers-5-2",
+          "name": "Linear attention"
+        },
+        {
+          "id": "ai-attention-transformers-5-3",
+          "name": "FlashAttention"
+        }
+      ]
+    },
+    {
+      "id": "ai-attention-transformers-7",
+      "name": "Training transformers: masking, teacher forcing and warmup"
+    },
+    {
+      "id": "ai-attention-transformers-8",
+      "name": "Decoding strategies: greedy, beam search, temperature, top-k and top-p sampling"
+    }
+  ]
+}

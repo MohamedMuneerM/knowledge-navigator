@@ -1,0 +1,40 @@
+{
+  "id": "ma-systems-theory-control",
+  "name": "Systems Theory & Control",
+  "category": "Applied & Interdisciplinary Mathematics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Systems theory for engineering: linear and nonlinear systems, adaptive control and system identification.",
+  "prerequisites": [
+    "ma-control-theory",
+    "ma-dynamical-systems"
+  ],
+  "related": [
+    "el-control-theory",
+    "ai-control-systems",
+    "ma-control-theory",
+    "el-state-space-digital-control"
+  ],
+  "topics": [
+    {
+      "id": "ma-systems-theory-control-1",
+      "name": "Linear systems"
+    },
+    {
+      "id": "ma-systems-theory-control-2",
+      "name": "Nonlinear systems"
+    },
+    {
+      "id": "ma-systems-theory-control-5",
+      "name": "Lyapunov stability for control"
+    },
+    {
+      "id": "ma-systems-theory-control-4",
+      "name": "System identification"
+    },
+    {
+      "id": "ma-systems-theory-control-3",
+      "name": "Adaptive control"
+    }
+  ]
+}

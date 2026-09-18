@@ -1,0 +1,45 @@
+{
+  "id": "el-network-security",
+  "name": "Network Security",
+  "category": "Security, Privacy & Trust",
+  "level": 3,
+  "priority": "important",
+  "summary": "Defending networks of devices: firewalls, IDS/IPS, segmentation and VLANs, ACLs, DDoS protection and secure gateways.",
+  "prerequisites": [
+    "el-ethernet-networking",
+    "cs-computer-security"
+  ],
+  "related": [
+    "cs-network-security"
+  ],
+  "topics": [
+    {
+      "id": "el-network-security-1",
+      "name": "Firewall and packet filtering"
+    },
+    {
+      "id": "el-network-security-2",
+      "name": "Intrusion Detection Systems (IDS)"
+    },
+    {
+      "id": "el-network-security-3",
+      "name": "Intrusion Prevention Systems (IPS)"
+    },
+    {
+      "id": "el-network-security-4",
+      "name": "Network segmentation and VLANs"
+    },
+    {
+      "id": "el-network-security-5",
+      "name": "Access control lists (ACL)"
+    },
+    {
+      "id": "el-network-security-6",
+      "name": "DDoS protection"
+    },
+    {
+      "id": "el-network-security-7",
+      "name": "Secure gateway design"
+    }
+  ]
+}

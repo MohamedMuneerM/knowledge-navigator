@@ -1,0 +1,56 @@
+{
+  "id": "ai-multi-armed-bandits",
+  "name": "Multi-Armed Bandits",
+  "category": "Reinforcement Learning",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The exploration-exploitation trade-off in its simplest form, with regret analysis and algorithms such as UCB, Thompson sampling and contextual bandits.",
+  "prerequisites": [
+    "ai-rl-fundamentals"
+  ],
+  "related": [
+    "ai-recommender-systems"
+  ],
+  "topics": [
+    {
+      "id": "ai-multi-armed-bandits-1",
+      "name": "The stochastic bandit problem and regret"
+    },
+    {
+      "id": "ai-multi-armed-bandits-2",
+      "name": "Explore-then-commit and epsilon-greedy"
+    },
+    {
+      "id": "ai-multi-armed-bandits-3",
+      "name": "Upper confidence bound (UCB) algorithms and their regret bounds"
+    },
+    {
+      "id": "ai-multi-armed-bandits-4",
+      "name": "Thompson sampling"
+    },
+    {
+      "id": "ai-multi-armed-bandits-5",
+      "name": "Lower bounds (Lai-Robbins)"
+    },
+    {
+      "id": "ai-multi-armed-bandits-6",
+      "name": "Adversarial bandits (EXP3)"
+    },
+    {
+      "id": "ai-multi-armed-bandits-7",
+      "name": "Contextual bandits: LinUCB and linear Thompson sampling"
+    },
+    {
+      "id": "ai-multi-armed-bandits-8",
+      "name": "Best-arm identification and pure exploration"
+    },
+    {
+      "id": "ai-multi-armed-bandits-9",
+      "name": "Bandits for A/B testing, recommendation and ads"
+    },
+    {
+      "id": "ai-multi-armed-bandits-10",
+      "name": "Bayesian optimization as a bandit problem"
+    }
+  ]
+}

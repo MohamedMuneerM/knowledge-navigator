@@ -1,0 +1,34 @@
+{
+  "id": "ma-summability-divergent-series",
+  "name": "Summability & Divergent Series",
+  "category": "Analysis",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Giving meaning to divergent series (Cesaro, Abel, Borel summation) and the Tauberian theorems that relate summation methods.",
+  "prerequisites": [
+    "ma-real-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-summability-divergent-series-1",
+      "name": "Regular summation methods and the Silverman-Toeplitz theorem"
+    },
+    {
+      "id": "ma-summability-divergent-series-2",
+      "name": "Cesaro and Abel summation"
+    },
+    {
+      "id": "ma-summability-divergent-series-3",
+      "name": "Borel summation and asymptotic series"
+    },
+    {
+      "id": "ma-summability-divergent-series-4",
+      "name": "Tauberian theorems (Hardy-Littlewood, Wiener)"
+    },
+    {
+      "id": "ma-summability-divergent-series-5",
+      "name": "Euler-Maclaurin formula and zeta regularisation"
+    }
+  ]
+}

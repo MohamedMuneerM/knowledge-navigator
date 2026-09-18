@@ -1,0 +1,56 @@
+{
+  "id": "el-ic-packaging",
+  "name": "IC Packaging & Heterogeneous Integration",
+  "category": "Semiconductor Devices & Fabrication",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How dies become usable parts: package types, bonding, thermal design, and advanced 2.5D/3D, chiplet and fan-out integration.",
+  "prerequisites": [
+    "el-cmos-technology"
+  ],
+  "related": [
+    "mt-semiconductor-materials"
+  ],
+  "topics": [
+    {
+      "id": "el-ic-packaging-1",
+      "name": "Package families: DIP, QFN, QFP, BGA, CSP, WLCSP"
+    },
+    {
+      "id": "el-ic-packaging-2",
+      "name": "Wire bonding vs flip-chip interconnect"
+    },
+    {
+      "id": "el-ic-packaging-3",
+      "name": "Substrates, leadframes and redistribution layers"
+    },
+    {
+      "id": "el-ic-packaging-4",
+      "name": "Electrical and thermal modelling of packages"
+    },
+    {
+      "id": "el-ic-packaging-5",
+      "name": "2.5D integration with silicon interposers"
+    },
+    {
+      "id": "el-ic-packaging-6",
+      "name": "3D stacking, through-silicon vias and hybrid bonding"
+    },
+    {
+      "id": "el-ic-packaging-7",
+      "name": "Chiplets and die-to-die standards (UCIe)"
+    },
+    {
+      "id": "el-ic-packaging-8",
+      "name": "Fan-out wafer-level packaging"
+    },
+    {
+      "id": "el-ic-packaging-9",
+      "name": "High-bandwidth memory (HBM) stacks"
+    },
+    {
+      "id": "el-ic-packaging-10",
+      "name": "Package reliability: warpage, thermal cycling, moisture sensitivity"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "me-shafts-bearings-seals",
+  "name": "Shafts, Bearings, Couplings & Seals",
+  "category": "Machine Design & Machine Elements",
+  "level": 3,
+  "priority": "core",
+  "summary": "Designing rotating assemblies: shafts and their connections, rolling and sliding bearings, lubrication, couplings, seals and linear guides.",
+  "prerequisites": [
+    "me-machine-design-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "me-shafts-bearings-seals-1",
+      "name": "Shaft layout and materials"
+    },
+    {
+      "id": "me-shafts-bearings-seals-2",
+      "name": "Shaft design for stress (static and fatigue) and deflection"
+    },
+    {
+      "id": "me-shafts-bearings-seals-3",
+      "name": "Critical speeds of shafts"
+    },
+    {
+      "id": "me-shafts-bearings-seals-4",
+      "name": "Keys, keyways, splines, set screws and pins"
+    },
+    {
+      "id": "me-shafts-bearings-seals-5",
+      "name": "Press and shrink fits; retaining rings"
+    },
+    {
+      "id": "me-shafts-bearings-seals-6",
+      "name": "Couplings: rigid, flexible, universal joints and constant-velocity joints"
+    },
+    {
+      "id": "me-shafts-bearings-seals-7",
+      "name": "Rolling-element bearings: types, load ratings and L10 life"
+    },
+    {
+      "id": "me-shafts-bearings-seals-8",
+      "name": "Bearing selection: combined loads, reliability, preload and mounting"
+    },
+    {
+      "id": "me-shafts-bearings-seals-9",
+      "name": "Lubrication fundamentals and viscosity"
+    },
+    {
+      "id": "me-shafts-bearings-seals-10",
+      "name": "Hydrodynamic journal bearings (Petroff, Sommerfeld number, Raimondi-Boyd charts)"
+    },
+    {
+      "id": "me-shafts-bearings-seals-11",
+      "name": "Hydrostatic, air and magnetic bearings (overview)"
+    },
+    {
+      "id": "me-shafts-bearings-seals-12",
+      "name": "Seals: gaskets, O-rings, lip seals and mechanical face seals"
+    },
+    {
+      "id": "me-shafts-bearings-seals-13",
+      "name": "Linear motion guides and bushings"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "ai-evolutionary-computation",
+  "name": "Evolutionary Computation",
+  "category": "Cognitive & Nature-Inspired AI",
+  "level": 3,
+  "priority": "important",
+  "summary": "Population-based search inspired by evolution and swarms: genetic algorithms, genetic programming, evolution strategies, swarm intelligence and neuroevolution.",
+  "prerequisites": [
+    "ai-classical-ai-gofai-good-old-fashioned-ai"
+  ],
+  "related": [
+    "ma-stochastic-optimization",
+    "ai-swarm-multi-robot-systems"
+  ],
+  "topics": [
+    {
+      "id": "ai-evolutionary-computation-1",
+      "name": "Genetic Algorithms"
+    },
+    {
+      "id": "ai-evolutionary-computation-2",
+      "name": "Genetic Programming"
+    },
+    {
+      "id": "ai-evolutionary-computation-3",
+      "name": "Evolution Strategies"
+    },
+    {
+      "id": "ai-evolutionary-computation-4",
+      "name": "Swarm Intelligence",
+      "sub": [
+        {
+          "id": "ai-evolutionary-computation-4-1",
+          "name": "Particle swarm optimization"
+        },
+        {
+          "id": "ai-evolutionary-computation-4-2",
+          "name": "Ant colony optimization"
+        },
+        {
+          "id": "ai-evolutionary-computation-4-3",
+          "name": "Bee algorithms"
+        }
+      ]
+    },
+    {
+      "id": "ai-evolutionary-computation-5",
+      "name": "Neuroevolution",
+      "sub": [
+        {
+          "id": "ai-evolutionary-computation-5-1",
+          "name": "NEAT"
+        },
+        {
+          "id": "ai-evolutionary-computation-5-2",
+          "name": "HyperNEAT"
+        }
+      ]
+    },
+    {
+      "id": "ai-evolutionary-computation-6",
+      "name": "Differential Evolution"
+    },
+    {
+      "id": "ai-evolutionary-computation-7",
+      "name": "Selection, crossover and mutation operators and fitness landscapes"
+    },
+    {
+      "id": "ai-evolutionary-computation-8",
+      "name": "CMA-ES"
+    },
+    {
+      "id": "ai-evolutionary-computation-9",
+      "name": "Multi-objective evolutionary algorithms (NSGA-II)"
+    }
+  ]
+}

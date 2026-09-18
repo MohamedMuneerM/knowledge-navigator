@@ -1,0 +1,61 @@
+{
+  "id": "mt-electrochemistry",
+  "name": "Electrochemistry of Materials",
+  "category": "Thermodynamics & Kinetics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Provides the electrochemical thermodynamics and kinetics needed for corrosion, batteries, fuel cells, electroplating and extractive metallurgy.",
+  "prerequisites": [
+    "mt-thermodynamics-of-materials",
+    "ch-redox-electrochemistry-basics"
+  ],
+  "related": [
+    "ch-electrochemistry"
+  ],
+  "topics": [
+    {
+      "id": "mt-electrochemistry-1",
+      "name": "Redox reactions, half-cells and electrochemical cells"
+    },
+    {
+      "id": "mt-electrochemistry-2",
+      "name": "Electrode potentials, the standard hydrogen electrode and the electrochemical series"
+    },
+    {
+      "id": "mt-electrochemistry-3",
+      "name": "The Nernst equation and concentration effects"
+    },
+    {
+      "id": "mt-electrochemistry-4",
+      "name": "Pourbaix (potential-pH) diagrams"
+    },
+    {
+      "id": "mt-electrochemistry-5",
+      "name": "Electrode kinetics: exchange current density and the Butler-Volmer equation"
+    },
+    {
+      "id": "mt-electrochemistry-6",
+      "name": "Overpotentials: activation, concentration and ohmic; Tafel analysis"
+    },
+    {
+      "id": "mt-electrochemistry-7",
+      "name": "Mass transport: diffusion, migration and convection; limiting current"
+    },
+    {
+      "id": "mt-electrochemistry-8",
+      "name": "Electrolytes: aqueous, molten salt, polymer and solid ionic conductors"
+    },
+    {
+      "id": "mt-electrochemistry-9",
+      "name": "The electrical double layer and capacitance"
+    },
+    {
+      "id": "mt-electrochemistry-10",
+      "name": "Electrochemical techniques: cyclic voltammetry, potentiodynamic polarisation, impedance spectroscopy"
+    },
+    {
+      "id": "mt-electrochemistry-11",
+      "name": "Faraday's laws and electrodeposition/electroplating"
+    }
+  ]
+}

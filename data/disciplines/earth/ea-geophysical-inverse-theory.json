@@ -1,0 +1,44 @@
+{
+  "id": "ea-geophysical-inverse-theory",
+  "name": "Geophysical Inverse Theory",
+  "category": "Field, Lab & Quantitative Methods",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How to estimate Earth models from indirect, noisy data: linear and nonlinear inversion, regularisation and uncertainty.",
+  "prerequisites": [
+    "ea-geoscience-data-analysis",
+    "ea-solid-earth-geophysics",
+    "ma-linear-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-geophysical-inverse-theory-1",
+      "name": "Forward and inverse problems; non-uniqueness"
+    },
+    {
+      "id": "ea-geophysical-inverse-theory-2",
+      "name": "Linear least squares and the generalised inverse"
+    },
+    {
+      "id": "ea-geophysical-inverse-theory-3",
+      "name": "Singular value decomposition and resolution"
+    },
+    {
+      "id": "ea-geophysical-inverse-theory-4",
+      "name": "Regularisation: Tikhonov and smoothness constraints"
+    },
+    {
+      "id": "ea-geophysical-inverse-theory-5",
+      "name": "Nonlinear inversion and iterative methods"
+    },
+    {
+      "id": "ea-geophysical-inverse-theory-6",
+      "name": "Bayesian inversion and Markov chain Monte Carlo"
+    },
+    {
+      "id": "ea-geophysical-inverse-theory-7",
+      "name": "Tomography and adjoint methods"
+    }
+  ]
+}

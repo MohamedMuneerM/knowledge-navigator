@@ -1,0 +1,55 @@
+{
+  "id": "bi-synthetic-biology",
+  "name": "Synthetic Biology",
+  "category": "Biotechnology & Bioengineering",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Engineering biology like a technology: standard parts, genetic circuits, engineered metabolism, cell-free systems and designer organisms.",
+  "prerequisites": [
+    "bi-genetic-engineering-biotechnology",
+    "bi-systems-biology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-synthetic-biology-1",
+      "name": "The engineering design cycle and standard biological parts"
+    },
+    {
+      "id": "bi-synthetic-biology-2",
+      "name": "Genetic circuits: toggle switches, oscillators and logic gates"
+    },
+    {
+      "id": "bi-synthetic-biology-3",
+      "name": "Biosensors and engineered cellular sensing"
+    },
+    {
+      "id": "bi-synthetic-biology-4",
+      "name": "Metabolic engineering and pathway optimisation"
+    },
+    {
+      "id": "bi-synthetic-biology-5",
+      "name": "Cell-free systems"
+    },
+    {
+      "id": "bi-synthetic-biology-6",
+      "name": "Genome synthesis and minimal cells"
+    },
+    {
+      "id": "bi-synthetic-biology-7",
+      "name": "Expanded genetic codes and xenobiology"
+    },
+    {
+      "id": "bi-synthetic-biology-8",
+      "name": "Engineered living materials"
+    },
+    {
+      "id": "bi-synthetic-biology-9",
+      "name": "Automation, biofoundries and design software"
+    },
+    {
+      "id": "bi-synthetic-biology-10",
+      "name": "Biocontainment, biosafety and biosecurity in synthetic biology"
+    }
+  ]
+}

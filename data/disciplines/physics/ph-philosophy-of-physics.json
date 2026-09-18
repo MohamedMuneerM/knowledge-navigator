@@ -1,0 +1,39 @@
+{
+  "id": "ph-philosophy-of-physics",
+  "name": "Philosophy of Physics",
+  "category": "Foundations, History & Education",
+  "level": 3,
+  "priority": "optional",
+  "summary": "Conceptual questions raised by physics: interpreting quantum mechanics, the nature of time, causality and emergence.",
+  "prerequisites": [
+    "ph-quantum-mechanics",
+    "ph-special-relativity"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-philosophy-of-physics-1",
+      "name": "Interpretation of quantum mechanics"
+    },
+    {
+      "id": "ph-philosophy-of-physics-2",
+      "name": "Nature of space and time"
+    },
+    {
+      "id": "ph-philosophy-of-physics-3",
+      "name": "Causality and determinism"
+    },
+    {
+      "id": "ph-philosophy-of-physics-4",
+      "name": "Reductionism vs. emergence"
+    },
+    {
+      "id": "ph-philosophy-of-physics-5",
+      "name": "Foundations of statistical mechanics"
+    },
+    {
+      "id": "ph-philosophy-of-physics-6",
+      "name": "Philosophy of cosmology"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "cs-version-control-git",
+  "name": "Version Control with Git",
+  "category": "Computing Foundations",
+  "level": 1,
+  "priority": "core",
+  "summary": "How to track, share and merge changes to code with Git and hosted platforms such as GitHub, the basis of all collaborative software work.",
+  "prerequisites": [
+    "cs-command-line-shell"
+  ],
+  "related": [
+    "el-version-control"
+  ],
+  "topics": [
+    {
+      "id": "cs-version-control-git-1",
+      "name": "Why version control: history, collaboration and reproducibility"
+    },
+    {
+      "id": "cs-version-control-git-2",
+      "name": "Git's data model: blobs, trees, commits and refs"
+    },
+    {
+      "id": "cs-version-control-git-3",
+      "name": "Staging, committing and viewing history"
+    },
+    {
+      "id": "cs-version-control-git-4",
+      "name": "Branching and merging"
+    },
+    {
+      "id": "cs-version-control-git-5",
+      "name": "Resolving merge conflicts"
+    },
+    {
+      "id": "cs-version-control-git-6",
+      "name": "Remotes: clone, fetch, pull and push"
+    },
+    {
+      "id": "cs-version-control-git-7",
+      "name": "Rebasing and rewriting history safely"
+    },
+    {
+      "id": "cs-version-control-git-8",
+      "name": "Undoing changes: restore, reset and revert"
+    },
+    {
+      "id": "cs-version-control-git-9",
+      "name": ".gitignore, tags and releases"
+    },
+    {
+      "id": "cs-version-control-git-10",
+      "name": "Collaborative workflows: feature branches, pull requests and code review"
+    },
+    {
+      "id": "cs-version-control-git-11",
+      "name": "Hosting platforms: issues, forks and CI integration (GitHub, GitLab)"
+    },
+    {
+      "id": "cs-version-control-git-12",
+      "name": "Power tools: bisect, stash, cherry-pick, submodules and worktrees"
+    },
+    {
+      "id": "cs-version-control-git-13",
+      "name": "Branching strategies and commit conventions (trunk-based, Git Flow)"
+    }
+  ]
+}

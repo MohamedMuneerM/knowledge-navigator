@@ -1,0 +1,63 @@
+{
+  "id": "ph-astrostatistics",
+  "name": "Astrostatistics & Astronomical Data Analysis",
+  "category": "Observational Astronomy & Data",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Statistical and computational methods for turning survey data, images and light curves into astrophysical results.",
+  "prerequisites": [
+    "ph-observational-astronomy-telescopes",
+    "cs-programming-fundamentals"
+  ],
+  "related": [
+    "ma-bayesian-statistics",
+    "ma-time-series-analysis",
+    "ai-ai-for-science"
+  ],
+  "topics": [
+    {
+      "id": "ph-astrostatistics-1",
+      "name": "Astronomical data formats (FITS) and the Python/Astropy ecosystem"
+    },
+    {
+      "id": "ph-astrostatistics-2",
+      "name": "Sky surveys and catalogues: SDSS, Gaia and Rubin/LSST"
+    },
+    {
+      "id": "ph-astrostatistics-3",
+      "name": "Data archives and the Virtual Observatory"
+    },
+    {
+      "id": "ph-astrostatistics-4",
+      "name": "Bayesian inference and MCMC for astrophysical models"
+    },
+    {
+      "id": "ph-astrostatistics-5",
+      "name": "Model comparison and hierarchical models"
+    },
+    {
+      "id": "ph-astrostatistics-6",
+      "name": "Selection effects, Malmquist bias and censored data"
+    },
+    {
+      "id": "ph-astrostatistics-7",
+      "name": "Time-series analysis: periodograms and light curves"
+    },
+    {
+      "id": "ph-astrostatistics-8",
+      "name": "Spatial statistics and correlation functions"
+    },
+    {
+      "id": "ph-astrostatistics-9",
+      "name": "Image processing and source extraction"
+    },
+    {
+      "id": "ph-astrostatistics-10",
+      "name": "Machine learning in astronomy"
+    },
+    {
+      "id": "ph-astrostatistics-11",
+      "name": "Big-data handling and reproducible pipelines"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "me-continuum-mechanics-elasticity-plasticity",
+  "name": "Continuum Mechanics, Elasticity & Plasticity",
+  "category": "Solid Mechanics & Structures",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The rigorous tensor theory of deformable solids, covering elasticity, hyperelasticity, viscoelasticity and plasticity for advanced stress analysis and modelling.",
+  "prerequisites": [
+    "me-advanced-mechanics-of-materials",
+    "ma-partial-differential-equations-pdes",
+    "ma-tensor-analysis"
+  ],
+  "related": [
+    "ma-solid-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "me-continuum-mechanics-elasticity-plasticity-1",
+      "name": "Tensor algebra and index notation"
+    },
+    {
+      "id": "me-continuum-mechanics-elasticity-plasticity-2",
+      "name": "Kinematics of deformation: deformation gradient, finite and infinitesimal strain"
+    },
+    {
+      "id": "me-continuum-mechanics-elasticity-plasticity-3",
+      "name": "Stress tensors (Cauchy, Piola-Kirchhoff) and balance laws"
+    },
+    {
+      "id": "me-continuum-mechanics-elasticity-plasticity-4",
+      "name": "Linear elasticity: constitutive laws, anisotropy and boundary-value problems"
+    },
+    {
+      "id": "me-continuum-mechanics-elasticity-plasticity-5",
+      "name": "Plane stress and plane strain; Airy stress-function solutions"
+    },
+    {
+      "id": "me-continuum-mechanics-elasticity-plasticity-6",
+      "name": "Energy principles: minimum potential energy and Rayleigh-Ritz"
+    },
+    {
+      "id": "me-continuum-mechanics-elasticity-plasticity-7",
+      "name": "Hyperelasticity for rubbers and soft materials (neo-Hookean, Mooney-Rivlin, Ogden)"
+    },
+    {
+      "id": "me-continuum-mechanics-elasticity-plasticity-8",
+      "name": "Viscoelasticity: spring-dashpot models, creep, relaxation, time-temperature superposition"
+    },
+    {
+      "id": "me-continuum-mechanics-elasticity-plasticity-9",
+      "name": "Plasticity: yield surfaces, flow rules, hardening and limit analysis"
+    },
+    {
+      "id": "me-continuum-mechanics-elasticity-plasticity-10",
+      "name": "Thermoelasticity"
+    },
+    {
+      "id": "me-continuum-mechanics-elasticity-plasticity-11",
+      "name": "Elastic waves in solids"
+    }
+  ]
+}

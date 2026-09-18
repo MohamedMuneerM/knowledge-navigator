@@ -1,0 +1,51 @@
+{
+  "id": "ch-electroanalytical-chemistry",
+  "name": "Electroanalytical Chemistry",
+  "category": "Analytical Chemistry & Instrumentation",
+  "level": 3,
+  "priority": "important",
+  "summary": "Measuring chemical species through potentials and currents: potentiometry, voltammetry and electrochemical sensors.",
+  "prerequisites": [
+    "ch-quantitative-analysis",
+    "ch-electrochemistry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-electroanalytical-chemistry-1",
+      "name": "Potentiometry, ion-selective electrodes and the pH electrode"
+    },
+    {
+      "id": "ch-electroanalytical-chemistry-2",
+      "name": "Reference electrodes and liquid-junction potentials"
+    },
+    {
+      "id": "ch-electroanalytical-chemistry-3",
+      "name": "Coulometry and electrogravimetry"
+    },
+    {
+      "id": "ch-electroanalytical-chemistry-4",
+      "name": "Voltammetry: linear sweep, cyclic, pulse and square-wave"
+    },
+    {
+      "id": "ch-electroanalytical-chemistry-5",
+      "name": "Stripping analysis for trace metals"
+    },
+    {
+      "id": "ch-electroanalytical-chemistry-6",
+      "name": "Amperometric sensors and the Clark oxygen electrode"
+    },
+    {
+      "id": "ch-electroanalytical-chemistry-7",
+      "name": "Electrochemical impedance spectroscopy for analysis"
+    },
+    {
+      "id": "ch-electroanalytical-chemistry-8",
+      "name": "Microelectrodes and scanning electrochemical microscopy"
+    },
+    {
+      "id": "ch-electroanalytical-chemistry-9",
+      "name": "Electrochemical biosensors (the glucose meter)"
+    }
+  ]
+}

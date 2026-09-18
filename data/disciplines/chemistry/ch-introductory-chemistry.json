@@ -1,0 +1,82 @@
+{
+  "id": "ch-introductory-chemistry",
+  "name": "Introductory Chemistry",
+  "category": "Foundations",
+  "level": 1,
+  "priority": "core",
+  "summary": "First contact with chemistry: matter, atoms, the periodic table, simple bonding, the mole and reactions, for learners with only high-school basics.",
+  "prerequisites": [
+    "ma-elementary-intermediate-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-introductory-chemistry-1",
+      "name": "What chemistry studies: matter, properties, physical vs chemical change"
+    },
+    {
+      "id": "ch-introductory-chemistry-2",
+      "name": "Measurement, SI units, significant figures and dimensional analysis"
+    },
+    {
+      "id": "ch-introductory-chemistry-3",
+      "name": "Classification of matter: elements, compounds, mixtures and separation methods"
+    },
+    {
+      "id": "ch-introductory-chemistry-4",
+      "name": "Atoms, subatomic particles, isotopes and atomic mass"
+    },
+    {
+      "id": "ch-introductory-chemistry-5",
+      "name": "The periodic table: groups, periods, metals, nonmetals and metalloids"
+    },
+    {
+      "id": "ch-introductory-chemistry-6",
+      "name": "Ions, ionic vs covalent compounds and chemical formulas"
+    },
+    {
+      "id": "ch-introductory-chemistry-7",
+      "name": "Naming simple inorganic compounds"
+    },
+    {
+      "id": "ch-introductory-chemistry-8",
+      "name": "The mole, molar mass and Avogadro's number"
+    },
+    {
+      "id": "ch-introductory-chemistry-9",
+      "name": "Balancing chemical equations and classifying reactions (synthesis, decomposition, combustion, precipitation, acid-base, redox)"
+    },
+    {
+      "id": "ch-introductory-chemistry-10",
+      "name": "Stoichiometry: mole ratios, limiting reagent and percent yield"
+    },
+    {
+      "id": "ch-introductory-chemistry-11",
+      "name": "States of matter and the kinetic-molecular picture"
+    },
+    {
+      "id": "ch-introductory-chemistry-12",
+      "name": "Simple gas laws (Boyle, Charles, ideal gas law)"
+    },
+    {
+      "id": "ch-introductory-chemistry-13",
+      "name": "Solutions: solubility, concentration, molarity and dilution"
+    },
+    {
+      "id": "ch-introductory-chemistry-14",
+      "name": "Acids, bases, pH and neutralization basics"
+    },
+    {
+      "id": "ch-introductory-chemistry-15",
+      "name": "Energy in chemical change: exothermic vs endothermic processes"
+    },
+    {
+      "id": "ch-introductory-chemistry-16",
+      "name": "Introduction to nuclear chemistry: radioactivity and half-life"
+    },
+    {
+      "id": "ch-introductory-chemistry-17",
+      "name": "Chemistry in everyday life: household chemicals, food, fuels and materials"
+    }
+  ]
+}

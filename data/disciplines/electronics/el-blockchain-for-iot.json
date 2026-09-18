@@ -1,0 +1,37 @@
+{
+  "id": "el-blockchain-for-iot",
+  "name": "Blockchain for IoT",
+  "category": "Security, Privacy & Trust",
+  "level": 4,
+  "priority": "optional",
+  "summary": "Using distributed ledgers for device management, supply-chain traceability and decentralized identity.",
+  "prerequisites": [
+    "el-cryptography-fundamentals"
+  ],
+  "related": [
+    "el-blockchain-distributed-ledger",
+    "cs-blockchain"
+  ],
+  "topics": [
+    {
+      "id": "el-blockchain-for-iot-1",
+      "name": "Distributed ledger technology"
+    },
+    {
+      "id": "el-blockchain-for-iot-2",
+      "name": "Smart contracts for device management"
+    },
+    {
+      "id": "el-blockchain-for-iot-3",
+      "name": "Supply chain traceability"
+    },
+    {
+      "id": "el-blockchain-for-iot-4",
+      "name": "Decentralized identity"
+    },
+    {
+      "id": "el-blockchain-for-iot-5",
+      "name": "IOTA and other IoT-focused blockchains"
+    }
+  ]
+}

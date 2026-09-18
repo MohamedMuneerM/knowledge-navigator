@@ -1,0 +1,58 @@
+{
+  "id": "ae-rotorcraft-engineering",
+  "name": "Rotorcraft Engineering",
+  "category": "Air Vehicle Design",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Helicopter and rotorcraft aerodynamics, dynamics, performance and design, from momentum theory to vibration and tiltrotors.",
+  "prerequisites": [
+    "ae-flight-dynamics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-rotorcraft-engineering-1",
+      "name": "Rotorcraft types: single main rotor, tandem, coaxial, compound, tiltrotor"
+    },
+    {
+      "id": "ae-rotorcraft-engineering-2",
+      "name": "Momentum theory in hover and axial flight"
+    },
+    {
+      "id": "ae-rotorcraft-engineering-3",
+      "name": "Blade element theory and combined blade-element momentum theory"
+    },
+    {
+      "id": "ae-rotorcraft-engineering-4",
+      "name": "Forward flight aerodynamics and the rotor disc"
+    },
+    {
+      "id": "ae-rotorcraft-engineering-5",
+      "name": "Rotor blade flapping, lead-lag and feathering dynamics"
+    },
+    {
+      "id": "ae-rotorcraft-engineering-6",
+      "name": "Swashplate and cyclic and collective control"
+    },
+    {
+      "id": "ae-rotorcraft-engineering-7",
+      "name": "Rotorcraft performance: hover ceiling, power required, autorotation"
+    },
+    {
+      "id": "ae-rotorcraft-engineering-8",
+      "name": "Helicopter stability and control"
+    },
+    {
+      "id": "ae-rotorcraft-engineering-9",
+      "name": "Rotor vibration, ground resonance and vibration control"
+    },
+    {
+      "id": "ae-rotorcraft-engineering-10",
+      "name": "Rotor noise"
+    },
+    {
+      "id": "ae-rotorcraft-engineering-11",
+      "name": "Rotorcraft design and sizing"
+    }
+  ]
+}

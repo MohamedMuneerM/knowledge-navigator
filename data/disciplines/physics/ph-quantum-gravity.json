@@ -1,0 +1,41 @@
+{
+  "id": "ph-quantum-gravity",
+  "name": "Quantum Gravity",
+  "category": "Relativity & Gravitation",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Research approaches to reconciling general relativity with quantum theory, including strings, loops and holography.",
+  "prerequisites": [
+    "ph-black-hole-physics",
+    "ph-quantum-field-theory-qft"
+  ],
+  "related": [
+    "ph-string-theory"
+  ],
+  "topics": [
+    {
+      "id": "ph-quantum-gravity-1",
+      "name": "String theory and M-theory"
+    },
+    {
+      "id": "ph-quantum-gravity-2",
+      "name": "Loop quantum gravity"
+    },
+    {
+      "id": "ph-quantum-gravity-3",
+      "name": "Causal dynamical triangulation"
+    },
+    {
+      "id": "ph-quantum-gravity-4",
+      "name": "Spin foam models"
+    },
+    {
+      "id": "ph-quantum-gravity-5",
+      "name": "AdS/CFT correspondence"
+    },
+    {
+      "id": "ph-quantum-gravity-6",
+      "name": "Holographic principle"
+    }
+  ]
+}

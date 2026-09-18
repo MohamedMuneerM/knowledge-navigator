@@ -1,0 +1,86 @@
+{
+  "id": "mt-defects",
+  "name": "Defects in Crystals & Dislocations",
+  "category": "Structure of Materials",
+  "level": 2,
+  "priority": "core",
+  "summary": "Introduces point, line, planar and volume defects, which control diffusion, strength, conductivity and almost every useful property.",
+  "prerequisites": [
+    "mt-crystal-structures"
+  ],
+  "related": [
+    "ph-solid-state-physics"
+  ],
+  "topics": [
+    {
+      "id": "mt-defects-1",
+      "name": "Why real crystals are imperfect: the thermodynamic necessity of vacancies"
+    },
+    {
+      "id": "mt-defects-2",
+      "name": "Point defects in metals: vacancies, self-interstitials and equilibrium concentration"
+    },
+    {
+      "id": "mt-defects-3",
+      "name": "Impurities and solid solutions: substitutional, interstitial and the Hume-Rothery rules"
+    },
+    {
+      "id": "mt-defects-4",
+      "name": "Point defects in ionic crystals: Schottky and Frenkel defects, charge neutrality, Kröger-Vink notation"
+    },
+    {
+      "id": "mt-defects-5",
+      "name": "Composition specification: weight and atom percent conversions"
+    },
+    {
+      "id": "mt-defects-6",
+      "name": "Dislocations",
+      "sub": [
+        {
+          "id": "mt-defects-6-1",
+          "name": "Edge, screw and mixed dislocations"
+        },
+        {
+          "id": "mt-defects-6-2",
+          "name": "Burgers vector and Burgers circuit"
+        },
+        {
+          "id": "mt-defects-6-3",
+          "name": "Stress fields and strain energy of dislocations"
+        },
+        {
+          "id": "mt-defects-6-4",
+          "name": "Dislocation motion: glide and climb"
+        },
+        {
+          "id": "mt-defects-6-5",
+          "name": "Partial dislocations and stacking faults"
+        },
+        {
+          "id": "mt-defects-6-6",
+          "name": "Dislocation interactions, jogs and kinks"
+        }
+      ]
+    },
+    {
+      "id": "mt-defects-7",
+      "name": "Slip systems in FCC, BCC and HCP metals"
+    },
+    {
+      "id": "mt-defects-8",
+      "name": "Interfacial defects: grain boundaries (low and high angle), twin boundaries, phase boundaries and surfaces"
+    },
+    {
+      "id": "mt-defects-9",
+      "name": "Bulk defects: pores, cracks, inclusions and precipitates"
+    },
+    {
+      "id": "mt-defects-10",
+      "name": "Observing defects: etch pits, TEM contrast and grain-size measurement (ASTM grain size)"
+    },
+    {
+      "id": "mt-defects-11",
+      "name": "Defect-property relationships: how defects govern strength, diffusion and conductivity"
+    }
+  ]
+}

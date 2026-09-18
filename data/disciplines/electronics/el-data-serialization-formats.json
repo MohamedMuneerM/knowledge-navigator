@@ -1,0 +1,52 @@
+{
+  "id": "el-data-serialization-formats",
+  "name": "Data Serialization Formats",
+  "category": "IoT Architectures, Platforms & Data",
+  "level": 2,
+  "priority": "important",
+  "summary": "Encoding data for storage and transmission: JSON, XML, CBOR, MessagePack, Protocol Buffers, Avro, YAML and TOML.",
+  "prerequisites": [
+    "el-iot-architecture-layers"
+  ],
+  "related": [
+    "cs-backend-development"
+  ],
+  "topics": [
+    {
+      "id": "el-data-serialization-formats-1",
+      "name": "JSON (JavaScript Object Notation)"
+    },
+    {
+      "id": "el-data-serialization-formats-2",
+      "name": "XML (Extensible Markup Language)"
+    },
+    {
+      "id": "el-data-serialization-formats-3",
+      "name": "CBOR (Concise Binary Object Representation)"
+    },
+    {
+      "id": "el-data-serialization-formats-4",
+      "name": "MessagePack"
+    },
+    {
+      "id": "el-data-serialization-formats-5",
+      "name": "Protocol Buffers (Protobuf)"
+    },
+    {
+      "id": "el-data-serialization-formats-6",
+      "name": "Apache Avro"
+    },
+    {
+      "id": "el-data-serialization-formats-7",
+      "name": "BSON"
+    },
+    {
+      "id": "el-data-serialization-formats-8",
+      "name": "YAML"
+    },
+    {
+      "id": "el-data-serialization-formats-9",
+      "name": "TOML"
+    }
+  ]
+}

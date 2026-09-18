@@ -1,0 +1,42 @@
+{
+  "id": "el-regulatory-compliance-testing",
+  "name": "Regulatory & Compliance Testing",
+  "category": "Measurement, Testing & Validation",
+  "level": 3,
+  "priority": "important",
+  "summary": "The tests a product must pass before sale: EMC emissions and immunity, FCC, CE/RED, UL/CSA safety and telecom certifications.",
+  "prerequisites": [
+    "el-electromagnetic-compatibility-emcemi"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-regulatory-compliance-testing-1",
+      "name": "EMC testing (emissions and immunity)"
+    },
+    {
+      "id": "el-regulatory-compliance-testing-2",
+      "name": "FCC certification (Part 15)"
+    },
+    {
+      "id": "el-regulatory-compliance-testing-3",
+      "name": "CE marking tests"
+    },
+    {
+      "id": "el-regulatory-compliance-testing-4",
+      "name": "UL/CSA safety testing"
+    },
+    {
+      "id": "el-regulatory-compliance-testing-5",
+      "name": "Wireless certification (FCC, IC, CE)"
+    },
+    {
+      "id": "el-regulatory-compliance-testing-6",
+      "name": "Radio equipment directive (RED)"
+    },
+    {
+      "id": "el-regulatory-compliance-testing-7",
+      "name": "Telecom certifications (PTCRB, GCF)"
+    }
+  ]
+}

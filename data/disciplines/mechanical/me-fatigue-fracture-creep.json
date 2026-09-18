@@ -1,0 +1,72 @@
+{
+  "id": "me-fatigue-fracture-creep",
+  "name": "Fatigue, Fracture & Creep",
+  "category": "Solid Mechanics & Structures",
+  "level": 3,
+  "priority": "important",
+  "summary": "How and when components fail under cyclic loads, cracks and high temperature, and how engineers design and inspect against it.",
+  "prerequisites": [
+    "me-mechanics-of-materials",
+    "me-engineering-materials"
+  ],
+  "related": [
+    "mt-fracture-mechanics",
+    "mt-fatigue-failure-analysis",
+    "mt-creep",
+    "ae-fatigue-fracture-damage-tolerance"
+  ],
+  "topics": [
+    {
+      "id": "me-fatigue-fracture-creep-1",
+      "name": "Failure analysis methodology and fractography"
+    },
+    {
+      "id": "me-fatigue-fracture-creep-2",
+      "name": "Stress-life (S-N) approach: endurance limit and modifying factors"
+    },
+    {
+      "id": "me-fatigue-fracture-creep-3",
+      "name": "Mean-stress effects (Goodman, Gerber, Soderberg, Smith-Watson-Topper)"
+    },
+    {
+      "id": "me-fatigue-fracture-creep-4",
+      "name": "Notches: fatigue notch factor and notch sensitivity"
+    },
+    {
+      "id": "me-fatigue-fracture-creep-5",
+      "name": "Strain-life approach: Coffin-Manson, cyclic stress-strain, Neuber's rule"
+    },
+    {
+      "id": "me-fatigue-fracture-creep-6",
+      "name": "Variable-amplitude loading: rainflow counting and Miner's rule"
+    },
+    {
+      "id": "me-fatigue-fracture-creep-7",
+      "name": "Linear elastic fracture mechanics: stress intensity factor and fracture toughness"
+    },
+    {
+      "id": "me-fatigue-fracture-creep-8",
+      "name": "Elastic-plastic fracture mechanics: CTOD and the J-integral"
+    },
+    {
+      "id": "me-fatigue-fracture-creep-9",
+      "name": "Fatigue crack growth (Paris law) and damage-tolerant design"
+    },
+    {
+      "id": "me-fatigue-fracture-creep-10",
+      "name": "Fatigue of welded joints and multiaxial fatigue"
+    },
+    {
+      "id": "me-fatigue-fracture-creep-11",
+      "name": "Creep, stress rupture, Larson-Miller parameter and creep-fatigue interaction"
+    },
+    {
+      "id": "me-fatigue-fracture-creep-12",
+      "name": "Environmental effects: corrosion fatigue, hydrogen embrittlement, fretting"
+    },
+    {
+      "id": "me-fatigue-fracture-creep-13",
+      "name": "Nondestructive inspection for cracks (ultrasonic, magnetic particle, dye penetrant, eddy current, radiography)"
+    }
+  ]
+}

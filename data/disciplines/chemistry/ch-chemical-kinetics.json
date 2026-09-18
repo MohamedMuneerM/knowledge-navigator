@@ -1,0 +1,75 @@
+{
+  "id": "ch-chemical-kinetics",
+  "name": "Chemical Kinetics",
+  "category": "Physical Chemistry",
+  "level": 3,
+  "priority": "core",
+  "summary": "Quantitative kinetics of complex, unimolecular, solution-phase and fast reactions, and the theories that explain rates.",
+  "prerequisites": [
+    "ch-chemical-kinetics-intro",
+    "ch-chemical-thermodynamics",
+    "ma-ordinary-differential-equations-odes"
+  ],
+  "related": [
+    "ph-chemical-physics-physical-chemistry",
+    "ma-mathematical-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "ch-chemical-kinetics-1",
+      "name": "Determining empirical rate laws"
+    },
+    {
+      "id": "ch-chemical-kinetics-2",
+      "name": "Complex reactions: parallel, consecutive and reversible steps"
+    },
+    {
+      "id": "ch-chemical-kinetics-3",
+      "name": "Steady-state and pre-equilibrium approximations"
+    },
+    {
+      "id": "ch-chemical-kinetics-4",
+      "name": "Chain reactions and explosions"
+    },
+    {
+      "id": "ch-chemical-kinetics-5",
+      "name": "Unimolecular reactions: the Lindemann-Hinshelwood mechanism"
+    },
+    {
+      "id": "ch-chemical-kinetics-6",
+      "name": "Collision theory in detail"
+    },
+    {
+      "id": "ch-chemical-kinetics-7",
+      "name": "Transition-state theory and the Eyring equation"
+    },
+    {
+      "id": "ch-chemical-kinetics-8",
+      "name": "Reactions in solution: diffusion control and the cage effect"
+    },
+    {
+      "id": "ch-chemical-kinetics-9",
+      "name": "Enzyme kinetics: Michaelis-Menten and inhibition"
+    },
+    {
+      "id": "ch-chemical-kinetics-10",
+      "name": "Surface kinetics and the Langmuir-Hinshelwood mechanism"
+    },
+    {
+      "id": "ch-chemical-kinetics-11",
+      "name": "Fast-reaction techniques: stopped-flow, flash photolysis and relaxation methods"
+    },
+    {
+      "id": "ch-chemical-kinetics-12",
+      "name": "Photochemical kinetics and quantum yields"
+    },
+    {
+      "id": "ch-chemical-kinetics-13",
+      "name": "Oscillating reactions and nonlinear chemical dynamics"
+    },
+    {
+      "id": "ch-chemical-kinetics-14",
+      "name": "Numerical integration of kinetic schemes"
+    }
+  ]
+}

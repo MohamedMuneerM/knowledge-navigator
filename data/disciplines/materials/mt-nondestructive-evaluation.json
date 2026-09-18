@@ -1,0 +1,59 @@
+{
+  "id": "mt-nondestructive-evaluation",
+  "name": "Nondestructive Evaluation (NDE)",
+  "category": "Materials Characterization",
+  "level": 3,
+  "priority": "important",
+  "summary": "Covers the methods used to find cracks, voids and damage in parts without destroying them, essential for aerospace and safety-critical components.",
+  "prerequisites": [
+    "mt-characterization-fundamentals",
+    "mt-fracture-mechanics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "mt-nondestructive-evaluation-1",
+      "name": "Role of NDE in damage-tolerant design and probability of detection (POD)"
+    },
+    {
+      "id": "mt-nondestructive-evaluation-2",
+      "name": "Visual inspection, liquid penetrant and magnetic particle testing"
+    },
+    {
+      "id": "mt-nondestructive-evaluation-3",
+      "name": "Ultrasonic testing: pulse-echo, through-transmission, phased array and TOFD"
+    },
+    {
+      "id": "mt-nondestructive-evaluation-4",
+      "name": "Radiography and industrial computed tomography"
+    },
+    {
+      "id": "mt-nondestructive-evaluation-5",
+      "name": "Eddy-current testing"
+    },
+    {
+      "id": "mt-nondestructive-evaluation-6",
+      "name": "Acoustic emission monitoring"
+    },
+    {
+      "id": "mt-nondestructive-evaluation-7",
+      "name": "Infrared thermography and shearography"
+    },
+    {
+      "id": "mt-nondestructive-evaluation-8",
+      "name": "NDI of composites: C-scans, delamination and porosity detection"
+    },
+    {
+      "id": "mt-nondestructive-evaluation-9",
+      "name": "Inspection of welds and castings"
+    },
+    {
+      "id": "mt-nondestructive-evaluation-10",
+      "name": "Structural health monitoring with embedded sensors"
+    },
+    {
+      "id": "mt-nondestructive-evaluation-11",
+      "name": "NDE standards and inspector certification"
+    }
+  ]
+}

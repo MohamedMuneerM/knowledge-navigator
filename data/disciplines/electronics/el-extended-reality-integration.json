@@ -1,0 +1,37 @@
+{
+  "id": "el-extended-reality-integration",
+  "name": "Extended Reality Integration",
+  "category": "Emerging & Advanced Topics",
+  "level": 4,
+  "priority": "optional",
+  "summary": "Combining AR/VR/MR with IoT: spatial computing, immersive digital twins, remote assistance and holographic displays.",
+  "prerequisites": [
+    "el-digital-twins"
+  ],
+  "related": [
+    "cs-virtual-augmented-reality",
+    "ai-wearable-ai-assistants-ar"
+  ],
+  "topics": [
+    {
+      "id": "el-extended-reality-integration-1",
+      "name": "AR/VR/MR with IoT"
+    },
+    {
+      "id": "el-extended-reality-integration-2",
+      "name": "Spatial computing"
+    },
+    {
+      "id": "el-extended-reality-integration-3",
+      "name": "Digital twins with immersive visualization"
+    },
+    {
+      "id": "el-extended-reality-integration-4",
+      "name": "Remote assistance and training"
+    },
+    {
+      "id": "el-extended-reality-integration-5",
+      "name": "Holographic displays"
+    }
+  ]
+}

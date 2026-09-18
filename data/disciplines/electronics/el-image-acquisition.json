@@ -1,0 +1,44 @@
+{
+  "id": "el-image-acquisition",
+  "name": "Image Acquisition",
+  "category": "Machine Learning & Edge AI",
+  "level": 3,
+  "priority": "important",
+  "summary": "Getting good images into an embedded system: camera interfaces, sensors, calibration, lens distortion and colour spaces.",
+  "prerequisites": [
+    "el-imaging-vision-sensors"
+  ],
+  "related": [
+    "ai-image-processing-fundamentals"
+  ],
+  "topics": [
+    {
+      "id": "el-image-acquisition-1",
+      "name": "Camera interfaces (USB, MIPI CSI, GigE Vision)"
+    },
+    {
+      "id": "el-image-acquisition-2",
+      "name": "Image sensor technologies (CMOS, CCD)"
+    },
+    {
+      "id": "el-image-acquisition-3",
+      "name": "Camera calibration (intrinsic and extrinsic parameters)"
+    },
+    {
+      "id": "el-image-acquisition-4",
+      "name": "Lens distortion correction"
+    },
+    {
+      "id": "el-image-acquisition-5",
+      "name": "Color spaces (RGB, YUV, HSV, Lab)"
+    },
+    {
+      "id": "el-image-acquisition-6",
+      "name": "Exposure, gain and shutter types (rolling vs global)"
+    },
+    {
+      "id": "el-image-acquisition-7",
+      "name": "The image signal processor pipeline (demosaicing, white balance, denoising)"
+    }
+  ]
+}

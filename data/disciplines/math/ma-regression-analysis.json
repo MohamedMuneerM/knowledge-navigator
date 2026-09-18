@@ -1,0 +1,53 @@
+{
+  "id": "ma-regression-analysis",
+  "name": "Regression Analysis",
+  "category": "Probability & Statistics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Modelling a response from predictors: linear regression, diagnostics, logistic regression and generalised linear models.",
+  "prerequisites": [
+    "ma-inferential-statistics",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ma-linear-methods"
+  ],
+  "topics": [
+    {
+      "id": "ma-regression-analysis-5",
+      "name": "Simple linear regression"
+    },
+    {
+      "id": "ma-regression-analysis-1",
+      "name": "Linear regression"
+    },
+    {
+      "id": "ma-regression-analysis-6",
+      "name": "Multiple regression in matrix form"
+    },
+    {
+      "id": "ma-regression-analysis-7",
+      "name": "Inference for regression coefficients"
+    },
+    {
+      "id": "ma-regression-analysis-8",
+      "name": "Diagnostics, residuals and influential points"
+    },
+    {
+      "id": "ma-regression-analysis-9",
+      "name": "Model selection and regularisation"
+    },
+    {
+      "id": "ma-regression-analysis-2",
+      "name": "Nonlinear regression"
+    },
+    {
+      "id": "ma-regression-analysis-3",
+      "name": "Logistic regression"
+    },
+    {
+      "id": "ma-regression-analysis-4",
+      "name": "Generalized linear models"
+    }
+  ]
+}

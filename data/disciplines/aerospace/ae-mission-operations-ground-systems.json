@@ -1,0 +1,59 @@
+{
+  "id": "ae-mission-operations-ground-systems",
+  "name": "Mission Operations and Ground Systems",
+  "category": "Space Missions & Exploration",
+  "level": 3,
+  "priority": "important",
+  "summary": "How spacecraft are flown day to day: mission control, ground segment, planning, flight dynamics operations and anomaly response.",
+  "prerequisites": [
+    "ae-space-mission-design",
+    "ae-space-communications-link-budgets"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-mission-operations-ground-systems-1",
+      "name": "Ground segment architecture: stations, networks, control centres"
+    },
+    {
+      "id": "ae-mission-operations-ground-systems-2",
+      "name": "Mission control roles and flight rules"
+    },
+    {
+      "id": "ae-mission-operations-ground-systems-3",
+      "name": "Launch and early orbit phase (LEOP) and commissioning"
+    },
+    {
+      "id": "ae-mission-operations-ground-systems-4",
+      "name": "Operations planning, scheduling and command generation"
+    },
+    {
+      "id": "ae-mission-operations-ground-systems-5",
+      "name": "Telemetry monitoring, limits and trending"
+    },
+    {
+      "id": "ae-mission-operations-ground-systems-6",
+      "name": "Flight dynamics operations: orbit determination and manoeuvre planning"
+    },
+    {
+      "id": "ae-mission-operations-ground-systems-7",
+      "name": "Anomaly detection, investigation and recovery"
+    },
+    {
+      "id": "ae-mission-operations-ground-systems-8",
+      "name": "Operations automation and lights-out operations"
+    },
+    {
+      "id": "ae-mission-operations-ground-systems-9",
+      "name": "Payload data processing and distribution"
+    },
+    {
+      "id": "ae-mission-operations-ground-systems-10",
+      "name": "Operations for crewed missions"
+    },
+    {
+      "id": "ae-mission-operations-ground-systems-11",
+      "name": "Decommissioning and disposal operations"
+    }
+  ]
+}

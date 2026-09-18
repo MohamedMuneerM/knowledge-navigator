@@ -1,0 +1,57 @@
+{
+  "id": "el-power-system-operation",
+  "name": "Power System Operation, Planning & Markets",
+  "category": "Electrical Machines & Power Systems",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How grids are operated and planned: control centres, state estimation, unit commitment, reserves, electricity markets and reliability.",
+  "prerequisites": [
+    "el-power-flow-analysis"
+  ],
+  "related": [
+    "ma-integer-programming",
+    "ma-operations-research"
+  ],
+  "topics": [
+    {
+      "id": "el-power-system-operation-1",
+      "name": "SCADA, EMS and control-centre operations"
+    },
+    {
+      "id": "el-power-system-operation-2",
+      "name": "State estimation"
+    },
+    {
+      "id": "el-power-system-operation-3",
+      "name": "Unit commitment"
+    },
+    {
+      "id": "el-power-system-operation-4",
+      "name": "Reserves and ancillary services"
+    },
+    {
+      "id": "el-power-system-operation-5",
+      "name": "Electricity markets: day-ahead, real-time and locational marginal prices"
+    },
+    {
+      "id": "el-power-system-operation-6",
+      "name": "Security-constrained economic dispatch"
+    },
+    {
+      "id": "el-power-system-operation-7",
+      "name": "Generation and transmission expansion planning"
+    },
+    {
+      "id": "el-power-system-operation-8",
+      "name": "Reliability indices (LOLE, SAIDI, SAIFI)"
+    },
+    {
+      "id": "el-power-system-operation-9",
+      "name": "Demand response programmes"
+    },
+    {
+      "id": "el-power-system-operation-10",
+      "name": "Power-grid cyber security (NERC CIP)"
+    }
+  ]
+}

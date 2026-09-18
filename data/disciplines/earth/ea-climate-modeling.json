@@ -1,0 +1,50 @@
+{
+  "id": "ea-climate-modeling",
+  "name": "Climate & Earth System Modelling",
+  "category": "Climate Science & Paleoclimate",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How global climate and Earth system models are built, evaluated and used for scenarios and projections.",
+  "prerequisites": [
+    "ea-climate-dynamics",
+    "ma-numerical-solutions-of-pdes"
+  ],
+  "related": [
+    "ma-geophysical-environmental-mathematics",
+    "cs-high-performance-computing"
+  ],
+  "topics": [
+    {
+      "id": "ea-climate-modeling-1",
+      "name": "Model hierarchy: from box models to Earth system models"
+    },
+    {
+      "id": "ea-climate-modeling-2",
+      "name": "Atmosphere, ocean, land and sea-ice components and coupling"
+    },
+    {
+      "id": "ea-climate-modeling-3",
+      "name": "Parameterisation and tuning"
+    },
+    {
+      "id": "ea-climate-modeling-4",
+      "name": "Model intercomparison projects (CMIP) and evaluation"
+    },
+    {
+      "id": "ea-climate-modeling-5",
+      "name": "Emissions scenarios and Shared Socioeconomic Pathways"
+    },
+    {
+      "id": "ea-climate-modeling-6",
+      "name": "Regional downscaling"
+    },
+    {
+      "id": "ea-climate-modeling-7",
+      "name": "Uncertainty: scenario, model and internal variability"
+    },
+    {
+      "id": "ea-climate-modeling-8",
+      "name": "Machine learning in climate modelling"
+    }
+  ]
+}

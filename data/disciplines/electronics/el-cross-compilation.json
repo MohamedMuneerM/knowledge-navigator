@@ -1,0 +1,46 @@
+{
+  "id": "el-cross-compilation",
+  "name": "Cross-Compilation",
+  "category": "Embedded Development Practices & Debugging",
+  "level": 3,
+  "priority": "important",
+  "summary": "Building code for a different target: GCC/Clang/IAR/Keil toolchains, sysroots, target selection and QEMU emulation.",
+  "prerequisites": [
+    "el-build-systems"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-cross-compilation-1",
+      "name": "Toolchains (GCC, Clang/LLVM, IAR, Keil)"
+    },
+    {
+      "id": "el-cross-compilation-2",
+      "name": "Target architecture selection"
+    },
+    {
+      "id": "el-cross-compilation-3",
+      "name": "Sysroot and cross-compiling libraries"
+    },
+    {
+      "id": "el-cross-compilation-4",
+      "name": "qemu for emulation"
+    },
+    {
+      "id": "el-cross-compilation-5",
+      "name": "Toolchain components: compiler, assembler, linker and C library"
+    },
+    {
+      "id": "el-cross-compilation-6",
+      "name": "Building toolchains and SDKs (crosstool-NG, vendor SDKs)"
+    },
+    {
+      "id": "el-cross-compilation-7",
+      "name": "Linker scripts, map files and binary formats (ELF, HEX, BIN)"
+    },
+    {
+      "id": "el-cross-compilation-8",
+      "name": "Running and debugging cross-compiled code on target"
+    }
+  ]
+}

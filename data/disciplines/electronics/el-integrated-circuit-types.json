@@ -1,0 +1,38 @@
+{
+  "id": "el-integrated-circuit-types",
+  "name": "Integrated Circuit Types",
+  "category": "FPGA, ASIC & VLSI Design",
+  "level": 2,
+  "priority": "important",
+  "summary": "An overview of the kinds of integrated circuits: digital, analog, mixed-signal, power management, ASICs and ASSPs.",
+  "prerequisites": [
+    "el-active-components"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-integrated-circuit-types-1",
+      "name": "Digital ICs (logic gates, registers, counters, ALUs)"
+    },
+    {
+      "id": "el-integrated-circuit-types-2",
+      "name": "Analog ICs (op-amps, comparators, voltage regulators)"
+    },
+    {
+      "id": "el-integrated-circuit-types-3",
+      "name": "Mixed-signal ICs (ADC, DAC, codec)"
+    },
+    {
+      "id": "el-integrated-circuit-types-4",
+      "name": "Power management ICs (PMIC)"
+    },
+    {
+      "id": "el-integrated-circuit-types-5",
+      "name": "Application-Specific ICs (ASIC)"
+    },
+    {
+      "id": "el-integrated-circuit-types-6",
+      "name": "Application-Specific Standard Products (ASSP)"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "mt-impact-protective-materials",
+  "name": "Impact-Resistant & Protective Materials",
+  "category": "Lightweight & Protective Structures",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Explains, at a conceptual materials-science level, how materials absorb impact and resist penetration, as used in helmets, body protection and vehicle and spacecraft shielding.",
+  "prerequisites": [
+    "mt-fracture-mechanics",
+    "mt-composites",
+    "mt-ceramics",
+    "me-dynamics"
+  ],
+  "related": [
+    "me-finite-element-analysis"
+  ],
+  "topics": [
+    {
+      "id": "mt-impact-protective-materials-1",
+      "name": "Material behaviour at high strain rates; strain-rate sensitivity"
+    },
+    {
+      "id": "mt-impact-protective-materials-2",
+      "name": "High-rate testing: split-Hopkinson (Kolsky) bar and drop-weight testing"
+    },
+    {
+      "id": "mt-impact-protective-materials-3",
+      "name": "Stress waves, shock waves and the Hugoniot (conceptual)"
+    },
+    {
+      "id": "mt-impact-protective-materials-4",
+      "name": "Adiabatic shear banding and spall"
+    },
+    {
+      "id": "mt-impact-protective-materials-5",
+      "name": "Energy absorption: crushable foams, honeycombs and crash structures"
+    },
+    {
+      "id": "mt-impact-protective-materials-6",
+      "name": "High-performance fibres and fabrics: aramid, UHMWPE and their energy-absorption mechanisms"
+    },
+    {
+      "id": "mt-impact-protective-materials-7",
+      "name": "Ceramics under impact: comminution, dwell and the role of backing layers"
+    },
+    {
+      "id": "mt-impact-protective-materials-8",
+      "name": "Layered and graded protective systems (conceptual design principles)"
+    },
+    {
+      "id": "mt-impact-protective-materials-9",
+      "name": "Transparent protective materials: laminated glass, polycarbonate, spinel and ALON"
+    },
+    {
+      "id": "mt-impact-protective-materials-10",
+      "name": "Shear-thickening fluids and impact-hardening materials"
+    },
+    {
+      "id": "mt-impact-protective-materials-11",
+      "name": "Head protection materials and injury criteria for helmets"
+    },
+    {
+      "id": "mt-impact-protective-materials-12",
+      "name": "Constitutive and damage models for impact (Johnson-Cook, Johnson-Holmquist)"
+    },
+    {
+      "id": "mt-impact-protective-materials-13",
+      "name": "Standards and test methods for protective equipment"
+    }
+  ]
+}

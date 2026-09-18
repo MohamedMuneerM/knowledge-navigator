@@ -1,0 +1,39 @@
+{
+  "id": "ai-generative-ai-frontiers",
+  "name": "Generative AI Frontiers",
+  "category": "Emerging & Frontier Fields",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Research frontiers in generation: 3D and 4D generation, neural rendering, controllable, multimodal and interactive generation.",
+  "prerequisites": [
+    "ai-cross-modal-generation",
+    "ai-3d-computer-vision"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-generative-ai-frontiers-1",
+      "name": "3D Generative AI"
+    },
+    {
+      "id": "ai-generative-ai-frontiers-2",
+      "name": "4D Generation (3D + Time)"
+    },
+    {
+      "id": "ai-generative-ai-frontiers-3",
+      "name": "Neural Rendering"
+    },
+    {
+      "id": "ai-generative-ai-frontiers-4",
+      "name": "Controllable Generation"
+    },
+    {
+      "id": "ai-generative-ai-frontiers-5",
+      "name": "Multi-Modal Generation"
+    },
+    {
+      "id": "ai-generative-ai-frontiers-6",
+      "name": "Interactive Generation"
+    }
+  ]
+}

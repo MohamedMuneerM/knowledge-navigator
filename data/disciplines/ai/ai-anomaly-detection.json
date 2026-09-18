@@ -1,0 +1,65 @@
+{
+  "id": "ai-anomaly-detection",
+  "name": "Anomaly Detection",
+  "category": "Applied ML Problem Domains",
+  "level": 3,
+  "priority": "important",
+  "summary": "Finding rare, unusual observations such as fraud, faults and intrusions with statistical, distance-, density-, isolation- and deep-learning-based detectors.",
+  "prerequisites": [
+    "ai-types-of-machine-learning"
+  ],
+  "related": [
+    "ai-types-of-machine-learning",
+    "ai-data-mining"
+  ],
+  "topics": [
+    {
+      "id": "ai-anomaly-detection-1",
+      "name": "Types of anomalies (point, contextual, collective) and problem settings"
+    },
+    {
+      "id": "ai-anomaly-detection-2",
+      "name": "Statistical methods: z-scores, robust statistics, extreme value theory"
+    },
+    {
+      "id": "ai-anomaly-detection-3",
+      "name": "Distance- and density-based methods: kNN and Local Outlier Factor"
+    },
+    {
+      "id": "ai-anomaly-detection-4",
+      "name": "Isolation-based methods: Isolation Forest"
+    },
+    {
+      "id": "ai-anomaly-detection-5",
+      "name": "One-class methods: One-class SVM, SVDD and Deep SVDD"
+    },
+    {
+      "id": "ai-anomaly-detection-6",
+      "name": "Reconstruction-based methods: PCA and autoencoders"
+    },
+    {
+      "id": "ai-anomaly-detection-7",
+      "name": "Time-series anomaly and change detection"
+    },
+    {
+      "id": "ai-anomaly-detection-8",
+      "name": "Visual anomaly detection for industrial inspection"
+    },
+    {
+      "id": "ai-anomaly-detection-9",
+      "name": "Graph and network anomaly detection"
+    },
+    {
+      "id": "ai-anomaly-detection-10",
+      "name": "Evaluation with rare labels: PR-AUC, precision at k"
+    },
+    {
+      "id": "ai-anomaly-detection-11",
+      "name": "Applications: fraud, intrusion detection, predictive maintenance"
+    },
+    {
+      "id": "ai-anomaly-detection-12",
+      "name": "Alert triage, human-in-the-loop feedback and drift"
+    }
+  ]
+}

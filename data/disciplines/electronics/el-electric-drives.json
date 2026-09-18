@@ -1,0 +1,58 @@
+{
+  "id": "el-electric-drives",
+  "name": "Electric Drives",
+  "category": "Electrical Machines & Power Systems",
+  "level": 4,
+  "priority": "important",
+  "summary": "Controlling motors with power electronics: DC drives, V/f and vector control of AC machines, DTC, sensorless and traction drives.",
+  "prerequisites": [
+    "el-electrical-machines",
+    "el-dc-ac-conversion-inverters"
+  ],
+  "related": [
+    "el-motor-control",
+    "el-electric-vehicle-ev-systems"
+  ],
+  "topics": [
+    {
+      "id": "el-electric-drives-1",
+      "name": "Drive system elements, load dynamics and four-quadrant operation"
+    },
+    {
+      "id": "el-electric-drives-2",
+      "name": "DC motor drives (choppers and phase-controlled rectifiers)"
+    },
+    {
+      "id": "el-electric-drives-3",
+      "name": "Scalar V/f control of induction motors"
+    },
+    {
+      "id": "el-electric-drives-4",
+      "name": "Field-oriented (vector) control"
+    },
+    {
+      "id": "el-electric-drives-5",
+      "name": "Direct torque control"
+    },
+    {
+      "id": "el-electric-drives-6",
+      "name": "PMSM and BLDC drives"
+    },
+    {
+      "id": "el-electric-drives-7",
+      "name": "Sensorless control techniques"
+    },
+    {
+      "id": "el-electric-drives-8",
+      "name": "Regenerative braking"
+    },
+    {
+      "id": "el-electric-drives-9",
+      "name": "Variable-frequency drive applications and efficiency standards"
+    },
+    {
+      "id": "el-electric-drives-10",
+      "name": "Traction drives for EVs and rail"
+    }
+  ]
+}

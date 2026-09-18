@@ -1,0 +1,57 @@
+{
+  "id": "ai-automl-neural-architecture-search",
+  "name": "AutoML & Neural Architecture Search",
+  "category": "Machine Learning Foundations",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Automating model building: hyperparameter optimization, automated feature engineering, AutoML systems and neural architecture search.",
+  "prerequisites": [
+    "ai-ml-experimentation-evaluation",
+    "ai-neural-network-foundations"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-automl-neural-architecture-search-1",
+      "name": "Automated Machine Learning (AutoML)"
+    },
+    {
+      "id": "ai-automl-neural-architecture-search-2",
+      "name": "Hyperparameter Optimization",
+      "sub": [
+        {
+          "id": "ai-automl-neural-architecture-search-2-1",
+          "name": "Grid search"
+        },
+        {
+          "id": "ai-automl-neural-architecture-search-2-2",
+          "name": "Random search"
+        },
+        {
+          "id": "ai-automl-neural-architecture-search-2-3",
+          "name": "Bayesian optimization"
+        },
+        {
+          "id": "ai-automl-neural-architecture-search-2-4",
+          "name": "Hyperband"
+        }
+      ]
+    },
+    {
+      "id": "ai-automl-neural-architecture-search-3",
+      "name": "Neural Architecture Search (NAS)"
+    },
+    {
+      "id": "ai-automl-neural-architecture-search-4",
+      "name": "Auto-sklearn, Auto-Keras, etc."
+    },
+    {
+      "id": "ai-automl-neural-architecture-search-5",
+      "name": "Automated feature engineering"
+    },
+    {
+      "id": "ai-automl-neural-architecture-search-6",
+      "name": "One-shot and differentiable NAS (DARTS)"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "el-memory-devices",
+  "name": "Memory Devices",
+  "category": "Digital Electronics",
+  "level": 2,
+  "priority": "important",
+  "summary": "How SRAM, DRAM/DDR, ROM, EEPROM, flash, FRAM and MRAM store data, and how memory controllers interface to them.",
+  "prerequisites": [
+    "el-sequential-logic"
+  ],
+  "related": [
+    "cs-computer-architecture"
+  ],
+  "topics": [
+    {
+      "id": "el-memory-devices-1",
+      "name": "SRAM (Static RAM)"
+    },
+    {
+      "id": "el-memory-devices-2",
+      "name": "DRAM (Dynamic RAM) - DDR, DDR2, DDR3, DDR4, DDR5"
+    },
+    {
+      "id": "el-memory-devices-3",
+      "name": "ROM, PROM, EPROM, EEPROM"
+    },
+    {
+      "id": "el-memory-devices-4",
+      "name": "Flash memory (NOR, NAND)"
+    },
+    {
+      "id": "el-memory-devices-5",
+      "name": "FRAM (Ferroelectric RAM)"
+    },
+    {
+      "id": "el-memory-devices-6",
+      "name": "MRAM (Magnetoresistive RAM)"
+    },
+    {
+      "id": "el-memory-devices-7",
+      "name": "Memory controllers and interfaces"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ch-thermochemistry",
+  "name": "Thermochemistry & Chemical Energetics",
+  "category": "General Chemistry",
+  "level": 2,
+  "priority": "core",
+  "summary": "Energy changes in chemical reactions and the first look at entropy and free energy.",
+  "prerequisites": [
+    "ch-states-of-matter-solutions"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-thermochemistry-1",
+      "name": "Energy, heat, work and the first law of thermodynamics"
+    },
+    {
+      "id": "ch-thermochemistry-2",
+      "name": "Internal energy vs enthalpy; state functions"
+    },
+    {
+      "id": "ch-thermochemistry-3",
+      "name": "Calorimetry: heat capacity, coffee-cup and bomb calorimetry"
+    },
+    {
+      "id": "ch-thermochemistry-4",
+      "name": "Hess's law and standard enthalpies of formation"
+    },
+    {
+      "id": "ch-thermochemistry-5",
+      "name": "Bond enthalpies and estimating reaction enthalpies"
+    },
+    {
+      "id": "ch-thermochemistry-6",
+      "name": "Enthalpy of combustion and the energy content of fuels and foods"
+    },
+    {
+      "id": "ch-thermochemistry-7",
+      "name": "Entropy and the second law (introductory)"
+    },
+    {
+      "id": "ch-thermochemistry-8",
+      "name": "Gibbs free energy and spontaneity"
+    },
+    {
+      "id": "ch-thermochemistry-9",
+      "name": "Temperature dependence of spontaneity"
+    },
+    {
+      "id": "ch-thermochemistry-10",
+      "name": "Free energy and the equilibrium constant (preview)"
+    }
+  ]
+}

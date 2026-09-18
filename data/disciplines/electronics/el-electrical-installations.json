@@ -1,0 +1,58 @@
+{
+  "id": "el-electrical-installations",
+  "name": "Electrical Installations, Earthing & Safety",
+  "category": "Electrical Machines & Power Systems",
+  "level": 2,
+  "priority": "important",
+  "summary": "Low-voltage building wiring done safely: earthing systems, protective devices, cable sizing, wiring regulations and safe working practice.",
+  "prerequisites": [
+    "el-ac-circuits-power"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-electrical-installations-1",
+      "name": "Effects of current on the body, shock and arc-flash hazards"
+    },
+    {
+      "id": "el-electrical-installations-2",
+      "name": "Wiring regulations overview (IEC 60364, BS 7671, NEC)"
+    },
+    {
+      "id": "el-electrical-installations-3",
+      "name": "Earthing systems: TN-S, TN-C-S, TT and IT"
+    },
+    {
+      "id": "el-electrical-installations-4",
+      "name": "Overcurrent protection: fuses, MCBs, MCCBs and discrimination"
+    },
+    {
+      "id": "el-electrical-installations-5",
+      "name": "Residual-current devices (RCD/GFCI) and fault-loop impedance"
+    },
+    {
+      "id": "el-electrical-installations-6",
+      "name": "Cable sizing: ampacity, voltage drop and derating"
+    },
+    {
+      "id": "el-electrical-installations-7",
+      "name": "Final circuits, distribution boards and consumer units"
+    },
+    {
+      "id": "el-electrical-installations-8",
+      "name": "Motor circuits and starters"
+    },
+    {
+      "id": "el-electrical-installations-9",
+      "name": "Lightning protection and surge protective devices"
+    },
+    {
+      "id": "el-electrical-installations-10",
+      "name": "Inspection, testing and certification of installations"
+    },
+    {
+      "id": "el-electrical-installations-11",
+      "name": "Safe isolation, lockout/tagout and NFPA 70E"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "bi-neurotechnology-methods",
+  "name": "Neural Recording, Imaging & Stimulation",
+  "category": "Neuroscience",
+  "level": 4,
+  "priority": "important",
+  "summary": "The tools for reading and writing brain activity (electrodes, EEG, imaging, optogenetics, stimulation) that underpin neuroscience and brain-computer interfaces.",
+  "prerequisites": [
+    "bi-cellular-molecular-neuroscience",
+    "ma-signal-processing"
+  ],
+  "related": [
+    "el-biomedical-signal-processing",
+    "el-bio-integrated-electronics",
+    "ph-medical-physics"
+  ],
+  "topics": [
+    {
+      "id": "bi-neurotechnology-methods-1",
+      "name": "Electrophysiology fundamentals: patch clamp and intracellular recording"
+    },
+    {
+      "id": "bi-neurotechnology-methods-2",
+      "name": "Extracellular recording, microelectrode arrays and high-density probes"
+    },
+    {
+      "id": "bi-neurotechnology-methods-3",
+      "name": "Spike detection and spike sorting"
+    },
+    {
+      "id": "bi-neurotechnology-methods-4",
+      "name": "Local field potentials, ECoG and intracranial EEG"
+    },
+    {
+      "id": "bi-neurotechnology-methods-5",
+      "name": "Scalp EEG and MEG: sources, artefacts and preprocessing"
+    },
+    {
+      "id": "bi-neurotechnology-methods-6",
+      "name": "Functional imaging: fMRI BOLD and fNIRS"
+    },
+    {
+      "id": "bi-neurotechnology-methods-7",
+      "name": "Optical methods: calcium and voltage imaging, two-photon microscopy"
+    },
+    {
+      "id": "bi-neurotechnology-methods-8",
+      "name": "Optogenetics and chemogenetics"
+    },
+    {
+      "id": "bi-neurotechnology-methods-9",
+      "name": "Electrical stimulation: DBS, TMS, tDCS and intracortical microstimulation"
+    },
+    {
+      "id": "bi-neurotechnology-methods-10",
+      "name": "Electrode-tissue interface: biocompatibility, gliosis and signal longevity"
+    },
+    {
+      "id": "bi-neurotechnology-methods-11",
+      "name": "Neural data analysis pipelines"
+    }
+  ]
+}

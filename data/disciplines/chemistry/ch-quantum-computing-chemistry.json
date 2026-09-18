@@ -1,0 +1,41 @@
+{
+  "id": "ch-quantum-computing-chemistry",
+  "name": "Quantum Computing for Chemistry",
+  "category": "Frontiers of Chemistry",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Algorithms for solving electronic-structure and dynamics problems on quantum computers, and their current limits.",
+  "prerequisites": [
+    "ch-electronic-structure-theory",
+    "ph-quantum-information-science"
+  ],
+  "related": [
+    "ma-quantum-computation-theory"
+  ],
+  "topics": [
+    {
+      "id": "ch-quantum-computing-chemistry-1",
+      "name": "Mapping electronic structure to qubits (Jordan-Wigner, Bravyi-Kitaev)"
+    },
+    {
+      "id": "ch-quantum-computing-chemistry-2",
+      "name": "The variational quantum eigensolver"
+    },
+    {
+      "id": "ch-quantum-computing-chemistry-3",
+      "name": "Quantum phase estimation"
+    },
+    {
+      "id": "ch-quantum-computing-chemistry-4",
+      "name": "Resource estimates and fault-tolerant algorithms"
+    },
+    {
+      "id": "ch-quantum-computing-chemistry-5",
+      "name": "Quantum simulation of chemical dynamics"
+    },
+    {
+      "id": "ch-quantum-computing-chemistry-6",
+      "name": "Near-term benchmarks and limitations"
+    }
+  ]
+}

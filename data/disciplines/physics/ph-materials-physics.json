@@ -1,0 +1,81 @@
+{
+  "id": "ph-materials-physics",
+  "name": "Materials Physics",
+  "category": "Condensed Matter Physics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "The physics behind engineered materials: thin films, alloys, glasses, 2D materials and metamaterials.",
+  "prerequisites": [
+    "ph-solid-state-physics"
+  ],
+  "related": [
+    "ph-nanoscience-nanotechnology",
+    "ch-solid-state-chemistry",
+    "ch-high-performance-materials",
+    "el-electrical-materials"
+  ],
+  "topics": [
+    {
+      "id": "ph-materials-physics-1",
+      "name": "Nanomaterials"
+    },
+    {
+      "id": "ph-materials-physics-2",
+      "name": "Metamaterials",
+      "sub": [
+        {
+          "id": "ph-materials-physics-2-1",
+          "name": "Metasurfaces"
+        },
+        {
+          "id": "ph-materials-physics-2-2",
+          "name": "Active and tunable metamaterials"
+        },
+        {
+          "id": "ph-materials-physics-2-3",
+          "name": "Electromagnetic metamaterials"
+        },
+        {
+          "id": "ph-materials-physics-2-4",
+          "name": "2D metamaterials"
+        }
+      ]
+    },
+    {
+      "id": "ph-materials-physics-3",
+      "name": "Thin films"
+    },
+    {
+      "id": "ph-materials-physics-4",
+      "name": "Alloys"
+    },
+    {
+      "id": "ph-materials-physics-5",
+      "name": "Ceramics"
+    },
+    {
+      "id": "ph-materials-physics-6",
+      "name": "Composites"
+    },
+    {
+      "id": "ph-materials-physics-7",
+      "name": "Graphene and 2D materials"
+    },
+    {
+      "id": "ph-materials-physics-8",
+      "name": "Phase transitions and critical phenomena"
+    },
+    {
+      "id": "ph-materials-physics-9",
+      "name": "Glass and glass transition"
+    },
+    {
+      "id": "ph-materials-physics-10",
+      "name": "Amorphous materials"
+    },
+    {
+      "id": "ph-materials-physics-11",
+      "name": "Smart materials (piezoelectric, shape memory)"
+    }
+  ]
+}

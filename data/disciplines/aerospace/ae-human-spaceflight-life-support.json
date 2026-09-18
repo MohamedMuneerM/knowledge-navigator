@@ -1,0 +1,67 @@
+{
+  "id": "ae-human-spaceflight-life-support",
+  "name": "Human Spaceflight and Life Support",
+  "category": "Space Missions & Exploration",
+  "level": 4,
+  "priority": "important",
+  "summary": "Keeping humans alive and productive in space: physiology, life support, habitats, spacesuits, human rating and crew safety.",
+  "prerequisites": [
+    "ae-space-mission-design",
+    "bi-human-physiology"
+  ],
+  "related": [
+    "ph-medical-physics",
+    "bi-space-physiology",
+    "bi-bioregenerative-life-support"
+  ],
+  "topics": [
+    {
+      "id": "ae-human-spaceflight-life-support-1",
+      "name": "Human physiology in space: bone and muscle loss, fluid shifts, vision"
+    },
+    {
+      "id": "ae-human-spaceflight-life-support-2",
+      "name": "Space radiation risk to crews"
+    },
+    {
+      "id": "ae-human-spaceflight-life-support-3",
+      "name": "Environmental control and life support systems (ECLSS)"
+    },
+    {
+      "id": "ae-human-spaceflight-life-support-4",
+      "name": "Atmosphere revitalisation and CO2 removal"
+    },
+    {
+      "id": "ae-human-spaceflight-life-support-5",
+      "name": "Water recovery and waste management"
+    },
+    {
+      "id": "ae-human-spaceflight-life-support-6",
+      "name": "Food, habitability and psychological factors"
+    },
+    {
+      "id": "ae-human-spaceflight-life-support-7",
+      "name": "Spacesuits and extravehicular activity"
+    },
+    {
+      "id": "ae-human-spaceflight-life-support-8",
+      "name": "Crew vehicle design: capsules and launch abort systems"
+    },
+    {
+      "id": "ae-human-spaceflight-life-support-9",
+      "name": "Human-rating requirements (NASA-STD-3001 and human-rating certification)"
+    },
+    {
+      "id": "ae-human-spaceflight-life-support-10",
+      "name": "Space stations and long-duration habitats"
+    },
+    {
+      "id": "ae-human-spaceflight-life-support-11",
+      "name": "Crew health, medical care and countermeasures"
+    },
+    {
+      "id": "ae-human-spaceflight-life-support-12",
+      "name": "Human missions to the Moon and Mars"
+    }
+  ]
+}

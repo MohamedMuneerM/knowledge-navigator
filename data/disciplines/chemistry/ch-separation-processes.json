@@ -1,0 +1,55 @@
+{
+  "id": "ch-separation-processes",
+  "name": "Separation Processes & Unit Operations",
+  "category": "Chemical Engineering Fundamentals",
+  "level": 3,
+  "priority": "important",
+  "summary": "Phase-equilibrium-based and mechanical unit operations used to purify products at industrial scale.",
+  "prerequisites": [
+    "ch-material-energy-balances",
+    "ch-chemical-thermodynamics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-separation-processes-1",
+      "name": "Vapor-liquid equilibrium: activity-coefficient models (NRTL, UNIFAC) and equations of state"
+    },
+    {
+      "id": "ch-separation-processes-2",
+      "name": "Equilibrium stages and flash calculations"
+    },
+    {
+      "id": "ch-separation-processes-3",
+      "name": "Distillation: McCabe-Thiele method, reflux and column design"
+    },
+    {
+      "id": "ch-separation-processes-4",
+      "name": "Gas absorption and stripping"
+    },
+    {
+      "id": "ch-separation-processes-5",
+      "name": "Liquid-liquid extraction and leaching"
+    },
+    {
+      "id": "ch-separation-processes-6",
+      "name": "Adsorption and ion-exchange processes"
+    },
+    {
+      "id": "ch-separation-processes-7",
+      "name": "Membrane separations"
+    },
+    {
+      "id": "ch-separation-processes-8",
+      "name": "Crystallization, evaporation and drying"
+    },
+    {
+      "id": "ch-separation-processes-9",
+      "name": "Mechanical separations: filtration, centrifugation and sedimentation"
+    },
+    {
+      "id": "ch-separation-processes-10",
+      "name": "Heat exchangers and process heat integration"
+    }
+  ]
+}

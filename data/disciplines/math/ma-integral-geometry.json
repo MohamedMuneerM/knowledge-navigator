@@ -1,0 +1,39 @@
+{
+  "id": "ma-integral-geometry",
+  "name": "Integral Geometry",
+  "category": "Geometry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Invariant measures on sets of lines and planes: Buffon's needle, Crofton formulas, kinematic formulas and the Radon transform behind CT scanning.",
+  "prerequisites": [
+    "ma-measure-theory-integration",
+    "ma-convex-geometry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-integral-geometry-1",
+      "name": "Invariant measures on spaces of lines and planes"
+    },
+    {
+      "id": "ma-integral-geometry-2",
+      "name": "Buffon's needle problem and geometric probability"
+    },
+    {
+      "id": "ma-integral-geometry-3",
+      "name": "Crofton formulas and Cauchy's surface area formula"
+    },
+    {
+      "id": "ma-integral-geometry-4",
+      "name": "Intrinsic volumes and Hadwiger's theorem"
+    },
+    {
+      "id": "ma-integral-geometry-5",
+      "name": "Kinematic formulas"
+    },
+    {
+      "id": "ma-integral-geometry-6",
+      "name": "The Radon transform and its inversion; tomography"
+    }
+  ]
+}

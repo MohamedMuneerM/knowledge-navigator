@@ -1,0 +1,44 @@
+{
+  "id": "ai-information-theory",
+  "name": "Information Theory",
+  "category": "Theory of Machine Learning",
+  "level": 3,
+  "priority": "important",
+  "summary": "Information-theoretic tools used throughout ML: entropy, mutual information, KL divergence, cross-entropy, rate-distortion, information bottleneck and MDL.",
+  "prerequisites": [
+    "ma-probability-theory"
+  ],
+  "related": [
+    "ma-information-theory"
+  ],
+  "topics": [
+    {
+      "id": "ai-information-theory-1",
+      "name": "Entropy"
+    },
+    {
+      "id": "ai-information-theory-2",
+      "name": "Mutual Information"
+    },
+    {
+      "id": "ai-information-theory-3",
+      "name": "KL Divergence"
+    },
+    {
+      "id": "ai-information-theory-4",
+      "name": "Cross-Entropy"
+    },
+    {
+      "id": "ai-information-theory-5",
+      "name": "Rate-Distortion Theory"
+    },
+    {
+      "id": "ai-information-theory-6",
+      "name": "Information Bottleneck"
+    },
+    {
+      "id": "ai-information-theory-7",
+      "name": "Minimum Description Length"
+    }
+  ]
+}

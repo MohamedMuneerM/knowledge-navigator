@@ -1,0 +1,41 @@
+{
+  "id": "el-object-detection-recognition",
+  "name": "Object Detection & Recognition",
+  "category": "Machine Learning & Edge AI",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Detecting and recognizing objects, faces and poses with classical and deep-learning methods (HOG, YOLO, SSD, segmentation).",
+  "prerequisites": [
+    "el-feature-detection-matching",
+    "ai-convolutional-neural-networks-cnns"
+  ],
+  "related": [
+    "ai-core-vision-tasks"
+  ],
+  "topics": [
+    {
+      "id": "el-object-detection-recognition-1",
+      "name": "Classical methods (HOG, Haar cascades)"
+    },
+    {
+      "id": "el-object-detection-recognition-2",
+      "name": "Deep learning models (YOLO, SSD, Faster R-CNN)"
+    },
+    {
+      "id": "el-object-detection-recognition-3",
+      "name": "Face detection and recognition"
+    },
+    {
+      "id": "el-object-detection-recognition-4",
+      "name": "Pose estimation"
+    },
+    {
+      "id": "el-object-detection-recognition-5",
+      "name": "Semantic segmentation"
+    },
+    {
+      "id": "el-object-detection-recognition-6",
+      "name": "Instance segmentation"
+    }
+  ]
+}

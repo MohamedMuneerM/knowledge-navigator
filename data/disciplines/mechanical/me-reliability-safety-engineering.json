@@ -1,0 +1,67 @@
+{
+  "id": "me-reliability-safety-engineering",
+  "name": "Reliability, Safety & Risk Engineering",
+  "category": "Design Methodology, Product Development & Reliability",
+  "level": 3,
+  "priority": "important",
+  "summary": "Quantifying and improving how long machines last and how safely they fail: life data analysis, FMEA, fault trees, testing and machinery safety standards.",
+  "prerequisites": [
+    "me-machine-design-fundamentals",
+    "ma-probability-theory"
+  ],
+  "related": [
+    "el-reliability-testing",
+    "el-reliability-fault-tolerance",
+    "ae-aerospace-safety-reliability"
+  ],
+  "topics": [
+    {
+      "id": "me-reliability-safety-engineering-1",
+      "name": "Reliability concepts: failure rate, MTTF/MTBF and the bathtub curve"
+    },
+    {
+      "id": "me-reliability-safety-engineering-2",
+      "name": "Life distributions (exponential, Weibull, lognormal) and Weibull analysis of test data"
+    },
+    {
+      "id": "me-reliability-safety-engineering-3",
+      "name": "System reliability: series, parallel, k-out-of-n and redundancy"
+    },
+    {
+      "id": "me-reliability-safety-engineering-4",
+      "name": "Stress-strength interference and probabilistic design"
+    },
+    {
+      "id": "me-reliability-safety-engineering-5",
+      "name": "Failure mode and effects analysis (FMEA/FMECA)"
+    },
+    {
+      "id": "me-reliability-safety-engineering-6",
+      "name": "Fault tree and event tree analysis"
+    },
+    {
+      "id": "me-reliability-safety-engineering-7",
+      "name": "Reliability testing: accelerated life testing, HALT/HASS, reliability growth"
+    },
+    {
+      "id": "me-reliability-safety-engineering-8",
+      "name": "Maintainability, availability and reliability-centred maintenance"
+    },
+    {
+      "id": "me-reliability-safety-engineering-9",
+      "name": "Prognostics and health management"
+    },
+    {
+      "id": "me-reliability-safety-engineering-10",
+      "name": "Machine safety and risk assessment (ISO 12100); guarding"
+    },
+    {
+      "id": "me-reliability-safety-engineering-11",
+      "name": "Functional safety of machinery (ISO 13849, IEC 62061)"
+    },
+    {
+      "id": "me-reliability-safety-engineering-12",
+      "name": "Safety standards for robots and personal-care devices (ISO 10218, ISO 13482) and product liability"
+    }
+  ]
+}

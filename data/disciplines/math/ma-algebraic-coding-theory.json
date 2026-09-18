@@ -1,0 +1,46 @@
+{
+  "id": "ma-algebraic-coding-theory",
+  "name": "Algebraic Coding Theory",
+  "category": "Algebra",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Error-correcting codes built from finite fields and polynomial algebra, such as linear, cyclic, BCH and Reed-Solomon codes.",
+  "prerequisites": [
+    "ma-field-theory"
+  ],
+  "related": [
+    "ma-error-correcting-codes",
+    "ma-coding-theory-combinatorial-aspects",
+    "el-channel-coding"
+  ],
+  "topics": [
+    {
+      "id": "ma-algebraic-coding-theory-1",
+      "name": "Error-correcting codes"
+    },
+    {
+      "id": "ma-algebraic-coding-theory-2",
+      "name": "Linear codes"
+    },
+    {
+      "id": "ma-algebraic-coding-theory-4",
+      "name": "Finite fields for coding"
+    },
+    {
+      "id": "ma-algebraic-coding-theory-3",
+      "name": "Cyclic codes"
+    },
+    {
+      "id": "ma-algebraic-coding-theory-5",
+      "name": "BCH and Reed-Solomon codes"
+    },
+    {
+      "id": "ma-algebraic-coding-theory-6",
+      "name": "Decoding algorithms (syndrome, Berlekamp-Massey)"
+    },
+    {
+      "id": "ma-algebraic-coding-theory-7",
+      "name": "Algebraic-geometry codes (introduction)"
+    }
+  ]
+}

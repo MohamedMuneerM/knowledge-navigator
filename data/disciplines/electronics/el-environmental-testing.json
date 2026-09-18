@@ -1,0 +1,46 @@
+{
+  "id": "el-environmental-testing",
+  "name": "Environmental Testing",
+  "category": "Measurement, Testing & Validation",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Proving hardware survives its environment: temperature, humidity, vibration, shock, altitude, corrosion and ingress-protection tests.",
+  "prerequisites": [
+    "el-test-equipment"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-environmental-testing-1",
+      "name": "Temperature testing (thermal chambers)"
+    },
+    {
+      "id": "el-environmental-testing-2",
+      "name": "Humidity testing"
+    },
+    {
+      "id": "el-environmental-testing-3",
+      "name": "Vibration testing (shakers)"
+    },
+    {
+      "id": "el-environmental-testing-4",
+      "name": "Shock testing"
+    },
+    {
+      "id": "el-environmental-testing-5",
+      "name": "Altitude and pressure testing"
+    },
+    {
+      "id": "el-environmental-testing-6",
+      "name": "Salt spray and corrosion testing"
+    },
+    {
+      "id": "el-environmental-testing-7",
+      "name": "IP rating testing (ingress protection)"
+    },
+    {
+      "id": "el-environmental-testing-8",
+      "name": "Thermal cycling"
+    }
+  ]
+}

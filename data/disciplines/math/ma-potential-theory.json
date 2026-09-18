@@ -1,0 +1,43 @@
+{
+  "id": "ma-potential-theory",
+  "name": "Potential Theory",
+  "category": "Analysis",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Harmonic and subharmonic functions, Green's functions and the Dirichlet problem, the mathematics of gravitational and electric potentials.",
+  "prerequisites": [
+    "ma-partial-differential-equations-pdes",
+    "ma-measure-theory-integration"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-potential-theory-1",
+      "name": "Harmonic functions"
+    },
+    {
+      "id": "ma-potential-theory-4",
+      "name": "Mean value property and maximum principle"
+    },
+    {
+      "id": "ma-potential-theory-5",
+      "name": "Poisson integral"
+    },
+    {
+      "id": "ma-potential-theory-2",
+      "name": "Green's functions"
+    },
+    {
+      "id": "ma-potential-theory-3",
+      "name": "Dirichlet problem"
+    },
+    {
+      "id": "ma-potential-theory-6",
+      "name": "Subharmonic functions and Perron's method"
+    },
+    {
+      "id": "ma-potential-theory-7",
+      "name": "Capacity and polar sets"
+    }
+  ]
+}

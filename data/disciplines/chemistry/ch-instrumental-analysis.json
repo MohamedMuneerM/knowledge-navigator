@@ -1,0 +1,66 @@
+{
+  "id": "ch-instrumental-analysis",
+  "name": "Instrumental Analysis: Spectroscopic & Thermal Methods",
+  "category": "Analytical Chemistry & Instrumentation",
+  "level": 3,
+  "priority": "core",
+  "summary": "How analytical instruments work and how to choose and use optical, atomic, X-ray and thermal methods.",
+  "prerequisites": [
+    "ch-quantitative-analysis"
+  ],
+  "related": [
+    "ph-measurement-instrumentation",
+    "ea-analytical-methods-in-geochemistry",
+    "mt-characterization-fundamentals"
+  ],
+  "topics": [
+    {
+      "id": "ch-instrumental-analysis-1",
+      "name": "Instrument components: sources, monochromators, detectors and signal-to-noise"
+    },
+    {
+      "id": "ch-instrumental-analysis-2",
+      "name": "Signal processing: noise, filtering, Fourier transforms and lock-in amplification"
+    },
+    {
+      "id": "ch-instrumental-analysis-3",
+      "name": "UV-visible absorption spectrometry"
+    },
+    {
+      "id": "ch-instrumental-analysis-4",
+      "name": "Molecular fluorescence and luminescence"
+    },
+    {
+      "id": "ch-instrumental-analysis-5",
+      "name": "Atomic absorption and atomic emission (flame, ICP-OES)"
+    },
+    {
+      "id": "ch-instrumental-analysis-6",
+      "name": "Inductively coupled plasma mass spectrometry (ICP-MS)"
+    },
+    {
+      "id": "ch-instrumental-analysis-7",
+      "name": "Infrared (FTIR, ATR) and Raman instrumentation"
+    },
+    {
+      "id": "ch-instrumental-analysis-8",
+      "name": "X-ray fluorescence and other X-ray methods"
+    },
+    {
+      "id": "ch-instrumental-analysis-9",
+      "name": "NMR instrumentation for routine analysis"
+    },
+    {
+      "id": "ch-instrumental-analysis-10",
+      "name": "Thermal analysis: TGA, DSC and DTA"
+    },
+    {
+      "id": "ch-instrumental-analysis-11",
+      "name": "Process analytical technology and in-situ monitoring"
+    },
+    {
+      "id": "ch-instrumental-analysis-12",
+      "name": "Choosing an analytical technique for a problem"
+    }
+  ]
+}

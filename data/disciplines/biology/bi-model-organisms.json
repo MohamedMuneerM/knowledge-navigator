@@ -1,0 +1,55 @@
+{
+  "id": "bi-model-organisms",
+  "name": "Model Organisms & Genetic Tools",
+  "category": "Laboratory & Research Methods",
+  "level": 3,
+  "priority": "important",
+  "summary": "Why biology relies on a few model organisms, and the genetic tools that make each of them powerful.",
+  "prerequisites": [
+    "bi-genetics",
+    "bi-molecular-biology-techniques"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-model-organisms-1",
+      "name": "Choosing a model organism: trade-offs and translation"
+    },
+    {
+      "id": "bi-model-organisms-2",
+      "name": "Escherichia coli and bacteriophages"
+    },
+    {
+      "id": "bi-model-organisms-3",
+      "name": "Budding and fission yeast"
+    },
+    {
+      "id": "bi-model-organisms-4",
+      "name": "Caenorhabditis elegans"
+    },
+    {
+      "id": "bi-model-organisms-5",
+      "name": "Drosophila melanogaster and the GAL4/UAS system"
+    },
+    {
+      "id": "bi-model-organisms-6",
+      "name": "Zebrafish"
+    },
+    {
+      "id": "bi-model-organisms-7",
+      "name": "Mouse genetics: knockouts, conditional alleles (Cre-lox) and transgenics"
+    },
+    {
+      "id": "bi-model-organisms-8",
+      "name": "Arabidopsis thaliana"
+    },
+    {
+      "id": "bi-model-organisms-9",
+      "name": "Emerging model organisms and organoids"
+    },
+    {
+      "id": "bi-model-organisms-10",
+      "name": "Animal research ethics, the 3Rs and welfare regulations"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "el-energy-innovations",
+  "name": "Energy Innovations",
+  "category": "Emerging & Advanced Topics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Emerging energy technologies for devices: solid-state batteries, supercapacitors, fuel cells, advanced harvesting and wireless power.",
+  "prerequisites": [
+    "el-battery-technologies",
+    "el-energy-harvesting"
+  ],
+  "related": [
+    "ph-energy-physics",
+    "ch-fuel-cells-hydrogen",
+    "mt-fuel-cell-hydrogen"
+  ],
+  "topics": [
+    {
+      "id": "el-energy-innovations-1",
+      "name": "Solid-state batteries"
+    },
+    {
+      "id": "el-energy-innovations-2",
+      "name": "Supercapacitor technology"
+    },
+    {
+      "id": "el-energy-innovations-3",
+      "name": "Hydrogen fuel cells"
+    },
+    {
+      "id": "el-energy-innovations-4",
+      "name": "Advanced energy harvesting"
+    },
+    {
+      "id": "el-energy-innovations-5",
+      "name": "Wireless power transfer (near-field, far-field)"
+    },
+    {
+      "id": "el-energy-innovations-6",
+      "name": "Kinetic energy harvesting"
+    }
+  ]
+}

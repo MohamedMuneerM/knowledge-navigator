@@ -1,0 +1,46 @@
+{
+  "id": "ai-multimodal-fusion",
+  "name": "Multimodal Fusion",
+  "category": "Multimodal AI",
+  "level": 4,
+  "priority": "important",
+  "summary": "Techniques for combining information from several modalities, from early and late fusion to cross-modal attention and multimodal transformers.",
+  "prerequisites": [
+    "ai-attention-transformers"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-multimodal-fusion-5",
+      "name": "Multimodal representations: joint versus coordinated embeddings"
+    },
+    {
+      "id": "ai-multimodal-fusion-1",
+      "name": "Early Fusion"
+    },
+    {
+      "id": "ai-multimodal-fusion-2",
+      "name": "Late Fusion"
+    },
+    {
+      "id": "ai-multimodal-fusion-3",
+      "name": "Cross-modal Attention"
+    },
+    {
+      "id": "ai-multimodal-fusion-4",
+      "name": "Multimodal Transformers"
+    },
+    {
+      "id": "ai-multimodal-fusion-6",
+      "name": "Cross-modal alignment"
+    },
+    {
+      "id": "ai-multimodal-fusion-7",
+      "name": "Handling missing modalities"
+    },
+    {
+      "id": "ai-multimodal-fusion-8",
+      "name": "Multimodal sensor fusion for robots and vehicles"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "ae-aerospace-navigation-systems",
+  "name": "Aerospace Navigation Systems",
+  "category": "Guidance, Navigation & Control",
+  "level": 4,
+  "priority": "important",
+  "summary": "Inertial, satellite, radio and optical navigation for aircraft, launch vehicles and spacecraft, including deep-space navigation.",
+  "prerequisites": [
+    "ae-estimation-kalman-filtering",
+    "ae-orbital-mechanics"
+  ],
+  "related": [
+    "el-inertial-sensors",
+    "el-localization-time-synchronization",
+    "el-avionics-systems"
+  ],
+  "topics": [
+    {
+      "id": "ae-aerospace-navigation-systems-1",
+      "name": "Navigation frames and the navigation problem"
+    },
+    {
+      "id": "ae-aerospace-navigation-systems-2",
+      "name": "Inertial navigation: strapdown mechanisation and error dynamics"
+    },
+    {
+      "id": "ae-aerospace-navigation-systems-3",
+      "name": "Inertial sensor grades and error models"
+    },
+    {
+      "id": "ae-aerospace-navigation-systems-4",
+      "name": "GNSS principles: pseudorange, carrier phase, error sources, DOP"
+    },
+    {
+      "id": "ae-aerospace-navigation-systems-5",
+      "name": "GNSS/INS integration: loosely and tightly coupled"
+    },
+    {
+      "id": "ae-aerospace-navigation-systems-6",
+      "name": "Radio navigation aids for aircraft: VOR, DME, ILS"
+    },
+    {
+      "id": "ae-aerospace-navigation-systems-7",
+      "name": "GNSS in space: orbit determination for LEO and beyond"
+    },
+    {
+      "id": "ae-aerospace-navigation-systems-8",
+      "name": "Deep-space navigation: DSN range, Doppler and delta-DOR"
+    },
+    {
+      "id": "ae-aerospace-navigation-systems-9",
+      "name": "Optical navigation and autonomous navigation"
+    },
+    {
+      "id": "ae-aerospace-navigation-systems-10",
+      "name": "Terrain-relative and vision-based navigation"
+    },
+    {
+      "id": "ae-aerospace-navigation-systems-11",
+      "name": "Alternative navigation: pulsar, star-based and signals of opportunity"
+    }
+  ]
+}

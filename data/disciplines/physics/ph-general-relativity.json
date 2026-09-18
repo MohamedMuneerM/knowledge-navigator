@@ -1,0 +1,79 @@
+{
+  "id": "ph-general-relativity",
+  "name": "General Relativity",
+  "category": "Relativity & Gravitation",
+  "level": 3,
+  "priority": "important",
+  "summary": "Gravity as curved spacetime: Einstein's equations, black holes, gravitational waves and the basis of cosmology.",
+  "prerequisites": [
+    "ph-special-relativity",
+    "ma-tensor-analysis"
+  ],
+  "related": [
+    "ma-relativity",
+    "ma-differential-geometry",
+    "ma-riemannian-geometry"
+  ],
+  "topics": [
+    {
+      "id": "ph-general-relativity-1",
+      "name": "Principle of equivalence"
+    },
+    {
+      "id": "ph-general-relativity-13",
+      "name": "Tensor calculus and differential geometry for relativity"
+    },
+    {
+      "id": "ph-general-relativity-2",
+      "name": "Curved spacetime"
+    },
+    {
+      "id": "ph-general-relativity-6",
+      "name": "Geodesics"
+    },
+    {
+      "id": "ph-general-relativity-3",
+      "name": "Einstein's field equations"
+    },
+    {
+      "id": "ph-general-relativity-4",
+      "name": "Schwarzschild metric"
+    },
+    {
+      "id": "ph-general-relativity-7",
+      "name": "Gravitational time dilation"
+    },
+    {
+      "id": "ph-general-relativity-14",
+      "name": "Classic tests of GR: perihelion precession, light bending and Shapiro delay"
+    },
+    {
+      "id": "ph-general-relativity-8",
+      "name": "Gravitational lensing"
+    },
+    {
+      "id": "ph-general-relativity-11",
+      "name": "Penrose diagrams"
+    },
+    {
+      "id": "ph-general-relativity-5",
+      "name": "Kerr metric"
+    },
+    {
+      "id": "ph-general-relativity-12",
+      "name": "Singularities"
+    },
+    {
+      "id": "ph-general-relativity-15",
+      "name": "Linearized gravity"
+    },
+    {
+      "id": "ph-general-relativity-9",
+      "name": "Gravitational waves"
+    },
+    {
+      "id": "ph-general-relativity-10",
+      "name": "Cosmological solutions (FLRW metric)"
+    }
+  ]
+}

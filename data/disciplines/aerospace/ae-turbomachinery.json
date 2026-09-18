@@ -1,0 +1,61 @@
+{
+  "id": "ae-turbomachinery",
+  "name": "Turbomachinery",
+  "category": "Air-Breathing Propulsion & Combustion",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Aerodynamic and mechanical design of the compressors, turbines and pumps at the heart of jet engines and rocket turbopumps.",
+  "prerequisites": [
+    "ae-gas-turbine-engines"
+  ],
+  "related": [
+    "me-turbomachinery",
+    "ae-engine-cycles-turbopumps-feed-systems"
+  ],
+  "topics": [
+    {
+      "id": "ae-turbomachinery-1",
+      "name": "Euler turbomachinery equation and velocity triangles"
+    },
+    {
+      "id": "ae-turbomachinery-2",
+      "name": "Dimensionless performance parameters and similarity"
+    },
+    {
+      "id": "ae-turbomachinery-3",
+      "name": "Axial compressor stage design: loading, reaction and flow coefficients"
+    },
+    {
+      "id": "ae-turbomachinery-4",
+      "name": "Cascade aerodynamics and loss mechanisms"
+    },
+    {
+      "id": "ae-turbomachinery-5",
+      "name": "Stall and surge; compressor maps"
+    },
+    {
+      "id": "ae-turbomachinery-6",
+      "name": "Centrifugal compressors"
+    },
+    {
+      "id": "ae-turbomachinery-7",
+      "name": "Axial turbine design and turbine blade cooling"
+    },
+    {
+      "id": "ae-turbomachinery-8",
+      "name": "Radial inflow turbines"
+    },
+    {
+      "id": "ae-turbomachinery-9",
+      "name": "Three-dimensional flows and secondary flows"
+    },
+    {
+      "id": "ae-turbomachinery-10",
+      "name": "Blade structural design: centrifugal stress, vibration and creep"
+    },
+    {
+      "id": "ae-turbomachinery-11",
+      "name": "Pumps and cavitation (link to rocket turbopumps)"
+    }
+  ]
+}

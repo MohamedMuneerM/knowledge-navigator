@@ -1,0 +1,69 @@
+{
+  "id": "mt-magnetic-materials",
+  "name": "Magnetic Materials",
+  "category": "Electronic, Optical, Magnetic & Thermal Properties",
+  "level": 3,
+  "priority": "important",
+  "summary": "Covers the origins of magnetism in solids and the soft and hard magnetic materials used in motors, transformers, data storage and sensors.",
+  "prerequisites": [
+    "mt-electronic-properties"
+  ],
+  "related": [
+    "ph-spintronics",
+    "ph-classical-electromagnetism"
+  ],
+  "topics": [
+    {
+      "id": "mt-magnetic-materials-1",
+      "name": "Magnetic field quantities: H, B, M, susceptibility and permeability"
+    },
+    {
+      "id": "mt-magnetic-materials-2",
+      "name": "Atomic origin of magnetic moments; diamagnetism and paramagnetism"
+    },
+    {
+      "id": "mt-magnetic-materials-3",
+      "name": "Ferromagnetism, antiferromagnetism and ferrimagnetism; exchange interaction and Curie temperature"
+    },
+    {
+      "id": "mt-magnetic-materials-4",
+      "name": "Magnetic anisotropy: magnetocrystalline, shape and stress anisotropy"
+    },
+    {
+      "id": "mt-magnetic-materials-5",
+      "name": "Domains, domain walls and the magnetisation process; hysteresis"
+    },
+    {
+      "id": "mt-magnetic-materials-6",
+      "name": "Soft magnetic materials: electrical steels, Ni-Fe (permalloy), ferrites, amorphous and nanocrystalline alloys"
+    },
+    {
+      "id": "mt-magnetic-materials-7",
+      "name": "Core losses: hysteresis and eddy-current losses"
+    },
+    {
+      "id": "mt-magnetic-materials-8",
+      "name": "Hard (permanent) magnets: alnico, hard ferrites, SmCo and NdFeB; energy product (BH)max"
+    },
+    {
+      "id": "mt-magnetic-materials-9",
+      "name": "Rare-earth supply issues and rare-earth-free magnet research"
+    },
+    {
+      "id": "mt-magnetic-materials-10",
+      "name": "Magnetostriction and magnetostrictive materials (Terfenol-D, Galfenol)"
+    },
+    {
+      "id": "mt-magnetic-materials-11",
+      "name": "Magnetic recording and spintronic materials (GMR, TMR, MRAM)"
+    },
+    {
+      "id": "mt-magnetic-materials-12",
+      "name": "Magnetic nanoparticles and superparamagnetism"
+    },
+    {
+      "id": "mt-magnetic-materials-13",
+      "name": "Magnetocaloric materials"
+    }
+  ]
+}

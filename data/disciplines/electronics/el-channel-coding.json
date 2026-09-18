@@ -1,0 +1,66 @@
+{
+  "id": "el-channel-coding",
+  "name": "Information Theory & Channel Coding",
+  "category": "Signal Processing & Communications",
+  "level": 4,
+  "priority": "important",
+  "summary": "The limits of communication and the codes that approach them: entropy, capacity, block, convolutional, turbo, LDPC and polar codes.",
+  "prerequisites": [
+    "el-digital-communications"
+  ],
+  "related": [
+    "ma-information-theory",
+    "ma-error-correcting-codes",
+    "ma-algebraic-coding-theory"
+  ],
+  "topics": [
+    {
+      "id": "el-channel-coding-1",
+      "name": "Entropy, mutual information and the source coding theorem"
+    },
+    {
+      "id": "el-channel-coding-2",
+      "name": "Source coding: Huffman, arithmetic and Lempel-Ziv coding"
+    },
+    {
+      "id": "el-channel-coding-3",
+      "name": "Channel capacity and the noisy-channel coding theorem"
+    },
+    {
+      "id": "el-channel-coding-4",
+      "name": "Linear block codes, Hamming codes and syndrome decoding"
+    },
+    {
+      "id": "el-channel-coding-5",
+      "name": "Cyclic codes and CRCs"
+    },
+    {
+      "id": "el-channel-coding-6",
+      "name": "BCH and Reed-Solomon codes"
+    },
+    {
+      "id": "el-channel-coding-7",
+      "name": "Convolutional codes and the Viterbi algorithm"
+    },
+    {
+      "id": "el-channel-coding-8",
+      "name": "Turbo codes and iterative decoding"
+    },
+    {
+      "id": "el-channel-coding-9",
+      "name": "LDPC codes and belief-propagation decoding"
+    },
+    {
+      "id": "el-channel-coding-10",
+      "name": "Polar codes (5G control channels)"
+    },
+    {
+      "id": "el-channel-coding-11",
+      "name": "Interleaving, ARQ and hybrid ARQ"
+    },
+    {
+      "id": "el-channel-coding-12",
+      "name": "Coded modulation (TCM, BICM)"
+    }
+  ]
+}

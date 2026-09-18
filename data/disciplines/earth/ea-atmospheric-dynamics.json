@@ -1,0 +1,61 @@
+{
+  "id": "ea-atmospheric-dynamics",
+  "name": "Atmospheric Dynamics",
+  "category": "Meteorology & Atmospheric Science",
+  "level": 3,
+  "priority": "core",
+  "summary": "The fluid dynamics of the rotating, stratified atmosphere, from balanced flow to waves, instabilities and the general circulation.",
+  "prerequisites": [
+    "ea-meteorology",
+    "ph-fluid-mechanics"
+  ],
+  "related": [
+    "ph-atmospheric-environmental-physics"
+  ],
+  "topics": [
+    {
+      "id": "ea-atmospheric-dynamics-1",
+      "name": "Equations of motion in a rotating frame; scale analysis"
+    },
+    {
+      "id": "ea-atmospheric-dynamics-2",
+      "name": "Geostrophic, gradient and thermal-wind balance"
+    },
+    {
+      "id": "ea-atmospheric-dynamics-3",
+      "name": "Pressure coordinates and the primitive equations"
+    },
+    {
+      "id": "ea-atmospheric-dynamics-4",
+      "name": "Circulation and vorticity"
+    },
+    {
+      "id": "ea-atmospheric-dynamics-5",
+      "name": "Potential vorticity and its conservation"
+    },
+    {
+      "id": "ea-atmospheric-dynamics-6",
+      "name": "The planetary boundary layer: turbulence, Ekman layer and surface fluxes"
+    },
+    {
+      "id": "ea-atmospheric-dynamics-7",
+      "name": "Quasi-geostrophic theory"
+    },
+    {
+      "id": "ea-atmospheric-dynamics-8",
+      "name": "Atmospheric waves: gravity waves and Rossby waves"
+    },
+    {
+      "id": "ea-atmospheric-dynamics-9",
+      "name": "Baroclinic instability and mid-latitude cyclogenesis"
+    },
+    {
+      "id": "ea-atmospheric-dynamics-10",
+      "name": "The general circulation: Hadley cell, jets and eddy transports"
+    },
+    {
+      "id": "ea-atmospheric-dynamics-11",
+      "name": "Stratospheric dynamics and the polar vortex"
+    }
+  ]
+}

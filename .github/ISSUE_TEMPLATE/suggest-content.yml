@@ -1,0 +1,44 @@
+name: Suggest a chapter or topic
+description: Something worth learning that the map doesn't cover yet.
+title: "[suggest] "
+labels: ["content", "new content"]
+body:
+  - type: dropdown
+    id: discipline
+    attributes:
+      label: Discipline
+      options:
+        - "Mathematics"
+        - "Physics"
+        - "Chemistry"
+        - "Biology"
+        - "Earth & Environmental Science"
+        - "Computer Science"
+        - "Electrical & Electronics Engineering"
+        - "AI, Machine Learning & Robotics"
+        - "Mechanical Engineering"
+        - "Materials Science & Engineering"
+        - "Aerospace Engineering"
+        - "A new discipline"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What's missing?
+      description: A chapter name and its main topics, or the topics to add to an existing chapter.
+      placeholder: |
+        Chapter: Superconducting circuits
+        Topics: Josephson junction, transmon qubit, dispersive readout…
+    validations:
+      required: true
+  - type: textarea
+    id: prerequisites
+    attributes:
+      label: What would you need to know first?
+      description: Chapter names or ids, if you know them.
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources (optional)
+      description: Where is this taught? A course, textbook or curriculum guide.

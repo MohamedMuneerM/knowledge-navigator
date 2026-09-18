@@ -1,0 +1,62 @@
+{
+  "id": "el-antennas-propagation",
+  "name": "Antennas & Propagation",
+  "category": "Electromagnetics, RF & Microwave",
+  "level": 3,
+  "priority": "important",
+  "summary": "How antennas radiate and receive, how arrays steer beams, and how radio waves propagate between them.",
+  "prerequisites": [
+    "el-electromagnetic-waves"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-antennas-propagation-1",
+      "name": "Antenna parameters: pattern, directivity, gain, efficiency, beamwidth, polarization"
+    },
+    {
+      "id": "el-antennas-propagation-2",
+      "name": "Input impedance, bandwidth and matching of antennas"
+    },
+    {
+      "id": "el-antennas-propagation-3",
+      "name": "Friis transmission equation and effective aperture"
+    },
+    {
+      "id": "el-antennas-propagation-4",
+      "name": "Wire antennas: dipoles, monopoles and loops"
+    },
+    {
+      "id": "el-antennas-propagation-5",
+      "name": "Antenna arrays and the array factor"
+    },
+    {
+      "id": "el-antennas-propagation-6",
+      "name": "Phased arrays and beamforming"
+    },
+    {
+      "id": "el-antennas-propagation-7",
+      "name": "Aperture antennas: horns and reflectors"
+    },
+    {
+      "id": "el-antennas-propagation-8",
+      "name": "Microstrip patch antennas"
+    },
+    {
+      "id": "el-antennas-propagation-9",
+      "name": "Broadband, small and wearable antennas"
+    },
+    {
+      "id": "el-antennas-propagation-10",
+      "name": "Antenna measurement (anechoic chambers, near-field scanning)"
+    },
+    {
+      "id": "el-antennas-propagation-11",
+      "name": "Propagation mechanisms: free space, ground wave, sky wave, diffraction"
+    },
+    {
+      "id": "el-antennas-propagation-12",
+      "name": "Path-loss models (two-ray, Okumura-Hata, COST-231) and link budgets"
+    }
+  ]
+}

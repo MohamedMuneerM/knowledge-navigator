@@ -1,0 +1,62 @@
+{
+  "id": "ae-aircraft-stability-control",
+  "name": "Aircraft Static Stability and Control",
+  "category": "Flight Mechanics & Control",
+  "level": 3,
+  "priority": "core",
+  "summary": "Why aircraft return to trimmed flight and how control surfaces are sized: static longitudinal, directional and lateral stability and control.",
+  "prerequisites": [
+    "ae-aircraft-performance"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-aircraft-stability-control-1",
+      "name": "Equilibrium, trim and static stability"
+    },
+    {
+      "id": "ae-aircraft-stability-control-2",
+      "name": "Pitching moment and the contribution of wing, tail and fuselage"
+    },
+    {
+      "id": "ae-aircraft-stability-control-3",
+      "name": "Neutral point and static margin"
+    },
+    {
+      "id": "ae-aircraft-stability-control-4",
+      "name": "Elevator effectiveness and trim"
+    },
+    {
+      "id": "ae-aircraft-stability-control-5",
+      "name": "Stick-fixed versus stick-free stability; hinge moments and tabs"
+    },
+    {
+      "id": "ae-aircraft-stability-control-6",
+      "name": "Stick forces and gradients"
+    },
+    {
+      "id": "ae-aircraft-stability-control-7",
+      "name": "Manoeuvring flight and the manoeuvre point"
+    },
+    {
+      "id": "ae-aircraft-stability-control-8",
+      "name": "Directional stability and rudder sizing"
+    },
+    {
+      "id": "ae-aircraft-stability-control-9",
+      "name": "Lateral (roll) stability: dihedral effect and sweep"
+    },
+    {
+      "id": "ae-aircraft-stability-control-10",
+      "name": "Aileron control power and adverse yaw"
+    },
+    {
+      "id": "ae-aircraft-stability-control-11",
+      "name": "Engine-out and crosswind control requirements"
+    },
+    {
+      "id": "ae-aircraft-stability-control-12",
+      "name": "Centre-of-gravity limits and loading"
+    }
+  ]
+}

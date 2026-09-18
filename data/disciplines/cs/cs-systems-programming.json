@@ -1,0 +1,81 @@
+{
+  "id": "cs-systems-programming",
+  "name": "Systems Programming in C",
+  "category": "Computer Architecture & Systems Programming",
+  "level": 2,
+  "priority": "core",
+  "summary": "Programming close to the machine in C: pointers and memory, the compile-link-load toolchain, processes, signals and Unix I/O, as in CS:APP-style courses.",
+  "prerequisites": [
+    "cs-computer-organization",
+    "cs-program-design",
+    "cs-command-line-shell"
+  ],
+  "related": [
+    "el-embedded-cc-best-practices",
+    "el-memory-management",
+    "el-bare-metal-programming",
+    "el-programming-languages"
+  ],
+  "topics": [
+    {
+      "id": "cs-systems-programming-1",
+      "name": "The C language: types, operators and control flow"
+    },
+    {
+      "id": "cs-systems-programming-2",
+      "name": "Pointers, arrays and pointer arithmetic"
+    },
+    {
+      "id": "cs-systems-programming-3",
+      "name": "Strings and memory in C"
+    },
+    {
+      "id": "cs-systems-programming-4",
+      "name": "Structs, unions and bit manipulation"
+    },
+    {
+      "id": "cs-systems-programming-5",
+      "name": "Dynamic memory: malloc, free and how allocators work"
+    },
+    {
+      "id": "cs-systems-programming-6",
+      "name": "Memory bugs and tools: Valgrind and sanitizers"
+    },
+    {
+      "id": "cs-systems-programming-7",
+      "name": "The compilation pipeline: preprocessing, compiling, assembling and linking"
+    },
+    {
+      "id": "cs-systems-programming-8",
+      "name": "Static and dynamic linking, libraries and loaders"
+    },
+    {
+      "id": "cs-systems-programming-9",
+      "name": "Machine-level representation of C programs (x86-64)"
+    },
+    {
+      "id": "cs-systems-programming-10",
+      "name": "Debugging with GDB"
+    },
+    {
+      "id": "cs-systems-programming-11",
+      "name": "Processes: fork, exec and wait"
+    },
+    {
+      "id": "cs-systems-programming-12",
+      "name": "Signals and exceptional control flow"
+    },
+    {
+      "id": "cs-systems-programming-13",
+      "name": "Unix I/O: file descriptors, system calls and buffering"
+    },
+    {
+      "id": "cs-systems-programming-14",
+      "name": "Makefiles and build systems for C projects"
+    },
+    {
+      "id": "cs-systems-programming-15",
+      "name": "Systems projects: a shell, a memory allocator or a cache simulator"
+    }
+  ]
+}

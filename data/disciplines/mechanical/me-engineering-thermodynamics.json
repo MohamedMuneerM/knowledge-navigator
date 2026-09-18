@@ -1,0 +1,81 @@
+{
+  "id": "me-engineering-thermodynamics",
+  "name": "Engineering Thermodynamics",
+  "category": "Thermal-Fluid Sciences",
+  "level": 2,
+  "priority": "core",
+  "summary": "Energy, heat and work in engineering systems: properties of substances, the first and second laws, entropy and exergy.",
+  "prerequisites": [
+    "ma-calculus",
+    "ph-introductory-heat-thermodynamics"
+  ],
+  "related": [
+    "ph-thermodynamics-statistical-mechanics",
+    "ma-thermodynamics",
+    "ch-chemical-thermodynamics"
+  ],
+  "topics": [
+    {
+      "id": "me-engineering-thermodynamics-1",
+      "name": "Systems, control volumes, properties, state and equilibrium"
+    },
+    {
+      "id": "me-engineering-thermodynamics-2",
+      "name": "Energy, heat and work; forms of energy"
+    },
+    {
+      "id": "me-engineering-thermodynamics-3",
+      "name": "Properties of pure substances: phase diagrams, property tables, quality"
+    },
+    {
+      "id": "me-engineering-thermodynamics-4",
+      "name": "Ideal-gas model and real-gas behaviour (compressibility factor)"
+    },
+    {
+      "id": "me-engineering-thermodynamics-5",
+      "name": "First law for closed systems"
+    },
+    {
+      "id": "me-engineering-thermodynamics-6",
+      "name": "Mass and energy analysis of control volumes",
+      "sub": [
+        {
+          "id": "me-engineering-thermodynamics-6-1",
+          "name": "Steady-flow devices: nozzles, diffusers, turbines, compressors, pumps"
+        },
+        {
+          "id": "me-engineering-thermodynamics-6-2",
+          "name": "Throttling valves, mixing chambers and heat exchangers"
+        }
+      ]
+    },
+    {
+      "id": "me-engineering-thermodynamics-7",
+      "name": "Transient flow processes (tank filling and discharging)"
+    },
+    {
+      "id": "me-engineering-thermodynamics-8",
+      "name": "Second law: Kelvin-Planck and Clausius statements; heat engines, refrigerators and heat pumps"
+    },
+    {
+      "id": "me-engineering-thermodynamics-9",
+      "name": "Carnot cycle and reversibility"
+    },
+    {
+      "id": "me-engineering-thermodynamics-10",
+      "name": "Entropy, entropy generation and isentropic processes"
+    },
+    {
+      "id": "me-engineering-thermodynamics-11",
+      "name": "Isentropic efficiencies of turbines, compressors and nozzles"
+    },
+    {
+      "id": "me-engineering-thermodynamics-12",
+      "name": "Exergy (availability) and second-law efficiency"
+    },
+    {
+      "id": "me-engineering-thermodynamics-13",
+      "name": "Thermodynamic property relations (Maxwell relations, Clapeyron equation)"
+    }
+  ]
+}

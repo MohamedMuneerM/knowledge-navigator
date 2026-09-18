@@ -1,0 +1,60 @@
+{
+  "id": "ch-chemical-bonding-molecular-structure",
+  "name": "Chemical Bonding & Molecular Structure",
+  "category": "General Chemistry",
+  "level": 2,
+  "priority": "core",
+  "summary": "Why atoms bond, how molecules get their shapes, and how bonding controls physical properties.",
+  "prerequisites": [
+    "ch-atomic-structure-periodicity"
+  ],
+  "related": [
+    "mt-atomic-bonding"
+  ],
+  "topics": [
+    {
+      "id": "ch-chemical-bonding-molecular-structure-1",
+      "name": "Ionic bonding, lattice energy and the Born-Haber cycle"
+    },
+    {
+      "id": "ch-chemical-bonding-molecular-structure-2",
+      "name": "Covalent bonding, Lewis structures and formal charge"
+    },
+    {
+      "id": "ch-chemical-bonding-molecular-structure-3",
+      "name": "Resonance and exceptions to the octet rule"
+    },
+    {
+      "id": "ch-chemical-bonding-molecular-structure-4",
+      "name": "Bond polarity, electronegativity and dipole moments"
+    },
+    {
+      "id": "ch-chemical-bonding-molecular-structure-5",
+      "name": "VSEPR theory and molecular geometry"
+    },
+    {
+      "id": "ch-chemical-bonding-molecular-structure-6",
+      "name": "Valence bond theory and hybridization"
+    },
+    {
+      "id": "ch-chemical-bonding-molecular-structure-7",
+      "name": "Sigma and pi bonds; bond order, length and energy"
+    },
+    {
+      "id": "ch-chemical-bonding-molecular-structure-8",
+      "name": "Introductory molecular orbital theory for diatomic molecules"
+    },
+    {
+      "id": "ch-chemical-bonding-molecular-structure-9",
+      "name": "Metallic bonding and a qualitative band picture"
+    },
+    {
+      "id": "ch-chemical-bonding-molecular-structure-10",
+      "name": "Intermolecular forces: dispersion, dipole-dipole, hydrogen bonding, ion-dipole"
+    },
+    {
+      "id": "ch-chemical-bonding-molecular-structure-11",
+      "name": "Structure-property relationships: boiling point, solubility, hardness"
+    }
+  ]
+}

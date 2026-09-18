@@ -1,0 +1,51 @@
+{
+  "id": "ch-aquatic-chemistry",
+  "name": "Aquatic & Marine Chemistry",
+  "category": "Environmental & Green Chemistry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Equilibrium and redox chemistry of natural waters and the oceans, including speciation modelling.",
+  "prerequisites": [
+    "ch-environmental-chemistry",
+    "ch-chemical-thermodynamics"
+  ],
+  "related": [
+    "ea-aqueous-geochemistry",
+    "ea-chemical-oceanography",
+    "ea-water-quality-and-pollution"
+  ],
+  "topics": [
+    {
+      "id": "ch-aquatic-chemistry-1",
+      "name": "Chemical speciation and equilibrium modelling"
+    },
+    {
+      "id": "ch-aquatic-chemistry-2",
+      "name": "The carbonate system and alkalinity"
+    },
+    {
+      "id": "ch-aquatic-chemistry-3",
+      "name": "Metal ions in water: complexation and precipitation"
+    },
+    {
+      "id": "ch-aquatic-chemistry-4",
+      "name": "Redox chemistry of natural waters; pe-pH diagrams"
+    },
+    {
+      "id": "ch-aquatic-chemistry-5",
+      "name": "Mineral-water interfaces and sorption"
+    },
+    {
+      "id": "ch-aquatic-chemistry-6",
+      "name": "Seawater composition and marine biogeochemistry"
+    },
+    {
+      "id": "ch-aquatic-chemistry-7",
+      "name": "Ocean acidification"
+    },
+    {
+      "id": "ch-aquatic-chemistry-8",
+      "name": "Groundwater and geochemical modelling (PHREEQC)"
+    }
+  ]
+}

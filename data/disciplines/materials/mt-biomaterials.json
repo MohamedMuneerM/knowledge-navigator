@@ -1,0 +1,76 @@
+{
+  "id": "mt-biomaterials",
+  "name": "Biomaterials & Tissue Engineering",
+  "category": "Nanomaterials & Biomaterials",
+  "level": 3,
+  "priority": "important",
+  "summary": "Covers materials placed in the body, how the body responds to them, and how scaffolds and biomaterials are designed to repair or replace tissue.",
+  "prerequisites": [
+    "mt-polymer-properties",
+    "mt-ceramics",
+    "bi-cell-biology"
+  ],
+  "related": [
+    "el-implantable-devices",
+    "ph-biophysics",
+    "bi-stem-cells-regeneration"
+  ],
+  "topics": [
+    {
+      "id": "mt-biomaterials-1",
+      "name": "History and classes of biomaterials: metals, ceramics, polymers and composites"
+    },
+    {
+      "id": "mt-biomaterials-2",
+      "name": "Protein adsorption and cell-material interactions"
+    },
+    {
+      "id": "mt-biomaterials-3",
+      "name": "Host response: inflammation, foreign-body reaction and fibrous encapsulation"
+    },
+    {
+      "id": "mt-biomaterials-4",
+      "name": "Biocompatibility testing and ISO 10993"
+    },
+    {
+      "id": "mt-biomaterials-5",
+      "name": "Metallic implants: Ti alloys, CoCr, stainless steel; corrosion and wear debris"
+    },
+    {
+      "id": "mt-biomaterials-6",
+      "name": "Bioceramics and bioactive glasses; bone bonding"
+    },
+    {
+      "id": "mt-biomaterials-7",
+      "name": "Biomedical polymers and hydrogels; biodegradable polymers (PLA, PGA, PCL)"
+    },
+    {
+      "id": "mt-biomaterials-8",
+      "name": "Orthopaedic and dental implants; joint replacement"
+    },
+    {
+      "id": "mt-biomaterials-9",
+      "name": "Cardiovascular materials: stents, heart valves and blood compatibility"
+    },
+    {
+      "id": "mt-biomaterials-10",
+      "name": "Drug-delivery systems"
+    },
+    {
+      "id": "mt-biomaterials-11",
+      "name": "Tissue engineering scaffolds: porosity, degradation and cell seeding"
+    },
+    {
+      "id": "mt-biomaterials-12",
+      "name": "Bioprinting and regenerative medicine"
+    },
+    {
+      "id": "mt-biomaterials-13",
+      "name": "Neural interfaces and implantable electronics"
+    },
+    {
+      "id": "mt-biomaterials-14",
+      "name": "Sterilisation, regulation (FDA/CE) and device failure case studies"
+    }
+  ]
+}

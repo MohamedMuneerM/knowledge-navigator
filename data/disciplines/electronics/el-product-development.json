@@ -1,0 +1,40 @@
+{
+  "id": "el-product-development",
+  "name": "Product Development",
+  "category": "Professional Practice, Business & Community",
+  "level": 2,
+  "priority": "important",
+  "summary": "How electronic products are conceived: requirements, customer discovery, use cases, roadmaps, feasibility studies and proofs of concept.",
+  "prerequisites": [
+    "el-prototyping"
+  ],
+  "related": [
+    "me-product-design-development"
+  ],
+  "topics": [
+    {
+      "id": "el-product-development-1",
+      "name": "Requirements gathering and analysis"
+    },
+    {
+      "id": "el-product-development-2",
+      "name": "Market research and customer discovery"
+    },
+    {
+      "id": "el-product-development-3",
+      "name": "Use case and user story definition"
+    },
+    {
+      "id": "el-product-development-4",
+      "name": "Product roadmap planning"
+    },
+    {
+      "id": "el-product-development-5",
+      "name": "Technical feasibility studies"
+    },
+    {
+      "id": "el-product-development-6",
+      "name": "Proof-of-concept (POC) development"
+    }
+  ]
+}

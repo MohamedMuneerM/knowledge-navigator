@@ -1,0 +1,50 @@
+{
+  "id": "ma-numerical-solutions-of-odes",
+  "name": "Numerical Solutions of ODEs",
+  "category": "Numerical Analysis & Scientific Computing",
+  "level": 3,
+  "priority": "important",
+  "summary": "Time-stepping methods for ODEs (Euler, Runge-Kutta, multistep) and how to handle stiffness and stability.",
+  "prerequisites": [
+    "ma-numerical-methods-for-calculus",
+    "ma-ordinary-differential-equations-odes"
+  ],
+  "related": [
+    "ph-computational-physics",
+    "ae-computational-methods-aerospace"
+  ],
+  "topics": [
+    {
+      "id": "ma-numerical-solutions-of-odes-1",
+      "name": "Euler's method"
+    },
+    {
+      "id": "ma-numerical-solutions-of-odes-5",
+      "name": "Consistency, stability and convergence"
+    },
+    {
+      "id": "ma-numerical-solutions-of-odes-2",
+      "name": "Runge-Kutta methods"
+    },
+    {
+      "id": "ma-numerical-solutions-of-odes-3",
+      "name": "Multistep methods"
+    },
+    {
+      "id": "ma-numerical-solutions-of-odes-6",
+      "name": "Adaptive step size control"
+    },
+    {
+      "id": "ma-numerical-solutions-of-odes-4",
+      "name": "Stiff equations"
+    },
+    {
+      "id": "ma-numerical-solutions-of-odes-7",
+      "name": "Boundary value problems: shooting and collocation"
+    },
+    {
+      "id": "ma-numerical-solutions-of-odes-8",
+      "name": "Symplectic and geometric integrators"
+    }
+  ]
+}

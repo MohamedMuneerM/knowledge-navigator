@@ -1,0 +1,59 @@
+{
+  "id": "cs-accessibility",
+  "name": "Accessibility & Inclusive Design",
+  "category": "Human-Computer Interaction",
+  "level": 3,
+  "priority": "important",
+  "summary": "Making software usable by people with disabilities and by everyone: assistive technologies, WCAG, accessible web and mobile development, testing and law.",
+  "prerequisites": [
+    "cs-hci",
+    "cs-web-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-accessibility-1",
+      "name": "Models of disability and the diversity of users"
+    },
+    {
+      "id": "cs-accessibility-2",
+      "name": "Assistive technologies: screen readers, switches and magnifiers"
+    },
+    {
+      "id": "cs-accessibility-3",
+      "name": "WCAG principles and success criteria"
+    },
+    {
+      "id": "cs-accessibility-4",
+      "name": "Semantic HTML and ARIA"
+    },
+    {
+      "id": "cs-accessibility-5",
+      "name": "Keyboard accessibility and focus management"
+    },
+    {
+      "id": "cs-accessibility-6",
+      "name": "Colour, contrast and visual accessibility"
+    },
+    {
+      "id": "cs-accessibility-7",
+      "name": "Accessible media: captions, transcripts and audio description"
+    },
+    {
+      "id": "cs-accessibility-8",
+      "name": "Cognitive accessibility and plain language"
+    },
+    {
+      "id": "cs-accessibility-9",
+      "name": "Mobile accessibility"
+    },
+    {
+      "id": "cs-accessibility-10",
+      "name": "Accessibility testing: automated tools and manual audits"
+    },
+    {
+      "id": "cs-accessibility-11",
+      "name": "Accessibility law and policy (ADA, EN 301 549)"
+    }
+  ]
+}

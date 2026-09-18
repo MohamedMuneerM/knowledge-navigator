@@ -1,0 +1,48 @@
+{
+  "id": "ae-model-based-systems-engineering",
+  "name": "Model-Based Systems Engineering and Digital Engineering",
+  "category": "Systems Engineering, Test & Safety",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Replacing documents with connected system models: SysML, digital threads and digital twins for aerospace programmes.",
+  "prerequisites": [
+    "ae-aerospace-systems-engineering"
+  ],
+  "related": [
+    "el-digital-twins"
+  ],
+  "topics": [
+    {
+      "id": "ae-model-based-systems-engineering-1",
+      "name": "From document-based to model-based systems engineering"
+    },
+    {
+      "id": "ae-model-based-systems-engineering-2",
+      "name": "SysML v1 and v2: structure, behaviour, requirements and parametrics"
+    },
+    {
+      "id": "ae-model-based-systems-engineering-3",
+      "name": "MBSE methods and tools"
+    },
+    {
+      "id": "ae-model-based-systems-engineering-4",
+      "name": "Integrating analysis models with system models"
+    },
+    {
+      "id": "ae-model-based-systems-engineering-5",
+      "name": "Digital thread and authoritative source of truth"
+    },
+    {
+      "id": "ae-model-based-systems-engineering-6",
+      "name": "Digital twins for aircraft and spacecraft"
+    },
+    {
+      "id": "ae-model-based-systems-engineering-7",
+      "name": "Product lifecycle management"
+    },
+    {
+      "id": "ae-model-based-systems-engineering-8",
+      "name": "Adoption challenges and case studies"
+    }
+  ]
+}

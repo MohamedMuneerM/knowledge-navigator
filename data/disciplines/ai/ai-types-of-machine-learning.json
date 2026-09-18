@@ -1,0 +1,225 @@
+{
+  "id": "ai-types-of-machine-learning",
+  "name": "Types of Machine Learning",
+  "category": "Machine Learning Foundations",
+  "level": 2,
+  "priority": "core",
+  "summary": "A tour of the main learning algorithms (regression, classification, clustering, association rules, anomaly detection) and the learning paradigms beyond plain supervised learning.",
+  "prerequisites": [
+    "ai-core-ml-concepts"
+  ],
+  "related": [
+    "ma-linear-methods",
+    "ma-kernel-methods",
+    "ai-continual-lifelong-learning",
+    "el-ml-algorithms-for-resource-constrained-devices",
+    "ai-self-supervised-representation-learning",
+    "ai-anomaly-detection"
+  ],
+  "topics": [
+    {
+      "id": "ai-types-of-machine-learning-1",
+      "name": "Regression",
+      "sub": [
+        {
+          "id": "ai-types-of-machine-learning-1-1",
+          "name": "Linear Regression"
+        },
+        {
+          "id": "ai-types-of-machine-learning-1-2",
+          "name": "Polynomial Regression"
+        },
+        {
+          "id": "ai-types-of-machine-learning-1-3",
+          "name": "Ridge/Lasso Regression"
+        },
+        {
+          "id": "ai-types-of-machine-learning-1-4",
+          "name": "Elastic Net"
+        },
+        {
+          "id": "ai-types-of-machine-learning-1-5",
+          "name": "Quantile Regression"
+        }
+      ]
+    },
+    {
+      "id": "ai-types-of-machine-learning-2",
+      "name": "Classification",
+      "sub": [
+        {
+          "id": "ai-types-of-machine-learning-2-1",
+          "name": "Logistic Regression"
+        },
+        {
+          "id": "ai-types-of-machine-learning-2-2",
+          "name": "K-Nearest Neighbors (KNN)"
+        },
+        {
+          "id": "ai-types-of-machine-learning-2-3",
+          "name": "Naive Bayes"
+        },
+        {
+          "id": "ai-types-of-machine-learning-2-4",
+          "name": "Support Vector Machines (SVM)"
+        },
+        {
+          "id": "ai-types-of-machine-learning-2-5",
+          "name": "Decision Trees"
+        },
+        {
+          "id": "ai-types-of-machine-learning-2-6",
+          "name": "Random Forests"
+        },
+        {
+          "id": "ai-types-of-machine-learning-2-7",
+          "name": "Gradient Boosting (XGBoost, LightGBM, CatBoost)"
+        }
+      ]
+    },
+    {
+      "id": "ai-types-of-machine-learning-3",
+      "name": "Clustering",
+      "sub": [
+        {
+          "id": "ai-types-of-machine-learning-3-1",
+          "name": "K-Means"
+        },
+        {
+          "id": "ai-types-of-machine-learning-3-2",
+          "name": "Hierarchical Clustering"
+        },
+        {
+          "id": "ai-types-of-machine-learning-3-3",
+          "name": "DBSCAN"
+        },
+        {
+          "id": "ai-types-of-machine-learning-3-4",
+          "name": "Gaussian Mixture Models (GMM)"
+        },
+        {
+          "id": "ai-types-of-machine-learning-3-5",
+          "name": "Spectral Clustering"
+        },
+        {
+          "id": "ai-types-of-machine-learning-3-6",
+          "name": "Mean Shift"
+        }
+      ]
+    },
+    {
+      "id": "ai-types-of-machine-learning-4",
+      "name": "Association Rule Learning",
+      "sub": [
+        {
+          "id": "ai-types-of-machine-learning-4-1",
+          "name": "Apriori algorithm"
+        },
+        {
+          "id": "ai-types-of-machine-learning-4-2",
+          "name": "FP-Growth"
+        }
+      ]
+    },
+    {
+      "id": "ai-types-of-machine-learning-5",
+      "name": "Anomaly Detection",
+      "sub": [
+        {
+          "id": "ai-types-of-machine-learning-5-1",
+          "name": "Isolation Forest"
+        },
+        {
+          "id": "ai-types-of-machine-learning-5-2",
+          "name": "One-class SVM"
+        },
+        {
+          "id": "ai-types-of-machine-learning-5-3",
+          "name": "Local Outlier Factor"
+        }
+      ]
+    },
+    {
+      "id": "ai-types-of-machine-learning-22",
+      "name": "Learning with limited labels",
+      "sub": [
+        {
+          "id": "ai-types-of-machine-learning-6",
+          "name": "Semi-Supervised Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-7",
+          "name": "Self-Supervised Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-8",
+          "name": "Weakly Supervised Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-9",
+          "name": "Multi-Instance Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-10",
+          "name": "Active Learning"
+        }
+      ]
+    },
+    {
+      "id": "ai-types-of-machine-learning-23",
+      "name": "Transfer, few-shot and meta-learning",
+      "sub": [
+        {
+          "id": "ai-types-of-machine-learning-11",
+          "name": "Transfer Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-12",
+          "name": "Domain Adaptation"
+        },
+        {
+          "id": "ai-types-of-machine-learning-13",
+          "name": "Few-Shot Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-14",
+          "name": "Zero-Shot Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-15",
+          "name": "One-Shot Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-16",
+          "name": "Meta-Learning (Learning to Learn)"
+        }
+      ]
+    },
+    {
+      "id": "ai-types-of-machine-learning-24",
+      "name": "Learning settings: online, federated, multitask, curriculum and continual",
+      "sub": [
+        {
+          "id": "ai-types-of-machine-learning-17",
+          "name": "Online Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-18",
+          "name": "Federated Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-19",
+          "name": "Multitask Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-20",
+          "name": "Curriculum Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-21",
+          "name": "Continual/Lifelong Learning"
+        }
+      ]
+    }
+  ]
+}

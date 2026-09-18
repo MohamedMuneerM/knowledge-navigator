@@ -1,0 +1,57 @@
+{
+  "id": "mt-ceramic-matrix-composites",
+  "name": "Ceramic-Matrix & Carbon-Carbon Composites",
+  "category": "Aerospace & Extreme-Environment Materials",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Covers the tough high-temperature composites, SiC/SiC, C/SiC and carbon-carbon, used in hot engine parts, nozzles and re-entry structures.",
+  "prerequisites": [
+    "mt-composites",
+    "mt-ceramics"
+  ],
+  "related": [
+    "ch-high-performance-materials"
+  ],
+  "topics": [
+    {
+      "id": "mt-ceramic-matrix-composites-1",
+      "name": "Why monolithic ceramics fail and how fibres make them damage-tolerant"
+    },
+    {
+      "id": "mt-ceramic-matrix-composites-2",
+      "name": "Fibre-matrix interphases: pyrolytic carbon and boron nitride; crack deflection"
+    },
+    {
+      "id": "mt-ceramic-matrix-composites-3",
+      "name": "Ceramic fibres: SiC (Hi-Nicalon, Sylramic), oxide (Nextel) and carbon fibres"
+    },
+    {
+      "id": "mt-ceramic-matrix-composites-4",
+      "name": "Processing: chemical vapour infiltration (CVI)"
+    },
+    {
+      "id": "mt-ceramic-matrix-composites-5",
+      "name": "Processing: polymer infiltration and pyrolysis (PIP) and melt infiltration (MI)"
+    },
+    {
+      "id": "mt-ceramic-matrix-composites-6",
+      "name": "Oxide-oxide CMCs"
+    },
+    {
+      "id": "mt-ceramic-matrix-composites-7",
+      "name": "Carbon-carbon composites: manufacture, properties and oxidation protection"
+    },
+    {
+      "id": "mt-ceramic-matrix-composites-8",
+      "name": "Mechanical behaviour: matrix cracking stress, pseudo-ductility and fatigue"
+    },
+    {
+      "id": "mt-ceramic-matrix-composites-9",
+      "name": "Environmental degradation and environmental barrier coatings"
+    },
+    {
+      "id": "mt-ceramic-matrix-composites-10",
+      "name": "Applications: turbine shrouds and blades, rocket nozzles, brake discs and leading edges"
+    }
+  ]
+}

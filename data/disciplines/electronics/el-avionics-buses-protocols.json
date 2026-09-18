@@ -1,0 +1,38 @@
+{
+  "id": "el-avionics-buses-protocols",
+  "name": "Avionics Buses & Protocols",
+  "category": "Automotive, Aerospace & Defense Systems",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Aircraft and spacecraft data buses: ARINC 429, AFDX, MIL-STD-1553, CAN Aerospace and SpaceWire.",
+  "prerequisites": [
+    "el-avionics-systems",
+    "el-serial-protocols"
+  ],
+  "related": [
+    "ae-avionics-systems-integration",
+    "ae-command-data-handling"
+  ],
+  "topics": [
+    {
+      "id": "el-avionics-buses-protocols-1",
+      "name": "ARINC 429 (avionics data bus)"
+    },
+    {
+      "id": "el-avionics-buses-protocols-2",
+      "name": "ARINC 664 / AFDX (Avionics Full-Duplex Ethernet)"
+    },
+    {
+      "id": "el-avionics-buses-protocols-3",
+      "name": "MIL-STD-1553 (military avionics bus)"
+    },
+    {
+      "id": "el-avionics-buses-protocols-4",
+      "name": "CAN Aerospace"
+    },
+    {
+      "id": "el-avionics-buses-protocols-5",
+      "name": "SpaceWire (spacecraft)"
+    }
+  ]
+}

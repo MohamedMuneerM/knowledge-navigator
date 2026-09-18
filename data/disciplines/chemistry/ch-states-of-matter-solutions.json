@@ -1,0 +1,58 @@
+{
+  "id": "ch-states-of-matter-solutions",
+  "name": "States of Matter & Solutions",
+  "category": "General Chemistry",
+  "level": 2,
+  "priority": "core",
+  "summary": "Gases, liquids, solids, phase changes and the behaviour of solutions.",
+  "prerequisites": [
+    "ch-chemical-bonding-molecular-structure"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-states-of-matter-solutions-1",
+      "name": "Gas laws, the ideal gas equation and gas stoichiometry"
+    },
+    {
+      "id": "ch-states-of-matter-solutions-2",
+      "name": "Dalton's law of partial pressures"
+    },
+    {
+      "id": "ch-states-of-matter-solutions-3",
+      "name": "Kinetic molecular theory, molecular speeds, effusion and diffusion"
+    },
+    {
+      "id": "ch-states-of-matter-solutions-4",
+      "name": "Real gases and the van der Waals equation"
+    },
+    {
+      "id": "ch-states-of-matter-solutions-5",
+      "name": "Liquids: vapor pressure, surface tension and viscosity"
+    },
+    {
+      "id": "ch-states-of-matter-solutions-6",
+      "name": "Phase changes, heating curves and phase diagrams"
+    },
+    {
+      "id": "ch-states-of-matter-solutions-7",
+      "name": "Solids: crystalline vs amorphous, unit cells, packing and types of crystalline solids"
+    },
+    {
+      "id": "ch-states-of-matter-solutions-8",
+      "name": "Solution formation and solubility; Henry's law"
+    },
+    {
+      "id": "ch-states-of-matter-solutions-9",
+      "name": "Concentration units: molarity, molality, mole fraction, ppm"
+    },
+    {
+      "id": "ch-states-of-matter-solutions-10",
+      "name": "Colligative properties: Raoult's law, boiling-point elevation, freezing-point depression, osmotic pressure"
+    },
+    {
+      "id": "ch-states-of-matter-solutions-11",
+      "name": "Colloids and suspensions (introduction)"
+    }
+  ]
+}

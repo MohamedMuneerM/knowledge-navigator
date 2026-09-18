@@ -1,0 +1,32 @@
+{
+  "id": "ma-derived-algebraic-geometry",
+  "name": "Derived Algebraic Geometry",
+  "category": "Emerging & Advanced Areas",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Algebraic geometry rebuilt with derived categories, stacks and higher categories.",
+  "prerequisites": [
+    "ma-algebraic-geometry",
+    "ma-homological-algebra",
+    "ma-higher-dimensional-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-derived-algebraic-geometry-1",
+      "name": "Derived categories"
+    },
+    {
+      "id": "ma-derived-algebraic-geometry-2",
+      "name": "Stacks"
+    },
+    {
+      "id": "ma-derived-algebraic-geometry-3",
+      "name": "Derived schemes"
+    },
+    {
+      "id": "ma-derived-algebraic-geometry-4",
+      "name": "Moduli problems"
+    }
+  ]
+}

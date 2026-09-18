@@ -1,0 +1,62 @@
+{
+  "id": "ae-planetary-exploration-systems",
+  "name": "Planetary Exploration Systems",
+  "category": "Space Missions & Exploration",
+  "level": 4,
+  "priority": "important",
+  "summary": "Robotic exploration of the Moon, planets and small bodies: orbiters, landers, rovers, aerial vehicles and sample return.",
+  "prerequisites": [
+    "ae-space-mission-design",
+    "ae-descent-landing-systems"
+  ],
+  "related": [
+    "ph-planetary-science",
+    "ea-comparative-planetology"
+  ],
+  "topics": [
+    {
+      "id": "ae-planetary-exploration-systems-1",
+      "name": "Exploration destinations and science drivers"
+    },
+    {
+      "id": "ae-planetary-exploration-systems-2",
+      "name": "Planetary mission types: flyby, orbiter, lander, rover, sample return"
+    },
+    {
+      "id": "ae-planetary-exploration-systems-3",
+      "name": "Lander design"
+    },
+    {
+      "id": "ae-planetary-exploration-systems-4",
+      "name": "Rover design: mobility, power, thermal and autonomy"
+    },
+    {
+      "id": "ae-planetary-exploration-systems-5",
+      "name": "Planetary aerial vehicles: balloons and helicopters (Ingenuity, Dragonfly)"
+    },
+    {
+      "id": "ae-planetary-exploration-systems-6",
+      "name": "Sample acquisition, caching and handling"
+    },
+    {
+      "id": "ae-planetary-exploration-systems-7",
+      "name": "Sample return missions: Stardust, Hayabusa, OSIRIS-REx, Mars Sample Return"
+    },
+    {
+      "id": "ae-planetary-exploration-systems-8",
+      "name": "Small-body missions: proximity operations near asteroids and comets"
+    },
+    {
+      "id": "ae-planetary-exploration-systems-9",
+      "name": "Outer planet missions: radiation and power challenges"
+    },
+    {
+      "id": "ae-planetary-exploration-systems-10",
+      "name": "Planetary protection"
+    },
+    {
+      "id": "ae-planetary-exploration-systems-11",
+      "name": "Surface operations and communication relays"
+    }
+  ]
+}

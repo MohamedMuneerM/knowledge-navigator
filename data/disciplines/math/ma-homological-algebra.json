@@ -1,0 +1,47 @@
+{
+  "id": "ma-homological-algebra",
+  "name": "Homological Algebra",
+  "category": "Algebra",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Chain complexes, derived functors, Ext and Tor and spectral sequences: the machinery behind modern algebra, topology and geometry.",
+  "prerequisites": [
+    "ma-category-theory",
+    "ma-commutative-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-homological-algebra-1",
+      "name": "Chain complexes"
+    },
+    {
+      "id": "ma-homological-algebra-2",
+      "name": "Homology and cohomology"
+    },
+    {
+      "id": "ma-homological-algebra-6",
+      "name": "Projective and injective resolutions"
+    },
+    {
+      "id": "ma-homological-algebra-3",
+      "name": "Derived functors"
+    },
+    {
+      "id": "ma-homological-algebra-4",
+      "name": "Ext and Tor functors"
+    },
+    {
+      "id": "ma-homological-algebra-7",
+      "name": "Group cohomology"
+    },
+    {
+      "id": "ma-homological-algebra-5",
+      "name": "Spectral sequences"
+    },
+    {
+      "id": "ma-homological-algebra-8",
+      "name": "Derived categories (introduction)"
+    }
+  ]
+}

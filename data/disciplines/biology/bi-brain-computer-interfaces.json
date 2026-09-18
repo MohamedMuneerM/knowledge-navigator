@@ -1,0 +1,70 @@
+{
+  "id": "bi-brain-computer-interfaces",
+  "name": "Brain-Computer Interfaces & Neuroprosthetics",
+  "category": "Neuroscience",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Connecting brains directly to machines: decoding intended movement and speech, restoring sensation, and the frontier of implanted neural interfaces.",
+  "prerequisites": [
+    "bi-neurotechnology-methods",
+    "bi-motor-systems",
+    "bi-computational-neuroscience",
+    "ai-core-ml-concepts"
+  ],
+  "related": [
+    "el-implantable-devices",
+    "el-biomedical-signal-processing",
+    "el-bio-integrated-electronics",
+    "ai-human-robot-interaction-hri"
+  ],
+  "topics": [
+    {
+      "id": "bi-brain-computer-interfaces-1",
+      "name": "BCI architectures: invasive, partially invasive and non-invasive"
+    },
+    {
+      "id": "bi-brain-computer-interfaces-2",
+      "name": "Control signals: motor imagery, P300, SSVEP and intracortical spikes"
+    },
+    {
+      "id": "bi-brain-computer-interfaces-3",
+      "name": "Motor decoding: Kalman filters, population vectors and deep-learning decoders"
+    },
+    {
+      "id": "bi-brain-computer-interfaces-4",
+      "name": "Closed-loop BCIs, learning and co-adaptation between user and decoder"
+    },
+    {
+      "id": "bi-brain-computer-interfaces-5",
+      "name": "Speech and handwriting neuroprostheses"
+    },
+    {
+      "id": "bi-brain-computer-interfaces-6",
+      "name": "Restoring sensation: intracortical and peripheral nerve stimulation"
+    },
+    {
+      "id": "bi-brain-computer-interfaces-7",
+      "name": "Peripheral nerve interfaces and EMG-based control"
+    },
+    {
+      "id": "bi-brain-computer-interfaces-8",
+      "name": "Functional electrical stimulation to reanimate paralysed limbs"
+    },
+    {
+      "id": "bi-brain-computer-interfaces-9",
+      "name": "Spinal cord stimulation for walking"
+    },
+    {
+      "id": "bi-brain-computer-interfaces-10",
+      "name": "Implant engineering constraints: power, wireless data, longevity"
+    },
+    {
+      "id": "bi-brain-computer-interfaces-11",
+      "name": "Evaluating BCIs: bit rate, performance metrics and clinical trials"
+    },
+    {
+      "id": "bi-brain-computer-interfaces-12",
+      "name": "Neuroethics: agency, privacy and identity"
+    }
+  ]
+}

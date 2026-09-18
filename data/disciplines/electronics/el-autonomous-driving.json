@@ -1,0 +1,50 @@
+{
+  "id": "el-autonomous-driving",
+  "name": "Autonomous Driving",
+  "category": "Automotive, Aerospace & Defense Systems",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The self-driving stack: multi-sensor perception, HD-map localization, planning, control, V2X, safety standards and SAE autonomy levels.",
+  "prerequisites": [
+    "el-advanced-driver-assistance-systems-adas",
+    "el-perception-sensing",
+    "el-path-planning-navigation"
+  ],
+  "related": [
+    "ai-autonomous-driving"
+  ],
+  "topics": [
+    {
+      "id": "el-autonomous-driving-1",
+      "name": "Sensor fusion (camera, LIDAR, radar, ultrasonic)"
+    },
+    {
+      "id": "el-autonomous-driving-2",
+      "name": "Localization and HD mapping"
+    },
+    {
+      "id": "el-autonomous-driving-3",
+      "name": "Perception and object detection"
+    },
+    {
+      "id": "el-autonomous-driving-4",
+      "name": "Path planning and decision-making"
+    },
+    {
+      "id": "el-autonomous-driving-5",
+      "name": "Motion control and actuation"
+    },
+    {
+      "id": "el-autonomous-driving-6",
+      "name": "Vehicle-to-Everything (V2X) communication"
+    },
+    {
+      "id": "el-autonomous-driving-7",
+      "name": "Safety standards (ISO 26262, SOTIF ISO 21448)"
+    },
+    {
+      "id": "el-autonomous-driving-8",
+      "name": "Levels of autonomy (SAE J3016)"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "me-robot-mechanism-design",
+  "name": "Robot Mechanism Design",
+  "category": "Mechatronics & Robotics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Turning robot requirements into hardware: arm, hand, leg and mobile-base architectures, link and joint design, and lightweight structures.",
+  "prerequisites": [
+    "me-robot-mechanics",
+    "me-actuators-drive-trains"
+  ],
+  "related": [
+    "ai-robot-fundamentals",
+    "ai-types-of-robots-applications"
+  ],
+  "topics": [
+    {
+      "id": "me-robot-mechanism-design-1",
+      "name": "Robot requirements and kinematic architecture selection"
+    },
+    {
+      "id": "me-robot-mechanism-design-2",
+      "name": "Serial arm design: link sizing, mass distribution and stiffness"
+    },
+    {
+      "id": "me-robot-mechanism-design-3",
+      "name": "Parallel robot design: workspace and singularity optimisation"
+    },
+    {
+      "id": "me-robot-mechanism-design-4",
+      "name": "Gripper and robotic hand design (underactuated and tendon-driven hands)"
+    },
+    {
+      "id": "me-robot-mechanism-design-5",
+      "name": "Legged robot mechanism design: leg topologies, energy efficiency and impact tolerance"
+    },
+    {
+      "id": "me-robot-mechanism-design-6",
+      "name": "Wheeled and tracked mobile platform design"
+    },
+    {
+      "id": "me-robot-mechanism-design-7",
+      "name": "Cable-driven parallel robots"
+    },
+    {
+      "id": "me-robot-mechanism-design-8",
+      "name": "Gravity compensation and counterbalancing"
+    },
+    {
+      "id": "me-robot-mechanism-design-9",
+      "name": "Joint design: bearings, seals, cable routing through joints, slip rings"
+    },
+    {
+      "id": "me-robot-mechanism-design-10",
+      "name": "Lightweight robot links (composites, additive manufacturing, topology optimisation)"
+    },
+    {
+      "id": "me-robot-mechanism-design-11",
+      "name": "Safety by design and collaborative-robot mechanics"
+    }
+  ]
+}

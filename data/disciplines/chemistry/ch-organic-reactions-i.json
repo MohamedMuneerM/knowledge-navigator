@@ -1,0 +1,80 @@
+{
+  "id": "ch-organic-reactions-i",
+  "name": "Organic Chemistry I: Core Reactions & Mechanisms",
+  "category": "Organic Chemistry",
+  "level": 2,
+  "priority": "core",
+  "summary": "Substitution, elimination and addition reactions of alkyl halides, alkenes, alkynes and alcohols, with their mechanisms.",
+  "prerequisites": [
+    "ch-stereochemistry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-organic-reactions-i-1",
+      "name": "Nucleophilic substitution: SN1 and SN2 mechanisms and stereochemistry"
+    },
+    {
+      "id": "ch-organic-reactions-i-2",
+      "name": "Elimination reactions: E1, E2, E1cB and Zaitsev vs Hofmann selectivity"
+    },
+    {
+      "id": "ch-organic-reactions-i-3",
+      "name": "Substitution vs elimination competition"
+    },
+    {
+      "id": "ch-organic-reactions-i-4",
+      "name": "Alkenes: stability and electrophilic addition (Markovnikov's rule)"
+    },
+    {
+      "id": "ch-organic-reactions-i-5",
+      "name": "Alkene transformations",
+      "sub": [
+        {
+          "id": "ch-organic-reactions-i-5-1",
+          "name": "Hydration and hydroboration-oxidation"
+        },
+        {
+          "id": "ch-organic-reactions-i-5-2",
+          "name": "Halogenation and halohydrin formation"
+        },
+        {
+          "id": "ch-organic-reactions-i-5-3",
+          "name": "Epoxidation and dihydroxylation"
+        },
+        {
+          "id": "ch-organic-reactions-i-5-4",
+          "name": "Ozonolysis and hydrogenation"
+        }
+      ]
+    },
+    {
+      "id": "ch-organic-reactions-i-6",
+      "name": "Carbocation rearrangements"
+    },
+    {
+      "id": "ch-organic-reactions-i-7",
+      "name": "Alkynes: acidity, additions and reductions"
+    },
+    {
+      "id": "ch-organic-reactions-i-8",
+      "name": "Radical reactions: alkane halogenation, radical addition, allylic bromination"
+    },
+    {
+      "id": "ch-organic-reactions-i-9",
+      "name": "Alcohols, ethers and epoxides: preparation and reactions"
+    },
+    {
+      "id": "ch-organic-reactions-i-10",
+      "name": "Oxidation and reduction in organic chemistry"
+    },
+    {
+      "id": "ch-organic-reactions-i-11",
+      "name": "Organometallic reagents: Grignard and organolithium basics"
+    },
+    {
+      "id": "ch-organic-reactions-i-12",
+      "name": "Multistep synthesis planning (introductory)"
+    }
+  ]
+}

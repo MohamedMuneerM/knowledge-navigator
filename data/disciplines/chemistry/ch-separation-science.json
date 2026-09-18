@@ -1,0 +1,60 @@
+{
+  "id": "ch-separation-science",
+  "name": "Separation Science & Chromatography",
+  "category": "Analytical Chemistry & Instrumentation",
+  "level": 3,
+  "priority": "core",
+  "summary": "Theory and practice of extraction, chromatography and electrophoresis for separating and quantifying mixtures.",
+  "prerequisites": [
+    "ch-quantitative-analysis"
+  ],
+  "related": [
+    "bi-protein-biochemical-methods"
+  ],
+  "topics": [
+    {
+      "id": "ch-separation-science-1",
+      "name": "Extraction: liquid-liquid, solid-phase and solid-phase microextraction"
+    },
+    {
+      "id": "ch-separation-science-2",
+      "name": "Chromatographic theory: partition, retention, plate height and the van Deemter equation"
+    },
+    {
+      "id": "ch-separation-science-3",
+      "name": "Resolution and optimization of separations"
+    },
+    {
+      "id": "ch-separation-science-4",
+      "name": "Gas chromatography: columns, detectors and temperature programming"
+    },
+    {
+      "id": "ch-separation-science-5",
+      "name": "High-performance liquid chromatography: normal and reversed phase, gradients"
+    },
+    {
+      "id": "ch-separation-science-6",
+      "name": "Ion-exchange, size-exclusion and affinity chromatography"
+    },
+    {
+      "id": "ch-separation-science-7",
+      "name": "Chiral separations"
+    },
+    {
+      "id": "ch-separation-science-8",
+      "name": "Capillary and gel electrophoresis"
+    },
+    {
+      "id": "ch-separation-science-9",
+      "name": "Supercritical-fluid chromatography"
+    },
+    {
+      "id": "ch-separation-science-10",
+      "name": "Hyphenated techniques: GC-MS and LC-MS/MS"
+    },
+    {
+      "id": "ch-separation-science-11",
+      "name": "Sample preparation for complex matrices"
+    }
+  ]
+}

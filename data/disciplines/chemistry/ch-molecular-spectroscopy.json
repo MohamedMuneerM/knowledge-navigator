@@ -1,0 +1,66 @@
+{
+  "id": "ch-molecular-spectroscopy",
+  "name": "Molecular Spectroscopy",
+  "category": "Physical Chemistry",
+  "level": 3,
+  "priority": "core",
+  "summary": "How molecules absorb, emit and scatter light, and what rotational, vibrational and electronic spectra reveal.",
+  "prerequisites": [
+    "ch-quantum-chemistry",
+    "ch-symmetry-group-theory"
+  ],
+  "related": [
+    "ph-chemical-physics-physical-chemistry",
+    "ph-molecular-physics"
+  ],
+  "topics": [
+    {
+      "id": "ch-molecular-spectroscopy-1",
+      "name": "Light-matter interaction: transition dipoles, selection rules and Einstein coefficients"
+    },
+    {
+      "id": "ch-molecular-spectroscopy-2",
+      "name": "Line shapes and broadening mechanisms"
+    },
+    {
+      "id": "ch-molecular-spectroscopy-3",
+      "name": "Rotational (microwave) spectroscopy"
+    },
+    {
+      "id": "ch-molecular-spectroscopy-4",
+      "name": "Vibrational spectroscopy: IR, anharmonicity and normal modes"
+    },
+    {
+      "id": "ch-molecular-spectroscopy-5",
+      "name": "Raman spectroscopy"
+    },
+    {
+      "id": "ch-molecular-spectroscopy-6",
+      "name": "Rovibrational spectra and band structure"
+    },
+    {
+      "id": "ch-molecular-spectroscopy-7",
+      "name": "Electronic spectroscopy: the Franck-Condon principle and vibronic structure"
+    },
+    {
+      "id": "ch-molecular-spectroscopy-8",
+      "name": "Fluorescence, phosphorescence and Jablonski diagrams"
+    },
+    {
+      "id": "ch-molecular-spectroscopy-9",
+      "name": "Photoelectron spectroscopy"
+    },
+    {
+      "id": "ch-molecular-spectroscopy-10",
+      "name": "Lasers: principles and use in spectroscopy"
+    },
+    {
+      "id": "ch-molecular-spectroscopy-11",
+      "name": "Magnetic resonance overview (NMR and EPR)"
+    },
+    {
+      "id": "ch-molecular-spectroscopy-12",
+      "name": "Spectra of polyatomic molecules and symmetry-based selection rules"
+    }
+  ]
+}

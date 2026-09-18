@@ -1,0 +1,62 @@
+{
+  "id": "ea-sustainability-science",
+  "name": "Sustainability Science",
+  "category": "Sustainability, Policy & Society",
+  "level": 2,
+  "priority": "important",
+  "summary": "Frameworks and tools for keeping human development within the limits of Earth systems, from planetary boundaries to life-cycle thinking.",
+  "prerequisites": [
+    "ea-introduction-to-environmental-science"
+  ],
+  "related": [
+    "bi-ecology",
+    "bi-conservation-biology",
+    "mt-sustainability-lca"
+  ],
+  "topics": [
+    {
+      "id": "ea-sustainability-science-1",
+      "name": "The Anthropocene and human-Earth system coupling"
+    },
+    {
+      "id": "ea-sustainability-science-2",
+      "name": "Planetary boundaries"
+    },
+    {
+      "id": "ea-sustainability-science-3",
+      "name": "The UN Sustainable Development Goals"
+    },
+    {
+      "id": "ea-sustainability-science-4",
+      "name": "Ecosystem services and natural capital"
+    },
+    {
+      "id": "ea-sustainability-science-5",
+      "name": "Land-use change, deforestation and conservation"
+    },
+    {
+      "id": "ea-sustainability-science-6",
+      "name": "Sustainable agriculture and food systems"
+    },
+    {
+      "id": "ea-sustainability-science-7",
+      "name": "Sustainable fisheries and forestry"
+    },
+    {
+      "id": "ea-sustainability-science-8",
+      "name": "Life-cycle assessment and footprints"
+    },
+    {
+      "id": "ea-sustainability-science-9",
+      "name": "Circular economy and industrial ecology"
+    },
+    {
+      "id": "ea-sustainability-science-10",
+      "name": "Sustainable cities and infrastructure"
+    },
+    {
+      "id": "ea-sustainability-science-11",
+      "name": "Resilience and socio-ecological systems"
+    }
+  ]
+}

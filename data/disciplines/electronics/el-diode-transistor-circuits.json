@@ -1,0 +1,71 @@
+{
+  "id": "el-diode-transistor-circuits",
+  "name": "Diode & Transistor Circuits",
+  "category": "Analog Electronics",
+  "level": 2,
+  "priority": "core",
+  "summary": "The first electronics course: diode circuits, BJT and MOSFET biasing, small-signal models and single- and multi-stage amplifiers.",
+  "prerequisites": [
+    "el-circuit-theory",
+    "el-active-components"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-diode-transistor-circuits-1",
+      "name": "Diode models and load-line analysis"
+    },
+    {
+      "id": "el-diode-transistor-circuits-2",
+      "name": "Rectifiers, clippers, clampers and voltage multipliers"
+    },
+    {
+      "id": "el-diode-transistor-circuits-3",
+      "name": "Zener diodes and simple shunt regulators"
+    },
+    {
+      "id": "el-diode-transistor-circuits-4",
+      "name": "BJT operation, regions and large-signal models"
+    },
+    {
+      "id": "el-diode-transistor-circuits-5",
+      "name": "BJT biasing and bias stability"
+    },
+    {
+      "id": "el-diode-transistor-circuits-6",
+      "name": "MOSFET operation, regions and large-signal models"
+    },
+    {
+      "id": "el-diode-transistor-circuits-7",
+      "name": "MOSFET biasing"
+    },
+    {
+      "id": "el-diode-transistor-circuits-8",
+      "name": "Transistors as switches (logic, load and relay drivers)"
+    },
+    {
+      "id": "el-diode-transistor-circuits-9",
+      "name": "Small-signal models (hybrid-pi and T models)"
+    },
+    {
+      "id": "el-diode-transistor-circuits-10",
+      "name": "Common-emitter and common-source amplifiers"
+    },
+    {
+      "id": "el-diode-transistor-circuits-11",
+      "name": "Common-base/gate and follower (common-collector/drain) stages"
+    },
+    {
+      "id": "el-diode-transistor-circuits-12",
+      "name": "Multistage amplifiers and coupling"
+    },
+    {
+      "id": "el-diode-transistor-circuits-13",
+      "name": "Current mirrors and active loads (introduction)"
+    },
+    {
+      "id": "el-diode-transistor-circuits-14",
+      "name": "Simulating transistor circuits with SPICE"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "bi-cellular-molecular-neuroscience",
+  "name": "Cellular & Molecular Neuroscience",
+  "category": "Neuroscience",
+  "level": 3,
+  "priority": "core",
+  "summary": "The detailed biophysics and molecular biology of neurons: ion channels, action potentials, synapses and the mechanisms of plasticity.",
+  "prerequisites": [
+    "bi-neuroscience-fundamentals",
+    "bi-cell-signaling"
+  ],
+  "related": [
+    "ph-biophysics"
+  ],
+  "topics": [
+    {
+      "id": "bi-cellular-molecular-neuroscience-1",
+      "name": "Neuronal cell biology: axonal transport, polarity and dendritic structure"
+    },
+    {
+      "id": "bi-cellular-molecular-neuroscience-2",
+      "name": "Ion channel structure, gating and diversity"
+    },
+    {
+      "id": "bi-cellular-molecular-neuroscience-3",
+      "name": "Hodgkin-Huxley analysis of the action potential"
+    },
+    {
+      "id": "bi-cellular-molecular-neuroscience-4",
+      "name": "Myelination, saltatory conduction and cable theory"
+    },
+    {
+      "id": "bi-cellular-molecular-neuroscience-5",
+      "name": "Dendritic integration and active dendrites"
+    },
+    {
+      "id": "bi-cellular-molecular-neuroscience-6",
+      "name": "Presynaptic mechanisms: vesicle cycle, calcium and quantal release"
+    },
+    {
+      "id": "bi-cellular-molecular-neuroscience-7",
+      "name": "Ionotropic receptors: glutamate, GABA, glycine and nicotinic receptors"
+    },
+    {
+      "id": "bi-cellular-molecular-neuroscience-8",
+      "name": "Metabotropic receptors and neuromodulation (dopamine, serotonin, noradrenaline, acetylcholine)"
+    },
+    {
+      "id": "bi-cellular-molecular-neuroscience-9",
+      "name": "Electrical synapses and gap junctions"
+    },
+    {
+      "id": "bi-cellular-molecular-neuroscience-10",
+      "name": "Short-term synaptic plasticity"
+    },
+    {
+      "id": "bi-cellular-molecular-neuroscience-11",
+      "name": "Long-term potentiation and depression: NMDA receptors and AMPA trafficking"
+    },
+    {
+      "id": "bi-cellular-molecular-neuroscience-12",
+      "name": "Molecular basis of memory storage"
+    },
+    {
+      "id": "bi-cellular-molecular-neuroscience-13",
+      "name": "Glial biology: astrocytes, oligodendrocytes, microglia"
+    },
+    {
+      "id": "bi-cellular-molecular-neuroscience-14",
+      "name": "Neuronal excitability disorders (channelopathies, epilepsy mechanisms)"
+    }
+  ]
+}

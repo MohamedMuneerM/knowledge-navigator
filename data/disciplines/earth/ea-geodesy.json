@@ -1,0 +1,58 @@
+{
+  "id": "ea-geodesy",
+  "name": "Geodesy",
+  "category": "Remote Sensing, GIS & Geodesy",
+  "level": 3,
+  "priority": "important",
+  "summary": "Measuring Earth's shape, gravity field, rotation and deformation with millimetre precision, and what these reveal.",
+  "prerequisites": [
+    "ea-solid-earth-geophysics",
+    "ea-geographic-information-systems"
+  ],
+  "related": [
+    "ph-geophysics",
+    "ae-orbit-determination"
+  ],
+  "topics": [
+    {
+      "id": "ea-geodesy-1",
+      "name": "The figure of the Earth: ellipsoid and geoid"
+    },
+    {
+      "id": "ea-geodesy-2",
+      "name": "Reference frames and datums (ITRF, WGS84)"
+    },
+    {
+      "id": "ea-geodesy-3",
+      "name": "GNSS positioning: principles and error sources"
+    },
+    {
+      "id": "ea-geodesy-4",
+      "name": "Space geodetic techniques: VLBI, SLR and DORIS"
+    },
+    {
+      "id": "ea-geodesy-5",
+      "name": "Gravity field measurement and satellite gravimetry (GRACE)"
+    },
+    {
+      "id": "ea-geodesy-6",
+      "name": "InSAR and surface deformation"
+    },
+    {
+      "id": "ea-geodesy-7",
+      "name": "Crustal deformation and tectonic geodesy"
+    },
+    {
+      "id": "ea-geodesy-8",
+      "name": "Satellite altimetry and sea-level measurement"
+    },
+    {
+      "id": "ea-geodesy-9",
+      "name": "Earth rotation, polar motion and length of day"
+    },
+    {
+      "id": "ea-geodesy-10",
+      "name": "Glacial isostatic adjustment and mass change"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "el-embedded-systems-fundamentals",
+  "name": "Embedded Systems Fundamentals",
+  "category": "Microcontrollers, Processors & Architectures",
+  "level": 2,
+  "priority": "core",
+  "summary": "The engineering view of microcontroller systems: architecture, memory map, C at the register level, interrupts, timers, ADCs and serial buses.",
+  "prerequisites": [
+    "el-intro-microcontrollers",
+    "el-sequential-logic",
+    "cs-systems-programming"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-embedded-systems-fundamentals-1",
+      "name": "What makes a system embedded: constraints and examples"
+    },
+    {
+      "id": "el-embedded-systems-fundamentals-2",
+      "name": "Microcontroller architecture: CPU core, buses, memory map, peripherals"
+    },
+    {
+      "id": "el-embedded-systems-fundamentals-3",
+      "name": "Toolchain overview: compiler, linker, flashing and debugging"
+    },
+    {
+      "id": "el-embedded-systems-fundamentals-4",
+      "name": "C for embedded systems: fixed-width types, bit manipulation, volatile"
+    },
+    {
+      "id": "el-embedded-systems-fundamentals-5",
+      "name": "GPIO configuration and electrical characteristics (push-pull, open-drain, pull-ups)"
+    },
+    {
+      "id": "el-embedded-systems-fundamentals-6",
+      "name": "Interrupts and the exception model"
+    },
+    {
+      "id": "el-embedded-systems-fundamentals-7",
+      "name": "Timers, counters, input capture and PWM"
+    },
+    {
+      "id": "el-embedded-systems-fundamentals-8",
+      "name": "ADC and DAC usage"
+    },
+    {
+      "id": "el-embedded-systems-fundamentals-9",
+      "name": "Serial interfaces overview: UART, I2C, SPI"
+    },
+    {
+      "id": "el-embedded-systems-fundamentals-10",
+      "name": "Clock trees and power modes"
+    },
+    {
+      "id": "el-embedded-systems-fundamentals-11",
+      "name": "Memory types: flash, SRAM, EEPROM"
+    },
+    {
+      "id": "el-embedded-systems-fundamentals-12",
+      "name": "Software architectures: super-loop, interrupt-driven, event-driven"
+    },
+    {
+      "id": "el-embedded-systems-fundamentals-13",
+      "name": "An embedded design project from requirements to test"
+    }
+  ]
+}

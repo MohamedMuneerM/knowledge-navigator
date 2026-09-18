@@ -1,0 +1,72 @@
+{
+  "id": "me-introduction-to-engineering-mechanical-design",
+  "name": "Introduction to Engineering & Mechanical Design",
+  "category": "Foundations & Professional Practice",
+  "level": 1,
+  "priority": "core",
+  "summary": "A first contact with how mechanical engineers think and work: units, estimation, structured problem solving and a simple design-build-test process.",
+  "prerequisites": [
+    "ma-elementary-intermediate-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "me-introduction-to-engineering-mechanical-design-1",
+      "name": "What mechanical engineers do: fields, industries and career paths"
+    },
+    {
+      "id": "me-introduction-to-engineering-mechanical-design-2",
+      "name": "SI and US customary units, unit conversion and dimensional consistency",
+      "sub": [
+        {
+          "id": "me-introduction-to-engineering-mechanical-design-2-1",
+          "name": "Base and derived SI units, prefixes"
+        },
+        {
+          "id": "me-introduction-to-engineering-mechanical-design-2-2",
+          "name": "Force, mass and weight: newton vs pound-force vs pound-mass"
+        }
+      ]
+    },
+    {
+      "id": "me-introduction-to-engineering-mechanical-design-3",
+      "name": "Significant figures, estimation and order-of-magnitude (Fermi) reasoning"
+    },
+    {
+      "id": "me-introduction-to-engineering-mechanical-design-4",
+      "name": "Structured engineering problem solving (given, find, assumptions, solution, check)"
+    },
+    {
+      "id": "me-introduction-to-engineering-mechanical-design-5",
+      "name": "Forces, moments, energy and power in everyday terms"
+    },
+    {
+      "id": "me-introduction-to-engineering-mechanical-design-6",
+      "name": "The engineering design process: need, requirements, concepts, prototype, test, iterate"
+    },
+    {
+      "id": "me-introduction-to-engineering-mechanical-design-7",
+      "name": "Sketching ideas and reading simple engineering drawings"
+    },
+    {
+      "id": "me-introduction-to-engineering-mechanical-design-8",
+      "name": "Common engineering materials and how they are chosen at a glance"
+    },
+    {
+      "id": "me-introduction-to-engineering-mechanical-design-9",
+      "name": "Safety factors, failure and why things break"
+    },
+    {
+      "id": "me-introduction-to-engineering-mechanical-design-10",
+      "name": "Spreadsheets for engineering calculations"
+    },
+    {
+      "id": "me-introduction-to-engineering-mechanical-design-11",
+      "name": "Teamwork, engineering notebooks and technical communication"
+    },
+    {
+      "id": "me-introduction-to-engineering-mechanical-design-12",
+      "name": "A simple design-build-test project (e.g. a load-carrying bridge or a rubber-band car)"
+    }
+  ]
+}

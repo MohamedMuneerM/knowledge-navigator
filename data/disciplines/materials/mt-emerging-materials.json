@@ -1,0 +1,58 @@
+{
+  "id": "mt-emerging-materials",
+  "name": "Emerging Materials Frontiers",
+  "category": "Frontier Materials",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "A survey of fast-moving research frontiers across materials science, from quantum materials and halide perovskites to living materials and autonomous discovery.",
+  "prerequisites": [
+    "mt-nanomaterials",
+    "mt-materials-informatics"
+  ],
+  "related": [
+    "ph-quantum-materials",
+    "ai-ai-for-science"
+  ],
+  "topics": [
+    {
+      "id": "mt-emerging-materials-1",
+      "name": "Quantum materials for computing: superconducting qubit materials, topological materials and defect qubits"
+    },
+    {
+      "id": "mt-emerging-materials-2",
+      "name": "Halide perovskites beyond photovoltaics"
+    },
+    {
+      "id": "mt-emerging-materials-3",
+      "name": "Metal-organic and covalent-organic frameworks"
+    },
+    {
+      "id": "mt-emerging-materials-4",
+      "name": "Engineered living materials and synthetic-biology-derived materials"
+    },
+    {
+      "id": "mt-emerging-materials-5",
+      "name": "4D printing and programmable matter"
+    },
+    {
+      "id": "mt-emerging-materials-6",
+      "name": "Materials for neuromorphic computing (memristors, phase-change memory)"
+    },
+    {
+      "id": "mt-emerging-materials-7",
+      "name": "Ultra-strong materials: carbon-nanotube fibres, nanolattices and diamond composites"
+    },
+    {
+      "id": "mt-emerging-materials-8",
+      "name": "Room-temperature superconductivity claims and how to evaluate them"
+    },
+    {
+      "id": "mt-emerging-materials-9",
+      "name": "Materials for fusion and next-generation energy"
+    },
+    {
+      "id": "mt-emerging-materials-10",
+      "name": "Space resource utilisation: materials from lunar and Martian regolith"
+    }
+  ]
+}

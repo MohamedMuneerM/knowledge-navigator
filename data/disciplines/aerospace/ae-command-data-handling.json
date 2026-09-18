@@ -1,0 +1,58 @@
+{
+  "id": "ae-command-data-handling",
+  "name": "Command and Data Handling",
+  "category": "Spacecraft Subsystems",
+  "level": 3,
+  "priority": "core",
+  "summary": "The spacecraft's onboard computer system: processors, memory, data buses, telemetry and telecommand, timing and onboard fault protection.",
+  "prerequisites": [
+    "ae-spacecraft-bus-fundamentals",
+    "el-embedded-systems-fundamentals"
+  ],
+  "related": [
+    "el-spacecraft-electronics",
+    "el-avionics-buses-protocols"
+  ],
+  "topics": [
+    {
+      "id": "ae-command-data-handling-1",
+      "name": "C&DH architecture: centralised versus distributed"
+    },
+    {
+      "id": "ae-command-data-handling-2",
+      "name": "Onboard computers and radiation-hardened processors"
+    },
+    {
+      "id": "ae-command-data-handling-3",
+      "name": "Memory, mass storage and error detection and correction (EDAC)"
+    },
+    {
+      "id": "ae-command-data-handling-4",
+      "name": "Spacecraft data buses: MIL-STD-1553, SpaceWire, CAN, I2C"
+    },
+    {
+      "id": "ae-command-data-handling-5",
+      "name": "Telemetry and telecommand processing"
+    },
+    {
+      "id": "ae-command-data-handling-6",
+      "name": "CCSDS space packets and the ECSS Packet Utilisation Standard (PUS)"
+    },
+    {
+      "id": "ae-command-data-handling-7",
+      "name": "Time management and synchronisation"
+    },
+    {
+      "id": "ae-command-data-handling-8",
+      "name": "Data rates, storage sizing and downlink planning"
+    },
+    {
+      "id": "ae-command-data-handling-9",
+      "name": "Watchdogs, safe modes and fault protection"
+    },
+    {
+      "id": "ae-command-data-handling-10",
+      "name": "Radiation-tolerant design and COTS usage"
+    }
+  ]
+}

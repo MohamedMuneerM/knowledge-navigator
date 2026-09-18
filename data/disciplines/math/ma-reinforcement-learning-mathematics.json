@@ -1,0 +1,47 @@
+{
+  "id": "ma-reinforcement-learning-mathematics",
+  "name": "Reinforcement Learning Mathematics",
+  "category": "Machine Learning & Data Science Mathematics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Mathematics of learning to act: Markov decision processes, Bellman equations, temporal-difference learning and policy gradients.",
+  "prerequisites": [
+    "ma-dynamic-programming",
+    "ma-foundations-of-machine-learning"
+  ],
+  "related": [
+    "ai-rl-fundamentals",
+    "ai-dynamic-programming",
+    "ai-model-free-methods"
+  ],
+  "topics": [
+    {
+      "id": "ma-reinforcement-learning-mathematics-1",
+      "name": "Markov decision processes"
+    },
+    {
+      "id": "ma-reinforcement-learning-mathematics-2",
+      "name": "Bellman equations"
+    },
+    {
+      "id": "ma-reinforcement-learning-mathematics-5",
+      "name": "Temporal-difference learning"
+    },
+    {
+      "id": "ma-reinforcement-learning-mathematics-3",
+      "name": "Q-learning"
+    },
+    {
+      "id": "ma-reinforcement-learning-mathematics-6",
+      "name": "Function approximation and convergence"
+    },
+    {
+      "id": "ma-reinforcement-learning-mathematics-4",
+      "name": "Policy gradient methods"
+    },
+    {
+      "id": "ma-reinforcement-learning-mathematics-7",
+      "name": "Multi-armed bandits and regret"
+    }
+  ]
+}

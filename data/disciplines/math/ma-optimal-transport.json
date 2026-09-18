@@ -1,0 +1,39 @@
+{
+  "id": "ma-optimal-transport",
+  "name": "Optimal Transport",
+  "category": "Optimization & Control Theory",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Moving one distribution onto another at least cost: the Monge-Kantorovich problem, Wasserstein distances and their uses in analysis and ML.",
+  "prerequisites": [
+    "ma-functional-analysis",
+    "ma-linear-programming"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-optimal-transport-1",
+      "name": "Monge-Kantorovich problem"
+    },
+    {
+      "id": "ma-optimal-transport-3",
+      "name": "Kantorovich duality"
+    },
+    {
+      "id": "ma-optimal-transport-4",
+      "name": "Brenier's theorem"
+    },
+    {
+      "id": "ma-optimal-transport-2",
+      "name": "Wasserstein distances"
+    },
+    {
+      "id": "ma-optimal-transport-5",
+      "name": "Computational optimal transport (Sinkhorn)"
+    },
+    {
+      "id": "ma-optimal-transport-6",
+      "name": "Applications in statistics, ML and PDEs"
+    }
+  ]
+}

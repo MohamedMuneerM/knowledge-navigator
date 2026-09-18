@@ -1,0 +1,72 @@
+{
+  "id": "el-control-theory",
+  "name": "Feedback Control Systems",
+  "category": "Control Systems & Robotics",
+  "level": 3,
+  "priority": "core",
+  "summary": "Classical feedback control: modelling, transient and steady-state response, stability, root locus, Bode/Nyquist design and PID controllers.",
+  "prerequisites": [
+    "el-signals-and-systems"
+  ],
+  "related": [
+    "ma-control-theory",
+    "ma-systems-theory-control",
+    "ai-control-systems",
+    "me-feedback-control",
+    "ae-feedback-control-aerospace"
+  ],
+  "topics": [
+    {
+      "id": "el-control-theory-7",
+      "name": "Modelling dynamic systems: electrical, mechanical and electromechanical"
+    },
+    {
+      "id": "el-control-theory-8",
+      "name": "Block diagrams and signal-flow graphs"
+    },
+    {
+      "id": "el-control-theory-1",
+      "name": "Feedback systems and stability analysis"
+    },
+    {
+      "id": "el-control-theory-9",
+      "name": "Time-domain response and specifications (rise time, overshoot, settling time)"
+    },
+    {
+      "id": "el-control-theory-10",
+      "name": "Steady-state error and system type"
+    },
+    {
+      "id": "el-control-theory-11",
+      "name": "Routh-Hurwitz stability criterion"
+    },
+    {
+      "id": "el-control-theory-4",
+      "name": "Root locus and frequency response"
+    },
+    {
+      "id": "el-control-theory-12",
+      "name": "Nyquist stability criterion, gain and phase margins"
+    },
+    {
+      "id": "el-control-theory-13",
+      "name": "Lead, lag and lead-lag compensator design"
+    },
+    {
+      "id": "el-control-theory-2",
+      "name": "PID controllers (proportional-integral-derivative)"
+    },
+    {
+      "id": "el-control-theory-3",
+      "name": "State-space representation"
+    },
+    {
+      "id": "el-control-theory-5",
+      "name": "Digital control systems"
+    },
+    {
+      "id": "el-control-theory-6",
+      "name": "Adaptive and robust control"
+    }
+  ]
+}

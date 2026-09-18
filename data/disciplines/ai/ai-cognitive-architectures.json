@@ -1,0 +1,73 @@
+{
+  "id": "ai-cognitive-architectures",
+  "name": "Cognitive Architectures",
+  "category": "Cognitive & Nature-Inspired AI",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Unified computational theories of mind such as ACT-R and Soar, with their memory systems and use in cognitive modelling.",
+  "prerequisites": [
+    "ai-knowledge-representation-reasoning"
+  ],
+  "related": [
+    "bi-cognitive-neuroscience",
+    "ai-cognitive-ai"
+  ],
+  "topics": [
+    {
+      "id": "ai-cognitive-architectures-1",
+      "name": "Classical Architectures",
+      "sub": [
+        {
+          "id": "ai-cognitive-architectures-1-1",
+          "name": "ACT-R"
+        },
+        {
+          "id": "ai-cognitive-architectures-1-2",
+          "name": "Soar"
+        },
+        {
+          "id": "ai-cognitive-architectures-1-3",
+          "name": "CLARION"
+        },
+        {
+          "id": "ai-cognitive-architectures-1-4",
+          "name": "LIDA"
+        }
+      ]
+    },
+    {
+      "id": "ai-cognitive-architectures-2",
+      "name": "Memory Systems",
+      "sub": [
+        {
+          "id": "ai-cognitive-architectures-2-1",
+          "name": "Working memory"
+        },
+        {
+          "id": "ai-cognitive-architectures-2-2",
+          "name": "Long-term memory"
+        },
+        {
+          "id": "ai-cognitive-architectures-2-3",
+          "name": "Episodic memory"
+        }
+      ]
+    },
+    {
+      "id": "ai-cognitive-architectures-3",
+      "name": "Embodied Cognition"
+    },
+    {
+      "id": "ai-cognitive-architectures-4",
+      "name": "Cognitive Modeling"
+    },
+    {
+      "id": "ai-cognitive-architectures-5",
+      "name": "Global workspace theory and consciousness-inspired architectures"
+    },
+    {
+      "id": "ai-cognitive-architectures-6",
+      "name": "AGI-oriented architectures (Sigma, OpenCog)"
+    }
+  ]
+}

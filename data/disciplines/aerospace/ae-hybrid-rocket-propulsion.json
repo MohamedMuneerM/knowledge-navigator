@@ -1,0 +1,48 @@
+{
+  "id": "ae-hybrid-rocket-propulsion",
+  "name": "Hybrid Rocket Propulsion",
+  "category": "Rocket Propulsion",
+  "level": 3,
+  "priority": "important",
+  "summary": "Rockets that combine a solid fuel grain with a liquid or gaseous oxidiser: their physics, performance and design trades.",
+  "prerequisites": [
+    "ae-rocket-propellants-performance"
+  ],
+  "related": [
+    "ch-propellant-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "ae-hybrid-rocket-propulsion-1",
+      "name": "Hybrid rocket architecture and advantages"
+    },
+    {
+      "id": "ae-hybrid-rocket-propulsion-2",
+      "name": "Boundary-layer combustion and regression rate"
+    },
+    {
+      "id": "ae-hybrid-rocket-propulsion-3",
+      "name": "Oxidiser mass flux and regression rate laws"
+    },
+    {
+      "id": "ae-hybrid-rocket-propulsion-4",
+      "name": "Liquefying (paraffin) fuels"
+    },
+    {
+      "id": "ae-hybrid-rocket-propulsion-5",
+      "name": "Mixture-ratio shift and grain port design"
+    },
+    {
+      "id": "ae-hybrid-rocket-propulsion-6",
+      "name": "Oxidiser feed: self-pressurised nitrous oxide and LOX"
+    },
+    {
+      "id": "ae-hybrid-rocket-propulsion-7",
+      "name": "Combustion efficiency and instabilities in hybrids"
+    },
+    {
+      "id": "ae-hybrid-rocket-propulsion-8",
+      "name": "Hybrid applications: SpaceShipOne/Two, sounding rockets and student rockets"
+    }
+  ]
+}

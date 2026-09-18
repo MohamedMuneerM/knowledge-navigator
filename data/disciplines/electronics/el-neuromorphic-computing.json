@@ -1,0 +1,44 @@
+{
+  "id": "el-neuromorphic-computing",
+  "name": "Neuromorphic Computing",
+  "category": "Emerging & Advanced Topics",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Brain-inspired hardware: spiking neural networks, event-driven computation, neuromorphic chips and event cameras.",
+  "prerequisites": [
+    "el-digital-vlsi-design",
+    "ai-neural-network-foundations"
+  ],
+  "related": [
+    "ai-bio-inspired-ai",
+    "bi-computational-neuroscience",
+    "cs-emerging-systems",
+    "ai-hardware-for-ai"
+  ],
+  "topics": [
+    {
+      "id": "el-neuromorphic-computing-1",
+      "name": "Spiking Neural Networks (SNN)"
+    },
+    {
+      "id": "el-neuromorphic-computing-2",
+      "name": "Event-driven computation"
+    },
+    {
+      "id": "el-neuromorphic-computing-3",
+      "name": "Brain-inspired architectures"
+    },
+    {
+      "id": "el-neuromorphic-computing-4",
+      "name": "Neuromorphic chips (Intel Loihi, IBM TrueNorth, BrainScaleS)"
+    },
+    {
+      "id": "el-neuromorphic-computing-5",
+      "name": "Energy-efficient AI"
+    },
+    {
+      "id": "el-neuromorphic-computing-6",
+      "name": "Event-based cameras (DVS sensors)"
+    }
+  ]
+}

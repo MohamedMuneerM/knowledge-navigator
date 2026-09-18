@@ -1,0 +1,40 @@
+{
+  "id": "el-in-vehicle-networking",
+  "name": "In-Vehicle Networking",
+  "category": "Automotive, Aerospace & Defense Systems",
+  "level": 3,
+  "priority": "important",
+  "summary": "Designing the in-vehicle network: CAN/CAN FD, LIN, FlexRay, automotive Ethernet, MOST and gateway ECUs.",
+  "prerequisites": [
+    "el-automotive-protocols"
+  ],
+  "related": [
+    "el-automotive-protocols"
+  ],
+  "topics": [
+    {
+      "id": "el-in-vehicle-networking-1",
+      "name": "CAN and CAN FD"
+    },
+    {
+      "id": "el-in-vehicle-networking-2",
+      "name": "LIN bus"
+    },
+    {
+      "id": "el-in-vehicle-networking-3",
+      "name": "FlexRay"
+    },
+    {
+      "id": "el-in-vehicle-networking-4",
+      "name": "Automotive Ethernet (100BASE-T1, 1000BASE-T1)"
+    },
+    {
+      "id": "el-in-vehicle-networking-5",
+      "name": "MOST (Media Oriented Systems Transport)"
+    },
+    {
+      "id": "el-in-vehicle-networking-6",
+      "name": "Gateway ECUs and routing"
+    }
+  ]
+}

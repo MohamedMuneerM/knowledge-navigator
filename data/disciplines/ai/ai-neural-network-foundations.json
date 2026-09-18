@@ -1,0 +1,146 @@
+{
+  "id": "ai-neural-network-foundations",
+  "name": "Neural Network Foundations",
+  "category": "Deep Learning",
+  "level": 2,
+  "priority": "core",
+  "summary": "The building blocks of deep learning: perceptrons and MLPs, activations, losses, backpropagation, initialization and gradient-based optimizers.",
+  "prerequisites": [
+    "ai-types-of-machine-learning",
+    "ma-multivariable-calculus",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ma-neural-network-mathematics"
+  ],
+  "topics": [
+    {
+      "id": "ai-neural-network-foundations-1",
+      "name": "Perceptrons"
+    },
+    {
+      "id": "ai-neural-network-foundations-2",
+      "name": "Multi-Layer Perceptrons (MLP)"
+    },
+    {
+      "id": "ai-neural-network-foundations-3",
+      "name": "Feedforward Neural Networks"
+    },
+    {
+      "id": "ai-neural-network-foundations-4",
+      "name": "Activation Functions",
+      "sub": [
+        {
+          "id": "ai-neural-network-foundations-4-1",
+          "name": "Sigmoid"
+        },
+        {
+          "id": "ai-neural-network-foundations-4-2",
+          "name": "Tanh"
+        },
+        {
+          "id": "ai-neural-network-foundations-4-3",
+          "name": "ReLU and variants (Leaky ReLU, PReLU, ELU, GELU, Swish)"
+        },
+        {
+          "id": "ai-neural-network-foundations-4-4",
+          "name": "Softmax"
+        }
+      ]
+    },
+    {
+      "id": "ai-neural-network-foundations-5",
+      "name": "Loss Functions",
+      "sub": [
+        {
+          "id": "ai-neural-network-foundations-5-1",
+          "name": "Cross-entropy"
+        },
+        {
+          "id": "ai-neural-network-foundations-5-2",
+          "name": "Mean squared error"
+        },
+        {
+          "id": "ai-neural-network-foundations-5-3",
+          "name": "Hinge loss"
+        },
+        {
+          "id": "ai-neural-network-foundations-5-4",
+          "name": "Contrastive loss"
+        },
+        {
+          "id": "ai-neural-network-foundations-5-5",
+          "name": "Triplet loss"
+        }
+      ]
+    },
+    {
+      "id": "ai-neural-network-foundations-6",
+      "name": "Backpropagation"
+    },
+    {
+      "id": "ai-neural-network-foundations-7",
+      "name": "Gradient Descent Variants",
+      "sub": [
+        {
+          "id": "ai-neural-network-foundations-7-1",
+          "name": "Batch, Mini-batch, Stochastic"
+        }
+      ]
+    },
+    {
+      "id": "ai-neural-network-foundations-8",
+      "name": "Optimization Algorithms",
+      "sub": [
+        {
+          "id": "ai-neural-network-foundations-8-1",
+          "name": "SGD with momentum"
+        },
+        {
+          "id": "ai-neural-network-foundations-8-2",
+          "name": "Nesterov momentum"
+        },
+        {
+          "id": "ai-neural-network-foundations-8-3",
+          "name": "AdaGrad"
+        },
+        {
+          "id": "ai-neural-network-foundations-8-4",
+          "name": "RMSprop"
+        },
+        {
+          "id": "ai-neural-network-foundations-8-5",
+          "name": "Adam, AdamW"
+        },
+        {
+          "id": "ai-neural-network-foundations-8-6",
+          "name": "LAMB"
+        },
+        {
+          "id": "ai-neural-network-foundations-8-7",
+          "name": "Lion"
+        }
+      ]
+    },
+    {
+      "id": "ai-neural-network-foundations-9",
+      "name": "Universal approximation theorem"
+    },
+    {
+      "id": "ai-neural-network-foundations-10",
+      "name": "Computational graphs and automatic differentiation"
+    },
+    {
+      "id": "ai-neural-network-foundations-11",
+      "name": "Weight initialization (Xavier/Glorot, He)"
+    },
+    {
+      "id": "ai-neural-network-foundations-12",
+      "name": "Vanishing and exploding gradients"
+    },
+    {
+      "id": "ai-neural-network-foundations-13",
+      "name": "Learning-rate schedules, warmup and gradient clipping"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ph-astroparticle-physics",
+  "name": "Astroparticle Physics & Dark Matter",
+  "category": "High-Energy & Multi-Messenger Astrophysics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Where particle physics meets the cosmos: dark matter searches, cosmic rays and very-high-energy gamma rays.",
+  "prerequisites": [
+    "ph-particle-physics",
+    "ph-cosmology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-astroparticle-physics-1",
+      "name": "Evidence for dark matter"
+    },
+    {
+      "id": "ph-astroparticle-physics-2",
+      "name": "Dark matter candidates: WIMPs, axions, sterile neutrinos and primordial black holes"
+    },
+    {
+      "id": "ph-astroparticle-physics-3",
+      "name": "Direct detection experiments"
+    },
+    {
+      "id": "ph-astroparticle-physics-4",
+      "name": "Indirect detection and gamma-ray searches"
+    },
+    {
+      "id": "ph-astroparticle-physics-5",
+      "name": "Cosmic rays: composition, spectrum and origin"
+    },
+    {
+      "id": "ph-astroparticle-physics-6",
+      "name": "Particle acceleration: Fermi acceleration in shocks"
+    },
+    {
+      "id": "ph-astroparticle-physics-7",
+      "name": "Ultra-high-energy cosmic rays and the GZK limit"
+    },
+    {
+      "id": "ph-astroparticle-physics-8",
+      "name": "Very-high-energy gamma-ray astronomy with Cherenkov telescopes"
+    },
+    {
+      "id": "ph-astroparticle-physics-9",
+      "name": "Neutrino masses and cosmology"
+    },
+    {
+      "id": "ph-astroparticle-physics-10",
+      "name": "Particle physics of the early Universe"
+    }
+  ]
+}

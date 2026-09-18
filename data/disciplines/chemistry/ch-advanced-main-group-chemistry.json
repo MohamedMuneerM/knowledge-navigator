@@ -1,0 +1,46 @@
+{
+  "id": "ch-advanced-main-group-chemistry",
+  "name": "Advanced Main-Group & Cluster Chemistry",
+  "category": "Inorganic Chemistry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Unusual bonding in electron-deficient, hypervalent and low-valent main-group compounds and in metal clusters.",
+  "prerequisites": [
+    "ch-coordination-chemistry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-advanced-main-group-chemistry-1",
+      "name": "Electron-deficient compounds and three-centre two-electron bonding"
+    },
+    {
+      "id": "ch-advanced-main-group-chemistry-2",
+      "name": "Boranes, carboranes and Wade's rules"
+    },
+    {
+      "id": "ch-advanced-main-group-chemistry-3",
+      "name": "Low-valent main-group compounds and main-group multiple bonds"
+    },
+    {
+      "id": "ch-advanced-main-group-chemistry-4",
+      "name": "Hypervalency and modern bonding models"
+    },
+    {
+      "id": "ch-advanced-main-group-chemistry-5",
+      "name": "Frustrated Lewis pairs and main-group catalysis"
+    },
+    {
+      "id": "ch-advanced-main-group-chemistry-6",
+      "name": "Metal-metal bonding and transition-metal clusters"
+    },
+    {
+      "id": "ch-advanced-main-group-chemistry-7",
+      "name": "Inorganic rings and chains: silicon, phosphorus and sulfur-nitrogen compounds"
+    },
+    {
+      "id": "ch-advanced-main-group-chemistry-8",
+      "name": "Zintl ions and intermetallic clusters"
+    }
+  ]
+}

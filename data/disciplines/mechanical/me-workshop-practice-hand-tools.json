@@ -1,0 +1,82 @@
+{
+  "id": "me-workshop-practice-hand-tools",
+  "name": "Workshop Practice & Hand Tools",
+  "category": "Foundations & Professional Practice",
+  "level": 1,
+  "priority": "important",
+  "summary": "Hands-on workshop skills: safe use of measuring instruments, hand and power tools, basic machine tools, sheet metal and fastening.",
+  "prerequisites": [],
+  "related": [],
+  "topics": [
+    {
+      "id": "me-workshop-practice-hand-tools-1",
+      "name": "Workshop safety, PPE and risk awareness"
+    },
+    {
+      "id": "me-workshop-practice-hand-tools-2",
+      "name": "Measuring and marking out: rules, squares, scribers, height gauges, surface plates"
+    },
+    {
+      "id": "me-workshop-practice-hand-tools-3",
+      "name": "Precision measurement instruments",
+      "sub": [
+        {
+          "id": "me-workshop-practice-hand-tools-3-1",
+          "name": "Vernier and digital calipers"
+        },
+        {
+          "id": "me-workshop-practice-hand-tools-3-2",
+          "name": "Micrometers"
+        },
+        {
+          "id": "me-workshop-practice-hand-tools-3-3",
+          "name": "Dial indicators and gauge blocks"
+        }
+      ]
+    },
+    {
+      "id": "me-workshop-practice-hand-tools-4",
+      "name": "Hand tools: files, hacksaws, chisels, hammers, wrenches and screwdrivers"
+    },
+    {
+      "id": "me-workshop-practice-hand-tools-5",
+      "name": "Drilling, reaming, countersinking and hand tapping/threading"
+    },
+    {
+      "id": "me-workshop-practice-hand-tools-6",
+      "name": "Power tools: drills, angle grinders, band saws and bench grinders"
+    },
+    {
+      "id": "me-workshop-practice-hand-tools-7",
+      "name": "Introduction to the manual lathe (facing, turning, drilling, threading)"
+    },
+    {
+      "id": "me-workshop-practice-hand-tools-8",
+      "name": "Introduction to the manual milling machine (squaring, slots, pockets)"
+    },
+    {
+      "id": "me-workshop-practice-hand-tools-9",
+      "name": "Sheet-metal work: cutting, bending, riveting"
+    },
+    {
+      "id": "me-workshop-practice-hand-tools-10",
+      "name": "Soldering, brazing and introductory welding"
+    },
+    {
+      "id": "me-workshop-practice-hand-tools-11",
+      "name": "Fasteners, threads and torque tightening in practice"
+    },
+    {
+      "id": "me-workshop-practice-hand-tools-12",
+      "name": "Workholding: vises, clamps, V-blocks and simple fixtures"
+    },
+    {
+      "id": "me-workshop-practice-hand-tools-13",
+      "name": "Fitting, deburring and finishing by hand"
+    },
+    {
+      "id": "me-workshop-practice-hand-tools-14",
+      "name": "Maker tools: desktop 3D printers, laser cutters and CNC routers"
+    }
+  ]
+}

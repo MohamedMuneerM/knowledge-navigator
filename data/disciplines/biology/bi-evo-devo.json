@@ -1,0 +1,43 @@
+{
+  "id": "bi-evo-devo",
+  "name": "Evolutionary Developmental Biology (Evo-Devo)",
+  "category": "Developmental Biology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How changes in development generate evolutionary novelty: toolkit genes, regulatory evolution and the origin of body plans.",
+  "prerequisites": [
+    "bi-developmental-biology",
+    "bi-macroevolution-history-of-life"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-evo-devo-1",
+      "name": "The genetic toolkit and deep homology"
+    },
+    {
+      "id": "bi-evo-devo-2",
+      "name": "Hox genes and the evolution of body plans"
+    },
+    {
+      "id": "bi-evo-devo-3",
+      "name": "Cis-regulatory evolution and morphological change"
+    },
+    {
+      "id": "bi-evo-devo-4",
+      "name": "Modularity, constraint and evolvability"
+    },
+    {
+      "id": "bi-evo-devo-5",
+      "name": "Evolution of novelties: eyes, limbs, feathers, flowers"
+    },
+    {
+      "id": "bi-evo-devo-6",
+      "name": "Developmental plasticity and eco-evo-devo"
+    },
+    {
+      "id": "bi-evo-devo-7",
+      "name": "Heterochrony and heterotopy"
+    }
+  ]
+}

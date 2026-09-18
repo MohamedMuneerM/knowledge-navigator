@@ -1,0 +1,56 @@
+{
+  "id": "mt-construction-materials",
+  "name": "Construction & Natural Materials",
+  "category": "Ceramics & Glasses",
+  "level": 2,
+  "priority": "important",
+  "summary": "Introduces the high-volume materials of the built environment: cement and concrete, timber, stone, brick and asphalt.",
+  "prerequisites": [
+    "mt-mechanical-properties"
+  ],
+  "related": [
+    "ea-engineering-geology"
+  ],
+  "topics": [
+    {
+      "id": "mt-construction-materials-1",
+      "name": "Portland cement: manufacture, clinker phases and hydration chemistry"
+    },
+    {
+      "id": "mt-construction-materials-2",
+      "name": "Concrete: mix design, strength development, curing and durability"
+    },
+    {
+      "id": "mt-construction-materials-3",
+      "name": "Reinforced and prestressed concrete from a materials viewpoint; rebar corrosion"
+    },
+    {
+      "id": "mt-construction-materials-4",
+      "name": "Low-carbon cements, geopolymers and supplementary cementitious materials"
+    },
+    {
+      "id": "mt-construction-materials-5",
+      "name": "Wood: cellular structure, anisotropy, moisture and engineered wood products"
+    },
+    {
+      "id": "mt-construction-materials-6",
+      "name": "Bamboo and other natural fibres"
+    },
+    {
+      "id": "mt-construction-materials-7",
+      "name": "Stone, brick and traditional ceramics"
+    },
+    {
+      "id": "mt-construction-materials-8",
+      "name": "Asphalt and bituminous materials"
+    },
+    {
+      "id": "mt-construction-materials-9",
+      "name": "Glass in buildings: float glass, laminated and tempered glass"
+    },
+    {
+      "id": "mt-construction-materials-10",
+      "name": "Durability, weathering and service life of construction materials"
+    }
+  ]
+}

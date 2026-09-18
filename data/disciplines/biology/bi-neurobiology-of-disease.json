@@ -1,0 +1,55 @@
+{
+  "id": "bi-neurobiology-of-disease",
+  "name": "Neurobiology of Disease",
+  "category": "Neuroscience",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The biology of major brain and nerve disorders and how they are treated: neurodegeneration, stroke, injury, epilepsy and psychiatric illness.",
+  "prerequisites": [
+    "bi-cellular-molecular-neuroscience",
+    "bi-neuroanatomy"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-neurobiology-of-disease-1",
+      "name": "Alzheimer's disease and other dementias"
+    },
+    {
+      "id": "bi-neurobiology-of-disease-2",
+      "name": "Parkinson's disease and movement disorders"
+    },
+    {
+      "id": "bi-neurobiology-of-disease-3",
+      "name": "ALS and motor neuron disease"
+    },
+    {
+      "id": "bi-neurobiology-of-disease-4",
+      "name": "Multiple sclerosis and neuroinflammation"
+    },
+    {
+      "id": "bi-neurobiology-of-disease-5",
+      "name": "Stroke: mechanisms, recovery and rehabilitation"
+    },
+    {
+      "id": "bi-neurobiology-of-disease-6",
+      "name": "Spinal cord injury and traumatic brain injury"
+    },
+    {
+      "id": "bi-neurobiology-of-disease-7",
+      "name": "Epilepsy"
+    },
+    {
+      "id": "bi-neurobiology-of-disease-8",
+      "name": "Neuropathic pain"
+    },
+    {
+      "id": "bi-neurobiology-of-disease-9",
+      "name": "Psychiatric disorders: depression, schizophrenia, bipolar disorder"
+    },
+    {
+      "id": "bi-neurobiology-of-disease-10",
+      "name": "Therapies: drugs, neuromodulation, gene and cell therapy"
+    }
+  ]
+}

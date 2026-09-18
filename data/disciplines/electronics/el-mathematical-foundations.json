@@ -1,0 +1,57 @@
+{
+  "id": "el-mathematical-foundations",
+  "name": "Mathematical Foundations for Electrical Engineering",
+  "category": "Fundamentals & Mathematics",
+  "level": 2,
+  "priority": "core",
+  "summary": "The engineering mathematics toolkit for electrical engineers: complex numbers and phasors, transforms, linear algebra, probability and differential equations.",
+  "prerequisites": [
+    "ma-calculus"
+  ],
+  "related": [
+    "ma-complex-analysis",
+    "ma-integral-transforms",
+    "ma-linear-algebra",
+    "ma-probability-theory",
+    "ma-ordinary-differential-equations-odes",
+    "ma-mathematical-methods"
+  ],
+  "topics": [
+    {
+      "id": "el-mathematical-foundations-1",
+      "name": "Complex numbers and phasors"
+    },
+    {
+      "id": "el-mathematical-foundations-6",
+      "name": "Differential equations for systems analysis"
+    },
+    {
+      "id": "el-mathematical-foundations-4",
+      "name": "Linear algebra and matrix operations"
+    },
+    {
+      "id": "el-mathematical-foundations-8",
+      "name": "Vector calculus: gradient, divergence, curl and integral theorems"
+    },
+    {
+      "id": "el-mathematical-foundations-3",
+      "name": "Laplace transforms and Z-transforms"
+    },
+    {
+      "id": "el-mathematical-foundations-2",
+      "name": "Fourier transforms (continuous & discrete)"
+    },
+    {
+      "id": "el-mathematical-foundations-7",
+      "name": "Convolution and correlation"
+    },
+    {
+      "id": "el-mathematical-foundations-5",
+      "name": "Probability, statistics, and stochastic processes"
+    },
+    {
+      "id": "el-mathematical-foundations-9",
+      "name": "Numerical methods for engineers (root finding, integration, ODE solvers)"
+    }
+  ]
+}

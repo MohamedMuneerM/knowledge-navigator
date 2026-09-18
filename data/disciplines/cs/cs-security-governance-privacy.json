@@ -1,0 +1,60 @@
+{
+  "id": "cs-security-governance-privacy",
+  "name": "Security Governance, Risk & Privacy Engineering",
+  "category": "Security",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The organisational side of security and privacy: policy, risk management, standards and compliance, data-protection law and privacy-enhancing technologies.",
+  "prerequisites": [
+    "cs-computer-security",
+    "cs-computing-ethics"
+  ],
+  "related": [
+    "el-cybersecurity-standards",
+    "el-privacy-protection",
+    "el-compliance-regulations",
+    "ai-privacy-in-ai"
+  ],
+  "topics": [
+    {
+      "id": "cs-security-governance-privacy-1",
+      "name": "Security policy and governance frameworks"
+    },
+    {
+      "id": "cs-security-governance-privacy-2",
+      "name": "Risk assessment and risk management"
+    },
+    {
+      "id": "cs-security-governance-privacy-3",
+      "name": "Standards and frameworks: ISO 27001, NIST CSF and SOC 2"
+    },
+    {
+      "id": "cs-security-governance-privacy-4",
+      "name": "Security awareness and human factors"
+    },
+    {
+      "id": "cs-security-governance-privacy-5",
+      "name": "Business continuity and disaster recovery"
+    },
+    {
+      "id": "cs-security-governance-privacy-6",
+      "name": "Privacy principles and privacy by design"
+    },
+    {
+      "id": "cs-security-governance-privacy-7",
+      "name": "Data-protection law: GDPR, CCPA and sector rules"
+    },
+    {
+      "id": "cs-security-governance-privacy-8",
+      "name": "Privacy-enhancing technologies: anonymization and differential privacy"
+    },
+    {
+      "id": "cs-security-governance-privacy-9",
+      "name": "Security auditing and compliance"
+    },
+    {
+      "id": "cs-security-governance-privacy-10",
+      "name": "Cyber law, cybercrime and security policy"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "bi-infectious-disease-pathogenesis",
+  "name": "Infectious Disease & Pathogenesis",
+  "category": "Microbiology, Virology & Immunology",
+  "level": 3,
+  "priority": "important",
+  "summary": "How bacteria, viruses, fungi and parasites cause disease, how the host fights back and how infections are diagnosed and treated.",
+  "prerequisites": [
+    "bi-immunology",
+    "bi-virology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-infectious-disease-pathogenesis-1",
+      "name": "Koch's postulates and molecular Koch's postulates"
+    },
+    {
+      "id": "bi-infectious-disease-pathogenesis-2",
+      "name": "Bacterial virulence factors: adhesins, toxins and secretion systems"
+    },
+    {
+      "id": "bi-infectious-disease-pathogenesis-3",
+      "name": "Immune evasion strategies"
+    },
+    {
+      "id": "bi-infectious-disease-pathogenesis-4",
+      "name": "Major bacterial pathogens: tuberculosis, cholera, staphylococci and streptococci"
+    },
+    {
+      "id": "bi-infectious-disease-pathogenesis-5",
+      "name": "Fungal infections"
+    },
+    {
+      "id": "bi-infectious-disease-pathogenesis-6",
+      "name": "Parasitology: malaria, helminths and protozoan parasites"
+    },
+    {
+      "id": "bi-infectious-disease-pathogenesis-7",
+      "name": "Vector-borne and zoonotic diseases"
+    },
+    {
+      "id": "bi-infectious-disease-pathogenesis-8",
+      "name": "Diagnosis of infectious disease: culture, serology, PCR and sequencing"
+    },
+    {
+      "id": "bi-infectious-disease-pathogenesis-9",
+      "name": "Antibiotics: mechanisms, resistance and new strategies"
+    },
+    {
+      "id": "bi-infectious-disease-pathogenesis-10",
+      "name": "Emerging infections and pandemic preparedness"
+    }
+  ]
+}

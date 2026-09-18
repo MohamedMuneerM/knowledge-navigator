@@ -1,0 +1,57 @@
+{
+  "id": "ph-astrophysical-fluid-dynamics",
+  "name": "Astrophysical Fluid Dynamics",
+  "category": "Stars, the Sun & Interstellar Medium",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Gas dynamics and MHD applied to stars, discs, winds, explosions and the interstellar medium.",
+  "prerequisites": [
+    "ph-fluid-mechanics",
+    "ph-astrophysics"
+  ],
+  "related": [
+    "ph-plasma-physics"
+  ],
+  "topics": [
+    {
+      "id": "ph-astrophysical-fluid-dynamics-1",
+      "name": "Fluid equations with self-gravity"
+    },
+    {
+      "id": "ph-astrophysical-fluid-dynamics-2",
+      "name": "Sound waves and the Jeans instability"
+    },
+    {
+      "id": "ph-astrophysical-fluid-dynamics-3",
+      "name": "Shocks, blast waves and the Sedov-Taylor solution"
+    },
+    {
+      "id": "ph-astrophysical-fluid-dynamics-4",
+      "name": "Spherical accretion (Bondi) and stellar winds (Parker)"
+    },
+    {
+      "id": "ph-astrophysical-fluid-dynamics-5",
+      "name": "Fluid instabilities: Rayleigh-Taylor, Kelvin-Helmholtz and thermal"
+    },
+    {
+      "id": "ph-astrophysical-fluid-dynamics-6",
+      "name": "Rotating fluids and stellar and planetary rotation"
+    },
+    {
+      "id": "ph-astrophysical-fluid-dynamics-7",
+      "name": "Accretion disc theory and angular momentum transport"
+    },
+    {
+      "id": "ph-astrophysical-fluid-dynamics-8",
+      "name": "Astrophysical MHD and dynamos"
+    },
+    {
+      "id": "ph-astrophysical-fluid-dynamics-9",
+      "name": "Turbulence in astrophysical flows"
+    },
+    {
+      "id": "ph-astrophysical-fluid-dynamics-10",
+      "name": "Numerical hydrodynamics in astrophysics"
+    }
+  ]
+}

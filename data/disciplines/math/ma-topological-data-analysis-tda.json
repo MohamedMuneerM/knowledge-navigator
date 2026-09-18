@@ -1,0 +1,36 @@
+{
+  "id": "ma-topological-data-analysis-tda",
+  "name": "Topological Data Analysis (TDA)",
+  "category": "Topology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Applying homology to data: persistent homology and the Mapper algorithm for finding shape in point clouds.",
+  "prerequisites": [
+    "ma-algebraic-topology"
+  ],
+  "related": [
+    "ma-topological-data-analysis"
+  ],
+  "topics": [
+    {
+      "id": "ma-topological-data-analysis-tda-3",
+      "name": "Simplicial complexes from data (Vietoris-Rips, Cech)"
+    },
+    {
+      "id": "ma-topological-data-analysis-tda-1",
+      "name": "Persistent homology"
+    },
+    {
+      "id": "ma-topological-data-analysis-tda-4",
+      "name": "Stability of persistence diagrams"
+    },
+    {
+      "id": "ma-topological-data-analysis-tda-2",
+      "name": "Mapper algorithm"
+    },
+    {
+      "id": "ma-topological-data-analysis-tda-5",
+      "name": "Software and applications"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "bi-biological-inquiry",
+  "name": "Scientific Inquiry & Quantitative Skills in Biology",
+  "category": "Foundations of Biology",
+  "level": 1,
+  "priority": "important",
+  "summary": "The Vision and Change core competencies: how biologists ask questions, design experiments, reason with numbers and communicate results.",
+  "prerequisites": [
+    "bi-introductory-biology"
+  ],
+  "related": [
+    "ma-descriptive-statistics"
+  ],
+  "topics": [
+    {
+      "id": "bi-biological-inquiry-1",
+      "name": "The process of science: observation, hypothesis, prediction and testing"
+    },
+    {
+      "id": "bi-biological-inquiry-2",
+      "name": "Experimental design basics: variables, controls, replication and randomisation"
+    },
+    {
+      "id": "bi-biological-inquiry-3",
+      "name": "Observational versus experimental studies; correlation versus causation"
+    },
+    {
+      "id": "bi-biological-inquiry-4",
+      "name": "Units, scientific notation, dilutions and concentrations"
+    },
+    {
+      "id": "bi-biological-inquiry-5",
+      "name": "Graphing and interpreting biological data"
+    },
+    {
+      "id": "bi-biological-inquiry-6",
+      "name": "Basic descriptive statistics and variability in biological measurements"
+    },
+    {
+      "id": "bi-biological-inquiry-7",
+      "name": "Models in biology: conceptual, physical and mathematical"
+    },
+    {
+      "id": "bi-biological-inquiry-8",
+      "name": "Reading a primary research paper and evaluating evidence"
+    },
+    {
+      "id": "bi-biological-inquiry-9",
+      "name": "Scientific writing, figures and oral presentation"
+    },
+    {
+      "id": "bi-biological-inquiry-10",
+      "name": "Science and society: peer review, reproducibility and public communication"
+    }
+  ]
+}

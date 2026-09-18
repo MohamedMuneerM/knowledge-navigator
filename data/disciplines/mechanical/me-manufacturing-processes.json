@@ -1,0 +1,62 @@
+{
+  "id": "me-manufacturing-processes",
+  "name": "Introduction to Manufacturing Processes",
+  "category": "Manufacturing Engineering",
+  "level": 2,
+  "priority": "core",
+  "summary": "A survey of how parts are made, from casting and forming to machining, joining and additive manufacturing, and how to choose between processes.",
+  "prerequisites": [
+    "me-engineering-materials"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "me-manufacturing-processes-1",
+      "name": "Manufacturing in the product life cycle; process families and classification"
+    },
+    {
+      "id": "me-manufacturing-processes-2",
+      "name": "Casting processes overview"
+    },
+    {
+      "id": "me-manufacturing-processes-3",
+      "name": "Bulk deformation and sheet-metal forming overview"
+    },
+    {
+      "id": "me-manufacturing-processes-4",
+      "name": "Machining and material removal overview"
+    },
+    {
+      "id": "me-manufacturing-processes-5",
+      "name": "Polymer processing: injection molding, extrusion, thermoforming"
+    },
+    {
+      "id": "me-manufacturing-processes-6",
+      "name": "Powder metallurgy and ceramics processing"
+    },
+    {
+      "id": "me-manufacturing-processes-7",
+      "name": "Joining: welding, brazing, soldering, adhesives, mechanical fastening"
+    },
+    {
+      "id": "me-manufacturing-processes-8",
+      "name": "Additive manufacturing overview"
+    },
+    {
+      "id": "me-manufacturing-processes-9",
+      "name": "Surface treatments, coatings and heat treatment in production"
+    },
+    {
+      "id": "me-manufacturing-processes-10",
+      "name": "Process capability, achievable tolerances and surface finish by process"
+    },
+    {
+      "id": "me-manufacturing-processes-11",
+      "name": "Manufacturing cost estimation and process selection"
+    },
+    {
+      "id": "me-manufacturing-processes-12",
+      "name": "Sustainability and environmental impact of manufacturing"
+    }
+  ]
+}

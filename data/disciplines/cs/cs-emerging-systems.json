@@ -1,0 +1,64 @@
+{
+  "id": "cs-emerging-systems",
+  "name": "Frontiers in Computer Systems",
+  "category": "Emerging Computing & Frontiers",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Research directions reshaping computer systems: disaggregated and serverless data centres, new memory, confidential and memory-safe computing, ML systems and sustainability.",
+  "prerequisites": [
+    "cs-advanced-operating-systems",
+    "cs-advanced-computer-architecture",
+    "cs-distributed-systems"
+  ],
+  "related": [
+    "el-neuromorphic-computing",
+    "el-edge-computing",
+    "ai-hardware-for-ai"
+  ],
+  "topics": [
+    {
+      "id": "cs-emerging-systems-1",
+      "name": "Serverless and disaggregated data centres"
+    },
+    {
+      "id": "cs-emerging-systems-2",
+      "name": "Memory disaggregation and CXL"
+    },
+    {
+      "id": "cs-emerging-systems-3",
+      "name": "Persistent memory and emerging storage technologies"
+    },
+    {
+      "id": "cs-emerging-systems-4",
+      "name": "Confidential computing"
+    },
+    {
+      "id": "cs-emerging-systems-5",
+      "name": "Memory-safe systems and Rust in kernels"
+    },
+    {
+      "id": "cs-emerging-systems-6",
+      "name": "Capability hardware (CHERI)"
+    },
+    {
+      "id": "cs-emerging-systems-7",
+      "name": "Verified systems software"
+    },
+    {
+      "id": "cs-emerging-systems-8",
+      "name": "Systems for machine learning"
+    },
+    {
+      "id": "cs-emerging-systems-9",
+      "name": "Edge and fog computing platforms"
+    },
+    {
+      "id": "cs-emerging-systems-10",
+      "name": "Sustainable and carbon-aware computing"
+    },
+    {
+      "id": "cs-emerging-systems-11",
+      "name": "Post-Moore computing: approximate, neuromorphic and DNA-based approaches"
+    }
+  ]
+}

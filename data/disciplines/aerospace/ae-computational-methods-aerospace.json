@@ -1,0 +1,72 @@
+{
+  "id": "ae-computational-methods-aerospace",
+  "name": "Computational Methods for Aerospace Engineers",
+  "category": "Engineering Foundations",
+  "level": 2,
+  "priority": "important",
+  "summary": "Programming and numerical methods (Python or MATLAB) used daily in aerospace analysis: from integrating trajectories to solving linear systems.",
+  "prerequisites": [
+    "ma-ordinary-differential-equations-odes",
+    "ma-linear-algebra",
+    "cs-programming-fundamentals"
+  ],
+  "related": [
+    "ma-numerical-solutions-of-odes",
+    "ph-computational-physics",
+    "me-engineering-computation"
+  ],
+  "topics": [
+    {
+      "id": "ae-computational-methods-aerospace-1",
+      "name": "Scientific programming in Python/MATLAB: arrays, plotting, vectorisation"
+    },
+    {
+      "id": "ae-computational-methods-aerospace-2",
+      "name": "Floating-point arithmetic, round-off and truncation error"
+    },
+    {
+      "id": "ae-computational-methods-aerospace-3",
+      "name": "Root finding: bisection, Newton-Raphson, secant (e.g. Kepler's equation)"
+    },
+    {
+      "id": "ae-computational-methods-aerospace-4",
+      "name": "Solving linear systems: LU decomposition, conditioning"
+    },
+    {
+      "id": "ae-computational-methods-aerospace-5",
+      "name": "Interpolation, curve fitting and least squares"
+    },
+    {
+      "id": "ae-computational-methods-aerospace-6",
+      "name": "Numerical differentiation and integration"
+    },
+    {
+      "id": "ae-computational-methods-aerospace-7",
+      "name": "ODE integrators: Euler, Runge-Kutta, adaptive step size, stiffness"
+    },
+    {
+      "id": "ae-computational-methods-aerospace-8",
+      "name": "Trajectory simulation: integrating equations of motion"
+    },
+    {
+      "id": "ae-computational-methods-aerospace-9",
+      "name": "Eigenvalue problems (vibration modes, dynamic stability)"
+    },
+    {
+      "id": "ae-computational-methods-aerospace-10",
+      "name": "Introduction to finite differences for PDEs"
+    },
+    {
+      "id": "ae-computational-methods-aerospace-11",
+      "name": "Optimisation basics: gradient methods and constrained problems"
+    },
+    {
+      "id": "ae-computational-methods-aerospace-12",
+      "name": "Monte Carlo simulation and uncertainty propagation"
+    },
+    {
+      "id": "ae-computational-methods-aerospace-13",
+      "name": "Verification, validation and code testing"
+    }
+  ]
+}

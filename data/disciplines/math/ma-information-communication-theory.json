@@ -1,0 +1,37 @@
+{
+  "id": "ma-information-communication-theory",
+  "name": "Information & Communication Theory",
+  "category": "Applied & Interdisciplinary Mathematics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Information theory applied to communication systems: channel coding, network information theory and wireless channels.",
+  "prerequisites": [
+    "ma-error-correcting-codes"
+  ],
+  "related": [
+    "ai-information-theory",
+    "el-digital-communications"
+  ],
+  "topics": [
+    {
+      "id": "ma-information-communication-theory-4",
+      "name": "Modulation and channel models"
+    },
+    {
+      "id": "ma-information-communication-theory-1",
+      "name": "Coding theory"
+    },
+    {
+      "id": "ma-information-communication-theory-3",
+      "name": "Wireless communications"
+    },
+    {
+      "id": "ma-information-communication-theory-5",
+      "name": "MIMO and capacity"
+    },
+    {
+      "id": "ma-information-communication-theory-2",
+      "name": "Network information theory"
+    }
+  ]
+}

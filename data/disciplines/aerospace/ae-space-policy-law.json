@@ -1,0 +1,54 @@
+{
+  "id": "ae-space-policy-law",
+  "name": "Space Policy and Law",
+  "category": "Space Policy & Business",
+  "level": 2,
+  "priority": "optional",
+  "summary": "The treaties, national laws and policies that govern what can be done in space, from liability to spectrum and export control.",
+  "prerequisites": [
+    "ae-space-and-orbits-at-a-glance"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-space-policy-law-1",
+      "name": "The Outer Space Treaty and core principles"
+    },
+    {
+      "id": "ae-space-policy-law-2",
+      "name": "Liability Convention, Registration Convention, Rescue Agreement, Moon Agreement"
+    },
+    {
+      "id": "ae-space-policy-law-3",
+      "name": "National space legislation and licensing (FAA, FCC, NOAA and others)"
+    },
+    {
+      "id": "ae-space-policy-law-4",
+      "name": "Spectrum and orbital slots: ITU coordination"
+    },
+    {
+      "id": "ae-space-policy-law-5",
+      "name": "Export controls: ITAR and EAR"
+    },
+    {
+      "id": "ae-space-policy-law-6",
+      "name": "Space resources law and the Artemis Accords"
+    },
+    {
+      "id": "ae-space-policy-law-7",
+      "name": "Military space and space security"
+    },
+    {
+      "id": "ae-space-policy-law-8",
+      "name": "Space agencies and national space policies"
+    },
+    {
+      "id": "ae-space-policy-law-9",
+      "name": "Debris mitigation and space sustainability policy"
+    },
+    {
+      "id": "ae-space-policy-law-10",
+      "name": "International cooperation: ISS agreements"
+    }
+  ]
+}

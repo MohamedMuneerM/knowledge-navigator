@@ -1,0 +1,39 @@
+{
+  "id": "ma-geometric-topology",
+  "name": "Geometric Topology",
+  "category": "Topology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Topology of manifolds in low and high dimension: knots, braids, 3-manifolds and 4-manifolds.",
+  "prerequisites": [
+    "ma-algebraic-topology",
+    "ma-differential-topology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-geometric-topology-1",
+      "name": "Knot theory"
+    },
+    {
+      "id": "ma-geometric-topology-5",
+      "name": "Knot invariants: linking number and the Jones polynomial"
+    },
+    {
+      "id": "ma-geometric-topology-4",
+      "name": "Braids"
+    },
+    {
+      "id": "ma-geometric-topology-2",
+      "name": "3-manifolds"
+    },
+    {
+      "id": "ma-geometric-topology-6",
+      "name": "Geometrisation (overview)"
+    },
+    {
+      "id": "ma-geometric-topology-3",
+      "name": "4-manifolds"
+    }
+  ]
+}

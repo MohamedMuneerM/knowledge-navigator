@@ -1,0 +1,72 @@
+{
+  "id": "ai-automated-planning",
+  "name": "Automated Planning",
+  "category": "Classical AI: Search, Logic & Planning",
+  "level": 3,
+  "priority": "important",
+  "summary": "How agents compute sequences of actions to reach goals, from classical STRIPS/PDDL planning and heuristic search to hierarchical, temporal and uncertain planning.",
+  "prerequisites": [
+    "ai-logic-automated-reasoning"
+  ],
+  "related": [
+    "ai-classical-ai-gofai-good-old-fashioned-ai"
+  ],
+  "topics": [
+    {
+      "id": "ai-automated-planning-1",
+      "name": "The classical planning problem: states, actions, goals"
+    },
+    {
+      "id": "ai-automated-planning-2",
+      "name": "STRIPS and PDDL domain and problem descriptions"
+    },
+    {
+      "id": "ai-automated-planning-3",
+      "name": "Forward (progression) and backward (regression) state-space search"
+    },
+    {
+      "id": "ai-automated-planning-4",
+      "name": "Domain-independent heuristics: relaxed plans, h_add, h_max, h_FF, landmarks"
+    },
+    {
+      "id": "ai-automated-planning-5",
+      "name": "Planning graphs and Graphplan"
+    },
+    {
+      "id": "ai-automated-planning-6",
+      "name": "Planning as satisfiability (SATPlan)"
+    },
+    {
+      "id": "ai-automated-planning-7",
+      "name": "Partial-order planning"
+    },
+    {
+      "id": "ai-automated-planning-8",
+      "name": "Hierarchical task network (HTN) planning"
+    },
+    {
+      "id": "ai-automated-planning-9",
+      "name": "Temporal planning and scheduling with resources"
+    },
+    {
+      "id": "ai-automated-planning-10",
+      "name": "Planning under uncertainty: conformant, contingent and FOND planning"
+    },
+    {
+      "id": "ai-automated-planning-11",
+      "name": "Probabilistic planning with MDPs and POMDPs (RDDL)"
+    },
+    {
+      "id": "ai-automated-planning-12",
+      "name": "Multi-agent planning"
+    },
+    {
+      "id": "ai-automated-planning-13",
+      "name": "Plan execution, monitoring and replanning"
+    },
+    {
+      "id": "ai-automated-planning-14",
+      "name": "Learning for planning and LLM-based planners"
+    }
+  ]
+}

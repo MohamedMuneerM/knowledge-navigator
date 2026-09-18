@@ -1,0 +1,50 @@
+{
+  "id": "bi-biosignatures-life-detection",
+  "name": "Biosignatures & Life Detection",
+  "category": "Astrobiology & Space Biology",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "How we could detect life remotely or in samples: chemical, morphological and atmospheric biosignatures, false positives and the instruments that search for them.",
+  "prerequisites": [
+    "bi-astrobiology"
+  ],
+  "related": [
+    "ea-astrobiology-and-planetary-habitability",
+    "ph-exoplanets",
+    "ae-planetary-exploration-systems"
+  ],
+  "topics": [
+    {
+      "id": "bi-biosignatures-life-detection-1",
+      "name": "Types of biosignatures: morphological, chemical, isotopic and atmospheric"
+    },
+    {
+      "id": "bi-biosignatures-life-detection-2",
+      "name": "Fossil and mineral biosignatures, and the debate over the earliest life"
+    },
+    {
+      "id": "bi-biosignatures-life-detection-3",
+      "name": "Atmospheric biosignatures: oxygen, ozone, methane and disequilibrium"
+    },
+    {
+      "id": "bi-biosignatures-life-detection-4",
+      "name": "False positives and abiotic mimics"
+    },
+    {
+      "id": "bi-biosignatures-life-detection-5",
+      "name": "Agnostic biosignatures: molecular complexity and assembly theory"
+    },
+    {
+      "id": "bi-biosignatures-life-detection-6",
+      "name": "Life-detection instruments: mass spectrometry, Raman and microscopy"
+    },
+    {
+      "id": "bi-biosignatures-life-detection-7",
+      "name": "Mission case studies: Viking, Perseverance, Europa Clipper, Dragonfly, JWST"
+    },
+    {
+      "id": "bi-biosignatures-life-detection-8",
+      "name": "Frameworks for claiming life: confidence scales and standards of evidence"
+    }
+  ]
+}

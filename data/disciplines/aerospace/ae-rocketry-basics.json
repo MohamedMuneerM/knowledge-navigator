@@ -1,0 +1,59 @@
+{
+  "id": "ae-rocketry-basics",
+  "name": "How Rockets Work",
+  "category": "Introduction to Aerospace",
+  "level": 1,
+  "priority": "core",
+  "summary": "A conceptual introduction to rockets: action and reaction, thrust, propellants, staging and why reaching orbit is hard.",
+  "prerequisites": [
+    "ae-introduction-to-aerospace-engineering",
+    "ph-introductory-mechanics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-rocketry-basics-1",
+      "name": "Newton's third law and conservation of momentum: why rockets work in vacuum"
+    },
+    {
+      "id": "ae-rocketry-basics-2",
+      "name": "Thrust, exhaust velocity and mass flow in plain terms"
+    },
+    {
+      "id": "ae-rocketry-basics-3",
+      "name": "Specific impulse as a measure of engine efficiency"
+    },
+    {
+      "id": "ae-rocketry-basics-4",
+      "name": "The rocket equation, delta-v and mass ratio (qualitative)"
+    },
+    {
+      "id": "ae-rocketry-basics-5",
+      "name": "Why staging helps"
+    },
+    {
+      "id": "ae-rocketry-basics-6",
+      "name": "Rocket anatomy: tanks, engines, nozzle, avionics, payload, fairing"
+    },
+    {
+      "id": "ae-rocketry-basics-7",
+      "name": "Propellant families: solid, liquid, hybrid (conceptual)"
+    },
+    {
+      "id": "ae-rocketry-basics-8",
+      "name": "How a nozzle turns heat into speed"
+    },
+    {
+      "id": "ae-rocketry-basics-9",
+      "name": "Stability of rockets in flight: centre of pressure versus centre of gravity"
+    },
+    {
+      "id": "ae-rocketry-basics-10",
+      "name": "From launch to orbit: vertical rise, gravity turn, orbital insertion"
+    },
+    {
+      "id": "ae-rocketry-basics-11",
+      "name": "Famous rockets compared: V-2, Saturn V, Space Shuttle, Falcon 9, Starship"
+    }
+  ]
+}

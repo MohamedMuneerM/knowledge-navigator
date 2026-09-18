@@ -1,0 +1,52 @@
+{
+  "id": "el-combinational-logic",
+  "name": "Combinational Logic",
+  "category": "Digital Electronics",
+  "level": 2,
+  "priority": "core",
+  "summary": "Number systems, Boolean algebra and logic minimization, and the combinational building blocks of digital systems.",
+  "prerequisites": [
+    "el-basic-electricity"
+  ],
+  "related": [
+    "cs-computer-organization"
+  ],
+  "topics": [
+    {
+      "id": "el-combinational-logic-8",
+      "name": "Number systems, binary arithmetic and codes (two's complement, BCD, Gray)"
+    },
+    {
+      "id": "el-combinational-logic-1",
+      "name": "Logic gates (AND, OR, NOT, NAND, NOR, XOR, XNOR)"
+    },
+    {
+      "id": "el-combinational-logic-2",
+      "name": "Boolean algebra and logic minimization"
+    },
+    {
+      "id": "el-combinational-logic-3",
+      "name": "Karnaugh maps and Quine-McCluskey method"
+    },
+    {
+      "id": "el-combinational-logic-4",
+      "name": "Multiplexers and demultiplexers"
+    },
+    {
+      "id": "el-combinational-logic-5",
+      "name": "Encoders and decoders"
+    },
+    {
+      "id": "el-combinational-logic-6",
+      "name": "Comparators and arithmetic circuits"
+    },
+    {
+      "id": "el-combinational-logic-9",
+      "name": "Hazards and glitches in combinational circuits"
+    },
+    {
+      "id": "el-combinational-logic-7",
+      "name": "Programmable logic arrays (PLA)"
+    }
+  ]
+}

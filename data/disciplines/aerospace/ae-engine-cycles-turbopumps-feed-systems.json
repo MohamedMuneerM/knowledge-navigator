@@ -1,0 +1,77 @@
+{
+  "id": "ae-engine-cycles-turbopumps-feed-systems",
+  "name": "Engine Cycles, Turbopumps and Feed Systems",
+  "category": "Rocket Propulsion",
+  "level": 4,
+  "priority": "important",
+  "summary": "How propellants get from tanks into the chamber: pressure-fed and pump-fed cycles, turbopump design, pressurisation and tank propellant management.",
+  "prerequisites": [
+    "ae-liquid-rocket-engines",
+    "me-turbomachinery"
+  ],
+  "related": [
+    "ae-turbomachinery"
+  ],
+  "topics": [
+    {
+      "id": "ae-engine-cycles-turbopumps-feed-systems-1",
+      "name": "Pressure-fed versus pump-fed systems"
+    },
+    {
+      "id": "ae-engine-cycles-turbopumps-feed-systems-2",
+      "name": "Gas-generator cycle"
+    },
+    {
+      "id": "ae-engine-cycles-turbopumps-feed-systems-3",
+      "name": "Staged-combustion cycles: oxidiser-rich, fuel-rich and full-flow"
+    },
+    {
+      "id": "ae-engine-cycles-turbopumps-feed-systems-4",
+      "name": "Expander cycles (closed and bleed)"
+    },
+    {
+      "id": "ae-engine-cycles-turbopumps-feed-systems-5",
+      "name": "Electric-pump-fed and tap-off cycles"
+    },
+    {
+      "id": "ae-engine-cycles-turbopumps-feed-systems-6",
+      "name": "Engine cycle power balance and cycle analysis"
+    },
+    {
+      "id": "ae-engine-cycles-turbopumps-feed-systems-7",
+      "name": "Turbopump architecture: single-shaft versus dual-shaft"
+    },
+    {
+      "id": "ae-engine-cycles-turbopumps-feed-systems-8",
+      "name": "Centrifugal pump design, inducers and cavitation (NPSH)"
+    },
+    {
+      "id": "ae-engine-cycles-turbopumps-feed-systems-9",
+      "name": "Turbine design for turbopumps"
+    },
+    {
+      "id": "ae-engine-cycles-turbopumps-feed-systems-10",
+      "name": "Bearings, seals and rotordynamics"
+    },
+    {
+      "id": "ae-engine-cycles-turbopumps-feed-systems-11",
+      "name": "Tank pressurisation: helium, autogenous, blowdown"
+    },
+    {
+      "id": "ae-engine-cycles-turbopumps-feed-systems-12",
+      "name": "Propellant management: slosh, vortexing, ullage and settling"
+    },
+    {
+      "id": "ae-engine-cycles-turbopumps-feed-systems-13",
+      "name": "Cryogenic propellant conditioning, chilldown and boil-off"
+    },
+    {
+      "id": "ae-engine-cycles-turbopumps-feed-systems-14",
+      "name": "POGO oscillations and suppression"
+    },
+    {
+      "id": "ae-engine-cycles-turbopumps-feed-systems-15",
+      "name": "Engine control and health monitoring"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ma-gradient-based-optimization",
+  "name": "Gradient-Based Optimization",
+  "category": "Machine Learning & Data Science Mathematics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "The optimisation behind training models: gradient descent variants, backpropagation and automatic differentiation.",
+  "prerequisites": [
+    "ma-nonlinear-programming"
+  ],
+  "related": [
+    "ai-optimization-theory",
+    "ai-neural-network-foundations",
+    "ma-optimization-algorithms"
+  ],
+  "topics": [
+    {
+      "id": "ma-gradient-based-optimization-1",
+      "name": "Gradient descent variants"
+    },
+    {
+      "id": "ma-gradient-based-optimization-4",
+      "name": "Stochastic gradient descent and minibatching"
+    },
+    {
+      "id": "ma-gradient-based-optimization-5",
+      "name": "Momentum, Adam and adaptive methods"
+    },
+    {
+      "id": "ma-gradient-based-optimization-3",
+      "name": "Automatic differentiation"
+    },
+    {
+      "id": "ma-gradient-based-optimization-2",
+      "name": "Backpropagation"
+    },
+    {
+      "id": "ma-gradient-based-optimization-6",
+      "name": "Convergence rates and learning-rate schedules"
+    }
+  ]
+}

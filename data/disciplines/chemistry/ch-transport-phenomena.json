@@ -1,0 +1,65 @@
+{
+  "id": "ch-transport-phenomena",
+  "name": "Transport Phenomena",
+  "category": "Chemical Engineering Fundamentals",
+  "level": 3,
+  "priority": "important",
+  "summary": "Momentum, heat and mass transfer described by a common set of conservation equations.",
+  "prerequisites": [
+    "ch-material-energy-balances",
+    "ma-mathematical-methods"
+  ],
+  "related": [
+    "ph-fluid-mechanics",
+    "ma-fluid-mechanics",
+    "me-fluid-mechanics",
+    "me-heat-transfer",
+    "mt-diffusion"
+  ],
+  "topics": [
+    {
+      "id": "ch-transport-phenomena-1",
+      "name": "Viscosity and momentum transport; Newtonian and non-Newtonian fluids"
+    },
+    {
+      "id": "ch-transport-phenomena-2",
+      "name": "Shell balances and laminar-flow solutions"
+    },
+    {
+      "id": "ch-transport-phenomena-3",
+      "name": "Equations of change: continuity and Navier-Stokes"
+    },
+    {
+      "id": "ch-transport-phenomena-4",
+      "name": "Turbulence and friction factors; flow in pipes and packed beds"
+    },
+    {
+      "id": "ch-transport-phenomena-5",
+      "name": "Heat conduction: Fourier's law, steady and transient conduction"
+    },
+    {
+      "id": "ch-transport-phenomena-6",
+      "name": "Convective heat transfer and heat-transfer coefficients"
+    },
+    {
+      "id": "ch-transport-phenomena-7",
+      "name": "Radiative heat transfer"
+    },
+    {
+      "id": "ch-transport-phenomena-8",
+      "name": "Mass diffusion: Fick's law and diffusivities"
+    },
+    {
+      "id": "ch-transport-phenomena-9",
+      "name": "Convective mass transfer and mass-transfer coefficients"
+    },
+    {
+      "id": "ch-transport-phenomena-10",
+      "name": "Analogies between momentum, heat and mass transfer"
+    },
+    {
+      "id": "ch-transport-phenomena-11",
+      "name": "Dimensional analysis and dimensionless groups"
+    }
+  ]
+}

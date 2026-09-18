@@ -1,0 +1,69 @@
+{
+  "id": "el-digital-communications",
+  "name": "Digital Communication Systems",
+  "category": "Signal Processing & Communications",
+  "level": 3,
+  "priority": "core",
+  "summary": "Transmitting bits reliably: pulse shaping, optimum detection, PSK/QAM modulation, error rates, synchronization and equalization.",
+  "prerequisites": [
+    "el-analog-communications",
+    "el-signal-processing-fundamentals"
+  ],
+  "related": [
+    "ma-information-communication-theory"
+  ],
+  "topics": [
+    {
+      "id": "el-digital-communications-1",
+      "name": "Pulse-code modulation, quantization noise and line coding"
+    },
+    {
+      "id": "el-digital-communications-2",
+      "name": "Baseband transmission and Nyquist pulse shaping (raised cosine)"
+    },
+    {
+      "id": "el-digital-communications-3",
+      "name": "Intersymbol interference and eye diagrams"
+    },
+    {
+      "id": "el-digital-communications-4",
+      "name": "Signal-space representation of digital signals"
+    },
+    {
+      "id": "el-digital-communications-5",
+      "name": "Matched filter and optimum detection in AWGN"
+    },
+    {
+      "id": "el-digital-communications-6",
+      "name": "Binary and M-ary modulation: ASK, FSK, PSK and QAM"
+    },
+    {
+      "id": "el-digital-communications-7",
+      "name": "Bit and symbol error rates, Eb/N0 and bandwidth efficiency"
+    },
+    {
+      "id": "el-digital-communications-8",
+      "name": "Shannon capacity and the power-bandwidth trade-off"
+    },
+    {
+      "id": "el-digital-communications-9",
+      "name": "Carrier and symbol-timing synchronization"
+    },
+    {
+      "id": "el-digital-communications-10",
+      "name": "Channel equalization (zero-forcing, MMSE, decision feedback)"
+    },
+    {
+      "id": "el-digital-communications-11",
+      "name": "Spread spectrum (DSSS, FHSS) and CDMA"
+    },
+    {
+      "id": "el-digital-communications-12",
+      "name": "Time-, frequency- and code-division multiplexing and multiple access"
+    },
+    {
+      "id": "el-digital-communications-13",
+      "name": "Link budget analysis"
+    }
+  ]
+}

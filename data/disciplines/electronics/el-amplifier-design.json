@@ -1,0 +1,59 @@
+{
+  "id": "el-amplifier-design",
+  "name": "Amplifier Frequency Response, Feedback & Output Stages",
+  "category": "Analog Electronics",
+  "level": 3,
+  "priority": "core",
+  "summary": "The second electronics course: differential pairs, amplifier bandwidth, negative feedback and stability, and power output stages.",
+  "prerequisites": [
+    "el-diode-transistor-circuits",
+    "el-signals-and-systems"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-amplifier-design-1",
+      "name": "Differential pairs (BJT and MOS) and common-mode rejection"
+    },
+    {
+      "id": "el-amplifier-design-2",
+      "name": "Low-frequency response: coupling and bypass capacitors"
+    },
+    {
+      "id": "el-amplifier-design-3",
+      "name": "High-frequency transistor models and the Miller effect"
+    },
+    {
+      "id": "el-amplifier-design-4",
+      "name": "Open-circuit time constants and bandwidth estimation"
+    },
+    {
+      "id": "el-amplifier-design-5",
+      "name": "Cascode and multistage amplifier bandwidth"
+    },
+    {
+      "id": "el-amplifier-design-6",
+      "name": "Negative feedback: topologies, loop gain and desensitivity"
+    },
+    {
+      "id": "el-amplifier-design-7",
+      "name": "Stability, phase margin and frequency compensation"
+    },
+    {
+      "id": "el-amplifier-design-8",
+      "name": "Internal architecture of an op-amp (two-stage design)"
+    },
+    {
+      "id": "el-amplifier-design-9",
+      "name": "Output stages: class A, B and AB"
+    },
+    {
+      "id": "el-amplifier-design-10",
+      "name": "Power amplifiers, efficiency and heat"
+    },
+    {
+      "id": "el-amplifier-design-11",
+      "name": "Class-D switching amplifiers"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "ai-convolutional-neural-networks-cnns",
+  "name": "Convolutional Neural Networks (CNNs)",
+  "category": "Deep Learning",
+  "level": 3,
+  "priority": "core",
+  "summary": "Convolutional networks for images: convolution and pooling, landmark architectures from LeNet to ConvNeXt, and their use for detection, segmentation and 3D.",
+  "prerequisites": [
+    "ai-regularization-normalization"
+  ],
+  "related": [
+    "ai-core-vision-tasks"
+  ],
+  "topics": [
+    {
+      "id": "ai-convolutional-neural-networks-cnns-1",
+      "name": "Convolution Operations"
+    },
+    {
+      "id": "ai-convolutional-neural-networks-cnns-2",
+      "name": "Pooling Layers"
+    },
+    {
+      "id": "ai-convolutional-neural-networks-cnns-3",
+      "name": "Stride and Padding"
+    },
+    {
+      "id": "ai-convolutional-neural-networks-cnns-4",
+      "name": "Classic Architectures",
+      "sub": [
+        {
+          "id": "ai-convolutional-neural-networks-cnns-4-1",
+          "name": "LeNet"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-4-2",
+          "name": "AlexNet"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-4-3",
+          "name": "VGGNet"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-4-4",
+          "name": "GoogLeNet/Inception"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-4-5",
+          "name": "ResNet"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-4-6",
+          "name": "DenseNet"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-4-7",
+          "name": "EfficientNet"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-4-8",
+          "name": "MobileNet"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-4-9",
+          "name": "ConvNeXt"
+        }
+      ]
+    },
+    {
+      "id": "ai-convolutional-neural-networks-cnns-5",
+      "name": "Object Detection",
+      "sub": [
+        {
+          "id": "ai-convolutional-neural-networks-cnns-5-1",
+          "name": "R-CNN, Fast R-CNN, Faster R-CNN"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-5-2",
+          "name": "YOLO (v1-v8)"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-5-3",
+          "name": "SSD"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-5-4",
+          "name": "RetinaNet"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-5-5",
+          "name": "DETR"
+        }
+      ]
+    },
+    {
+      "id": "ai-convolutional-neural-networks-cnns-6",
+      "name": "Image Segmentation",
+      "sub": [
+        {
+          "id": "ai-convolutional-neural-networks-cnns-6-1",
+          "name": "U-Net"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-6-2",
+          "name": "DeepLab"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-6-3",
+          "name": "Mask R-CNN"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-6-4",
+          "name": "Segment Anything Model (SAM)"
+        }
+      ]
+    },
+    {
+      "id": "ai-convolutional-neural-networks-cnns-7",
+      "name": "3D Vision",
+      "sub": [
+        {
+          "id": "ai-convolutional-neural-networks-cnns-7-1",
+          "name": "3D CNNs"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-7-2",
+          "name": "Point cloud networks (PointNet, PointNet++)"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-7-3",
+          "name": "Neural Radiance Fields (NeRF)"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-7-4",
+          "name": "Gaussian Splatting"
+        }
+      ]
+    },
+    {
+      "id": "ai-convolutional-neural-networks-cnns-8",
+      "name": "Receptive fields and feature visualization"
+    },
+    {
+      "id": "ai-convolutional-neural-networks-cnns-9",
+      "name": "Transfer learning with pretrained CNNs"
+    }
+  ]
+}

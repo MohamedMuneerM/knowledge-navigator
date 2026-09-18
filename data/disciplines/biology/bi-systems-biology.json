@@ -1,0 +1,64 @@
+{
+  "id": "bi-systems-biology",
+  "name": "Systems Biology",
+  "category": "Quantitative & Computational Biology",
+  "level": 4,
+  "priority": "important",
+  "summary": "Understanding cells as systems: modelling gene circuits, signaling and metabolic networks and the design principles that make them robust.",
+  "prerequisites": [
+    "bi-gene-regulation-epigenetics",
+    "ma-ordinary-differential-equations-odes",
+    "cs-programming-fundamentals"
+  ],
+  "related": [
+    "ma-mathematical-biology",
+    "ma-dynamical-systems",
+    "ma-network-science"
+  ],
+  "topics": [
+    {
+      "id": "bi-systems-biology-1",
+      "name": "Why systems biology? Parts versus systems"
+    },
+    {
+      "id": "bi-systems-biology-2",
+      "name": "Modelling gene expression with ODEs: production, degradation, steady states"
+    },
+    {
+      "id": "bi-systems-biology-3",
+      "name": "Network motifs: autoregulation, feedforward loops, and their functions"
+    },
+    {
+      "id": "bi-systems-biology-4",
+      "name": "Bistability, switches and cell-fate decisions"
+    },
+    {
+      "id": "bi-systems-biology-5",
+      "name": "Oscillators: the cell cycle and circadian clocks"
+    },
+    {
+      "id": "bi-systems-biology-6",
+      "name": "Noise in gene expression and stochastic simulation (Gillespie algorithm)"
+    },
+    {
+      "id": "bi-systems-biology-7",
+      "name": "Robustness and perfect adaptation (bacterial chemotaxis)"
+    },
+    {
+      "id": "bi-systems-biology-8",
+      "name": "Signaling network dynamics"
+    },
+    {
+      "id": "bi-systems-biology-9",
+      "name": "Metabolic network modelling: flux balance analysis"
+    },
+    {
+      "id": "bi-systems-biology-10",
+      "name": "Parameter estimation and model selection"
+    },
+    {
+      "id": "bi-systems-biology-11",
+      "name": "Whole-cell models and multiscale modelling"
+    }
+  ]
+}

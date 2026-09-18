@@ -1,0 +1,69 @@
+{
+  "id": "me-mechanical-vibrations",
+  "name": "Mechanical Vibrations",
+  "category": "Vibrations & Acoustics",
+  "level": 3,
+  "priority": "core",
+  "summary": "Free and forced vibration of single- and multi-degree-of-freedom and continuous systems, and how to isolate, absorb and measure vibration.",
+  "prerequisites": [
+    "me-system-dynamics",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ph-waves-oscillations"
+  ],
+  "topics": [
+    {
+      "id": "me-mechanical-vibrations-1",
+      "name": "Free vibration of undamped single-degree-of-freedom systems; natural frequency"
+    },
+    {
+      "id": "me-mechanical-vibrations-2",
+      "name": "Damped free vibration: viscous, Coulomb and structural damping; logarithmic decrement"
+    },
+    {
+      "id": "me-mechanical-vibrations-3",
+      "name": "Harmonically forced vibration: resonance, magnification factor and phase"
+    },
+    {
+      "id": "me-mechanical-vibrations-4",
+      "name": "Base excitation, rotating unbalance and transmissibility"
+    },
+    {
+      "id": "me-mechanical-vibrations-5",
+      "name": "Vibration isolation and isolator selection"
+    },
+    {
+      "id": "me-mechanical-vibrations-6",
+      "name": "Response to general excitation: impulse response, convolution and shock spectra"
+    },
+    {
+      "id": "me-mechanical-vibrations-7",
+      "name": "Two-degree-of-freedom systems and dynamic vibration absorbers"
+    },
+    {
+      "id": "me-mechanical-vibrations-8",
+      "name": "Multi-degree-of-freedom systems: eigenvalue problem, mode shapes and modal analysis"
+    },
+    {
+      "id": "me-mechanical-vibrations-9",
+      "name": "Continuous systems: strings, bars, shafts and beams"
+    },
+    {
+      "id": "me-mechanical-vibrations-10",
+      "name": "Rayleigh's method and other approximate methods"
+    },
+    {
+      "id": "me-mechanical-vibrations-11",
+      "name": "Torsional vibration of shafts and drivetrains"
+    },
+    {
+      "id": "me-mechanical-vibrations-12",
+      "name": "Vibration measurement and experimental modal analysis"
+    },
+    {
+      "id": "me-mechanical-vibrations-13",
+      "name": "Balancing of rotors (single- and two-plane)"
+    }
+  ]
+}

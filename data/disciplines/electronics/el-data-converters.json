@@ -1,0 +1,47 @@
+{
+  "id": "el-data-converters",
+  "name": "Data Converters",
+  "category": "Analog Electronics",
+  "level": 3,
+  "priority": "core",
+  "summary": "How ADCs and DACs work (SAR, flash, pipeline, sigma-delta, R-2R) and how to read and apply their specifications.",
+  "prerequisites": [
+    "el-operational-amplifiers",
+    "el-signal-processing-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-data-converters-1",
+      "name": "Analog-to-Digital Converters (ADC): SAR, flash, pipeline, sigma-delta, dual-slope"
+    },
+    {
+      "id": "el-data-converters-2",
+      "name": "Digital-to-Analog Converters (DAC): R-2R, binary-weighted, PWM-based"
+    },
+    {
+      "id": "el-data-converters-3",
+      "name": "Resolution, accuracy, and linearity specifications"
+    },
+    {
+      "id": "el-data-converters-6",
+      "name": "Dynamic performance metrics: SNR, SINAD, ENOB, SFDR"
+    },
+    {
+      "id": "el-data-converters-4",
+      "name": "Sample rate and aperture jitter"
+    },
+    {
+      "id": "el-data-converters-5",
+      "name": "Reference voltage selection"
+    },
+    {
+      "id": "el-data-converters-7",
+      "name": "Oversampling, noise shaping and sigma-delta converters in depth"
+    },
+    {
+      "id": "el-data-converters-8",
+      "name": "ADC front-end design: drivers, anti-alias filters and reference buffering"
+    }
+  ]
+}

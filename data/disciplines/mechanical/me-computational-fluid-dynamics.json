@@ -1,0 +1,68 @@
+{
+  "id": "me-computational-fluid-dynamics",
+  "name": "Computational Fluid Dynamics (CFD)",
+  "category": "Computational Engineering & Simulation",
+  "level": 4,
+  "priority": "important",
+  "summary": "Numerical solution of fluid-flow and heat-transfer problems, from discretisation schemes and turbulence models to validated engineering simulations.",
+  "prerequisites": [
+    "me-advanced-fluid-mechanics",
+    "me-engineering-computation",
+    "ma-numerical-solutions-of-pdes"
+  ],
+  "related": [
+    "ph-computational-physics",
+    "ae-computational-fluid-dynamics",
+    "cs-high-performance-computing"
+  ],
+  "topics": [
+    {
+      "id": "me-computational-fluid-dynamics-1",
+      "name": "Governing equations in conservative form and their mathematical classification"
+    },
+    {
+      "id": "me-computational-fluid-dynamics-2",
+      "name": "Finite-difference methods: discretisation, consistency, stability (CFL) and convergence"
+    },
+    {
+      "id": "me-computational-fluid-dynamics-3",
+      "name": "Finite-volume method for diffusion and convection-diffusion problems"
+    },
+    {
+      "id": "me-computational-fluid-dynamics-4",
+      "name": "Convection schemes: upwind, central and high-resolution (TVD)"
+    },
+    {
+      "id": "me-computational-fluid-dynamics-5",
+      "name": "Pressure-velocity coupling: SIMPLE, PISO and projection methods"
+    },
+    {
+      "id": "me-computational-fluid-dynamics-6",
+      "name": "Time integration for unsteady flows"
+    },
+    {
+      "id": "me-computational-fluid-dynamics-7",
+      "name": "Mesh generation: structured, unstructured and boundary-layer meshing"
+    },
+    {
+      "id": "me-computational-fluid-dynamics-8",
+      "name": "Turbulence modeling: RANS (k-epsilon, k-omega SST), LES and DNS"
+    },
+    {
+      "id": "me-computational-fluid-dynamics-9",
+      "name": "Boundary conditions and wall functions"
+    },
+    {
+      "id": "me-computational-fluid-dynamics-10",
+      "name": "Conjugate heat transfer and multiphase CFD"
+    },
+    {
+      "id": "me-computational-fluid-dynamics-11",
+      "name": "Verification and validation; grid-convergence studies"
+    },
+    {
+      "id": "me-computational-fluid-dynamics-12",
+      "name": "Practical CFD workflows (OpenFOAM, ANSYS Fluent, STAR-CCM+)"
+    }
+  ]
+}

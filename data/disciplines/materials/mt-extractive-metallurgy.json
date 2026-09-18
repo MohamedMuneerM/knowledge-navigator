@@ -1,0 +1,61 @@
+{
+  "id": "mt-extractive-metallurgy",
+  "name": "Extractive Metallurgy & Metal Production",
+  "category": "Metals & Alloys",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Explains how metals are won from ores and scrap by mineral processing, pyrometallurgy, hydrometallurgy and electrometallurgy.",
+  "prerequisites": [
+    "mt-electrochemistry"
+  ],
+  "related": [
+    "ea-ore-deposits-and-economic-geology",
+    "ch-industrial-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "mt-extractive-metallurgy-1",
+      "name": "Ores, minerals and mineral processing: comminution, flotation and concentration"
+    },
+    {
+      "id": "mt-extractive-metallurgy-2",
+      "name": "Thermodynamics of extraction: Ellingham diagrams and predominance diagrams"
+    },
+    {
+      "id": "mt-extractive-metallurgy-3",
+      "name": "Pyrometallurgy: roasting, smelting, converting and refining; slags"
+    },
+    {
+      "id": "mt-extractive-metallurgy-4",
+      "name": "Ironmaking in the blast furnace and hydrogen-based direct reduction"
+    },
+    {
+      "id": "mt-extractive-metallurgy-5",
+      "name": "Hydrometallurgy: leaching, solvent extraction and precipitation"
+    },
+    {
+      "id": "mt-extractive-metallurgy-6",
+      "name": "Electrometallurgy: electrowinning and electrorefining; Hall-Héroult aluminium process"
+    },
+    {
+      "id": "mt-extractive-metallurgy-7",
+      "name": "Production of titanium (Kroll process) and emerging routes"
+    },
+    {
+      "id": "mt-extractive-metallurgy-8",
+      "name": "Rare-earth and battery-metal extraction (Li, Ni, Co)"
+    },
+    {
+      "id": "mt-extractive-metallurgy-9",
+      "name": "Vacuum and special melting: VIM, VAR and ESR for aerospace alloys"
+    },
+    {
+      "id": "mt-extractive-metallurgy-10",
+      "name": "Energy use and decarbonisation of metal production"
+    },
+    {
+      "id": "mt-extractive-metallurgy-11",
+      "name": "Recycling as metal production: secondary aluminium and steel"
+    }
+  ]
+}

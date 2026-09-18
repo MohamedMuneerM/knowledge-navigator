@@ -1,0 +1,47 @@
+{
+  "id": "el-smart-cities",
+  "name": "Smart Cities",
+  "category": "Medical, Industrial & Other Application Domains",
+  "level": 3,
+  "priority": "optional",
+  "summary": "IoT at city scale: transport, parking, street lighting, waste, public safety, buildings and energy management.",
+  "prerequisites": [
+    "el-iot-cloud-platforms",
+    "el-long-range-wireless-lpwan"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-smart-cities-1",
+      "name": "Intelligent transportation systems (ITS)"
+    },
+    {
+      "id": "el-smart-cities-2",
+      "name": "Smart parking"
+    },
+    {
+      "id": "el-smart-cities-3",
+      "name": "Smart street lighting"
+    },
+    {
+      "id": "el-smart-cities-4",
+      "name": "Waste management optimization"
+    },
+    {
+      "id": "el-smart-cities-5",
+      "name": "Public safety systems"
+    },
+    {
+      "id": "el-smart-cities-6",
+      "name": "Environmental monitoring"
+    },
+    {
+      "id": "el-smart-cities-7",
+      "name": "Smart buildings and BMS"
+    },
+    {
+      "id": "el-smart-cities-8",
+      "name": "Energy management"
+    }
+  ]
+}

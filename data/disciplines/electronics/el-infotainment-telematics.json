@@ -1,0 +1,47 @@
+{
+  "id": "el-infotainment-telematics",
+  "name": "Infotainment & Telematics",
+  "category": "Automotive, Aerospace & Defense Systems",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "In-car entertainment, navigation, smartphone integration, connectivity, OTA updates and fleet telematics.",
+  "prerequisites": [
+    "el-vehicle-electronics-architecture",
+    "el-cellular-technologies"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-infotainment-telematics-1",
+      "name": "Head units and displays"
+    },
+    {
+      "id": "el-infotainment-telematics-2",
+      "name": "Navigation systems"
+    },
+    {
+      "id": "el-infotainment-telematics-3",
+      "name": "Connectivity (Bluetooth, Wi-Fi, cellular)"
+    },
+    {
+      "id": "el-infotainment-telematics-4",
+      "name": "Voice recognition and virtual assistants"
+    },
+    {
+      "id": "el-infotainment-telematics-5",
+      "name": "Android Auto and Apple CarPlay"
+    },
+    {
+      "id": "el-infotainment-telematics-6",
+      "name": "Over-the-air (OTA) updates"
+    },
+    {
+      "id": "el-infotainment-telematics-7",
+      "name": "Vehicle diagnostics and telematics"
+    },
+    {
+      "id": "el-infotainment-telematics-8",
+      "name": "Fleet management"
+    }
+  ]
+}

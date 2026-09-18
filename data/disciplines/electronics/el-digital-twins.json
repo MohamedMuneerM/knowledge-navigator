@@ -1,0 +1,36 @@
+{
+  "id": "el-digital-twins",
+  "name": "Digital Twins",
+  "category": "IoT Architectures, Platforms & Data",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Virtual replicas of physical assets kept in sync with real data for simulation, what-if analysis and predictive maintenance.",
+  "prerequisites": [
+    "el-iot-cloud-platforms"
+  ],
+  "related": [
+    "me-machine-learning-digital-twins"
+  ],
+  "topics": [
+    {
+      "id": "el-digital-twins-1",
+      "name": "Virtual representation of physical devices"
+    },
+    {
+      "id": "el-digital-twins-2",
+      "name": "Real-time synchronization"
+    },
+    {
+      "id": "el-digital-twins-3",
+      "name": "Simulation and modeling"
+    },
+    {
+      "id": "el-digital-twins-4",
+      "name": "Predictive maintenance and what-if analysis"
+    },
+    {
+      "id": "el-digital-twins-5",
+      "name": "Azure Digital Twins, AWS IoT TwinMaker"
+    }
+  ]
+}

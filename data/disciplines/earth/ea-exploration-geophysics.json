@@ -1,0 +1,54 @@
+{
+  "id": "ea-exploration-geophysics",
+  "name": "Applied & Near-Surface Geophysics",
+  "category": "Solid-Earth Geophysics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Geophysical methods used to image the shallow and deep subsurface for resources, engineering and environmental problems.",
+  "prerequisites": [
+    "ea-solid-earth-geophysics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-exploration-geophysics-1",
+      "name": "Seismic refraction surveying"
+    },
+    {
+      "id": "ea-exploration-geophysics-2",
+      "name": "Seismic reflection acquisition, processing and interpretation"
+    },
+    {
+      "id": "ea-exploration-geophysics-3",
+      "name": "Gravity surveying and reduction"
+    },
+    {
+      "id": "ea-exploration-geophysics-4",
+      "name": "Magnetic surveying and interpretation"
+    },
+    {
+      "id": "ea-exploration-geophysics-5",
+      "name": "Electrical resistivity and induced polarisation"
+    },
+    {
+      "id": "ea-exploration-geophysics-6",
+      "name": "Electromagnetic and magnetotelluric methods"
+    },
+    {
+      "id": "ea-exploration-geophysics-7",
+      "name": "Ground-penetrating radar"
+    },
+    {
+      "id": "ea-exploration-geophysics-8",
+      "name": "Borehole geophysics and well logging"
+    },
+    {
+      "id": "ea-exploration-geophysics-9",
+      "name": "Near-surface applications: groundwater, contamination, archaeology and engineering sites"
+    },
+    {
+      "id": "ea-exploration-geophysics-10",
+      "name": "Integrated interpretation and survey design"
+    }
+  ]
+}

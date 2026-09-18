@@ -1,0 +1,78 @@
+{
+  "id": "cs-computer-organization",
+  "name": "Computer Organization & Assembly Language",
+  "category": "Computer Architecture & Systems Programming",
+  "level": 2,
+  "priority": "core",
+  "summary": "How a computer is built from logic gates up to a working processor, and how programs look at the machine level in assembly language.",
+  "prerequisites": [
+    "cs-programming-fundamentals"
+  ],
+  "related": [
+    "el-combinational-logic",
+    "el-sequential-logic",
+    "el-processor-architecture-concepts"
+  ],
+  "topics": [
+    {
+      "id": "cs-computer-organization-1",
+      "name": "Number systems: binary, hexadecimal and two's complement"
+    },
+    {
+      "id": "cs-computer-organization-2",
+      "name": "Integer arithmetic and overflow"
+    },
+    {
+      "id": "cs-computer-organization-3",
+      "name": "Floating-point representation (IEEE 754)"
+    },
+    {
+      "id": "cs-computer-organization-4",
+      "name": "Boolean algebra and logic gates"
+    },
+    {
+      "id": "cs-computer-organization-5",
+      "name": "Combinational circuits: multiplexers, decoders, adders and the ALU"
+    },
+    {
+      "id": "cs-computer-organization-6",
+      "name": "Sequential circuits: latches, flip-flops, registers and counters"
+    },
+    {
+      "id": "cs-computer-organization-7",
+      "name": "The von Neumann architecture and the fetch-decode-execute cycle"
+    },
+    {
+      "id": "cs-computer-organization-8",
+      "name": "Instruction set architectures: RISC-V, ARM and x86"
+    },
+    {
+      "id": "cs-computer-organization-9",
+      "name": "Assembly programming: registers, arithmetic and branches"
+    },
+    {
+      "id": "cs-computer-organization-10",
+      "name": "Procedures, the stack and calling conventions"
+    },
+    {
+      "id": "cs-computer-organization-11",
+      "name": "Memory addressing modes"
+    },
+    {
+      "id": "cs-computer-organization-12",
+      "name": "Single-cycle datapath and control"
+    },
+    {
+      "id": "cs-computer-organization-13",
+      "name": "Memory hierarchy overview: registers, cache, RAM and disk"
+    },
+    {
+      "id": "cs-computer-organization-14",
+      "name": "I/O, interrupts and buses"
+    },
+    {
+      "id": "cs-computer-organization-15",
+      "name": "Building a computer from NAND gates (Nand2Tetris-style project)"
+    }
+  ]
+}

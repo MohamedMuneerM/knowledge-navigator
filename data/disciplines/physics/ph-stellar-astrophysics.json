@@ -1,0 +1,86 @@
+{
+  "id": "ph-stellar-astrophysics",
+  "name": "Stellar Structure & Evolution",
+  "category": "Stars, the Sun & Interstellar Medium",
+  "level": 3,
+  "priority": "important",
+  "summary": "The physics of stars: how they are built, how they shine, and how they live and die.",
+  "prerequisites": [
+    "ph-radiative-processes"
+  ],
+  "related": [
+    "ph-nuclear-physics"
+  ],
+  "topics": [
+    {
+      "id": "ph-stellar-astrophysics-1",
+      "name": "Observed properties of stars and the HR diagram"
+    },
+    {
+      "id": "ph-stellar-astrophysics-2",
+      "name": "Stellar atmospheres and spectral line formation"
+    },
+    {
+      "id": "ph-stellar-astrophysics-3",
+      "name": "Hydrostatic equilibrium and the virial theorem"
+    },
+    {
+      "id": "ph-stellar-astrophysics-4",
+      "name": "The equations of stellar structure",
+      "sub": [
+        {
+          "id": "ph-stellar-astrophysics-4-1",
+          "name": "Polytropes and the Lane-Emden equation"
+        },
+        {
+          "id": "ph-stellar-astrophysics-4-2",
+          "name": "Stellar evolution codes (e.g. MESA)"
+        }
+      ]
+    },
+    {
+      "id": "ph-stellar-astrophysics-5",
+      "name": "Energy transport: radiation, opacity and convection"
+    },
+    {
+      "id": "ph-stellar-astrophysics-6",
+      "name": "Equation of state and electron degeneracy"
+    },
+    {
+      "id": "ph-stellar-astrophysics-7",
+      "name": "Nuclear energy generation: pp chain, CNO cycle and triple-alpha"
+    },
+    {
+      "id": "ph-stellar-astrophysics-8",
+      "name": "Main-sequence stars and the mass-luminosity relation"
+    },
+    {
+      "id": "ph-stellar-astrophysics-9",
+      "name": "Pre-main-sequence evolution: Hayashi and Henyey tracks"
+    },
+    {
+      "id": "ph-stellar-astrophysics-10",
+      "name": "Post-main-sequence evolution: red giants, helium flash, horizontal branch and AGB"
+    },
+    {
+      "id": "ph-stellar-astrophysics-11",
+      "name": "Mass loss, planetary nebulae and white dwarf cooling"
+    },
+    {
+      "id": "ph-stellar-astrophysics-12",
+      "name": "Evolution of massive stars and core collapse"
+    },
+    {
+      "id": "ph-stellar-astrophysics-13",
+      "name": "Binary stars and mass transfer"
+    },
+    {
+      "id": "ph-stellar-astrophysics-14",
+      "name": "Stellar pulsation, variable stars and asteroseismology"
+    },
+    {
+      "id": "ph-stellar-astrophysics-15",
+      "name": "Star clusters, isochrones and stellar populations"
+    }
+  ]
+}

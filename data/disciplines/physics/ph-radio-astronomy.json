@@ -1,0 +1,61 @@
+{
+  "id": "ph-radio-astronomy",
+  "name": "Radio Astronomy",
+  "category": "Observational Astronomy & Data",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Observing the radio sky: emission mechanisms, antennas and receivers, interferometric imaging and major facilities.",
+  "prerequisites": [
+    "ph-observational-astronomy-telescopes",
+    "ph-radiative-processes"
+  ],
+  "related": [
+    "el-software-defined-radio-sdr"
+  ],
+  "topics": [
+    {
+      "id": "ph-radio-astronomy-1",
+      "name": "Radio emission mechanisms: thermal, synchrotron and maser emission"
+    },
+    {
+      "id": "ph-radio-astronomy-2",
+      "name": "The 21-cm hydrogen line and spectral-line radio astronomy"
+    },
+    {
+      "id": "ph-radio-astronomy-3",
+      "name": "Antennas, beams and antenna temperature"
+    },
+    {
+      "id": "ph-radio-astronomy-4",
+      "name": "Radiometers, receivers and system noise"
+    },
+    {
+      "id": "ph-radio-astronomy-5",
+      "name": "Single-dish observing and mapping"
+    },
+    {
+      "id": "ph-radio-astronomy-6",
+      "name": "Interferometry and aperture synthesis"
+    },
+    {
+      "id": "ph-radio-astronomy-7",
+      "name": "Calibration, imaging and deconvolution (CLEAN)"
+    },
+    {
+      "id": "ph-radio-astronomy-8",
+      "name": "Very long baseline interferometry and the Event Horizon Telescope"
+    },
+    {
+      "id": "ph-radio-astronomy-9",
+      "name": "Pulsar observing and timing"
+    },
+    {
+      "id": "ph-radio-astronomy-10",
+      "name": "Radio-frequency interference and radio-quiet zones"
+    },
+    {
+      "id": "ph-radio-astronomy-11",
+      "name": "Major facilities: VLA, ALMA, FAST, LOFAR and the SKA"
+    }
+  ]
+}

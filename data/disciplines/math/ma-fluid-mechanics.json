@@ -1,0 +1,58 @@
+{
+  "id": "ma-fluid-mechanics",
+  "name": "Fluid Mechanics",
+  "category": "Mathematical Physics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Mathematical fluid dynamics: Euler and Navier-Stokes equations, potential flow, boundary layers and turbulence.",
+  "prerequisites": [
+    "ma-partial-differential-equations-pdes",
+    "ma-tensor-analysis",
+    "ph-introductory-mechanics"
+  ],
+  "related": [
+    "ph-fluid-mechanics",
+    "me-advanced-fluid-mechanics",
+    "ch-transport-phenomena",
+    "ea-geophysical-fluid-dynamics",
+    "me-fluid-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "ma-fluid-mechanics-6",
+      "name": "Kinematics of fluid flow and the continuity equation"
+    },
+    {
+      "id": "ma-fluid-mechanics-2",
+      "name": "Euler equations"
+    },
+    {
+      "id": "ma-fluid-mechanics-3",
+      "name": "Potential flow"
+    },
+    {
+      "id": "ma-fluid-mechanics-1",
+      "name": "Navier-Stokes equations"
+    },
+    {
+      "id": "ma-fluid-mechanics-7",
+      "name": "Viscous flows and boundary layers"
+    },
+    {
+      "id": "ma-fluid-mechanics-8",
+      "name": "Vorticity dynamics"
+    },
+    {
+      "id": "ma-fluid-mechanics-9",
+      "name": "Hydrodynamic stability"
+    },
+    {
+      "id": "ma-fluid-mechanics-4",
+      "name": "Turbulence"
+    },
+    {
+      "id": "ma-fluid-mechanics-5",
+      "name": "Geophysical fluid dynamics"
+    }
+  ]
+}

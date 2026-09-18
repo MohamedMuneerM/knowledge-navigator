@@ -1,0 +1,66 @@
+{
+  "id": "mt-space-environment-materials",
+  "name": "Space Environment Effects on Materials",
+  "category": "Aerospace & Extreme-Environment Materials",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Covers what the space environment does to materials, from atomic oxygen erosion to radiation and micrometeoroids, and how spacecraft materials are chosen and tested.",
+  "prerequisites": [
+    "mt-aerospace-materials"
+  ],
+  "related": [
+    "ph-space-physics",
+    "ae-space-environment",
+    "ae-spacecraft-thermal-control"
+  ],
+  "topics": [
+    {
+      "id": "mt-space-environment-materials-1",
+      "name": "The space environment: vacuum, thermal cycling, UV, charged particles and debris"
+    },
+    {
+      "id": "mt-space-environment-materials-2",
+      "name": "Outgassing, contamination and ASTM E595 screening"
+    },
+    {
+      "id": "mt-space-environment-materials-3",
+      "name": "Atomic oxygen erosion in low Earth orbit and protective coatings"
+    },
+    {
+      "id": "mt-space-environment-materials-4",
+      "name": "Ultraviolet and particle radiation degradation of polymers and optical coatings"
+    },
+    {
+      "id": "mt-space-environment-materials-5",
+      "name": "Thermal-control materials: coatings, paints, optical solar reflectors and MLI"
+    },
+    {
+      "id": "mt-space-environment-materials-6",
+      "name": "Thermal cycling and dimensional stability"
+    },
+    {
+      "id": "mt-space-environment-materials-7",
+      "name": "Spacecraft charging and electrostatic discharge"
+    },
+    {
+      "id": "mt-space-environment-materials-8",
+      "name": "Cold welding and tribology in vacuum"
+    },
+    {
+      "id": "mt-space-environment-materials-9",
+      "name": "Micrometeoroid and orbital debris shielding (Whipple shields)"
+    },
+    {
+      "id": "mt-space-environment-materials-10",
+      "name": "Radiation effects on spacecraft electronics and shielding choices"
+    },
+    {
+      "id": "mt-space-environment-materials-11",
+      "name": "Planetary surface environments: lunar regolith dust and Martian conditions"
+    },
+    {
+      "id": "mt-space-environment-materials-12",
+      "name": "In-space testing (MISSE) and materials for in-space manufacturing"
+    }
+  ]
+}

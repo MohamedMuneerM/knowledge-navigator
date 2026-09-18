@@ -1,0 +1,45 @@
+{
+  "id": "el-secure-communication",
+  "name": "Secure Communication",
+  "category": "Security, Privacy & Trust",
+  "level": 3,
+  "priority": "important",
+  "summary": "Protecting data in transit: TLS, DTLS, mutual TLS, IPsec/VPN, certificates and OAuth/JWT for devices.",
+  "prerequisites": [
+    "el-key-management",
+    "el-ethernet-networking"
+  ],
+  "related": [
+    "cs-network-security"
+  ],
+  "topics": [
+    {
+      "id": "el-secure-communication-1",
+      "name": "TLS/SSL (Transport Layer Security)"
+    },
+    {
+      "id": "el-secure-communication-2",
+      "name": "DTLS (Datagram TLS for UDP)"
+    },
+    {
+      "id": "el-secure-communication-3",
+      "name": "mTLS (mutual TLS authentication)"
+    },
+    {
+      "id": "el-secure-communication-4",
+      "name": "IPsec and VPN"
+    },
+    {
+      "id": "el-secure-communication-5",
+      "name": "End-to-end encryption"
+    },
+    {
+      "id": "el-secure-communication-6",
+      "name": "Certificate management"
+    },
+    {
+      "id": "el-secure-communication-7",
+      "name": "OAuth 2.0 and JWT for IoT"
+    }
+  ]
+}

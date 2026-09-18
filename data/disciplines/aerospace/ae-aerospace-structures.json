@@ -1,0 +1,73 @@
+{
+  "id": "ae-aerospace-structures",
+  "name": "Aerospace Structures and Structural Analysis",
+  "category": "Structures & Materials",
+  "level": 2,
+  "priority": "core",
+  "summary": "Stress analysis of the thin-walled, stiffened structures used in airframes, rockets and spacecraft.",
+  "prerequisites": [
+    "me-mechanics-of-materials"
+  ],
+  "related": [
+    "ma-solid-mechanics",
+    "me-advanced-mechanics-of-materials"
+  ],
+  "topics": [
+    {
+      "id": "ae-aerospace-structures-1",
+      "name": "Review of statics, stress, strain and Hooke's law"
+    },
+    {
+      "id": "ae-aerospace-structures-2",
+      "name": "Structural idealisation of airframes and launch vehicle structures"
+    },
+    {
+      "id": "ae-aerospace-structures-3",
+      "name": "Loads on flight vehicles: flight, ground, pressure and inertial loads"
+    },
+    {
+      "id": "ae-aerospace-structures-4",
+      "name": "Axial, bending and torsion of beams"
+    },
+    {
+      "id": "ae-aerospace-structures-5",
+      "name": "Bending of unsymmetric sections"
+    },
+    {
+      "id": "ae-aerospace-structures-6",
+      "name": "Shear flow in open and closed thin-walled sections"
+    },
+    {
+      "id": "ae-aerospace-structures-7",
+      "name": "Shear centre"
+    },
+    {
+      "id": "ae-aerospace-structures-8",
+      "name": "Torsion of thin-walled multi-cell sections (wing boxes)"
+    },
+    {
+      "id": "ae-aerospace-structures-9",
+      "name": "Stiffened panels and stringer-skin idealisation"
+    },
+    {
+      "id": "ae-aerospace-structures-10",
+      "name": "Energy methods: virtual work and Castigliano's theorem"
+    },
+    {
+      "id": "ae-aerospace-structures-11",
+      "name": "Buckling of columns, plates and thin shells"
+    },
+    {
+      "id": "ae-aerospace-structures-12",
+      "name": "Pressure vessels and propellant tanks"
+    },
+    {
+      "id": "ae-aerospace-structures-13",
+      "name": "Joints and fasteners"
+    },
+    {
+      "id": "ae-aerospace-structures-14",
+      "name": "Margins of safety and factors of safety"
+    }
+  ]
+}

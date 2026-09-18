@@ -1,0 +1,57 @@
+{
+  "id": "ae-spacecraft-design",
+  "name": "Spacecraft Design",
+  "category": "Space Missions & Exploration",
+  "level": 4,
+  "priority": "important",
+  "summary": "Capstone-level spacecraft design: taking a mission from requirements to an integrated, balanced spacecraft design through subsystem trades.",
+  "prerequisites": [
+    "ae-space-mission-design",
+    "ae-spacecraft-power-systems",
+    "ae-spacecraft-thermal-control",
+    "ae-attitude-control"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-spacecraft-design-1",
+      "name": "Design process and phases (Pre-Phase A to Phase B)"
+    },
+    {
+      "id": "ae-spacecraft-design-2",
+      "name": "Requirements definition and allocation"
+    },
+    {
+      "id": "ae-spacecraft-design-3",
+      "name": "Configuration design and launch vehicle accommodation"
+    },
+    {
+      "id": "ae-spacecraft-design-4",
+      "name": "Subsystem sizing iteration and budgets"
+    },
+    {
+      "id": "ae-spacecraft-design-5",
+      "name": "Concurrent engineering and design sessions"
+    },
+    {
+      "id": "ae-spacecraft-design-6",
+      "name": "Interface definition between subsystems"
+    },
+    {
+      "id": "ae-spacecraft-design-7",
+      "name": "Design for testability, integration and operations"
+    },
+    {
+      "id": "ae-spacecraft-design-8",
+      "name": "Reliability, redundancy and failure modes"
+    },
+    {
+      "id": "ae-spacecraft-design-9",
+      "name": "Design reviews and documentation"
+    },
+    {
+      "id": "ae-spacecraft-design-10",
+      "name": "Team design project: a complete spacecraft concept"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "ai-ai-governance-policy",
+  "name": "AI Governance & Policy",
+  "category": "AI Safety, Ethics & Governance",
+  "level": 2,
+  "priority": "important",
+  "summary": "How AI is governed: regulation, standards, responsible-AI frameworks, audits, documentation such as model cards, and impact assessment.",
+  "prerequisites": [
+    "ai-core-ai-concepts"
+  ],
+  "related": [
+    "cs-computing-ethics"
+  ],
+  "topics": [
+    {
+      "id": "ai-ai-governance-policy-9",
+      "name": "AI ethics principles and frameworks"
+    },
+    {
+      "id": "ai-ai-governance-policy-1",
+      "name": "AI Regulation"
+    },
+    {
+      "id": "ai-ai-governance-policy-2",
+      "name": "AI Standards"
+    },
+    {
+      "id": "ai-ai-governance-policy-3",
+      "name": "Responsible AI Frameworks"
+    },
+    {
+      "id": "ai-ai-governance-policy-4",
+      "name": "AI Auditing"
+    },
+    {
+      "id": "ai-ai-governance-policy-5",
+      "name": "Model Cards"
+    },
+    {
+      "id": "ai-ai-governance-policy-6",
+      "name": "Datasheets for Datasets"
+    },
+    {
+      "id": "ai-ai-governance-policy-7",
+      "name": "Human-in-the-Loop Systems"
+    },
+    {
+      "id": "ai-ai-governance-policy-8",
+      "name": "AI Impact Assessment"
+    },
+    {
+      "id": "ai-ai-governance-policy-10",
+      "name": "Major regimes: EU AI Act, NIST AI RMF, ISO/IEC 42001"
+    },
+    {
+      "id": "ai-ai-governance-policy-11",
+      "name": "Liability, intellectual property and copyright in generative AI"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ch-polymer-physical-chemistry",
+  "name": "Polymer Physical Chemistry & Characterization",
+  "category": "Polymer, Materials & Solid-State Chemistry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The physical chemistry of polymer chains, solutions, melts and solids, and how polymers are characterised.",
+  "prerequisites": [
+    "ch-polymer-chemistry",
+    "ch-statistical-thermodynamics"
+  ],
+  "related": [
+    "ph-soft-matter-physics",
+    "mt-polymer-properties"
+  ],
+  "topics": [
+    {
+      "id": "ch-polymer-physical-chemistry-1",
+      "name": "Chain conformations: random walks and radius of gyration"
+    },
+    {
+      "id": "ch-polymer-physical-chemistry-2",
+      "name": "Polymer solutions: Flory-Huggins theory and theta conditions"
+    },
+    {
+      "id": "ch-polymer-physical-chemistry-3",
+      "name": "Molecular-weight characterization: GPC/SEC, light scattering, viscometry and MALDI"
+    },
+    {
+      "id": "ch-polymer-physical-chemistry-4",
+      "name": "Glass transition and polymer crystallization"
+    },
+    {
+      "id": "ch-polymer-physical-chemistry-5",
+      "name": "Rubber elasticity"
+    },
+    {
+      "id": "ch-polymer-physical-chemistry-6",
+      "name": "Viscoelasticity and rheology"
+    },
+    {
+      "id": "ch-polymer-physical-chemistry-7",
+      "name": "Polymer blends and block-copolymer self-assembly"
+    },
+    {
+      "id": "ch-polymer-physical-chemistry-8",
+      "name": "Thermal and mechanical testing: DSC, DMA and tensile testing"
+    },
+    {
+      "id": "ch-polymer-physical-chemistry-9",
+      "name": "Polymer electrolytes and conducting polymers"
+    }
+  ]
+}

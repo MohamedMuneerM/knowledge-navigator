@@ -1,0 +1,66 @@
+{
+  "id": "cs-program-design",
+  "name": "Program Design & Intermediate Programming",
+  "category": "Programming & Paradigms",
+  "level": 2,
+  "priority": "core",
+  "summary": "Moving from scripts to well-designed programs: specifications, recursion, higher-order functions, data abstraction, testing and systematic debugging.",
+  "prerequisites": [
+    "cs-programming-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-program-design-1",
+      "name": "Designing functions from specifications: contracts, examples and tests"
+    },
+    {
+      "id": "cs-program-design-2",
+      "name": "Decomposition and top-down design"
+    },
+    {
+      "id": "cs-program-design-3",
+      "name": "Recursion and recursive data such as lists and trees"
+    },
+    {
+      "id": "cs-program-design-4",
+      "name": "Higher-order functions and lambdas"
+    },
+    {
+      "id": "cs-program-design-5",
+      "name": "Data abstraction and abstract data types"
+    },
+    {
+      "id": "cs-program-design-6",
+      "name": "Classes and objects as a design tool"
+    },
+    {
+      "id": "cs-program-design-7",
+      "name": "Iterators, generators and lazy evaluation"
+    },
+    {
+      "id": "cs-program-design-8",
+      "name": "Unit testing with a test framework (pytest)"
+    },
+    {
+      "id": "cs-program-design-9",
+      "name": "Systematic debugging strategies"
+    },
+    {
+      "id": "cs-program-design-10",
+      "name": "Code style, readability and documentation"
+    },
+    {
+      "id": "cs-program-design-11",
+      "name": "Comparing running times of alternative solutions"
+    },
+    {
+      "id": "cs-program-design-12",
+      "name": "Working with data: CSV, JSON and web APIs"
+    },
+    {
+      "id": "cs-program-design-13",
+      "name": "A larger multi-module project"
+    }
+  ]
+}

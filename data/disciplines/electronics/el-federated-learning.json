@@ -1,0 +1,32 @@
+{
+  "id": "el-federated-learning",
+  "name": "Federated Learning",
+  "category": "Machine Learning & Edge AI",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Training models across many devices without centralizing data: on-device updates, aggregation and privacy.",
+  "prerequisites": [
+    "el-deep-learning-on-edge"
+  ],
+  "related": [
+    "ai-privacy-in-ai"
+  ],
+  "topics": [
+    {
+      "id": "el-federated-learning-1",
+      "name": "Distributed training across devices"
+    },
+    {
+      "id": "el-federated-learning-2",
+      "name": "Privacy-preserving ML"
+    },
+    {
+      "id": "el-federated-learning-3",
+      "name": "On-device model updates"
+    },
+    {
+      "id": "el-federated-learning-4",
+      "name": "Aggregation strategies"
+    }
+  ]
+}

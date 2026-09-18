@@ -1,0 +1,41 @@
+{
+  "id": "el-high-speed-digital-design",
+  "name": "High-Speed Digital Design",
+  "category": "Digital Electronics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Keeping fast digital signals clean: reflections, crosstalk, termination, differential signalling, eye diagrams and power integrity.",
+  "prerequisites": [
+    "el-transmission-lines",
+    "el-timing-synchronization"
+  ],
+  "related": [
+    "el-high-speed-design"
+  ],
+  "topics": [
+    {
+      "id": "el-high-speed-digital-design-1",
+      "name": "Signal integrity (reflections, crosstalk, ringing)"
+    },
+    {
+      "id": "el-high-speed-digital-design-2",
+      "name": "Transmission line effects"
+    },
+    {
+      "id": "el-high-speed-digital-design-3",
+      "name": "Impedance matching and termination"
+    },
+    {
+      "id": "el-high-speed-digital-design-4",
+      "name": "Differential signaling (LVDS, CML)"
+    },
+    {
+      "id": "el-high-speed-digital-design-5",
+      "name": "Eye diagrams and jitter analysis"
+    },
+    {
+      "id": "el-high-speed-digital-design-6",
+      "name": "Power integrity and PDN (Power Distribution Network)"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "ea-paleoclimatology",
+  "name": "Paleoclimatology & Paleoceanography",
+  "category": "Climate Science & Paleoclimate",
+  "level": 3,
+  "priority": "important",
+  "summary": "How past climates are reconstructed from natural archives and what they teach about climate sensitivity and change.",
+  "prerequisites": [
+    "ea-climate-system-science",
+    "ea-historical-geology"
+  ],
+  "related": [
+    "bi-global-change-biology"
+  ],
+  "topics": [
+    {
+      "id": "ea-paleoclimatology-1",
+      "name": "Climate proxies and archives: principles and calibration"
+    },
+    {
+      "id": "ea-paleoclimatology-2",
+      "name": "Ice cores: temperature, greenhouse gases and dust"
+    },
+    {
+      "id": "ea-paleoclimatology-3",
+      "name": "Marine sediments: foraminiferal isotopes, alkenones and Mg/Ca"
+    },
+    {
+      "id": "ea-paleoclimatology-4",
+      "name": "Terrestrial archives: speleothems, tree rings, lake sediments and pollen"
+    },
+    {
+      "id": "ea-paleoclimatology-5",
+      "name": "Corals and high-resolution records"
+    },
+    {
+      "id": "ea-paleoclimatology-6",
+      "name": "Orbital forcing and Milankovitch cycles"
+    },
+    {
+      "id": "ea-paleoclimatology-7",
+      "name": "Glacial-interglacial cycles and the Last Glacial Maximum"
+    },
+    {
+      "id": "ea-paleoclimatology-8",
+      "name": "Abrupt events: Dansgaard-Oeschger, Heinrich events and the Younger Dryas"
+    },
+    {
+      "id": "ea-paleoclimatology-9",
+      "name": "The Holocene and the last millennium"
+    },
+    {
+      "id": "ea-paleoclimatology-10",
+      "name": "Deep-time climates: Cretaceous hothouse, PETM and Cenozoic cooling"
+    },
+    {
+      "id": "ea-paleoclimatology-11",
+      "name": "Paleoceanographic reconstruction of ocean circulation"
+    },
+    {
+      "id": "ea-paleoclimatology-12",
+      "name": "Paleoclimate constraints on climate sensitivity"
+    }
+  ]
+}

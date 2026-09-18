@@ -1,0 +1,60 @@
+{
+  "id": "cs-computational-thinking",
+  "name": "Computational Thinking & Introduction to Computing",
+  "category": "Computing Foundations",
+  "level": 1,
+  "priority": "core",
+  "summary": "A first look at how computers represent information, run programs and talk to each other, and at the problem-solving habits (decomposition, abstraction, algorithms) behind all of computer science.",
+  "prerequisites": [],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-computational-thinking-1",
+      "name": "What computer science is: problems, algorithms and computation"
+    },
+    {
+      "id": "cs-computational-thinking-2",
+      "name": "Decomposition, pattern recognition, abstraction and algorithm design"
+    },
+    {
+      "id": "cs-computational-thinking-3",
+      "name": "Expressing algorithms with flowcharts and pseudocode"
+    },
+    {
+      "id": "cs-computational-thinking-4",
+      "name": "Binary numbers, bits and bytes"
+    },
+    {
+      "id": "cs-computational-thinking-5",
+      "name": "Representing text, images, sound and video as data"
+    },
+    {
+      "id": "cs-computational-thinking-6",
+      "name": "Hardware basics: CPU, memory, storage and input/output"
+    },
+    {
+      "id": "cs-computational-thinking-7",
+      "name": "Software layers: operating systems, applications and programming languages"
+    },
+    {
+      "id": "cs-computational-thinking-8",
+      "name": "How the Internet and the Web work: packets, IP addresses, DNS and HTTP"
+    },
+    {
+      "id": "cs-computational-thinking-9",
+      "name": "Everyday algorithms: searching, sorting and comparing their efficiency"
+    },
+    {
+      "id": "cs-computational-thinking-10",
+      "name": "Limits of computation: problems computers cannot solve (intuition)"
+    },
+    {
+      "id": "cs-computational-thinking-11",
+      "name": "Data, privacy and personal cybersecurity basics"
+    },
+    {
+      "id": "cs-computational-thinking-12",
+      "name": "A first program in a block-based language (Scratch)"
+    }
+  ]
+}

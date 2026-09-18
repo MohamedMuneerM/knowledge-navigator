@@ -1,0 +1,37 @@
+{
+  "id": "el-blockchain-distributed-ledger",
+  "name": "Blockchain & Distributed Ledger",
+  "category": "Emerging & Advanced Topics",
+  "level": 4,
+  "priority": "optional",
+  "summary": "Distributed ledgers for connected devices: blockchain identity, traceability, smart contracts and tokenized IoT data.",
+  "prerequisites": [
+    "el-blockchain-for-iot"
+  ],
+  "related": [
+    "cs-blockchain",
+    "el-blockchain-for-iot"
+  ],
+  "topics": [
+    {
+      "id": "el-blockchain-distributed-ledger-1",
+      "name": "Device identity on blockchain"
+    },
+    {
+      "id": "el-blockchain-distributed-ledger-2",
+      "name": "Supply chain traceability"
+    },
+    {
+      "id": "el-blockchain-distributed-ledger-3",
+      "name": "Smart contracts for IoT"
+    },
+    {
+      "id": "el-blockchain-distributed-ledger-4",
+      "name": "Decentralized IoT platforms"
+    },
+    {
+      "id": "el-blockchain-distributed-ledger-5",
+      "name": "Tokenization of IoT data"
+    }
+  ]
+}

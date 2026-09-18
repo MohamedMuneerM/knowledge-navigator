@@ -1,0 +1,43 @@
+{
+  "id": "ma-riemann-surfaces",
+  "name": "Riemann Surfaces",
+  "category": "Analysis",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "One-dimensional complex manifolds: analytic continuation, branched covers, the Riemann-Roch theorem and uniformisation.",
+  "prerequisites": [
+    "ma-complex-analysis",
+    "ma-algebraic-topology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-riemann-surfaces-1",
+      "name": "Riemann surfaces and holomorphic maps"
+    },
+    {
+      "id": "ma-riemann-surfaces-2",
+      "name": "Analytic continuation and the Riemann surface of a function"
+    },
+    {
+      "id": "ma-riemann-surfaces-3",
+      "name": "Branched coverings and the Riemann-Hurwitz formula"
+    },
+    {
+      "id": "ma-riemann-surfaces-4",
+      "name": "Meromorphic functions and differential forms on Riemann surfaces"
+    },
+    {
+      "id": "ma-riemann-surfaces-5",
+      "name": "Divisors and the Riemann-Roch theorem"
+    },
+    {
+      "id": "ma-riemann-surfaces-6",
+      "name": "Compact Riemann surfaces as algebraic curves"
+    },
+    {
+      "id": "ma-riemann-surfaces-7",
+      "name": "The uniformisation theorem"
+    }
+  ]
+}

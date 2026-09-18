@@ -1,0 +1,67 @@
+{
+  "id": "el-analog-ic-design",
+  "name": "Analog Integrated Circuit Design",
+  "category": "FPGA, ASIC & VLSI Design",
+  "level": 4,
+  "priority": "important",
+  "summary": "Designing analog circuits on silicon: MOS models for analog, amplifiers, op-amps and compensation, references, noise, mismatch and layout.",
+  "prerequisites": [
+    "el-amplifier-design",
+    "el-semiconductor-devices"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-analog-ic-design-1",
+      "name": "MOS models for analog design and the gm/ID methodology"
+    },
+    {
+      "id": "el-analog-ic-design-2",
+      "name": "Single-stage amplifiers and cascodes"
+    },
+    {
+      "id": "el-analog-ic-design-3",
+      "name": "Differential amplifiers"
+    },
+    {
+      "id": "el-analog-ic-design-4",
+      "name": "Current mirrors and biasing"
+    },
+    {
+      "id": "el-analog-ic-design-5",
+      "name": "Op-amp design (two-stage, folded cascode) and compensation"
+    },
+    {
+      "id": "el-analog-ic-design-6",
+      "name": "Noise in integrated circuits"
+    },
+    {
+      "id": "el-analog-ic-design-7",
+      "name": "Bandgap references and PTAT circuits"
+    },
+    {
+      "id": "el-analog-ic-design-8",
+      "name": "Switched-capacitor circuits"
+    },
+    {
+      "id": "el-analog-ic-design-9",
+      "name": "Comparators"
+    },
+    {
+      "id": "el-analog-ic-design-10",
+      "name": "Mismatch, offset and matching"
+    },
+    {
+      "id": "el-analog-ic-design-11",
+      "name": "Analog layout techniques"
+    },
+    {
+      "id": "el-analog-ic-design-12",
+      "name": "Data-converter building blocks (SAR, sigma-delta)"
+    },
+    {
+      "id": "el-analog-ic-design-13",
+      "name": "On-chip PLLs, oscillators and LDOs"
+    }
+  ]
+}

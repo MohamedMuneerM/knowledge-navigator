@@ -1,0 +1,62 @@
+{
+  "id": "el-state-space-digital-control",
+  "name": "State-Space & Digital Control",
+  "category": "Control Systems & Robotics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Modern control: state-space models, controllability and observability, state feedback and observers, LQR/LQG and digital implementation.",
+  "prerequisites": [
+    "el-control-theory",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ma-control-theory",
+    "ma-systems-theory-control"
+  ],
+  "topics": [
+    {
+      "id": "el-state-space-digital-control-1",
+      "name": "State-space models and realizations of transfer functions"
+    },
+    {
+      "id": "el-state-space-digital-control-2",
+      "name": "Solution of state equations and the state-transition matrix"
+    },
+    {
+      "id": "el-state-space-digital-control-3",
+      "name": "Controllability and observability"
+    },
+    {
+      "id": "el-state-space-digital-control-4",
+      "name": "Pole placement by state feedback"
+    },
+    {
+      "id": "el-state-space-digital-control-5",
+      "name": "State observers (Luenberger)"
+    },
+    {
+      "id": "el-state-space-digital-control-6",
+      "name": "Linear-quadratic regulator (LQR)"
+    },
+    {
+      "id": "el-state-space-digital-control-7",
+      "name": "Kalman filter and LQG control"
+    },
+    {
+      "id": "el-state-space-digital-control-8",
+      "name": "Sampled-data systems and discretization (ZOH, Tustin)"
+    },
+    {
+      "id": "el-state-space-digital-control-9",
+      "name": "Digital controller design in the z-domain"
+    },
+    {
+      "id": "el-state-space-digital-control-10",
+      "name": "Implementation issues: sampling rate, quantization, anti-windup"
+    },
+    {
+      "id": "el-state-space-digital-control-11",
+      "name": "Multivariable (MIMO) systems"
+    }
+  ]
+}

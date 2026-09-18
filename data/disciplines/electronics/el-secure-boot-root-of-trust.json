@@ -1,0 +1,53 @@
+{
+  "id": "el-secure-boot-root-of-trust",
+  "name": "Secure Boot & Root of Trust",
+  "category": "Security, Privacy & Trust",
+  "level": 3,
+  "priority": "important",
+  "summary": "Anchoring device trust in hardware: secure and measured boot, attestation, TPMs, HSMs, secure elements and TEEs.",
+  "prerequisites": [
+    "el-cryptography-fundamentals",
+    "el-boot-startup"
+  ],
+  "related": [
+    "cs-systems-security"
+  ],
+  "topics": [
+    {
+      "id": "el-secure-boot-root-of-trust-1",
+      "name": "Secure boot process"
+    },
+    {
+      "id": "el-secure-boot-root-of-trust-2",
+      "name": "Root of Trust (RoT)"
+    },
+    {
+      "id": "el-secure-boot-root-of-trust-3",
+      "name": "Measured boot and attestation"
+    },
+    {
+      "id": "el-secure-boot-root-of-trust-4",
+      "name": "Bootloader security"
+    },
+    {
+      "id": "el-secure-boot-root-of-trust-5",
+      "name": "Secure firmware updates"
+    },
+    {
+      "id": "el-secure-boot-root-of-trust-6",
+      "name": "Trusted Platform Module (TPM)"
+    },
+    {
+      "id": "el-secure-boot-root-of-trust-7",
+      "name": "Hardware Security Module (HSM)"
+    },
+    {
+      "id": "el-secure-boot-root-of-trust-8",
+      "name": "Secure Element (SE)"
+    },
+    {
+      "id": "el-secure-boot-root-of-trust-9",
+      "name": "Trusted Execution Environment (TEE)"
+    }
+  ]
+}

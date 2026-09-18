@@ -1,0 +1,49 @@
+{
+  "id": "ma-variational-methods",
+  "name": "Variational Methods",
+  "category": "Differential Equations & Dynamical Systems",
+  "level": 3,
+  "priority": "important",
+  "summary": "Calculus of variations: finding functions that minimise functionals, from the Euler-Lagrange equations to direct methods.",
+  "prerequisites": [
+    "ma-multivariable-calculus",
+    "ma-ordinary-differential-equations-odes"
+  ],
+  "related": [
+    "ma-calculus-of-variations-optimal-control"
+  ],
+  "topics": [
+    {
+      "id": "ma-calculus-5",
+      "name": "Calculus of variations: functionals and extremal problems"
+    },
+    {
+      "id": "ma-variational-methods-4",
+      "name": "First variation and the Euler-Lagrange equation"
+    },
+    {
+      "id": "ma-variational-methods-1",
+      "name": "Euler-Lagrange equations"
+    },
+    {
+      "id": "ma-variational-methods-5",
+      "name": "Constraints and isoperimetric problems"
+    },
+    {
+      "id": "ma-variational-methods-6",
+      "name": "Second variation and sufficient conditions"
+    },
+    {
+      "id": "ma-variational-methods-7",
+      "name": "Hamilton's principle and applications to mechanics"
+    },
+    {
+      "id": "ma-variational-methods-2",
+      "name": "Direct methods"
+    },
+    {
+      "id": "ma-variational-methods-3",
+      "name": "Variational inequalities"
+    }
+  ]
+}

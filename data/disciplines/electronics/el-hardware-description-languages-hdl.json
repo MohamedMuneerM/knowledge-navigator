@@ -1,0 +1,40 @@
+{
+  "id": "el-hardware-description-languages-hdl",
+  "name": "Hardware Description Languages (HDL)",
+  "category": "FPGA, ASIC & VLSI Design",
+  "level": 2,
+  "priority": "core",
+  "summary": "Describing hardware in code with VHDL, Verilog and SystemVerilog, plus newer HDLs such as Chisel and SpinalHDL.",
+  "prerequisites": [
+    "el-sequential-logic"
+  ],
+  "related": [
+    "cs-computer-architecture"
+  ],
+  "topics": [
+    {
+      "id": "el-hardware-description-languages-hdl-1",
+      "name": "VHDL (VHSIC Hardware Description Language)"
+    },
+    {
+      "id": "el-hardware-description-languages-hdl-2",
+      "name": "Verilog"
+    },
+    {
+      "id": "el-hardware-description-languages-hdl-3",
+      "name": "SystemVerilog"
+    },
+    {
+      "id": "el-hardware-description-languages-hdl-4",
+      "name": "Chisel (Scala-based HDL)"
+    },
+    {
+      "id": "el-hardware-description-languages-hdl-5",
+      "name": "MyHDL (Python-based)"
+    },
+    {
+      "id": "el-hardware-description-languages-hdl-6",
+      "name": "SpinalHDL"
+    }
+  ]
+}

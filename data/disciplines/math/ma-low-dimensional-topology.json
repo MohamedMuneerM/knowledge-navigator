@@ -1,0 +1,34 @@
+{
+  "id": "ma-low-dimensional-topology",
+  "name": "Low-Dimensional Topology",
+  "category": "Topology",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Surfaces, knots and 3- and 4-manifolds studied through modern invariants.",
+  "prerequisites": [
+    "ma-geometric-topology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-low-dimensional-topology-1",
+      "name": "Surface topology"
+    },
+    {
+      "id": "ma-low-dimensional-topology-3",
+      "name": "Mapping class groups"
+    },
+    {
+      "id": "ma-low-dimensional-topology-4",
+      "name": "Heegaard splittings"
+    },
+    {
+      "id": "ma-low-dimensional-topology-2",
+      "name": "Knot invariants"
+    },
+    {
+      "id": "ma-low-dimensional-topology-5",
+      "name": "Floer-theoretic invariants (overview)"
+    }
+  ]
+}

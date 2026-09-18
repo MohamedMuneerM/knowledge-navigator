@@ -1,0 +1,66 @@
+{
+  "id": "ch-stereochemistry",
+  "name": "Stereochemistry",
+  "category": "Organic Chemistry",
+  "level": 2,
+  "priority": "core",
+  "summary": "Three-dimensional structure of molecules: chirality, configuration and its consequences for reactions and biology.",
+  "prerequisites": [
+    "ch-organic-structure-bonding"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-stereochemistry-1",
+      "name": "Isomerism: constitutional isomers vs stereoisomers"
+    },
+    {
+      "id": "ch-stereochemistry-2",
+      "name": "Chirality, stereocenters and symmetry elements"
+    },
+    {
+      "id": "ch-stereochemistry-3",
+      "name": "Cahn-Ingold-Prelog rules and R/S configuration"
+    },
+    {
+      "id": "ch-stereochemistry-4",
+      "name": "Enantiomers, diastereomers and meso compounds"
+    },
+    {
+      "id": "ch-stereochemistry-5",
+      "name": "Optical activity, specific rotation and enantiomeric excess"
+    },
+    {
+      "id": "ch-stereochemistry-6",
+      "name": "Fischer projections and carbohydrate stereochemistry"
+    },
+    {
+      "id": "ch-stereochemistry-7",
+      "name": "Cis/trans and E/Z isomerism"
+    },
+    {
+      "id": "ch-stereochemistry-8",
+      "name": "Conformational stereochemistry of rings"
+    },
+    {
+      "id": "ch-stereochemistry-9",
+      "name": "Axial, planar and helical chirality (allenes, biaryls, atropisomers)"
+    },
+    {
+      "id": "ch-stereochemistry-10",
+      "name": "Resolution of enantiomers"
+    },
+    {
+      "id": "ch-stereochemistry-11",
+      "name": "Prochirality and topicity (homotopic, enantiotopic, diastereotopic groups)"
+    },
+    {
+      "id": "ch-stereochemistry-12",
+      "name": "Stereospecific vs stereoselective reactions"
+    },
+    {
+      "id": "ch-stereochemistry-13",
+      "name": "Chirality in biology and drugs (the thalidomide case)"
+    }
+  ]
+}

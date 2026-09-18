@@ -1,0 +1,70 @@
+{
+  "id": "ai-autonomous-driving",
+  "name": "Autonomous Driving",
+  "category": "Robot Platforms & Locomotion",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The AI stack of self-driving vehicles: multi-sensor perception, prediction, planning and control, plus simulation, datasets and safety assurance.",
+  "prerequisites": [
+    "ai-mobile-robotics",
+    "ai-3d-computer-vision"
+  ],
+  "related": [
+    "el-autonomous-driving",
+    "el-advanced-driver-assistance-systems-adas"
+  ],
+  "topics": [
+    {
+      "id": "ai-autonomous-driving-1",
+      "name": "AV system architecture and SAE levels of automation"
+    },
+    {
+      "id": "ai-autonomous-driving-2",
+      "name": "Sensor suite and calibration: cameras, lidar, radar, GNSS/IMU"
+    },
+    {
+      "id": "ai-autonomous-driving-3",
+      "name": "3D object detection from lidar and cameras"
+    },
+    {
+      "id": "ai-autonomous-driving-4",
+      "name": "Bird's-eye-view perception and occupancy networks"
+    },
+    {
+      "id": "ai-autonomous-driving-5",
+      "name": "HD maps and localization"
+    },
+    {
+      "id": "ai-autonomous-driving-6",
+      "name": "Multi-object tracking"
+    },
+    {
+      "id": "ai-autonomous-driving-7",
+      "name": "Motion forecasting and behaviour prediction"
+    },
+    {
+      "id": "ai-autonomous-driving-8",
+      "name": "Behaviour and motion planning (lattice planners, MPC)"
+    },
+    {
+      "id": "ai-autonomous-driving-9",
+      "name": "Vehicle dynamics and control: pure pursuit, Stanley, MPC"
+    },
+    {
+      "id": "ai-autonomous-driving-10",
+      "name": "End-to-end driving and imitation learning"
+    },
+    {
+      "id": "ai-autonomous-driving-11",
+      "name": "Simulation and scenario-based testing (CARLA)"
+    },
+    {
+      "id": "ai-autonomous-driving-12",
+      "name": "Safety: ISO 26262, SOTIF and safety cases"
+    },
+    {
+      "id": "ai-autonomous-driving-13",
+      "name": "Datasets and benchmarks: KITTI, nuScenes, Waymo Open"
+    }
+  ]
+}

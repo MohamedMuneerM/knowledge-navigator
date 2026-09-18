@@ -1,0 +1,44 @@
+{
+  "id": "ma-automata-theory",
+  "name": "Automata Theory",
+  "category": "Theoretical Computer Science",
+  "level": 3,
+  "priority": "important",
+  "summary": "Abstract machines (finite automata, pushdown automata and Turing machines) and the languages they recognise.",
+  "prerequisites": [
+    "ma-discrete-mathematics"
+  ],
+  "related": [
+    "cs-compilers"
+  ],
+  "topics": [
+    {
+      "id": "ma-automata-theory-1",
+      "name": "Finite automata"
+    },
+    {
+      "id": "ma-automata-theory-4",
+      "name": "Nondeterminism and subset construction"
+    },
+    {
+      "id": "ma-automata-theory-5",
+      "name": "Regular expressions and Kleene's theorem"
+    },
+    {
+      "id": "ma-automata-theory-6",
+      "name": "Minimisation of automata"
+    },
+    {
+      "id": "ma-automata-theory-2",
+      "name": "Pushdown automata"
+    },
+    {
+      "id": "ma-automata-theory-3",
+      "name": "Turing machines"
+    },
+    {
+      "id": "ma-automata-theory-7",
+      "name": "Automata on infinite words (introduction)"
+    }
+  ]
+}

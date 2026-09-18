@@ -1,0 +1,44 @@
+{
+  "id": "ma-computability-theory",
+  "name": "Computability Theory",
+  "category": "Theoretical Computer Science",
+  "level": 3,
+  "priority": "important",
+  "summary": "What can be computed at all: Turing machines, recursive functions, the Church-Turing thesis and undecidable problems.",
+  "prerequisites": [
+    "ma-automata-theory"
+  ],
+  "related": [
+    "ma-recursion-computability"
+  ],
+  "topics": [
+    {
+      "id": "ma-computability-theory-4",
+      "name": "Models of computation and equivalence"
+    },
+    {
+      "id": "ma-computability-theory-1",
+      "name": "Recursive functions"
+    },
+    {
+      "id": "ma-computability-theory-2",
+      "name": "Church-Turing thesis"
+    },
+    {
+      "id": "ma-computability-theory-5",
+      "name": "Universal Turing machine"
+    },
+    {
+      "id": "ma-computability-theory-6",
+      "name": "The halting problem"
+    },
+    {
+      "id": "ma-computability-theory-3",
+      "name": "Undecidability"
+    },
+    {
+      "id": "ma-computability-theory-7",
+      "name": "Reductions and Rice's theorem"
+    }
+  ]
+}

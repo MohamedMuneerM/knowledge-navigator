@@ -1,0 +1,72 @@
+{
+  "id": "ae-gas-turbine-engines",
+  "name": "Aircraft Engines and Gas Turbines",
+  "category": "Air-Breathing Propulsion & Combustion",
+  "level": 3,
+  "priority": "core",
+  "summary": "Cycle analysis and component behaviour of turbojets, turbofans, turboprops and turboshafts that power almost all aircraft.",
+  "prerequisites": [
+    "ae-compressible-flow-gas-dynamics"
+  ],
+  "related": [
+    "me-turbomachinery"
+  ],
+  "topics": [
+    {
+      "id": "ae-gas-turbine-engines-1",
+      "name": "Thrust equation for air-breathing engines"
+    },
+    {
+      "id": "ae-gas-turbine-engines-2",
+      "name": "Propulsive, thermal and overall efficiency; thrust specific fuel consumption"
+    },
+    {
+      "id": "ae-gas-turbine-engines-3",
+      "name": "Ideal cycle analysis: ramjet, turbojet, turbofan"
+    },
+    {
+      "id": "ae-gas-turbine-engines-4",
+      "name": "Non-ideal (real) cycle analysis with component losses"
+    },
+    {
+      "id": "ae-gas-turbine-engines-5",
+      "name": "Turbofan design parameters: bypass ratio, fan and overall pressure ratio"
+    },
+    {
+      "id": "ae-gas-turbine-engines-6",
+      "name": "Turboprop and turboshaft engines"
+    },
+    {
+      "id": "ae-gas-turbine-engines-7",
+      "name": "Inlets and diffusers: subsonic and supersonic"
+    },
+    {
+      "id": "ae-gas-turbine-engines-8",
+      "name": "Compressors and fans: velocity triangles and stage performance"
+    },
+    {
+      "id": "ae-gas-turbine-engines-9",
+      "name": "Combustors and afterburners"
+    },
+    {
+      "id": "ae-gas-turbine-engines-10",
+      "name": "Turbines and turbine cooling"
+    },
+    {
+      "id": "ae-gas-turbine-engines-11",
+      "name": "Exhaust nozzles and thrust reversers"
+    },
+    {
+      "id": "ae-gas-turbine-engines-12",
+      "name": "Component matching and off-design performance"
+    },
+    {
+      "id": "ae-gas-turbine-engines-13",
+      "name": "Engine installation, noise and emissions"
+    },
+    {
+      "id": "ae-gas-turbine-engines-14",
+      "name": "Engine testing, health monitoring and certification"
+    }
+  ]
+}

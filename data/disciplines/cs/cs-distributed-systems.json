@@ -1,0 +1,74 @@
+{
+  "id": "cs-distributed-systems",
+  "name": "Distributed Systems",
+  "category": "Parallel & Distributed Computing",
+  "level": 3,
+  "priority": "core",
+  "summary": "Building systems that run on many machines and survive failures: RPC, clocks, replication, consensus, distributed transactions and storage.",
+  "prerequisites": [
+    "cs-concurrent-programming",
+    "cs-computer-networks"
+  ],
+  "related": [
+    "ai-big-data-technologies",
+    "ai-distributed-training"
+  ],
+  "topics": [
+    {
+      "id": "cs-distributed-systems-1",
+      "name": "Characteristics and challenges: partial failure, latency and asynchrony"
+    },
+    {
+      "id": "cs-distributed-systems-2",
+      "name": "Remote procedure calls and serialization"
+    },
+    {
+      "id": "cs-distributed-systems-3",
+      "name": "Time, clocks and ordering (Lamport and vector clocks)"
+    },
+    {
+      "id": "cs-distributed-systems-4",
+      "name": "Replication and consistency models"
+    },
+    {
+      "id": "cs-distributed-systems-5",
+      "name": "Consensus: Paxos and Raft"
+    },
+    {
+      "id": "cs-distributed-systems-6",
+      "name": "Fault tolerance and state-machine replication"
+    },
+    {
+      "id": "cs-distributed-systems-7",
+      "name": "Distributed transactions and two-phase commit"
+    },
+    {
+      "id": "cs-distributed-systems-8",
+      "name": "Distributed storage: key-value stores and sharding"
+    },
+    {
+      "id": "cs-distributed-systems-9",
+      "name": "MapReduce and distributed data processing"
+    },
+    {
+      "id": "cs-distributed-systems-10",
+      "name": "Peer-to-peer systems and distributed hash tables"
+    },
+    {
+      "id": "cs-distributed-systems-11",
+      "name": "Byzantine fault tolerance"
+    },
+    {
+      "id": "cs-distributed-systems-12",
+      "name": "Coordination services (ZooKeeper, etcd)"
+    },
+    {
+      "id": "cs-distributed-systems-13",
+      "name": "Case studies: GFS, Spanner and Dynamo"
+    },
+    {
+      "id": "cs-distributed-systems-14",
+      "name": "Testing distributed systems: Jepsen and fault injection"
+    }
+  ]
+}

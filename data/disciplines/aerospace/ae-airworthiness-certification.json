@@ -1,0 +1,61 @@
+{
+  "id": "ae-airworthiness-certification",
+  "name": "Airworthiness and Certification",
+  "category": "Systems Engineering, Test & Safety",
+  "level": 4,
+  "priority": "important",
+  "summary": "How aircraft and their systems are certified and kept airworthy: regulations, certification basis, development assurance and continued airworthiness.",
+  "prerequisites": [
+    "ae-aerospace-safety-reliability",
+    "ae-aircraft-design"
+  ],
+  "related": [
+    "el-safety-certification"
+  ],
+  "topics": [
+    {
+      "id": "ae-airworthiness-certification-1",
+      "name": "Aviation authorities: FAA, EASA, ICAO"
+    },
+    {
+      "id": "ae-airworthiness-certification-2",
+      "name": "Airworthiness regulations: Parts 23, 25, 27, 29, 33 and CS equivalents"
+    },
+    {
+      "id": "ae-airworthiness-certification-3",
+      "name": "Type certification process and certification basis"
+    },
+    {
+      "id": "ae-airworthiness-certification-4",
+      "name": "Means of compliance and special conditions"
+    },
+    {
+      "id": "ae-airworthiness-certification-5",
+      "name": "Development assurance: ARP4754A"
+    },
+    {
+      "id": "ae-airworthiness-certification-6",
+      "name": "Software and hardware assurance: DO-178C and DO-254"
+    },
+    {
+      "id": "ae-airworthiness-certification-7",
+      "name": "Environmental qualification: DO-160"
+    },
+    {
+      "id": "ae-airworthiness-certification-8",
+      "name": "Production approval and airworthiness certificates"
+    },
+    {
+      "id": "ae-airworthiness-certification-9",
+      "name": "Continued airworthiness: maintenance programs, ADs, service bulletins"
+    },
+    {
+      "id": "ae-airworthiness-certification-10",
+      "name": "Certification of UAS and novel aircraft"
+    },
+    {
+      "id": "ae-airworthiness-certification-11",
+      "name": "Commercial space launch and human spaceflight licensing compared"
+    }
+  ]
+}

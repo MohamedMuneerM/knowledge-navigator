@@ -1,0 +1,42 @@
+{
+  "id": "el-continuous-integration-continuous-deployment-cicd",
+  "name": "Continuous Integration / Continuous Deployment (CI/CD)",
+  "category": "Embedded Development Practices & Debugging",
+  "level": 3,
+  "priority": "important",
+  "summary": "Automating build, test and release for embedded targets, including hardware-in-the-loop stages and artifact management.",
+  "prerequisites": [
+    "el-version-control",
+    "el-build-systems",
+    "el-testing-strategies"
+  ],
+  "related": [
+    "cs-devops-cicd"
+  ],
+  "topics": [
+    {
+      "id": "el-continuous-integration-continuous-deployment-cicd-1",
+      "name": "Jenkins, Travis CI, CircleCI, GitLab CI, GitHub Actions"
+    },
+    {
+      "id": "el-continuous-integration-continuous-deployment-cicd-2",
+      "name": "Automated builds for embedded targets"
+    },
+    {
+      "id": "el-continuous-integration-continuous-deployment-cicd-3",
+      "name": "Unit testing in CI pipelines"
+    },
+    {
+      "id": "el-continuous-integration-continuous-deployment-cicd-4",
+      "name": "Hardware-in-the-loop (HIL) testing"
+    },
+    {
+      "id": "el-continuous-integration-continuous-deployment-cicd-5",
+      "name": "Automated firmware deployment"
+    },
+    {
+      "id": "el-continuous-integration-continuous-deployment-cicd-6",
+      "name": "Artifact management (Artifactory, Nexus)"
+    }
+  ]
+}

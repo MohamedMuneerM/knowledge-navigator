@@ -1,0 +1,74 @@
+{
+  "id": "el-signals-and-systems",
+  "name": "Signals & Systems",
+  "category": "Signal Processing & Communications",
+  "level": 2,
+  "priority": "core",
+  "summary": "The core language of electrical engineering: LTI systems, convolution, Fourier, Laplace and z-transforms, transfer functions and frequency response.",
+  "prerequisites": [
+    "el-circuit-theory",
+    "el-mathematical-foundations"
+  ],
+  "related": [
+    "ma-signal-processing",
+    "ma-integral-transforms"
+  ],
+  "topics": [
+    {
+      "id": "el-signals-and-systems-1",
+      "name": "Continuous- and discrete-time signals, basic operations and classification"
+    },
+    {
+      "id": "el-signals-and-systems-2",
+      "name": "System properties: linearity, time invariance, causality, memory, stability"
+    },
+    {
+      "id": "el-signals-and-systems-3",
+      "name": "LTI systems, impulse response and convolution (continuous and discrete)"
+    },
+    {
+      "id": "el-signals-and-systems-4",
+      "name": "Systems described by differential and difference equations"
+    },
+    {
+      "id": "el-signals-and-systems-5",
+      "name": "Fourier series of periodic signals"
+    },
+    {
+      "id": "el-signals-and-systems-6",
+      "name": "The continuous-time Fourier transform and its properties"
+    },
+    {
+      "id": "el-signals-and-systems-7",
+      "name": "The discrete-time Fourier transform"
+    },
+    {
+      "id": "el-signals-and-systems-8",
+      "name": "Laplace transform, region of convergence, poles and zeros"
+    },
+    {
+      "id": "el-signals-and-systems-9",
+      "name": "Transfer functions, block diagrams and system interconnection"
+    },
+    {
+      "id": "el-signals-and-systems-10",
+      "name": "The z-transform and discrete-time transfer functions"
+    },
+    {
+      "id": "el-signals-and-systems-11",
+      "name": "Frequency response, Bode plots and filtering"
+    },
+    {
+      "id": "el-signals-and-systems-12",
+      "name": "Sampling and reconstruction (introduction)"
+    },
+    {
+      "id": "el-signals-and-systems-13",
+      "name": "Modulation as an application of the Fourier transform"
+    },
+    {
+      "id": "el-signals-and-systems-14",
+      "name": "State-space representation (introduction)"
+    }
+  ]
+}

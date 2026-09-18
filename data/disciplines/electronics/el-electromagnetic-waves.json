@@ -1,0 +1,65 @@
+{
+  "id": "el-electromagnetic-waves",
+  "name": "Electromagnetic Waves & Waveguides",
+  "category": "Electromagnetics, RF & Microwave",
+  "level": 3,
+  "priority": "core",
+  "summary": "How electromagnetic energy propagates: plane waves, reflection and refraction, skin effect, polarization, waveguides and resonant cavities.",
+  "prerequisites": [
+    "el-electromagnetics"
+  ],
+  "related": [
+    "ph-classical-electromagnetism",
+    "ph-classical-optics"
+  ],
+  "topics": [
+    {
+      "id": "el-electromagnetic-waves-1",
+      "name": "The wave equation and uniform plane waves"
+    },
+    {
+      "id": "el-electromagnetic-waves-2",
+      "name": "Propagation in lossy media, skin depth and surface resistance"
+    },
+    {
+      "id": "el-electromagnetic-waves-3",
+      "name": "Polarization of electromagnetic waves"
+    },
+    {
+      "id": "el-electromagnetic-waves-4",
+      "name": "Power flow and the Poynting vector"
+    },
+    {
+      "id": "el-electromagnetic-waves-5",
+      "name": "Reflection and transmission at normal incidence"
+    },
+    {
+      "id": "el-electromagnetic-waves-6",
+      "name": "Oblique incidence, Snell's law, Brewster angle and total internal reflection"
+    },
+    {
+      "id": "el-electromagnetic-waves-7",
+      "name": "Multilayer media and anti-reflection coatings"
+    },
+    {
+      "id": "el-electromagnetic-waves-8",
+      "name": "Dispersion, phase velocity and group velocity"
+    },
+    {
+      "id": "el-electromagnetic-waves-9",
+      "name": "Rectangular waveguides: TE and TM modes, cutoff"
+    },
+    {
+      "id": "el-electromagnetic-waves-10",
+      "name": "Circular waveguides and cavity resonators"
+    },
+    {
+      "id": "el-electromagnetic-waves-11",
+      "name": "Dielectric waveguides and the optical fiber (introduction)"
+    },
+    {
+      "id": "el-electromagnetic-waves-12",
+      "name": "Radiation from a Hertzian dipole (introduction)"
+    }
+  ]
+}

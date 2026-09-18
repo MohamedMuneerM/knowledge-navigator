@@ -1,0 +1,59 @@
+{
+  "id": "bi-sensory-systems",
+  "name": "Sensory Systems",
+  "category": "Neuroscience",
+  "level": 3,
+  "priority": "important",
+  "summary": "How sense organs turn physical stimuli into neural signals and how the brain builds perceptions from them.",
+  "prerequisites": [
+    "bi-neuroanatomy",
+    "bi-cellular-molecular-neuroscience"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-sensory-systems-1",
+      "name": "Principles of sensory coding: transduction, receptive fields and adaptation"
+    },
+    {
+      "id": "bi-sensory-systems-2",
+      "name": "Psychophysics: thresholds and signal detection theory"
+    },
+    {
+      "id": "bi-sensory-systems-3",
+      "name": "Vision: optics of the eye and phototransduction"
+    },
+    {
+      "id": "bi-sensory-systems-4",
+      "name": "Retinal circuits and the central visual pathways"
+    },
+    {
+      "id": "bi-sensory-systems-5",
+      "name": "Visual cortex: feature detection, visual streams and object recognition"
+    },
+    {
+      "id": "bi-sensory-systems-6",
+      "name": "Hearing: cochlear mechanics, hair cells and auditory pathways"
+    },
+    {
+      "id": "bi-sensory-systems-7",
+      "name": "The vestibular system: balance and spatial orientation"
+    },
+    {
+      "id": "bi-sensory-systems-8",
+      "name": "Somatosensation: touch, proprioception, temperature"
+    },
+    {
+      "id": "bi-sensory-systems-9",
+      "name": "Pain and itch"
+    },
+    {
+      "id": "bi-sensory-systems-10",
+      "name": "Chemical senses: taste and smell"
+    },
+    {
+      "id": "bi-sensory-systems-11",
+      "name": "Multisensory integration"
+    }
+  ]
+}

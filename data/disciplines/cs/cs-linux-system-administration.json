@@ -1,0 +1,65 @@
+{
+  "id": "cs-linux-system-administration",
+  "name": "Linux System Administration",
+  "category": "Cloud Computing & DevOps",
+  "level": 2,
+  "priority": "important",
+  "summary": "Installing, configuring, securing and maintaining Linux servers, the foundation for cloud and operations work.",
+  "prerequisites": [
+    "cs-command-line-shell"
+  ],
+  "related": [
+    "el-linux-system-services",
+    "el-embedded-linux"
+  ],
+  "topics": [
+    {
+      "id": "cs-linux-system-administration-1",
+      "name": "Linux distributions, installation and the boot process"
+    },
+    {
+      "id": "cs-linux-system-administration-2",
+      "name": "Administering users, groups and permissions"
+    },
+    {
+      "id": "cs-linux-system-administration-3",
+      "name": "Package management and software installation"
+    },
+    {
+      "id": "cs-linux-system-administration-4",
+      "name": "Processes, services and systemd"
+    },
+    {
+      "id": "cs-linux-system-administration-5",
+      "name": "Filesystems, disks, partitions and mounting"
+    },
+    {
+      "id": "cs-linux-system-administration-6",
+      "name": "Network configuration and troubleshooting"
+    },
+    {
+      "id": "cs-linux-system-administration-7",
+      "name": "Logging and system monitoring"
+    },
+    {
+      "id": "cs-linux-system-administration-8",
+      "name": "Scheduling jobs with cron and systemd timers"
+    },
+    {
+      "id": "cs-linux-system-administration-9",
+      "name": "Backup and restore"
+    },
+    {
+      "id": "cs-linux-system-administration-10",
+      "name": "Securing a server: SSH hardening, firewalls and updates"
+    },
+    {
+      "id": "cs-linux-system-administration-11",
+      "name": "Setting up a web server (nginx)"
+    },
+    {
+      "id": "cs-linux-system-administration-12",
+      "name": "Configuration management with Ansible"
+    }
+  ]
+}

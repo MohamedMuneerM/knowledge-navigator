@@ -1,0 +1,34 @@
+{
+  "id": "ma-nonparametric-statistics",
+  "name": "Nonparametric Statistics",
+  "category": "Probability & Statistics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Inference with minimal distributional assumptions: rank tests, kernel density estimation and the bootstrap.",
+  "prerequisites": [
+    "ma-inferential-statistics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-nonparametric-statistics-1",
+      "name": "Rank tests"
+    },
+    {
+      "id": "ma-nonparametric-statistics-4",
+      "name": "Permutation tests"
+    },
+    {
+      "id": "ma-nonparametric-statistics-2",
+      "name": "Kernel density estimation"
+    },
+    {
+      "id": "ma-nonparametric-statistics-5",
+      "name": "Nonparametric regression and smoothing"
+    },
+    {
+      "id": "ma-nonparametric-statistics-3",
+      "name": "Bootstrap methods"
+    }
+  ]
+}

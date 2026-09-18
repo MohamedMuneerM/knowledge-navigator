@@ -1,0 +1,56 @@
+{
+  "id": "ea-earth-resources-and-energy",
+  "name": "Earth Resources, Energy & Environment",
+  "category": "Earth Resources & Applied Geology",
+  "level": 2,
+  "priority": "important",
+  "summary": "Where our minerals, energy and water come from geologically, how they are found and used, and the environmental costs.",
+  "prerequisites": [
+    "ea-physical-geology"
+  ],
+  "related": [
+    "ph-energy-physics"
+  ],
+  "topics": [
+    {
+      "id": "ea-earth-resources-and-energy-1",
+      "name": "Resources versus reserves; resource economics and depletion"
+    },
+    {
+      "id": "ea-earth-resources-and-energy-2",
+      "name": "Metallic mineral resources and how they form"
+    },
+    {
+      "id": "ea-earth-resources-and-energy-3",
+      "name": "Industrial minerals, construction materials and critical minerals"
+    },
+    {
+      "id": "ea-earth-resources-and-energy-4",
+      "name": "Coal"
+    },
+    {
+      "id": "ea-earth-resources-and-energy-5",
+      "name": "Oil and natural gas"
+    },
+    {
+      "id": "ea-earth-resources-and-energy-6",
+      "name": "Nuclear fuels"
+    },
+    {
+      "id": "ea-earth-resources-and-energy-7",
+      "name": "Geothermal, hydro, wind and solar energy from a geoscience view"
+    },
+    {
+      "id": "ea-earth-resources-and-energy-8",
+      "name": "Water as a resource"
+    },
+    {
+      "id": "ea-earth-resources-and-energy-9",
+      "name": "Mining, extraction and land reclamation"
+    },
+    {
+      "id": "ea-earth-resources-and-energy-10",
+      "name": "Environmental impacts of resource use and the energy transition"
+    }
+  ]
+}

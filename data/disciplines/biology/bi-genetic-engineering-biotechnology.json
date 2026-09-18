@@ -1,0 +1,55 @@
+{
+  "id": "bi-genetic-engineering-biotechnology",
+  "name": "Genetic Engineering & Biotechnology",
+  "category": "Biotechnology & Bioengineering",
+  "level": 3,
+  "priority": "core",
+  "summary": "Using living systems and recombinant DNA to make products and solve problems in medicine, agriculture, industry and the environment.",
+  "prerequisites": [
+    "bi-molecular-biology-techniques",
+    "bi-genetics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-genetic-engineering-biotechnology-1",
+      "name": "History and scope of biotechnology"
+    },
+    {
+      "id": "bi-genetic-engineering-biotechnology-2",
+      "name": "Recombinant DNA technology and expression hosts"
+    },
+    {
+      "id": "bi-genetic-engineering-biotechnology-3",
+      "name": "Biopharmaceuticals: insulin, antibodies and therapeutic proteins"
+    },
+    {
+      "id": "bi-genetic-engineering-biotechnology-4",
+      "name": "Vaccine technologies: subunit, viral vector and mRNA"
+    },
+    {
+      "id": "bi-genetic-engineering-biotechnology-5",
+      "name": "Transgenic animals and cloning"
+    },
+    {
+      "id": "bi-genetic-engineering-biotechnology-6",
+      "name": "Gene therapy vectors: AAV, lentivirus and non-viral delivery"
+    },
+    {
+      "id": "bi-genetic-engineering-biotechnology-7",
+      "name": "Diagnostics and molecular testing"
+    },
+    {
+      "id": "bi-genetic-engineering-biotechnology-8",
+      "name": "Agricultural biotechnology overview"
+    },
+    {
+      "id": "bi-genetic-engineering-biotechnology-9",
+      "name": "Environmental biotechnology: bioremediation and biofuels"
+    },
+    {
+      "id": "bi-genetic-engineering-biotechnology-10",
+      "name": "Biosafety, regulation and intellectual property in biotechnology"
+    }
+  ]
+}

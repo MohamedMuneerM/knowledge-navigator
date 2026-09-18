@@ -1,0 +1,66 @@
+{
+  "id": "el-semiconductor-physics",
+  "name": "Semiconductor Physics",
+  "category": "Semiconductor Devices & Fabrication",
+  "level": 2,
+  "priority": "core",
+  "summary": "The physics of semiconductors: energy bands, carriers, doping, drift and diffusion, and the PN junction on which all devices are built.",
+  "prerequisites": [
+    "el-electrical-materials"
+  ],
+  "related": [
+    "ph-solid-state-physics",
+    "ph-quantum-mechanics",
+    "mt-semiconductor-materials"
+  ],
+  "topics": [
+    {
+      "id": "el-semiconductor-physics-5",
+      "name": "Crystal structure and semiconductor materials (Si, Ge, GaAs, GaN, SiC)"
+    },
+    {
+      "id": "el-semiconductor-physics-4",
+      "name": "Quantum mechanics basics for electronics"
+    },
+    {
+      "id": "el-semiconductor-physics-2",
+      "name": "Band theory and doping"
+    },
+    {
+      "id": "el-semiconductor-physics-6",
+      "name": "Carrier statistics: density of states, Fermi-Dirac distribution, carrier concentrations"
+    },
+    {
+      "id": "el-semiconductor-physics-7",
+      "name": "Carrier transport: drift, mobility, diffusion and the Einstein relation"
+    },
+    {
+      "id": "el-semiconductor-physics-8",
+      "name": "Generation, recombination and minority-carrier lifetime"
+    },
+    {
+      "id": "el-semiconductor-physics-9",
+      "name": "The continuity equation"
+    },
+    {
+      "id": "el-semiconductor-physics-1",
+      "name": "PN junctions and carrier dynamics"
+    },
+    {
+      "id": "el-semiconductor-physics-10",
+      "name": "Metal-semiconductor contacts: Schottky and ohmic"
+    },
+    {
+      "id": "el-semiconductor-physics-11",
+      "name": "The MOS structure (introduction)"
+    },
+    {
+      "id": "el-semiconductor-physics-12",
+      "name": "Heterojunctions"
+    },
+    {
+      "id": "el-semiconductor-physics-3",
+      "name": "Semiconductor device physics"
+    }
+  ]
+}

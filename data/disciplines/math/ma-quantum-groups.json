@@ -1,0 +1,31 @@
+{
+  "id": "ma-quantum-groups",
+  "name": "Quantum Groups",
+  "category": "Emerging & Advanced Areas",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Hopf algebras and deformations of Lie algebras that arise in quantum physics and knot theory.",
+  "prerequisites": [
+    "ma-lie-theory",
+    "ma-category-theory"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-quantum-groups-1",
+      "name": "Hopf algebras"
+    },
+    {
+      "id": "ma-quantum-groups-2",
+      "name": "Deformation theory"
+    },
+    {
+      "id": "ma-quantum-groups-3",
+      "name": "Quantum enveloping algebras"
+    },
+    {
+      "id": "ma-quantum-groups-4",
+      "name": "R-matrices and the Yang-Baxter equation"
+    }
+  ]
+}

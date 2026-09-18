@@ -1,0 +1,71 @@
+{
+  "id": "el-asic-physical-design",
+  "name": "ASIC Design Flow: RTL to GDSII",
+  "category": "FPGA, ASIC & VLSI Design",
+  "level": 4,
+  "priority": "important",
+  "summary": "The industrial chip implementation flow: synthesis, design-for-test, floorplanning, placement, clock-tree synthesis, routing, timing closure and sign-off.",
+  "prerequisites": [
+    "el-digital-vlsi-design",
+    "el-hardware-description-languages-hdl"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-asic-physical-design-1",
+      "name": "ASIC vs FPGA and the design flow overview"
+    },
+    {
+      "id": "el-asic-physical-design-2",
+      "name": "Standard-cell libraries and PDKs"
+    },
+    {
+      "id": "el-asic-physical-design-3",
+      "name": "Logic synthesis and timing constraints (SDC)"
+    },
+    {
+      "id": "el-asic-physical-design-4",
+      "name": "Design for test: scan insertion, ATPG, BIST, boundary scan"
+    },
+    {
+      "id": "el-asic-physical-design-5",
+      "name": "Floorplanning and power planning"
+    },
+    {
+      "id": "el-asic-physical-design-6",
+      "name": "Placement"
+    },
+    {
+      "id": "el-asic-physical-design-7",
+      "name": "Clock-tree synthesis"
+    },
+    {
+      "id": "el-asic-physical-design-8",
+      "name": "Routing"
+    },
+    {
+      "id": "el-asic-physical-design-9",
+      "name": "Static timing analysis and timing closure (setup/hold, OCV, MMMC)"
+    },
+    {
+      "id": "el-asic-physical-design-10",
+      "name": "Power analysis and IR drop"
+    },
+    {
+      "id": "el-asic-physical-design-11",
+      "name": "Parasitic extraction and sign-off"
+    },
+    {
+      "id": "el-asic-physical-design-12",
+      "name": "Physical verification: DRC, LVS and antenna checks"
+    },
+    {
+      "id": "el-asic-physical-design-13",
+      "name": "ECOs and tape-out (GDSII)"
+    },
+    {
+      "id": "el-asic-physical-design-14",
+      "name": "Open-source flows (OpenROAD, SkyWater PDK)"
+    }
+  ]
+}

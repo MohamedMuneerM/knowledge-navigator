@@ -1,0 +1,38 @@
+{
+  "id": "el-mining-heavy-industry",
+  "name": "Mining & Heavy Industry",
+  "category": "Medical, Industrial & Other Application Domains",
+  "level": 3,
+  "priority": "optional",
+  "summary": "Electronics for mines and heavy industry: remote monitoring, autonomous vehicles, safety systems, asset tracking and explosion-proof design.",
+  "prerequisites": [
+    "el-industrial-protocols"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-mining-heavy-industry-1",
+      "name": "Remote equipment monitoring"
+    },
+    {
+      "id": "el-mining-heavy-industry-2",
+      "name": "Autonomous mining vehicles"
+    },
+    {
+      "id": "el-mining-heavy-industry-3",
+      "name": "Environmental and safety monitoring"
+    },
+    {
+      "id": "el-mining-heavy-industry-4",
+      "name": "Predictive maintenance"
+    },
+    {
+      "id": "el-mining-heavy-industry-5",
+      "name": "Asset tracking"
+    },
+    {
+      "id": "el-mining-heavy-industry-6",
+      "name": "Explosion-proof electronics"
+    }
+  ]
+}

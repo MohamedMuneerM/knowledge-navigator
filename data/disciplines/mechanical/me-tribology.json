@@ -1,0 +1,62 @@
+{
+  "id": "me-tribology",
+  "name": "Tribology: Friction, Wear & Lubrication",
+  "category": "Machine Design & Machine Elements",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The science of interacting surfaces in relative motion: contact, friction, wear, lubrication and surface engineering of machine elements.",
+  "prerequisites": [
+    "me-shafts-bearings-seals",
+    "me-advanced-mechanics-of-materials",
+    "me-fluid-mechanics"
+  ],
+  "related": [
+    "mt-tribology"
+  ],
+  "topics": [
+    {
+      "id": "me-tribology-1",
+      "name": "Surface topography and roughness characterisation"
+    },
+    {
+      "id": "me-tribology-2",
+      "name": "Contact mechanics of rough surfaces (Greenwood-Williamson)"
+    },
+    {
+      "id": "me-tribology-3",
+      "name": "Friction mechanisms and friction models"
+    },
+    {
+      "id": "me-tribology-4",
+      "name": "Wear mechanisms: adhesive, abrasive, fatigue, corrosive, fretting and erosion"
+    },
+    {
+      "id": "me-tribology-5",
+      "name": "Lubricants: oils, greases, additives and solid lubricants"
+    },
+    {
+      "id": "me-tribology-6",
+      "name": "Lubrication regimes and the Stribeck curve"
+    },
+    {
+      "id": "me-tribology-7",
+      "name": "Hydrodynamic lubrication and the Reynolds equation"
+    },
+    {
+      "id": "me-tribology-8",
+      "name": "Elastohydrodynamic lubrication in gears and rolling bearings"
+    },
+    {
+      "id": "me-tribology-9",
+      "name": "Surface engineering and coatings (DLC, nitriding, hard coatings)"
+    },
+    {
+      "id": "me-tribology-10",
+      "name": "Tribological testing and tribology of seals, gears and bearings"
+    },
+    {
+      "id": "me-tribology-11",
+      "name": "Tribology of polymers and biomedical implants"
+    }
+  ]
+}

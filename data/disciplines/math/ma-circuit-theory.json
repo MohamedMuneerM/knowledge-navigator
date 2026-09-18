@@ -1,0 +1,41 @@
+{
+  "id": "ma-circuit-theory",
+  "name": "Circuit Theory",
+  "category": "Applied & Interdisciplinary Mathematics",
+  "level": 2,
+  "priority": "advanced",
+  "summary": "Mathematical analysis of electrical networks: Kirchhoff's laws, network theorems and transfer functions.",
+  "prerequisites": [
+    "ma-integral-transforms",
+    "ph-introductory-electricity-magnetism"
+  ],
+  "related": [
+    "el-circuit-theory"
+  ],
+  "topics": [
+    {
+      "id": "ma-circuit-theory-3",
+      "name": "Kirchhoff's laws and network graphs"
+    },
+    {
+      "id": "ma-circuit-theory-1",
+      "name": "Electrical network analysis"
+    },
+    {
+      "id": "ma-circuit-theory-4",
+      "name": "Network theorems (Thevenin, Norton, superposition)"
+    },
+    {
+      "id": "ma-circuit-theory-5",
+      "name": "Transient analysis with ODEs"
+    },
+    {
+      "id": "ma-circuit-theory-2",
+      "name": "Transfer functions"
+    },
+    {
+      "id": "ma-circuit-theory-6",
+      "name": "Two-port networks"
+    }
+  ]
+}

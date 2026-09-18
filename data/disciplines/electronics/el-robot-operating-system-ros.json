@@ -1,0 +1,47 @@
+{
+  "id": "el-robot-operating-system-ros",
+  "name": "Robot Operating System (ROS)",
+  "category": "Control Systems & Robotics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Building robot software with ROS 2: nodes, topics, services, TF, Gazebo simulation, RViz, Nav2 and MoveIt.",
+  "prerequisites": [
+    "el-kinematics-dynamics",
+    "cs-command-line-shell",
+    "cs-object-oriented-programming"
+  ],
+  "related": [
+    "ai-robot-fundamentals",
+    "ai-robot-software-ros"
+  ],
+  "topics": [
+    {
+      "id": "el-robot-operating-system-ros-1",
+      "name": "ROS 1 and ROS 2"
+    },
+    {
+      "id": "el-robot-operating-system-ros-2",
+      "name": "Nodes, topics, services, actions"
+    },
+    {
+      "id": "el-robot-operating-system-ros-3",
+      "name": "TF (transform) library"
+    },
+    {
+      "id": "el-robot-operating-system-ros-4",
+      "name": "Gazebo simulation"
+    },
+    {
+      "id": "el-robot-operating-system-ros-5",
+      "name": "RViz visualization"
+    },
+    {
+      "id": "el-robot-operating-system-ros-6",
+      "name": "Navigation stack (move_base, AMCL)"
+    },
+    {
+      "id": "el-robot-operating-system-ros-7",
+      "name": "MoveIt motion planning"
+    }
+  ]
+}

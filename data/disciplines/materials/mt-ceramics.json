@@ -1,0 +1,70 @@
+{
+  "id": "mt-ceramics",
+  "name": "Ceramic Materials",
+  "category": "Ceramics & Glasses",
+  "level": 3,
+  "priority": "core",
+  "summary": "Covers the structure, defects, mechanical behaviour and applications of traditional and advanced engineering ceramics.",
+  "prerequisites": [
+    "mt-defects",
+    "mt-phase-diagrams",
+    "mt-mechanical-properties"
+  ],
+  "related": [
+    "ch-solid-state-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "mt-ceramics-1",
+      "name": "Classification: traditional (clay-based) vs advanced/technical ceramics"
+    },
+    {
+      "id": "mt-ceramics-2",
+      "name": "Ceramic crystal structures and defect chemistry revisited"
+    },
+    {
+      "id": "mt-ceramics-3",
+      "name": "Oxide ceramics: alumina, zirconia, magnesia, silica"
+    },
+    {
+      "id": "mt-ceramics-4",
+      "name": "Non-oxide ceramics: silicon carbide, silicon nitride, boron carbide, aluminium nitride"
+    },
+    {
+      "id": "mt-ceramics-5",
+      "name": "Mechanical behaviour: brittleness, flaw sensitivity and Weibull statistics"
+    },
+    {
+      "id": "mt-ceramics-6",
+      "name": "Toughening mechanisms: transformation toughening (zirconia), crack deflection, bridging"
+    },
+    {
+      "id": "mt-ceramics-7",
+      "name": "Refractories and high-temperature ceramics"
+    },
+    {
+      "id": "mt-ceramics-8",
+      "name": "Ultra-high-temperature ceramics: ZrB2, HfB2, HfC and TaC"
+    },
+    {
+      "id": "mt-ceramics-9",
+      "name": "Electroceramics overview: dielectrics, piezoceramics, ionic conductors, ferrites"
+    },
+    {
+      "id": "mt-ceramics-10",
+      "name": "Bioceramics: alumina, zirconia, hydroxyapatite and bioactive glass"
+    },
+    {
+      "id": "mt-ceramics-11",
+      "name": "Carbon materials: graphite, carbon fibres, diamond and DLC"
+    },
+    {
+      "id": "mt-ceramics-12",
+      "name": "Ceramic processing overview (treated in depth under powder processing)"
+    },
+    {
+      "id": "mt-ceramics-13",
+      "name": "Design with brittle materials: proof testing and probabilistic design"
+    }
+  ]
+}

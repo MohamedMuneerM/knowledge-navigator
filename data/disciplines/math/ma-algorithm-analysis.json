@@ -1,0 +1,54 @@
+{
+  "id": "ma-algorithm-analysis",
+  "name": "Algorithm Analysis",
+  "category": "Theoretical Computer Science",
+  "level": 2,
+  "priority": "important",
+  "summary": "Measuring algorithm efficiency: asymptotic notation, recurrences, amortised and probabilistic analysis of classic algorithms.",
+  "prerequisites": [
+    "ma-discrete-mathematics",
+    "cs-programming-fundamentals"
+  ],
+  "related": [
+    "ai-computational-complexity",
+    "cs-algorithms"
+  ],
+  "topics": [
+    {
+      "id": "ma-algorithm-analysis-4",
+      "name": "Asymptotic notation"
+    },
+    {
+      "id": "ma-algorithm-analysis-1",
+      "name": "Time complexity"
+    },
+    {
+      "id": "ma-algorithm-analysis-2",
+      "name": "Space complexity"
+    },
+    {
+      "id": "ma-algorithm-analysis-5",
+      "name": "Recurrences and the master theorem"
+    },
+    {
+      "id": "ma-algorithm-analysis-6",
+      "name": "Divide and conquer"
+    },
+    {
+      "id": "ma-algorithm-analysis-7",
+      "name": "Greedy algorithms and dynamic programming"
+    },
+    {
+      "id": "ma-algorithm-analysis-3",
+      "name": "Amortized analysis"
+    },
+    {
+      "id": "ma-algorithm-analysis-8",
+      "name": "Randomised algorithms and expected running time"
+    },
+    {
+      "id": "ma-algorithm-analysis-9",
+      "name": "Lower bounds for sorting and searching"
+    }
+  ]
+}

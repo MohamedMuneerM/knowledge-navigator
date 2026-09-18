@@ -1,0 +1,115 @@
+{
+  "id": "mt-nonferrous-alloys",
+  "name": "Light & Nonferrous Alloys",
+  "category": "Metals & Alloys",
+  "level": 3,
+  "priority": "important",
+  "summary": "Covers aluminium, magnesium, titanium, copper and nickel alloys: their metallurgy, heat treatment and where each is used.",
+  "prerequisites": [
+    "mt-phase-transformations",
+    "mt-plasticity-strengthening"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "mt-nonferrous-alloys-1",
+      "name": "Aluminium alloys",
+      "sub": [
+        {
+          "id": "mt-nonferrous-alloys-1-1",
+          "name": "Wrought vs cast alloys and designation system"
+        },
+        {
+          "id": "mt-nonferrous-alloys-1-2",
+          "name": "Precipitation hardening in 2xxx, 6xxx and 7xxx alloys; temper designations"
+        },
+        {
+          "id": "mt-nonferrous-alloys-1-3",
+          "name": "Aluminium-lithium alloys for aerospace"
+        },
+        {
+          "id": "mt-nonferrous-alloys-1-4",
+          "name": "Cast Al-Si alloys"
+        }
+      ]
+    },
+    {
+      "id": "mt-nonferrous-alloys-2",
+      "name": "Magnesium alloys",
+      "sub": [
+        {
+          "id": "mt-nonferrous-alloys-2-1",
+          "name": "HCP deformation and formability limits"
+        },
+        {
+          "id": "mt-nonferrous-alloys-2-2",
+          "name": "AZ, AM and rare-earth Mg alloys"
+        },
+        {
+          "id": "mt-nonferrous-alloys-2-3",
+          "name": "Corrosion challenges"
+        }
+      ]
+    },
+    {
+      "id": "mt-nonferrous-alloys-3",
+      "name": "Titanium alloys",
+      "sub": [
+        {
+          "id": "mt-nonferrous-alloys-3-1",
+          "name": "Alpha, alpha-beta and beta alloys; Ti-6Al-4V"
+        },
+        {
+          "id": "mt-nonferrous-alloys-3-2",
+          "name": "Microstructure control: lamellar, bimodal and equiaxed"
+        },
+        {
+          "id": "mt-nonferrous-alloys-3-3",
+          "name": "Titanium in airframes, engines and implants"
+        },
+        {
+          "id": "mt-nonferrous-alloys-3-4",
+          "name": "Titanium aluminides"
+        }
+      ]
+    },
+    {
+      "id": "mt-nonferrous-alloys-4",
+      "name": "Copper alloys",
+      "sub": [
+        {
+          "id": "mt-nonferrous-alloys-4-1",
+          "name": "Pure copper and conductivity"
+        },
+        {
+          "id": "mt-nonferrous-alloys-4-2",
+          "name": "Brasses, bronzes and Cu-Be"
+        },
+        {
+          "id": "mt-nonferrous-alloys-4-3",
+          "name": "Cu-Cr-Zr and GRCop alloys for rocket combustion chambers"
+        }
+      ]
+    },
+    {
+      "id": "mt-nonferrous-alloys-5",
+      "name": "Nickel and cobalt alloys (introduction; superalloys treated separately)"
+    },
+    {
+      "id": "mt-nonferrous-alloys-6",
+      "name": "Zinc, tin and lead alloys; solders and bearings"
+    },
+    {
+      "id": "mt-nonferrous-alloys-7",
+      "name": "Precious metals and their engineering uses"
+    },
+    {
+      "id": "mt-nonferrous-alloys-8",
+      "name": "Beryllium and its hazards"
+    },
+    {
+      "id": "mt-nonferrous-alloys-9",
+      "name": "Comparing specific strength and stiffness of light alloys"
+    }
+  ]
+}

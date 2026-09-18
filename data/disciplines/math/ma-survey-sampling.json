@@ -1,0 +1,58 @@
+{
+  "id": "ma-survey-sampling",
+  "name": "Survey Sampling & Data Collection",
+  "category": "Probability & Statistics",
+  "level": 3,
+  "priority": "important",
+  "summary": "How to collect data that actually represents a population: sampling designs, estimation, questionnaires and the biases that ruin conclusions.",
+  "prerequisites": [
+    "ma-inferential-statistics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-survey-sampling-1",
+      "name": "Populations, frames and sampling units"
+    },
+    {
+      "id": "ma-survey-sampling-2",
+      "name": "Simple random sampling and estimators"
+    },
+    {
+      "id": "ma-survey-sampling-3",
+      "name": "Stratified sampling and allocation"
+    },
+    {
+      "id": "ma-survey-sampling-4",
+      "name": "Cluster and multistage sampling"
+    },
+    {
+      "id": "ma-survey-sampling-5",
+      "name": "Systematic and probability-proportional-to-size sampling"
+    },
+    {
+      "id": "ma-survey-sampling-6",
+      "name": "Ratio and regression estimators"
+    },
+    {
+      "id": "ma-survey-sampling-7",
+      "name": "Design effects and variance estimation"
+    },
+    {
+      "id": "ma-survey-sampling-8",
+      "name": "Nonresponse, weighting and imputation"
+    },
+    {
+      "id": "ma-survey-sampling-9",
+      "name": "Questionnaire design and measurement error"
+    },
+    {
+      "id": "ma-survey-sampling-10",
+      "name": "Observational data, convenience samples and selection bias"
+    },
+    {
+      "id": "ma-survey-sampling-11",
+      "name": "Sample size and power planning"
+    }
+  ]
+}

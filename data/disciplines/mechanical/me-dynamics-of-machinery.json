@@ -1,0 +1,54 @@
+{
+  "id": "me-dynamics-of-machinery",
+  "name": "Dynamics of Machinery",
+  "category": "Mechanisms & Kinematics of Machinery",
+  "level": 3,
+  "priority": "important",
+  "summary": "Forces in moving machinery: dynamic force analysis, engine dynamics, balancing, flywheels and cam dynamics.",
+  "prerequisites": [
+    "me-kinematics-of-mechanisms"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "me-dynamics-of-machinery-1",
+      "name": "Dynamic force analysis of linkages (matrix method)"
+    },
+    {
+      "id": "me-dynamics-of-machinery-2",
+      "name": "Superposition and energy methods for machine force analysis"
+    },
+    {
+      "id": "me-dynamics-of-machinery-3",
+      "name": "Slider-crank engine dynamics: gas and inertia forces, crankshaft torque"
+    },
+    {
+      "id": "me-dynamics-of-machinery-4",
+      "name": "Multicylinder engine configurations and firing order"
+    },
+    {
+      "id": "me-dynamics-of-machinery-5",
+      "name": "Shaking forces and shaking moments"
+    },
+    {
+      "id": "me-dynamics-of-machinery-6",
+      "name": "Static and dynamic balancing of rotating masses"
+    },
+    {
+      "id": "me-dynamics-of-machinery-7",
+      "name": "Balancing of reciprocating machines and linkages"
+    },
+    {
+      "id": "me-dynamics-of-machinery-8",
+      "name": "Flywheel design and speed fluctuation"
+    },
+    {
+      "id": "me-dynamics-of-machinery-9",
+      "name": "Cam dynamics: follower jump and cam-follower vibration"
+    },
+    {
+      "id": "me-dynamics-of-machinery-10",
+      "name": "Governors and gyroscopic couples in machines"
+    }
+  ]
+}

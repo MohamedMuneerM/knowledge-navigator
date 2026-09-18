@@ -1,0 +1,60 @@
+{
+  "id": "ea-geographic-information-systems",
+  "name": "Geographic Information Systems (GIS)",
+  "category": "Remote Sensing, GIS & Geodesy",
+  "level": 2,
+  "priority": "core",
+  "summary": "Storing, analysing and mapping spatial data: the working toolkit of every modern Earth and environmental scientist.",
+  "prerequisites": [
+    "ea-introduction-to-earth-science"
+  ],
+  "related": [
+    "cs-information-visualization"
+  ],
+  "topics": [
+    {
+      "id": "ea-geographic-information-systems-1",
+      "name": "Spatial data models: vector and raster"
+    },
+    {
+      "id": "ea-geographic-information-systems-2",
+      "name": "Coordinate systems, datums and map projections"
+    },
+    {
+      "id": "ea-geographic-information-systems-3",
+      "name": "Data sources, georeferencing and digitising"
+    },
+    {
+      "id": "ea-geographic-information-systems-4",
+      "name": "Attribute data and spatial databases"
+    },
+    {
+      "id": "ea-geographic-information-systems-5",
+      "name": "Vector analysis: buffers, overlays and spatial joins"
+    },
+    {
+      "id": "ea-geographic-information-systems-6",
+      "name": "Raster analysis and map algebra"
+    },
+    {
+      "id": "ea-geographic-information-systems-7",
+      "name": "Digital elevation models and terrain analysis"
+    },
+    {
+      "id": "ea-geographic-information-systems-8",
+      "name": "Spatial interpolation"
+    },
+    {
+      "id": "ea-geographic-information-systems-9",
+      "name": "Cartographic design and map communication"
+    },
+    {
+      "id": "ea-geographic-information-systems-10",
+      "name": "GIS software and scripting (QGIS, ArcGIS, Python geospatial libraries)"
+    },
+    {
+      "id": "ea-geographic-information-systems-11",
+      "name": "Web mapping and open geodata"
+    }
+  ]
+}

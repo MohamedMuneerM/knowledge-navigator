@@ -1,0 +1,66 @@
+{
+  "id": "cs-software-engineering-process",
+  "name": "Software Engineering Process & Team Practice",
+  "category": "Software Engineering",
+  "level": 3,
+  "priority": "core",
+  "summary": "How teams plan, build and ship software: life-cycle models, agile methods, estimation, project and release management, and engineering culture.",
+  "prerequisites": [
+    "cs-software-construction"
+  ],
+  "related": [
+    "el-agile-devops-for-embedded",
+    "el-project-management",
+    "el-documentation"
+  ],
+  "topics": [
+    {
+      "id": "cs-software-engineering-process-1",
+      "name": "Software life-cycle models: waterfall, iterative and spiral"
+    },
+    {
+      "id": "cs-software-engineering-process-2",
+      "name": "Agile methods: Scrum, Kanban and Extreme Programming"
+    },
+    {
+      "id": "cs-software-engineering-process-3",
+      "name": "User stories, estimation and planning"
+    },
+    {
+      "id": "cs-software-engineering-process-4",
+      "name": "Teamwork, roles and communication"
+    },
+    {
+      "id": "cs-software-engineering-process-5",
+      "name": "Project management: scheduling, risk and tracking"
+    },
+    {
+      "id": "cs-software-engineering-process-6",
+      "name": "Configuration and release management"
+    },
+    {
+      "id": "cs-software-engineering-process-7",
+      "name": "Documentation practices"
+    },
+    {
+      "id": "cs-software-engineering-process-8",
+      "name": "Software metrics and process improvement"
+    },
+    {
+      "id": "cs-software-engineering-process-9",
+      "name": "Code ownership, reviews and engineering culture"
+    },
+    {
+      "id": "cs-software-engineering-process-10",
+      "name": "Open-source development processes"
+    },
+    {
+      "id": "cs-software-engineering-process-11",
+      "name": "Software economics and technical debt"
+    },
+    {
+      "id": "cs-software-engineering-process-12",
+      "name": "Capstone team project practices"
+    }
+  ]
+}

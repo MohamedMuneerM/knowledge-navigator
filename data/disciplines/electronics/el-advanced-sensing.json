@@ -1,0 +1,39 @@
+{
+  "id": "el-advanced-sensing",
+  "name": "Advanced Sensing",
+  "category": "Emerging & Advanced Topics",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Frontier sensing: electronic noses, quantum sensors, hyperspectral and radar imaging, the tactile internet and multimodal fusion.",
+  "prerequisites": [
+    "el-sensor-fusion",
+    "el-imaging-vision-sensors"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-advanced-sensing-1",
+      "name": "Chemical sensing arrays (electronic nose)"
+    },
+    {
+      "id": "el-advanced-sensing-2",
+      "name": "Quantum sensors"
+    },
+    {
+      "id": "el-advanced-sensing-3",
+      "name": "Hyperspectral imaging"
+    },
+    {
+      "id": "el-advanced-sensing-4",
+      "name": "Radar imaging"
+    },
+    {
+      "id": "el-advanced-sensing-5",
+      "name": "Tactile internet and haptics"
+    },
+    {
+      "id": "el-advanced-sensing-6",
+      "name": "Multi-modal sensor fusion"
+    }
+  ]
+}

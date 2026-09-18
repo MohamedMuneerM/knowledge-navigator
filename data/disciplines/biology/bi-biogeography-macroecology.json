@@ -1,0 +1,44 @@
+{
+  "id": "bi-biogeography-macroecology",
+  "name": "Biogeography & Macroecology",
+  "category": "Ecology & Environment",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Why species live where they do, and the large-scale patterns in biodiversity across the globe and through time.",
+  "prerequisites": [
+    "bi-community-ecology",
+    "bi-macroevolution-history-of-life",
+    "ea-plate-tectonics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-biogeography-macroecology-1",
+      "name": "Historical biogeography: plate tectonics, vicariance and dispersal"
+    },
+    {
+      "id": "bi-biogeography-macroecology-2",
+      "name": "Biogeographic realms and regions"
+    },
+    {
+      "id": "bi-biogeography-macroecology-3",
+      "name": "The latitudinal diversity gradient"
+    },
+    {
+      "id": "bi-biogeography-macroecology-4",
+      "name": "Species-area relationships and scaling laws in ecology"
+    },
+    {
+      "id": "bi-biogeography-macroecology-5",
+      "name": "Species distribution modelling"
+    },
+    {
+      "id": "bi-biogeography-macroecology-6",
+      "name": "Phylogeography"
+    },
+    {
+      "id": "bi-biogeography-macroecology-7",
+      "name": "Metabolic theory of ecology"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "bi-origin-of-life",
+  "name": "Origin of Life",
+  "category": "Astrobiology & Space Biology",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "How life might have started from chemistry: prebiotic synthesis, the RNA world, protocells, early metabolism and the last universal common ancestor.",
+  "prerequisites": [
+    "bi-biochemistry",
+    "bi-molecular-biology",
+    "bi-macroevolution-history-of-life"
+  ],
+  "related": [
+    "ea-historical-geology",
+    "ea-geobiology",
+    "ch-astrochemistry",
+    "ch-prebiotic-systems-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "bi-origin-of-life-1",
+      "name": "Defining life and the problem of its origin"
+    },
+    {
+      "id": "bi-origin-of-life-2",
+      "name": "The early Earth environment"
+    },
+    {
+      "id": "bi-origin-of-life-3",
+      "name": "Prebiotic chemistry: Miller-Urey and modern syntheses of nucleotides and amino acids"
+    },
+    {
+      "id": "bi-origin-of-life-4",
+      "name": "Delivery of organics from space: meteorites and comets"
+    },
+    {
+      "id": "bi-origin-of-life-5",
+      "name": "The RNA world hypothesis and self-replicating molecules"
+    },
+    {
+      "id": "bi-origin-of-life-6",
+      "name": "Metabolism-first and hydrothermal vent scenarios"
+    },
+    {
+      "id": "bi-origin-of-life-7",
+      "name": "Protocells, compartments and lipid vesicles"
+    },
+    {
+      "id": "bi-origin-of-life-8",
+      "name": "Chirality and homochirality"
+    },
+    {
+      "id": "bi-origin-of-life-9",
+      "name": "The origin of the genetic code and translation"
+    },
+    {
+      "id": "bi-origin-of-life-10",
+      "name": "LUCA and the earliest branches of the tree of life"
+    },
+    {
+      "id": "bi-origin-of-life-11",
+      "name": "Minimal life, artificial life and synthetic protocells"
+    }
+  ]
+}

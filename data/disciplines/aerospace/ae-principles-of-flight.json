@@ -1,0 +1,71 @@
+{
+  "id": "ae-principles-of-flight",
+  "name": "Principles of Flight: How Aircraft Fly",
+  "category": "Introduction to Aerospace",
+  "level": 1,
+  "priority": "core",
+  "summary": "Explains lift, drag, thrust and weight, how wings and controls work, and how an airplane climbs, turns and lands.",
+  "prerequisites": [
+    "ae-introduction-to-aerospace-engineering",
+    "ph-introductory-mechanics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-principles-of-flight-1",
+      "name": "The four forces: lift, weight, thrust and drag"
+    },
+    {
+      "id": "ae-principles-of-flight-2",
+      "name": "Airflow, pressure and Bernoulli's principle, and the common lift misconceptions"
+    },
+    {
+      "id": "ae-principles-of-flight-3",
+      "name": "Airfoils: camber, angle of attack, lift curve and stall"
+    },
+    {
+      "id": "ae-principles-of-flight-4",
+      "name": "Wing geometry: span, chord, aspect ratio, sweep and wing area"
+    },
+    {
+      "id": "ae-principles-of-flight-5",
+      "name": "Drag types: skin friction, form, induced and wave drag"
+    },
+    {
+      "id": "ae-principles-of-flight-6",
+      "name": "Aircraft anatomy: fuselage, wing, empennage, landing gear, engines"
+    },
+    {
+      "id": "ae-principles-of-flight-7",
+      "name": "Control surfaces: ailerons, elevator, rudder, flaps, slats and spoilers"
+    },
+    {
+      "id": "ae-principles-of-flight-8",
+      "name": "Axes of motion (roll, pitch, yaw) and the idea of stability"
+    },
+    {
+      "id": "ae-principles-of-flight-9",
+      "name": "Straight and level flight, climb, glide, turns and load factor"
+    },
+    {
+      "id": "ae-principles-of-flight-10",
+      "name": "Takeoff and landing basics"
+    },
+    {
+      "id": "ae-principles-of-flight-11",
+      "name": "Flight instruments and airspeed (indicated, true, ground speed)"
+    },
+    {
+      "id": "ae-principles-of-flight-12",
+      "name": "Lighter-than-air flight: balloons and airships"
+    },
+    {
+      "id": "ae-principles-of-flight-13",
+      "name": "Helicopters and drones: how rotors produce lift"
+    },
+    {
+      "id": "ae-principles-of-flight-14",
+      "name": "Speed regimes: subsonic, transonic, supersonic and hypersonic flight"
+    }
+  ]
+}

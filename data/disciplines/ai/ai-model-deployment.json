@@ -1,0 +1,82 @@
+{
+  "id": "ai-model-deployment",
+  "name": "Model Deployment",
+  "category": "MLOps & ML Engineering",
+  "level": 3,
+  "priority": "important",
+  "summary": "Putting models into production: serving frameworks, APIs, packaging, containers, serverless and edge deployment, batch versus online inference.",
+  "prerequisites": [
+    "ai-ml-lifecycle-management"
+  ],
+  "related": [
+    "ai-llm-application-engineering"
+  ],
+  "topics": [
+    {
+      "id": "ai-model-deployment-1",
+      "name": "Model Serving",
+      "sub": [
+        {
+          "id": "ai-model-deployment-1-1",
+          "name": "TensorFlow Serving"
+        },
+        {
+          "id": "ai-model-deployment-1-2",
+          "name": "TorchServe"
+        },
+        {
+          "id": "ai-model-deployment-1-3",
+          "name": "Triton Inference Server"
+        }
+      ]
+    },
+    {
+      "id": "ai-model-deployment-2",
+      "name": "API Development",
+      "sub": [
+        {
+          "id": "ai-model-deployment-2-1",
+          "name": "REST APIs"
+        },
+        {
+          "id": "ai-model-deployment-2-2",
+          "name": "gRPC"
+        },
+        {
+          "id": "ai-model-deployment-2-3",
+          "name": "FastAPI"
+        }
+      ]
+    },
+    {
+      "id": "ai-model-deployment-3",
+      "name": "Containerization",
+      "sub": [
+        {
+          "id": "ai-model-deployment-3-1",
+          "name": "Docker"
+        },
+        {
+          "id": "ai-model-deployment-3-2",
+          "name": "Kubernetes"
+        }
+      ]
+    },
+    {
+      "id": "ai-model-deployment-4",
+      "name": "Serverless ML"
+    },
+    {
+      "id": "ai-model-deployment-5",
+      "name": "Edge Deployment"
+    },
+    {
+      "id": "ai-model-deployment-6",
+      "name": "Batch versus online inference"
+    },
+    {
+      "id": "ai-model-deployment-7",
+      "name": "Model packaging and serialization (ONNX, TorchScript)"
+    }
+  ]
+}

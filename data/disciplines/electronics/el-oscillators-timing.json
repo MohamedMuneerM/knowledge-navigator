@@ -1,0 +1,42 @@
+{
+  "id": "el-oscillators-timing",
+  "name": "Oscillators & Timing",
+  "category": "Analog Electronics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Generating stable signals and clocks: RC, LC and crystal oscillators, VCOs, phase-locked loops, synthesizers, jitter and phase noise.",
+  "prerequisites": [
+    "el-amplifier-design"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-oscillators-timing-1",
+      "name": "RC oscillators, LC oscillators"
+    },
+    {
+      "id": "el-oscillators-timing-2",
+      "name": "Crystal oscillators (Pierce, Colpitts, Hartley)"
+    },
+    {
+      "id": "el-oscillators-timing-3",
+      "name": "Voltage-controlled oscillators (VCO)"
+    },
+    {
+      "id": "el-oscillators-timing-4",
+      "name": "Phase-locked loops (PLL)"
+    },
+    {
+      "id": "el-oscillators-timing-5",
+      "name": "Frequency synthesizers"
+    },
+    {
+      "id": "el-oscillators-timing-6",
+      "name": "Clock generation and distribution"
+    },
+    {
+      "id": "el-oscillators-timing-7",
+      "name": "Timing jitter and phase noise"
+    }
+  ]
+}

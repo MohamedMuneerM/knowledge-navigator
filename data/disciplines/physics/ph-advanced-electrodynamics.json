@@ -1,0 +1,67 @@
+{
+  "id": "ph-advanced-electrodynamics",
+  "name": "Advanced Electrodynamics",
+  "category": "Electromagnetism",
+  "level": 4,
+  "priority": "important",
+  "summary": "Graduate-level (Jackson-style) electrodynamics: boundary-value problems, radiation and the covariant theory.",
+  "prerequisites": [
+    "ph-classical-electromagnetism",
+    "ph-special-relativity",
+    "ph-mathematical-physics"
+  ],
+  "related": [
+    "ma-electromagnetism",
+    "el-electromagnetics"
+  ],
+  "topics": [
+    {
+      "id": "ph-advanced-electrodynamics-1",
+      "name": "Boundary-value problems and Green's functions in electrostatics"
+    },
+    {
+      "id": "ph-advanced-electrodynamics-2",
+      "name": "Multipole expansions and spherical harmonics"
+    },
+    {
+      "id": "ph-advanced-electrodynamics-3",
+      "name": "Macroscopic media, dispersion and the Kramers-Kronig relations"
+    },
+    {
+      "id": "ph-advanced-electrodynamics-4",
+      "name": "Plane waves in conductors and dielectrics"
+    },
+    {
+      "id": "ph-advanced-electrodynamics-5",
+      "name": "Waveguides and resonant cavities"
+    },
+    {
+      "id": "ph-advanced-electrodynamics-6",
+      "name": "Radiating systems and multipole radiation"
+    },
+    {
+      "id": "ph-advanced-electrodynamics-7",
+      "name": "Scattering and diffraction of electromagnetic waves"
+    },
+    {
+      "id": "ph-advanced-electrodynamics-8",
+      "name": "Covariant formulation: field tensor and four-potential"
+    },
+    {
+      "id": "ph-advanced-electrodynamics-9",
+      "name": "Lagrangian and Hamiltonian formulation of charges and fields"
+    },
+    {
+      "id": "ph-advanced-electrodynamics-10",
+      "name": "Radiation by moving charges: Lienard-Wiechert potentials and the Larmor formula"
+    },
+    {
+      "id": "ph-advanced-electrodynamics-11",
+      "name": "Synchrotron radiation, bremsstrahlung and Cherenkov radiation"
+    },
+    {
+      "id": "ph-advanced-electrodynamics-12",
+      "name": "Radiation reaction and the self-force problem"
+    }
+  ]
+}

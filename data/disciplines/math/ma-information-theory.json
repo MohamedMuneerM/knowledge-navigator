@@ -1,0 +1,56 @@
+{
+  "id": "ma-information-theory",
+  "name": "Information Theory",
+  "category": "Theoretical Computer Science",
+  "level": 3,
+  "priority": "important",
+  "summary": "Quantifying information: entropy, mutual information, source coding, channel capacity and data compression.",
+  "prerequisites": [
+    "ma-probability-theory"
+  ],
+  "related": [
+    "ai-information-theory"
+  ],
+  "topics": [
+    {
+      "id": "ma-information-theory-1",
+      "name": "Entropy"
+    },
+    {
+      "id": "ma-information-theory-5",
+      "name": "Joint and conditional entropy; mutual information"
+    },
+    {
+      "id": "ma-information-theory-6",
+      "name": "Kullback-Leibler divergence"
+    },
+    {
+      "id": "ma-information-theory-3",
+      "name": "Source coding"
+    },
+    {
+      "id": "ma-information-theory-7",
+      "name": "Huffman and arithmetic coding"
+    },
+    {
+      "id": "ma-information-theory-4",
+      "name": "Data compression"
+    },
+    {
+      "id": "ma-information-theory-2",
+      "name": "Channel capacity"
+    },
+    {
+      "id": "ma-information-theory-8",
+      "name": "Channel coding theorem"
+    },
+    {
+      "id": "ma-information-theory-9",
+      "name": "Rate-distortion theory"
+    },
+    {
+      "id": "ma-information-theory-10",
+      "name": "Gaussian channels"
+    }
+  ]
+}

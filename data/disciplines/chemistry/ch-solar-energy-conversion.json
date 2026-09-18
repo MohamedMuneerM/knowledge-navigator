@@ -1,0 +1,52 @@
+{
+  "id": "ch-solar-energy-conversion",
+  "name": "Solar Energy Conversion & Solar Fuels",
+  "category": "Electrochemistry & Energy",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Chemistry of photovoltaic, photoelectrochemical and photocatalytic systems that turn sunlight into electricity and fuels.",
+  "prerequisites": [
+    "ch-photochemistry",
+    "ch-electrochemistry",
+    "ch-solid-state-chemistry"
+  ],
+  "related": [
+    "ph-energy-physics",
+    "el-energy-harvesting",
+    "mt-photovoltaic-materials"
+  ],
+  "topics": [
+    {
+      "id": "ch-solar-energy-conversion-1",
+      "name": "The solar spectrum and thermodynamic limits (Shockley-Queisser)"
+    },
+    {
+      "id": "ch-solar-energy-conversion-2",
+      "name": "Semiconductor photovoltaics chemistry: silicon, CdTe and CIGS"
+    },
+    {
+      "id": "ch-solar-energy-conversion-3",
+      "name": "Dye-sensitized and organic solar cells"
+    },
+    {
+      "id": "ch-solar-energy-conversion-4",
+      "name": "Perovskite solar cells: chemistry and stability"
+    },
+    {
+      "id": "ch-solar-energy-conversion-5",
+      "name": "Photoelectrochemical water splitting"
+    },
+    {
+      "id": "ch-solar-energy-conversion-6",
+      "name": "Semiconductor photocatalysis"
+    },
+    {
+      "id": "ch-solar-energy-conversion-7",
+      "name": "Artificial photosynthesis and molecular catalysts"
+    },
+    {
+      "id": "ch-solar-energy-conversion-8",
+      "name": "Solar thermochemical fuel production"
+    }
+  ]
+}

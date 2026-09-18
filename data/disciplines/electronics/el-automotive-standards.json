@@ -1,0 +1,39 @@
+{
+  "id": "el-automotive-standards",
+  "name": "Automotive Standards",
+  "category": "Automotive, Aerospace & Defense Systems",
+  "level": 3,
+  "priority": "important",
+  "summary": "The standards automotive electronics is built to: AUTOSAR, ISO 26262 and ASILs, ASPICE, MISRA and ISO/SAE 21434.",
+  "prerequisites": [
+    "el-vehicle-electronics-architecture",
+    "el-safety-standards"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-automotive-standards-1",
+      "name": "AUTOSAR (Classic and Adaptive)"
+    },
+    {
+      "id": "el-automotive-standards-2",
+      "name": "ISO 26262 (Functional Safety)"
+    },
+    {
+      "id": "el-automotive-standards-3",
+      "name": "ASIL levels (A, B, C, D)"
+    },
+    {
+      "id": "el-automotive-standards-4",
+      "name": "ASPICE (Automotive SPICE)"
+    },
+    {
+      "id": "el-automotive-standards-5",
+      "name": "MISRA C/C++ coding standards"
+    },
+    {
+      "id": "el-automotive-standards-6",
+      "name": "Cybersecurity (ISO/SAE 21434)"
+    }
+  ]
+}

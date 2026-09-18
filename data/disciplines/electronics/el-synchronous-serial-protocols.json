@@ -1,0 +1,46 @@
+{
+  "id": "el-synchronous-serial-protocols",
+  "name": "Synchronous Serial Protocols",
+  "category": "Communication Protocols & Connectivity",
+  "level": 2,
+  "priority": "core",
+  "summary": "The on-board buses that connect chips: SPI, QSPI, I2C and Microwire.",
+  "prerequisites": [
+    "el-embedded-systems-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-synchronous-serial-protocols-1",
+      "name": "SPI (Serial Peripheral Interface) - Master-slave, MISO/MOSI/SCK/SS"
+    },
+    {
+      "id": "el-synchronous-serial-protocols-2",
+      "name": "I²C / I2C / TWI (Two-Wire Interface) - Multi-master, addressing"
+    },
+    {
+      "id": "el-synchronous-serial-protocols-3",
+      "name": "Microwire"
+    },
+    {
+      "id": "el-synchronous-serial-protocols-4",
+      "name": "QSPI (Quad SPI)"
+    },
+    {
+      "id": "el-synchronous-serial-protocols-5",
+      "name": "SPI modes (CPOL/CPHA), chip selects and daisy-chaining"
+    },
+    {
+      "id": "el-synchronous-serial-protocols-6",
+      "name": "I2C electrical design: pull-ups, bus capacitance and speed modes"
+    },
+    {
+      "id": "el-synchronous-serial-protocols-7",
+      "name": "I2C clock stretching, arbitration and bus recovery"
+    },
+    {
+      "id": "el-synchronous-serial-protocols-8",
+      "name": "SMBus, PMBus and I3C"
+    }
+  ]
+}

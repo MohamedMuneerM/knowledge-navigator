@@ -1,0 +1,54 @@
+{
+  "id": "el-pm-special-machines",
+  "name": "Permanent-Magnet & Special Machines",
+  "category": "Electrical Machines & Power Systems",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Machine theory and design of BLDC, PMSM, switched-reluctance and other special machines used in EVs, drones and robots.",
+  "prerequisites": [
+    "el-electrical-machines"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-pm-special-machines-1",
+      "name": "Permanent-magnet materials and magnetic design"
+    },
+    {
+      "id": "el-pm-special-machines-2",
+      "name": "BLDC motors: trapezoidal back-EMF and construction"
+    },
+    {
+      "id": "el-pm-special-machines-3",
+      "name": "PMSM: sinusoidal back-EMF, dq model, surface vs interior magnets"
+    },
+    {
+      "id": "el-pm-special-machines-4",
+      "name": "Switched-reluctance machines"
+    },
+    {
+      "id": "el-pm-special-machines-5",
+      "name": "Stepper and synchronous-reluctance machines"
+    },
+    {
+      "id": "el-pm-special-machines-6",
+      "name": "Axial-flux and in-wheel machines"
+    },
+    {
+      "id": "el-pm-special-machines-7",
+      "name": "Machine design: winding layouts, slot/pole combinations, cogging torque"
+    },
+    {
+      "id": "el-pm-special-machines-8",
+      "name": "Finite-element analysis of machines"
+    },
+    {
+      "id": "el-pm-special-machines-9",
+      "name": "Thermal design of machines"
+    },
+    {
+      "id": "el-pm-special-machines-10",
+      "name": "Linear motors"
+    }
+  ]
+}

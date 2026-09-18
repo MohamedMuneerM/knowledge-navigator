@@ -1,0 +1,35 @@
+{
+  "id": "ai-world-models-simulation",
+  "name": "World Models & Simulation",
+  "category": "Emerging & Frontier Fields",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Learned models of how the world evolves, video prediction, physics simulation, embodied AI environments and synthetic data.",
+  "prerequisites": [
+    "ai-advanced-rl-topics",
+    "ai-generative-models"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-world-models-simulation-1",
+      "name": "Learned World Models"
+    },
+    {
+      "id": "ai-world-models-simulation-2",
+      "name": "Video Prediction"
+    },
+    {
+      "id": "ai-world-models-simulation-3",
+      "name": "Physical Simulation"
+    },
+    {
+      "id": "ai-world-models-simulation-4",
+      "name": "Embodied AI Environments"
+    },
+    {
+      "id": "ai-world-models-simulation-5",
+      "name": "Synthetic Data Generation"
+    }
+  ]
+}

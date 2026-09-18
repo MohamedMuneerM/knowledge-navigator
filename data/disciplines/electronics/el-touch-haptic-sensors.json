@@ -1,0 +1,38 @@
+{
+  "id": "el-touch-haptic-sensors",
+  "name": "Touch & Haptic Sensors",
+  "category": "Sensors, Transducers & Actuators",
+  "level": 2,
+  "priority": "advanced",
+  "summary": "Touch, gesture and fingerprint sensing and the haptic actuators that give feedback.",
+  "prerequisites": [
+    "el-intro-microcontrollers"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-touch-haptic-sensors-1",
+      "name": "Capacitive touch sensors"
+    },
+    {
+      "id": "el-touch-haptic-sensors-2",
+      "name": "Resistive touch screens"
+    },
+    {
+      "id": "el-touch-haptic-sensors-3",
+      "name": "Force-sensing touch"
+    },
+    {
+      "id": "el-touch-haptic-sensors-4",
+      "name": "Gesture recognition sensors"
+    },
+    {
+      "id": "el-touch-haptic-sensors-5",
+      "name": "Fingerprint sensors"
+    },
+    {
+      "id": "el-touch-haptic-sensors-6",
+      "name": "Haptic feedback actuators"
+    }
+  ]
+}

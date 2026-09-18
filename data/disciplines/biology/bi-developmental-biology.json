@@ -1,0 +1,76 @@
+{
+  "id": "bi-developmental-biology",
+  "name": "Developmental Biology",
+  "category": "Developmental Biology",
+  "level": 3,
+  "priority": "important",
+  "summary": "How a single fertilised egg becomes a complex organism: cell fate, pattern formation, morphogenesis and organ formation.",
+  "prerequisites": [
+    "bi-cell-signaling",
+    "bi-gene-regulation-epigenetics",
+    "bi-genetics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-developmental-biology-1",
+      "name": "Model organisms of development: fly, frog, chick, zebrafish, mouse, worm"
+    },
+    {
+      "id": "bi-developmental-biology-2",
+      "name": "Gametogenesis and fertilisation"
+    },
+    {
+      "id": "bi-developmental-biology-3",
+      "name": "Cleavage and early embryo organisation"
+    },
+    {
+      "id": "bi-developmental-biology-4",
+      "name": "Gastrulation and the three germ layers"
+    },
+    {
+      "id": "bi-developmental-biology-5",
+      "name": "Axis specification and maternal determinants"
+    },
+    {
+      "id": "bi-developmental-biology-6",
+      "name": "Cell fate: specification, determination and differentiation"
+    },
+    {
+      "id": "bi-developmental-biology-7",
+      "name": "Induction, competence and morphogen gradients"
+    },
+    {
+      "id": "bi-developmental-biology-8",
+      "name": "Drosophila segmentation and Hox genes"
+    },
+    {
+      "id": "bi-developmental-biology-9",
+      "name": "Vertebrate neural induction and neural tube formation"
+    },
+    {
+      "id": "bi-developmental-biology-10",
+      "name": "Somitogenesis and mesoderm derivatives"
+    },
+    {
+      "id": "bi-developmental-biology-11",
+      "name": "Limb development"
+    },
+    {
+      "id": "bi-developmental-biology-12",
+      "name": "Organogenesis: heart, kidney, gut"
+    },
+    {
+      "id": "bi-developmental-biology-13",
+      "name": "Morphogenesis: cell migration, shape change and tissue folding"
+    },
+    {
+      "id": "bi-developmental-biology-14",
+      "name": "Metamorphosis, growth and developmental timing"
+    },
+    {
+      "id": "bi-developmental-biology-15",
+      "name": "Birth defects and teratogens"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "ai-llm-fine-tuning",
+  "name": "LLM Fine-Tuning & Post-Training",
+  "category": "Large Language Models & LLM Engineering",
+  "level": 4,
+  "priority": "important",
+  "summary": "Adapting pretrained language models with supervised fine-tuning, parameter-efficient methods and preference or reinforcement-learning-based post-training.",
+  "prerequisites": [
+    "ai-large-language-models-llms",
+    "ai-llm-evaluation"
+  ],
+  "related": [
+    "ai-large-language-models-llms"
+  ],
+  "topics": [
+    {
+      "id": "ai-llm-fine-tuning-1",
+      "name": "When to fine-tune versus prompt or retrieve"
+    },
+    {
+      "id": "ai-llm-fine-tuning-2",
+      "name": "Supervised fine-tuning and instruction tuning: data formats and chat templates"
+    },
+    {
+      "id": "ai-llm-fine-tuning-3",
+      "name": "Dataset curation, synthetic data and data quality"
+    },
+    {
+      "id": "ai-llm-fine-tuning-4",
+      "name": "Full fine-tuning versus parameter-efficient fine-tuning"
+    },
+    {
+      "id": "ai-llm-fine-tuning-5",
+      "name": "LoRA, QLoRA and adapters in practice"
+    },
+    {
+      "id": "ai-llm-fine-tuning-6",
+      "name": "Training infrastructure for fine-tuning: mixed precision, gradient checkpointing, FSDP"
+    },
+    {
+      "id": "ai-llm-fine-tuning-7",
+      "name": "Reward models and RLHF with PPO"
+    },
+    {
+      "id": "ai-llm-fine-tuning-8",
+      "name": "Direct preference methods: DPO, IPO, KTO"
+    },
+    {
+      "id": "ai-llm-fine-tuning-9",
+      "name": "Reinforcement learning with verifiable rewards for reasoning (GRPO)"
+    },
+    {
+      "id": "ai-llm-fine-tuning-10",
+      "name": "Knowledge distillation into smaller models"
+    },
+    {
+      "id": "ai-llm-fine-tuning-11",
+      "name": "Continued pretraining and domain adaptation"
+    },
+    {
+      "id": "ai-llm-fine-tuning-12",
+      "name": "Catastrophic forgetting and regression testing"
+    },
+    {
+      "id": "ai-llm-fine-tuning-13",
+      "name": "Model merging and multi-LoRA serving"
+    }
+  ]
+}

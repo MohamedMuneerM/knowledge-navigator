@@ -1,0 +1,51 @@
+{
+  "id": "me-servo-hydraulics-advanced-fluid-power",
+  "name": "Advanced Fluid Power & Servo-Hydraulic Actuation",
+  "category": "Fluid Power",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "High-performance, closed-loop and compact fluid-power actuation, including electro-hydrostatic actuators and hydraulics for legged robots and exoskeletons.",
+  "prerequisites": [
+    "me-hydraulics-pneumatics",
+    "me-feedback-control"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "me-servo-hydraulics-advanced-fluid-power-1",
+      "name": "Proportional and servo valves: construction and flow-pressure characteristics"
+    },
+    {
+      "id": "me-servo-hydraulics-advanced-fluid-power-2",
+      "name": "Modeling valve-controlled cylinders and motors: hydraulic stiffness and natural frequency"
+    },
+    {
+      "id": "me-servo-hydraulics-advanced-fluid-power-3",
+      "name": "Pump-controlled systems and electro-hydrostatic actuators (EHA)"
+    },
+    {
+      "id": "me-servo-hydraulics-advanced-fluid-power-4",
+      "name": "Closed-loop position, velocity and force control of hydraulic actuators"
+    },
+    {
+      "id": "me-servo-hydraulics-advanced-fluid-power-5",
+      "name": "Load-sensing, energy-efficient and digital hydraulics"
+    },
+    {
+      "id": "me-servo-hydraulics-advanced-fluid-power-6",
+      "name": "Compact high-pressure hydraulics for legged robots and exoskeletons (integrated and 3D-printed manifolds)"
+    },
+    {
+      "id": "me-servo-hydraulics-advanced-fluid-power-7",
+      "name": "Pneumatic servo control and pneumatic artificial muscles (McKibben)"
+    },
+    {
+      "id": "me-servo-hydraulics-advanced-fluid-power-8",
+      "name": "Hydraulic power units: miniaturisation, power density and thermal limits"
+    },
+    {
+      "id": "me-servo-hydraulics-advanced-fluid-power-9",
+      "name": "Simulation of fluid power systems (Simscape Fluids, Amesim)"
+    }
+  ]
+}

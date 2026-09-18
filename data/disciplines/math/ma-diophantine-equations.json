@@ -1,0 +1,42 @@
+{
+  "id": "ma-diophantine-equations",
+  "name": "Diophantine Equations",
+  "category": "Number Theory",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Finding integer and rational solutions of polynomial equations, from linear and Pell equations to Fermat's Last Theorem.",
+  "prerequisites": [
+    "ma-elementary-number-theory"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-diophantine-equations-1",
+      "name": "Linear Diophantine equations"
+    },
+    {
+      "id": "ma-diophantine-equations-4",
+      "name": "Pythagorean triples"
+    },
+    {
+      "id": "ma-diophantine-equations-2",
+      "name": "Pell's equation"
+    },
+    {
+      "id": "ma-diophantine-equations-5",
+      "name": "Sums of squares"
+    },
+    {
+      "id": "ma-diophantine-equations-6",
+      "name": "Method of descent"
+    },
+    {
+      "id": "ma-diophantine-equations-3",
+      "name": "Fermat's Last Theorem"
+    },
+    {
+      "id": "ma-diophantine-equations-7",
+      "name": "Thue equations and finiteness results"
+    }
+  ]
+}

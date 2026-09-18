@@ -1,0 +1,76 @@
+{
+  "id": "ai-ensemble-methods",
+  "name": "Ensemble Methods",
+  "category": "Machine Learning Foundations",
+  "level": 3,
+  "priority": "important",
+  "summary": "Combining many models into stronger ones with bagging, random forests, boosting (XGBoost, LightGBM, CatBoost), stacking and voting.",
+  "prerequisites": [
+    "ai-types-of-machine-learning"
+  ],
+  "related": [
+    "el-ml-algorithms-for-resource-constrained-devices"
+  ],
+  "topics": [
+    {
+      "id": "ai-ensemble-methods-1",
+      "name": "Bagging",
+      "sub": [
+        {
+          "id": "ai-ensemble-methods-1-1",
+          "name": "Bootstrap aggregating"
+        },
+        {
+          "id": "ai-ensemble-methods-1-2",
+          "name": "Random Forests"
+        }
+      ]
+    },
+    {
+      "id": "ai-ensemble-methods-2",
+      "name": "Boosting",
+      "sub": [
+        {
+          "id": "ai-ensemble-methods-2-1",
+          "name": "AdaBoost"
+        },
+        {
+          "id": "ai-ensemble-methods-2-2",
+          "name": "Gradient Boosting"
+        },
+        {
+          "id": "ai-ensemble-methods-2-3",
+          "name": "XGBoost"
+        },
+        {
+          "id": "ai-ensemble-methods-2-4",
+          "name": "LightGBM"
+        },
+        {
+          "id": "ai-ensemble-methods-2-5",
+          "name": "CatBoost"
+        }
+      ]
+    },
+    {
+      "id": "ai-ensemble-methods-3",
+      "name": "Stacking"
+    },
+    {
+      "id": "ai-ensemble-methods-4",
+      "name": "Blending"
+    },
+    {
+      "id": "ai-ensemble-methods-5",
+      "name": "Voting Classifiers"
+    },
+    {
+      "id": "ai-ensemble-methods-6",
+      "name": "Why ensembles work: bias-variance and diversity"
+    },
+    {
+      "id": "ai-ensemble-methods-7",
+      "name": "Out-of-bag estimation and feature importance"
+    }
+  ]
+}

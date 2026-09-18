@@ -1,0 +1,59 @@
+{
+  "id": "ai-vision-language-models",
+  "name": "Vision-Language Models",
+  "category": "Multimodal AI",
+  "level": 4,
+  "priority": "important",
+  "summary": "Models that connect images and text, such as CLIP, BLIP, Flamingo and LLaVA, for captioning, visual question answering and multimodal chat.",
+  "prerequisites": [
+    "ai-core-vision-tasks",
+    "ai-large-language-models-llms"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-vision-language-models-1",
+      "name": "Image Captioning"
+    },
+    {
+      "id": "ai-vision-language-models-2",
+      "name": "Visual Question Answering (VQA)"
+    },
+    {
+      "id": "ai-vision-language-models-9",
+      "name": "Contrastive image-text pretraining"
+    },
+    {
+      "id": "ai-vision-language-models-3",
+      "name": "CLIP and variants"
+    },
+    {
+      "id": "ai-vision-language-models-4",
+      "name": "BLIP, BLIP-2"
+    },
+    {
+      "id": "ai-vision-language-models-5",
+      "name": "Flamingo"
+    },
+    {
+      "id": "ai-vision-language-models-6",
+      "name": "LLaVA"
+    },
+    {
+      "id": "ai-vision-language-models-7",
+      "name": "GPT-4V"
+    },
+    {
+      "id": "ai-vision-language-models-8",
+      "name": "Gemini"
+    },
+    {
+      "id": "ai-vision-language-models-10",
+      "name": "Visual instruction tuning"
+    },
+    {
+      "id": "ai-vision-language-models-11",
+      "name": "Evaluation benchmarks for vision-language models"
+    }
+  ]
+}

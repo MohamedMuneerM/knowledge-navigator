@@ -1,0 +1,40 @@
+{
+  "id": "el-debug-interfaces",
+  "name": "Debug Interfaces",
+  "category": "Microcontrollers, Processors & Architectures",
+  "level": 2,
+  "priority": "important",
+  "summary": "The hardware debug ports and architectures on processors: JTAG, SWD, BDM, ETM trace and ARM CoreSight.",
+  "prerequisites": [
+    "el-embedded-systems-fundamentals"
+  ],
+  "related": [
+    "el-hardware-debugging"
+  ],
+  "topics": [
+    {
+      "id": "el-debug-interfaces-1",
+      "name": "JTAG (Joint Test Action Group)"
+    },
+    {
+      "id": "el-debug-interfaces-2",
+      "name": "SWD (Serial Wire Debug)"
+    },
+    {
+      "id": "el-debug-interfaces-3",
+      "name": "BDM (Background Debug Mode)"
+    },
+    {
+      "id": "el-debug-interfaces-4",
+      "name": "ETM (Embedded Trace Macrocell)"
+    },
+    {
+      "id": "el-debug-interfaces-5",
+      "name": "CoreSight debug architecture"
+    },
+    {
+      "id": "el-debug-interfaces-6",
+      "name": "On-chip debugging features"
+    }
+  ]
+}

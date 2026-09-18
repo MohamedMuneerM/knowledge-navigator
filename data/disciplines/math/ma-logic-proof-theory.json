@@ -1,0 +1,58 @@
+{
+  "id": "ma-logic-proof-theory",
+  "name": "Logic & Proof Theory",
+  "category": "Foundations & Mathematical Logic",
+  "level": 3,
+  "priority": "important",
+  "summary": "Mathematical logic: propositional and first-order logic, formal proof systems, completeness and the incompleteness theorems.",
+  "prerequisites": [
+    "ma-introduction-to-proofs"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-logic-proof-theory-1",
+      "name": "Mathematical logic"
+    },
+    {
+      "id": "ma-logic-proof-theory-6",
+      "name": "Propositional logic: syntax, semantics and completeness"
+    },
+    {
+      "id": "ma-logic-proof-theory-7",
+      "name": "First-order logic: languages, structures and satisfaction"
+    },
+    {
+      "id": "ma-logic-proof-theory-2",
+      "name": "Formal logic systems"
+    },
+    {
+      "id": "ma-logic-proof-theory-8",
+      "name": "Natural deduction and sequent calculus"
+    },
+    {
+      "id": "ma-logic-proof-theory-9",
+      "name": "Goedel's completeness theorem"
+    },
+    {
+      "id": "ma-logic-proof-theory-4",
+      "name": "Axiomatic systems"
+    },
+    {
+      "id": "ma-logic-proof-theory-10",
+      "name": "Peano arithmetic and Goedel's incompleteness theorems"
+    },
+    {
+      "id": "ma-logic-proof-theory-3",
+      "name": "Proof theory"
+    },
+    {
+      "id": "ma-logic-proof-theory-11",
+      "name": "Cut elimination and consistency proofs"
+    },
+    {
+      "id": "ma-logic-proof-theory-5",
+      "name": "Constructivism"
+    }
+  ]
+}

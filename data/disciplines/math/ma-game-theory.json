@@ -1,0 +1,67 @@
+{
+  "id": "ma-game-theory",
+  "name": "Game Theory",
+  "category": "Optimization & Control Theory",
+  "level": 3,
+  "priority": "important",
+  "summary": "Mathematics of strategic interaction: normal and extensive form games, Nash equilibrium, cooperative games and mechanism design.",
+  "prerequisites": [
+    "ma-linear-programming",
+    "ma-probability-theory"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-game-theory-1",
+      "name": "Normal form games"
+    },
+    {
+      "id": "ma-game-theory-7",
+      "name": "Dominance and best responses"
+    },
+    {
+      "id": "ma-game-theory-3",
+      "name": "Nash equilibrium"
+    },
+    {
+      "id": "ma-game-theory-8",
+      "name": "Mixed strategies and zero-sum games (minimax theorem)"
+    },
+    {
+      "id": "ma-game-theory-2",
+      "name": "Extensive form games"
+    },
+    {
+      "id": "ma-game-theory-9",
+      "name": "Subgame perfection and backward induction"
+    },
+    {
+      "id": "ma-game-theory-10",
+      "name": "Bayesian games and incomplete information"
+    },
+    {
+      "id": "ma-game-theory-11",
+      "name": "Repeated games"
+    },
+    {
+      "id": "ma-game-theory-4",
+      "name": "Cooperative games"
+    },
+    {
+      "id": "ma-game-theory-12",
+      "name": "Shapley value and the core"
+    },
+    {
+      "id": "ma-game-theory-5",
+      "name": "Evolutionary game theory"
+    },
+    {
+      "id": "ma-game-theory-6",
+      "name": "Mechanism design"
+    },
+    {
+      "id": "ma-game-theory-13",
+      "name": "Auctions"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "mt-casting-solidification",
+  "name": "Casting & Solidification Processing",
+  "category": "Materials Processing & Manufacturing",
+  "level": 3,
+  "priority": "core",
+  "summary": "Explains how molten metal is turned into shapes and how heat flow and solidification control the resulting microstructure and defects.",
+  "prerequisites": [
+    "mt-phase-transformations",
+    "me-heat-transfer"
+  ],
+  "related": [
+    "me-casting-forming-molding"
+  ],
+  "topics": [
+    {
+      "id": "mt-casting-solidification-1",
+      "name": "Transport phenomena in processing: heat conduction, convection and fluid flow basics"
+    },
+    {
+      "id": "mt-casting-solidification-2",
+      "name": "Heat flow in casting: Chvorinov's rule and mould-metal interface"
+    },
+    {
+      "id": "mt-casting-solidification-3",
+      "name": "Solidification microstructures: chill, columnar and equiaxed zones; dendrite arm spacing"
+    },
+    {
+      "id": "mt-casting-solidification-4",
+      "name": "Segregation: Scheil equation, microsegregation and macrosegregation"
+    },
+    {
+      "id": "mt-casting-solidification-5",
+      "name": "Grain refinement and inoculation; eutectic modification"
+    },
+    {
+      "id": "mt-casting-solidification-6",
+      "name": "Casting processes: sand, investment, die, permanent mould and centrifugal casting"
+    },
+    {
+      "id": "mt-casting-solidification-7",
+      "name": "Continuous casting of steel and aluminium; ingot casting"
+    },
+    {
+      "id": "mt-casting-solidification-8",
+      "name": "Directional solidification and single-crystal growth"
+    },
+    {
+      "id": "mt-casting-solidification-9",
+      "name": "Casting defects: shrinkage, gas porosity, hot tearing and inclusions"
+    },
+    {
+      "id": "mt-casting-solidification-10",
+      "name": "Gating, risering and casting simulation"
+    },
+    {
+      "id": "mt-casting-solidification-11",
+      "name": "Rapid solidification and melt spinning"
+    },
+    {
+      "id": "mt-casting-solidification-12",
+      "name": "Semi-solid processing (thixocasting, rheocasting)"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ch-organic-synthesis",
+  "name": "Organic Synthesis & Retrosynthesis",
+  "category": "Organic Chemistry",
+  "level": 3,
+  "priority": "core",
+  "summary": "Planning and executing the synthesis of target molecules, including stereocontrol and protecting-group strategy.",
+  "prerequisites": [
+    "ch-organic-reactions-ii"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-organic-synthesis-1",
+      "name": "Retrosynthetic analysis: disconnections, synthons and synthetic equivalents"
+    },
+    {
+      "id": "ch-organic-synthesis-2",
+      "name": "Functional-group interconversions and oxidation-level management"
+    },
+    {
+      "id": "ch-organic-synthesis-3",
+      "name": "Chemoselectivity and protecting-group strategies"
+    },
+    {
+      "id": "ch-organic-synthesis-4",
+      "name": "Carbon-carbon bond formation: enolate, organometallic and olefination methods"
+    },
+    {
+      "id": "ch-organic-synthesis-5",
+      "name": "Selective oxidation and reduction methods"
+    },
+    {
+      "id": "ch-organic-synthesis-6",
+      "name": "Stereoselective synthesis: substrate control and chiral auxiliaries"
+    },
+    {
+      "id": "ch-organic-synthesis-7",
+      "name": "Asymmetric catalysis: hydrogenation, epoxidation, aldol reactions"
+    },
+    {
+      "id": "ch-organic-synthesis-8",
+      "name": "Ring-forming strategies and Baldwin's rules"
+    },
+    {
+      "id": "ch-organic-synthesis-9",
+      "name": "Umpolung and reactivity inversion"
+    },
+    {
+      "id": "ch-organic-synthesis-10",
+      "name": "Convergent vs linear synthesis; step and atom economy"
+    },
+    {
+      "id": "ch-organic-synthesis-11",
+      "name": "Classic total syntheses as case studies"
+    }
+  ]
+}

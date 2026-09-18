@@ -1,0 +1,62 @@
+{
+  "id": "ea-seismology",
+  "name": "Seismology",
+  "category": "Solid-Earth Geophysics",
+  "level": 3,
+  "priority": "important",
+  "summary": "The theory and observation of seismic waves and earthquake sources, and their use to image the Earth.",
+  "prerequisites": [
+    "ea-solid-earth-geophysics",
+    "ma-partial-differential-equations-pdes"
+  ],
+  "related": [
+    "ph-geophysics",
+    "ma-geophysics"
+  ],
+  "topics": [
+    {
+      "id": "ea-seismology-1",
+      "name": "Elasticity and the seismic wave equation"
+    },
+    {
+      "id": "ea-seismology-2",
+      "name": "Body waves (P and S) and surface waves (Rayleigh and Love)"
+    },
+    {
+      "id": "ea-seismology-3",
+      "name": "Ray theory, travel-time curves and Earth models (PREM)"
+    },
+    {
+      "id": "ea-seismology-4",
+      "name": "Seismometers, seismic networks and data processing"
+    },
+    {
+      "id": "ea-seismology-5",
+      "name": "Earthquake location and magnitude scales; seismic moment"
+    },
+    {
+      "id": "ea-seismology-6",
+      "name": "Focal mechanisms and moment tensors"
+    },
+    {
+      "id": "ea-seismology-7",
+      "name": "Earthquake source physics: rupture dynamics and scaling"
+    },
+    {
+      "id": "ea-seismology-8",
+      "name": "Dispersion and surface-wave analysis"
+    },
+    {
+      "id": "ea-seismology-9",
+      "name": "Free oscillations (normal modes) of the Earth"
+    },
+    {
+      "id": "ea-seismology-10",
+      "name": "Seismic tomography and ambient-noise imaging"
+    },
+    {
+      "id": "ea-seismology-11",
+      "name": "Attenuation, anisotropy and scattering"
+    }
+  ]
+}

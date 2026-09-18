@@ -1,0 +1,54 @@
+{
+  "id": "el-transmission-distribution",
+  "name": "Transmission & Distribution Systems",
+  "category": "Electrical Machines & Power Systems",
+  "level": 3,
+  "priority": "important",
+  "summary": "The hardware and design of the grid between plant and customer: overhead lines, cables, substations and distribution networks.",
+  "prerequisites": [
+    "el-power-system-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-transmission-distribution-1",
+      "name": "Overhead line design: conductors, sag-tension, insulators, towers"
+    },
+    {
+      "id": "el-transmission-distribution-2",
+      "name": "Underground cables: construction, capacitance, ampacity"
+    },
+    {
+      "id": "el-transmission-distribution-3",
+      "name": "Corona and radio interference"
+    },
+    {
+      "id": "el-transmission-distribution-4",
+      "name": "Substations: layouts, switchgear and busbar schemes"
+    },
+    {
+      "id": "el-transmission-distribution-5",
+      "name": "Distribution system architectures (radial, loop, network)"
+    },
+    {
+      "id": "el-transmission-distribution-6",
+      "name": "Distribution transformers and voltage regulation (tap changers, capacitor banks)"
+    },
+    {
+      "id": "el-transmission-distribution-7",
+      "name": "Neutral grounding of power systems"
+    },
+    {
+      "id": "el-transmission-distribution-8",
+      "name": "Distribution automation and fault location (FLISR)"
+    },
+    {
+      "id": "el-transmission-distribution-9",
+      "name": "Losses and efficiency in T&D"
+    },
+    {
+      "id": "el-transmission-distribution-10",
+      "name": "Distributed generation in distribution networks and hosting capacity"
+    }
+  ]
+}

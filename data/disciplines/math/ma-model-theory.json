@@ -1,0 +1,47 @@
+{
+  "id": "ma-model-theory",
+  "name": "Model Theory",
+  "category": "Foundations & Mathematical Logic",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Studies mathematical structures through the first-order sentences they satisfy, linking logic with algebra and geometry.",
+  "prerequisites": [
+    "ma-logic-proof-theory",
+    "ma-abstract-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-model-theory-1",
+      "name": "First-order logic"
+    },
+    {
+      "id": "ma-model-theory-3",
+      "name": "Completeness and compactness"
+    },
+    {
+      "id": "ma-model-theory-4",
+      "name": "Loewenheim-Skolem theorems"
+    },
+    {
+      "id": "ma-model-theory-2",
+      "name": "Model construction"
+    },
+    {
+      "id": "ma-model-theory-5",
+      "name": "Elementary embeddings and ultraproducts"
+    },
+    {
+      "id": "ma-model-theory-6",
+      "name": "Types and saturation"
+    },
+    {
+      "id": "ma-model-theory-7",
+      "name": "Quantifier elimination (dense linear orders, algebraically closed and real closed fields)"
+    },
+    {
+      "id": "ma-model-theory-8",
+      "name": "Stability and categoricity (introduction)"
+    }
+  ]
+}

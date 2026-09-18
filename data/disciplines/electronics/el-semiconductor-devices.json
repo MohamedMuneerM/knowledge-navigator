@@ -1,0 +1,60 @@
+{
+  "id": "el-semiconductor-devices",
+  "name": "Semiconductor Device Physics",
+  "category": "Semiconductor Devices & Fabrication",
+  "level": 3,
+  "priority": "core",
+  "summary": "How diodes, BJTs and MOSFETs actually work, from junction physics to short-channel effects, FinFETs and compact models.",
+  "prerequisites": [
+    "el-semiconductor-physics"
+  ],
+  "related": [
+    "ph-solid-state-physics"
+  ],
+  "topics": [
+    {
+      "id": "el-semiconductor-devices-1",
+      "name": "PN diode I-V, capacitance, breakdown and switching behaviour"
+    },
+    {
+      "id": "el-semiconductor-devices-2",
+      "name": "Bipolar junction transistor physics (Ebers-Moll, Gummel-Poon)"
+    },
+    {
+      "id": "el-semiconductor-devices-3",
+      "name": "MOS capacitor: accumulation, depletion, inversion, C-V curves"
+    },
+    {
+      "id": "el-semiconductor-devices-4",
+      "name": "MOSFET threshold voltage, I-V characteristics and body effect"
+    },
+    {
+      "id": "el-semiconductor-devices-5",
+      "name": "Subthreshold conduction and leakage"
+    },
+    {
+      "id": "el-semiconductor-devices-6",
+      "name": "Short-channel effects: DIBL, velocity saturation, hot carriers"
+    },
+    {
+      "id": "el-semiconductor-devices-7",
+      "name": "CMOS scaling and Moore's law"
+    },
+    {
+      "id": "el-semiconductor-devices-8",
+      "name": "Advanced transistors: SOI, FinFET and gate-all-around nanosheets"
+    },
+    {
+      "id": "el-semiconductor-devices-9",
+      "name": "Compound-semiconductor devices: HEMT, HBT, GaN and SiC"
+    },
+    {
+      "id": "el-semiconductor-devices-10",
+      "name": "Device compact models for circuit simulation (BSIM)"
+    },
+    {
+      "id": "el-semiconductor-devices-11",
+      "name": "Device reliability: NBTI, TDDB, electromigration"
+    }
+  ]
+}

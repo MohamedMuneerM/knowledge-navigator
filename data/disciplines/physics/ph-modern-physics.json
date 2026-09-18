@@ -1,0 +1,72 @@
+{
+  "id": "ph-modern-physics",
+  "name": "Modern Physics",
+  "category": "Quantum Physics",
+  "level": 2,
+  "priority": "core",
+  "summary": "The bridge from classical to quantum physics: photons, atoms, matter waves, nuclei and relativity basics.",
+  "prerequisites": [
+    "ph-classical-mechanics",
+    "ph-introductory-electricity-magnetism",
+    "ph-introductory-waves-sound-light"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-modern-physics-1",
+      "name": "The crisis of classical physics"
+    },
+    {
+      "id": "ph-modern-physics-2",
+      "name": "Special relativity essentials: time dilation and E = mc^2"
+    },
+    {
+      "id": "ph-modern-physics-3",
+      "name": "Blackbody radiation and Planck's hypothesis"
+    },
+    {
+      "id": "ph-modern-physics-4",
+      "name": "The photoelectric effect and photons"
+    },
+    {
+      "id": "ph-modern-physics-5",
+      "name": "X-rays and Compton scattering"
+    },
+    {
+      "id": "ph-modern-physics-6",
+      "name": "Atomic spectra and the Bohr model"
+    },
+    {
+      "id": "ph-modern-physics-7",
+      "name": "de Broglie waves and electron diffraction"
+    },
+    {
+      "id": "ph-modern-physics-8",
+      "name": "The uncertainty principle"
+    },
+    {
+      "id": "ph-modern-physics-9",
+      "name": "The Schrodinger equation in one dimension: particle in a box and tunnelling"
+    },
+    {
+      "id": "ph-modern-physics-10",
+      "name": "The hydrogen atom and quantum numbers (introductory)"
+    },
+    {
+      "id": "ph-modern-physics-11",
+      "name": "Electron spin, the Pauli principle and the periodic table"
+    },
+    {
+      "id": "ph-modern-physics-12",
+      "name": "Molecules and solids: bonding and band gaps (introductory)"
+    },
+    {
+      "id": "ph-modern-physics-13",
+      "name": "The nucleus: binding energy, radioactivity and decay"
+    },
+    {
+      "id": "ph-modern-physics-14",
+      "name": "Elementary particles and the fundamental forces (overview)"
+    }
+  ]
+}

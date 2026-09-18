@@ -1,0 +1,43 @@
+{
+  "id": "el-hardware-accelerators",
+  "name": "Hardware Accelerators for Edge ML",
+  "category": "Machine Learning & Edge AI",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Hardware that speeds up inference at the edge: NPUs, Edge TPUs, embedded GPUs, FPGAs, ASICs and DSPs.",
+  "prerequisites": [
+    "el-processor-architecture-concepts",
+    "el-tinyml-tiny-machine-learning"
+  ],
+  "related": [
+    "ai-hardware-for-ai",
+    "cs-advanced-computer-architecture",
+    "cs-gpu-programming"
+  ],
+  "topics": [
+    {
+      "id": "el-hardware-accelerators-1",
+      "name": "Neural Processing Units (NPU)"
+    },
+    {
+      "id": "el-hardware-accelerators-2",
+      "name": "Tensor Processing Units (TPU) - Edge TPU"
+    },
+    {
+      "id": "el-hardware-accelerators-3",
+      "name": "GPU for embedded (NVIDIA Jetson)"
+    },
+    {
+      "id": "el-hardware-accelerators-4",
+      "name": "FPGA-based acceleration"
+    },
+    {
+      "id": "el-hardware-accelerators-5",
+      "name": "ASIC accelerators"
+    },
+    {
+      "id": "el-hardware-accelerators-6",
+      "name": "DSP-based ML acceleration"
+    }
+  ]
+}

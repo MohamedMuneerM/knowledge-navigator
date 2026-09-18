@@ -1,0 +1,47 @@
+{
+  "id": "ma-computer-algebra",
+  "name": "Computer Algebra & Symbolic Computation",
+  "category": "Numerical Analysis & Scientific Computing",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Exact symbolic computation: polynomial arithmetic and factorisation, Groebner bases and how computer algebra systems work.",
+  "prerequisites": [
+    "ma-ring-theory",
+    "ma-algorithm-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-computer-algebra-1",
+      "name": "Representing numbers and polynomials; exact arithmetic"
+    },
+    {
+      "id": "ma-computer-algebra-2",
+      "name": "Euclidean algorithm, resultants and subresultants"
+    },
+    {
+      "id": "ma-computer-algebra-3",
+      "name": "Modular methods and the Chinese remainder theorem"
+    },
+    {
+      "id": "ma-computer-algebra-4",
+      "name": "Polynomial factorisation over finite fields and the integers"
+    },
+    {
+      "id": "ma-computer-algebra-5",
+      "name": "Groebner bases and Buchberger's algorithm"
+    },
+    {
+      "id": "ma-computer-algebra-6",
+      "name": "Solving polynomial systems and elimination"
+    },
+    {
+      "id": "ma-computer-algebra-7",
+      "name": "Symbolic integration (Risch algorithm overview)"
+    },
+    {
+      "id": "ma-computer-algebra-8",
+      "name": "Using computer algebra systems (SageMath, Mathematica, SymPy)"
+    }
+  ]
+}

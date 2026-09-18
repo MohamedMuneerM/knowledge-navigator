@@ -1,0 +1,69 @@
+{
+  "id": "ph-quantum-error-correction",
+  "name": "Quantum Error Correction & Fault Tolerance",
+  "category": "Quantum Physics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How fragile qubits are protected from noise with redundancy, from the first bit-flip code to surface codes and fault-tolerant computation.",
+  "prerequisites": [
+    "ph-quantum-information-science",
+    "ma-algebraic-coding-theory"
+  ],
+  "related": [
+    "ma-algebraic-coding-theory"
+  ],
+  "topics": [
+    {
+      "id": "ph-quantum-error-correction-1",
+      "name": "Noise channels and the need for error correction"
+    },
+    {
+      "id": "ph-quantum-error-correction-2",
+      "name": "Three-qubit bit-flip and phase-flip codes"
+    },
+    {
+      "id": "ph-quantum-error-correction-3",
+      "name": "Shor and Steane codes"
+    },
+    {
+      "id": "ph-quantum-error-correction-4",
+      "name": "Knill-Laflamme conditions"
+    },
+    {
+      "id": "ph-quantum-error-correction-5",
+      "name": "Stabilizer formalism and the Pauli group"
+    },
+    {
+      "id": "ph-quantum-error-correction-6",
+      "name": "CSS codes from classical codes"
+    },
+    {
+      "id": "ph-quantum-error-correction-7",
+      "name": "Toric and surface codes"
+    },
+    {
+      "id": "ph-quantum-error-correction-8",
+      "name": "Syndrome extraction and decoding algorithms"
+    },
+    {
+      "id": "ph-quantum-error-correction-9",
+      "name": "The threshold theorem"
+    },
+    {
+      "id": "ph-quantum-error-correction-10",
+      "name": "Fault-tolerant gates and transversality"
+    },
+    {
+      "id": "ph-quantum-error-correction-11",
+      "name": "Magic state distillation"
+    },
+    {
+      "id": "ph-quantum-error-correction-12",
+      "name": "Logical qubit overhead and resource estimates"
+    },
+    {
+      "id": "ph-quantum-error-correction-13",
+      "name": "Bosonic and LDPC codes (frontier)"
+    }
+  ]
+}

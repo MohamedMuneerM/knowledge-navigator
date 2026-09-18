@@ -1,0 +1,52 @@
+{
+  "id": "el-signal-processing-fundamentals",
+  "name": "Signal Processing Fundamentals",
+  "category": "Signal Processing & Communications",
+  "level": 2,
+  "priority": "core",
+  "summary": "Bridging analog and digital signals: sampling, aliasing, quantization and discrete-time systems.",
+  "prerequisites": [
+    "el-signals-and-systems"
+  ],
+  "related": [
+    "ma-signal-processing"
+  ],
+  "topics": [
+    {
+      "id": "el-signal-processing-fundamentals-1",
+      "name": "Time domain and frequency domain analysis"
+    },
+    {
+      "id": "el-signal-processing-fundamentals-2",
+      "name": "Sampling theorem and Nyquist rate"
+    },
+    {
+      "id": "el-signal-processing-fundamentals-3",
+      "name": "Aliasing and anti-aliasing"
+    },
+    {
+      "id": "el-signal-processing-fundamentals-6",
+      "name": "Reconstruction and interpolation (zero-order hold, sinc)"
+    },
+    {
+      "id": "el-signal-processing-fundamentals-4",
+      "name": "Quantization and dithering"
+    },
+    {
+      "id": "el-signal-processing-fundamentals-7",
+      "name": "Oversampling and noise shaping"
+    },
+    {
+      "id": "el-signal-processing-fundamentals-5",
+      "name": "Discrete-time signals and systems"
+    },
+    {
+      "id": "el-signal-processing-fundamentals-8",
+      "name": "Difference equations and the z-transform in practice"
+    },
+    {
+      "id": "el-signal-processing-fundamentals-9",
+      "name": "Practical sampled-data systems: anti-alias filter and ADC selection"
+    }
+  ]
+}

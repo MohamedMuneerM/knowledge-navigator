@@ -1,0 +1,54 @@
+{
+  "id": "ma-measure-theory-integration",
+  "name": "Measure Theory & Integration",
+  "category": "Analysis",
+  "level": 3,
+  "priority": "important",
+  "summary": "Lebesgue measure and integration, convergence theorems and Lp spaces, the modern foundation for analysis and probability.",
+  "prerequisites": [
+    "ma-real-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-measure-theory-integration-6",
+      "name": "Sigma-algebras and measures"
+    },
+    {
+      "id": "ma-measure-theory-integration-7",
+      "name": "Outer measure and Caratheodory construction"
+    },
+    {
+      "id": "ma-measure-theory-integration-1",
+      "name": "Lebesgue measure"
+    },
+    {
+      "id": "ma-measure-theory-integration-2",
+      "name": "Measurable functions"
+    },
+    {
+      "id": "ma-measure-theory-integration-3",
+      "name": "Lebesgue integration"
+    },
+    {
+      "id": "ma-measure-theory-integration-4",
+      "name": "Convergence theorems"
+    },
+    {
+      "id": "ma-measure-theory-integration-8",
+      "name": "Product measures and Fubini-Tonelli"
+    },
+    {
+      "id": "ma-measure-theory-integration-9",
+      "name": "Signed measures, Radon-Nikodym theorem"
+    },
+    {
+      "id": "ma-measure-theory-integration-10",
+      "name": "Differentiation of integrals"
+    },
+    {
+      "id": "ma-measure-theory-integration-5",
+      "name": "Lp spaces"
+    }
+  ]
+}

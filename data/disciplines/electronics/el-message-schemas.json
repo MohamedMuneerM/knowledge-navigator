@@ -1,0 +1,34 @@
+{
+  "id": "el-message-schemas",
+  "name": "Message Schemas",
+  "category": "IoT Architectures, Platforms & Data",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Defining and validating message structure with JSON Schema, XSD, Protobuf, OpenAPI and AsyncAPI.",
+  "prerequisites": [
+    "el-data-serialization-formats"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-message-schemas-1",
+      "name": "JSON Schema"
+    },
+    {
+      "id": "el-message-schemas-2",
+      "name": "XML Schema (XSD)"
+    },
+    {
+      "id": "el-message-schemas-3",
+      "name": "Protobuf schema definitions"
+    },
+    {
+      "id": "el-message-schemas-4",
+      "name": "OpenAPI/Swagger specifications"
+    },
+    {
+      "id": "el-message-schemas-5",
+      "name": "AsyncAPI for event-driven APIs"
+    }
+  ]
+}

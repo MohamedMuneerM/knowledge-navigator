@@ -1,0 +1,63 @@
+{
+  "id": "ai-core-vision-tasks",
+  "name": "Core Vision Tasks",
+  "category": "Computer Vision",
+  "level": 3,
+  "priority": "core",
+  "summary": "The standard computer vision tasks (classification, detection, segmentation, pose, faces, OCR, scene understanding) and how deep models solve them.",
+  "prerequisites": [
+    "ai-convolutional-neural-networks-cnns",
+    "ai-image-processing-fundamentals"
+  ],
+  "related": [
+    "el-object-detection-recognition",
+    "el-feature-detection-matching",
+    "ai-convolutional-neural-networks-cnns"
+  ],
+  "topics": [
+    {
+      "id": "ai-core-vision-tasks-1",
+      "name": "Image Classification"
+    },
+    {
+      "id": "ai-core-vision-tasks-2",
+      "name": "Object Detection"
+    },
+    {
+      "id": "ai-core-vision-tasks-3",
+      "name": "Object Localization"
+    },
+    {
+      "id": "ai-core-vision-tasks-4",
+      "name": "Semantic Segmentation"
+    },
+    {
+      "id": "ai-core-vision-tasks-5",
+      "name": "Instance Segmentation"
+    },
+    {
+      "id": "ai-core-vision-tasks-6",
+      "name": "Panoptic Segmentation"
+    },
+    {
+      "id": "ai-core-vision-tasks-7",
+      "name": "Pose Estimation"
+    },
+    {
+      "id": "ai-core-vision-tasks-8",
+      "name": "Face Detection and Recognition"
+    },
+    {
+      "id": "ai-core-vision-tasks-9",
+      "name": "Optical Character Recognition (OCR)"
+    },
+    {
+      "id": "ai-core-vision-tasks-10",
+      "name": "Scene Understanding"
+    },
+    {
+      "id": "ai-core-vision-tasks-11",
+      "name": "Datasets and metrics: ImageNet, COCO, IoU and mAP"
+    }
+  ]
+}

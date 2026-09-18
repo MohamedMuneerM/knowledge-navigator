@@ -1,0 +1,39 @@
+{
+  "id": "el-underwater-systems",
+  "name": "Underwater Systems",
+  "category": "Medical, Industrial & Other Application Domains",
+  "level": 4,
+  "priority": "optional",
+  "summary": "Electronics under water: acoustic and optical communication, AUVs and ROVs, subsea sensors, localization and pressure housings.",
+  "prerequisites": [
+    "el-acoustic-vibration-sensors",
+    "el-sensor-fusion"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-underwater-systems-1",
+      "name": "Underwater communication (acoustic, optical)"
+    },
+    {
+      "id": "el-underwater-systems-2",
+      "name": "Autonomous Underwater Vehicles (AUV)"
+    },
+    {
+      "id": "el-underwater-systems-3",
+      "name": "Remotely Operated Vehicles (ROV)"
+    },
+    {
+      "id": "el-underwater-systems-4",
+      "name": "Subsea sensors and monitoring"
+    },
+    {
+      "id": "el-underwater-systems-5",
+      "name": "Underwater localization"
+    },
+    {
+      "id": "el-underwater-systems-6",
+      "name": "Pressure-resistant enclosures"
+    }
+  ]
+}

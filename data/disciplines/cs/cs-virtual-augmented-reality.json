@@ -1,0 +1,59 @@
+{
+  "id": "cs-virtual-augmented-reality",
+  "name": "Virtual & Augmented Reality",
+  "category": "Graphics, Visualization & Games",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Building immersive experiences: XR displays and tracking, stereo rendering and latency, 3D interaction, spatial audio and development with modern XR toolkits.",
+  "prerequisites": [
+    "cs-computer-graphics",
+    "cs-hci"
+  ],
+  "related": [
+    "el-extended-reality-integration",
+    "ai-3d-computer-vision",
+    "ai-wearable-ai-assistants-ar"
+  ],
+  "topics": [
+    {
+      "id": "cs-virtual-augmented-reality-1",
+      "name": "XR fundamentals: VR, AR, MR and the reality-virtuality continuum"
+    },
+    {
+      "id": "cs-virtual-augmented-reality-2",
+      "name": "The human visual system, presence and cybersickness"
+    },
+    {
+      "id": "cs-virtual-augmented-reality-3",
+      "name": "Head-mounted displays and optics"
+    },
+    {
+      "id": "cs-virtual-augmented-reality-4",
+      "name": "Tracking: inside-out, outside-in and SLAM"
+    },
+    {
+      "id": "cs-virtual-augmented-reality-5",
+      "name": "Stereo rendering and motion-to-photon latency"
+    },
+    {
+      "id": "cs-virtual-augmented-reality-6",
+      "name": "3D interaction techniques and locomotion"
+    },
+    {
+      "id": "cs-virtual-augmented-reality-7",
+      "name": "Spatial audio and haptics"
+    },
+    {
+      "id": "cs-virtual-augmented-reality-8",
+      "name": "AR registration and scene understanding"
+    },
+    {
+      "id": "cs-virtual-augmented-reality-9",
+      "name": "XR development with Unity or Unreal and OpenXR"
+    },
+    {
+      "id": "cs-virtual-augmented-reality-10",
+      "name": "WebXR"
+    }
+  ]
+}

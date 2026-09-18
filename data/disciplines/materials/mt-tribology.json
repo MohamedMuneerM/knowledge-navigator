@@ -1,0 +1,58 @@
+{
+  "id": "mt-tribology",
+  "name": "Tribology: Friction, Wear & Lubrication",
+  "category": "Corrosion, Wear & Degradation",
+  "level": 3,
+  "priority": "important",
+  "summary": "Explains how surfaces in contact interact, why parts wear out, and how materials and lubricants are chosen to control friction and wear.",
+  "prerequisites": [
+    "mt-mechanical-properties",
+    "me-mechanics-of-materials"
+  ],
+  "related": [
+    "me-tribology",
+    "me-shafts-bearings-seals"
+  ],
+  "topics": [
+    {
+      "id": "mt-tribology-1",
+      "name": "Surface topography and roughness parameters"
+    },
+    {
+      "id": "mt-tribology-2",
+      "name": "Contact mechanics: Hertzian contact and real area of contact"
+    },
+    {
+      "id": "mt-tribology-3",
+      "name": "Friction laws and mechanisms: adhesion, ploughing and stick-slip"
+    },
+    {
+      "id": "mt-tribology-4",
+      "name": "Wear mechanisms: adhesive, abrasive, erosive, fatigue and corrosive wear; Archard's law"
+    },
+    {
+      "id": "mt-tribology-5",
+      "name": "Wear maps and wear testing (pin-on-disc)"
+    },
+    {
+      "id": "mt-tribology-6",
+      "name": "Lubrication regimes: boundary, mixed, elastohydrodynamic and hydrodynamic; the Stribeck curve"
+    },
+    {
+      "id": "mt-tribology-7",
+      "name": "Lubricants and additives; solid lubricants (MoS2, graphite, PTFE)"
+    },
+    {
+      "id": "mt-tribology-8",
+      "name": "Tribology in vacuum and space mechanisms"
+    },
+    {
+      "id": "mt-tribology-9",
+      "name": "Wear-resistant materials and coatings"
+    },
+    {
+      "id": "mt-tribology-10",
+      "name": "Tribology of polymers, ceramics and biomedical joints"
+    }
+  ]
+}

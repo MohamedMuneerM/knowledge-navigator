@@ -1,0 +1,48 @@
+{
+  "id": "el-version-control",
+  "name": "Version Control",
+  "category": "Embedded Development Practices & Debugging",
+  "level": 1,
+  "priority": "important",
+  "summary": "Tracking changes to code and hardware designs with Git: branching, workflows, hosting services, submodules and monorepos.",
+  "prerequisites": [
+    "cs-programming-fundamentals"
+  ],
+  "related": [
+    "cs-version-control-git"
+  ],
+  "topics": [
+    {
+      "id": "el-version-control-1",
+      "name": "Git fundamentals (branches, commits, merges)"
+    },
+    {
+      "id": "el-version-control-2",
+      "name": "GitHub, GitLab, Bitbucket"
+    },
+    {
+      "id": "el-version-control-3",
+      "name": "Git workflows (feature branch, gitflow, trunk-based)"
+    },
+    {
+      "id": "el-version-control-4",
+      "name": "Submodules and monorepos"
+    },
+    {
+      "id": "el-version-control-5",
+      "name": "Version control for hardware (KiCad, Altium)"
+    },
+    {
+      "id": "el-version-control-6",
+      "name": "Commits, history and good commit messages"
+    },
+    {
+      "id": "el-version-control-7",
+      "name": "Pull requests and code review"
+    },
+    {
+      "id": "el-version-control-8",
+      "name": "Git LFS and binary design files"
+    }
+  ]
+}

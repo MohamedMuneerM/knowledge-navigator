@@ -1,0 +1,61 @@
+{
+  "id": "ph-superconducting-quantum-circuits",
+  "name": "Superconducting Circuits & Circuit QED",
+  "category": "Quantum Physics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How today's leading quantum processors are built: Josephson junctions, transmon qubits, microwave control and dispersive readout.",
+  "prerequisites": [
+    "ph-quantum-information-science",
+    "ph-solid-state-physics"
+  ],
+  "related": [
+    "el-quantum-technologies"
+  ],
+  "topics": [
+    {
+      "id": "ph-superconducting-quantum-circuits-1",
+      "name": "Superconductivity essentials for qubits (BCS, flux quantisation)"
+    },
+    {
+      "id": "ph-superconducting-quantum-circuits-2",
+      "name": "The Josephson junction and its nonlinearity"
+    },
+    {
+      "id": "ph-superconducting-quantum-circuits-3",
+      "name": "Quantising LC and nonlinear circuits"
+    },
+    {
+      "id": "ph-superconducting-quantum-circuits-4",
+      "name": "Charge, flux and transmon qubits"
+    },
+    {
+      "id": "ph-superconducting-quantum-circuits-5",
+      "name": "Circuit QED and the Jaynes-Cummings model"
+    },
+    {
+      "id": "ph-superconducting-quantum-circuits-6",
+      "name": "Dispersive readout and quantum-limited amplifiers"
+    },
+    {
+      "id": "ph-superconducting-quantum-circuits-7",
+      "name": "Single- and two-qubit gates with microwave pulses"
+    },
+    {
+      "id": "ph-superconducting-quantum-circuits-8",
+      "name": "Decoherence sources: T1, T2, TLS defects"
+    },
+    {
+      "id": "ph-superconducting-quantum-circuits-9",
+      "name": "Cryogenics and dilution refrigerators"
+    },
+    {
+      "id": "ph-superconducting-quantum-circuits-10",
+      "name": "Chip design, fabrication and packaging"
+    },
+    {
+      "id": "ph-superconducting-quantum-circuits-11",
+      "name": "Scaling: couplers, crosstalk and wiring"
+    }
+  ]
+}

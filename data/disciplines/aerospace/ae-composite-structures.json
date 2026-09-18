@@ -1,0 +1,64 @@
+{
+  "id": "ae-composite-structures",
+  "name": "Composite Structures",
+  "category": "Structures & Materials",
+  "level": 3,
+  "priority": "important",
+  "summary": "Analysis and design of laminated composite structures, which make up most of modern airframes and rocket structures.",
+  "prerequisites": [
+    "ae-aerospace-structures",
+    "ae-aerospace-materials",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "mt-composites",
+    "mt-fibre-composites-mechanics-manufacturing",
+    "me-lightweight-structures-composites"
+  ],
+  "topics": [
+    {
+      "id": "ae-composite-structures-1",
+      "name": "Fibres, matrices and composite manufacturing forms"
+    },
+    {
+      "id": "ae-composite-structures-2",
+      "name": "Micromechanics: rule of mixtures"
+    },
+    {
+      "id": "ae-composite-structures-3",
+      "name": "Orthotropic lamina stress-strain relations"
+    },
+    {
+      "id": "ae-composite-structures-4",
+      "name": "Classical laminate theory: ABD matrices"
+    },
+    {
+      "id": "ae-composite-structures-5",
+      "name": "Laminate stacking sequences and coupling effects"
+    },
+    {
+      "id": "ae-composite-structures-6",
+      "name": "Failure criteria: max stress, Tsai-Hill, Tsai-Wu, Hashin"
+    },
+    {
+      "id": "ae-composite-structures-7",
+      "name": "Sandwich structures"
+    },
+    {
+      "id": "ae-composite-structures-8",
+      "name": "Composite joints and bonded repair"
+    },
+    {
+      "id": "ae-composite-structures-9",
+      "name": "Damage, impact and damage tolerance of composites"
+    },
+    {
+      "id": "ae-composite-structures-10",
+      "name": "Composite overwrapped pressure vessels and tanks"
+    },
+    {
+      "id": "ae-composite-structures-11",
+      "name": "Design allowables and building-block testing"
+    }
+  ]
+}

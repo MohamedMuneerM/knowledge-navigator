@@ -1,0 +1,59 @@
+{
+  "id": "cs-system-design",
+  "name": "Large-Scale System Design",
+  "category": "Parallel & Distributed Computing",
+  "level": 4,
+  "priority": "important",
+  "summary": "Designing internet-scale services end to end: estimation, load balancing, caching, sharding, queues and the trade-offs behind real architectures.",
+  "prerequisites": [
+    "cs-distributed-systems",
+    "cs-nosql-data-systems"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-system-design-1",
+      "name": "Requirements, back-of-the-envelope estimation and capacity planning"
+    },
+    {
+      "id": "cs-system-design-2",
+      "name": "Load balancing and reverse proxies"
+    },
+    {
+      "id": "cs-system-design-3",
+      "name": "Caching strategies and CDNs"
+    },
+    {
+      "id": "cs-system-design-4",
+      "name": "Database scaling: replication, sharding and denormalization"
+    },
+    {
+      "id": "cs-system-design-5",
+      "name": "Asynchronous processing with queues and event streams"
+    },
+    {
+      "id": "cs-system-design-6",
+      "name": "Rate limiting and backpressure"
+    },
+    {
+      "id": "cs-system-design-7",
+      "name": "Consistency, availability and latency trade-offs in practice"
+    },
+    {
+      "id": "cs-system-design-8",
+      "name": "Designing APIs for scale"
+    },
+    {
+      "id": "cs-system-design-9",
+      "name": "Case studies: news feeds, chat, URL shorteners and file storage"
+    },
+    {
+      "id": "cs-system-design-10",
+      "name": "Observability, SLOs and failure handling at scale"
+    },
+    {
+      "id": "cs-system-design-11",
+      "name": "Multi-region deployment and disaster recovery"
+    }
+  ]
+}

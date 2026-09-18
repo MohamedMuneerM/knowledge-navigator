@@ -1,0 +1,68 @@
+{
+  "id": "mt-corrosion",
+  "name": "Corrosion & Degradation of Materials",
+  "category": "Corrosion, Wear & Degradation",
+  "level": 3,
+  "priority": "core",
+  "summary": "Explains why and how metals corrode and other materials degrade, and the engineering methods used to prevent it.",
+  "prerequisites": [
+    "mt-electrochemistry"
+  ],
+  "related": [
+    "ch-corrosion-science"
+  ],
+  "topics": [
+    {
+      "id": "mt-corrosion-1",
+      "name": "Economic and safety cost of corrosion"
+    },
+    {
+      "id": "mt-corrosion-2",
+      "name": "Corrosion thermodynamics and kinetics: mixed-potential theory and Evans diagrams"
+    },
+    {
+      "id": "mt-corrosion-3",
+      "name": "Passivity and passive films"
+    },
+    {
+      "id": "mt-corrosion-4",
+      "name": "Galvanic corrosion and the galvanic series"
+    },
+    {
+      "id": "mt-corrosion-5",
+      "name": "Localised corrosion: pitting, crevice and intergranular corrosion; sensitisation"
+    },
+    {
+      "id": "mt-corrosion-6",
+      "name": "Dealloying, erosion-corrosion and cavitation"
+    },
+    {
+      "id": "mt-corrosion-7",
+      "name": "Stress-corrosion cracking and corrosion fatigue"
+    },
+    {
+      "id": "mt-corrosion-8",
+      "name": "Hydrogen damage and hydrogen embrittlement mechanisms"
+    },
+    {
+      "id": "mt-corrosion-9",
+      "name": "Atmospheric, marine, soil and microbiologically influenced corrosion"
+    },
+    {
+      "id": "mt-corrosion-10",
+      "name": "Corrosion protection: materials selection, design, inhibitors, coatings and cathodic protection"
+    },
+    {
+      "id": "mt-corrosion-11",
+      "name": "Corrosion testing and monitoring (salt spray, polarisation, EIS)"
+    },
+    {
+      "id": "mt-corrosion-12",
+      "name": "Degradation of polymers: UV, oxidation, hydrolysis, swelling and environmental stress cracking"
+    },
+    {
+      "id": "mt-corrosion-13",
+      "name": "Degradation of ceramics and concrete"
+    }
+  ]
+}

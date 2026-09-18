@@ -1,0 +1,81 @@
+{
+  "id": "cs-discrete-mathematics",
+  "name": "Discrete Mathematics for Computer Science",
+  "category": "Mathematical Foundations",
+  "level": 2,
+  "priority": "core",
+  "summary": "The mathematics every computer scientist uses daily (logic, proofs, sets, counting, number theory and graphs), taught with computing examples.",
+  "prerequisites": [
+    "ma-elementary-intermediate-algebra"
+  ],
+  "related": [
+    "ma-logic-proof-theory",
+    "ma-set-theory",
+    "ma-graph-theory",
+    "ma-enumerative-combinatorics",
+    "ma-elementary-number-theory",
+    "ma-discrete-mathematics"
+  ],
+  "topics": [
+    {
+      "id": "cs-discrete-mathematics-1",
+      "name": "Propositional logic and truth tables"
+    },
+    {
+      "id": "cs-discrete-mathematics-2",
+      "name": "Predicate logic and quantifiers"
+    },
+    {
+      "id": "cs-discrete-mathematics-3",
+      "name": "Proof techniques: direct proof, contradiction, contrapositive and cases"
+    },
+    {
+      "id": "cs-discrete-mathematics-4",
+      "name": "Mathematical induction and strong induction"
+    },
+    {
+      "id": "cs-discrete-mathematics-5",
+      "name": "Sets, functions and relations"
+    },
+    {
+      "id": "cs-discrete-mathematics-6",
+      "name": "Equivalence relations and partial orders"
+    },
+    {
+      "id": "cs-discrete-mathematics-7",
+      "name": "Recursive definitions and structural induction"
+    },
+    {
+      "id": "cs-discrete-mathematics-8",
+      "name": "Counting: sum and product rules, permutations and combinations"
+    },
+    {
+      "id": "cs-discrete-mathematics-9",
+      "name": "Pigeonhole principle and inclusion-exclusion"
+    },
+    {
+      "id": "cs-discrete-mathematics-10",
+      "name": "Recurrence relations and how to solve them"
+    },
+    {
+      "id": "cs-discrete-mathematics-11",
+      "name": "Asymptotic notation and growth of functions"
+    },
+    {
+      "id": "cs-discrete-mathematics-12",
+      "name": "Number theory for computing: divisibility, modular arithmetic, gcd and primes"
+    },
+    {
+      "id": "cs-discrete-mathematics-13",
+      "name": "Graphs: paths, connectivity, trees and graph representations"
+    },
+    {
+      "id": "cs-discrete-mathematics-14",
+      "name": "State machines and invariants"
+    },
+    {
+      "id": "cs-discrete-mathematics-15",
+      "name": "Discrete probability basics"
+    }
+  ]
+}

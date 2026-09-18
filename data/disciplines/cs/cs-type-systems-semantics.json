@@ -1,0 +1,63 @@
+{
+  "id": "cs-type-systems-semantics",
+  "name": "Type Systems & Programming Language Semantics",
+  "category": "Programming Languages & Compilers",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The mathematical foundations of programming languages: operational, denotational and axiomatic semantics, lambda calculi and the theory of type systems.",
+  "prerequisites": [
+    "cs-programming-languages"
+  ],
+  "related": [
+    "ma-type-theory",
+    "ma-formal-verification",
+    "ma-logic-proof-theory",
+    "ma-category-theory"
+  ],
+  "topics": [
+    {
+      "id": "cs-type-systems-semantics-1",
+      "name": "Operational semantics: small-step and big-step"
+    },
+    {
+      "id": "cs-type-systems-semantics-2",
+      "name": "The untyped lambda calculus"
+    },
+    {
+      "id": "cs-type-systems-semantics-3",
+      "name": "The simply typed lambda calculus"
+    },
+    {
+      "id": "cs-type-systems-semantics-4",
+      "name": "Type safety: progress and preservation proofs"
+    },
+    {
+      "id": "cs-type-systems-semantics-5",
+      "name": "Denotational semantics"
+    },
+    {
+      "id": "cs-type-systems-semantics-6",
+      "name": "Axiomatic semantics and Hoare logic"
+    },
+    {
+      "id": "cs-type-systems-semantics-7",
+      "name": "Polymorphism: System F and Hindley-Milner inference"
+    },
+    {
+      "id": "cs-type-systems-semantics-8",
+      "name": "Subtyping and recursive types"
+    },
+    {
+      "id": "cs-type-systems-semantics-9",
+      "name": "Effect systems, linear and ownership types"
+    },
+    {
+      "id": "cs-type-systems-semantics-10",
+      "name": "Dependent types in practice (Agda, Idris, Lean)"
+    },
+    {
+      "id": "cs-type-systems-semantics-11",
+      "name": "Mechanizing semantics in a proof assistant"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ai-continual-lifelong-learning",
+  "name": "Continual & Lifelong Learning",
+  "category": "Emerging & Frontier Fields",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Learning from a stream of tasks without forgetting: catastrophic forgetting, regularization, replay and architectural methods.",
+  "prerequisites": [
+    "ai-regularization-normalization"
+  ],
+  "related": [
+    "ai-types-of-machine-learning"
+  ],
+  "topics": [
+    {
+      "id": "ai-continual-lifelong-learning-1",
+      "name": "Catastrophic Forgetting"
+    },
+    {
+      "id": "ai-continual-lifelong-learning-2",
+      "name": "Elastic Weight Consolidation"
+    },
+    {
+      "id": "ai-continual-lifelong-learning-3",
+      "name": "Progressive Neural Networks"
+    },
+    {
+      "id": "ai-continual-lifelong-learning-4",
+      "name": "Memory-Augmented Networks"
+    },
+    {
+      "id": "ai-continual-lifelong-learning-5",
+      "name": "Replay Methods"
+    },
+    {
+      "id": "ai-continual-lifelong-learning-6",
+      "name": "Evaluation settings: task-, domain- and class-incremental learning"
+    },
+    {
+      "id": "ai-continual-lifelong-learning-7",
+      "name": "Parameter-isolation and modular methods"
+    }
+  ]
+}

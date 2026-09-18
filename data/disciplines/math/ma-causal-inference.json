@@ -1,0 +1,49 @@
+{
+  "id": "ma-causal-inference",
+  "name": "Causal Inference",
+  "category": "Probability & Statistics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Learning cause and effect from data: potential outcomes, causal graphs, confounding adjustment and quasi-experimental designs.",
+  "prerequisites": [
+    "ma-regression-analysis",
+    "ma-mathematical-statistics"
+  ],
+  "related": [
+    "ai-causal-inference"
+  ],
+  "topics": [
+    {
+      "id": "ma-causal-inference-1",
+      "name": "Potential outcomes and causal effects"
+    },
+    {
+      "id": "ma-causal-inference-2",
+      "name": "Randomised experiments as the gold standard"
+    },
+    {
+      "id": "ma-causal-inference-3",
+      "name": "Causal graphs (DAGs), d-separation and the backdoor criterion"
+    },
+    {
+      "id": "ma-causal-inference-4",
+      "name": "Confounding adjustment: stratification, matching and propensity scores"
+    },
+    {
+      "id": "ma-causal-inference-5",
+      "name": "Inverse probability weighting and doubly robust estimation"
+    },
+    {
+      "id": "ma-causal-inference-6",
+      "name": "Instrumental variables"
+    },
+    {
+      "id": "ma-causal-inference-7",
+      "name": "Difference-in-differences and regression discontinuity"
+    },
+    {
+      "id": "ma-causal-inference-8",
+      "name": "Mediation and sensitivity analysis"
+    }
+  ]
+}

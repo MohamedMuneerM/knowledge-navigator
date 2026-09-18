@@ -1,0 +1,58 @@
+{
+  "id": "el-operational-amplifiers",
+  "name": "Operational Amplifiers",
+  "category": "Analog Electronics",
+  "level": 2,
+  "priority": "core",
+  "summary": "Designing with op-amps: inverting and non-inverting stages, differential and instrumentation amplifiers, comparators and precision parts.",
+  "prerequisites": [
+    "el-circuit-theory"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-operational-amplifiers-1",
+      "name": "Op-amp fundamentals and ideal characteristics"
+    },
+    {
+      "id": "el-operational-amplifiers-2",
+      "name": "Non-inverting and inverting configurations"
+    },
+    {
+      "id": "el-operational-amplifiers-9",
+      "name": "Non-ideal behaviour: offset, bias currents, slew rate, gain-bandwidth"
+    },
+    {
+      "id": "el-operational-amplifiers-10",
+      "name": "Integrators, differentiators and summing amplifiers"
+    },
+    {
+      "id": "el-operational-amplifiers-3",
+      "name": "Differential amplifiers"
+    },
+    {
+      "id": "el-operational-amplifiers-4",
+      "name": "Instrumentation amplifiers"
+    },
+    {
+      "id": "el-operational-amplifiers-5",
+      "name": "Comparators"
+    },
+    {
+      "id": "el-operational-amplifiers-6",
+      "name": "Current-sense amplifiers"
+    },
+    {
+      "id": "el-operational-amplifiers-7",
+      "name": "Isolation amplifiers"
+    },
+    {
+      "id": "el-operational-amplifiers-8",
+      "name": "Precision op-amps and chopper amplifiers"
+    },
+    {
+      "id": "el-operational-amplifiers-11",
+      "name": "Op-amp stability with capacitive loads"
+    }
+  ]
+}

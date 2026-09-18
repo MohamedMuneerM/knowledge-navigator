@@ -1,0 +1,66 @@
+{
+  "id": "ea-sedimentology-and-stratigraphy",
+  "name": "Sedimentology & Stratigraphy",
+  "category": "Sedimentary Geology & Earth History",
+  "level": 2,
+  "priority": "core",
+  "summary": "How sediments are produced, transported and deposited, and how layered rocks are described, correlated and interpreted.",
+  "prerequisites": [
+    "ea-mineralogy"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-sedimentology-and-stratigraphy-1",
+      "name": "Weathering, sediment production and grain properties"
+    },
+    {
+      "id": "ea-sedimentology-and-stratigraphy-2",
+      "name": "Fluid flow and sediment transport; bedforms"
+    },
+    {
+      "id": "ea-sedimentology-and-stratigraphy-3",
+      "name": "Sedimentary structures"
+    },
+    {
+      "id": "ea-sedimentology-and-stratigraphy-4",
+      "name": "Siliciclastic rocks: sandstone classification, provenance and mudrocks"
+    },
+    {
+      "id": "ea-sedimentology-and-stratigraphy-5",
+      "name": "Carbonate sediments and rocks: grains, classification and diagenesis"
+    },
+    {
+      "id": "ea-sedimentology-and-stratigraphy-6",
+      "name": "Evaporites, cherts, iron formations and phosphorites"
+    },
+    {
+      "id": "ea-sedimentology-and-stratigraphy-7",
+      "name": "Diagenesis and porosity evolution"
+    },
+    {
+      "id": "ea-sedimentology-and-stratigraphy-8",
+      "name": "Facies and facies models; Walther's law"
+    },
+    {
+      "id": "ea-sedimentology-and-stratigraphy-9",
+      "name": "Continental environments: alluvial, fluvial, lacustrine, aeolian and glacial"
+    },
+    {
+      "id": "ea-sedimentology-and-stratigraphy-10",
+      "name": "Coastal and shallow-marine environments: deltas, beaches, tidal flats and reefs"
+    },
+    {
+      "id": "ea-sedimentology-and-stratigraphy-11",
+      "name": "Deep-marine environments: turbidites and contourites"
+    },
+    {
+      "id": "ea-sedimentology-and-stratigraphy-12",
+      "name": "Stratigraphic principles; litho-, bio- and chronostratigraphy"
+    },
+    {
+      "id": "ea-sedimentology-and-stratigraphy-13",
+      "name": "Correlation and an introduction to sequence stratigraphy"
+    }
+  ]
+}

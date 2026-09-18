@@ -1,0 +1,42 @@
+{
+  "id": "el-computer-vision-libraries",
+  "name": "Computer Vision Libraries",
+  "category": "Machine Learning & Edge AI",
+  "level": 3,
+  "priority": "important",
+  "summary": "Libraries and runtimes for vision on devices: OpenCV, OpenVINO, TensorFlow Lite, ONNX Runtime and NVIDIA VisionWorks.",
+  "prerequisites": [
+    "el-image-processing"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-computer-vision-libraries-1",
+      "name": "OpenCV (Open Source Computer Vision Library)"
+    },
+    {
+      "id": "el-computer-vision-libraries-2",
+      "name": "OpenVINO (Intel's inference toolkit)"
+    },
+    {
+      "id": "el-computer-vision-libraries-3",
+      "name": "TensorFlow Lite"
+    },
+    {
+      "id": "el-computer-vision-libraries-4",
+      "name": "ONNX Runtime"
+    },
+    {
+      "id": "el-computer-vision-libraries-5",
+      "name": "VisionWorks (NVIDIA)"
+    },
+    {
+      "id": "el-computer-vision-libraries-6",
+      "name": "Building and optimizing OpenCV for embedded targets"
+    },
+    {
+      "id": "el-computer-vision-libraries-7",
+      "name": "Hardware-accelerated video pipelines (GStreamer, DeepStream)"
+    }
+  ]
+}

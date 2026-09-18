@@ -1,0 +1,46 @@
+{
+  "id": "el-vehicle-electronics-architecture",
+  "name": "Vehicle Electronics Architecture",
+  "category": "Automotive, Aerospace & Defense Systems",
+  "level": 3,
+  "priority": "important",
+  "summary": "How a modern vehicle's electronics are organized: ECUs, domain and zonal architectures, central compute and service-oriented software.",
+  "prerequisites": [
+    "el-automotive-protocols"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-vehicle-electronics-architecture-1",
+      "name": "Electronic Control Units (ECUs)"
+    },
+    {
+      "id": "el-vehicle-electronics-architecture-2",
+      "name": "Domain controllers (powertrain, chassis, body, infotainment)"
+    },
+    {
+      "id": "el-vehicle-electronics-architecture-3",
+      "name": "Zonal architectures"
+    },
+    {
+      "id": "el-vehicle-electronics-architecture-4",
+      "name": "Central compute platforms"
+    },
+    {
+      "id": "el-vehicle-electronics-architecture-5",
+      "name": "Service-Oriented Architecture (SOA)"
+    },
+    {
+      "id": "el-vehicle-electronics-architecture-6",
+      "name": "Vehicle power distribution and wiring harnesses"
+    },
+    {
+      "id": "el-vehicle-electronics-architecture-7",
+      "name": "Automotive-grade components (AEC-Q100) and operating environment"
+    },
+    {
+      "id": "el-vehicle-electronics-architecture-8",
+      "name": "Software-defined vehicles"
+    }
+  ]
+}

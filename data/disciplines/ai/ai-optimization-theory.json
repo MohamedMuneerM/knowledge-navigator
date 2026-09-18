@@ -1,0 +1,51 @@
+{
+  "id": "ai-optimization-theory",
+  "name": "Optimization Theory",
+  "category": "Theory of Machine Learning",
+  "level": 3,
+  "priority": "important",
+  "summary": "The optimization theory behind learning: convex and non-convex optimization, stochastic and second-order methods, constraints and convergence.",
+  "prerequisites": [
+    "ai-neural-network-foundations"
+  ],
+  "related": [
+    "ma-optimization-algorithms",
+    "ma-gradient-based-optimization",
+    "ma-convex-optimization",
+    "ma-nonlinear-programming"
+  ],
+  "topics": [
+    {
+      "id": "ai-optimization-theory-1",
+      "name": "Gradient Descent"
+    },
+    {
+      "id": "ai-optimization-theory-2",
+      "name": "Convex Optimization"
+    },
+    {
+      "id": "ai-optimization-theory-3",
+      "name": "Non-convex Optimization"
+    },
+    {
+      "id": "ai-optimization-theory-4",
+      "name": "Stochastic Optimization"
+    },
+    {
+      "id": "ai-optimization-theory-5",
+      "name": "Constrained Optimization"
+    },
+    {
+      "id": "ai-optimization-theory-6",
+      "name": "Second-Order Methods"
+    },
+    {
+      "id": "ai-optimization-theory-7",
+      "name": "Convergence Analysis"
+    },
+    {
+      "id": "ai-optimization-theory-8",
+      "name": "Variational Optimization"
+    }
+  ]
+}

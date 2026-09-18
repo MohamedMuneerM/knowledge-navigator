@@ -1,0 +1,83 @@
+{
+  "id": "ph-particle-physics",
+  "name": "Particle Physics",
+  "category": "Nuclear & Particle Physics",
+  "level": 3,
+  "priority": "important",
+  "summary": "The elementary particles and forces of the Standard Model and the search for what lies beyond it.",
+  "prerequisites": [
+    "ph-quantum-mechanics",
+    "ph-special-relativity"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-particle-physics-16",
+      "name": "Relativistic kinematics, cross-sections and decay rates"
+    },
+    {
+      "id": "ph-particle-physics-17",
+      "name": "Symmetries and conservation laws: isospin, strangeness and the quark model"
+    },
+    {
+      "id": "ph-particle-physics-2",
+      "name": "Quarks and leptons"
+    },
+    {
+      "id": "ph-particle-physics-10",
+      "name": "Hadron physics (mesons, baryons)"
+    },
+    {
+      "id": "ph-particle-physics-3",
+      "name": "Gauge bosons (photon, W, Z, gluons)"
+    },
+    {
+      "id": "ph-particle-physics-1",
+      "name": "Standard Model"
+    },
+    {
+      "id": "ph-particle-physics-6",
+      "name": "Strong interactions"
+    },
+    {
+      "id": "ph-particle-physics-7",
+      "name": "Weak interactions"
+    },
+    {
+      "id": "ph-particle-physics-5",
+      "name": "Electroweak unification"
+    },
+    {
+      "id": "ph-particle-physics-4",
+      "name": "Higgs mechanism and Higgs boson"
+    },
+    {
+      "id": "ph-particle-physics-8",
+      "name": "Neutrino physics (oscillations, masses)"
+    },
+    {
+      "id": "ph-particle-physics-9",
+      "name": "CP violation"
+    },
+    {
+      "id": "ph-particle-physics-14",
+      "name": "Flavor physics"
+    },
+    {
+      "id": "ph-particle-physics-15",
+      "name": "Antimatter"
+    },
+    {
+      "id": "ph-particle-physics-11",
+      "name": "Quark-gluon plasma"
+    },
+    {
+      "id": "ph-particle-physics-12",
+      "name": "Collider physics"
+    },
+    {
+      "id": "ph-particle-physics-13",
+      "name": "Beyond Standard Model (supersymmetry, grand unification)"
+    }
+  ]
+}

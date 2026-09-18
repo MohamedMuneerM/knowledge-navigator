@@ -1,0 +1,59 @@
+{
+  "id": "bi-pathophysiology-human-disease",
+  "name": "Pathophysiology & Human Disease",
+  "category": "Health & Biomedical Sciences",
+  "level": 3,
+  "priority": "important",
+  "summary": "How normal biology goes wrong: cell injury, inflammation, repair and the mechanisms of the major human diseases.",
+  "prerequisites": [
+    "bi-human-physiology",
+    "bi-immunology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-pathophysiology-human-disease-1",
+      "name": "Cell injury, adaptation and cell death"
+    },
+    {
+      "id": "bi-pathophysiology-human-disease-2",
+      "name": "Acute and chronic inflammation"
+    },
+    {
+      "id": "bi-pathophysiology-human-disease-3",
+      "name": "Tissue repair, healing and fibrosis"
+    },
+    {
+      "id": "bi-pathophysiology-human-disease-4",
+      "name": "Haemodynamic disorders: thrombosis, embolism, shock"
+    },
+    {
+      "id": "bi-pathophysiology-human-disease-5",
+      "name": "Neoplasia (overview)"
+    },
+    {
+      "id": "bi-pathophysiology-human-disease-6",
+      "name": "Cardiovascular disease: atherosclerosis, heart failure, hypertension"
+    },
+    {
+      "id": "bi-pathophysiology-human-disease-7",
+      "name": "Respiratory disease: asthma, COPD"
+    },
+    {
+      "id": "bi-pathophysiology-human-disease-8",
+      "name": "Metabolic disease: diabetes and obesity"
+    },
+    {
+      "id": "bi-pathophysiology-human-disease-9",
+      "name": "Kidney and liver disease"
+    },
+    {
+      "id": "bi-pathophysiology-human-disease-10",
+      "name": "Genetic and paediatric disease"
+    },
+    {
+      "id": "bi-pathophysiology-human-disease-11",
+      "name": "Disease diagnosis: clinical chemistry, histopathology and biomarkers"
+    }
+  ]
+}

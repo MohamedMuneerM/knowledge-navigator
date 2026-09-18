@@ -1,0 +1,52 @@
+{
+  "id": "ma-order-lattices",
+  "name": "Order Theory & Lattices",
+  "category": "Algebra",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Partially ordered sets and lattices: Boolean and distributive lattices, Galois connections, fixed-point theorems and their uses in logic and computing.",
+  "prerequisites": [
+    "ma-discrete-mathematics"
+  ],
+  "related": [
+    "ma-specialized-algebraic-structures"
+  ],
+  "topics": [
+    {
+      "id": "ma-order-lattices-1",
+      "name": "Partially ordered sets, Hasse diagrams, chains and antichains"
+    },
+    {
+      "id": "ma-order-lattices-2",
+      "name": "Lattices as ordered sets and as algebras"
+    },
+    {
+      "id": "ma-order-lattices-3",
+      "name": "Complete lattices and closure operators"
+    },
+    {
+      "id": "ma-order-lattices-4",
+      "name": "Distributive and modular lattices"
+    },
+    {
+      "id": "ma-order-lattices-5",
+      "name": "Boolean algebras and Stone's representation theorem"
+    },
+    {
+      "id": "ma-order-lattices-6",
+      "name": "Galois connections"
+    },
+    {
+      "id": "ma-order-lattices-7",
+      "name": "Fixed-point theorems (Knaster-Tarski) and domain theory basics"
+    },
+    {
+      "id": "ma-order-lattices-8",
+      "name": "Dilworth's theorem and Zorn's lemma"
+    },
+    {
+      "id": "ma-order-lattices-9",
+      "name": "Ordered algebraic structures: ordered groups and fields"
+    }
+  ]
+}

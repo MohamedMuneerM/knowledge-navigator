@@ -1,0 +1,63 @@
+{
+  "id": "ea-atmospheric-thermodynamics-and-cloud-physics",
+  "name": "Atmospheric Thermodynamics & Cloud Physics",
+  "category": "Meteorology & Atmospheric Science",
+  "level": 3,
+  "priority": "core",
+  "summary": "The thermodynamics of dry and moist air, stability and convection, and the microphysics of clouds and precipitation.",
+  "prerequisites": [
+    "ea-meteorology",
+    "ph-thermodynamics-statistical-mechanics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-atmospheric-thermodynamics-and-cloud-physics-1",
+      "name": "Gas laws and the hydrostatic equation"
+    },
+    {
+      "id": "ea-atmospheric-thermodynamics-and-cloud-physics-2",
+      "name": "First law, adiabatic processes and potential temperature"
+    },
+    {
+      "id": "ea-atmospheric-thermodynamics-and-cloud-physics-3",
+      "name": "Water vapour, Clausius-Clapeyron and moisture variables"
+    },
+    {
+      "id": "ea-atmospheric-thermodynamics-and-cloud-physics-4",
+      "name": "Moist adiabatic processes and equivalent potential temperature"
+    },
+    {
+      "id": "ea-atmospheric-thermodynamics-and-cloud-physics-5",
+      "name": "Thermodynamic diagrams (skew-T/log-p)"
+    },
+    {
+      "id": "ea-atmospheric-thermodynamics-and-cloud-physics-6",
+      "name": "Static stability, CAPE and convection"
+    },
+    {
+      "id": "ea-atmospheric-thermodynamics-and-cloud-physics-7",
+      "name": "Aerosols, cloud condensation nuclei and Köhler theory"
+    },
+    {
+      "id": "ea-atmospheric-thermodynamics-and-cloud-physics-8",
+      "name": "Droplet growth by condensation and collision-coalescence"
+    },
+    {
+      "id": "ea-atmospheric-thermodynamics-and-cloud-physics-9",
+      "name": "Ice nucleation and the Bergeron-Findeisen process"
+    },
+    {
+      "id": "ea-atmospheric-thermodynamics-and-cloud-physics-10",
+      "name": "Precipitation types and hail"
+    },
+    {
+      "id": "ea-atmospheric-thermodynamics-and-cloud-physics-11",
+      "name": "Cloud electrification and lightning"
+    },
+    {
+      "id": "ea-atmospheric-thermodynamics-and-cloud-physics-12",
+      "name": "Weather radar and precipitation measurement"
+    }
+  ]
+}

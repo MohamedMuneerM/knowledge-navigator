@@ -1,0 +1,43 @@
+{
+  "id": "ma-solid-mechanics",
+  "name": "Solid Mechanics",
+  "category": "Mathematical Physics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Mathematical theory of deformable solids: stress, strain, linear elasticity and plasticity.",
+  "prerequisites": [
+    "ma-tensor-analysis",
+    "ma-partial-differential-equations-pdes",
+    "me-mechanics-of-materials"
+  ],
+  "related": [
+    "me-continuum-mechanics-elasticity-plasticity",
+    "ae-aerospace-structures"
+  ],
+  "topics": [
+    {
+      "id": "ma-solid-mechanics-4",
+      "name": "Stress and strain tensors"
+    },
+    {
+      "id": "ma-solid-mechanics-5",
+      "name": "Constitutive laws and Hooke's law"
+    },
+    {
+      "id": "ma-solid-mechanics-1",
+      "name": "Elasticity theory"
+    },
+    {
+      "id": "ma-solid-mechanics-6",
+      "name": "Elastic waves"
+    },
+    {
+      "id": "ma-solid-mechanics-2",
+      "name": "Plasticity"
+    },
+    {
+      "id": "ma-solid-mechanics-3",
+      "name": "Biomechanics"
+    }
+  ]
+}

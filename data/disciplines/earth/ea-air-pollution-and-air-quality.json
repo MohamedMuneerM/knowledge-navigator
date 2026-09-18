@@ -1,0 +1,53 @@
+{
+  "id": "ea-air-pollution-and-air-quality",
+  "name": "Air Pollution & Air Quality",
+  "category": "Environmental Science & Pollution",
+  "level": 3,
+  "priority": "important",
+  "summary": "The sources, transport, chemistry, health effects and control of air pollutants, and how air quality is monitored and regulated.",
+  "prerequisites": [
+    "ea-atmospheric-chemistry"
+  ],
+  "related": [
+    "ch-atmospheric-chemistry",
+    "ch-environmental-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "ea-air-pollution-and-air-quality-1",
+      "name": "Criteria pollutants and hazardous air pollutants"
+    },
+    {
+      "id": "ea-air-pollution-and-air-quality-2",
+      "name": "Emission sources and inventories"
+    },
+    {
+      "id": "ea-air-pollution-and-air-quality-3",
+      "name": "Particulate matter: sources, composition and health effects"
+    },
+    {
+      "id": "ea-air-pollution-and-air-quality-4",
+      "name": "Atmospheric dispersion and the Gaussian plume model"
+    },
+    {
+      "id": "ea-air-pollution-and-air-quality-5",
+      "name": "Regional air-quality modelling"
+    },
+    {
+      "id": "ea-air-pollution-and-air-quality-6",
+      "name": "Air-quality monitoring and satellite observations"
+    },
+    {
+      "id": "ea-air-pollution-and-air-quality-7",
+      "name": "Indoor air pollution"
+    },
+    {
+      "id": "ea-air-pollution-and-air-quality-8",
+      "name": "Air-quality standards and regulation"
+    },
+    {
+      "id": "ea-air-pollution-and-air-quality-9",
+      "name": "Emission-control technologies"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ai-cloud-ml-platforms",
+  "name": "Cloud ML Platforms",
+  "category": "MLOps & ML Engineering",
+  "level": 3,
+  "priority": "optional",
+  "summary": "Managed ML platforms (SageMaker, Vertex AI, Azure ML, Databricks) and what they provide across the ML lifecycle.",
+  "prerequisites": [
+    "ai-model-deployment"
+  ],
+  "related": [
+    "cs-cloud-computing"
+  ],
+  "topics": [
+    {
+      "id": "ai-cloud-ml-platforms-1",
+      "name": "AWS SageMaker"
+    },
+    {
+      "id": "ai-cloud-ml-platforms-2",
+      "name": "Google Cloud Vertex AI"
+    },
+    {
+      "id": "ai-cloud-ml-platforms-3",
+      "name": "Azure Machine Learning"
+    },
+    {
+      "id": "ai-cloud-ml-platforms-4",
+      "name": "Databricks"
+    }
+  ]
+}

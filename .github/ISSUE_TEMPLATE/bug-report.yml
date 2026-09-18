@@ -1,0 +1,23 @@
+name: App bug
+description: Something in the dashboard doesn't work.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the Rocket Science roadmap
+        2. Click …
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: Chrome 140 on Windows 11

@@ -1,0 +1,39 @@
+{
+  "id": "ph-detector-physics",
+  "name": "Detector Physics",
+  "category": "Experimental Physics & Instrumentation",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "How radiation and particles interact with matter and how detectors turn those interactions into signals.",
+  "prerequisites": [
+    "ph-measurement-instrumentation",
+    "ph-nuclear-physics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-detector-physics-1",
+      "name": "Particle detectors"
+    },
+    {
+      "id": "ph-detector-physics-2",
+      "name": "Scintillators"
+    },
+    {
+      "id": "ph-detector-physics-3",
+      "name": "Calorimeters"
+    },
+    {
+      "id": "ph-detector-physics-4",
+      "name": "Tracking detectors"
+    },
+    {
+      "id": "ph-detector-physics-5",
+      "name": "Photomultipliers and photodetectors"
+    },
+    {
+      "id": "ph-detector-physics-6",
+      "name": "Semiconductor detectors"
+    }
+  ]
+}

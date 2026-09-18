@@ -1,0 +1,97 @@
+{
+  "id": "ai-databases",
+  "name": "Databases",
+  "category": "Data Science",
+  "level": 2,
+  "priority": "important",
+  "summary": "Storing and querying data with SQL relational databases, NoSQL stores and vector databases.",
+  "prerequisites": [
+    "ai-programming-tools"
+  ],
+  "related": [
+    "ai-retrieval-augmented-generation",
+    "cs-databases",
+    "cs-nosql-data-systems",
+    "el-data-management"
+  ],
+  "topics": [
+    {
+      "id": "ai-databases-4",
+      "name": "SQL querying: joins, aggregation and window functions"
+    },
+    {
+      "id": "ai-databases-5",
+      "name": "Relational modelling and normalization"
+    },
+    {
+      "id": "ai-databases-1",
+      "name": "Relational Databases (SQL)",
+      "sub": [
+        {
+          "id": "ai-databases-1-1",
+          "name": "MySQL"
+        },
+        {
+          "id": "ai-databases-1-2",
+          "name": "PostgreSQL"
+        },
+        {
+          "id": "ai-databases-1-3",
+          "name": "Oracle"
+        }
+      ]
+    },
+    {
+      "id": "ai-databases-2",
+      "name": "NoSQL Databases",
+      "sub": [
+        {
+          "id": "ai-databases-2-1",
+          "name": "MongoDB (Document)"
+        },
+        {
+          "id": "ai-databases-2-2",
+          "name": "Cassandra (Wide-column)"
+        },
+        {
+          "id": "ai-databases-2-3",
+          "name": "Redis (Key-value)"
+        },
+        {
+          "id": "ai-databases-2-4",
+          "name": "Neo4j (Graph)"
+        }
+      ]
+    },
+    {
+      "id": "ai-databases-3",
+      "name": "Vector Databases",
+      "sub": [
+        {
+          "id": "ai-databases-3-1",
+          "name": "Pinecone"
+        },
+        {
+          "id": "ai-databases-3-2",
+          "name": "Weaviate"
+        },
+        {
+          "id": "ai-databases-3-3",
+          "name": "Milvus"
+        },
+        {
+          "id": "ai-databases-3-4",
+          "name": "Chroma"
+        }
+      ]
+    },
+    {
+      "id": "ai-databases-6",
+      "name": "Indexes and query performance"
+    },
+    {
+      "id": "ai-databases-7",
+      "name": "Transactions and ACID properties"
+    }
+  ]
+}

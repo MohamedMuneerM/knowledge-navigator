@@ -1,0 +1,54 @@
+{
+  "id": "ea-climate-dynamics",
+  "name": "Climate Dynamics",
+  "category": "Climate Science & Paleoclimate",
+  "level": 4,
+  "priority": "important",
+  "summary": "The physics of climate: energy-balance and radiative-convective models, feedbacks, circulation and modes of variability.",
+  "prerequisites": [
+    "ea-climate-system-science",
+    "ea-atmospheric-dynamics",
+    "ea-atmospheric-radiation"
+  ],
+  "related": [
+    "ph-atmospheric-environmental-physics"
+  ],
+  "topics": [
+    {
+      "id": "ea-climate-dynamics-1",
+      "name": "Energy-balance models and ice-albedo instability"
+    },
+    {
+      "id": "ea-climate-dynamics-2",
+      "name": "Radiative-convective models and the hydrological cycle"
+    },
+    {
+      "id": "ea-climate-dynamics-3",
+      "name": "Feedback analysis and climate sensitivity estimates"
+    },
+    {
+      "id": "ea-climate-dynamics-4",
+      "name": "Ocean heat uptake and transient climate response"
+    },
+    {
+      "id": "ea-climate-dynamics-5",
+      "name": "Hydrological cycle response to warming"
+    },
+    {
+      "id": "ea-climate-dynamics-6",
+      "name": "Modes of variability: ENSO, PDO, AMO and annular modes"
+    },
+    {
+      "id": "ea-climate-dynamics-7",
+      "name": "Monsoons and regional climate"
+    },
+    {
+      "id": "ea-climate-dynamics-8",
+      "name": "Abrupt change and tipping elements"
+    },
+    {
+      "id": "ea-climate-dynamics-9",
+      "name": "Detection and attribution of climate change"
+    }
+  ]
+}

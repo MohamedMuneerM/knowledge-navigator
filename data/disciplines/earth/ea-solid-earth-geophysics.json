@@ -1,0 +1,54 @@
+{
+  "id": "ea-solid-earth-geophysics",
+  "name": "Introduction to Solid-Earth Geophysics",
+  "category": "Solid-Earth Geophysics",
+  "level": 3,
+  "priority": "core",
+  "summary": "Physics applied to the whole Earth: seismology, gravity, magnetism and heat flow as windows into the planet's interior.",
+  "prerequisites": [
+    "ea-plate-tectonics",
+    "ph-classical-mechanics"
+  ],
+  "related": [
+    "ph-geophysics",
+    "ma-geophysics"
+  ],
+  "topics": [
+    {
+      "id": "ea-solid-earth-geophysics-1",
+      "name": "Earth's shape, rotation and gravity field"
+    },
+    {
+      "id": "ea-solid-earth-geophysics-2",
+      "name": "Seismic waves and the radial structure of the Earth"
+    },
+    {
+      "id": "ea-solid-earth-geophysics-3",
+      "name": "Earthquakes: location, magnitude and focal mechanisms in outline"
+    },
+    {
+      "id": "ea-solid-earth-geophysics-4",
+      "name": "Isostasy and gravity anomalies"
+    },
+    {
+      "id": "ea-solid-earth-geophysics-5",
+      "name": "Earth's magnetic field and palaeomagnetism in outline"
+    },
+    {
+      "id": "ea-solid-earth-geophysics-6",
+      "name": "Heat flow, radioactivity and the thermal structure of the Earth"
+    },
+    {
+      "id": "ea-solid-earth-geophysics-7",
+      "name": "Geophysical evidence for plate tectonics"
+    },
+    {
+      "id": "ea-solid-earth-geophysics-8",
+      "name": "Earth's interior: crust, mantle, core and their boundaries"
+    },
+    {
+      "id": "ea-solid-earth-geophysics-9",
+      "name": "Tides and Earth rotation variations"
+    }
+  ]
+}

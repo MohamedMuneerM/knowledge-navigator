@@ -1,0 +1,63 @@
+{
+  "id": "bi-bioregenerative-life-support",
+  "name": "Bioregenerative Life Support & Space Agriculture",
+  "category": "Astrobiology & Space Biology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Using plants, algae and microbes to recycle air, water and waste and grow food for long missions and future habitats on the Moon and Mars.",
+  "prerequisites": [
+    "bi-ecosystem-ecology",
+    "bi-plant-physiology",
+    "bi-microbiology"
+  ],
+  "related": [
+    "ae-human-spaceflight-life-support",
+    "ae-space-resources-surface-systems"
+  ],
+  "topics": [
+    {
+      "id": "bi-bioregenerative-life-support-1",
+      "name": "Physico-chemical versus bioregenerative life support"
+    },
+    {
+      "id": "bi-bioregenerative-life-support-2",
+      "name": "Closed ecological systems: BIOS-3, Biosphere 2 and Lunar Palace"
+    },
+    {
+      "id": "bi-bioregenerative-life-support-3",
+      "name": "ESA MELiSSA loop and compartment design"
+    },
+    {
+      "id": "bi-bioregenerative-life-support-4",
+      "name": "Crop production in space: Veggie, Advanced Plant Habitat, lighting and hydroponics"
+    },
+    {
+      "id": "bi-bioregenerative-life-support-5",
+      "name": "Algae and cyanobacteria for oxygen and food"
+    },
+    {
+      "id": "bi-bioregenerative-life-support-6",
+      "name": "Microbial waste processing and water recycling"
+    },
+    {
+      "id": "bi-bioregenerative-life-support-7",
+      "name": "Food systems and nutrition for long-duration missions"
+    },
+    {
+      "id": "bi-bioregenerative-life-support-8",
+      "name": "Space synthetic biology and biological in-situ resource utilisation (biomining)"
+    },
+    {
+      "id": "bi-bioregenerative-life-support-9",
+      "name": "Regolith as a growth medium: lunar and Martian soils"
+    },
+    {
+      "id": "bi-bioregenerative-life-support-10",
+      "name": "Microbial monitoring and contamination control in habitats"
+    },
+    {
+      "id": "bi-bioregenerative-life-support-11",
+      "name": "Stability and control of small closed ecosystems"
+    }
+  ]
+}

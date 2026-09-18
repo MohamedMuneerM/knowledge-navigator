@@ -1,0 +1,76 @@
+{
+  "id": "mt-xray-neutron-methods",
+  "name": "X-ray, Neutron & Synchrotron Methods",
+  "category": "Materials Characterization",
+  "level": 3,
+  "priority": "important",
+  "summary": "Applies diffraction and scattering to identify phases, measure strain and texture, and probe structure from atoms to microns.",
+  "prerequisites": [
+    "mt-crystallography-diffraction",
+    "mt-characterization-fundamentals"
+  ],
+  "related": [
+    "ph-experimental-techniques",
+    "ch-structural-methods-diffraction",
+    "ea-analytical-methods-in-geochemistry",
+    "bi-structural-biology"
+  ],
+  "topics": [
+    {
+      "id": "mt-xray-neutron-methods-1",
+      "name": "Generating X-rays: tubes, characteristic spectra and filters; synchrotron sources"
+    },
+    {
+      "id": "mt-xray-neutron-methods-2",
+      "name": "Powder diffractometer geometry and data collection"
+    },
+    {
+      "id": "mt-xray-neutron-methods-3",
+      "name": "Phase identification with the PDF database"
+    },
+    {
+      "id": "mt-xray-neutron-methods-4",
+      "name": "Quantitative phase analysis and Rietveld refinement"
+    },
+    {
+      "id": "mt-xray-neutron-methods-5",
+      "name": "Crystallite size and microstrain from peak broadening (Scherrer, Williamson-Hall)"
+    },
+    {
+      "id": "mt-xray-neutron-methods-6",
+      "name": "Residual stress measurement (sin²ψ method)"
+    },
+    {
+      "id": "mt-xray-neutron-methods-7",
+      "name": "Texture measurement: pole figures and orientation distribution functions"
+    },
+    {
+      "id": "mt-xray-neutron-methods-8",
+      "name": "Single-crystal diffraction and Laue methods"
+    },
+    {
+      "id": "mt-xray-neutron-methods-9",
+      "name": "Thin-film methods: grazing incidence, reflectivity and high-resolution XRD"
+    },
+    {
+      "id": "mt-xray-neutron-methods-10",
+      "name": "Small-angle X-ray and neutron scattering (SAXS/SANS)"
+    },
+    {
+      "id": "mt-xray-neutron-methods-11",
+      "name": "Neutron diffraction: light elements, magnetic structure and bulk residual stress"
+    },
+    {
+      "id": "mt-xray-neutron-methods-12",
+      "name": "X-ray absorption spectroscopy (XANES/EXAFS) and X-ray fluorescence"
+    },
+    {
+      "id": "mt-xray-neutron-methods-13",
+      "name": "X-ray computed tomography and 3D/4D imaging"
+    },
+    {
+      "id": "mt-xray-neutron-methods-14",
+      "name": "In-situ and operando diffraction at synchrotrons"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ma-thermodynamics",
+  "name": "Thermodynamics",
+  "category": "Mathematical Physics",
+  "level": 2,
+  "priority": "advanced",
+  "summary": "The mathematical structure of thermodynamics: state functions, exact differentials, entropy and free energies.",
+  "prerequisites": [
+    "ma-multivariable-calculus",
+    "ph-introductory-heat-thermodynamics"
+  ],
+  "related": [
+    "ph-thermodynamics-statistical-mechanics",
+    "ch-chemical-thermodynamics",
+    "me-engineering-thermodynamics",
+    "mt-thermodynamics-of-materials"
+  ],
+  "topics": [
+    {
+      "id": "ma-thermodynamics-4",
+      "name": "State variables and exact differentials"
+    },
+    {
+      "id": "ma-thermodynamics-1",
+      "name": "Laws of thermodynamics"
+    },
+    {
+      "id": "ma-thermodynamics-2",
+      "name": "Entropy"
+    },
+    {
+      "id": "ma-thermodynamics-3",
+      "name": "Free energy"
+    },
+    {
+      "id": "ma-thermodynamics-5",
+      "name": "Maxwell relations and Legendre transforms"
+    },
+    {
+      "id": "ma-thermodynamics-6",
+      "name": "Carathéodory's axiomatic approach"
+    }
+  ]
+}

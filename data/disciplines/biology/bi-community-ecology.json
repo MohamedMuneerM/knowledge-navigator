@@ -1,0 +1,56 @@
+{
+  "id": "bi-community-ecology",
+  "name": "Community Ecology",
+  "category": "Ecology & Environment",
+  "level": 3,
+  "priority": "important",
+  "summary": "What determines which species live together and how many: niches, food webs, diversity patterns, disturbance and assembly.",
+  "prerequisites": [
+    "bi-population-ecology"
+  ],
+  "related": [
+    "ma-network-science"
+  ],
+  "topics": [
+    {
+      "id": "bi-community-ecology-1",
+      "name": "Measuring biodiversity: richness, evenness, alpha/beta/gamma diversity"
+    },
+    {
+      "id": "bi-community-ecology-2",
+      "name": "Niche theory and coexistence mechanisms"
+    },
+    {
+      "id": "bi-community-ecology-3",
+      "name": "Food webs and trophic cascades"
+    },
+    {
+      "id": "bi-community-ecology-4",
+      "name": "Keystone species and ecosystem engineers"
+    },
+    {
+      "id": "bi-community-ecology-5",
+      "name": "Mutualistic networks: pollination and seed dispersal"
+    },
+    {
+      "id": "bi-community-ecology-6",
+      "name": "Disturbance, succession and the intermediate disturbance hypothesis"
+    },
+    {
+      "id": "bi-community-ecology-7",
+      "name": "Community assembly and neutral theory"
+    },
+    {
+      "id": "bi-community-ecology-8",
+      "name": "Island biogeography"
+    },
+    {
+      "id": "bi-community-ecology-9",
+      "name": "Invasive species"
+    },
+    {
+      "id": "bi-community-ecology-10",
+      "name": "Stability, resilience and diversity-stability relationships"
+    }
+  ]
+}

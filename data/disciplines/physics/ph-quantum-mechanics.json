@@ -1,0 +1,123 @@
+{
+  "id": "ph-quantum-mechanics",
+  "name": "Quantum Mechanics",
+  "category": "Quantum Physics",
+  "level": 2,
+  "priority": "core",
+  "summary": "The core quantum theory of wavefunctions, operators, angular momentum and approximation methods.",
+  "prerequisites": [
+    "ph-modern-physics",
+    "ph-waves-oscillations",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ma-quantum-mechanics",
+    "ch-quantum-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "ph-quantum-mechanics-1",
+      "name": "Wave-particle duality"
+    },
+    {
+      "id": "ph-quantum-mechanics-2",
+      "name": "Wave functions and probability"
+    },
+    {
+      "id": "ph-quantum-mechanics-4",
+      "name": "Schrödinger equation (time-dependent and time-independent)"
+    },
+    {
+      "id": "ph-quantum-mechanics-21",
+      "name": "The free particle and wave packets"
+    },
+    {
+      "id": "ph-quantum-mechanics-22",
+      "name": "Infinite and finite square wells"
+    },
+    {
+      "id": "ph-quantum-mechanics-9",
+      "name": "Quantum tunneling"
+    },
+    {
+      "id": "ph-quantum-mechanics-23",
+      "name": "The quantum harmonic oscillator and ladder operators"
+    },
+    {
+      "id": "ph-quantum-mechanics-3",
+      "name": "Operators and observables"
+    },
+    {
+      "id": "ph-quantum-mechanics-5",
+      "name": "Quantum states and superposition"
+    },
+    {
+      "id": "ph-quantum-mechanics-24",
+      "name": "Dirac notation and Hilbert space"
+    },
+    {
+      "id": "ph-quantum-mechanics-6",
+      "name": "Uncertainty principle"
+    },
+    {
+      "id": "ph-quantum-mechanics-25",
+      "name": "Two-state systems"
+    },
+    {
+      "id": "ph-quantum-mechanics-7",
+      "name": "Angular momentum (orbital and spin)"
+    },
+    {
+      "id": "ph-quantum-mechanics-26",
+      "name": "The hydrogen atom"
+    },
+    {
+      "id": "ph-quantum-mechanics-8",
+      "name": "Spin and spinors"
+    },
+    {
+      "id": "ph-quantum-mechanics-15",
+      "name": "Identical particles and exchange symmetry"
+    },
+    {
+      "id": "ph-quantum-mechanics-12",
+      "name": "Perturbation theory (time-dependent and time-independent)"
+    },
+    {
+      "id": "ph-quantum-mechanics-14",
+      "name": "Variational methods"
+    },
+    {
+      "id": "ph-quantum-mechanics-13",
+      "name": "WKB approximation"
+    },
+    {
+      "id": "ph-quantum-mechanics-11",
+      "name": "Scattering theory"
+    },
+    {
+      "id": "ph-quantum-mechanics-16",
+      "name": "Density matrix and mixed states"
+    },
+    {
+      "id": "ph-quantum-mechanics-20",
+      "name": "Quantum entanglement"
+    },
+    {
+      "id": "ph-quantum-mechanics-19",
+      "name": "Bell's theorem and EPR paradox"
+    },
+    {
+      "id": "ph-quantum-mechanics-10",
+      "name": "Measurement theory and collapse"
+    },
+    {
+      "id": "ph-quantum-mechanics-17",
+      "name": "Decoherence"
+    },
+    {
+      "id": "ph-quantum-mechanics-18",
+      "name": "Interpretations of quantum mechanics (Copenhagen, Many-worlds, etc.)"
+    }
+  ]
+}

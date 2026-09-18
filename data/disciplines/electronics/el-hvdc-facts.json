@@ -1,0 +1,47 @@
+{
+  "id": "el-hvdc-facts",
+  "name": "HVDC & FACTS",
+  "category": "Electrical Machines & Power Systems",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Power-electronic transmission: line-commutated and VSC HVDC, multi-terminal DC grids and flexible AC transmission devices.",
+  "prerequisites": [
+    "el-high-power-converters",
+    "el-power-flow-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-hvdc-facts-1",
+      "name": "Why HVDC: economics and applications"
+    },
+    {
+      "id": "el-hvdc-facts-2",
+      "name": "Line-commutated converter HVDC (6- and 12-pulse)"
+    },
+    {
+      "id": "el-hvdc-facts-3",
+      "name": "Voltage-source converter HVDC and MMC stations"
+    },
+    {
+      "id": "el-hvdc-facts-4",
+      "name": "HVDC control and protection, DC circuit breakers"
+    },
+    {
+      "id": "el-hvdc-facts-5",
+      "name": "Multi-terminal DC grids"
+    },
+    {
+      "id": "el-hvdc-facts-6",
+      "name": "FACTS devices: SVC, TCSC, STATCOM, SSSC, UPFC"
+    },
+    {
+      "id": "el-hvdc-facts-7",
+      "name": "Reactive power compensation"
+    },
+    {
+      "id": "el-hvdc-facts-8",
+      "name": "Applications: offshore wind connection and interconnectors"
+    }
+  ]
+}

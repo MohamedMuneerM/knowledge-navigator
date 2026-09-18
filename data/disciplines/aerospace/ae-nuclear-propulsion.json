@@ -1,0 +1,55 @@
+{
+  "id": "ae-nuclear-propulsion",
+  "name": "Nuclear Propulsion and Space Nuclear Power",
+  "category": "Space & Advanced Propulsion",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Nuclear thermal and nuclear electric propulsion and space reactors, promising much higher performance for crewed Mars missions.",
+  "prerequisites": [
+    "ae-liquid-rocket-engines",
+    "ph-nuclear-physics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-nuclear-propulsion-1",
+      "name": "Nuclear fission basics for engineers"
+    },
+    {
+      "id": "ae-nuclear-propulsion-2",
+      "name": "Nuclear thermal rocket principle and performance"
+    },
+    {
+      "id": "ae-nuclear-propulsion-3",
+      "name": "NERVA/Rover programme history"
+    },
+    {
+      "id": "ae-nuclear-propulsion-4",
+      "name": "Reactor fuel forms: solid core, particle bed, CERMET"
+    },
+    {
+      "id": "ae-nuclear-propulsion-5",
+      "name": "Nuclear electric propulsion architectures"
+    },
+    {
+      "id": "ae-nuclear-propulsion-6",
+      "name": "Radioisotope power and propulsion"
+    },
+    {
+      "id": "ae-nuclear-propulsion-7",
+      "name": "Shielding and radiation protection"
+    },
+    {
+      "id": "ae-nuclear-propulsion-8",
+      "name": "Nuclear safety, launch approval and policy"
+    },
+    {
+      "id": "ae-nuclear-propulsion-9",
+      "name": "Bimodal and advanced concepts: gas core, fission fragment"
+    },
+    {
+      "id": "ae-nuclear-propulsion-10",
+      "name": "Current programmes (e.g. DRACO) and mission applications"
+    }
+  ]
+}

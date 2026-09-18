@@ -1,0 +1,70 @@
+{
+  "id": "mt-polymer-properties",
+  "name": "Polymer Properties & Engineering Polymers",
+  "category": "Polymers & Soft Matter",
+  "level": 3,
+  "priority": "important",
+  "summary": "Covers the thermal, mechanical, viscoelastic and rheological behaviour of polymers and how to choose and design with them.",
+  "prerequisites": [
+    "mt-polymer-structure",
+    "mt-mechanical-properties"
+  ],
+  "related": [
+    "ph-soft-matter-physics",
+    "ch-polymer-physical-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "mt-polymer-properties-1",
+      "name": "Thermal transitions: glass transition and melting; factors that control Tg and Tm"
+    },
+    {
+      "id": "mt-polymer-properties-2",
+      "name": "Polymer solutions and blends: Flory-Huggins theory and miscibility"
+    },
+    {
+      "id": "mt-polymer-properties-3",
+      "name": "Stress-strain behaviour of glassy, semicrystalline and rubbery polymers"
+    },
+    {
+      "id": "mt-polymer-properties-4",
+      "name": "Viscoelasticity: creep, stress relaxation, Maxwell and Kelvin-Voigt models"
+    },
+    {
+      "id": "mt-polymer-properties-5",
+      "name": "Dynamic mechanical behaviour: storage and loss moduli"
+    },
+    {
+      "id": "mt-polymer-properties-6",
+      "name": "Time-temperature superposition and the WLF equation"
+    },
+    {
+      "id": "mt-polymer-properties-7",
+      "name": "Rubber elasticity: entropy springs, cross-link density and vulcanisation"
+    },
+    {
+      "id": "mt-polymer-properties-8",
+      "name": "Yielding, crazing and shear banding; fracture and toughening of polymers"
+    },
+    {
+      "id": "mt-polymer-properties-9",
+      "name": "Melt rheology: shear thinning, viscosity models and die swell"
+    },
+    {
+      "id": "mt-polymer-properties-10",
+      "name": "High-performance polymers and fibres: aramid (Kevlar), UHMWPE (Dyneema), PBO, PEEK, polyimides"
+    },
+    {
+      "id": "mt-polymer-properties-11",
+      "name": "Thermoset resins: epoxy, cyanate ester, phenolic and bismaleimide curing chemistry"
+    },
+    {
+      "id": "mt-polymer-properties-12",
+      "name": "Polymer degradation, ageing and weathering"
+    },
+    {
+      "id": "mt-polymer-properties-13",
+      "name": "Designing plastic parts: creep allowances, temperature limits and safety factors"
+    }
+  ]
+}

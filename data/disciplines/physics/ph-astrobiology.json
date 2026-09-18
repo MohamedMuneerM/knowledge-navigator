@@ -1,0 +1,62 @@
+{
+  "id": "ph-astrobiology",
+  "name": "Astrobiology",
+  "category": "Planetary Science & Exoplanets",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "A physics-side view of life in the Universe: habitability, the search for biosignatures and SETI.",
+  "prerequisites": [
+    "ph-exoplanets",
+    "bi-chemistry-of-life"
+  ],
+  "related": [
+    "bi-astrobiology",
+    "ea-astrobiology-and-planetary-habitability"
+  ],
+  "topics": [
+    {
+      "id": "ph-astrobiology-1",
+      "name": "What is life? Definitions and requirements"
+    },
+    {
+      "id": "ph-astrobiology-2",
+      "name": "The origin of life and prebiotic chemistry"
+    },
+    {
+      "id": "ph-astrobiology-3",
+      "name": "Early Earth and the evolution of life"
+    },
+    {
+      "id": "ph-astrobiology-4",
+      "name": "Extremophiles and the limits of life"
+    },
+    {
+      "id": "ph-astrobiology-5",
+      "name": "Habitability of planets and moons"
+    },
+    {
+      "id": "ph-astrobiology-6",
+      "name": "Mars: past water and the search for life"
+    },
+    {
+      "id": "ph-astrobiology-7",
+      "name": "Ocean worlds: Europa, Enceladus and Titan"
+    },
+    {
+      "id": "ph-astrobiology-8",
+      "name": "Biosignatures and the remote detection of life"
+    },
+    {
+      "id": "ph-astrobiology-9",
+      "name": "SETI, technosignatures and the Drake equation"
+    },
+    {
+      "id": "ph-astrobiology-10",
+      "name": "The Fermi paradox"
+    },
+    {
+      "id": "ph-astrobiology-11",
+      "name": "Planetary protection"
+    }
+  ]
+}

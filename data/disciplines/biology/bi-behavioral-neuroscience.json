@@ -1,0 +1,58 @@
+{
+  "id": "bi-behavioral-neuroscience",
+  "name": "Behavioural Neuroscience",
+  "category": "Neuroscience",
+  "level": 3,
+  "priority": "important",
+  "summary": "The neural basis of behaviour: motivation, emotion, homeostatic drives, sleep, circadian rhythms, stress and social behaviour.",
+  "prerequisites": [
+    "bi-neuroanatomy"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-behavioral-neuroscience-1",
+      "name": "Hypothalamus and homeostatic control: feeding, drinking, temperature"
+    },
+    {
+      "id": "bi-behavioral-neuroscience-2",
+      "name": "Neuroendocrine systems and the stress response"
+    },
+    {
+      "id": "bi-behavioral-neuroscience-3",
+      "name": "Emotion circuits: amygdala, fear and anxiety"
+    },
+    {
+      "id": "bi-behavioral-neuroscience-4",
+      "name": "Reward, motivation and the dopamine system"
+    },
+    {
+      "id": "bi-behavioral-neuroscience-5",
+      "name": "Addiction"
+    },
+    {
+      "id": "bi-behavioral-neuroscience-6",
+      "name": "Sleep: stages, mechanisms and functions"
+    },
+    {
+      "id": "bi-behavioral-neuroscience-7",
+      "name": "Circadian rhythms: the suprachiasmatic nucleus and clock genes"
+    },
+    {
+      "id": "bi-behavioral-neuroscience-8",
+      "name": "Sex differences, hormones and reproductive behaviour"
+    },
+    {
+      "id": "bi-behavioral-neuroscience-9",
+      "name": "Social behaviour and bonding"
+    },
+    {
+      "id": "bi-behavioral-neuroscience-10",
+      "name": "Behavioural genetics"
+    },
+    {
+      "id": "bi-behavioral-neuroscience-11",
+      "name": "Psychopharmacology basics"
+    }
+  ]
+}

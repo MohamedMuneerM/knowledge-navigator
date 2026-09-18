@@ -1,0 +1,34 @@
+{
+  "id": "el-file-formats",
+  "name": "File Formats",
+  "category": "IoT Architectures, Platforms & Data",
+  "level": 2,
+  "priority": "optional",
+  "summary": "File formats for logged and scientific data: CSV/TSV, HDF5, Parquet and NetCDF.",
+  "prerequisites": [
+    "el-data-serialization-formats"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-file-formats-1",
+      "name": "CSV (Comma-Separated Values)"
+    },
+    {
+      "id": "el-file-formats-2",
+      "name": "TSV (Tab-Separated Values)"
+    },
+    {
+      "id": "el-file-formats-3",
+      "name": "HDF5 (Hierarchical Data Format)"
+    },
+    {
+      "id": "el-file-formats-4",
+      "name": "Parquet (columnar storage)"
+    },
+    {
+      "id": "el-file-formats-5",
+      "name": "NetCDF (scientific data)"
+    }
+  ]
+}

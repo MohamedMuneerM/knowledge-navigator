@@ -1,0 +1,69 @@
+{
+  "id": "mt-crystal-structures",
+  "name": "Crystal Structures",
+  "category": "Structure of Materials",
+  "level": 2,
+  "priority": "core",
+  "summary": "Describes how atoms pack into the crystal structures of metals, ceramics and polymers, and how to index directions and planes.",
+  "prerequisites": [
+    "mt-atomic-bonding"
+  ],
+  "related": [
+    "ea-mineralogy",
+    "ch-solid-state-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "mt-crystal-structures-1",
+      "name": "Crystalline versus amorphous solids"
+    },
+    {
+      "id": "mt-crystal-structures-2",
+      "name": "Lattices, bases and unit cells; the seven crystal systems and 14 Bravais lattices"
+    },
+    {
+      "id": "mt-crystal-structures-3",
+      "name": "Metallic crystal structures: FCC, BCC and HCP; coordination number and packing factor"
+    },
+    {
+      "id": "mt-crystal-structures-4",
+      "name": "Close-packed planes and stacking sequences (ABAB, ABCABC)"
+    },
+    {
+      "id": "mt-crystal-structures-5",
+      "name": "Density calculations from crystal structure"
+    },
+    {
+      "id": "mt-crystal-structures-6",
+      "name": "Miller indices for directions and planes; Miller-Bravais indices for hexagonal crystals"
+    },
+    {
+      "id": "mt-crystal-structures-7",
+      "name": "Linear and planar densities; slip-relevant planes"
+    },
+    {
+      "id": "mt-crystal-structures-8",
+      "name": "Interstitial sites (tetrahedral and octahedral) and radius-ratio rules"
+    },
+    {
+      "id": "mt-crystal-structures-9",
+      "name": "Ceramic crystal structures: rock salt, CsCl, zinc blende, fluorite, perovskite, spinel, corundum"
+    },
+    {
+      "id": "mt-crystal-structures-10",
+      "name": "Silicate structures and carbon allotropes (diamond, graphite, fullerenes)"
+    },
+    {
+      "id": "mt-crystal-structures-11",
+      "name": "Polymorphism and allotropy (iron, carbon, SiO2, ZrO2)"
+    },
+    {
+      "id": "mt-crystal-structures-12",
+      "name": "Polycrystals, grains, texture and anisotropy"
+    },
+    {
+      "id": "mt-crystal-structures-13",
+      "name": "Polymer crystallinity: chain folding and spherulites"
+    }
+  ]
+}

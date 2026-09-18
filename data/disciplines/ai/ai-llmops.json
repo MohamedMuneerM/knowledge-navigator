@@ -1,0 +1,58 @@
+{
+  "id": "ai-llmops",
+  "name": "LLMOps: Running LLM Applications in Production",
+  "category": "Large Language Models & LLM Engineering",
+  "level": 4,
+  "priority": "important",
+  "summary": "Operating LLM-powered products reliably: serving, tracing, guardrails, cost control and continuous evaluation.",
+  "prerequisites": [
+    "ai-llm-application-engineering",
+    "ai-model-deployment"
+  ],
+  "related": [
+    "ai-monitoring-maintenance",
+    "ai-llm-evaluation"
+  ],
+  "topics": [
+    {
+      "id": "ai-llmops-1",
+      "name": "LLM serving options: APIs, self-hosting, gateways"
+    },
+    {
+      "id": "ai-llmops-2",
+      "name": "Prompt and model versioning"
+    },
+    {
+      "id": "ai-llmops-3",
+      "name": "Tracing and observability for chains and agents"
+    },
+    {
+      "id": "ai-llmops-4",
+      "name": "Online evaluation, feedback loops and regression testing"
+    },
+    {
+      "id": "ai-llmops-5",
+      "name": "Guardrails: input/output filtering, PII, jailbreak defence"
+    },
+    {
+      "id": "ai-llmops-6",
+      "name": "Latency optimisation: caching, streaming, batching"
+    },
+    {
+      "id": "ai-llmops-7",
+      "name": "Cost monitoring and token budgets"
+    },
+    {
+      "id": "ai-llmops-8",
+      "name": "Model routing and fallbacks"
+    },
+    {
+      "id": "ai-llmops-9",
+      "name": "Data governance and retention"
+    },
+    {
+      "id": "ai-llmops-10",
+      "name": "Incident response for AI features"
+    }
+  ]
+}

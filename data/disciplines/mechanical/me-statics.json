@@ -1,0 +1,75 @@
+{
+  "id": "me-statics",
+  "name": "Engineering Statics",
+  "category": "Engineering Mechanics",
+  "level": 2,
+  "priority": "core",
+  "summary": "Equilibrium of particles and rigid bodies: forces, moments, free-body diagrams, trusses, frames, friction and section properties.",
+  "prerequisites": [
+    "me-introduction-to-engineering-mechanical-design",
+    "ma-calculus",
+    "ph-introductory-mechanics"
+  ],
+  "related": [
+    "ph-classical-mechanics",
+    "ma-classical-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "me-statics-1",
+      "name": "Vectors, force components and resultants"
+    },
+    {
+      "id": "me-statics-2",
+      "name": "Equilibrium of a particle in 2D and 3D"
+    },
+    {
+      "id": "me-statics-3",
+      "name": "Moments of a force and couples; equivalent force systems"
+    },
+    {
+      "id": "me-statics-4",
+      "name": "Free-body diagrams and support reactions"
+    },
+    {
+      "id": "me-statics-5",
+      "name": "Equilibrium of rigid bodies in 2D and 3D"
+    },
+    {
+      "id": "me-statics-6",
+      "name": "Trusses: method of joints and method of sections"
+    },
+    {
+      "id": "me-statics-7",
+      "name": "Frames and machines"
+    },
+    {
+      "id": "me-statics-8",
+      "name": "Internal forces in beams; introduction to shear and bending-moment diagrams"
+    },
+    {
+      "id": "me-statics-9",
+      "name": "Distributed loads, centroids and centres of gravity"
+    },
+    {
+      "id": "me-statics-10",
+      "name": "Area moments of inertia, parallel-axis theorem and polar moment"
+    },
+    {
+      "id": "me-statics-11",
+      "name": "Mass moments of inertia"
+    },
+    {
+      "id": "me-statics-12",
+      "name": "Dry (Coulomb) friction: wedges, screws, belts and bearings"
+    },
+    {
+      "id": "me-statics-13",
+      "name": "Cables and hydrostatic loads"
+    },
+    {
+      "id": "me-statics-14",
+      "name": "Virtual work and stability of equilibrium"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "el-logging-monitoring",
+  "name": "Logging & Monitoring",
+  "category": "Embedded Development Practices & Debugging",
+  "level": 2,
+  "priority": "important",
+  "summary": "Getting information out of running firmware: UART logging, Segger RTT, semihosting, log levels and ring buffers.",
+  "prerequisites": [
+    "el-software-debugging"
+  ],
+  "related": [
+    "cs-site-reliability-engineering"
+  ],
+  "topics": [
+    {
+      "id": "el-logging-monitoring-1",
+      "name": "UART logging"
+    },
+    {
+      "id": "el-logging-monitoring-2",
+      "name": "RTT (Real-Time Transfer) - Segger J-Link"
+    },
+    {
+      "id": "el-logging-monitoring-3",
+      "name": "Semihosting"
+    },
+    {
+      "id": "el-logging-monitoring-4",
+      "name": "Remote logging"
+    },
+    {
+      "id": "el-logging-monitoring-5",
+      "name": "Log levels (debug, info, warning, error)"
+    },
+    {
+      "id": "el-logging-monitoring-6",
+      "name": "Circular buffers for logging"
+    }
+  ]
+}

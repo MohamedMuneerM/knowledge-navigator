@@ -1,0 +1,40 @@
+{
+  "id": "el-performance-analysis",
+  "name": "Performance Analysis",
+  "category": "Embedded Development Practices & Debugging",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Measuring and improving CPU load, memory use, task timing, interrupt latency and cache behaviour.",
+  "prerequisites": [
+    "el-trace-profiling"
+  ],
+  "related": [
+    "cs-performance-engineering"
+  ],
+  "topics": [
+    {
+      "id": "el-performance-analysis-1",
+      "name": "CPU utilization monitoring"
+    },
+    {
+      "id": "el-performance-analysis-2",
+      "name": "Memory usage tracking"
+    },
+    {
+      "id": "el-performance-analysis-3",
+      "name": "Task execution time"
+    },
+    {
+      "id": "el-performance-analysis-4",
+      "name": "Interrupt latency measurement"
+    },
+    {
+      "id": "el-performance-analysis-5",
+      "name": "Cache hit/miss analysis"
+    },
+    {
+      "id": "el-performance-analysis-6",
+      "name": "Profiling tools (gprof, Valgrind)"
+    }
+  ]
+}

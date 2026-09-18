@@ -1,0 +1,55 @@
+{
+  "id": "ae-rendezvous-proximity-operations",
+  "name": "Rendezvous, Proximity Operations and Docking",
+  "category": "Orbital Mechanics & Astrodynamics",
+  "level": 4,
+  "priority": "important",
+  "summary": "Relative motion between spacecraft and the guidance used to rendezvous, fly in formation and dock.",
+  "prerequisites": [
+    "ae-orbital-maneuvers",
+    "ae-feedback-control-aerospace"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-rendezvous-proximity-operations-1",
+      "name": "Relative motion in the LVLH (Hill) frame"
+    },
+    {
+      "id": "ae-rendezvous-proximity-operations-2",
+      "name": "Clohessy-Wiltshire (Hill) equations"
+    },
+    {
+      "id": "ae-rendezvous-proximity-operations-3",
+      "name": "Relative motion trajectories: V-bar and R-bar approaches"
+    },
+    {
+      "id": "ae-rendezvous-proximity-operations-4",
+      "name": "Two-impulse rendezvous targeting"
+    },
+    {
+      "id": "ae-rendezvous-proximity-operations-5",
+      "name": "Rendezvous mission phases: phasing, far-range, close-range, final approach"
+    },
+    {
+      "id": "ae-rendezvous-proximity-operations-6",
+      "name": "Relative navigation sensors: lidar, radar, cameras"
+    },
+    {
+      "id": "ae-rendezvous-proximity-operations-7",
+      "name": "Docking and berthing mechanisms (IDSS, CBM)"
+    },
+    {
+      "id": "ae-rendezvous-proximity-operations-8",
+      "name": "Passive safety, keep-out spheres and collision avoidance"
+    },
+    {
+      "id": "ae-rendezvous-proximity-operations-9",
+      "name": "Formation flying and relative orbit elements"
+    },
+    {
+      "id": "ae-rendezvous-proximity-operations-10",
+      "name": "Non-cooperative targets and servicing missions"
+    }
+  ]
+}

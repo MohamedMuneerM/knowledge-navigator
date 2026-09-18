@@ -1,0 +1,47 @@
+{
+  "id": "el-precision-agriculture",
+  "name": "Precision Agriculture",
+  "category": "Medical, Industrial & Other Application Domains",
+  "level": 3,
+  "priority": "optional",
+  "summary": "Electronics on the farm: soil and weather sensing, drones, automated irrigation, livestock tracking and yield prediction.",
+  "prerequisites": [
+    "el-environmental-sensors",
+    "el-long-range-wireless-lpwan"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-precision-agriculture-1",
+      "name": "Soil moisture and nutrient sensors"
+    },
+    {
+      "id": "el-precision-agriculture-2",
+      "name": "Weather stations"
+    },
+    {
+      "id": "el-precision-agriculture-3",
+      "name": "Drone-based crop monitoring"
+    },
+    {
+      "id": "el-precision-agriculture-4",
+      "name": "Automated irrigation systems"
+    },
+    {
+      "id": "el-precision-agriculture-5",
+      "name": "Livestock tracking and health monitoring"
+    },
+    {
+      "id": "el-precision-agriculture-6",
+      "name": "Crop disease detection"
+    },
+    {
+      "id": "el-precision-agriculture-7",
+      "name": "Yield prediction and optimization"
+    },
+    {
+      "id": "el-precision-agriculture-8",
+      "name": "Farm management software"
+    }
+  ]
+}

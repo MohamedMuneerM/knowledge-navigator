@@ -1,0 +1,47 @@
+{
+  "id": "el-logic-families",
+  "name": "Logic Families",
+  "category": "Digital Electronics",
+  "level": 2,
+  "priority": "important",
+  "summary": "The electrical side of digital logic: TTL, CMOS, ECL and BiCMOS families and interfacing between logic levels.",
+  "prerequisites": [
+    "el-combinational-logic",
+    "el-diode-transistor-circuits"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-logic-families-1",
+      "name": "TTL (Transistor-Transistor Logic)"
+    },
+    {
+      "id": "el-logic-families-2",
+      "name": "CMOS logic families (HC, HCT, AHC, LVC)"
+    },
+    {
+      "id": "el-logic-families-3",
+      "name": "ECL (Emitter-Coupled Logic)"
+    },
+    {
+      "id": "el-logic-families-4",
+      "name": "BiCMOS technology"
+    },
+    {
+      "id": "el-logic-families-5",
+      "name": "Logic level standards (3.3V, 5V, 1.8V)"
+    },
+    {
+      "id": "el-logic-families-6",
+      "name": "Fan-out, noise margins and propagation delay"
+    },
+    {
+      "id": "el-logic-families-7",
+      "name": "Open-drain/open-collector outputs and wired logic"
+    },
+    {
+      "id": "el-logic-families-8",
+      "name": "Level translation between logic families"
+    }
+  ]
+}

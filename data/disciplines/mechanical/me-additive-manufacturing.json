@@ -1,0 +1,70 @@
+{
+  "id": "me-additive-manufacturing",
+  "name": "Additive Manufacturing",
+  "category": "Manufacturing Engineering",
+  "level": 3,
+  "priority": "important",
+  "summary": "Building parts layer by layer: the seven AM process families, materials, design for AM, process physics, post-processing and qualification.",
+  "prerequisites": [
+    "me-manufacturing-processes",
+    "me-cad-solid-modeling"
+  ],
+  "related": [
+    "mt-additive-manufacturing",
+    "ae-aerospace-manufacturing"
+  ],
+  "topics": [
+    {
+      "id": "me-additive-manufacturing-1",
+      "name": "AM process categories (ISO/ASTM 52900) and the digital workflow (CAD, STL/3MF, slicing)"
+    },
+    {
+      "id": "me-additive-manufacturing-2",
+      "name": "Material extrusion (FDM/FFF)"
+    },
+    {
+      "id": "me-additive-manufacturing-3",
+      "name": "Vat photopolymerisation (SLA, DLP)"
+    },
+    {
+      "id": "me-additive-manufacturing-4",
+      "name": "Powder bed fusion: polymer (SLS, MJF) and metal (LPBF, EBM)"
+    },
+    {
+      "id": "me-additive-manufacturing-5",
+      "name": "Directed energy deposition and wire-arc AM"
+    },
+    {
+      "id": "me-additive-manufacturing-6",
+      "name": "Binder jetting, material jetting and sheet lamination"
+    },
+    {
+      "id": "me-additive-manufacturing-7",
+      "name": "AM materials: polymers, metals, composites and ceramics"
+    },
+    {
+      "id": "me-additive-manufacturing-8",
+      "name": "Design for additive manufacturing: overhangs, supports, orientation, part consolidation"
+    },
+    {
+      "id": "me-additive-manufacturing-9",
+      "name": "Lattices and topology-optimised parts"
+    },
+    {
+      "id": "me-additive-manufacturing-10",
+      "name": "Process physics, defects, residual stress and anisotropy"
+    },
+    {
+      "id": "me-additive-manufacturing-11",
+      "name": "Post-processing: support removal, heat treatment, HIP, machining and finishing"
+    },
+    {
+      "id": "me-additive-manufacturing-12",
+      "name": "Qualification, inspection and standards for AM parts"
+    },
+    {
+      "id": "me-additive-manufacturing-13",
+      "name": "AM economics and applications (tooling, medical, aerospace, robotics)"
+    }
+  ]
+}

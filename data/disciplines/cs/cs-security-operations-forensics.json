@@ -1,0 +1,54 @@
+{
+  "id": "cs-security-operations-forensics",
+  "name": "Security Operations, Incident Response & Digital Forensics",
+  "category": "Security",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Detecting, responding to and investigating security incidents: SOC operations, threat hunting, malware analysis and forensic examination of disks, memory and networks.",
+  "prerequisites": [
+    "cs-network-security"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-security-operations-forensics-1",
+      "name": "Security operations centres and SIEM"
+    },
+    {
+      "id": "cs-security-operations-forensics-2",
+      "name": "Logging, detection engineering and threat hunting"
+    },
+    {
+      "id": "cs-security-operations-forensics-3",
+      "name": "The incident-response process"
+    },
+    {
+      "id": "cs-security-operations-forensics-4",
+      "name": "Threat intelligence and the MITRE ATT&CK framework"
+    },
+    {
+      "id": "cs-security-operations-forensics-5",
+      "name": "Malware analysis: static and dynamic"
+    },
+    {
+      "id": "cs-security-operations-forensics-6",
+      "name": "The digital-forensics process and chain of custody"
+    },
+    {
+      "id": "cs-security-operations-forensics-7",
+      "name": "Disk and file-system forensics"
+    },
+    {
+      "id": "cs-security-operations-forensics-8",
+      "name": "Memory forensics"
+    },
+    {
+      "id": "cs-security-operations-forensics-9",
+      "name": "Network forensics"
+    },
+    {
+      "id": "cs-security-operations-forensics-10",
+      "name": "Mobile and cloud forensics"
+    }
+  ]
+}

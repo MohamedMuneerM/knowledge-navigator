@@ -1,0 +1,116 @@
+{
+  "id": "ph-classical-mechanics",
+  "name": "Classical Mechanics",
+  "category": "Mechanics, Waves & Fluids",
+  "level": 2,
+  "priority": "core",
+  "summary": "Calculus-based mechanics from Newton's laws through the Lagrangian and Hamiltonian formulations used throughout physics.",
+  "prerequisites": [
+    "ph-introductory-mechanics",
+    "ma-ordinary-differential-equations-odes",
+    "ma-multivariable-calculus"
+  ],
+  "related": [
+    "ma-classical-mechanics",
+    "me-dynamics",
+    "ma-symplectic-geometry"
+  ],
+  "topics": [
+    {
+      "id": "ph-classical-mechanics-1",
+      "name": "Kinematics (motion analysis without forces)"
+    },
+    {
+      "id": "ph-classical-mechanics-2",
+      "name": "Dynamics (forces and their effects)"
+    },
+    {
+      "id": "ph-classical-mechanics-4",
+      "name": "Newtonian mechanics"
+    },
+    {
+      "id": "ph-classical-mechanics-3",
+      "name": "Statics (equilibrium systems)"
+    },
+    {
+      "id": "ph-classical-mechanics-5",
+      "name": "Work, energy, power"
+    },
+    {
+      "id": "ph-classical-mechanics-6",
+      "name": "Momentum and collisions"
+    },
+    {
+      "id": "ph-classical-mechanics-9",
+      "name": "Oscillations and harmonic motion"
+    },
+    {
+      "id": "ph-classical-mechanics-21",
+      "name": "Non-inertial reference frames and fictitious forces"
+    },
+    {
+      "id": "ph-classical-mechanics-19",
+      "name": "Central force problems"
+    },
+    {
+      "id": "ph-classical-mechanics-11",
+      "name": "Gravitation"
+    },
+    {
+      "id": "ph-classical-mechanics-7",
+      "name": "Rotational motion"
+    },
+    {
+      "id": "ph-classical-mechanics-8",
+      "name": "Rigid body dynamics"
+    },
+    {
+      "id": "ph-classical-mechanics-18",
+      "name": "Variational principles"
+    },
+    {
+      "id": "ph-classical-mechanics-20",
+      "name": "Constraints and generalized coordinates"
+    },
+    {
+      "id": "ph-classical-mechanics-12",
+      "name": "Lagrangian mechanics"
+    },
+    {
+      "id": "ph-classical-mechanics-22",
+      "name": "Small oscillations and normal modes"
+    },
+    {
+      "id": "ph-classical-mechanics-13",
+      "name": "Hamiltonian mechanics"
+    },
+    {
+      "id": "ph-classical-mechanics-23",
+      "name": "Canonical transformations and Poisson brackets"
+    },
+    {
+      "id": "ph-classical-mechanics-24",
+      "name": "Hamilton-Jacobi theory and action-angle variables"
+    },
+    {
+      "id": "ph-classical-mechanics-14",
+      "name": "Analytical mechanics"
+    },
+    {
+      "id": "ph-classical-mechanics-17",
+      "name": "Perturbation theory"
+    },
+    {
+      "id": "ph-classical-mechanics-10",
+      "name": "Nonlinear dynamics"
+    },
+    {
+      "id": "ph-classical-mechanics-15",
+      "name": "Celestial mechanics"
+    },
+    {
+      "id": "ph-classical-mechanics-16",
+      "name": "Orbital mechanics"
+    }
+  ]
+}

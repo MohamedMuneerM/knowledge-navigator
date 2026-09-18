@@ -1,0 +1,46 @@
+{
+  "id": "ch-heterocyclic-chemistry",
+  "name": "Heterocyclic Chemistry",
+  "category": "Organic Chemistry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Structure, reactivity and synthesis of heterocycles, the ring systems found in most drugs and many materials.",
+  "prerequisites": [
+    "ch-organic-synthesis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-heterocyclic-chemistry-1",
+      "name": "Nomenclature and classification of heterocycles"
+    },
+    {
+      "id": "ch-heterocyclic-chemistry-2",
+      "name": "Pyridines and diazines: structure and reactivity"
+    },
+    {
+      "id": "ch-heterocyclic-chemistry-3",
+      "name": "Five-membered heteroaromatics: pyrrole, furan and thiophene"
+    },
+    {
+      "id": "ch-heterocyclic-chemistry-4",
+      "name": "Indoles, quinolines and isoquinolines"
+    },
+    {
+      "id": "ch-heterocyclic-chemistry-5",
+      "name": "Azoles: imidazole, oxazole, thiazole and triazoles"
+    },
+    {
+      "id": "ch-heterocyclic-chemistry-6",
+      "name": "Saturated heterocycles and ring conformation"
+    },
+    {
+      "id": "ch-heterocyclic-chemistry-7",
+      "name": "Classic ring syntheses (Hantzsch, Fischer indole, Paal-Knorr)"
+    },
+    {
+      "id": "ch-heterocyclic-chemistry-8",
+      "name": "Heterocycles in drugs, dyes and natural products"
+    }
+  ]
+}

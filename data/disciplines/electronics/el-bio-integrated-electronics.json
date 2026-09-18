@@ -1,0 +1,41 @@
+{
+  "id": "el-bio-integrated-electronics",
+  "name": "Bio-Integrated Electronics",
+  "category": "Emerging & Advanced Topics",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Electronics that merge with biology: biointerfaces, implantable biosensors, brain-machine interfaces and biodegradable devices.",
+  "prerequisites": [
+    "el-flexible-printed-electronics",
+    "el-biosensors-medical-sensors"
+  ],
+  "related": [
+    "bi-brain-computer-interfaces"
+  ],
+  "topics": [
+    {
+      "id": "el-bio-integrated-electronics-1",
+      "name": "Bioelectronics and biointerfaces"
+    },
+    {
+      "id": "el-bio-integrated-electronics-2",
+      "name": "Implantable biosensors"
+    },
+    {
+      "id": "el-bio-integrated-electronics-3",
+      "name": "Neural interfaces (brain-machine interfaces)"
+    },
+    {
+      "id": "el-bio-integrated-electronics-4",
+      "name": "Tissue-integrated electronics"
+    },
+    {
+      "id": "el-bio-integrated-electronics-5",
+      "name": "Biodegradable electronics"
+    },
+    {
+      "id": "el-bio-integrated-electronics-6",
+      "name": "Biohybrid systems"
+    }
+  ]
+}

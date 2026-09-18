@@ -1,0 +1,40 @@
+{
+  "id": "ai-monte-carlo-methods",
+  "name": "Monte Carlo Methods (RL)",
+  "category": "Reinforcement Learning",
+  "level": 3,
+  "priority": "core",
+  "summary": "Learning value functions and policies from complete sampled episodes, including on-policy control and off-policy learning with importance sampling.",
+  "prerequisites": [
+    "ai-dynamic-programming"
+  ],
+  "related": [
+    "ma-monte-carlo-methods"
+  ],
+  "topics": [
+    {
+      "id": "ai-monte-carlo-methods-1",
+      "name": "Monte Carlo Prediction"
+    },
+    {
+      "id": "ai-monte-carlo-methods-2",
+      "name": "Monte Carlo Control"
+    },
+    {
+      "id": "ai-monte-carlo-methods-3",
+      "name": "Off-policy Monte Carlo"
+    },
+    {
+      "id": "ai-monte-carlo-methods-4",
+      "name": "Exploring starts and epsilon-soft policies"
+    },
+    {
+      "id": "ai-monte-carlo-methods-5",
+      "name": "Importance sampling: ordinary and weighted"
+    },
+    {
+      "id": "ai-monte-carlo-methods-6",
+      "name": "Incremental implementation and constant-alpha Monte Carlo"
+    }
+  ]
+}

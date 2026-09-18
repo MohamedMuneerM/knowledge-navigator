@@ -1,0 +1,70 @@
+{
+  "id": "me-acoustics-noise-control",
+  "name": "Engineering Acoustics & Noise Control",
+  "category": "Vibrations & Acoustics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Sound generation, propagation and measurement, and the practical engineering of quieter machines, products and buildings.",
+  "prerequisites": [
+    "me-mechanical-vibrations"
+  ],
+  "related": [
+    "ph-acoustics",
+    "ae-unsteady-aerodynamics-aeroacoustics",
+    "ae-combustion-instability"
+  ],
+  "topics": [
+    {
+      "id": "me-acoustics-noise-control-1",
+      "name": "The acoustic wave equation; plane and spherical waves"
+    },
+    {
+      "id": "me-acoustics-noise-control-2",
+      "name": "Decibels: sound pressure, intensity and power levels; combining sources"
+    },
+    {
+      "id": "me-acoustics-noise-control-3",
+      "name": "Frequency analysis, octave bands and A-/C-weighting"
+    },
+    {
+      "id": "me-acoustics-noise-control-4",
+      "name": "Human hearing, noise criteria and regulations; hearing conservation"
+    },
+    {
+      "id": "me-acoustics-noise-control-5",
+      "name": "Sound measurement: microphones, sound level meters, intensity probes"
+    },
+    {
+      "id": "me-acoustics-noise-control-6",
+      "name": "Outdoor sound propagation and barriers"
+    },
+    {
+      "id": "me-acoustics-noise-control-7",
+      "name": "Room acoustics: reverberation time, absorption and the Sabine equation"
+    },
+    {
+      "id": "me-acoustics-noise-control-8",
+      "name": "Sound transmission loss through walls and enclosures"
+    },
+    {
+      "id": "me-acoustics-noise-control-9",
+      "name": "Mufflers and silencers (reactive and dissipative)"
+    },
+    {
+      "id": "me-acoustics-noise-control-10",
+      "name": "Machinery noise sources: fans, gears, motors, flow noise and impacts"
+    },
+    {
+      "id": "me-acoustics-noise-control-11",
+      "name": "Noise control at source, path and receiver; damping treatments"
+    },
+    {
+      "id": "me-acoustics-noise-control-12",
+      "name": "HVAC system noise and vibration control"
+    },
+    {
+      "id": "me-acoustics-noise-control-13",
+      "name": "Active noise control and sound quality"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "ae-uav-drone-engineering",
+  "name": "UAV and Drone Engineering",
+  "category": "Air Vehicle Design",
+  "level": 3,
+  "priority": "important",
+  "summary": "Design, dynamics, autopilots and operation of uncrewed aircraft, from quadcopters to fixed-wing and VTOL drones.",
+  "prerequisites": [
+    "ae-aircraft-performance",
+    "ae-feedback-control-aerospace"
+  ],
+  "related": [
+    "ai-motion-planning-navigation",
+    "el-autonomous-navigation-systems",
+    "ai-aerial-robotics-drones"
+  ],
+  "topics": [
+    {
+      "id": "ae-uav-drone-engineering-1",
+      "name": "UAV classes and missions"
+    },
+    {
+      "id": "ae-uav-drone-engineering-2",
+      "name": "Multirotor dynamics and control"
+    },
+    {
+      "id": "ae-uav-drone-engineering-3",
+      "name": "Fixed-wing and hybrid VTOL UAV configurations"
+    },
+    {
+      "id": "ae-uav-drone-engineering-4",
+      "name": "Electric propulsion: motors, ESCs, propellers and batteries"
+    },
+    {
+      "id": "ae-uav-drone-engineering-5",
+      "name": "Sizing and endurance estimation"
+    },
+    {
+      "id": "ae-uav-drone-engineering-6",
+      "name": "Sensors: IMU, GNSS, barometer, airspeed, lidar and cameras"
+    },
+    {
+      "id": "ae-uav-drone-engineering-7",
+      "name": "State estimation and sensor fusion on small UAVs"
+    },
+    {
+      "id": "ae-uav-drone-engineering-8",
+      "name": "Autopilots: PX4, ArduPilot and flight controller hardware"
+    },
+    {
+      "id": "ae-uav-drone-engineering-9",
+      "name": "Guidance and path following"
+    },
+    {
+      "id": "ae-uav-drone-engineering-10",
+      "name": "Communication links, telemetry and ground control stations"
+    },
+    {
+      "id": "ae-uav-drone-engineering-11",
+      "name": "Autonomy, detect-and-avoid and swarms"
+    },
+    {
+      "id": "ae-uav-drone-engineering-12",
+      "name": "Regulations: FAA Part 107, EASA categories, BVLOS operations"
+    },
+    {
+      "id": "ae-uav-drone-engineering-13",
+      "name": "Testing and safe flight operations"
+    }
+  ]
+}

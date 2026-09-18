@@ -1,0 +1,65 @@
+{
+  "id": "ai-swarm-multi-robot-systems",
+  "name": "Swarm & Multi-Robot Systems",
+  "category": "Robot Platforms & Locomotion",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Coordinating teams and swarms of robots with task allocation, formation control, consensus and self-organizing collective behaviours.",
+  "prerequisites": [
+    "ai-mobile-robotics",
+    "ai-multi-agent-systems"
+  ],
+  "related": [
+    "ai-evolutionary-computation"
+  ],
+  "topics": [
+    {
+      "id": "ai-swarm-multi-robot-systems-1",
+      "name": "Multi-robot architectures: centralized, decentralized and distributed"
+    },
+    {
+      "id": "ai-swarm-multi-robot-systems-2",
+      "name": "Task allocation: market-based and auction methods"
+    },
+    {
+      "id": "ai-swarm-multi-robot-systems-3",
+      "name": "Consensus and formation control"
+    },
+    {
+      "id": "ai-swarm-multi-robot-systems-4",
+      "name": "Multi-robot path planning and deconfliction (conflict-based search)"
+    },
+    {
+      "id": "ai-swarm-multi-robot-systems-5",
+      "name": "Cooperative localization and multi-robot SLAM"
+    },
+    {
+      "id": "ai-swarm-multi-robot-systems-6",
+      "name": "Coordination under limited communication"
+    },
+    {
+      "id": "ai-swarm-multi-robot-systems-7",
+      "name": "Swarm intelligence principles: self-organization and stigmergy"
+    },
+    {
+      "id": "ai-swarm-multi-robot-systems-8",
+      "name": "Swarm behaviours: aggregation, flocking, foraging, collective transport"
+    },
+    {
+      "id": "ai-swarm-multi-robot-systems-9",
+      "name": "Swarm platforms and simulators (Kilobots, ARGoS)"
+    },
+    {
+      "id": "ai-swarm-multi-robot-systems-10",
+      "name": "Evolved and learned swarm controllers"
+    },
+    {
+      "id": "ai-swarm-multi-robot-systems-11",
+      "name": "Heterogeneous teams and human-swarm interaction"
+    },
+    {
+      "id": "ai-swarm-multi-robot-systems-12",
+      "name": "Applications: warehouse fleets, drone shows, search and rescue"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "ph-compact-objects",
+  "name": "Compact Objects & High-Energy Astrophysics",
+  "category": "High-Energy & Multi-Messenger Astrophysics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "White dwarfs, neutron stars and black holes, and the violent accretion and explosive phenomena they power.",
+  "prerequisites": [
+    "ph-stellar-astrophysics",
+    "ph-general-relativity"
+  ],
+  "related": [
+    "ph-black-hole-physics",
+    "ph-astrophysics"
+  ],
+  "topics": [
+    {
+      "id": "ph-compact-objects-1",
+      "name": "Degenerate matter and the Chandrasekhar limit"
+    },
+    {
+      "id": "ph-compact-objects-2",
+      "name": "White dwarfs and cataclysmic variables"
+    },
+    {
+      "id": "ph-compact-objects-3",
+      "name": "Neutron star structure and the equation of state (TOV equation)"
+    },
+    {
+      "id": "ph-compact-objects-4",
+      "name": "Pulsars and magnetars"
+    },
+    {
+      "id": "ph-compact-objects-5",
+      "name": "Stellar-mass black holes"
+    },
+    {
+      "id": "ph-compact-objects-6",
+      "name": "Accretion physics and the Eddington limit"
+    },
+    {
+      "id": "ph-compact-objects-7",
+      "name": "X-ray binaries"
+    },
+    {
+      "id": "ph-compact-objects-8",
+      "name": "Accretion discs and relativistic jets"
+    },
+    {
+      "id": "ph-compact-objects-9",
+      "name": "Core-collapse and thermonuclear supernovae"
+    },
+    {
+      "id": "ph-compact-objects-10",
+      "name": "Gamma-ray bursts"
+    },
+    {
+      "id": "ph-compact-objects-11",
+      "name": "Kilonovae and r-process nucleosynthesis"
+    },
+    {
+      "id": "ph-compact-objects-12",
+      "name": "Active galactic nuclei and quasars"
+    },
+    {
+      "id": "ph-compact-objects-13",
+      "name": "Imaging black holes: the Event Horizon Telescope"
+    },
+    {
+      "id": "ph-compact-objects-14",
+      "name": "X-ray and gamma-ray observatories"
+    }
+  ]
+}

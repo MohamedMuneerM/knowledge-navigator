@@ -1,0 +1,35 @@
+{
+  "id": "el-deterministic-networking",
+  "name": "Deterministic Networking",
+  "category": "Communication Protocols & Connectivity",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Networks with guaranteed timing: bounded latency and jitter, QoS, priority queuing, traffic shaping and scheduling.",
+  "prerequisites": [
+    "el-ethernet-networking",
+    "el-real-time-concepts"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-deterministic-networking-1",
+      "name": "Bounded latency and jitter"
+    },
+    {
+      "id": "el-deterministic-networking-2",
+      "name": "Quality of Service (QoS)"
+    },
+    {
+      "id": "el-deterministic-networking-3",
+      "name": "Priority queuing"
+    },
+    {
+      "id": "el-deterministic-networking-4",
+      "name": "Traffic policing and shaping"
+    },
+    {
+      "id": "el-deterministic-networking-5",
+      "name": "Real-time scheduling"
+    }
+  ]
+}

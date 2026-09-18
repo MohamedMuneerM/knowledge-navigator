@@ -1,0 +1,63 @@
+{
+  "id": "el-wireless-communications",
+  "name": "Wireless Communications",
+  "category": "Signal Processing & Communications",
+  "level": 4,
+  "priority": "important",
+  "summary": "The physical layer of modern wireless systems: fading channels, diversity, OFDM, MIMO, multiple access and the design of 4G/5G links.",
+  "prerequisites": [
+    "el-digital-communications",
+    "el-antennas-propagation"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-wireless-communications-1",
+      "name": "Path loss, shadowing and multipath fading (Rayleigh, Rician)"
+    },
+    {
+      "id": "el-wireless-communications-2",
+      "name": "Doppler spread, coherence time and coherence bandwidth"
+    },
+    {
+      "id": "el-wireless-communications-3",
+      "name": "Diversity techniques and combining (MRC, selection)"
+    },
+    {
+      "id": "el-wireless-communications-4",
+      "name": "OFDM and OFDMA: cyclic prefix, PAPR, synchronization"
+    },
+    {
+      "id": "el-wireless-communications-5",
+      "name": "MIMO: spatial multiplexing, capacity and beamforming"
+    },
+    {
+      "id": "el-wireless-communications-6",
+      "name": "Channel estimation and pilot design"
+    },
+    {
+      "id": "el-wireless-communications-7",
+      "name": "Multiple access: FDMA, TDMA, CDMA, OFDMA and NOMA"
+    },
+    {
+      "id": "el-wireless-communications-8",
+      "name": "Cellular concepts: frequency reuse, interference, handover"
+    },
+    {
+      "id": "el-wireless-communications-9",
+      "name": "Link budgets and coverage planning"
+    },
+    {
+      "id": "el-wireless-communications-10",
+      "name": "4G LTE and 5G NR physical layer"
+    },
+    {
+      "id": "el-wireless-communications-11",
+      "name": "Massive MIMO and millimetre-wave communication"
+    },
+    {
+      "id": "el-wireless-communications-12",
+      "name": "RF impairments (phase noise, IQ imbalance, PA non-linearity)"
+    }
+  ]
+}

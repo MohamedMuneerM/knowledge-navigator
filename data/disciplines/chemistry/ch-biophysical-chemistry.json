@@ -1,0 +1,55 @@
+{
+  "id": "ch-biophysical-chemistry",
+  "name": "Biophysical Chemistry",
+  "category": "Biochemistry & Chemical Biology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Physical chemistry of biological macromolecules: binding, folding, hydrodynamics and single-molecule behaviour.",
+  "prerequisites": [
+    "ch-biochemistry-structure-function",
+    "ch-statistical-thermodynamics"
+  ],
+  "related": [
+    "ph-biophysics",
+    "bi-structural-biology",
+    "bi-protein-structure-function"
+  ],
+  "topics": [
+    {
+      "id": "ch-biophysical-chemistry-1",
+      "name": "Thermodynamics of macromolecular folding and binding"
+    },
+    {
+      "id": "ch-biophysical-chemistry-2",
+      "name": "Ligand binding, cooperativity and linkage"
+    },
+    {
+      "id": "ch-biophysical-chemistry-3",
+      "name": "Hydrodynamics: sedimentation, diffusion and light scattering"
+    },
+    {
+      "id": "ch-biophysical-chemistry-4",
+      "name": "Spectroscopy of biomolecules: CD, fluorescence and FRET"
+    },
+    {
+      "id": "ch-biophysical-chemistry-5",
+      "name": "Calorimetry of biomolecules: ITC and DSC"
+    },
+    {
+      "id": "ch-biophysical-chemistry-6",
+      "name": "Protein folding kinetics and energy landscapes"
+    },
+    {
+      "id": "ch-biophysical-chemistry-7",
+      "name": "Single-molecule methods: optical tweezers and smFRET"
+    },
+    {
+      "id": "ch-biophysical-chemistry-8",
+      "name": "Membranes and lipid-bilayer physical chemistry"
+    },
+    {
+      "id": "ch-biophysical-chemistry-9",
+      "name": "Structural biology methods overview: X-ray, NMR and cryo-EM"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "ph-nanoscience-nanotechnology",
+  "name": "Nanoscience & Nanotechnology",
+  "category": "Interdisciplinary Physics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "The physics of matter at the nanometre scale: quantum dots, nanowires, nanotubes and how they are made.",
+  "prerequisites": [
+    "ph-solid-state-physics"
+  ],
+  "related": [
+    "ph-nanophotonics-plasmonics",
+    "mt-nanomaterials",
+    "ch-nanochemistry",
+    "el-nanoelectronics",
+    "me-micro-nano-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "ph-nanoscience-nanotechnology-1",
+      "name": "Nanoparticles"
+    },
+    {
+      "id": "ph-nanoscience-nanotechnology-2",
+      "name": "Quantum dots"
+    },
+    {
+      "id": "ph-nanoscience-nanotechnology-3",
+      "name": "Nanowires"
+    },
+    {
+      "id": "ph-nanoscience-nanotechnology-4",
+      "name": "Nanotubes"
+    },
+    {
+      "id": "ph-nanoscience-nanotechnology-5",
+      "name": "Nanostructured materials"
+    },
+    {
+      "id": "ph-nanoscience-nanotechnology-6",
+      "name": "Nanofabrication"
+    },
+    {
+      "id": "ph-nanoscience-nanotechnology-7",
+      "name": "Nano-optics"
+    },
+    {
+      "id": "ph-nanoscience-nanotechnology-8",
+      "name": "Nanomechanics"
+    }
+  ]
+}

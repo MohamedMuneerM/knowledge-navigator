@@ -1,0 +1,59 @@
+{
+  "id": "ea-comparative-planetology",
+  "name": "Comparative Planetology",
+  "category": "Planetary Geoscience",
+  "level": 2,
+  "priority": "important",
+  "summary": "Earth as one planet among many: how the planets and moons formed, differ and evolved, and what that teaches about Earth.",
+  "prerequisites": [
+    "ea-introduction-to-earth-science",
+    "ph-introductory-astronomy"
+  ],
+  "related": [
+    "ph-planetary-science",
+    "ae-planetary-exploration-systems",
+    "bi-astrobiology"
+  ],
+  "topics": [
+    {
+      "id": "ea-comparative-planetology-1",
+      "name": "Formation of the Solar System: nebula, condensation and accretion"
+    },
+    {
+      "id": "ea-comparative-planetology-2",
+      "name": "Terrestrial planets, gas giants and ice giants compared"
+    },
+    {
+      "id": "ea-comparative-planetology-3",
+      "name": "Planetary differentiation and interior structure"
+    },
+    {
+      "id": "ea-comparative-planetology-4",
+      "name": "Planetary heat budgets and thermal evolution"
+    },
+    {
+      "id": "ea-comparative-planetology-5",
+      "name": "Surface processes on other worlds: impacts, volcanism, tectonics and erosion"
+    },
+    {
+      "id": "ea-comparative-planetology-6",
+      "name": "Atmospheres and climates compared"
+    },
+    {
+      "id": "ea-comparative-planetology-7",
+      "name": "Magnetic fields and magnetospheres"
+    },
+    {
+      "id": "ea-comparative-planetology-8",
+      "name": "Moons, rings and small bodies"
+    },
+    {
+      "id": "ea-comparative-planetology-9",
+      "name": "Exoplanets and planetary diversity"
+    },
+    {
+      "id": "ea-comparative-planetology-10",
+      "name": "Planetary missions and how planets are explored"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "el-radar-systems",
+  "name": "Radar Systems Engineering",
+  "category": "Electromagnetics, RF & Microwave",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How radar detects, ranges and images targets, from the radar equation to pulse compression, FMCW automotive radar and SAR.",
+  "prerequisites": [
+    "el-antennas-propagation",
+    "el-digital-signal-processing-dsp"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-radar-systems-1",
+      "name": "The radar equation and radar cross section"
+    },
+    {
+      "id": "el-radar-systems-2",
+      "name": "Pulsed radar, range resolution and ambiguity"
+    },
+    {
+      "id": "el-radar-systems-3",
+      "name": "Doppler processing, MTI and pulse-Doppler radar"
+    },
+    {
+      "id": "el-radar-systems-4",
+      "name": "Matched filtering and pulse compression (chirp waveforms)"
+    },
+    {
+      "id": "el-radar-systems-5",
+      "name": "Detection in noise and clutter, CFAR"
+    },
+    {
+      "id": "el-radar-systems-6",
+      "name": "FMCW radar and automotive mmWave radar"
+    },
+    {
+      "id": "el-radar-systems-7",
+      "name": "Angle measurement and tracking (monopulse, Kalman trackers)"
+    },
+    {
+      "id": "el-radar-systems-8",
+      "name": "Synthetic aperture radar (SAR) and ISAR imaging"
+    },
+    {
+      "id": "el-radar-systems-9",
+      "name": "Phased-array and MIMO radar"
+    }
+  ]
+}

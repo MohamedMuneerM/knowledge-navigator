@@ -1,0 +1,59 @@
+{
+  "id": "ph-galaxy-formation-evolution",
+  "name": "Galaxy Formation & Evolution",
+  "category": "Galaxies & Cosmology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How galaxies form and change over cosmic time inside the growing web of dark matter.",
+  "prerequisites": [
+    "ph-galaxies-galactic-dynamics",
+    "ph-cosmology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-galaxy-formation-evolution-1",
+      "name": "Hierarchical structure formation and dark matter haloes"
+    },
+    {
+      "id": "ph-galaxy-formation-evolution-2",
+      "name": "Gas cooling and disc formation"
+    },
+    {
+      "id": "ph-galaxy-formation-evolution-3",
+      "name": "The cosmic star-formation history"
+    },
+    {
+      "id": "ph-galaxy-formation-evolution-4",
+      "name": "Feedback from supernovae and active galactic nuclei"
+    },
+    {
+      "id": "ph-galaxy-formation-evolution-5",
+      "name": "Quenching and the galaxy colour bimodality"
+    },
+    {
+      "id": "ph-galaxy-formation-evolution-6",
+      "name": "Co-evolution of galaxies and black holes"
+    },
+    {
+      "id": "ph-galaxy-formation-evolution-7",
+      "name": "First stars, first galaxies and cosmic reionization"
+    },
+    {
+      "id": "ph-galaxy-formation-evolution-8",
+      "name": "The intergalactic medium and the Lyman-alpha forest"
+    },
+    {
+      "id": "ph-galaxy-formation-evolution-9",
+      "name": "Galaxy clusters: the intracluster medium and the Sunyaev-Zel'dovich effect"
+    },
+    {
+      "id": "ph-galaxy-formation-evolution-10",
+      "name": "High-redshift galaxy surveys with Hubble and JWST"
+    },
+    {
+      "id": "ph-galaxy-formation-evolution-11",
+      "name": "Cosmological hydrodynamical simulations"
+    }
+  ]
+}

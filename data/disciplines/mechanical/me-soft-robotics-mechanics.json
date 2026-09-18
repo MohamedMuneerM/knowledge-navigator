@@ -1,0 +1,55 @@
+{
+  "id": "me-soft-robotics-mechanics",
+  "name": "Soft Robotics Mechanics",
+  "category": "Frontiers of Mechanical Engineering",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "The mechanics, modelling and fabrication of robots made from compliant materials that bend, stretch and adapt to their environment.",
+  "prerequisites": [
+    "me-smart-materials-artificial-muscles",
+    "me-continuum-mechanics-elasticity-plasticity"
+  ],
+  "related": [
+    "ph-soft-matter-physics",
+    "ai-soft-robotics",
+    "mt-soft-materials"
+  ],
+  "topics": [
+    {
+      "id": "me-soft-robotics-mechanics-1",
+      "name": "Soft materials for robots: elastomers, hydrogels and fabrics"
+    },
+    {
+      "id": "me-soft-robotics-mechanics-2",
+      "name": "Hyperelastic modelling of soft actuators"
+    },
+    {
+      "id": "me-soft-robotics-mechanics-3",
+      "name": "Fluidic elastomer actuators (PneuNets, fibre-reinforced bending actuators)"
+    },
+    {
+      "id": "me-soft-robotics-mechanics-4",
+      "name": "Modelling slender soft robots: Cosserat rods and piecewise-constant-curvature models"
+    },
+    {
+      "id": "me-soft-robotics-mechanics-5",
+      "name": "Variable stiffness: granular and layer jamming, low-melting-point alloys"
+    },
+    {
+      "id": "me-soft-robotics-mechanics-6",
+      "name": "Soft sensing and embedded strain/pressure sensors"
+    },
+    {
+      "id": "me-soft-robotics-mechanics-7",
+      "name": "Fabrication: molding, casting and 3D printing of soft robots"
+    },
+    {
+      "id": "me-soft-robotics-mechanics-8",
+      "name": "Soft grippers and soft wearable robots"
+    },
+    {
+      "id": "me-soft-robotics-mechanics-9",
+      "name": "Modelling-based and learning-based control of soft robots"
+    }
+  ]
+}

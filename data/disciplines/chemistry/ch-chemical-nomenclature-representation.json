@@ -1,0 +1,46 @@
+{
+  "id": "ch-chemical-nomenclature-representation",
+  "name": "Chemical Nomenclature & Structure Representation",
+  "category": "Foundations",
+  "level": 2,
+  "priority": "important",
+  "summary": "The systematic naming of compounds and the drawn and machine-readable ways chemists represent structures.",
+  "prerequisites": [
+    "ch-introductory-chemistry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-chemical-nomenclature-representation-1",
+      "name": "IUPAC inorganic nomenclature: binary and ternary compounds, acids, hydrates"
+    },
+    {
+      "id": "ch-chemical-nomenclature-representation-2",
+      "name": "Coordination compound nomenclature"
+    },
+    {
+      "id": "ch-chemical-nomenclature-representation-3",
+      "name": "Organic nomenclature: parent chains, substituents, functional-group priority"
+    },
+    {
+      "id": "ch-chemical-nomenclature-representation-4",
+      "name": "Stereodescriptors in names (cis/trans, E/Z, R/S)"
+    },
+    {
+      "id": "ch-chemical-nomenclature-representation-5",
+      "name": "Structural formulas: Lewis, condensed, skeletal, wedge-dash, Newman and Fischer"
+    },
+    {
+      "id": "ch-chemical-nomenclature-representation-6",
+      "name": "Machine-readable representations: SMILES, InChI/InChIKey and molfiles"
+    },
+    {
+      "id": "ch-chemical-nomenclature-representation-7",
+      "name": "CAS Registry Numbers and other chemical identifiers"
+    },
+    {
+      "id": "ch-chemical-nomenclature-representation-8",
+      "name": "Polymer and biochemical nomenclature basics"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ph-galaxies-galactic-dynamics",
+  "name": "Galaxies & Galactic Dynamics",
+  "category": "Galaxies & Cosmology",
+  "level": 3,
+  "priority": "important",
+  "summary": "The structure, dynamics and populations of the Milky Way and other galaxies, and the evidence for dark matter.",
+  "prerequisites": [
+    "ph-stellar-astrophysics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-galaxies-galactic-dynamics-1",
+      "name": "Structure of the Milky Way: disc, bulge, bar and halo"
+    },
+    {
+      "id": "ph-galaxies-galactic-dynamics-2",
+      "name": "Stellar populations and galactic chemical evolution"
+    },
+    {
+      "id": "ph-galaxies-galactic-dynamics-3",
+      "name": "Galactic rotation and the Oort constants"
+    },
+    {
+      "id": "ph-galaxies-galactic-dynamics-4",
+      "name": "Galaxy classification and the Hubble sequence"
+    },
+    {
+      "id": "ph-galaxies-galactic-dynamics-5",
+      "name": "Galaxy photometry and scaling relations: Tully-Fisher, Faber-Jackson and the fundamental plane"
+    },
+    {
+      "id": "ph-galaxies-galactic-dynamics-6",
+      "name": "Rotation curves and dark matter haloes"
+    },
+    {
+      "id": "ph-galaxies-galactic-dynamics-7",
+      "name": "Gravitational potentials and orbits in galaxies"
+    },
+    {
+      "id": "ph-galaxies-galactic-dynamics-8",
+      "name": "The collisionless Boltzmann and Jeans equations"
+    },
+    {
+      "id": "ph-galaxies-galactic-dynamics-9",
+      "name": "Spiral structure and density waves"
+    },
+    {
+      "id": "ph-galaxies-galactic-dynamics-10",
+      "name": "Relaxation, dynamical friction and star clusters"
+    },
+    {
+      "id": "ph-galaxies-galactic-dynamics-11",
+      "name": "Galaxy interactions and mergers"
+    },
+    {
+      "id": "ph-galaxies-galactic-dynamics-12",
+      "name": "Supermassive black holes and galactic nuclei"
+    },
+    {
+      "id": "ph-galaxies-galactic-dynamics-13",
+      "name": "The Local Group and dwarf galaxies"
+    },
+    {
+      "id": "ph-galaxies-galactic-dynamics-14",
+      "name": "Groups and clusters of galaxies"
+    }
+  ]
+}

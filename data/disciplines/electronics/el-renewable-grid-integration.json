@@ -1,0 +1,59 @@
+{
+  "id": "el-renewable-grid-integration",
+  "name": "Grid Integration of Renewables & Energy Storage",
+  "category": "Electrical Machines & Power Systems",
+  "level": 4,
+  "priority": "important",
+  "summary": "Running a grid dominated by wind, solar and batteries: inverter-based resources, grid codes, microgrids, storage and flexibility.",
+  "prerequisites": [
+    "el-power-system-stability",
+    "el-dc-ac-conversion-inverters"
+  ],
+  "related": [
+    "ph-energy-physics",
+    "me-renewable-energy-systems",
+    "el-smart-grid-energy"
+  ],
+  "topics": [
+    {
+      "id": "el-renewable-grid-integration-1",
+      "name": "Variability and forecasting of wind and solar"
+    },
+    {
+      "id": "el-renewable-grid-integration-2",
+      "name": "Inverter-based resources and grid codes (fault ride-through, IEEE 1547)"
+    },
+    {
+      "id": "el-renewable-grid-integration-3",
+      "name": "Hosting capacity and voltage management"
+    },
+    {
+      "id": "el-renewable-grid-integration-4",
+      "name": "Grid-forming vs grid-following inverters"
+    },
+    {
+      "id": "el-renewable-grid-integration-5",
+      "name": "Frequency response and synthetic inertia"
+    },
+    {
+      "id": "el-renewable-grid-integration-6",
+      "name": "Battery energy storage systems: sizing and grid services"
+    },
+    {
+      "id": "el-renewable-grid-integration-7",
+      "name": "Microgrids: architectures, droop and hierarchical control"
+    },
+    {
+      "id": "el-renewable-grid-integration-8",
+      "name": "Virtual power plants and DER aggregation"
+    },
+    {
+      "id": "el-renewable-grid-integration-9",
+      "name": "Flexibility, curtailment and demand-side resources"
+    },
+    {
+      "id": "el-renewable-grid-integration-10",
+      "name": "EV integration and vehicle-to-grid"
+    }
+  ]
+}

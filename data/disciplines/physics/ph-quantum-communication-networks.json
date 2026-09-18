@@ -1,0 +1,59 @@
+{
+  "id": "ph-quantum-communication-networks",
+  "name": "Quantum Communication, Cryptography & Networks",
+  "category": "Quantum Physics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Using entanglement and single photons to send information securely: quantum key distribution, teleportation, repeaters and the quantum internet.",
+  "prerequisites": [
+    "ph-quantum-information-science",
+    "ph-quantum-optics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-quantum-communication-networks-1",
+      "name": "No-cloning and its consequences"
+    },
+    {
+      "id": "ph-quantum-communication-networks-2",
+      "name": "BB84 and E91 quantum key distribution"
+    },
+    {
+      "id": "ph-quantum-communication-networks-3",
+      "name": "Security proofs and practical attacks"
+    },
+    {
+      "id": "ph-quantum-communication-networks-4",
+      "name": "Continuous-variable QKD"
+    },
+    {
+      "id": "ph-quantum-communication-networks-5",
+      "name": "Quantum teleportation and entanglement swapping"
+    },
+    {
+      "id": "ph-quantum-communication-networks-6",
+      "name": "Photon sources and single-photon detectors"
+    },
+    {
+      "id": "ph-quantum-communication-networks-7",
+      "name": "Fibre and free-space (satellite) links"
+    },
+    {
+      "id": "ph-quantum-communication-networks-8",
+      "name": "Quantum repeaters and quantum memories"
+    },
+    {
+      "id": "ph-quantum-communication-networks-9",
+      "name": "Entanglement distillation"
+    },
+    {
+      "id": "ph-quantum-communication-networks-10",
+      "name": "Quantum network architectures and the quantum internet"
+    },
+    {
+      "id": "ph-quantum-communication-networks-11",
+      "name": "Post-quantum vs quantum cryptography"
+    }
+  ]
+}

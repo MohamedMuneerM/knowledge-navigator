@@ -1,0 +1,55 @@
+{
+  "id": "ph-engineering-physics",
+  "name": "Engineering Physics",
+  "category": "Applied Physics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Applying physics to devices and systems: semiconductors, MEMS, quantum technologies, control and signal processing.",
+  "prerequisites": [
+    "ph-solid-state-physics",
+    "ph-electronics-for-physicists"
+  ],
+  "related": [
+    "el-semiconductor-physics",
+    "el-mems-devices",
+    "el-control-theory"
+  ],
+  "topics": [
+    {
+      "id": "ph-engineering-physics-1",
+      "name": "Electronic devices"
+    },
+    {
+      "id": "ph-engineering-physics-2",
+      "name": "Semiconductor physics"
+    },
+    {
+      "id": "ph-engineering-physics-3",
+      "name": "Microelectronics"
+    },
+    {
+      "id": "ph-engineering-physics-4",
+      "name": "MEMS and NEMS"
+    },
+    {
+      "id": "ph-engineering-physics-5",
+      "name": "Nanotechnology"
+    },
+    {
+      "id": "ph-engineering-physics-6",
+      "name": "Quantum technologies"
+    },
+    {
+      "id": "ph-engineering-physics-7",
+      "name": "Control engineering"
+    },
+    {
+      "id": "ph-engineering-physics-8",
+      "name": "Power engineering"
+    },
+    {
+      "id": "ph-engineering-physics-9",
+      "name": "Signal processing"
+    }
+  ]
+}

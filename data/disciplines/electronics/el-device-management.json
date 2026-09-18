@@ -1,0 +1,42 @@
+{
+  "id": "el-device-management",
+  "name": "Device Management",
+  "category": "IoT Architectures, Platforms & Data",
+  "level": 3,
+  "priority": "important",
+  "summary": "Operating device fleets: provisioning, remote configuration and updates, health monitoring, device shadows and lifecycle management.",
+  "prerequisites": [
+    "el-iot-cloud-platforms"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-device-management-1",
+      "name": "Device provisioning and onboarding"
+    },
+    {
+      "id": "el-device-management-2",
+      "name": "Device configuration and remote updates"
+    },
+    {
+      "id": "el-device-management-3",
+      "name": "Device monitoring and health checks"
+    },
+    {
+      "id": "el-device-management-4",
+      "name": "Firmware over-the-air (FOTA) updates"
+    },
+    {
+      "id": "el-device-management-5",
+      "name": "Device lifecycle management"
+    },
+    {
+      "id": "el-device-management-6",
+      "name": "Device shadowing / device twins"
+    },
+    {
+      "id": "el-device-management-7",
+      "name": "Fleet management at scale"
+    }
+  ]
+}

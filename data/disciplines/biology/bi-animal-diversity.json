@@ -1,0 +1,54 @@
+{
+  "id": "bi-animal-diversity",
+  "name": "Zoology & Animal Diversity",
+  "category": "Biodiversity & Systematics",
+  "level": 2,
+  "priority": "important",
+  "summary": "A survey of the animal kingdom: body plans, the major phyla and the evolutionary relationships among animals.",
+  "prerequisites": [
+    "bi-systematics-taxonomy"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-animal-diversity-1",
+      "name": "What is an animal? Characteristics and origins"
+    },
+    {
+      "id": "bi-animal-diversity-2",
+      "name": "Body plans: symmetry, tissues, germ layers and body cavities"
+    },
+    {
+      "id": "bi-animal-diversity-3",
+      "name": "Protostomes versus deuterostomes; ecdysozoans and lophotrochozoans"
+    },
+    {
+      "id": "bi-animal-diversity-4",
+      "name": "Sponges and cnidarians"
+    },
+    {
+      "id": "bi-animal-diversity-5",
+      "name": "Flatworms, annelids and molluscs"
+    },
+    {
+      "id": "bi-animal-diversity-6",
+      "name": "Nematodes and arthropods"
+    },
+    {
+      "id": "bi-animal-diversity-7",
+      "name": "Echinoderms and chordates"
+    },
+    {
+      "id": "bi-animal-diversity-8",
+      "name": "Overview of vertebrate classes"
+    },
+    {
+      "id": "bi-animal-diversity-9",
+      "name": "Animal life cycles, reproduction and larvae"
+    },
+    {
+      "id": "bi-animal-diversity-10",
+      "name": "Animal phylogeny and how it is reconstructed"
+    }
+  ]
+}

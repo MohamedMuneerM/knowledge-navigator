@@ -1,0 +1,71 @@
+{
+  "id": "ph-data-analysis-statistics",
+  "name": "Data Analysis & Statistics for Physicists",
+  "category": "Experimental Physics & Instrumentation",
+  "level": 2,
+  "priority": "important",
+  "summary": "How physicists turn measurements into results with honest uncertainties: error analysis, fitting and inference.",
+  "prerequisites": [
+    "ph-measurement-units-vectors",
+    "ma-probability-theory"
+  ],
+  "related": [
+    "ma-inferential-statistics",
+    "ma-bayesian-statistics",
+    "ph-measurement-instrumentation"
+  ],
+  "topics": [
+    {
+      "id": "ph-data-analysis-statistics-1",
+      "name": "Random and systematic errors"
+    },
+    {
+      "id": "ph-data-analysis-statistics-2",
+      "name": "Probability distributions in physics: binomial, Poisson and Gaussian"
+    },
+    {
+      "id": "ph-data-analysis-statistics-3",
+      "name": "Propagation of uncertainties"
+    },
+    {
+      "id": "ph-data-analysis-statistics-4",
+      "name": "Weighted means and combining measurements"
+    },
+    {
+      "id": "ph-data-analysis-statistics-5",
+      "name": "Least-squares fitting and linear regression"
+    },
+    {
+      "id": "ph-data-analysis-statistics-6",
+      "name": "Chi-squared tests and goodness of fit"
+    },
+    {
+      "id": "ph-data-analysis-statistics-7",
+      "name": "Maximum likelihood estimation"
+    },
+    {
+      "id": "ph-data-analysis-statistics-8",
+      "name": "Bayesian inference for physicists"
+    },
+    {
+      "id": "ph-data-analysis-statistics-9",
+      "name": "Hypothesis testing, p-values and the 5-sigma convention"
+    },
+    {
+      "id": "ph-data-analysis-statistics-10",
+      "name": "Monte Carlo simulation and bootstrap methods"
+    },
+    {
+      "id": "ph-data-analysis-statistics-11",
+      "name": "Markov chain Monte Carlo (MCMC)"
+    },
+    {
+      "id": "ph-data-analysis-statistics-12",
+      "name": "Data visualization and scientific plotting"
+    },
+    {
+      "id": "ph-data-analysis-statistics-13",
+      "name": "Scientific Python for analysis: NumPy, SciPy and Matplotlib"
+    }
+  ]
+}

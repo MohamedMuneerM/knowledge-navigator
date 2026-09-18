@@ -1,0 +1,73 @@
+{
+  "id": "me-measurements-instrumentation",
+  "name": "Measurements, Instrumentation & Experimental Methods",
+  "category": "System Dynamics, Measurement & Control",
+  "level": 3,
+  "priority": "core",
+  "summary": "Planning experiments and measuring force, strain, pressure, temperature, flow and motion reliably, with proper uncertainty analysis and reporting.",
+  "prerequisites": [
+    "me-system-dynamics",
+    "el-circuit-theory",
+    "ma-inferential-statistics"
+  ],
+  "related": [
+    "ph-measurement-instrumentation",
+    "el-sensor-interfacing",
+    "el-calibration",
+    "ae-aerospace-instrumentation"
+  ],
+  "topics": [
+    {
+      "id": "me-measurements-instrumentation-1",
+      "name": "Measurement system elements and static characteristics (accuracy, precision, resolution, linearity, hysteresis)"
+    },
+    {
+      "id": "me-measurements-instrumentation-2",
+      "name": "Dynamic response of instruments (first- and second-order sensors)"
+    },
+    {
+      "id": "me-measurements-instrumentation-3",
+      "name": "Statistics for experimentation and uncertainty analysis (propagation, confidence intervals)"
+    },
+    {
+      "id": "me-measurements-instrumentation-4",
+      "name": "Calibration, traceability and standards"
+    },
+    {
+      "id": "me-measurements-instrumentation-5",
+      "name": "Signal conditioning: bridges, amplifiers and filters"
+    },
+    {
+      "id": "me-measurements-instrumentation-6",
+      "name": "Data acquisition: sampling, aliasing, quantisation and ADCs"
+    },
+    {
+      "id": "me-measurements-instrumentation-7",
+      "name": "Spectral analysis and the FFT for measurement data"
+    },
+    {
+      "id": "me-measurements-instrumentation-8",
+      "name": "Strain, force, torque and pressure measurement (strain gauges, load cells, transducers)"
+    },
+    {
+      "id": "me-measurements-instrumentation-9",
+      "name": "Temperature measurement (thermocouples, RTDs, thermistors, infrared)"
+    },
+    {
+      "id": "me-measurements-instrumentation-10",
+      "name": "Flow measurement (differential pressure, turbine, Coriolis, ultrasonic, hot-wire)"
+    },
+    {
+      "id": "me-measurements-instrumentation-11",
+      "name": "Motion measurement: displacement (LVDT, encoders), velocity and acceleration (accelerometers)"
+    },
+    {
+      "id": "me-measurements-instrumentation-12",
+      "name": "Design of experiments and test planning"
+    },
+    {
+      "id": "me-measurements-instrumentation-13",
+      "name": "Technical reporting and presentation of experimental results"
+    }
+  ]
+}

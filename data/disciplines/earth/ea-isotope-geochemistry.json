@@ -1,0 +1,54 @@
+{
+  "id": "ea-isotope-geochemistry",
+  "name": "Isotope Geochemistry",
+  "category": "Geochemistry & Geochronology",
+  "level": 3,
+  "priority": "important",
+  "summary": "Using stable and radiogenic isotopes as tracers of processes, sources and temperatures across the Earth system.",
+  "prerequisites": [
+    "ea-geochemistry-fundamentals"
+  ],
+  "related": [
+    "ph-nuclear-physics",
+    "ch-nuclear-radiochemistry",
+    "ch-geochemistry-cosmochemistry"
+  ],
+  "topics": [
+    {
+      "id": "ea-isotope-geochemistry-1",
+      "name": "Isotopes, nuclides and the chart of the nuclides"
+    },
+    {
+      "id": "ea-isotope-geochemistry-2",
+      "name": "Stable-isotope fractionation: equilibrium, kinetic and delta notation"
+    },
+    {
+      "id": "ea-isotope-geochemistry-3",
+      "name": "Oxygen and hydrogen isotopes in water, rocks and climate"
+    },
+    {
+      "id": "ea-isotope-geochemistry-4",
+      "name": "Carbon, nitrogen and sulfur isotopes in biogeochemistry"
+    },
+    {
+      "id": "ea-isotope-geochemistry-5",
+      "name": "Radiogenic isotope systems as tracers: Rb-Sr, Sm-Nd, Lu-Hf, U-Th-Pb and Re-Os"
+    },
+    {
+      "id": "ea-isotope-geochemistry-6",
+      "name": "Mantle and crustal isotopic reservoirs"
+    },
+    {
+      "id": "ea-isotope-geochemistry-7",
+      "name": "Cosmogenic and short-lived nuclides"
+    },
+    {
+      "id": "ea-isotope-geochemistry-8",
+      "name": "Clumped isotopes and non-traditional stable isotopes (Fe, Mg, Li, Ca)"
+    },
+    {
+      "id": "ea-isotope-geochemistry-9",
+      "name": "Mass spectrometry for isotope measurement"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "me-dynamics",
+  "name": "Engineering Dynamics",
+  "category": "Engineering Mechanics",
+  "level": 2,
+  "priority": "core",
+  "summary": "Motion of particles and rigid bodies under forces, using Newton's laws, work-energy and impulse-momentum methods.",
+  "prerequisites": [
+    "me-statics"
+  ],
+  "related": [
+    "ph-classical-mechanics",
+    "ae-aerospace-dynamics"
+  ],
+  "topics": [
+    {
+      "id": "me-dynamics-1",
+      "name": "Particle kinematics: rectilinear and curvilinear motion"
+    },
+    {
+      "id": "me-dynamics-2",
+      "name": "Coordinate systems: rectangular, normal-tangential, polar/cylindrical"
+    },
+    {
+      "id": "me-dynamics-3",
+      "name": "Relative and dependent motion"
+    },
+    {
+      "id": "me-dynamics-4",
+      "name": "Newton's second law for particles; kinetic friction"
+    },
+    {
+      "id": "me-dynamics-5",
+      "name": "Work-energy principle, power and efficiency"
+    },
+    {
+      "id": "me-dynamics-6",
+      "name": "Conservative forces and potential energy"
+    },
+    {
+      "id": "me-dynamics-7",
+      "name": "Linear impulse-momentum and impact (coefficient of restitution)"
+    },
+    {
+      "id": "me-dynamics-8",
+      "name": "Angular momentum; systems of particles and variable-mass systems"
+    },
+    {
+      "id": "me-dynamics-9",
+      "name": "Planar rigid-body kinematics: rotation, general plane motion, instantaneous centre"
+    },
+    {
+      "id": "me-dynamics-10",
+      "name": "Relative motion in rotating frames (Coriolis acceleration)"
+    },
+    {
+      "id": "me-dynamics-11",
+      "name": "Planar rigid-body kinetics: Newton-Euler equations"
+    },
+    {
+      "id": "me-dynamics-12",
+      "name": "Work-energy and impulse-momentum for rigid bodies"
+    },
+    {
+      "id": "me-dynamics-13",
+      "name": "Introduction to 3D rigid-body kinematics and kinetics"
+    },
+    {
+      "id": "me-dynamics-14",
+      "name": "Introduction to free vibration"
+    }
+  ]
+}

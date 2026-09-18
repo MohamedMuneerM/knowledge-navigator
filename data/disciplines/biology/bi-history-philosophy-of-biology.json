@@ -1,0 +1,50 @@
+{
+  "id": "bi-history-philosophy-of-biology",
+  "name": "History & Philosophy of Biology",
+  "category": "Bioethics, History & Society",
+  "level": 2,
+  "priority": "optional",
+  "summary": "How biology developed as a science and the conceptual questions it raises: what is a gene, a species, a function or life itself?",
+  "prerequisites": [
+    "bi-introductory-biology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-history-philosophy-of-biology-1",
+      "name": "Natural history from Aristotle to Linnaeus"
+    },
+    {
+      "id": "bi-history-philosophy-of-biology-2",
+      "name": "The cell theory and the rise of physiology"
+    },
+    {
+      "id": "bi-history-philosophy-of-biology-3",
+      "name": "Darwin and the reception of evolution"
+    },
+    {
+      "id": "bi-history-philosophy-of-biology-4",
+      "name": "The rediscovery of Mendel and the Modern Synthesis"
+    },
+    {
+      "id": "bi-history-philosophy-of-biology-5",
+      "name": "The molecular revolution and the double helix"
+    },
+    {
+      "id": "bi-history-philosophy-of-biology-6",
+      "name": "The genomic era"
+    },
+    {
+      "id": "bi-history-philosophy-of-biology-7",
+      "name": "Philosophical questions: species, genes, function, reductionism"
+    },
+    {
+      "id": "bi-history-philosophy-of-biology-8",
+      "name": "Levels of selection and units of evolution"
+    },
+    {
+      "id": "bi-history-philosophy-of-biology-9",
+      "name": "Biology, race and eugenics: lessons from history"
+    }
+  ]
+}

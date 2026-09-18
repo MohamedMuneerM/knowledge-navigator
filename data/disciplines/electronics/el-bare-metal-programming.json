@@ -1,0 +1,44 @@
+{
+  "id": "el-bare-metal-programming",
+  "name": "Bare-Metal Programming",
+  "category": "Embedded Software, Firmware & RTOS",
+  "level": 2,
+  "priority": "core",
+  "summary": "Programming a microcontroller without an operating system: register access, bit manipulation, memory-mapped I/O and interrupt service routines.",
+  "prerequisites": [
+    "el-embedded-systems-fundamentals"
+  ],
+  "related": [
+    "cs-systems-programming"
+  ],
+  "topics": [
+    {
+      "id": "el-bare-metal-programming-1",
+      "name": "Direct register manipulation"
+    },
+    {
+      "id": "el-bare-metal-programming-2",
+      "name": "Bitwise operations and bit manipulation"
+    },
+    {
+      "id": "el-bare-metal-programming-3",
+      "name": "Volatile keyword usage"
+    },
+    {
+      "id": "el-bare-metal-programming-4",
+      "name": "Memory-mapped I/O"
+    },
+    {
+      "id": "el-bare-metal-programming-5",
+      "name": "Interrupt service routines (ISR)"
+    },
+    {
+      "id": "el-bare-metal-programming-6",
+      "name": "Polling vs interrupt-driven programming"
+    },
+    {
+      "id": "el-bare-metal-programming-7",
+      "name": "Hardware abstraction without OS"
+    }
+  ]
+}

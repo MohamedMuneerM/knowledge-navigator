@@ -1,0 +1,122 @@
+{
+  "id": "ai-classical-ai-gofai-good-old-fashioned-ai",
+  "name": "Classical AI: Search, Games & Planning (GOFAI)",
+  "category": "Classical AI: Search, Logic & Planning",
+  "level": 2,
+  "priority": "core",
+  "summary": "Classical problem-solving AI: formulating problems as search, uninformed and heuristic search, adversarial game search, and first looks at constraints and planning.",
+  "prerequisites": [
+    "ai-core-ai-concepts",
+    "cs-data-structures"
+  ],
+  "related": [
+    "ai-constraint-satisfaction",
+    "ai-automated-planning"
+  ],
+  "topics": [
+    {
+      "id": "ai-classical-ai-gofai-good-old-fashioned-ai-5",
+      "name": "Problem formulation: states, actions, goal tests and path costs"
+    },
+    {
+      "id": "ai-classical-ai-gofai-good-old-fashioned-ai-1",
+      "name": "Search Algorithms",
+      "sub": [
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-1-1",
+          "name": "Uninformed search (DFS, BFS, Uniform Cost)"
+        },
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-1-2",
+          "name": "Informed search (A*, Greedy Best-First)"
+        },
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-1-3",
+          "name": "Iterative deepening"
+        },
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-1-4",
+          "name": "Bidirectional search"
+        },
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-1-5",
+          "name": "Local search (Hill climbing, Simulated annealing)"
+        }
+      ]
+    },
+    {
+      "id": "ai-classical-ai-gofai-good-old-fashioned-ai-2",
+      "name": "Constraint Satisfaction Problems (CSP)",
+      "sub": [
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-2-1",
+          "name": "Backtracking"
+        },
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-2-2",
+          "name": "Arc consistency"
+        },
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-2-3",
+          "name": "Constraint propagation"
+        }
+      ]
+    },
+    {
+      "id": "ai-classical-ai-gofai-good-old-fashioned-ai-3",
+      "name": "Game-Playing Algorithms",
+      "sub": [
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-3-1",
+          "name": "Minimax"
+        },
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-3-2",
+          "name": "Alpha-beta pruning"
+        },
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-3-3",
+          "name": "Expectimax"
+        },
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-3-4",
+          "name": "Monte Carlo Tree Search (MCTS)"
+        }
+      ]
+    },
+    {
+      "id": "ai-classical-ai-gofai-good-old-fashioned-ai-4",
+      "name": "Planning",
+      "sub": [
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-4-1",
+          "name": "Classical planning"
+        },
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-4-2",
+          "name": "Automated planning"
+        },
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-4-3",
+          "name": "STRIPS"
+        },
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-4-4",
+          "name": "Partial-order planning"
+        },
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-4-5",
+          "name": "Hierarchical task networks"
+        }
+      ]
+    },
+    {
+      "id": "ai-classical-ai-gofai-good-old-fashioned-ai-6",
+      "name": "Heuristic design: admissibility, consistency and relaxed problems"
+    },
+    {
+      "id": "ai-classical-ai-gofai-good-old-fashioned-ai-7",
+      "name": "Search in nondeterministic and partially observable environments"
+    }
+  ]
+}

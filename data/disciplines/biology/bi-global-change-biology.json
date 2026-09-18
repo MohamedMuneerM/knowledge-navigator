@@ -1,0 +1,52 @@
+{
+  "id": "bi-global-change-biology",
+  "name": "Global Change Biology",
+  "category": "Ecology & Environment",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How climate change and other human-driven global changes affect organisms, ecosystems and the feedbacks between life and climate.",
+  "prerequisites": [
+    "bi-ecosystem-ecology",
+    "bi-conservation-biology",
+    "ea-climate-system-science"
+  ],
+  "related": [
+    "ph-atmospheric-environmental-physics",
+    "ea-climate-change-impacts-mitigation-adaptation",
+    "ea-paleoclimatology"
+  ],
+  "topics": [
+    {
+      "id": "bi-global-change-biology-1",
+      "name": "The climate system and the biosphere's role in it"
+    },
+    {
+      "id": "bi-global-change-biology-2",
+      "name": "Phenology shifts and mismatches"
+    },
+    {
+      "id": "bi-global-change-biology-3",
+      "name": "Range shifts and species' responses to warming"
+    },
+    {
+      "id": "bi-global-change-biology-4",
+      "name": "Physiological limits and thermal tolerance"
+    },
+    {
+      "id": "bi-global-change-biology-5",
+      "name": "Ocean acidification biology"
+    },
+    {
+      "id": "bi-global-change-biology-6",
+      "name": "Biosphere-climate feedbacks: forests, permafrost, oceans"
+    },
+    {
+      "id": "bi-global-change-biology-7",
+      "name": "Land-use change and biodiversity"
+    },
+    {
+      "id": "bi-global-change-biology-8",
+      "name": "Nature-based solutions and ecosystem-based adaptation"
+    }
+  ]
+}

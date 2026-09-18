@@ -1,0 +1,33 @@
+{
+  "id": "ph-ultrafast-physics",
+  "name": "Ultrafast Physics",
+  "category": "Optics & Photonics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Femtosecond and attosecond light pulses and what they reveal about electron and molecular motion.",
+  "prerequisites": [
+    "ph-modern-optics",
+    "ph-atomic-physics"
+  ],
+  "related": [
+    "ch-ultrafast-nonlinear-spectroscopy"
+  ],
+  "topics": [
+    {
+      "id": "ph-ultrafast-physics-1",
+      "name": "Attosecond science"
+    },
+    {
+      "id": "ph-ultrafast-physics-2",
+      "name": "Femtosecond physics"
+    },
+    {
+      "id": "ph-ultrafast-physics-3",
+      "name": "Ultrafast spectroscopy"
+    },
+    {
+      "id": "ph-ultrafast-physics-4",
+      "name": "High harmonic generation"
+    }
+  ]
+}

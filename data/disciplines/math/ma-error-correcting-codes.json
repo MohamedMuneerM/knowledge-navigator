@@ -1,0 +1,43 @@
+{
+  "id": "ma-error-correcting-codes",
+  "name": "Error-Correcting Codes",
+  "category": "Theoretical Computer Science",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Practical codes that detect and fix transmission errors: Hamming, Reed-Solomon, convolutional, LDPC and polar codes.",
+  "prerequisites": [
+    "ma-algebraic-coding-theory",
+    "ma-information-theory"
+  ],
+  "related": [
+    "ma-algebraic-coding-theory",
+    "ma-coding-theory-combinatorial-aspects",
+    "el-channel-coding"
+  ],
+  "topics": [
+    {
+      "id": "ma-error-correcting-codes-4",
+      "name": "Channel models and the coding problem"
+    },
+    {
+      "id": "ma-error-correcting-codes-1",
+      "name": "Hamming codes"
+    },
+    {
+      "id": "ma-error-correcting-codes-2",
+      "name": "Reed-Solomon codes"
+    },
+    {
+      "id": "ma-error-correcting-codes-5",
+      "name": "Convolutional codes and Viterbi decoding"
+    },
+    {
+      "id": "ma-error-correcting-codes-3",
+      "name": "LDPC codes"
+    },
+    {
+      "id": "ma-error-correcting-codes-6",
+      "name": "Turbo and polar codes"
+    }
+  ]
+}

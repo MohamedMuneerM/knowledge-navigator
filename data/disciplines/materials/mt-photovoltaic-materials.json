@@ -1,0 +1,64 @@
+{
+  "id": "mt-photovoltaic-materials",
+  "name": "Photovoltaic Materials",
+  "category": "Energy Materials",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Explains how solar cells convert light into electricity and the materials used, from crystalline silicon to perovskites and space-grade multijunction cells.",
+  "prerequisites": [
+    "mt-semiconductor-materials",
+    "mt-optical-photonic-materials"
+  ],
+  "related": [
+    "el-optoelectronic-devices",
+    "ph-energy-physics",
+    "ch-solar-energy-conversion",
+    "me-renewable-energy-systems"
+  ],
+  "topics": [
+    {
+      "id": "mt-photovoltaic-materials-1",
+      "name": "The solar spectrum and photovoltaic operating principles"
+    },
+    {
+      "id": "mt-photovoltaic-materials-2",
+      "name": "The p-n junction solar cell: I-V curve, fill factor and efficiency"
+    },
+    {
+      "id": "mt-photovoltaic-materials-3",
+      "name": "Shockley-Queisser limit and loss mechanisms"
+    },
+    {
+      "id": "mt-photovoltaic-materials-4",
+      "name": "Crystalline silicon: feedstock, wafers, PERC, TOPCon and heterojunction cells"
+    },
+    {
+      "id": "mt-photovoltaic-materials-5",
+      "name": "Thin-film PV: CdTe, CIGS and amorphous silicon"
+    },
+    {
+      "id": "mt-photovoltaic-materials-6",
+      "name": "Metal-halide perovskite solar cells: structure, stability and tandems"
+    },
+    {
+      "id": "mt-photovoltaic-materials-7",
+      "name": "III-V multijunction cells for space and concentrator PV"
+    },
+    {
+      "id": "mt-photovoltaic-materials-8",
+      "name": "Radiation hardness of space solar cells"
+    },
+    {
+      "id": "mt-photovoltaic-materials-9",
+      "name": "Organic and dye-sensitised solar cells"
+    },
+    {
+      "id": "mt-photovoltaic-materials-10",
+      "name": "Light management and anti-reflection texturing"
+    },
+    {
+      "id": "mt-photovoltaic-materials-11",
+      "name": "Module materials, encapsulation and degradation"
+    }
+  ]
+}

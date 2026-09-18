@@ -1,0 +1,58 @@
+{
+  "id": "el-electrical-machines",
+  "name": "Rotating Electrical Machines",
+  "category": "Electrical Machines & Power Systems",
+  "level": 3,
+  "priority": "core",
+  "summary": "How DC, induction and synchronous machines produce torque and power, and how they are modelled, tested and controlled.",
+  "prerequisites": [
+    "el-magnetic-circuits-transformers"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-electrical-machines-1",
+      "name": "Rotating magnetic fields and winding MMF"
+    },
+    {
+      "id": "el-electrical-machines-2",
+      "name": "DC machines: construction, EMF and torque equations"
+    },
+    {
+      "id": "el-electrical-machines-3",
+      "name": "DC motor characteristics and speed control; DC generators"
+    },
+    {
+      "id": "el-electrical-machines-4",
+      "name": "Three-phase induction motors: equivalent circuit and torque-speed curve"
+    },
+    {
+      "id": "el-electrical-machines-5",
+      "name": "Induction motor starting, braking and speed control"
+    },
+    {
+      "id": "el-electrical-machines-6",
+      "name": "Single-phase induction motors"
+    },
+    {
+      "id": "el-electrical-machines-7",
+      "name": "Synchronous generators: phasor diagrams, synchronous reactance, OC/SC tests"
+    },
+    {
+      "id": "el-electrical-machines-8",
+      "name": "Synchronous motors and power-factor control"
+    },
+    {
+      "id": "el-electrical-machines-9",
+      "name": "Parallel operation and the infinite bus"
+    },
+    {
+      "id": "el-electrical-machines-10",
+      "name": "Losses, efficiency, ratings and standards (IEC, NEMA)"
+    },
+    {
+      "id": "el-electrical-machines-11",
+      "name": "Park (dq) transformation and dynamic machine models"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "cs-computer-networks",
+  "name": "Computer Networks",
+  "category": "Computer Networks",
+  "level": 3,
+  "priority": "core",
+  "summary": "How the Internet works layer by layer, from applications and sockets through TCP, IP routing and link layers, with hands-on protocol analysis.",
+  "prerequisites": [
+    "cs-systems-programming"
+  ],
+  "related": [
+    "el-iot-application-protocols",
+    "ma-information-communication-theory"
+  ],
+  "topics": [
+    {
+      "id": "cs-computer-networks-1",
+      "name": "Network architecture, layering and the Internet's design principles"
+    },
+    {
+      "id": "cs-computer-networks-2",
+      "name": "Performance: delay, throughput and the bandwidth-delay product"
+    },
+    {
+      "id": "cs-computer-networks-3",
+      "name": "Application layer: HTTP, DNS, email and peer-to-peer"
+    },
+    {
+      "id": "cs-computer-networks-4",
+      "name": "Socket programming"
+    },
+    {
+      "id": "cs-computer-networks-5",
+      "name": "Transport layer: UDP and TCP"
+    },
+    {
+      "id": "cs-computer-networks-6",
+      "name": "Reliable data transfer"
+    },
+    {
+      "id": "cs-computer-networks-7",
+      "name": "Flow control and congestion control"
+    },
+    {
+      "id": "cs-computer-networks-8",
+      "name": "Network layer: IP addressing, subnets, NAT and IPv6"
+    },
+    {
+      "id": "cs-computer-networks-9",
+      "name": "Routing algorithms and protocols: link state, distance vector, OSPF and BGP"
+    },
+    {
+      "id": "cs-computer-networks-10",
+      "name": "Link layer: Ethernet, switching, ARP and VLANs"
+    },
+    {
+      "id": "cs-computer-networks-11",
+      "name": "Wireless and mobile networks: Wi-Fi and cellular basics"
+    },
+    {
+      "id": "cs-computer-networks-12",
+      "name": "Network security basics: TLS, firewalls and VPNs"
+    },
+    {
+      "id": "cs-computer-networks-13",
+      "name": "Content delivery networks and video streaming"
+    },
+    {
+      "id": "cs-computer-networks-14",
+      "name": "Network tools: Wireshark, tcpdump and traceroute"
+    }
+  ]
+}

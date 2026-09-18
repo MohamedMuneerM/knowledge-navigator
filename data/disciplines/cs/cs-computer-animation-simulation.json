@@ -1,0 +1,60 @@
+{
+  "id": "cs-computer-animation-simulation",
+  "name": "Computer Animation & Physically Based Simulation",
+  "category": "Graphics, Visualization & Games",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Making things move: keyframe and skeletal animation, kinematics, motion capture and physics simulation of particles, rigid bodies, cloth and fluids.",
+  "prerequisites": [
+    "cs-computer-graphics",
+    "ma-ordinary-differential-equations-odes",
+    "ph-introductory-mechanics"
+  ],
+  "related": [
+    "ph-classical-mechanics",
+    "ma-numerical-solutions-of-odes",
+    "me-advanced-dynamics-multibody"
+  ],
+  "topics": [
+    {
+      "id": "cs-computer-animation-simulation-1",
+      "name": "Keyframing and interpolation"
+    },
+    {
+      "id": "cs-computer-animation-simulation-2",
+      "name": "Skeletal animation and skinning"
+    },
+    {
+      "id": "cs-computer-animation-simulation-3",
+      "name": "Forward and inverse kinematics"
+    },
+    {
+      "id": "cs-computer-animation-simulation-4",
+      "name": "Motion capture and motion graphs"
+    },
+    {
+      "id": "cs-computer-animation-simulation-5",
+      "name": "Particle systems"
+    },
+    {
+      "id": "cs-computer-animation-simulation-6",
+      "name": "Numerical integration for simulation"
+    },
+    {
+      "id": "cs-computer-animation-simulation-7",
+      "name": "Rigid-body dynamics and collision detection"
+    },
+    {
+      "id": "cs-computer-animation-simulation-8",
+      "name": "Cloth and deformable bodies"
+    },
+    {
+      "id": "cs-computer-animation-simulation-9",
+      "name": "Fluid simulation"
+    },
+    {
+      "id": "cs-computer-animation-simulation-10",
+      "name": "Character and procedural animation"
+    }
+  ]
+}

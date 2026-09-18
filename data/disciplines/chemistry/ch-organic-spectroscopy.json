@@ -1,0 +1,54 @@
+{
+  "id": "ch-organic-spectroscopy",
+  "name": "Organic Structure Determination by Spectroscopy",
+  "category": "Organic Chemistry",
+  "level": 2,
+  "priority": "core",
+  "summary": "Using IR, NMR, mass spectrometry and UV-vis together to work out the structure of an unknown organic compound.",
+  "prerequisites": [
+    "ch-organic-structure-bonding"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-organic-spectroscopy-1",
+      "name": "Degree of unsaturation from the molecular formula"
+    },
+    {
+      "id": "ch-organic-spectroscopy-2",
+      "name": "Mass spectrometry: molecular ion, isotope patterns and fragmentation"
+    },
+    {
+      "id": "ch-organic-spectroscopy-3",
+      "name": "Infrared spectroscopy: characteristic functional-group frequencies"
+    },
+    {
+      "id": "ch-organic-spectroscopy-4",
+      "name": "UV-visible spectroscopy of conjugated systems"
+    },
+    {
+      "id": "ch-organic-spectroscopy-5",
+      "name": "¹H NMR: chemical shift, integration and spin-spin coupling"
+    },
+    {
+      "id": "ch-organic-spectroscopy-6",
+      "name": "¹³C NMR and DEPT"
+    },
+    {
+      "id": "ch-organic-spectroscopy-7",
+      "name": "2D NMR: COSY, HSQC, HMBC and NOESY"
+    },
+    {
+      "id": "ch-organic-spectroscopy-8",
+      "name": "Coupling constants, the Karplus relation and stereochemical assignment"
+    },
+    {
+      "id": "ch-organic-spectroscopy-9",
+      "name": "Combined spectroscopic problem solving"
+    },
+    {
+      "id": "ch-organic-spectroscopy-10",
+      "name": "Chiroptical methods and X-ray confirmation of structure"
+    }
+  ]
+}

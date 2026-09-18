@@ -1,0 +1,71 @@
+{
+  "id": "mt-electron-microscopy",
+  "name": "Electron Microscopy & Microanalysis",
+  "category": "Materials Characterization",
+  "level": 3,
+  "priority": "important",
+  "summary": "Covers scanning and transmission electron microscopy and the analytical methods that image and analyse materials down to single atoms.",
+  "prerequisites": [
+    "mt-crystallography-diffraction",
+    "mt-characterization-fundamentals"
+  ],
+  "related": [
+    "ph-experimental-techniques",
+    "ea-analytical-methods-in-geochemistry",
+    "bi-structural-biology"
+  ],
+  "topics": [
+    {
+      "id": "mt-electron-microscopy-1",
+      "name": "Electron optics: sources, lenses, aberrations and resolution"
+    },
+    {
+      "id": "mt-electron-microscopy-2",
+      "name": "Electron-specimen interactions: secondary, backscattered and characteristic X-ray signals"
+    },
+    {
+      "id": "mt-electron-microscopy-3",
+      "name": "Scanning electron microscopy: imaging modes, contrast and fractography"
+    },
+    {
+      "id": "mt-electron-microscopy-4",
+      "name": "Energy- and wavelength-dispersive X-ray spectroscopy (EDS/WDS) and electron probe microanalysis"
+    },
+    {
+      "id": "mt-electron-microscopy-5",
+      "name": "Electron backscatter diffraction (EBSD): orientation maps, grain boundaries and texture"
+    },
+    {
+      "id": "mt-electron-microscopy-6",
+      "name": "Focused ion beam (FIB): cross-sectioning, TEM lamella preparation and serial sectioning"
+    },
+    {
+      "id": "mt-electron-microscopy-7",
+      "name": "Transmission electron microscopy: bright field, dark field and diffraction contrast"
+    },
+    {
+      "id": "mt-electron-microscopy-8",
+      "name": "Selected-area and convergent-beam electron diffraction"
+    },
+    {
+      "id": "mt-electron-microscopy-9",
+      "name": "Imaging dislocations and defects: g·b analysis"
+    },
+    {
+      "id": "mt-electron-microscopy-10",
+      "name": "High-resolution TEM and aberration-corrected STEM (HAADF, Z-contrast)"
+    },
+    {
+      "id": "mt-electron-microscopy-11",
+      "name": "Electron energy-loss spectroscopy (EELS)"
+    },
+    {
+      "id": "mt-electron-microscopy-12",
+      "name": "In-situ TEM, cryo-EM of materials and 4D-STEM"
+    },
+    {
+      "id": "mt-electron-microscopy-13",
+      "name": "Atom probe tomography"
+    }
+  ]
+}

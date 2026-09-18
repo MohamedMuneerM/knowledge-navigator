@@ -1,0 +1,71 @@
+{
+  "id": "mt-phase-transformations",
+  "name": "Phase Transformations",
+  "category": "Thermodynamics & Kinetics",
+  "level": 3,
+  "priority": "core",
+  "summary": "Covers how and how fast phases form: nucleation, growth, solidification, precipitation, spinodal and martensitic transformations, and TTT/CCT diagrams.",
+  "prerequisites": [
+    "mt-phase-diagrams",
+    "mt-diffusion"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "mt-phase-transformations-1",
+      "name": "Classification of phase transformations: diffusional vs diffusionless, first vs second order"
+    },
+    {
+      "id": "mt-phase-transformations-2",
+      "name": "Driving force and undercooling"
+    },
+    {
+      "id": "mt-phase-transformations-3",
+      "name": "Homogeneous nucleation: critical radius and nucleation barrier"
+    },
+    {
+      "id": "mt-phase-transformations-4",
+      "name": "Heterogeneous nucleation and wetting angle"
+    },
+    {
+      "id": "mt-phase-transformations-5",
+      "name": "Growth kinetics: interface-controlled and diffusion-controlled growth"
+    },
+    {
+      "id": "mt-phase-transformations-6",
+      "name": "Overall transformation kinetics: the Johnson-Mehl-Avrami-Kolmogorov equation"
+    },
+    {
+      "id": "mt-phase-transformations-7",
+      "name": "Solidification: constitutional supercooling, planar/cellular/dendritic growth and eutectic growth"
+    },
+    {
+      "id": "mt-phase-transformations-8",
+      "name": "Precipitation from supersaturated solid solution: GP zones, transition phases and age hardening"
+    },
+    {
+      "id": "mt-phase-transformations-9",
+      "name": "Spinodal decomposition and the Cahn-Hilliard picture"
+    },
+    {
+      "id": "mt-phase-transformations-10",
+      "name": "Eutectoid transformations: pearlite and bainite formation"
+    },
+    {
+      "id": "mt-phase-transformations-11",
+      "name": "Martensitic transformations: crystallography, habit plane and athermal kinetics"
+    },
+    {
+      "id": "mt-phase-transformations-12",
+      "name": "Order-disorder transformations"
+    },
+    {
+      "id": "mt-phase-transformations-13",
+      "name": "Isothermal (TTT) and continuous-cooling (CCT) transformation diagrams"
+    },
+    {
+      "id": "mt-phase-transformations-14",
+      "name": "Massive and discontinuous transformations"
+    }
+  ]
+}

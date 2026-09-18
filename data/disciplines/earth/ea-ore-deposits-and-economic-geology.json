@@ -1,0 +1,57 @@
+{
+  "id": "ea-ore-deposits-and-economic-geology",
+  "name": "Ore Deposits & Economic Geology",
+  "category": "Earth Resources & Applied Geology",
+  "level": 3,
+  "priority": "important",
+  "summary": "How metal deposits form, where they occur and how they are explored for and evaluated, including critical minerals.",
+  "prerequisites": [
+    "ea-igneous-petrology",
+    "ea-aqueous-geochemistry"
+  ],
+  "related": [
+    "mt-extractive-metallurgy"
+  ],
+  "topics": [
+    {
+      "id": "ea-ore-deposits-and-economic-geology-1",
+      "name": "Ore-forming processes and hydrothermal fluids"
+    },
+    {
+      "id": "ea-ore-deposits-and-economic-geology-2",
+      "name": "Magmatic deposits: chromite, PGE and Ni-Cu sulfides"
+    },
+    {
+      "id": "ea-ore-deposits-and-economic-geology-3",
+      "name": "Porphyry copper and epithermal gold deposits"
+    },
+    {
+      "id": "ea-ore-deposits-and-economic-geology-4",
+      "name": "Volcanogenic massive sulfide (VMS) and SEDEX deposits"
+    },
+    {
+      "id": "ea-ore-deposits-and-economic-geology-5",
+      "name": "Mississippi Valley-type and sediment-hosted deposits"
+    },
+    {
+      "id": "ea-ore-deposits-and-economic-geology-6",
+      "name": "Orogenic gold, IOCG and skarn deposits"
+    },
+    {
+      "id": "ea-ore-deposits-and-economic-geology-7",
+      "name": "Placer, laterite and supergene deposits"
+    },
+    {
+      "id": "ea-ore-deposits-and-economic-geology-8",
+      "name": "Critical minerals: lithium, rare earths, cobalt and others"
+    },
+    {
+      "id": "ea-ore-deposits-and-economic-geology-9",
+      "name": "Mineral exploration: geochemical and geophysical methods"
+    },
+    {
+      "id": "ea-ore-deposits-and-economic-geology-10",
+      "name": "Resource estimation and mine environmental impacts"
+    }
+  ]
+}

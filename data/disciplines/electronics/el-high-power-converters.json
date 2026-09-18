@@ -1,0 +1,51 @@
+{
+  "id": "el-high-power-converters",
+  "name": "Grid-Connected & High-Power Converters",
+  "category": "Power Electronics & Power Management",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Converters for grids, drives and renewables: multilevel and modular multilevel converters, grid synchronization, grid-forming control and solid-state transformers.",
+  "prerequisites": [
+    "el-dc-ac-conversion-inverters",
+    "el-control-theory"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-high-power-converters-1",
+      "name": "Multilevel topologies: NPC, flying capacitor, cascaded H-bridge"
+    },
+    {
+      "id": "el-high-power-converters-2",
+      "name": "Modular multilevel converter (MMC)"
+    },
+    {
+      "id": "el-high-power-converters-3",
+      "name": "Grid synchronization with PLLs and dq-frame current control"
+    },
+    {
+      "id": "el-high-power-converters-4",
+      "name": "Grid-following vs grid-forming control"
+    },
+    {
+      "id": "el-high-power-converters-5",
+      "name": "LCL filters and harmonic standards"
+    },
+    {
+      "id": "el-high-power-converters-6",
+      "name": "Wide-bandgap high-power design (SiC modules)"
+    },
+    {
+      "id": "el-high-power-converters-7",
+      "name": "Solid-state transformers"
+    },
+    {
+      "id": "el-high-power-converters-8",
+      "name": "Medium-voltage drives"
+    },
+    {
+      "id": "el-high-power-converters-9",
+      "name": "Converter protection and fault ride-through"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "ai-speech-audio-processing",
+  "name": "Speech & Audio Processing",
+  "category": "Natural Language & Speech Processing",
+  "level": 4,
+  "priority": "important",
+  "summary": "How machines hear and speak: audio signal features, automatic speech recognition, text-to-speech, speaker recognition and general audio understanding.",
+  "prerequisites": [
+    "ai-attention-transformers",
+    "el-digital-signal-processing-dsp"
+  ],
+  "related": [
+    "ph-acoustics",
+    "ai-nlp-tasks-applications"
+  ],
+  "topics": [
+    {
+      "id": "ai-speech-audio-processing-1",
+      "name": "Speech production, perception and phonetics"
+    },
+    {
+      "id": "ai-speech-audio-processing-2",
+      "name": "Digital audio: sampling, framing, STFT and spectrograms"
+    },
+    {
+      "id": "ai-speech-audio-processing-3",
+      "name": "Acoustic features: MFCCs and log-mel filterbanks"
+    },
+    {
+      "id": "ai-speech-audio-processing-4",
+      "name": "Classical ASR: HMM-GMM acoustic models, WFST decoding, n-gram language models"
+    },
+    {
+      "id": "ai-speech-audio-processing-5",
+      "name": "Neural ASR: CTC, RNN-Transducer and attention encoder-decoders"
+    },
+    {
+      "id": "ai-speech-audio-processing-6",
+      "name": "Conformers, self-supervised speech (wav2vec 2.0, HuBERT) and Whisper"
+    },
+    {
+      "id": "ai-speech-audio-processing-7",
+      "name": "ASR evaluation: word error rate and robustness"
+    },
+    {
+      "id": "ai-speech-audio-processing-8",
+      "name": "Text-to-speech: text normalization and grapheme-to-phoneme"
+    },
+    {
+      "id": "ai-speech-audio-processing-9",
+      "name": "Neural TTS: Tacotron, FastSpeech, VITS"
+    },
+    {
+      "id": "ai-speech-audio-processing-10",
+      "name": "Neural vocoders: WaveNet, HiFi-GAN"
+    },
+    {
+      "id": "ai-speech-audio-processing-11",
+      "name": "Speaker recognition, verification and diarization"
+    },
+    {
+      "id": "ai-speech-audio-processing-12",
+      "name": "Audio classification and sound event detection"
+    },
+    {
+      "id": "ai-speech-audio-processing-13",
+      "name": "Speech enhancement and source separation"
+    },
+    {
+      "id": "ai-speech-audio-processing-14",
+      "name": "Neural audio codecs and audio language models"
+    },
+    {
+      "id": "ai-speech-audio-processing-15",
+      "name": "Music information retrieval basics"
+    }
+  ]
+}

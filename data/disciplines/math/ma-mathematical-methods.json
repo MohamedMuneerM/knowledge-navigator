@@ -1,0 +1,66 @@
+{
+  "id": "ma-mathematical-methods",
+  "name": "Mathematical Methods for Science & Engineering",
+  "category": "Differential Equations & Dynamical Systems",
+  "level": 2,
+  "priority": "important",
+  "summary": "The standard toolkit for scientists and engineers: Fourier series, separation of variables, Sturm-Liouville problems, special functions and Green's functions.",
+  "prerequisites": [
+    "ma-ordinary-differential-equations-odes",
+    "ma-vector-calculus"
+  ],
+  "related": [
+    "ph-mathematical-physics",
+    "el-mathematical-foundations"
+  ],
+  "topics": [
+    {
+      "id": "ma-mathematical-methods-1",
+      "name": "Fourier series: coefficients, convergence and Parseval's theorem"
+    },
+    {
+      "id": "ma-mathematical-methods-2",
+      "name": "Sturm-Liouville problems and orthogonal eigenfunction expansions"
+    },
+    {
+      "id": "ma-mathematical-methods-3",
+      "name": "Separation of variables for the heat, wave and Laplace equations"
+    },
+    {
+      "id": "ma-mathematical-methods-4",
+      "name": "Laplace's equation in polar, cylindrical and spherical coordinates"
+    },
+    {
+      "id": "ma-mathematical-methods-5",
+      "name": "Legendre polynomials and spherical harmonics"
+    },
+    {
+      "id": "ma-mathematical-methods-6",
+      "name": "Bessel functions"
+    },
+    {
+      "id": "ma-mathematical-methods-7",
+      "name": "Fourier transforms and their use on PDEs"
+    },
+    {
+      "id": "ma-mathematical-methods-8",
+      "name": "Dirac delta function and generalised functions"
+    },
+    {
+      "id": "ma-mathematical-methods-9",
+      "name": "Green's functions for ODEs and PDEs"
+    },
+    {
+      "id": "ma-mathematical-methods-10",
+      "name": "Series solutions of ODEs (Frobenius method)"
+    },
+    {
+      "id": "ma-mathematical-methods-11",
+      "name": "Tensors in Cartesian coordinates"
+    },
+    {
+      "id": "ma-mathematical-methods-12",
+      "name": "Complex methods: contour integration for real integrals"
+    }
+  ]
+}

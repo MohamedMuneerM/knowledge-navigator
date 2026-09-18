@@ -1,0 +1,58 @@
+{
+  "id": "ea-natural-hazards-and-disaster-risk",
+  "name": "Natural Hazards & Disaster Risk",
+  "category": "Natural Hazards",
+  "level": 2,
+  "priority": "core",
+  "summary": "The geological and atmospheric hazards that threaten people, and how hazard, exposure and vulnerability combine into risk.",
+  "prerequisites": [
+    "ea-physical-geology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-natural-hazards-and-disaster-risk-1",
+      "name": "Hazard, exposure, vulnerability and risk"
+    },
+    {
+      "id": "ea-natural-hazards-and-disaster-risk-2",
+      "name": "Earthquakes and tsunamis as hazards"
+    },
+    {
+      "id": "ea-natural-hazards-and-disaster-risk-3",
+      "name": "Volcanic hazards"
+    },
+    {
+      "id": "ea-natural-hazards-and-disaster-risk-4",
+      "name": "Landslides and other mass movements"
+    },
+    {
+      "id": "ea-natural-hazards-and-disaster-risk-5",
+      "name": "Floods and river hazards"
+    },
+    {
+      "id": "ea-natural-hazards-and-disaster-risk-6",
+      "name": "Tropical cyclones, severe storms and storm surge"
+    },
+    {
+      "id": "ea-natural-hazards-and-disaster-risk-7",
+      "name": "Drought, heatwaves and wildfire"
+    },
+    {
+      "id": "ea-natural-hazards-and-disaster-risk-8",
+      "name": "Coastal hazards and subsidence"
+    },
+    {
+      "id": "ea-natural-hazards-and-disaster-risk-9",
+      "name": "Space weather and extraterrestrial impacts as hazards"
+    },
+    {
+      "id": "ea-natural-hazards-and-disaster-risk-10",
+      "name": "Risk assessment and hazard mapping"
+    },
+    {
+      "id": "ea-natural-hazards-and-disaster-risk-11",
+      "name": "Disaster risk reduction, early warning and the Sendai Framework"
+    }
+  ]
+}

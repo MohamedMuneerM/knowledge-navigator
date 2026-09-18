@@ -1,0 +1,33 @@
+{
+  "id": "ma-mirror-symmetry",
+  "name": "Mirror Symmetry",
+  "category": "Emerging & Advanced Areas",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "A duality from string theory relating complex and symplectic geometry of Calabi-Yau manifolds.",
+  "prerequisites": [
+    "ma-algebraic-geometry",
+    "ma-symplectic-geometry"
+  ],
+  "related": [
+    "ph-string-theory"
+  ],
+  "topics": [
+    {
+      "id": "ma-mirror-symmetry-1",
+      "name": "Calabi-Yau manifolds"
+    },
+    {
+      "id": "ma-mirror-symmetry-2",
+      "name": "String theory mathematics"
+    },
+    {
+      "id": "ma-mirror-symmetry-3",
+      "name": "Gromov-Witten invariants"
+    },
+    {
+      "id": "ma-mirror-symmetry-4",
+      "name": "Homological mirror symmetry (overview)"
+    }
+  ]
+}

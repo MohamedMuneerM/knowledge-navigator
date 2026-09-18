@@ -1,0 +1,59 @@
+{
+  "id": "ch-applied-radiochemistry",
+  "name": "Actinide Chemistry, Nuclear Fuel Cycle & Applied Radiochemistry",
+  "category": "Nuclear & Radiochemistry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Chemistry of the actinides and its application in nuclear power, waste management, medicine and space power sources.",
+  "prerequisites": [
+    "ch-nuclear-radiochemistry",
+    "ch-coordination-chemistry"
+  ],
+  "related": [
+    "ph-energy-physics",
+    "ph-medical-physics",
+    "mt-radiation-nuclear-materials"
+  ],
+  "topics": [
+    {
+      "id": "ch-applied-radiochemistry-1",
+      "name": "Actinide chemistry: oxidation states, 5f bonding and speciation"
+    },
+    {
+      "id": "ch-applied-radiochemistry-2",
+      "name": "Uranium mining, conversion and enrichment"
+    },
+    {
+      "id": "ch-applied-radiochemistry-3",
+      "name": "Nuclear fuel chemistry: oxide and advanced fuels, fuel-cladding interactions"
+    },
+    {
+      "id": "ch-applied-radiochemistry-4",
+      "name": "Reactor coolant and water chemistry"
+    },
+    {
+      "id": "ch-applied-radiochemistry-5",
+      "name": "Spent-fuel reprocessing and separations (solvent-extraction principles)"
+    },
+    {
+      "id": "ch-applied-radiochemistry-6",
+      "name": "Radioactive waste forms and geological disposal"
+    },
+    {
+      "id": "ch-applied-radiochemistry-7",
+      "name": "Environmental radiochemistry and contamination"
+    },
+    {
+      "id": "ch-applied-radiochemistry-8",
+      "name": "Nuclear forensics and safeguards"
+    },
+    {
+      "id": "ch-applied-radiochemistry-9",
+      "name": "Radiopharmaceuticals: diagnostic (PET, SPECT) and therapeutic"
+    },
+    {
+      "id": "ch-applied-radiochemistry-10",
+      "name": "Radioisotope power sources for space (RTGs and Pu-238)"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "el-power-generation",
+  "name": "Power Generation Technologies",
+  "category": "Electrical Machines & Power Systems",
+  "level": 3,
+  "priority": "important",
+  "summary": "How electricity is produced: thermal, nuclear, hydro, wind and solar plants, energy storage, and the economics of generation.",
+  "prerequisites": [
+    "el-electrical-machines",
+    "me-engineering-thermodynamics"
+  ],
+  "related": [
+    "ph-energy-physics",
+    "me-power-plants-energy-conversion",
+    "me-renewable-energy-systems"
+  ],
+  "topics": [
+    {
+      "id": "el-power-generation-1",
+      "name": "Energy resources and the generation mix"
+    },
+    {
+      "id": "el-power-generation-2",
+      "name": "Thermal plants: Rankine, gas turbine and combined cycle"
+    },
+    {
+      "id": "el-power-generation-3",
+      "name": "Nuclear power plants"
+    },
+    {
+      "id": "el-power-generation-4",
+      "name": "Hydropower and pumped storage"
+    },
+    {
+      "id": "el-power-generation-5",
+      "name": "Wind energy conversion: turbines and generator types (DFIG, PMSG)"
+    },
+    {
+      "id": "el-power-generation-6",
+      "name": "Solar photovoltaic systems: cells, modules, arrays, MPPT"
+    },
+    {
+      "id": "el-power-generation-7",
+      "name": "Other renewables: geothermal, tidal, biomass"
+    },
+    {
+      "id": "el-power-generation-8",
+      "name": "Energy storage: batteries, flywheels, CAES, hydrogen"
+    },
+    {
+      "id": "el-power-generation-9",
+      "name": "Generation economics: capacity factor and LCOE"
+    },
+    {
+      "id": "el-power-generation-10",
+      "name": "Environmental impact of generation"
+    }
+  ]
+}

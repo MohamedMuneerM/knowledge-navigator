@@ -1,0 +1,51 @@
+{
+  "id": "el-rf-ic-design",
+  "name": "RF Integrated Circuit Design",
+  "category": "FPGA, ASIC & VLSI Design",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Radio transceivers on a chip: LNAs, mixers, VCOs, synthesizers and power amplifiers in CMOS and SiGe.",
+  "prerequisites": [
+    "el-analog-ic-design",
+    "el-rf-microwave-engineering"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-rf-ic-design-1",
+      "name": "Transceiver architectures: heterodyne, zero-IF, low-IF"
+    },
+    {
+      "id": "el-rf-ic-design-2",
+      "name": "Low-noise amplifier design"
+    },
+    {
+      "id": "el-rf-ic-design-3",
+      "name": "Mixers"
+    },
+    {
+      "id": "el-rf-ic-design-4",
+      "name": "VCOs and phase noise"
+    },
+    {
+      "id": "el-rf-ic-design-5",
+      "name": "Frequency synthesizers (integer-N, fractional-N)"
+    },
+    {
+      "id": "el-rf-ic-design-6",
+      "name": "Power amplifiers and linearization"
+    },
+    {
+      "id": "el-rf-ic-design-7",
+      "name": "On-chip passives: inductors, varactors, transformers"
+    },
+    {
+      "id": "el-rf-ic-design-8",
+      "name": "mmWave CMOS and phased-array ICs"
+    },
+    {
+      "id": "el-rf-ic-design-9",
+      "name": "RF IC layout and electromagnetic simulation"
+    }
+  ]
+}

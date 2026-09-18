@@ -1,0 +1,34 @@
+{
+  "id": "ma-symbolic-dynamics",
+  "name": "Symbolic Dynamics",
+  "category": "Differential Equations & Dynamical Systems",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Modelling dynamics by infinite sequences of symbols: shift spaces, subshifts of finite type and coding.",
+  "prerequisites": [
+    "ma-dynamical-systems"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-symbolic-dynamics-1",
+      "name": "Symbolic sequences"
+    },
+    {
+      "id": "ma-symbolic-dynamics-2",
+      "name": "Shift spaces"
+    },
+    {
+      "id": "ma-symbolic-dynamics-3",
+      "name": "Subshifts of finite type and sofic shifts"
+    },
+    {
+      "id": "ma-symbolic-dynamics-4",
+      "name": "Entropy and conjugacy"
+    },
+    {
+      "id": "ma-symbolic-dynamics-5",
+      "name": "Coding of dynamical systems"
+    }
+  ]
+}

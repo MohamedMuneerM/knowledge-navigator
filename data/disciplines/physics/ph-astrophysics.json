@@ -1,0 +1,98 @@
+{
+  "id": "ph-astrophysics",
+  "name": "Astrophysics",
+  "category": "Astronomy Foundations",
+  "level": 2,
+  "priority": "important",
+  "summary": "A physics-based survey of the Universe, from stars and stellar remnants to galaxies and high-energy phenomena.",
+  "prerequisites": [
+    "ph-introductory-astronomy",
+    "ph-modern-physics"
+  ],
+  "related": [
+    "ph-compact-objects",
+    "ma-mathematical-aspects-of-astronomy"
+  ],
+  "topics": [
+    {
+      "id": "ph-astrophysics-15",
+      "name": "The astronomer's toolkit: light, magnitudes and distances"
+    },
+    {
+      "id": "ph-astrophysics-16",
+      "name": "Stellar spectra, classification and the HR diagram"
+    },
+    {
+      "id": "ph-astrophysics-17",
+      "name": "Binary stars and stellar masses"
+    },
+    {
+      "id": "ph-astrophysics-1",
+      "name": "Stellar structure"
+    },
+    {
+      "id": "ph-astrophysics-2",
+      "name": "Stellar evolution"
+    },
+    {
+      "id": "ph-astrophysics-3",
+      "name": "White dwarfs"
+    },
+    {
+      "id": "ph-astrophysics-4",
+      "name": "Neutron stars and pulsars"
+    },
+    {
+      "id": "ph-astrophysics-7",
+      "name": "Supernovae"
+    },
+    {
+      "id": "ph-astrophysics-5",
+      "name": "Black holes"
+    },
+    {
+      "id": "ph-astrophysics-6",
+      "name": "Accretion disks"
+    },
+    {
+      "id": "ph-astrophysics-18",
+      "name": "The interstellar medium"
+    },
+    {
+      "id": "ph-astrophysics-19",
+      "name": "The Milky Way"
+    },
+    {
+      "id": "ph-astrophysics-8",
+      "name": "Galaxy formation and evolution"
+    },
+    {
+      "id": "ph-astrophysics-9",
+      "name": "Active galactic nuclei and quasars"
+    },
+    {
+      "id": "ph-astrophysics-11",
+      "name": "Astrophysical plasmas"
+    },
+    {
+      "id": "ph-astrophysics-12",
+      "name": "High-energy astrophysics"
+    },
+    {
+      "id": "ph-astrophysics-13",
+      "name": "Cosmic rays"
+    },
+    {
+      "id": "ph-astrophysics-14",
+      "name": "Gamma-ray bursts"
+    },
+    {
+      "id": "ph-astrophysics-10",
+      "name": "Astroparticle physics"
+    },
+    {
+      "id": "ph-astrophysics-20",
+      "name": "The cosmic distance ladder"
+    }
+  ]
+}

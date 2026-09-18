@@ -1,0 +1,38 @@
+{
+  "id": "el-autonomous-navigation-systems",
+  "name": "Autonomous Navigation Systems",
+  "category": "Control Systems & Robotics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Putting localization, maps, planning and behaviour decisions together into a complete autonomous navigation stack.",
+  "prerequisites": [
+    "el-simultaneous-localization-and-mapping-slam",
+    "el-path-planning-navigation"
+  ],
+  "related": [
+    "ai-motion-planning-navigation",
+    "ai-mobile-robotics"
+  ],
+  "topics": [
+    {
+      "id": "el-autonomous-navigation-systems-1",
+      "name": "Localization techniques"
+    },
+    {
+      "id": "el-autonomous-navigation-systems-2",
+      "name": "Map representations (occupancy grids, costmaps)"
+    },
+    {
+      "id": "el-autonomous-navigation-systems-3",
+      "name": "Behavior planning and decision-making"
+    },
+    {
+      "id": "el-autonomous-navigation-systems-4",
+      "name": "Multi-robot coordination"
+    },
+    {
+      "id": "el-autonomous-navigation-systems-5",
+      "name": "Traffic management for autonomous vehicles"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "biology",
+  "name": "Biology",
+  "icon": "🧬",
+  "color": "#84cc16",
+  "prefix": "bi",
+  "description": "The science of life from molecules to the biosphere: cells, biochemistry, genetics and genomics, evolution and diversity, physiology and neuroscience, ecology, and applied fields such as biotechnology, computational biology, medicine-related sciences and astrobiology.",
+  "categories": [
+    "Foundations of Biology",
+    "Cell & Molecular Biology",
+    "Biochemistry & Structural Biology",
+    "Genetics & Genomics",
+    "Evolution",
+    "Biodiversity & Systematics",
+    "Ecology & Environment",
+    "Microbiology, Virology & Immunology",
+    "Plant Biology",
+    "Anatomy & Physiology",
+    "Biomechanics & Human Performance",
+    "Developmental Biology",
+    "Neuroscience",
+    "Laboratory & Research Methods",
+    "Quantitative & Computational Biology",
+    "Biotechnology & Bioengineering",
+    "Health & Biomedical Sciences",
+    "Astrobiology & Space Biology",
+    "Bioethics, History & Society"
+  ]
+}

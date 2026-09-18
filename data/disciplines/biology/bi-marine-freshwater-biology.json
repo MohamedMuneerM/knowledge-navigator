@@ -1,0 +1,63 @@
+{
+  "id": "bi-marine-freshwater-biology",
+  "name": "Marine & Freshwater Biology",
+  "category": "Ecology & Environment",
+  "level": 3,
+  "priority": "important",
+  "summary": "Life in the oceans, lakes and rivers: plankton, coral reefs, the deep sea, fisheries and the physical conditions that shape aquatic life.",
+  "prerequisites": [
+    "bi-ecology",
+    "bi-animal-diversity",
+    "ea-introductory-oceanography"
+  ],
+  "related": [
+    "ph-atmospheric-environmental-physics",
+    "ea-biological-oceanography"
+  ],
+  "topics": [
+    {
+      "id": "bi-marine-freshwater-biology-1",
+      "name": "The ocean environment: light, pressure, temperature, salinity and currents"
+    },
+    {
+      "id": "bi-marine-freshwater-biology-2",
+      "name": "Plankton: phytoplankton, zooplankton and the microbial loop"
+    },
+    {
+      "id": "bi-marine-freshwater-biology-3",
+      "name": "Biological oceanography: primary production and the biological carbon pump"
+    },
+    {
+      "id": "bi-marine-freshwater-biology-4",
+      "name": "Intertidal and coastal ecosystems: estuaries, mangroves, seagrass"
+    },
+    {
+      "id": "bi-marine-freshwater-biology-5",
+      "name": "Coral reefs"
+    },
+    {
+      "id": "bi-marine-freshwater-biology-6",
+      "name": "Open ocean and deep-sea biology, including hydrothermal vent communities"
+    },
+    {
+      "id": "bi-marine-freshwater-biology-7",
+      "name": "Marine vertebrates: fishes, marine mammals, seabirds"
+    },
+    {
+      "id": "bi-marine-freshwater-biology-8",
+      "name": "Fisheries biology and management"
+    },
+    {
+      "id": "bi-marine-freshwater-biology-9",
+      "name": "Limnology: lakes, stratification and eutrophication"
+    },
+    {
+      "id": "bi-marine-freshwater-biology-10",
+      "name": "Rivers, streams and wetlands"
+    },
+    {
+      "id": "bi-marine-freshwater-biology-11",
+      "name": "Ocean acidification, warming and marine conservation"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ph-measurement-units-vectors",
+  "name": "Measurement, Units & Vectors",
+  "category": "Introductory Physics",
+  "level": 1,
+  "priority": "core",
+  "summary": "The toolkit every physics course assumes: units, estimation, uncertainty, graphs and vectors.",
+  "prerequisites": [
+    "ma-precalculus"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-measurement-units-vectors-1",
+      "name": "What physics is: models, laws and the scientific method"
+    },
+    {
+      "id": "ph-measurement-units-vectors-2",
+      "name": "SI base and derived units"
+    },
+    {
+      "id": "ph-measurement-units-vectors-3",
+      "name": "Unit conversion and dimensional analysis"
+    },
+    {
+      "id": "ph-measurement-units-vectors-4",
+      "name": "Scientific notation, orders of magnitude and Fermi estimates"
+    },
+    {
+      "id": "ph-measurement-units-vectors-5",
+      "name": "Significant figures, precision and accuracy"
+    },
+    {
+      "id": "ph-measurement-units-vectors-6",
+      "name": "Measurement uncertainty and simple error propagation"
+    },
+    {
+      "id": "ph-measurement-units-vectors-7",
+      "name": "Reading and making graphs; linearising data and finding slopes"
+    },
+    {
+      "id": "ph-measurement-units-vectors-8",
+      "name": "Scalars and vectors"
+    },
+    {
+      "id": "ph-measurement-units-vectors-9",
+      "name": "Vector addition, components and unit vectors"
+    },
+    {
+      "id": "ph-measurement-units-vectors-10",
+      "name": "Dot and cross products"
+    },
+    {
+      "id": "ph-measurement-units-vectors-11",
+      "name": "Coordinate systems and frames of reference"
+    }
+  ]
+}

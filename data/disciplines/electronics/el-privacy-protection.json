@@ -1,0 +1,45 @@
+{
+  "id": "el-privacy-protection",
+  "name": "Privacy Protection",
+  "category": "Security, Privacy & Trust",
+  "level": 3,
+  "priority": "important",
+  "summary": "Protecting personal data collected by devices: anonymization, differential privacy, on-device processing and consent.",
+  "prerequisites": [
+    "el-iot-architecture-layers"
+  ],
+  "related": [
+    "ai-privacy-in-ai",
+    "cs-security-governance-privacy"
+  ],
+  "topics": [
+    {
+      "id": "el-privacy-protection-1",
+      "name": "Data anonymization and pseudonymization"
+    },
+    {
+      "id": "el-privacy-protection-2",
+      "name": "Privacy-preserving techniques"
+    },
+    {
+      "id": "el-privacy-protection-3",
+      "name": "Differential privacy"
+    },
+    {
+      "id": "el-privacy-protection-4",
+      "name": "Federated learning"
+    },
+    {
+      "id": "el-privacy-protection-5",
+      "name": "On-device processing vs cloud"
+    },
+    {
+      "id": "el-privacy-protection-6",
+      "name": "Consent management"
+    },
+    {
+      "id": "el-privacy-protection-7",
+      "name": "Right to erasure (GDPR)"
+    }
+  ]
+}

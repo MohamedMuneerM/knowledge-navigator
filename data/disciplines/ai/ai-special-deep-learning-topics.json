@@ -1,0 +1,96 @@
+{
+  "id": "ai-special-deep-learning-topics",
+  "name": "Special Deep Learning Topics",
+  "category": "Deep Learning",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Specialised architectures and techniques: GNNs, neural ODEs, physics-informed networks, sparsity and compression, mixture of experts, state space models and KANs.",
+  "prerequisites": [
+    "ai-attention-transformers"
+  ],
+  "related": [
+    "ai-graph-neural-networks",
+    "ma-neural-differential-equations",
+    "ai-inference-optimization"
+  ],
+  "topics": [
+    {
+      "id": "ai-special-deep-learning-topics-1",
+      "name": "Graph Neural Networks (GNNs)",
+      "sub": [
+        {
+          "id": "ai-special-deep-learning-topics-1-1",
+          "name": "Graph Convolutional Networks (GCN)"
+        },
+        {
+          "id": "ai-special-deep-learning-topics-1-2",
+          "name": "Graph Attention Networks (GAT)"
+        },
+        {
+          "id": "ai-special-deep-learning-topics-1-3",
+          "name": "GraphSAGE"
+        },
+        {
+          "id": "ai-special-deep-learning-topics-1-4",
+          "name": "Message Passing Neural Networks"
+        }
+      ]
+    },
+    {
+      "id": "ai-special-deep-learning-topics-2",
+      "name": "Neural ODEs"
+    },
+    {
+      "id": "ai-special-deep-learning-topics-3",
+      "name": "Physics-Informed Neural Networks (PINNs)"
+    },
+    {
+      "id": "ai-special-deep-learning-topics-4",
+      "name": "Sparse Neural Networks"
+    },
+    {
+      "id": "ai-special-deep-learning-topics-5",
+      "name": "Model Compression",
+      "sub": [
+        {
+          "id": "ai-special-deep-learning-topics-5-1",
+          "name": "Pruning"
+        },
+        {
+          "id": "ai-special-deep-learning-topics-5-2",
+          "name": "Quantization"
+        },
+        {
+          "id": "ai-special-deep-learning-topics-5-3",
+          "name": "Knowledge distillation"
+        },
+        {
+          "id": "ai-special-deep-learning-topics-5-4",
+          "name": "Low-rank factorization"
+        }
+      ]
+    },
+    {
+      "id": "ai-special-deep-learning-topics-6",
+      "name": "Mixture of Experts (MoE)"
+    },
+    {
+      "id": "ai-special-deep-learning-topics-7",
+      "name": "State Space Models",
+      "sub": [
+        {
+          "id": "ai-special-deep-learning-topics-7-1",
+          "name": "Mamba"
+        },
+        {
+          "id": "ai-special-deep-learning-topics-7-2",
+          "name": "S4"
+        }
+      ]
+    },
+    {
+      "id": "ai-special-deep-learning-topics-8",
+      "name": "Kolmogorov-Arnold Networks (KAN)"
+    }
+  ]
+}

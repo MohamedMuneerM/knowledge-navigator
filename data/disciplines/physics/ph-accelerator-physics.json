@@ -1,0 +1,35 @@
+{
+  "id": "ph-accelerator-physics",
+  "name": "Accelerator Physics",
+  "category": "Experimental Physics & Instrumentation",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "How particle beams are accelerated, steered and focused, and the light sources and colliders built from them.",
+  "prerequisites": [
+    "ph-classical-electromagnetism",
+    "ph-special-relativity"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-accelerator-physics-1",
+      "name": "Particle accelerators (linear, circular)"
+    },
+    {
+      "id": "ph-accelerator-physics-2",
+      "name": "Synchrotron radiation"
+    },
+    {
+      "id": "ph-accelerator-physics-3",
+      "name": "Free electron lasers"
+    },
+    {
+      "id": "ph-accelerator-physics-4",
+      "name": "Beam dynamics"
+    },
+    {
+      "id": "ph-accelerator-physics-5",
+      "name": "Collider design"
+    }
+  ]
+}

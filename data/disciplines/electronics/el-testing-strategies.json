@@ -1,0 +1,49 @@
+{
+  "id": "el-testing-strategies",
+  "name": "Testing Strategies",
+  "category": "Embedded Development Practices & Debugging",
+  "level": 3,
+  "priority": "important",
+  "summary": "Testing embedded software at every level: unit tests on host, integration, system and HIL testing, TDD/BDD and coverage.",
+  "prerequisites": [
+    "el-embedded-cc-best-practices"
+  ],
+  "related": [
+    "cs-software-testing",
+    "el-software-testing"
+  ],
+  "topics": [
+    {
+      "id": "el-testing-strategies-1",
+      "name": "Unit testing (CUnit, Unity, Google Test, Catch2)"
+    },
+    {
+      "id": "el-testing-strategies-2",
+      "name": "Integration testing"
+    },
+    {
+      "id": "el-testing-strategies-3",
+      "name": "System testing and acceptance testing"
+    },
+    {
+      "id": "el-testing-strategies-4",
+      "name": "Hardware-in-the-loop (HIL) testing"
+    },
+    {
+      "id": "el-testing-strategies-5",
+      "name": "Simulation and emulation"
+    },
+    {
+      "id": "el-testing-strategies-6",
+      "name": "Test-driven development (TDD)"
+    },
+    {
+      "id": "el-testing-strategies-7",
+      "name": "Behavior-driven development (BDD)"
+    },
+    {
+      "id": "el-testing-strategies-8",
+      "name": "Code coverage analysis (gcov, lcov)"
+    }
+  ]
+}

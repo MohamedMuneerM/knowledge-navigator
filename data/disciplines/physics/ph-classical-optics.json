@@ -1,0 +1,61 @@
+{
+  "id": "ph-classical-optics",
+  "name": "Classical Optics",
+  "category": "Optics & Photonics",
+  "level": 2,
+  "priority": "important",
+  "summary": "Light as rays and waves: imaging, interference, diffraction, polarization, coherence and Fourier optics.",
+  "prerequisites": [
+    "ph-classical-electromagnetism",
+    "ph-waves-oscillations"
+  ],
+  "related": [
+    "ma-optics"
+  ],
+  "topics": [
+    {
+      "id": "ph-classical-optics-1",
+      "name": "Geometrical optics (ray optics)"
+    },
+    {
+      "id": "ph-classical-optics-6",
+      "name": "Optical instruments"
+    },
+    {
+      "id": "ph-classical-optics-7",
+      "name": "Aberrations"
+    },
+    {
+      "id": "ph-classical-optics-2",
+      "name": "Wave optics"
+    },
+    {
+      "id": "ph-classical-optics-3",
+      "name": "Interference"
+    },
+    {
+      "id": "ph-classical-optics-11",
+      "name": "Multiple-beam interference, thin films and the Fabry-Perot interferometer"
+    },
+    {
+      "id": "ph-classical-optics-4",
+      "name": "Diffraction (Fresnel, Fraunhofer)"
+    },
+    {
+      "id": "ph-classical-optics-5",
+      "name": "Polarization"
+    },
+    {
+      "id": "ph-classical-optics-8",
+      "name": "Dispersion"
+    },
+    {
+      "id": "ph-classical-optics-10",
+      "name": "Coherence theory"
+    },
+    {
+      "id": "ph-classical-optics-9",
+      "name": "Fourier optics"
+    }
+  ]
+}

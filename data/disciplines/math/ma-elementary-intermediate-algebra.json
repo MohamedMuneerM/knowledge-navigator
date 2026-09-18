@@ -1,0 +1,72 @@
+{
+  "id": "ma-elementary-intermediate-algebra",
+  "name": "Elementary & Intermediate Algebra",
+  "category": "Pre-University Foundations",
+  "level": 1,
+  "priority": "core",
+  "summary": "Manipulating expressions and solving equations, inequalities, polynomials and systems, which is the working language of all later mathematics.",
+  "prerequisites": [
+    "ma-arithmetic-pre-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-elementary-intermediate-algebra-5",
+      "name": "Algebraic expressions, like terms and the distributive law"
+    },
+    {
+      "id": "ma-elementary-intermediate-algebra-6",
+      "name": "Linear equations and inequalities in one variable"
+    },
+    {
+      "id": "ma-elementary-intermediate-algebra-7",
+      "name": "Graphing lines: slope, intercepts and forms of a linear equation"
+    },
+    {
+      "id": "ma-elementary-intermediate-algebra-4",
+      "name": "Systems of equations"
+    },
+    {
+      "id": "ma-elementary-intermediate-algebra-8",
+      "name": "Exponents and radicals; rational exponents"
+    },
+    {
+      "id": "ma-elementary-intermediate-algebra-2",
+      "name": "Polynomial algebra",
+      "sub": [
+        {
+          "id": "ma-elementary-intermediate-algebra-2-1",
+          "name": "Adding, subtracting and multiplying polynomials"
+        },
+        {
+          "id": "ma-elementary-intermediate-algebra-2-2",
+          "name": "Factoring techniques"
+        },
+        {
+          "id": "ma-elementary-intermediate-algebra-2-3",
+          "name": "Polynomial long and synthetic division"
+        }
+      ]
+    },
+    {
+      "id": "ma-elementary-intermediate-algebra-9",
+      "name": "Quadratic equations: factoring, completing the square and the quadratic formula"
+    },
+    {
+      "id": "ma-elementary-intermediate-algebra-3",
+      "name": "Rational expressions"
+    },
+    {
+      "id": "ma-elementary-intermediate-algebra-10",
+      "name": "Radical equations and absolute-value equations and inequalities"
+    },
+    {
+      "id": "ma-elementary-intermediate-algebra-1",
+      "name": "Elementary algebra"
+    },
+    {
+      "id": "ma-elementary-intermediate-algebra-11",
+      "name": "Word problems and translating situations into equations"
+    }
+  ]
+}

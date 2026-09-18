@@ -1,0 +1,42 @@
+{
+  "id": "el-firmware-development",
+  "name": "Firmware Architecture & Development",
+  "category": "Embedded Software, Firmware & RTOS",
+  "level": 3,
+  "priority": "important",
+  "summary": "Structuring real firmware: architecture patterns, state machines, command processing, logging, configuration, calibration and error recovery.",
+  "prerequisites": [
+    "el-bare-metal-programming"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-firmware-development-1",
+      "name": "Firmware architecture patterns"
+    },
+    {
+      "id": "el-firmware-development-2",
+      "name": "State machines implementation"
+    },
+    {
+      "id": "el-firmware-development-3",
+      "name": "Command processing"
+    },
+    {
+      "id": "el-firmware-development-4",
+      "name": "Data logging and telemetry"
+    },
+    {
+      "id": "el-firmware-development-5",
+      "name": "Configuration management"
+    },
+    {
+      "id": "el-firmware-development-6",
+      "name": "Calibration and tuning parameters"
+    },
+    {
+      "id": "el-firmware-development-7",
+      "name": "Error handling and recovery"
+    }
+  ]
+}

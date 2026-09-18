@@ -1,0 +1,51 @@
+{
+  "id": "ea-landslides-and-slope-stability",
+  "name": "Landslides & Slope Stability",
+  "category": "Natural Hazards",
+  "level": 3,
+  "priority": "important",
+  "summary": "Why slopes fail, the kinds of landslides and debris flows, and how they are analysed, monitored and mitigated.",
+  "prerequisites": [
+    "ea-geomorphology",
+    "ea-natural-hazards-and-disaster-risk"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-landslides-and-slope-stability-1",
+      "name": "Landslide classification (Varnes)"
+    },
+    {
+      "id": "ea-landslides-and-slope-stability-2",
+      "name": "Shear strength of soils and rocks; effective stress"
+    },
+    {
+      "id": "ea-landslides-and-slope-stability-3",
+      "name": "Slope-stability analysis: infinite slope and limit-equilibrium methods"
+    },
+    {
+      "id": "ea-landslides-and-slope-stability-4",
+      "name": "Triggers: rainfall, earthquakes and human activity"
+    },
+    {
+      "id": "ea-landslides-and-slope-stability-5",
+      "name": "Debris flows and rock avalanches"
+    },
+    {
+      "id": "ea-landslides-and-slope-stability-6",
+      "name": "Rockfall"
+    },
+    {
+      "id": "ea-landslides-and-slope-stability-7",
+      "name": "Landslide monitoring and early warning"
+    },
+    {
+      "id": "ea-landslides-and-slope-stability-8",
+      "name": "Landslide susceptibility and hazard mapping"
+    },
+    {
+      "id": "ea-landslides-and-slope-stability-9",
+      "name": "Mitigation and slope stabilisation"
+    }
+  ]
+}

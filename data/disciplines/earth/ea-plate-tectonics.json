@@ -1,0 +1,60 @@
+{
+  "id": "ea-plate-tectonics",
+  "name": "Plate Tectonics",
+  "category": "Structural Geology & Tectonics",
+  "level": 2,
+  "priority": "core",
+  "summary": "The unifying theory of the solid Earth: how lithospheric plates move, interact and build continents and ocean basins.",
+  "prerequisites": [
+    "ea-physical-geology"
+  ],
+  "related": [
+    "ph-geophysics"
+  ],
+  "topics": [
+    {
+      "id": "ea-plate-tectonics-1",
+      "name": "From continental drift to seafloor spreading: history of the theory"
+    },
+    {
+      "id": "ea-plate-tectonics-2",
+      "name": "Lithosphere and asthenosphere; oceanic versus continental lithosphere"
+    },
+    {
+      "id": "ea-plate-tectonics-3",
+      "name": "Marine magnetic anomalies and seafloor ages"
+    },
+    {
+      "id": "ea-plate-tectonics-4",
+      "name": "Plate kinematics: Euler poles, relative and absolute motion"
+    },
+    {
+      "id": "ea-plate-tectonics-5",
+      "name": "Divergent boundaries: mid-ocean ridges and continental rifts"
+    },
+    {
+      "id": "ea-plate-tectonics-6",
+      "name": "Convergent boundaries: subduction zones, arcs and collision"
+    },
+    {
+      "id": "ea-plate-tectonics-7",
+      "name": "Transform faults and fracture zones"
+    },
+    {
+      "id": "ea-plate-tectonics-8",
+      "name": "Triple junctions and plate-boundary evolution"
+    },
+    {
+      "id": "ea-plate-tectonics-9",
+      "name": "Hotspots and mantle plumes"
+    },
+    {
+      "id": "ea-plate-tectonics-10",
+      "name": "Driving forces: ridge push, slab pull and mantle convection"
+    },
+    {
+      "id": "ea-plate-tectonics-11",
+      "name": "The Wilson cycle and supercontinents"
+    }
+  ]
+}

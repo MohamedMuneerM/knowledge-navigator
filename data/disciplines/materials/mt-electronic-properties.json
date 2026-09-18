@@ -1,0 +1,66 @@
+{
+  "id": "mt-electronic-properties",
+  "name": "Electronic Properties of Materials",
+  "category": "Electronic, Optical, Magnetic & Thermal Properties",
+  "level": 3,
+  "priority": "core",
+  "summary": "Uses band theory to explain why metals conduct, semiconductors switch and insulators insulate, and how processing changes electrical behaviour.",
+  "prerequisites": [
+    "mt-crystallography-diffraction",
+    "ph-quantum-mechanics"
+  ],
+  "related": [
+    "ph-solid-state-physics",
+    "el-semiconductor-physics"
+  ],
+  "topics": [
+    {
+      "id": "mt-electronic-properties-1",
+      "name": "Ohm's law, conductivity, mobility and the Drude model"
+    },
+    {
+      "id": "mt-electronic-properties-2",
+      "name": "Free-electron model: Fermi energy, density of states and Fermi-Dirac statistics"
+    },
+    {
+      "id": "mt-electronic-properties-3",
+      "name": "Electrons in periodic potentials: Bloch's theorem, band gaps and Brillouin zones"
+    },
+    {
+      "id": "mt-electronic-properties-4",
+      "name": "Tight-binding picture and band structures of real materials"
+    },
+    {
+      "id": "mt-electronic-properties-5",
+      "name": "Metals: resistivity contributions from temperature, impurities and deformation (Matthiessen's rule)"
+    },
+    {
+      "id": "mt-electronic-properties-6",
+      "name": "Intrinsic and extrinsic semiconductors; carrier concentration and temperature dependence"
+    },
+    {
+      "id": "mt-electronic-properties-7",
+      "name": "Hall effect and carrier measurements"
+    },
+    {
+      "id": "mt-electronic-properties-8",
+      "name": "Semiconductor junctions and devices from a materials viewpoint"
+    },
+    {
+      "id": "mt-electronic-properties-9",
+      "name": "Ionic conduction and mixed conductors"
+    },
+    {
+      "id": "mt-electronic-properties-10",
+      "name": "Electrical conduction in polymers and conducting polymers"
+    },
+    {
+      "id": "mt-electronic-properties-11",
+      "name": "Superconductivity: phenomenology, type I/II, critical field and current"
+    },
+    {
+      "id": "mt-electronic-properties-12",
+      "name": "Electronic properties at the nanoscale: quantum confinement and tunnelling"
+    }
+  ]
+}

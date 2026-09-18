@@ -1,0 +1,68 @@
+{
+  "id": "el-short-range-wireless",
+  "name": "Short-Range Wireless",
+  "category": "Communication Protocols & Connectivity",
+  "level": 3,
+  "priority": "important",
+  "summary": "Short-range radios for devices: Bluetooth Classic and BLE, Wi-Fi, Zigbee, Thread, Matter, Z-Wave, NFC, RFID and UWB.",
+  "prerequisites": [
+    "el-embedded-systems-fundamentals"
+  ],
+  "related": [
+    "cs-advanced-networking"
+  ],
+  "topics": [
+    {
+      "id": "el-short-range-wireless-1",
+      "name": "Bluetooth Classic (BR/EDR) - profiles (A2DP, HFP, SPP)"
+    },
+    {
+      "id": "el-short-range-wireless-2",
+      "name": "Bluetooth Low Energy (BLE) - GATT, GAP, advertising, connections"
+    },
+    {
+      "id": "el-short-range-wireless-3",
+      "name": "Wi-Fi (IEEE 802.11) - 802.11a/b/g/n/ac/ax (Wi-Fi 6), 802.11be (Wi-Fi 7)"
+    },
+    {
+      "id": "el-short-range-wireless-4",
+      "name": "Wi-Fi HaLow (802.11ah) - sub-1GHz, long-range"
+    },
+    {
+      "id": "el-short-range-wireless-5",
+      "name": "Zigbee (802.15.4 based) - mesh networking, ZigBee 3.0"
+    },
+    {
+      "id": "el-short-range-wireless-6",
+      "name": "Thread - IPv6 mesh networking for IoT"
+    },
+    {
+      "id": "el-short-range-wireless-7",
+      "name": "Z-Wave - home automation, mesh"
+    },
+    {
+      "id": "el-short-range-wireless-8",
+      "name": "Matter (CHIP) - unified smart home standard"
+    },
+    {
+      "id": "el-short-range-wireless-9",
+      "name": "NFC (Near Field Communication) - passive, active, card emulation"
+    },
+    {
+      "id": "el-short-range-wireless-10",
+      "name": "RFID - LF, HF, UHF tags and readers"
+    },
+    {
+      "id": "el-short-range-wireless-11",
+      "name": "Ultra-Wideband (UWB) - precise ranging and positioning"
+    },
+    {
+      "id": "el-short-range-wireless-12",
+      "name": "ANT/ANT+ - fitness and sports sensors"
+    },
+    {
+      "id": "el-short-range-wireless-13",
+      "name": "Infrared (IR) - IrDA, consumer remote controls"
+    }
+  ]
+}

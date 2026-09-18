@@ -1,0 +1,75 @@
+{
+  "id": "ae-space-communications-link-budgets",
+  "name": "Space Communications and Link Budgets",
+  "category": "Spacecraft Subsystems",
+  "level": 3,
+  "priority": "core",
+  "summary": "How spacecraft talk to Earth: RF fundamentals, antennas, modulation, coding, link budgets, ground stations and optical communications.",
+  "prerequisites": [
+    "ae-spacecraft-bus-fundamentals",
+    "el-signal-processing-fundamentals"
+  ],
+  "related": [
+    "el-satellite-communication",
+    "el-software-defined-radio-sdr",
+    "ma-information-communication-theory"
+  ],
+  "topics": [
+    {
+      "id": "ae-space-communications-link-budgets-1",
+      "name": "Communication system architecture: TT&C and payload data"
+    },
+    {
+      "id": "ae-space-communications-link-budgets-2",
+      "name": "Frequency bands and spectrum allocation (ITU)"
+    },
+    {
+      "id": "ae-space-communications-link-budgets-3",
+      "name": "Antennas: gain, beamwidth, patterns, parabolic and phased arrays"
+    },
+    {
+      "id": "ae-space-communications-link-budgets-4",
+      "name": "Free-space path loss and atmospheric losses"
+    },
+    {
+      "id": "ae-space-communications-link-budgets-5",
+      "name": "Noise temperature, G/T and Eb/N0"
+    },
+    {
+      "id": "ae-space-communications-link-budgets-6",
+      "name": "The link budget equation and margins"
+    },
+    {
+      "id": "ae-space-communications-link-budgets-7",
+      "name": "Modulation schemes: BPSK, QPSK, higher-order modulation"
+    },
+    {
+      "id": "ae-space-communications-link-budgets-8",
+      "name": "Channel coding: convolutional, Reed-Solomon, turbo and LDPC codes"
+    },
+    {
+      "id": "ae-space-communications-link-budgets-9",
+      "name": "Ranging, Doppler and coherent transponders"
+    },
+    {
+      "id": "ae-space-communications-link-budgets-10",
+      "name": "CCSDS standards for telemetry and telecommand"
+    },
+    {
+      "id": "ae-space-communications-link-budgets-11",
+      "name": "Ground stations, the Deep Space Network and ground networks"
+    },
+    {
+      "id": "ae-space-communications-link-budgets-12",
+      "name": "Relay satellites (TDRSS) and inter-satellite links"
+    },
+    {
+      "id": "ae-space-communications-link-budgets-13",
+      "name": "Optical (laser) communications"
+    },
+    {
+      "id": "ae-space-communications-link-budgets-14",
+      "name": "Delay/disruption-tolerant networking"
+    }
+  ]
+}

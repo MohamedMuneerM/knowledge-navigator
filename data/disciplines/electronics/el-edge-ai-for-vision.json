@@ -1,0 +1,34 @@
+{
+  "id": "el-edge-ai-for-vision",
+  "name": "Edge AI for Vision",
+  "category": "Machine Learning & Edge AI",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Running vision models efficiently on edge hardware with quantization, pruning, accelerators and on-device fine-tuning.",
+  "prerequisites": [
+    "el-object-detection-recognition",
+    "el-model-optimization-techniques"
+  ],
+  "related": [
+    "ai-edge-ai-embedded-ml",
+    "el-deep-learning-on-edge"
+  ],
+  "topics": [
+    {
+      "id": "el-edge-ai-for-vision-1",
+      "name": "Model optimization (quantization, pruning)"
+    },
+    {
+      "id": "el-edge-ai-for-vision-2",
+      "name": "Hardware acceleration (GPU, VPU, NPU, TPU)"
+    },
+    {
+      "id": "el-edge-ai-for-vision-3",
+      "name": "Low-power inference"
+    },
+    {
+      "id": "el-edge-ai-for-vision-4",
+      "name": "On-device training (transfer learning)"
+    }
+  ]
+}

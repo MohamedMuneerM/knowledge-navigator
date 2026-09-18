@@ -1,0 +1,60 @@
+{
+  "id": "me-micro-nano-mechanics",
+  "name": "Micro & Nano Mechanics",
+  "category": "Frontiers of Mechanical Engineering",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Mechanics and manufacturing at micrometre and nanometre scales, where scaling laws change which forces dominate: thin films, MEMS structures and nanoscale testing.",
+  "prerequisites": [
+    "me-advanced-mechanics-of-materials",
+    "me-mechanical-vibrations"
+  ],
+  "related": [
+    "el-mems-devices",
+    "el-mems-sensor-technologies",
+    "ph-nanoscience-nanotechnology",
+    "mt-nanomaterials"
+  ],
+  "topics": [
+    {
+      "id": "me-micro-nano-mechanics-1",
+      "name": "Scaling laws in micro- and nanosystems"
+    },
+    {
+      "id": "me-micro-nano-mechanics-2",
+      "name": "Mechanics of thin films: residual stress, Stoney equation, delamination"
+    },
+    {
+      "id": "me-micro-nano-mechanics-3",
+      "name": "Micro-beams, plates and membranes; electrostatic actuation and pull-in"
+    },
+    {
+      "id": "me-micro-nano-mechanics-4",
+      "name": "MEMS resonators, damping and quality factor"
+    },
+    {
+      "id": "me-micro-nano-mechanics-5",
+      "name": "Microfabrication of mechanical structures (lithography, etching, micro-molding)"
+    },
+    {
+      "id": "me-micro-nano-mechanics-6",
+      "name": "Micro/nano-manufacturing: micro-machining, two-photon lithography, nanoimprint"
+    },
+    {
+      "id": "me-micro-nano-mechanics-7",
+      "name": "Size effects in plasticity and strength at small scales"
+    },
+    {
+      "id": "me-micro-nano-mechanics-8",
+      "name": "Nanoindentation and AFM-based mechanical characterisation"
+    },
+    {
+      "id": "me-micro-nano-mechanics-9",
+      "name": "Microfluidics fundamentals"
+    },
+    {
+      "id": "me-micro-nano-mechanics-10",
+      "name": "Micro/nanoscale heat transfer"
+    }
+  ]
+}

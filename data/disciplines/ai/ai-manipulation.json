@@ -1,0 +1,73 @@
+{
+  "id": "ai-manipulation",
+  "name": "Manipulation",
+  "category": "Manipulation & Robot Learning",
+  "level": 4,
+  "priority": "important",
+  "summary": "Robots that grasp and handle objects: grasp planning and force closure, contact dynamics, dexterous and non-prehensile manipulation, and task and motion planning.",
+  "prerequisites": [
+    "ai-control-systems",
+    "ai-motion-planning-navigation",
+    "ai-robot-perception"
+  ],
+  "related": [
+    "me-robot-mechanism-design",
+    "me-robot-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "ai-manipulation-6",
+      "name": "Grippers and robot hands"
+    },
+    {
+      "id": "ai-manipulation-1",
+      "name": "Grasping",
+      "sub": [
+        {
+          "id": "ai-manipulation-1-1",
+          "name": "Grasp planning"
+        },
+        {
+          "id": "ai-manipulation-1-2",
+          "name": "Grasp synthesis"
+        },
+        {
+          "id": "ai-manipulation-1-3",
+          "name": "Force closure"
+        }
+      ]
+    },
+    {
+      "id": "ai-manipulation-2",
+      "name": "Object Manipulation"
+    },
+    {
+      "id": "ai-manipulation-3",
+      "name": "Dexterous Manipulation"
+    },
+    {
+      "id": "ai-manipulation-4",
+      "name": "Contact Dynamics"
+    },
+    {
+      "id": "ai-manipulation-5",
+      "name": "Task and Motion Planning (TAMP)"
+    },
+    {
+      "id": "ai-manipulation-7",
+      "name": "Pick-and-place pipelines and bin picking"
+    },
+    {
+      "id": "ai-manipulation-8",
+      "name": "Non-prehensile manipulation (pushing, sliding)"
+    },
+    {
+      "id": "ai-manipulation-9",
+      "name": "Deformable-object manipulation"
+    },
+    {
+      "id": "ai-manipulation-10",
+      "name": "Tactile sensing for manipulation"
+    }
+  ]
+}

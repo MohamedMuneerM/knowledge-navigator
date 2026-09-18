@@ -1,0 +1,43 @@
+{
+  "id": "ma-multivariate-statistics",
+  "name": "Multivariate Statistics",
+  "category": "Probability & Statistics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Statistics of vector-valued data: multivariate normal, principal components, factor analysis, discriminant and cluster analysis.",
+  "prerequisites": [
+    "ma-inferential-statistics",
+    "ma-linear-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-multivariate-statistics-1",
+      "name": "Multivariate distributions"
+    },
+    {
+      "id": "ma-multivariate-statistics-5",
+      "name": "Multivariate normal distribution and Hotelling's T-squared"
+    },
+    {
+      "id": "ma-multivariate-statistics-2",
+      "name": "Principal component analysis"
+    },
+    {
+      "id": "ma-multivariate-statistics-3",
+      "name": "Factor analysis"
+    },
+    {
+      "id": "ma-multivariate-statistics-4",
+      "name": "Discriminant analysis"
+    },
+    {
+      "id": "ma-multivariate-statistics-6",
+      "name": "Cluster analysis"
+    },
+    {
+      "id": "ma-multivariate-statistics-7",
+      "name": "Canonical correlation and MANOVA"
+    }
+  ]
+}

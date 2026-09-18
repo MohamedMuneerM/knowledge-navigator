@@ -1,0 +1,61 @@
+{
+  "id": "ea-paleontology",
+  "name": "Paleontology",
+  "category": "Sedimentary Geology & Earth History",
+  "level": 2,
+  "priority": "important",
+  "summary": "The study of fossil life: how organisms are preserved, classified and used to understand evolution, ancient environments and time.",
+  "prerequisites": [
+    "ea-historical-geology",
+    "bi-evolutionary-biology"
+  ],
+  "related": [
+    "bi-macroevolution-history-of-life"
+  ],
+  "topics": [
+    {
+      "id": "ea-paleontology-1",
+      "name": "Fossilisation and taphonomy; exceptional preservation (Lagerstätten)"
+    },
+    {
+      "id": "ea-paleontology-2",
+      "name": "Taxonomy, systematics and cladistics"
+    },
+    {
+      "id": "ea-paleontology-3",
+      "name": "Evolution in the fossil record: speciation, rates and trends"
+    },
+    {
+      "id": "ea-paleontology-4",
+      "name": "Invertebrate paleontology: major phyla"
+    },
+    {
+      "id": "ea-paleontology-5",
+      "name": "Vertebrate paleontology: fishes to mammals, including dinosaurs"
+    },
+    {
+      "id": "ea-paleontology-6",
+      "name": "Paleobotany and the evolution of land plants"
+    },
+    {
+      "id": "ea-paleontology-7",
+      "name": "Micropaleontology: foraminifera, diatoms, radiolarians, pollen and nannofossils"
+    },
+    {
+      "id": "ea-paleontology-8",
+      "name": "Trace fossils (ichnology)"
+    },
+    {
+      "id": "ea-paleontology-9",
+      "name": "Biostratigraphy and index fossils"
+    },
+    {
+      "id": "ea-paleontology-10",
+      "name": "Paleoecology and paleoenvironment reconstruction"
+    },
+    {
+      "id": "ea-paleontology-11",
+      "name": "Diversity through time and mass extinctions"
+    }
+  ]
+}

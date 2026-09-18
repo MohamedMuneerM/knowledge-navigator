@@ -1,0 +1,53 @@
+{
+  "id": "ea-contaminants-remediation-and-environmental-health",
+  "name": "Contaminant Fate, Remediation & Environmental Health",
+  "category": "Environmental Science & Pollution",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How contaminants move and transform in soil, water and air, how contaminated sites are cleaned up, and how environmental exposures affect health.",
+  "prerequisites": [
+    "ea-water-quality-and-pollution",
+    "ea-hydrogeology"
+  ],
+  "related": [
+    "ch-environmental-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "ea-contaminants-remediation-and-environmental-health-1",
+      "name": "Partitioning, sorption and volatilisation of contaminants"
+    },
+    {
+      "id": "ea-contaminants-remediation-and-environmental-health-2",
+      "name": "Transformation and biodegradation"
+    },
+    {
+      "id": "ea-contaminants-remediation-and-environmental-health-3",
+      "name": "Non-aqueous phase liquids (NAPLs) in the subsurface"
+    },
+    {
+      "id": "ea-contaminants-remediation-and-environmental-health-4",
+      "name": "Site characterisation and monitoring"
+    },
+    {
+      "id": "ea-contaminants-remediation-and-environmental-health-5",
+      "name": "Remediation: pump-and-treat, bioremediation, permeable reactive barriers and natural attenuation"
+    },
+    {
+      "id": "ea-contaminants-remediation-and-environmental-health-6",
+      "name": "Solid and hazardous waste management; landfills"
+    },
+    {
+      "id": "ea-contaminants-remediation-and-environmental-health-7",
+      "name": "Exposure pathways, dose-response and human-health risk assessment"
+    },
+    {
+      "id": "ea-contaminants-remediation-and-environmental-health-8",
+      "name": "Medical geology: arsenic, radon, fluoride, asbestos and dust"
+    },
+    {
+      "id": "ea-contaminants-remediation-and-environmental-health-9",
+      "name": "Environmental justice"
+    }
+  ]
+}

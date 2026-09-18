@@ -1,0 +1,62 @@
+{
+  "id": "bi-population-ecology",
+  "name": "Population Ecology",
+  "category": "Ecology & Environment",
+  "level": 3,
+  "priority": "important",
+  "summary": "The quantitative study of how populations grow, fluctuate and interact, using models from exponential growth to predator-prey cycles.",
+  "prerequisites": [
+    "bi-ecology",
+    "ma-calculus"
+  ],
+  "related": [
+    "ma-mathematical-biology",
+    "ma-ordinary-differential-equations-odes"
+  ],
+  "topics": [
+    {
+      "id": "bi-population-ecology-1",
+      "name": "Exponential and logistic growth"
+    },
+    {
+      "id": "bi-population-ecology-2",
+      "name": "Life tables, survivorship curves and demography"
+    },
+    {
+      "id": "bi-population-ecology-3",
+      "name": "Matrix population models (Leslie matrices)"
+    },
+    {
+      "id": "bi-population-ecology-4",
+      "name": "Density dependence and population regulation"
+    },
+    {
+      "id": "bi-population-ecology-5",
+      "name": "Life-history theory: r/K selection, trade-offs, senescence"
+    },
+    {
+      "id": "bi-population-ecology-6",
+      "name": "Competition models: Lotka-Volterra and competitive exclusion"
+    },
+    {
+      "id": "bi-population-ecology-7",
+      "name": "Predator-prey dynamics and cycles"
+    },
+    {
+      "id": "bi-population-ecology-8",
+      "name": "Host-parasite and disease dynamics in wildlife"
+    },
+    {
+      "id": "bi-population-ecology-9",
+      "name": "Metapopulations and spatial ecology"
+    },
+    {
+      "id": "bi-population-ecology-10",
+      "name": "Stochasticity and extinction risk (population viability analysis)"
+    },
+    {
+      "id": "bi-population-ecology-11",
+      "name": "Estimating abundance: mark-recapture and distance sampling"
+    }
+  ]
+}

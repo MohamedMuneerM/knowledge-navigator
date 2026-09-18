@@ -1,0 +1,68 @@
+{
+  "id": "me-biomechanics",
+  "name": "Biomechanics",
+  "category": "Biomechanics & Wearable Systems",
+  "level": 3,
+  "priority": "important",
+  "summary": "Mechanics applied to the human body: tissue mechanics, muscles and joints, human movement analysis and musculoskeletal modelling.",
+  "prerequisites": [
+    "me-mechanics-of-materials",
+    "me-dynamics",
+    "bi-human-anatomy"
+  ],
+  "related": [
+    "ph-biophysics",
+    "ma-solid-mechanics",
+    "bi-biomechanics"
+  ],
+  "topics": [
+    {
+      "id": "me-biomechanics-1",
+      "name": "Musculoskeletal anatomy and terminology for engineers"
+    },
+    {
+      "id": "me-biomechanics-2",
+      "name": "Mechanics of biological tissues: bone, cartilage, ligament and tendon"
+    },
+    {
+      "id": "me-biomechanics-3",
+      "name": "Muscle mechanics: Hill model, force-length and force-velocity relations"
+    },
+    {
+      "id": "me-biomechanics-4",
+      "name": "Joint mechanics: hip, knee, ankle, shoulder and spine"
+    },
+    {
+      "id": "me-biomechanics-5",
+      "name": "Human gait and movement: gait phases, ground reaction forces and joint moments"
+    },
+    {
+      "id": "me-biomechanics-6",
+      "name": "Motion capture, force plates, IMUs and EMG measurement"
+    },
+    {
+      "id": "me-biomechanics-7",
+      "name": "Inverse dynamics and musculoskeletal modeling (OpenSim)"
+    },
+    {
+      "id": "me-biomechanics-8",
+      "name": "Anthropometry and body-segment parameters"
+    },
+    {
+      "id": "me-biomechanics-9",
+      "name": "Injury biomechanics and human tolerance limits"
+    },
+    {
+      "id": "me-biomechanics-10",
+      "name": "Orthopaedic implant and prosthesis design"
+    },
+    {
+      "id": "me-biomechanics-11",
+      "name": "Sports and occupational biomechanics; ergonomics of lifting"
+    },
+    {
+      "id": "me-biomechanics-12",
+      "name": "Biofluid mechanics overview (blood flow, respiration)"
+    }
+  ]
+}

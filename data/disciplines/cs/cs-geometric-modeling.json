@@ -1,0 +1,55 @@
+{
+  "id": "cs-geometric-modeling",
+  "name": "Geometric Modeling & Geometry Processing",
+  "category": "Graphics, Visualization & Games",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Representing and processing 3D shapes: curves and surfaces, meshes, implicit surfaces, discrete differential geometry and reconstruction from scans.",
+  "prerequisites": [
+    "cs-computer-graphics",
+    "ma-multivariable-calculus"
+  ],
+  "related": [
+    "ma-differential-geometry",
+    "ma-discrete-computational-geometry",
+    "me-cad-solid-modeling"
+  ],
+  "topics": [
+    {
+      "id": "cs-geometric-modeling-1",
+      "name": "Curves: Bézier curves, B-splines and NURBS"
+    },
+    {
+      "id": "cs-geometric-modeling-2",
+      "name": "Surfaces: parametric patches and subdivision surfaces"
+    },
+    {
+      "id": "cs-geometric-modeling-3",
+      "name": "Polygon-mesh data structures (half-edge)"
+    },
+    {
+      "id": "cs-geometric-modeling-4",
+      "name": "Implicit surfaces and signed distance fields"
+    },
+    {
+      "id": "cs-geometric-modeling-5",
+      "name": "Mesh simplification and remeshing"
+    },
+    {
+      "id": "cs-geometric-modeling-6",
+      "name": "Discrete differential geometry: curvature and Laplacians"
+    },
+    {
+      "id": "cs-geometric-modeling-7",
+      "name": "Mesh parameterization"
+    },
+    {
+      "id": "cs-geometric-modeling-8",
+      "name": "Surface reconstruction from point clouds"
+    },
+    {
+      "id": "cs-geometric-modeling-9",
+      "name": "Constructive solid geometry and CAD kernels"
+    }
+  ]
+}

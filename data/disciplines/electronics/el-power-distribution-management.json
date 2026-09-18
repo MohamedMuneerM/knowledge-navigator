@@ -1,0 +1,38 @@
+{
+  "id": "el-power-distribution-management",
+  "name": "Power Distribution & Management",
+  "category": "Power Electronics & Power Management",
+  "level": 2,
+  "priority": "important",
+  "summary": "Board-level power architecture: PMICs, sequencing, hot-swap, load switches and eFuses, power multiplexing and budgets.",
+  "prerequisites": [
+    "el-linear-regulators"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-power-distribution-management-1",
+      "name": "Power Management ICs (PMIC)"
+    },
+    {
+      "id": "el-power-distribution-management-2",
+      "name": "Sequencing and power-up/down control"
+    },
+    {
+      "id": "el-power-distribution-management-3",
+      "name": "Hot-swap controllers"
+    },
+    {
+      "id": "el-power-distribution-management-4",
+      "name": "Load switches and eFuses"
+    },
+    {
+      "id": "el-power-distribution-management-5",
+      "name": "Power multiplexing"
+    },
+    {
+      "id": "el-power-distribution-management-6",
+      "name": "Power budgeting and analysis"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "bi-human-genetics",
+  "name": "Human Genetics & Genomic Medicine",
+  "category": "Genetics & Genomics",
+  "level": 3,
+  "priority": "important",
+  "summary": "The genetics of people: Mendelian disease, complex traits, genetic testing, ancestry and how genomics is used in medicine.",
+  "prerequisites": [
+    "bi-genomics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-human-genetics-1",
+      "name": "The human genome and patterns of human variation"
+    },
+    {
+      "id": "bi-human-genetics-2",
+      "name": "Mendelian disorders: mechanisms and examples (cystic fibrosis, sickle cell, Huntington's)"
+    },
+    {
+      "id": "bi-human-genetics-3",
+      "name": "Chromosomal disorders and cytogenetics"
+    },
+    {
+      "id": "bi-human-genetics-4",
+      "name": "Mitochondrial disease"
+    },
+    {
+      "id": "bi-human-genetics-5",
+      "name": "Complex traits, heritability and genome-wide association studies (GWAS)"
+    },
+    {
+      "id": "bi-human-genetics-6",
+      "name": "Polygenic risk scores: construction and limitations"
+    },
+    {
+      "id": "bi-human-genetics-7",
+      "name": "Cancer genetics: germline predisposition versus somatic mutation"
+    },
+    {
+      "id": "bi-human-genetics-8",
+      "name": "Genetic testing, newborn screening and prenatal diagnosis"
+    },
+    {
+      "id": "bi-human-genetics-9",
+      "name": "Clinical exome/genome sequencing and variant interpretation"
+    },
+    {
+      "id": "bi-human-genetics-10",
+      "name": "Pharmacogenomics"
+    },
+    {
+      "id": "bi-human-genetics-11",
+      "name": "Genetic ancestry and forensic DNA profiling"
+    },
+    {
+      "id": "bi-human-genetics-12",
+      "name": "Gene therapy in the clinic (overview) and genetic counselling"
+    },
+    {
+      "id": "bi-human-genetics-13",
+      "name": "Ethical, legal and social implications of human genomics"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "ai-llm-evaluation",
+  "name": "LLM Evaluation & Benchmarking",
+  "category": "Large Language Models & LLM Engineering",
+  "level": 4,
+  "priority": "important",
+  "summary": "Measuring what language models and LLM applications can do, using benchmarks, custom test sets, human judgement and LLM-as-a-judge with statistical care.",
+  "prerequisites": [
+    "ai-llm-application-engineering",
+    "ai-ml-experimentation-evaluation"
+  ],
+  "related": [
+    "ai-ai-safety"
+  ],
+  "topics": [
+    {
+      "id": "ai-llm-evaluation-1",
+      "name": "What to evaluate: capability, quality, safety, cost and latency"
+    },
+    {
+      "id": "ai-llm-evaluation-2",
+      "name": "The benchmark landscape (MMLU, GSM8K, HumanEval, GPQA, SWE-bench, Chatbot Arena)"
+    },
+    {
+      "id": "ai-llm-evaluation-3",
+      "name": "Benchmark contamination and saturation"
+    },
+    {
+      "id": "ai-llm-evaluation-4",
+      "name": "Reference-based metrics: exact match, BLEU, ROUGE, BERTScore"
+    },
+    {
+      "id": "ai-llm-evaluation-5",
+      "name": "LLM-as-a-judge: rubrics, pairwise comparison and judge biases"
+    },
+    {
+      "id": "ai-llm-evaluation-6",
+      "name": "Human evaluation and inter-annotator agreement"
+    },
+    {
+      "id": "ai-llm-evaluation-7",
+      "name": "Building task-specific evaluation sets"
+    },
+    {
+      "id": "ai-llm-evaluation-8",
+      "name": "Evaluating RAG systems and agent trajectories"
+    },
+    {
+      "id": "ai-llm-evaluation-9",
+      "name": "Hallucination and factuality measurement"
+    },
+    {
+      "id": "ai-llm-evaluation-10",
+      "name": "Safety evaluation and red teaming"
+    },
+    {
+      "id": "ai-llm-evaluation-11",
+      "name": "Evaluation harnesses (lm-evaluation-harness, HELM, Inspect)"
+    },
+    {
+      "id": "ai-llm-evaluation-12",
+      "name": "Statistical rigour: confidence intervals and variance across prompts and seeds"
+    },
+    {
+      "id": "ai-llm-evaluation-13",
+      "name": "Online evaluation and user-feedback loops"
+    }
+  ]
+}

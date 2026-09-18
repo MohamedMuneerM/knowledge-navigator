@@ -1,0 +1,77 @@
+{
+  "id": "ea-igneous-petrology",
+  "name": "Igneous Petrology",
+  "category": "Mineralogy & Petrology",
+  "level": 3,
+  "priority": "core",
+  "summary": "How magmas form, evolve and crystallise, and how igneous rocks record the tectonic setting and history of the mantle and crust.",
+  "prerequisites": [
+    "ea-mineralogy",
+    "ea-geochemistry-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-igneous-petrology-1",
+      "name": "Classification of igneous rocks: IUGS/QAPF and TAS schemes"
+    },
+    {
+      "id": "ea-igneous-petrology-2",
+      "name": "Igneous textures and what they reveal about cooling history"
+    },
+    {
+      "id": "ea-igneous-petrology-3",
+      "name": "Melting of the mantle: decompression, flux and heat-transfer melting"
+    },
+    {
+      "id": "ea-igneous-petrology-4",
+      "name": "Phase equilibria",
+      "sub": [
+        {
+          "id": "ea-igneous-petrology-4-1",
+          "name": "Binary eutectic and solid-solution systems"
+        },
+        {
+          "id": "ea-igneous-petrology-4-2",
+          "name": "Ternary systems and liquid lines of descent"
+        },
+        {
+          "id": "ea-igneous-petrology-4-3",
+          "name": "Bowen's reaction series"
+        }
+      ]
+    },
+    {
+      "id": "ea-igneous-petrology-5",
+      "name": "Magma properties: temperature, viscosity, density and volatiles"
+    },
+    {
+      "id": "ea-igneous-petrology-6",
+      "name": "Magma differentiation: fractional crystallisation, assimilation and mixing"
+    },
+    {
+      "id": "ea-igneous-petrology-7",
+      "name": "Major- and trace-element geochemistry of igneous rocks; spider diagrams"
+    },
+    {
+      "id": "ea-igneous-petrology-8",
+      "name": "Mid-ocean-ridge basalts and ophiolites"
+    },
+    {
+      "id": "ea-igneous-petrology-9",
+      "name": "Ocean-island basalts, hotspots and large igneous provinces"
+    },
+    {
+      "id": "ea-igneous-petrology-10",
+      "name": "Subduction-zone magmatism and arc volcanism"
+    },
+    {
+      "id": "ea-igneous-petrology-11",
+      "name": "Granites and the continental crust"
+    },
+    {
+      "id": "ea-igneous-petrology-12",
+      "name": "Layered mafic intrusions, komatiites, kimberlites and carbonatites"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "ai-hardware-for-ai",
+  "name": "Hardware for AI",
+  "category": "AI Systems & Infrastructure",
+  "level": 3,
+  "priority": "important",
+  "summary": "The chips that run AI: GPU architecture and CUDA, TPUs, FPGAs, AI ASICs, memory and interconnect bottlenecks, and neuromorphic and quantum hardware.",
+  "prerequisites": [
+    "ai-neural-network-foundations",
+    "cs-computer-architecture"
+  ],
+  "related": [
+    "el-hardware-accelerators",
+    "el-neuromorphic-computing",
+    "cs-advanced-computer-architecture",
+    "cs-gpu-programming",
+    "cs-emerging-systems"
+  ],
+  "topics": [
+    {
+      "id": "ai-hardware-for-ai-1",
+      "name": "GPU Computing",
+      "sub": [
+        {
+          "id": "ai-hardware-for-ai-1-1",
+          "name": "NVIDIA CUDA"
+        },
+        {
+          "id": "ai-hardware-for-ai-1-2",
+          "name": "GPU architectures"
+        }
+      ]
+    },
+    {
+      "id": "ai-hardware-for-ai-2",
+      "name": "TPUs (Tensor Processing Units)"
+    },
+    {
+      "id": "ai-hardware-for-ai-3",
+      "name": "FPGAs"
+    },
+    {
+      "id": "ai-hardware-for-ai-4",
+      "name": "ASICs for AI"
+    },
+    {
+      "id": "ai-hardware-for-ai-5",
+      "name": "Neuromorphic Computing"
+    },
+    {
+      "id": "ai-hardware-for-ai-6",
+      "name": "Quantum Computing for ML"
+    },
+    {
+      "id": "ai-hardware-for-ai-7",
+      "name": "Memory bandwidth, the roofline model and arithmetic intensity"
+    },
+    {
+      "id": "ai-hardware-for-ai-8",
+      "name": "Interconnects: NVLink and InfiniBand"
+    },
+    {
+      "id": "ai-hardware-for-ai-9",
+      "name": "GPU kernel programming basics (CUDA, Triton)"
+    }
+  ]
+}

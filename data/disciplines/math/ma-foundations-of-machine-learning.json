@@ -1,0 +1,46 @@
+{
+  "id": "ma-foundations-of-machine-learning",
+  "name": "Foundations of Machine Learning",
+  "category": "Machine Learning & Data Science Mathematics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "The mathematical frame of supervised learning: loss, risk, generalisation, bias-variance and model selection.",
+  "prerequisites": [
+    "ma-inferential-statistics",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ai-core-ml-concepts",
+    "ai-statistical-learning-theory"
+  ],
+  "topics": [
+    {
+      "id": "ma-foundations-of-machine-learning-4",
+      "name": "Supervised learning setup: loss, risk and empirical risk"
+    },
+    {
+      "id": "ma-foundations-of-machine-learning-1",
+      "name": "Statistical learning theory"
+    },
+    {
+      "id": "ma-foundations-of-machine-learning-2",
+      "name": "Bias-variance tradeoff"
+    },
+    {
+      "id": "ma-foundations-of-machine-learning-5",
+      "name": "Overfitting and regularisation"
+    },
+    {
+      "id": "ma-foundations-of-machine-learning-3",
+      "name": "Cross-validation"
+    },
+    {
+      "id": "ma-foundations-of-machine-learning-6",
+      "name": "Evaluation metrics"
+    },
+    {
+      "id": "ma-foundations-of-machine-learning-7",
+      "name": "Probabilistic view: likelihood and MAP"
+    }
+  ]
+}

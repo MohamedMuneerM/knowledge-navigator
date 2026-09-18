@@ -1,0 +1,72 @@
+{
+  "id": "ae-aircraft-design",
+  "name": "Aircraft Design",
+  "category": "Air Vehicle Design",
+  "level": 3,
+  "priority": "core",
+  "summary": "The conceptual and preliminary design of fixed-wing aircraft, integrating aerodynamics, structures, propulsion, stability and cost.",
+  "prerequisites": [
+    "ae-aircraft-stability-control",
+    "ae-aerospace-structures",
+    "ae-gas-turbine-engines"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-aircraft-design-1",
+      "name": "Design requirements, mission specification and regulations"
+    },
+    {
+      "id": "ae-aircraft-design-2",
+      "name": "Initial sizing: takeoff weight estimation from fuel and empty-weight fractions"
+    },
+    {
+      "id": "ae-aircraft-design-3",
+      "name": "Constraint analysis: wing loading and thrust-to-weight"
+    },
+    {
+      "id": "ae-aircraft-design-4",
+      "name": "Configuration layout: wing, tail, fuselage and engine placement"
+    },
+    {
+      "id": "ae-aircraft-design-5",
+      "name": "Airfoil and wing planform selection"
+    },
+    {
+      "id": "ae-aircraft-design-6",
+      "name": "Tail sizing and control surface sizing"
+    },
+    {
+      "id": "ae-aircraft-design-7",
+      "name": "Propulsion selection and installation"
+    },
+    {
+      "id": "ae-aircraft-design-8",
+      "name": "Landing gear design"
+    },
+    {
+      "id": "ae-aircraft-design-9",
+      "name": "Weights and balance"
+    },
+    {
+      "id": "ae-aircraft-design-10",
+      "name": "Aerodynamic and performance analysis of the design"
+    },
+    {
+      "id": "ae-aircraft-design-11",
+      "name": "Structural layout and materials selection"
+    },
+    {
+      "id": "ae-aircraft-design-12",
+      "name": "Cost estimation and life-cycle cost"
+    },
+    {
+      "id": "ae-aircraft-design-13",
+      "name": "Trade studies and design optimisation"
+    },
+    {
+      "id": "ae-aircraft-design-14",
+      "name": "Design of special aircraft: supersonic, STOL, sailplanes, military"
+    }
+  ]
+}

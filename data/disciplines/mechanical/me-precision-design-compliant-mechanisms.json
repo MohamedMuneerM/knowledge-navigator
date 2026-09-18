@@ -1,0 +1,55 @@
+{
+  "id": "me-precision-design-compliant-mechanisms",
+  "name": "Precision Machine Design & Compliant Mechanisms",
+  "category": "Machine Design & Machine Elements",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Designing machines for micrometre-level accuracy and mechanisms that move by flexing, using exact constraint, error budgets and flexures.",
+  "prerequisites": [
+    "me-machine-design-fundamentals",
+    "me-advanced-mechanics-of-materials"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "me-precision-design-compliant-mechanisms-1",
+      "name": "Accuracy, repeatability and resolution"
+    },
+    {
+      "id": "me-precision-design-compliant-mechanisms-2",
+      "name": "Error budgets and the Abbe principle"
+    },
+    {
+      "id": "me-precision-design-compliant-mechanisms-3",
+      "name": "Exact-constraint design and kinematic couplings"
+    },
+    {
+      "id": "me-precision-design-compliant-mechanisms-4",
+      "name": "Structural loops, stiffness and thermal error management"
+    },
+    {
+      "id": "me-precision-design-compliant-mechanisms-5",
+      "name": "Precision bearings and linear stages"
+    },
+    {
+      "id": "me-precision-design-compliant-mechanisms-6",
+      "name": "Flexure hinges and flexure-based stages"
+    },
+    {
+      "id": "me-precision-design-compliant-mechanisms-7",
+      "name": "Pseudo-rigid-body model of compliant mechanisms"
+    },
+    {
+      "id": "me-precision-design-compliant-mechanisms-8",
+      "name": "Compliant mechanism synthesis and topology optimisation"
+    },
+    {
+      "id": "me-precision-design-compliant-mechanisms-9",
+      "name": "Bistable and statically balanced mechanisms"
+    },
+    {
+      "id": "me-precision-design-compliant-mechanisms-10",
+      "name": "Precision actuation and metrology frames"
+    }
+  ]
+}

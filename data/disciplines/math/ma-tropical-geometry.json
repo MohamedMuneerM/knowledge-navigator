@@ -1,0 +1,31 @@
+{
+  "id": "ma-tropical-geometry",
+  "name": "Tropical Geometry",
+  "category": "Geometry",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Algebraic geometry over the min-plus semiring, turning varieties into piecewise-linear objects.",
+  "prerequisites": [
+    "ma-algebraic-geometry",
+    "ma-convex-geometry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-tropical-geometry-3",
+      "name": "The tropical semiring"
+    },
+    {
+      "id": "ma-tropical-geometry-1",
+      "name": "Tropical algebraic geometry"
+    },
+    {
+      "id": "ma-tropical-geometry-2",
+      "name": "Tropical curves"
+    },
+    {
+      "id": "ma-tropical-geometry-4",
+      "name": "Newton polytopes and subdivisions"
+    }
+  ]
+}

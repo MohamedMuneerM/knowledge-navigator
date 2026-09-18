@@ -1,0 +1,72 @@
+{
+  "id": "ai-ml-lifecycle-management",
+  "name": "ML Lifecycle Management",
+  "category": "MLOps & ML Engineering",
+  "level": 3,
+  "priority": "important",
+  "summary": "Managing ML work from experiment to production: ML system design, experiment tracking, data and model versioning, registries, pipelines and reproducibility.",
+  "prerequisites": [
+    "ai-ml-experimentation-evaluation"
+  ],
+  "related": [
+    "cs-devops-cicd"
+  ],
+  "topics": [
+    {
+      "id": "ai-ml-lifecycle-management-5",
+      "name": "ML system design: requirements, data flywheels and feedback loops"
+    },
+    {
+      "id": "ai-ml-lifecycle-management-1",
+      "name": "Experiment Tracking",
+      "sub": [
+        {
+          "id": "ai-ml-lifecycle-management-1-1",
+          "name": "MLflow"
+        },
+        {
+          "id": "ai-ml-lifecycle-management-1-2",
+          "name": "Weights & Biases"
+        },
+        {
+          "id": "ai-ml-lifecycle-management-1-3",
+          "name": "Neptune"
+        }
+      ]
+    },
+    {
+      "id": "ai-ml-lifecycle-management-2",
+      "name": "Version Control for ML",
+      "sub": [
+        {
+          "id": "ai-ml-lifecycle-management-2-1",
+          "name": "DVC"
+        },
+        {
+          "id": "ai-ml-lifecycle-management-2-2",
+          "name": "Git-LFS"
+        }
+      ]
+    },
+    {
+      "id": "ai-ml-lifecycle-management-3",
+      "name": "Model Registry"
+    },
+    {
+      "id": "ai-ml-lifecycle-management-4",
+      "name": "Reproducibility"
+    },
+    {
+      "id": "ai-ml-lifecycle-management-6",
+      "name": "ML pipelines and orchestration (Kubeflow, Airflow)"
+    },
+    {
+      "id": "ai-ml-lifecycle-management-7",
+      "name": "CI/CD and continuous training for ML"
+    },
+    {
+      "id": "ai-ml-lifecycle-management-8",
+      "name": "MLOps maturity levels"
+    }
+  ]
+}

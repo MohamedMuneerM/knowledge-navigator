@@ -1,0 +1,51 @@
+{
+  "id": "ea-fluvial-processes-and-sediment-transport",
+  "name": "Fluvial Processes & Sediment Transport",
+  "category": "Earth Surface Processes",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The mechanics of flowing water and sediment in rivers, and how channels, floodplains and deltas form and change.",
+  "prerequisites": [
+    "ea-geomorphology",
+    "ph-fluid-mechanics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-fluvial-processes-and-sediment-transport-1",
+      "name": "Open-channel flow: uniform flow, Manning and the Froude number"
+    },
+    {
+      "id": "ea-fluvial-processes-and-sediment-transport-2",
+      "name": "Turbulence and boundary shear stress"
+    },
+    {
+      "id": "ea-fluvial-processes-and-sediment-transport-3",
+      "name": "Threshold of motion and the Shields criterion"
+    },
+    {
+      "id": "ea-fluvial-processes-and-sediment-transport-4",
+      "name": "Bedload and suspended-load transport"
+    },
+    {
+      "id": "ea-fluvial-processes-and-sediment-transport-5",
+      "name": "Bedforms and flow resistance"
+    },
+    {
+      "id": "ea-fluvial-processes-and-sediment-transport-6",
+      "name": "Channel patterns: straight, meandering, braided and anabranching"
+    },
+    {
+      "id": "ea-fluvial-processes-and-sediment-transport-7",
+      "name": "Bedrock incision and stream-power models"
+    },
+    {
+      "id": "ea-fluvial-processes-and-sediment-transport-8",
+      "name": "Floodplains, avulsion and deltas"
+    },
+    {
+      "id": "ea-fluvial-processes-and-sediment-transport-9",
+      "name": "River management and restoration"
+    }
+  ]
+}

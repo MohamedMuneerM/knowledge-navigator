@@ -1,0 +1,55 @@
+{
+  "id": "ea-tectonics-and-orogeny",
+  "name": "Tectonics & Mountain Building",
+  "category": "Structural Geology & Tectonics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Regional-scale tectonics: how rifts, margins, orogens and continents form and evolve, with classic examples.",
+  "prerequisites": [
+    "ea-plate-tectonics",
+    "ea-structural-geology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-tectonics-and-orogeny-1",
+      "name": "Extensional tectonics: rifts, core complexes and passive margins"
+    },
+    {
+      "id": "ea-tectonics-and-orogeny-2",
+      "name": "Contractional tectonics: fold-and-thrust belts and orogenic wedges"
+    },
+    {
+      "id": "ea-tectonics-and-orogeny-3",
+      "name": "Strike-slip systems, transpression and transtension"
+    },
+    {
+      "id": "ea-tectonics-and-orogeny-4",
+      "name": "Subduction-zone tectonics and accretionary prisms"
+    },
+    {
+      "id": "ea-tectonics-and-orogeny-5",
+      "name": "Continental collision: the Himalaya-Tibet case study"
+    },
+    {
+      "id": "ea-tectonics-and-orogeny-6",
+      "name": "Andean-type orogens and the Alps"
+    },
+    {
+      "id": "ea-tectonics-and-orogeny-7",
+      "name": "Terranes, sutures and crustal growth"
+    },
+    {
+      "id": "ea-tectonics-and-orogeny-8",
+      "name": "Cratons, shields and Precambrian tectonics"
+    },
+    {
+      "id": "ea-tectonics-and-orogeny-9",
+      "name": "Isostasy, topography and orogenic collapse"
+    },
+    {
+      "id": "ea-tectonics-and-orogeny-10",
+      "name": "Tectonics, erosion and climate interactions"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "cs-data-engineering",
+  "name": "Data Engineering & Big Data Processing",
+  "category": "Data Management",
+  "level": 3,
+  "priority": "important",
+  "summary": "Building reliable pipelines that move and transform large volumes of data: warehouses, lakes, batch and stream processing, orchestration and data quality.",
+  "prerequisites": [
+    "cs-databases",
+    "cs-cloud-computing"
+  ],
+  "related": [
+    "ai-data-engineering",
+    "ai-big-data-technologies",
+    "el-data-management"
+  ],
+  "topics": [
+    {
+      "id": "cs-data-engineering-1",
+      "name": "The data life cycle and the data-engineering role"
+    },
+    {
+      "id": "cs-data-engineering-2",
+      "name": "Data ingestion and ETL/ELT pipelines"
+    },
+    {
+      "id": "cs-data-engineering-3",
+      "name": "Data warehouses and dimensional modeling"
+    },
+    {
+      "id": "cs-data-engineering-4",
+      "name": "Data lakes, lakehouses and file formats (Parquet, Avro)"
+    },
+    {
+      "id": "cs-data-engineering-5",
+      "name": "Batch processing: MapReduce and Apache Spark"
+    },
+    {
+      "id": "cs-data-engineering-6",
+      "name": "Stream processing: Kafka, Flink and event streams"
+    },
+    {
+      "id": "cs-data-engineering-7",
+      "name": "Workflow orchestration (Airflow)"
+    },
+    {
+      "id": "cs-data-engineering-8",
+      "name": "Data quality, testing and observability"
+    },
+    {
+      "id": "cs-data-engineering-9",
+      "name": "Data governance, lineage and catalogs"
+    },
+    {
+      "id": "cs-data-engineering-10",
+      "name": "Privacy and compliance in data pipelines"
+    }
+  ]
+}

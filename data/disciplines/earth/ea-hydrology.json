@@ -1,0 +1,59 @@
+{
+  "id": "ea-hydrology",
+  "name": "Hydrology",
+  "category": "Hydrology & Water Resources",
+  "level": 2,
+  "priority": "core",
+  "summary": "The movement and storage of water on and near the land surface: precipitation, evaporation, infiltration, runoff and streamflow.",
+  "prerequisites": [
+    "ea-introduction-to-earth-science",
+    "ma-calculus"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-hydrology-1",
+      "name": "The global water cycle and catchment water balance"
+    },
+    {
+      "id": "ea-hydrology-2",
+      "name": "Precipitation: formation, measurement and spatial analysis"
+    },
+    {
+      "id": "ea-hydrology-3",
+      "name": "Evaporation and evapotranspiration"
+    },
+    {
+      "id": "ea-hydrology-4",
+      "name": "Interception, infiltration and soil moisture"
+    },
+    {
+      "id": "ea-hydrology-5",
+      "name": "Runoff generation mechanisms"
+    },
+    {
+      "id": "ea-hydrology-6",
+      "name": "Streamflow measurement and hydrographs"
+    },
+    {
+      "id": "ea-hydrology-7",
+      "name": "Snow and snowmelt hydrology"
+    },
+    {
+      "id": "ea-hydrology-8",
+      "name": "Flood frequency and hydrological statistics"
+    },
+    {
+      "id": "ea-hydrology-9",
+      "name": "Lakes, wetlands and ecohydrology"
+    },
+    {
+      "id": "ea-hydrology-10",
+      "name": "Rainfall-runoff and watershed modelling"
+    },
+    {
+      "id": "ea-hydrology-11",
+      "name": "Hydrological data: gauges, remote sensing and land-surface models"
+    }
+  ]
+}

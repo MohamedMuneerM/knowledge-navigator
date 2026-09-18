@@ -1,0 +1,50 @@
+{
+  "id": "el-microcontroller-families",
+  "name": "Microcontroller Families",
+  "category": "Microcontrollers, Processors & Architectures",
+  "level": 2,
+  "priority": "important",
+  "summary": "The main processor families in embedded products (ARM Cortex-M/A/R, AVR, PIC, MSP430, RISC-V, x86, 8051) and how to choose between them.",
+  "prerequisites": [
+    "el-embedded-systems-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-microcontroller-families-1",
+      "name": "ARM Cortex-M series (M0, M0+, M3, M4, M7, M33, M55)"
+    },
+    {
+      "id": "el-microcontroller-families-2",
+      "name": "ARM Cortex-A series (application processors)"
+    },
+    {
+      "id": "el-microcontroller-families-3",
+      "name": "ARM Cortex-R series (real-time processors)"
+    },
+    {
+      "id": "el-microcontroller-families-4",
+      "name": "AVR (ATmega, ATtiny)"
+    },
+    {
+      "id": "el-microcontroller-families-5",
+      "name": "PIC (8-bit, 16-bit, 32-bit)"
+    },
+    {
+      "id": "el-microcontroller-families-6",
+      "name": "MSP430 (ultra-low-power)"
+    },
+    {
+      "id": "el-microcontroller-families-7",
+      "name": "RISC-V cores (open architecture)"
+    },
+    {
+      "id": "el-microcontroller-families-8",
+      "name": "x86 embedded (Intel Atom, AMD)"
+    },
+    {
+      "id": "el-microcontroller-families-9",
+      "name": "8051 architecture (legacy but still used)"
+    }
+  ]
+}

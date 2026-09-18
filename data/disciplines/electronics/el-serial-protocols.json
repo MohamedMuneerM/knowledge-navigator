@@ -1,0 +1,50 @@
+{
+  "id": "el-serial-protocols",
+  "name": "Serial Protocols",
+  "category": "Communication Protocols & Connectivity",
+  "level": 2,
+  "priority": "core",
+  "summary": "Asynchronous serial links: UART framing and the RS-232, RS-422 and RS-485 physical layers.",
+  "prerequisites": [
+    "el-embedded-systems-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-serial-protocols-1",
+      "name": "UART (Universal Asynchronous Receiver-Transmitter)"
+    },
+    {
+      "id": "el-serial-protocols-2",
+      "name": "USART (synchronous mode)"
+    },
+    {
+      "id": "el-serial-protocols-3",
+      "name": "RS-232 (voltage levels, DB9 connectors)"
+    },
+    {
+      "id": "el-serial-protocols-4",
+      "name": "RS-485 (differential, multi-drop)"
+    },
+    {
+      "id": "el-serial-protocols-5",
+      "name": "RS-422 (differential, point-to-point)"
+    },
+    {
+      "id": "el-serial-protocols-6",
+      "name": "Baud rate, framing, parity and error detection"
+    },
+    {
+      "id": "el-serial-protocols-7",
+      "name": "Flow control (RTS/CTS, XON/XOFF)"
+    },
+    {
+      "id": "el-serial-protocols-8",
+      "name": "Line transceivers and USB-UART bridges"
+    },
+    {
+      "id": "el-serial-protocols-9",
+      "name": "Designing robust RS-485 networks (termination, biasing)"
+    }
+  ]
+}

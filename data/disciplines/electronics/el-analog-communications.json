@@ -1,0 +1,57 @@
+{
+  "id": "el-analog-communications",
+  "name": "Analog Communication Systems",
+  "category": "Signal Processing & Communications",
+  "level": 3,
+  "priority": "core",
+  "summary": "How information rides on carriers: AM, FM and PM, transmitters and superheterodyne receivers, multiplexing and the effect of noise.",
+  "prerequisites": [
+    "el-signals-and-systems",
+    "ma-probability-theory"
+  ],
+  "related": [
+    "ma-information-communication-theory"
+  ],
+  "topics": [
+    {
+      "id": "el-analog-communications-1",
+      "name": "Elements of a communication system; channels, bandwidth and noise"
+    },
+    {
+      "id": "el-analog-communications-2",
+      "name": "Amplitude modulation: DSB-SC, conventional AM, SSB and VSB"
+    },
+    {
+      "id": "el-analog-communications-3",
+      "name": "AM modulators and demodulators (envelope and coherent detection)"
+    },
+    {
+      "id": "el-analog-communications-4",
+      "name": "Angle modulation: FM and PM, spectra and Carson's rule"
+    },
+    {
+      "id": "el-analog-communications-5",
+      "name": "FM generation and detection (discriminators, PLL demodulators)"
+    },
+    {
+      "id": "el-analog-communications-6",
+      "name": "Superheterodyne receivers: mixing, IF, image frequency"
+    },
+    {
+      "id": "el-analog-communications-7",
+      "name": "Frequency-division multiplexing and broadcast systems"
+    },
+    {
+      "id": "el-analog-communications-8",
+      "name": "Noise in communication systems: thermal noise, SNR, noise figure"
+    },
+    {
+      "id": "el-analog-communications-9",
+      "name": "Noise performance of AM and FM; pre-emphasis and de-emphasis"
+    },
+    {
+      "id": "el-analog-communications-10",
+      "name": "Pulse modulation: PAM, PWM, PPM and an introduction to PCM"
+    }
+  ]
+}

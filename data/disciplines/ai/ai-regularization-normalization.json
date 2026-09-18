@@ -1,0 +1,58 @@
+{
+  "id": "ai-regularization-normalization",
+  "name": "Regularization & Normalization",
+  "category": "Deep Learning",
+  "level": 3,
+  "priority": "core",
+  "summary": "Techniques that make deep networks train stably and generalize: dropout, weight decay, data augmentation and batch, layer and RMS normalization.",
+  "prerequisites": [
+    "ai-neural-network-foundations"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-regularization-normalization-1",
+      "name": "Dropout"
+    },
+    {
+      "id": "ai-regularization-normalization-2",
+      "name": "Weight Decay"
+    },
+    {
+      "id": "ai-regularization-normalization-3",
+      "name": "Data Augmentation"
+    },
+    {
+      "id": "ai-regularization-normalization-4",
+      "name": "Batch Normalization"
+    },
+    {
+      "id": "ai-regularization-normalization-5",
+      "name": "Layer Normalization"
+    },
+    {
+      "id": "ai-regularization-normalization-6",
+      "name": "Group Normalization"
+    },
+    {
+      "id": "ai-regularization-normalization-7",
+      "name": "Instance Normalization"
+    },
+    {
+      "id": "ai-regularization-normalization-8",
+      "name": "RMSNorm"
+    },
+    {
+      "id": "ai-regularization-normalization-9",
+      "name": "Label smoothing"
+    },
+    {
+      "id": "ai-regularization-normalization-10",
+      "name": "Mixup and CutMix"
+    },
+    {
+      "id": "ai-regularization-normalization-11",
+      "name": "Implicit regularization of SGD"
+    }
+  ]
+}

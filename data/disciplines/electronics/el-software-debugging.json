@@ -1,0 +1,42 @@
+{
+  "id": "el-software-debugging",
+  "name": "Software Debugging",
+  "category": "Embedded Development Practices & Debugging",
+  "level": 2,
+  "priority": "core",
+  "summary": "Debugging firmware with GDB and IDE debuggers: breakpoints, watchpoints, stepping, stack traces and memory inspection.",
+  "prerequisites": [
+    "el-embedded-systems-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-software-debugging-1",
+      "name": "Debugger tools (GDB, LLDB, IAR, Keil)"
+    },
+    {
+      "id": "el-software-debugging-2",
+      "name": "Breakpoints (software, hardware)"
+    },
+    {
+      "id": "el-software-debugging-3",
+      "name": "Watchpoints and conditional breakpoints"
+    },
+    {
+      "id": "el-software-debugging-4",
+      "name": "Step-through debugging (step-in, step-over, step-out)"
+    },
+    {
+      "id": "el-software-debugging-5",
+      "name": "Stack trace analysis"
+    },
+    {
+      "id": "el-software-debugging-6",
+      "name": "Variable inspection and memory viewing"
+    },
+    {
+      "id": "el-software-debugging-7",
+      "name": "Real-time expression evaluation"
+    }
+  ]
+}

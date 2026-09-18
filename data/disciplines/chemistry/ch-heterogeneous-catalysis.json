@@ -1,0 +1,59 @@
+{
+  "id": "ch-heterogeneous-catalysis",
+  "name": "Catalysis: Principles & Heterogeneous Catalysis",
+  "category": "Surfaces, Catalysis & Supramolecular Chemistry",
+  "level": 4,
+  "priority": "important",
+  "summary": "How catalysts work and are designed, with emphasis on solid catalysts that run the chemical and energy industries.",
+  "prerequisites": [
+    "ch-surface-chemistry",
+    "ch-solid-state-chemistry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-heterogeneous-catalysis-1",
+      "name": "Catalysis fundamentals: activity, selectivity and turnover frequency"
+    },
+    {
+      "id": "ch-heterogeneous-catalysis-2",
+      "name": "Homogeneous, heterogeneous and enzymatic catalysis compared"
+    },
+    {
+      "id": "ch-heterogeneous-catalysis-3",
+      "name": "The Sabatier principle, volcano plots and scaling relations"
+    },
+    {
+      "id": "ch-heterogeneous-catalysis-4",
+      "name": "Catalyst preparation: impregnation, precipitation and supports"
+    },
+    {
+      "id": "ch-heterogeneous-catalysis-5",
+      "name": "Catalyst characterization: chemisorption, TPR and in-situ spectroscopy"
+    },
+    {
+      "id": "ch-heterogeneous-catalysis-6",
+      "name": "Microkinetic modeling"
+    },
+    {
+      "id": "ch-heterogeneous-catalysis-7",
+      "name": "Catalyst deactivation: sintering, coking and poisoning"
+    },
+    {
+      "id": "ch-heterogeneous-catalysis-8",
+      "name": "Industrial processes: ammonia synthesis, Fischer-Tropsch, fluid catalytic cracking, hydrotreating"
+    },
+    {
+      "id": "ch-heterogeneous-catalysis-9",
+      "name": "Automotive three-way catalysts and emission control"
+    },
+    {
+      "id": "ch-heterogeneous-catalysis-10",
+      "name": "Zeolite and solid-acid catalysis"
+    },
+    {
+      "id": "ch-heterogeneous-catalysis-11",
+      "name": "Single-atom catalysts and computational catalyst design"
+    }
+  ]
+}

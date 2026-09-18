@@ -1,0 +1,51 @@
+{
+  "id": "bi-microbiome",
+  "name": "Microbiome Science",
+  "category": "Microbiology, Virology & Immunology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The communities of microbes living in and on hosts and environments, how they are studied and how they shape health and ecosystems.",
+  "prerequisites": [
+    "bi-microbiology",
+    "bi-genomics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-microbiome-1",
+      "name": "Microbiome concepts: composition, diversity and function"
+    },
+    {
+      "id": "bi-microbiome-2",
+      "name": "Methods: 16S rRNA profiling, shotgun metagenomics and metatranscriptomics"
+    },
+    {
+      "id": "bi-microbiome-3",
+      "name": "The human gut microbiome in digestion, metabolism and immunity"
+    },
+    {
+      "id": "bi-microbiome-4",
+      "name": "Microbiome development across the lifespan"
+    },
+    {
+      "id": "bi-microbiome-5",
+      "name": "The gut-brain axis"
+    },
+    {
+      "id": "bi-microbiome-6",
+      "name": "Microbiome and disease: dysbiosis, causation versus correlation"
+    },
+    {
+      "id": "bi-microbiome-7",
+      "name": "Plant and soil microbiomes"
+    },
+    {
+      "id": "bi-microbiome-8",
+      "name": "Ocean and environmental microbiomes"
+    },
+    {
+      "id": "bi-microbiome-9",
+      "name": "Microbiome engineering: probiotics, faecal transplants and designed communities"
+    }
+  ]
+}

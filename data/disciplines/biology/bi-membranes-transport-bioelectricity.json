@@ -1,0 +1,61 @@
+{
+  "id": "bi-membranes-transport-bioelectricity",
+  "name": "Membranes, Transport & Bioelectricity",
+  "category": "Cell & Molecular Biology",
+  "level": 2,
+  "priority": "important",
+  "summary": "How membranes control what enters and leaves the cell, and how ion gradients create the voltages that nerves, muscles and hearts run on.",
+  "prerequisites": [
+    "bi-cell-biology",
+    "ph-introductory-electricity-magnetism"
+  ],
+  "related": [
+    "ph-biophysics"
+  ],
+  "topics": [
+    {
+      "id": "bi-membranes-transport-bioelectricity-1",
+      "name": "Lipid bilayer physics: fluidity, rafts, asymmetry and curvature"
+    },
+    {
+      "id": "bi-membranes-transport-bioelectricity-2",
+      "name": "Diffusion, osmosis and tonicity"
+    },
+    {
+      "id": "bi-membranes-transport-bioelectricity-3",
+      "name": "Passive transport: channels and carrier proteins"
+    },
+    {
+      "id": "bi-membranes-transport-bioelectricity-4",
+      "name": "Primary active transport: the Na+/K+ pump and ABC transporters"
+    },
+    {
+      "id": "bi-membranes-transport-bioelectricity-5",
+      "name": "Secondary active transport: symporters and antiporters"
+    },
+    {
+      "id": "bi-membranes-transport-bioelectricity-6",
+      "name": "Electrochemical gradients and the Nernst equation"
+    },
+    {
+      "id": "bi-membranes-transport-bioelectricity-7",
+      "name": "Resting membrane potential and the Goldman-Hodgkin-Katz equation"
+    },
+    {
+      "id": "bi-membranes-transport-bioelectricity-8",
+      "name": "Ion channel families: voltage-gated, ligand-gated and mechanosensitive"
+    },
+    {
+      "id": "bi-membranes-transport-bioelectricity-9",
+      "name": "Membrane as an electrical circuit: capacitance, resistance and cable properties"
+    },
+    {
+      "id": "bi-membranes-transport-bioelectricity-10",
+      "name": "Excitable cells: an introduction to the action potential"
+    },
+    {
+      "id": "bi-membranes-transport-bioelectricity-11",
+      "name": "Epithelial transport and transcellular movement of water and solutes"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "bi-muscle-biology",
+  "name": "Muscle Biology & Physiology",
+  "category": "Biomechanics & Human Performance",
+  "level": 3,
+  "priority": "important",
+  "summary": "How muscles generate force, from the molecular motor to the whole muscle, and how nerves control them: the biology an exoskeleton must work with.",
+  "prerequisites": [
+    "bi-human-physiology"
+  ],
+  "related": [
+    "el-biomedical-signal-processing"
+  ],
+  "topics": [
+    {
+      "id": "bi-muscle-biology-1",
+      "name": "Skeletal muscle structure: fibres, myofibrils and the sarcomere"
+    },
+    {
+      "id": "bi-muscle-biology-2",
+      "name": "Sliding filament theory and the cross-bridge cycle"
+    },
+    {
+      "id": "bi-muscle-biology-3",
+      "name": "Excitation-contraction coupling and calcium handling"
+    },
+    {
+      "id": "bi-muscle-biology-4",
+      "name": "The neuromuscular junction"
+    },
+    {
+      "id": "bi-muscle-biology-5",
+      "name": "Motor units, recruitment (Henneman's size principle) and rate coding"
+    },
+    {
+      "id": "bi-muscle-biology-6",
+      "name": "Force-length and force-velocity relationships"
+    },
+    {
+      "id": "bi-muscle-biology-7",
+      "name": "Fibre types and muscle energetics"
+    },
+    {
+      "id": "bi-muscle-biology-8",
+      "name": "Electromyography (EMG): origin of the signal and what it measures"
+    },
+    {
+      "id": "bi-muscle-biology-9",
+      "name": "Muscle fatigue: central and peripheral mechanisms"
+    },
+    {
+      "id": "bi-muscle-biology-10",
+      "name": "Muscle plasticity: hypertrophy, atrophy and disuse"
+    },
+    {
+      "id": "bi-muscle-biology-11",
+      "name": "Muscle repair, satellite cells and regeneration"
+    },
+    {
+      "id": "bi-muscle-biology-12",
+      "name": "Cardiac and smooth muscle compared"
+    },
+    {
+      "id": "bi-muscle-biology-13",
+      "name": "Neuromuscular diseases (muscular dystrophies, ALS, myasthenia gravis)"
+    }
+  ]
+}

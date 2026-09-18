@@ -1,0 +1,67 @@
+{
+  "id": "bi-cell-signaling",
+  "name": "Cell Signaling",
+  "category": "Cell & Molecular Biology",
+  "level": 3,
+  "priority": "important",
+  "summary": "How cells sense and respond to signals: receptors, second messengers and the core signaling pathways behind development, physiology and disease.",
+  "prerequisites": [
+    "bi-cell-biology",
+    "bi-biochemistry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-cell-signaling-1",
+      "name": "Principles of signaling: ligands, receptors, specificity, amplification and adaptation"
+    },
+    {
+      "id": "bi-cell-signaling-2",
+      "name": "G-protein-coupled receptors, G proteins and cAMP/PKA"
+    },
+    {
+      "id": "bi-cell-signaling-3",
+      "name": "Calcium signaling, IP3/DAG and protein kinase C"
+    },
+    {
+      "id": "bi-cell-signaling-4",
+      "name": "Receptor tyrosine kinases and the Ras/MAPK cascade"
+    },
+    {
+      "id": "bi-cell-signaling-5",
+      "name": "PI3K/Akt/mTOR signaling and nutrient sensing"
+    },
+    {
+      "id": "bi-cell-signaling-6",
+      "name": "Cytokine receptors and JAK-STAT"
+    },
+    {
+      "id": "bi-cell-signaling-7",
+      "name": "TGF-beta/SMAD signaling"
+    },
+    {
+      "id": "bi-cell-signaling-8",
+      "name": "Developmental pathways: Wnt, Hedgehog and Notch"
+    },
+    {
+      "id": "bi-cell-signaling-9",
+      "name": "NF-kB and stress/inflammatory signaling"
+    },
+    {
+      "id": "bi-cell-signaling-10",
+      "name": "Nuclear receptors and steroid hormone signaling"
+    },
+    {
+      "id": "bi-cell-signaling-11",
+      "name": "Nitric oxide and gaseous signaling molecules"
+    },
+    {
+      "id": "bi-cell-signaling-12",
+      "name": "Signal integration, crosstalk, feedback and network behaviour"
+    },
+    {
+      "id": "bi-cell-signaling-13",
+      "name": "Signaling in bacteria and plants: two-component systems and plant receptor kinases"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "ai-advanced-rl-topics",
+  "name": "Advanced RL Topics",
+  "category": "Reinforcement Learning",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Frontier RL: model-based and hierarchical RL, multi-agent RL, inverse RL and imitation learning, offline, meta and safe RL, and planning-RL hybrids like AlphaZero.",
+  "prerequisites": [
+    "ai-deep-reinforcement-learning"
+  ],
+  "related": [
+    "ai-multi-agent-systems"
+  ],
+  "topics": [
+    {
+      "id": "ai-advanced-rl-topics-1",
+      "name": "Model-Based RL",
+      "sub": [
+        {
+          "id": "ai-advanced-rl-topics-1-1",
+          "name": "Dyna architecture"
+        },
+        {
+          "id": "ai-advanced-rl-topics-1-2",
+          "name": "World models"
+        },
+        {
+          "id": "ai-advanced-rl-topics-1-3",
+          "name": "MuZero"
+        },
+        {
+          "id": "ai-advanced-rl-topics-1-4",
+          "name": "Dreamer"
+        }
+      ]
+    },
+    {
+      "id": "ai-advanced-rl-topics-2",
+      "name": "Hierarchical RL",
+      "sub": [
+        {
+          "id": "ai-advanced-rl-topics-2-1",
+          "name": "Options framework"
+        },
+        {
+          "id": "ai-advanced-rl-topics-2-2",
+          "name": "Feudal networks"
+        }
+      ]
+    },
+    {
+      "id": "ai-advanced-rl-topics-3",
+      "name": "Multi-Agent RL (MARL)",
+      "sub": [
+        {
+          "id": "ai-advanced-rl-topics-3-1",
+          "name": "Cooperative learning"
+        },
+        {
+          "id": "ai-advanced-rl-topics-3-2",
+          "name": "Competitive learning"
+        },
+        {
+          "id": "ai-advanced-rl-topics-3-3",
+          "name": "Mixed-motive games"
+        }
+      ]
+    },
+    {
+      "id": "ai-advanced-rl-topics-4",
+      "name": "Inverse Reinforcement Learning"
+    },
+    {
+      "id": "ai-advanced-rl-topics-5",
+      "name": "Imitation Learning",
+      "sub": [
+        {
+          "id": "ai-advanced-rl-topics-5-1",
+          "name": "Behavioral cloning"
+        },
+        {
+          "id": "ai-advanced-rl-topics-5-2",
+          "name": "DAGGER"
+        },
+        {
+          "id": "ai-advanced-rl-topics-5-3",
+          "name": "Generative adversarial imitation learning (GAIL)"
+        }
+      ]
+    },
+    {
+      "id": "ai-advanced-rl-topics-6",
+      "name": "Offline RL (Batch RL)",
+      "sub": [
+        {
+          "id": "ai-advanced-rl-topics-6-1",
+          "name": "Conservative Q-learning (CQL)"
+        },
+        {
+          "id": "ai-advanced-rl-topics-6-2",
+          "name": "Decision Transformer"
+        }
+      ]
+    },
+    {
+      "id": "ai-advanced-rl-topics-7",
+      "name": "Meta-RL"
+    },
+    {
+      "id": "ai-advanced-rl-topics-8",
+      "name": "Curriculum RL"
+    },
+    {
+      "id": "ai-advanced-rl-topics-9",
+      "name": "Safe RL"
+    },
+    {
+      "id": "ai-advanced-rl-topics-10",
+      "name": "Planning + RL Hybrids",
+      "sub": [
+        {
+          "id": "ai-advanced-rl-topics-10-1",
+          "name": "AlphaGo"
+        },
+        {
+          "id": "ai-advanced-rl-topics-10-2",
+          "name": "AlphaZero"
+        },
+        {
+          "id": "ai-advanced-rl-topics-10-3",
+          "name": "MuZero"
+        }
+      ]
+    }
+  ]
+}

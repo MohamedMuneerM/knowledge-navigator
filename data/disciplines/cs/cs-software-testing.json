@@ -1,0 +1,74 @@
+{
+  "id": "cs-software-testing",
+  "name": "Software Testing & Quality Assurance",
+  "category": "Software Engineering",
+  "level": 3,
+  "priority": "core",
+  "summary": "How to find defects systematically and build confidence in software, from unit tests and coverage to fuzzing, mutation testing and quality metrics.",
+  "prerequisites": [
+    "cs-software-construction"
+  ],
+  "related": [
+    "el-software-testing",
+    "el-testing-strategies",
+    "el-static-analysis-linters"
+  ],
+  "topics": [
+    {
+      "id": "cs-software-testing-1",
+      "name": "Testing fundamentals: faults, errors, failures and the test oracle"
+    },
+    {
+      "id": "cs-software-testing-2",
+      "name": "Black-box techniques: equivalence partitioning, boundary values and decision tables"
+    },
+    {
+      "id": "cs-software-testing-3",
+      "name": "White-box techniques and coverage criteria"
+    },
+    {
+      "id": "cs-software-testing-4",
+      "name": "Unit, integration, system and acceptance testing"
+    },
+    {
+      "id": "cs-software-testing-5",
+      "name": "Test doubles: mocks, stubs and fakes"
+    },
+    {
+      "id": "cs-software-testing-6",
+      "name": "Test-driven and behaviour-driven development"
+    },
+    {
+      "id": "cs-software-testing-7",
+      "name": "Property-based testing and fuzzing"
+    },
+    {
+      "id": "cs-software-testing-8",
+      "name": "Mutation testing"
+    },
+    {
+      "id": "cs-software-testing-9",
+      "name": "Regression testing in continuous integration"
+    },
+    {
+      "id": "cs-software-testing-10",
+      "name": "Performance, load and stress testing"
+    },
+    {
+      "id": "cs-software-testing-11",
+      "name": "UI and end-to-end testing"
+    },
+    {
+      "id": "cs-software-testing-12",
+      "name": "Static analysis, code review and inspections"
+    },
+    {
+      "id": "cs-software-testing-13",
+      "name": "Software quality models and reliability metrics"
+    },
+    {
+      "id": "cs-software-testing-14",
+      "name": "Debugging techniques and root-cause analysis"
+    }
+  ]
+}

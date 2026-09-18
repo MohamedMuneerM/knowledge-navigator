@@ -1,0 +1,67 @@
+{
+  "id": "ae-aerospace-safety-reliability",
+  "name": "Aerospace Safety and Reliability Engineering",
+  "category": "Systems Engineering, Test & Safety",
+  "level": 3,
+  "priority": "important",
+  "summary": "Methods for making aerospace systems safe and reliable: hazard analysis, FMEA, fault trees, probabilistic risk and lessons from accidents.",
+  "prerequisites": [
+    "ae-aerospace-systems-engineering",
+    "ma-probability-theory"
+  ],
+  "related": [
+    "el-reliability-fault-tolerance",
+    "el-safety-standards",
+    "me-reliability-safety-engineering"
+  ],
+  "topics": [
+    {
+      "id": "ae-aerospace-safety-reliability-1",
+      "name": "Reliability mathematics: failure rates, bathtub curve, exponential and Weibull models"
+    },
+    {
+      "id": "ae-aerospace-safety-reliability-2",
+      "name": "System reliability: series, parallel, k-out-of-n and redundancy"
+    },
+    {
+      "id": "ae-aerospace-safety-reliability-3",
+      "name": "Failure modes and effects (and criticality) analysis: FMEA/FMECA"
+    },
+    {
+      "id": "ae-aerospace-safety-reliability-4",
+      "name": "Fault tree analysis and event trees"
+    },
+    {
+      "id": "ae-aerospace-safety-reliability-5",
+      "name": "Hazard analysis and hazard reports"
+    },
+    {
+      "id": "ae-aerospace-safety-reliability-6",
+      "name": "Probabilistic risk assessment"
+    },
+    {
+      "id": "ae-aerospace-safety-reliability-7",
+      "name": "Safety assessment for aircraft (ARP4761)"
+    },
+    {
+      "id": "ae-aerospace-safety-reliability-8",
+      "name": "Human factors and human error in aerospace"
+    },
+    {
+      "id": "ae-aerospace-safety-reliability-9",
+      "name": "Systems-theoretic safety: STAMP and STPA"
+    },
+    {
+      "id": "ae-aerospace-safety-reliability-10",
+      "name": "Safety culture and organisational factors"
+    },
+    {
+      "id": "ae-aerospace-safety-reliability-11",
+      "name": "Accident case studies: Apollo 1, Challenger, Columbia, Air France 447, 737 MAX"
+    },
+    {
+      "id": "ae-aerospace-safety-reliability-12",
+      "name": "Parts, materials and processes (EEE parts, derating, screening)"
+    }
+  ]
+}

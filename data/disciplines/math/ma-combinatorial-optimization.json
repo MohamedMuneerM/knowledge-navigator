@@ -1,0 +1,46 @@
+{
+  "id": "ma-combinatorial-optimization",
+  "name": "Combinatorial Optimization",
+  "category": "Optimization & Control Theory",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Optimisation over discrete structures: shortest paths, flows, matchings, matroids, the travelling salesman problem and approximation algorithms.",
+  "prerequisites": [
+    "ma-linear-programming",
+    "ma-graph-theory",
+    "ma-algorithm-analysis"
+  ],
+  "related": [
+    "cs-advanced-algorithms"
+  ],
+  "topics": [
+    {
+      "id": "ma-combinatorial-optimization-4",
+      "name": "Shortest paths and spanning trees"
+    },
+    {
+      "id": "ma-combinatorial-optimization-1",
+      "name": "Network optimization"
+    },
+    {
+      "id": "ma-combinatorial-optimization-5",
+      "name": "Matchings and the assignment problem"
+    },
+    {
+      "id": "ma-combinatorial-optimization-2",
+      "name": "Assignment problems"
+    },
+    {
+      "id": "ma-combinatorial-optimization-6",
+      "name": "Matroids and greedy algorithms"
+    },
+    {
+      "id": "ma-combinatorial-optimization-3",
+      "name": "Traveling salesman problem"
+    },
+    {
+      "id": "ma-combinatorial-optimization-7",
+      "name": "Approximation algorithms and NP-hard problems"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "ph-history-of-physics",
+  "name": "History of Physics",
+  "category": "Foundations, History & Education",
+  "level": 1,
+  "priority": "optional",
+  "summary": "How physics developed from ancient natural philosophy to the quantum and relativistic revolutions.",
+  "prerequisites": [],
+  "related": [
+    "ph-introductory-astronomy"
+  ],
+  "topics": [
+    {
+      "id": "ph-history-of-physics-1",
+      "name": "Ancient and medieval physics"
+    },
+    {
+      "id": "ph-history-of-physics-2",
+      "name": "Scientific revolution"
+    },
+    {
+      "id": "ph-history-of-physics-3",
+      "name": "Classical physics era"
+    },
+    {
+      "id": "ph-history-of-physics-4",
+      "name": "Quantum revolution"
+    },
+    {
+      "id": "ph-history-of-physics-5",
+      "name": "Modern developments"
+    }
+  ]
+}

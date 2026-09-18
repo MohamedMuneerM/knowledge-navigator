@@ -1,0 +1,50 @@
+{
+  "id": "el-plc-programmable-logic-controller-programming",
+  "name": "PLC Programming",
+  "category": "Communication Protocols & Connectivity",
+  "level": 2,
+  "priority": "important",
+  "summary": "Programming industrial controllers with the IEC 61131-3 languages: ladder logic, function blocks, structured text and SFC.",
+  "prerequisites": [
+    "el-combinational-logic"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-plc-programmable-logic-controller-programming-1",
+      "name": "Ladder logic"
+    },
+    {
+      "id": "el-plc-programmable-logic-controller-programming-2",
+      "name": "Function block diagrams (FBD)"
+    },
+    {
+      "id": "el-plc-programmable-logic-controller-programming-3",
+      "name": "Structured text (ST)"
+    },
+    {
+      "id": "el-plc-programmable-logic-controller-programming-4",
+      "name": "Sequential function charts (SFC)"
+    },
+    {
+      "id": "el-plc-programmable-logic-controller-programming-5",
+      "name": "IEC 61131-3 standard"
+    },
+    {
+      "id": "el-plc-programmable-logic-controller-programming-6",
+      "name": "PLC hardware: CPU, I/O modules and the scan cycle"
+    },
+    {
+      "id": "el-plc-programmable-logic-controller-programming-7",
+      "name": "Timers, counters and sequencing"
+    },
+    {
+      "id": "el-plc-programmable-logic-controller-programming-8",
+      "name": "HMI and SCADA integration"
+    },
+    {
+      "id": "el-plc-programmable-logic-controller-programming-9",
+      "name": "PLC program structure, simulation and testing"
+    }
+  ]
+}

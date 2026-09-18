@@ -1,0 +1,56 @@
+{
+  "id": "ae-air-transportation-traffic-management",
+  "name": "Air Transportation and Air Traffic Management",
+  "category": "Air Vehicle Design",
+  "level": 3,
+  "priority": "optional",
+  "summary": "How the air transport system works: airspace, air traffic control, airports, airline operations and future traffic management.",
+  "prerequisites": [
+    "ae-aircraft-performance"
+  ],
+  "related": [
+    "el-aircraft-communication"
+  ],
+  "topics": [
+    {
+      "id": "ae-air-transportation-traffic-management-1",
+      "name": "Structure of the air transportation system"
+    },
+    {
+      "id": "ae-air-transportation-traffic-management-2",
+      "name": "Airspace classes and flight rules (VFR/IFR)"
+    },
+    {
+      "id": "ae-air-transportation-traffic-management-3",
+      "name": "Air traffic control: tower, approach, en-route"
+    },
+    {
+      "id": "ae-air-transportation-traffic-management-4",
+      "name": "Communication, navigation and surveillance: radar, ADS-B"
+    },
+    {
+      "id": "ae-air-transportation-traffic-management-5",
+      "name": "Performance-based navigation and RNAV/RNP procedures"
+    },
+    {
+      "id": "ae-air-transportation-traffic-management-6",
+      "name": "Airport operations and capacity"
+    },
+    {
+      "id": "ae-air-transportation-traffic-management-7",
+      "name": "Airline operations: scheduling, fleet planning, economics"
+    },
+    {
+      "id": "ae-air-transportation-traffic-management-8",
+      "name": "NextGen and SESAR modernisation"
+    },
+    {
+      "id": "ae-air-transportation-traffic-management-9",
+      "name": "UAS traffic management (UTM) and space traffic integration"
+    },
+    {
+      "id": "ae-air-transportation-traffic-management-10",
+      "name": "Aviation environmental impact"
+    }
+  ]
+}

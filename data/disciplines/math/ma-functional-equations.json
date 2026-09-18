@@ -1,0 +1,34 @@
+{
+  "id": "ma-functional-equations",
+  "name": "Functional Equations",
+  "category": "Differential Equations & Dynamical Systems",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Equations whose unknowns are functions, such as Cauchy's and Jensen's equations, and their regular and pathological solutions.",
+  "prerequisites": [
+    "ma-real-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-functional-equations-1",
+      "name": "Cauchy equations"
+    },
+    {
+      "id": "ma-functional-equations-2",
+      "name": "Jensen equations"
+    },
+    {
+      "id": "ma-functional-equations-3",
+      "name": "Regularity conditions and pathological solutions"
+    },
+    {
+      "id": "ma-functional-equations-4",
+      "name": "Functional equations in competitions"
+    },
+    {
+      "id": "ma-functional-equations-5",
+      "name": "Stability of functional equations (Hyers-Ulam)"
+    }
+  ]
+}

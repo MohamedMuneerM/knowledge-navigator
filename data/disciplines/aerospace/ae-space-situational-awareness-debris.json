@@ -1,0 +1,58 @@
+{
+  "id": "ae-space-situational-awareness-debris",
+  "name": "Space Situational Awareness and Orbital Debris",
+  "category": "Space Missions & Exploration",
+  "level": 4,
+  "priority": "important",
+  "summary": "Tracking objects in orbit, predicting collisions and managing the growing debris problem.",
+  "prerequisites": [
+    "ae-orbit-determination"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-space-situational-awareness-debris-1",
+      "name": "The orbital debris environment and its sources"
+    },
+    {
+      "id": "ae-space-situational-awareness-debris-2",
+      "name": "Kessler syndrome and debris evolution modelling"
+    },
+    {
+      "id": "ae-space-situational-awareness-debris-3",
+      "name": "Debris environment models: ORDEM and MASTER"
+    },
+    {
+      "id": "ae-space-situational-awareness-debris-4",
+      "name": "Space surveillance sensors: radar, optical and space-based"
+    },
+    {
+      "id": "ae-space-situational-awareness-debris-5",
+      "name": "Catalogue maintenance and data sharing"
+    },
+    {
+      "id": "ae-space-situational-awareness-debris-6",
+      "name": "Conjunction assessment and probability of collision"
+    },
+    {
+      "id": "ae-space-situational-awareness-debris-7",
+      "name": "Collision avoidance manoeuvres"
+    },
+    {
+      "id": "ae-space-situational-awareness-debris-8",
+      "name": "Debris mitigation guidelines: IADC, the 25-year and 5-year rules"
+    },
+    {
+      "id": "ae-space-situational-awareness-debris-9",
+      "name": "Passivation, deorbit and graveyard orbits"
+    },
+    {
+      "id": "ae-space-situational-awareness-debris-10",
+      "name": "Space traffic management and coordination"
+    },
+    {
+      "id": "ae-space-situational-awareness-debris-11",
+      "name": "Anti-satellite tests and their consequences"
+    }
+  ]
+}

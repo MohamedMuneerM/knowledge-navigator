@@ -1,0 +1,80 @@
+{
+  "id": "cs-probability-statistics-for-cs",
+  "name": "Probability & Statistics for Computer Science",
+  "category": "Mathematical Foundations",
+  "level": 2,
+  "priority": "core",
+  "summary": "Probability and statistics as used in computing: random variables, tail bounds, simulation, estimation and testing, with applications to algorithms, systems and data.",
+  "prerequisites": [
+    "cs-discrete-mathematics",
+    "ma-calculus"
+  ],
+  "related": [
+    "ma-probability-theory",
+    "ma-descriptive-statistics",
+    "ma-inferential-statistics",
+    "ma-bayesian-statistics"
+  ],
+  "topics": [
+    {
+      "id": "cs-probability-statistics-for-cs-1",
+      "name": "Sample spaces, events and counting-based probability"
+    },
+    {
+      "id": "cs-probability-statistics-for-cs-2",
+      "name": "Conditional probability, independence and Bayes' theorem"
+    },
+    {
+      "id": "cs-probability-statistics-for-cs-3",
+      "name": "Discrete random variables: Bernoulli, binomial, geometric and Poisson"
+    },
+    {
+      "id": "cs-probability-statistics-for-cs-4",
+      "name": "Continuous random variables: uniform, exponential and normal"
+    },
+    {
+      "id": "cs-probability-statistics-for-cs-5",
+      "name": "Expectation, variance and linearity of expectation"
+    },
+    {
+      "id": "cs-probability-statistics-for-cs-6",
+      "name": "Joint distributions, covariance and correlation"
+    },
+    {
+      "id": "cs-probability-statistics-for-cs-7",
+      "name": "Tail bounds: Markov, Chebyshev and Chernoff"
+    },
+    {
+      "id": "cs-probability-statistics-for-cs-8",
+      "name": "Law of large numbers and the central limit theorem"
+    },
+    {
+      "id": "cs-probability-statistics-for-cs-9",
+      "name": "Sampling, simulation and Monte Carlo estimation"
+    },
+    {
+      "id": "cs-probability-statistics-for-cs-10",
+      "name": "Maximum likelihood and parameter estimation"
+    },
+    {
+      "id": "cs-probability-statistics-for-cs-11",
+      "name": "Confidence intervals and hypothesis testing, including A/B tests"
+    },
+    {
+      "id": "cs-probability-statistics-for-cs-12",
+      "name": "Bootstrapping and resampling"
+    },
+    {
+      "id": "cs-probability-statistics-for-cs-13",
+      "name": "Markov chains and random walks"
+    },
+    {
+      "id": "cs-probability-statistics-for-cs-14",
+      "name": "Probability in computing: hashing, randomized algorithms and load balancing"
+    },
+    {
+      "id": "cs-probability-statistics-for-cs-15",
+      "name": "Introduction to Bayesian inference"
+    }
+  ]
+}

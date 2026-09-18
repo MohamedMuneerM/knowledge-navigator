@@ -1,0 +1,62 @@
+{
+  "id": "ma-matrix-analysis",
+  "name": "Matrix Analysis & Multilinear Algebra",
+  "category": "Algebra",
+  "level": 3,
+  "priority": "important",
+  "summary": "Advanced matrix theory and multilinear algebra: canonical forms, norms, positive definite matrices, perturbation of eigenvalues and tensor products.",
+  "prerequisites": [
+    "ma-linear-algebra",
+    "ma-real-analysis"
+  ],
+  "related": [
+    "ma-numerical-linear-algebra",
+    "ma-matrix-methods-for-ml"
+  ],
+  "topics": [
+    {
+      "id": "ma-matrix-analysis-1",
+      "name": "Similarity, Jordan canonical form and the rational canonical form"
+    },
+    {
+      "id": "ma-matrix-analysis-2",
+      "name": "Unitary similarity, Schur triangularisation and normal matrices"
+    },
+    {
+      "id": "ma-matrix-analysis-3",
+      "name": "Hermitian and positive definite matrices; Cholesky and square roots"
+    },
+    {
+      "id": "ma-matrix-analysis-4",
+      "name": "Variational characterisation of eigenvalues (Courant-Fischer) and interlacing"
+    },
+    {
+      "id": "ma-matrix-analysis-5",
+      "name": "Singular value decomposition and polar decomposition"
+    },
+    {
+      "id": "ma-matrix-analysis-6",
+      "name": "Vector and matrix norms"
+    },
+    {
+      "id": "ma-matrix-analysis-7",
+      "name": "Perturbation of eigenvalues (Gershgorin, Weyl, Bauer-Fike)"
+    },
+    {
+      "id": "ma-matrix-analysis-8",
+      "name": "Nonnegative matrices and Perron-Frobenius theory"
+    },
+    {
+      "id": "ma-matrix-analysis-9",
+      "name": "Matrix functions: exponential and logarithm"
+    },
+    {
+      "id": "ma-matrix-analysis-10",
+      "name": "Multilinear algebra: tensor products, symmetric and exterior powers"
+    },
+    {
+      "id": "ma-matrix-analysis-11",
+      "name": "Kronecker products and matrix equations (Sylvester, Lyapunov)"
+    }
+  ]
+}

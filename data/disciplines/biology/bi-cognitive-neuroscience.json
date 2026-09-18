@@ -1,0 +1,61 @@
+{
+  "id": "bi-cognitive-neuroscience",
+  "name": "Cognitive Neuroscience",
+  "category": "Neuroscience",
+  "level": 4,
+  "priority": "important",
+  "summary": "The biology of the mind: how brain activity gives rise to perception, attention, memory, language, decisions and consciousness.",
+  "prerequisites": [
+    "bi-behavioral-neuroscience",
+    "bi-systems-neuroscience"
+  ],
+  "related": [
+    "ai-cognitive-architectures"
+  ],
+  "topics": [
+    {
+      "id": "bi-cognitive-neuroscience-1",
+      "name": "Methods: fMRI, EEG/MEG, TMS, lesion studies and intracranial recordings"
+    },
+    {
+      "id": "bi-cognitive-neuroscience-2",
+      "name": "Perception and object recognition"
+    },
+    {
+      "id": "bi-cognitive-neuroscience-3",
+      "name": "Attention"
+    },
+    {
+      "id": "bi-cognitive-neuroscience-4",
+      "name": "Learning and memory in humans"
+    },
+    {
+      "id": "bi-cognitive-neuroscience-5",
+      "name": "Language and the brain"
+    },
+    {
+      "id": "bi-cognitive-neuroscience-6",
+      "name": "Executive functions and cognitive control"
+    },
+    {
+      "id": "bi-cognitive-neuroscience-7",
+      "name": "Decision-making and neuroeconomics"
+    },
+    {
+      "id": "bi-cognitive-neuroscience-8",
+      "name": "Emotion and cognition"
+    },
+    {
+      "id": "bi-cognitive-neuroscience-9",
+      "name": "Social cognition"
+    },
+    {
+      "id": "bi-cognitive-neuroscience-10",
+      "name": "Consciousness: theories and neural correlates"
+    },
+    {
+      "id": "bi-cognitive-neuroscience-11",
+      "name": "Brain development and ageing across the lifespan"
+    }
+  ]
+}

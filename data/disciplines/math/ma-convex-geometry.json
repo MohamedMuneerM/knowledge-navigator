@@ -1,0 +1,41 @@
+{
+  "id": "ma-convex-geometry",
+  "name": "Convex Geometry",
+  "category": "Geometry",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Convex sets and polytopes: separation theorems, Helly and Caratheodory theorems, and volumes of convex bodies.",
+  "prerequisites": [
+    "ma-linear-algebra",
+    "ma-real-analysis"
+  ],
+  "related": [
+    "ma-convex-analysis"
+  ],
+  "topics": [
+    {
+      "id": "ma-convex-geometry-1",
+      "name": "Convex sets"
+    },
+    {
+      "id": "ma-convex-geometry-4",
+      "name": "Separation and supporting hyperplanes"
+    },
+    {
+      "id": "ma-convex-geometry-5",
+      "name": "Helly, Radon and Caratheodory theorems"
+    },
+    {
+      "id": "ma-convex-geometry-2",
+      "name": "Convex polytopes"
+    },
+    {
+      "id": "ma-convex-geometry-6",
+      "name": "Brunn-Minkowski inequality"
+    },
+    {
+      "id": "ma-convex-geometry-3",
+      "name": "Convex analysis"
+    }
+  ]
+}

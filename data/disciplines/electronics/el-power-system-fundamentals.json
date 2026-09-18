@@ -1,0 +1,54 @@
+{
+  "id": "el-power-system-fundamentals",
+  "name": "Power System Fundamentals",
+  "category": "Electrical Machines & Power Systems",
+  "level": 3,
+  "priority": "core",
+  "summary": "Modelling the electric grid: per-unit analysis, line parameters and models, power transfer, reactive power and network matrices.",
+  "prerequisites": [
+    "el-magnetic-circuits-transformers"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-power-system-fundamentals-1",
+      "name": "Structure of the power system: generation, transmission, distribution"
+    },
+    {
+      "id": "el-power-system-fundamentals-2",
+      "name": "Three-phase power review and the per-unit system"
+    },
+    {
+      "id": "el-power-system-fundamentals-3",
+      "name": "Transmission-line parameters: resistance, inductance, capacitance, bundling"
+    },
+    {
+      "id": "el-power-system-fundamentals-4",
+      "name": "Short, medium and long line models"
+    },
+    {
+      "id": "el-power-system-fundamentals-5",
+      "name": "Power transfer, voltage regulation and the power-angle curve"
+    },
+    {
+      "id": "el-power-system-fundamentals-6",
+      "name": "Reactive power and voltage control"
+    },
+    {
+      "id": "el-power-system-fundamentals-7",
+      "name": "Synchronous generator models for system studies"
+    },
+    {
+      "id": "el-power-system-fundamentals-8",
+      "name": "Transformer models including tap-changing and phase-shifting"
+    },
+    {
+      "id": "el-power-system-fundamentals-9",
+      "name": "Network matrices: Ybus and Zbus"
+    },
+    {
+      "id": "el-power-system-fundamentals-10",
+      "name": "Load models"
+    }
+  ]
+}

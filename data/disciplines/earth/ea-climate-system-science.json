@@ -1,0 +1,60 @@
+{
+  "id": "ea-climate-system-science",
+  "name": "Climate System Science",
+  "category": "Climate Science & Paleoclimate",
+  "level": 2,
+  "priority": "core",
+  "summary": "How the climate system works as a whole, what sets Earth's temperature, and the evidence for and causes of present-day climate change.",
+  "prerequisites": [
+    "ea-meteorology"
+  ],
+  "related": [
+    "ph-atmospheric-environmental-physics"
+  ],
+  "topics": [
+    {
+      "id": "ea-climate-system-science-1",
+      "name": "Components of the climate system and their timescales"
+    },
+    {
+      "id": "ea-climate-system-science-2",
+      "name": "Global energy balance and the greenhouse effect"
+    },
+    {
+      "id": "ea-climate-system-science-3",
+      "name": "Latitudinal energy transport by atmosphere and ocean"
+    },
+    {
+      "id": "ea-climate-system-science-4",
+      "name": "The carbon cycle and greenhouse gases"
+    },
+    {
+      "id": "ea-climate-system-science-5",
+      "name": "Climate feedbacks: water vapour, lapse rate, ice-albedo and clouds"
+    },
+    {
+      "id": "ea-climate-system-science-6",
+      "name": "Climate sensitivity and radiative forcing"
+    },
+    {
+      "id": "ea-climate-system-science-7",
+      "name": "Natural variability: ENSO, NAO and volcanic and solar forcing"
+    },
+    {
+      "id": "ea-climate-system-science-8",
+      "name": "Observed climate change: the instrumental record"
+    },
+    {
+      "id": "ea-climate-system-science-9",
+      "name": "Sea-level rise: thermal expansion and ice melt"
+    },
+    {
+      "id": "ea-climate-system-science-10",
+      "name": "Climate models and future projections in outline"
+    },
+    {
+      "id": "ea-climate-system-science-11",
+      "name": "The IPCC assessment process"
+    }
+  ]
+}

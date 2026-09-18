@@ -1,0 +1,56 @@
+{
+  "id": "bi-protein-biochemical-methods",
+  "name": "Protein & Biochemical Methods",
+  "category": "Laboratory & Research Methods",
+  "level": 3,
+  "priority": "important",
+  "summary": "Laboratory methods for purifying, detecting, quantifying and characterising proteins and their interactions.",
+  "prerequisites": [
+    "bi-molecular-biology-techniques",
+    "bi-biochemistry",
+    "ch-quantitative-analysis"
+  ],
+  "related": [
+    "ch-separation-science",
+    "ch-mass-spectrometry",
+    "ch-bioanalytical-chemistry-sensors"
+  ],
+  "topics": [
+    {
+      "id": "bi-protein-biochemical-methods-1",
+      "name": "Recombinant protein expression systems"
+    },
+    {
+      "id": "bi-protein-biochemical-methods-2",
+      "name": "Cell lysis and protein extraction"
+    },
+    {
+      "id": "bi-protein-biochemical-methods-3",
+      "name": "Chromatography: affinity, ion exchange and size exclusion"
+    },
+    {
+      "id": "bi-protein-biochemical-methods-4",
+      "name": "SDS-PAGE and Western blotting"
+    },
+    {
+      "id": "bi-protein-biochemical-methods-5",
+      "name": "Antibodies as tools; ELISA and immunoprecipitation"
+    },
+    {
+      "id": "bi-protein-biochemical-methods-6",
+      "name": "Enzyme activity assays"
+    },
+    {
+      "id": "bi-protein-biochemical-methods-7",
+      "name": "Protein-protein and protein-ligand interaction assays: pull-downs, SPR, ITC"
+    },
+    {
+      "id": "bi-protein-biochemical-methods-8",
+      "name": "Mass spectrometry basics for protein identification"
+    },
+    {
+      "id": "bi-protein-biochemical-methods-9",
+      "name": "Spectroscopic methods: UV-Vis, fluorescence and circular dichroism"
+    }
+  ]
+}

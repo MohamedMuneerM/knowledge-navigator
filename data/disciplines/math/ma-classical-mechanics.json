@@ -1,0 +1,57 @@
+{
+  "id": "ma-classical-mechanics",
+  "name": "Classical Mechanics",
+  "category": "Mathematical Physics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Mechanics as mathematics: Newtonian, Lagrangian and Hamiltonian formulations, rigid bodies and continuum mechanics.",
+  "prerequisites": [
+    "ma-variational-methods",
+    "ma-vector-calculus",
+    "ma-linear-algebra",
+    "ph-introductory-mechanics"
+  ],
+  "related": [
+    "ph-classical-mechanics",
+    "ma-symplectic-geometry",
+    "me-advanced-dynamics-multibody"
+  ],
+  "topics": [
+    {
+      "id": "ma-classical-mechanics-1",
+      "name": "Newtonian mechanics"
+    },
+    {
+      "id": "ma-classical-mechanics-6",
+      "name": "Central forces and Kepler problem"
+    },
+    {
+      "id": "ma-classical-mechanics-2",
+      "name": "Lagrangian mechanics"
+    },
+    {
+      "id": "ma-classical-mechanics-7",
+      "name": "Symmetries and conservation laws"
+    },
+    {
+      "id": "ma-classical-mechanics-3",
+      "name": "Hamiltonian mechanics"
+    },
+    {
+      "id": "ma-classical-mechanics-8",
+      "name": "Canonical transformations and Hamilton-Jacobi theory"
+    },
+    {
+      "id": "ma-classical-mechanics-4",
+      "name": "Rigid body dynamics"
+    },
+    {
+      "id": "ma-classical-mechanics-9",
+      "name": "Small oscillations and normal modes"
+    },
+    {
+      "id": "ma-classical-mechanics-5",
+      "name": "Continuum mechanics"
+    }
+  ]
+}

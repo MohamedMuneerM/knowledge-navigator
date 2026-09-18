@@ -1,0 +1,65 @@
+{
+  "id": "ae-viscous-flow-boundary-layers",
+  "name": "Viscous Flow and Boundary Layers",
+  "category": "Aerodynamics",
+  "level": 3,
+  "priority": "core",
+  "summary": "Viscous effects that govern skin-friction drag, heat transfer and flow separation: laminar and turbulent boundary layers and transition.",
+  "prerequisites": [
+    "ae-incompressible-aerodynamics"
+  ],
+  "related": [
+    "ph-fluid-mechanics",
+    "me-advanced-fluid-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "ae-viscous-flow-boundary-layers-1",
+      "name": "The Navier-Stokes equations"
+    },
+    {
+      "id": "ae-viscous-flow-boundary-layers-2",
+      "name": "Exact solutions: Couette and Poiseuille flow"
+    },
+    {
+      "id": "ae-viscous-flow-boundary-layers-3",
+      "name": "Boundary-layer concept and Prandtl's boundary-layer equations"
+    },
+    {
+      "id": "ae-viscous-flow-boundary-layers-4",
+      "name": "Blasius solution for the flat plate"
+    },
+    {
+      "id": "ae-viscous-flow-boundary-layers-5",
+      "name": "Displacement and momentum thickness; the momentum integral equation"
+    },
+    {
+      "id": "ae-viscous-flow-boundary-layers-6",
+      "name": "Pressure gradients and flow separation"
+    },
+    {
+      "id": "ae-viscous-flow-boundary-layers-7",
+      "name": "Laminar-turbulent transition: stability theory, Tollmien-Schlichting waves"
+    },
+    {
+      "id": "ae-viscous-flow-boundary-layers-8",
+      "name": "Turbulence fundamentals: Reynolds averaging and the closure problem"
+    },
+    {
+      "id": "ae-viscous-flow-boundary-layers-9",
+      "name": "Turbulent boundary layers: law of the wall and skin friction"
+    },
+    {
+      "id": "ae-viscous-flow-boundary-layers-10",
+      "name": "Turbulence modelling: mixing length, k-epsilon, k-omega SST"
+    },
+    {
+      "id": "ae-viscous-flow-boundary-layers-11",
+      "name": "Compressible boundary layers and aerodynamic heating"
+    },
+    {
+      "id": "ae-viscous-flow-boundary-layers-12",
+      "name": "Flow control: vortex generators, suction, riblets"
+    }
+  ]
+}

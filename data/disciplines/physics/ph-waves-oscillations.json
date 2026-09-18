@@ -1,0 +1,82 @@
+{
+  "id": "ph-waves-oscillations",
+  "name": "Waves & Oscillations",
+  "category": "Mechanics, Waves & Fluids",
+  "level": 2,
+  "priority": "core",
+  "summary": "The mathematics and physics of vibrations and waves, shared by mechanics, sound, optics and quantum theory.",
+  "prerequisites": [
+    "ph-classical-mechanics"
+  ],
+  "related": [
+    "ph-acoustics",
+    "ph-classical-optics",
+    "me-mechanical-vibrations"
+  ],
+  "topics": [
+    {
+      "id": "ph-waves-oscillations-1",
+      "name": "Simple harmonic oscillator and complex exponential notation"
+    },
+    {
+      "id": "ph-waves-oscillations-2",
+      "name": "Damped oscillations and the quality factor"
+    },
+    {
+      "id": "ph-waves-oscillations-3",
+      "name": "Driven oscillations, resonance and transients"
+    },
+    {
+      "id": "ph-waves-oscillations-4",
+      "name": "Coupled oscillators and normal modes"
+    },
+    {
+      "id": "ph-waves-oscillations-5",
+      "name": "Continuous systems: the wave equation on a string"
+    },
+    {
+      "id": "ph-waves-oscillations-6",
+      "name": "Standing waves and boundary conditions"
+    },
+    {
+      "id": "ph-waves-oscillations-7",
+      "name": "Fourier series and Fourier analysis of waves"
+    },
+    {
+      "id": "ph-waves-oscillations-8",
+      "name": "Travelling waves: energy and momentum transport"
+    },
+    {
+      "id": "ph-waves-oscillations-9",
+      "name": "Impedance, reflection and transmission at boundaries"
+    },
+    {
+      "id": "ph-waves-oscillations-10",
+      "name": "Dispersion, phase velocity and group velocity"
+    },
+    {
+      "id": "ph-waves-oscillations-11",
+      "name": "Wave packets and the Fourier transform"
+    },
+    {
+      "id": "ph-waves-oscillations-12",
+      "name": "Waves in two and three dimensions"
+    },
+    {
+      "id": "ph-waves-oscillations-13",
+      "name": "Sound waves in gases and solids"
+    },
+    {
+      "id": "ph-waves-oscillations-14",
+      "name": "Electromagnetic waves from Maxwell's equations"
+    },
+    {
+      "id": "ph-waves-oscillations-15",
+      "name": "Interference and diffraction as wave phenomena"
+    },
+    {
+      "id": "ph-waves-oscillations-16",
+      "name": "Nonlinear waves and shock fronts (introduction)"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "me-professional-practice-engineering-economics",
+  "name": "Professional Practice, Ethics & Engineering Economics",
+  "category": "Foundations & Professional Practice",
+  "level": 2,
+  "priority": "important",
+  "summary": "The professional side of engineering: ethics, licensure, codes and standards, intellectual property and the economics of engineering decisions.",
+  "prerequisites": [
+    "me-introduction-to-engineering-mechanical-design"
+  ],
+  "related": [
+    "el-cost-engineering"
+  ],
+  "topics": [
+    {
+      "id": "me-professional-practice-engineering-economics-1",
+      "name": "Engineering ethics: codes of ethics (NSPE, ASME) and case studies"
+    },
+    {
+      "id": "me-professional-practice-engineering-economics-2",
+      "name": "Professional licensure: FE and PE exams and the NCEES Model Law"
+    },
+    {
+      "id": "me-professional-practice-engineering-economics-3",
+      "name": "Public health, safety and welfare responsibilities"
+    },
+    {
+      "id": "me-professional-practice-engineering-economics-4",
+      "name": "Codes and standards: ASME, ISO, ANSI and ASTM and how they are used"
+    },
+    {
+      "id": "me-professional-practice-engineering-economics-5",
+      "name": "Intellectual property: patents, copyrights, trademarks and trade secrets"
+    },
+    {
+      "id": "me-professional-practice-engineering-economics-6",
+      "name": "Contracts, liability and engineering law basics"
+    },
+    {
+      "id": "me-professional-practice-engineering-economics-7",
+      "name": "Time value of money: interest, equivalence, present, future and annual worth"
+    },
+    {
+      "id": "me-professional-practice-engineering-economics-8",
+      "name": "Economic comparison: rate of return, benefit-cost ratio, payback"
+    },
+    {
+      "id": "me-professional-practice-engineering-economics-9",
+      "name": "Cost types (fixed, variable, sunk, incremental) and break-even analysis"
+    },
+    {
+      "id": "me-professional-practice-engineering-economics-10",
+      "name": "Depreciation, taxes and inflation"
+    },
+    {
+      "id": "me-professional-practice-engineering-economics-11",
+      "name": "Life-cycle cost analysis and replacement decisions"
+    },
+    {
+      "id": "me-professional-practice-engineering-economics-12",
+      "name": "Sustainability, life-cycle assessment and societal impact"
+    },
+    {
+      "id": "me-professional-practice-engineering-economics-13",
+      "name": "Project management basics: scheduling, budgeting and risk"
+    },
+    {
+      "id": "me-professional-practice-engineering-economics-14",
+      "name": "Technical communication: reports, presentations and design documentation"
+    }
+  ]
+}

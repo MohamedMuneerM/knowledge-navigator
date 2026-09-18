@@ -1,0 +1,51 @@
+{
+  "id": "ma-analytic-number-theory",
+  "name": "Analytic Number Theory",
+  "category": "Number Theory",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Uses complex analysis to study primes: the Riemann zeta function, the prime number theorem and Dirichlet L-functions.",
+  "prerequisites": [
+    "ma-arithmetic-functions",
+    "ma-complex-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-analytic-number-theory-6",
+      "name": "Chebyshev's estimates and Mertens' theorems"
+    },
+    {
+      "id": "ma-analytic-number-theory-2",
+      "name": "Riemann zeta function"
+    },
+    {
+      "id": "ma-analytic-number-theory-1",
+      "name": "Prime number theorem"
+    },
+    {
+      "id": "ma-analytic-number-theory-7",
+      "name": "Dirichlet characters"
+    },
+    {
+      "id": "ma-analytic-number-theory-3",
+      "name": "L-functions"
+    },
+    {
+      "id": "ma-analytic-number-theory-5",
+      "name": "Dirichlet's theorem"
+    },
+    {
+      "id": "ma-analytic-number-theory-4",
+      "name": "Distribution of primes"
+    },
+    {
+      "id": "ma-analytic-number-theory-8",
+      "name": "The Riemann hypothesis and zero-free regions"
+    },
+    {
+      "id": "ma-analytic-number-theory-9",
+      "name": "Sieve methods (introduction)"
+    }
+  ]
+}

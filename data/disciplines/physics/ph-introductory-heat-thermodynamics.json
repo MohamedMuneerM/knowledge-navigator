@@ -1,0 +1,58 @@
+{
+  "id": "ph-introductory-heat-thermodynamics",
+  "name": "Introductory Heat & Thermodynamics",
+  "category": "Introductory Physics",
+  "level": 1,
+  "priority": "core",
+  "summary": "Algebra-based introduction to temperature, heat, gases and the laws of thermodynamics.",
+  "prerequisites": [
+    "ph-introductory-mechanics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-introductory-heat-thermodynamics-1",
+      "name": "Temperature, thermometers and temperature scales"
+    },
+    {
+      "id": "ph-introductory-heat-thermodynamics-2",
+      "name": "Thermal expansion"
+    },
+    {
+      "id": "ph-introductory-heat-thermodynamics-3",
+      "name": "Heat, specific heat capacity and calorimetry"
+    },
+    {
+      "id": "ph-introductory-heat-thermodynamics-4",
+      "name": "Phase changes and latent heat"
+    },
+    {
+      "id": "ph-introductory-heat-thermodynamics-5",
+      "name": "Heat transfer: conduction, convection and radiation"
+    },
+    {
+      "id": "ph-introductory-heat-thermodynamics-6",
+      "name": "The ideal gas law"
+    },
+    {
+      "id": "ph-introductory-heat-thermodynamics-7",
+      "name": "Kinetic theory: the molecular picture of pressure and temperature"
+    },
+    {
+      "id": "ph-introductory-heat-thermodynamics-8",
+      "name": "The first law of thermodynamics"
+    },
+    {
+      "id": "ph-introductory-heat-thermodynamics-9",
+      "name": "Thermodynamic processes and PV diagrams"
+    },
+    {
+      "id": "ph-introductory-heat-thermodynamics-10",
+      "name": "Heat engines, refrigerators and heat pumps"
+    },
+    {
+      "id": "ph-introductory-heat-thermodynamics-11",
+      "name": "The second law and entropy (introductory)"
+    }
+  ]
+}

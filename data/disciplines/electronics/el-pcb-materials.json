@@ -1,0 +1,38 @@
+{
+  "id": "el-pcb-materials",
+  "name": "PCB Materials",
+  "category": "PCB Design & Hardware Development",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Choosing substrates: FR-4, high-frequency laminates, flex and rigid-flex, metal-core and ceramic boards.",
+  "prerequisites": [
+    "el-pcb-layout"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-pcb-materials-1",
+      "name": "FR-4 substrates"
+    },
+    {
+      "id": "el-pcb-materials-2",
+      "name": "High-frequency materials (Rogers, Taconic)"
+    },
+    {
+      "id": "el-pcb-materials-3",
+      "name": "Flexible PCBs (polyimide, polyester)"
+    },
+    {
+      "id": "el-pcb-materials-4",
+      "name": "Rigid-flex PCBs"
+    },
+    {
+      "id": "el-pcb-materials-5",
+      "name": "Metal-core PCBs (MCPCB) for thermal management"
+    },
+    {
+      "id": "el-pcb-materials-6",
+      "name": "Ceramic substrates"
+    }
+  ]
+}

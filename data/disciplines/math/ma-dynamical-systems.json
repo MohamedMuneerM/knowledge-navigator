@@ -1,0 +1,76 @@
+{
+  "id": "ma-dynamical-systems",
+  "name": "Dynamical Systems",
+  "category": "Differential Equations & Dynamical Systems",
+  "level": 3,
+  "priority": "important",
+  "summary": "Long-term behaviour of evolving systems: phase portraits, stability, bifurcations, chaos and attractors.",
+  "prerequisites": [
+    "ma-ordinary-differential-equations-odes",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ph-chaos-theory-nonlinear-dynamics",
+    "me-system-dynamics"
+  ],
+  "topics": [
+    {
+      "id": "ma-dynamical-systems-7",
+      "name": "One-dimensional flows and fixed points"
+    },
+    {
+      "id": "ma-dynamical-systems-1",
+      "name": "Continuous dynamical systems"
+    },
+    {
+      "id": "ma-dynamical-systems-8",
+      "name": "Phase plane analysis and linearisation"
+    },
+    {
+      "id": "ma-dynamical-systems-3",
+      "name": "Stability theory",
+      "sub": [
+        {
+          "id": "ma-dynamical-systems-3-1",
+          "name": "Lyapunov functions"
+        },
+        {
+          "id": "ma-dynamical-systems-3-2",
+          "name": "Hartman-Grobman theorem"
+        }
+      ]
+    },
+    {
+      "id": "ma-dynamical-systems-9",
+      "name": "Limit cycles and Poincare-Bendixson"
+    },
+    {
+      "id": "ma-dynamical-systems-4",
+      "name": "Bifurcation theory"
+    },
+    {
+      "id": "ma-dynamical-systems-2",
+      "name": "Discrete dynamical systems"
+    },
+    {
+      "id": "ma-dynamical-systems-10",
+      "name": "The logistic map and period doubling"
+    },
+    {
+      "id": "ma-dynamical-systems-5",
+      "name": "Chaos theory"
+    },
+    {
+      "id": "ma-dynamical-systems-11",
+      "name": "Lorenz system and Lyapunov exponents"
+    },
+    {
+      "id": "ma-dynamical-systems-6",
+      "name": "Attractors"
+    },
+    {
+      "id": "ma-dynamical-systems-12",
+      "name": "Hamiltonian systems (introduction)"
+    }
+  ]
+}

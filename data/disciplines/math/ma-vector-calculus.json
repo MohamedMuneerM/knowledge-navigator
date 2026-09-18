@@ -1,0 +1,62 @@
+{
+  "id": "ma-vector-calculus",
+  "name": "Vector Calculus",
+  "category": "Calculus",
+  "level": 2,
+  "priority": "core",
+  "summary": "Vector fields, line and surface integrals, divergence and curl, and the theorems of Green, Stokes and Gauss that underpin physics and engineering.",
+  "prerequisites": [
+    "ma-multivariable-calculus"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-calculus-4",
+      "name": "Vector fields (vector calculus): conservative fields and potential functions"
+    },
+    {
+      "id": "ma-vector-calculus-1",
+      "name": "Line integrals of scalar functions and vector fields; work"
+    },
+    {
+      "id": "ma-vector-calculus-2",
+      "name": "Fundamental theorem for line integrals and path independence"
+    },
+    {
+      "id": "ma-vector-calculus-3",
+      "name": "Green's theorem in the plane"
+    },
+    {
+      "id": "ma-vector-calculus-4",
+      "name": "Parametric surfaces and surface area"
+    },
+    {
+      "id": "ma-vector-calculus-5",
+      "name": "Surface integrals and flux"
+    },
+    {
+      "id": "ma-vector-calculus-6",
+      "name": "Divergence and curl: meaning and identities"
+    },
+    {
+      "id": "ma-vector-calculus-7",
+      "name": "Stokes' theorem"
+    },
+    {
+      "id": "ma-vector-calculus-8",
+      "name": "Divergence (Gauss's) theorem"
+    },
+    {
+      "id": "ma-vector-calculus-9",
+      "name": "Curvilinear coordinates: grad, div, curl and Laplacian in cylindrical and spherical coordinates"
+    },
+    {
+      "id": "ma-vector-calculus-10",
+      "name": "Applications to fluid flow, electromagnetism and conservation laws"
+    },
+    {
+      "id": "ma-vector-calculus-11",
+      "name": "Preview of differential forms and the generalised Stokes theorem"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "cs-cloud-computing",
+  "name": "Cloud Computing",
+  "category": "Cloud Computing & DevOps",
+  "level": 3,
+  "priority": "important",
+  "summary": "Building and running systems on public clouds: service models, compute, storage, networking, identity, serverless, cloud-native design and cost.",
+  "prerequisites": [
+    "cs-linux-system-administration",
+    "cs-computer-networks"
+  ],
+  "related": [
+    "el-cloud-computing-for-iot",
+    "el-iot-cloud-platforms",
+    "ai-cloud-ml-platforms"
+  ],
+  "topics": [
+    {
+      "id": "cs-cloud-computing-1",
+      "name": "Cloud concepts: elasticity, service models (IaaS, PaaS, SaaS) and deployment models"
+    },
+    {
+      "id": "cs-cloud-computing-2",
+      "name": "Cloud providers, regions and availability zones"
+    },
+    {
+      "id": "cs-cloud-computing-3",
+      "name": "Compute services: virtual machines and autoscaling"
+    },
+    {
+      "id": "cs-cloud-computing-4",
+      "name": "Cloud storage: object, block and file"
+    },
+    {
+      "id": "cs-cloud-computing-5",
+      "name": "Managed databases"
+    },
+    {
+      "id": "cs-cloud-computing-6",
+      "name": "Cloud networking: VPCs, load balancers and DNS"
+    },
+    {
+      "id": "cs-cloud-computing-7",
+      "name": "Identity and access management"
+    },
+    {
+      "id": "cs-cloud-computing-8",
+      "name": "Serverless computing and functions as a service"
+    },
+    {
+      "id": "cs-cloud-computing-9",
+      "name": "Managed containers and Kubernetes"
+    },
+    {
+      "id": "cs-cloud-computing-10",
+      "name": "Cloud-native design and the twelve-factor app"
+    },
+    {
+      "id": "cs-cloud-computing-11",
+      "name": "Cost management and FinOps"
+    },
+    {
+      "id": "cs-cloud-computing-12",
+      "name": "Cloud security and the shared-responsibility model"
+    },
+    {
+      "id": "cs-cloud-computing-13",
+      "name": "Multi-cloud, hybrid cloud and edge"
+    }
+  ]
+}

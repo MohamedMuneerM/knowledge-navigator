@@ -1,0 +1,73 @@
+{
+  "id": "ch-combustion-chemistry",
+  "name": "Combustion Chemistry",
+  "category": "Combustion, Propellants & Energetic Materials",
+  "level": 4,
+  "priority": "important",
+  "summary": "The thermochemistry and chain-reaction kinetics of burning, from flame structure and ignition to pollutants and rocket chambers.",
+  "prerequisites": [
+    "ch-chemical-kinetics"
+  ],
+  "related": [
+    "ae-combustion-fundamentals",
+    "me-combustion-engineering"
+  ],
+  "topics": [
+    {
+      "id": "ch-combustion-chemistry-1",
+      "name": "Combustion stoichiometry: equivalence ratio and air-fuel ratio"
+    },
+    {
+      "id": "ch-combustion-chemistry-2",
+      "name": "Thermochemistry of combustion and adiabatic flame temperature"
+    },
+    {
+      "id": "ch-combustion-chemistry-3",
+      "name": "High-temperature chemical equilibrium and dissociation"
+    },
+    {
+      "id": "ch-combustion-chemistry-4",
+      "name": "Chain-branching kinetics and the H2-O2 explosion limits"
+    },
+    {
+      "id": "ch-combustion-chemistry-5",
+      "name": "Hydrocarbon oxidation mechanisms: low- and high-temperature chemistry"
+    },
+    {
+      "id": "ch-combustion-chemistry-6",
+      "name": "Ignition: autoignition, ignition delay and cool flames"
+    },
+    {
+      "id": "ch-combustion-chemistry-7",
+      "name": "Laminar premixed flames: flame speed and structure"
+    },
+    {
+      "id": "ch-combustion-chemistry-8",
+      "name": "Diffusion (non-premixed) flames"
+    },
+    {
+      "id": "ch-combustion-chemistry-9",
+      "name": "Deflagration vs detonation (introductory)"
+    },
+    {
+      "id": "ch-combustion-chemistry-10",
+      "name": "Pollutant formation: NOx, CO, soot and particulates"
+    },
+    {
+      "id": "ch-combustion-chemistry-11",
+      "name": "Detailed and reduced kinetic mechanisms; sensitivity analysis"
+    },
+    {
+      "id": "ch-combustion-chemistry-12",
+      "name": "Computational tools (Cantera, Chemkin)"
+    },
+    {
+      "id": "ch-combustion-chemistry-13",
+      "name": "Combustion diagnostics: laser-induced fluorescence and absorption spectroscopy"
+    },
+    {
+      "id": "ch-combustion-chemistry-14",
+      "name": "Combustion in engines, gas turbines and rocket chambers"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "ma-fast-algorithms",
+  "name": "Fast Algorithms",
+  "category": "Numerical Analysis & Scientific Computing",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Algorithms that beat naive complexity: the fast Fourier transform, fast multipole and hierarchical matrix methods.",
+  "prerequisites": [
+    "ma-numerical-linear-algebra",
+    "ma-integral-transforms"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-fast-algorithms-1",
+      "name": "Fast Fourier Transform (FFT)"
+    },
+    {
+      "id": "ma-fast-algorithms-3",
+      "name": "Fast convolution and polynomial multiplication"
+    },
+    {
+      "id": "ma-fast-algorithms-2",
+      "name": "Fast multipole method"
+    },
+    {
+      "id": "ma-fast-algorithms-4",
+      "name": "Hierarchical matrices"
+    },
+    {
+      "id": "ma-fast-algorithms-5",
+      "name": "Randomised numerical linear algebra"
+    }
+  ]
+}

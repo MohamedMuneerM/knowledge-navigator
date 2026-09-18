@@ -1,0 +1,43 @@
+{
+  "id": "ma-approximation-theory",
+  "name": "Approximation Theory",
+  "category": "Analysis",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "How well functions can be approximated by polynomials, rational functions and splines, and how fast the error shrinks.",
+  "prerequisites": [
+    "ma-real-analysis",
+    "ma-interpolation-approximation"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-approximation-theory-4",
+      "name": "Weierstrass approximation theorem"
+    },
+    {
+      "id": "ma-approximation-theory-1",
+      "name": "Polynomial approximation"
+    },
+    {
+      "id": "ma-approximation-theory-5",
+      "name": "Best approximation and Chebyshev alternation"
+    },
+    {
+      "id": "ma-approximation-theory-6",
+      "name": "Chebyshev polynomials and expansions"
+    },
+    {
+      "id": "ma-approximation-theory-2",
+      "name": "Rational approximation"
+    },
+    {
+      "id": "ma-approximation-theory-3",
+      "name": "Spline approximation"
+    },
+    {
+      "id": "ma-approximation-theory-7",
+      "name": "Trigonometric approximation and Jackson theorems"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "mt-glasses",
+  "name": "Glasses & Amorphous Materials",
+  "category": "Ceramics & Glasses",
+  "level": 3,
+  "priority": "important",
+  "summary": "Explains the structure of non-crystalline solids, the glass transition and the processing and strengthening of oxide and metallic glasses.",
+  "prerequisites": [
+    "mt-ceramics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "mt-glasses-1",
+      "name": "The glass transition: kinetics, fictive temperature and the Kauzmann paradox"
+    },
+    {
+      "id": "mt-glasses-2",
+      "name": "Glass-forming ability and Zachariasen's rules"
+    },
+    {
+      "id": "mt-glasses-3",
+      "name": "Structure of silicate glasses: network formers, modifiers and intermediates"
+    },
+    {
+      "id": "mt-glasses-4",
+      "name": "Describing amorphous structure: radial distribution functions"
+    },
+    {
+      "id": "mt-glasses-5",
+      "name": "Viscosity-temperature behaviour: fragility and the VFT equation; working points"
+    },
+    {
+      "id": "mt-glasses-6",
+      "name": "Commercial glasses: soda-lime, borosilicate, aluminosilicate, fused silica"
+    },
+    {
+      "id": "mt-glasses-7",
+      "name": "Glass forming: float, drawn, blown and pressed glass; fibre drawing"
+    },
+    {
+      "id": "mt-glasses-8",
+      "name": "Strengthening glass: thermal tempering and chemical ion exchange (Gorilla Glass)"
+    },
+    {
+      "id": "mt-glasses-9",
+      "name": "Glass-ceramics: controlled nucleation and crystallisation (Zerodur, cooktops)"
+    },
+    {
+      "id": "mt-glasses-10",
+      "name": "Chalcogenide and fluoride glasses for infrared optics"
+    },
+    {
+      "id": "mt-glasses-11",
+      "name": "Metallic glasses and bulk metallic glasses"
+    },
+    {
+      "id": "mt-glasses-12",
+      "name": "Amorphous semiconductors and oxide thin films"
+    }
+  ]
+}

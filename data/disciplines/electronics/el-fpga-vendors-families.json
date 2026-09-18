@@ -1,0 +1,34 @@
+{
+  "id": "el-fpga-vendors-families",
+  "name": "FPGA Vendors & Families",
+  "category": "FPGA, ASIC & VLSI Design",
+  "level": 3,
+  "priority": "optional",
+  "summary": "The FPGA market: AMD/Xilinx, Intel/Altera, Lattice, Microchip and newer vendors, and which families suit which jobs.",
+  "prerequisites": [
+    "el-fpga-architectures"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-fpga-vendors-families-1",
+      "name": "Xilinx (AMD): Spartan, Artix, Kintex, Virtex, Zynq"
+    },
+    {
+      "id": "el-fpga-vendors-families-2",
+      "name": "Intel (Altera): Cyclone, Arria, Stratix"
+    },
+    {
+      "id": "el-fpga-vendors-families-3",
+      "name": "Lattice Semiconductor: iCE40, ECP5, CrossLink"
+    },
+    {
+      "id": "el-fpga-vendors-families-4",
+      "name": "Microchip (Microsemi): PolarFire, IGLOO"
+    },
+    {
+      "id": "el-fpga-vendors-families-5",
+      "name": "Gowin, Efinix (emerging vendors)"
+    }
+  ]
+}

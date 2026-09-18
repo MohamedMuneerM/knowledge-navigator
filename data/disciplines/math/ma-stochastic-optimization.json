@@ -1,0 +1,39 @@
+{
+  "id": "ma-stochastic-optimization",
+  "name": "Stochastic Optimization",
+  "category": "Optimization & Control Theory",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Optimisation under uncertainty: stochastic gradient methods, stochastic programming, robust and chance-constrained optimisation.",
+  "prerequisites": [
+    "ma-convex-optimization",
+    "ma-probability-theory"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-stochastic-optimization-1",
+      "name": "Stochastic gradient descent"
+    },
+    {
+      "id": "ma-stochastic-optimization-4",
+      "name": "Stochastic approximation (Robbins-Monro)"
+    },
+    {
+      "id": "ma-stochastic-optimization-5",
+      "name": "Two-stage stochastic programming"
+    },
+    {
+      "id": "ma-stochastic-optimization-2",
+      "name": "Robust optimization"
+    },
+    {
+      "id": "ma-stochastic-optimization-3",
+      "name": "Chance constraints"
+    },
+    {
+      "id": "ma-stochastic-optimization-6",
+      "name": "Bandit and online optimisation"
+    }
+  ]
+}

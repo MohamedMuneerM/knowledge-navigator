@@ -1,0 +1,67 @@
+{
+  "id": "me-robot-mechanics",
+  "name": "Robot Mechanics: Kinematics & Dynamics",
+  "category": "Mechatronics & Robotics",
+  "level": 3,
+  "priority": "important",
+  "summary": "The mechanics of robot arms, parallel robots and legged machines: rigid-body motion, forward and inverse kinematics, Jacobians, statics and dynamics.",
+  "prerequisites": [
+    "me-dynamics",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ai-kinematics-dynamics",
+    "el-kinematics-dynamics",
+    "ai-manipulation"
+  ],
+  "topics": [
+    {
+      "id": "me-robot-mechanics-1",
+      "name": "Configuration space, degrees of freedom and workspace"
+    },
+    {
+      "id": "me-robot-mechanics-2",
+      "name": "Rigid-body motions: homogeneous transforms, SE(3), twists and screw theory"
+    },
+    {
+      "id": "me-robot-mechanics-3",
+      "name": "Forward kinematics: Denavit-Hartenberg and product of exponentials"
+    },
+    {
+      "id": "me-robot-mechanics-4",
+      "name": "Velocity kinematics: the Jacobian, singularities and manipulability"
+    },
+    {
+      "id": "me-robot-mechanics-5",
+      "name": "Inverse kinematics: analytical and numerical methods"
+    },
+    {
+      "id": "me-robot-mechanics-6",
+      "name": "Statics of open chains: wrenches and force transmission"
+    },
+    {
+      "id": "me-robot-mechanics-7",
+      "name": "Manipulator dynamics: Newton-Euler and Lagrangian formulations"
+    },
+    {
+      "id": "me-robot-mechanics-8",
+      "name": "Trajectory generation: point-to-point motion, time scaling and via points"
+    },
+    {
+      "id": "me-robot-mechanics-9",
+      "name": "Closed-chain and parallel mechanisms (Stewart platform, delta robot)"
+    },
+    {
+      "id": "me-robot-mechanics-10",
+      "name": "Robot control basics: joint-space, computed-torque, force and impedance control"
+    },
+    {
+      "id": "me-robot-mechanics-11",
+      "name": "Grasping and contact mechanics"
+    },
+    {
+      "id": "me-robot-mechanics-12",
+      "name": "Kinematics of wheeled mobile robots and legged locomotion"
+    }
+  ]
+}

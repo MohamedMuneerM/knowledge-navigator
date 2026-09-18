@@ -1,0 +1,44 @@
+{
+  "id": "ma-linear-programming",
+  "name": "Linear Programming",
+  "category": "Optimization & Control Theory",
+  "level": 3,
+  "priority": "important",
+  "summary": "Optimising a linear objective under linear constraints: geometry of polyhedra, the simplex method, duality and sensitivity.",
+  "prerequisites": [
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ma-mathematical-programming"
+  ],
+  "topics": [
+    {
+      "id": "ma-linear-programming-4",
+      "name": "Formulating linear programs"
+    },
+    {
+      "id": "ma-linear-programming-5",
+      "name": "Geometry of polyhedra and basic feasible solutions"
+    },
+    {
+      "id": "ma-linear-programming-1",
+      "name": "Simplex method"
+    },
+    {
+      "id": "ma-linear-programming-2",
+      "name": "Duality theory"
+    },
+    {
+      "id": "ma-linear-programming-6",
+      "name": "Sensitivity analysis"
+    },
+    {
+      "id": "ma-linear-programming-7",
+      "name": "Network flow problems as LPs"
+    },
+    {
+      "id": "ma-linear-programming-3",
+      "name": "Interior point methods"
+    }
+  ]
+}

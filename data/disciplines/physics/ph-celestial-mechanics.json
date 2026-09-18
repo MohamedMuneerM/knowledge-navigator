@@ -1,0 +1,64 @@
+{
+  "id": "ph-celestial-mechanics",
+  "name": "Celestial Mechanics & Solar System Dynamics",
+  "category": "Planetary Science & Exoplanets",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "The gravitational dynamics of planets, moons, asteroids and rings, from Kepler orbits to resonances and chaos.",
+  "prerequisites": [
+    "ph-classical-mechanics",
+    "ph-introductory-astronomy"
+  ],
+  "related": [
+    "ma-mathematical-aspects-of-astronomy",
+    "ae-orbital-mechanics",
+    "ae-orbital-perturbations",
+    "ae-three-body-problem"
+  ],
+  "topics": [
+    {
+      "id": "ph-celestial-mechanics-1",
+      "name": "The two-body problem and Kepler orbits"
+    },
+    {
+      "id": "ph-celestial-mechanics-2",
+      "name": "Orbital elements and orbit determination"
+    },
+    {
+      "id": "ph-celestial-mechanics-3",
+      "name": "The restricted three-body problem and Lagrange points"
+    },
+    {
+      "id": "ph-celestial-mechanics-4",
+      "name": "Hill spheres and orbital stability"
+    },
+    {
+      "id": "ph-celestial-mechanics-5",
+      "name": "Perturbation theory and secular dynamics"
+    },
+    {
+      "id": "ph-celestial-mechanics-6",
+      "name": "Orbital resonances: Kirkwood gaps and the Laplace resonance"
+    },
+    {
+      "id": "ph-celestial-mechanics-7",
+      "name": "Tides, tidal locking and spin-orbit coupling"
+    },
+    {
+      "id": "ph-celestial-mechanics-8",
+      "name": "Planetary rings and shepherd moons"
+    },
+    {
+      "id": "ph-celestial-mechanics-9",
+      "name": "N-body integration methods"
+    },
+    {
+      "id": "ph-celestial-mechanics-10",
+      "name": "Chaos and the long-term stability of the Solar System"
+    },
+    {
+      "id": "ph-celestial-mechanics-11",
+      "name": "Relativistic corrections: perihelion precession"
+    }
+  ]
+}

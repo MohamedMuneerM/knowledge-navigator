@@ -1,0 +1,86 @@
+{
+  "id": "ch-propellant-chemistry",
+  "name": "Rocket Propellant Chemistry",
+  "category": "Combustion, Propellants & Energetic Materials",
+  "level": 4,
+  "priority": "important",
+  "summary": "The thermochemistry, properties and handling of liquid, solid, hybrid and electric-propulsion propellants, treated conceptually.",
+  "prerequisites": [
+    "ch-combustion-chemistry"
+  ],
+  "related": [
+    "ae-rocket-propellants-performance"
+  ],
+  "topics": [
+    {
+      "id": "ch-propellant-chemistry-1",
+      "name": "Propulsion thermochemistry: specific impulse, characteristic velocity, chamber temperature and exhaust molecular weight"
+    },
+    {
+      "id": "ch-propellant-chemistry-2",
+      "name": "Equilibrium vs frozen-flow exhaust composition (NASA CEA-style calculations)"
+    },
+    {
+      "id": "ch-propellant-chemistry-3",
+      "name": "Liquid bipropellant combinations",
+      "sub": [
+        {
+          "id": "ch-propellant-chemistry-3-1",
+          "name": "LOX/RP-1 (kerosene)"
+        },
+        {
+          "id": "ch-propellant-chemistry-3-2",
+          "name": "LOX/LH2"
+        },
+        {
+          "id": "ch-propellant-chemistry-3-3",
+          "name": "LOX/methane"
+        },
+        {
+          "id": "ch-propellant-chemistry-3-4",
+          "name": "Storable hypergolic pairs: hydrazines with nitrogen tetroxide"
+        }
+      ]
+    },
+    {
+      "id": "ch-propellant-chemistry-4",
+      "name": "Monopropellants and catalytic decomposition (hydrazine, hydrogen peroxide)"
+    },
+    {
+      "id": "ch-propellant-chemistry-5",
+      "name": "Green propellants: HAN- and ADN-based monopropellants"
+    },
+    {
+      "id": "ch-propellant-chemistry-6",
+      "name": "Solid composite propellants: oxidizer, polymeric binder and metal fuel (conceptual composition and ballistics)"
+    },
+    {
+      "id": "ch-propellant-chemistry-7",
+      "name": "Burn-rate laws and propellant ballistics"
+    },
+    {
+      "id": "ch-propellant-chemistry-8",
+      "name": "Hybrid rocket propellants"
+    },
+    {
+      "id": "ch-propellant-chemistry-9",
+      "name": "Cryogenic propellants: properties, storage and boil-off"
+    },
+    {
+      "id": "ch-propellant-chemistry-10",
+      "name": "Materials compatibility, toxicity and safe handling of propellants"
+    },
+    {
+      "id": "ch-propellant-chemistry-11",
+      "name": "Propellants for electric propulsion (xenon, krypton, iodine)"
+    },
+    {
+      "id": "ch-propellant-chemistry-12",
+      "name": "Combustion instability and chamber chemistry"
+    },
+    {
+      "id": "ch-propellant-chemistry-13",
+      "name": "Environmental impact of rocket exhaust"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "el-laboratory-diagnostic-devices",
+  "name": "Laboratory & Diagnostic Devices",
+  "category": "Medical, Industrial & Other Application Domains",
+  "level": 3,
+  "priority": "optional",
+  "summary": "Electronic lab and point-of-care devices: blood analyzers, glucose meters, spectrophotometers, PCR and immunoassay instruments.",
+  "prerequisites": [
+    "el-biosensors-medical-sensors"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-laboratory-diagnostic-devices-1",
+      "name": "Blood analyzers"
+    },
+    {
+      "id": "el-laboratory-diagnostic-devices-2",
+      "name": "Glucose meters"
+    },
+    {
+      "id": "el-laboratory-diagnostic-devices-3",
+      "name": "Point-of-care testing (POCT)"
+    },
+    {
+      "id": "el-laboratory-diagnostic-devices-4",
+      "name": "Spectrophotometers"
+    },
+    {
+      "id": "el-laboratory-diagnostic-devices-5",
+      "name": "Centrifuges"
+    },
+    {
+      "id": "el-laboratory-diagnostic-devices-6",
+      "name": "PCR and genetic testing equipment"
+    },
+    {
+      "id": "el-laboratory-diagnostic-devices-7",
+      "name": "Immunoassay analyzers"
+    }
+  ]
+}

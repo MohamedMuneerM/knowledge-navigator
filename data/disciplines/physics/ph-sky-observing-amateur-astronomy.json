@@ -1,0 +1,64 @@
+{
+  "id": "ph-sky-observing-amateur-astronomy",
+  "name": "Sky Observing & Amateur Astronomy",
+  "category": "Astronomy Foundations",
+  "level": 1,
+  "priority": "optional",
+  "summary": "Practical observing with eyes, binoculars and telescopes, from finding constellations to astrophotography and citizen science.",
+  "prerequisites": [
+    "ph-introductory-astronomy"
+  ],
+  "related": [
+    "ph-observational-astronomy-telescopes"
+  ],
+  "topics": [
+    {
+      "id": "ph-sky-observing-amateur-astronomy-1",
+      "name": "Naked-eye observing: dark adaptation, constellations and bright stars"
+    },
+    {
+      "id": "ph-sky-observing-amateur-astronomy-2",
+      "name": "Star charts, planispheres and planetarium software"
+    },
+    {
+      "id": "ph-sky-observing-amateur-astronomy-3",
+      "name": "Observing the Moon and planets"
+    },
+    {
+      "id": "ph-sky-observing-amateur-astronomy-4",
+      "name": "Meteor showers, comets, satellites and the ISS"
+    },
+    {
+      "id": "ph-sky-observing-amateur-astronomy-5",
+      "name": "Binocular astronomy"
+    },
+    {
+      "id": "ph-sky-observing-amateur-astronomy-6",
+      "name": "Choosing a telescope: refractors, reflectors and catadioptrics"
+    },
+    {
+      "id": "ph-sky-observing-amateur-astronomy-7",
+      "name": "Mounts, alignment, eyepieces and magnification"
+    },
+    {
+      "id": "ph-sky-observing-amateur-astronomy-8",
+      "name": "Deep-sky observing: Messier and NGC objects"
+    },
+    {
+      "id": "ph-sky-observing-amateur-astronomy-9",
+      "name": "Observing the Sun safely: filters and H-alpha"
+    },
+    {
+      "id": "ph-sky-observing-amateur-astronomy-10",
+      "name": "Astrophotography basics: cameras, tracking and image stacking"
+    },
+    {
+      "id": "ph-sky-observing-amateur-astronomy-11",
+      "name": "Light pollution, the Bortle scale and dark-sky sites"
+    },
+    {
+      "id": "ph-sky-observing-amateur-astronomy-12",
+      "name": "Variable stars, occultations and citizen-science projects"
+    }
+  ]
+}

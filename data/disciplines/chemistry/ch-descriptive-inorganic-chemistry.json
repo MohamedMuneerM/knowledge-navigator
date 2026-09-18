@@ -1,0 +1,71 @@
+{
+  "id": "ch-descriptive-inorganic-chemistry",
+  "name": "Descriptive Inorganic Chemistry of the Elements",
+  "category": "Inorganic Chemistry",
+  "level": 2,
+  "priority": "core",
+  "summary": "A tour of the elements group by group, organised by periodic trends, redox and acid-base behaviour.",
+  "prerequisites": [
+    "ch-acids-bases-aqueous-equilibria",
+    "ch-redox-electrochemistry-basics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-descriptive-inorganic-chemistry-1",
+      "name": "Hydrogen and its compounds; hydrides"
+    },
+    {
+      "id": "ch-descriptive-inorganic-chemistry-2",
+      "name": "Groups 1 and 2: alkali and alkaline-earth metals"
+    },
+    {
+      "id": "ch-descriptive-inorganic-chemistry-3",
+      "name": "Group 13: boron, aluminium and their compounds"
+    },
+    {
+      "id": "ch-descriptive-inorganic-chemistry-4",
+      "name": "Group 14: carbon, silicon, germanium, tin and lead"
+    },
+    {
+      "id": "ch-descriptive-inorganic-chemistry-5",
+      "name": "Group 15: nitrogen and phosphorus chemistry"
+    },
+    {
+      "id": "ch-descriptive-inorganic-chemistry-6",
+      "name": "Group 16: oxygen, sulfur and the chalcogens"
+    },
+    {
+      "id": "ch-descriptive-inorganic-chemistry-7",
+      "name": "Group 17: halogens and interhalogens"
+    },
+    {
+      "id": "ch-descriptive-inorganic-chemistry-8",
+      "name": "Group 18: noble gases and xenon compounds"
+    },
+    {
+      "id": "ch-descriptive-inorganic-chemistry-9",
+      "name": "d-block overview: general trends of the transition metals"
+    },
+    {
+      "id": "ch-descriptive-inorganic-chemistry-10",
+      "name": "f-block overview: lanthanides and actinides"
+    },
+    {
+      "id": "ch-descriptive-inorganic-chemistry-11",
+      "name": "Latimer, Frost and Pourbaix diagrams"
+    },
+    {
+      "id": "ch-descriptive-inorganic-chemistry-12",
+      "name": "Hard-soft acid-base (HSAB) theory and non-aqueous solvents"
+    },
+    {
+      "id": "ch-descriptive-inorganic-chemistry-13",
+      "name": "Inert-pair effect, relativistic effects and diagonal relationships"
+    },
+    {
+      "id": "ch-descriptive-inorganic-chemistry-14",
+      "name": "Industrial inorganic chemicals (ammonia, sulfuric acid, chlor-alkali)"
+    }
+  ]
+}

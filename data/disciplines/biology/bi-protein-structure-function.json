@@ -1,0 +1,67 @@
+{
+  "id": "bi-protein-structure-function",
+  "name": "Protein Structure & Function",
+  "category": "Biochemistry & Structural Biology",
+  "level": 3,
+  "priority": "important",
+  "summary": "How a chain of amino acids folds into a working machine, and how protein structure explains binding, catalysis and regulation.",
+  "prerequisites": [
+    "bi-biochemistry"
+  ],
+  "related": [
+    "ph-biophysics",
+    "ch-biochemistry-structure-function",
+    "ch-enzymology",
+    "ch-biophysical-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "bi-protein-structure-function-1",
+      "name": "Secondary structure, supersecondary motifs and protein folds"
+    },
+    {
+      "id": "bi-protein-structure-function-2",
+      "name": "Domains, modularity and protein families"
+    },
+    {
+      "id": "bi-protein-structure-function-3",
+      "name": "Protein folding thermodynamics, kinetics and energy landscapes"
+    },
+    {
+      "id": "bi-protein-structure-function-4",
+      "name": "Chaperones, proteostasis and the ubiquitin-proteasome system"
+    },
+    {
+      "id": "bi-protein-structure-function-5",
+      "name": "Misfolding, aggregation, amyloid and prion diseases"
+    },
+    {
+      "id": "bi-protein-structure-function-6",
+      "name": "Protein-ligand binding: affinity, specificity and binding assays"
+    },
+    {
+      "id": "bi-protein-structure-function-7",
+      "name": "Enzyme reaction mechanisms at the atomic level"
+    },
+    {
+      "id": "bi-protein-structure-function-8",
+      "name": "Allostery and conformational change"
+    },
+    {
+      "id": "bi-protein-structure-function-9",
+      "name": "Molecular machines and motors"
+    },
+    {
+      "id": "bi-protein-structure-function-10",
+      "name": "Intrinsically disordered proteins and biomolecular condensates"
+    },
+    {
+      "id": "bi-protein-structure-function-11",
+      "name": "Membrane protein structure"
+    },
+    {
+      "id": "bi-protein-structure-function-12",
+      "name": "Protein engineering, directed evolution and de novo design"
+    }
+  ]
+}

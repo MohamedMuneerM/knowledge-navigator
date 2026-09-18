@@ -1,0 +1,76 @@
+{
+  "id": "ai-text-preprocessing",
+  "name": "Text Preprocessing",
+  "category": "Natural Language & Speech Processing",
+  "level": 2,
+  "priority": "important",
+  "summary": "Preparing raw text for NLP: tokenization, normalization, stemming and lemmatization, stop words, regular expressions and cleaning.",
+  "prerequisites": [
+    "ai-programming-tools"
+  ],
+  "related": [
+    "cs-information-retrieval"
+  ],
+  "topics": [
+    {
+      "id": "ai-text-preprocessing-1",
+      "name": "Tokenization",
+      "sub": [
+        {
+          "id": "ai-text-preprocessing-1-1",
+          "name": "Word tokenization"
+        },
+        {
+          "id": "ai-text-preprocessing-1-2",
+          "name": "Subword tokenization"
+        },
+        {
+          "id": "ai-text-preprocessing-1-3",
+          "name": "Character tokenization"
+        }
+      ]
+    },
+    {
+      "id": "ai-text-preprocessing-2",
+      "name": "Text Normalization",
+      "sub": [
+        {
+          "id": "ai-text-preprocessing-2-1",
+          "name": "Lowercasing"
+        },
+        {
+          "id": "ai-text-preprocessing-2-2",
+          "name": "Stemming"
+        },
+        {
+          "id": "ai-text-preprocessing-2-3",
+          "name": "Lemmatization"
+        }
+      ]
+    },
+    {
+      "id": "ai-text-preprocessing-3",
+      "name": "Stop Word Removal"
+    },
+    {
+      "id": "ai-text-preprocessing-4",
+      "name": "Regular Expressions"
+    },
+    {
+      "id": "ai-text-preprocessing-5",
+      "name": "Text Cleaning"
+    },
+    {
+      "id": "ai-text-preprocessing-6",
+      "name": "Unicode, encodings and multilingual text"
+    },
+    {
+      "id": "ai-text-preprocessing-7",
+      "name": "Sentence segmentation"
+    },
+    {
+      "id": "ai-text-preprocessing-8",
+      "name": "NLP pipelines with spaCy and NLTK"
+    }
+  ]
+}

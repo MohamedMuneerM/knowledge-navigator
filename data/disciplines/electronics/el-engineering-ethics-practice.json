@@ -1,0 +1,51 @@
+{
+  "id": "el-engineering-ethics-practice",
+  "name": "Engineering Ethics & Professional Practice",
+  "category": "Professional Practice, Business & Community",
+  "level": 1,
+  "priority": "important",
+  "summary": "The professional side of electrical engineering: licensure, codes of ethics, intellectual property, liability, safety culture and sustainability.",
+  "prerequisites": [],
+  "related": [
+    "cs-computing-ethics",
+    "me-professional-practice-engineering-economics"
+  ],
+  "topics": [
+    {
+      "id": "el-engineering-ethics-practice-1",
+      "name": "The engineering profession and licensure (PE, CEng) and the FE exam"
+    },
+    {
+      "id": "el-engineering-ethics-practice-2",
+      "name": "Codes of ethics (IEEE, NSPE, NCEES Model Law)"
+    },
+    {
+      "id": "el-engineering-ethics-practice-3",
+      "name": "Ethical decision-making and case studies (Therac-25, Boeing 737 MAX)"
+    },
+    {
+      "id": "el-engineering-ethics-practice-4",
+      "name": "Intellectual property: patents, copyright, trade secrets, trademarks"
+    },
+    {
+      "id": "el-engineering-ethics-practice-5",
+      "name": "Open-source licences for hardware and software"
+    },
+    {
+      "id": "el-engineering-ethics-practice-6",
+      "name": "Contracts, liability and product responsibility"
+    },
+    {
+      "id": "el-engineering-ethics-practice-7",
+      "name": "Safety culture and risk communication"
+    },
+    {
+      "id": "el-engineering-ethics-practice-8",
+      "name": "Sustainability and environmental responsibility"
+    },
+    {
+      "id": "el-engineering-ethics-practice-9",
+      "name": "Communicating engineering work: reports, presentations, design reviews"
+    }
+  ]
+}

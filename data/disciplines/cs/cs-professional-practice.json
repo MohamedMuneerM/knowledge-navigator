@@ -1,0 +1,56 @@
+{
+  "id": "cs-professional-practice",
+  "name": "Professional Practice & Technical Communication",
+  "category": "Society, Ethics & Profession",
+  "level": 2,
+  "priority": "important",
+  "summary": "The non-code skills of a computing professional: technical writing and speaking, teamwork, open source, licensing, careers and continuous learning.",
+  "prerequisites": [
+    "cs-version-control-git"
+  ],
+  "related": [
+    "el-documentation"
+  ],
+  "topics": [
+    {
+      "id": "cs-professional-practice-1",
+      "name": "Technical writing: documentation, design docs and READMEs"
+    },
+    {
+      "id": "cs-professional-practice-2",
+      "name": "Presentations and explaining technical work to non-specialists"
+    },
+    {
+      "id": "cs-professional-practice-3",
+      "name": "Working in teams and collaboration tools"
+    },
+    {
+      "id": "cs-professional-practice-4",
+      "name": "Contributing to open source"
+    },
+    {
+      "id": "cs-professional-practice-5",
+      "name": "Software licences and choosing a licence"
+    },
+    {
+      "id": "cs-professional-practice-6",
+      "name": "Careers in computing and professional roles"
+    },
+    {
+      "id": "cs-professional-practice-7",
+      "name": "Technical interviews and building a portfolio"
+    },
+    {
+      "id": "cs-professional-practice-8",
+      "name": "Continuous learning and reading technical literature"
+    },
+    {
+      "id": "cs-professional-practice-9",
+      "name": "Product thinking and entrepreneurship basics"
+    },
+    {
+      "id": "cs-professional-practice-10",
+      "name": "Contracts, liability and professional responsibility"
+    }
+  ]
+}

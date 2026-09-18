@@ -1,0 +1,56 @@
+{
+  "id": "ph-symmetry-group-theory",
+  "name": "Symmetry & Group Theory",
+  "category": "Mathematical & Computational Methods",
+  "level": 3,
+  "priority": "important",
+  "summary": "Group theory and representations as the language of symmetry in quantum mechanics, particles and crystals.",
+  "prerequisites": [
+    "ph-quantum-mechanics",
+    "ma-representation-theory"
+  ],
+  "related": [
+    "ma-symmetries-groups-in-physics",
+    "ma-lie-theory",
+    "ma-representation-theory",
+    "ch-symmetry-group-theory"
+  ],
+  "topics": [
+    {
+      "id": "ph-symmetry-group-theory-7",
+      "name": "Finite groups, point groups and crystallographic symmetry"
+    },
+    {
+      "id": "ph-symmetry-group-theory-1",
+      "name": "Lie groups and Lie algebras"
+    },
+    {
+      "id": "ph-symmetry-group-theory-2",
+      "name": "Representation theory"
+    },
+    {
+      "id": "ph-symmetry-group-theory-3",
+      "name": "Symmetry in quantum mechanics"
+    },
+    {
+      "id": "ph-symmetry-group-theory-8",
+      "name": "SU(2), SU(3) and the quark model"
+    },
+    {
+      "id": "ph-symmetry-group-theory-9",
+      "name": "The Lorentz and Poincare groups"
+    },
+    {
+      "id": "ph-symmetry-group-theory-5",
+      "name": "Discrete symmetries (C, P, T)"
+    },
+    {
+      "id": "ph-symmetry-group-theory-4",
+      "name": "Gauge symmetries"
+    },
+    {
+      "id": "ph-symmetry-group-theory-6",
+      "name": "Spontaneous symmetry breaking"
+    }
+  ]
+}

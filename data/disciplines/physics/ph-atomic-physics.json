@@ -1,0 +1,72 @@
+{
+  "id": "ph-atomic-physics",
+  "name": "Atomic Physics",
+  "category": "Atomic, Molecular & Optical Physics",
+  "level": 3,
+  "priority": "important",
+  "summary": "The structure and spectra of atoms, from hydrogen fine structure to multi-electron atoms in external fields.",
+  "prerequisites": [
+    "ph-quantum-mechanics"
+  ],
+  "related": [
+    "ch-quantum-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "ph-atomic-physics-1",
+      "name": "The hydrogen atom revisited: energy levels and wavefunctions"
+    },
+    {
+      "id": "ph-atomic-physics-2",
+      "name": "Fine structure: spin-orbit coupling and relativistic corrections"
+    },
+    {
+      "id": "ph-atomic-physics-3",
+      "name": "The Lamb shift and QED corrections (overview)"
+    },
+    {
+      "id": "ph-atomic-physics-4",
+      "name": "Hyperfine structure and the 21-cm line"
+    },
+    {
+      "id": "ph-atomic-physics-5",
+      "name": "Atoms in magnetic fields: Zeeman and Paschen-Back effects"
+    },
+    {
+      "id": "ph-atomic-physics-6",
+      "name": "Atoms in electric fields: the Stark effect"
+    },
+    {
+      "id": "ph-atomic-physics-7",
+      "name": "Helium and two-electron atoms"
+    },
+    {
+      "id": "ph-atomic-physics-8",
+      "name": "Multi-electron atoms: central-field approximation and Hartree-Fock"
+    },
+    {
+      "id": "ph-atomic-physics-9",
+      "name": "LS and jj coupling, term symbols and Hund's rules"
+    },
+    {
+      "id": "ph-atomic-physics-10",
+      "name": "Radiative transitions, selection rules and lifetimes"
+    },
+    {
+      "id": "ph-atomic-physics-11",
+      "name": "Alkali spectra and quantum defects"
+    },
+    {
+      "id": "ph-atomic-physics-12",
+      "name": "X-ray spectra and inner-shell processes"
+    },
+    {
+      "id": "ph-atomic-physics-13",
+      "name": "Rydberg atoms"
+    },
+    {
+      "id": "ph-atomic-physics-14",
+      "name": "Exotic atoms: positronium and muonic atoms"
+    }
+  ]
+}

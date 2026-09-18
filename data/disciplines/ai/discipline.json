@@ -1,0 +1,32 @@
+{
+  "id": "ai",
+  "name": "AI, Machine Learning & Robotics",
+  "icon": "🤖",
+  "color": "#a78bfa",
+  "prefix": "ai",
+  "description": "Artificial intelligence from first contact to the research frontier: classical AI (search, logic, planning), probabilistic reasoning, machine learning, deep learning, reinforcement learning, language, speech and vision, LLMs and generative AI, data science and MLOps, plus robotics from kinematics and control to mobile, legged, aerial, humanoid and wearable robots.",
+  "categories": [
+    "Getting Started",
+    "Classical AI: Search, Logic & Planning",
+    "Reasoning Under Uncertainty & Decision Making",
+    "Machine Learning Foundations",
+    "Deep Learning",
+    "Theory of Machine Learning",
+    "Reinforcement Learning",
+    "Natural Language & Speech Processing",
+    "Computer Vision",
+    "Large Language Models & LLM Engineering",
+    "Multimodal AI",
+    "Applied ML Problem Domains",
+    "Data Science",
+    "MLOps & ML Engineering",
+    "AI Systems & Infrastructure",
+    "Robotics Foundations",
+    "Robot Platforms & Locomotion",
+    "Manipulation & Robot Learning",
+    "Human-Centred Robotics & Augmentation",
+    "AI Safety, Ethics & Governance",
+    "Cognitive & Nature-Inspired AI",
+    "Emerging & Frontier Fields"
+  ]
+}

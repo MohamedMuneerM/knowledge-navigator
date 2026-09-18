@@ -1,0 +1,82 @@
+{
+  "id": "me-tolerancing-gdt-metrology",
+  "name": "Tolerancing, GD&T & Dimensional Metrology",
+  "category": "Engineering Graphics, CAD & Tolerancing",
+  "level": 3,
+  "priority": "core",
+  "summary": "Specifying and verifying allowable variation: limits and fits, geometric dimensioning and tolerancing, tolerance stack-ups and inspection.",
+  "prerequisites": [
+    "me-cad-solid-modeling",
+    "me-manufacturing-processes",
+    "ma-descriptive-statistics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "me-tolerancing-gdt-metrology-1",
+      "name": "Why variation matters: interchangeability and cost vs tolerance"
+    },
+    {
+      "id": "me-tolerancing-gdt-metrology-2",
+      "name": "Limits, fits and tolerance grades (ISO 286, ANSI B4.1): clearance, transition, interference"
+    },
+    {
+      "id": "me-tolerancing-gdt-metrology-3",
+      "name": "Surface texture specification (Ra, Rz, lay symbols)"
+    },
+    {
+      "id": "me-tolerancing-gdt-metrology-4",
+      "name": "GD&T fundamentals and ASME Y14.5 rules (Rule #1, feature control frames)"
+    },
+    {
+      "id": "me-tolerancing-gdt-metrology-5",
+      "name": "Datums and datum reference frames"
+    },
+    {
+      "id": "me-tolerancing-gdt-metrology-6",
+      "name": "Form tolerances: flatness, straightness, circularity, cylindricity"
+    },
+    {
+      "id": "me-tolerancing-gdt-metrology-7",
+      "name": "Orientation tolerances: perpendicularity, parallelism, angularity"
+    },
+    {
+      "id": "me-tolerancing-gdt-metrology-8",
+      "name": "Position tolerance, MMC/LMC modifiers and bonus tolerance"
+    },
+    {
+      "id": "me-tolerancing-gdt-metrology-9",
+      "name": "Profile and runout tolerances"
+    },
+    {
+      "id": "me-tolerancing-gdt-metrology-10",
+      "name": "ISO GPS system vs ASME Y14.5"
+    },
+    {
+      "id": "me-tolerancing-gdt-metrology-11",
+      "name": "Tolerance stack-up analysis",
+      "sub": [
+        {
+          "id": "me-tolerancing-gdt-metrology-11-1",
+          "name": "Worst-case"
+        },
+        {
+          "id": "me-tolerancing-gdt-metrology-11-2",
+          "name": "Root-sum-square (RSS)"
+        },
+        {
+          "id": "me-tolerancing-gdt-metrology-11-3",
+          "name": "Monte Carlo simulation"
+        }
+      ]
+    },
+    {
+      "id": "me-tolerancing-gdt-metrology-12",
+      "name": "Dimensional metrology: gauges, CMMs, optical and 3D-scanning inspection"
+    },
+    {
+      "id": "me-tolerancing-gdt-metrology-13",
+      "name": "Functional gauging and inspection planning"
+    }
+  ]
+}

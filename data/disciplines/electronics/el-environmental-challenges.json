@@ -1,0 +1,42 @@
+{
+  "id": "el-environmental-challenges",
+  "name": "Harsh-Environment Electronics",
+  "category": "Automotive, Aerospace & Defense Systems",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Electronics for harsh environments: radiation effects and hardening, extreme temperatures, vibration, shock, altitude and qualification.",
+  "prerequisites": [
+    "el-semiconductor-devices",
+    "el-reliability-fault-tolerance"
+  ],
+  "related": [
+    "ae-space-environment",
+    "mt-space-environment-materials"
+  ],
+  "topics": [
+    {
+      "id": "el-environmental-challenges-1",
+      "name": "Radiation effects (SEU, SEL, TID)"
+    },
+    {
+      "id": "el-environmental-challenges-2",
+      "name": "Extreme temperatures"
+    },
+    {
+      "id": "el-environmental-challenges-3",
+      "name": "Vibration and shock"
+    },
+    {
+      "id": "el-environmental-challenges-4",
+      "name": "Altitude and pressure"
+    },
+    {
+      "id": "el-environmental-challenges-5",
+      "name": "Radiation-hardening techniques"
+    },
+    {
+      "id": "el-environmental-challenges-6",
+      "name": "Derating and qualification"
+    }
+  ]
+}

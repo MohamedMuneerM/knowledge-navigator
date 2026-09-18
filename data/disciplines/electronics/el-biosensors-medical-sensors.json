@@ -1,0 +1,57 @@
+{
+  "id": "el-biosensors-medical-sensors",
+  "name": "Biosensors & Medical Sensors",
+  "category": "Sensors, Transducers & Actuators",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Sensing the body: PPG heart rate, SpO2, ECG, EMG, EEG, blood pressure, glucose, bioimpedance and respiration.",
+  "prerequisites": [
+    "el-sensor-interfacing",
+    "bi-human-physiology"
+  ],
+  "related": [
+    "ch-bioanalytical-chemistry-sensors"
+  ],
+  "topics": [
+    {
+      "id": "el-biosensors-medical-sensors-1",
+      "name": "Heart rate sensors (optical PPG, ECG)"
+    },
+    {
+      "id": "el-biosensors-medical-sensors-2",
+      "name": "SpO2 sensors (pulse oximetry)"
+    },
+    {
+      "id": "el-biosensors-medical-sensors-3",
+      "name": "Blood pressure sensors"
+    },
+    {
+      "id": "el-biosensors-medical-sensors-4",
+      "name": "Glucose sensors (continuous glucose monitoring)"
+    },
+    {
+      "id": "el-biosensors-medical-sensors-5",
+      "name": "EMG sensors (electromyography)"
+    },
+    {
+      "id": "el-biosensors-medical-sensors-6",
+      "name": "EEG sensors (electroencephalography)"
+    },
+    {
+      "id": "el-biosensors-medical-sensors-7",
+      "name": "Body temperature sensors"
+    },
+    {
+      "id": "el-biosensors-medical-sensors-8",
+      "name": "Bioimpedance sensors"
+    },
+    {
+      "id": "el-biosensors-medical-sensors-9",
+      "name": "Respiratory rate sensors"
+    },
+    {
+      "id": "el-biosensors-medical-sensors-10",
+      "name": "Galvanic skin response (GSR) sensors"
+    }
+  ]
+}

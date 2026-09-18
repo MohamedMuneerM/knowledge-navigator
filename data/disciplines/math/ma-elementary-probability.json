@@ -1,0 +1,54 @@
+{
+  "id": "ma-elementary-probability",
+  "name": "Elementary Probability",
+  "category": "Probability & Statistics",
+  "level": 1,
+  "priority": "core",
+  "summary": "Chance without calculus: counting outcomes, conditional probability, Bayes' rule, expected value and the binomial and normal distributions.",
+  "prerequisites": [
+    "ma-elementary-intermediate-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-elementary-probability-1",
+      "name": "Experiments, outcomes, sample spaces and events"
+    },
+    {
+      "id": "ma-elementary-probability-2",
+      "name": "Counting for probability: permutations and combinations"
+    },
+    {
+      "id": "ma-elementary-probability-3",
+      "name": "Probability rules: complements, unions and the addition rule"
+    },
+    {
+      "id": "ma-elementary-probability-4",
+      "name": "Conditional probability and independence"
+    },
+    {
+      "id": "ma-elementary-probability-5",
+      "name": "Tree diagrams and Bayes' rule"
+    },
+    {
+      "id": "ma-elementary-probability-6",
+      "name": "Discrete random variables and expected value"
+    },
+    {
+      "id": "ma-elementary-probability-7",
+      "name": "Binomial and geometric distributions"
+    },
+    {
+      "id": "ma-elementary-probability-8",
+      "name": "The normal distribution and z-scores"
+    },
+    {
+      "id": "ma-elementary-probability-9",
+      "name": "Simulation and the law of large numbers in practice"
+    },
+    {
+      "id": "ma-elementary-probability-10",
+      "name": "Probability in games, risk and everyday decisions"
+    }
+  ]
+}

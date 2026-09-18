@@ -1,0 +1,69 @@
+{
+  "id": "ae-solid-rocket-motors",
+  "name": "Solid Rocket Motors",
+  "category": "Rocket Propulsion",
+  "level": 3,
+  "priority": "important",
+  "summary": "Design and behaviour of solid rocket motors: burning rate, grain geometry, motor case, nozzle, ignition and reliability.",
+  "prerequisites": [
+    "ae-rocket-propellants-performance"
+  ],
+  "related": [
+    "ch-energetic-materials",
+    "ch-propellant-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "ae-solid-rocket-motors-1",
+      "name": "Solid rocket motor components and applications"
+    },
+    {
+      "id": "ae-solid-rocket-motors-2",
+      "name": "Burning rate law (Saint-Robert/Vieille) and pressure exponent"
+    },
+    {
+      "id": "ae-solid-rocket-motors-3",
+      "name": "Temperature sensitivity and erosive burning"
+    },
+    {
+      "id": "ae-solid-rocket-motors-4",
+      "name": "Chamber pressure equilibrium and stability (Kn)"
+    },
+    {
+      "id": "ae-solid-rocket-motors-5",
+      "name": "Grain geometry: end-burner, BATES, star, finocyl, wagon wheel"
+    },
+    {
+      "id": "ae-solid-rocket-motors-6",
+      "name": "Thrust-time curves and progressive/regressive burning"
+    },
+    {
+      "id": "ae-solid-rocket-motors-7",
+      "name": "Internal ballistics simulation"
+    },
+    {
+      "id": "ae-solid-rocket-motors-8",
+      "name": "Motor case design: metal and composite cases"
+    },
+    {
+      "id": "ae-solid-rocket-motors-9",
+      "name": "Insulation, liners and nozzle materials"
+    },
+    {
+      "id": "ae-solid-rocket-motors-10",
+      "name": "Igniters"
+    },
+    {
+      "id": "ae-solid-rocket-motors-11",
+      "name": "Grain structural integrity and aging"
+    },
+    {
+      "id": "ae-solid-rocket-motors-12",
+      "name": "Thrust termination and thrust vector control for solids"
+    },
+    {
+      "id": "ae-solid-rocket-motors-13",
+      "name": "Large boosters: Space Shuttle SRB and SLS boosters; the Challenger O-ring failure"
+    }
+  ]
+}

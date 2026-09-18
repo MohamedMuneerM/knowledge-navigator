@@ -1,0 +1,45 @@
+{
+  "id": "el-firmware-updates-ota",
+  "name": "Firmware Updates & OTA",
+  "category": "Embedded Software, Firmware & RTOS",
+  "level": 3,
+  "priority": "important",
+  "summary": "Updating firmware safely in the field: bootloader design, A/B partitions, delta updates, signing, rollback protection and recovery.",
+  "prerequisites": [
+    "el-firmware-development",
+    "el-boot-startup"
+  ],
+  "related": [
+    "el-over-the-air-ota-update-strategies"
+  ],
+  "topics": [
+    {
+      "id": "el-firmware-updates-ota-1",
+      "name": "Over-the-air (OTA) update mechanisms"
+    },
+    {
+      "id": "el-firmware-updates-ota-2",
+      "name": "Bootloader design for updates"
+    },
+    {
+      "id": "el-firmware-updates-ota-3",
+      "name": "A/B partition schemes"
+    },
+    {
+      "id": "el-firmware-updates-ota-4",
+      "name": "Delta updates and differential patching"
+    },
+    {
+      "id": "el-firmware-updates-ota-5",
+      "name": "Update security (signing, encryption)"
+    },
+    {
+      "id": "el-firmware-updates-ota-6",
+      "name": "Rollback protection"
+    },
+    {
+      "id": "el-firmware-updates-ota-7",
+      "name": "Update failure recovery"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "me-fluid-mechanics",
+  "name": "Engineering Fluid Mechanics",
+  "category": "Thermal-Fluid Sciences",
+  "level": 2,
+  "priority": "core",
+  "summary": "Fluid statics and flow for engineers: control-volume analysis, dimensional analysis, pipe flow, drag and lift, and pumps.",
+  "prerequisites": [
+    "me-dynamics",
+    "me-engineering-thermodynamics",
+    "ma-vector-calculus"
+  ],
+  "related": [
+    "ph-fluid-mechanics",
+    "ma-fluid-mechanics",
+    "ch-transport-phenomena"
+  ],
+  "topics": [
+    {
+      "id": "me-fluid-mechanics-1",
+      "name": "Fluid properties: density, viscosity, surface tension, vapour pressure"
+    },
+    {
+      "id": "me-fluid-mechanics-2",
+      "name": "Fluid statics: pressure, manometry, hydrostatic forces on surfaces, buoyancy and stability"
+    },
+    {
+      "id": "me-fluid-mechanics-3",
+      "name": "Fluid kinematics: Lagrangian and Eulerian descriptions, streamlines"
+    },
+    {
+      "id": "me-fluid-mechanics-4",
+      "name": "Bernoulli equation and its limitations"
+    },
+    {
+      "id": "me-fluid-mechanics-5",
+      "name": "Control-volume analysis: conservation of mass, linear and angular momentum, energy"
+    },
+    {
+      "id": "me-fluid-mechanics-6",
+      "name": "Differential analysis: continuity and Navier-Stokes equations (introduction)"
+    },
+    {
+      "id": "me-fluid-mechanics-7",
+      "name": "Dimensional analysis, Buckingham Pi theorem and similitude"
+    },
+    {
+      "id": "me-fluid-mechanics-8",
+      "name": "Internal flow: laminar and turbulent pipe flow, Moody chart, major and minor losses"
+    },
+    {
+      "id": "me-fluid-mechanics-9",
+      "name": "Piping networks and flow measurement (Venturi, orifice, Pitot tube)"
+    },
+    {
+      "id": "me-fluid-mechanics-10",
+      "name": "External flow: boundary layers, drag and lift"
+    },
+    {
+      "id": "me-fluid-mechanics-11",
+      "name": "Open-channel flow (introduction)"
+    },
+    {
+      "id": "me-fluid-mechanics-12",
+      "name": "Pumps and fans: performance and system curves, affinity laws, NPSH and cavitation"
+    },
+    {
+      "id": "me-fluid-mechanics-13",
+      "name": "Introduction to compressible flow: Mach number and speed of sound"
+    }
+  ]
+}

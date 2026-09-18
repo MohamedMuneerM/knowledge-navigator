@@ -1,0 +1,64 @@
+{
+  "id": "ea-introduction-to-earth-science",
+  "name": "Introduction to Earth Science",
+  "category": "Earth Science Foundations",
+  "level": 1,
+  "priority": "core",
+  "summary": "A first tour of the whole planet as interacting systems of rock, water, air, ice and life, and how Earth scientists study it.",
+  "prerequisites": [],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-introduction-to-earth-science-1",
+      "name": "How Earth scientists work: observation, hypotheses, models and uncertainty"
+    },
+    {
+      "id": "ea-introduction-to-earth-science-2",
+      "name": "Earth's place in the Solar System and how the planet formed"
+    },
+    {
+      "id": "ea-introduction-to-earth-science-3",
+      "name": "Earth systems: geosphere, hydrosphere, atmosphere, cryosphere and biosphere"
+    },
+    {
+      "id": "ea-introduction-to-earth-science-4",
+      "name": "Reservoirs, fluxes, feedbacks and timescales in the Earth system"
+    },
+    {
+      "id": "ea-introduction-to-earth-science-5",
+      "name": "Earth's layered interior: crust, mantle, core; lithosphere and asthenosphere"
+    },
+    {
+      "id": "ea-introduction-to-earth-science-6",
+      "name": "Minerals, rocks and the rock cycle"
+    },
+    {
+      "id": "ea-introduction-to-earth-science-7",
+      "name": "Plate tectonics in outline: plates, boundaries, earthquakes and volcanoes"
+    },
+    {
+      "id": "ea-introduction-to-earth-science-8",
+      "name": "Deep time: relative and absolute dating and the geologic time scale"
+    },
+    {
+      "id": "ea-introduction-to-earth-science-9",
+      "name": "The water cycle, oceans and ocean currents in outline"
+    },
+    {
+      "id": "ea-introduction-to-earth-science-10",
+      "name": "The atmosphere's composition and layers; the Sun as Earth's energy source"
+    },
+    {
+      "id": "ea-introduction-to-earth-science-11",
+      "name": "Weather versus climate, and what climate change means"
+    },
+    {
+      "id": "ea-introduction-to-earth-science-12",
+      "name": "Earth resources, natural hazards and human impact on the planet"
+    },
+    {
+      "id": "ea-introduction-to-earth-science-13",
+      "name": "Reading maps: latitude/longitude, scale, topographic contours and map projections"
+    }
+  ]
+}

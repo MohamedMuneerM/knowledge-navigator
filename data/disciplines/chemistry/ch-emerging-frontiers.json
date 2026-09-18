@@ -1,0 +1,53 @@
+{
+  "id": "ch-emerging-frontiers",
+  "name": "Emerging Frontiers in Chemistry",
+  "category": "Frontiers of Chemistry",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "A survey of fast-moving research areas that are reshaping what chemistry can do.",
+  "prerequisites": [
+    "ch-supramolecular-chemistry",
+    "ch-molecular-reaction-dynamics"
+  ],
+  "related": [
+    "ph-quantum-materials"
+  ],
+  "topics": [
+    {
+      "id": "ch-emerging-frontiers-1",
+      "name": "Mechanochemistry and solvent-free synthesis"
+    },
+    {
+      "id": "ch-emerging-frontiers-2",
+      "name": "Polaritonic (cavity) chemistry and strong light-matter coupling"
+    },
+    {
+      "id": "ch-emerging-frontiers-3",
+      "name": "Attosecond chemistry and electron dynamics"
+    },
+    {
+      "id": "ch-emerging-frontiers-4",
+      "name": "Single-molecule and tip-induced chemistry"
+    },
+    {
+      "id": "ch-emerging-frontiers-5",
+      "name": "Systems chemistry and self-replicating molecules"
+    },
+    {
+      "id": "ch-emerging-frontiers-6",
+      "name": "DNA nanotechnology and programmable molecular assembly"
+    },
+    {
+      "id": "ch-emerging-frontiers-7",
+      "name": "High-pressure chemistry and chemistry under extreme conditions"
+    },
+    {
+      "id": "ch-emerging-frontiers-8",
+      "name": "Chemistry of the superheavy elements"
+    },
+    {
+      "id": "ch-emerging-frontiers-9",
+      "name": "Chemistry of quantum and topological materials"
+    }
+  ]
+}

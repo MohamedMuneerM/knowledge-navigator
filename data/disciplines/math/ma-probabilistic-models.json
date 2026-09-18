@@ -1,0 +1,46 @@
+{
+  "id": "ma-probabilistic-models",
+  "name": "Probabilistic Models",
+  "category": "Machine Learning & Data Science Mathematics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Structured probability models for data: graphical models, Bayesian networks, hidden Markov models and Gaussian processes.",
+  "prerequisites": [
+    "ma-bayesian-statistics",
+    "ma-stochastic-processes"
+  ],
+  "related": [
+    "ai-probabilistic-ml",
+    "ai-probabilistic-ai"
+  ],
+  "topics": [
+    {
+      "id": "ma-probabilistic-models-1",
+      "name": "Graphical models"
+    },
+    {
+      "id": "ma-probabilistic-models-2",
+      "name": "Bayesian networks"
+    },
+    {
+      "id": "ma-probabilistic-models-5",
+      "name": "Markov random fields"
+    },
+    {
+      "id": "ma-probabilistic-models-6",
+      "name": "Inference: variable elimination and belief propagation"
+    },
+    {
+      "id": "ma-probabilistic-models-3",
+      "name": "Hidden Markov models"
+    },
+    {
+      "id": "ma-probabilistic-models-7",
+      "name": "Expectation-maximisation algorithm"
+    },
+    {
+      "id": "ma-probabilistic-models-4",
+      "name": "Gaussian processes"
+    }
+  ]
+}

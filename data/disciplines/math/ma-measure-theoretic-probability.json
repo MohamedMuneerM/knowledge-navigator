@@ -1,0 +1,55 @@
+{
+  "id": "ma-measure-theoretic-probability",
+  "name": "Measure-Theoretic Probability",
+  "category": "Probability & Statistics",
+  "level": 4,
+  "priority": "important",
+  "summary": "Probability rebuilt on measure theory: sigma-algebras, modes of convergence, conditional expectation, martingales and limit theorems.",
+  "prerequisites": [
+    "ma-probability-theory",
+    "ma-measure-theory-integration"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-measure-theoretic-probability-1",
+      "name": "Probability spaces, sigma-algebras and random variables as measurable functions"
+    },
+    {
+      "id": "ma-measure-theoretic-probability-2",
+      "name": "Independence and the Borel-Cantelli lemmas"
+    },
+    {
+      "id": "ma-measure-theoretic-probability-3",
+      "name": "Expectation as a Lebesgue integral; convergence theorems"
+    },
+    {
+      "id": "ma-measure-theoretic-probability-4",
+      "name": "Modes of convergence: almost sure, in probability, in Lp and in distribution"
+    },
+    {
+      "id": "ma-measure-theoretic-probability-5",
+      "name": "Strong law of large numbers"
+    },
+    {
+      "id": "ma-measure-theoretic-probability-6",
+      "name": "Characteristic functions and the central limit theorem"
+    },
+    {
+      "id": "ma-measure-theoretic-probability-7",
+      "name": "Conditional expectation"
+    },
+    {
+      "id": "ma-measure-theoretic-probability-8",
+      "name": "Discrete-time martingales: optional stopping and convergence theorems"
+    },
+    {
+      "id": "ma-measure-theoretic-probability-9",
+      "name": "Kolmogorov extension theorem and construction of Brownian motion"
+    },
+    {
+      "id": "ma-measure-theoretic-probability-10",
+      "name": "Large deviations (introduction)"
+    }
+  ]
+}

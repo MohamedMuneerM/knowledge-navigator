@@ -1,0 +1,46 @@
+{
+  "id": "ph-experimental-techniques",
+  "name": "Experimental Techniques",
+  "category": "Experimental Physics & Instrumentation",
+  "level": 3,
+  "priority": "important",
+  "summary": "The workhorse probes of experimental physics: spectroscopy, microscopy, diffraction, scattering and interferometry.",
+  "prerequisites": [
+    "ph-measurement-instrumentation",
+    "ph-quantum-mechanics"
+  ],
+  "related": [
+    "ch-surface-analysis-microscopy",
+    "mt-characterization-fundamentals"
+  ],
+  "topics": [
+    {
+      "id": "ph-experimental-techniques-1",
+      "name": "Spectroscopy (optical, X-ray, NMR, EPR, Mössbauer)"
+    },
+    {
+      "id": "ph-experimental-techniques-2",
+      "name": "Microscopy (AFM, STM, SEM, TEM, optical)"
+    },
+    {
+      "id": "ph-experimental-techniques-3",
+      "name": "X-ray crystallography"
+    },
+    {
+      "id": "ph-experimental-techniques-4",
+      "name": "Neutron scattering"
+    },
+    {
+      "id": "ph-experimental-techniques-5",
+      "name": "Electron diffraction"
+    },
+    {
+      "id": "ph-experimental-techniques-6",
+      "name": "Mass spectrometry"
+    },
+    {
+      "id": "ph-experimental-techniques-7",
+      "name": "Interferometry"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "me-how-machines-work",
+  "name": "How Machines Work",
+  "category": "Foundations & Professional Practice",
+  "level": 1,
+  "priority": "core",
+  "summary": "A guided tour of the machines around us, from levers and gears to engines, pumps, refrigerators and robots, explaining the working principle of each.",
+  "prerequisites": [
+    "me-introduction-to-engineering-mechanical-design"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "me-how-machines-work-1",
+      "name": "Simple machines and mechanical advantage",
+      "sub": [
+        {
+          "id": "me-how-machines-work-1-1",
+          "name": "Lever, wheel and axle, pulley"
+        },
+        {
+          "id": "me-how-machines-work-1-2",
+          "name": "Inclined plane, wedge and screw"
+        }
+      ]
+    },
+    {
+      "id": "me-how-machines-work-2",
+      "name": "Gears, belts and chains: trading speed for torque"
+    },
+    {
+      "id": "me-how-machines-work-3",
+      "name": "Linkages and cams: converting rotary and linear motion"
+    },
+    {
+      "id": "me-how-machines-work-4",
+      "name": "Bearings, shafts and couplings: supporting and transmitting rotation"
+    },
+    {
+      "id": "me-how-machines-work-5",
+      "name": "Springs, dampers, clutches and brakes: storing, controlling and dissipating energy"
+    },
+    {
+      "id": "me-how-machines-work-6",
+      "name": "Heat engines: how car engines and gas turbines turn fuel into work"
+    },
+    {
+      "id": "me-how-machines-work-7",
+      "name": "Pumps, fans, compressors and turbines"
+    },
+    {
+      "id": "me-how-machines-work-8",
+      "name": "Refrigerators, air conditioners and heat pumps"
+    },
+    {
+      "id": "me-how-machines-work-9",
+      "name": "Hydraulic and pneumatic machines (jacks, excavators, air tools)"
+    },
+    {
+      "id": "me-how-machines-work-10",
+      "name": "Electric motors and generators from a mechanical viewpoint"
+    },
+    {
+      "id": "me-how-machines-work-11",
+      "name": "Integrated machines: clocks, bicycles, cars and teardown/dissection exercises"
+    },
+    {
+      "id": "me-how-machines-work-12",
+      "name": "Robots and automated machines: sensors, actuators and control in outline"
+    }
+  ]
+}

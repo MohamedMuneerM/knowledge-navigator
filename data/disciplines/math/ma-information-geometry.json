@@ -1,0 +1,37 @@
+{
+  "id": "ma-information-geometry",
+  "name": "Information Geometry",
+  "category": "Geometry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Families of probability distributions treated as Riemannian manifolds with the Fisher information metric.",
+  "prerequisites": [
+    "ma-differential-geometry",
+    "ma-mathematical-statistics"
+  ],
+  "related": [
+    "ma-information-geometry-ml-context"
+  ],
+  "topics": [
+    {
+      "id": "ma-information-geometry-3",
+      "name": "Statistical models as manifolds"
+    },
+    {
+      "id": "ma-information-geometry-2",
+      "name": "Fisher information metric"
+    },
+    {
+      "id": "ma-information-geometry-1",
+      "name": "Statistical manifolds"
+    },
+    {
+      "id": "ma-information-geometry-4",
+      "name": "Dual connections and divergences"
+    },
+    {
+      "id": "ma-information-geometry-5",
+      "name": "Exponential families and dually flat spaces"
+    }
+  ]
+}

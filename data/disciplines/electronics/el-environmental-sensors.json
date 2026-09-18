@@ -1,0 +1,42 @@
+{
+  "id": "el-environmental-sensors",
+  "name": "Environmental Sensors",
+  "category": "Sensors, Transducers & Actuators",
+  "level": 2,
+  "priority": "important",
+  "summary": "Measuring temperature, humidity, pressure, air quality, gases and weather with the right sensor technology.",
+  "prerequisites": [
+    "el-intro-microcontrollers"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-environmental-sensors-1",
+      "name": "Temperature sensors (thermistors, RTD, thermocouple, IC sensors, infrared)"
+    },
+    {
+      "id": "el-environmental-sensors-2",
+      "name": "Humidity sensors (capacitive, resistive)"
+    },
+    {
+      "id": "el-environmental-sensors-3",
+      "name": "Pressure sensors (barometric, differential, absolute, gauge)"
+    },
+    {
+      "id": "el-environmental-sensors-4",
+      "name": "Air quality sensors (CO2, CO, VOC, PM2.5, PM10, ozone, NOx)"
+    },
+    {
+      "id": "el-environmental-sensors-5",
+      "name": "Gas sensors (electrochemical, semiconductor, catalytic, infrared)"
+    },
+    {
+      "id": "el-environmental-sensors-6",
+      "name": "Weather sensors (wind speed, wind direction, rainfall, UV index)"
+    },
+    {
+      "id": "el-environmental-sensors-7",
+      "name": "Altitude sensors"
+    }
+  ]
+}

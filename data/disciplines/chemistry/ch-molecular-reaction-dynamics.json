@@ -1,0 +1,53 @@
+{
+  "id": "ch-molecular-reaction-dynamics",
+  "name": "Molecular Reaction Dynamics",
+  "category": "Physical Chemistry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Chemical reactions at the level of individual molecular collisions, potential energy surfaces and real-time motion.",
+  "prerequisites": [
+    "ch-chemical-kinetics",
+    "ch-statistical-thermodynamics"
+  ],
+  "related": [
+    "ph-chemical-physics-physical-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "ch-molecular-reaction-dynamics-1",
+      "name": "Potential energy surfaces and reaction coordinates"
+    },
+    {
+      "id": "ch-molecular-reaction-dynamics-2",
+      "name": "Classical trajectory calculations"
+    },
+    {
+      "id": "ch-molecular-reaction-dynamics-3",
+      "name": "Reactive scattering, cross sections and state-to-state rates"
+    },
+    {
+      "id": "ch-molecular-reaction-dynamics-4",
+      "name": "Molecular beam experiments"
+    },
+    {
+      "id": "ch-molecular-reaction-dynamics-5",
+      "name": "RRKM theory of unimolecular decay"
+    },
+    {
+      "id": "ch-molecular-reaction-dynamics-6",
+      "name": "Variational and quantum transition-state theory; tunnelling"
+    },
+    {
+      "id": "ch-molecular-reaction-dynamics-7",
+      "name": "Energy disposal and the Polanyi rules"
+    },
+    {
+      "id": "ch-molecular-reaction-dynamics-8",
+      "name": "Femtochemistry: real-time observation of reactions"
+    },
+    {
+      "id": "ch-molecular-reaction-dynamics-9",
+      "name": "Nonadiabatic dynamics and conical intersections"
+    }
+  ]
+}

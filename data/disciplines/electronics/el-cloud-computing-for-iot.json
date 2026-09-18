@@ -1,0 +1,48 @@
+{
+  "id": "el-cloud-computing-for-iot",
+  "name": "Cloud Computing for IoT",
+  "category": "IoT Architectures, Platforms & Data",
+  "level": 3,
+  "priority": "important",
+  "summary": "How cloud services (IaaS, PaaS, SaaS) store, process and manage data from device fleets.",
+  "prerequisites": [
+    "el-iot-architecture-layers"
+  ],
+  "related": [
+    "cs-cloud-computing"
+  ],
+  "topics": [
+    {
+      "id": "el-cloud-computing-for-iot-1",
+      "name": "Scalable data storage and processing"
+    },
+    {
+      "id": "el-cloud-computing-for-iot-2",
+      "name": "Centralized management and analytics"
+    },
+    {
+      "id": "el-cloud-computing-for-iot-3",
+      "name": "Infrastructure as a Service (IaaS)"
+    },
+    {
+      "id": "el-cloud-computing-for-iot-4",
+      "name": "Platform as a Service (PaaS)"
+    },
+    {
+      "id": "el-cloud-computing-for-iot-5",
+      "name": "Software as a Service (SaaS)"
+    },
+    {
+      "id": "el-cloud-computing-for-iot-6",
+      "name": "Serverless functions and event-driven processing"
+    },
+    {
+      "id": "el-cloud-computing-for-iot-7",
+      "name": "Scalability, availability and cost models"
+    },
+    {
+      "id": "el-cloud-computing-for-iot-8",
+      "name": "Cloud identity and access control for devices"
+    }
+  ]
+}

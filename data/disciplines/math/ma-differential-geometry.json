@@ -1,0 +1,73 @@
+{
+  "id": "ma-differential-geometry",
+  "name": "Differential Geometry",
+  "category": "Geometry",
+  "level": 3,
+  "priority": "important",
+  "summary": "Curves and surfaces studied with calculus: curvature, geodesics and the Gauss-Bonnet theorem, leading into Riemannian geometry.",
+  "prerequisites": [
+    "ma-vector-calculus",
+    "ma-linear-algebra",
+    "ma-real-analysis"
+  ],
+  "related": [
+    "ph-general-relativity",
+    "ph-mathematical-physics"
+  ],
+  "topics": [
+    {
+      "id": "ma-differential-geometry-1",
+      "name": "Curves and surfaces",
+      "sub": [
+        {
+          "id": "ma-differential-geometry-1-1",
+          "name": "Frenet-Serret frame, curvature and torsion"
+        },
+        {
+          "id": "ma-differential-geometry-1-2",
+          "name": "First and second fundamental forms"
+        }
+      ]
+    },
+    {
+      "id": "ma-differential-geometry-9",
+      "name": "Gaussian and mean curvature"
+    },
+    {
+      "id": "ma-differential-geometry-10",
+      "name": "Theorema Egregium"
+    },
+    {
+      "id": "ma-differential-geometry-8",
+      "name": "Geodesics"
+    },
+    {
+      "id": "ma-differential-geometry-11",
+      "name": "Gauss-Bonnet theorem"
+    },
+    {
+      "id": "ma-differential-geometry-6",
+      "name": "Differential manifolds"
+    },
+    {
+      "id": "ma-differential-geometry-7",
+      "name": "Curvature theory"
+    },
+    {
+      "id": "ma-differential-geometry-2",
+      "name": "Riemannian geometry"
+    },
+    {
+      "id": "ma-differential-geometry-5",
+      "name": "Pseudo-Riemannian geometry"
+    },
+    {
+      "id": "ma-differential-geometry-4",
+      "name": "Symplectic geometry"
+    },
+    {
+      "id": "ma-differential-geometry-3",
+      "name": "Finsler geometry"
+    }
+  ]
+}

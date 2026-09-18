@@ -1,0 +1,62 @@
+{
+  "id": "cs-advanced-computer-architecture",
+  "name": "Advanced Computer Architecture",
+  "category": "Computer Architecture & Systems Programming",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Graduate-level architecture: advanced speculation, coherence and consistency, multithreading, domain-specific accelerators and warehouse-scale computers.",
+  "prerequisites": [
+    "cs-computer-architecture"
+  ],
+  "related": [
+    "ai-hardware-for-ai",
+    "el-hardware-accelerators",
+    "el-system-on-chip-soc"
+  ],
+  "topics": [
+    {
+      "id": "cs-advanced-computer-architecture-1",
+      "name": "Advanced speculation and dynamic scheduling"
+    },
+    {
+      "id": "cs-advanced-computer-architecture-2",
+      "name": "Memory consistency models in depth"
+    },
+    {
+      "id": "cs-advanced-computer-architecture-3",
+      "name": "Coherence protocols and on-chip interconnection networks"
+    },
+    {
+      "id": "cs-advanced-computer-architecture-4",
+      "name": "Multithreading: fine-grained, coarse-grained and simultaneous (SMT)"
+    },
+    {
+      "id": "cs-advanced-computer-architecture-5",
+      "name": "Heterogeneous computing and domain-specific accelerators"
+    },
+    {
+      "id": "cs-advanced-computer-architecture-6",
+      "name": "Hardware for deep learning: systolic arrays and tensor processors"
+    },
+    {
+      "id": "cs-advanced-computer-architecture-7",
+      "name": "Near-memory and in-memory computing"
+    },
+    {
+      "id": "cs-advanced-computer-architecture-8",
+      "name": "Speculative-execution vulnerabilities and hardware mitigations"
+    },
+    {
+      "id": "cs-advanced-computer-architecture-9",
+      "name": "Architecture simulation and modeling (gem5)"
+    },
+    {
+      "id": "cs-advanced-computer-architecture-10",
+      "name": "Warehouse-scale computers"
+    },
+    {
+      "id": "cs-advanced-computer-architecture-11",
+      "name": "Hardware reliability and fault tolerance"
+    }
+  ]
+}

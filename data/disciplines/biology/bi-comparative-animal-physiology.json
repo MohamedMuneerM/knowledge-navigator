@@ -1,0 +1,55 @@
+{
+  "id": "bi-comparative-animal-physiology",
+  "name": "Comparative Animal Physiology",
+  "category": "Anatomy & Physiology",
+  "level": 3,
+  "priority": "important",
+  "summary": "How different animals solve the same physiological problems (breathing, osmoregulation, temperature, locomotion) in very different environments.",
+  "prerequisites": [
+    "bi-human-physiology",
+    "bi-animal-diversity"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-comparative-animal-physiology-1",
+      "name": "Principles of comparative physiology and allometry (scaling with body size)"
+    },
+    {
+      "id": "bi-comparative-animal-physiology-2",
+      "name": "Energy metabolism and metabolic rate across animals"
+    },
+    {
+      "id": "bi-comparative-animal-physiology-3",
+      "name": "Thermal physiology: ectotherms, endotherms, torpor and hibernation"
+    },
+    {
+      "id": "bi-comparative-animal-physiology-4",
+      "name": "Osmoregulation and excretion in aquatic and terrestrial animals"
+    },
+    {
+      "id": "bi-comparative-animal-physiology-5",
+      "name": "Comparative respiratory systems: gills, tracheae and lungs"
+    },
+    {
+      "id": "bi-comparative-animal-physiology-6",
+      "name": "Comparative circulatory systems"
+    },
+    {
+      "id": "bi-comparative-animal-physiology-7",
+      "name": "Diving, high-altitude and desert physiology"
+    },
+    {
+      "id": "bi-comparative-animal-physiology-8",
+      "name": "Comparative sensory physiology: electroreception, magnetoreception, echolocation"
+    },
+    {
+      "id": "bi-comparative-animal-physiology-9",
+      "name": "Animal nutrition and digestive adaptations"
+    },
+    {
+      "id": "bi-comparative-animal-physiology-10",
+      "name": "Environmental physiology and stress tolerance"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "ph-positional-astronomy",
+  "name": "Positional Astronomy & Timekeeping",
+  "category": "Astronomy Foundations",
+  "level": 2,
+  "priority": "advanced",
+  "summary": "Spherical astronomy: celestial coordinate systems, time scales and computing where objects appear in the sky.",
+  "prerequisites": [
+    "ph-introductory-astronomy"
+  ],
+  "related": [
+    "ma-mathematical-aspects-of-astronomy",
+    "ph-celestial-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "ph-positional-astronomy-1",
+      "name": "Spherical trigonometry for astronomy"
+    },
+    {
+      "id": "ph-positional-astronomy-2",
+      "name": "Horizon, equatorial, ecliptic and galactic coordinate systems"
+    },
+    {
+      "id": "ph-positional-astronomy-3",
+      "name": "Coordinate transformations"
+    },
+    {
+      "id": "ph-positional-astronomy-4",
+      "name": "Sidereal time, hour angle and rising and setting times"
+    },
+    {
+      "id": "ph-positional-astronomy-5",
+      "name": "Precession, nutation and epochs"
+    },
+    {
+      "id": "ph-positional-astronomy-6",
+      "name": "Refraction, aberration and parallax corrections"
+    },
+    {
+      "id": "ph-positional-astronomy-7",
+      "name": "Proper motion and astrometric reference frames (ICRS, Gaia)"
+    },
+    {
+      "id": "ph-positional-astronomy-8",
+      "name": "Time scales: UT, UTC, TAI and TDB; Julian dates"
+    },
+    {
+      "id": "ph-positional-astronomy-9",
+      "name": "Calendars and the equation of time"
+    },
+    {
+      "id": "ph-positional-astronomy-10",
+      "name": "Ephemerides and predicting planetary positions"
+    }
+  ]
+}

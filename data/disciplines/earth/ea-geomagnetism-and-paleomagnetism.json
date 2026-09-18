@@ -1,0 +1,50 @@
+{
+  "id": "ea-geomagnetism-and-paleomagnetism",
+  "name": "Geomagnetism & Paleomagnetism",
+  "category": "Solid-Earth Geophysics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Earth's magnetic field, how it is generated, and how magnetised rocks record plate motions and field reversals.",
+  "prerequisites": [
+    "ea-solid-earth-geophysics",
+    "ph-classical-electromagnetism"
+  ],
+  "related": [
+    "ph-geophysics",
+    "ph-space-physics"
+  ],
+  "topics": [
+    {
+      "id": "ea-geomagnetism-and-paleomagnetism-1",
+      "name": "Description of the geomagnetic field: elements, dipole and IGRF"
+    },
+    {
+      "id": "ea-geomagnetism-and-paleomagnetism-2",
+      "name": "Secular variation, excursions and polarity reversals"
+    },
+    {
+      "id": "ea-geomagnetism-and-paleomagnetism-3",
+      "name": "The geodynamo: magnetohydrodynamics of the outer core"
+    },
+    {
+      "id": "ea-geomagnetism-and-paleomagnetism-4",
+      "name": "Rock magnetism: magnetic minerals and remanence acquisition"
+    },
+    {
+      "id": "ea-geomagnetism-and-paleomagnetism-5",
+      "name": "Palaeomagnetic sampling, demagnetisation and statistics"
+    },
+    {
+      "id": "ea-geomagnetism-and-paleomagnetism-6",
+      "name": "Apparent polar wander paths and palaeogeographic reconstruction"
+    },
+    {
+      "id": "ea-geomagnetism-and-paleomagnetism-7",
+      "name": "Magnetostratigraphy and the geomagnetic polarity time scale"
+    },
+    {
+      "id": "ea-geomagnetism-and-paleomagnetism-8",
+      "name": "Environmental magnetism"
+    }
+  ]
+}

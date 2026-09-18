@@ -1,0 +1,66 @@
+{
+  "id": "me-fasteners-joints-springs",
+  "name": "Fasteners, Joints, Springs & Power Screws",
+  "category": "Machine Design & Machine Elements",
+  "level": 3,
+  "priority": "core",
+  "summary": "Designing threaded fasteners, power and ball screws, welded, bonded and riveted joints, and springs of all common types.",
+  "prerequisites": [
+    "me-machine-design-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "me-fasteners-joints-springs-1",
+      "name": "Thread standards and terminology"
+    },
+    {
+      "id": "me-fasteners-joints-springs-2",
+      "name": "Power screws: lifting and lowering torque, self-locking and efficiency"
+    },
+    {
+      "id": "me-fasteners-joints-springs-3",
+      "name": "Ball screws and roller screws"
+    },
+    {
+      "id": "me-fasteners-joints-springs-4",
+      "name": "Bolted joints: joint stiffness, preload and torque-tension relationship"
+    },
+    {
+      "id": "me-fasteners-joints-springs-5",
+      "name": "Bolted joints under tension and fatigue loading; gasketed joints"
+    },
+    {
+      "id": "me-fasteners-joints-springs-6",
+      "name": "Bolt and rivet groups under eccentric shear"
+    },
+    {
+      "id": "me-fasteners-joints-springs-7",
+      "name": "Welded joints: weld symbols, stresses in fillet and butt welds, static and fatigue strength"
+    },
+    {
+      "id": "me-fasteners-joints-springs-8",
+      "name": "Adhesive bonding: joint design and stress distribution"
+    },
+    {
+      "id": "me-fasteners-joints-springs-9",
+      "name": "Riveted and snap-fit joints"
+    },
+    {
+      "id": "me-fasteners-joints-springs-10",
+      "name": "Helical compression springs: stress, deflection, buckling, surge and fatigue"
+    },
+    {
+      "id": "me-fasteners-joints-springs-11",
+      "name": "Extension and torsion springs"
+    },
+    {
+      "id": "me-fasteners-joints-springs-12",
+      "name": "Belleville, leaf, wave and gas springs"
+    },
+    {
+      "id": "me-fasteners-joints-springs-13",
+      "name": "Fastener materials, grades, corrosion and locking methods"
+    }
+  ]
+}

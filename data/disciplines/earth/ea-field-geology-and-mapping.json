@@ -1,0 +1,55 @@
+{
+  "id": "ea-field-geology-and-mapping",
+  "name": "Field Geology & Geologic Mapping",
+  "category": "Field, Lab & Quantitative Methods",
+  "level": 3,
+  "priority": "core",
+  "summary": "The core practical skill of geology: observing, measuring, sampling and mapping rocks and structures in the field.",
+  "prerequisites": [
+    "ea-structural-geology",
+    "ea-sedimentology-and-stratigraphy"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-field-geology-and-mapping-1",
+      "name": "Field safety and planning"
+    },
+    {
+      "id": "ea-field-geology-and-mapping-2",
+      "name": "Field notebooks and sketching"
+    },
+    {
+      "id": "ea-field-geology-and-mapping-3",
+      "name": "Compass-clinometer use: strike, dip, trend and plunge"
+    },
+    {
+      "id": "ea-field-geology-and-mapping-4",
+      "name": "Rock description and identification in the field"
+    },
+    {
+      "id": "ea-field-geology-and-mapping-5",
+      "name": "Measuring and logging stratigraphic sections"
+    },
+    {
+      "id": "ea-field-geology-and-mapping-6",
+      "name": "Geologic mapping: contacts, structures and map units"
+    },
+    {
+      "id": "ea-field-geology-and-mapping-7",
+      "name": "Constructing cross-sections and block diagrams"
+    },
+    {
+      "id": "ea-field-geology-and-mapping-8",
+      "name": "Sampling strategies for lab analysis"
+    },
+    {
+      "id": "ea-field-geology-and-mapping-9",
+      "name": "Digital field mapping: GNSS, tablets, drones and photogrammetry"
+    },
+    {
+      "id": "ea-field-geology-and-mapping-10",
+      "name": "Field reports and geological interpretation"
+    }
+  ]
+}

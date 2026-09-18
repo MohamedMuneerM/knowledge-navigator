@@ -1,0 +1,38 @@
+{
+  "id": "el-chemical-sensors",
+  "name": "Chemical Sensors",
+  "category": "Sensors, Transducers & Actuators",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Detecting chemical species with pH, ion-selective, electrochemical, chemiresistive and spectroscopic sensors.",
+  "prerequisites": [
+    "el-sensor-interfacing",
+    "ch-redox-electrochemistry-basics"
+  ],
+  "related": [
+    "ch-electroanalytical-chemistry",
+    "ch-bioanalytical-chemistry-sensors"
+  ],
+  "topics": [
+    {
+      "id": "el-chemical-sensors-1",
+      "name": "pH sensors"
+    },
+    {
+      "id": "el-chemical-sensors-2",
+      "name": "Ion-selective electrodes"
+    },
+    {
+      "id": "el-chemical-sensors-3",
+      "name": "Electrochemical sensors"
+    },
+    {
+      "id": "el-chemical-sensors-4",
+      "name": "Chemical resistance sensors"
+    },
+    {
+      "id": "el-chemical-sensors-5",
+      "name": "Spectroscopy-based sensors"
+    }
+  ]
+}

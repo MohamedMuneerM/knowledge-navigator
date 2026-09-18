@@ -1,0 +1,51 @@
+{
+  "id": "el-wireless-telecom-standards",
+  "name": "Wireless & Telecom Standards",
+  "category": "Standards, Compliance & Certifications",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Radio regulations and certification schemes: FCC Parts 15 and 18, RED, ISED, MIC, ACMA and Bluetooth, Wi-Fi and LoRa certification.",
+  "prerequisites": [
+    "el-short-range-wireless",
+    "el-international-standards-organizations"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-wireless-telecom-standards-1",
+      "name": "FCC Part 15 (unlicensed RF devices)"
+    },
+    {
+      "id": "el-wireless-telecom-standards-2",
+      "name": "FCC Part 18 (ISM equipment)"
+    },
+    {
+      "id": "el-wireless-telecom-standards-3",
+      "name": "RED (Radio Equipment Directive) - Europe"
+    },
+    {
+      "id": "el-wireless-telecom-standards-4",
+      "name": "IC (Innovation, Science and Economic Development Canada)"
+    },
+    {
+      "id": "el-wireless-telecom-standards-5",
+      "name": "MIC (Japan)"
+    },
+    {
+      "id": "el-wireless-telecom-standards-6",
+      "name": "ACMA (Australia)"
+    },
+    {
+      "id": "el-wireless-telecom-standards-7",
+      "name": "Bluetooth SIG certification"
+    },
+    {
+      "id": "el-wireless-telecom-standards-8",
+      "name": "Wi-Fi Alliance certification"
+    },
+    {
+      "id": "el-wireless-telecom-standards-9",
+      "name": "LoRa Alliance certification"
+    }
+  ]
+}

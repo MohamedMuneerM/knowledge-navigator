@@ -1,0 +1,48 @@
+{
+  "id": "ch-ultrafast-nonlinear-spectroscopy",
+  "name": "Ultrafast & Nonlinear Spectroscopy",
+  "category": "Physical Chemistry",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Laser methods that follow chemistry on femtosecond and attosecond timescales and probe molecules one at a time.",
+  "prerequisites": [
+    "ch-molecular-spectroscopy"
+  ],
+  "related": [
+    "ph-ultrafast-physics"
+  ],
+  "topics": [
+    {
+      "id": "ch-ultrafast-nonlinear-spectroscopy-1",
+      "name": "Ultrafast laser sources and pulse characterization"
+    },
+    {
+      "id": "ch-ultrafast-nonlinear-spectroscopy-2",
+      "name": "Pump-probe and transient absorption spectroscopy"
+    },
+    {
+      "id": "ch-ultrafast-nonlinear-spectroscopy-3",
+      "name": "Nonlinear optical response functions"
+    },
+    {
+      "id": "ch-ultrafast-nonlinear-spectroscopy-4",
+      "name": "Two-dimensional infrared and electronic spectroscopy"
+    },
+    {
+      "id": "ch-ultrafast-nonlinear-spectroscopy-5",
+      "name": "Coherent Raman techniques (CARS, SRS)"
+    },
+    {
+      "id": "ch-ultrafast-nonlinear-spectroscopy-6",
+      "name": "Sum-frequency generation spectroscopy of interfaces"
+    },
+    {
+      "id": "ch-ultrafast-nonlinear-spectroscopy-7",
+      "name": "Attosecond spectroscopy and electron dynamics"
+    },
+    {
+      "id": "ch-ultrafast-nonlinear-spectroscopy-8",
+      "name": "Single-molecule spectroscopy"
+    }
+  ]
+}

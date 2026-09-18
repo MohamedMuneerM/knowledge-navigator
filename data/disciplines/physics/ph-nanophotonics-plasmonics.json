@@ -1,0 +1,44 @@
+{
+  "id": "ph-nanophotonics-plasmonics",
+  "name": "Nanophotonics & Plasmonics",
+  "category": "Optics & Photonics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Controlling light below the wavelength scale with nanostructures, plasmons and metamaterials.",
+  "prerequisites": [
+    "ph-modern-optics",
+    "ph-solid-state-physics"
+  ],
+  "related": [
+    "ph-nanoscience-nanotechnology",
+    "ch-nanochemistry",
+    "el-photonics-silicon-photonics",
+    "mt-metamaterials"
+  ],
+  "topics": [
+    {
+      "id": "ph-nanophotonics-plasmonics-1",
+      "name": "Nanophotonics"
+    },
+    {
+      "id": "ph-nanophotonics-plasmonics-2",
+      "name": "Plasmonics"
+    },
+    {
+      "id": "ph-nanophotonics-plasmonics-3",
+      "name": "Near-field optics"
+    },
+    {
+      "id": "ph-nanophotonics-plasmonics-4",
+      "name": "Surface plasmon polaritons"
+    },
+    {
+      "id": "ph-nanophotonics-plasmonics-5",
+      "name": "Light-matter interactions at nanoscale"
+    },
+    {
+      "id": "ph-nanophotonics-plasmonics-6",
+      "name": "Optical metamaterials"
+    }
+  ]
+}

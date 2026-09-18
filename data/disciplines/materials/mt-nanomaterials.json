@@ -1,0 +1,72 @@
+{
+  "id": "mt-nanomaterials",
+  "name": "Nanomaterials & Nanostructured Materials",
+  "category": "Nanomaterials & Biomaterials",
+  "level": 3,
+  "priority": "important",
+  "summary": "Explains why materials behave differently at the nanoscale and how nanoparticles, nanowires, nanotubes and nanostructured solids are made and used.",
+  "prerequisites": [
+    "mt-interfaces-microstructure-evolution",
+    "mt-electronic-properties"
+  ],
+  "related": [
+    "ph-nanoscience-nanotechnology",
+    "el-advanced-materials",
+    "ch-nanochemistry",
+    "me-micro-nano-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "mt-nanomaterials-1",
+      "name": "Size effects: surface-to-volume ratio, melting-point depression and quantum confinement"
+    },
+    {
+      "id": "mt-nanomaterials-2",
+      "name": "Classification: 0D, 1D, 2D and 3D nanostructures"
+    },
+    {
+      "id": "mt-nanomaterials-3",
+      "name": "Bottom-up synthesis: colloidal nanoparticles, sol-gel, vapour-liquid-solid nanowire growth"
+    },
+    {
+      "id": "mt-nanomaterials-4",
+      "name": "Top-down fabrication: lithography, etching and nanoimprint"
+    },
+    {
+      "id": "mt-nanomaterials-5",
+      "name": "Self-assembly and directed assembly"
+    },
+    {
+      "id": "mt-nanomaterials-6",
+      "name": "Quantum dots and their optical properties"
+    },
+    {
+      "id": "mt-nanomaterials-7",
+      "name": "Carbon nanotubes and fullerenes: structure, chirality and properties"
+    },
+    {
+      "id": "mt-nanomaterials-8",
+      "name": "Metallic nanoparticles and plasmonics"
+    },
+    {
+      "id": "mt-nanomaterials-9",
+      "name": "Nanocrystalline and nanotwinned metals: strength and the inverse Hall-Petch effect"
+    },
+    {
+      "id": "mt-nanomaterials-10",
+      "name": "Nanomechanics: nanoindentation, size effects in plasticity and micropillar testing"
+    },
+    {
+      "id": "mt-nanomaterials-11",
+      "name": "Nanocomposites and nanoporous materials (aerogels, MOFs, zeolites)"
+    },
+    {
+      "id": "mt-nanomaterials-12",
+      "name": "Characterising nanomaterials"
+    },
+    {
+      "id": "mt-nanomaterials-13",
+      "name": "Nanotoxicology, safety and regulation"
+    }
+  ]
+}

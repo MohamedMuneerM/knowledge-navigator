@@ -1,0 +1,80 @@
+{
+  "id": "ae-feedback-control-aerospace",
+  "name": "Feedback Control for Aerospace Systems",
+  "category": "Engineering Foundations",
+  "level": 2,
+  "priority": "core",
+  "summary": "Classical and state-space control of dynamic systems, with aircraft, rockets and spacecraft as the working examples.",
+  "prerequisites": [
+    "ma-ordinary-differential-equations-odes",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "el-control-theory",
+    "ma-control-theory",
+    "ai-control-systems",
+    "me-feedback-control"
+  ],
+  "topics": [
+    {
+      "id": "ae-feedback-control-aerospace-1",
+      "name": "Modelling dynamic systems: differential equations and linearisation"
+    },
+    {
+      "id": "ae-feedback-control-aerospace-2",
+      "name": "Laplace transforms and transfer functions"
+    },
+    {
+      "id": "ae-feedback-control-aerospace-3",
+      "name": "Block diagrams and signal flow"
+    },
+    {
+      "id": "ae-feedback-control-aerospace-4",
+      "name": "Time response: first- and second-order systems, poles and zeros"
+    },
+    {
+      "id": "ae-feedback-control-aerospace-5",
+      "name": "Stability and the Routh-Hurwitz criterion"
+    },
+    {
+      "id": "ae-feedback-control-aerospace-6",
+      "name": "Steady-state error and system type"
+    },
+    {
+      "id": "ae-feedback-control-aerospace-7",
+      "name": "PID control and tuning"
+    },
+    {
+      "id": "ae-feedback-control-aerospace-8",
+      "name": "Root locus analysis and design"
+    },
+    {
+      "id": "ae-feedback-control-aerospace-9",
+      "name": "Frequency response: Bode plots, Nyquist criterion, gain and phase margins"
+    },
+    {
+      "id": "ae-feedback-control-aerospace-10",
+      "name": "Lead, lag and notch compensators"
+    },
+    {
+      "id": "ae-feedback-control-aerospace-11",
+      "name": "State-space models, controllability and observability"
+    },
+    {
+      "id": "ae-feedback-control-aerospace-12",
+      "name": "Pole placement and observers"
+    },
+    {
+      "id": "ae-feedback-control-aerospace-13",
+      "name": "Linear quadratic regulator (LQR)"
+    },
+    {
+      "id": "ae-feedback-control-aerospace-14",
+      "name": "Digital control: sampling, discretisation and z-transforms"
+    },
+    {
+      "id": "ae-feedback-control-aerospace-15",
+      "name": "Actuator saturation, delays and practical implementation"
+    }
+  ]
+}

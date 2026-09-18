@@ -1,0 +1,52 @@
+{
+  "id": "el-iot-application-protocols",
+  "name": "IoT Application Protocols",
+  "category": "Communication Protocols & Connectivity",
+  "level": 3,
+  "priority": "important",
+  "summary": "The messaging protocols devices use to talk to the cloud and each other: MQTT, CoAP, HTTP, WebSocket, AMQP, DDS, OPC UA and LwM2M.",
+  "prerequisites": [
+    "el-ethernet-networking"
+  ],
+  "related": [
+    "cs-computer-networks"
+  ],
+  "topics": [
+    {
+      "id": "el-iot-application-protocols-1",
+      "name": "MQTT (Message Queuing Telemetry Transport) - publish/subscribe"
+    },
+    {
+      "id": "el-iot-application-protocols-2",
+      "name": "MQTT-SN (MQTT for Sensor Networks)"
+    },
+    {
+      "id": "el-iot-application-protocols-3",
+      "name": "CoAP (Constrained Application Protocol) - RESTful for IoT"
+    },
+    {
+      "id": "el-iot-application-protocols-4",
+      "name": "HTTP/HTTPS - web-based IoT"
+    },
+    {
+      "id": "el-iot-application-protocols-5",
+      "name": "WebSocket - full-duplex communication"
+    },
+    {
+      "id": "el-iot-application-protocols-6",
+      "name": "AMQP (Advanced Message Queuing Protocol) - enterprise messaging"
+    },
+    {
+      "id": "el-iot-application-protocols-7",
+      "name": "DDS (Data Distribution Service) - real-time pub-sub"
+    },
+    {
+      "id": "el-iot-application-protocols-8",
+      "name": "OPC UA (Open Platform Communications Unified Architecture) - industrial interoperability"
+    },
+    {
+      "id": "el-iot-application-protocols-9",
+      "name": "LWM2M (Lightweight M2M) - device management"
+    }
+  ]
+}

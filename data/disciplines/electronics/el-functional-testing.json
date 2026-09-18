@@ -1,0 +1,47 @@
+{
+  "id": "el-functional-testing",
+  "name": "Production & Functional Testing",
+  "category": "Measurement, Testing & Validation",
+  "level": 3,
+  "priority": "important",
+  "summary": "Testing boards in production: boundary scan, in-circuit test, flying probe, functional fixtures and automated test equipment.",
+  "prerequisites": [
+    "el-test-equipment",
+    "el-debug-interfaces"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-functional-testing-1",
+      "name": "Boundary scan (JTAG/IEEE 1149.1)"
+    },
+    {
+      "id": "el-functional-testing-2",
+      "name": "In-Circuit Test (ICT)"
+    },
+    {
+      "id": "el-functional-testing-3",
+      "name": "Flying probe testing"
+    },
+    {
+      "id": "el-functional-testing-4",
+      "name": "Functional test fixtures"
+    },
+    {
+      "id": "el-functional-testing-5",
+      "name": "Automated Test Equipment (ATE)"
+    },
+    {
+      "id": "el-functional-testing-6",
+      "name": "Test strategy and test coverage for assembled boards"
+    },
+    {
+      "id": "el-functional-testing-7",
+      "name": "End-of-line and system-level test"
+    },
+    {
+      "id": "el-functional-testing-8",
+      "name": "Test data logging and traceability"
+    }
+  ]
+}

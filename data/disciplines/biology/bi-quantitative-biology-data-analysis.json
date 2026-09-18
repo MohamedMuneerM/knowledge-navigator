@@ -1,0 +1,59 @@
+{
+  "id": "bi-quantitative-biology-data-analysis",
+  "name": "Biological Data Analysis & Experimental Design",
+  "category": "Quantitative & Computational Biology",
+  "level": 2,
+  "priority": "important",
+  "summary": "The everyday statistics and programming a working biologist needs to design experiments and analyse lab and field data correctly.",
+  "prerequisites": [
+    "bi-biological-inquiry",
+    "ma-descriptive-statistics",
+    "cs-programming-fundamentals"
+  ],
+  "related": [
+    "ma-biostatistics",
+    "ma-experimental-design"
+  ],
+  "topics": [
+    {
+      "id": "bi-quantitative-biology-data-analysis-1",
+      "name": "Programming for biologists: R or Python basics and data frames"
+    },
+    {
+      "id": "bi-quantitative-biology-data-analysis-2",
+      "name": "Tidy data, data cleaning and reproducible notebooks"
+    },
+    {
+      "id": "bi-quantitative-biology-data-analysis-3",
+      "name": "Visualising biological data: good figures and common mistakes"
+    },
+    {
+      "id": "bi-quantitative-biology-data-analysis-4",
+      "name": "Sampling, replication, pseudoreplication and blocking"
+    },
+    {
+      "id": "bi-quantitative-biology-data-analysis-5",
+      "name": "Statistical tests used in biology: t-tests, ANOVA, chi-square, non-parametric tests"
+    },
+    {
+      "id": "bi-quantitative-biology-data-analysis-6",
+      "name": "Linear regression and correlation in biological contexts"
+    },
+    {
+      "id": "bi-quantitative-biology-data-analysis-7",
+      "name": "Curve fitting: dose-response, enzyme kinetics and growth curves"
+    },
+    {
+      "id": "bi-quantitative-biology-data-analysis-8",
+      "name": "Multiple testing and false discovery rate"
+    },
+    {
+      "id": "bi-quantitative-biology-data-analysis-9",
+      "name": "Statistical power and sample-size calculation"
+    },
+    {
+      "id": "bi-quantitative-biology-data-analysis-10",
+      "name": "Reproducibility, pre-registration and open data"
+    }
+  ]
+}

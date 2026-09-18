@@ -1,0 +1,38 @@
+{
+  "id": "el-biomedical-signal-processing",
+  "name": "Biomedical Signal Processing",
+  "category": "Medical, Industrial & Other Application Domains",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Extracting clinical information from ECG, EEG, EMG, PPG and medical images.",
+  "prerequisites": [
+    "el-digital-signal-processing-dsp",
+    "el-biosensors-medical-sensors"
+  ],
+  "related": [
+    "bi-neurotechnology-methods",
+    "ai-wearable-robotics-exoskeletons"
+  ],
+  "topics": [
+    {
+      "id": "el-biomedical-signal-processing-1",
+      "name": "ECG signal processing and QRS detection"
+    },
+    {
+      "id": "el-biomedical-signal-processing-2",
+      "name": "EEG signal analysis and artifact removal"
+    },
+    {
+      "id": "el-biomedical-signal-processing-3",
+      "name": "EMG feature extraction"
+    },
+    {
+      "id": "el-biomedical-signal-processing-4",
+      "name": "Vital sign extraction from PPG"
+    },
+    {
+      "id": "el-biomedical-signal-processing-5",
+      "name": "Medical image processing"
+    }
+  ]
+}

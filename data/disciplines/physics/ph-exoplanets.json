@@ -1,0 +1,63 @@
+{
+  "id": "ph-exoplanets",
+  "name": "Exoplanets",
+  "category": "Planetary Science & Exoplanets",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Planets around other stars: how they are found, what they are like, and where habitable worlds might be.",
+  "prerequisites": [
+    "ph-planetary-science",
+    "ph-observational-astronomy-telescopes",
+    "ph-celestial-mechanics"
+  ],
+  "related": [
+    "ea-planetary-atmospheres-and-climates",
+    "bi-biosignatures-life-detection"
+  ],
+  "topics": [
+    {
+      "id": "ph-exoplanets-1",
+      "name": "History of exoplanet discovery"
+    },
+    {
+      "id": "ph-exoplanets-2",
+      "name": "The radial-velocity method"
+    },
+    {
+      "id": "ph-exoplanets-3",
+      "name": "The transit method and light-curve analysis"
+    },
+    {
+      "id": "ph-exoplanets-4",
+      "name": "Gravitational microlensing"
+    },
+    {
+      "id": "ph-exoplanets-5",
+      "name": "Direct imaging and coronagraphy"
+    },
+    {
+      "id": "ph-exoplanets-6",
+      "name": "Astrometric and timing methods"
+    },
+    {
+      "id": "ph-exoplanets-7",
+      "name": "Exoplanet demographics: hot Jupiters, super-Earths and mini-Neptunes"
+    },
+    {
+      "id": "ph-exoplanets-8",
+      "name": "Planet formation and migration"
+    },
+    {
+      "id": "ph-exoplanets-9",
+      "name": "Exoplanet atmospheres: transmission and emission spectroscopy"
+    },
+    {
+      "id": "ph-exoplanets-10",
+      "name": "Habitable zones and potentially habitable worlds"
+    },
+    {
+      "id": "ph-exoplanets-11",
+      "name": "Exoplanet missions: Kepler, TESS, JWST, PLATO, Roman and the Habitable Worlds Observatory"
+    }
+  ]
+}

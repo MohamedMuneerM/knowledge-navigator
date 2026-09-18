@@ -1,0 +1,63 @@
+{
+  "id": "ma-quantum-computation-theory",
+  "name": "Quantum Computation Theory",
+  "category": "Mathematical Physics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Qubits, quantum gates and circuits, quantum algorithms such as Shor and Grover, and quantum information theory.",
+  "prerequisites": [
+    "ma-linear-algebra",
+    "ma-probability-theory"
+  ],
+  "related": [
+    "ph-quantum-information-science",
+    "ai-quantum-machine-learning",
+    "cs-quantum-computing",
+    "ch-quantum-computing-chemistry",
+    "el-quantum-technologies"
+  ],
+  "topics": [
+    {
+      "id": "ma-quantum-computation-theory-4",
+      "name": "Qubits, tensor products and entanglement"
+    },
+    {
+      "id": "ma-quantum-computation-theory-1",
+      "name": "Quantum gates"
+    },
+    {
+      "id": "ma-quantum-computation-theory-5",
+      "name": "Quantum circuits and measurement"
+    },
+    {
+      "id": "ma-quantum-computation-theory-2",
+      "name": "Quantum algorithms",
+      "sub": [
+        {
+          "id": "ma-quantum-computation-theory-2-1",
+          "name": "Deutsch-Jozsa and Simon"
+        },
+        {
+          "id": "ma-quantum-computation-theory-2-2",
+          "name": "Quantum Fourier transform and Shor's algorithm"
+        },
+        {
+          "id": "ma-quantum-computation-theory-2-3",
+          "name": "Grover's search"
+        }
+      ]
+    },
+    {
+      "id": "ma-quantum-computation-theory-6",
+      "name": "Quantum error correction"
+    },
+    {
+      "id": "ma-quantum-computation-theory-3",
+      "name": "Quantum information theory"
+    },
+    {
+      "id": "ma-quantum-computation-theory-7",
+      "name": "Quantum complexity classes"
+    }
+  ]
+}

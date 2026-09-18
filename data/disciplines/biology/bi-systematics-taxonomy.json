@@ -1,0 +1,54 @@
+{
+  "id": "bi-systematics-taxonomy",
+  "name": "Systematics & Taxonomy",
+  "category": "Biodiversity & Systematics",
+  "level": 2,
+  "priority": "important",
+  "summary": "How biologists name, classify and organise the diversity of life into a tree, from Linnaean ranks to modern phylogenetic systematics.",
+  "prerequisites": [
+    "bi-evolutionary-biology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-systematics-taxonomy-1",
+      "name": "Taxonomy, classification and systematics: definitions and goals"
+    },
+    {
+      "id": "bi-systematics-taxonomy-2",
+      "name": "Binomial nomenclature and the codes of nomenclature"
+    },
+    {
+      "id": "bi-systematics-taxonomy-3",
+      "name": "Species concepts in practice and describing new species"
+    },
+    {
+      "id": "bi-systematics-taxonomy-4",
+      "name": "Cladistics: characters, homology, synapomorphies and monophyly"
+    },
+    {
+      "id": "bi-systematics-taxonomy-5",
+      "name": "Building and reading cladograms"
+    },
+    {
+      "id": "bi-systematics-taxonomy-6",
+      "name": "The tree of life: three domains and the eukaryotic supergroups"
+    },
+    {
+      "id": "bi-systematics-taxonomy-7",
+      "name": "Specimens, museums, herbaria and type specimens"
+    },
+    {
+      "id": "bi-systematics-taxonomy-8",
+      "name": "DNA barcoding and molecular identification"
+    },
+    {
+      "id": "bi-systematics-taxonomy-9",
+      "name": "Biodiversity databases and informatics (GBIF, Catalogue of Life)"
+    },
+    {
+      "id": "bi-systematics-taxonomy-10",
+      "name": "How many species are there? Estimating global biodiversity"
+    }
+  ]
+}

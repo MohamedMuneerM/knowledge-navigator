@@ -1,0 +1,70 @@
+{
+  "id": "mt-surface-spectroscopy-probe",
+  "name": "Surface Analysis, Spectroscopy & Scanning Probes",
+  "category": "Materials Characterization",
+  "level": 3,
+  "priority": "important",
+  "summary": "Covers techniques that measure surface chemistry, bonding and topography: XPS, Auger, SIMS, vibrational spectroscopy and scanning probe microscopy.",
+  "prerequisites": [
+    "mt-characterization-fundamentals"
+  ],
+  "related": [
+    "ph-experimental-techniques",
+    "ph-chemical-physics-physical-chemistry",
+    "ch-surface-analysis-microscopy"
+  ],
+  "topics": [
+    {
+      "id": "mt-surface-spectroscopy-probe-1",
+      "name": "Why surfaces need special techniques: information depth and ultra-high vacuum"
+    },
+    {
+      "id": "mt-surface-spectroscopy-probe-2",
+      "name": "X-ray photoelectron spectroscopy (XPS): chemical states and depth profiling"
+    },
+    {
+      "id": "mt-surface-spectroscopy-probe-3",
+      "name": "Auger electron spectroscopy"
+    },
+    {
+      "id": "mt-surface-spectroscopy-probe-4",
+      "name": "Secondary ion mass spectrometry (SIMS) and ToF-SIMS"
+    },
+    {
+      "id": "mt-surface-spectroscopy-probe-5",
+      "name": "Rutherford backscattering and ion-beam analysis"
+    },
+    {
+      "id": "mt-surface-spectroscopy-probe-6",
+      "name": "Infrared (FTIR) spectroscopy of polymers and surfaces"
+    },
+    {
+      "id": "mt-surface-spectroscopy-probe-7",
+      "name": "Raman spectroscopy: phase identification, stress and carbon materials"
+    },
+    {
+      "id": "mt-surface-spectroscopy-probe-8",
+      "name": "UV-visible spectroscopy and ellipsometry"
+    },
+    {
+      "id": "mt-surface-spectroscopy-probe-9",
+      "name": "Solid-state NMR and Mössbauer spectroscopy (overview)"
+    },
+    {
+      "id": "mt-surface-spectroscopy-probe-10",
+      "name": "Atomic force microscopy: contact, tapping and force spectroscopy modes"
+    },
+    {
+      "id": "mt-surface-spectroscopy-probe-11",
+      "name": "Scanning tunnelling microscopy and spectroscopy"
+    },
+    {
+      "id": "mt-surface-spectroscopy-probe-12",
+      "name": "Kelvin probe, magnetic force and conductive AFM"
+    },
+    {
+      "id": "mt-surface-spectroscopy-probe-13",
+      "name": "Contact angle and surface energy measurement"
+    }
+  ]
+}

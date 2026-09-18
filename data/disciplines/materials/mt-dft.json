@@ -1,0 +1,71 @@
+{
+  "id": "mt-dft",
+  "name": "Electronic-Structure Methods & Density Functional Theory",
+  "category": "Computational Materials Science",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Teaches first-principles calculation of materials properties using density functional theory and related quantum-mechanical methods.",
+  "prerequisites": [
+    "mt-computational-materials-intro",
+    "mt-electronic-properties"
+  ],
+  "related": [
+    "ph-computational-physics",
+    "ph-quantum-mechanics",
+    "ch-electronic-structure-theory"
+  ],
+  "topics": [
+    {
+      "id": "mt-dft-1",
+      "name": "The many-body problem and the Born-Oppenheimer approximation"
+    },
+    {
+      "id": "mt-dft-2",
+      "name": "Hartree-Fock and the limits of wavefunction methods"
+    },
+    {
+      "id": "mt-dft-3",
+      "name": "Hohenberg-Kohn theorems and the Kohn-Sham equations"
+    },
+    {
+      "id": "mt-dft-4",
+      "name": "Exchange-correlation functionals: LDA, GGA, meta-GGA, hybrids and DFT+U"
+    },
+    {
+      "id": "mt-dft-5",
+      "name": "Plane-wave basis sets, pseudopotentials and PAW; k-point sampling and convergence"
+    },
+    {
+      "id": "mt-dft-6",
+      "name": "Computing structures, formation energies and elastic constants"
+    },
+    {
+      "id": "mt-dft-7",
+      "name": "Band structures and densities of states"
+    },
+    {
+      "id": "mt-dft-8",
+      "name": "Defect formation energies and charged defects"
+    },
+    {
+      "id": "mt-dft-9",
+      "name": "Phonons and thermodynamic properties from first principles"
+    },
+    {
+      "id": "mt-dft-10",
+      "name": "Surfaces, adsorption and catalysis"
+    },
+    {
+      "id": "mt-dft-11",
+      "name": "Transition states and diffusion barriers (nudged elastic band)"
+    },
+    {
+      "id": "mt-dft-12",
+      "name": "Beyond DFT: GW, DMFT and van der Waals corrections"
+    },
+    {
+      "id": "mt-dft-13",
+      "name": "Practical codes and workflows (VASP, Quantum ESPRESSO, ASE, pymatgen)"
+    }
+  ]
+}

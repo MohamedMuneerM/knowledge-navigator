@@ -1,0 +1,38 @@
+{
+  "id": "el-localization-time-synchronization",
+  "name": "Time Synchronization & Timekeeping",
+  "category": "Communication Protocols & Connectivity",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Keeping device clocks right: GPS time, NTP, PTP/IEEE 1588, RTC calibration and time-zone handling.",
+  "prerequisites": [
+    "el-ethernet-networking"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-localization-time-synchronization-1",
+      "name": "GPS time sync"
+    },
+    {
+      "id": "el-localization-time-synchronization-2",
+      "name": "NTP (Network Time Protocol)"
+    },
+    {
+      "id": "el-localization-time-synchronization-3",
+      "name": "PTP (Precision Time Protocol / IEEE 1588)"
+    },
+    {
+      "id": "el-localization-time-synchronization-4",
+      "name": "RTC calibration"
+    },
+    {
+      "id": "el-localization-time-synchronization-5",
+      "name": "Time zone handling"
+    },
+    {
+      "id": "el-localization-time-synchronization-6",
+      "name": "Daylight saving time"
+    }
+  ]
+}

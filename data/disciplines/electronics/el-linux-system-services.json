@@ -1,0 +1,40 @@
+{
+  "id": "el-linux-system-services",
+  "name": "Linux System Services",
+  "category": "Embedded Software, Firmware & RTOS",
+  "level": 3,
+  "priority": "important",
+  "summary": "The user-space side of embedded Linux: init systems, processes and threads, IPC, flash file systems, networking and security modules.",
+  "prerequisites": [
+    "el-embedded-linux"
+  ],
+  "related": [
+    "cs-linux-system-administration"
+  ],
+  "topics": [
+    {
+      "id": "el-linux-system-services-1",
+      "name": "init systems (systemd, SysVinit, OpenRC)"
+    },
+    {
+      "id": "el-linux-system-services-2",
+      "name": "Process management (fork, exec, pthread)"
+    },
+    {
+      "id": "el-linux-system-services-3",
+      "name": "IPC mechanisms (pipes, sockets, shared memory, message queues)"
+    },
+    {
+      "id": "el-linux-system-services-4",
+      "name": "File systems (ext4, squashfs, JFFS2, UBIFS)"
+    },
+    {
+      "id": "el-linux-system-services-5",
+      "name": "Networking stack"
+    },
+    {
+      "id": "el-linux-system-services-6",
+      "name": "Security modules (SELinux, AppArmor)"
+    }
+  ]
+}

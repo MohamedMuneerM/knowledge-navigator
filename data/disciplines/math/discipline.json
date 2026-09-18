@@ -1,0 +1,29 @@
+{
+  "id": "math",
+  "name": "Mathematics",
+  "icon": "∑",
+  "color": "#fbbf24",
+  "prefix": "ma",
+  "description": "Mathematics from arithmetic and algebra through calculus, proof and the major pure branches (algebra, analysis, geometry, topology, number theory, combinatorics) to probability, statistics, numerical and applied mathematics, organised along the MSC2020 classification.",
+  "categories": [
+    "Pre-University Foundations",
+    "Calculus",
+    "Foundations & Mathematical Logic",
+    "Combinatorics & Discrete Mathematics",
+    "Algebra",
+    "Number Theory",
+    "Analysis",
+    "Differential Equations & Dynamical Systems",
+    "Geometry",
+    "Topology",
+    "Probability & Statistics",
+    "Numerical Analysis & Scientific Computing",
+    "Optimization & Control Theory",
+    "Theoretical Computer Science",
+    "Machine Learning & Data Science Mathematics",
+    "Mathematical Physics",
+    "Applied & Interdisciplinary Mathematics",
+    "Emerging & Advanced Areas",
+    "History, Philosophy & Education"
+  ]
+}

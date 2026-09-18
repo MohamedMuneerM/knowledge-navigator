@@ -1,0 +1,65 @@
+{
+  "id": "cs-high-performance-computing",
+  "name": "High-Performance & Scientific Computing",
+  "category": "Parallel & Distributed Computing",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Running large numerical simulations and data analyses on clusters and supercomputers, with the numerical libraries, tools and practices of computational science.",
+  "prerequisites": [
+    "cs-parallel-computing",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ma-numerical-linear-algebra",
+    "ma-numerical-solutions-of-pdes",
+    "ma-error-analysis",
+    "ph-computational-physics",
+    "ch-molecular-modeling-simulation",
+    "ea-climate-modeling",
+    "me-computational-fluid-dynamics",
+    "ae-computational-fluid-dynamics",
+    "ai-distributed-training"
+  ],
+  "topics": [
+    {
+      "id": "cs-high-performance-computing-1",
+      "name": "Floating-point arithmetic and numerical error in practice"
+    },
+    {
+      "id": "cs-high-performance-computing-2",
+      "name": "Scientific Python and array programming (NumPy, SciPy)"
+    },
+    {
+      "id": "cs-high-performance-computing-3",
+      "name": "Numerical libraries: BLAS, LAPACK and PETSc"
+    },
+    {
+      "id": "cs-high-performance-computing-4",
+      "name": "Supercomputer architecture and interconnects"
+    },
+    {
+      "id": "cs-high-performance-computing-5",
+      "name": "Batch schedulers and running jobs on clusters (Slurm)"
+    },
+    {
+      "id": "cs-high-performance-computing-6",
+      "name": "Parallel I/O and scientific data formats (HDF5)"
+    },
+    {
+      "id": "cs-high-performance-computing-7",
+      "name": "Strong and weak scaling"
+    },
+    {
+      "id": "cs-high-performance-computing-8",
+      "name": "The roofline model and performance modeling"
+    },
+    {
+      "id": "cs-high-performance-computing-9",
+      "name": "Mixed-precision and accelerator-based computing"
+    },
+    {
+      "id": "cs-high-performance-computing-10",
+      "name": "Reproducibility and research software engineering"
+    }
+  ]
+}

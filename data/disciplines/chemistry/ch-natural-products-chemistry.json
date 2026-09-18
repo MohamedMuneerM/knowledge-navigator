@@ -1,0 +1,51 @@
+{
+  "id": "ch-natural-products-chemistry",
+  "name": "Natural Products Chemistry",
+  "category": "Organic Chemistry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How living organisms build complex secondary metabolites, and how chemists isolate, identify and synthesise them.",
+  "prerequisites": [
+    "ch-organic-synthesis",
+    "ch-biochemistry-structure-function"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-natural-products-chemistry-1",
+      "name": "Primary vs secondary metabolism"
+    },
+    {
+      "id": "ch-natural-products-chemistry-2",
+      "name": "Polyketide biosynthesis"
+    },
+    {
+      "id": "ch-natural-products-chemistry-3",
+      "name": "Terpenoid and steroid biosynthesis"
+    },
+    {
+      "id": "ch-natural-products-chemistry-4",
+      "name": "Alkaloids: biosynthesis and structure"
+    },
+    {
+      "id": "ch-natural-products-chemistry-5",
+      "name": "Shikimate pathway, phenylpropanoids and flavonoids"
+    },
+    {
+      "id": "ch-natural-products-chemistry-6",
+      "name": "Nonribosomal peptides"
+    },
+    {
+      "id": "ch-natural-products-chemistry-7",
+      "name": "Isolation, dereplication and structure elucidation"
+    },
+    {
+      "id": "ch-natural-products-chemistry-8",
+      "name": "Total and biomimetic synthesis of natural products"
+    },
+    {
+      "id": "ch-natural-products-chemistry-9",
+      "name": "Natural products as drugs and genome mining"
+    }
+  ]
+}

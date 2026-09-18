@@ -1,0 +1,69 @@
+{
+  "id": "mt-radiation-nuclear-materials",
+  "name": "Radiation Effects & Nuclear Materials",
+  "category": "Aerospace & Extreme-Environment Materials",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Explains how neutrons, ions and energetic particles damage materials and which materials survive in fission reactors, fusion devices and space.",
+  "prerequisites": [
+    "mt-creep",
+    "ph-nuclear-physics"
+  ],
+  "related": [
+    "ch-applied-radiochemistry"
+  ],
+  "topics": [
+    {
+      "id": "mt-radiation-nuclear-materials-1",
+      "name": "Radiation-matter interactions: neutrons, ions, electrons and gamma rays"
+    },
+    {
+      "id": "mt-radiation-nuclear-materials-2",
+      "name": "Displacement damage: primary knock-on atoms, cascades and dpa"
+    },
+    {
+      "id": "mt-radiation-nuclear-materials-3",
+      "name": "Radiation-induced point defects, loops and voids"
+    },
+    {
+      "id": "mt-radiation-nuclear-materials-4",
+      "name": "Radiation hardening and embrittlement (DBTT shift in pressure vessel steels)"
+    },
+    {
+      "id": "mt-radiation-nuclear-materials-5",
+      "name": "Void swelling, irradiation creep and irradiation growth"
+    },
+    {
+      "id": "mt-radiation-nuclear-materials-6",
+      "name": "Radiation-induced segregation and precipitation"
+    },
+    {
+      "id": "mt-radiation-nuclear-materials-7",
+      "name": "Transmutation and helium embrittlement"
+    },
+    {
+      "id": "mt-radiation-nuclear-materials-8",
+      "name": "Fission fuel materials: UO2, MOX and accident-tolerant fuels"
+    },
+    {
+      "id": "mt-radiation-nuclear-materials-9",
+      "name": "Cladding and core materials: zirconium alloys, stainless steels and ODS steels"
+    },
+    {
+      "id": "mt-radiation-nuclear-materials-10",
+      "name": "Fusion materials: plasma-facing tungsten, reduced-activation steels and breeder blankets"
+    },
+    {
+      "id": "mt-radiation-nuclear-materials-11",
+      "name": "Radiation effects in polymers, ceramics and semiconductors"
+    },
+    {
+      "id": "mt-radiation-nuclear-materials-12",
+      "name": "Radiation shielding materials"
+    },
+    {
+      "id": "mt-radiation-nuclear-materials-13",
+      "name": "Ion-beam simulation of neutron damage"
+    }
+  ]
+}

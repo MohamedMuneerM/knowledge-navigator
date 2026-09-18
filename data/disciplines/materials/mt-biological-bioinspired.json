@@ -1,0 +1,57 @@
+{
+  "id": "mt-biological-bioinspired",
+  "name": "Biological & Bioinspired Materials",
+  "category": "Nanomaterials & Biomaterials",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Studies how nature builds tough, light and adaptive materials such as bone, nacre, wood and silk, and how engineers copy their design principles.",
+  "prerequisites": [
+    "mt-composites",
+    "mt-biomaterials"
+  ],
+  "related": [
+    "bi-biomechanics"
+  ],
+  "topics": [
+    {
+      "id": "mt-biological-bioinspired-1",
+      "name": "Hierarchical structure as a design principle"
+    },
+    {
+      "id": "mt-biological-bioinspired-2",
+      "name": "Structural proteins and polysaccharides: collagen, keratin, silk, chitin and cellulose"
+    },
+    {
+      "id": "mt-biological-bioinspired-3",
+      "name": "Bone and teeth: mineralised collagen and toughening mechanisms"
+    },
+    {
+      "id": "mt-biological-bioinspired-4",
+      "name": "Nacre and shells: brick-and-mortar toughening"
+    },
+    {
+      "id": "mt-biological-bioinspired-5",
+      "name": "Wood and plant cell walls: cellular solids and fibre composites"
+    },
+    {
+      "id": "mt-biological-bioinspired-6",
+      "name": "Spider silk and high-performance natural fibres"
+    },
+    {
+      "id": "mt-biological-bioinspired-7",
+      "name": "Impact-resistant biological armour: mantis shrimp club, fish scales, turtle shells"
+    },
+    {
+      "id": "mt-biological-bioinspired-8",
+      "name": "Adhesion and surfaces: gecko feet, mussel adhesives, lotus effect"
+    },
+    {
+      "id": "mt-biological-bioinspired-9",
+      "name": "Structural colour and photonic structures in nature"
+    },
+    {
+      "id": "mt-biological-bioinspired-10",
+      "name": "Bioinspired and biomimetic synthesis: freeze casting, layer-by-layer assembly"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "el-memory-management",
+  "name": "Embedded Memory Management",
+  "category": "Embedded Software, Firmware & RTOS",
+  "level": 3,
+  "priority": "important",
+  "summary": "Managing scarce memory safely: stack vs heap, fragmentation, memory pools, overflow detection, protection and linker scripts.",
+  "prerequisites": [
+    "el-embedded-cc-best-practices"
+  ],
+  "related": [
+    "cs-systems-programming"
+  ],
+  "topics": [
+    {
+      "id": "el-memory-management-1",
+      "name": "Stack vs heap allocation"
+    },
+    {
+      "id": "el-memory-management-2",
+      "name": "Memory fragmentation"
+    },
+    {
+      "id": "el-memory-management-3",
+      "name": "Static and dynamic allocation"
+    },
+    {
+      "id": "el-memory-management-4",
+      "name": "Memory pools and custom allocators"
+    },
+    {
+      "id": "el-memory-management-5",
+      "name": "Stack overflow detection"
+    },
+    {
+      "id": "el-memory-management-6",
+      "name": "Memory protection and bounds checking"
+    },
+    {
+      "id": "el-memory-management-7",
+      "name": "Linker scripts and memory sections"
+    }
+  ]
+}

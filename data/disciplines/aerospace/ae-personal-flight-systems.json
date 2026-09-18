@@ -1,0 +1,55 @@
+{
+  "id": "ae-personal-flight-systems",
+  "name": "Personal Flight Systems: Jet Suits & Human-Carrying VTOL",
+  "category": "Air Vehicle Design",
+  "level": 4,
+  "priority": "optional",
+  "summary": "The engineering of jet suits, jetpacks and personal VTOL: thrust-to-weight, fuel fraction, stability with a human in the loop, and safety.",
+  "prerequisites": [
+    "ae-uav-drone-engineering",
+    "ae-gas-turbine-engines",
+    "ae-flight-dynamics"
+  ],
+  "related": [
+    "ai-wearable-robotics-exoskeletons",
+    "ae-rocketry-basics"
+  ],
+  "topics": [
+    {
+      "id": "ae-personal-flight-systems-1",
+      "name": "History: rocket belts, jetpacks and jet suits"
+    },
+    {
+      "id": "ae-personal-flight-systems-2",
+      "name": "Thrust-to-weight and hover power requirements"
+    },
+    {
+      "id": "ae-personal-flight-systems-3",
+      "name": "Fuel mass fraction and endurance limits"
+    },
+    {
+      "id": "ae-personal-flight-systems-4",
+      "name": "Micro gas turbines and electric ducted fans"
+    },
+    {
+      "id": "ae-personal-flight-systems-5",
+      "name": "Thrust vectoring and body-in-the-loop control"
+    },
+    {
+      "id": "ae-personal-flight-systems-6",
+      "name": "Stability augmentation and fly-by-wire for individuals"
+    },
+    {
+      "id": "ae-personal-flight-systems-7",
+      "name": "Heat, noise and exhaust hazards to the pilot"
+    },
+    {
+      "id": "ae-personal-flight-systems-8",
+      "name": "Failure modes, redundancy and safe landing"
+    },
+    {
+      "id": "ae-personal-flight-systems-9",
+      "name": "Regulation and certification of personal aircraft"
+    }
+  ]
+}

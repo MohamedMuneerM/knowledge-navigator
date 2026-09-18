@@ -1,0 +1,49 @@
+{
+  "id": "el-tinyml-tiny-machine-learning",
+  "name": "TinyML (Tiny Machine Learning)",
+  "category": "Machine Learning & Edge AI",
+  "level": 3,
+  "priority": "important",
+  "summary": "Running machine-learning models on microcontrollers within tight memory, power and latency budgets.",
+  "prerequisites": [
+    "el-embedded-systems-fundamentals",
+    "ai-neural-network-foundations"
+  ],
+  "related": [
+    "ai-edge-ai-embedded-ml"
+  ],
+  "topics": [
+    {
+      "id": "el-tinyml-tiny-machine-learning-1",
+      "name": "ML on microcontrollers (Cortex-M, RISC-V)"
+    },
+    {
+      "id": "el-tinyml-tiny-machine-learning-2",
+      "name": "Model size and memory constraints"
+    },
+    {
+      "id": "el-tinyml-tiny-machine-learning-3",
+      "name": "Power-efficient inference"
+    },
+    {
+      "id": "el-tinyml-tiny-machine-learning-4",
+      "name": "Real-time processing requirements"
+    },
+    {
+      "id": "el-tinyml-tiny-machine-learning-5",
+      "name": "The TinyML workflow: collect, train, convert, deploy"
+    },
+    {
+      "id": "el-tinyml-tiny-machine-learning-6",
+      "name": "On-device feature extraction (MFCCs, spectrograms)"
+    },
+    {
+      "id": "el-tinyml-tiny-machine-learning-7",
+      "name": "Kernel libraries such as CMSIS-NN"
+    },
+    {
+      "id": "el-tinyml-tiny-machine-learning-8",
+      "name": "Benchmarking TinyML (MLPerf Tiny)"
+    }
+  ]
+}

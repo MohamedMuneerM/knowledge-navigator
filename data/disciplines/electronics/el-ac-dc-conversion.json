@@ -1,0 +1,46 @@
+{
+  "id": "el-ac-dc-conversion",
+  "name": "AC-DC Conversion",
+  "category": "Power Electronics & Power Management",
+  "level": 3,
+  "priority": "important",
+  "summary": "Turning mains AC into DC: rectifiers, off-line supply topologies, isolation and EMI filtering.",
+  "prerequisites": [
+    "el-power-electronics-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-ac-dc-conversion-1",
+      "name": "Rectifiers (half-wave, full-wave, bridge)"
+    },
+    {
+      "id": "el-ac-dc-conversion-2",
+      "name": "Power supply topologies"
+    },
+    {
+      "id": "el-ac-dc-conversion-3",
+      "name": "Isolation transformers"
+    },
+    {
+      "id": "el-ac-dc-conversion-4",
+      "name": "EMI filtering and suppression"
+    },
+    {
+      "id": "el-ac-dc-conversion-5",
+      "name": "Capacitor-input filters, ripple and hold-up time"
+    },
+    {
+      "id": "el-ac-dc-conversion-6",
+      "name": "Inrush current limiting"
+    },
+    {
+      "id": "el-ac-dc-conversion-7",
+      "name": "Low-power off-line flyback supplies"
+    },
+    {
+      "id": "el-ac-dc-conversion-8",
+      "name": "Safety isolation, creepage and clearance"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "me-kinematics-of-mechanisms",
+  "name": "Kinematics of Mechanisms",
+  "category": "Mechanisms & Kinematics of Machinery",
+  "level": 3,
+  "priority": "core",
+  "summary": "Analysis and synthesis of linkages, cams and gear trains that produce a desired motion.",
+  "prerequisites": [
+    "me-dynamics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "me-kinematics-of-mechanisms-1",
+      "name": "Links, joints, kinematic chains and mechanism classification"
+    },
+    {
+      "id": "me-kinematics-of-mechanisms-2",
+      "name": "Degrees of freedom: Gruebler/Kutzbach criterion"
+    },
+    {
+      "id": "me-kinematics-of-mechanisms-3",
+      "name": "Grashof condition, four-bar linkage behaviour and inversions"
+    },
+    {
+      "id": "me-kinematics-of-mechanisms-4",
+      "name": "Position analysis of linkages (graphical, vector-loop, complex-number methods)"
+    },
+    {
+      "id": "me-kinematics-of-mechanisms-5",
+      "name": "Velocity analysis and instant centres (Kennedy's theorem)"
+    },
+    {
+      "id": "me-kinematics-of-mechanisms-6",
+      "name": "Acceleration analysis including Coriolis components"
+    },
+    {
+      "id": "me-kinematics-of-mechanisms-7",
+      "name": "Slider-crank, quick-return and other common mechanisms"
+    },
+    {
+      "id": "me-kinematics-of-mechanisms-8",
+      "name": "Linkage synthesis: function, path and motion generation (graphical and Freudenstein methods)"
+    },
+    {
+      "id": "me-kinematics-of-mechanisms-9",
+      "name": "Cam design: follower motions, SVAJ diagrams and cam-profile synthesis"
+    },
+    {
+      "id": "me-kinematics-of-mechanisms-10",
+      "name": "Gear-train kinematics: simple, compound, reverted and epicyclic trains"
+    },
+    {
+      "id": "me-kinematics-of-mechanisms-11",
+      "name": "Intermittent-motion mechanisms: Geneva wheels and ratchets"
+    },
+    {
+      "id": "me-kinematics-of-mechanisms-12",
+      "name": "Introduction to spatial mechanisms"
+    },
+    {
+      "id": "me-kinematics-of-mechanisms-13",
+      "name": "Mechanism simulation software"
+    }
+  ]
+}

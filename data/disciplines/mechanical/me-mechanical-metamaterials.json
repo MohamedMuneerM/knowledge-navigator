@@ -1,0 +1,50 @@
+{
+  "id": "me-mechanical-metamaterials",
+  "name": "Mechanical Metamaterials & Architected Materials",
+  "category": "Frontiers of Mechanical Engineering",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Materials whose properties come from their designed geometry rather than their chemistry: lattices, auxetics, multistable, origami and phononic structures.",
+  "prerequisites": [
+    "me-continuum-mechanics-elasticity-plasticity",
+    "me-additive-manufacturing"
+  ],
+  "related": [
+    "mt-metamaterials",
+    "mt-lightweight-structures"
+  ],
+  "topics": [
+    {
+      "id": "me-mechanical-metamaterials-1",
+      "name": "Architected lattices: stretch- vs bending-dominated behaviour and scaling laws"
+    },
+    {
+      "id": "me-mechanical-metamaterials-2",
+      "name": "Auxetic (negative Poisson's ratio) structures"
+    },
+    {
+      "id": "me-mechanical-metamaterials-3",
+      "name": "Negative stiffness, multistability and energy trapping"
+    },
+    {
+      "id": "me-mechanical-metamaterials-4",
+      "name": "Origami- and kirigami-inspired structures"
+    },
+    {
+      "id": "me-mechanical-metamaterials-5",
+      "name": "Programmable and reconfigurable metamaterials"
+    },
+    {
+      "id": "me-mechanical-metamaterials-6",
+      "name": "Phononic crystals and vibration/acoustic band gaps"
+    },
+    {
+      "id": "me-mechanical-metamaterials-7",
+      "name": "Impact-absorbing and protective architected materials"
+    },
+    {
+      "id": "me-mechanical-metamaterials-8",
+      "name": "Computational and inverse design of metamaterials"
+    }
+  ]
+}

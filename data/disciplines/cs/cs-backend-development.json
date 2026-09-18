@@ -1,0 +1,74 @@
+{
+  "id": "cs-backend-development",
+  "name": "Backend Web Development",
+  "category": "Web & Mobile Development",
+  "level": 3,
+  "priority": "important",
+  "summary": "Building the server side of web applications: HTTP APIs, data access, authentication, caching, background jobs and deployment.",
+  "prerequisites": [
+    "cs-web-fundamentals",
+    "cs-databases"
+  ],
+  "related": [
+    "el-api-architectures",
+    "el-data-serialization-formats"
+  ],
+  "topics": [
+    {
+      "id": "cs-backend-development-1",
+      "name": "HTTP in depth: methods, status codes, headers and caching"
+    },
+    {
+      "id": "cs-backend-development-2",
+      "name": "Server-side frameworks (Express, Django, Spring, ASP.NET Core)"
+    },
+    {
+      "id": "cs-backend-development-3",
+      "name": "Designing RESTful APIs"
+    },
+    {
+      "id": "cs-backend-development-4",
+      "name": "GraphQL and gRPC"
+    },
+    {
+      "id": "cs-backend-development-5",
+      "name": "Data access: ORMs, migrations and connection pooling"
+    },
+    {
+      "id": "cs-backend-development-6",
+      "name": "Authentication: sessions, cookies, tokens, OAuth 2.0 and OpenID Connect"
+    },
+    {
+      "id": "cs-backend-development-7",
+      "name": "Authorization and access control"
+    },
+    {
+      "id": "cs-backend-development-8",
+      "name": "Validation, error handling and logging"
+    },
+    {
+      "id": "cs-backend-development-9",
+      "name": "Caching with Redis"
+    },
+    {
+      "id": "cs-backend-development-10",
+      "name": "Background jobs and message queues"
+    },
+    {
+      "id": "cs-backend-development-11",
+      "name": "Real-time communication: WebSockets and server-sent events"
+    },
+    {
+      "id": "cs-backend-development-12",
+      "name": "API documentation (OpenAPI) and versioning"
+    },
+    {
+      "id": "cs-backend-development-13",
+      "name": "Testing backend services"
+    },
+    {
+      "id": "cs-backend-development-14",
+      "name": "Configuration and deployment"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "me-thermal-fluid-systems-design",
+  "name": "Thermal-Fluid Systems Design",
+  "category": "Thermal-Fluid Sciences",
+  "level": 3,
+  "priority": "important",
+  "summary": "Integrating thermodynamics, fluid mechanics and heat transfer to size, simulate and optimise complete thermal-fluid systems.",
+  "prerequisites": [
+    "me-heat-transfer",
+    "me-applied-thermodynamics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "me-thermal-fluid-systems-design-1",
+      "name": "Thermal system design process: workable vs optimum design"
+    },
+    {
+      "id": "me-thermal-fluid-systems-design-2",
+      "name": "Piping and duct system design; pipe networks (Hardy Cross)"
+    },
+    {
+      "id": "me-thermal-fluid-systems-design-3",
+      "name": "Pump, fan and compressor selection; system matching; series and parallel operation"
+    },
+    {
+      "id": "me-thermal-fluid-systems-design-4",
+      "name": "Heat exchanger design and rating (shell-and-tube, plate, compact)"
+    },
+    {
+      "id": "me-thermal-fluid-systems-design-5",
+      "name": "Cooling towers, condensers and evaporators"
+    },
+    {
+      "id": "me-thermal-fluid-systems-design-6",
+      "name": "Control valves: characteristics and sizing"
+    },
+    {
+      "id": "me-thermal-fluid-systems-design-7",
+      "name": "Steady-state system simulation and component modelling"
+    },
+    {
+      "id": "me-thermal-fluid-systems-design-8",
+      "name": "Economics of thermal systems (life-cycle cost, payback)"
+    },
+    {
+      "id": "me-thermal-fluid-systems-design-9",
+      "name": "Optimization of thermal systems (Lagrange multipliers, search methods)"
+    },
+    {
+      "id": "me-thermal-fluid-systems-design-10",
+      "name": "Energy recovery: waste heat, heat pipes and thermal storage"
+    },
+    {
+      "id": "me-thermal-fluid-systems-design-11",
+      "name": "Pinch analysis and heat exchanger networks"
+    }
+  ]
+}

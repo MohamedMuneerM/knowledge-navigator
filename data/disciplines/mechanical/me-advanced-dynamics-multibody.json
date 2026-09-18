@@ -1,0 +1,65 @@
+{
+  "id": "me-advanced-dynamics-multibody",
+  "name": "Advanced Dynamics & Multibody Systems",
+  "category": "Engineering Mechanics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Three-dimensional rigid-body dynamics and the analytical methods used to model and simulate complex machines, vehicles and robots.",
+  "prerequisites": [
+    "me-dynamics",
+    "ph-classical-mechanics",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ma-classical-mechanics",
+    "ae-attitude-kinematics-dynamics",
+    "ae-flight-dynamics",
+    "cs-computer-animation-simulation"
+  ],
+  "topics": [
+    {
+      "id": "me-advanced-dynamics-multibody-1",
+      "name": "Rotation representations: rotation matrices, Euler angles, axis-angle, quaternions"
+    },
+    {
+      "id": "me-advanced-dynamics-multibody-2",
+      "name": "Angular velocity and acceleration in 3D; rotating reference frames"
+    },
+    {
+      "id": "me-advanced-dynamics-multibody-3",
+      "name": "Inertia tensor, principal axes and Euler's equations"
+    },
+    {
+      "id": "me-advanced-dynamics-multibody-4",
+      "name": "Gyroscopic effects, spinning tops and gyroscopes"
+    },
+    {
+      "id": "me-advanced-dynamics-multibody-5",
+      "name": "Generalised coordinates, holonomic and nonholonomic constraints, virtual work"
+    },
+    {
+      "id": "me-advanced-dynamics-multibody-6",
+      "name": "Lagrange's equations for engineering systems"
+    },
+    {
+      "id": "me-advanced-dynamics-multibody-7",
+      "name": "Kane's method and recursive Newton-Euler formulations"
+    },
+    {
+      "id": "me-advanced-dynamics-multibody-8",
+      "name": "Multibody system formulations and constraint stabilisation"
+    },
+    {
+      "id": "me-advanced-dynamics-multibody-9",
+      "name": "Contact, impact and friction in multibody simulation"
+    },
+    {
+      "id": "me-advanced-dynamics-multibody-10",
+      "name": "Numerical multibody simulation tools (Simscape Multibody, MSC Adams, MuJoCo)"
+    },
+    {
+      "id": "me-advanced-dynamics-multibody-11",
+      "name": "Linearisation and stability of motion"
+    }
+  ]
+}

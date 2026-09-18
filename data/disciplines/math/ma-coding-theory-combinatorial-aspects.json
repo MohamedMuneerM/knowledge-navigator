@@ -1,0 +1,33 @@
+{
+  "id": "ma-coding-theory-combinatorial-aspects",
+  "name": "Coding Theory (Combinatorial Aspects)",
+  "category": "Combinatorics & Discrete Mathematics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Combinatorial bounds and constructions for codes, including block codes and network coding.",
+  "prerequisites": [
+    "ma-algebraic-coding-theory"
+  ],
+  "related": [
+    "ma-error-correcting-codes",
+    "ma-algebraic-coding-theory"
+  ],
+  "topics": [
+    {
+      "id": "ma-coding-theory-combinatorial-aspects-1",
+      "name": "Block codes"
+    },
+    {
+      "id": "ma-coding-theory-combinatorial-aspects-3",
+      "name": "Bounds on codes: Hamming, Singleton, Plotkin and Gilbert-Varshamov"
+    },
+    {
+      "id": "ma-coding-theory-combinatorial-aspects-4",
+      "name": "Perfect codes and designs"
+    },
+    {
+      "id": "ma-coding-theory-combinatorial-aspects-2",
+      "name": "Network coding"
+    }
+  ]
+}

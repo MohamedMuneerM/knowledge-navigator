@@ -1,0 +1,61 @@
+{
+  "id": "ch-chemical-biology",
+  "name": "Chemical Biology",
+  "category": "Biochemistry & Chemical Biology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Using synthetic chemistry and small molecules to probe, image and control biological systems.",
+  "prerequisites": [
+    "ch-biochemistry-structure-function",
+    "ch-organic-synthesis"
+  ],
+  "related": [
+    "bi-molecular-biology"
+  ],
+  "topics": [
+    {
+      "id": "ch-chemical-biology-1",
+      "name": "Chemical probes and target identification"
+    },
+    {
+      "id": "ch-chemical-biology-2",
+      "name": "Bioorthogonal chemistry and click reactions in living systems"
+    },
+    {
+      "id": "ch-chemical-biology-3",
+      "name": "Solid-phase peptide synthesis and native chemical ligation"
+    },
+    {
+      "id": "ch-chemical-biology-4",
+      "name": "Oligonucleotide synthesis and nucleic-acid chemistry"
+    },
+    {
+      "id": "ch-chemical-biology-5",
+      "name": "Unnatural amino acids and genetic-code expansion"
+    },
+    {
+      "id": "ch-chemical-biology-6",
+      "name": "Protein labelling and fluorescent reporters"
+    },
+    {
+      "id": "ch-chemical-biology-7",
+      "name": "Activity-based protein profiling and chemoproteomics"
+    },
+    {
+      "id": "ch-chemical-biology-8",
+      "name": "Chemical genetics and small-molecule modulators"
+    },
+    {
+      "id": "ch-chemical-biology-9",
+      "name": "Glycochemistry and glycan synthesis"
+    },
+    {
+      "id": "ch-chemical-biology-10",
+      "name": "Targeted protein degradation (PROTACs and molecular glues)"
+    },
+    {
+      "id": "ch-chemical-biology-11",
+      "name": "DNA-encoded libraries and selection methods"
+    }
+  ]
+}

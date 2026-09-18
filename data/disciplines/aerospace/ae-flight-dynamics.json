@@ -1,0 +1,61 @@
+{
+  "id": "ae-flight-dynamics",
+  "name": "Aircraft Flight Dynamics",
+  "category": "Flight Mechanics & Control",
+  "level": 3,
+  "priority": "core",
+  "summary": "The six-degree-of-freedom motion of aircraft: equations of motion, stability derivatives and the natural dynamic modes.",
+  "prerequisites": [
+    "ae-aircraft-stability-control",
+    "ae-aerospace-dynamics"
+  ],
+  "related": [
+    "me-advanced-dynamics-multibody"
+  ],
+  "topics": [
+    {
+      "id": "ae-flight-dynamics-1",
+      "name": "Axis systems: body, stability, wind and Earth axes"
+    },
+    {
+      "id": "ae-flight-dynamics-2",
+      "name": "Nonlinear 6-DOF rigid-body equations of motion"
+    },
+    {
+      "id": "ae-flight-dynamics-3",
+      "name": "Small-disturbance theory and linearisation"
+    },
+    {
+      "id": "ae-flight-dynamics-4",
+      "name": "Aerodynamic and stability derivatives"
+    },
+    {
+      "id": "ae-flight-dynamics-5",
+      "name": "Longitudinal modes: short period and phugoid"
+    },
+    {
+      "id": "ae-flight-dynamics-6",
+      "name": "Lateral-directional modes: roll subsidence, spiral and Dutch roll"
+    },
+    {
+      "id": "ae-flight-dynamics-7",
+      "name": "Transfer functions and response to control inputs"
+    },
+    {
+      "id": "ae-flight-dynamics-8",
+      "name": "Atmospheric turbulence and gust response"
+    },
+    {
+      "id": "ae-flight-dynamics-9",
+      "name": "Handling qualities: Cooper-Harper scale and MIL-F-8785C criteria"
+    },
+    {
+      "id": "ae-flight-dynamics-10",
+      "name": "Stall, spin and departure dynamics"
+    },
+    {
+      "id": "ae-flight-dynamics-11",
+      "name": "Flight simulation and system identification from flight data"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ch-process-design-control-safety",
+  "name": "Process Design, Control & Safety",
+  "category": "Chemical Engineering Fundamentals",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Turning chemistry into a safe, controllable and economic plant: flowsheets, control loops, hazards and costs.",
+  "prerequisites": [
+    "ch-chemical-reaction-engineering",
+    "ch-separation-processes",
+    "ma-integral-transforms"
+  ],
+  "related": [
+    "ma-control-theory"
+  ],
+  "topics": [
+    {
+      "id": "ch-process-design-control-safety-1",
+      "name": "Process synthesis and flowsheet development"
+    },
+    {
+      "id": "ch-process-design-control-safety-2",
+      "name": "Process simulation and equipment sizing"
+    },
+    {
+      "id": "ch-process-design-control-safety-3",
+      "name": "Capital and operating cost estimation; process economics"
+    },
+    {
+      "id": "ch-process-design-control-safety-4",
+      "name": "Process dynamics and feedback control (PID)"
+    },
+    {
+      "id": "ch-process-design-control-safety-5",
+      "name": "Instrumentation and control strategies for chemical plants"
+    },
+    {
+      "id": "ch-process-design-control-safety-6",
+      "name": "Process safety: hazard identification, HAZOP and LOPA"
+    },
+    {
+      "id": "ch-process-design-control-safety-7",
+      "name": "Runaway reactions, relief systems, dust and vapor explosions"
+    },
+    {
+      "id": "ch-process-design-control-safety-8",
+      "name": "Major accident case studies (Bhopal, Flixborough, Texas City)"
+    },
+    {
+      "id": "ch-process-design-control-safety-9",
+      "name": "Pilot plants and scale-up"
+    },
+    {
+      "id": "ch-process-design-control-safety-10",
+      "name": "Plant operation, regulation and sustainability"
+    }
+  ]
+}

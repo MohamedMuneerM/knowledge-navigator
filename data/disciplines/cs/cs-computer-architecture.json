@@ -1,0 +1,78 @@
+{
+  "id": "cs-computer-architecture",
+  "name": "Computer Architecture",
+  "category": "Computer Architecture & Systems Programming",
+  "level": 3,
+  "priority": "core",
+  "summary": "Quantitative design of modern processors and memory systems: pipelining, instruction-level parallelism, caches, virtual memory, multicore and GPUs.",
+  "prerequisites": [
+    "cs-systems-programming"
+  ],
+  "related": [
+    "el-processor-architecture-concepts",
+    "el-memory-devices",
+    "el-hardware-description-languages-hdl"
+  ],
+  "topics": [
+    {
+      "id": "cs-computer-architecture-1",
+      "name": "Performance metrics: CPI, Amdahl's law and benchmarks"
+    },
+    {
+      "id": "cs-computer-architecture-2",
+      "name": "ISA design principles"
+    },
+    {
+      "id": "cs-computer-architecture-3",
+      "name": "Pipelining and pipeline hazards"
+    },
+    {
+      "id": "cs-computer-architecture-4",
+      "name": "Branch prediction"
+    },
+    {
+      "id": "cs-computer-architecture-5",
+      "name": "Instruction-level parallelism: superscalar and out-of-order execution"
+    },
+    {
+      "id": "cs-computer-architecture-6",
+      "name": "Caches: organization, associativity, replacement and write policies"
+    },
+    {
+      "id": "cs-computer-architecture-7",
+      "name": "Cache performance and optimizing for locality"
+    },
+    {
+      "id": "cs-computer-architecture-8",
+      "name": "Virtual memory hardware: TLBs and address translation"
+    },
+    {
+      "id": "cs-computer-architecture-9",
+      "name": "Main memory and DRAM organization"
+    },
+    {
+      "id": "cs-computer-architecture-10",
+      "name": "Multicore processors, cache coherence and memory consistency"
+    },
+    {
+      "id": "cs-computer-architecture-11",
+      "name": "SIMD and vector processing"
+    },
+    {
+      "id": "cs-computer-architecture-12",
+      "name": "GPU architecture"
+    },
+    {
+      "id": "cs-computer-architecture-13",
+      "name": "Power, energy and thermal limits"
+    },
+    {
+      "id": "cs-computer-architecture-14",
+      "name": "Storage and I/O systems"
+    },
+    {
+      "id": "cs-computer-architecture-15",
+      "name": "Describing a processor in a hardware description language"
+    }
+  ]
+}

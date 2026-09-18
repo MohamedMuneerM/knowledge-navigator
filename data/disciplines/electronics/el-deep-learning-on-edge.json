@@ -1,0 +1,38 @@
+{
+  "id": "el-deep-learning-on-edge",
+  "name": "Deep Learning on Edge",
+  "category": "Machine Learning & Edge AI",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Deploying CNNs, RNNs, lightweight transformers, autoencoders and generative models on edge devices.",
+  "prerequisites": [
+    "el-model-optimization-techniques",
+    "el-ml-frameworks-for-embedded"
+  ],
+  "related": [
+    "ai-edge-ai-embedded-ml",
+    "el-edge-ai-for-vision"
+  ],
+  "topics": [
+    {
+      "id": "el-deep-learning-on-edge-1",
+      "name": "Convolutional Neural Networks (CNN)"
+    },
+    {
+      "id": "el-deep-learning-on-edge-2",
+      "name": "Recurrent Neural Networks (RNN, LSTM, GRU)"
+    },
+    {
+      "id": "el-deep-learning-on-edge-3",
+      "name": "Transformer models (lightweight variants)"
+    },
+    {
+      "id": "el-deep-learning-on-edge-4",
+      "name": "Autoencoders"
+    },
+    {
+      "id": "el-deep-learning-on-edge-5",
+      "name": "Generative models"
+    }
+  ]
+}

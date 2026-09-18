@@ -1,0 +1,47 @@
+{
+  "id": "ma-cryptographic-number-theory",
+  "name": "Cryptographic Number Theory",
+  "category": "Number Theory",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "The number theory behind public-key cryptography: primality testing, factoring, RSA and discrete logarithms.",
+  "prerequisites": [
+    "ma-elementary-number-theory",
+    "ma-abstract-algebra"
+  ],
+  "related": [
+    "ma-cryptography",
+    "el-cryptography-fundamentals",
+    "cs-applied-cryptography"
+  ],
+  "topics": [
+    {
+      "id": "ma-cryptographic-number-theory-4",
+      "name": "Modular exponentiation"
+    },
+    {
+      "id": "ma-cryptographic-number-theory-3",
+      "name": "Primality testing"
+    },
+    {
+      "id": "ma-cryptographic-number-theory-5",
+      "name": "Integer factorisation algorithms"
+    },
+    {
+      "id": "ma-cryptographic-number-theory-1",
+      "name": "RSA cryptography"
+    },
+    {
+      "id": "ma-cryptographic-number-theory-2",
+      "name": "Discrete logarithm problem"
+    },
+    {
+      "id": "ma-cryptographic-number-theory-6",
+      "name": "Diffie-Hellman and ElGamal"
+    },
+    {
+      "id": "ma-cryptographic-number-theory-7",
+      "name": "Lattice-based cryptography (introduction)"
+    }
+  ]
+}

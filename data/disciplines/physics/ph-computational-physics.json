@@ -1,0 +1,81 @@
+{
+  "id": "ph-computational-physics",
+  "name": "Computational Physics",
+  "category": "Mathematical & Computational Methods",
+  "level": 3,
+  "priority": "important",
+  "summary": "Solving physics problems numerically: integration of equations, simulation, Monte Carlo and first-principles methods.",
+  "prerequisites": [
+    "ph-quantum-mechanics",
+    "ph-thermodynamics-statistical-mechanics",
+    "cs-programming-fundamentals"
+  ],
+  "related": [
+    "ma-numerical-solutions-of-odes",
+    "ma-numerical-solutions-of-pdes",
+    "ma-monte-carlo-methods",
+    "ai-ai-for-science",
+    "cs-high-performance-computing",
+    "ch-molecular-modeling-simulation",
+    "ch-electronic-structure-theory",
+    "mt-computational-materials-intro"
+  ],
+  "topics": [
+    {
+      "id": "ph-computational-physics-1",
+      "name": "Numerical methods"
+    },
+    {
+      "id": "ph-computational-physics-9",
+      "name": "Numerical solution of ODEs: orbits, oscillators and chaos"
+    },
+    {
+      "id": "ph-computational-physics-10",
+      "name": "Numerical linear algebra and eigenvalue problems"
+    },
+    {
+      "id": "ph-computational-physics-11",
+      "name": "Solving PDEs: finite differences and spectral methods"
+    },
+    {
+      "id": "ph-computational-physics-12",
+      "name": "The fast Fourier transform in physics"
+    },
+    {
+      "id": "ph-computational-physics-2",
+      "name": "Simulation and modeling"
+    },
+    {
+      "id": "ph-computational-physics-3",
+      "name": "Monte Carlo methods"
+    },
+    {
+      "id": "ph-computational-physics-5",
+      "name": "Molecular dynamics"
+    },
+    {
+      "id": "ph-computational-physics-13",
+      "name": "N-body and particle-in-cell methods"
+    },
+    {
+      "id": "ph-computational-physics-4",
+      "name": "Finite element methods"
+    },
+    {
+      "id": "ph-computational-physics-7",
+      "name": "Ab-initio calculations"
+    },
+    {
+      "id": "ph-computational-physics-6",
+      "name": "Density functional theory (DFT)"
+    },
+    {
+      "id": "ph-computational-physics-8",
+      "name": "Machine learning in physics"
+    },
+    {
+      "id": "ph-computational-physics-14",
+      "name": "High-performance and parallel computing"
+    }
+  ]
+}

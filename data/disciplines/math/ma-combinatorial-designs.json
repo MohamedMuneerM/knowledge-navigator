@@ -1,0 +1,39 @@
+{
+  "id": "ma-combinatorial-designs",
+  "name": "Combinatorial Designs",
+  "category": "Combinatorics & Discrete Mathematics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Balanced arrangements such as block designs, Latin squares and Steiner systems, used in experimental design and coding.",
+  "prerequisites": [
+    "ma-enumerative-combinatorics",
+    "ma-abstract-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-combinatorial-designs-1",
+      "name": "Block designs"
+    },
+    {
+      "id": "ma-combinatorial-designs-4",
+      "name": "Fisher's inequality"
+    },
+    {
+      "id": "ma-combinatorial-designs-2",
+      "name": "Latin squares"
+    },
+    {
+      "id": "ma-combinatorial-designs-3",
+      "name": "Steiner systems"
+    },
+    {
+      "id": "ma-combinatorial-designs-5",
+      "name": "Finite projective planes"
+    },
+    {
+      "id": "ma-combinatorial-designs-6",
+      "name": "Difference sets"
+    }
+  ]
+}

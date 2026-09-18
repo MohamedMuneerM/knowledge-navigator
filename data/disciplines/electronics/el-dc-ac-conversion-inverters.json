@@ -1,0 +1,50 @@
+{
+  "id": "el-dc-ac-conversion-inverters",
+  "name": "DC-AC Conversion (Inverters)",
+  "category": "Power Electronics & Power Management",
+  "level": 3,
+  "priority": "important",
+  "summary": "Inverters that turn DC into AC: H-bridge and three-phase inverters, output waveforms, grid-tied and microgrid use.",
+  "prerequisites": [
+    "el-power-electronics-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-dc-ac-conversion-inverters-1",
+      "name": "H-bridge inverters"
+    },
+    {
+      "id": "el-dc-ac-conversion-inverters-2",
+      "name": "Three-phase inverters"
+    },
+    {
+      "id": "el-dc-ac-conversion-inverters-3",
+      "name": "Sine wave, modified sine wave, square wave"
+    },
+    {
+      "id": "el-dc-ac-conversion-inverters-4",
+      "name": "Grid-tied inverters"
+    },
+    {
+      "id": "el-dc-ac-conversion-inverters-5",
+      "name": "Microgrid applications"
+    },
+    {
+      "id": "el-dc-ac-conversion-inverters-6",
+      "name": "Sinusoidal and space-vector PWM"
+    },
+    {
+      "id": "el-dc-ac-conversion-inverters-7",
+      "name": "Dead time and its effects"
+    },
+    {
+      "id": "el-dc-ac-conversion-inverters-8",
+      "name": "Output filters and harmonic content"
+    },
+    {
+      "id": "el-dc-ac-conversion-inverters-9",
+      "name": "Inverter current control and protection"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ae-lightweight-structural-design",
+  "name": "Lightweight Structural Design and Optimisation",
+  "category": "Structures & Materials",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Designing structures for minimum mass: efficient structural forms, buckling-driven sizing, optimisation and deployable space structures.",
+  "prerequisites": [
+    "ae-finite-element-analysis-aerospace",
+    "ae-composite-structures"
+  ],
+  "related": [
+    "me-lightweight-structures-composites",
+    "mt-lightweight-structures"
+  ],
+  "topics": [
+    {
+      "id": "ae-lightweight-structural-design-1",
+      "name": "Structural efficiency and minimum-weight design"
+    },
+    {
+      "id": "ae-lightweight-structural-design-2",
+      "name": "Optimal design of stiffened panels and isogrid/orthogrid structures"
+    },
+    {
+      "id": "ae-lightweight-structural-design-3",
+      "name": "Sandwich and lattice structures"
+    },
+    {
+      "id": "ae-lightweight-structural-design-4",
+      "name": "Buckling-critical design of shells: knockdown factors"
+    },
+    {
+      "id": "ae-lightweight-structural-design-5",
+      "name": "Sizing, shape and topology optimisation"
+    },
+    {
+      "id": "ae-lightweight-structural-design-6",
+      "name": "Design for additive manufacturing"
+    },
+    {
+      "id": "ae-lightweight-structural-design-7",
+      "name": "Deployable, inflatable and tensioned space structures"
+    },
+    {
+      "id": "ae-lightweight-structural-design-8",
+      "name": "Multifunctional structures"
+    },
+    {
+      "id": "ae-lightweight-structural-design-9",
+      "name": "Probabilistic and reliability-based design"
+    }
+  ]
+}

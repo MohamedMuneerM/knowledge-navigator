@@ -1,0 +1,73 @@
+{
+  "id": "cs-computer-security",
+  "name": "Foundations of Computer Security",
+  "category": "Security",
+  "level": 3,
+  "priority": "core",
+  "summary": "The principles of securing computer systems: threat models, authentication, access control, software vulnerabilities, isolation, network and web attacks, and privacy.",
+  "prerequisites": [
+    "cs-operating-systems",
+    "cs-computer-networks"
+  ],
+  "related": [
+    "el-threat-mitigation"
+  ],
+  "topics": [
+    {
+      "id": "cs-computer-security-1",
+      "name": "Security goals: confidentiality, integrity and availability"
+    },
+    {
+      "id": "cs-computer-security-2",
+      "name": "Threat modeling and attacker models"
+    },
+    {
+      "id": "cs-computer-security-3",
+      "name": "Security principles and secure design"
+    },
+    {
+      "id": "cs-computer-security-4",
+      "name": "Authentication: passwords, multi-factor and biometrics"
+    },
+    {
+      "id": "cs-computer-security-5",
+      "name": "Access-control models: DAC, MAC and RBAC"
+    },
+    {
+      "id": "cs-computer-security-6",
+      "name": "Memory-safety vulnerabilities: buffer overflows and mitigations"
+    },
+    {
+      "id": "cs-computer-security-7",
+      "name": "Malware types and defences"
+    },
+    {
+      "id": "cs-computer-security-8",
+      "name": "OS security and isolation: sandboxing and privilege separation"
+    },
+    {
+      "id": "cs-computer-security-9",
+      "name": "Cryptography overview for practitioners"
+    },
+    {
+      "id": "cs-computer-security-10",
+      "name": "Network attacks and defences"
+    },
+    {
+      "id": "cs-computer-security-11",
+      "name": "Web security overview: injection, XSS and CSRF"
+    },
+    {
+      "id": "cs-computer-security-12",
+      "name": "Usable security and social engineering"
+    },
+    {
+      "id": "cs-computer-security-13",
+      "name": "Privacy and anonymity"
+    },
+    {
+      "id": "cs-computer-security-14",
+      "name": "Legal and ethical aspects of security"
+    }
+  ]
+}

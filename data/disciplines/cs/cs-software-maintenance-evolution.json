@@ -1,0 +1,59 @@
+{
+  "id": "cs-software-maintenance-evolution",
+  "name": "Software Maintenance, Refactoring & Evolution",
+  "category": "Software Engineering",
+  "level": 3,
+  "priority": "important",
+  "summary": "Keeping large, long-lived codebases healthy: understanding legacy code, refactoring, managing technical debt and evolving APIs and dependencies.",
+  "prerequisites": [
+    "cs-software-testing",
+    "cs-software-design-patterns"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-software-maintenance-evolution-1",
+      "name": "Types of maintenance: corrective, adaptive, perfective and preventive"
+    },
+    {
+      "id": "cs-software-maintenance-evolution-2",
+      "name": "Program comprehension of large codebases"
+    },
+    {
+      "id": "cs-software-maintenance-evolution-3",
+      "name": "Code smells and the refactoring catalogue"
+    },
+    {
+      "id": "cs-software-maintenance-evolution-4",
+      "name": "Working with legacy code: seams and characterization tests"
+    },
+    {
+      "id": "cs-software-maintenance-evolution-5",
+      "name": "Identifying and managing technical debt"
+    },
+    {
+      "id": "cs-software-maintenance-evolution-6",
+      "name": "Dependency management and upgrades"
+    },
+    {
+      "id": "cs-software-maintenance-evolution-7",
+      "name": "API evolution, semantic versioning and deprecation"
+    },
+    {
+      "id": "cs-software-maintenance-evolution-8",
+      "name": "Reverse engineering and re-engineering"
+    },
+    {
+      "id": "cs-software-maintenance-evolution-9",
+      "name": "Migration and modernization of legacy systems"
+    },
+    {
+      "id": "cs-software-maintenance-evolution-10",
+      "name": "Software analytics and mining software repositories"
+    },
+    {
+      "id": "cs-software-maintenance-evolution-11",
+      "name": "Large-scale changes and automated refactoring tools"
+    }
+  ]
+}

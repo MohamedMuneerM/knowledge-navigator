@@ -1,0 +1,50 @@
+{
+  "id": "me-machine-learning-digital-twins",
+  "name": "Machine Learning & Digital Twins in Mechanical Engineering",
+  "category": "Frontiers of Mechanical Engineering",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Using data and learning algorithms alongside physics models to simulate, monitor, design and control mechanical systems.",
+  "prerequisites": [
+    "me-finite-element-analysis",
+    "ai-core-ml-concepts"
+  ],
+  "related": [
+    "el-digital-twins",
+    "ai-ai-for-science"
+  ],
+  "topics": [
+    {
+      "id": "me-machine-learning-digital-twins-1",
+      "name": "Data-driven modelling of mechanical systems"
+    },
+    {
+      "id": "me-machine-learning-digital-twins-2",
+      "name": "Surrogate and reduced-order models for simulation"
+    },
+    {
+      "id": "me-machine-learning-digital-twins-3",
+      "name": "Physics-informed neural networks and scientific machine learning"
+    },
+    {
+      "id": "me-machine-learning-digital-twins-4",
+      "name": "Predictive maintenance and prognostics from sensor data"
+    },
+    {
+      "id": "me-machine-learning-digital-twins-5",
+      "name": "Digital twins of machines and production systems"
+    },
+    {
+      "id": "me-machine-learning-digital-twins-6",
+      "name": "Generative and AI-assisted design"
+    },
+    {
+      "id": "me-machine-learning-digital-twins-7",
+      "name": "Machine learning for manufacturing process monitoring and control"
+    },
+    {
+      "id": "me-machine-learning-digital-twins-8",
+      "name": "Machine-learning-driven discovery of materials and structures"
+    }
+  ]
+}

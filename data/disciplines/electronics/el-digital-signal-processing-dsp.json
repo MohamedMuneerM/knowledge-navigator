@@ -1,0 +1,61 @@
+{
+  "id": "el-digital-signal-processing-dsp",
+  "name": "Digital Signal Processing (DSP)",
+  "category": "Signal Processing & Communications",
+  "level": 3,
+  "priority": "core",
+  "summary": "Processing sampled signals with algorithms: the DFT and FFT, FIR and IIR filter design, multirate and adaptive filtering.",
+  "prerequisites": [
+    "el-signal-processing-fundamentals"
+  ],
+  "related": [
+    "ma-signal-processing",
+    "ma-fast-algorithms"
+  ],
+  "topics": [
+    {
+      "id": "el-digital-signal-processing-dsp-1",
+      "name": "Discrete Fourier Transform (DFT) and Fast Fourier Transform (FFT)"
+    },
+    {
+      "id": "el-digital-signal-processing-dsp-7",
+      "name": "Spectral analysis with the DFT and the short-time Fourier transform"
+    },
+    {
+      "id": "el-digital-signal-processing-dsp-2",
+      "name": "Digital filters (FIR, IIR)"
+    },
+    {
+      "id": "el-digital-signal-processing-dsp-8",
+      "name": "FIR filter design (window method, Parks-McClellan)"
+    },
+    {
+      "id": "el-digital-signal-processing-dsp-9",
+      "name": "IIR filter design (bilinear transform, impulse invariance)"
+    },
+    {
+      "id": "el-digital-signal-processing-dsp-3",
+      "name": "Windowing techniques"
+    },
+    {
+      "id": "el-digital-signal-processing-dsp-10",
+      "name": "Filter structures and finite word-length effects (fixed point)"
+    },
+    {
+      "id": "el-digital-signal-processing-dsp-4",
+      "name": "Decimation and interpolation"
+    },
+    {
+      "id": "el-digital-signal-processing-dsp-5",
+      "name": "Multi-rate signal processing"
+    },
+    {
+      "id": "el-digital-signal-processing-dsp-6",
+      "name": "Adaptive filtering algorithms (LMS, RLS)"
+    },
+    {
+      "id": "el-digital-signal-processing-dsp-11",
+      "name": "Implementing DSP on processors, DSP cores and FPGAs"
+    }
+  ]
+}

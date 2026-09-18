@@ -1,0 +1,68 @@
+{
+  "id": "me-combustion-engineering",
+  "name": "Combustion Engineering",
+  "category": "Thermal-Fluid Sciences",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The chemistry and physics of flames, burners and fuels, with emphasis on engines, furnaces and pollutant control.",
+  "prerequisites": [
+    "me-applied-thermodynamics",
+    "me-heat-transfer",
+    "ch-chemical-kinetics"
+  ],
+  "related": [
+    "ch-combustion-chemistry",
+    "ae-combustion-fundamentals",
+    "ae-combustion-instability"
+  ],
+  "topics": [
+    {
+      "id": "me-combustion-engineering-1",
+      "name": "Thermochemistry and equilibrium composition of combustion products"
+    },
+    {
+      "id": "me-combustion-engineering-2",
+      "name": "Chemical kinetics: reaction rates, mechanisms and ignition delay"
+    },
+    {
+      "id": "me-combustion-engineering-3",
+      "name": "Chemically reacting system models (well-stirred and plug-flow reactors)"
+    },
+    {
+      "id": "me-combustion-engineering-4",
+      "name": "Conservation equations for reacting flows"
+    },
+    {
+      "id": "me-combustion-engineering-5",
+      "name": "Laminar premixed flames: flame speed, flammability limits, quenching"
+    },
+    {
+      "id": "me-combustion-engineering-6",
+      "name": "Laminar diffusion (non-premixed) flames"
+    },
+    {
+      "id": "me-combustion-engineering-7",
+      "name": "Turbulent combustion basics"
+    },
+    {
+      "id": "me-combustion-engineering-8",
+      "name": "Droplet evaporation, sprays and liquid-fuel combustion"
+    },
+    {
+      "id": "me-combustion-engineering-9",
+      "name": "Solid-fuel combustion (coal, biomass)"
+    },
+    {
+      "id": "me-combustion-engineering-10",
+      "name": "Pollutant formation and control: NOx, CO, soot, unburned hydrocarbons"
+    },
+    {
+      "id": "me-combustion-engineering-11",
+      "name": "Burners, furnaces and combustion safety"
+    },
+    {
+      "id": "me-combustion-engineering-12",
+      "name": "Alternative fuels: hydrogen, ammonia and biofuels"
+    }
+  ]
+}

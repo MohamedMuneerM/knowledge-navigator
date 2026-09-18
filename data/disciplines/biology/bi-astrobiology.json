@@ -1,0 +1,72 @@
+{
+  "id": "bi-astrobiology",
+  "name": "Astrobiology",
+  "category": "Astrobiology & Space Biology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The search for life beyond Earth: habitability, the most promising worlds in our Solar System and around other stars, and how we would recognise life.",
+  "prerequisites": [
+    "bi-origin-of-life",
+    "bi-extremophiles",
+    "ph-planetary-science"
+  ],
+  "related": [
+    "ph-astrophysics",
+    "ea-astrobiology-and-planetary-habitability",
+    "ph-astrobiology",
+    "ph-exoplanets",
+    "ea-comparative-planetology",
+    "ae-planetary-exploration-systems",
+    "ae-planetary-protection"
+  ],
+  "topics": [
+    {
+      "id": "bi-astrobiology-1",
+      "name": "Astrobiology as a field: questions, history and the Drake equation"
+    },
+    {
+      "id": "bi-astrobiology-2",
+      "name": "Requirements for life: liquid water, energy, elements and alternative biochemistries"
+    },
+    {
+      "id": "bi-astrobiology-3",
+      "name": "Habitability and the circumstellar habitable zone"
+    },
+    {
+      "id": "bi-astrobiology-4",
+      "name": "Co-evolution of life and planetary environments on Earth"
+    },
+    {
+      "id": "bi-astrobiology-5",
+      "name": "Mars: past habitability, water and the search for life"
+    },
+    {
+      "id": "bi-astrobiology-6",
+      "name": "Icy ocean worlds: Europa and Enceladus"
+    },
+    {
+      "id": "bi-astrobiology-7",
+      "name": "Titan and other exotic environments"
+    },
+    {
+      "id": "bi-astrobiology-8",
+      "name": "Venus and its cloud-layer debate"
+    },
+    {
+      "id": "bi-astrobiology-9",
+      "name": "Exoplanet habitability: M-dwarfs, tidal locking, atmospheres"
+    },
+    {
+      "id": "bi-astrobiology-10",
+      "name": "Panspermia and lithopanspermia"
+    },
+    {
+      "id": "bi-astrobiology-11",
+      "name": "Planetary protection: forward and back contamination"
+    },
+    {
+      "id": "bi-astrobiology-12",
+      "name": "SETI and technosignatures"
+    }
+  ]
+}

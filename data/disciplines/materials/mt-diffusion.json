@@ -1,0 +1,66 @@
+{
+  "id": "mt-diffusion",
+  "name": "Diffusion in Solids",
+  "category": "Thermodynamics & Kinetics",
+  "level": 2,
+  "priority": "core",
+  "summary": "Explains how atoms move through solids, the mathematics of Fick's laws, and why diffusion controls heat treatment, doping and high-temperature behaviour.",
+  "prerequisites": [
+    "mt-defects",
+    "mt-thermodynamics-of-materials"
+  ],
+  "related": [
+    "ma-partial-differential-equations-pdes",
+    "ch-transport-phenomena"
+  ],
+  "topics": [
+    {
+      "id": "mt-diffusion-1",
+      "name": "Diffusion mechanisms: vacancy, interstitial, interstitialcy and exchange"
+    },
+    {
+      "id": "mt-diffusion-2",
+      "name": "Fick's first law and steady-state diffusion"
+    },
+    {
+      "id": "mt-diffusion-3",
+      "name": "Fick's second law; error-function solutions for semi-infinite solids"
+    },
+    {
+      "id": "mt-diffusion-4",
+      "name": "Thin-film (Gaussian) and diffusion-couple solutions; carburising and doping profiles"
+    },
+    {
+      "id": "mt-diffusion-5",
+      "name": "Temperature dependence: Arrhenius behaviour and activation energy"
+    },
+    {
+      "id": "mt-diffusion-6",
+      "name": "Atomistic theory: random walk, jump frequency and correlation effects"
+    },
+    {
+      "id": "mt-diffusion-7",
+      "name": "Diffusion in alloys: interdiffusion, Darken's equations and the Kirkendall effect"
+    },
+    {
+      "id": "mt-diffusion-8",
+      "name": "Chemical potential as the true driving force; uphill diffusion"
+    },
+    {
+      "id": "mt-diffusion-9",
+      "name": "Short-circuit paths: grain-boundary, dislocation-pipe and surface diffusion"
+    },
+    {
+      "id": "mt-diffusion-10",
+      "name": "Diffusion in ionic crystals and semiconductors; ionic conductivity"
+    },
+    {
+      "id": "mt-diffusion-11",
+      "name": "Diffusion in polymers and permeation of gases"
+    },
+    {
+      "id": "mt-diffusion-12",
+      "name": "Numerical solution of diffusion problems with finite differences"
+    }
+  ]
+}

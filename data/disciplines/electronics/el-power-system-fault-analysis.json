@@ -1,0 +1,46 @@
+{
+  "id": "el-power-system-fault-analysis",
+  "name": "Fault Analysis & Symmetrical Components",
+  "category": "Electrical Machines & Power Systems",
+  "level": 3,
+  "priority": "core",
+  "summary": "Calculating short-circuit currents in power networks with symmetrical components, as the basis for equipment ratings and protection.",
+  "prerequisites": [
+    "el-power-system-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-power-system-fault-analysis-1",
+      "name": "Symmetrical three-phase faults and short-circuit MVA"
+    },
+    {
+      "id": "el-power-system-fault-analysis-2",
+      "name": "Fault calculations with the Zbus matrix"
+    },
+    {
+      "id": "el-power-system-fault-analysis-3",
+      "name": "Symmetrical components"
+    },
+    {
+      "id": "el-power-system-fault-analysis-4",
+      "name": "Sequence networks of generators, transformers and lines"
+    },
+    {
+      "id": "el-power-system-fault-analysis-5",
+      "name": "Single-line-to-ground, line-to-line and double-line-to-ground faults"
+    },
+    {
+      "id": "el-power-system-fault-analysis-6",
+      "name": "Open-conductor faults"
+    },
+    {
+      "id": "el-power-system-fault-analysis-7",
+      "name": "Short-circuit standards (IEC 60909, ANSI)"
+    },
+    {
+      "id": "el-power-system-fault-analysis-8",
+      "name": "Circuit-breaker ratings and selection"
+    }
+  ]
+}

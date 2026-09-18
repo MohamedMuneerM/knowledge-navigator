@@ -1,0 +1,47 @@
+{
+  "id": "ai-graph-based-ml",
+  "name": "Graph-Based ML",
+  "category": "Applied ML Problem Domains",
+  "level": 3,
+  "priority": "important",
+  "summary": "Classical machine learning on graphs and networks: graph algorithms, label propagation, spectral methods, random walks, community detection and link prediction.",
+  "prerequisites": [
+    "ai-types-of-machine-learning",
+    "ma-graph-theory"
+  ],
+  "related": [
+    "ma-network-science",
+    "ai-graph-neural-networks",
+    "ai-recommender-systems"
+  ],
+  "topics": [
+    {
+      "id": "ai-graph-based-ml-1",
+      "name": "Graph Algorithms for ML"
+    },
+    {
+      "id": "ai-graph-based-ml-2",
+      "name": "Label Propagation"
+    },
+    {
+      "id": "ai-graph-based-ml-3",
+      "name": "Spectral Methods"
+    },
+    {
+      "id": "ai-graph-based-ml-4",
+      "name": "Random Walks"
+    },
+    {
+      "id": "ai-graph-based-ml-5",
+      "name": "Community detection"
+    },
+    {
+      "id": "ai-graph-based-ml-6",
+      "name": "Link prediction"
+    },
+    {
+      "id": "ai-graph-based-ml-7",
+      "name": "Node classification with graph features"
+    }
+  ]
+}

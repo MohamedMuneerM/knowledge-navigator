@@ -1,0 +1,53 @@
+{
+  "id": "el-advanced-driver-assistance-systems-adas",
+  "name": "Advanced Driver Assistance Systems (ADAS)",
+  "category": "Automotive, Aerospace & Defense Systems",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Driver-assistance features and their sensors: adaptive cruise, lane keeping, blind-spot detection, emergency braking, surround view and driver monitoring.",
+  "prerequisites": [
+    "el-chassis-safety-systems",
+    "el-sensor-fusion"
+  ],
+  "related": [
+    "ai-autonomous-driving"
+  ],
+  "topics": [
+    {
+      "id": "el-advanced-driver-assistance-systems-adas-1",
+      "name": "Adaptive cruise control"
+    },
+    {
+      "id": "el-advanced-driver-assistance-systems-adas-2",
+      "name": "Lane departure warning and lane keeping assist"
+    },
+    {
+      "id": "el-advanced-driver-assistance-systems-adas-3",
+      "name": "Blind spot detection"
+    },
+    {
+      "id": "el-advanced-driver-assistance-systems-adas-4",
+      "name": "Collision avoidance and mitigation"
+    },
+    {
+      "id": "el-advanced-driver-assistance-systems-adas-5",
+      "name": "Automatic emergency braking"
+    },
+    {
+      "id": "el-advanced-driver-assistance-systems-adas-6",
+      "name": "Traffic sign recognition"
+    },
+    {
+      "id": "el-advanced-driver-assistance-systems-adas-7",
+      "name": "Parking assistance and surround view"
+    },
+    {
+      "id": "el-advanced-driver-assistance-systems-adas-8",
+      "name": "Driver monitoring systems"
+    },
+    {
+      "id": "el-advanced-driver-assistance-systems-adas-9",
+      "name": "Night vision systems"
+    }
+  ]
+}

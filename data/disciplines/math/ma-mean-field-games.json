@@ -1,0 +1,32 @@
+{
+  "id": "ma-mean-field-games",
+  "name": "Mean Field Games",
+  "category": "Emerging & Advanced Areas",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Games with very many interacting players, described by coupled Hamilton-Jacobi and Fokker-Planck equations.",
+  "prerequisites": [
+    "ma-stochastic-calculus",
+    "ma-game-theory",
+    "ma-partial-differential-equations-pdes"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-mean-field-games-1",
+      "name": "Differential games"
+    },
+    {
+      "id": "ma-mean-field-games-2",
+      "name": "Mean field theory"
+    },
+    {
+      "id": "ma-mean-field-games-3",
+      "name": "Hamilton-Jacobi-Fokker-Planck system"
+    },
+    {
+      "id": "ma-mean-field-games-4",
+      "name": "Applications in economics and crowds"
+    }
+  ]
+}

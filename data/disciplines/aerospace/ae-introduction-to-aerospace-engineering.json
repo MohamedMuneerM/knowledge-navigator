@@ -1,0 +1,62 @@
+{
+  "id": "ae-introduction-to-aerospace-engineering",
+  "name": "Introduction to Aerospace Engineering",
+  "category": "Introduction to Aerospace",
+  "level": 1,
+  "priority": "core",
+  "summary": "A first tour of what aerospace engineers do, the vehicles they build and the physics and units they work with.",
+  "prerequisites": [
+    "ma-trigonometry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-introduction-to-aerospace-engineering-1",
+      "name": "What aerospace engineering is: aeronautics versus astronautics"
+    },
+    {
+      "id": "ae-introduction-to-aerospace-engineering-2",
+      "name": "The aerospace industry: aircraft, launch, satellites, defence, agencies and NewSpace"
+    },
+    {
+      "id": "ae-introduction-to-aerospace-engineering-3",
+      "name": "Types of flight vehicles: airplanes, rotorcraft, balloons, missiles, rockets, spacecraft"
+    },
+    {
+      "id": "ae-introduction-to-aerospace-engineering-4",
+      "name": "SI and US customary units, dimensional analysis and order-of-magnitude estimates"
+    },
+    {
+      "id": "ae-introduction-to-aerospace-engineering-5",
+      "name": "Vectors, forces and Newton's laws in a flight context"
+    },
+    {
+      "id": "ae-introduction-to-aerospace-engineering-6",
+      "name": "The Earth's atmosphere: layers, pressure, density and temperature with altitude"
+    },
+    {
+      "id": "ae-introduction-to-aerospace-engineering-7",
+      "name": "The International Standard Atmosphere and geopotential altitude"
+    },
+    {
+      "id": "ae-introduction-to-aerospace-engineering-8",
+      "name": "Energy, power and efficiency for vehicles"
+    },
+    {
+      "id": "ae-introduction-to-aerospace-engineering-9",
+      "name": "The engineering design process: requirements, concepts, trade-offs, test"
+    },
+    {
+      "id": "ae-introduction-to-aerospace-engineering-10",
+      "name": "Aerospace engineering disciplines: aerodynamics, structures, propulsion, dynamics and control, systems"
+    },
+    {
+      "id": "ae-introduction-to-aerospace-engineering-11",
+      "name": "Engineering ethics, safety culture and professional responsibility"
+    },
+    {
+      "id": "ae-introduction-to-aerospace-engineering-12",
+      "name": "Careers, degrees and professional bodies (AIAA, RAeS)"
+    }
+  ]
+}

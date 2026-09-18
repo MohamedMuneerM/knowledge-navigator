@@ -1,0 +1,56 @@
+{
+  "id": "ai-probabilistic-programming",
+  "name": "Probabilistic Programming",
+  "category": "Reasoning Under Uncertainty & Decision Making",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Writing probabilistic models as programs and letting general-purpose inference engines compute posteriors, as in Stan, PyMC and Pyro.",
+  "prerequisites": [
+    "ai-probabilistic-ml"
+  ],
+  "related": [
+    "ma-bayesian-statistics"
+  ],
+  "topics": [
+    {
+      "id": "ai-probabilistic-programming-1",
+      "name": "Generative models as programs"
+    },
+    {
+      "id": "ai-probabilistic-programming-2",
+      "name": "Probabilistic programming languages: Stan, PyMC, Pyro/NumPyro, Turing.jl, Gen"
+    },
+    {
+      "id": "ai-probabilistic-programming-3",
+      "name": "Hierarchical Bayesian models"
+    },
+    {
+      "id": "ai-probabilistic-programming-4",
+      "name": "Inference engines: Hamiltonian Monte Carlo and NUTS"
+    },
+    {
+      "id": "ai-probabilistic-programming-5",
+      "name": "Stochastic and automatic-differentiation variational inference"
+    },
+    {
+      "id": "ai-probabilistic-programming-6",
+      "name": "Sequential Monte Carlo in probabilistic programs"
+    },
+    {
+      "id": "ai-probabilistic-programming-7",
+      "name": "Model checking and posterior predictive checks"
+    },
+    {
+      "id": "ai-probabilistic-programming-8",
+      "name": "The Bayesian workflow"
+    },
+    {
+      "id": "ai-probabilistic-programming-9",
+      "name": "Open-universe models (BLOG) and program induction"
+    },
+    {
+      "id": "ai-probabilistic-programming-10",
+      "name": "Deep probabilistic programming and amortized inference"
+    }
+  ]
+}

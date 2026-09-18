@@ -1,0 +1,58 @@
+{
+  "id": "cs-gpu-programming",
+  "name": "GPU Programming & Accelerated Computing",
+  "category": "Parallel & Distributed Computing",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Programming graphics processors for general computation with CUDA and portable alternatives, and tuning kernels for memory and occupancy.",
+  "prerequisites": [
+    "cs-parallel-computing"
+  ],
+  "related": [
+    "ai-hardware-for-ai",
+    "ai-deep-learning-frameworks",
+    "el-hardware-accelerators"
+  ],
+  "topics": [
+    {
+      "id": "cs-gpu-programming-1",
+      "name": "The GPU execution model: SIMT, warps and thread blocks"
+    },
+    {
+      "id": "cs-gpu-programming-2",
+      "name": "CUDA programming basics"
+    },
+    {
+      "id": "cs-gpu-programming-3",
+      "name": "GPU memory hierarchy: global, shared and registers"
+    },
+    {
+      "id": "cs-gpu-programming-4",
+      "name": "Memory coalescing and bank conflicts"
+    },
+    {
+      "id": "cs-gpu-programming-5",
+      "name": "Occupancy and latency hiding"
+    },
+    {
+      "id": "cs-gpu-programming-6",
+      "name": "Parallel primitives on GPUs: reductions, scans and sorting"
+    },
+    {
+      "id": "cs-gpu-programming-7",
+      "name": "Streams, asynchronous execution and multi-GPU programming"
+    },
+    {
+      "id": "cs-gpu-programming-8",
+      "name": "Profiling GPU kernels (Nsight)"
+    },
+    {
+      "id": "cs-gpu-programming-9",
+      "name": "Portable GPU programming: OpenCL, SYCL, HIP and Triton"
+    },
+    {
+      "id": "cs-gpu-programming-10",
+      "name": "GPU-accelerated libraries (cuBLAS, cuDNN, Thrust)"
+    }
+  ]
+}

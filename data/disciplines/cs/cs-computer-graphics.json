@@ -1,0 +1,73 @@
+{
+  "id": "cs-computer-graphics",
+  "name": "Computer Graphics",
+  "category": "Graphics, Visualization & Games",
+  "level": 3,
+  "priority": "important",
+  "summary": "How computers draw images: transformations, projection, rasterization, the GPU pipeline, shading, texturing and an introduction to ray tracing.",
+  "prerequisites": [
+    "ma-linear-algebra",
+    "cs-data-structures"
+  ],
+  "related": [
+    "ai-3d-computer-vision"
+  ],
+  "topics": [
+    {
+      "id": "cs-computer-graphics-1",
+      "name": "Raster images, colour models and displays"
+    },
+    {
+      "id": "cs-computer-graphics-2",
+      "name": "2D and 3D transformations with homogeneous coordinates"
+    },
+    {
+      "id": "cs-computer-graphics-3",
+      "name": "Viewing and projection"
+    },
+    {
+      "id": "cs-computer-graphics-4",
+      "name": "Rasterization of lines and triangles"
+    },
+    {
+      "id": "cs-computer-graphics-5",
+      "name": "The graphics pipeline and the GPU"
+    },
+    {
+      "id": "cs-computer-graphics-6",
+      "name": "Shader programming (GLSL, HLSL)"
+    },
+    {
+      "id": "cs-computer-graphics-7",
+      "name": "Lighting and shading models (Phong, Blinn-Phong)"
+    },
+    {
+      "id": "cs-computer-graphics-8",
+      "name": "Texture mapping and sampling"
+    },
+    {
+      "id": "cs-computer-graphics-9",
+      "name": "Visibility: z-buffer and hidden-surface removal"
+    },
+    {
+      "id": "cs-computer-graphics-10",
+      "name": "Ray tracing basics"
+    },
+    {
+      "id": "cs-computer-graphics-11",
+      "name": "Meshes and scene graphs"
+    },
+    {
+      "id": "cs-computer-graphics-12",
+      "name": "Anti-aliasing"
+    },
+    {
+      "id": "cs-computer-graphics-13",
+      "name": "Introduction to animation"
+    },
+    {
+      "id": "cs-computer-graphics-14",
+      "name": "Graphics APIs: OpenGL, Vulkan and WebGPU"
+    }
+  ]
+}

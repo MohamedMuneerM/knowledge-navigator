@@ -1,0 +1,70 @@
+{
+  "id": "ae-spacecraft-thermal-control",
+  "name": "Spacecraft Thermal Control",
+  "category": "Spacecraft Subsystems",
+  "level": 3,
+  "priority": "core",
+  "summary": "Keeping spacecraft components within their temperature limits in the vacuum of space through passive and active thermal design.",
+  "prerequisites": [
+    "ae-spacecraft-bus-fundamentals",
+    "me-heat-transfer"
+  ],
+  "related": [
+    "el-thermal-management",
+    "me-thermal-management-compact-power"
+  ],
+  "topics": [
+    {
+      "id": "ae-spacecraft-thermal-control-1",
+      "name": "Heat transfer review: conduction and radiation in vacuum"
+    },
+    {
+      "id": "ae-spacecraft-thermal-control-2",
+      "name": "Thermal environments and orbit-average heat loads"
+    },
+    {
+      "id": "ae-spacecraft-thermal-control-3",
+      "name": "Radiation exchange: view factors, emissivity and absorptivity"
+    },
+    {
+      "id": "ae-spacecraft-thermal-control-4",
+      "name": "Surface finishes and optical solar reflectors"
+    },
+    {
+      "id": "ae-spacecraft-thermal-control-5",
+      "name": "Multilayer insulation"
+    },
+    {
+      "id": "ae-spacecraft-thermal-control-6",
+      "name": "Radiators and sizing"
+    },
+    {
+      "id": "ae-spacecraft-thermal-control-7",
+      "name": "Heaters and thermostatic control"
+    },
+    {
+      "id": "ae-spacecraft-thermal-control-8",
+      "name": "Heat pipes, loop heat pipes and pumped fluid loops"
+    },
+    {
+      "id": "ae-spacecraft-thermal-control-9",
+      "name": "Louvres and variable-emittance devices"
+    },
+    {
+      "id": "ae-spacecraft-thermal-control-10",
+      "name": "Cryogenic thermal control and cryocoolers"
+    },
+    {
+      "id": "ae-spacecraft-thermal-control-11",
+      "name": "Thermal modelling: lumped-parameter networks (Thermal Desktop, ESATAN)"
+    },
+    {
+      "id": "ae-spacecraft-thermal-control-12",
+      "name": "Hot and cold case analysis"
+    },
+    {
+      "id": "ae-spacecraft-thermal-control-13",
+      "name": "Thermal balance and thermal vacuum testing"
+    }
+  ]
+}

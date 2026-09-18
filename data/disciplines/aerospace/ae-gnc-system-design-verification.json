@@ -1,0 +1,58 @@
+{
+  "id": "ae-gnc-system-design-verification",
+  "name": "GN&C System Design and Verification",
+  "category": "Guidance, Navigation & Control",
+  "level": 4,
+  "priority": "important",
+  "summary": "Bringing guidance, navigation and control together as a flight system: architecture, simulation, fault management and verification.",
+  "prerequisites": [
+    "ae-guidance-algorithms",
+    "ae-aerospace-navigation-systems",
+    "ae-attitude-control"
+  ],
+  "related": [
+    "el-avionics-systems"
+  ],
+  "topics": [
+    {
+      "id": "ae-gnc-system-design-verification-1",
+      "name": "GN&C architecture and requirements flow-down"
+    },
+    {
+      "id": "ae-gnc-system-design-verification-2",
+      "name": "Modes and mode transitions"
+    },
+    {
+      "id": "ae-gnc-system-design-verification-3",
+      "name": "Sensor and actuator selection"
+    },
+    {
+      "id": "ae-gnc-system-design-verification-4",
+      "name": "End-to-end 6-DOF simulation"
+    },
+    {
+      "id": "ae-gnc-system-design-verification-5",
+      "name": "Monte Carlo analysis and dispersions"
+    },
+    {
+      "id": "ae-gnc-system-design-verification-6",
+      "name": "GN&C fault detection, isolation and recovery"
+    },
+    {
+      "id": "ae-gnc-system-design-verification-7",
+      "name": "Software-in-the-loop and hardware-in-the-loop testing"
+    },
+    {
+      "id": "ae-gnc-system-design-verification-8",
+      "name": "Air-bearing and robotic testbeds"
+    },
+    {
+      "id": "ae-gnc-system-design-verification-9",
+      "name": "Flight data analysis and system identification"
+    },
+    {
+      "id": "ae-gnc-system-design-verification-10",
+      "name": "Lessons learned from GN&C failures"
+    }
+  ]
+}

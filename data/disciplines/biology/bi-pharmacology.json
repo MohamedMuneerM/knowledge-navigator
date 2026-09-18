@@ -1,0 +1,62 @@
+{
+  "id": "bi-pharmacology",
+  "name": "Pharmacology & Toxicology",
+  "category": "Health & Biomedical Sciences",
+  "level": 3,
+  "priority": "important",
+  "summary": "How drugs and toxins act on the body and how the body handles them, plus how new medicines are discovered and tested.",
+  "prerequisites": [
+    "bi-human-physiology",
+    "bi-cell-signaling"
+  ],
+  "related": [
+    "ch-pharmacology-toxicology",
+    "ch-medicinal-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "bi-pharmacology-1",
+      "name": "Drug targets: receptors, enzymes, ion channels and transporters"
+    },
+    {
+      "id": "bi-pharmacology-2",
+      "name": "Pharmacodynamics: dose-response, agonists, antagonists, efficacy and potency"
+    },
+    {
+      "id": "bi-pharmacology-3",
+      "name": "Pharmacokinetics: absorption, distribution, metabolism and excretion"
+    },
+    {
+      "id": "bi-pharmacology-4",
+      "name": "Compartment models, half-life and dosing regimens"
+    },
+    {
+      "id": "bi-pharmacology-5",
+      "name": "Drug metabolism and cytochrome P450 enzymes"
+    },
+    {
+      "id": "bi-pharmacology-6",
+      "name": "Autonomic and CNS pharmacology"
+    },
+    {
+      "id": "bi-pharmacology-7",
+      "name": "Antimicrobial and anticancer drugs"
+    },
+    {
+      "id": "bi-pharmacology-8",
+      "name": "Biologics and advanced therapies"
+    },
+    {
+      "id": "bi-pharmacology-9",
+      "name": "Principles of toxicology: dose makes the poison, LD50 and risk assessment"
+    },
+    {
+      "id": "bi-pharmacology-10",
+      "name": "Drug discovery and development: target to clinical trials"
+    },
+    {
+      "id": "bi-pharmacology-11",
+      "name": "Adverse effects, drug interactions and pharmacovigilance"
+    }
+  ]
+}

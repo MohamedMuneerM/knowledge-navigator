@@ -1,0 +1,51 @@
+{
+  "id": "mt-metamaterials",
+  "name": "Metamaterials",
+  "category": "Frontier Materials",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Explores engineered materials whose properties come from their architecture rather than their chemistry: negative index, cloaking, negative Poisson's ratio and more.",
+  "prerequisites": [
+    "mt-lightweight-structures",
+    "mt-optical-photonic-materials"
+  ],
+  "related": [
+    "ph-nanophotonics-plasmonics",
+    "el-advanced-materials",
+    "me-mechanical-metamaterials"
+  ],
+  "topics": [
+    {
+      "id": "mt-metamaterials-1",
+      "name": "Concept: properties from structure; unit cells and effective-medium theory"
+    },
+    {
+      "id": "mt-metamaterials-2",
+      "name": "Electromagnetic metamaterials: negative permittivity/permeability and negative refraction"
+    },
+    {
+      "id": "mt-metamaterials-3",
+      "name": "Metasurfaces and flat optics"
+    },
+    {
+      "id": "mt-metamaterials-4",
+      "name": "Transformation optics and cloaking"
+    },
+    {
+      "id": "mt-metamaterials-5",
+      "name": "Acoustic and elastic metamaterials; phononic band gaps and vibration isolation"
+    },
+    {
+      "id": "mt-metamaterials-6",
+      "name": "Mechanical metamaterials: auxetics (negative Poisson's ratio), pentamode and programmable materials"
+    },
+    {
+      "id": "mt-metamaterials-7",
+      "name": "Thermal metamaterials"
+    },
+    {
+      "id": "mt-metamaterials-8",
+      "name": "Fabrication routes: lithography, two-photon printing and additive manufacturing"
+    }
+  ]
+}

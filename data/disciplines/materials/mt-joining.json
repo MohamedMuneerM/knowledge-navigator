@@ -1,0 +1,65 @@
+{
+  "id": "mt-joining",
+  "name": "Welding & Joining of Materials",
+  "category": "Materials Processing & Manufacturing",
+  "level": 3,
+  "priority": "important",
+  "summary": "Explains how materials are joined by welding, brazing, soldering, adhesives and mechanical fastening, and the metallurgy of the joint.",
+  "prerequisites": [
+    "mt-casting-solidification",
+    "mt-steels"
+  ],
+  "related": [
+    "me-welding-joining"
+  ],
+  "topics": [
+    {
+      "id": "mt-joining-1",
+      "name": "Classification of joining processes"
+    },
+    {
+      "id": "mt-joining-2",
+      "name": "Fusion welding processes: arc (SMAW, GMAW, GTAW), plasma, laser and electron-beam welding"
+    },
+    {
+      "id": "mt-joining-3",
+      "name": "Weld thermal cycles and heat input"
+    },
+    {
+      "id": "mt-joining-4",
+      "name": "Weld metallurgy: fusion zone solidification, heat-affected zone and weldability"
+    },
+    {
+      "id": "mt-joining-5",
+      "name": "Weld defects: porosity, hot cracking, cold (hydrogen) cracking and lack of fusion"
+    },
+    {
+      "id": "mt-joining-6",
+      "name": "Welding of aluminium, titanium, stainless steel and superalloys"
+    },
+    {
+      "id": "mt-joining-7",
+      "name": "Solid-state joining: friction stir welding, inertia/linear friction welding, diffusion bonding"
+    },
+    {
+      "id": "mt-joining-8",
+      "name": "Brazing and soldering"
+    },
+    {
+      "id": "mt-joining-9",
+      "name": "Adhesive bonding: surface preparation, adhesive types and joint design"
+    },
+    {
+      "id": "mt-joining-10",
+      "name": "Mechanical fastening and hybrid joints"
+    },
+    {
+      "id": "mt-joining-11",
+      "name": "Joining dissimilar materials and ceramics-to-metals"
+    },
+    {
+      "id": "mt-joining-12",
+      "name": "Residual stress, distortion and post-weld heat treatment; weld qualification"
+    }
+  ]
+}

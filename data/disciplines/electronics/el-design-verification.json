@@ -1,0 +1,60 @@
+{
+  "id": "el-design-verification",
+  "name": "Digital Design Verification",
+  "category": "FPGA, ASIC & VLSI Design",
+  "level": 4,
+  "priority": "important",
+  "summary": "Proving that a chip design is correct before tape-out: SystemVerilog testbenches, UVM, coverage, assertions, formal methods and emulation.",
+  "prerequisites": [
+    "el-hardware-description-languages-hdl"
+  ],
+  "related": [
+    "ma-formal-verification"
+  ],
+  "topics": [
+    {
+      "id": "el-design-verification-1",
+      "name": "Verification planning and coverage-driven verification"
+    },
+    {
+      "id": "el-design-verification-2",
+      "name": "SystemVerilog for verification: classes, interfaces, randomization"
+    },
+    {
+      "id": "el-design-verification-3",
+      "name": "Constrained-random testbenches and scoreboards"
+    },
+    {
+      "id": "el-design-verification-4",
+      "name": "UVM methodology"
+    },
+    {
+      "id": "el-design-verification-5",
+      "name": "Functional and code coverage"
+    },
+    {
+      "id": "el-design-verification-6",
+      "name": "SystemVerilog assertions (SVA)"
+    },
+    {
+      "id": "el-design-verification-7",
+      "name": "Formal verification: equivalence and model checking"
+    },
+    {
+      "id": "el-design-verification-8",
+      "name": "Emulation and FPGA prototyping for verification"
+    },
+    {
+      "id": "el-design-verification-9",
+      "name": "Gate-level simulation"
+    },
+    {
+      "id": "el-design-verification-10",
+      "name": "SoC-level and IP integration verification"
+    },
+    {
+      "id": "el-design-verification-11",
+      "name": "Open-source verification (cocotb, Verilator)"
+    }
+  ]
+}

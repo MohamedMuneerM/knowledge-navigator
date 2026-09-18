@@ -1,0 +1,62 @@
+{
+  "id": "ai-probabilistic-ml",
+  "name": "Probabilistic ML",
+  "category": "Machine Learning Foundations",
+  "level": 4,
+  "priority": "important",
+  "summary": "Machine learning as probabilistic modelling: Bayesian ML, latent-variable models, EM, Gaussian processes, HMMs, CRFs, variational inference and MCMC.",
+  "prerequisites": [
+    "ai-probabilistic-ai",
+    "ai-types-of-machine-learning"
+  ],
+  "related": [
+    "ma-bayesian-statistics",
+    "ma-probabilistic-models"
+  ],
+  "topics": [
+    {
+      "id": "ai-probabilistic-ml-1",
+      "name": "Bayesian Machine Learning"
+    },
+    {
+      "id": "ai-probabilistic-ml-2",
+      "name": "Gaussian Processes"
+    },
+    {
+      "id": "ai-probabilistic-ml-3",
+      "name": "Hidden Markov Models (HMM)"
+    },
+    {
+      "id": "ai-probabilistic-ml-4",
+      "name": "Conditional Random Fields (CRF)"
+    },
+    {
+      "id": "ai-probabilistic-ml-5",
+      "name": "Bayesian Neural Networks"
+    },
+    {
+      "id": "ai-probabilistic-ml-6",
+      "name": "Variational Inference"
+    },
+    {
+      "id": "ai-probabilistic-ml-7",
+      "name": "MCMC Methods"
+    },
+    {
+      "id": "ai-probabilistic-ml-8",
+      "name": "Bayesian linear regression"
+    },
+    {
+      "id": "ai-probabilistic-ml-9",
+      "name": "Expectation-Maximization (EM) algorithm"
+    },
+    {
+      "id": "ai-probabilistic-ml-10",
+      "name": "Latent variable models: mixtures, factor analysis and topic models (LDA)"
+    },
+    {
+      "id": "ai-probabilistic-ml-11",
+      "name": "Bayesian model comparison and the marginal likelihood"
+    }
+  ]
+}

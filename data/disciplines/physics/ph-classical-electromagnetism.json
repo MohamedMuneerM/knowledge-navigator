@@ -1,0 +1,99 @@
+{
+  "id": "ph-classical-electromagnetism",
+  "name": "Classical Electromagnetism",
+  "category": "Electromagnetism",
+  "level": 2,
+  "priority": "core",
+  "summary": "Calculus-based electromagnetism: electric and magnetic fields, Maxwell's equations and electromagnetic waves.",
+  "prerequisites": [
+    "ph-introductory-electricity-magnetism",
+    "ma-vector-calculus"
+  ],
+  "related": [
+    "ma-electromagnetism",
+    "el-electromagnetics",
+    "el-electromagnetic-waves"
+  ],
+  "topics": [
+    {
+      "id": "ph-classical-electromagnetism-16",
+      "name": "Vector calculus for electromagnetism"
+    },
+    {
+      "id": "ph-classical-electromagnetism-1",
+      "name": "Electrostatics"
+    },
+    {
+      "id": "ph-classical-electromagnetism-17",
+      "name": "Laplace's equation, boundary conditions and the method of images"
+    },
+    {
+      "id": "ph-classical-electromagnetism-18",
+      "name": "Multipole expansion"
+    },
+    {
+      "id": "ph-classical-electromagnetism-11",
+      "name": "Dielectrics and polarization"
+    },
+    {
+      "id": "ph-classical-electromagnetism-2",
+      "name": "Magnetostatics"
+    },
+    {
+      "id": "ph-classical-electromagnetism-12",
+      "name": "Magnetic materials"
+    },
+    {
+      "id": "ph-classical-electromagnetism-19",
+      "name": "Electromagnetic induction and Faraday's law"
+    },
+    {
+      "id": "ph-classical-electromagnetism-3",
+      "name": "Electrodynamics"
+    },
+    {
+      "id": "ph-classical-electromagnetism-7",
+      "name": "AC/DC circuits"
+    },
+    {
+      "id": "ph-classical-electromagnetism-4",
+      "name": "Maxwell's equations"
+    },
+    {
+      "id": "ph-classical-electromagnetism-20",
+      "name": "Conservation laws: Poynting's theorem and the Maxwell stress tensor"
+    },
+    {
+      "id": "ph-classical-electromagnetism-5",
+      "name": "Electromagnetic waves"
+    },
+    {
+      "id": "ph-classical-electromagnetism-8",
+      "name": "Waveguides and transmission lines"
+    },
+    {
+      "id": "ph-classical-electromagnetism-13",
+      "name": "Electromagnetic potentials"
+    },
+    {
+      "id": "ph-classical-electromagnetism-14",
+      "name": "Gauge transformations"
+    },
+    {
+      "id": "ph-classical-electromagnetism-15",
+      "name": "Retarded potentials and Jefimenko's equations"
+    },
+    {
+      "id": "ph-classical-electromagnetism-9",
+      "name": "Radiation and antennas"
+    },
+    {
+      "id": "ph-classical-electromagnetism-6",
+      "name": "Electromagnetic field theory"
+    },
+    {
+      "id": "ph-classical-electromagnetism-10",
+      "name": "Plasma physics (classical)"
+    }
+  ]
+}

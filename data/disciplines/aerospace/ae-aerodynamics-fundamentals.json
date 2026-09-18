@@ -1,0 +1,78 @@
+{
+  "id": "ae-aerodynamics-fundamentals",
+  "name": "Fundamentals of Aerodynamics",
+  "category": "Aerodynamics",
+  "level": 2,
+  "priority": "core",
+  "summary": "The governing principles of aerodynamics: forces and moments, dimensionless parameters and the conservation equations of fluid flow.",
+  "prerequisites": [
+    "ae-principles-of-flight",
+    "me-fluid-mechanics"
+  ],
+  "related": [
+    "ph-fluid-mechanics",
+    "ma-fluid-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "ae-aerodynamics-fundamentals-1",
+      "name": "Fluid properties: density, pressure, temperature, viscosity and the continuum hypothesis"
+    },
+    {
+      "id": "ae-aerodynamics-fundamentals-2",
+      "name": "Hydrostatics and buoyancy"
+    },
+    {
+      "id": "ae-aerodynamics-fundamentals-3",
+      "name": "Aerodynamic forces and moments; lift, drag and moment coefficients"
+    },
+    {
+      "id": "ae-aerodynamics-fundamentals-4",
+      "name": "Centre of pressure and aerodynamic centre"
+    },
+    {
+      "id": "ae-aerodynamics-fundamentals-5",
+      "name": "Dimensional analysis: Reynolds and Mach numbers, similarity"
+    },
+    {
+      "id": "ae-aerodynamics-fundamentals-6",
+      "name": "Flow types: inviscid versus viscous, incompressible versus compressible"
+    },
+    {
+      "id": "ae-aerodynamics-fundamentals-7",
+      "name": "Control volumes, streamlines, pathlines and streaklines"
+    },
+    {
+      "id": "ae-aerodynamics-fundamentals-8",
+      "name": "Continuity equation"
+    },
+    {
+      "id": "ae-aerodynamics-fundamentals-9",
+      "name": "Momentum equation and the Euler equations"
+    },
+    {
+      "id": "ae-aerodynamics-fundamentals-10",
+      "name": "Energy equation"
+    },
+    {
+      "id": "ae-aerodynamics-fundamentals-11",
+      "name": "Substantial derivative"
+    },
+    {
+      "id": "ae-aerodynamics-fundamentals-12",
+      "name": "Vorticity, circulation and rotational flow"
+    },
+    {
+      "id": "ae-aerodynamics-fundamentals-13",
+      "name": "Stream function and velocity potential"
+    },
+    {
+      "id": "ae-aerodynamics-fundamentals-14",
+      "name": "Pitot tubes and airspeed measurement"
+    },
+    {
+      "id": "ae-aerodynamics-fundamentals-15",
+      "name": "The standard atmosphere applied to aerodynamic calculations"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ma-linear-methods",
+  "name": "Linear Methods",
+  "category": "Machine Learning & Data Science Mathematics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Linear models for prediction and classification, regularised with ridge and lasso, seen through linear algebra and statistics.",
+  "prerequisites": [
+    "ma-foundations-of-machine-learning",
+    "ma-regression-analysis"
+  ],
+  "related": [
+    "ai-core-ml-concepts",
+    "ma-regression-analysis",
+    "ai-types-of-machine-learning"
+  ],
+  "topics": [
+    {
+      "id": "ma-linear-methods-1",
+      "name": "Linear regression"
+    },
+    {
+      "id": "ma-linear-methods-4",
+      "name": "Ridge regression and lasso"
+    },
+    {
+      "id": "ma-linear-methods-2",
+      "name": "Logistic regression"
+    },
+    {
+      "id": "ma-linear-methods-3",
+      "name": "Linear discriminant analysis"
+    },
+    {
+      "id": "ma-linear-methods-5",
+      "name": "Perceptron and linear separability"
+    },
+    {
+      "id": "ma-linear-methods-6",
+      "name": "Generalised linear models in ML"
+    }
+  ]
+}

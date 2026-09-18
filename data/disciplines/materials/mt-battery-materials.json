@@ -1,0 +1,108 @@
+{
+  "id": "mt-battery-materials",
+  "name": "Battery Materials",
+  "category": "Energy Materials",
+  "level": 3,
+  "priority": "important",
+  "summary": "Covers the electrode and electrolyte materials inside lithium-ion and next-generation batteries and how their structure controls energy, power, life and safety.",
+  "prerequisites": [
+    "mt-electrochemistry",
+    "mt-diffusion"
+  ],
+  "related": [
+    "el-battery-technologies",
+    "el-battery-management-systems-bms",
+    "ch-battery-chemistry",
+    "me-energy-storage-power-integration"
+  ],
+  "topics": [
+    {
+      "id": "mt-battery-materials-1",
+      "name": "Battery fundamentals: voltage, capacity, energy and power density, C-rate and Ragone plots"
+    },
+    {
+      "id": "mt-battery-materials-2",
+      "name": "Intercalation chemistry and the thermodynamics of cell voltage"
+    },
+    {
+      "id": "mt-battery-materials-3",
+      "name": "Cathode materials",
+      "sub": [
+        {
+          "id": "mt-battery-materials-3-1",
+          "name": "Layered oxides: LCO, NMC, NCA"
+        },
+        {
+          "id": "mt-battery-materials-3-2",
+          "name": "Spinel LMO and high-voltage spinels"
+        },
+        {
+          "id": "mt-battery-materials-3-3",
+          "name": "Olivine LiFePO4"
+        },
+        {
+          "id": "mt-battery-materials-3-4",
+          "name": "Disordered rock salts and high-nickel trends"
+        }
+      ]
+    },
+    {
+      "id": "mt-battery-materials-4",
+      "name": "Anode materials",
+      "sub": [
+        {
+          "id": "mt-battery-materials-4-1",
+          "name": "Graphite and intercalation staging"
+        },
+        {
+          "id": "mt-battery-materials-4-2",
+          "name": "Silicon and alloy anodes: volume change"
+        },
+        {
+          "id": "mt-battery-materials-4-3",
+          "name": "Lithium titanate"
+        },
+        {
+          "id": "mt-battery-materials-4-4",
+          "name": "Lithium metal and dendrite formation"
+        }
+      ]
+    },
+    {
+      "id": "mt-battery-materials-5",
+      "name": "Liquid electrolytes, salts and additives; the solid-electrolyte interphase (SEI)"
+    },
+    {
+      "id": "mt-battery-materials-6",
+      "name": "Solid-state electrolytes: oxides (LLZO), sulfides and polymers"
+    },
+    {
+      "id": "mt-battery-materials-7",
+      "name": "Separators, binders, current collectors and electrode architecture"
+    },
+    {
+      "id": "mt-battery-materials-8",
+      "name": "Degradation mechanisms and capacity fade"
+    },
+    {
+      "id": "mt-battery-materials-9",
+      "name": "Thermal runaway and battery safety materials"
+    },
+    {
+      "id": "mt-battery-materials-10",
+      "name": "Beyond lithium-ion: sodium-ion, lithium-sulfur, lithium-air, multivalent and flow batteries"
+    },
+    {
+      "id": "mt-battery-materials-11",
+      "name": "Supercapacitor electrode materials"
+    },
+    {
+      "id": "mt-battery-materials-12",
+      "name": "Characterising battery materials: in-situ XRD, electrochemical testing and post-mortem analysis"
+    },
+    {
+      "id": "mt-battery-materials-13",
+      "name": "Battery materials for aerospace and wearable systems: specific energy and safety constraints"
+    }
+  ]
+}

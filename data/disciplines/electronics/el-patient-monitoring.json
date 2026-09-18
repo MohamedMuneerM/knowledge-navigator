@@ -1,0 +1,42 @@
+{
+  "id": "el-patient-monitoring",
+  "name": "Patient Monitoring",
+  "category": "Medical, Industrial & Other Application Domains",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Monitoring patients in hospital and at home: multi-parameter, bedside, ambulatory, wearable and remote monitors and alarm management.",
+  "prerequisites": [
+    "el-biosensors-medical-sensors"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-patient-monitoring-1",
+      "name": "Vital signs monitors (multi-parameter)"
+    },
+    {
+      "id": "el-patient-monitoring-2",
+      "name": "Bedside monitors"
+    },
+    {
+      "id": "el-patient-monitoring-3",
+      "name": "Ambulatory monitors"
+    },
+    {
+      "id": "el-patient-monitoring-4",
+      "name": "Wearable health monitors"
+    },
+    {
+      "id": "el-patient-monitoring-5",
+      "name": "Remote patient monitoring (RPM)"
+    },
+    {
+      "id": "el-patient-monitoring-6",
+      "name": "Hospital information systems (HIS) integration"
+    },
+    {
+      "id": "el-patient-monitoring-7",
+      "name": "Alarm management"
+    }
+  ]
+}

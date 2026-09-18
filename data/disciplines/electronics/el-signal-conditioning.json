@@ -1,0 +1,40 @@
+{
+  "id": "el-signal-conditioning",
+  "name": "Signal Conditioning",
+  "category": "Analog Electronics",
+  "level": 2,
+  "priority": "important",
+  "summary": "Preparing real-world signals for an ADC or logic input: level shifting, buffering, gain and offset, linearization and galvanic isolation.",
+  "prerequisites": [
+    "el-operational-amplifiers"
+  ],
+  "related": [
+    "el-sensor-interfacing"
+  ],
+  "topics": [
+    {
+      "id": "el-signal-conditioning-1",
+      "name": "Level shifting and voltage translation"
+    },
+    {
+      "id": "el-signal-conditioning-2",
+      "name": "Impedance matching and buffering"
+    },
+    {
+      "id": "el-signal-conditioning-3",
+      "name": "Gain and offset adjustment"
+    },
+    {
+      "id": "el-signal-conditioning-4",
+      "name": "Linearization techniques"
+    },
+    {
+      "id": "el-signal-conditioning-5",
+      "name": "Sensor signal conditioning"
+    },
+    {
+      "id": "el-signal-conditioning-6",
+      "name": "Galvanic isolation (optocouplers, digital isolators)"
+    }
+  ]
+}

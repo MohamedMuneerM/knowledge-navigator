@@ -1,0 +1,53 @@
+{
+  "id": "ae-in-space-servicing-assembly-manufacturing",
+  "name": "In-Space Servicing, Assembly and Manufacturing",
+  "category": "Space Missions & Exploration",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Refuelling, repairing, assembling and manufacturing in orbit (OSAM), an emerging capability for a sustainable space economy.",
+  "prerequisites": [
+    "ae-rendezvous-proximity-operations",
+    "ae-space-mission-design"
+  ],
+  "related": [
+    "ai-manipulation"
+  ],
+  "topics": [
+    {
+      "id": "ae-in-space-servicing-assembly-manufacturing-1",
+      "name": "Satellite servicing history: Hubble servicing missions"
+    },
+    {
+      "id": "ae-in-space-servicing-assembly-manufacturing-2",
+      "name": "Robotic servicing: MEV and life-extension missions"
+    },
+    {
+      "id": "ae-in-space-servicing-assembly-manufacturing-3",
+      "name": "In-orbit refuelling and cryogenic propellant transfer"
+    },
+    {
+      "id": "ae-in-space-servicing-assembly-manufacturing-4",
+      "name": "Space robotics: manipulators and grappling"
+    },
+    {
+      "id": "ae-in-space-servicing-assembly-manufacturing-5",
+      "name": "In-space assembly of large structures and telescopes"
+    },
+    {
+      "id": "ae-in-space-servicing-assembly-manufacturing-6",
+      "name": "In-space manufacturing: additive manufacturing and microgravity production"
+    },
+    {
+      "id": "ae-in-space-servicing-assembly-manufacturing-7",
+      "name": "Propellant depots"
+    },
+    {
+      "id": "ae-in-space-servicing-assembly-manufacturing-8",
+      "name": "Standard interfaces for servicing"
+    },
+    {
+      "id": "ae-in-space-servicing-assembly-manufacturing-9",
+      "name": "Active debris removal"
+    }
+  ]
+}

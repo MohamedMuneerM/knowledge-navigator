@@ -1,0 +1,54 @@
+{
+  "id": "ea-atmospheric-radiation",
+  "name": "Atmospheric Radiation",
+  "category": "Meteorology & Atmospheric Science",
+  "level": 3,
+  "priority": "important",
+  "summary": "How solar and infrared radiation interacts with gases, clouds and aerosols, setting Earth's energy balance and the greenhouse effect.",
+  "prerequisites": [
+    "ea-meteorology",
+    "ma-calculus"
+  ],
+  "related": [
+    "ph-atmospheric-environmental-physics",
+    "ph-radiative-processes"
+  ],
+  "topics": [
+    {
+      "id": "ea-atmospheric-radiation-1",
+      "name": "Radiometric quantities and blackbody radiation (Planck, Stefan-Boltzmann, Wien)"
+    },
+    {
+      "id": "ea-atmospheric-radiation-2",
+      "name": "The solar spectrum and orbital geometry of insolation"
+    },
+    {
+      "id": "ea-atmospheric-radiation-3",
+      "name": "Molecular absorption and emission; spectral lines and bands"
+    },
+    {
+      "id": "ea-atmospheric-radiation-4",
+      "name": "Beer-Lambert law and the radiative transfer equation"
+    },
+    {
+      "id": "ea-atmospheric-radiation-5",
+      "name": "Scattering: Rayleigh and Mie"
+    },
+    {
+      "id": "ea-atmospheric-radiation-6",
+      "name": "Clouds and aerosols in the radiation budget"
+    },
+    {
+      "id": "ea-atmospheric-radiation-7",
+      "name": "The greenhouse effect and radiative forcing"
+    },
+    {
+      "id": "ea-atmospheric-radiation-8",
+      "name": "Radiative-convective equilibrium"
+    },
+    {
+      "id": "ea-atmospheric-radiation-9",
+      "name": "Principles of atmospheric remote sensing"
+    }
+  ]
+}

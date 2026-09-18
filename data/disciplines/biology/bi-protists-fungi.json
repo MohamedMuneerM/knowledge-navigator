@@ -1,0 +1,58 @@
+{
+  "id": "bi-protists-fungi",
+  "name": "Protists & Fungi",
+  "category": "Biodiversity & Systematics",
+  "level": 2,
+  "priority": "important",
+  "summary": "The eukaryotes that are neither plants nor animals: the diverse protist lineages, algae and the kingdom Fungi.",
+  "prerequisites": [
+    "bi-systematics-taxonomy"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-protists-fungi-1",
+      "name": "Eukaryotic supergroups and protist diversity"
+    },
+    {
+      "id": "bi-protists-fungi-2",
+      "name": "Excavates and parasitic protists (Giardia, trypanosomes)"
+    },
+    {
+      "id": "bi-protists-fungi-3",
+      "name": "SAR clade: diatoms, brown algae, dinoflagellates, apicomplexans, ciliates, forams"
+    },
+    {
+      "id": "bi-protists-fungi-4",
+      "name": "Archaeplastida: red and green algae"
+    },
+    {
+      "id": "bi-protists-fungi-5",
+      "name": "Amoebozoans and slime molds"
+    },
+    {
+      "id": "bi-protists-fungi-6",
+      "name": "Ecological roles of protists: plankton, primary production and symbioses"
+    },
+    {
+      "id": "bi-protists-fungi-7",
+      "name": "Fungal structure: hyphae, mycelium and growth"
+    },
+    {
+      "id": "bi-protists-fungi-8",
+      "name": "Fungal diversity: chytrids, zygomycetes, ascomycetes, basidiomycetes"
+    },
+    {
+      "id": "bi-protists-fungi-9",
+      "name": "Fungal life cycles and reproduction"
+    },
+    {
+      "id": "bi-protists-fungi-10",
+      "name": "Mycorrhizae, lichens and fungal symbioses"
+    },
+    {
+      "id": "bi-protists-fungi-11",
+      "name": "Fungi as decomposers, pathogens and in industry"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "cs-advanced-algorithms",
+  "name": "Advanced Algorithms & Data Structures",
+  "category": "Data Structures & Algorithms",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Graduate-level algorithm design: randomized, approximation, online, streaming and external-memory algorithms, plus advanced and succinct data structures.",
+  "prerequisites": [
+    "cs-algorithms",
+    "cs-probability-statistics-for-cs",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ma-complexity-theory",
+    "ma-linear-programming",
+    "ma-probabilistic-combinatorics",
+    "ma-combinatorial-optimization",
+    "ma-discrete-computational-geometry",
+    "ai-computational-complexity"
+  ],
+  "topics": [
+    {
+      "id": "cs-advanced-algorithms-1",
+      "name": "Randomized algorithms and probabilistic analysis"
+    },
+    {
+      "id": "cs-advanced-algorithms-2",
+      "name": "Approximation algorithms and LP relaxation"
+    },
+    {
+      "id": "cs-advanced-algorithms-3",
+      "name": "Linear programming duality in algorithm design"
+    },
+    {
+      "id": "cs-advanced-algorithms-4",
+      "name": "Online algorithms and competitive analysis"
+    },
+    {
+      "id": "cs-advanced-algorithms-5",
+      "name": "Streaming and sketching algorithms"
+    },
+    {
+      "id": "cs-advanced-algorithms-6",
+      "name": "Sublinear-time algorithms and property testing"
+    },
+    {
+      "id": "cs-advanced-algorithms-7",
+      "name": "Parameterized and fine-grained complexity"
+    },
+    {
+      "id": "cs-advanced-algorithms-8",
+      "name": "Advanced search structures: splay trees, van Emde Boas trees and fusion trees"
+    },
+    {
+      "id": "cs-advanced-algorithms-9",
+      "name": "Persistent, retroactive and succinct data structures"
+    },
+    {
+      "id": "cs-advanced-algorithms-10",
+      "name": "Cache-oblivious and external-memory algorithms"
+    },
+    {
+      "id": "cs-advanced-algorithms-11",
+      "name": "Suffix trees, suffix arrays and advanced string algorithms"
+    },
+    {
+      "id": "cs-advanced-algorithms-12",
+      "name": "Computational geometry algorithms"
+    },
+    {
+      "id": "cs-advanced-algorithms-13",
+      "name": "Spectral and advanced graph algorithms"
+    },
+    {
+      "id": "cs-advanced-algorithms-14",
+      "name": "Algorithmic game theory basics"
+    }
+  ]
+}

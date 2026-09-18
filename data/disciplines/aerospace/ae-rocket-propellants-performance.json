@@ -1,0 +1,66 @@
+{
+  "id": "ae-rocket-propellants-performance",
+  "name": "Rocket Propellants and Thermochemical Performance",
+  "category": "Rocket Propulsion",
+  "level": 3,
+  "priority": "core",
+  "summary": "How propellant choice sets rocket performance: combustion thermochemistry, equilibrium calculations and the properties of liquid and solid propellants (conceptual, not recipes).",
+  "prerequisites": [
+    "ae-rocket-propulsion-fundamentals",
+    "ae-combustion-fundamentals"
+  ],
+  "related": [
+    "ch-propellant-chemistry",
+    "ch-energetic-materials"
+  ],
+  "topics": [
+    {
+      "id": "ae-rocket-propellants-performance-1",
+      "name": "Combustion chamber thermochemistry: energy balance and products"
+    },
+    {
+      "id": "ae-rocket-propellants-performance-2",
+      "name": "Chemical equilibrium calculations and the minimisation of Gibbs energy"
+    },
+    {
+      "id": "ae-rocket-propellants-performance-3",
+      "name": "Using NASA CEA (Chemical Equilibrium with Applications) and similar tools"
+    },
+    {
+      "id": "ae-rocket-propellants-performance-4",
+      "name": "Shifting versus frozen equilibrium in the nozzle"
+    },
+    {
+      "id": "ae-rocket-propellants-performance-5",
+      "name": "Mixture ratio optimisation and density specific impulse"
+    },
+    {
+      "id": "ae-rocket-propellants-performance-6",
+      "name": "Cryogenic propellants: LOX, LH2, liquid methane"
+    },
+    {
+      "id": "ae-rocket-propellants-performance-7",
+      "name": "Storable and hypergolic propellants"
+    },
+    {
+      "id": "ae-rocket-propellants-performance-8",
+      "name": "Hydrocarbon fuels: RP-1 and kerosene"
+    },
+    {
+      "id": "ae-rocket-propellants-performance-9",
+      "name": "Monopropellants and green propellants"
+    },
+    {
+      "id": "ae-rocket-propellants-performance-10",
+      "name": "Solid propellant families: composite, double-base and their properties (conceptual)"
+    },
+    {
+      "id": "ae-rocket-propellants-performance-11",
+      "name": "Propellant selection trades: performance, density, storability, cost and toxicity"
+    },
+    {
+      "id": "ae-rocket-propellants-performance-12",
+      "name": "Propellant hazards, handling and safety principles"
+    }
+  ]
+}

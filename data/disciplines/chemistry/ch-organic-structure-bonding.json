@@ -1,0 +1,62 @@
+{
+  "id": "ch-organic-structure-bonding",
+  "name": "Organic Chemistry I: Structure & Bonding",
+  "category": "Organic Chemistry",
+  "level": 2,
+  "priority": "core",
+  "summary": "The structure, bonding, acidity and conformations of carbon compounds, and the language of reaction mechanisms.",
+  "prerequisites": [
+    "ch-acids-bases-aqueous-equilibria"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-organic-structure-bonding-1",
+      "name": "Carbon bonding, hybridization and the shapes of organic molecules"
+    },
+    {
+      "id": "ch-organic-structure-bonding-2",
+      "name": "Functional groups and their recognition"
+    },
+    {
+      "id": "ch-organic-structure-bonding-3",
+      "name": "Drawing organic structures and resonance forms"
+    },
+    {
+      "id": "ch-organic-structure-bonding-4",
+      "name": "Organic acids and bases: pKa and structural effects (induction, resonance, hybridization)"
+    },
+    {
+      "id": "ch-organic-structure-bonding-5",
+      "name": "Alkanes and cycloalkanes: nomenclature and properties"
+    },
+    {
+      "id": "ch-organic-structure-bonding-6",
+      "name": "Conformational analysis: ethane, butane and cyclohexane chairs"
+    },
+    {
+      "id": "ch-organic-structure-bonding-7",
+      "name": "Intermolecular forces and physical properties of organic compounds"
+    },
+    {
+      "id": "ch-organic-structure-bonding-8",
+      "name": "Overview of reaction types: polar, radical and pericyclic"
+    },
+    {
+      "id": "ch-organic-structure-bonding-9",
+      "name": "Curved-arrow notation and electron flow"
+    },
+    {
+      "id": "ch-organic-structure-bonding-10",
+      "name": "Nucleophiles, electrophiles and leaving groups"
+    },
+    {
+      "id": "ch-organic-structure-bonding-11",
+      "name": "Reaction energy diagrams, intermediates and transition states"
+    },
+    {
+      "id": "ch-organic-structure-bonding-12",
+      "name": "Conjugation and a molecular-orbital view of π systems"
+    }
+  ]
+}

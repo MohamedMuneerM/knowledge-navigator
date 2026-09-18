@@ -1,0 +1,40 @@
+{
+  "id": "ma-biostatistics",
+  "name": "Biostatistics",
+  "category": "Probability & Statistics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Statistics for medicine and biology: survival analysis, clinical trials and epidemiological study design.",
+  "prerequisites": [
+    "ma-regression-analysis"
+  ],
+  "related": [
+    "bi-quantitative-biology-data-analysis"
+  ],
+  "topics": [
+    {
+      "id": "ma-biostatistics-4",
+      "name": "Study designs: cohort, case-control and cross-sectional"
+    },
+    {
+      "id": "ma-biostatistics-3",
+      "name": "Epidemiological statistics"
+    },
+    {
+      "id": "ma-biostatistics-1",
+      "name": "Survival analysis"
+    },
+    {
+      "id": "ma-biostatistics-5",
+      "name": "Cox proportional hazards model"
+    },
+    {
+      "id": "ma-biostatistics-2",
+      "name": "Clinical trial design"
+    },
+    {
+      "id": "ma-biostatistics-6",
+      "name": "Meta-analysis"
+    }
+  ]
+}

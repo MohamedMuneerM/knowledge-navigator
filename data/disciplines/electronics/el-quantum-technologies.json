@@ -1,0 +1,51 @@
+{
+  "id": "el-quantum-technologies",
+  "name": "Quantum Technologies",
+  "category": "Emerging & Advanced Topics",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "The electrical engineering of quantum technology: qubit hardware and control electronics, quantum sensing, QKD, QRNGs and post-quantum crypto.",
+  "prerequisites": [
+    "ph-solid-state-physics"
+  ],
+  "related": [
+    "ph-quantum-information-science",
+    "ph-quantum-sensing-metrology",
+    "ma-quantum-computation-theory",
+    "cs-quantum-computing"
+  ],
+  "topics": [
+    {
+      "id": "el-quantum-technologies-1",
+      "name": "Quantum computing basics"
+    },
+    {
+      "id": "el-quantum-technologies-6",
+      "name": "Qubit hardware platforms (superconducting, trapped-ion, spin, photonic)"
+    },
+    {
+      "id": "el-quantum-technologies-7",
+      "name": "Microwave control and readout electronics for qubits"
+    },
+    {
+      "id": "el-quantum-technologies-8",
+      "name": "Cryogenic electronics and cryo-CMOS"
+    },
+    {
+      "id": "el-quantum-technologies-2",
+      "name": "Quantum sensors and metrology"
+    },
+    {
+      "id": "el-quantum-technologies-3",
+      "name": "Quantum communication and cryptography"
+    },
+    {
+      "id": "el-quantum-technologies-4",
+      "name": "Quantum random number generators (QRNG)"
+    },
+    {
+      "id": "el-quantum-technologies-5",
+      "name": "Post-quantum cryptography"
+    }
+  ]
+}

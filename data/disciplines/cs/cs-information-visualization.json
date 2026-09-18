@@ -1,0 +1,71 @@
+{
+  "id": "cs-information-visualization",
+  "name": "Data & Information Visualization",
+  "category": "Graphics, Visualization & Games",
+  "level": 3,
+  "priority": "important",
+  "summary": "Turning data into effective visual representations: visual encoding and perception, chart types, networks, maps, interaction, dashboards and honest design.",
+  "prerequisites": [
+    "cs-hci",
+    "cs-probability-statistics-for-cs"
+  ],
+  "related": [
+    "el-analytics-visualization",
+    "ai-exploratory-data-analysis-eda",
+    "ea-geographic-information-systems"
+  ],
+  "topics": [
+    {
+      "id": "cs-information-visualization-1",
+      "name": "Why visualize: tasks, data and the visualization pipeline"
+    },
+    {
+      "id": "cs-information-visualization-2",
+      "name": "Data types and data abstractions"
+    },
+    {
+      "id": "cs-information-visualization-3",
+      "name": "Visual encoding: marks and channels"
+    },
+    {
+      "id": "cs-information-visualization-4",
+      "name": "Perception and colour in visualization"
+    },
+    {
+      "id": "cs-information-visualization-5",
+      "name": "Charts for quantitative data"
+    },
+    {
+      "id": "cs-information-visualization-6",
+      "name": "Visualizing networks and trees"
+    },
+    {
+      "id": "cs-information-visualization-7",
+      "name": "Maps and geospatial visualization"
+    },
+    {
+      "id": "cs-information-visualization-8",
+      "name": "High-dimensional data and projection plots"
+    },
+    {
+      "id": "cs-information-visualization-9",
+      "name": "Interaction techniques: filtering, brushing, linking and zooming"
+    },
+    {
+      "id": "cs-information-visualization-10",
+      "name": "Dashboards and storytelling with data"
+    },
+    {
+      "id": "cs-information-visualization-11",
+      "name": "Scientific and volume visualization"
+    },
+    {
+      "id": "cs-information-visualization-12",
+      "name": "Visualization tools and libraries (D3, Vega-Lite, matplotlib)"
+    },
+    {
+      "id": "cs-information-visualization-13",
+      "name": "Evaluating visualizations and avoiding misleading charts"
+    }
+  ]
+}

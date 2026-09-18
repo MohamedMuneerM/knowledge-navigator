@@ -1,0 +1,62 @@
+{
+  "id": "ea-water-quality-and-pollution",
+  "name": "Water Quality & Pollution",
+  "category": "Environmental Science & Pollution",
+  "level": 3,
+  "priority": "important",
+  "summary": "The chemical, physical and biological quality of surface and groundwater, the main pollutants and how water is treated and protected.",
+  "prerequisites": [
+    "ea-aqueous-geochemistry",
+    "ea-hydrology"
+  ],
+  "related": [
+    "ch-environmental-chemistry",
+    "ch-aquatic-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "ea-water-quality-and-pollution-1",
+      "name": "Water-quality parameters and measurement"
+    },
+    {
+      "id": "ea-water-quality-and-pollution-2",
+      "name": "Point and non-point pollution sources"
+    },
+    {
+      "id": "ea-water-quality-and-pollution-3",
+      "name": "Nutrients, eutrophication and harmful algal blooms"
+    },
+    {
+      "id": "ea-water-quality-and-pollution-4",
+      "name": "Dissolved oxygen and organic pollution"
+    },
+    {
+      "id": "ea-water-quality-and-pollution-5",
+      "name": "Pathogens and microbial water quality"
+    },
+    {
+      "id": "ea-water-quality-and-pollution-6",
+      "name": "Metals and metalloids (arsenic, lead, mercury)"
+    },
+    {
+      "id": "ea-water-quality-and-pollution-7",
+      "name": "Organic contaminants: pesticides, hydrocarbons and solvents"
+    },
+    {
+      "id": "ea-water-quality-and-pollution-8",
+      "name": "Emerging contaminants: PFAS, pharmaceuticals and microplastics"
+    },
+    {
+      "id": "ea-water-quality-and-pollution-9",
+      "name": "Acid mine drainage"
+    },
+    {
+      "id": "ea-water-quality-and-pollution-10",
+      "name": "Drinking-water and wastewater treatment basics"
+    },
+    {
+      "id": "ea-water-quality-and-pollution-11",
+      "name": "Water-quality regulation and total maximum daily loads"
+    }
+  ]
+}

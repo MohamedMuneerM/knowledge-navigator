@@ -1,0 +1,40 @@
+{
+  "id": "el-key-management",
+  "name": "Key Management",
+  "category": "Security, Privacy & Trust",
+  "level": 3,
+  "priority": "important",
+  "summary": "Creating, storing, provisioning and rotating keys safely, from eFuses and OTP to PKI.",
+  "prerequisites": [
+    "el-cryptography-fundamentals"
+  ],
+  "related": [
+    "cs-applied-cryptography"
+  ],
+  "topics": [
+    {
+      "id": "el-key-management-1",
+      "name": "Key generation and storage"
+    },
+    {
+      "id": "el-key-management-2",
+      "name": "Key derivation functions (KDF)"
+    },
+    {
+      "id": "el-key-management-3",
+      "name": "Secure key provisioning"
+    },
+    {
+      "id": "el-key-management-4",
+      "name": "Key rotation and lifecycle"
+    },
+    {
+      "id": "el-key-management-5",
+      "name": "Hardware key storage (eFuses, OTP memory)"
+    },
+    {
+      "id": "el-key-management-6",
+      "name": "Public Key Infrastructure (PKI)"
+    }
+  ]
+}

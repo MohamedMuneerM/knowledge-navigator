@@ -1,0 +1,74 @@
+{
+  "id": "bi-microbiology",
+  "name": "Microbiology",
+  "category": "Microbiology, Virology & Immunology",
+  "level": 2,
+  "priority": "core",
+  "summary": "The biology of bacteria, archaea and other microbes: structure, growth, metabolism, genetics, diversity, ecology and role in health.",
+  "prerequisites": [
+    "bi-molecular-biology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-microbiology-1",
+      "name": "History of microbiology and germ theory"
+    },
+    {
+      "id": "bi-microbiology-2",
+      "name": "Prokaryotic cell structure: cell walls, membranes, appendages and endospores"
+    },
+    {
+      "id": "bi-microbiology-3",
+      "name": "Microbial growth: culture media, growth curves and environmental factors"
+    },
+    {
+      "id": "bi-microbiology-4",
+      "name": "Control of microbial growth: sterilisation, disinfection and antibiotics"
+    },
+    {
+      "id": "bi-microbiology-5",
+      "name": "Microbial metabolism: diversity of energy sources, chemolithotrophy and anaerobic respiration"
+    },
+    {
+      "id": "bi-microbiology-6",
+      "name": "Microbial physiology: regulation, stress responses and quorum sensing"
+    },
+    {
+      "id": "bi-microbiology-7",
+      "name": "Microbial genetics: plasmids, horizontal gene transfer and CRISPR immunity"
+    },
+    {
+      "id": "bi-microbiology-8",
+      "name": "Bacterial diversity: major phyla"
+    },
+    {
+      "id": "bi-microbiology-9",
+      "name": "Archaea: diversity and unique features"
+    },
+    {
+      "id": "bi-microbiology-10",
+      "name": "Eukaryotic microbes: fungi, protists and microalgae"
+    },
+    {
+      "id": "bi-microbiology-11",
+      "name": "Biofilms and microbial communities"
+    },
+    {
+      "id": "bi-microbiology-12",
+      "name": "Microbial ecology and biogeochemical cycling"
+    },
+    {
+      "id": "bi-microbiology-13",
+      "name": "Host-microbe interactions: normal flora, pathogens and virulence"
+    },
+    {
+      "id": "bi-microbiology-14",
+      "name": "Antimicrobial resistance"
+    },
+    {
+      "id": "bi-microbiology-15",
+      "name": "Applied microbiology: food, industrial and environmental uses"
+    }
+  ]
+}

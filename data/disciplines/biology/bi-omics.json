@@ -1,0 +1,57 @@
+{
+  "id": "bi-omics",
+  "name": "Transcriptomics, Proteomics & Multi-Omics",
+  "category": "Genetics & Genomics",
+  "level": 4,
+  "priority": "important",
+  "summary": "Measuring the molecules of the cell at scale: RNA-seq, single-cell and spatial methods, proteomics, metabolomics and integrating them.",
+  "prerequisites": [
+    "bi-genomics",
+    "bi-bioinformatics"
+  ],
+  "related": [
+    "ch-mass-spectrometry"
+  ],
+  "topics": [
+    {
+      "id": "bi-omics-1",
+      "name": "Transcriptomics: microarrays and bulk RNA-seq"
+    },
+    {
+      "id": "bi-omics-2",
+      "name": "Differential expression analysis and normalisation"
+    },
+    {
+      "id": "bi-omics-3",
+      "name": "Single-cell RNA-seq: technologies, clustering and cell atlases"
+    },
+    {
+      "id": "bi-omics-4",
+      "name": "Spatial transcriptomics and spatial omics"
+    },
+    {
+      "id": "bi-omics-5",
+      "name": "Epigenomics: ChIP-seq, ATAC-seq, bisulfite sequencing and Hi-C"
+    },
+    {
+      "id": "bi-omics-6",
+      "name": "Proteomics by mass spectrometry: bottom-up, quantitative and PTM proteomics"
+    },
+    {
+      "id": "bi-omics-7",
+      "name": "Interactomics: protein-protein interaction mapping"
+    },
+    {
+      "id": "bi-omics-8",
+      "name": "Metabolomics and lipidomics"
+    },
+    {
+      "id": "bi-omics-9",
+      "name": "Multi-omics integration and network-based analysis"
+    },
+    {
+      "id": "bi-omics-10",
+      "name": "Data standards, public repositories and reproducibility in omics"
+    }
+  ]
+}

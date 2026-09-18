@@ -1,0 +1,63 @@
+{
+  "id": "mt-molecular-dynamics-monte-carlo",
+  "name": "Molecular Dynamics & Monte Carlo Simulation",
+  "category": "Computational Materials Science",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Covers atomistic simulation of materials with molecular dynamics and Monte Carlo methods, from interatomic potentials to machine-learned force fields.",
+  "prerequisites": [
+    "mt-computational-materials-intro",
+    "ph-thermodynamics-statistical-mechanics"
+  ],
+  "related": [
+    "ph-computational-physics",
+    "ma-monte-carlo-methods",
+    "ch-molecular-modeling-simulation"
+  ],
+  "topics": [
+    {
+      "id": "mt-molecular-dynamics-monte-carlo-1",
+      "name": "Statistical mechanics refresher: ensembles and ergodicity"
+    },
+    {
+      "id": "mt-molecular-dynamics-monte-carlo-2",
+      "name": "Interatomic potentials: pair potentials, EAM, Tersoff, ReaxFF and force fields for polymers"
+    },
+    {
+      "id": "mt-molecular-dynamics-monte-carlo-3",
+      "name": "Machine-learned interatomic potentials (GAP, NequIP, MACE)"
+    },
+    {
+      "id": "mt-molecular-dynamics-monte-carlo-4",
+      "name": "Integrating equations of motion: Verlet algorithms and time steps"
+    },
+    {
+      "id": "mt-molecular-dynamics-monte-carlo-5",
+      "name": "Thermostats, barostats and periodic boundary conditions"
+    },
+    {
+      "id": "mt-molecular-dynamics-monte-carlo-6",
+      "name": "Computing properties: diffusion coefficients, RDF, elastic constants and thermal conductivity"
+    },
+    {
+      "id": "mt-molecular-dynamics-monte-carlo-7",
+      "name": "Simulating defects, dislocations, fracture and phase transitions"
+    },
+    {
+      "id": "mt-molecular-dynamics-monte-carlo-8",
+      "name": "Metropolis Monte Carlo and cluster expansions"
+    },
+    {
+      "id": "mt-molecular-dynamics-monte-carlo-9",
+      "name": "Kinetic Monte Carlo for diffusion and growth"
+    },
+    {
+      "id": "mt-molecular-dynamics-monte-carlo-10",
+      "name": "Rare events and accelerated dynamics"
+    },
+    {
+      "id": "mt-molecular-dynamics-monte-carlo-11",
+      "name": "Practical simulation with LAMMPS and analysis with OVITO"
+    }
+  ]
+}

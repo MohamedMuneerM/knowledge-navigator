@@ -1,0 +1,44 @@
+{
+  "id": "ch-automated-ai-driven-chemistry",
+  "name": "Automated Labs & AI-Driven Chemistry",
+  "category": "Frontiers of Chemistry",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Robotic, high-throughput and self-driving laboratories guided by machine learning.",
+  "prerequisites": [
+    "ch-cheminformatics-ml"
+  ],
+  "related": [
+    "ai-ai-for-science"
+  ],
+  "topics": [
+    {
+      "id": "ch-automated-ai-driven-chemistry-1",
+      "name": "Laboratory automation and robotics"
+    },
+    {
+      "id": "ch-automated-ai-driven-chemistry-2",
+      "name": "High-throughput experimentation"
+    },
+    {
+      "id": "ch-automated-ai-driven-chemistry-3",
+      "name": "Self-driving laboratories and closed-loop Bayesian optimization"
+    },
+    {
+      "id": "ch-automated-ai-driven-chemistry-4",
+      "name": "AI for retrosynthesis and reaction-condition prediction"
+    },
+    {
+      "id": "ch-automated-ai-driven-chemistry-5",
+      "name": "Foundation models and LLM agents for chemistry"
+    },
+    {
+      "id": "ch-automated-ai-driven-chemistry-6",
+      "name": "Digital twins and chemical data infrastructure"
+    },
+    {
+      "id": "ch-automated-ai-driven-chemistry-7",
+      "name": "Safety and reproducibility in autonomous chemistry"
+    }
+  ]
+}

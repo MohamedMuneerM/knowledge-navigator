@@ -1,0 +1,50 @@
+{
+  "id": "ph-gravitational-wave-astronomy",
+  "name": "Gravitational Wave Astronomy",
+  "category": "High-Energy & Multi-Messenger Astrophysics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Observing the Universe through ripples in spacetime from merging black holes and neutron stars.",
+  "prerequisites": [
+    "ph-compact-objects"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-gravitational-wave-astronomy-4",
+      "name": "Linearized gravity and the quadrupole formula"
+    },
+    {
+      "id": "ph-gravitational-wave-astronomy-5",
+      "name": "Compact binary waveforms: inspiral, merger and ringdown"
+    },
+    {
+      "id": "ph-gravitational-wave-astronomy-1",
+      "name": "Detection methods (LIGO, VIRGO, LISA)"
+    },
+    {
+      "id": "ph-gravitational-wave-astronomy-6",
+      "name": "Detector noise and sensitivity"
+    },
+    {
+      "id": "ph-gravitational-wave-astronomy-7",
+      "name": "Data analysis: matched filtering and parameter estimation"
+    },
+    {
+      "id": "ph-gravitational-wave-astronomy-2",
+      "name": "Sources (binary mergers, supernovae)"
+    },
+    {
+      "id": "ph-gravitational-wave-astronomy-8",
+      "name": "Pulsar timing arrays and the nanohertz background"
+    },
+    {
+      "id": "ph-gravitational-wave-astronomy-9",
+      "name": "Tests of general relativity and standard sirens"
+    },
+    {
+      "id": "ph-gravitational-wave-astronomy-3",
+      "name": "Multi-messenger astronomy"
+    }
+  ]
+}

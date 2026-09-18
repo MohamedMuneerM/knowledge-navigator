@@ -1,0 +1,48 @@
+{
+  "id": "el-cellular-technologies",
+  "name": "Cellular Technologies",
+  "category": "Communication Protocols & Connectivity",
+  "level": 3,
+  "priority": "important",
+  "summary": "Cellular generations from 2G to 5G NR and RedCap from the point of view of connecting devices.",
+  "prerequisites": [
+    "el-short-range-wireless"
+  ],
+  "related": [
+    "cs-advanced-networking"
+  ],
+  "topics": [
+    {
+      "id": "el-cellular-technologies-1",
+      "name": "2G/GSM - legacy voice and data"
+    },
+    {
+      "id": "el-cellular-technologies-2",
+      "name": "3G/UMTS - mobile broadband"
+    },
+    {
+      "id": "el-cellular-technologies-3",
+      "name": "4G/LTE - high-speed data, VoLTE"
+    },
+    {
+      "id": "el-cellular-technologies-4",
+      "name": "5G NR - sub-6GHz and mmWave, ultra-low latency, massive IoT"
+    },
+    {
+      "id": "el-cellular-technologies-5",
+      "name": "5G RedCap (Reduced Capability) - mid-tier IoT"
+    },
+    {
+      "id": "el-cellular-technologies-6",
+      "name": "Cellular modules, SIM/eSIM/iSIM and AT commands"
+    },
+    {
+      "id": "el-cellular-technologies-7",
+      "name": "Power-saving modes (PSM, eDRX)"
+    },
+    {
+      "id": "el-cellular-technologies-8",
+      "name": "Bands, network registration and carrier certification"
+    }
+  ]
+}

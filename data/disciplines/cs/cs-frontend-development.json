@@ -1,0 +1,67 @@
+{
+  "id": "cs-frontend-development",
+  "name": "Frontend Engineering",
+  "category": "Web & Mobile Development",
+  "level": 3,
+  "priority": "important",
+  "summary": "Building large, fast, accessible web applications with TypeScript and component frameworks, from state management and rendering strategies to testing and performance.",
+  "prerequisites": [
+    "cs-web-fundamentals",
+    "cs-program-design"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-frontend-development-1",
+      "name": "Modern JavaScript and TypeScript"
+    },
+    {
+      "id": "cs-frontend-development-2",
+      "name": "Component-based UI frameworks (React, Vue, Angular, Svelte)"
+    },
+    {
+      "id": "cs-frontend-development-3",
+      "name": "State management"
+    },
+    {
+      "id": "cs-frontend-development-4",
+      "name": "Routing and single-page applications"
+    },
+    {
+      "id": "cs-frontend-development-5",
+      "name": "Rendering strategies: client-side, server-side, static generation and hydration"
+    },
+    {
+      "id": "cs-frontend-development-6",
+      "name": "Build tools and bundlers (Vite, webpack)"
+    },
+    {
+      "id": "cs-frontend-development-7",
+      "name": "Styling approaches: CSS modules, utility CSS and design systems"
+    },
+    {
+      "id": "cs-frontend-development-8",
+      "name": "Forms, validation and data fetching"
+    },
+    {
+      "id": "cs-frontend-development-9",
+      "name": "Frontend testing"
+    },
+    {
+      "id": "cs-frontend-development-10",
+      "name": "Web performance: Core Web Vitals and optimization"
+    },
+    {
+      "id": "cs-frontend-development-11",
+      "name": "Accessibility (WCAG) in web applications"
+    },
+    {
+      "id": "cs-frontend-development-12",
+      "name": "Progressive web apps and browser APIs"
+    },
+    {
+      "id": "cs-frontend-development-13",
+      "name": "Internationalization"
+    }
+  ]
+}

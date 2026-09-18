@@ -1,0 +1,45 @@
+{
+  "id": "el-wearable-technology-deep-dive",
+  "name": "Wearable Technology Deep-Dive",
+  "category": "Medical, Industrial & Other Application Domains",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Designing wearables: biosignal acquisition, activity and fall detection, sleep staging and other body-worn sensing.",
+  "prerequisites": [
+    "el-biosensors-medical-sensors",
+    "el-low-power-design"
+  ],
+  "related": [
+    "ai-wearable-robotics-exoskeletons"
+  ],
+  "topics": [
+    {
+      "id": "el-wearable-technology-deep-dive-1",
+      "name": "Bio-signal acquisition"
+    },
+    {
+      "id": "el-wearable-technology-deep-dive-2",
+      "name": "Motion analysis and activity recognition"
+    },
+    {
+      "id": "el-wearable-technology-deep-dive-3",
+      "name": "Fall detection"
+    },
+    {
+      "id": "el-wearable-technology-deep-dive-4",
+      "name": "Medication adherence tracking"
+    },
+    {
+      "id": "el-wearable-technology-deep-dive-5",
+      "name": "UV exposure monitoring"
+    },
+    {
+      "id": "el-wearable-technology-deep-dive-6",
+      "name": "Hydration monitoring"
+    },
+    {
+      "id": "el-wearable-technology-deep-dive-7",
+      "name": "Sleep staging and analysis"
+    }
+  ]
+}

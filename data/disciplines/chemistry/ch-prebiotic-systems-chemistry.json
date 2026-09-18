@@ -1,0 +1,57 @@
+{
+  "id": "ch-prebiotic-systems-chemistry",
+  "name": "Prebiotic & Systems Chemistry",
+  "category": "Earth & Space Chemistry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The chemistry that could have turned simple molecules into the first living systems, and the networks of reactions that behave like life.",
+  "prerequisites": [
+    "ch-metabolism-bioenergetics"
+  ],
+  "related": [
+    "bi-origin-of-life",
+    "ch-astrochemistry"
+  ],
+  "topics": [
+    {
+      "id": "ch-prebiotic-systems-chemistry-1",
+      "name": "Early Earth environments and feedstock molecules"
+    },
+    {
+      "id": "ch-prebiotic-systems-chemistry-2",
+      "name": "Miller-Urey and its successors"
+    },
+    {
+      "id": "ch-prebiotic-systems-chemistry-3",
+      "name": "Formose reaction and sugar synthesis"
+    },
+    {
+      "id": "ch-prebiotic-systems-chemistry-4",
+      "name": "Nucleotide synthesis and the RNA world"
+    },
+    {
+      "id": "ch-prebiotic-systems-chemistry-5",
+      "name": "Amino acids, peptides and homochirality"
+    },
+    {
+      "id": "ch-prebiotic-systems-chemistry-6",
+      "name": "Mineral surfaces and hydrothermal settings"
+    },
+    {
+      "id": "ch-prebiotic-systems-chemistry-7",
+      "name": "Protocells, vesicles and compartmentalisation"
+    },
+    {
+      "id": "ch-prebiotic-systems-chemistry-8",
+      "name": "Autocatalysis and self-replicating systems"
+    },
+    {
+      "id": "ch-prebiotic-systems-chemistry-9",
+      "name": "Chemical reaction networks and emergence"
+    },
+    {
+      "id": "ch-prebiotic-systems-chemistry-10",
+      "name": "Delivery of organics by meteorites and comets"
+    }
+  ]
+}

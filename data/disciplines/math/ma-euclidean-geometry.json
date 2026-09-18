@@ -1,0 +1,62 @@
+{
+  "id": "ma-euclidean-geometry",
+  "name": "Euclidean Geometry",
+  "category": "Pre-University Foundations",
+  "level": 1,
+  "priority": "core",
+  "summary": "Classical plane and solid geometry, from angles and triangles to congruence, similarity, circles, area and volume, and a first taste of proof.",
+  "prerequisites": [
+    "ma-arithmetic-pre-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-euclidean-geometry-5",
+      "name": "Points, lines, planes and angles; parallel lines and transversals"
+    },
+    {
+      "id": "ma-euclidean-geometry-6",
+      "name": "Triangles: congruence criteria and angle sums"
+    },
+    {
+      "id": "ma-euclidean-geometry-7",
+      "name": "Similarity and the Pythagorean theorem"
+    },
+    {
+      "id": "ma-euclidean-geometry-8",
+      "name": "Quadrilaterals and polygons"
+    },
+    {
+      "id": "ma-euclidean-geometry-9",
+      "name": "Circles: chords, tangents, arcs and inscribed angles"
+    },
+    {
+      "id": "ma-euclidean-geometry-10",
+      "name": "Perimeter, area and volume formulas"
+    },
+    {
+      "id": "ma-euclidean-geometry-1",
+      "name": "Classical plane geometry"
+    },
+    {
+      "id": "ma-euclidean-geometry-2",
+      "name": "Solid geometry"
+    },
+    {
+      "id": "ma-euclidean-geometry-3",
+      "name": "Coordinate geometry"
+    },
+    {
+      "id": "ma-euclidean-geometry-11",
+      "name": "Transformations: translations, rotations, reflections and dilations"
+    },
+    {
+      "id": "ma-euclidean-geometry-4",
+      "name": "Geometric constructions"
+    },
+    {
+      "id": "ma-euclidean-geometry-12",
+      "name": "Euclid's axioms and writing geometric proofs"
+    }
+  ]
+}

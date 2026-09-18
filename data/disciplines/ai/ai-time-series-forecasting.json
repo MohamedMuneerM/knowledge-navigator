@@ -1,0 +1,70 @@
+{
+  "id": "ai-time-series-forecasting",
+  "name": "Time-Series ML & Forecasting",
+  "category": "Applied ML Problem Domains",
+  "level": 3,
+  "priority": "important",
+  "summary": "Forecasting and learning from time-ordered data with classical statistical models, feature-based machine learning and modern deep and foundation models.",
+  "prerequisites": [
+    "ai-types-of-machine-learning",
+    "ma-time-series-analysis"
+  ],
+  "related": [
+    "ai-mathematics-statistics",
+    "ai-business-analytics"
+  ],
+  "topics": [
+    {
+      "id": "ai-time-series-forecasting-1",
+      "name": "Time-series data: trend, seasonality, stationarity and autocorrelation"
+    },
+    {
+      "id": "ai-time-series-forecasting-2",
+      "name": "Forecasting workflow and baseline methods (naive, seasonal naive, drift)"
+    },
+    {
+      "id": "ai-time-series-forecasting-3",
+      "name": "Exponential smoothing (ETS) and ARIMA/SARIMA models in practice"
+    },
+    {
+      "id": "ai-time-series-forecasting-4",
+      "name": "Forecast evaluation: backtesting, rolling-origin validation, MASE and sMAPE"
+    },
+    {
+      "id": "ai-time-series-forecasting-5",
+      "name": "Feature-based ML forecasting: lags, rolling windows, gradient boosting"
+    },
+    {
+      "id": "ai-time-series-forecasting-6",
+      "name": "Hierarchical and grouped forecasting and reconciliation"
+    },
+    {
+      "id": "ai-time-series-forecasting-7",
+      "name": "Probabilistic forecasting and prediction intervals (quantile loss)"
+    },
+    {
+      "id": "ai-time-series-forecasting-8",
+      "name": "Deep learning forecasters: LSTMs, TCNs, DeepAR, N-BEATS"
+    },
+    {
+      "id": "ai-time-series-forecasting-9",
+      "name": "Transformers for time series (Temporal Fusion Transformer, PatchTST)"
+    },
+    {
+      "id": "ai-time-series-forecasting-10",
+      "name": "Time-series foundation models (Chronos, TimesFM)"
+    },
+    {
+      "id": "ai-time-series-forecasting-11",
+      "name": "Multivariate and state-space models"
+    },
+    {
+      "id": "ai-time-series-forecasting-12",
+      "name": "Time-series classification and change-point detection"
+    },
+    {
+      "id": "ai-time-series-forecasting-13",
+      "name": "Tooling: statsmodels, Prophet, sktime, Darts"
+    }
+  ]
+}

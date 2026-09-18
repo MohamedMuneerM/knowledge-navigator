@@ -1,0 +1,71 @@
+{
+  "id": "me-casting-forming-molding",
+  "name": "Casting, Forming & Molding",
+  "category": "Manufacturing Engineering",
+  "level": 3,
+  "priority": "important",
+  "summary": "Shaping metals and polymers by solidification and deformation: casting, forging, rolling, extrusion, sheet-metal forming and molding.",
+  "prerequisites": [
+    "me-manufacturing-processes",
+    "me-mechanics-of-materials"
+  ],
+  "related": [
+    "mt-casting-solidification",
+    "mt-deformation-processing",
+    "mt-polymer-processing"
+  ],
+  "topics": [
+    {
+      "id": "me-casting-forming-molding-1",
+      "name": "Casting fundamentals: solidification, fluidity, Chvorinov's rule, gating and risering"
+    },
+    {
+      "id": "me-casting-forming-molding-2",
+      "name": "Expendable-mold casting: sand, investment and lost-foam"
+    },
+    {
+      "id": "me-casting-forming-molding-3",
+      "name": "Permanent-mold and die casting"
+    },
+    {
+      "id": "me-casting-forming-molding-4",
+      "name": "Casting defects and design for casting"
+    },
+    {
+      "id": "me-casting-forming-molding-5",
+      "name": "Metal-forming fundamentals: flow stress, strain hardening, hot vs cold working"
+    },
+    {
+      "id": "me-casting-forming-molding-6",
+      "name": "Forging (open-die, closed-die) and rolling"
+    },
+    {
+      "id": "me-casting-forming-molding-7",
+      "name": "Extrusion and drawing (wire, bar, tube)"
+    },
+    {
+      "id": "me-casting-forming-molding-8",
+      "name": "Sheet-metal operations: shearing, blanking, bending, deep drawing, stretch forming, springback"
+    },
+    {
+      "id": "me-casting-forming-molding-9",
+      "name": "Hydroforming, incremental and high-rate forming"
+    },
+    {
+      "id": "me-casting-forming-molding-10",
+      "name": "Plastic injection molding: machines, mold design, cooling and defects"
+    },
+    {
+      "id": "me-casting-forming-molding-11",
+      "name": "Blow molding, thermoforming, compression and transfer molding"
+    },
+    {
+      "id": "me-casting-forming-molding-12",
+      "name": "Composite part fabrication: layup, RTM, pultrusion"
+    },
+    {
+      "id": "me-casting-forming-molding-13",
+      "name": "Powder metallurgy and metal injection molding"
+    }
+  ]
+}

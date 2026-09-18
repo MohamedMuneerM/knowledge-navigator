@@ -1,0 +1,46 @@
+{
+  "id": "ai-video-analysis",
+  "name": "Video Analysis",
+  "category": "Computer Vision",
+  "level": 4,
+  "priority": "important",
+  "summary": "Understanding video: action recognition, tracking, video segmentation, optical flow and temporal models.",
+  "prerequisites": [
+    "ai-core-vision-tasks"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-video-analysis-1",
+      "name": "Action Recognition"
+    },
+    {
+      "id": "ai-video-analysis-2",
+      "name": "Video Classification"
+    },
+    {
+      "id": "ai-video-analysis-3",
+      "name": "Object Tracking"
+    },
+    {
+      "id": "ai-video-analysis-4",
+      "name": "Video Segmentation"
+    },
+    {
+      "id": "ai-video-analysis-5",
+      "name": "Temporal Modeling"
+    },
+    {
+      "id": "ai-video-analysis-6",
+      "name": "Optical Flow"
+    },
+    {
+      "id": "ai-video-analysis-7",
+      "name": "Video architectures: 3D CNNs, two-stream networks and video transformers"
+    },
+    {
+      "id": "ai-video-analysis-8",
+      "name": "Multi-object tracking (SORT, DeepSORT, ByteTrack)"
+    }
+  ]
+}

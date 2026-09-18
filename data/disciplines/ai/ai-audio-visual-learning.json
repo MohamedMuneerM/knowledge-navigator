@@ -1,0 +1,39 @@
+{
+  "id": "ai-audio-visual-learning",
+  "name": "Audio-Visual Learning",
+  "category": "Multimodal AI",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Learning jointly from sound and vision: audio-visual speech recognition, sound source localization and audio-visual generation.",
+  "prerequisites": [
+    "ai-speech-audio-processing",
+    "ai-video-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-audio-visual-learning-1",
+      "name": "Audio-Visual Speech Recognition"
+    },
+    {
+      "id": "ai-audio-visual-learning-2",
+      "name": "Sound Source Localization"
+    },
+    {
+      "id": "ai-audio-visual-learning-3",
+      "name": "Video-Audio Generation"
+    },
+    {
+      "id": "ai-audio-visual-learning-4",
+      "name": "Audio-visual correspondence as self-supervision"
+    },
+    {
+      "id": "ai-audio-visual-learning-5",
+      "name": "Lip reading"
+    },
+    {
+      "id": "ai-audio-visual-learning-6",
+      "name": "Audio-visual speech enhancement and separation"
+    }
+  ]
+}

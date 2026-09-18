@@ -1,0 +1,68 @@
+{
+  "id": "cs-quantum-computing",
+  "name": "Quantum Computing for Computer Scientists",
+  "category": "Emerging Computing & Frontiers",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Quantum computation from a programmer's point of view: qubits, gates and circuits, the main quantum algorithms, programming frameworks, error correction and hardware.",
+  "prerequisites": [
+    "ma-linear-algebra",
+    "cs-algorithms"
+  ],
+  "related": [
+    "ph-quantum-information-science",
+    "ma-quantum-computation-theory",
+    "el-quantum-technologies",
+    "ai-quantum-machine-learning"
+  ],
+  "topics": [
+    {
+      "id": "cs-quantum-computing-1",
+      "name": "Qubits, superposition and measurement"
+    },
+    {
+      "id": "cs-quantum-computing-2",
+      "name": "Multi-qubit systems and entanglement"
+    },
+    {
+      "id": "cs-quantum-computing-3",
+      "name": "Quantum gates and circuits"
+    },
+    {
+      "id": "cs-quantum-computing-4",
+      "name": "Quantum protocols: teleportation and superdense coding"
+    },
+    {
+      "id": "cs-quantum-computing-5",
+      "name": "Early algorithms: Deutsch-Jozsa, Bernstein-Vazirani and Simon"
+    },
+    {
+      "id": "cs-quantum-computing-6",
+      "name": "The quantum Fourier transform and Shor's algorithm"
+    },
+    {
+      "id": "cs-quantum-computing-7",
+      "name": "Grover's search algorithm"
+    },
+    {
+      "id": "cs-quantum-computing-8",
+      "name": "Quantum programming frameworks (Qiskit, Cirq)"
+    },
+    {
+      "id": "cs-quantum-computing-9",
+      "name": "Noise, decoherence and quantum error correction"
+    },
+    {
+      "id": "cs-quantum-computing-10",
+      "name": "Variational and near-term (NISQ) algorithms"
+    },
+    {
+      "id": "cs-quantum-computing-11",
+      "name": "Quantum hardware platforms and architecture"
+    },
+    {
+      "id": "cs-quantum-computing-12",
+      "name": "Quantum complexity and implications for cryptography"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "el-magnetic-circuits-transformers",
+  "name": "Magnetic Circuits & Transformers",
+  "category": "Electrical Machines & Power Systems",
+  "level": 2,
+  "priority": "core",
+  "summary": "Magnetic circuits and the transformer, the basis of electromechanical energy conversion and of every power system.",
+  "prerequisites": [
+    "el-ac-circuits-power",
+    "el-electromagnetics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-magnetic-circuits-transformers-1",
+      "name": "Magnetic circuits, reluctance and B-H curves"
+    },
+    {
+      "id": "el-magnetic-circuits-transformers-2",
+      "name": "Hysteresis and eddy-current losses"
+    },
+    {
+      "id": "el-magnetic-circuits-transformers-3",
+      "name": "Inductor design"
+    },
+    {
+      "id": "el-magnetic-circuits-transformers-4",
+      "name": "Ideal and practical transformers"
+    },
+    {
+      "id": "el-magnetic-circuits-transformers-5",
+      "name": "Transformer equivalent circuit; open- and short-circuit tests"
+    },
+    {
+      "id": "el-magnetic-circuits-transformers-6",
+      "name": "Voltage regulation and efficiency"
+    },
+    {
+      "id": "el-magnetic-circuits-transformers-7",
+      "name": "Three-phase transformer connections and vector groups"
+    },
+    {
+      "id": "el-magnetic-circuits-transformers-8",
+      "name": "Autotransformers and instrument transformers"
+    },
+    {
+      "id": "el-magnetic-circuits-transformers-9",
+      "name": "Per-unit representation"
+    },
+    {
+      "id": "el-magnetic-circuits-transformers-10",
+      "name": "Inrush current, harmonics and transformer cooling"
+    },
+    {
+      "id": "el-magnetic-circuits-transformers-11",
+      "name": "Electromechanical energy conversion: force and torque from energy and co-energy"
+    }
+  ]
+}

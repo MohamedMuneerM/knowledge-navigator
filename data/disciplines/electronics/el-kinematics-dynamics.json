@@ -1,0 +1,42 @@
+{
+  "id": "el-kinematics-dynamics",
+  "name": "Robot Kinematics & Dynamics",
+  "category": "Control Systems & Robotics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Describing robot motion mathematically: forward and inverse kinematics, DH parameters, Jacobians, dynamics and trajectory generation.",
+  "prerequisites": [
+    "ma-linear-algebra",
+    "me-dynamics"
+  ],
+  "related": [
+    "ai-kinematics-dynamics",
+    "me-robot-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "el-kinematics-dynamics-1",
+      "name": "Forward kinematics and inverse kinematics"
+    },
+    {
+      "id": "el-kinematics-dynamics-2",
+      "name": "Denavit-Hartenberg (DH) parameters"
+    },
+    {
+      "id": "el-kinematics-dynamics-3",
+      "name": "Jacobian and velocity kinematics"
+    },
+    {
+      "id": "el-kinematics-dynamics-4",
+      "name": "Robot dynamics and equations of motion"
+    },
+    {
+      "id": "el-kinematics-dynamics-5",
+      "name": "Trajectory planning and interpolation"
+    },
+    {
+      "id": "el-kinematics-dynamics-6",
+      "name": "Motion profiles (trapezoidal, S-curve)"
+    }
+  ]
+}

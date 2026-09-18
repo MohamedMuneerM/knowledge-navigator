@@ -1,0 +1,57 @@
+{
+  "id": "bi-ecosystem-ecology",
+  "name": "Ecosystem Ecology & Biogeochemistry",
+  "category": "Ecology & Environment",
+  "level": 3,
+  "priority": "important",
+  "summary": "Ecosystems as flows of energy and matter: productivity, decomposition, nutrient cycling and the services nature provides.",
+  "prerequisites": [
+    "bi-ecology"
+  ],
+  "related": [
+    "ea-biogeochemical-cycles",
+    "ea-soil-science"
+  ],
+  "topics": [
+    {
+      "id": "bi-ecosystem-ecology-1",
+      "name": "Primary production: controls and global patterns"
+    },
+    {
+      "id": "bi-ecosystem-ecology-2",
+      "name": "Secondary production and trophic efficiency"
+    },
+    {
+      "id": "bi-ecosystem-ecology-3",
+      "name": "Decomposition and soil ecology"
+    },
+    {
+      "id": "bi-ecosystem-ecology-4",
+      "name": "Carbon cycle: ecosystem carbon balance and fluxes"
+    },
+    {
+      "id": "bi-ecosystem-ecology-5",
+      "name": "Nitrogen and phosphorus cycling"
+    },
+    {
+      "id": "bi-ecosystem-ecology-6",
+      "name": "Water and energy balance of ecosystems"
+    },
+    {
+      "id": "bi-ecosystem-ecology-7",
+      "name": "Ecological stoichiometry"
+    },
+    {
+      "id": "bi-ecosystem-ecology-8",
+      "name": "Landscape ecology"
+    },
+    {
+      "id": "bi-ecosystem-ecology-9",
+      "name": "Ecosystem services and natural capital"
+    },
+    {
+      "id": "bi-ecosystem-ecology-10",
+      "name": "Remote sensing and flux towers in ecosystem science"
+    }
+  ]
+}

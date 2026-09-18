@@ -1,0 +1,46 @@
+{
+  "id": "el-ml-applications-on-embedded",
+  "name": "ML Applications on Embedded",
+  "category": "Machine Learning & Edge AI",
+  "level": 3,
+  "priority": "important",
+  "summary": "Typical embedded ML applications: keyword spotting, vision, anomaly detection, predictive maintenance and gesture and activity recognition.",
+  "prerequisites": [
+    "el-ml-frameworks-for-embedded"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-ml-applications-on-embedded-1",
+      "name": "Keyword spotting and voice recognition"
+    },
+    {
+      "id": "el-ml-applications-on-embedded-2",
+      "name": "Image classification and object detection"
+    },
+    {
+      "id": "el-ml-applications-on-embedded-3",
+      "name": "Anomaly detection in sensor data"
+    },
+    {
+      "id": "el-ml-applications-on-embedded-4",
+      "name": "Predictive maintenance"
+    },
+    {
+      "id": "el-ml-applications-on-embedded-5",
+      "name": "Gesture recognition"
+    },
+    {
+      "id": "el-ml-applications-on-embedded-6",
+      "name": "Activity recognition (accelerometer data)"
+    },
+    {
+      "id": "el-ml-applications-on-embedded-7",
+      "name": "Time-series forecasting"
+    },
+    {
+      "id": "el-ml-applications-on-embedded-8",
+      "name": "Edge-based analytics"
+    }
+  ]
+}

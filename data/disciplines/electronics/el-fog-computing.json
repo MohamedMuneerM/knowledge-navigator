@@ -1,0 +1,30 @@
+{
+  "id": "el-fog-computing",
+  "name": "Fog Computing",
+  "category": "IoT Architectures, Platforms & Data",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Hierarchical edge-to-cloud computing with fog nodes, distributed storage and orchestration.",
+  "prerequisites": [
+    "el-edge-computing"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-fog-computing-1",
+      "name": "Hierarchical edge-to-cloud architecture"
+    },
+    {
+      "id": "el-fog-computing-2",
+      "name": "Distributed computing and storage"
+    },
+    {
+      "id": "el-fog-computing-3",
+      "name": "Fog nodes and orchestration"
+    },
+    {
+      "id": "el-fog-computing-4",
+      "name": "OpenFog reference architecture"
+    }
+  ]
+}

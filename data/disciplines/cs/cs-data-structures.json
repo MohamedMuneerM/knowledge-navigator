@@ -1,0 +1,95 @@
+{
+  "id": "cs-data-structures",
+  "name": "Data Structures",
+  "category": "Data Structures & Algorithms",
+  "level": 2,
+  "priority": "core",
+  "summary": "The standard ways to organise data in memory (lists, trees, hash tables, heaps and graphs), their costs, and how to choose between them.",
+  "prerequisites": [
+    "cs-program-design",
+    "cs-discrete-mathematics"
+  ],
+  "related": [
+    "ma-algorithm-analysis"
+  ],
+  "topics": [
+    {
+      "id": "cs-data-structures-1",
+      "name": "Abstract data types versus implementations"
+    },
+    {
+      "id": "cs-data-structures-2",
+      "name": "Big-O analysis of data-structure operations"
+    },
+    {
+      "id": "cs-data-structures-3",
+      "name": "Arrays and dynamic arrays (amortized resizing)"
+    },
+    {
+      "id": "cs-data-structures-4",
+      "name": "Linked lists: singly, doubly and circular"
+    },
+    {
+      "id": "cs-data-structures-5",
+      "name": "Stacks, queues and deques"
+    },
+    {
+      "id": "cs-data-structures-6",
+      "name": "Hash tables: hash functions, chaining and open addressing"
+    },
+    {
+      "id": "cs-data-structures-7",
+      "name": "Trees and tree traversals"
+    },
+    {
+      "id": "cs-data-structures-8",
+      "name": "Binary search trees"
+    },
+    {
+      "id": "cs-data-structures-9",
+      "name": "Balanced search trees",
+      "sub": [
+        {
+          "id": "cs-data-structures-9-1",
+          "name": "AVL trees"
+        },
+        {
+          "id": "cs-data-structures-9-2",
+          "name": "Red-black trees"
+        },
+        {
+          "id": "cs-data-structures-9-3",
+          "name": "B-trees"
+        }
+      ]
+    },
+    {
+      "id": "cs-data-structures-10",
+      "name": "Heaps and priority queues"
+    },
+    {
+      "id": "cs-data-structures-11",
+      "name": "Tries and string data structures"
+    },
+    {
+      "id": "cs-data-structures-12",
+      "name": "Graph representations: adjacency lists and matrices"
+    },
+    {
+      "id": "cs-data-structures-13",
+      "name": "Disjoint sets (union-find)"
+    },
+    {
+      "id": "cs-data-structures-14",
+      "name": "Skip lists and Bloom filters"
+    },
+    {
+      "id": "cs-data-structures-15",
+      "name": "Standard-library collections: sets, maps and multimaps"
+    },
+    {
+      "id": "cs-data-structures-16",
+      "name": "Memory layout, cache friendliness and choosing a data structure"
+    }
+  ]
+}

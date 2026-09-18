@@ -1,0 +1,65 @@
+{
+  "id": "ae-aeroelasticity",
+  "name": "Aeroelasticity",
+  "category": "Structures & Materials",
+  "level": 4,
+  "priority": "important",
+  "summary": "Interaction of aerodynamic, elastic and inertial forces: divergence, control reversal, flutter and dynamic loads.",
+  "prerequisites": [
+    "ae-structural-dynamics-vibration",
+    "ae-incompressible-aerodynamics"
+  ],
+  "related": [
+    "me-advanced-vibrations-rotordynamics"
+  ],
+  "topics": [
+    {
+      "id": "ae-aeroelasticity-1",
+      "name": "The aeroelastic triangle and classification of phenomena"
+    },
+    {
+      "id": "ae-aeroelasticity-2",
+      "name": "Static aeroelasticity: wing divergence"
+    },
+    {
+      "id": "ae-aeroelasticity-3",
+      "name": "Control effectiveness and control reversal"
+    },
+    {
+      "id": "ae-aeroelasticity-4",
+      "name": "Load redistribution on flexible wings"
+    },
+    {
+      "id": "ae-aeroelasticity-5",
+      "name": "Typical-section model and flutter mechanism"
+    },
+    {
+      "id": "ae-aeroelasticity-6",
+      "name": "Flutter analysis: k and p-k methods"
+    },
+    {
+      "id": "ae-aeroelasticity-7",
+      "name": "Unsteady aerodynamic models for aeroelasticity"
+    },
+    {
+      "id": "ae-aeroelasticity-8",
+      "name": "Panel flutter and buffet"
+    },
+    {
+      "id": "ae-aeroelasticity-9",
+      "name": "Gust response and dynamic loads"
+    },
+    {
+      "id": "ae-aeroelasticity-10",
+      "name": "Aeroservoelasticity"
+    },
+    {
+      "id": "ae-aeroelasticity-11",
+      "name": "Flutter testing and certification"
+    },
+    {
+      "id": "ae-aeroelasticity-12",
+      "name": "Aeroelasticity of launch vehicles and rotorcraft"
+    }
+  ]
+}

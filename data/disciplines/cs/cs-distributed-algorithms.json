@@ -1,0 +1,55 @@
+{
+  "id": "cs-distributed-algorithms",
+  "name": "Distributed Algorithms",
+  "category": "Parallel & Distributed Computing",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The theory behind distributed computing: models of synchrony and failure, leader election, agreement, impossibility results and eventually consistent data types.",
+  "prerequisites": [
+    "cs-distributed-systems",
+    "cs-algorithms"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-distributed-algorithms-1",
+      "name": "Models: synchronous, asynchronous and partially synchronous systems"
+    },
+    {
+      "id": "cs-distributed-algorithms-2",
+      "name": "Leader election"
+    },
+    {
+      "id": "cs-distributed-algorithms-3",
+      "name": "Broadcast and multicast algorithms"
+    },
+    {
+      "id": "cs-distributed-algorithms-4",
+      "name": "Impossibility results: FLP and the two generals problem"
+    },
+    {
+      "id": "cs-distributed-algorithms-5",
+      "name": "Byzantine agreement"
+    },
+    {
+      "id": "cs-distributed-algorithms-6",
+      "name": "Distributed mutual exclusion and global snapshots"
+    },
+    {
+      "id": "cs-distributed-algorithms-7",
+      "name": "Shared-memory distributed algorithms and wait-free objects"
+    },
+    {
+      "id": "cs-distributed-algorithms-8",
+      "name": "Self-stabilization"
+    },
+    {
+      "id": "cs-distributed-algorithms-9",
+      "name": "Gossip and epidemic protocols"
+    },
+    {
+      "id": "cs-distributed-algorithms-10",
+      "name": "CRDTs and eventual consistency"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "el-space-satellite-systems",
+  "name": "Space & Satellite Systems",
+  "category": "Medical, Industrial & Other Application Domains",
+  "level": 4,
+  "priority": "optional",
+  "summary": "Building small satellites: CubeSats, communication payloads, radiation-hard design, thermal and power systems and attitude control.",
+  "prerequisites": [
+    "el-spacecraft-electronics",
+    "el-satellite-communication"
+  ],
+  "related": [
+    "ae-small-satellites-cubesats",
+    "el-satellite-communication",
+    "el-spacecraft-electronics"
+  ],
+  "topics": [
+    {
+      "id": "el-space-satellite-systems-1",
+      "name": "Cubesats and nanosatellites"
+    },
+    {
+      "id": "el-space-satellite-systems-2",
+      "name": "Satellite communication payloads"
+    },
+    {
+      "id": "el-space-satellite-systems-3",
+      "name": "Radiation-hardened systems"
+    },
+    {
+      "id": "el-space-satellite-systems-4",
+      "name": "Thermal management in vacuum"
+    },
+    {
+      "id": "el-space-satellite-systems-5",
+      "name": "Power systems for spacecraft"
+    },
+    {
+      "id": "el-space-satellite-systems-6",
+      "name": "Orbital mechanics and attitude control"
+    }
+  ]
+}

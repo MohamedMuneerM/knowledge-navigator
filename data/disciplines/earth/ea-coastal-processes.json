@@ -1,0 +1,55 @@
+{
+  "id": "ea-coastal-processes",
+  "name": "Coastal Processes & Management",
+  "category": "Oceanography",
+  "level": 3,
+  "priority": "important",
+  "summary": "How waves, tides and sediment shape coastlines, and how coasts are managed in the face of hazards and sea-level rise.",
+  "prerequisites": [
+    "ea-introductory-oceanography",
+    "ea-geomorphology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-coastal-processes-1",
+      "name": "Wave transformation: shoaling, refraction and breaking"
+    },
+    {
+      "id": "ea-coastal-processes-2",
+      "name": "Nearshore currents and longshore sediment transport"
+    },
+    {
+      "id": "ea-coastal-processes-3",
+      "name": "Beaches, dunes and barrier islands"
+    },
+    {
+      "id": "ea-coastal-processes-4",
+      "name": "Estuaries and tidal inlets"
+    },
+    {
+      "id": "ea-coastal-processes-5",
+      "name": "Deltas and coastal wetlands"
+    },
+    {
+      "id": "ea-coastal-processes-6",
+      "name": "Rocky coasts and cliff erosion"
+    },
+    {
+      "id": "ea-coastal-processes-7",
+      "name": "Sea-level rise and coastal vulnerability"
+    },
+    {
+      "id": "ea-coastal-processes-8",
+      "name": "Storm surge and coastal flooding"
+    },
+    {
+      "id": "ea-coastal-processes-9",
+      "name": "Coastal engineering and nature-based defences"
+    },
+    {
+      "id": "ea-coastal-processes-10",
+      "name": "Coastal zone management"
+    }
+  ]
+}

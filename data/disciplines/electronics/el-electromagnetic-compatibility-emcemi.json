@@ -1,0 +1,39 @@
+{
+  "id": "el-electromagnetic-compatibility-emcemi",
+  "name": "Electromagnetic Compatibility (EMC/EMI)",
+  "category": "PCB Design & Hardware Development",
+  "level": 3,
+  "priority": "important",
+  "summary": "Designing products that neither emit nor suffer interference: coupling mechanisms, shielding, grounding, filtering, layout and EMC testing.",
+  "prerequisites": [
+    "el-pcb-layout",
+    "el-electromagnetics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-electromagnetic-compatibility-emcemi-1",
+      "name": "EMI sources and coupling mechanisms"
+    },
+    {
+      "id": "el-electromagnetic-compatibility-emcemi-2",
+      "name": "Shielding techniques (enclosures, shields, cans)"
+    },
+    {
+      "id": "el-electromagnetic-compatibility-emcemi-3",
+      "name": "Grounding strategies (single-point, multi-point, star)"
+    },
+    {
+      "id": "el-electromagnetic-compatibility-emcemi-4",
+      "name": "Filtering (ferrite beads, common-mode chokes)"
+    },
+    {
+      "id": "el-electromagnetic-compatibility-emcemi-5",
+      "name": "Layout techniques for EMC"
+    },
+    {
+      "id": "el-electromagnetic-compatibility-emcemi-6",
+      "name": "EMC testing and certification (FCC, CE, CISPR)"
+    }
+  ]
+}

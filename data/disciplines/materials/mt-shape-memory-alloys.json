@@ -1,0 +1,59 @@
+{
+  "id": "mt-shape-memory-alloys",
+  "name": "Shape-Memory Alloys & Polymers",
+  "category": "Smart & Active Materials",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Explains the martensitic transformation behind shape memory and superelasticity, and how SMAs and SMPs are designed into actuators, medical devices and morphing structures.",
+  "prerequisites": [
+    "mt-smart-materials",
+    "mt-phase-transformations"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "mt-shape-memory-alloys-1",
+      "name": "Thermoelastic martensitic transformation and transformation temperatures"
+    },
+    {
+      "id": "mt-shape-memory-alloys-2",
+      "name": "Shape-memory effect: one-way and two-way memory"
+    },
+    {
+      "id": "mt-shape-memory-alloys-3",
+      "name": "Superelasticity (pseudoelasticity) and hysteresis"
+    },
+    {
+      "id": "mt-shape-memory-alloys-4",
+      "name": "NiTi (Nitinol): processing, composition sensitivity and training"
+    },
+    {
+      "id": "mt-shape-memory-alloys-5",
+      "name": "Cu-based, Fe-based and high-temperature SMAs"
+    },
+    {
+      "id": "mt-shape-memory-alloys-6",
+      "name": "Functional fatigue and stability"
+    },
+    {
+      "id": "mt-shape-memory-alloys-7",
+      "name": "Constitutive modelling of SMA behaviour"
+    },
+    {
+      "id": "mt-shape-memory-alloys-8",
+      "name": "SMA actuators: wires, springs and heating/cooling bandwidth"
+    },
+    {
+      "id": "mt-shape-memory-alloys-9",
+      "name": "Applications: medical stents, aerospace morphing structures, deployable space mechanisms"
+    },
+    {
+      "id": "mt-shape-memory-alloys-10",
+      "name": "Shape-memory polymers and 4D printing"
+    },
+    {
+      "id": "mt-shape-memory-alloys-11",
+      "name": "Magnetic shape-memory alloys"
+    }
+  ]
+}

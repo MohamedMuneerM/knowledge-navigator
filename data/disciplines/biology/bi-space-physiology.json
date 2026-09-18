@@ -1,0 +1,71 @@
+{
+  "id": "bi-space-physiology",
+  "name": "Human Physiology in Spaceflight",
+  "category": "Astrobiology & Space Biology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "What spaceflight does to the human body (bone, muscle, heart, brain, eyes, immunity) and the countermeasures that keep astronauts healthy.",
+  "prerequisites": [
+    "bi-exercise-physiology",
+    "bi-radiation-biology"
+  ],
+  "related": [
+    "ph-space-physics",
+    "ae-human-spaceflight-life-support",
+    "ae-space-environment"
+  ],
+  "topics": [
+    {
+      "id": "bi-space-physiology-1",
+      "name": "The five hazards of human spaceflight: radiation, isolation, distance, gravity, closed environments"
+    },
+    {
+      "id": "bi-space-physiology-2",
+      "name": "Fluid shifts and cardiovascular deconditioning; orthostatic intolerance"
+    },
+    {
+      "id": "bi-space-physiology-3",
+      "name": "Bone loss and kidney-stone risk"
+    },
+    {
+      "id": "bi-space-physiology-4",
+      "name": "Muscle atrophy and exercise countermeasures (ARED, treadmill, cycle)"
+    },
+    {
+      "id": "bi-space-physiology-5",
+      "name": "Vestibular and sensorimotor adaptation; space motion sickness"
+    },
+    {
+      "id": "bi-space-physiology-6",
+      "name": "Spaceflight-associated neuro-ocular syndrome (SANS)"
+    },
+    {
+      "id": "bi-space-physiology-7",
+      "name": "Immune dysregulation and latent virus reactivation"
+    },
+    {
+      "id": "bi-space-physiology-8",
+      "name": "Sleep, circadian disruption and fatigue in space"
+    },
+    {
+      "id": "bi-space-physiology-9",
+      "name": "Behavioural health: isolation, confinement and crew dynamics"
+    },
+    {
+      "id": "bi-space-physiology-10",
+      "name": "Nutrition and pharmacology in space"
+    },
+    {
+      "id": "bi-space-physiology-11",
+      "name": "Artificial gravity and partial gravity (Moon and Mars)"
+    },
+    {
+      "id": "bi-space-physiology-12",
+      "name": "Extravehicular activity physiology: suits, decompression and thermal load"
+    },
+    {
+      "id": "bi-space-physiology-13",
+      "name": "Research platforms: ISS, analogues (bed rest, Antarctica, HERA) and twin studies"
+    }
+  ]
+}

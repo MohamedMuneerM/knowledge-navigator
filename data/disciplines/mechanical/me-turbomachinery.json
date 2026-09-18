@@ -1,0 +1,70 @@
+{
+  "id": "me-turbomachinery",
+  "name": "Turbomachinery",
+  "category": "Energy & Power Systems",
+  "level": 3,
+  "priority": "important",
+  "summary": "Pumps, fans, compressors and turbines analysed with velocity triangles and similarity laws, and designed for performance.",
+  "prerequisites": [
+    "me-advanced-fluid-mechanics",
+    "me-applied-thermodynamics"
+  ],
+  "related": [
+    "ae-turbomachinery",
+    "ae-gas-turbine-engines"
+  ],
+  "topics": [
+    {
+      "id": "me-turbomachinery-1",
+      "name": "Classification of turbomachines and energy transfer"
+    },
+    {
+      "id": "me-turbomachinery-2",
+      "name": "Euler turbomachine equation and velocity triangles"
+    },
+    {
+      "id": "me-turbomachinery-3",
+      "name": "Dimensional analysis: specific speed, specific diameter and similarity laws"
+    },
+    {
+      "id": "me-turbomachinery-4",
+      "name": "Centrifugal pumps: design, performance and cavitation"
+    },
+    {
+      "id": "me-turbomachinery-5",
+      "name": "Fans and blowers"
+    },
+    {
+      "id": "me-turbomachinery-6",
+      "name": "Centrifugal compressors"
+    },
+    {
+      "id": "me-turbomachinery-7",
+      "name": "Axial compressors: stage design, stall and surge"
+    },
+    {
+      "id": "me-turbomachinery-8",
+      "name": "Axial turbines: impulse and reaction stages"
+    },
+    {
+      "id": "me-turbomachinery-9",
+      "name": "Steam turbines"
+    },
+    {
+      "id": "me-turbomachinery-10",
+      "name": "Industrial gas turbines for power and mechanical drive"
+    },
+    {
+      "id": "me-turbomachinery-11",
+      "name": "Hydraulic turbines: Pelton, Francis and Kaplan"
+    },
+    {
+      "id": "me-turbomachinery-12",
+      "name": "Wind turbine aerodynamics overview (actuator disc, Betz limit)"
+    },
+    {
+      "id": "me-turbomachinery-13",
+      "name": "Mechanical design of rotors: blade stresses, cooling and materials"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "ae-rocket-propulsion-fundamentals",
+  "name": "Rocket Propulsion Fundamentals",
+  "category": "Rocket Propulsion",
+  "level": 2,
+  "priority": "core",
+  "summary": "The quantitative basics of rocket propulsion: the rocket equation, thrust, specific impulse, ideal rocket theory, nozzles and staging.",
+  "prerequisites": [
+    "ae-rocketry-basics",
+    "ae-aerospace-thermodynamics"
+  ],
+  "related": [
+    "ph-classical-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "ae-rocket-propulsion-fundamentals-1",
+      "name": "Classification of rocket propulsion systems"
+    },
+    {
+      "id": "ae-rocket-propulsion-fundamentals-2",
+      "name": "Momentum thrust, pressure thrust and the rocket thrust equation"
+    },
+    {
+      "id": "ae-rocket-propulsion-fundamentals-3",
+      "name": "Total impulse, specific impulse and effective exhaust velocity"
+    },
+    {
+      "id": "ae-rocket-propulsion-fundamentals-4",
+      "name": "The Tsiolkovsky rocket equation and mass ratio"
+    },
+    {
+      "id": "ae-rocket-propulsion-fundamentals-5",
+      "name": "Delta-v budgets: gravity losses, drag losses and steering losses"
+    },
+    {
+      "id": "ae-rocket-propulsion-fundamentals-6",
+      "name": "Multistage rockets: series and parallel staging, optimal staging"
+    },
+    {
+      "id": "ae-rocket-propulsion-fundamentals-7",
+      "name": "Ideal rocket assumptions"
+    },
+    {
+      "id": "ae-rocket-propulsion-fundamentals-8",
+      "name": "Isentropic nozzle flow: exhaust velocity and area ratio"
+    },
+    {
+      "id": "ae-rocket-propulsion-fundamentals-9",
+      "name": "Characteristic velocity (c*) and thrust coefficient (CF)"
+    },
+    {
+      "id": "ae-rocket-propulsion-fundamentals-10",
+      "name": "Optimum expansion and altitude effects"
+    },
+    {
+      "id": "ae-rocket-propulsion-fundamentals-11",
+      "name": "Energy and efficiencies of rocket propulsion"
+    },
+    {
+      "id": "ae-rocket-propulsion-fundamentals-12",
+      "name": "Thrust-to-weight ratio and structural mass fraction"
+    },
+    {
+      "id": "ae-rocket-propulsion-fundamentals-13",
+      "name": "Rocket flight performance in gravity-free, gravity and atmospheric flight"
+    }
+  ]
+}

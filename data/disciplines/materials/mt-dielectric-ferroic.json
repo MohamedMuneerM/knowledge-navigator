@@ -1,0 +1,65 @@
+{
+  "id": "mt-dielectric-ferroic",
+  "name": "Dielectric, Ferroelectric & Piezoelectric Materials",
+  "category": "Electronic, Optical, Magnetic & Thermal Properties",
+  "level": 3,
+  "priority": "important",
+  "summary": "Explains polarisation in insulators and the ferroic materials behind capacitors, sensors, actuators and ultrasonic transducers.",
+  "prerequisites": [
+    "mt-electronic-properties"
+  ],
+  "related": [
+    "el-memory-devices",
+    "el-energy-harvesting"
+  ],
+  "topics": [
+    {
+      "id": "mt-dielectric-ferroic-1",
+      "name": "Dielectric polarisation mechanisms: electronic, ionic, orientational and space-charge"
+    },
+    {
+      "id": "mt-dielectric-ferroic-2",
+      "name": "Dielectric constant, loss tangent and frequency dependence"
+    },
+    {
+      "id": "mt-dielectric-ferroic-3",
+      "name": "Dielectric breakdown and insulating materials"
+    },
+    {
+      "id": "mt-dielectric-ferroic-4",
+      "name": "Capacitor dielectrics: BaTiO3 multilayer ceramic capacitors and polymer films"
+    },
+    {
+      "id": "mt-dielectric-ferroic-5",
+      "name": "Pyroelectricity and ferroelectricity; hysteresis loops and domains"
+    },
+    {
+      "id": "mt-dielectric-ferroic-6",
+      "name": "Perovskite ferroelectrics and the Curie temperature; relaxor ferroelectrics"
+    },
+    {
+      "id": "mt-dielectric-ferroic-7",
+      "name": "Piezoelectric effect: constitutive equations, d and g coefficients, coupling factor"
+    },
+    {
+      "id": "mt-dielectric-ferroic-8",
+      "name": "Piezoelectric materials: quartz, PZT, PMN-PT single crystals, PVDF and lead-free alternatives"
+    },
+    {
+      "id": "mt-dielectric-ferroic-9",
+      "name": "Poling and ageing of piezoceramics"
+    },
+    {
+      "id": "mt-dielectric-ferroic-10",
+      "name": "Electrostriction and flexoelectricity"
+    },
+    {
+      "id": "mt-dielectric-ferroic-11",
+      "name": "Applications: sensors, ultrasonic transducers, actuators and energy harvesters"
+    },
+    {
+      "id": "mt-dielectric-ferroic-12",
+      "name": "Ferroelectric memories and multiferroics"
+    }
+  ]
+}

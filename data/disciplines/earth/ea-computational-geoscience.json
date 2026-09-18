@@ -1,0 +1,55 @@
+{
+  "id": "ea-computational-geoscience",
+  "name": "Computational Geoscience & Earth System Modelling",
+  "category": "Field, Lab & Quantitative Methods",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Building numerical models of Earth processes, from simple box models to coupled simulations and machine-learning surrogates.",
+  "prerequisites": [
+    "ea-geoscience-data-analysis",
+    "ma-numerical-solutions-of-pdes"
+  ],
+  "related": [
+    "ma-geophysical-environmental-mathematics",
+    "ma-mathematical-modeling",
+    "cs-high-performance-computing"
+  ],
+  "topics": [
+    {
+      "id": "ea-computational-geoscience-1",
+      "name": "Box and reservoir models of Earth systems"
+    },
+    {
+      "id": "ea-computational-geoscience-2",
+      "name": "Finite-difference solutions of diffusion and advection problems"
+    },
+    {
+      "id": "ea-computational-geoscience-3",
+      "name": "Finite-element and finite-volume methods in geoscience"
+    },
+    {
+      "id": "ea-computational-geoscience-4",
+      "name": "Landscape-evolution and sediment-transport models"
+    },
+    {
+      "id": "ea-computational-geoscience-5",
+      "name": "Reactive-transport modelling"
+    },
+    {
+      "id": "ea-computational-geoscience-6",
+      "name": "Coupled Earth-system models and model coupling"
+    },
+    {
+      "id": "ea-computational-geoscience-7",
+      "name": "Nonlinear dynamics and complexity in natural systems"
+    },
+    {
+      "id": "ea-computational-geoscience-8",
+      "name": "High-performance computing and geoscience data formats (NetCDF)"
+    },
+    {
+      "id": "ea-computational-geoscience-9",
+      "name": "Machine learning and physics-informed models in Earth science"
+    }
+  ]
+}

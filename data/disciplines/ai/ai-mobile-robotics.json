@@ -1,0 +1,71 @@
+{
+  "id": "ai-mobile-robotics",
+  "name": "Mobile Robotics",
+  "category": "Robot Platforms & Locomotion",
+  "level": 3,
+  "priority": "important",
+  "summary": "Wheeled robots that move through the world: locomotion and kinematic models, probabilistic localization, mapping, SLAM and autonomous navigation.",
+  "prerequisites": [
+    "ai-motion-planning-navigation",
+    "ai-robot-perception",
+    "ma-probability-theory"
+  ],
+  "related": [
+    "ai-motion-planning-navigation",
+    "el-autonomous-navigation-systems"
+  ],
+  "topics": [
+    {
+      "id": "ai-mobile-robotics-1",
+      "name": "Wheeled locomotion: differential drive, skid-steer, Ackermann, omnidirectional"
+    },
+    {
+      "id": "ai-mobile-robotics-2",
+      "name": "Nonholonomic constraints and kinematic models"
+    },
+    {
+      "id": "ai-mobile-robotics-3",
+      "name": "Odometry and dead-reckoning error"
+    },
+    {
+      "id": "ai-mobile-robotics-4",
+      "name": "Probabilistic motion and sensor models"
+    },
+    {
+      "id": "ai-mobile-robotics-5",
+      "name": "Bayes-filter localization: Markov, EKF and Monte Carlo (AMCL)"
+    },
+    {
+      "id": "ai-mobile-robotics-6",
+      "name": "Occupancy-grid mapping"
+    },
+    {
+      "id": "ai-mobile-robotics-7",
+      "name": "SLAM in practice: Cartographer, SLAM Toolbox, ORB-SLAM"
+    },
+    {
+      "id": "ai-mobile-robotics-8",
+      "name": "Global and local planning: A*, DWA, TEB, MPC"
+    },
+    {
+      "id": "ai-mobile-robotics-9",
+      "name": "Costmaps and obstacle avoidance"
+    },
+    {
+      "id": "ai-mobile-robotics-10",
+      "name": "Exploration and coverage planning"
+    },
+    {
+      "id": "ai-mobile-robotics-11",
+      "name": "Visual-inertial odometry"
+    },
+    {
+      "id": "ai-mobile-robotics-12",
+      "name": "Outdoor and field navigation: GNSS/RTK and rough terrain"
+    },
+    {
+      "id": "ai-mobile-robotics-13",
+      "name": "Warehouse AMRs and fleet management"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ma-integer-programming",
+  "name": "Integer Programming",
+  "category": "Optimization & Control Theory",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Optimisation with integer variables: modelling, branch and bound, cutting planes and mixed-integer programming.",
+  "prerequisites": [
+    "ma-linear-programming"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-integer-programming-4",
+      "name": "Modelling with integer and binary variables"
+    },
+    {
+      "id": "ma-integer-programming-5",
+      "name": "Total unimodularity"
+    },
+    {
+      "id": "ma-integer-programming-1",
+      "name": "Branch and bound"
+    },
+    {
+      "id": "ma-integer-programming-2",
+      "name": "Cutting plane methods"
+    },
+    {
+      "id": "ma-integer-programming-3",
+      "name": "Mixed-integer programming"
+    },
+    {
+      "id": "ma-integer-programming-6",
+      "name": "Heuristics and decomposition methods"
+    }
+  ]
+}

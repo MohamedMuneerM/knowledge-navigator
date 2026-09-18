@@ -1,0 +1,60 @@
+{
+  "id": "me-smart-materials-artificial-muscles",
+  "name": "Smart Materials & Artificial Muscles",
+  "category": "Frontiers of Mechanical Engineering",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Active materials that move or sense, such as piezoelectrics, shape-memory alloys, electroactive polymers and fibre muscles, and how to design actuators with them.",
+  "prerequisites": [
+    "me-actuators-drive-trains"
+  ],
+  "related": [
+    "el-actuators",
+    "el-energy-harvesting",
+    "mt-smart-materials",
+    "mt-shape-memory-alloys",
+    "mt-electroactive-polymers-artificial-muscles"
+  ],
+  "topics": [
+    {
+      "id": "me-smart-materials-artificial-muscles-1",
+      "name": "Survey of active materials and actuator figures of merit (strain, stress, bandwidth, efficiency)"
+    },
+    {
+      "id": "me-smart-materials-artificial-muscles-2",
+      "name": "Piezoelectric actuators and sensors: stack and bender design"
+    },
+    {
+      "id": "me-smart-materials-artificial-muscles-3",
+      "name": "Shape memory alloys: phase transformation, actuator design and control"
+    },
+    {
+      "id": "me-smart-materials-artificial-muscles-4",
+      "name": "Electroactive polymers: dielectric elastomers and ionic EAPs"
+    },
+    {
+      "id": "me-smart-materials-artificial-muscles-5",
+      "name": "Hydraulically amplified electrostatic actuators (HASEL)"
+    },
+    {
+      "id": "me-smart-materials-artificial-muscles-6",
+      "name": "Twisted and coiled polymer-fibre muscles"
+    },
+    {
+      "id": "me-smart-materials-artificial-muscles-7",
+      "name": "Magnetostrictive, magnetorheological and electrorheological materials and devices"
+    },
+    {
+      "id": "me-smart-materials-artificial-muscles-8",
+      "name": "Pneumatic artificial muscles"
+    },
+    {
+      "id": "me-smart-materials-artificial-muscles-9",
+      "name": "Comparison with biological muscle and implications for wearable actuators"
+    },
+    {
+      "id": "me-smart-materials-artificial-muscles-10",
+      "name": "Energy harvesting with smart materials"
+    }
+  ]
+}

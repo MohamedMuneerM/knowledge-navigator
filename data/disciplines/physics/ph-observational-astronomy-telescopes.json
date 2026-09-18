@@ -1,0 +1,75 @@
+{
+  "id": "ph-observational-astronomy-telescopes",
+  "name": "Observational Astronomy & Telescopes",
+  "category": "Observational Astronomy & Data",
+  "level": 3,
+  "priority": "important",
+  "summary": "How professional astronomers collect and calibrate light: telescopes, detectors, photometry, spectroscopy and observatories.",
+  "prerequisites": [
+    "ph-astrophysics",
+    "ph-classical-optics",
+    "ph-data-analysis-statistics"
+  ],
+  "related": [
+    "ph-sky-observing-amateur-astronomy",
+    "ph-detector-physics"
+  ],
+  "topics": [
+    {
+      "id": "ph-observational-astronomy-telescopes-1",
+      "name": "The magnitude system, fluxes and photometric bands"
+    },
+    {
+      "id": "ph-observational-astronomy-telescopes-2",
+      "name": "Telescope optics: focal ratio, plate scale and resolution"
+    },
+    {
+      "id": "ph-observational-astronomy-telescopes-3",
+      "name": "Telescope designs and mounts"
+    },
+    {
+      "id": "ph-observational-astronomy-telescopes-4",
+      "name": "Atmospheric seeing, extinction and observatory sites"
+    },
+    {
+      "id": "ph-observational-astronomy-telescopes-5",
+      "name": "Detectors: CCDs, CMOS and infrared arrays"
+    },
+    {
+      "id": "ph-observational-astronomy-telescopes-6",
+      "name": "CCD image reduction: bias, dark and flat-field calibration"
+    },
+    {
+      "id": "ph-observational-astronomy-telescopes-7",
+      "name": "Aperture and PSF photometry"
+    },
+    {
+      "id": "ph-observational-astronomy-telescopes-8",
+      "name": "Astronomical spectroscopy and spectrographs"
+    },
+    {
+      "id": "ph-observational-astronomy-telescopes-9",
+      "name": "Astrometry"
+    },
+    {
+      "id": "ph-observational-astronomy-telescopes-10",
+      "name": "Adaptive optics"
+    },
+    {
+      "id": "ph-observational-astronomy-telescopes-11",
+      "name": "Optical and infrared interferometry"
+    },
+    {
+      "id": "ph-observational-astronomy-telescopes-12",
+      "name": "Multi-wavelength astronomy: infrared, ultraviolet, X-ray and gamma-ray observing"
+    },
+    {
+      "id": "ph-observational-astronomy-telescopes-13",
+      "name": "Space telescopes: Hubble, JWST, Gaia and Euclid"
+    },
+    {
+      "id": "ph-observational-astronomy-telescopes-14",
+      "name": "Planning observations and writing proposals"
+    }
+  ]
+}

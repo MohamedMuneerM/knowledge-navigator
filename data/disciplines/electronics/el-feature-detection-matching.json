@@ -1,0 +1,45 @@
+{
+  "id": "el-feature-detection-matching",
+  "name": "Feature Detection & Matching",
+  "category": "Machine Learning & Edge AI",
+  "level": 3,
+  "priority": "important",
+  "summary": "Finding and tracking distinctive points: corner and blob detectors, descriptors (SIFT, ORB), matching and optical flow.",
+  "prerequisites": [
+    "el-image-processing"
+  ],
+  "related": [
+    "ai-core-vision-tasks",
+    "ai-image-processing-fundamentals"
+  ],
+  "topics": [
+    {
+      "id": "el-feature-detection-matching-1",
+      "name": "Corner detection (Harris, FAST, Shi-Tomasi)"
+    },
+    {
+      "id": "el-feature-detection-matching-2",
+      "name": "Blob detection (SIFT, SURF, ORB)"
+    },
+    {
+      "id": "el-feature-detection-matching-3",
+      "name": "Feature descriptors"
+    },
+    {
+      "id": "el-feature-detection-matching-4",
+      "name": "Feature matching and tracking"
+    },
+    {
+      "id": "el-feature-detection-matching-5",
+      "name": "Optical flow"
+    },
+    {
+      "id": "el-feature-detection-matching-6",
+      "name": "Robust matching with RANSAC"
+    },
+    {
+      "id": "el-feature-detection-matching-7",
+      "name": "Homographies and image stitching"
+    }
+  ]
+}

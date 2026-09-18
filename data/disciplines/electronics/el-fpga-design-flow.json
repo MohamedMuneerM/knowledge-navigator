@@ -1,0 +1,43 @@
+{
+  "id": "el-fpga-design-flow",
+  "name": "FPGA Design Flow",
+  "category": "FPGA, ASIC & VLSI Design",
+  "level": 3,
+  "priority": "core",
+  "summary": "Taking an FPGA design from RTL to a working bitstream: simulation, synthesis, place and route, timing closure and configuration.",
+  "prerequisites": [
+    "el-fpga-architectures",
+    "el-timing-synchronization"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-fpga-design-flow-1",
+      "name": "RTL design and coding"
+    },
+    {
+      "id": "el-fpga-design-flow-2",
+      "name": "Simulation and testbenches"
+    },
+    {
+      "id": "el-fpga-design-flow-3",
+      "name": "Synthesis (logic synthesis)"
+    },
+    {
+      "id": "el-fpga-design-flow-4",
+      "name": "Place and route"
+    },
+    {
+      "id": "el-fpga-design-flow-5",
+      "name": "Timing analysis and timing closure"
+    },
+    {
+      "id": "el-fpga-design-flow-6",
+      "name": "Bitstream generation"
+    },
+    {
+      "id": "el-fpga-design-flow-7",
+      "name": "Programming and configuration"
+    }
+  ]
+}

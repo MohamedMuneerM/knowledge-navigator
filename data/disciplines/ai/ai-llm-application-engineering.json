@@ -1,0 +1,69 @@
+{
+  "id": "ai-llm-application-engineering",
+  "name": "LLM Application Engineering",
+  "category": "Large Language Models & LLM Engineering",
+  "level": 3,
+  "priority": "important",
+  "summary": "Engineering production applications on top of LLM APIs and open models: tool calling, structured output, context management, cost, security, observability and LLMOps.",
+  "prerequisites": [
+    "ai-prompt-engineering",
+    "ai-programming-tools"
+  ],
+  "related": [
+    "ai-model-deployment"
+  ],
+  "topics": [
+    {
+      "id": "ai-llm-application-engineering-1",
+      "name": "LLM APIs: messages, parameters, tokens and pricing"
+    },
+    {
+      "id": "ai-llm-application-engineering-2",
+      "name": "Choosing models: hosted versus open-weight, size, latency and cost trade-offs"
+    },
+    {
+      "id": "ai-llm-application-engineering-3",
+      "name": "Structured outputs and function/tool calling"
+    },
+    {
+      "id": "ai-llm-application-engineering-4",
+      "name": "Streaming, concurrency and rate limits"
+    },
+    {
+      "id": "ai-llm-application-engineering-5",
+      "name": "Context management: long contexts, summarisation and conversation memory"
+    },
+    {
+      "id": "ai-llm-application-engineering-6",
+      "name": "Orchestration frameworks (LangChain, LlamaIndex) and when to avoid them"
+    },
+    {
+      "id": "ai-llm-application-engineering-7",
+      "name": "Prompt caching, semantic caching and cost control"
+    },
+    {
+      "id": "ai-llm-application-engineering-8",
+      "name": "Guardrails: input/output filtering, moderation and PII handling"
+    },
+    {
+      "id": "ai-llm-application-engineering-9",
+      "name": "Security: prompt-injection defences and the OWASP Top 10 for LLMs"
+    },
+    {
+      "id": "ai-llm-application-engineering-10",
+      "name": "Observability and tracing of LLM calls"
+    },
+    {
+      "id": "ai-llm-application-engineering-11",
+      "name": "Running local models (llama.cpp, Ollama, vLLM)"
+    },
+    {
+      "id": "ai-llm-application-engineering-12",
+      "name": "LLMOps: prompt versioning, regression evals in CI, deployment"
+    },
+    {
+      "id": "ai-llm-application-engineering-13",
+      "name": "UX patterns for AI products: streaming, citations, human-in-the-loop"
+    }
+  ]
+}

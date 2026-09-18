@@ -1,0 +1,37 @@
+{
+  "id": "ma-mathematics-education",
+  "name": "Mathematics Education",
+  "category": "History, Philosophy & Education",
+  "level": 2,
+  "priority": "optional",
+  "summary": "How mathematics is learned and taught: learning theories, pedagogy, curriculum design and assessment.",
+  "prerequisites": [
+    "ma-calculus",
+    "ma-introduction-to-proofs"
+  ],
+  "related": [
+    "ph-physics-education"
+  ],
+  "topics": [
+    {
+      "id": "ma-mathematics-education-4",
+      "name": "Learning theories"
+    },
+    {
+      "id": "ma-mathematics-education-1",
+      "name": "Pedagogy"
+    },
+    {
+      "id": "ma-mathematics-education-2",
+      "name": "Curriculum development"
+    },
+    {
+      "id": "ma-mathematics-education-3",
+      "name": "Assessment methods"
+    },
+    {
+      "id": "ma-mathematics-education-5",
+      "name": "Technology in mathematics teaching"
+    }
+  ]
+}

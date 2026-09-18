@@ -1,0 +1,67 @@
+{
+  "id": "ae-reusable-launch-systems",
+  "name": "Reusable Launch Systems",
+  "category": "Launch Vehicles",
+  "level": 4,
+  "priority": "important",
+  "summary": "Reusable rockets and spaceplanes: propulsive landing, recovery methods, refurbishment and the economics of reuse.",
+  "prerequisites": [
+    "ae-launch-vehicle-design",
+    "ae-atmospheric-entry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-reusable-launch-systems-1",
+      "name": "The case for reuse: economics and flight rate"
+    },
+    {
+      "id": "ae-reusable-launch-systems-2",
+      "name": "Historical reusable vehicles: X-15, Space Shuttle, DC-X"
+    },
+    {
+      "id": "ae-reusable-launch-systems-3",
+      "name": "Reusability trade-offs: performance penalty versus cost"
+    },
+    {
+      "id": "ae-reusable-launch-systems-4",
+      "name": "Propulsive return: boostback, entry burn and landing burn"
+    },
+    {
+      "id": "ae-reusable-launch-systems-5",
+      "name": "Grid fins and aerodynamic control during descent"
+    },
+    {
+      "id": "ae-reusable-launch-systems-6",
+      "name": "Landing legs, drone ships and catch towers"
+    },
+    {
+      "id": "ae-reusable-launch-systems-7",
+      "name": "Booster and upper-stage entry heating"
+    },
+    {
+      "id": "ae-reusable-launch-systems-8",
+      "name": "Fairing and upper-stage recovery"
+    },
+    {
+      "id": "ae-reusable-launch-systems-9",
+      "name": "Winged and lifting-body reusable vehicles (spaceplanes)"
+    },
+    {
+      "id": "ae-reusable-launch-systems-10",
+      "name": "SSTO versus TSTO"
+    },
+    {
+      "id": "ae-reusable-launch-systems-11",
+      "name": "Refurbishment, inspection and rapid turnaround"
+    },
+    {
+      "id": "ae-reusable-launch-systems-12",
+      "name": "Engine reusability: deep throttling, restart and life"
+    },
+    {
+      "id": "ae-reusable-launch-systems-13",
+      "name": "Full reusability: Starship, New Glenn and next-generation designs"
+    }
+  ]
+}

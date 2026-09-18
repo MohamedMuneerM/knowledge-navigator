@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: How to contribute
+    url: https://github.com/MohamedMuneerM/knowledge-navigator/blob/main/CONTRIBUTING.md
+    about: The data format, the rules and how to open a pull request.

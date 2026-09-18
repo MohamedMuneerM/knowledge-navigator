@@ -1,0 +1,50 @@
+{
+  "id": "cs-advanced-cryptographic-systems",
+  "name": "Advanced Cryptographic Systems",
+  "category": "Emerging Computing & Frontiers",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Frontier cryptography entering practice: post-quantum schemes, zero-knowledge proofs, secure computation, homomorphic encryption and private data access.",
+  "prerequisites": [
+    "cs-applied-cryptography",
+    "ma-cryptography"
+  ],
+  "related": [
+    "ma-elliptic-curves",
+    "ai-privacy-in-ai"
+  ],
+  "topics": [
+    {
+      "id": "cs-advanced-cryptographic-systems-1",
+      "name": "Post-quantum cryptography: lattice, hash-based and code-based schemes"
+    },
+    {
+      "id": "cs-advanced-cryptographic-systems-2",
+      "name": "Migrating systems to post-quantum cryptography"
+    },
+    {
+      "id": "cs-advanced-cryptographic-systems-3",
+      "name": "Zero-knowledge proofs and SNARKs"
+    },
+    {
+      "id": "cs-advanced-cryptographic-systems-4",
+      "name": "Secure multi-party computation"
+    },
+    {
+      "id": "cs-advanced-cryptographic-systems-5",
+      "name": "Homomorphic encryption"
+    },
+    {
+      "id": "cs-advanced-cryptographic-systems-6",
+      "name": "Threshold cryptography and secret sharing"
+    },
+    {
+      "id": "cs-advanced-cryptographic-systems-7",
+      "name": "Private information retrieval and oblivious RAM"
+    },
+    {
+      "id": "cs-advanced-cryptographic-systems-8",
+      "name": "Formal verification of cryptographic protocols"
+    }
+  ]
+}

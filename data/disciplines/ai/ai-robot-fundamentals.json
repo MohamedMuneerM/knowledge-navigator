@@ -1,0 +1,79 @@
+{
+  "id": "ai-robot-fundamentals",
+  "name": "Robot Fundamentals",
+  "category": "Robotics Foundations",
+  "level": 1,
+  "priority": "core",
+  "summary": "What robots are and how they are built: the sense-plan-act loop, morphologies, degrees of freedom, workspace, components and specifications.",
+  "prerequisites": [],
+  "related": [
+    "el-robot-types-applications",
+    "el-robot-operating-system-ros"
+  ],
+  "topics": [
+    {
+      "id": "ai-robot-fundamentals-5",
+      "name": "What is a robot? The sense-plan-act loop"
+    },
+    {
+      "id": "ai-robot-fundamentals-6",
+      "name": "A brief history of robotics and landmark robots"
+    },
+    {
+      "id": "ai-robot-fundamentals-1",
+      "name": "Robot Morphology",
+      "sub": [
+        {
+          "id": "ai-robot-fundamentals-1-1",
+          "name": "Serial robots"
+        },
+        {
+          "id": "ai-robot-fundamentals-1-2",
+          "name": "Parallel robots"
+        },
+        {
+          "id": "ai-robot-fundamentals-1-3",
+          "name": "Mobile robots"
+        },
+        {
+          "id": "ai-robot-fundamentals-1-4",
+          "name": "Humanoid robots"
+        }
+      ]
+    },
+    {
+      "id": "ai-robot-fundamentals-2",
+      "name": "Degrees of Freedom"
+    },
+    {
+      "id": "ai-robot-fundamentals-3",
+      "name": "Workspace Analysis"
+    },
+    {
+      "id": "ai-robot-fundamentals-4",
+      "name": "Robot Components",
+      "sub": [
+        {
+          "id": "ai-robot-fundamentals-4-1",
+          "name": "Links and joints"
+        },
+        {
+          "id": "ai-robot-fundamentals-4-2",
+          "name": "End effectors"
+        },
+        {
+          "id": "ai-robot-fundamentals-4-3",
+          "name": "Grippers"
+        }
+      ]
+    },
+    {
+      "id": "ai-robot-fundamentals-7",
+      "name": "Robot specifications: payload, reach, repeatability and accuracy"
+    },
+    {
+      "id": "ai-robot-fundamentals-8",
+      "name": "Robot safety basics and standards (ISO 10218)"
+    }
+  ]
+}

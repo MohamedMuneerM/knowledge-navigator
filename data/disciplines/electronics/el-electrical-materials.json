@@ -1,0 +1,69 @@
+{
+  "id": "el-electrical-materials",
+  "name": "Electrical & Electronic Engineering Materials",
+  "category": "Fundamentals & Mathematics",
+  "level": 2,
+  "priority": "important",
+  "summary": "How conductors, dielectrics, magnetic materials, semiconductors and superconductors behave, and how to choose them in electrical design.",
+  "prerequisites": [
+    "mt-atomic-bonding",
+    "ph-introductory-electricity-magnetism"
+  ],
+  "related": [
+    "ph-materials-physics",
+    "ph-solid-state-physics",
+    "mt-electronic-properties",
+    "mt-dielectric-ferroic",
+    "mt-magnetic-materials"
+  ],
+  "topics": [
+    {
+      "id": "el-electrical-materials-1",
+      "name": "Atomic bonding and crystal structure relevant to electrical properties"
+    },
+    {
+      "id": "el-electrical-materials-2",
+      "name": "Conductors: free-electron model, resistivity and temperature dependence"
+    },
+    {
+      "id": "el-electrical-materials-3",
+      "name": "Matthiessen's rule, alloys, thin films and contact resistance"
+    },
+    {
+      "id": "el-electrical-materials-4",
+      "name": "Dielectrics: polarization, permittivity, loss tangent and breakdown"
+    },
+    {
+      "id": "el-electrical-materials-5",
+      "name": "Piezoelectric, ferroelectric and pyroelectric materials"
+    },
+    {
+      "id": "el-electrical-materials-6",
+      "name": "Magnetic materials: dia-, para- and ferromagnetism, hysteresis"
+    },
+    {
+      "id": "el-electrical-materials-7",
+      "name": "Soft and hard magnetic materials, ferrites and core losses"
+    },
+    {
+      "id": "el-electrical-materials-8",
+      "name": "Superconductivity basics and applications"
+    },
+    {
+      "id": "el-electrical-materials-9",
+      "name": "Semiconductors: intrinsic and extrinsic behaviour (introduction)"
+    },
+    {
+      "id": "el-electrical-materials-10",
+      "name": "Insulating materials for cables and high-voltage equipment"
+    },
+    {
+      "id": "el-electrical-materials-11",
+      "name": "Thermal properties: thermal conductivity, expansion and CTE mismatch"
+    },
+    {
+      "id": "el-electrical-materials-12",
+      "name": "Materials in electronic assembly: solders, laminates, encapsulants"
+    }
+  ]
+}

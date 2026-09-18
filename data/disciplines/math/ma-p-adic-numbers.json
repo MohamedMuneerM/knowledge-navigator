@@ -1,0 +1,39 @@
+{
+  "id": "ma-p-adic-numbers",
+  "name": "p-adic Numbers",
+  "category": "Number Theory",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The p-adic numbers, a different completion of the rationals, and analysis over them, a key tool in modern number theory.",
+  "prerequisites": [
+    "ma-algebraic-number-theory",
+    "ma-real-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-p-adic-numbers-3",
+      "name": "p-adic absolute values and Ostrowski's theorem"
+    },
+    {
+      "id": "ma-p-adic-numbers-4",
+      "name": "Construction of the p-adic numbers"
+    },
+    {
+      "id": "ma-p-adic-numbers-5",
+      "name": "Hensel's lemma"
+    },
+    {
+      "id": "ma-p-adic-numbers-2",
+      "name": "p-adic fields"
+    },
+    {
+      "id": "ma-p-adic-numbers-1",
+      "name": "p-adic analysis"
+    },
+    {
+      "id": "ma-p-adic-numbers-6",
+      "name": "Local-global principle (Hasse-Minkowski)"
+    }
+  ]
+}

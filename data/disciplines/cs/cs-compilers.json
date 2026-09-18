@@ -1,0 +1,71 @@
+{
+  "id": "cs-compilers",
+  "name": "Compiler Construction",
+  "category": "Programming Languages & Compilers",
+  "level": 3,
+  "priority": "important",
+  "summary": "How source code becomes machine code: lexing, parsing, semantic analysis, intermediate representations, code generation and basic optimization.",
+  "prerequisites": [
+    "cs-programming-languages",
+    "cs-computer-organization",
+    "cs-data-structures"
+  ],
+  "related": [
+    "ma-formal-languages",
+    "ma-automata-theory"
+  ],
+  "topics": [
+    {
+      "id": "cs-compilers-1",
+      "name": "Compiler structure: front end, middle end and back end"
+    },
+    {
+      "id": "cs-compilers-2",
+      "name": "Lexical analysis: regular expressions and finite automata"
+    },
+    {
+      "id": "cs-compilers-3",
+      "name": "Parsing: context-free grammars, LL and recursive descent"
+    },
+    {
+      "id": "cs-compilers-4",
+      "name": "Bottom-up parsing: LR, LALR and parser generators"
+    },
+    {
+      "id": "cs-compilers-5",
+      "name": "Abstract syntax trees and syntax-directed translation"
+    },
+    {
+      "id": "cs-compilers-6",
+      "name": "Semantic analysis: symbol tables and type checking"
+    },
+    {
+      "id": "cs-compilers-7",
+      "name": "Intermediate representations: three-address code and SSA"
+    },
+    {
+      "id": "cs-compilers-8",
+      "name": "Run-time organization: activation records and calling conventions"
+    },
+    {
+      "id": "cs-compilers-9",
+      "name": "Code generation for a stack or register machine"
+    },
+    {
+      "id": "cs-compilers-10",
+      "name": "Instruction selection"
+    },
+    {
+      "id": "cs-compilers-11",
+      "name": "Register allocation"
+    },
+    {
+      "id": "cs-compilers-12",
+      "name": "Basic optimizations: constant folding and dead-code elimination"
+    },
+    {
+      "id": "cs-compilers-13",
+      "name": "Compiler infrastructures: LLVM and GCC"
+    }
+  ]
+}

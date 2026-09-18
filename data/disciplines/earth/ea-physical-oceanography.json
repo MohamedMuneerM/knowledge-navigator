@@ -1,0 +1,65 @@
+{
+  "id": "ea-physical-oceanography",
+  "name": "Physical Oceanography",
+  "category": "Oceanography",
+  "level": 3,
+  "priority": "core",
+  "summary": "The physics of ocean circulation, water masses, waves and mixing, from the surface layer to the abyss.",
+  "prerequisites": [
+    "ea-introductory-oceanography",
+    "ph-fluid-mechanics"
+  ],
+  "related": [
+    "ph-atmospheric-environmental-physics"
+  ],
+  "topics": [
+    {
+      "id": "ea-physical-oceanography-1",
+      "name": "Temperature, salinity, density and the equation of state of seawater"
+    },
+    {
+      "id": "ea-physical-oceanography-2",
+      "name": "Water masses and T-S analysis"
+    },
+    {
+      "id": "ea-physical-oceanography-3",
+      "name": "Heat and freshwater budgets of the ocean"
+    },
+    {
+      "id": "ea-physical-oceanography-4",
+      "name": "Equations of motion on a rotating Earth"
+    },
+    {
+      "id": "ea-physical-oceanography-5",
+      "name": "Geostrophic currents and the thermal wind"
+    },
+    {
+      "id": "ea-physical-oceanography-6",
+      "name": "Ekman transport and upwelling"
+    },
+    {
+      "id": "ea-physical-oceanography-7",
+      "name": "Wind-driven circulation: Sverdrup balance and western boundary currents"
+    },
+    {
+      "id": "ea-physical-oceanography-8",
+      "name": "Thermohaline and meridional overturning circulation"
+    },
+    {
+      "id": "ea-physical-oceanography-9",
+      "name": "Ocean waves: surface gravity waves, internal waves, Kelvin and Rossby waves"
+    },
+    {
+      "id": "ea-physical-oceanography-10",
+      "name": "Tidal dynamics"
+    },
+    {
+      "id": "ea-physical-oceanography-11",
+      "name": "Mixing, turbulence and mesoscale eddies"
+    },
+    {
+      "id": "ea-physical-oceanography-12",
+      "name": "Ocean observing: CTDs, floats (Argo), moorings and satellites"
+    }
+  ]
+}

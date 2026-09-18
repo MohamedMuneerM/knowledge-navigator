@@ -1,0 +1,65 @@
+{
+  "id": "mt-composites",
+  "name": "Composite Materials",
+  "category": "Composites",
+  "level": 3,
+  "priority": "core",
+  "summary": "Explains how combining fibres, particles and matrices produces materials stiffer, stronger and lighter than their constituents.",
+  "prerequisites": [
+    "mt-polymer-properties"
+  ],
+  "related": [
+    "me-lightweight-structures-composites",
+    "ae-composite-structures"
+  ],
+  "topics": [
+    {
+      "id": "mt-composites-1",
+      "name": "Classification: particle-, fibre- and structural composites; PMC, MMC and CMC"
+    },
+    {
+      "id": "mt-composites-2",
+      "name": "Reinforcements: glass, carbon, aramid, UHMWPE, ceramic and natural fibres"
+    },
+    {
+      "id": "mt-composites-3",
+      "name": "Matrices: thermoset, thermoplastic, metal and ceramic"
+    },
+    {
+      "id": "mt-composites-4",
+      "name": "Particle-reinforced composites and cermets"
+    },
+    {
+      "id": "mt-composites-5",
+      "name": "Rule of mixtures: longitudinal and transverse stiffness (Voigt and Reuss bounds)"
+    },
+    {
+      "id": "mt-composites-6",
+      "name": "Short-fibre composites: critical fibre length and shear-lag theory"
+    },
+    {
+      "id": "mt-composites-7",
+      "name": "The fibre-matrix interface: sizing, adhesion and load transfer"
+    },
+    {
+      "id": "mt-composites-8",
+      "name": "Strength of unidirectional composites and failure modes"
+    },
+    {
+      "id": "mt-composites-9",
+      "name": "Introduction to laminates: ply orientation and quasi-isotropic lay-ups"
+    },
+    {
+      "id": "mt-composites-10",
+      "name": "Metal-matrix composites: SiC/Al, B/Al and their processing"
+    },
+    {
+      "id": "mt-composites-11",
+      "name": "Sandwich structures and honeycomb cores"
+    },
+    {
+      "id": "mt-composites-12",
+      "name": "Applications in aircraft, automotive, sports goods and wind turbines"
+    }
+  ]
+}

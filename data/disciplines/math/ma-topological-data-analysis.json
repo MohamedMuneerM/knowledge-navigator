@@ -1,0 +1,36 @@
+{
+  "id": "ma-topological-data-analysis",
+  "name": "Topological Data Analysis",
+  "category": "Emerging & Advanced Areas",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Persistent homology, barcodes and persistence diagrams as tools for the shape of data (overlaps the Topology chapter of the same name).",
+  "prerequisites": [
+    "ma-algebraic-topology"
+  ],
+  "related": [
+    "ma-topological-data-analysis-tda"
+  ],
+  "topics": [
+    {
+      "id": "ma-topological-data-analysis-3",
+      "name": "Filtrations of simplicial complexes"
+    },
+    {
+      "id": "ma-topological-data-analysis-1",
+      "name": "Persistent homology"
+    },
+    {
+      "id": "ma-topological-data-analysis-2",
+      "name": "Barcodes and persistence diagrams"
+    },
+    {
+      "id": "ma-topological-data-analysis-4",
+      "name": "Multiparameter persistence (overview)"
+    },
+    {
+      "id": "ma-topological-data-analysis-5",
+      "name": "Applications in science and machine learning"
+    }
+  ]
+}

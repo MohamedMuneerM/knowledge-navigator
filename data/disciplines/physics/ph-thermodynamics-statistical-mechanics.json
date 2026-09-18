@@ -1,0 +1,114 @@
+{
+  "id": "ph-thermodynamics-statistical-mechanics",
+  "name": "Thermodynamics & Statistical Mechanics",
+  "category": "Thermal & Statistical Physics",
+  "level": 2,
+  "priority": "core",
+  "summary": "The laws of thermodynamics and how they emerge from the statistics of huge numbers of particles.",
+  "prerequisites": [
+    "ph-introductory-heat-thermodynamics",
+    "ph-modern-physics",
+    "ma-elementary-probability"
+  ],
+  "related": [
+    "ma-thermodynamics",
+    "ma-statistical-mechanics",
+    "me-engineering-thermodynamics",
+    "ch-chemical-thermodynamics",
+    "ch-statistical-thermodynamics",
+    "mt-thermodynamics-of-materials",
+    "ae-aerospace-thermodynamics"
+  ],
+  "topics": [
+    {
+      "id": "ph-thermodynamics-statistical-mechanics-1",
+      "name": "Laws of thermodynamics (0th, 1st, 2nd, 3rd)"
+    },
+    {
+      "id": "ph-thermodynamics-statistical-mechanics-2",
+      "name": "Heat transfer (conduction, convection, radiation)"
+    },
+    {
+      "id": "ph-thermodynamics-statistical-mechanics-3",
+      "name": "Heat engines and refrigerators"
+    },
+    {
+      "id": "ph-thermodynamics-statistical-mechanics-4",
+      "name": "Entropy"
+    },
+    {
+      "id": "ph-thermodynamics-statistical-mechanics-5",
+      "name": "Thermodynamic potentials (Gibbs, Helmholtz, enthalpy)"
+    },
+    {
+      "id": "ph-thermodynamics-statistical-mechanics-6",
+      "name": "Carnot cycle and other thermodynamic cycles"
+    },
+    {
+      "id": "ph-thermodynamics-statistical-mechanics-7",
+      "name": "Equations of state"
+    },
+    {
+      "id": "ph-thermodynamics-statistical-mechanics-8",
+      "name": "Phase transitions and phase diagrams"
+    },
+    {
+      "id": "ph-thermodynamics-statistical-mechanics-9",
+      "name": "Irreversible thermodynamics"
+    },
+    {
+      "id": "ph-thermodynamics-statistical-mechanics-10",
+      "name": "Thermodynamic equilibrium"
+    },
+    {
+      "id": "ph-thermodynamics-statistical-mechanics-11",
+      "name": "Statistical mechanics",
+      "sub": [
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-11-1",
+          "name": "Classical statistics"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-11-2",
+          "name": "Quantum statistics (Fermi-Dirac, Bose-Einstein)"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-11-3",
+          "name": "Boltzmann distribution"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-11-4",
+          "name": "Partition functions"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-11-5",
+          "name": "Ensembles (microcanonical, canonical, grand canonical)"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-11-6",
+          "name": "Ideal quantum gases: photon gas, degenerate Fermi gas and Bose-Einstein condensation"
+        }
+      ]
+    },
+    {
+      "id": "ph-thermodynamics-statistical-mechanics-12",
+      "name": "Kinetic theory of gases"
+    },
+    {
+      "id": "ph-thermodynamics-statistical-mechanics-13",
+      "name": "Fluctuations and fluctuation-dissipation theorem"
+    },
+    {
+      "id": "ph-thermodynamics-statistical-mechanics-14",
+      "name": "Transport theory"
+    },
+    {
+      "id": "ph-thermodynamics-statistical-mechanics-15",
+      "name": "Non-equilibrium thermodynamics"
+    },
+    {
+      "id": "ph-thermodynamics-statistical-mechanics-16",
+      "name": "Information theory and entropy"
+    }
+  ]
+}

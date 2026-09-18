@@ -1,0 +1,57 @@
+{
+  "id": "ch-colloid-interface-science",
+  "name": "Colloid & Interface Science",
+  "category": "Surfaces, Catalysis & Supramolecular Chemistry",
+  "level": 3,
+  "priority": "important",
+  "summary": "The thermodynamics and forces at interfaces that govern surfactants, emulsions, foams and colloidal stability.",
+  "prerequisites": [
+    "ch-chemical-thermodynamics"
+  ],
+  "related": [
+    "ph-soft-matter-physics",
+    "mt-soft-materials"
+  ],
+  "topics": [
+    {
+      "id": "ch-colloid-interface-science-1",
+      "name": "Surface and interfacial tension; the Young-Laplace and Kelvin equations"
+    },
+    {
+      "id": "ch-colloid-interface-science-2",
+      "name": "Wetting, contact angle and capillarity"
+    },
+    {
+      "id": "ch-colloid-interface-science-3",
+      "name": "Surfactants, micellization and the critical micelle concentration"
+    },
+    {
+      "id": "ch-colloid-interface-science-4",
+      "name": "Colloidal forces: van der Waals and electrostatic double layer"
+    },
+    {
+      "id": "ch-colloid-interface-science-5",
+      "name": "DLVO theory and colloid stability"
+    },
+    {
+      "id": "ch-colloid-interface-science-6",
+      "name": "Emulsions, foams and aerosols"
+    },
+    {
+      "id": "ch-colloid-interface-science-7",
+      "name": "Gels and sols"
+    },
+    {
+      "id": "ch-colloid-interface-science-8",
+      "name": "Rheology of dispersions"
+    },
+    {
+      "id": "ch-colloid-interface-science-9",
+      "name": "Langmuir films and Langmuir-Blodgett deposition"
+    },
+    {
+      "id": "ch-colloid-interface-science-10",
+      "name": "Applications: detergents, paints, food and cosmetics"
+    }
+  ]
+}

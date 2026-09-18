@@ -1,0 +1,58 @@
+{
+  "id": "cs-blockchain",
+  "name": "Blockchain & Distributed Ledgers",
+  "category": "Emerging Computing & Frontiers",
+  "level": 4,
+  "priority": "optional",
+  "summary": "How blockchains combine cryptography and distributed consensus, from Bitcoin and proof of work to smart contracts, scaling and their security.",
+  "prerequisites": [
+    "cs-applied-cryptography",
+    "cs-distributed-systems"
+  ],
+  "related": [
+    "el-blockchain-distributed-ledger",
+    "el-blockchain-for-iot"
+  ],
+  "topics": [
+    {
+      "id": "cs-blockchain-1",
+      "name": "Cryptographic building blocks: hashes, Merkle trees and signatures"
+    },
+    {
+      "id": "cs-blockchain-2",
+      "name": "Bitcoin: transactions, UTXOs and scripting"
+    },
+    {
+      "id": "cs-blockchain-3",
+      "name": "Proof of work and Nakamoto consensus"
+    },
+    {
+      "id": "cs-blockchain-4",
+      "name": "Proof of stake and BFT-style consensus"
+    },
+    {
+      "id": "cs-blockchain-5",
+      "name": "Ethereum and smart contracts (Solidity)"
+    },
+    {
+      "id": "cs-blockchain-6",
+      "name": "Smart-contract security"
+    },
+    {
+      "id": "cs-blockchain-7",
+      "name": "Scalability: layer 2, rollups and sharding"
+    },
+    {
+      "id": "cs-blockchain-8",
+      "name": "Permissioned blockchains"
+    },
+    {
+      "id": "cs-blockchain-9",
+      "name": "Decentralized finance and applications"
+    },
+    {
+      "id": "cs-blockchain-10",
+      "name": "Privacy on blockchains: mixers and zero-knowledge proofs"
+    }
+  ]
+}

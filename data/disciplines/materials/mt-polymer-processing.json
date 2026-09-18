@@ -1,0 +1,61 @@
+{
+  "id": "mt-polymer-processing",
+  "name": "Polymer Processing",
+  "category": "Materials Processing & Manufacturing",
+  "level": 3,
+  "priority": "important",
+  "summary": "Covers how polymers are melted, shaped and solidified by extrusion, moulding and forming, and how processing affects properties.",
+  "prerequisites": [
+    "mt-polymer-properties",
+    "me-fluid-mechanics"
+  ],
+  "related": [
+    "me-casting-forming-molding"
+  ],
+  "topics": [
+    {
+      "id": "mt-polymer-processing-1",
+      "name": "Heat transfer and melt flow in polymer processing"
+    },
+    {
+      "id": "mt-polymer-processing-2",
+      "name": "Extrusion: single- and twin-screw extruders, compounding and profile extrusion"
+    },
+    {
+      "id": "mt-polymer-processing-3",
+      "name": "Injection moulding: cycle, mould design, shrinkage and warpage"
+    },
+    {
+      "id": "mt-polymer-processing-4",
+      "name": "Blow moulding and film blowing"
+    },
+    {
+      "id": "mt-polymer-processing-5",
+      "name": "Thermoforming and rotational moulding"
+    },
+    {
+      "id": "mt-polymer-processing-6",
+      "name": "Processing of thermosets: reaction injection moulding and compression moulding"
+    },
+    {
+      "id": "mt-polymer-processing-7",
+      "name": "Fibre spinning: melt, wet and gel spinning (e.g. UHMWPE and aramid)"
+    },
+    {
+      "id": "mt-polymer-processing-8",
+      "name": "Orientation, residual stress and crystallinity induced by processing"
+    },
+    {
+      "id": "mt-polymer-processing-9",
+      "name": "Foaming processes"
+    },
+    {
+      "id": "mt-polymer-processing-10",
+      "name": "Processing defects and quality control"
+    },
+    {
+      "id": "mt-polymer-processing-11",
+      "name": "Mould-filling simulation"
+    }
+  ]
+}

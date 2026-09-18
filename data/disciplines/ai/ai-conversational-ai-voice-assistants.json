@@ -1,0 +1,66 @@
+{
+  "id": "ai-conversational-ai-voice-assistants",
+  "name": "Conversational AI & Voice Assistants",
+  "category": "Natural Language & Speech Processing",
+  "level": 4,
+  "priority": "important",
+  "summary": "Building spoken and text assistants end to end, from wake-word detection and speech recognition to dialogue management, LLM tool use and low-latency speech output.",
+  "prerequisites": [
+    "ai-speech-audio-processing",
+    "ai-llm-application-engineering"
+  ],
+  "related": [
+    "ai-nlp-tasks-applications",
+    "ai-autonomous-agents"
+  ],
+  "topics": [
+    {
+      "id": "ai-conversational-ai-voice-assistants-1",
+      "name": "Voice assistant architecture: wake word, ASR, NLU, dialogue, NLG, TTS"
+    },
+    {
+      "id": "ai-conversational-ai-voice-assistants-2",
+      "name": "Wake-word detection and keyword spotting"
+    },
+    {
+      "id": "ai-conversational-ai-voice-assistants-3",
+      "name": "Voice activity detection, endpointing and turn-taking"
+    },
+    {
+      "id": "ai-conversational-ai-voice-assistants-4",
+      "name": "Natural language understanding: intent classification and slot filling"
+    },
+    {
+      "id": "ai-conversational-ai-voice-assistants-5",
+      "name": "Dialogue state tracking and dialogue management"
+    },
+    {
+      "id": "ai-conversational-ai-voice-assistants-6",
+      "name": "LLM-based assistants with tools, memory and personalization"
+    },
+    {
+      "id": "ai-conversational-ai-voice-assistants-7",
+      "name": "Streaming and latency engineering: barge-in and full-duplex conversation"
+    },
+    {
+      "id": "ai-conversational-ai-voice-assistants-8",
+      "name": "End-to-end speech-to-speech models"
+    },
+    {
+      "id": "ai-conversational-ai-voice-assistants-9",
+      "name": "On-device versus cloud processing and privacy"
+    },
+    {
+      "id": "ai-conversational-ai-voice-assistants-10",
+      "name": "Multimodal assistants combining voice and vision"
+    },
+    {
+      "id": "ai-conversational-ai-voice-assistants-11",
+      "name": "Evaluation: task success, latency and user satisfaction"
+    },
+    {
+      "id": "ai-conversational-ai-voice-assistants-12",
+      "name": "Safety, security and privacy for always-listening devices"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "me-machine-design-fundamentals",
+  "name": "Machine Design: Stress, Deflection & Failure",
+  "category": "Machine Design & Machine Elements",
+  "level": 3,
+  "priority": "core",
+  "summary": "Designing machine components that do not fail: load analysis, stress concentration, static and fatigue failure theories and factors of safety.",
+  "prerequisites": [
+    "me-mechanics-of-materials",
+    "me-engineering-materials"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "me-machine-design-fundamentals-1",
+      "name": "The mechanical design process, codes, standards and design factors"
+    },
+    {
+      "id": "me-machine-design-fundamentals-2",
+      "name": "Load analysis and free-body diagrams of machine components"
+    },
+    {
+      "id": "me-machine-design-fundamentals-3",
+      "name": "Stress analysis review: combined stresses and stress concentration"
+    },
+    {
+      "id": "me-machine-design-fundamentals-4",
+      "name": "Deflection and stiffness; stiffness-driven design"
+    },
+    {
+      "id": "me-machine-design-fundamentals-5",
+      "name": "Static failure theories for ductile and brittle materials"
+    },
+    {
+      "id": "me-machine-design-fundamentals-6",
+      "name": "Fatigue design: endurance limit, Marin factors, fully reversed and fluctuating stresses"
+    },
+    {
+      "id": "me-machine-design-fundamentals-7",
+      "name": "Fatigue failure criteria (modified Goodman, Gerber, ASME-elliptic)"
+    },
+    {
+      "id": "me-machine-design-fundamentals-8",
+      "name": "Factor of safety, reliability-based design factors and statistical considerations"
+    },
+    {
+      "id": "me-machine-design-fundamentals-9",
+      "name": "Surface failure and wear (introduction)"
+    },
+    {
+      "id": "me-machine-design-fundamentals-10",
+      "name": "Material selection for machine components"
+    },
+    {
+      "id": "me-machine-design-fundamentals-11",
+      "name": "Design of simple components: levers, brackets and frames"
+    },
+    {
+      "id": "me-machine-design-fundamentals-12",
+      "name": "Case study: integrated design of a complete machine"
+    }
+  ]
+}

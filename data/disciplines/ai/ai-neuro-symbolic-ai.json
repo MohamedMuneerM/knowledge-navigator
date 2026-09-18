@@ -1,0 +1,35 @@
+{
+  "id": "ai-neuro-symbolic-ai",
+  "name": "Neuro-Symbolic AI",
+  "category": "Cognitive & Nature-Inspired AI",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Integrating neural learning with symbolic reasoning: differentiable logic, neural theorem proving and knowledge-enhanced language models.",
+  "prerequisites": [
+    "ai-knowledge-representation-reasoning",
+    "ai-neural-network-foundations"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-neuro-symbolic-ai-1",
+      "name": "Neural-Symbolic Integration"
+    },
+    {
+      "id": "ai-neuro-symbolic-ai-2",
+      "name": "Differentiable Programming"
+    },
+    {
+      "id": "ai-neuro-symbolic-ai-3",
+      "name": "Neural Theorem Proving"
+    },
+    {
+      "id": "ai-neuro-symbolic-ai-4",
+      "name": "Symbolic Reasoning with Neural Networks"
+    },
+    {
+      "id": "ai-neuro-symbolic-ai-5",
+      "name": "Knowledge-Enhanced Language Models"
+    }
+  ]
+}

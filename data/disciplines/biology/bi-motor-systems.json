@@ -1,0 +1,71 @@
+{
+  "id": "bi-motor-systems",
+  "name": "Motor Systems & Motor Control",
+  "category": "Neuroscience",
+  "level": 3,
+  "priority": "important",
+  "summary": "How the nervous system plans and executes movement, from spinal reflexes to cortex, basal ganglia and cerebellum: the core neuroscience behind exoskeletons and neural prostheses.",
+  "prerequisites": [
+    "bi-neuroanatomy",
+    "bi-cellular-molecular-neuroscience",
+    "bi-muscle-biology"
+  ],
+  "related": [
+    "el-robot-control",
+    "ma-control-theory"
+  ],
+  "topics": [
+    {
+      "id": "bi-motor-systems-1",
+      "name": "Organisation of the motor system: hierarchy and parallel pathways"
+    },
+    {
+      "id": "bi-motor-systems-2",
+      "name": "Motor neurons and muscle spindles, Golgi tendon organs"
+    },
+    {
+      "id": "bi-motor-systems-3",
+      "name": "Spinal reflexes and spinal interneuron circuits"
+    },
+    {
+      "id": "bi-motor-systems-4",
+      "name": "Central pattern generators and locomotion"
+    },
+    {
+      "id": "bi-motor-systems-5",
+      "name": "Brainstem control of posture and balance"
+    },
+    {
+      "id": "bi-motor-systems-6",
+      "name": "Motor cortex: maps, population coding of movement direction"
+    },
+    {
+      "id": "bi-motor-systems-7",
+      "name": "Planning versus execution: premotor and parietal cortex"
+    },
+    {
+      "id": "bi-motor-systems-8",
+      "name": "Basal ganglia: action selection and reinforcement learning"
+    },
+    {
+      "id": "bi-motor-systems-9",
+      "name": "Cerebellum: coordination, timing and error-based learning"
+    },
+    {
+      "id": "bi-motor-systems-10",
+      "name": "Eye movements as a model motor system"
+    },
+    {
+      "id": "bi-motor-systems-11",
+      "name": "Motor learning and adaptation: internal models"
+    },
+    {
+      "id": "bi-motor-systems-12",
+      "name": "Computational motor control: optimal feedback control"
+    },
+    {
+      "id": "bi-motor-systems-13",
+      "name": "Disorders of movement: Parkinson's disease, stroke, spinal cord injury"
+    }
+  ]
+}

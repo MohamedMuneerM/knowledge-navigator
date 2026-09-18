@@ -1,0 +1,60 @@
+{
+  "id": "ma-introduction-to-proofs",
+  "name": "Introduction to Proofs & Mathematical Reasoning",
+  "category": "Foundations & Mathematical Logic",
+  "level": 2,
+  "priority": "core",
+  "summary": "How to read and write mathematical proofs: logic, quantifiers, sets, functions, induction and proof techniques, the gateway to pure mathematics.",
+  "prerequisites": [
+    "ma-elementary-intermediate-algebra"
+  ],
+  "related": [
+    "ma-discrete-mathematics"
+  ],
+  "topics": [
+    {
+      "id": "ma-introduction-to-proofs-1",
+      "name": "Propositional logic: connectives, truth tables and implication"
+    },
+    {
+      "id": "ma-introduction-to-proofs-2",
+      "name": "Quantifiers and negating mathematical statements"
+    },
+    {
+      "id": "ma-introduction-to-proofs-3",
+      "name": "Direct proof and proof by contrapositive"
+    },
+    {
+      "id": "ma-introduction-to-proofs-4",
+      "name": "Proof by contradiction"
+    },
+    {
+      "id": "ma-introduction-to-proofs-5",
+      "name": "Mathematical induction and strong induction"
+    },
+    {
+      "id": "ma-introduction-to-proofs-6",
+      "name": "Sets and set operations"
+    },
+    {
+      "id": "ma-introduction-to-proofs-7",
+      "name": "Relations, equivalence relations and partitions"
+    },
+    {
+      "id": "ma-introduction-to-proofs-8",
+      "name": "Functions: injective, surjective, bijective and inverses"
+    },
+    {
+      "id": "ma-introduction-to-proofs-9",
+      "name": "Cardinality: finite, countable and uncountable sets"
+    },
+    {
+      "id": "ma-introduction-to-proofs-10",
+      "name": "Divisibility and modular arithmetic as a proving ground"
+    },
+    {
+      "id": "ma-introduction-to-proofs-11",
+      "name": "Reading, writing and critiquing proofs; counterexamples"
+    }
+  ]
+}

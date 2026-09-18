@@ -1,0 +1,59 @@
+{
+  "id": "ea-metamorphic-petrology",
+  "name": "Metamorphic Petrology",
+  "category": "Mineralogy & Petrology",
+  "level": 3,
+  "priority": "core",
+  "summary": "How rocks recrystallise under changing pressure, temperature and fluids, and how to read tectonic history from metamorphic rocks.",
+  "prerequisites": [
+    "ea-mineralogy",
+    "ea-geochemistry-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-metamorphic-petrology-1",
+      "name": "Agents and types of metamorphism: contact, regional, burial, dynamic and hydrothermal"
+    },
+    {
+      "id": "ea-metamorphic-petrology-2",
+      "name": "Metamorphic textures and fabrics: foliation, porphyroblasts and reaction textures"
+    },
+    {
+      "id": "ea-metamorphic-petrology-3",
+      "name": "Protoliths and classification of metamorphic rocks"
+    },
+    {
+      "id": "ea-metamorphic-petrology-4",
+      "name": "Metamorphic reactions and chemographic (AFM/ACF) diagrams"
+    },
+    {
+      "id": "ea-metamorphic-petrology-5",
+      "name": "Index minerals, isograds and metamorphic zones"
+    },
+    {
+      "id": "ea-metamorphic-petrology-6",
+      "name": "Metamorphic facies and facies series"
+    },
+    {
+      "id": "ea-metamorphic-petrology-7",
+      "name": "Geothermobarometry"
+    },
+    {
+      "id": "ea-metamorphic-petrology-8",
+      "name": "Pressure-temperature-time (P-T-t) paths and tectonic interpretation"
+    },
+    {
+      "id": "ea-metamorphic-petrology-9",
+      "name": "Phase-equilibrium modelling and pseudosections"
+    },
+    {
+      "id": "ea-metamorphic-petrology-10",
+      "name": "Fluids, metasomatism and partial melting (migmatites)"
+    },
+    {
+      "id": "ea-metamorphic-petrology-11",
+      "name": "Ultra-high-pressure and ultra-high-temperature metamorphism"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "el-power-electronics-fundamentals",
+  "name": "Power Electronics Fundamentals",
+  "category": "Power Electronics & Power Management",
+  "level": 3,
+  "priority": "core",
+  "summary": "The theory of switched-mode power conversion: DC-DC, AC-DC, DC-AC and AC-AC converters, losses, averaged models and control.",
+  "prerequisites": [
+    "el-diode-transistor-circuits",
+    "el-ac-circuits-power"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-power-electronics-fundamentals-1",
+      "name": "Role of power electronics and the ideal switch"
+    },
+    {
+      "id": "el-power-electronics-fundamentals-2",
+      "name": "Power semiconductor switches overview (diodes, MOSFETs, IGBTs, thyristors)"
+    },
+    {
+      "id": "el-power-electronics-fundamentals-3",
+      "name": "Steady-state converter analysis: volt-second and charge balance"
+    },
+    {
+      "id": "el-power-electronics-fundamentals-4",
+      "name": "Buck, boost and buck-boost converters"
+    },
+    {
+      "id": "el-power-electronics-fundamentals-5",
+      "name": "Continuous vs discontinuous conduction mode"
+    },
+    {
+      "id": "el-power-electronics-fundamentals-6",
+      "name": "Conduction and switching losses, efficiency"
+    },
+    {
+      "id": "el-power-electronics-fundamentals-7",
+      "name": "Isolated converters: flyback, forward, push-pull, full bridge"
+    },
+    {
+      "id": "el-power-electronics-fundamentals-8",
+      "name": "Diode and phase-controlled thyristor rectifiers"
+    },
+    {
+      "id": "el-power-electronics-fundamentals-9",
+      "name": "DC-AC inverters and PWM (sinusoidal and space-vector)"
+    },
+    {
+      "id": "el-power-electronics-fundamentals-10",
+      "name": "AC-AC converters: AC voltage controllers, cycloconverters, matrix converters"
+    },
+    {
+      "id": "el-power-electronics-fundamentals-11",
+      "name": "Averaged modelling and small-signal transfer functions"
+    },
+    {
+      "id": "el-power-electronics-fundamentals-12",
+      "name": "Converter control loops"
+    },
+    {
+      "id": "el-power-electronics-fundamentals-13",
+      "name": "Magnetics design basics (inductors and transformers)"
+    },
+    {
+      "id": "el-power-electronics-fundamentals-14",
+      "name": "Snubbers and gate-drive circuits"
+    }
+  ]
+}

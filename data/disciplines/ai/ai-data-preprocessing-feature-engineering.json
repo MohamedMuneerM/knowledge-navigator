@@ -1,0 +1,113 @@
+{
+  "id": "ai-data-preprocessing-feature-engineering",
+  "name": "Data Preprocessing & Feature Engineering",
+  "category": "Machine Learning Foundations",
+  "level": 2,
+  "priority": "core",
+  "summary": "Turning raw data into model-ready features: cleaning, encoding, scaling, feature construction and selection, and dimensionality reduction.",
+  "prerequisites": [
+    "ai-core-ml-concepts"
+  ],
+  "related": [
+    "ma-dimensionality-reduction",
+    "el-data-collection-labeling"
+  ],
+  "topics": [
+    {
+      "id": "ai-data-preprocessing-feature-engineering-1",
+      "name": "Data Cleaning",
+      "sub": [
+        {
+          "id": "ai-data-preprocessing-feature-engineering-1-1",
+          "name": "Missing value handling"
+        },
+        {
+          "id": "ai-data-preprocessing-feature-engineering-1-2",
+          "name": "Outlier detection and treatment"
+        },
+        {
+          "id": "ai-data-preprocessing-feature-engineering-1-3",
+          "name": "Data normalization and standardization"
+        }
+      ]
+    },
+    {
+      "id": "ai-data-preprocessing-feature-engineering-2",
+      "name": "Feature Engineering",
+      "sub": [
+        {
+          "id": "ai-data-preprocessing-feature-engineering-2-1",
+          "name": "Feature creation"
+        },
+        {
+          "id": "ai-data-preprocessing-feature-engineering-2-2",
+          "name": "Feature transformation"
+        },
+        {
+          "id": "ai-data-preprocessing-feature-engineering-2-3",
+          "name": "Polynomial features"
+        }
+      ]
+    },
+    {
+      "id": "ai-data-preprocessing-feature-engineering-3",
+      "name": "Feature Selection",
+      "sub": [
+        {
+          "id": "ai-data-preprocessing-feature-engineering-3-1",
+          "name": "Filter methods"
+        },
+        {
+          "id": "ai-data-preprocessing-feature-engineering-3-2",
+          "name": "Wrapper methods"
+        },
+        {
+          "id": "ai-data-preprocessing-feature-engineering-3-3",
+          "name": "Embedded methods"
+        }
+      ]
+    },
+    {
+      "id": "ai-data-preprocessing-feature-engineering-4",
+      "name": "Dimensionality Reduction",
+      "sub": [
+        {
+          "id": "ai-data-preprocessing-feature-engineering-4-1",
+          "name": "Principal Component Analysis (PCA)"
+        },
+        {
+          "id": "ai-data-preprocessing-feature-engineering-4-2",
+          "name": "Independent Component Analysis (ICA)"
+        },
+        {
+          "id": "ai-data-preprocessing-feature-engineering-4-3",
+          "name": "t-SNE"
+        },
+        {
+          "id": "ai-data-preprocessing-feature-engineering-4-4",
+          "name": "UMAP"
+        },
+        {
+          "id": "ai-data-preprocessing-feature-engineering-4-5",
+          "name": "Locally Linear Embedding (LLE)"
+        },
+        {
+          "id": "ai-data-preprocessing-feature-engineering-4-6",
+          "name": "Manifold learning"
+        }
+      ]
+    },
+    {
+      "id": "ai-data-preprocessing-feature-engineering-5",
+      "name": "Encoding categorical variables (one-hot, ordinal, target encoding)"
+    },
+    {
+      "id": "ai-data-preprocessing-feature-engineering-6",
+      "name": "Handling imbalanced data (resampling, SMOTE, class weights)"
+    },
+    {
+      "id": "ai-data-preprocessing-feature-engineering-7",
+      "name": "Extracting features from text, dates and times"
+    }
+  ]
+}

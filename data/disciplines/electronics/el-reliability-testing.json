@@ -1,0 +1,41 @@
+{
+  "id": "el-reliability-testing",
+  "name": "Reliability Testing",
+  "category": "Measurement, Testing & Validation",
+  "level": 3,
+  "priority": "important",
+  "summary": "Predicting and demonstrating product life: accelerated life tests, HALT, burn-in, MTBF, FMEA and root-cause analysis.",
+  "prerequisites": [
+    "el-test-equipment",
+    "ma-probability-theory"
+  ],
+  "related": [
+    "me-reliability-safety-engineering"
+  ],
+  "topics": [
+    {
+      "id": "el-reliability-testing-1",
+      "name": "Accelerated life testing (ALT)"
+    },
+    {
+      "id": "el-reliability-testing-2",
+      "name": "Highly Accelerated Life Test (HALT)"
+    },
+    {
+      "id": "el-reliability-testing-3",
+      "name": "Burn-in testing"
+    },
+    {
+      "id": "el-reliability-testing-4",
+      "name": "Mean Time Between Failures (MTBF) calculation"
+    },
+    {
+      "id": "el-reliability-testing-5",
+      "name": "Failure Mode and Effects Analysis (FMEA)"
+    },
+    {
+      "id": "el-reliability-testing-6",
+      "name": "Root cause analysis (RCA)"
+    }
+  ]
+}

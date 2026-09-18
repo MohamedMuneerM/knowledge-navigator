@@ -1,0 +1,62 @@
+{
+  "id": "ae-aircraft-performance",
+  "name": "Aircraft Performance",
+  "category": "Flight Mechanics & Control",
+  "level": 2,
+  "priority": "core",
+  "summary": "Predicts how far, how fast, how high and how efficiently an aircraft can fly, from the drag polar and engine data.",
+  "prerequisites": [
+    "ae-incompressible-aerodynamics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-aircraft-performance-1",
+      "name": "Equations of motion for point-mass aircraft"
+    },
+    {
+      "id": "ae-aircraft-performance-2",
+      "name": "The drag polar and lift-to-drag ratio"
+    },
+    {
+      "id": "ae-aircraft-performance-3",
+      "name": "Thrust and power required versus available"
+    },
+    {
+      "id": "ae-aircraft-performance-4",
+      "name": "Steady level flight: minimum drag and minimum power speeds"
+    },
+    {
+      "id": "ae-aircraft-performance-5",
+      "name": "Climb performance: rate and angle of climb, ceilings"
+    },
+    {
+      "id": "ae-aircraft-performance-6",
+      "name": "Gliding flight"
+    },
+    {
+      "id": "ae-aircraft-performance-7",
+      "name": "Range and endurance: the Breguet equations for jets and propeller aircraft"
+    },
+    {
+      "id": "ae-aircraft-performance-8",
+      "name": "Turning flight, load factor and the V-n diagram"
+    },
+    {
+      "id": "ae-aircraft-performance-9",
+      "name": "Takeoff and landing distances"
+    },
+    {
+      "id": "ae-aircraft-performance-10",
+      "name": "Energy-state methods and specific excess power"
+    },
+    {
+      "id": "ae-aircraft-performance-11",
+      "name": "Performance of jet versus propeller aircraft"
+    },
+    {
+      "id": "ae-aircraft-performance-12",
+      "name": "Mission profiles and fuel planning"
+    }
+  ]
+}

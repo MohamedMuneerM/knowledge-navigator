@@ -1,0 +1,42 @@
+{
+  "id": "el-pcb-layout",
+  "name": "PCB Layout",
+  "category": "PCB Design & Hardware Development",
+  "level": 2,
+  "priority": "core",
+  "summary": "Laying out a printed circuit board: stack-ups, placement, routing, trace widths, vias, planes and clearances.",
+  "prerequisites": [
+    "el-schematic-design"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-pcb-layout-1",
+      "name": "Layer stackup design (2-layer, 4-layer, 6+ layers)"
+    },
+    {
+      "id": "el-pcb-layout-2",
+      "name": "Component placement strategies"
+    },
+    {
+      "id": "el-pcb-layout-3",
+      "name": "Routing techniques (manual, auto-routing)"
+    },
+    {
+      "id": "el-pcb-layout-4",
+      "name": "Trace width and current capacity"
+    },
+    {
+      "id": "el-pcb-layout-5",
+      "name": "Via types (through-hole, blind, buried, micro-vias)"
+    },
+    {
+      "id": "el-pcb-layout-6",
+      "name": "Copper pour and ground planes"
+    },
+    {
+      "id": "el-pcb-layout-7",
+      "name": "Keep-out zones and clearances"
+    }
+  ]
+}

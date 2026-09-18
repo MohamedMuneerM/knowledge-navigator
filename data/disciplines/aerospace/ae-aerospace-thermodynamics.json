@@ -1,0 +1,75 @@
+{
+  "id": "ae-aerospace-thermodynamics",
+  "name": "Thermodynamics for Aerospace",
+  "category": "Engineering Foundations",
+  "level": 2,
+  "priority": "core",
+  "summary": "Engineering thermodynamics aimed at propulsion and aerodynamics: energy balances, entropy, gas properties and power and propulsion cycles.",
+  "prerequisites": [
+    "me-engineering-thermodynamics",
+    "ch-introductory-chemistry"
+  ],
+  "related": [
+    "ph-thermodynamics-statistical-mechanics",
+    "ma-thermodynamics",
+    "me-applied-thermodynamics"
+  ],
+  "topics": [
+    {
+      "id": "ae-aerospace-thermodynamics-1",
+      "name": "Systems, properties, state and equilibrium"
+    },
+    {
+      "id": "ae-aerospace-thermodynamics-2",
+      "name": "Ideal gas law, specific heats and calorically perfect gases"
+    },
+    {
+      "id": "ae-aerospace-thermodynamics-3",
+      "name": "First law for closed systems and control volumes; enthalpy"
+    },
+    {
+      "id": "ae-aerospace-thermodynamics-4",
+      "name": "Steady-flow energy equation for nozzles, diffusers, compressors and turbines"
+    },
+    {
+      "id": "ae-aerospace-thermodynamics-5",
+      "name": "Second law, entropy and isentropic processes"
+    },
+    {
+      "id": "ae-aerospace-thermodynamics-6",
+      "name": "Stagnation (total) properties"
+    },
+    {
+      "id": "ae-aerospace-thermodynamics-7",
+      "name": "Component efficiencies: isentropic and polytropic"
+    },
+    {
+      "id": "ae-aerospace-thermodynamics-8",
+      "name": "Brayton cycle and its variants (regeneration, reheat, intercooling)"
+    },
+    {
+      "id": "ae-aerospace-thermodynamics-9",
+      "name": "Otto and Diesel cycles for piston aero engines"
+    },
+    {
+      "id": "ae-aerospace-thermodynamics-10",
+      "name": "Rankine and closed Brayton cycles for space power"
+    },
+    {
+      "id": "ae-aerospace-thermodynamics-11",
+      "name": "Gas mixtures and real-gas behaviour"
+    },
+    {
+      "id": "ae-aerospace-thermodynamics-12",
+      "name": "Thermochemistry: heats of formation and combustion"
+    },
+    {
+      "id": "ae-aerospace-thermodynamics-13",
+      "name": "Chemical equilibrium and adiabatic flame temperature (introduction)"
+    },
+    {
+      "id": "ae-aerospace-thermodynamics-14",
+      "name": "Exergy and availability"
+    }
+  ]
+}

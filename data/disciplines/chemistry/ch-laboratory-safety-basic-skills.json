@@ -1,0 +1,62 @@
+{
+  "id": "ch-laboratory-safety-basic-skills",
+  "name": "Laboratory Safety & Basic Lab Skills",
+  "category": "Foundations",
+  "level": 1,
+  "priority": "core",
+  "summary": "How to work safely with chemicals and carry out and record basic laboratory measurements.",
+  "prerequisites": [],
+  "related": [
+    "bi-laboratory-fundamentals"
+  ],
+  "topics": [
+    {
+      "id": "ch-laboratory-safety-basic-skills-1",
+      "name": "Lab rules, personal protective equipment and emergency equipment"
+    },
+    {
+      "id": "ch-laboratory-safety-basic-skills-2",
+      "name": "GHS hazard classes, pictograms, labels and Safety Data Sheets (SDS)"
+    },
+    {
+      "id": "ch-laboratory-safety-basic-skills-3",
+      "name": "Risk assessment (RAMP: recognize, assess, minimize, prepare)"
+    },
+    {
+      "id": "ch-laboratory-safety-basic-skills-4",
+      "name": "Chemical storage and incompatible combinations"
+    },
+    {
+      "id": "ch-laboratory-safety-basic-skills-5",
+      "name": "Handling flammables, corrosives, oxidizers and toxic substances"
+    },
+    {
+      "id": "ch-laboratory-safety-basic-skills-6",
+      "name": "Fume hoods, ventilation and occupational exposure limits"
+    },
+    {
+      "id": "ch-laboratory-safety-basic-skills-7",
+      "name": "Waste disposal and spill response"
+    },
+    {
+      "id": "ch-laboratory-safety-basic-skills-8",
+      "name": "Glassware, volumetric equipment and balances: accurate measurement"
+    },
+    {
+      "id": "ch-laboratory-safety-basic-skills-9",
+      "name": "Heating, cooling and mixing safely"
+    },
+    {
+      "id": "ch-laboratory-safety-basic-skills-10",
+      "name": "Basic techniques: filtration, decantation, simple distillation and titration"
+    },
+    {
+      "id": "ch-laboratory-safety-basic-skills-11",
+      "name": "Lab notebook keeping and data recording"
+    },
+    {
+      "id": "ch-laboratory-safety-basic-skills-12",
+      "name": "Household and kitchen chemical safety (dangerous mixtures such as bleach and ammonia)"
+    }
+  ]
+}

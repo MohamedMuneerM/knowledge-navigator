@@ -1,0 +1,79 @@
+{
+  "id": "bi-immunology",
+  "name": "Immunology",
+  "category": "Microbiology, Virology & Immunology",
+  "level": 3,
+  "priority": "core",
+  "summary": "How the body tells self from non-self: innate and adaptive immunity, antibodies, T cells, vaccines and immune disorders.",
+  "prerequisites": [
+    "bi-cell-signaling",
+    "bi-microbiology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-immunology-1",
+      "name": "Overview of the immune system: cells, organs and lymphatics"
+    },
+    {
+      "id": "bi-immunology-2",
+      "name": "Innate immunity: barriers, phagocytes, complement and inflammation"
+    },
+    {
+      "id": "bi-immunology-3",
+      "name": "Pattern recognition receptors and interferons"
+    },
+    {
+      "id": "bi-immunology-4",
+      "name": "Antibody structure, classes and functions"
+    },
+    {
+      "id": "bi-immunology-5",
+      "name": "Generation of diversity: V(D)J recombination, somatic hypermutation and class switching"
+    },
+    {
+      "id": "bi-immunology-6",
+      "name": "MHC and antigen processing and presentation"
+    },
+    {
+      "id": "bi-immunology-7",
+      "name": "T-cell development, thymic selection and tolerance"
+    },
+    {
+      "id": "bi-immunology-8",
+      "name": "T-cell activation and effector subsets (Th1, Th2, Th17, Treg, cytotoxic T cells)"
+    },
+    {
+      "id": "bi-immunology-9",
+      "name": "B-cell activation and the germinal centre"
+    },
+    {
+      "id": "bi-immunology-10",
+      "name": "Immunological memory and vaccination"
+    },
+    {
+      "id": "bi-immunology-11",
+      "name": "Mucosal immunity and the microbiota"
+    },
+    {
+      "id": "bi-immunology-12",
+      "name": "Hypersensitivity and allergy"
+    },
+    {
+      "id": "bi-immunology-13",
+      "name": "Autoimmunity"
+    },
+    {
+      "id": "bi-immunology-14",
+      "name": "Immunodeficiency, including HIV/AIDS"
+    },
+    {
+      "id": "bi-immunology-15",
+      "name": "Transplantation and tumour immunology"
+    },
+    {
+      "id": "bi-immunology-16",
+      "name": "Immunotherapy: monoclonal antibodies, checkpoint blockade and CAR-T cells"
+    }
+  ]
+}

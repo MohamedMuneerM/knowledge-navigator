@@ -1,0 +1,71 @@
+{
+  "id": "ph-energy-physics",
+  "name": "Energy Physics",
+  "category": "Applied Physics",
+  "level": 3,
+  "priority": "important",
+  "summary": "The physics of energy sources, conversion and storage, from fission and solar cells to batteries.",
+  "prerequisites": [
+    "ph-thermodynamics-statistical-mechanics",
+    "ph-classical-electromagnetism"
+  ],
+  "related": [
+    "el-energy-innovations",
+    "el-battery-technologies",
+    "ch-fuel-cells-hydrogen",
+    "ch-solar-energy-conversion",
+    "ch-applied-radiochemistry",
+    "me-renewable-energy-systems",
+    "el-power-generation"
+  ],
+  "topics": [
+    {
+      "id": "ph-energy-physics-7",
+      "name": "Energy fundamentals: forms, units and global energy flows"
+    },
+    {
+      "id": "ph-energy-physics-8",
+      "name": "Heat engines and power-plant thermodynamics"
+    },
+    {
+      "id": "ph-energy-physics-3",
+      "name": "Energy conversion"
+    },
+    {
+      "id": "ph-energy-physics-1",
+      "name": "Nuclear energy"
+    },
+    {
+      "id": "ph-energy-physics-2",
+      "name": "Renewable energy systems (solar, wind, hydro)"
+    },
+    {
+      "id": "ph-energy-physics-9",
+      "name": "Photovoltaic physics: solar cells and efficiency limits"
+    },
+    {
+      "id": "ph-energy-physics-10",
+      "name": "Wind energy and the Betz limit"
+    },
+    {
+      "id": "ph-energy-physics-4",
+      "name": "Energy storage"
+    },
+    {
+      "id": "ph-energy-physics-5",
+      "name": "Fuel cells"
+    },
+    {
+      "id": "ph-energy-physics-6",
+      "name": "Thermoelectric devices"
+    },
+    {
+      "id": "ph-energy-physics-11",
+      "name": "Energy efficiency in buildings and transport"
+    },
+    {
+      "id": "ph-energy-physics-12",
+      "name": "Energy, climate and the greenhouse effect"
+    }
+  ]
+}

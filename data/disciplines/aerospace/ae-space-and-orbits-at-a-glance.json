@@ -1,0 +1,59 @@
+{
+  "id": "ae-space-and-orbits-at-a-glance",
+  "name": "Space and Orbits at a Glance",
+  "category": "Introduction to Aerospace",
+  "level": 1,
+  "priority": "core",
+  "summary": "Introduces what 'space' is, how orbits work, the main orbit types and the harsh environment spacecraft must survive.",
+  "prerequisites": [
+    "ae-introduction-to-aerospace-engineering",
+    "ph-introductory-mechanics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-space-and-orbits-at-a-glance-1",
+      "name": "Where space begins: the Karman line and other definitions"
+    },
+    {
+      "id": "ae-space-and-orbits-at-a-glance-2",
+      "name": "Gravity, free fall and why astronauts float"
+    },
+    {
+      "id": "ae-space-and-orbits-at-a-glance-3",
+      "name": "Orbits as falling around the Earth: Newton's cannonball"
+    },
+    {
+      "id": "ae-space-and-orbits-at-a-glance-4",
+      "name": "Orbital speed and period, and Kepler's three laws (qualitative)"
+    },
+    {
+      "id": "ae-space-and-orbits-at-a-glance-5",
+      "name": "Orbit types: LEO, MEO, GEO, HEO, sun-synchronous, polar"
+    },
+    {
+      "id": "ae-space-and-orbits-at-a-glance-6",
+      "name": "Escape velocity and trips to the Moon and planets"
+    },
+    {
+      "id": "ae-space-and-orbits-at-a-glance-7",
+      "name": "The space environment at a glance: vacuum, temperature extremes, radiation, micrometeoroids and debris"
+    },
+    {
+      "id": "ae-space-and-orbits-at-a-glance-8",
+      "name": "What satellites do: communication, navigation, Earth observation, science"
+    },
+    {
+      "id": "ae-space-and-orbits-at-a-glance-9",
+      "name": "Spacecraft anatomy: payload and bus"
+    },
+    {
+      "id": "ae-space-and-orbits-at-a-glance-10",
+      "name": "Ground stations, tracking and how we talk to spacecraft"
+    },
+    {
+      "id": "ae-space-and-orbits-at-a-glance-11",
+      "name": "Human spaceflight basics: life support, space stations and the effects of microgravity"
+    }
+  ]
+}

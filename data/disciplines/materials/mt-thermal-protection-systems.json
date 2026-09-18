@@ -1,0 +1,68 @@
+{
+  "id": "mt-thermal-protection-systems",
+  "name": "Thermal Protection Systems & Ablative Materials",
+  "category": "Aerospace & Extreme-Environment Materials",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Explains the materials that protect spacecraft and missiles from re-entry and propulsion heating, from reusable tiles to charring ablators.",
+  "prerequisites": [
+    "mt-ceramic-matrix-composites",
+    "mt-thermal-properties",
+    "me-heat-transfer"
+  ],
+  "related": [
+    "ae-thermal-protection-systems",
+    "ae-hypersonic-aerothermodynamics",
+    "ae-atmospheric-entry"
+  ],
+  "topics": [
+    {
+      "id": "mt-thermal-protection-systems-1",
+      "name": "Aerothermal environments of re-entry and hypersonic flight; heat-flux and heat-load"
+    },
+    {
+      "id": "mt-thermal-protection-systems-2",
+      "name": "Heat-management strategies: heat sink, radiative, insulative, ablative and transpiration cooling"
+    },
+    {
+      "id": "mt-thermal-protection-systems-3",
+      "name": "Reusable TPS: silica tiles (LI-900), AETB/TUFI, flexible insulation blankets"
+    },
+    {
+      "id": "mt-thermal-protection-systems-4",
+      "name": "Reinforced carbon-carbon leading edges"
+    },
+    {
+      "id": "mt-thermal-protection-systems-5",
+      "name": "Ablative materials: carbon-phenolic, PICA, AVCOAT, SLA-561V and cork-based ablators"
+    },
+    {
+      "id": "mt-thermal-protection-systems-6",
+      "name": "Ablation physics: pyrolysis, char formation, surface recession and blowing"
+    },
+    {
+      "id": "mt-thermal-protection-systems-7",
+      "name": "Ultra-high-temperature ceramics for sharp leading edges"
+    },
+    {
+      "id": "mt-thermal-protection-systems-8",
+      "name": "Rocket nozzle and throat materials: graphite, C/C, C/SiC and refractory metals"
+    },
+    {
+      "id": "mt-thermal-protection-systems-9",
+      "name": "Insulation materials: aerogels and multilayer insulation"
+    },
+    {
+      "id": "mt-thermal-protection-systems-10",
+      "name": "Arc-jet testing and qualification of TPS"
+    },
+    {
+      "id": "mt-thermal-protection-systems-11",
+      "name": "TPS design for Mars entry, lunar return and reusable launch vehicles"
+    },
+    {
+      "id": "mt-thermal-protection-systems-12",
+      "name": "Case studies: Space Shuttle, Apollo, Stardust, Orion and Starship heat shields"
+    }
+  ]
+}

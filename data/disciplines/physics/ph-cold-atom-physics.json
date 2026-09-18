@@ -1,0 +1,39 @@
+{
+  "id": "ph-cold-atom-physics",
+  "name": "Cold Atom Physics",
+  "category": "Atomic, Molecular & Optical Physics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Atoms cooled to nanokelvin: Bose-Einstein condensates, degenerate Fermi gases and quantum simulation.",
+  "prerequisites": [
+    "ph-atom-light-interaction-laser-cooling",
+    "ph-thermodynamics-statistical-mechanics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-cold-atom-physics-1",
+      "name": "Bose-Einstein condensates (BEC)"
+    },
+    {
+      "id": "ph-cold-atom-physics-2",
+      "name": "Optical lattices"
+    },
+    {
+      "id": "ph-cold-atom-physics-3",
+      "name": "Fermi gases"
+    },
+    {
+      "id": "ph-cold-atom-physics-4",
+      "name": "Atom interferometry"
+    },
+    {
+      "id": "ph-cold-atom-physics-5",
+      "name": "Ultracold molecules"
+    },
+    {
+      "id": "ph-cold-atom-physics-6",
+      "name": "Quantum simulation"
+    }
+  ]
+}

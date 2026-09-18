@@ -1,0 +1,60 @@
+{
+  "id": "mt-phase-field-mesoscale",
+  "name": "Phase-Field & Mesoscale Modelling",
+  "category": "Computational Materials Science",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Teaches methods for simulating microstructure evolution and mesoscale mechanics, including phase-field, dislocation dynamics and crystal plasticity.",
+  "prerequisites": [
+    "mt-computational-materials-intro",
+    "mt-interfaces-microstructure-evolution",
+    "ma-numerical-solutions-of-pdes"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "mt-phase-field-mesoscale-1",
+      "name": "Why mesoscale modelling: the gap between atoms and continuum"
+    },
+    {
+      "id": "mt-phase-field-mesoscale-2",
+      "name": "Diffuse-interface theory: Ginzburg-Landau free energy and gradient terms"
+    },
+    {
+      "id": "mt-phase-field-mesoscale-3",
+      "name": "Cahn-Hilliard and Allen-Cahn equations and their numerical solution"
+    },
+    {
+      "id": "mt-phase-field-mesoscale-4",
+      "name": "Phase-field models of solidification and dendrite growth"
+    },
+    {
+      "id": "mt-phase-field-mesoscale-5",
+      "name": "Phase-field models of precipitation, grain growth and fracture"
+    },
+    {
+      "id": "mt-phase-field-mesoscale-6",
+      "name": "Cellular automata and Monte Carlo Potts models of microstructure"
+    },
+    {
+      "id": "mt-phase-field-mesoscale-7",
+      "name": "Discrete dislocation dynamics"
+    },
+    {
+      "id": "mt-phase-field-mesoscale-8",
+      "name": "Crystal plasticity finite element method"
+    },
+    {
+      "id": "mt-phase-field-mesoscale-9",
+      "name": "Homogenisation and representative volume elements"
+    },
+    {
+      "id": "mt-phase-field-mesoscale-10",
+      "name": "Coupling to CALPHAD and experiments"
+    },
+    {
+      "id": "mt-phase-field-mesoscale-11",
+      "name": "Tools: MOOSE, PRISMS-PF and DAMASK"
+    }
+  ]
+}

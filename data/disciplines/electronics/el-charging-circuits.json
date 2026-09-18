@@ -1,0 +1,43 @@
+{
+  "id": "el-charging-circuits",
+  "name": "Charging Circuits",
+  "category": "Power Electronics & Power Management",
+  "level": 3,
+  "priority": "important",
+  "summary": "Charging batteries correctly and quickly: CC-CV algorithms, USB-PD and fast charging, wireless (Qi) and solar MPPT chargers.",
+  "prerequisites": [
+    "el-battery-technologies",
+    "el-switching-regulators"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-charging-circuits-1",
+      "name": "Constant Current Constant Voltage (CC-CV) charging"
+    },
+    {
+      "id": "el-charging-circuits-2",
+      "name": "Multi-stage charging algorithms"
+    },
+    {
+      "id": "el-charging-circuits-3",
+      "name": "Fast charging protocols (Quick Charge, USB-PD)"
+    },
+    {
+      "id": "el-charging-circuits-4",
+      "name": "Wireless charging (Qi standard, resonant inductive)"
+    },
+    {
+      "id": "el-charging-circuits-5",
+      "name": "Solar charge controllers (MPPT, PWM)"
+    },
+    {
+      "id": "el-charging-circuits-6",
+      "name": "Linear vs switching charger ICs"
+    },
+    {
+      "id": "el-charging-circuits-7",
+      "name": "Charging safety: temperature qualification and protection"
+    }
+  ]
+}

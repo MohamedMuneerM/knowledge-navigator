@@ -1,0 +1,64 @@
+{
+  "id": "ae-avionics-systems-integration",
+  "name": "Avionics Systems Integration",
+  "category": "Avionics & Flight Software",
+  "level": 3,
+  "priority": "important",
+  "summary": "How avionics are architected and integrated into aircraft and spacecraft: redundancy, modular avionics, networks and certification.",
+  "prerequisites": [
+    "ae-aerospace-systems-engineering",
+    "ae-command-data-handling"
+  ],
+  "related": [
+    "el-avionics-buses-protocols",
+    "el-spacecraft-electronics",
+    "el-reliability-fault-tolerance",
+    "el-avionics-systems"
+  ],
+  "topics": [
+    {
+      "id": "ae-avionics-systems-integration-1",
+      "name": "Avionics functions in aircraft and spacecraft"
+    },
+    {
+      "id": "ae-avionics-systems-integration-2",
+      "name": "Federated versus integrated modular avionics (IMA)"
+    },
+    {
+      "id": "ae-avionics-systems-integration-3",
+      "name": "Partitioning and ARINC 653"
+    },
+    {
+      "id": "ae-avionics-systems-integration-4",
+      "name": "Avionics networks and data buses"
+    },
+    {
+      "id": "ae-avionics-systems-integration-5",
+      "name": "Redundancy architectures: dual, triplex, quad; voting"
+    },
+    {
+      "id": "ae-avionics-systems-integration-6",
+      "name": "Cockpit displays and human-machine interface"
+    },
+    {
+      "id": "ae-avionics-systems-integration-7",
+      "name": "Launch vehicle and spacecraft avionics architectures"
+    },
+    {
+      "id": "ae-avionics-systems-integration-8",
+      "name": "Electromagnetic environmental effects and lightning protection"
+    },
+    {
+      "id": "ae-avionics-systems-integration-9",
+      "name": "Environmental qualification (DO-160)"
+    },
+    {
+      "id": "ae-avionics-systems-integration-10",
+      "name": "Hardware and software integration labs (iron birds, flatsats)"
+    },
+    {
+      "id": "ae-avionics-systems-integration-11",
+      "name": "Avionics certification: DO-254 and DO-178C in context"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "ma-elementary-number-theory",
+  "name": "Elementary Number Theory",
+  "category": "Number Theory",
+  "level": 2,
+  "priority": "important",
+  "summary": "Divisibility, primes, congruences and quadratic reciprocity: the classical theory of the integers and the basis of modern cryptography.",
+  "prerequisites": [
+    "ma-introduction-to-proofs"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-elementary-number-theory-1",
+      "name": "Divisibility"
+    },
+    {
+      "id": "ma-elementary-number-theory-3",
+      "name": "Greatest common divisors"
+    },
+    {
+      "id": "ma-elementary-number-theory-7",
+      "name": "Euclidean algorithm and Bezout's identity"
+    },
+    {
+      "id": "ma-elementary-number-theory-2",
+      "name": "Prime numbers"
+    },
+    {
+      "id": "ma-elementary-number-theory-8",
+      "name": "Fundamental theorem of arithmetic"
+    },
+    {
+      "id": "ma-elementary-number-theory-4",
+      "name": "Modular arithmetic"
+    },
+    {
+      "id": "ma-elementary-number-theory-5",
+      "name": "Congruences"
+    },
+    {
+      "id": "ma-elementary-number-theory-9",
+      "name": "Fermat's little theorem and Euler's theorem"
+    },
+    {
+      "id": "ma-elementary-number-theory-6",
+      "name": "Chinese remainder theorem"
+    },
+    {
+      "id": "ma-elementary-number-theory-10",
+      "name": "Primitive roots and orders"
+    },
+    {
+      "id": "ma-elementary-number-theory-11",
+      "name": "Quadratic residues and quadratic reciprocity"
+    },
+    {
+      "id": "ma-elementary-number-theory-12",
+      "name": "Continued fractions"
+    },
+    {
+      "id": "ma-elementary-number-theory-13",
+      "name": "Sums of two and four squares"
+    }
+  ]
+}

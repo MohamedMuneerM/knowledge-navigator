@@ -1,0 +1,53 @@
+{
+  "id": "ae-planetary-protection",
+  "name": "Planetary Protection & Contamination Control",
+  "category": "Space Missions & Exploration",
+  "level": 3,
+  "priority": "important",
+  "summary": "Keeping Earth life off other worlds, and alien material away from Earth, so that the search for life stays trustworthy.",
+  "prerequisites": [
+    "ae-space-mission-design",
+    "bi-microbiology"
+  ],
+  "related": [
+    "bi-astrobiology"
+  ],
+  "topics": [
+    {
+      "id": "ae-planetary-protection-1",
+      "name": "Why planetary protection matters (forward and backward contamination)"
+    },
+    {
+      "id": "ae-planetary-protection-2",
+      "name": "COSPAR policy and mission categories I-V"
+    },
+    {
+      "id": "ae-planetary-protection-3",
+      "name": "Bioburden: spores, cleanrooms and assay methods"
+    },
+    {
+      "id": "ae-planetary-protection-4",
+      "name": "Sterilisation: dry heat, vapour hydrogen peroxide, radiation"
+    },
+    {
+      "id": "ae-planetary-protection-5",
+      "name": "Organic and molecular contamination control"
+    },
+    {
+      "id": "ae-planetary-protection-6",
+      "name": "Special regions on Mars and icy moons"
+    },
+    {
+      "id": "ae-planetary-protection-7",
+      "name": "Sample return containment and restricted Earth return"
+    },
+    {
+      "id": "ae-planetary-protection-8",
+      "name": "Human missions and planetary protection"
+    },
+    {
+      "id": "ae-planetary-protection-9",
+      "name": "Case studies: Viking, Mars 2020, Europa Clipper, OSIRIS-REx"
+    }
+  ]
+}

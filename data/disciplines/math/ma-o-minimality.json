@@ -1,0 +1,31 @@
+{
+  "id": "ma-o-minimality",
+  "name": "o-Minimality",
+  "category": "Emerging & Advanced Areas",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Tame geometry from model theory: structures where definable sets behave like semialgebraic sets.",
+  "prerequisites": [
+    "ma-model-theory",
+    "ma-real-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-o-minimality-3",
+      "name": "Semialgebraic sets and Tarski-Seidenberg"
+    },
+    {
+      "id": "ma-o-minimality-1",
+      "name": "Tame geometry"
+    },
+    {
+      "id": "ma-o-minimality-4",
+      "name": "Cell decomposition theorem"
+    },
+    {
+      "id": "ma-o-minimality-2",
+      "name": "Model theory applications"
+    }
+  ]
+}

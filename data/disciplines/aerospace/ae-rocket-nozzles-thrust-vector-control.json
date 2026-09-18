@@ -1,0 +1,55 @@
+{
+  "id": "ae-rocket-nozzles-thrust-vector-control",
+  "name": "Rocket Nozzles and Thrust Vector Control",
+  "category": "Rocket Propulsion",
+  "level": 3,
+  "priority": "important",
+  "summary": "Design of rocket nozzles for real flight conditions and the methods used to steer a rocket's thrust.",
+  "prerequisites": [
+    "ae-rocket-propulsion-fundamentals",
+    "ae-compressible-flow-gas-dynamics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-rocket-nozzles-thrust-vector-control-1",
+      "name": "Nozzle losses: divergence, boundary layer, two-phase flow and kinetics"
+    },
+    {
+      "id": "ae-rocket-nozzles-thrust-vector-control-2",
+      "name": "Conical and bell (Rao) nozzle contours"
+    },
+    {
+      "id": "ae-rocket-nozzles-thrust-vector-control-3",
+      "name": "Method of characteristics for nozzle design"
+    },
+    {
+      "id": "ae-rocket-nozzles-thrust-vector-control-4",
+      "name": "Over-expanded flow, flow separation and side loads"
+    },
+    {
+      "id": "ae-rocket-nozzles-thrust-vector-control-5",
+      "name": "Altitude compensation: aerospikes, expansion-deflection and extendible nozzles"
+    },
+    {
+      "id": "ae-rocket-nozzles-thrust-vector-control-6",
+      "name": "Nozzle cooling and materials: regenerative, radiative, ablative"
+    },
+    {
+      "id": "ae-rocket-nozzles-thrust-vector-control-7",
+      "name": "Thrust vector control: gimballed engines and flexible nozzle joints"
+    },
+    {
+      "id": "ae-rocket-nozzles-thrust-vector-control-8",
+      "name": "Jet vanes, jet tabs and secondary injection"
+    },
+    {
+      "id": "ae-rocket-nozzles-thrust-vector-control-9",
+      "name": "Differential throttling and vernier/reaction control"
+    },
+    {
+      "id": "ae-rocket-nozzles-thrust-vector-control-10",
+      "name": "Rocket exhaust plumes: structure, radiation, and base heating"
+    }
+  ]
+}

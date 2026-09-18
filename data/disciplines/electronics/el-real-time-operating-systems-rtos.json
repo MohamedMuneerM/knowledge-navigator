@@ -1,0 +1,52 @@
+{
+  "id": "el-real-time-operating-systems-rtos",
+  "name": "RTOS Landscape",
+  "category": "Embedded Software, Firmware & RTOS",
+  "level": 3,
+  "priority": "important",
+  "summary": "A tour of real RTOSes (FreeRTOS, Zephyr, ThreadX, VxWorks, QNX, RTEMS, SafeRTOS) and how to choose one.",
+  "prerequisites": [
+    "el-rtos-services"
+  ],
+  "related": [
+    "cs-operating-systems"
+  ],
+  "topics": [
+    {
+      "id": "el-real-time-operating-systems-rtos-1",
+      "name": "FreeRTOS"
+    },
+    {
+      "id": "el-real-time-operating-systems-rtos-2",
+      "name": "Zephyr RTOS"
+    },
+    {
+      "id": "el-real-time-operating-systems-rtos-3",
+      "name": "ThreadX (Azure RTOS)"
+    },
+    {
+      "id": "el-real-time-operating-systems-rtos-4",
+      "name": "VxWorks"
+    },
+    {
+      "id": "el-real-time-operating-systems-rtos-5",
+      "name": "RTEMS (Real-Time Executive for Multiprocessor Systems)"
+    },
+    {
+      "id": "el-real-time-operating-systems-rtos-6",
+      "name": "QNX"
+    },
+    {
+      "id": "el-real-time-operating-systems-rtos-7",
+      "name": "embOS"
+    },
+    {
+      "id": "el-real-time-operating-systems-rtos-8",
+      "name": "µC/OS (MicroC/OS-II, III)"
+    },
+    {
+      "id": "el-real-time-operating-systems-rtos-9",
+      "name": "SafeRTOS (safety-certified)"
+    }
+  ]
+}

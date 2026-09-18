@@ -1,0 +1,52 @@
+{
+  "id": "ea-geobiology",
+  "name": "Geobiology & the Co-Evolution of Earth and Life",
+  "category": "Sedimentary Geology & Earth History",
+  "level": 3,
+  "priority": "important",
+  "summary": "How life and the planet have shaped each other, from the earliest microbes to the oxygenation of the atmosphere.",
+  "prerequisites": [
+    "ea-paleontology",
+    "ea-geochemistry-fundamentals",
+    "bi-microbiology"
+  ],
+  "related": [
+    "bi-extremophiles",
+    "bi-origin-of-life",
+    "bi-macroevolution-history-of-life"
+  ],
+  "topics": [
+    {
+      "id": "ea-geobiology-1",
+      "name": "Origin of life hypotheses and early Earth environments"
+    },
+    {
+      "id": "ea-geobiology-2",
+      "name": "Microbial metabolisms and their geochemical signatures"
+    },
+    {
+      "id": "ea-geobiology-3",
+      "name": "Microbial mats, stromatolites and the earliest fossils"
+    },
+    {
+      "id": "ea-geobiology-4",
+      "name": "Biosignatures: morphological, isotopic and molecular"
+    },
+    {
+      "id": "ea-geobiology-5",
+      "name": "The Great Oxidation Event and redox history of the oceans"
+    },
+    {
+      "id": "ea-geobiology-6",
+      "name": "Snowball Earth and the rise of animals"
+    },
+    {
+      "id": "ea-geobiology-7",
+      "name": "Biomineralisation and skeletal evolution"
+    },
+    {
+      "id": "ea-geobiology-8",
+      "name": "Life's feedbacks on climate, weathering and the carbon cycle"
+    }
+  ]
+}

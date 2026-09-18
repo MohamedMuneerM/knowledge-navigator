@@ -1,0 +1,56 @@
+{
+  "id": "ph-modern-optics",
+  "name": "Modern Optics",
+  "category": "Optics & Photonics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Optics after the laser: nonlinear optics, fibres, holography, photonic crystals and adaptive optics.",
+  "prerequisites": [
+    "ph-laser-physics"
+  ],
+  "related": [
+    "el-optoelectronic-devices",
+    "el-photonics-silicon-photonics",
+    "ma-optics",
+    "el-optical-fiber-communications",
+    "mt-optical-photonic-materials"
+  ],
+  "topics": [
+    {
+      "id": "ph-modern-optics-1",
+      "name": "Lasers and laser physics"
+    },
+    {
+      "id": "ph-modern-optics-2",
+      "name": "Nonlinear optics"
+    },
+    {
+      "id": "ph-modern-optics-3",
+      "name": "Fiber optics"
+    },
+    {
+      "id": "ph-modern-optics-4",
+      "name": "Holography"
+    },
+    {
+      "id": "ph-modern-optics-5",
+      "name": "Photonic crystals"
+    },
+    {
+      "id": "ph-modern-optics-6",
+      "name": "Photonic bandgap materials"
+    },
+    {
+      "id": "ph-modern-optics-7",
+      "name": "Ultrafast optics"
+    },
+    {
+      "id": "ph-modern-optics-8",
+      "name": "Adaptive optics"
+    },
+    {
+      "id": "ph-modern-optics-9",
+      "name": "Optical engineering"
+    }
+  ]
+}

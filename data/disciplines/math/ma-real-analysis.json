@@ -1,0 +1,109 @@
+{
+  "id": "ma-real-analysis",
+  "name": "Real Analysis",
+  "category": "Analysis",
+  "level": 3,
+  "priority": "core",
+  "summary": "Rigorous calculus: the real numbers, limits, continuity, differentiation, Riemann integration and uniform convergence, proved from first principles.",
+  "prerequisites": [
+    "ma-introduction-to-proofs",
+    "ma-sequences-series"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-real-analysis-7",
+      "name": "The real numbers: completeness and the least upper bound property"
+    },
+    {
+      "id": "ma-real-analysis-1",
+      "name": "Sequences and series",
+      "sub": [
+        {
+          "id": "ma-real-analysis-1-1",
+          "name": "Convergence and Cauchy sequences"
+        },
+        {
+          "id": "ma-real-analysis-1-2",
+          "name": "Bolzano-Weierstrass theorem"
+        },
+        {
+          "id": "ma-real-analysis-1-3",
+          "name": "Series and rearrangements"
+        }
+      ]
+    },
+    {
+      "id": "ma-real-analysis-2",
+      "name": "Limits and continuity",
+      "sub": [
+        {
+          "id": "ma-real-analysis-2-1",
+          "name": "Extreme and intermediate value theorems"
+        },
+        {
+          "id": "ma-real-analysis-2-2",
+          "name": "Uniform continuity"
+        }
+      ]
+    },
+    {
+      "id": "ma-real-analysis-3",
+      "name": "Differentiation",
+      "sub": [
+        {
+          "id": "ma-real-analysis-3-1",
+          "name": "Mean value theorem"
+        },
+        {
+          "id": "ma-real-analysis-3-2",
+          "name": "Taylor's theorem with remainder"
+        }
+      ]
+    },
+    {
+      "id": "ma-real-analysis-4",
+      "name": "Riemann integration",
+      "sub": [
+        {
+          "id": "ma-real-analysis-4-1",
+          "name": "Riemann-Darboux integral"
+        },
+        {
+          "id": "ma-real-analysis-4-2",
+          "name": "Fundamental theorem of calculus"
+        }
+      ]
+    },
+    {
+      "id": "ma-real-analysis-6",
+      "name": "Convergence theory",
+      "sub": [
+        {
+          "id": "ma-real-analysis-6-1",
+          "name": "Pointwise and uniform convergence"
+        },
+        {
+          "id": "ma-real-analysis-6-2",
+          "name": "Power series"
+        },
+        {
+          "id": "ma-real-analysis-6-3",
+          "name": "Weierstrass approximation theorem"
+        }
+      ]
+    },
+    {
+      "id": "ma-real-analysis-8",
+      "name": "Metric spaces and the topology of R^n"
+    },
+    {
+      "id": "ma-real-analysis-5",
+      "name": "Functions of real variables"
+    },
+    {
+      "id": "ma-real-analysis-9",
+      "name": "Differentiation in several variables: inverse and implicit function theorems"
+    }
+  ]
+}

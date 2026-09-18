@@ -1,0 +1,30 @@
+{
+  "id": "el-iot-reference-architectures",
+  "name": "IoT Reference Architectures",
+  "category": "IoT Architectures, Platforms & Data",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Standard ways of structuring IoT systems: three- and five-layer models, fog architecture and the edge-cloud continuum.",
+  "prerequisites": [
+    "el-iot-architecture-layers"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-iot-reference-architectures-1",
+      "name": "Three-layer architecture (perception, network, application)"
+    },
+    {
+      "id": "el-iot-reference-architectures-2",
+      "name": "Five-layer architecture (physical, network, middleware, application, business)"
+    },
+    {
+      "id": "el-iot-reference-architectures-3",
+      "name": "Fog computing architecture"
+    },
+    {
+      "id": "el-iot-reference-architectures-4",
+      "name": "Edge-cloud continuum"
+    }
+  ]
+}

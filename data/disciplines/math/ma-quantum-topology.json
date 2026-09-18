@@ -1,0 +1,31 @@
+{
+  "id": "ma-quantum-topology",
+  "name": "Quantum Topology",
+  "category": "Topology",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Knot and 3-manifold invariants that come from quantum groups and topological quantum field theory.",
+  "prerequisites": [
+    "ma-low-dimensional-topology",
+    "ma-quantum-groups"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-quantum-topology-1",
+      "name": "Quantum invariants"
+    },
+    {
+      "id": "ma-quantum-topology-3",
+      "name": "Jones polynomial and skein theory"
+    },
+    {
+      "id": "ma-quantum-topology-2",
+      "name": "Topological quantum field theory"
+    },
+    {
+      "id": "ma-quantum-topology-4",
+      "name": "Khovanov homology (overview)"
+    }
+  ]
+}

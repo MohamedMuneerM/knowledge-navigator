@@ -1,0 +1,38 @@
+{
+  "id": "el-supply-chain-sourcing",
+  "name": "Supply Chain & Sourcing",
+  "category": "PCB Design & Hardware Development",
+  "level": 3,
+  "priority": "optional",
+  "summary": "Getting parts and boards built: distributors, lead times, counterfeit avoidance, compliance, obsolescence and contract manufacturers.",
+  "prerequisites": [
+    "el-schematic-design"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-supply-chain-sourcing-1",
+      "name": "Component sourcing (Digi-Key, Mouser, Farnell, Arrow)"
+    },
+    {
+      "id": "el-supply-chain-sourcing-2",
+      "name": "Lead times and availability"
+    },
+    {
+      "id": "el-supply-chain-sourcing-3",
+      "name": "Counterfeit prevention"
+    },
+    {
+      "id": "el-supply-chain-sourcing-4",
+      "name": "RoHS and REACH compliance"
+    },
+    {
+      "id": "el-supply-chain-sourcing-5",
+      "name": "End-of-life (EOL) management"
+    },
+    {
+      "id": "el-supply-chain-sourcing-6",
+      "name": "Contract manufacturing (CM) and EMS providers"
+    }
+  ]
+}

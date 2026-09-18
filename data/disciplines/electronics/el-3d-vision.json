@@ -1,0 +1,32 @@
+{
+  "id": "el-3d-vision",
+  "name": "3D Vision",
+  "category": "Machine Learning & Edge AI",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Working with 3D data: point clouds, reconstruction, 3D SLAM and 3D object recognition.",
+  "prerequisites": [
+    "el-stereo-vision-depth"
+  ],
+  "related": [
+    "ai-3d-computer-vision"
+  ],
+  "topics": [
+    {
+      "id": "el-stereo-vision-depth-6",
+      "name": "Point cloud processing"
+    },
+    {
+      "id": "el-stereo-vision-depth-7",
+      "name": "3D reconstruction"
+    },
+    {
+      "id": "el-stereo-vision-depth-8",
+      "name": "SLAM with 3D sensors"
+    },
+    {
+      "id": "el-stereo-vision-depth-9",
+      "name": "3D object recognition"
+    }
+  ]
+}

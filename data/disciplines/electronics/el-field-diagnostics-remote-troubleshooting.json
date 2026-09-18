@@ -1,0 +1,38 @@
+{
+  "id": "el-field-diagnostics-remote-troubleshooting",
+  "name": "Field Diagnostics & Remote Troubleshooting",
+  "category": "IoT Architectures, Platforms & Data",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Fixing devices you cannot touch: remote access, log and core-dump retrieval, field profiling and built-in self-test.",
+  "prerequisites": [
+    "el-observability-telemetry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-field-diagnostics-remote-troubleshooting-1",
+      "name": "Remote access (SSH, VPN)"
+    },
+    {
+      "id": "el-field-diagnostics-remote-troubleshooting-2",
+      "name": "Log file collection"
+    },
+    {
+      "id": "el-field-diagnostics-remote-troubleshooting-3",
+      "name": "Core dump retrieval"
+    },
+    {
+      "id": "el-field-diagnostics-remote-troubleshooting-4",
+      "name": "Performance profiling in field"
+    },
+    {
+      "id": "el-field-diagnostics-remote-troubleshooting-5",
+      "name": "Remote firmware updates"
+    },
+    {
+      "id": "el-field-diagnostics-remote-troubleshooting-6",
+      "name": "Self-diagnostics and BIT (Built-In Test)"
+    }
+  ]
+}

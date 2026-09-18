@@ -1,0 +1,47 @@
+{
+  "id": "el-defense-electronics",
+  "name": "Defense Electronics",
+  "category": "Automotive, Aerospace & Defense Systems",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Military electronic systems: radar, electronic warfare, IRST, missile guidance, secure communications, ISR and IFF.",
+  "prerequisites": [
+    "el-radar-systems",
+    "el-digital-communications"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-defense-electronics-1",
+      "name": "Radar systems (search, tracking, fire control)"
+    },
+    {
+      "id": "el-defense-electronics-2",
+      "name": "Electronic Warfare (EW) - jamming, countermeasures"
+    },
+    {
+      "id": "el-defense-electronics-3",
+      "name": "Infrared search and track (IRST)"
+    },
+    {
+      "id": "el-defense-electronics-4",
+      "name": "Missile guidance systems"
+    },
+    {
+      "id": "el-defense-electronics-5",
+      "name": "Combat management systems"
+    },
+    {
+      "id": "el-defense-electronics-6",
+      "name": "Secure communications"
+    },
+    {
+      "id": "el-defense-electronics-7",
+      "name": "Intelligence, Surveillance, Reconnaissance (ISR)"
+    },
+    {
+      "id": "el-defense-electronics-8",
+      "name": "Friend-or-Foe (IFF) identification"
+    }
+  ]
+}

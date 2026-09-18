@@ -1,0 +1,74 @@
+{
+  "id": "ai-inference-optimization",
+  "name": "Inference Optimization",
+  "category": "AI Systems & Infrastructure",
+  "level": 4,
+  "priority": "important",
+  "summary": "Making trained models fast and cheap to run: quantization, pruning, distillation, compilers, batching, caching and LLM serving techniques.",
+  "prerequisites": [
+    "ai-hardware-for-ai",
+    "ai-deep-learning-frameworks"
+  ],
+  "related": [
+    "el-model-optimization-techniques",
+    "ai-special-deep-learning-topics"
+  ],
+  "topics": [
+    {
+      "id": "ai-inference-optimization-1",
+      "name": "Quantization",
+      "sub": [
+        {
+          "id": "ai-inference-optimization-1-1",
+          "name": "Post-training quantization"
+        },
+        {
+          "id": "ai-inference-optimization-1-2",
+          "name": "Quantization-aware training"
+        },
+        {
+          "id": "ai-inference-optimization-1-3",
+          "name": "INT8, INT4, FP16, BF16"
+        }
+      ]
+    },
+    {
+      "id": "ai-inference-optimization-2",
+      "name": "Pruning"
+    },
+    {
+      "id": "ai-inference-optimization-3",
+      "name": "Knowledge Distillation"
+    },
+    {
+      "id": "ai-inference-optimization-4",
+      "name": "Compilation",
+      "sub": [
+        {
+          "id": "ai-inference-optimization-4-1",
+          "name": "TensorRT"
+        },
+        {
+          "id": "ai-inference-optimization-4-2",
+          "name": "ONNX Runtime"
+        },
+        {
+          "id": "ai-inference-optimization-4-3",
+          "name": "TVM"
+        }
+      ]
+    },
+    {
+      "id": "ai-inference-optimization-5",
+      "name": "Batching Strategies"
+    },
+    {
+      "id": "ai-inference-optimization-6",
+      "name": "Caching"
+    },
+    {
+      "id": "ai-inference-optimization-7",
+      "name": "LLM serving: continuous batching, PagedAttention and vLLM"
+    }
+  ]
+}

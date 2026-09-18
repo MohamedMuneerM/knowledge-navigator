@@ -1,0 +1,32 @@
+{
+  "id": "el-learning-platforms",
+  "name": "Learning Platforms",
+  "category": "Professional Practice, Business & Community",
+  "level": 1,
+  "priority": "optional",
+  "summary": "Where to learn electronics: online courses, university programmes, certifications, webinars and tutorials.",
+  "prerequisites": [],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-learning-platforms-1",
+      "name": "Online courses (Coursera, edX, Udemy)"
+    },
+    {
+      "id": "el-learning-platforms-2",
+      "name": "University programs (BS, MS, PhD in ECE/CS)"
+    },
+    {
+      "id": "el-learning-platforms-3",
+      "name": "Professional certifications"
+    },
+    {
+      "id": "el-learning-platforms-4",
+      "name": "Technical webinars and workshops"
+    },
+    {
+      "id": "el-learning-platforms-5",
+      "name": "Documentation and tutorials"
+    }
+  ]
+}

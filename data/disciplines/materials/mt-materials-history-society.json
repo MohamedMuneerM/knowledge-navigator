@@ -1,0 +1,58 @@
+{
+  "id": "mt-materials-history-society",
+  "name": "Materials in Human History & Society",
+  "category": "Foundations",
+  "level": 1,
+  "priority": "optional",
+  "summary": "How the discovery and mastery of materials, from flint to silicon, shaped civilisations, economies and warfare.",
+  "prerequisites": [
+    "mt-intro-to-materials"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "mt-materials-history-society-1",
+      "name": "Stone, bone and fibre: the earliest engineered materials"
+    },
+    {
+      "id": "mt-materials-history-society-2",
+      "name": "Ceramics and pottery: firing clay and the first kilns"
+    },
+    {
+      "id": "mt-materials-history-society-3",
+      "name": "The Bronze Age: smelting copper and tin alloying"
+    },
+    {
+      "id": "mt-materials-history-society-4",
+      "name": "The Iron Age: bloomeries, wrought iron and early steel (wootz, Damascus, tatara)"
+    },
+    {
+      "id": "mt-materials-history-society-5",
+      "name": "Glass from antiquity to the float process"
+    },
+    {
+      "id": "mt-materials-history-society-6",
+      "name": "Concrete from Rome to Portland cement"
+    },
+    {
+      "id": "mt-materials-history-society-7",
+      "name": "The Industrial Revolution: Bessemer and open-hearth steel, aluminium by electrolysis"
+    },
+    {
+      "id": "mt-materials-history-society-8",
+      "name": "The polymer age: Bakelite, nylon and the plastics boom"
+    },
+    {
+      "id": "mt-materials-history-society-9",
+      "name": "The silicon age: transistors, integrated circuits and optical fibre"
+    },
+    {
+      "id": "mt-materials-history-society-10",
+      "name": "Materials in war and flight: armour, jet engines and the space race"
+    },
+    {
+      "id": "mt-materials-history-society-11",
+      "name": "Critical materials, geopolitics and supply chains today"
+    }
+  ]
+}

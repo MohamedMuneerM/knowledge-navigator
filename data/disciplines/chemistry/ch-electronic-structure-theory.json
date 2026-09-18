@@ -1,0 +1,69 @@
+{
+  "id": "ch-electronic-structure-theory",
+  "name": "Electronic Structure Theory",
+  "category": "Computational & Theoretical Chemistry",
+  "level": 4,
+  "priority": "important",
+  "summary": "Ab initio and density functional methods for computing molecular energies, structures and properties.",
+  "prerequisites": [
+    "ch-quantum-chemistry"
+  ],
+  "related": [
+    "ph-computational-physics",
+    "mt-dft"
+  ],
+  "topics": [
+    {
+      "id": "ch-electronic-structure-theory-1",
+      "name": "Hartree-Fock theory and the self-consistent field"
+    },
+    {
+      "id": "ch-electronic-structure-theory-2",
+      "name": "Basis sets and basis-set convergence"
+    },
+    {
+      "id": "ch-electronic-structure-theory-3",
+      "name": "Electron correlation and configuration interaction"
+    },
+    {
+      "id": "ch-electronic-structure-theory-4",
+      "name": "Møller-Plesset perturbation theory"
+    },
+    {
+      "id": "ch-electronic-structure-theory-5",
+      "name": "Coupled-cluster theory"
+    },
+    {
+      "id": "ch-electronic-structure-theory-6",
+      "name": "Multireference methods: CASSCF and CASPT2"
+    },
+    {
+      "id": "ch-electronic-structure-theory-7",
+      "name": "Density functional theory: Hohenberg-Kohn, Kohn-Sham and functionals"
+    },
+    {
+      "id": "ch-electronic-structure-theory-8",
+      "name": "Dispersion corrections, hybrid and range-separated functionals"
+    },
+    {
+      "id": "ch-electronic-structure-theory-9",
+      "name": "Excited states: TDDFT and EOM-CC"
+    },
+    {
+      "id": "ch-electronic-structure-theory-10",
+      "name": "Periodic electronic structure: plane waves and pseudopotentials"
+    },
+    {
+      "id": "ch-electronic-structure-theory-11",
+      "name": "Relativistic effects in heavy elements"
+    },
+    {
+      "id": "ch-electronic-structure-theory-12",
+      "name": "Practical computation: geometry optimization, frequencies, thermochemistry and common codes"
+    },
+    {
+      "id": "ch-electronic-structure-theory-13",
+      "name": "QM/MM methods"
+    }
+  ]
+}

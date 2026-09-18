@@ -1,0 +1,47 @@
+{
+  "id": "el-noise-analysis",
+  "name": "Noise Analysis",
+  "category": "Analog Electronics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Where electronic noise comes from, how to quantify it (SNR, noise figure) and how to design low-noise circuits.",
+  "prerequisites": [
+    "el-diode-transistor-circuits",
+    "el-signals-and-systems"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-noise-analysis-1",
+      "name": "Thermal noise, shot noise, flicker noise (1/f)"
+    },
+    {
+      "id": "el-noise-analysis-2",
+      "name": "Signal-to-noise ratio (SNR) and dynamic range"
+    },
+    {
+      "id": "el-noise-analysis-3",
+      "name": "Noise figure and noise temperature"
+    },
+    {
+      "id": "el-noise-analysis-4",
+      "name": "Low-noise design techniques"
+    },
+    {
+      "id": "el-noise-analysis-5",
+      "name": "Shielding, grounding, and layout for noise reduction"
+    },
+    {
+      "id": "el-noise-analysis-6",
+      "name": "Noise models of resistors, BJTs, MOSFETs and op-amps"
+    },
+    {
+      "id": "el-noise-analysis-7",
+      "name": "Noise spectral density and equivalent noise bandwidth"
+    },
+    {
+      "id": "el-noise-analysis-8",
+      "name": "Input-referred noise and cascaded noise (Friis formula)"
+    }
+  ]
+}

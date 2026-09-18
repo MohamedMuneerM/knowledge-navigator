@@ -1,0 +1,39 @@
+{
+  "id": "ma-interpolation-approximation",
+  "name": "Interpolation & Approximation",
+  "category": "Numerical Analysis & Scientific Computing",
+  "level": 2,
+  "priority": "important",
+  "summary": "Fitting functions to data: polynomial and spline interpolation and least-squares approximation.",
+  "prerequisites": [
+    "ma-error-analysis",
+    "ma-linear-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-interpolation-approximation-1",
+      "name": "Polynomial interpolation"
+    },
+    {
+      "id": "ma-interpolation-approximation-4",
+      "name": "Newton divided differences"
+    },
+    {
+      "id": "ma-interpolation-approximation-5",
+      "name": "Runge phenomenon and Chebyshev nodes"
+    },
+    {
+      "id": "ma-interpolation-approximation-2",
+      "name": "Spline interpolation"
+    },
+    {
+      "id": "ma-interpolation-approximation-3",
+      "name": "Least squares approximation"
+    },
+    {
+      "id": "ma-interpolation-approximation-6",
+      "name": "Orthogonal polynomials for approximation"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "ae-flight-software",
+  "name": "Flight Software Engineering",
+  "category": "Avionics & Flight Software",
+  "level": 3,
+  "priority": "important",
+  "summary": "Writing and verifying the safety-critical real-time software that flies aircraft, rockets and spacecraft.",
+  "prerequisites": [
+    "ae-command-data-handling",
+    "el-real-time-concepts",
+    "cs-software-engineering-process"
+  ],
+  "related": [
+    "el-real-time-operating-systems-rtos",
+    "el-firmware-development",
+    "cs-program-analysis-verification",
+    "cs-software-testing"
+  ],
+  "topics": [
+    {
+      "id": "ae-flight-software-1",
+      "name": "Flight software functions and architecture"
+    },
+    {
+      "id": "ae-flight-software-2",
+      "name": "Real-time operating systems and scheduling for flight"
+    },
+    {
+      "id": "ae-flight-software-3",
+      "name": "Flight software frameworks: NASA cFS, JPL F Prime"
+    },
+    {
+      "id": "ae-flight-software-4",
+      "name": "Coding standards: JPL Power of 10, MISRA C"
+    },
+    {
+      "id": "ae-flight-software-5",
+      "name": "Model-based design and autocoding"
+    },
+    {
+      "id": "ae-flight-software-6",
+      "name": "Fault protection and FDIR software"
+    },
+    {
+      "id": "ae-flight-software-7",
+      "name": "Command sequencing and onboard scripting"
+    },
+    {
+      "id": "ae-flight-software-8",
+      "name": "Software verification: unit, integration, SIL and HIL testing"
+    },
+    {
+      "id": "ae-flight-software-9",
+      "name": "Standards: DO-178C and NASA NPR 7150.2"
+    },
+    {
+      "id": "ae-flight-software-10",
+      "name": "Software updates in flight"
+    },
+    {
+      "id": "ae-flight-software-11",
+      "name": "Cybersecurity for space and aviation systems"
+    },
+    {
+      "id": "ae-flight-software-12",
+      "name": "Lessons from software failures: Ariane 501, Mars Climate Orbiter, Boeing 737 MAX, Starliner"
+    }
+  ]
+}

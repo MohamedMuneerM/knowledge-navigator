@@ -1,0 +1,71 @@
+{
+  "id": "ae-spacecraft-assembly-integration-test",
+  "name": "Spacecraft Assembly, Integration and Test",
+  "category": "Systems Engineering, Test & Safety",
+  "level": 4,
+  "priority": "important",
+  "summary": "How spacecraft and launch vehicles are built up, integrated, environmentally tested and shipped to the launch site.",
+  "prerequisites": [
+    "ae-aerospace-systems-engineering",
+    "ae-spacecraft-bus-fundamentals",
+    "ae-structural-dynamics-vibration"
+  ],
+  "related": [
+    "el-environmental-testing",
+    "el-testing-validation"
+  ],
+  "topics": [
+    {
+      "id": "ae-spacecraft-assembly-integration-test-1",
+      "name": "Verification methods: test, analysis, inspection and demonstration"
+    },
+    {
+      "id": "ae-spacecraft-assembly-integration-test-2",
+      "name": "Model philosophy: development, qualification, protoflight and flight models"
+    },
+    {
+      "id": "ae-spacecraft-assembly-integration-test-3",
+      "name": "Qualification versus acceptance test levels (GSFC-STD-7000, SMC-S-016)"
+    },
+    {
+      "id": "ae-spacecraft-assembly-integration-test-4",
+      "name": "Cleanrooms, contamination control and ESD"
+    },
+    {
+      "id": "ae-spacecraft-assembly-integration-test-5",
+      "name": "Assembly and integration flow"
+    },
+    {
+      "id": "ae-spacecraft-assembly-integration-test-6",
+      "name": "Electrical integration and functional testing"
+    },
+    {
+      "id": "ae-spacecraft-assembly-integration-test-7",
+      "name": "Mechanical testing: vibration, acoustic, shock and static loads"
+    },
+    {
+      "id": "ae-spacecraft-assembly-integration-test-8",
+      "name": "Thermal vacuum and thermal balance testing"
+    },
+    {
+      "id": "ae-spacecraft-assembly-integration-test-9",
+      "name": "EMC testing"
+    },
+    {
+      "id": "ae-spacecraft-assembly-integration-test-10",
+      "name": "Mass properties measurement and alignment"
+    },
+    {
+      "id": "ae-spacecraft-assembly-integration-test-11",
+      "name": "Ground support equipment and test facilities"
+    },
+    {
+      "id": "ae-spacecraft-assembly-integration-test-12",
+      "name": "Non-conformance and anomaly management"
+    },
+    {
+      "id": "ae-spacecraft-assembly-integration-test-13",
+      "name": "Shipping and launch-site processing"
+    }
+  ]
+}

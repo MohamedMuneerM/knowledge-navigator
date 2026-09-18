@@ -1,0 +1,38 @@
+{
+  "id": "el-timing-synchronization",
+  "name": "Timing & Synchronization",
+  "category": "Digital Electronics",
+  "level": 3,
+  "priority": "core",
+  "summary": "Making synchronous designs work: setup and hold, propagation delay, clock skew and jitter, metastability, clock-domain crossing and resets.",
+  "prerequisites": [
+    "el-sequential-logic"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-timing-synchronization-1",
+      "name": "Clock domains and clock distribution"
+    },
+    {
+      "id": "el-timing-synchronization-2",
+      "name": "Setup time and hold time"
+    },
+    {
+      "id": "el-timing-synchronization-3",
+      "name": "Propagation delay"
+    },
+    {
+      "id": "el-timing-synchronization-4",
+      "name": "Metastability and synchronization"
+    },
+    {
+      "id": "el-timing-synchronization-5",
+      "name": "Clock skew and jitter"
+    },
+    {
+      "id": "el-timing-synchronization-6",
+      "name": "Reset strategies (synchronous, asynchronous)"
+    }
+  ]
+}

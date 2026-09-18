@@ -1,0 +1,54 @@
+{
+  "id": "ea-astrobiology-and-planetary-habitability",
+  "name": "Astrobiology & Planetary Habitability",
+  "category": "Planetary Geoscience",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "What makes a world habitable, how life might arise elsewhere, and how we search for biosignatures on planets and exoplanets.",
+  "prerequisites": [
+    "ea-geobiology",
+    "ea-comparative-planetology"
+  ],
+  "related": [
+    "ph-planetary-science",
+    "bi-astrobiology",
+    "bi-biosignatures-life-detection",
+    "ph-astrobiology",
+    "ph-exoplanets",
+    "ae-planetary-exploration-systems"
+  ],
+  "topics": [
+    {
+      "id": "ea-astrobiology-and-planetary-habitability-1",
+      "name": "Requirements for life: water, energy and chemistry"
+    },
+    {
+      "id": "ea-astrobiology-and-planetary-habitability-2",
+      "name": "Extremophiles and the limits of life on Earth"
+    },
+    {
+      "id": "ea-astrobiology-and-planetary-habitability-3",
+      "name": "Prebiotic chemistry and origin-of-life settings"
+    },
+    {
+      "id": "ea-astrobiology-and-planetary-habitability-4",
+      "name": "Habitability of Mars, Europa, Enceladus and Titan"
+    },
+    {
+      "id": "ea-astrobiology-and-planetary-habitability-5",
+      "name": "Habitable zones and planetary habitability factors"
+    },
+    {
+      "id": "ea-astrobiology-and-planetary-habitability-6",
+      "name": "Biosignatures and false positives"
+    },
+    {
+      "id": "ea-astrobiology-and-planetary-habitability-7",
+      "name": "Life detection missions and planetary protection"
+    },
+    {
+      "id": "ea-astrobiology-and-planetary-habitability-8",
+      "name": "Technosignatures and SETI in outline"
+    }
+  ]
+}

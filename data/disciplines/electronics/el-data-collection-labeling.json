@@ -1,0 +1,44 @@
+{
+  "id": "el-data-collection-labeling",
+  "name": "Data Collection & Labeling",
+  "category": "Machine Learning & Edge AI",
+  "level": 3,
+  "priority": "important",
+  "summary": "Gathering and preparing on-device training data: logging, augmentation, active learning and transfer learning.",
+  "prerequisites": [
+    "el-tinyml-tiny-machine-learning"
+  ],
+  "related": [
+    "ai-data-preprocessing-feature-engineering"
+  ],
+  "topics": [
+    {
+      "id": "el-data-collection-labeling-1",
+      "name": "On-device data logging"
+    },
+    {
+      "id": "el-data-collection-labeling-2",
+      "name": "Data augmentation techniques"
+    },
+    {
+      "id": "el-data-collection-labeling-3",
+      "name": "Active learning"
+    },
+    {
+      "id": "el-data-collection-labeling-4",
+      "name": "Transfer learning"
+    },
+    {
+      "id": "el-data-collection-labeling-5",
+      "name": "Few-shot and zero-shot learning"
+    },
+    {
+      "id": "el-data-collection-labeling-6",
+      "name": "Labelling tools and dataset management"
+    },
+    {
+      "id": "el-data-collection-labeling-7",
+      "name": "Dataset bias and quality for sensor data"
+    }
+  ]
+}

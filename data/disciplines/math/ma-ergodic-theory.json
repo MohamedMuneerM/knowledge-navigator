@@ -1,0 +1,39 @@
+{
+  "id": "ma-ergodic-theory",
+  "name": "Ergodic Theory",
+  "category": "Differential Equations & Dynamical Systems",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Statistical behaviour of dynamical systems: measure-preserving maps, ergodic theorems, mixing and entropy.",
+  "prerequisites": [
+    "ma-dynamical-systems",
+    "ma-measure-theory-integration"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-ergodic-theory-1",
+      "name": "Measure-preserving systems"
+    },
+    {
+      "id": "ma-ergodic-theory-4",
+      "name": "Poincare recurrence"
+    },
+    {
+      "id": "ma-ergodic-theory-3",
+      "name": "Ergodic theorems"
+    },
+    {
+      "id": "ma-ergodic-theory-2",
+      "name": "Mixing properties"
+    },
+    {
+      "id": "ma-ergodic-theory-5",
+      "name": "Entropy of dynamical systems"
+    },
+    {
+      "id": "ma-ergodic-theory-6",
+      "name": "Applications to number theory (equidistribution)"
+    }
+  ]
+}

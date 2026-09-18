@@ -1,0 +1,30 @@
+{
+  "id": "el-flow-liquid-sensors",
+  "name": "Flow & Liquid Sensors",
+  "category": "Sensors, Transducers & Actuators",
+  "level": 2,
+  "priority": "advanced",
+  "summary": "Measuring flow, liquid level, leaks and water quality with mechanical, ultrasonic, electromagnetic and electrochemical sensors.",
+  "prerequisites": [
+    "el-intro-microcontrollers"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-flow-liquid-sensors-1",
+      "name": "Flow rate sensors (turbine, ultrasonic, electromagnetic, thermal)"
+    },
+    {
+      "id": "el-flow-liquid-sensors-2",
+      "name": "Level sensors (float, capacitive, ultrasonic, radar, pressure-based)"
+    },
+    {
+      "id": "el-flow-liquid-sensors-3",
+      "name": "Leak detection sensors"
+    },
+    {
+      "id": "el-flow-liquid-sensors-4",
+      "name": "Water quality sensors (pH, conductivity, turbidity, dissolved oxygen)"
+    }
+  ]
+}

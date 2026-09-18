@@ -1,0 +1,28 @@
+{
+  "id": "aerospace",
+  "name": "Aerospace Engineering",
+  "icon": "🚀",
+  "color": "#818cf8",
+  "prefix": "ae",
+  "description": "The engineering of aircraft, rockets and spacecraft: aerodynamics, flight mechanics, structures, air-breathing and rocket propulsion, orbital mechanics, launch and entry, spacecraft subsystems and GNC, and the systems engineering that turns them into missions.",
+  "categories": [
+    "Introduction to Aerospace",
+    "Engineering Foundations",
+    "Aerodynamics",
+    "Flight Mechanics & Control",
+    "Air Vehicle Design",
+    "Structures & Materials",
+    "Air-Breathing Propulsion & Combustion",
+    "Rocket Propulsion",
+    "Space & Advanced Propulsion",
+    "Orbital Mechanics & Astrodynamics",
+    "Launch Vehicles",
+    "Entry, Descent & Landing",
+    "Spacecraft Subsystems",
+    "Guidance, Navigation & Control",
+    "Avionics & Flight Software",
+    "Space Missions & Exploration",
+    "Systems Engineering, Test & Safety",
+    "Space Policy & Business"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "ph-advanced-quantum-mechanics",
+  "name": "Advanced Quantum Mechanics",
+  "category": "Quantum Physics",
+  "level": 3,
+  "priority": "core",
+  "summary": "Graduate-core quantum theory: formalism, symmetry, angular momentum, scattering, path integrals and relativistic QM.",
+  "prerequisites": [
+    "ph-quantum-mechanics",
+    "ph-special-relativity"
+  ],
+  "related": [
+    "ma-quantum-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "ph-advanced-quantum-mechanics-1",
+      "name": "Hilbert spaces, Dirac notation and the postulates revisited"
+    },
+    {
+      "id": "ph-advanced-quantum-mechanics-2",
+      "name": "Pictures of time evolution: Schrodinger, Heisenberg and interaction"
+    },
+    {
+      "id": "ph-advanced-quantum-mechanics-3",
+      "name": "Symmetries and conservation laws in quantum mechanics"
+    },
+    {
+      "id": "ph-advanced-quantum-mechanics-4",
+      "name": "Rotations and the theory of angular momentum"
+    },
+    {
+      "id": "ph-advanced-quantum-mechanics-5",
+      "name": "Addition of angular momentum and Clebsch-Gordan coefficients"
+    },
+    {
+      "id": "ph-advanced-quantum-mechanics-6",
+      "name": "Tensor operators and the Wigner-Eckart theorem"
+    },
+    {
+      "id": "ph-advanced-quantum-mechanics-7",
+      "name": "Time-dependent perturbation theory and Fermi's golden rule"
+    },
+    {
+      "id": "ph-advanced-quantum-mechanics-8",
+      "name": "Adiabatic evolution and the Berry phase"
+    },
+    {
+      "id": "ph-advanced-quantum-mechanics-9",
+      "name": "Formal scattering theory: Lippmann-Schwinger, Born series and partial waves"
+    },
+    {
+      "id": "ph-advanced-quantum-mechanics-10",
+      "name": "Path-integral formulation of quantum mechanics"
+    },
+    {
+      "id": "ph-advanced-quantum-mechanics-11",
+      "name": "Identical particles and second quantization"
+    },
+    {
+      "id": "ph-advanced-quantum-mechanics-12",
+      "name": "Quantization of the electromagnetic field: photons"
+    },
+    {
+      "id": "ph-advanced-quantum-mechanics-13",
+      "name": "Relativistic quantum mechanics: Klein-Gordon and Dirac equations"
+    },
+    {
+      "id": "ph-advanced-quantum-mechanics-14",
+      "name": "Open quantum systems and quantum master equations"
+    }
+  ]
+}

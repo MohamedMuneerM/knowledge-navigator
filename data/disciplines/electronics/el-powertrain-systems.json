@@ -1,0 +1,46 @@
+{
+  "id": "el-powertrain-systems",
+  "name": "Powertrain Systems",
+  "category": "Automotive, Aerospace & Defense Systems",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Electronic control of engines and transmissions: ECM, TCM, fuel injection, ignition, valve timing, turbo and EGR control.",
+  "prerequisites": [
+    "el-vehicle-electronics-architecture",
+    "el-control-theory"
+  ],
+  "related": [
+    "me-internal-combustion-engines",
+    "me-automotive-engineering"
+  ],
+  "topics": [
+    {
+      "id": "el-powertrain-systems-1",
+      "name": "Engine Control Module (ECM)"
+    },
+    {
+      "id": "el-powertrain-systems-2",
+      "name": "Transmission Control Module (TCM)"
+    },
+    {
+      "id": "el-powertrain-systems-3",
+      "name": "Fuel injection systems"
+    },
+    {
+      "id": "el-powertrain-systems-4",
+      "name": "Ignition control"
+    },
+    {
+      "id": "el-powertrain-systems-5",
+      "name": "Variable valve timing"
+    },
+    {
+      "id": "el-powertrain-systems-6",
+      "name": "Turbocharger control"
+    },
+    {
+      "id": "el-powertrain-systems-7",
+      "name": "Exhaust gas recirculation (EGR)"
+    }
+  ]
+}

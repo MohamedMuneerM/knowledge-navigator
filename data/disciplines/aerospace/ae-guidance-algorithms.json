@@ -1,0 +1,55 @@
+{
+  "id": "ae-guidance-algorithms",
+  "name": "Guidance Laws and Algorithms",
+  "category": "Guidance, Navigation & Control",
+  "level": 4,
+  "priority": "important",
+  "summary": "Algorithms that decide where a vehicle should go and how to steer there, for ascent, orbit transfer, entry, landing and intercept.",
+  "prerequisites": [
+    "ae-ascent-trajectories",
+    "ae-orbital-maneuvers"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-guidance-algorithms-1",
+      "name": "Guidance concepts: open-loop, closed-loop, explicit and implicit guidance"
+    },
+    {
+      "id": "ae-guidance-algorithms-2",
+      "name": "Proportional navigation and intercept guidance"
+    },
+    {
+      "id": "ae-guidance-algorithms-3",
+      "name": "Ascent guidance: linear tangent steering and Powered Explicit Guidance (PEG)"
+    },
+    {
+      "id": "ae-guidance-algorithms-4",
+      "name": "Iterative guidance mode (Saturn) and upper-stage guidance"
+    },
+    {
+      "id": "ae-guidance-algorithms-5",
+      "name": "Lambert and targeting-based guidance for orbital transfers"
+    },
+    {
+      "id": "ae-guidance-algorithms-6",
+      "name": "Entry guidance: Apollo and Shuttle entry guidance, predictor-corrector methods"
+    },
+    {
+      "id": "ae-guidance-algorithms-7",
+      "name": "Powered descent guidance: Apollo polynomial guidance and convex (G-FOLD) guidance"
+    },
+    {
+      "id": "ae-guidance-algorithms-8",
+      "name": "Guidance for rendezvous and docking"
+    },
+    {
+      "id": "ae-guidance-algorithms-9",
+      "name": "Model predictive control for guidance"
+    },
+    {
+      "id": "ae-guidance-algorithms-10",
+      "name": "Guidance performance assessment"
+    }
+  ]
+}

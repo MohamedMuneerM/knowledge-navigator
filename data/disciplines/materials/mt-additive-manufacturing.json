@@ -1,0 +1,70 @@
+{
+  "id": "mt-additive-manufacturing",
+  "name": "Additive Manufacturing of Materials",
+  "category": "Materials Processing & Manufacturing",
+  "level": 3,
+  "priority": "important",
+  "summary": "Covers 3D printing of metals, polymers, ceramics and composites, with focus on process-structure-property relationships and qualification.",
+  "prerequisites": [
+    "mt-casting-solidification",
+    "mt-powder-processing",
+    "me-manufacturing-processes"
+  ],
+  "related": [
+    "me-additive-manufacturing"
+  ],
+  "topics": [
+    {
+      "id": "mt-additive-manufacturing-1",
+      "name": "The seven ASTM/ISO additive manufacturing process categories"
+    },
+    {
+      "id": "mt-additive-manufacturing-2",
+      "name": "Polymer AM: material extrusion (FDM), vat photopolymerisation (SLA/DLP) and powder bed fusion (SLS)"
+    },
+    {
+      "id": "mt-additive-manufacturing-3",
+      "name": "Metal laser and electron-beam powder bed fusion"
+    },
+    {
+      "id": "mt-additive-manufacturing-4",
+      "name": "Directed energy deposition and wire-arc AM"
+    },
+    {
+      "id": "mt-additive-manufacturing-5",
+      "name": "Binder jetting and sintering; metal material extrusion"
+    },
+    {
+      "id": "mt-additive-manufacturing-6",
+      "name": "Melt-pool physics: keyholing, balling and spatter"
+    },
+    {
+      "id": "mt-additive-manufacturing-7",
+      "name": "Rapid solidification microstructures, texture and anisotropy in AM metals"
+    },
+    {
+      "id": "mt-additive-manufacturing-8",
+      "name": "Defects: lack-of-fusion and gas porosity, residual stress and cracking"
+    },
+    {
+      "id": "mt-additive-manufacturing-9",
+      "name": "Post-processing: HIP, heat treatment, machining and surface finishing"
+    },
+    {
+      "id": "mt-additive-manufacturing-10",
+      "name": "Alloys designed for AM (e.g. printable high-strength aluminium)"
+    },
+    {
+      "id": "mt-additive-manufacturing-11",
+      "name": "Ceramic and composite AM; continuous-fibre printing"
+    },
+    {
+      "id": "mt-additive-manufacturing-12",
+      "name": "Design for AM: lattices, topology optimisation and part consolidation"
+    },
+    {
+      "id": "mt-additive-manufacturing-13",
+      "name": "In-situ monitoring, qualification and certification of AM parts (e.g. rocket engine components)"
+    }
+  ]
+}

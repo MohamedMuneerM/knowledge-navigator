@@ -1,0 +1,73 @@
+{
+  "id": "ae-computational-fluid-dynamics",
+  "name": "Computational Fluid Dynamics (CFD)",
+  "category": "Aerodynamics",
+  "level": 4,
+  "priority": "important",
+  "summary": "Numerical solution of the flow equations for aerospace design: discretisation, meshing, solvers, turbulence modelling and verification.",
+  "prerequisites": [
+    "ae-viscous-flow-boundary-layers",
+    "ae-compressible-flow-gas-dynamics",
+    "ma-numerical-solutions-of-pdes",
+    "ae-computational-methods-aerospace"
+  ],
+  "related": [
+    "ph-computational-physics",
+    "me-computational-fluid-dynamics",
+    "cs-high-performance-computing"
+  ],
+  "topics": [
+    {
+      "id": "ae-computational-fluid-dynamics-1",
+      "name": "Hierarchy of flow models: potential, Euler, RANS, LES, DNS"
+    },
+    {
+      "id": "ae-computational-fluid-dynamics-2",
+      "name": "Finite-difference, finite-volume and finite-element discretisation"
+    },
+    {
+      "id": "ae-computational-fluid-dynamics-3",
+      "name": "Consistency, stability (CFL, von Neumann) and convergence"
+    },
+    {
+      "id": "ae-computational-fluid-dynamics-4",
+      "name": "Upwind schemes, flux-vector splitting and Riemann solvers"
+    },
+    {
+      "id": "ae-computational-fluid-dynamics-5",
+      "name": "Shock capturing, limiters and TVD schemes"
+    },
+    {
+      "id": "ae-computational-fluid-dynamics-6",
+      "name": "Time integration: explicit, implicit and dual time stepping"
+    },
+    {
+      "id": "ae-computational-fluid-dynamics-7",
+      "name": "Mesh generation: structured, unstructured, overset and adaptive meshes"
+    },
+    {
+      "id": "ae-computational-fluid-dynamics-8",
+      "name": "Boundary conditions for external and internal flows"
+    },
+    {
+      "id": "ae-computational-fluid-dynamics-9",
+      "name": "Turbulence modelling in RANS; hybrid RANS-LES"
+    },
+    {
+      "id": "ae-computational-fluid-dynamics-10",
+      "name": "Convergence acceleration: multigrid and preconditioning"
+    },
+    {
+      "id": "ae-computational-fluid-dynamics-11",
+      "name": "Verification and validation; grid convergence studies"
+    },
+    {
+      "id": "ae-computational-fluid-dynamics-12",
+      "name": "Adjoint methods for aerodynamic shape optimisation"
+    },
+    {
+      "id": "ae-computational-fluid-dynamics-13",
+      "name": "Practical CFD workflow with OpenFOAM, SU2 or commercial codes"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "ma-sequences-series",
+  "name": "Sequences & Series",
+  "category": "Calculus",
+  "level": 2,
+  "priority": "core",
+  "summary": "Convergence of sequences and infinite series, convergence tests, power series and Taylor series, which underpin approximation and analysis.",
+  "prerequisites": [
+    "ma-calculus"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-sequences-series-1",
+      "name": "Sequences: limits, monotone and bounded sequences"
+    },
+    {
+      "id": "ma-sequences-series-2",
+      "name": "Infinite series and partial sums; geometric and telescoping series"
+    },
+    {
+      "id": "ma-sequences-series-3",
+      "name": "Divergence test and the integral test; p-series"
+    },
+    {
+      "id": "ma-sequences-series-4",
+      "name": "Comparison and limit comparison tests"
+    },
+    {
+      "id": "ma-sequences-series-5",
+      "name": "Alternating series and absolute versus conditional convergence"
+    },
+    {
+      "id": "ma-sequences-series-6",
+      "name": "Ratio and root tests; choosing a test"
+    },
+    {
+      "id": "ma-sequences-series-7",
+      "name": "Power series: radius and interval of convergence"
+    },
+    {
+      "id": "ma-sequences-series-8",
+      "name": "Differentiating and integrating power series"
+    },
+    {
+      "id": "ma-sequences-series-9",
+      "name": "Taylor and Maclaurin series of standard functions"
+    },
+    {
+      "id": "ma-sequences-series-10",
+      "name": "Taylor's theorem and error bounds for approximations"
+    },
+    {
+      "id": "ma-sequences-series-11",
+      "name": "Applications: approximating functions, limits and integrals"
+    },
+    {
+      "id": "ma-sequences-series-12",
+      "name": "Introduction to Fourier series as another kind of expansion"
+    }
+  ]
+}

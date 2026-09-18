@@ -1,0 +1,63 @@
+{
+  "id": "ae-flight-testing",
+  "name": "Flight Testing",
+  "category": "Systems Engineering, Test & Safety",
+  "level": 4,
+  "priority": "important",
+  "summary": "Planning and running flight tests of aircraft and rockets to measure performance, stability and handling and to expand the flight envelope safely.",
+  "prerequisites": [
+    "ae-flight-dynamics",
+    "ae-aerospace-instrumentation"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-flight-testing-1",
+      "name": "Purpose and types of flight test: development, certification, research"
+    },
+    {
+      "id": "ae-flight-testing-2",
+      "name": "Flight test planning and test cards"
+    },
+    {
+      "id": "ae-flight-testing-3",
+      "name": "Flight test instrumentation and telemetry"
+    },
+    {
+      "id": "ae-flight-testing-4",
+      "name": "Air data calibration"
+    },
+    {
+      "id": "ae-flight-testing-5",
+      "name": "Performance flight testing: climb, cruise, takeoff and landing"
+    },
+    {
+      "id": "ae-flight-testing-6",
+      "name": "Stability and control flight testing"
+    },
+    {
+      "id": "ae-flight-testing-7",
+      "name": "Handling qualities evaluation"
+    },
+    {
+      "id": "ae-flight-testing-8",
+      "name": "Envelope expansion and flutter flight testing"
+    },
+    {
+      "id": "ae-flight-testing-9",
+      "name": "Stall and spin testing"
+    },
+    {
+      "id": "ae-flight-testing-10",
+      "name": "Risk management and test safety"
+    },
+    {
+      "id": "ae-flight-testing-11",
+      "name": "Rocket and suborbital flight test campaigns"
+    },
+    {
+      "id": "ae-flight-testing-12",
+      "name": "Test pilot and flight test engineer roles"
+    }
+  ]
+}

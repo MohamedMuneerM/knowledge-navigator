@@ -1,0 +1,35 @@
+{
+  "id": "ma-difference-equations",
+  "name": "Difference Equations",
+  "category": "Differential Equations & Dynamical Systems",
+  "level": 2,
+  "priority": "advanced",
+  "summary": "Discrete-time analogues of differential equations: linear recurrences, stability and nonlinear maps.",
+  "prerequisites": [
+    "ma-calculus",
+    "ma-linear-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-difference-equations-3",
+      "name": "First-order difference equations and equilibria"
+    },
+    {
+      "id": "ma-difference-equations-1",
+      "name": "Linear difference equations"
+    },
+    {
+      "id": "ma-difference-equations-4",
+      "name": "Generating functions and the z-transform"
+    },
+    {
+      "id": "ma-difference-equations-5",
+      "name": "Systems of difference equations and stability"
+    },
+    {
+      "id": "ma-difference-equations-2",
+      "name": "Nonlinear difference equations"
+    }
+  ]
+}

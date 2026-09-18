@@ -1,0 +1,45 @@
+{
+  "id": "ma-recursion-computability",
+  "name": "Recursion & Computability",
+  "category": "Foundations & Mathematical Logic",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Recursion theory proper: degrees of unsolvability, the arithmetical hierarchy and the fine structure of what can and cannot be computed.",
+  "prerequisites": [
+    "ma-logic-proof-theory",
+    "ma-computability-theory"
+  ],
+  "related": [
+    "ma-computability-theory"
+  ],
+  "topics": [
+    {
+      "id": "ma-recursion-computability-1",
+      "name": "Recursion theory"
+    },
+    {
+      "id": "ma-recursion-computability-2",
+      "name": "Computability theory"
+    },
+    {
+      "id": "ma-recursion-computability-3",
+      "name": "Turing machines"
+    },
+    {
+      "id": "ma-recursion-computability-4",
+      "name": "Decidability"
+    },
+    {
+      "id": "ma-recursion-computability-5",
+      "name": "Many-one and Turing reducibility; Turing degrees"
+    },
+    {
+      "id": "ma-recursion-computability-6",
+      "name": "Arithmetical hierarchy"
+    },
+    {
+      "id": "ma-recursion-computability-7",
+      "name": "Recursion theorem and Rice's theorem"
+    }
+  ]
+}

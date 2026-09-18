@@ -1,0 +1,74 @@
+{
+  "id": "ai-autonomous-agents",
+  "name": "Autonomous Agents",
+  "category": "Large Language Models & LLM Engineering",
+  "level": 4,
+  "priority": "important",
+  "summary": "LLM-powered agents that plan, remember and act through tools, code and the web, alone or in multi-agent systems.",
+  "prerequisites": [
+    "ai-llm-application-engineering"
+  ],
+  "related": [
+    "ai-multi-agent-systems",
+    "cs-ai-assisted-software-development",
+    "ai-conversational-ai-voice-assistants"
+  ],
+  "topics": [
+    {
+      "id": "ai-autonomous-agents-1",
+      "name": "LLM-Based Agents"
+    },
+    {
+      "id": "ai-autonomous-agents-10",
+      "name": "Function calling and tool schemas"
+    },
+    {
+      "id": "ai-autonomous-agents-2",
+      "name": "ReAct Framework"
+    },
+    {
+      "id": "ai-autonomous-agents-3",
+      "name": "AutoGPT-style Agents"
+    },
+    {
+      "id": "ai-autonomous-agents-4",
+      "name": "Multi-Agent Systems"
+    },
+    {
+      "id": "ai-autonomous-agents-5",
+      "name": "Agent Memory Systems"
+    },
+    {
+      "id": "ai-autonomous-agents-6",
+      "name": "Tool Use"
+    },
+    {
+      "id": "ai-autonomous-agents-7",
+      "name": "Planning and Reasoning"
+    },
+    {
+      "id": "ai-autonomous-agents-8",
+      "name": "Web Agents"
+    },
+    {
+      "id": "ai-autonomous-agents-9",
+      "name": "Code Agents"
+    },
+    {
+      "id": "ai-autonomous-agents-11",
+      "name": "Model Context Protocol (MCP) and tool ecosystems"
+    },
+    {
+      "id": "ai-autonomous-agents-12",
+      "name": "Agent orchestration patterns: routing, orchestrator-workers, evaluator-optimizer"
+    },
+    {
+      "id": "ai-autonomous-agents-13",
+      "name": "Evaluating agents (SWE-bench, WebArena, tau-bench)"
+    },
+    {
+      "id": "ai-autonomous-agents-14",
+      "name": "Agent safety: sandboxing, permissions and human approval"
+    }
+  ]
+}

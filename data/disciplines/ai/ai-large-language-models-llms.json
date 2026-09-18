@@ -1,0 +1,191 @@
+{
+  "id": "ai-large-language-models-llms",
+  "name": "Large Language Models (LLMs)",
+  "category": "Large Language Models & LLM Engineering",
+  "level": 4,
+  "priority": "core",
+  "summary": "How large language models are built: tokenization, pretraining objectives, model families, fine-tuning, alignment, inference optimization and long context.",
+  "prerequisites": [
+    "ai-attention-transformers"
+  ],
+  "related": [
+    "ai-llm-fine-tuning",
+    "cs-ai-assisted-software-development"
+  ],
+  "topics": [
+    {
+      "id": "ai-large-language-models-llms-1",
+      "name": "Foundation Models",
+      "sub": [
+        {
+          "id": "ai-large-language-models-llms-1-1",
+          "name": "BERT and variants (RoBERTa, ALBERT, DeBERTa)"
+        },
+        {
+          "id": "ai-large-language-models-llms-1-2",
+          "name": "GPT series (GPT-2, GPT-3, GPT-4 and later)"
+        },
+        {
+          "id": "ai-large-language-models-llms-1-3",
+          "name": "T5, FLAN-T5"
+        },
+        {
+          "id": "ai-large-language-models-llms-1-4",
+          "name": "LLaMA, LLaMA 2"
+        },
+        {
+          "id": "ai-large-language-models-llms-1-5",
+          "name": "PaLM, Gemini"
+        },
+        {
+          "id": "ai-large-language-models-llms-1-6",
+          "name": "Claude"
+        },
+        {
+          "id": "ai-large-language-models-llms-1-7",
+          "name": "Mistral, Mixtral"
+        }
+      ]
+    },
+    {
+      "id": "ai-large-language-models-llms-2",
+      "name": "Tokenization",
+      "sub": [
+        {
+          "id": "ai-large-language-models-llms-2-1",
+          "name": "BPE"
+        },
+        {
+          "id": "ai-large-language-models-llms-2-2",
+          "name": "WordPiece"
+        },
+        {
+          "id": "ai-large-language-models-llms-2-3",
+          "name": "SentencePiece"
+        },
+        {
+          "id": "ai-large-language-models-llms-2-4",
+          "name": "Unigram"
+        }
+      ]
+    },
+    {
+      "id": "ai-large-language-models-llms-3",
+      "name": "Pretraining Objectives",
+      "sub": [
+        {
+          "id": "ai-large-language-models-llms-3-1",
+          "name": "Masked Language Modeling (MLM)"
+        },
+        {
+          "id": "ai-large-language-models-llms-3-2",
+          "name": "Causal Language Modeling (CLM)"
+        },
+        {
+          "id": "ai-large-language-models-llms-3-3",
+          "name": "Next Sentence Prediction"
+        }
+      ]
+    },
+    {
+      "id": "ai-large-language-models-llms-4",
+      "name": "Fine-Tuning Techniques",
+      "sub": [
+        {
+          "id": "ai-large-language-models-llms-4-1",
+          "name": "Full fine-tuning"
+        },
+        {
+          "id": "ai-large-language-models-llms-4-2",
+          "name": "Parameter-efficient fine-tuning (PEFT)"
+        },
+        {
+          "id": "ai-large-language-models-llms-4-3",
+          "name": "LoRA (Low-Rank Adaptation)"
+        },
+        {
+          "id": "ai-large-language-models-llms-4-4",
+          "name": "QLoRA"
+        },
+        {
+          "id": "ai-large-language-models-llms-4-5",
+          "name": "Prompt tuning"
+        },
+        {
+          "id": "ai-large-language-models-llms-4-6",
+          "name": "Prefix tuning"
+        },
+        {
+          "id": "ai-large-language-models-llms-4-7",
+          "name": "Adapter layers"
+        }
+      ]
+    },
+    {
+      "id": "ai-large-language-models-llms-5",
+      "name": "Alignment",
+      "sub": [
+        {
+          "id": "ai-large-language-models-llms-5-1",
+          "name": "RLHF (Reinforcement Learning from Human Feedback)"
+        },
+        {
+          "id": "ai-large-language-models-llms-5-2",
+          "name": "DPO (Direct Preference Optimization)"
+        },
+        {
+          "id": "ai-large-language-models-llms-5-3",
+          "name": "Constitutional AI"
+        }
+      ]
+    },
+    {
+      "id": "ai-large-language-models-llms-6",
+      "name": "Inference Optimization",
+      "sub": [
+        {
+          "id": "ai-large-language-models-llms-6-1",
+          "name": "KV-cache"
+        },
+        {
+          "id": "ai-large-language-models-llms-6-2",
+          "name": "Speculative decoding"
+        },
+        {
+          "id": "ai-large-language-models-llms-6-3",
+          "name": "Quantization (INT8, INT4)"
+        }
+      ]
+    },
+    {
+      "id": "ai-large-language-models-llms-7",
+      "name": "Context Length Extensions",
+      "sub": [
+        {
+          "id": "ai-large-language-models-llms-7-1",
+          "name": "RoPE"
+        },
+        {
+          "id": "ai-large-language-models-llms-7-2",
+          "name": "ALiBi"
+        },
+        {
+          "id": "ai-large-language-models-llms-7-3",
+          "name": "Sliding window attention"
+        }
+      ]
+    },
+    {
+      "id": "ai-large-language-models-llms-8",
+      "name": "Pretraining data: web-scale corpora, filtering and deduplication"
+    },
+    {
+      "id": "ai-large-language-models-llms-9",
+      "name": "Mixture-of-experts language models"
+    },
+    {
+      "id": "ai-large-language-models-llms-10",
+      "name": "Reasoning models and test-time compute"
+    }
+  ]
+}

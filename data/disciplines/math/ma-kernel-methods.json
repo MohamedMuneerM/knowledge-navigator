@@ -1,0 +1,43 @@
+{
+  "id": "ma-kernel-methods",
+  "name": "Kernel Methods",
+  "category": "Machine Learning & Data Science Mathematics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Learning with similarity functions: the kernel trick, reproducing kernel Hilbert spaces and support vector machines.",
+  "prerequisites": [
+    "ma-foundations-of-machine-learning",
+    "ma-convex-optimization",
+    "ma-functional-analysis"
+  ],
+  "related": [
+    "ai-core-ml-concepts",
+    "ai-types-of-machine-learning"
+  ],
+  "topics": [
+    {
+      "id": "ma-kernel-methods-4",
+      "name": "Feature maps and similarity"
+    },
+    {
+      "id": "ma-kernel-methods-2",
+      "name": "Kernel trick"
+    },
+    {
+      "id": "ma-kernel-methods-3",
+      "name": "Reproducing kernel Hilbert spaces"
+    },
+    {
+      "id": "ma-kernel-methods-5",
+      "name": "Representer theorem"
+    },
+    {
+      "id": "ma-kernel-methods-1",
+      "name": "Support vector machines"
+    },
+    {
+      "id": "ma-kernel-methods-6",
+      "name": "Kernel ridge regression and kernel PCA"
+    }
+  ]
+}

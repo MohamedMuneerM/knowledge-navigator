@@ -1,0 +1,38 @@
+{
+  "id": "el-advanced-connectivity",
+  "name": "Advanced Connectivity",
+  "category": "Emerging & Advanced Topics",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Next-generation links: 6G concepts, terahertz and free-space optical communication, Li-Fi and molecular and underwater networks.",
+  "prerequisites": [
+    "el-wireless-communications"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-advanced-connectivity-1",
+      "name": "6G research and concepts"
+    },
+    {
+      "id": "el-advanced-connectivity-2",
+      "name": "Terahertz (THz) communication"
+    },
+    {
+      "id": "el-advanced-connectivity-3",
+      "name": "Free-space optical communication"
+    },
+    {
+      "id": "el-advanced-connectivity-4",
+      "name": "Visible Light Communication (VLC / Li-Fi)"
+    },
+    {
+      "id": "el-advanced-connectivity-5",
+      "name": "Molecular communication"
+    },
+    {
+      "id": "el-advanced-connectivity-6",
+      "name": "Underwater acoustic networks"
+    }
+  ]
+}

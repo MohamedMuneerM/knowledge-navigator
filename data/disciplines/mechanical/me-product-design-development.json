@@ -1,0 +1,77 @@
+{
+  "id": "me-product-design-development",
+  "name": "Product Design & Development",
+  "category": "Design Methodology, Product Development & Reliability",
+  "level": 3,
+  "priority": "core",
+  "summary": "A structured path from customer need to validated product: specifications, concept generation and selection, embodiment, prototyping and testing.",
+  "prerequisites": [
+    "me-cad-solid-modeling",
+    "me-machine-design-fundamentals"
+  ],
+  "related": [
+    "el-product-development"
+  ],
+  "topics": [
+    {
+      "id": "me-product-design-development-1",
+      "name": "Product development processes: stage-gate, spiral and agile hardware"
+    },
+    {
+      "id": "me-product-design-development-2",
+      "name": "Opportunity identification and customer needs"
+    },
+    {
+      "id": "me-product-design-development-3",
+      "name": "Product specifications and quality function deployment (QFD)"
+    },
+    {
+      "id": "me-product-design-development-4",
+      "name": "Concept generation: brainstorming, morphological charts, biomimicry, TRIZ"
+    },
+    {
+      "id": "me-product-design-development-5",
+      "name": "Concept selection: Pugh matrix and weighted decision matrices"
+    },
+    {
+      "id": "me-product-design-development-6",
+      "name": "Product architecture and modularity"
+    },
+    {
+      "id": "me-product-design-development-7",
+      "name": "Embodiment and detail design"
+    },
+    {
+      "id": "me-product-design-development-8",
+      "name": "Industrial design, aesthetics and user experience"
+    },
+    {
+      "id": "me-product-design-development-9",
+      "name": "Human factors and ergonomics in design (anthropometry, usability)"
+    },
+    {
+      "id": "me-product-design-development-10",
+      "name": "Prototyping strategy: looks-like vs works-like models and rapid prototyping"
+    },
+    {
+      "id": "me-product-design-development-11",
+      "name": "Design verification and validation testing"
+    },
+    {
+      "id": "me-product-design-development-12",
+      "name": "Systems engineering basics: requirements, interfaces, V-model and trade studies"
+    },
+    {
+      "id": "me-product-design-development-13",
+      "name": "Intellectual property: patents and freedom to operate"
+    },
+    {
+      "id": "me-product-design-development-14",
+      "name": "Sustainable design and design for environment"
+    },
+    {
+      "id": "me-product-design-development-15",
+      "name": "Project management, design reviews and the capstone design project"
+    }
+  ]
+}

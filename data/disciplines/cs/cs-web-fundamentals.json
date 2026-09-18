@@ -1,0 +1,62 @@
+{
+  "id": "cs-web-fundamentals",
+  "name": "Web Fundamentals: HTML, CSS & JavaScript",
+  "category": "Web & Mobile Development",
+  "level": 1,
+  "priority": "important",
+  "summary": "Building your first web pages and interactive sites with HTML, CSS and JavaScript, and understanding how browsers and servers talk.",
+  "prerequisites": [
+    "cs-programming-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-web-fundamentals-1",
+      "name": "How the web works: browsers, servers, URLs and HTTP"
+    },
+    {
+      "id": "cs-web-fundamentals-2",
+      "name": "HTML structure and semantic markup"
+    },
+    {
+      "id": "cs-web-fundamentals-3",
+      "name": "Forms and user input"
+    },
+    {
+      "id": "cs-web-fundamentals-4",
+      "name": "CSS selectors, the cascade and the box model"
+    },
+    {
+      "id": "cs-web-fundamentals-5",
+      "name": "Layout with Flexbox and Grid"
+    },
+    {
+      "id": "cs-web-fundamentals-6",
+      "name": "Responsive design and media queries"
+    },
+    {
+      "id": "cs-web-fundamentals-7",
+      "name": "JavaScript fundamentals: variables, functions, objects and arrays"
+    },
+    {
+      "id": "cs-web-fundamentals-8",
+      "name": "The DOM and event handling"
+    },
+    {
+      "id": "cs-web-fundamentals-9",
+      "name": "Asynchronous JavaScript: promises, async/await and fetch"
+    },
+    {
+      "id": "cs-web-fundamentals-10",
+      "name": "Browser developer tools"
+    },
+    {
+      "id": "cs-web-fundamentals-11",
+      "name": "Web accessibility basics"
+    },
+    {
+      "id": "cs-web-fundamentals-12",
+      "name": "Deploying a static site"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "ma-general-topology",
+  "name": "General Topology",
+  "category": "Topology",
+  "level": 3,
+  "priority": "core",
+  "summary": "Metric and topological spaces, continuity, compactness and connectedness: the language of nearness used throughout mathematics.",
+  "prerequisites": [
+    "ma-real-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-general-topology-1",
+      "name": "Metric spaces",
+      "sub": [
+        {
+          "id": "ma-general-topology-1-1",
+          "name": "Open and closed sets"
+        },
+        {
+          "id": "ma-general-topology-1-2",
+          "name": "Completeness"
+        },
+        {
+          "id": "ma-general-topology-1-3",
+          "name": "Contraction mapping theorem"
+        }
+      ]
+    },
+    {
+      "id": "ma-general-topology-2",
+      "name": "Topological spaces"
+    },
+    {
+      "id": "ma-general-topology-7",
+      "name": "Bases, subspaces and product topologies"
+    },
+    {
+      "id": "ma-general-topology-3",
+      "name": "Continuity"
+    },
+    {
+      "id": "ma-general-topology-8",
+      "name": "Quotient spaces"
+    },
+    {
+      "id": "ma-general-topology-4",
+      "name": "Compactness",
+      "sub": [
+        {
+          "id": "ma-general-topology-4-1",
+          "name": "Heine-Borel theorem"
+        },
+        {
+          "id": "ma-general-topology-4-2",
+          "name": "Tychonoff's theorem"
+        }
+      ]
+    },
+    {
+      "id": "ma-general-topology-5",
+      "name": "Connectedness"
+    },
+    {
+      "id": "ma-general-topology-6",
+      "name": "Separation axioms"
+    },
+    {
+      "id": "ma-general-topology-9",
+      "name": "Countability axioms and Urysohn's lemma"
+    },
+    {
+      "id": "ma-general-topology-10",
+      "name": "Metrisation theorems"
+    },
+    {
+      "id": "ma-general-topology-11",
+      "name": "Compactifications and function spaces"
+    }
+  ]
+}

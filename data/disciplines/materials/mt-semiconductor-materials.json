@@ -1,0 +1,72 @@
+{
+  "id": "mt-semiconductor-materials",
+  "name": "Semiconductor Materials & Electronic Packaging",
+  "category": "Electronic, Optical, Magnetic & Thermal Properties",
+  "level": 3,
+  "priority": "important",
+  "summary": "Covers the materials science of silicon, compound and wide-bandgap semiconductors, from crystal growth and doping to interconnects and packaging reliability.",
+  "prerequisites": [
+    "mt-electronic-properties",
+    "mt-diffusion"
+  ],
+  "related": [
+    "el-semiconductor-physics",
+    "el-cmos-technology",
+    "el-power-devices",
+    "el-pcb-materials"
+  ],
+  "topics": [
+    {
+      "id": "mt-semiconductor-materials-1",
+      "name": "Elemental and compound semiconductors: Si, Ge, GaAs, InP, GaN, SiC, Ga2O3"
+    },
+    {
+      "id": "mt-semiconductor-materials-2",
+      "name": "Band engineering: alloys, direct vs indirect gaps, heterostructures and strain"
+    },
+    {
+      "id": "mt-semiconductor-materials-3",
+      "name": "Bulk crystal growth: Czochralski, float-zone and Bridgman methods"
+    },
+    {
+      "id": "mt-semiconductor-materials-4",
+      "name": "Epitaxy: MBE, MOCVD and lattice-mismatch dislocations"
+    },
+    {
+      "id": "mt-semiconductor-materials-5",
+      "name": "Doping by diffusion and ion implantation; dopant activation and annealing"
+    },
+    {
+      "id": "mt-semiconductor-materials-6",
+      "name": "Defects in semiconductors: deep levels, recombination centres and gettering"
+    },
+    {
+      "id": "mt-semiconductor-materials-7",
+      "name": "Oxides and dielectrics on silicon: thermal oxidation (Deal-Grove), high-k gate dielectrics"
+    },
+    {
+      "id": "mt-semiconductor-materials-8",
+      "name": "Metallisation and contacts: silicides, Schottky vs ohmic contacts, copper interconnects"
+    },
+    {
+      "id": "mt-semiconductor-materials-9",
+      "name": "Electromigration and stress voiding in interconnects"
+    },
+    {
+      "id": "mt-semiconductor-materials-10",
+      "name": "Wide-bandgap materials for power electronics (SiC, GaN)"
+    },
+    {
+      "id": "mt-semiconductor-materials-11",
+      "name": "Organic and amorphous semiconductors"
+    },
+    {
+      "id": "mt-semiconductor-materials-12",
+      "name": "Electronic packaging materials: solders (Sn-Ag-Cu), die attach, underfill, substrates"
+    },
+    {
+      "id": "mt-semiconductor-materials-13",
+      "name": "Packaging reliability: thermal cycling, solder fatigue and intermetallic growth"
+    }
+  ]
+}

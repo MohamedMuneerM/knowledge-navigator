@@ -1,0 +1,78 @@
+{
+  "id": "mt-intro-to-materials",
+  "name": "Introduction to Materials",
+  "category": "Foundations",
+  "level": 1,
+  "priority": "core",
+  "summary": "A first tour of what materials are, the main material classes, and how structure, properties, processing and performance are linked, using everyday objects.",
+  "prerequisites": [],
+  "related": [],
+  "topics": [
+    {
+      "id": "mt-intro-to-materials-1",
+      "name": "What materials science and engineering is (and how it differs from chemistry and physics)"
+    },
+    {
+      "id": "mt-intro-to-materials-2",
+      "name": "The materials tetrahedron: structure, properties, processing and performance"
+    },
+    {
+      "id": "mt-intro-to-materials-3",
+      "name": "The material classes: metals, ceramics, polymers, composites, semiconductors and biomaterials"
+    },
+    {
+      "id": "mt-intro-to-materials-4",
+      "name": "Length scales of structure: atoms, crystals, grains, microstructure and components"
+    },
+    {
+      "id": "mt-intro-to-materials-5",
+      "name": "Families of properties",
+      "sub": [
+        {
+          "id": "mt-intro-to-materials-5-1",
+          "name": "Mechanical (stiffness, strength, toughness, hardness)"
+        },
+        {
+          "id": "mt-intro-to-materials-5-2",
+          "name": "Thermal (melting point, expansion, conductivity)"
+        },
+        {
+          "id": "mt-intro-to-materials-5-3",
+          "name": "Electrical, magnetic and optical"
+        },
+        {
+          "id": "mt-intro-to-materials-5-4",
+          "name": "Chemical (corrosion, degradation)"
+        }
+      ]
+    },
+    {
+      "id": "mt-intro-to-materials-6",
+      "name": "Why a paperclip bends, a mug shatters and a bottle stretches: property differences explained by bonding"
+    },
+    {
+      "id": "mt-intro-to-materials-7",
+      "name": "Everyday case studies: drink cans, smartphone glass, bicycle frames, tyres and non-stick pans"
+    },
+    {
+      "id": "mt-intro-to-materials-8",
+      "name": "How materials are made: an overview of casting, shaping, joining and finishing"
+    },
+    {
+      "id": "mt-intro-to-materials-9",
+      "name": "Units, orders of magnitude and reading a simple property chart (strength vs density)"
+    },
+    {
+      "id": "mt-intro-to-materials-10",
+      "name": "Materials failures in the news: why bridges, pipes and aircraft parts fail"
+    },
+    {
+      "id": "mt-intro-to-materials-11",
+      "name": "Materials and the environment: resources, energy and recycling at a glance"
+    },
+    {
+      "id": "mt-intro-to-materials-12",
+      "name": "Careers and sub-fields in materials science and engineering"
+    }
+  ]
+}

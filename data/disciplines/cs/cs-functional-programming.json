@@ -1,0 +1,69 @@
+{
+  "id": "cs-functional-programming",
+  "name": "Functional Programming",
+  "category": "Programming & Paradigms",
+  "level": 2,
+  "priority": "important",
+  "summary": "Programming with pure functions, immutable data, algebraic data types and higher-order abstractions, in languages such as Haskell, OCaml or Scala.",
+  "prerequisites": [
+    "cs-program-design"
+  ],
+  "related": [
+    "ma-type-theory",
+    "ma-category-theory"
+  ],
+  "topics": [
+    {
+      "id": "cs-functional-programming-1",
+      "name": "Expressions, values and referential transparency"
+    },
+    {
+      "id": "cs-functional-programming-2",
+      "name": "Recursion and tail calls"
+    },
+    {
+      "id": "cs-functional-programming-3",
+      "name": "Higher-order functions: map, filter and fold"
+    },
+    {
+      "id": "cs-functional-programming-4",
+      "name": "Immutable and persistent data structures"
+    },
+    {
+      "id": "cs-functional-programming-5",
+      "name": "Algebraic data types and pattern matching"
+    },
+    {
+      "id": "cs-functional-programming-6",
+      "name": "Type inference and parametric polymorphism"
+    },
+    {
+      "id": "cs-functional-programming-7",
+      "name": "Closures and currying"
+    },
+    {
+      "id": "cs-functional-programming-8",
+      "name": "Lazy evaluation and infinite data structures"
+    },
+    {
+      "id": "cs-functional-programming-9",
+      "name": "Type classes and ad hoc polymorphism"
+    },
+    {
+      "id": "cs-functional-programming-10",
+      "name": "Functors, applicatives and monads for effects"
+    },
+    {
+      "id": "cs-functional-programming-11",
+      "name": "Handling state, errors and I/O functionally"
+    },
+    {
+      "id": "cs-functional-programming-12",
+      "name": "Property-based testing"
+    },
+    {
+      "id": "cs-functional-programming-13",
+      "name": "Functional programming in practice: Haskell, OCaml, F#, Scala, Clojure and mainstream languages"
+    }
+  ]
+}

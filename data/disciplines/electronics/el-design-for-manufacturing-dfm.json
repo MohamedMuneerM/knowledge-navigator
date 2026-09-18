@@ -1,0 +1,38 @@
+{
+  "id": "el-design-for-manufacturing-dfm",
+  "name": "Design for Manufacturing (DFM)",
+  "category": "PCB Design & Hardware Development",
+  "level": 3,
+  "priority": "important",
+  "summary": "Designing boards that fabricate cleanly: fab constraints, panelization, fiducials, solder mask, surface finishes and test points.",
+  "prerequisites": [
+    "el-manufacturing-processes"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-design-for-manufacturing-dfm-1",
+      "name": "Manufacturing constraints (minimum trace width, spacing)"
+    },
+    {
+      "id": "el-design-for-manufacturing-dfm-2",
+      "name": "Panelization and depanelization"
+    },
+    {
+      "id": "el-design-for-manufacturing-dfm-3",
+      "name": "Fiducial marks"
+    },
+    {
+      "id": "el-design-for-manufacturing-dfm-4",
+      "name": "Solder mask and silkscreen"
+    },
+    {
+      "id": "el-design-for-manufacturing-dfm-5",
+      "name": "Surface finish (HASL, ENIG, OSP)"
+    },
+    {
+      "id": "el-design-for-manufacturing-dfm-6",
+      "name": "Test points and bed-of-nails fixtures"
+    }
+  ]
+}

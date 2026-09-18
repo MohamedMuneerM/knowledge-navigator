@@ -1,0 +1,69 @@
+{
+  "id": "cs-information-retrieval",
+  "name": "Information Retrieval & Search Engines",
+  "category": "Data Management",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "How search engines index, rank and evaluate results for text and the web, from inverted indexes and BM25 to learning to rank and dense retrieval.",
+  "prerequisites": [
+    "cs-algorithms",
+    "cs-probability-statistics-for-cs",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ai-nlp-tasks-applications",
+    "ai-text-preprocessing",
+    "ai-data-mining",
+    "ai-retrieval-augmented-generation"
+  ],
+  "topics": [
+    {
+      "id": "cs-information-retrieval-1",
+      "name": "Boolean retrieval and inverted indexes"
+    },
+    {
+      "id": "cs-information-retrieval-2",
+      "name": "Text processing: tokenization, stemming and stop words"
+    },
+    {
+      "id": "cs-information-retrieval-3",
+      "name": "Index construction and compression"
+    },
+    {
+      "id": "cs-information-retrieval-4",
+      "name": "Vector space model and TF-IDF"
+    },
+    {
+      "id": "cs-information-retrieval-5",
+      "name": "Probabilistic retrieval and BM25"
+    },
+    {
+      "id": "cs-information-retrieval-6",
+      "name": "Evaluation: precision, recall, MAP and NDCG"
+    },
+    {
+      "id": "cs-information-retrieval-7",
+      "name": "Web crawling and web-search architecture"
+    },
+    {
+      "id": "cs-information-retrieval-8",
+      "name": "Link analysis: PageRank and HITS"
+    },
+    {
+      "id": "cs-information-retrieval-9",
+      "name": "Query expansion and relevance feedback"
+    },
+    {
+      "id": "cs-information-retrieval-10",
+      "name": "Learning to rank"
+    },
+    {
+      "id": "cs-information-retrieval-11",
+      "name": "Dense retrieval, embeddings and retrieval-augmented generation"
+    },
+    {
+      "id": "cs-information-retrieval-12",
+      "name": "Recommender systems basics"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "ai-model-free-methods",
+  "name": "Model-Free RL: TD Learning & Policy Gradients",
+  "category": "Reinforcement Learning",
+  "level": 3,
+  "priority": "core",
+  "summary": "Learning from experience without a model: temporal-difference prediction and control, function approximation, policy gradients and actor-critic methods.",
+  "prerequisites": [
+    "ai-monte-carlo-methods"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-model-free-methods-16",
+      "name": "Temporal-difference prediction",
+      "sub": [
+        {
+          "id": "ai-model-free-methods-1",
+          "name": "TD(0)"
+        },
+        {
+          "id": "ai-model-free-methods-2",
+          "name": "TD(λ)"
+        },
+        {
+          "id": "ai-model-free-methods-3",
+          "name": "Eligibility Traces"
+        },
+        {
+          "id": "ai-model-free-methods-16-1",
+          "name": "n-step bootstrapping"
+        }
+      ]
+    },
+    {
+      "id": "ai-model-free-methods-17",
+      "name": "Temporal-difference control",
+      "sub": [
+        {
+          "id": "ai-model-free-methods-4",
+          "name": "Q-Learning"
+        },
+        {
+          "id": "ai-model-free-methods-5",
+          "name": "SARSA"
+        },
+        {
+          "id": "ai-model-free-methods-6",
+          "name": "Expected SARSA"
+        },
+        {
+          "id": "ai-model-free-methods-17-1",
+          "name": "Double Q-learning and maximization bias"
+        }
+      ]
+    },
+    {
+      "id": "ai-model-free-methods-18",
+      "name": "Value-function approximation",
+      "sub": [
+        {
+          "id": "ai-model-free-methods-18-1",
+          "name": "Linear function approximation and feature construction (tile coding)"
+        },
+        {
+          "id": "ai-model-free-methods-18-2",
+          "name": "Semi-gradient TD methods"
+        },
+        {
+          "id": "ai-model-free-methods-18-3",
+          "name": "Off-policy instability and the deadly triad"
+        }
+      ]
+    },
+    {
+      "id": "ai-model-free-methods-19",
+      "name": "Policy-gradient methods",
+      "sub": [
+        {
+          "id": "ai-model-free-methods-7",
+          "name": "REINFORCE"
+        },
+        {
+          "id": "ai-model-free-methods-8",
+          "name": "Policy Gradient Theorem"
+        },
+        {
+          "id": "ai-model-free-methods-12",
+          "name": "Trust Region Policy Optimization (TRPO)"
+        },
+        {
+          "id": "ai-model-free-methods-11",
+          "name": "Proximal Policy Optimization (PPO)"
+        }
+      ]
+    },
+    {
+      "id": "ai-model-free-methods-20",
+      "name": "Actor-critic methods",
+      "sub": [
+        {
+          "id": "ai-model-free-methods-9",
+          "name": "Advantage Actor-Critic (A2C)"
+        },
+        {
+          "id": "ai-model-free-methods-10",
+          "name": "Asynchronous Advantage Actor-Critic (A3C)"
+        },
+        {
+          "id": "ai-model-free-methods-14",
+          "name": "Deep Deterministic Policy Gradient (DDPG)"
+        },
+        {
+          "id": "ai-model-free-methods-15",
+          "name": "Twin Delayed DDPG (TD3)"
+        },
+        {
+          "id": "ai-model-free-methods-13",
+          "name": "Soft Actor-Critic (SAC)"
+        }
+      ]
+    }
+  ]
+}

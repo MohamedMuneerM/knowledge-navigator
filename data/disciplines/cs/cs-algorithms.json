@@ -1,0 +1,85 @@
+{
+  "id": "cs-algorithms",
+  "name": "Design & Analysis of Algorithms",
+  "category": "Data Structures & Algorithms",
+  "level": 2,
+  "priority": "core",
+  "summary": "The core algorithm-design techniques (divide and conquer, greedy, dynamic programming, graph algorithms) with proofs of correctness and running time, up to NP-completeness.",
+  "prerequisites": [
+    "cs-data-structures"
+  ],
+  "related": [
+    "ma-algorithm-analysis",
+    "ma-algorithmic-graph-theory",
+    "ma-dynamic-programming",
+    "ma-complexity-theory",
+    "ma-combinatorial-optimization",
+    "ai-computational-complexity"
+  ],
+  "topics": [
+    {
+      "id": "cs-algorithms-1",
+      "name": "Correctness proofs and loop invariants"
+    },
+    {
+      "id": "cs-algorithms-2",
+      "name": "Asymptotic analysis and recurrences (Master theorem)"
+    },
+    {
+      "id": "cs-algorithms-3",
+      "name": "Sorting: merge sort, quicksort, heapsort and the comparison lower bound"
+    },
+    {
+      "id": "cs-algorithms-4",
+      "name": "Linear-time sorting and selection"
+    },
+    {
+      "id": "cs-algorithms-5",
+      "name": "Divide and conquer"
+    },
+    {
+      "id": "cs-algorithms-6",
+      "name": "Greedy algorithms and exchange arguments"
+    },
+    {
+      "id": "cs-algorithms-7",
+      "name": "Dynamic programming"
+    },
+    {
+      "id": "cs-algorithms-8",
+      "name": "Graph search: BFS, DFS, topological sort and strongly connected components"
+    },
+    {
+      "id": "cs-algorithms-9",
+      "name": "Shortest paths: Dijkstra, Bellman-Ford and Floyd-Warshall"
+    },
+    {
+      "id": "cs-algorithms-10",
+      "name": "Minimum spanning trees: Kruskal and Prim"
+    },
+    {
+      "id": "cs-algorithms-11",
+      "name": "Network flow and bipartite matching"
+    },
+    {
+      "id": "cs-algorithms-12",
+      "name": "Amortized analysis"
+    },
+    {
+      "id": "cs-algorithms-13",
+      "name": "Randomized algorithms and universal hashing"
+    },
+    {
+      "id": "cs-algorithms-14",
+      "name": "String matching algorithms (KMP, Rabin-Karp)"
+    },
+    {
+      "id": "cs-algorithms-15",
+      "name": "NP-completeness and polynomial-time reductions"
+    },
+    {
+      "id": "cs-algorithms-16",
+      "name": "Coping with hardness: backtracking, branch and bound, approximation and heuristics"
+    }
+  ]
+}

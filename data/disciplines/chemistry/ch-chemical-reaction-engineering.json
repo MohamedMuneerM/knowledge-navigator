@@ -1,0 +1,61 @@
+{
+  "id": "ch-chemical-reaction-engineering",
+  "name": "Chemical Reaction Engineering",
+  "category": "Chemical Engineering Fundamentals",
+  "level": 3,
+  "priority": "important",
+  "summary": "Designing and sizing chemical reactors by combining kinetics with mass and energy balances.",
+  "prerequisites": [
+    "ch-material-energy-balances",
+    "ch-chemical-kinetics"
+  ],
+  "related": [
+    "bi-bioprocess-biomanufacturing"
+  ],
+  "topics": [
+    {
+      "id": "ch-chemical-reaction-engineering-1",
+      "name": "Mole balances and ideal reactors: batch, CSTR, PFR and packed bed"
+    },
+    {
+      "id": "ch-chemical-reaction-engineering-2",
+      "name": "Design equations, conversion and reactor sizing (Levenspiel plots)"
+    },
+    {
+      "id": "ch-chemical-reaction-engineering-3",
+      "name": "Reactors in series and parallel"
+    },
+    {
+      "id": "ch-chemical-reaction-engineering-4",
+      "name": "Multiple reactions: selectivity and yield"
+    },
+    {
+      "id": "ch-chemical-reaction-engineering-5",
+      "name": "Non-isothermal reactor design and energy balances"
+    },
+    {
+      "id": "ch-chemical-reaction-engineering-6",
+      "name": "Multiple steady states and thermal runaway"
+    },
+    {
+      "id": "ch-chemical-reaction-engineering-7",
+      "name": "Residence-time distributions and non-ideal reactors"
+    },
+    {
+      "id": "ch-chemical-reaction-engineering-8",
+      "name": "Catalytic reactors: internal and external diffusion, effectiveness factor"
+    },
+    {
+      "id": "ch-chemical-reaction-engineering-9",
+      "name": "Multiphase reactors: fluidized beds, slurry and trickle beds"
+    },
+    {
+      "id": "ch-chemical-reaction-engineering-10",
+      "name": "Bioreactors"
+    },
+    {
+      "id": "ch-chemical-reaction-engineering-11",
+      "name": "Reactor safety and scale-up"
+    }
+  ]
+}

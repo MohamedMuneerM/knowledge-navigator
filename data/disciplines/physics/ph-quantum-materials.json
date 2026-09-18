@@ -1,0 +1,34 @@
+{
+  "id": "ph-quantum-materials",
+  "name": "Quantum Materials",
+  "category": "Condensed Matter Physics",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Frontier materials dominated by strong correlations: Mott insulators, heavy fermions and quantum spin liquids.",
+  "prerequisites": [
+    "ph-quantum-many-body-theory"
+  ],
+  "related": [
+    "ph-topological-phases-of-matter",
+    "ch-emerging-frontiers",
+    "mt-2d-materials"
+  ],
+  "topics": [
+    {
+      "id": "ph-quantum-materials-1",
+      "name": "Strongly correlated systems"
+    },
+    {
+      "id": "ph-quantum-materials-2",
+      "name": "Heavy fermion systems"
+    },
+    {
+      "id": "ph-quantum-materials-3",
+      "name": "Mott insulators"
+    },
+    {
+      "id": "ph-quantum-materials-4",
+      "name": "Quantum spin liquids"
+    }
+  ]
+}

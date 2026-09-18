@@ -1,0 +1,59 @@
+{
+  "id": "el-high-voltage-engineering",
+  "name": "High-Voltage Engineering",
+  "category": "Electrical Machines & Power Systems",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Insulation and breakdown at high voltage: gas, liquid and solid dielectrics, HV generation and testing, overvoltages and insulation coordination.",
+  "prerequisites": [
+    "el-electrical-materials",
+    "el-power-system-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-high-voltage-engineering-1",
+      "name": "Electric field stress and field control"
+    },
+    {
+      "id": "el-high-voltage-engineering-2",
+      "name": "Breakdown in gases: Townsend and streamer mechanisms, Paschen's law"
+    },
+    {
+      "id": "el-high-voltage-engineering-3",
+      "name": "Breakdown in liquid and solid dielectrics"
+    },
+    {
+      "id": "el-high-voltage-engineering-4",
+      "name": "Partial discharge and its measurement"
+    },
+    {
+      "id": "el-high-voltage-engineering-5",
+      "name": "Generation of high AC, DC and impulse voltages (Marx generator)"
+    },
+    {
+      "id": "el-high-voltage-engineering-6",
+      "name": "High-voltage measurement: dividers and sphere gaps"
+    },
+    {
+      "id": "el-high-voltage-engineering-7",
+      "name": "Lightning and switching overvoltages"
+    },
+    {
+      "id": "el-high-voltage-engineering-8",
+      "name": "Insulation coordination and surge arresters"
+    },
+    {
+      "id": "el-high-voltage-engineering-9",
+      "name": "High-voltage testing of equipment (IEC 60060)"
+    },
+    {
+      "id": "el-high-voltage-engineering-10",
+      "name": "Insulators, bushings and HV cables"
+    },
+    {
+      "id": "el-high-voltage-engineering-11",
+      "name": "Gas-insulated switchgear"
+    }
+  ]
+}

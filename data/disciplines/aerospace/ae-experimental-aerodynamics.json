@@ -1,0 +1,59 @@
+{
+  "id": "ae-experimental-aerodynamics",
+  "name": "Experimental Aerodynamics and Wind Tunnel Testing",
+  "category": "Aerodynamics",
+  "level": 3,
+  "priority": "important",
+  "summary": "How aerodynamic data are obtained in wind tunnels and the lab: facilities, models, measurements, corrections and flow visualisation.",
+  "prerequisites": [
+    "ae-incompressible-aerodynamics",
+    "ae-aerospace-instrumentation"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-experimental-aerodynamics-1",
+      "name": "Wind tunnel types: low-speed, transonic, supersonic, hypersonic, cryogenic"
+    },
+    {
+      "id": "ae-experimental-aerodynamics-2",
+      "name": "Similarity requirements and scaling from model to flight"
+    },
+    {
+      "id": "ae-experimental-aerodynamics-3",
+      "name": "Model design and mounting; strain-gauge balances"
+    },
+    {
+      "id": "ae-experimental-aerodynamics-4",
+      "name": "Pressure-sensitive paint and surface pressure measurement"
+    },
+    {
+      "id": "ae-experimental-aerodynamics-5",
+      "name": "Flow visualisation: smoke, oil flow, tufts, schlieren and shadowgraph"
+    },
+    {
+      "id": "ae-experimental-aerodynamics-6",
+      "name": "Particle image velocimetry and laser diagnostics"
+    },
+    {
+      "id": "ae-experimental-aerodynamics-7",
+      "name": "Wall interference, blockage and buoyancy corrections"
+    },
+    {
+      "id": "ae-experimental-aerodynamics-8",
+      "name": "Boundary-layer tripping and transition detection"
+    },
+    {
+      "id": "ae-experimental-aerodynamics-9",
+      "name": "Shock tunnels, arc jets and ballistic ranges"
+    },
+    {
+      "id": "ae-experimental-aerodynamics-10",
+      "name": "Water tunnels and towing tanks"
+    },
+    {
+      "id": "ae-experimental-aerodynamics-11",
+      "name": "Test planning, data reduction and uncertainty"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "mt-characterization-fundamentals",
+  "name": "Characterization Fundamentals & Metallography",
+  "category": "Materials Characterization",
+  "level": 2,
+  "priority": "core",
+  "summary": "Introduces how materials are examined and measured: sample preparation, optical microscopy, quantitative microstructure and good experimental practice.",
+  "prerequisites": [
+    "mt-crystal-structures"
+  ],
+  "related": [
+    "ph-experimental-techniques",
+    "ma-experimental-design",
+    "ch-instrumental-analysis"
+  ],
+  "topics": [
+    {
+      "id": "mt-characterization-fundamentals-1",
+      "name": "The characterization toolbox: what each family of techniques reveals (structure, chemistry, properties)"
+    },
+    {
+      "id": "mt-characterization-fundamentals-2",
+      "name": "Probes and signals: photons, electrons, ions and neutrons interacting with matter"
+    },
+    {
+      "id": "mt-characterization-fundamentals-3",
+      "name": "Sample preparation: sectioning, mounting, grinding, polishing and etching"
+    },
+    {
+      "id": "mt-characterization-fundamentals-4",
+      "name": "Optical (light) microscopy: resolution, contrast modes, polarised light and DIC"
+    },
+    {
+      "id": "mt-characterization-fundamentals-5",
+      "name": "Stereomicroscopy and macro-examination"
+    },
+    {
+      "id": "mt-characterization-fundamentals-6",
+      "name": "Quantitative metallography and stereology: grain size, phase fraction, particle size"
+    },
+    {
+      "id": "mt-characterization-fundamentals-7",
+      "name": "Image analysis with software (ImageJ/Fiji)"
+    },
+    {
+      "id": "mt-characterization-fundamentals-8",
+      "name": "Density, porosity and chemical analysis basics (Archimedes, ICP, combustion analysis)"
+    },
+    {
+      "id": "mt-characterization-fundamentals-9",
+      "name": "Measurement uncertainty, error propagation and calibration"
+    },
+    {
+      "id": "mt-characterization-fundamentals-10",
+      "name": "Statistics for materials data: distributions, confidence intervals, regression and Weibull plots"
+    },
+    {
+      "id": "mt-characterization-fundamentals-11",
+      "name": "Design of experiments for materials development"
+    },
+    {
+      "id": "mt-characterization-fundamentals-12",
+      "name": "Laboratory safety, notebooks and reporting results"
+    }
+  ]
+}

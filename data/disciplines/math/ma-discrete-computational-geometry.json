@@ -1,0 +1,45 @@
+{
+  "id": "ma-discrete-computational-geometry",
+  "name": "Discrete & Computational Geometry",
+  "category": "Geometry",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Geometry of finite point sets and the algorithms behind it: convex hulls, triangulations, Voronoi diagrams and range searching.",
+  "prerequisites": [
+    "ma-algorithm-analysis",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "cs-geometric-modeling"
+  ],
+  "topics": [
+    {
+      "id": "ma-discrete-computational-geometry-1",
+      "name": "Discrete geometry"
+    },
+    {
+      "id": "ma-discrete-computational-geometry-2",
+      "name": "Computational geometry"
+    },
+    {
+      "id": "ma-discrete-computational-geometry-4",
+      "name": "Convex hull algorithms"
+    },
+    {
+      "id": "ma-discrete-computational-geometry-5",
+      "name": "Triangulations and Delaunay triangulation"
+    },
+    {
+      "id": "ma-discrete-computational-geometry-6",
+      "name": "Voronoi diagrams"
+    },
+    {
+      "id": "ma-discrete-computational-geometry-7",
+      "name": "Line-segment intersection and sweep-line algorithms"
+    },
+    {
+      "id": "ma-discrete-computational-geometry-3",
+      "name": "Geometric algorithms"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "ch-quantum-chemistry",
+  "name": "Quantum Chemistry",
+  "category": "Physical Chemistry",
+  "level": 3,
+  "priority": "core",
+  "summary": "Quantum mechanics applied to atoms and molecules, from model systems to molecular orbital theory.",
+  "prerequisites": [
+    "ch-chemical-bonding-molecular-structure",
+    "ma-linear-algebra",
+    "ma-ordinary-differential-equations-odes",
+    "ma-multivariable-calculus",
+    "ph-introductory-waves-sound-light"
+  ],
+  "related": [
+    "ph-quantum-mechanics",
+    "ma-quantum-mechanics",
+    "ph-chemical-physics-physical-chemistry",
+    "ma-mathematical-chemistry",
+    "ph-atomic-physics",
+    "ph-molecular-physics"
+  ],
+  "topics": [
+    {
+      "id": "ch-quantum-chemistry-1",
+      "name": "Failures of classical physics and the postulates of quantum mechanics"
+    },
+    {
+      "id": "ch-quantum-chemistry-2",
+      "name": "Operators, eigenvalues, expectation values and commutators"
+    },
+    {
+      "id": "ch-quantum-chemistry-3",
+      "name": "Particle in a box and quantum tunnelling"
+    },
+    {
+      "id": "ch-quantum-chemistry-4",
+      "name": "The harmonic oscillator"
+    },
+    {
+      "id": "ch-quantum-chemistry-5",
+      "name": "The rigid rotor and angular momentum"
+    },
+    {
+      "id": "ch-quantum-chemistry-6",
+      "name": "The hydrogen atom: radial and angular solutions"
+    },
+    {
+      "id": "ch-quantum-chemistry-7",
+      "name": "Electron spin, the Pauli principle and Slater determinants"
+    },
+    {
+      "id": "ch-quantum-chemistry-8",
+      "name": "Approximation methods: the variation principle and perturbation theory"
+    },
+    {
+      "id": "ch-quantum-chemistry-9",
+      "name": "Many-electron atoms: term symbols, Hund's rules and spin-orbit coupling"
+    },
+    {
+      "id": "ch-quantum-chemistry-10",
+      "name": "The Born-Oppenheimer approximation and H2+"
+    },
+    {
+      "id": "ch-quantum-chemistry-11",
+      "name": "LCAO molecular orbital theory of diatomic molecules"
+    },
+    {
+      "id": "ch-quantum-chemistry-12",
+      "name": "Hückel theory for π systems"
+    },
+    {
+      "id": "ch-quantum-chemistry-13",
+      "name": "Introduction to Hartree-Fock and density functional theory"
+    },
+    {
+      "id": "ch-quantum-chemistry-14",
+      "name": "Time-dependent perturbation theory and transition probabilities"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "el-transmission-lines",
+  "name": "Transmission Lines",
+  "category": "Electromagnetics, RF & Microwave",
+  "level": 3,
+  "priority": "core",
+  "summary": "Distributed circuits: telegrapher's equations, reflections, standing waves, the Smith chart and impedance matching for RF and high-speed signals.",
+  "prerequisites": [
+    "el-electromagnetics",
+    "el-ac-circuits-power"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-transmission-lines-1",
+      "name": "Distributed-parameter model and the telegrapher's equations"
+    },
+    {
+      "id": "el-transmission-lines-2",
+      "name": "Characteristic impedance and propagation constant"
+    },
+    {
+      "id": "el-transmission-lines-3",
+      "name": "Lossless and lossy lines"
+    },
+    {
+      "id": "el-transmission-lines-4",
+      "name": "Reflection coefficient, standing waves and VSWR"
+    },
+    {
+      "id": "el-transmission-lines-5",
+      "name": "Input impedance of terminated lines; quarter-wave and half-wave lines"
+    },
+    {
+      "id": "el-transmission-lines-6",
+      "name": "The Smith chart"
+    },
+    {
+      "id": "el-transmission-lines-7",
+      "name": "Impedance matching: lumped L-networks, single-stub and quarter-wave transformers"
+    },
+    {
+      "id": "el-transmission-lines-8",
+      "name": "Transients on transmission lines and bounce diagrams"
+    },
+    {
+      "id": "el-transmission-lines-9",
+      "name": "Planar lines: microstrip, stripline and coplanar waveguide"
+    },
+    {
+      "id": "el-transmission-lines-10",
+      "name": "Scattering (S-) parameters (introduction)"
+    },
+    {
+      "id": "el-transmission-lines-11",
+      "name": "Time-domain reflectometry"
+    },
+    {
+      "id": "el-transmission-lines-12",
+      "name": "Long power lines as transmission lines"
+    }
+  ]
+}

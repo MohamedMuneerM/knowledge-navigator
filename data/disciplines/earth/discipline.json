@@ -1,0 +1,28 @@
+{
+  "id": "earth",
+  "name": "Earth & Environmental Science",
+  "icon": "🌍",
+  "color": "#d6a86a",
+  "prefix": "ea",
+  "description": "The science of the Earth as a system of rock, water, air, ice and life: its materials, interior, surface, oceans, atmosphere, climate, history, resources and hazards, how humans change it, and the geology of other planets.",
+  "categories": [
+    "Earth Science Foundations",
+    "Mineralogy & Petrology",
+    "Geochemistry & Geochronology",
+    "Structural Geology & Tectonics",
+    "Solid-Earth Geophysics",
+    "Sedimentary Geology & Earth History",
+    "Earth Surface Processes",
+    "Hydrology & Water Resources",
+    "Oceanography",
+    "Meteorology & Atmospheric Science",
+    "Climate Science & Paleoclimate",
+    "Natural Hazards",
+    "Environmental Science & Pollution",
+    "Earth Resources & Applied Geology",
+    "Remote Sensing, GIS & Geodesy",
+    "Field, Lab & Quantitative Methods",
+    "Planetary Geoscience",
+    "Sustainability, Policy & Society"
+  ]
+}

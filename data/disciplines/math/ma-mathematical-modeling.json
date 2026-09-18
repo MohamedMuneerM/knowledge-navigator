@@ -1,0 +1,46 @@
+{
+  "id": "ma-mathematical-modeling",
+  "name": "Mathematical Modeling",
+  "category": "Applied & Interdisciplinary Mathematics",
+  "level": 2,
+  "priority": "important",
+  "summary": "Turning real-world questions into mathematics: building, fitting, analysing and validating models.",
+  "prerequisites": [
+    "ma-ordinary-differential-equations-odes"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-mathematical-modeling-4",
+      "name": "The modelling cycle: assumptions, formulation, analysis, validation"
+    },
+    {
+      "id": "ma-mathematical-modeling-5",
+      "name": "Dimensional analysis and scaling"
+    },
+    {
+      "id": "ma-mathematical-modeling-1",
+      "name": "Model construction"
+    },
+    {
+      "id": "ma-mathematical-modeling-6",
+      "name": "Discrete and continuous models"
+    },
+    {
+      "id": "ma-mathematical-modeling-7",
+      "name": "Stochastic models and simulation"
+    },
+    {
+      "id": "ma-mathematical-modeling-2",
+      "name": "Parameter estimation"
+    },
+    {
+      "id": "ma-mathematical-modeling-3",
+      "name": "Model validation"
+    },
+    {
+      "id": "ma-mathematical-modeling-8",
+      "name": "Case studies in science, engineering and society"
+    }
+  ]
+}

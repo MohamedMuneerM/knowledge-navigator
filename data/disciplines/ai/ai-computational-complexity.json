@@ -1,0 +1,46 @@
+{
+  "id": "ai-computational-complexity",
+  "name": "Computational Complexity",
+  "category": "Theory of Machine Learning",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "The computational cost of AI and ML algorithms: time and space complexity, NP-hardness of learning and inference, and approximation algorithms.",
+  "prerequisites": [
+    "ma-algorithm-analysis"
+  ],
+  "related": [
+    "ma-complexity-theory",
+    "cs-algorithms",
+    "cs-advanced-algorithms"
+  ],
+  "topics": [
+    {
+      "id": "ai-computational-complexity-1",
+      "name": "Time Complexity"
+    },
+    {
+      "id": "ai-computational-complexity-2",
+      "name": "Space Complexity"
+    },
+    {
+      "id": "ai-computational-complexity-3",
+      "name": "NP-Hardness in ML"
+    },
+    {
+      "id": "ai-computational-complexity-4",
+      "name": "Approximation Algorithms"
+    },
+    {
+      "id": "ai-computational-complexity-5",
+      "name": "Hardness of learning (e.g. training neural networks is NP-hard)"
+    },
+    {
+      "id": "ai-computational-complexity-6",
+      "name": "Complexity of probabilistic inference (#P-hardness)"
+    },
+    {
+      "id": "ai-computational-complexity-7",
+      "name": "Computational-statistical trade-offs"
+    }
+  ]
+}

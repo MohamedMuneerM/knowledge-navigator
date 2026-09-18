@@ -1,0 +1,49 @@
+{
+  "id": "el-compliance-regulations",
+  "name": "Compliance & Regulations",
+  "category": "Security, Privacy & Trust",
+  "level": 3,
+  "priority": "important",
+  "summary": "The privacy and cybersecurity rules connected products must meet: GDPR, CCPA, HIPAA, ISO 27001, NIST CSF, IEC 62443 and OWASP IoT.",
+  "prerequisites": [
+    "el-privacy-protection"
+  ],
+  "related": [
+    "el-cybersecurity-standards",
+    "cs-security-governance-privacy"
+  ],
+  "topics": [
+    {
+      "id": "el-compliance-regulations-1",
+      "name": "GDPR (General Data Protection Regulation)"
+    },
+    {
+      "id": "el-compliance-regulations-2",
+      "name": "CCPA (California Consumer Privacy Act)"
+    },
+    {
+      "id": "el-compliance-regulations-3",
+      "name": "HIPAA (Health Insurance Portability and Accountability Act)"
+    },
+    {
+      "id": "el-compliance-regulations-4",
+      "name": "ISO/IEC 27001 (Information Security Management)"
+    },
+    {
+      "id": "el-compliance-regulations-5",
+      "name": "NIST Cybersecurity Framework"
+    },
+    {
+      "id": "el-compliance-regulations-6",
+      "name": "IEC 62443 (Industrial cybersecurity)"
+    },
+    {
+      "id": "el-compliance-regulations-7",
+      "name": "UL 2900 (Cybersecurity for network-connectable products)"
+    },
+    {
+      "id": "el-compliance-regulations-8",
+      "name": "OWASP IoT Top 10"
+    }
+  ]
+}

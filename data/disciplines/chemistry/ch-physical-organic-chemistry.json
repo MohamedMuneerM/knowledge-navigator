@@ -1,0 +1,63 @@
+{
+  "id": "ch-physical-organic-chemistry",
+  "name": "Physical Organic Chemistry",
+  "category": "Organic Chemistry",
+  "level": 3,
+  "priority": "important",
+  "summary": "Quantitative tools for understanding organic structure, reactivity and how reaction mechanisms are established.",
+  "prerequisites": [
+    "ch-organic-reactions-ii",
+    "ch-chemical-kinetics-intro"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-physical-organic-chemistry-1",
+      "name": "Strain, stability and conformational energetics"
+    },
+    {
+      "id": "ch-physical-organic-chemistry-2",
+      "name": "Thermochemistry of organic molecules and group additivity"
+    },
+    {
+      "id": "ch-physical-organic-chemistry-3",
+      "name": "Solvation and solvent effects"
+    },
+    {
+      "id": "ch-physical-organic-chemistry-4",
+      "name": "Acidity functions and acid-base catalysis"
+    },
+    {
+      "id": "ch-physical-organic-chemistry-5",
+      "name": "Kinetic analysis of mechanisms and the Curtin-Hammett principle"
+    },
+    {
+      "id": "ch-physical-organic-chemistry-6",
+      "name": "The Hammond postulate and Marcus theory basics"
+    },
+    {
+      "id": "ch-physical-organic-chemistry-7",
+      "name": "Linear free-energy relationships: Hammett, Taft and Brønsted"
+    },
+    {
+      "id": "ch-physical-organic-chemistry-8",
+      "name": "Kinetic isotope effects"
+    },
+    {
+      "id": "ch-physical-organic-chemistry-9",
+      "name": "Reactive intermediates: carbocations, carbanions, radicals, carbenes, nitrenes"
+    },
+    {
+      "id": "ch-physical-organic-chemistry-10",
+      "name": "Mechanistic experiments: trapping, isotopic labelling and crossover"
+    },
+    {
+      "id": "ch-physical-organic-chemistry-11",
+      "name": "Stereoelectronic effects and hyperconjugation"
+    },
+    {
+      "id": "ch-physical-organic-chemistry-12",
+      "name": "Non-covalent interactions in organic systems"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "ma-control-theory",
+  "name": "Control Theory",
+  "category": "Optimization & Control Theory",
+  "level": 3,
+  "priority": "important",
+  "summary": "Making dynamical systems behave: feedback, transfer functions, state-space models, controllability, observability and optimal control.",
+  "prerequisites": [
+    "ma-integral-transforms",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "el-control-theory",
+    "ai-control-systems",
+    "ma-systems-theory-control",
+    "me-feedback-control",
+    "ae-feedback-control-aerospace",
+    "ch-process-design-control-safety"
+  ],
+  "topics": [
+    {
+      "id": "ma-control-theory-7",
+      "name": "Dynamical system models and block diagrams"
+    },
+    {
+      "id": "ma-control-theory-8",
+      "name": "Transfer functions and the Laplace domain"
+    },
+    {
+      "id": "ma-control-theory-5",
+      "name": "Feedback control"
+    },
+    {
+      "id": "ma-control-theory-9",
+      "name": "Stability: Routh-Hurwitz, root locus"
+    },
+    {
+      "id": "ma-control-theory-10",
+      "name": "Frequency response: Bode and Nyquist"
+    },
+    {
+      "id": "ma-control-theory-11",
+      "name": "PID control"
+    },
+    {
+      "id": "ma-control-theory-4",
+      "name": "State-space methods"
+    },
+    {
+      "id": "ma-control-theory-3",
+      "name": "Controllability and observability"
+    },
+    {
+      "id": "ma-control-theory-12",
+      "name": "Pole placement and observers"
+    },
+    {
+      "id": "ma-control-theory-1",
+      "name": "Linear control systems"
+    },
+    {
+      "id": "ma-control-theory-2",
+      "name": "Optimal control"
+    },
+    {
+      "id": "ma-control-theory-13",
+      "name": "LQR and the Kalman filter"
+    },
+    {
+      "id": "ma-control-theory-6",
+      "name": "Robust control"
+    }
+  ]
+}

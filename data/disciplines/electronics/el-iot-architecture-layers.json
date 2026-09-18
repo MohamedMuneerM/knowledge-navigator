@@ -1,0 +1,46 @@
+{
+  "id": "el-iot-architecture-layers",
+  "name": "IoT Architecture Layers",
+  "category": "IoT Architectures, Platforms & Data",
+  "level": 2,
+  "priority": "important",
+  "summary": "The layers of an IoT system, from sensors and gateways through networks to cloud platforms and applications.",
+  "prerequisites": [
+    "el-embedded-systems-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-iot-architecture-layers-1",
+      "name": "Device/sensor layer (edge devices)"
+    },
+    {
+      "id": "el-iot-architecture-layers-2",
+      "name": "Gateway/fog layer (edge processing)"
+    },
+    {
+      "id": "el-iot-architecture-layers-3",
+      "name": "Network/connectivity layer"
+    },
+    {
+      "id": "el-iot-architecture-layers-4",
+      "name": "Cloud/platform layer"
+    },
+    {
+      "id": "el-iot-architecture-layers-5",
+      "name": "Application layer"
+    },
+    {
+      "id": "el-iot-architecture-layers-6",
+      "name": "Requirements that shape IoT architectures (power, latency, cost, scale)"
+    },
+    {
+      "id": "el-iot-architecture-layers-7",
+      "name": "Device-to-cloud data flow through gateways"
+    },
+    {
+      "id": "el-iot-architecture-layers-8",
+      "name": "Security across the IoT layers"
+    }
+  ]
+}

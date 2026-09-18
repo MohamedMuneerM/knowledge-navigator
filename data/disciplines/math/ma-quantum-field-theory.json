@@ -1,0 +1,45 @@
+{
+  "id": "ma-quantum-field-theory",
+  "name": "Quantum Field Theory",
+  "category": "Mathematical Physics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The mathematics of quantum fields: path integrals, Feynman diagrams, renormalisation and gauge theories.",
+  "prerequisites": [
+    "ma-quantum-mechanics",
+    "ma-relativity"
+  ],
+  "related": [
+    "ph-quantum-field-theory-qft"
+  ],
+  "topics": [
+    {
+      "id": "ma-quantum-field-theory-5",
+      "name": "Classical field theory and Lagrangian densities"
+    },
+    {
+      "id": "ma-quantum-field-theory-6",
+      "name": "Canonical quantisation of free fields"
+    },
+    {
+      "id": "ma-quantum-field-theory-1",
+      "name": "Path integrals"
+    },
+    {
+      "id": "ma-quantum-field-theory-2",
+      "name": "Feynman diagrams"
+    },
+    {
+      "id": "ma-quantum-field-theory-3",
+      "name": "Renormalization"
+    },
+    {
+      "id": "ma-quantum-field-theory-4",
+      "name": "Gauge theories"
+    },
+    {
+      "id": "ma-quantum-field-theory-7",
+      "name": "Axiomatic and constructive QFT (overview)"
+    }
+  ]
+}

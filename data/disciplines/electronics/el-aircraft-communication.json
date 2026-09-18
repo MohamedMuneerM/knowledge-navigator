@@ -1,0 +1,35 @@
+{
+  "id": "el-aircraft-communication",
+  "name": "Aircraft Communication",
+  "category": "Automotive, Aerospace & Defense Systems",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "How aircraft communicate: VHF/UHF radio, ACARS, SATCOM, ADS-B and data links.",
+  "prerequisites": [
+    "el-avionics-systems",
+    "el-analog-communications"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-aircraft-communication-1",
+      "name": "VHF/UHF radio"
+    },
+    {
+      "id": "el-aircraft-communication-2",
+      "name": "ACARS (Aircraft Communications Addressing and Reporting System)"
+    },
+    {
+      "id": "el-aircraft-communication-3",
+      "name": "Satellite communication (SATCOM)"
+    },
+    {
+      "id": "el-aircraft-communication-4",
+      "name": "ADS-B (Automatic Dependent Surveillance-Broadcast)"
+    },
+    {
+      "id": "el-aircraft-communication-5",
+      "name": "Datalinks and telemetry"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ea-geodynamics",
+  "name": "Geodynamics",
+  "category": "Structural Geology & Tectonics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Quantitative physics of the solid Earth: heat, flexure, flow and convection that drive plate tectonics.",
+  "prerequisites": [
+    "ea-solid-earth-geophysics",
+    "ma-partial-differential-equations-pdes"
+  ],
+  "related": [
+    "ph-geophysics",
+    "ma-geophysics"
+  ],
+  "topics": [
+    {
+      "id": "ea-geodynamics-1",
+      "name": "Stress and strain in the lithosphere; elasticity"
+    },
+    {
+      "id": "ea-geodynamics-2",
+      "name": "Flexure of the lithosphere: plates, basins and seamounts"
+    },
+    {
+      "id": "ea-geodynamics-3",
+      "name": "Heat transfer: conduction, cooling of oceanic lithosphere and heat flow"
+    },
+    {
+      "id": "ea-geodynamics-4",
+      "name": "Gravity, geoid anomalies and isostatic compensation"
+    },
+    {
+      "id": "ea-geodynamics-5",
+      "name": "Fluid mechanics of the mantle: viscous flow, Stokes flow and postglacial rebound"
+    },
+    {
+      "id": "ea-geodynamics-6",
+      "name": "Mantle convection: Rayleigh number, boundary layers and plumes"
+    },
+    {
+      "id": "ea-geodynamics-7",
+      "name": "Rock rheology and faulting mechanics (friction and rate-and-state laws)"
+    },
+    {
+      "id": "ea-geodynamics-8",
+      "name": "Flow in porous media and magma migration"
+    },
+    {
+      "id": "ea-geodynamics-9",
+      "name": "Numerical geodynamic modelling"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "ma-trigonometry",
+  "name": "Trigonometry",
+  "category": "Pre-University Foundations",
+  "level": 1,
+  "priority": "core",
+  "summary": "Angles, the trigonometric functions, identities and triangle solving, needed for waves, rotations, vectors and calculus.",
+  "prerequisites": [
+    "ma-elementary-intermediate-algebra",
+    "ma-euclidean-geometry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-trigonometry-1",
+      "name": "Angles in degrees and radians; arc length and sector area"
+    },
+    {
+      "id": "ma-trigonometry-2",
+      "name": "Right-triangle trigonometry: sine, cosine and tangent"
+    },
+    {
+      "id": "ma-trigonometry-3",
+      "name": "The unit circle and trigonometric functions of any angle"
+    },
+    {
+      "id": "ma-trigonometry-4",
+      "name": "Graphs of sine, cosine and tangent: amplitude, period and phase shift"
+    },
+    {
+      "id": "ma-trigonometry-5",
+      "name": "Reciprocal trigonometric functions"
+    },
+    {
+      "id": "ma-trigonometry-6",
+      "name": "Inverse trigonometric functions"
+    },
+    {
+      "id": "ma-trigonometry-7",
+      "name": "Fundamental identities (Pythagorean, reciprocal, quotient)"
+    },
+    {
+      "id": "ma-trigonometry-8",
+      "name": "Sum, difference, double-angle and half-angle formulas"
+    },
+    {
+      "id": "ma-trigonometry-9",
+      "name": "Solving trigonometric equations"
+    },
+    {
+      "id": "ma-trigonometry-10",
+      "name": "Law of sines and law of cosines; area of a triangle"
+    },
+    {
+      "id": "ma-trigonometry-11",
+      "name": "Applications: bearings, heights, distances and periodic models"
+    }
+  ]
+}

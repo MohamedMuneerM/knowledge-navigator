@@ -1,0 +1,63 @@
+{
+  "id": "ch-nanochemistry",
+  "name": "Nanochemistry & Nanomaterials",
+  "category": "Polymer, Materials & Solid-State Chemistry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Making, functionalising and assembling nanoscale materials whose properties depend on size and shape.",
+  "prerequisites": [
+    "ch-solid-state-chemistry",
+    "ch-colloid-interface-science"
+  ],
+  "related": [
+    "ph-nanoscience-nanotechnology",
+    "ph-nanophotonics-plasmonics",
+    "mt-nanomaterials"
+  ],
+  "topics": [
+    {
+      "id": "ch-nanochemistry-1",
+      "name": "Size effects: surface-to-volume ratio and quantum confinement"
+    },
+    {
+      "id": "ch-nanochemistry-2",
+      "name": "Nanoparticle synthesis: nucleation and growth (LaMer), seeded growth"
+    },
+    {
+      "id": "ch-nanochemistry-3",
+      "name": "Metal nanoparticles and plasmonics"
+    },
+    {
+      "id": "ch-nanochemistry-4",
+      "name": "Semiconductor quantum dots"
+    },
+    {
+      "id": "ch-nanochemistry-5",
+      "name": "Carbon nanomaterials: fullerenes, nanotubes and graphene"
+    },
+    {
+      "id": "ch-nanochemistry-6",
+      "name": "2D materials beyond graphene: MXenes, transition-metal dichalcogenides, h-BN"
+    },
+    {
+      "id": "ch-nanochemistry-7",
+      "name": "Surface ligands and functionalization"
+    },
+    {
+      "id": "ch-nanochemistry-8",
+      "name": "Self-assembly and nanoparticle superlattices"
+    },
+    {
+      "id": "ch-nanochemistry-9",
+      "name": "Nanomedicine and drug delivery"
+    },
+    {
+      "id": "ch-nanochemistry-10",
+      "name": "Characterization: TEM, dynamic light scattering and SAXS"
+    },
+    {
+      "id": "ch-nanochemistry-11",
+      "name": "Nanotoxicology and safety"
+    }
+  ]
+}

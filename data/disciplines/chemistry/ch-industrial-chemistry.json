@@ -1,0 +1,61 @@
+{
+  "id": "ch-industrial-chemistry",
+  "name": "Industrial Chemistry & Chemical Manufacturing",
+  "category": "Industrial & Applied Chemistry",
+  "level": 3,
+  "priority": "important",
+  "summary": "How the chemical industry turns raw materials into bulk, fine and specialty chemicals, metals and polymers.",
+  "prerequisites": [
+    "ch-descriptive-inorganic-chemistry",
+    "ch-organic-reactions-ii"
+  ],
+  "related": [
+    "mt-extractive-metallurgy"
+  ],
+  "topics": [
+    {
+      "id": "ch-industrial-chemistry-1",
+      "name": "Structure of the chemical industry and its value chains"
+    },
+    {
+      "id": "ch-industrial-chemistry-2",
+      "name": "Heavy inorganic chemicals: sulfuric acid, ammonia, nitric acid, chlor-alkali and soda ash"
+    },
+    {
+      "id": "ch-industrial-chemistry-3",
+      "name": "Fertilizers and phosphates"
+    },
+    {
+      "id": "ch-industrial-chemistry-4",
+      "name": "Petrochemicals: steam cracking, olefins, aromatics and their derivatives"
+    },
+    {
+      "id": "ch-industrial-chemistry-5",
+      "name": "Industrial polymer production"
+    },
+    {
+      "id": "ch-industrial-chemistry-6",
+      "name": "Industrial gases: air separation, hydrogen and CO2"
+    },
+    {
+      "id": "ch-industrial-chemistry-7",
+      "name": "Extractive metallurgy: iron, aluminium, copper and titanium"
+    },
+    {
+      "id": "ch-industrial-chemistry-8",
+      "name": "Fine and specialty chemicals: dyes, pigments and surfactants"
+    },
+    {
+      "id": "ch-industrial-chemistry-9",
+      "name": "Pharmaceutical manufacturing"
+    },
+    {
+      "id": "ch-industrial-chemistry-10",
+      "name": "Industrial catalysts and process intensification"
+    },
+    {
+      "id": "ch-industrial-chemistry-11",
+      "name": "Quality control and regulatory compliance in industry"
+    }
+  ]
+}

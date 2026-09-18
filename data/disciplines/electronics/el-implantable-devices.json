@@ -1,0 +1,45 @@
+{
+  "id": "el-implantable-devices",
+  "name": "Implantable Devices",
+  "category": "Medical, Industrial & Other Application Domains",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Electronics inside the body: pacemakers and ICDs, insulin pumps, neurostimulators, cochlear and retinal implants, biocompatibility.",
+  "prerequisites": [
+    "el-therapeutic-devices",
+    "el-low-power-design"
+  ],
+  "related": [
+    "mt-biomaterials"
+  ],
+  "topics": [
+    {
+      "id": "el-implantable-devices-1",
+      "name": "Pacemakers and defibrillators (ICDs)"
+    },
+    {
+      "id": "el-implantable-devices-2",
+      "name": "Insulin pumps"
+    },
+    {
+      "id": "el-implantable-devices-3",
+      "name": "Neurostimulators (DBS, SCS, VNS)"
+    },
+    {
+      "id": "el-implantable-devices-4",
+      "name": "Cochlear implants"
+    },
+    {
+      "id": "el-implantable-devices-5",
+      "name": "Retinal implants"
+    },
+    {
+      "id": "el-implantable-devices-6",
+      "name": "Drug delivery implants"
+    },
+    {
+      "id": "el-implantable-devices-7",
+      "name": "Biocompatibility testing (ISO 10993)"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ma-ramsey-theory",
+  "name": "Ramsey Theory",
+  "category": "Combinatorics & Discrete Mathematics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Why complete disorder is impossible: Ramsey numbers and the theorems of Ramsey, van der Waerden and Hales-Jewett.",
+  "prerequisites": [
+    "ma-graph-theory"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-ramsey-theory-3",
+      "name": "Pigeonhole principle and Ramsey's theorem for graphs"
+    },
+    {
+      "id": "ma-ramsey-theory-1",
+      "name": "Ramsey numbers"
+    },
+    {
+      "id": "ma-ramsey-theory-2",
+      "name": "Ramsey-type theorems"
+    },
+    {
+      "id": "ma-ramsey-theory-4",
+      "name": "Van der Waerden's theorem"
+    },
+    {
+      "id": "ma-ramsey-theory-5",
+      "name": "Hales-Jewett theorem"
+    },
+    {
+      "id": "ma-ramsey-theory-6",
+      "name": "Infinite Ramsey theory"
+    }
+  ]
+}

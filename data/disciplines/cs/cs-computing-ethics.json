@@ -1,0 +1,66 @@
+{
+  "id": "cs-computing-ethics",
+  "name": "Computing Ethics & Social Impact",
+  "category": "Society, Ethics & Profession",
+  "level": 2,
+  "priority": "core",
+  "summary": "How computing affects people and society, and how to reason ethically about privacy, bias, intellectual property, safety, work and sustainability.",
+  "prerequisites": [
+    "cs-computational-thinking"
+  ],
+  "related": [
+    "ai-fairness-in-ml",
+    "ai-ai-governance-policy",
+    "el-engineering-ethics-practice"
+  ],
+  "topics": [
+    {
+      "id": "cs-computing-ethics-1",
+      "name": "Ethical frameworks: consequentialism, deontology and virtue ethics"
+    },
+    {
+      "id": "cs-computing-ethics-2",
+      "name": "Professional codes of ethics (ACM, IEEE)"
+    },
+    {
+      "id": "cs-computing-ethics-3",
+      "name": "Privacy and surveillance"
+    },
+    {
+      "id": "cs-computing-ethics-4",
+      "name": "Algorithmic bias, fairness and accountability"
+    },
+    {
+      "id": "cs-computing-ethics-5",
+      "name": "Intellectual property: copyright, patents and open source"
+    },
+    {
+      "id": "cs-computing-ethics-6",
+      "name": "Free expression, misinformation and content moderation"
+    },
+    {
+      "id": "cs-computing-ethics-7",
+      "name": "Security, hacking and responsibility"
+    },
+    {
+      "id": "cs-computing-ethics-8",
+      "name": "Automation, work and the economy"
+    },
+    {
+      "id": "cs-computing-ethics-9",
+      "name": "The digital divide, accessibility and inclusion"
+    },
+    {
+      "id": "cs-computing-ethics-10",
+      "name": "Environmental sustainability of computing"
+    },
+    {
+      "id": "cs-computing-ethics-11",
+      "name": "Safety-critical failures and case studies (Therac-25 and others)"
+    },
+    {
+      "id": "cs-computing-ethics-12",
+      "name": "Ethics of AI and autonomous systems"
+    }
+  ]
+}

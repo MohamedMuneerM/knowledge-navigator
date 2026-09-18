@@ -1,0 +1,38 @@
+{
+  "id": "el-boot-time-optimization",
+  "name": "Boot Time Optimization",
+  "category": "Embedded Software, Firmware & RTOS",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Making devices start fast: streamlined bootloaders, parallel and deferred initialization and fast Linux boot techniques.",
+  "prerequisites": [
+    "el-embedded-linux"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-boot-time-optimization-1",
+      "name": "Bootloader streamlining"
+    },
+    {
+      "id": "el-boot-time-optimization-2",
+      "name": "Parallel initialization"
+    },
+    {
+      "id": "el-boot-time-optimization-3",
+      "name": "Deferred initialization"
+    },
+    {
+      "id": "el-boot-time-optimization-4",
+      "name": "Fast boot techniques for Linux"
+    },
+    {
+      "id": "el-boot-time-optimization-5",
+      "name": "Splash screen optimization"
+    },
+    {
+      "id": "el-boot-time-optimization-6",
+      "name": "Cold start vs warm start"
+    }
+  ]
+}

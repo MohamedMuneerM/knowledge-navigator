@@ -1,0 +1,67 @@
+{
+  "id": "ch-atmospheric-chemistry",
+  "name": "Atmospheric Chemistry",
+  "category": "Environmental & Green Chemistry",
+  "level": 3,
+  "priority": "important",
+  "summary": "Photochemistry and kinetics of the atmosphere: ozone, smog, aerosols, acid rain and climate-active gases.",
+  "prerequisites": [
+    "ch-environmental-chemistry",
+    "ch-chemical-kinetics"
+  ],
+  "related": [
+    "ph-atmospheric-environmental-physics",
+    "ea-atmospheric-chemistry",
+    "ea-air-pollution-and-air-quality"
+  ],
+  "topics": [
+    {
+      "id": "ch-atmospheric-chemistry-1",
+      "name": "Structure and composition of the atmosphere"
+    },
+    {
+      "id": "ch-atmospheric-chemistry-2",
+      "name": "Atmospheric radiation and photochemistry"
+    },
+    {
+      "id": "ch-atmospheric-chemistry-3",
+      "name": "Stratospheric ozone: the Chapman cycle, catalytic cycles and the ozone hole"
+    },
+    {
+      "id": "ch-atmospheric-chemistry-4",
+      "name": "Tropospheric oxidants: OH, NO3 and ozone"
+    },
+    {
+      "id": "ch-atmospheric-chemistry-5",
+      "name": "VOC oxidation and photochemical smog"
+    },
+    {
+      "id": "ch-atmospheric-chemistry-6",
+      "name": "Nitrogen and sulfur chemistry; acid deposition"
+    },
+    {
+      "id": "ch-atmospheric-chemistry-7",
+      "name": "Aerosols: formation, composition and secondary organic aerosol"
+    },
+    {
+      "id": "ch-atmospheric-chemistry-8",
+      "name": "Cloud and aqueous-phase chemistry"
+    },
+    {
+      "id": "ch-atmospheric-chemistry-9",
+      "name": "Greenhouse gases, radiative forcing and climate chemistry"
+    },
+    {
+      "id": "ch-atmospheric-chemistry-10",
+      "name": "Indoor air chemistry"
+    },
+    {
+      "id": "ch-atmospheric-chemistry-11",
+      "name": "Measurement techniques and chemical transport models"
+    },
+    {
+      "id": "ch-atmospheric-chemistry-12",
+      "name": "Chemistry of other planetary atmospheres"
+    }
+  ]
+}

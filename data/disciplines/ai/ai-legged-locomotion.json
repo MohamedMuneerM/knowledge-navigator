@@ -1,0 +1,69 @@
+{
+  "id": "ai-legged-locomotion",
+  "name": "Legged Locomotion",
+  "category": "Robot Platforms & Locomotion",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How walking and running robots balance and move, from simple inverted-pendulum models and ZMP to model-predictive control and learned locomotion policies.",
+  "prerequisites": [
+    "ai-control-systems"
+  ],
+  "related": [
+    "ai-types-of-robots-applications",
+    "bi-biomechanics"
+  ],
+  "topics": [
+    {
+      "id": "ai-legged-locomotion-1",
+      "name": "Legged morphologies and gaits"
+    },
+    {
+      "id": "ai-legged-locomotion-2",
+      "name": "Static versus dynamic stability"
+    },
+    {
+      "id": "ai-legged-locomotion-3",
+      "name": "Simplified models: linear inverted pendulum and SLIP"
+    },
+    {
+      "id": "ai-legged-locomotion-4",
+      "name": "Zero-moment point and capture point"
+    },
+    {
+      "id": "ai-legged-locomotion-5",
+      "name": "Hybrid dynamics, limit cycles and passive dynamic walking"
+    },
+    {
+      "id": "ai-legged-locomotion-6",
+      "name": "Contact modelling and friction cones"
+    },
+    {
+      "id": "ai-legged-locomotion-7",
+      "name": "Centroidal dynamics"
+    },
+    {
+      "id": "ai-legged-locomotion-8",
+      "name": "Trajectory optimization through contact"
+    },
+    {
+      "id": "ai-legged-locomotion-9",
+      "name": "Model-predictive and whole-body control for quadrupeds"
+    },
+    {
+      "id": "ai-legged-locomotion-10",
+      "name": "State estimation for legged robots"
+    },
+    {
+      "id": "ai-legged-locomotion-11",
+      "name": "Reinforcement-learned locomotion and sim-to-real transfer"
+    },
+    {
+      "id": "ai-legged-locomotion-12",
+      "name": "Perceptive locomotion over rough terrain"
+    },
+    {
+      "id": "ai-legged-locomotion-13",
+      "name": "Leg design and quasi-direct-drive actuators"
+    }
+  ]
+}

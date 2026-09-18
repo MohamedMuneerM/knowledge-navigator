@@ -1,0 +1,42 @@
+{
+  "id": "el-oscilloscope-techniques",
+  "name": "Oscilloscope Techniques",
+  "category": "Measurement, Testing & Validation",
+  "level": 2,
+  "priority": "important",
+  "summary": "Getting trustworthy measurements from an oscilloscope: triggering, automated measurements, FFT, protocol decoding and probing.",
+  "prerequisites": [
+    "el-test-equipment"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-oscilloscope-techniques-1",
+      "name": "Time domain analysis"
+    },
+    {
+      "id": "el-oscilloscope-techniques-2",
+      "name": "Frequency domain (FFT)"
+    },
+    {
+      "id": "el-oscilloscope-techniques-3",
+      "name": "Triggering modes (edge, pulse, pattern)"
+    },
+    {
+      "id": "el-oscilloscope-techniques-4",
+      "name": "Measurements (rise time, frequency, duty cycle)"
+    },
+    {
+      "id": "el-oscilloscope-techniques-5",
+      "name": "Decoding serial protocols"
+    },
+    {
+      "id": "el-oscilloscope-techniques-6",
+      "name": "Eye diagrams and jitter analysis"
+    },
+    {
+      "id": "el-oscilloscope-techniques-7",
+      "name": "Differential probing"
+    }
+  ]
+}

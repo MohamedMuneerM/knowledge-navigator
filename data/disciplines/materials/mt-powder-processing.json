@@ -1,0 +1,63 @@
+{
+  "id": "mt-powder-processing",
+  "name": "Powder Metallurgy & Ceramic Processing",
+  "category": "Materials Processing & Manufacturing",
+  "level": 3,
+  "priority": "important",
+  "summary": "Covers making parts from powders: powder production, forming, sintering and densification of metals and ceramics.",
+  "prerequisites": [
+    "mt-ceramics",
+    "mt-interfaces-microstructure-evolution"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "mt-powder-processing-1",
+      "name": "Powder production: atomisation, chemical reduction, milling and chemical synthesis"
+    },
+    {
+      "id": "mt-powder-processing-2",
+      "name": "Powder characterisation: size distribution, morphology and flowability"
+    },
+    {
+      "id": "mt-powder-processing-3",
+      "name": "Slurries, dispersion and rheology for ceramic forming"
+    },
+    {
+      "id": "mt-powder-processing-4",
+      "name": "Forming: die pressing, cold isostatic pressing, slip casting, tape casting and extrusion"
+    },
+    {
+      "id": "mt-powder-processing-5",
+      "name": "Powder injection moulding (MIM/CIM)"
+    },
+    {
+      "id": "mt-powder-processing-6",
+      "name": "Sintering theory: driving forces, neck growth, densification stages and mechanisms"
+    },
+    {
+      "id": "mt-powder-processing-7",
+      "name": "Liquid-phase sintering and cemented carbides"
+    },
+    {
+      "id": "mt-powder-processing-8",
+      "name": "Pressure-assisted sintering: hot pressing, HIP and spark plasma sintering"
+    },
+    {
+      "id": "mt-powder-processing-9",
+      "name": "Sol-gel processing and chemical routes to ceramics"
+    },
+    {
+      "id": "mt-powder-processing-10",
+      "name": "Polymer-derived ceramics"
+    },
+    {
+      "id": "mt-powder-processing-11",
+      "name": "Firing of traditional ceramics and glazes"
+    },
+    {
+      "id": "mt-powder-processing-12",
+      "name": "Defects in powder-processed parts and their control"
+    }
+  ]
+}

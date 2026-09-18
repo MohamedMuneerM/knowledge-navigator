@@ -1,0 +1,49 @@
+{
+  "id": "ch-chemometrics",
+  "name": "Chemometrics & Chemical Data Analysis",
+  "category": "Analytical Chemistry & Instrumentation",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Statistical and multivariate methods for designing experiments and extracting information from chemical data.",
+  "prerequisites": [
+    "ch-quantitative-analysis",
+    "ma-multivariate-statistics"
+  ],
+  "related": [
+    "ma-experimental-design"
+  ],
+  "topics": [
+    {
+      "id": "ch-chemometrics-1",
+      "name": "Experimental design and response-surface methods"
+    },
+    {
+      "id": "ch-chemometrics-2",
+      "name": "Signal preprocessing: smoothing, derivatives and baseline correction"
+    },
+    {
+      "id": "ch-chemometrics-3",
+      "name": "Principal component analysis"
+    },
+    {
+      "id": "ch-chemometrics-4",
+      "name": "Multivariate calibration: PLS and PCR"
+    },
+    {
+      "id": "ch-chemometrics-5",
+      "name": "Classification: LDA, SIMCA and clustering"
+    },
+    {
+      "id": "ch-chemometrics-6",
+      "name": "Multivariate curve resolution"
+    },
+    {
+      "id": "ch-chemometrics-7",
+      "name": "Validation, cross-validation and figures of merit"
+    },
+    {
+      "id": "ch-chemometrics-8",
+      "name": "Machine learning in analytical chemistry"
+    }
+  ]
+}

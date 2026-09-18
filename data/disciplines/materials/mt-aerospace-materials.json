@@ -1,0 +1,68 @@
+{
+  "id": "mt-aerospace-materials",
+  "name": "Aerospace Materials",
+  "category": "Aerospace & Extreme-Environment Materials",
+  "level": 3,
+  "priority": "important",
+  "summary": "Surveys how materials are chosen, qualified and used in aircraft, rockets and spacecraft, where weight, reliability and temperature dominate.",
+  "prerequisites": [
+    "mt-nonferrous-alloys",
+    "mt-composites",
+    "mt-fatigue-failure-analysis"
+  ],
+  "related": [
+    "ae-aerospace-materials",
+    "ae-aerospace-structures",
+    "ae-composite-structures"
+  ],
+  "topics": [
+    {
+      "id": "mt-aerospace-materials-1",
+      "name": "Requirements of aerospace structures: specific stiffness, strength, toughness and damage tolerance"
+    },
+    {
+      "id": "mt-aerospace-materials-2",
+      "name": "Evolution of airframe materials: wood, aluminium, titanium and CFRP"
+    },
+    {
+      "id": "mt-aerospace-materials-3",
+      "name": "Airframe aluminium and aluminium-lithium alloys"
+    },
+    {
+      "id": "mt-aerospace-materials-4",
+      "name": "Titanium in airframes and engines"
+    },
+    {
+      "id": "mt-aerospace-materials-5",
+      "name": "CFRP airframes (e.g. Boeing 787, Airbus A350) and design considerations"
+    },
+    {
+      "id": "mt-aerospace-materials-6",
+      "name": "Jet-engine materials by section: fan, compressor, combustor and turbine"
+    },
+    {
+      "id": "mt-aerospace-materials-7",
+      "name": "Launch-vehicle materials: tanks, thrust structures, engines and fairings"
+    },
+    {
+      "id": "mt-aerospace-materials-8",
+      "name": "Materials for rocket engines: combustion chambers, nozzles and turbopumps"
+    },
+    {
+      "id": "mt-aerospace-materials-9",
+      "name": "Spacecraft structural materials and dimensionally stable structures"
+    },
+    {
+      "id": "mt-aerospace-materials-10",
+      "name": "Design allowables: A- and B-basis values, MMPDS and CMH-17"
+    },
+    {
+      "id": "mt-aerospace-materials-11",
+      "name": "Materials qualification, certification and process specifications"
+    },
+    {
+      "id": "mt-aerospace-materials-12",
+      "name": "Aerospace failure case studies and lessons learned"
+    }
+  ]
+}

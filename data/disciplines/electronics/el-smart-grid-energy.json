@@ -1,0 +1,45 @@
+{
+  "id": "el-smart-grid-energy",
+  "name": "Smart Grid & Energy",
+  "category": "Electrical Machines & Power Systems",
+  "level": 3,
+  "priority": "important",
+  "summary": "The digital grid: smart meters, demand response, distributed energy resources, microgrid control, renewables and vehicle-to-grid.",
+  "prerequisites": [
+    "el-power-system-fundamentals",
+    "el-iot-architecture-layers"
+  ],
+  "related": [
+    "el-renewable-grid-integration"
+  ],
+  "topics": [
+    {
+      "id": "el-smart-grid-energy-1",
+      "name": "Smart meters (electricity, gas, water)"
+    },
+    {
+      "id": "el-smart-grid-energy-2",
+      "name": "Demand response systems"
+    },
+    {
+      "id": "el-smart-grid-energy-3",
+      "name": "Distributed energy resources (DER)"
+    },
+    {
+      "id": "el-smart-grid-energy-4",
+      "name": "Microgrid control"
+    },
+    {
+      "id": "el-smart-grid-energy-5",
+      "name": "Grid stability and fault detection"
+    },
+    {
+      "id": "el-smart-grid-energy-6",
+      "name": "Renewable energy integration (solar, wind)"
+    },
+    {
+      "id": "el-smart-grid-energy-7",
+      "name": "Vehicle-to-Grid (V2G) systems"
+    }
+  ]
+}

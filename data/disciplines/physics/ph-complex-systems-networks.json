@@ -1,0 +1,58 @@
+{
+  "id": "ph-complex-systems-networks",
+  "name": "Complex Systems & Network Physics",
+  "category": "Nonlinear Dynamics & Complex Systems",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Statistical-physics tools for systems of many interacting parts: networks, emergence, criticality and collective behaviour.",
+  "prerequisites": [
+    "ph-thermodynamics-statistical-mechanics",
+    "ma-graph-theory"
+  ],
+  "related": [
+    "ma-network-science",
+    "ph-chaos-theory-nonlinear-dynamics"
+  ],
+  "topics": [
+    {
+      "id": "ph-complex-systems-networks-1",
+      "name": "Complexity, emergence and self-organization"
+    },
+    {
+      "id": "ph-complex-systems-networks-2",
+      "name": "Networks: degree distributions, clustering and path lengths"
+    },
+    {
+      "id": "ph-complex-systems-networks-3",
+      "name": "Random graphs, small-world and scale-free networks"
+    },
+    {
+      "id": "ph-complex-systems-networks-4",
+      "name": "Percolation and network robustness"
+    },
+    {
+      "id": "ph-complex-systems-networks-5",
+      "name": "Spreading processes and epidemics on networks"
+    },
+    {
+      "id": "ph-complex-systems-networks-6",
+      "name": "Synchronization and the Kuramoto model"
+    },
+    {
+      "id": "ph-complex-systems-networks-7",
+      "name": "Self-organized criticality and power laws"
+    },
+    {
+      "id": "ph-complex-systems-networks-8",
+      "name": "Cellular automata and agent-based models"
+    },
+    {
+      "id": "ph-complex-systems-networks-9",
+      "name": "Collective behaviour: flocking and swarming"
+    },
+    {
+      "id": "ph-complex-systems-networks-10",
+      "name": "Information-theoretic measures of complexity"
+    }
+  ]
+}

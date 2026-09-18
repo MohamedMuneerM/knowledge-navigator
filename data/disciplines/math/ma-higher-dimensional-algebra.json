@@ -1,0 +1,30 @@
+{
+  "id": "ma-higher-dimensional-algebra",
+  "name": "Higher-Dimensional Algebra",
+  "category": "Emerging & Advanced Areas",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Higher categories, operads and homotopy type theory: algebra where equalities themselves have structure.",
+  "prerequisites": [
+    "ma-homotopy-theory"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-higher-dimensional-algebra-1",
+      "name": "n-categories"
+    },
+    {
+      "id": "ma-higher-dimensional-algebra-4",
+      "name": "Infinity-categories and quasi-categories"
+    },
+    {
+      "id": "ma-higher-dimensional-algebra-2",
+      "name": "Operads"
+    },
+    {
+      "id": "ma-higher-dimensional-algebra-3",
+      "name": "Homotopy type theory"
+    }
+  ]
+}

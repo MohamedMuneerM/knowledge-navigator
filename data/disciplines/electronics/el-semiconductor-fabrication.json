@@ -1,0 +1,69 @@
+{
+  "id": "el-semiconductor-fabrication",
+  "name": "Semiconductor Fabrication & Process Integration",
+  "category": "Semiconductor Devices & Fabrication",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The full chip-making process from wafer to finished die: lithography, etch, deposition, implantation, CMP, FEOL/BEOL integration and yield.",
+  "prerequisites": [
+    "el-cmos-technology",
+    "el-semiconductor-devices"
+  ],
+  "related": [
+    "ph-nanoscience-nanotechnology"
+  ],
+  "topics": [
+    {
+      "id": "el-semiconductor-fabrication-1",
+      "name": "Wafer production (Czochralski growth, SOI wafers)"
+    },
+    {
+      "id": "el-semiconductor-fabrication-2",
+      "name": "Cleanrooms and contamination control"
+    },
+    {
+      "id": "el-semiconductor-fabrication-3",
+      "name": "Thermal oxidation and diffusion (Deal-Grove model)"
+    },
+    {
+      "id": "el-semiconductor-fabrication-4",
+      "name": "Advanced lithography: DUV immersion, EUV, multi-patterning, OPC"
+    },
+    {
+      "id": "el-semiconductor-fabrication-5",
+      "name": "Etching: wet, plasma/RIE and atomic-layer etch"
+    },
+    {
+      "id": "el-semiconductor-fabrication-6",
+      "name": "Thin-film deposition: PVD, CVD, ALD and epitaxy"
+    },
+    {
+      "id": "el-semiconductor-fabrication-7",
+      "name": "Ion implantation and annealing"
+    },
+    {
+      "id": "el-semiconductor-fabrication-8",
+      "name": "Chemical-mechanical planarization (CMP)"
+    },
+    {
+      "id": "el-semiconductor-fabrication-9",
+      "name": "Front-end-of-line integration: isolation, high-k metal gate, strain"
+    },
+    {
+      "id": "el-semiconductor-fabrication-10",
+      "name": "Back-end-of-line: copper damascene and low-k dielectrics"
+    },
+    {
+      "id": "el-semiconductor-fabrication-11",
+      "name": "Process flows for FinFET and gate-all-around"
+    },
+    {
+      "id": "el-semiconductor-fabrication-12",
+      "name": "Metrology, inspection, yield modelling and SPC"
+    },
+    {
+      "id": "el-semiconductor-fabrication-13",
+      "name": "Process and device simulation (TCAD)"
+    }
+  ]
+}

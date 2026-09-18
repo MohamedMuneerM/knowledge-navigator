@@ -1,0 +1,34 @@
+{
+  "id": "ma-information-geometry-ml-context",
+  "name": "Information Geometry (ML Context)",
+  "category": "Machine Learning & Data Science Mathematics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Information geometry applied to learning: natural gradients and the Fisher information in model training.",
+  "prerequisites": [
+    "ma-information-geometry",
+    "ma-gradient-based-optimization"
+  ],
+  "related": [
+    "ma-information-geometry",
+    "ai-optimization-theory"
+  ],
+  "topics": [
+    {
+      "id": "ma-information-geometry-ml-context-2",
+      "name": "Fisher information"
+    },
+    {
+      "id": "ma-information-geometry-ml-context-1",
+      "name": "Natural gradients"
+    },
+    {
+      "id": "ma-information-geometry-ml-context-3",
+      "name": "Mirror descent and Bregman divergences"
+    },
+    {
+      "id": "ma-information-geometry-ml-context-4",
+      "name": "Geometry of variational inference"
+    }
+  ]
+}

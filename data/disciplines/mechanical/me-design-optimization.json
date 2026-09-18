@@ -1,0 +1,62 @@
+{
+  "id": "me-design-optimization",
+  "name": "Design Optimization",
+  "category": "Computational Engineering & Simulation",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Formulating and solving engineering design problems as optimisation problems, including topology optimisation and multidisciplinary design.",
+  "prerequisites": [
+    "me-finite-element-analysis",
+    "ma-optimization-algorithms"
+  ],
+  "related": [
+    "ma-nonlinear-programming",
+    "ae-multidisciplinary-design-optimization"
+  ],
+  "topics": [
+    {
+      "id": "me-design-optimization-1",
+      "name": "Formulating design optimization problems: variables, objectives and constraints"
+    },
+    {
+      "id": "me-design-optimization-2",
+      "name": "Unconstrained gradient-based methods"
+    },
+    {
+      "id": "me-design-optimization-3",
+      "name": "Constrained optimization: KKT conditions, SQP and penalty methods"
+    },
+    {
+      "id": "me-design-optimization-4",
+      "name": "Sensitivity analysis and adjoint methods"
+    },
+    {
+      "id": "me-design-optimization-5",
+      "name": "Gradient-free methods: genetic algorithms, particle swarm, simulated annealing"
+    },
+    {
+      "id": "me-design-optimization-6",
+      "name": "Multi-objective optimization and Pareto fronts"
+    },
+    {
+      "id": "me-design-optimization-7",
+      "name": "Surrogate models and design of computer experiments"
+    },
+    {
+      "id": "me-design-optimization-8",
+      "name": "Shape and size optimization"
+    },
+    {
+      "id": "me-design-optimization-9",
+      "name": "Topology optimization (SIMP, level-set) and generative design"
+    },
+    {
+      "id": "me-design-optimization-10",
+      "name": "Robust and reliability-based design optimization"
+    },
+    {
+      "id": "me-design-optimization-11",
+      "name": "Multidisciplinary design optimization (MDO)"
+    }
+  ]
+}

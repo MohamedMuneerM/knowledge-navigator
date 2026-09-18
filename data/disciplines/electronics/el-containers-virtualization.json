@@ -1,0 +1,36 @@
+{
+  "id": "el-containers-virtualization",
+  "name": "Containers & Virtualization",
+  "category": "Embedded Software, Firmware & RTOS",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Isolating embedded workloads with containers (Docker, balena, LXC), hypervisors (KVM, Xen) and microkernels.",
+  "prerequisites": [
+    "el-linux-system-services"
+  ],
+  "related": [
+    "cs-virtualization-containers"
+  ],
+  "topics": [
+    {
+      "id": "el-containers-virtualization-1",
+      "name": "Docker containers on embedded"
+    },
+    {
+      "id": "el-containers-virtualization-2",
+      "name": "Balena (container platform for IoT)"
+    },
+    {
+      "id": "el-containers-virtualization-3",
+      "name": "LXC (Linux Containers)"
+    },
+    {
+      "id": "el-containers-virtualization-4",
+      "name": "Hypervisors for embedded (KVM, Xen)"
+    },
+    {
+      "id": "el-containers-virtualization-5",
+      "name": "Microkernel architectures"
+    }
+  ]
+}

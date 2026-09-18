@@ -1,0 +1,57 @@
+{
+  "id": "el-actuators",
+  "name": "Actuators",
+  "category": "Sensors, Transducers & Actuators",
+  "level": 2,
+  "priority": "important",
+  "summary": "The devices that make things move: DC, brushless, stepper and servo motors, solenoids, relays and piezo, SMA and voice-coil actuators.",
+  "prerequisites": [
+    "el-intro-microcontrollers"
+  ],
+  "related": [
+    "el-actuators-drives",
+    "ai-actuators-sensors"
+  ],
+  "topics": [
+    {
+      "id": "el-actuators-1",
+      "name": "DC motors (brushed, brushless BLDC)"
+    },
+    {
+      "id": "el-actuators-2",
+      "name": "Stepper motors (bipolar, unipolar)"
+    },
+    {
+      "id": "el-actuators-3",
+      "name": "Servo motors (RC servos, industrial servos)"
+    },
+    {
+      "id": "el-actuators-4",
+      "name": "Linear actuators"
+    },
+    {
+      "id": "el-actuators-5",
+      "name": "Solenoids and electromagnets"
+    },
+    {
+      "id": "el-actuators-6",
+      "name": "Pneumatic and hydraulic actuators"
+    },
+    {
+      "id": "el-actuators-7",
+      "name": "Piezoelectric actuators"
+    },
+    {
+      "id": "el-actuators-8",
+      "name": "Shape memory alloy (SMA) actuators"
+    },
+    {
+      "id": "el-actuators-9",
+      "name": "Voice coil actuators"
+    },
+    {
+      "id": "el-actuators-10",
+      "name": "Relays (electromechanical, solid-state)"
+    }
+  ]
+}

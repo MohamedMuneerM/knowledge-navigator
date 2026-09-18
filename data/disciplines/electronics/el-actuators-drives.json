@@ -1,0 +1,42 @@
+{
+  "id": "el-actuators-drives",
+  "name": "Robot Actuators & Drives",
+  "category": "Control Systems & Robotics",
+  "level": 2,
+  "priority": "important",
+  "summary": "Choosing and driving the motors, servos, pneumatics and gearboxes that move a robot.",
+  "prerequisites": [
+    "el-actuators"
+  ],
+  "related": [
+    "ai-actuators-sensors",
+    "el-actuators",
+    "me-actuators-drive-trains"
+  ],
+  "topics": [
+    {
+      "id": "el-actuators-drives-1",
+      "name": "DC motor control (brushed, brushless)"
+    },
+    {
+      "id": "el-actuators-drives-2",
+      "name": "Stepper motor control"
+    },
+    {
+      "id": "el-actuators-drives-3",
+      "name": "Servo control"
+    },
+    {
+      "id": "el-actuators-drives-4",
+      "name": "Pneumatic and hydraulic systems"
+    },
+    {
+      "id": "el-actuators-drives-5",
+      "name": "Motor drivers and amplifiers"
+    },
+    {
+      "id": "el-actuators-drives-6",
+      "name": "Gearboxes and transmissions"
+    }
+  ]
+}

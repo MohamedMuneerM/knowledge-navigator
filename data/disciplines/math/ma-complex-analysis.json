@@ -1,0 +1,79 @@
+{
+  "id": "ma-complex-analysis",
+  "name": "Complex Analysis",
+  "category": "Analysis",
+  "level": 3,
+  "priority": "core",
+  "summary": "Calculus of complex functions: analyticity, Cauchy's theorem, residues and conformal maps, powerful in pure maths, physics and engineering.",
+  "prerequisites": [
+    "ma-real-analysis",
+    "ma-multivariable-calculus"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-complex-analysis-9",
+      "name": "Complex numbers and the complex plane"
+    },
+    {
+      "id": "ma-complex-analysis-1",
+      "name": "Analytic functions"
+    },
+    {
+      "id": "ma-complex-analysis-10",
+      "name": "Cauchy-Riemann equations and harmonic functions"
+    },
+    {
+      "id": "ma-complex-analysis-11",
+      "name": "Elementary functions: exponential, logarithm and branches"
+    },
+    {
+      "id": "ma-complex-analysis-3",
+      "name": "Complex integration"
+    },
+    {
+      "id": "ma-complex-analysis-2",
+      "name": "Cauchy's theorem"
+    },
+    {
+      "id": "ma-complex-analysis-12",
+      "name": "Cauchy integral formula and consequences (Liouville, maximum modulus)"
+    },
+    {
+      "id": "ma-complex-analysis-13",
+      "name": "Taylor and Laurent series; singularities"
+    },
+    {
+      "id": "ma-complex-analysis-4",
+      "name": "Residue theory"
+    },
+    {
+      "id": "ma-complex-analysis-14",
+      "name": "Evaluation of real integrals by residues"
+    },
+    {
+      "id": "ma-complex-analysis-15",
+      "name": "Argument principle and Rouche's theorem"
+    },
+    {
+      "id": "ma-complex-analysis-5",
+      "name": "Conformal mappings"
+    },
+    {
+      "id": "ma-complex-analysis-16",
+      "name": "Riemann mapping theorem"
+    },
+    {
+      "id": "ma-complex-analysis-6",
+      "name": "Riemann surfaces"
+    },
+    {
+      "id": "ma-complex-analysis-7",
+      "name": "Complex dynamics"
+    },
+    {
+      "id": "ma-complex-analysis-8",
+      "name": "Several complex variables"
+    }
+  ]
+}

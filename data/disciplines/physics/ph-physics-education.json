@@ -1,0 +1,32 @@
+{
+  "id": "ph-physics-education",
+  "name": "Physics Education",
+  "category": "Foundations, History & Education",
+  "level": 2,
+  "priority": "optional",
+  "summary": "How physics is learned and taught: conceptual understanding, demonstrations and lab education.",
+  "prerequisites": [
+    "ph-introductory-electricity-magnetism"
+  ],
+  "related": [
+    "ma-mathematics-education"
+  ],
+  "topics": [
+    {
+      "id": "ph-physics-education-1",
+      "name": "Pedagogy of physics"
+    },
+    {
+      "id": "ph-physics-education-2",
+      "name": "Conceptual physics"
+    },
+    {
+      "id": "ph-physics-education-3",
+      "name": "Physics demonstrations"
+    },
+    {
+      "id": "ph-physics-education-4",
+      "name": "Laboratory education"
+    }
+  ]
+}

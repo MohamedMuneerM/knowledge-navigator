@@ -1,0 +1,69 @@
+{
+  "id": "mt-thin-films-coatings",
+  "name": "Thin Films, Coatings & Surface Engineering",
+  "category": "Materials Processing & Manufacturing",
+  "level": 3,
+  "priority": "important",
+  "summary": "Covers depositing and engineering thin films and coatings, from semiconductor layers to wear-resistant and thermal-barrier coatings.",
+  "prerequisites": [
+    "mt-interfaces-microstructure-evolution"
+  ],
+  "related": [
+    "el-cmos-technology",
+    "ph-vacuum-cryogenic-systems"
+  ],
+  "topics": [
+    {
+      "id": "mt-thin-films-coatings-1",
+      "name": "Vacuum technology basics for deposition"
+    },
+    {
+      "id": "mt-thin-films-coatings-2",
+      "name": "Physical vapour deposition: evaporation, sputtering and pulsed laser deposition"
+    },
+    {
+      "id": "mt-thin-films-coatings-3",
+      "name": "Chemical vapour deposition and plasma-enhanced CVD"
+    },
+    {
+      "id": "mt-thin-films-coatings-4",
+      "name": "Atomic layer deposition"
+    },
+    {
+      "id": "mt-thin-films-coatings-5",
+      "name": "Epitaxial growth and film growth modes (Frank-van der Merwe, Volmer-Weber, Stranski-Krastanov)"
+    },
+    {
+      "id": "mt-thin-films-coatings-6",
+      "name": "Nucleation and microstructure of films: structure-zone models"
+    },
+    {
+      "id": "mt-thin-films-coatings-7",
+      "name": "Stress in thin films: Stoney equation, wafer curvature and delamination"
+    },
+    {
+      "id": "mt-thin-films-coatings-8",
+      "name": "Electroplating and electroless deposition"
+    },
+    {
+      "id": "mt-thin-films-coatings-9",
+      "name": "Thermal spray: plasma spray, HVOF and cold spray"
+    },
+    {
+      "id": "mt-thin-films-coatings-10",
+      "name": "Hard and wear-resistant coatings: TiN, DLC and diamond"
+    },
+    {
+      "id": "mt-thin-films-coatings-11",
+      "name": "Conversion coatings and anodising"
+    },
+    {
+      "id": "mt-thin-films-coatings-12",
+      "name": "Surface modification: ion implantation, shot peening and laser surface treatment"
+    },
+    {
+      "id": "mt-thin-films-coatings-13",
+      "name": "Measuring film thickness, adhesion and properties"
+    }
+  ]
+}

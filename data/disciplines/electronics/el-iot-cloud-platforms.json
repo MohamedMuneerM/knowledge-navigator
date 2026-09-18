@@ -1,0 +1,69 @@
+{
+  "id": "el-iot-cloud-platforms",
+  "name": "IoT Cloud Platforms",
+  "category": "IoT Architectures, Platforms & Data",
+  "level": 3,
+  "priority": "important",
+  "summary": "The commercial and open-source IoT platforms (AWS IoT, Azure IoT, ThingsBoard, Particle, Arduino Cloud and others) and what they provide.",
+  "prerequisites": [
+    "el-cloud-computing-for-iot",
+    "el-iot-application-protocols"
+  ],
+  "related": [
+    "cs-cloud-computing"
+  ],
+  "topics": [
+    {
+      "id": "el-iot-cloud-platforms-1",
+      "name": "AWS IoT Core - device connectivity, IoT Greengrass (edge)"
+    },
+    {
+      "id": "el-iot-cloud-platforms-2",
+      "name": "Microsoft Azure IoT Hub - device management, Azure IoT Edge"
+    },
+    {
+      "id": "el-iot-cloud-platforms-3",
+      "name": "Google Cloud IoT - Cloud IoT Core, Edge TPU"
+    },
+    {
+      "id": "el-iot-cloud-platforms-4",
+      "name": "IBM Watson IoT - cognitive IoT platform"
+    },
+    {
+      "id": "el-iot-cloud-platforms-5",
+      "name": "ThingsBoard - open-source IoT platform"
+    },
+    {
+      "id": "el-iot-cloud-platforms-6",
+      "name": "Kaa IoT Platform - open-source, enterprise-grade"
+    },
+    {
+      "id": "el-iot-cloud-platforms-7",
+      "name": "Particle - cellular IoT platform"
+    },
+    {
+      "id": "el-iot-cloud-platforms-8",
+      "name": "Balena - container-based device fleet management"
+    },
+    {
+      "id": "el-iot-cloud-platforms-9",
+      "name": "Arduino Cloud - maker-friendly platform"
+    },
+    {
+      "id": "el-iot-cloud-platforms-10",
+      "name": "Blynk - mobile IoT platform"
+    },
+    {
+      "id": "el-iot-cloud-platforms-11",
+      "name": "Ubidots - data visualization and analytics"
+    },
+    {
+      "id": "el-iot-cloud-platforms-12",
+      "name": "ThingSpeak - MATLAB-based IoT analytics"
+    },
+    {
+      "id": "el-iot-cloud-platforms-13",
+      "name": "Losant - low-code IoT platform"
+    }
+  ]
+}

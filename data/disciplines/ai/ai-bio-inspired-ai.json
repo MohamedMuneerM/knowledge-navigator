@@ -1,0 +1,43 @@
+{
+  "id": "ai-bio-inspired-ai",
+  "name": "Bio-Inspired AI",
+  "category": "Cognitive & Nature-Inspired AI",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "AI modelled on the brain: spiking neural networks, neuromorphic computing, brain-computer interfaces, Hebbian learning and predictive coding.",
+  "prerequisites": [
+    "ai-neural-network-foundations",
+    "bi-neuroscience-fundamentals"
+  ],
+  "related": [
+    "el-neuromorphic-computing",
+    "bi-computational-neuroscience",
+    "bi-brain-computer-interfaces"
+  ],
+  "topics": [
+    {
+      "id": "ai-bio-inspired-ai-1",
+      "name": "Spiking Neural Networks"
+    },
+    {
+      "id": "ai-bio-inspired-ai-2",
+      "name": "Neuromorphic Computing"
+    },
+    {
+      "id": "ai-bio-inspired-ai-3",
+      "name": "Brain-Computer Interfaces"
+    },
+    {
+      "id": "ai-bio-inspired-ai-4",
+      "name": "Evolutionary Neural Networks"
+    },
+    {
+      "id": "ai-bio-inspired-ai-5",
+      "name": "Hebbian Learning"
+    },
+    {
+      "id": "ai-bio-inspired-ai-6",
+      "name": "Predictive Coding"
+    }
+  ]
+}

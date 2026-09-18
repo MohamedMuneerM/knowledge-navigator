@@ -1,0 +1,42 @@
+{
+  "id": "el-optical-light-sensors",
+  "name": "Optical & Light Sensors",
+  "category": "Sensors, Transducers & Actuators",
+  "level": 2,
+  "priority": "important",
+  "summary": "Sensing light, colour, UV and infrared with photodiodes, phototransistors and integrated light sensors.",
+  "prerequisites": [
+    "el-intro-microcontrollers"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-optical-light-sensors-1",
+      "name": "Photodiodes and phototransistors"
+    },
+    {
+      "id": "el-optical-light-sensors-2",
+      "name": "Ambient light sensors (ALS)"
+    },
+    {
+      "id": "el-optical-light-sensors-3",
+      "name": "Color sensors (RGB, spectral)"
+    },
+    {
+      "id": "el-optical-light-sensors-4",
+      "name": "UV sensors"
+    },
+    {
+      "id": "el-optical-light-sensors-5",
+      "name": "Infrared sensors"
+    },
+    {
+      "id": "el-optical-light-sensors-6",
+      "name": "Light-to-frequency converters"
+    },
+    {
+      "id": "el-optical-light-sensors-7",
+      "name": "Lux meters"
+    }
+  ]
+}

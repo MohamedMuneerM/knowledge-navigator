@@ -1,0 +1,70 @@
+{
+  "id": "ma-precalculus",
+  "name": "Precalculus",
+  "category": "Pre-University Foundations",
+  "level": 1,
+  "priority": "core",
+  "summary": "Functions and their graphs, polynomial, rational, exponential and logarithmic functions, complex numbers and basic vectors: the direct preparation for calculus.",
+  "prerequisites": [
+    "ma-trigonometry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-precalculus-1",
+      "name": "Functions: domain, range, notation and graphs"
+    },
+    {
+      "id": "ma-precalculus-2",
+      "name": "Transformations and combinations of functions; composition"
+    },
+    {
+      "id": "ma-precalculus-3",
+      "name": "Inverse functions"
+    },
+    {
+      "id": "ma-precalculus-4",
+      "name": "Linear and quadratic functions and models"
+    },
+    {
+      "id": "ma-precalculus-5",
+      "name": "Polynomial functions: zeros, factor theorem and end behaviour"
+    },
+    {
+      "id": "ma-precalculus-6",
+      "name": "Rational functions and asymptotes"
+    },
+    {
+      "id": "ma-precalculus-7",
+      "name": "Exponential functions and growth and decay models"
+    },
+    {
+      "id": "ma-precalculus-8",
+      "name": "Logarithms: properties, change of base and solving equations"
+    },
+    {
+      "id": "ma-precalculus-9",
+      "name": "Piecewise, absolute-value and radical functions"
+    },
+    {
+      "id": "ma-precalculus-10",
+      "name": "Complex numbers: arithmetic, polar form and De Moivre's theorem"
+    },
+    {
+      "id": "ma-precalculus-11",
+      "name": "Vectors in the plane: components, dot product and applications"
+    },
+    {
+      "id": "ma-precalculus-12",
+      "name": "Systems of equations and an introduction to matrices"
+    },
+    {
+      "id": "ma-precalculus-13",
+      "name": "Sequences, series and the binomial theorem"
+    },
+    {
+      "id": "ma-precalculus-14",
+      "name": "Intuitive idea of a limit and rates of change"
+    }
+  ]
+}

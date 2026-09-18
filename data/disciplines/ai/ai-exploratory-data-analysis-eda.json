@@ -1,0 +1,55 @@
+{
+  "id": "ai-exploratory-data-analysis-eda",
+  "name": "Exploratory Data Analysis (EDA)",
+  "category": "Data Science",
+  "level": 2,
+  "priority": "important",
+  "summary": "Getting to know a dataset before modelling through profiling, distributions, correlations, visualization and missing-value and outlier analysis.",
+  "prerequisites": [
+    "ai-mathematics-statistics",
+    "ai-programming-tools"
+  ],
+  "related": [
+    "ma-descriptive-statistics",
+    "cs-information-visualization",
+    "el-analytics-visualization"
+  ],
+  "topics": [
+    {
+      "id": "ai-exploratory-data-analysis-eda-1",
+      "name": "Data Profiling"
+    },
+    {
+      "id": "ai-exploratory-data-analysis-eda-2",
+      "name": "Distribution Analysis"
+    },
+    {
+      "id": "ai-exploratory-data-analysis-eda-3",
+      "name": "Correlation Analysis"
+    },
+    {
+      "id": "ai-exploratory-data-analysis-eda-4",
+      "name": "Visualization Techniques"
+    },
+    {
+      "id": "ai-exploratory-data-analysis-eda-5",
+      "name": "Missing Data Analysis"
+    },
+    {
+      "id": "ai-exploratory-data-analysis-eda-6",
+      "name": "Outlier Detection"
+    },
+    {
+      "id": "ai-exploratory-data-analysis-eda-7",
+      "name": "Data visualization principles: choosing the right chart"
+    },
+    {
+      "id": "ai-exploratory-data-analysis-eda-8",
+      "name": "Multivariate relationships and interaction plots"
+    },
+    {
+      "id": "ai-exploratory-data-analysis-eda-9",
+      "name": "Summarizing and communicating findings"
+    }
+  ]
+}

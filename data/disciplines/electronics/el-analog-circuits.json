@@ -1,0 +1,47 @@
+{
+  "id": "el-analog-circuits",
+  "name": "Analog Building Blocks",
+  "category": "Analog Electronics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Analog building blocks beyond the op-amp: references, current sources, multipliers, sample-and-holds, detectors and log amplifiers.",
+  "prerequisites": [
+    "el-operational-amplifiers",
+    "el-diode-transistor-circuits"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-analog-circuits-1",
+      "name": "Voltage regulators (linear and LDO)"
+    },
+    {
+      "id": "el-analog-circuits-2",
+      "name": "Voltage references and bandgap references"
+    },
+    {
+      "id": "el-analog-circuits-3",
+      "name": "Current sources and current mirrors"
+    },
+    {
+      "id": "el-analog-circuits-4",
+      "name": "Analog multipliers and dividers"
+    },
+    {
+      "id": "el-analog-circuits-5",
+      "name": "Sample-and-hold circuits"
+    },
+    {
+      "id": "el-analog-circuits-6",
+      "name": "Peak detectors and envelope detectors"
+    },
+    {
+      "id": "el-analog-circuits-7",
+      "name": "Logarithmic amplifiers"
+    },
+    {
+      "id": "el-analog-circuits-8",
+      "name": "Analog computation circuits"
+    }
+  ]
+}

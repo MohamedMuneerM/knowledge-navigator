@@ -1,0 +1,72 @@
+{
+  "id": "ae-aerospace-systems-engineering",
+  "name": "Aerospace Systems Engineering",
+  "category": "Systems Engineering, Test & Safety",
+  "level": 3,
+  "priority": "core",
+  "summary": "The NASA/INCOSE systems engineering discipline: life cycle, requirements, architecture, interfaces, reviews, risk and verification.",
+  "prerequisites": [
+    "ae-introduction-to-aerospace-engineering"
+  ],
+  "related": [
+    "el-project-management"
+  ],
+  "topics": [
+    {
+      "id": "ae-aerospace-systems-engineering-1",
+      "name": "What systems engineering is and why aerospace invented it"
+    },
+    {
+      "id": "ae-aerospace-systems-engineering-2",
+      "name": "Project life cycle: Pre-Phase A to Phase F and key decision points"
+    },
+    {
+      "id": "ae-aerospace-systems-engineering-3",
+      "name": "Technical reviews: MCR, SRR, PDR, CDR, TRR, FRR"
+    },
+    {
+      "id": "ae-aerospace-systems-engineering-4",
+      "name": "Stakeholder expectations and concept of operations"
+    },
+    {
+      "id": "ae-aerospace-systems-engineering-5",
+      "name": "Requirements definition, writing good requirements and traceability"
+    },
+    {
+      "id": "ae-aerospace-systems-engineering-6",
+      "name": "Functional analysis and logical decomposition"
+    },
+    {
+      "id": "ae-aerospace-systems-engineering-7",
+      "name": "Architecture and design solution definition; trade studies"
+    },
+    {
+      "id": "ae-aerospace-systems-engineering-8",
+      "name": "Interface management and ICDs"
+    },
+    {
+      "id": "ae-aerospace-systems-engineering-9",
+      "name": "Technical performance measures and margin management"
+    },
+    {
+      "id": "ae-aerospace-systems-engineering-10",
+      "name": "Configuration and data management"
+    },
+    {
+      "id": "ae-aerospace-systems-engineering-11",
+      "name": "Technical risk management"
+    },
+    {
+      "id": "ae-aerospace-systems-engineering-12",
+      "name": "Verification and validation planning"
+    },
+    {
+      "id": "ae-aerospace-systems-engineering-13",
+      "name": "Work breakdown structures, cost and schedule"
+    },
+    {
+      "id": "ae-aerospace-systems-engineering-14",
+      "name": "The NASA Systems Engineering Handbook and ECSS standards"
+    }
+  ]
+}

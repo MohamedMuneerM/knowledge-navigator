@@ -1,0 +1,54 @@
+{
+  "id": "ae-autonomy-onboard-decision-making",
+  "name": "Autonomy for Aerospace Systems",
+  "category": "Avionics & Flight Software",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Onboard autonomy that lets aircraft, rovers and spacecraft plan, act and recover from faults without waiting for humans.",
+  "prerequisites": [
+    "ae-flight-software",
+    "ae-estimation-kalman-filtering"
+  ],
+  "related": [
+    "ai-autonomous-agents",
+    "ai-motion-planning-navigation"
+  ],
+  "topics": [
+    {
+      "id": "ae-autonomy-onboard-decision-making-1",
+      "name": "Levels of autonomy and why deep space needs it"
+    },
+    {
+      "id": "ae-autonomy-onboard-decision-making-2",
+      "name": "Onboard planning and scheduling"
+    },
+    {
+      "id": "ae-autonomy-onboard-decision-making-3",
+      "name": "Model-based diagnosis and fault response"
+    },
+    {
+      "id": "ae-autonomy-onboard-decision-making-4",
+      "name": "Autonomous navigation and hazard avoidance"
+    },
+    {
+      "id": "ae-autonomy-onboard-decision-making-5",
+      "name": "Machine learning onboard spacecraft and aircraft"
+    },
+    {
+      "id": "ae-autonomy-onboard-decision-making-6",
+      "name": "Multi-agent and swarm autonomy"
+    },
+    {
+      "id": "ae-autonomy-onboard-decision-making-7",
+      "name": "Human-autonomy teaming"
+    },
+    {
+      "id": "ae-autonomy-onboard-decision-making-8",
+      "name": "Verification and validation of autonomous systems"
+    },
+    {
+      "id": "ae-autonomy-onboard-decision-making-9",
+      "name": "Case studies: Remote Agent, AEGIS, AutoNav, autonomous air vehicles"
+    }
+  ]
+}

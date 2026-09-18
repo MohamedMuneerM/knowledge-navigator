@@ -1,0 +1,30 @@
+{
+  "id": "el-post-assembly",
+  "name": "Post-Assembly",
+  "category": "PCB Design & Hardware Development",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Finishing a board for the real world: conformal coating, potting, cable assemblies, connectors and final integration.",
+  "prerequisites": [
+    "el-manufacturing-processes"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-post-assembly-1",
+      "name": "Conformal coating (protection from moisture, chemicals)"
+    },
+    {
+      "id": "el-post-assembly-2",
+      "name": "Potting and encapsulation"
+    },
+    {
+      "id": "el-post-assembly-3",
+      "name": "Cable assemblies and connectors"
+    },
+    {
+      "id": "el-post-assembly-4",
+      "name": "Final assembly and integration"
+    }
+  ]
+}

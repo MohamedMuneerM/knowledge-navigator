@@ -1,0 +1,42 @@
+{
+  "id": "el-real-time-concepts",
+  "name": "Real-Time Concepts",
+  "category": "Embedded Software, Firmware & RTOS",
+  "level": 3,
+  "priority": "core",
+  "summary": "What makes a system real-time: hard vs soft deadlines, determinism, latency and jitter, WCET and response-time analysis.",
+  "prerequisites": [
+    "el-concurrency-synchronization"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-real-time-concepts-1",
+      "name": "Hard real-time vs soft real-time"
+    },
+    {
+      "id": "el-real-time-concepts-2",
+      "name": "Real-time constraints and deadlines"
+    },
+    {
+      "id": "el-real-time-concepts-3",
+      "name": "Determinism and predictability"
+    },
+    {
+      "id": "el-real-time-concepts-4",
+      "name": "Latency and jitter analysis"
+    },
+    {
+      "id": "el-real-time-concepts-5",
+      "name": "Worst-Case Execution Time (WCET)"
+    },
+    {
+      "id": "el-real-time-concepts-6",
+      "name": "Response time analysis"
+    },
+    {
+      "id": "el-real-time-concepts-7",
+      "name": "Priority assignment strategies"
+    }
+  ]
+}

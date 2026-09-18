@@ -1,0 +1,67 @@
+{
+  "id": "mt-steels",
+  "name": "Steels & Ferrous Alloys",
+  "category": "Metals & Alloys",
+  "level": 3,
+  "priority": "core",
+  "summary": "Covers the metallurgy of iron and steel, the world's most important structural material, from phase transformations to alloy families.",
+  "prerequisites": [
+    "mt-phase-transformations",
+    "mt-plasticity-strengthening"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "mt-steels-1",
+      "name": "Iron and steel production overview: blast furnace, BOF, EAF, direct reduction and secondary steelmaking"
+    },
+    {
+      "id": "mt-steels-2",
+      "name": "The Fe-C diagram revisited: ferrite, austenite, cementite and pearlite"
+    },
+    {
+      "id": "mt-steels-3",
+      "name": "Transformation products: pearlite, bainite and martensite; tempered martensite"
+    },
+    {
+      "id": "mt-steels-4",
+      "name": "Effects of alloying elements on phase stability and hardenability"
+    },
+    {
+      "id": "mt-steels-5",
+      "name": "Hardenability and the Jominy end-quench test"
+    },
+    {
+      "id": "mt-steels-6",
+      "name": "Plain-carbon and low-alloy steels; AISI/SAE designations"
+    },
+    {
+      "id": "mt-steels-7",
+      "name": "High-strength low-alloy (HSLA) and microalloyed steels; thermomechanical processing"
+    },
+    {
+      "id": "mt-steels-8",
+      "name": "Advanced high-strength steels for lightweight vehicles: DP, TRIP, TWIP, martensitic, Q&P"
+    },
+    {
+      "id": "mt-steels-9",
+      "name": "Tool steels and bearing steels"
+    },
+    {
+      "id": "mt-steels-10",
+      "name": "Stainless steels: ferritic, austenitic, martensitic, duplex and precipitation-hardening"
+    },
+    {
+      "id": "mt-steels-11",
+      "name": "Maraging and ultra-high-strength steels for aerospace landing gear and rocket casings"
+    },
+    {
+      "id": "mt-steels-12",
+      "name": "Cast irons: grey, ductile (nodular), white, malleable and compacted-graphite"
+    },
+    {
+      "id": "mt-steels-13",
+      "name": "Hydrogen embrittlement and temper embrittlement in steels"
+    }
+  ]
+}

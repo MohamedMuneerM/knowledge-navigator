@@ -1,0 +1,40 @@
+{
+  "id": "el-model-optimization-techniques",
+  "name": "Model Optimization Techniques",
+  "category": "Machine Learning & Edge AI",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Shrinking models for deployment with quantization, pruning, distillation, NAS, low-rank factorization and binary networks.",
+  "prerequisites": [
+    "el-tinyml-tiny-machine-learning"
+  ],
+  "related": [
+    "ai-inference-optimization"
+  ],
+  "topics": [
+    {
+      "id": "el-model-optimization-techniques-1",
+      "name": "Quantization (post-training, quantization-aware training)"
+    },
+    {
+      "id": "el-model-optimization-techniques-2",
+      "name": "Pruning (structured, unstructured)"
+    },
+    {
+      "id": "el-model-optimization-techniques-3",
+      "name": "Knowledge distillation"
+    },
+    {
+      "id": "el-model-optimization-techniques-4",
+      "name": "Neural architecture search (NAS)"
+    },
+    {
+      "id": "el-model-optimization-techniques-5",
+      "name": "Low-rank factorization"
+    },
+    {
+      "id": "el-model-optimization-techniques-6",
+      "name": "Binary and ternary networks"
+    }
+  ]
+}

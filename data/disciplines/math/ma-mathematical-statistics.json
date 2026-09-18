@@ -1,0 +1,55 @@
+{
+  "id": "ma-mathematical-statistics",
+  "name": "Mathematical Statistics",
+  "category": "Probability & Statistics",
+  "level": 3,
+  "priority": "important",
+  "summary": "The theory behind statistical methods: sufficiency, estimation theory, likelihood, optimal tests and large-sample asymptotics.",
+  "prerequisites": [
+    "ma-inferential-statistics",
+    "ma-real-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-mathematical-statistics-1",
+      "name": "Statistical models, parameters and sufficiency"
+    },
+    {
+      "id": "ma-mathematical-statistics-2",
+      "name": "Point estimation: method of moments and maximum likelihood"
+    },
+    {
+      "id": "ma-mathematical-statistics-3",
+      "name": "Unbiasedness, Cramer-Rao bound and efficiency"
+    },
+    {
+      "id": "ma-mathematical-statistics-4",
+      "name": "Rao-Blackwell and Lehmann-Scheffe theorems"
+    },
+    {
+      "id": "ma-mathematical-statistics-5",
+      "name": "Exponential families"
+    },
+    {
+      "id": "ma-mathematical-statistics-6",
+      "name": "Hypothesis testing theory: Neyman-Pearson lemma and likelihood ratio tests"
+    },
+    {
+      "id": "ma-mathematical-statistics-7",
+      "name": "Confidence sets and pivots"
+    },
+    {
+      "id": "ma-mathematical-statistics-8",
+      "name": "Large-sample theory: consistency, asymptotic normality and the delta method"
+    },
+    {
+      "id": "ma-mathematical-statistics-9",
+      "name": "Decision theory: risk, admissibility, minimax and Bayes rules"
+    },
+    {
+      "id": "ma-mathematical-statistics-10",
+      "name": "Linear models theory"
+    }
+  ]
+}

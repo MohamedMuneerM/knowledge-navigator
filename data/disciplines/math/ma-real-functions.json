@@ -1,0 +1,42 @@
+{
+  "id": "ma-real-functions",
+  "name": "Real Functions & Inequalities",
+  "category": "Analysis",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Finer properties of real functions: monotonicity, bounded variation, absolute continuity, convexity and the classical inequalities.",
+  "prerequisites": [
+    "ma-real-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-real-functions-1",
+      "name": "Monotone functions and their discontinuities"
+    },
+    {
+      "id": "ma-real-functions-2",
+      "name": "Functions of bounded variation"
+    },
+    {
+      "id": "ma-real-functions-3",
+      "name": "Absolutely continuous functions and the fundamental theorem for Lebesgue integrals"
+    },
+    {
+      "id": "ma-real-functions-4",
+      "name": "Convex functions of one and several variables"
+    },
+    {
+      "id": "ma-real-functions-5",
+      "name": "Classical inequalities: AM-GM, Cauchy-Schwarz, Hoelder, Minkowski and Jensen"
+    },
+    {
+      "id": "ma-real-functions-6",
+      "name": "Continuous nowhere-differentiable functions and pathological examples"
+    },
+    {
+      "id": "ma-real-functions-7",
+      "name": "Differentiability of functions of several real variables; inverse and implicit function theorems"
+    }
+  ]
+}

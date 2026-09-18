@@ -1,0 +1,54 @@
+{
+  "id": "ea-water-resources-management",
+  "name": "Water Resources Management",
+  "category": "Hydrology & Water Resources",
+  "level": 3,
+  "priority": "important",
+  "summary": "How water is supplied, allocated, protected and governed for people and ecosystems under growing demand and climate change.",
+  "prerequisites": [
+    "ea-hydrology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-water-resources-management-1",
+      "name": "Water supply and demand across sectors"
+    },
+    {
+      "id": "ea-water-resources-management-2",
+      "name": "Reservoirs, dams and river-basin management"
+    },
+    {
+      "id": "ea-water-resources-management-3",
+      "name": "Integrated water resources management (IWRM)"
+    },
+    {
+      "id": "ea-water-resources-management-4",
+      "name": "Drought planning and water scarcity"
+    },
+    {
+      "id": "ea-water-resources-management-5",
+      "name": "Water quality standards and source protection"
+    },
+    {
+      "id": "ea-water-resources-management-6",
+      "name": "Water law, rights and transboundary water governance"
+    },
+    {
+      "id": "ea-water-resources-management-7",
+      "name": "The water-energy-food nexus"
+    },
+    {
+      "id": "ea-water-resources-management-8",
+      "name": "Urban water: stormwater, reuse and desalination"
+    },
+    {
+      "id": "ea-water-resources-management-9",
+      "name": "Environmental flows and freshwater ecosystems"
+    },
+    {
+      "id": "ea-water-resources-management-10",
+      "name": "Climate change and water resources"
+    }
+  ]
+}

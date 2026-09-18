@@ -1,0 +1,78 @@
+{
+  "id": "ai-robot-software-ros",
+  "name": "Robot Software, ROS & Simulation",
+  "category": "Robotics Foundations",
+  "level": 2,
+  "priority": "core",
+  "summary": "How robot software is structured and built with ROS 2, from nodes, topics and transforms to navigation, manipulation and physics simulation.",
+  "prerequisites": [
+    "ai-robot-fundamentals",
+    "cs-command-line-shell",
+    "cs-object-oriented-programming"
+  ],
+  "related": [
+    "el-robot-operating-system-ros"
+  ],
+  "topics": [
+    {
+      "id": "ai-robot-software-ros-1",
+      "name": "Robot software architectures: sense-plan-act, behaviour-based, hybrid"
+    },
+    {
+      "id": "ai-robot-software-ros-2",
+      "name": "ROS 2 concepts: nodes, topics, services, actions, parameters"
+    },
+    {
+      "id": "ai-robot-software-ros-3",
+      "name": "DDS middleware and quality of service"
+    },
+    {
+      "id": "ai-robot-software-ros-4",
+      "name": "Workspaces, packages, colcon builds and launch files"
+    },
+    {
+      "id": "ai-robot-software-ros-5",
+      "name": "Coordinate frames and transforms with tf2"
+    },
+    {
+      "id": "ai-robot-software-ros-6",
+      "name": "Robot description: URDF, Xacro and SDF"
+    },
+    {
+      "id": "ai-robot-software-ros-7",
+      "name": "Visualization and debugging: RViz, rqt, rosbag2"
+    },
+    {
+      "id": "ai-robot-software-ros-8",
+      "name": "Physics simulation: Gazebo, Isaac Sim, MuJoCo, Webots, PyBullet"
+    },
+    {
+      "id": "ai-robot-software-ros-9",
+      "name": "Hardware interfaces with ros2_control"
+    },
+    {
+      "id": "ai-robot-software-ros-10",
+      "name": "Navigation with Nav2"
+    },
+    {
+      "id": "ai-robot-software-ros-11",
+      "name": "Motion planning and manipulation with MoveIt 2"
+    },
+    {
+      "id": "ai-robot-software-ros-12",
+      "name": "Perception pipelines: OpenCV and point-cloud bridges"
+    },
+    {
+      "id": "ai-robot-software-ros-13",
+      "name": "Task execution with behaviour trees and state machines"
+    },
+    {
+      "id": "ai-robot-software-ros-14",
+      "name": "Real-time and embedded ROS (micro-ROS)"
+    },
+    {
+      "id": "ai-robot-software-ros-15",
+      "name": "Testing, CI and containerized deployment of robot software"
+    }
+  ]
+}

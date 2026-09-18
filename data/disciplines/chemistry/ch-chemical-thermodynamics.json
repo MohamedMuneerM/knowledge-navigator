@@ -1,0 +1,77 @@
+{
+  "id": "ch-chemical-thermodynamics",
+  "name": "Chemical Thermodynamics",
+  "category": "Physical Chemistry",
+  "level": 3,
+  "priority": "core",
+  "summary": "The laws of thermodynamics applied rigorously to phases, mixtures, solutions and chemical equilibrium.",
+  "prerequisites": [
+    "ch-chemical-equilibrium",
+    "ma-multivariable-calculus"
+  ],
+  "related": [
+    "ph-thermodynamics-statistical-mechanics",
+    "ma-thermodynamics",
+    "ph-chemical-physics-physical-chemistry",
+    "mt-thermodynamics-of-materials",
+    "me-engineering-thermodynamics"
+  ],
+  "topics": [
+    {
+      "id": "ch-chemical-thermodynamics-1",
+      "name": "Systems, state variables, equations of state and partial derivatives"
+    },
+    {
+      "id": "ch-chemical-thermodynamics-2",
+      "name": "First law: work, heat, internal energy, enthalpy and heat capacities"
+    },
+    {
+      "id": "ch-chemical-thermodynamics-3",
+      "name": "Thermochemistry and Kirchhoff's law"
+    },
+    {
+      "id": "ch-chemical-thermodynamics-4",
+      "name": "Second law: entropy, the Carnot cycle and the Clausius inequality"
+    },
+    {
+      "id": "ch-chemical-thermodynamics-5",
+      "name": "Third law and absolute entropies"
+    },
+    {
+      "id": "ch-chemical-thermodynamics-6",
+      "name": "Helmholtz and Gibbs energies; Maxwell relations"
+    },
+    {
+      "id": "ch-chemical-thermodynamics-7",
+      "name": "Chemical potential and fugacity"
+    },
+    {
+      "id": "ch-chemical-thermodynamics-8",
+      "name": "Phase equilibria: Clapeyron and Clausius-Clapeyron equations; the phase rule"
+    },
+    {
+      "id": "ch-chemical-thermodynamics-9",
+      "name": "Thermodynamics of mixing; ideal and non-ideal solutions; activity"
+    },
+    {
+      "id": "ch-chemical-thermodynamics-10",
+      "name": "Binary phase diagrams: liquid-vapor, liquid-solid and eutectics"
+    },
+    {
+      "id": "ch-chemical-thermodynamics-11",
+      "name": "Chemical equilibrium from thermodynamics; temperature and pressure dependence"
+    },
+    {
+      "id": "ch-chemical-thermodynamics-12",
+      "name": "Electrolyte solutions and Debye-Hückel theory"
+    },
+    {
+      "id": "ch-chemical-thermodynamics-13",
+      "name": "Thermodynamics of electrochemical cells"
+    },
+    {
+      "id": "ch-chemical-thermodynamics-14",
+      "name": "Introduction to non-equilibrium thermodynamics"
+    }
+  ]
+}

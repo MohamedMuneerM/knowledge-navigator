@@ -1,0 +1,74 @@
+{
+  "id": "cs-object-oriented-programming",
+  "name": "Object-Oriented Programming",
+  "category": "Programming & Paradigms",
+  "level": 2,
+  "priority": "core",
+  "summary": "Programming with classes, objects, interfaces and polymorphism in a statically typed language such as Java, C# or Kotlin.",
+  "prerequisites": [
+    "cs-program-design"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-object-oriented-programming-1",
+      "name": "A statically typed OO language (Java, C# or Kotlin): syntax and toolchain"
+    },
+    {
+      "id": "cs-object-oriented-programming-2",
+      "name": "Classes, objects, constructors and fields"
+    },
+    {
+      "id": "cs-object-oriented-programming-3",
+      "name": "Encapsulation and access control"
+    },
+    {
+      "id": "cs-object-oriented-programming-4",
+      "name": "Inheritance and method overriding"
+    },
+    {
+      "id": "cs-object-oriented-programming-5",
+      "name": "Polymorphism and dynamic dispatch"
+    },
+    {
+      "id": "cs-object-oriented-programming-6",
+      "name": "Interfaces and abstract classes"
+    },
+    {
+      "id": "cs-object-oriented-programming-7",
+      "name": "Composition versus inheritance"
+    },
+    {
+      "id": "cs-object-oriented-programming-8",
+      "name": "Generics and type parameters"
+    },
+    {
+      "id": "cs-object-oriented-programming-9",
+      "name": "Collections frameworks and iterators"
+    },
+    {
+      "id": "cs-object-oriented-programming-10",
+      "name": "Exceptions and error handling"
+    },
+    {
+      "id": "cs-object-oriented-programming-11",
+      "name": "Object equality, hashing and immutability"
+    },
+    {
+      "id": "cs-object-oriented-programming-12",
+      "name": "Lambdas and functional features in OO languages"
+    },
+    {
+      "id": "cs-object-oriented-programming-13",
+      "name": "UML class and sequence diagrams"
+    },
+    {
+      "id": "cs-object-oriented-programming-14",
+      "name": "SOLID principles (introduction)"
+    },
+    {
+      "id": "cs-object-oriented-programming-15",
+      "name": "Event-driven programming and simple GUIs"
+    }
+  ]
+}

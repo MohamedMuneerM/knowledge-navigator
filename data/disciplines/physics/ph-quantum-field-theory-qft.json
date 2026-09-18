@@ -1,0 +1,85 @@
+{
+  "id": "ph-quantum-field-theory-qft",
+  "name": "Quantum Field Theory (QFT)",
+  "category": "Quantum Physics",
+  "level": 4,
+  "priority": "important",
+  "summary": "The language of modern particle and condensed-matter physics: quantized fields, Feynman diagrams, gauge theories and renormalization.",
+  "prerequisites": [
+    "ph-advanced-quantum-mechanics",
+    "ph-classical-electromagnetism"
+  ],
+  "related": [
+    "ma-quantum-field-theory"
+  ],
+  "topics": [
+    {
+      "id": "ph-quantum-field-theory-qft-15",
+      "name": "Classical field theory and Lagrangian densities"
+    },
+    {
+      "id": "ph-quantum-field-theory-qft-8",
+      "name": "Symmetry and Noether's theorem"
+    },
+    {
+      "id": "ph-quantum-field-theory-qft-2",
+      "name": "Fields and field quantization"
+    },
+    {
+      "id": "ph-quantum-field-theory-qft-1",
+      "name": "Second quantization"
+    },
+    {
+      "id": "ph-quantum-field-theory-qft-6",
+      "name": "Scalar, spinor, vector fields"
+    },
+    {
+      "id": "ph-quantum-field-theory-qft-3",
+      "name": "Feynman diagrams"
+    },
+    {
+      "id": "ph-quantum-field-theory-qft-10",
+      "name": "Quantum electrodynamics (QED)"
+    },
+    {
+      "id": "ph-quantum-field-theory-qft-7",
+      "name": "Path integrals"
+    },
+    {
+      "id": "ph-quantum-field-theory-qft-4",
+      "name": "Renormalization"
+    },
+    {
+      "id": "ph-quantum-field-theory-qft-5",
+      "name": "Gauge theories"
+    },
+    {
+      "id": "ph-quantum-field-theory-qft-16",
+      "name": "Non-abelian gauge theory (Yang-Mills)"
+    },
+    {
+      "id": "ph-quantum-field-theory-qft-9",
+      "name": "Spontaneous symmetry breaking"
+    },
+    {
+      "id": "ph-quantum-field-theory-qft-11",
+      "name": "Quantum chromodynamics (QCD)"
+    },
+    {
+      "id": "ph-quantum-field-theory-qft-17",
+      "name": "The Standard Model as a quantum field theory"
+    },
+    {
+      "id": "ph-quantum-field-theory-qft-12",
+      "name": "Effective field theories"
+    },
+    {
+      "id": "ph-quantum-field-theory-qft-13",
+      "name": "Anomalies"
+    },
+    {
+      "id": "ph-quantum-field-theory-qft-14",
+      "name": "Lattice gauge theory"
+    }
+  ]
+}

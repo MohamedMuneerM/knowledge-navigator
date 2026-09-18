@@ -1,0 +1,62 @@
+{
+  "id": "ph-soft-matter-physics",
+  "name": "Soft Matter Physics",
+  "category": "Condensed Matter Physics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Polymers, colloids, liquid crystals, foams and active matter: materials governed by thermal fluctuations.",
+  "prerequisites": [
+    "ph-thermodynamics-statistical-mechanics"
+  ],
+  "related": [
+    "mt-soft-materials",
+    "ch-polymer-physical-chemistry",
+    "ch-colloid-interface-science"
+  ],
+  "topics": [
+    {
+      "id": "ph-soft-matter-physics-1",
+      "name": "Polymers and polymer physics"
+    },
+    {
+      "id": "ph-soft-matter-physics-2",
+      "name": "Colloids and dispersions"
+    },
+    {
+      "id": "ph-soft-matter-physics-3",
+      "name": "Liquid crystals"
+    },
+    {
+      "id": "ph-soft-matter-physics-4",
+      "name": "Gels and foams"
+    },
+    {
+      "id": "ph-soft-matter-physics-5",
+      "name": "Complex fluids"
+    },
+    {
+      "id": "ph-soft-matter-physics-6",
+      "name": "Biological materials"
+    },
+    {
+      "id": "ph-soft-matter-physics-7",
+      "name": "Active matter"
+    },
+    {
+      "id": "ph-soft-matter-physics-8",
+      "name": "Self-assembly and self-organization"
+    },
+    {
+      "id": "ph-soft-matter-physics-9",
+      "name": "Mechanobiology"
+    },
+    {
+      "id": "ph-soft-matter-physics-10",
+      "name": "Surfactants and membranes"
+    },
+    {
+      "id": "ph-soft-matter-physics-11",
+      "name": "Granular materials"
+    }
+  ]
+}

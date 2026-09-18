@@ -1,0 +1,48 @@
+{
+  "id": "el-automotive-protocols",
+  "name": "Automotive Protocols",
+  "category": "Communication Protocols & Connectivity",
+  "level": 3,
+  "priority": "important",
+  "summary": "Vehicle buses and diagnostics: CAN and CAN FD, LIN, FlexRay, MOST, automotive Ethernet and UDS.",
+  "prerequisites": [
+    "el-serial-protocols"
+  ],
+  "related": [
+    "el-in-vehicle-networking"
+  ],
+  "topics": [
+    {
+      "id": "el-automotive-protocols-1",
+      "name": "CAN (Controller Area Network) - CAN 2.0A, 2.0B"
+    },
+    {
+      "id": "el-automotive-protocols-2",
+      "name": "CAN FD (Flexible Data-rate CAN)"
+    },
+    {
+      "id": "el-automotive-protocols-3",
+      "name": "LIN (Local Interconnect Network)"
+    },
+    {
+      "id": "el-automotive-protocols-4",
+      "name": "FlexRay (deterministic, fault-tolerant)"
+    },
+    {
+      "id": "el-automotive-protocols-5",
+      "name": "MOST (Media Oriented Systems Transport)"
+    },
+    {
+      "id": "el-automotive-protocols-6",
+      "name": "Automotive Ethernet (100BASE-T1, 1000BASE-T1)"
+    },
+    {
+      "id": "el-automotive-protocols-7",
+      "name": "ISO 14229 (UDS - Unified Diagnostic Services)"
+    },
+    {
+      "id": "el-automotive-protocols-8",
+      "name": "ISO 15765 (CAN Transport Protocol)"
+    }
+  ]
+}

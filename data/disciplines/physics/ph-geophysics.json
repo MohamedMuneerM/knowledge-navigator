@@ -1,0 +1,60 @@
+{
+  "id": "ph-geophysics",
+  "name": "Geophysics",
+  "category": "Applied Physics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "The physics of the solid Earth: seismology, gravity, geomagnetism, heat flow and plate tectonics.",
+  "prerequisites": [
+    "ph-fluid-mechanics",
+    "ph-waves-oscillations"
+  ],
+  "related": [
+    "ma-geophysics",
+    "ph-planetary-science",
+    "ea-solid-earth-geophysics",
+    "ea-seismology",
+    "ma-geophysical-environmental-mathematics",
+    "ch-geochemistry-cosmochemistry",
+    "ea-geodynamics",
+    "ea-geomagnetism-and-paleomagnetism"
+  ],
+  "topics": [
+    {
+      "id": "ph-geophysics-1",
+      "name": "Seismology"
+    },
+    {
+      "id": "ph-geophysics-2",
+      "name": "Geomagnetism"
+    },
+    {
+      "id": "ph-geophysics-3",
+      "name": "Volcanology"
+    },
+    {
+      "id": "ph-geophysics-4",
+      "name": "Earth structure and composition"
+    },
+    {
+      "id": "ph-geophysics-5",
+      "name": "Geodynamics"
+    },
+    {
+      "id": "ph-geophysics-6",
+      "name": "Heat flow in the Earth"
+    },
+    {
+      "id": "ph-geophysics-7",
+      "name": "Plate tectonics"
+    },
+    {
+      "id": "ph-geophysics-8",
+      "name": "Mineral physics"
+    },
+    {
+      "id": "ph-geophysics-9",
+      "name": "Gravity and geodesy"
+    }
+  ]
+}

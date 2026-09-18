@@ -1,0 +1,50 @@
+{
+  "id": "ea-geophysical-fluid-dynamics",
+  "name": "Geophysical Fluid Dynamics",
+  "category": "Meteorology & Atmospheric Science",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The unified theory of large-scale flows in the atmosphere and ocean, governed by rotation and stratification.",
+  "prerequisites": [
+    "ea-atmospheric-dynamics",
+    "ea-physical-oceanography"
+  ],
+  "related": [
+    "ph-fluid-mechanics",
+    "ma-fluid-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "ea-geophysical-fluid-dynamics-1",
+      "name": "Rotating and stratified fluids: Rossby and Burger numbers"
+    },
+    {
+      "id": "ea-geophysical-fluid-dynamics-2",
+      "name": "Shallow-water equations and geostrophic adjustment"
+    },
+    {
+      "id": "ea-geophysical-fluid-dynamics-3",
+      "name": "Potential-vorticity dynamics and inversion"
+    },
+    {
+      "id": "ea-geophysical-fluid-dynamics-4",
+      "name": "Linear waves: Poincaré, Kelvin and Rossby"
+    },
+    {
+      "id": "ea-geophysical-fluid-dynamics-5",
+      "name": "Barotropic and baroclinic instability"
+    },
+    {
+      "id": "ea-geophysical-fluid-dynamics-6",
+      "name": "Geostrophic turbulence and eddy transport"
+    },
+    {
+      "id": "ea-geophysical-fluid-dynamics-7",
+      "name": "Ocean and atmosphere boundary layers"
+    },
+    {
+      "id": "ea-geophysical-fluid-dynamics-8",
+      "name": "Wind-driven and thermohaline circulation theory"
+    }
+  ]
+}

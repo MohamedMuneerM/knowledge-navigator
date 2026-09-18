@@ -1,0 +1,68 @@
+{
+  "id": "ai-prompt-engineering",
+  "name": "Prompt Engineering & In-Context Learning",
+  "category": "Large Language Models & LLM Engineering",
+  "level": 2,
+  "priority": "important",
+  "summary": "Getting reliable results from large language models by designing prompts, examples and output formats, and by testing prompts systematically.",
+  "prerequisites": [
+    "ai-introduction-to-ai-ml"
+  ],
+  "related": [
+    "ai-advanced-nlp"
+  ],
+  "topics": [
+    {
+      "id": "ai-prompt-engineering-1",
+      "name": "How LLMs generate text: tokens, context windows and sampling settings"
+    },
+    {
+      "id": "ai-prompt-engineering-2",
+      "name": "Anatomy of a prompt: instructions, context, examples, output format"
+    },
+    {
+      "id": "ai-prompt-engineering-3",
+      "name": "Zero-shot and few-shot prompting (in-context learning)"
+    },
+    {
+      "id": "ai-prompt-engineering-4",
+      "name": "System prompts, roles and personas"
+    },
+    {
+      "id": "ai-prompt-engineering-5",
+      "name": "Chain-of-thought and step-by-step reasoning prompts"
+    },
+    {
+      "id": "ai-prompt-engineering-6",
+      "name": "Structured outputs: JSON and schema-constrained responses"
+    },
+    {
+      "id": "ai-prompt-engineering-7",
+      "name": "Decomposition and prompt chaining"
+    },
+    {
+      "id": "ai-prompt-engineering-8",
+      "name": "Self-consistency, reflection and self-critique"
+    },
+    {
+      "id": "ai-prompt-engineering-9",
+      "name": "Prompting for extraction, summarisation, classification and code"
+    },
+    {
+      "id": "ai-prompt-engineering-10",
+      "name": "Multimodal prompting with images and documents"
+    },
+    {
+      "id": "ai-prompt-engineering-11",
+      "name": "Prompt injection and jailbreaks: risks and defensive prompting"
+    },
+    {
+      "id": "ai-prompt-engineering-12",
+      "name": "Evaluating and iterating prompts with test sets"
+    },
+    {
+      "id": "ai-prompt-engineering-13",
+      "name": "Automatic prompt optimization (DSPy and similar)"
+    }
+  ]
+}

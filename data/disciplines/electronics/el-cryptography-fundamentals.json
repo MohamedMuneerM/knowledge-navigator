@@ -1,0 +1,42 @@
+{
+  "id": "el-cryptography-fundamentals",
+  "name": "Cryptography Fundamentals",
+  "category": "Security, Privacy & Trust",
+  "level": 2,
+  "priority": "important",
+  "summary": "The cryptographic primitives used in devices: symmetric and public-key encryption, hashes, MACs, signatures and key exchange.",
+  "prerequisites": [
+    "ma-elementary-number-theory"
+  ],
+  "related": [
+    "ma-cryptography",
+    "ma-cryptographic-number-theory",
+    "cs-applied-cryptography"
+  ],
+  "topics": [
+    {
+      "id": "el-cryptography-fundamentals-1",
+      "name": "Symmetric encryption (AES, DES, 3DES, ChaCha20)"
+    },
+    {
+      "id": "el-cryptography-fundamentals-2",
+      "name": "Asymmetric encryption (RSA, ECC, DSA)"
+    },
+    {
+      "id": "el-cryptography-fundamentals-3",
+      "name": "Hashing algorithms (SHA-256, SHA-3, BLAKE2)"
+    },
+    {
+      "id": "el-cryptography-fundamentals-4",
+      "name": "Message Authentication Codes (HMAC)"
+    },
+    {
+      "id": "el-cryptography-fundamentals-5",
+      "name": "Digital signatures"
+    },
+    {
+      "id": "el-cryptography-fundamentals-6",
+      "name": "Key exchange protocols (Diffie-Hellman, ECDH)"
+    }
+  ]
+}

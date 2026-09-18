@@ -1,0 +1,63 @@
+{
+  "id": "mt-electroactive-polymers-artificial-muscles",
+  "name": "Electroactive Polymers & Artificial Muscles",
+  "category": "Smart & Active Materials",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Covers soft actuator materials that mimic muscle, from dielectric elastomers to fibre muscles, and what limits their use in robots and wearable exoskeletons.",
+  "prerequisites": [
+    "mt-smart-materials",
+    "mt-polymer-properties"
+  ],
+  "related": [
+    "me-smart-materials-artificial-muscles",
+    "ai-soft-robotics",
+    "me-soft-robotics-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "mt-electroactive-polymers-artificial-muscles-1",
+      "name": "Natural muscle as a benchmark: strain, stress, power density and efficiency"
+    },
+    {
+      "id": "mt-electroactive-polymers-artificial-muscles-2",
+      "name": "Dielectric elastomer actuators: Maxwell stress, electrodes and breakdown"
+    },
+    {
+      "id": "mt-electroactive-polymers-artificial-muscles-3",
+      "name": "Ionic polymer-metal composites and conducting-polymer actuators"
+    },
+    {
+      "id": "mt-electroactive-polymers-artificial-muscles-4",
+      "name": "Liquid-crystal elastomer actuators"
+    },
+    {
+      "id": "mt-electroactive-polymers-artificial-muscles-5",
+      "name": "Hydrogel and stimuli-responsive actuators"
+    },
+    {
+      "id": "mt-electroactive-polymers-artificial-muscles-6",
+      "name": "Twisted and coiled polymer fibre muscles (nylon) and carbon-nanotube yarn muscles"
+    },
+    {
+      "id": "mt-electroactive-polymers-artificial-muscles-7",
+      "name": "Pneumatic and hydraulically amplified soft actuators (HASEL)"
+    },
+    {
+      "id": "mt-electroactive-polymers-artificial-muscles-8",
+      "name": "Electrostrictive and relaxor ferroelectric polymers (P(VDF-TrFE))"
+    },
+    {
+      "id": "mt-electroactive-polymers-artificial-muscles-9",
+      "name": "Stretchable conductors and electrodes"
+    },
+    {
+      "id": "mt-electroactive-polymers-artificial-muscles-10",
+      "name": "Durability, fatigue and control of soft actuators"
+    },
+    {
+      "id": "mt-electroactive-polymers-artificial-muscles-11",
+      "name": "Applications: soft robotics, prosthetics, haptics and wearable assistive suits"
+    }
+  ]
+}

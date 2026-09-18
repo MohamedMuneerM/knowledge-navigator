@@ -1,0 +1,34 @@
+{
+  "id": "el-audio-protocols",
+  "name": "Audio Protocols",
+  "category": "Communication Protocols & Connectivity",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Digital audio interfaces between chips and equipment: I2S, TDM, PCM, S/PDIF and AES3.",
+  "prerequisites": [
+    "el-synchronous-serial-protocols"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-audio-protocols-1",
+      "name": "I²S (Inter-IC Sound)"
+    },
+    {
+      "id": "el-audio-protocols-2",
+      "name": "TDM (Time Division Multiplexing)"
+    },
+    {
+      "id": "el-audio-protocols-3",
+      "name": "PCM (Pulse Code Modulation)"
+    },
+    {
+      "id": "el-audio-protocols-4",
+      "name": "S/PDIF (Sony/Philips Digital Interface)"
+    },
+    {
+      "id": "el-audio-protocols-5",
+      "name": "AES3 (AES/EBU)"
+    }
+  ]
+}

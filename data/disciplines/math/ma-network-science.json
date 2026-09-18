@@ -1,0 +1,61 @@
+{
+  "id": "ma-network-science",
+  "name": "Network Science",
+  "category": "Applied & Interdisciplinary Mathematics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Structure and dynamics of real networks: random graph models, centrality, communities and spreading processes.",
+  "prerequisites": [
+    "ma-graph-theory",
+    "ma-probability-theory",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ai-graph-based-ml",
+    "ph-sociophysics",
+    "ma-graph-theory",
+    "ph-complex-systems-networks"
+  ],
+  "topics": [
+    {
+      "id": "ma-network-science-1",
+      "name": "Network theory"
+    },
+    {
+      "id": "ma-network-science-6",
+      "name": "Degree distributions and scale-free networks"
+    },
+    {
+      "id": "ma-network-science-7",
+      "name": "Random graph models (Erdos-Renyi, Barabasi-Albert)"
+    },
+    {
+      "id": "ma-network-science-8",
+      "name": "Centrality measures"
+    },
+    {
+      "id": "ma-network-science-9",
+      "name": "Community detection"
+    },
+    {
+      "id": "ma-network-science-10",
+      "name": "Spectral methods for networks"
+    },
+    {
+      "id": "ma-network-science-3",
+      "name": "Complex networks"
+    },
+    {
+      "id": "ma-network-science-2",
+      "name": "Social network analysis"
+    },
+    {
+      "id": "ma-network-science-4",
+      "name": "Graph modeling"
+    },
+    {
+      "id": "ma-network-science-5",
+      "name": "Epidemic modeling on networks"
+    }
+  ]
+}

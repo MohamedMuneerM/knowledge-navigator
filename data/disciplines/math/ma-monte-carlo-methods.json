@@ -1,0 +1,48 @@
+{
+  "id": "ma-monte-carlo-methods",
+  "name": "Monte Carlo Methods",
+  "category": "Numerical Analysis & Scientific Computing",
+  "level": 3,
+  "priority": "important",
+  "summary": "Computing with randomness: random sampling, Monte Carlo integration, variance reduction, MCMC and quasi-Monte Carlo.",
+  "prerequisites": [
+    "ma-probability-theory",
+    "cs-programming-fundamentals"
+  ],
+  "related": [
+    "ai-monte-carlo-methods",
+    "ph-computational-physics",
+    "ch-molecular-modeling-simulation",
+    "mt-molecular-dynamics-monte-carlo"
+  ],
+  "topics": [
+    {
+      "id": "ma-monte-carlo-methods-4",
+      "name": "Pseudo-random number generation"
+    },
+    {
+      "id": "ma-monte-carlo-methods-1",
+      "name": "Random sampling"
+    },
+    {
+      "id": "ma-monte-carlo-methods-5",
+      "name": "Monte Carlo integration and error"
+    },
+    {
+      "id": "ma-monte-carlo-methods-2",
+      "name": "Variance reduction"
+    },
+    {
+      "id": "ma-monte-carlo-methods-6",
+      "name": "Importance sampling"
+    },
+    {
+      "id": "ma-monte-carlo-methods-7",
+      "name": "Markov chain Monte Carlo (Metropolis-Hastings, Gibbs)"
+    },
+    {
+      "id": "ma-monte-carlo-methods-3",
+      "name": "Quasi-Monte Carlo"
+    }
+  ]
+}

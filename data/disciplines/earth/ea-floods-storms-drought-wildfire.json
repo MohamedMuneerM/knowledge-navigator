@@ -1,0 +1,52 @@
+{
+  "id": "ea-floods-storms-drought-wildfire",
+  "name": "Floods, Storms, Drought & Wildfire",
+  "category": "Natural Hazards",
+  "level": 3,
+  "priority": "important",
+  "summary": "Hydrometeorological and fire hazards: how floods, storms, droughts and wildfires develop, are forecast and are managed.",
+  "prerequisites": [
+    "ea-hydrology",
+    "ea-meteorology",
+    "ea-natural-hazards-and-disaster-risk"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-floods-storms-drought-wildfire-1",
+      "name": "Flood types: riverine, flash, pluvial and coastal"
+    },
+    {
+      "id": "ea-floods-storms-drought-wildfire-2",
+      "name": "Flood frequency analysis and design floods"
+    },
+    {
+      "id": "ea-floods-storms-drought-wildfire-3",
+      "name": "Flood forecasting, inundation mapping and flood-risk management"
+    },
+    {
+      "id": "ea-floods-storms-drought-wildfire-4",
+      "name": "Hurricane and extratropical storm impacts"
+    },
+    {
+      "id": "ea-floods-storms-drought-wildfire-5",
+      "name": "Drought types, indices and monitoring"
+    },
+    {
+      "id": "ea-floods-storms-drought-wildfire-6",
+      "name": "Heatwaves and compound extremes"
+    },
+    {
+      "id": "ea-floods-storms-drought-wildfire-7",
+      "name": "Wildfire science: fuels, weather, fire behaviour and fire regimes"
+    },
+    {
+      "id": "ea-floods-storms-drought-wildfire-8",
+      "name": "Post-fire hazards: debris flows and water quality"
+    },
+    {
+      "id": "ea-floods-storms-drought-wildfire-9",
+      "name": "Attribution of extreme events to climate change"
+    }
+  ]
+}

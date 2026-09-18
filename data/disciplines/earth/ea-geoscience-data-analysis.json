@@ -1,0 +1,66 @@
+{
+  "id": "ea-geoscience-data-analysis",
+  "name": "Geoscience Data Analysis",
+  "category": "Field, Lab & Quantitative Methods",
+  "level": 3,
+  "priority": "important",
+  "summary": "Statistical and computational tools for Earth and environmental data: uncertainty, regression, time series and spatial statistics.",
+  "prerequisites": [
+    "ea-introduction-to-earth-science",
+    "ma-inferential-statistics",
+    "cs-programming-fundamentals"
+  ],
+  "related": [
+    "ma-time-series-analysis"
+  ],
+  "topics": [
+    {
+      "id": "ea-geoscience-data-analysis-1",
+      "name": "Scientific programming for geoscience (Python/MATLAB/R)"
+    },
+    {
+      "id": "ea-geoscience-data-analysis-2",
+      "name": "Measurement uncertainty and error propagation"
+    },
+    {
+      "id": "ea-geoscience-data-analysis-3",
+      "name": "Distributions, hypothesis tests and bootstrapping in geoscience"
+    },
+    {
+      "id": "ea-geoscience-data-analysis-4",
+      "name": "Linear regression, curve fitting and least squares"
+    },
+    {
+      "id": "ea-geoscience-data-analysis-5",
+      "name": "Directional (circular and spherical) statistics"
+    },
+    {
+      "id": "ea-geoscience-data-analysis-6",
+      "name": "Time-series analysis: trends, autocorrelation and filtering"
+    },
+    {
+      "id": "ea-geoscience-data-analysis-7",
+      "name": "Spectral analysis and wavelets"
+    },
+    {
+      "id": "ea-geoscience-data-analysis-8",
+      "name": "Geostatistics: variograms, kriging and conditional simulation"
+    },
+    {
+      "id": "ea-geoscience-data-analysis-9",
+      "name": "Multivariate methods: PCA and clustering"
+    },
+    {
+      "id": "ea-geoscience-data-analysis-10",
+      "name": "Extreme-value statistics"
+    },
+    {
+      "id": "ea-geoscience-data-analysis-11",
+      "name": "Data visualisation and reproducible workflows"
+    },
+    {
+      "id": "ea-geoscience-data-analysis-12",
+      "name": "Machine learning for Earth data"
+    }
+  ]
+}

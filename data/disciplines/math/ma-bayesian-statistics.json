@@ -1,0 +1,51 @@
+{
+  "id": "ma-bayesian-statistics",
+  "name": "Bayesian Statistics",
+  "category": "Probability & Statistics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Inference by updating beliefs with data: priors, posteriors, hierarchical models and Markov chain Monte Carlo.",
+  "prerequisites": [
+    "ma-inferential-statistics"
+  ],
+  "related": [
+    "ai-probabilistic-ml",
+    "ph-astrostatistics",
+    "ph-data-analysis-statistics",
+    "ai-probabilistic-programming"
+  ],
+  "topics": [
+    {
+      "id": "ma-bayesian-statistics-4",
+      "name": "Bayes' theorem for inference"
+    },
+    {
+      "id": "ma-bayesian-statistics-1",
+      "name": "Prior and posterior distributions"
+    },
+    {
+      "id": "ma-bayesian-statistics-5",
+      "name": "Conjugate priors"
+    },
+    {
+      "id": "ma-bayesian-statistics-2",
+      "name": "Bayesian inference"
+    },
+    {
+      "id": "ma-bayesian-statistics-6",
+      "name": "Hierarchical models"
+    },
+    {
+      "id": "ma-bayesian-statistics-3",
+      "name": "Markov chain Monte Carlo"
+    },
+    {
+      "id": "ma-bayesian-statistics-7",
+      "name": "Model comparison and Bayes factors"
+    },
+    {
+      "id": "ma-bayesian-statistics-8",
+      "name": "Variational inference"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "ea-analytical-methods-in-geochemistry",
+  "name": "Analytical Methods in Geochemistry & Mineralogy",
+  "category": "Field, Lab & Quantitative Methods",
+  "level": 3,
+  "priority": "important",
+  "summary": "The laboratory instruments and techniques used to measure the chemistry, structure and isotopes of Earth materials.",
+  "prerequisites": [
+    "ea-mineralogy",
+    "ea-geochemistry-fundamentals",
+    "ch-quantitative-analysis"
+  ],
+  "related": [
+    "ch-instrumental-analysis",
+    "ch-mass-spectrometry",
+    "mt-electron-microscopy",
+    "mt-xray-neutron-methods"
+  ],
+  "topics": [
+    {
+      "id": "ea-analytical-methods-in-geochemistry-1",
+      "name": "Sample preparation and clean-lab procedures"
+    },
+    {
+      "id": "ea-analytical-methods-in-geochemistry-2",
+      "name": "X-ray fluorescence (XRF)"
+    },
+    {
+      "id": "ea-analytical-methods-in-geochemistry-3",
+      "name": "X-ray diffraction (XRD)"
+    },
+    {
+      "id": "ea-analytical-methods-in-geochemistry-4",
+      "name": "Electron microscopy (SEM) and electron microprobe (EPMA)"
+    },
+    {
+      "id": "ea-analytical-methods-in-geochemistry-5",
+      "name": "ICP-OES and ICP-MS"
+    },
+    {
+      "id": "ea-analytical-methods-in-geochemistry-6",
+      "name": "Laser-ablation and secondary-ion mass spectrometry (LA-ICP-MS, SIMS)"
+    },
+    {
+      "id": "ea-analytical-methods-in-geochemistry-7",
+      "name": "Isotope-ratio and noble-gas mass spectrometry"
+    },
+    {
+      "id": "ea-analytical-methods-in-geochemistry-8",
+      "name": "Spectroscopy: Raman, infrared and Mössbauer"
+    },
+    {
+      "id": "ea-analytical-methods-in-geochemistry-9",
+      "name": "Standards, calibration and quality assurance"
+    }
+  ]
+}

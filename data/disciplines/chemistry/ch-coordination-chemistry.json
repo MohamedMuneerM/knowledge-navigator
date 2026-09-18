@@ -1,0 +1,63 @@
+{
+  "id": "ch-coordination-chemistry",
+  "name": "Coordination Chemistry",
+  "category": "Inorganic Chemistry",
+  "level": 3,
+  "priority": "core",
+  "summary": "Structure, bonding, spectra, magnetism and reactions of transition-metal complexes.",
+  "prerequisites": [
+    "ch-descriptive-inorganic-chemistry",
+    "ch-symmetry-group-theory"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-coordination-chemistry-1",
+      "name": "Ligands, denticity, the chelate effect and coordination numbers"
+    },
+    {
+      "id": "ch-coordination-chemistry-2",
+      "name": "Geometries and isomerism of coordination complexes"
+    },
+    {
+      "id": "ch-coordination-chemistry-3",
+      "name": "Crystal field theory: d-orbital splitting, CFSE, high vs low spin"
+    },
+    {
+      "id": "ch-coordination-chemistry-4",
+      "name": "Ligand field and MO theory of complexes; the spectrochemical series"
+    },
+    {
+      "id": "ch-coordination-chemistry-5",
+      "name": "The Jahn-Teller effect"
+    },
+    {
+      "id": "ch-coordination-chemistry-6",
+      "name": "Electronic spectra: term symbols, Tanabe-Sugano diagrams and charge transfer"
+    },
+    {
+      "id": "ch-coordination-chemistry-7",
+      "name": "Magnetism of complexes: spin-only moments and orbital contributions"
+    },
+    {
+      "id": "ch-coordination-chemistry-8",
+      "name": "Thermodynamic stability: formation constants and the Irving-Williams series"
+    },
+    {
+      "id": "ch-coordination-chemistry-9",
+      "name": "Substitution mechanisms (associative, dissociative, interchange) and the trans effect"
+    },
+    {
+      "id": "ch-coordination-chemistry-10",
+      "name": "Electron-transfer reactions: inner- and outer-sphere mechanisms"
+    },
+    {
+      "id": "ch-coordination-chemistry-11",
+      "name": "Lanthanide and actinide coordination chemistry"
+    },
+    {
+      "id": "ch-coordination-chemistry-12",
+      "name": "Applications: pigments, MRI contrast agents and platinum anticancer drugs"
+    }
+  ]
+}

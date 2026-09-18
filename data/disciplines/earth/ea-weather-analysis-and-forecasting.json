@@ -1,0 +1,59 @@
+{
+  "id": "ea-weather-analysis-and-forecasting",
+  "name": "Weather Systems & Forecasting",
+  "category": "Meteorology & Atmospheric Science",
+  "level": 3,
+  "priority": "important",
+  "summary": "Synoptic, mesoscale and tropical weather systems and the practice of analysing and forecasting the weather.",
+  "prerequisites": [
+    "ea-atmospheric-dynamics",
+    "ea-atmospheric-thermodynamics-and-cloud-physics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-weather-analysis-and-forecasting-1",
+      "name": "Weather observations and surface/upper-air chart analysis"
+    },
+    {
+      "id": "ea-weather-analysis-and-forecasting-2",
+      "name": "Extratropical cyclones: Norwegian model, conveyor belts and frontogenesis"
+    },
+    {
+      "id": "ea-weather-analysis-and-forecasting-3",
+      "name": "Jet streams, troughs, ridges and blocking"
+    },
+    {
+      "id": "ea-weather-analysis-and-forecasting-4",
+      "name": "Mesoscale convective systems and squall lines"
+    },
+    {
+      "id": "ea-weather-analysis-and-forecasting-5",
+      "name": "Supercells, tornadogenesis and severe-weather forecasting"
+    },
+    {
+      "id": "ea-weather-analysis-and-forecasting-6",
+      "name": "Orographic, lake-effect and winter weather"
+    },
+    {
+      "id": "ea-weather-analysis-and-forecasting-7",
+      "name": "Tropical meteorology: ITCZ, easterly waves and monsoons"
+    },
+    {
+      "id": "ea-weather-analysis-and-forecasting-8",
+      "name": "Tropical cyclones: genesis, structure and intensity"
+    },
+    {
+      "id": "ea-weather-analysis-and-forecasting-9",
+      "name": "Tropical variability: MJO and ENSO in the atmosphere"
+    },
+    {
+      "id": "ea-weather-analysis-and-forecasting-10",
+      "name": "Satellite and radar interpretation"
+    },
+    {
+      "id": "ea-weather-analysis-and-forecasting-11",
+      "name": "Forecast process, forecast products and communication"
+    }
+  ]
+}

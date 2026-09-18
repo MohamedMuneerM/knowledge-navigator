@@ -1,0 +1,50 @@
+{
+  "id": "ma-optimization-algorithms",
+  "name": "Optimization Algorithms",
+  "category": "Numerical Analysis & Scientific Computing",
+  "level": 3,
+  "priority": "important",
+  "summary": "Numerical algorithms for optimisation: gradient, Newton and quasi-Newton, conjugate gradient and interior-point methods.",
+  "prerequisites": [
+    "ma-nonlinear-programming",
+    "ma-numerical-linear-algebra"
+  ],
+  "related": [
+    "ma-gradient-based-optimization",
+    "ai-optimization-theory"
+  ],
+  "topics": [
+    {
+      "id": "ma-optimization-algorithms-5",
+      "name": "Line search and trust region methods"
+    },
+    {
+      "id": "ma-optimization-algorithms-1",
+      "name": "Gradient descent"
+    },
+    {
+      "id": "ma-optimization-algorithms-2",
+      "name": "Newton's method"
+    },
+    {
+      "id": "ma-optimization-algorithms-6",
+      "name": "Quasi-Newton methods (BFGS)"
+    },
+    {
+      "id": "ma-optimization-algorithms-3",
+      "name": "Conjugate gradient"
+    },
+    {
+      "id": "ma-optimization-algorithms-7",
+      "name": "Constrained optimisation: penalty and augmented Lagrangian methods"
+    },
+    {
+      "id": "ma-optimization-algorithms-4",
+      "name": "Interior point methods"
+    },
+    {
+      "id": "ma-optimization-algorithms-8",
+      "name": "Derivative-free methods"
+    }
+  ]
+}

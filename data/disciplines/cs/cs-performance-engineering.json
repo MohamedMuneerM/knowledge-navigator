@@ -1,0 +1,70 @@
+{
+  "id": "cs-performance-engineering",
+  "name": "Software Performance Engineering",
+  "category": "Computer Architecture & Systems Programming",
+  "level": 3,
+  "priority": "important",
+  "summary": "Making programs fast in practice: measurement, profiling, cache-aware data layout, vectorization, parallel scalability and avoiding performance regressions.",
+  "prerequisites": [
+    "cs-computer-architecture",
+    "cs-algorithms"
+  ],
+  "related": [
+    "el-performance-analysis",
+    "el-trace-profiling"
+  ],
+  "topics": [
+    {
+      "id": "cs-performance-engineering-1",
+      "name": "Benchmarking methodology and statistics of measurement"
+    },
+    {
+      "id": "cs-performance-engineering-2",
+      "name": "Profiling: sampling profilers, perf and flame graphs"
+    },
+    {
+      "id": "cs-performance-engineering-3",
+      "name": "Hardware performance counters"
+    },
+    {
+      "id": "cs-performance-engineering-4",
+      "name": "Work-reducing optimizations (Bentley rules)"
+    },
+    {
+      "id": "cs-performance-engineering-5",
+      "name": "Cache-efficient algorithms and data layout"
+    },
+    {
+      "id": "cs-performance-engineering-6",
+      "name": "Bit hacks and instruction-level optimization"
+    },
+    {
+      "id": "cs-performance-engineering-7",
+      "name": "Compiler optimizations and reading generated assembly"
+    },
+    {
+      "id": "cs-performance-engineering-8",
+      "name": "Vectorization with SIMD"
+    },
+    {
+      "id": "cs-performance-engineering-9",
+      "name": "Multithreaded performance: false sharing and scalability"
+    },
+    {
+      "id": "cs-performance-engineering-10",
+      "name": "Memory-allocation performance"
+    },
+    {
+      "id": "cs-performance-engineering-11",
+      "name": "Performance of managed runtimes and garbage collection"
+    },
+    {
+      "id": "cs-performance-engineering-12",
+      "name": "Latency versus throughput and tail latency"
+    },
+    {
+      "id": "cs-performance-engineering-13",
+      "name": "Performance regression testing"
+    }
+  ]
+}

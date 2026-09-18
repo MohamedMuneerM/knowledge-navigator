@@ -1,0 +1,54 @@
+{
+  "id": "ai-advanced-nlp",
+  "name": "Advanced NLP",
+  "category": "Natural Language & Speech Processing",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Current NLP research directions: retrieval augmentation, in-context learning and chain-of-thought, instruction tuning, multilingual and low-resource NLP and document understanding.",
+  "prerequisites": [
+    "ai-nlp-tasks-applications",
+    "ai-large-language-models-llms"
+  ],
+  "related": [
+    "ai-retrieval-augmented-generation",
+    "ai-prompt-engineering"
+  ],
+  "topics": [
+    {
+      "id": "ai-advanced-nlp-1",
+      "name": "Retrieval-Augmented Generation (RAG)"
+    },
+    {
+      "id": "ai-advanced-nlp-2",
+      "name": "Chain-of-Thought Prompting"
+    },
+    {
+      "id": "ai-advanced-nlp-3",
+      "name": "In-Context Learning"
+    },
+    {
+      "id": "ai-advanced-nlp-4",
+      "name": "Instruction Tuning"
+    },
+    {
+      "id": "ai-advanced-nlp-5",
+      "name": "Multilingual NLP"
+    },
+    {
+      "id": "ai-advanced-nlp-6",
+      "name": "Cross-lingual Transfer"
+    },
+    {
+      "id": "ai-advanced-nlp-7",
+      "name": "Low-Resource NLP"
+    },
+    {
+      "id": "ai-advanced-nlp-8",
+      "name": "Document Understanding"
+    },
+    {
+      "id": "ai-advanced-nlp-9",
+      "name": "Multimodal NLP"
+    }
+  ]
+}

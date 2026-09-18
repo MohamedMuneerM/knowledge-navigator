@@ -1,0 +1,79 @@
+{
+  "id": "ma-probability-theory",
+  "name": "Probability Theory",
+  "category": "Probability & Statistics",
+  "level": 2,
+  "priority": "core",
+  "summary": "Calculus-based probability: random variables, distributions, expectation, joint distributions, the law of large numbers and the central limit theorem.",
+  "prerequisites": [
+    "ma-elementary-probability",
+    "ma-multivariable-calculus"
+  ],
+  "related": [
+    "ai-mathematics-statistics"
+  ],
+  "topics": [
+    {
+      "id": "ma-probability-theory-1",
+      "name": "Probability spaces"
+    },
+    {
+      "id": "ma-probability-theory-8",
+      "name": "Combinatorial probability"
+    },
+    {
+      "id": "ma-probability-theory-5",
+      "name": "Conditional probability"
+    },
+    {
+      "id": "ma-probability-theory-9",
+      "name": "Independence and Bayes' theorem"
+    },
+    {
+      "id": "ma-probability-theory-2",
+      "name": "Random variables"
+    },
+    {
+      "id": "ma-probability-theory-3",
+      "name": "Probability distributions",
+      "sub": [
+        {
+          "id": "ma-probability-theory-3-1",
+          "name": "Discrete distributions: binomial, Poisson, geometric"
+        },
+        {
+          "id": "ma-probability-theory-3-2",
+          "name": "Continuous distributions: uniform, exponential, normal"
+        }
+      ]
+    },
+    {
+      "id": "ma-probability-theory-4",
+      "name": "Expectation and variance"
+    },
+    {
+      "id": "ma-probability-theory-10",
+      "name": "Joint distributions, covariance and correlation"
+    },
+    {
+      "id": "ma-probability-theory-11",
+      "name": "Transformations of random variables"
+    },
+    {
+      "id": "ma-probability-theory-12",
+      "name": "Moment generating functions"
+    },
+    {
+      "id": "ma-probability-theory-13",
+      "name": "Inequalities: Markov and Chebyshev"
+    },
+    {
+      "id": "ma-probability-theory-6",
+      "name": "Law of large numbers"
+    },
+    {
+      "id": "ma-probability-theory-7",
+      "name": "Central limit theorem"
+    }
+  ]
+}

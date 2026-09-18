@@ -1,0 +1,68 @@
+{
+  "id": "ch-quantitative-analysis",
+  "name": "Quantitative Chemical Analysis",
+  "category": "Analytical Chemistry & Instrumentation",
+  "level": 2,
+  "priority": "core",
+  "summary": "The analytical process, statistics of measurement and classical wet-chemical methods of quantitative analysis.",
+  "prerequisites": [
+    "ch-acids-bases-aqueous-equilibria",
+    "ch-redox-electrochemistry-basics",
+    "ma-descriptive-statistics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-quantitative-analysis-1",
+      "name": "The analytical process: problem definition, sampling and sample preparation"
+    },
+    {
+      "id": "ch-quantitative-analysis-2",
+      "name": "Measurement errors: systematic vs random; accuracy and precision"
+    },
+    {
+      "id": "ch-quantitative-analysis-3",
+      "name": "Statistics for analysts: confidence intervals, t-tests, F-test and outliers"
+    },
+    {
+      "id": "ch-quantitative-analysis-4",
+      "name": "Calibration: linear regression, standard addition and internal standards"
+    },
+    {
+      "id": "ch-quantitative-analysis-5",
+      "name": "Figures of merit: detection limit, sensitivity, selectivity and linear range"
+    },
+    {
+      "id": "ch-quantitative-analysis-6",
+      "name": "Gravimetric analysis"
+    },
+    {
+      "id": "ch-quantitative-analysis-7",
+      "name": "Acid-base titrations in depth, including nonaqueous titrations"
+    },
+    {
+      "id": "ch-quantitative-analysis-8",
+      "name": "Complexometric (EDTA) titrations"
+    },
+    {
+      "id": "ch-quantitative-analysis-9",
+      "name": "Redox and precipitation titrations"
+    },
+    {
+      "id": "ch-quantitative-analysis-10",
+      "name": "Activity, ionic strength and systematic treatment of equilibrium"
+    },
+    {
+      "id": "ch-quantitative-analysis-11",
+      "name": "Introduction to spectrophotometry and Beer's law"
+    },
+    {
+      "id": "ch-quantitative-analysis-12",
+      "name": "Quality assurance, method validation and good laboratory practice"
+    },
+    {
+      "id": "ch-quantitative-analysis-13",
+      "name": "Metrology: traceability, uncertainty budgets and reference materials"
+    }
+  ]
+}

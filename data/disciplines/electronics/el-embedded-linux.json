@@ -1,0 +1,54 @@
+{
+  "id": "el-embedded-linux",
+  "name": "Embedded Linux",
+  "category": "Embedded Software, Firmware & RTOS",
+  "level": 3,
+  "priority": "important",
+  "summary": "Running Linux on embedded hardware: kernel configuration, PREEMPT_RT, device trees, kernel modules and building images with Yocto and Buildroot.",
+  "prerequisites": [
+    "el-boot-startup",
+    "cs-operating-systems"
+  ],
+  "related": [
+    "cs-advanced-operating-systems",
+    "cs-linux-system-administration"
+  ],
+  "topics": [
+    {
+      "id": "el-embedded-linux-1",
+      "name": "Linux kernel for embedded systems"
+    },
+    {
+      "id": "el-embedded-linux-2",
+      "name": "Real-time patches (PREEMPT_RT)"
+    },
+    {
+      "id": "el-embedded-linux-3",
+      "name": "Yocto Project (custom Linux distributions)"
+    },
+    {
+      "id": "el-embedded-linux-4",
+      "name": "Buildroot (lightweight build system)"
+    },
+    {
+      "id": "el-embedded-linux-5",
+      "name": "OpenWrt (router/networking focused)"
+    },
+    {
+      "id": "el-embedded-linux-6",
+      "name": "Device tree and kernel configuration"
+    },
+    {
+      "id": "el-embedded-linux-7",
+      "name": "Kernel modules and drivers"
+    },
+    {
+      "id": "el-embedded-linux-8",
+      "name": "User space vs kernel space"
+    },
+    {
+      "id": "el-embedded-linux-9",
+      "name": "System calls and interfaces"
+    }
+  ]
+}

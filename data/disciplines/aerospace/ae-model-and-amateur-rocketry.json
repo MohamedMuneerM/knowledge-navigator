@@ -1,0 +1,66 @@
+{
+  "id": "ae-model-and-amateur-rocketry",
+  "name": "Model and Amateur Rocketry",
+  "category": "Introduction to Aerospace",
+  "level": 1,
+  "priority": "important",
+  "summary": "Hands-on rocketry for beginners: building and flying model and high-power rockets safely under the NAR and Tripoli safety codes and aviation rules.",
+  "prerequisites": [
+    "ae-rocketry-basics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-model-and-amateur-rocketry-1",
+      "name": "Model rocket anatomy: body tube, nose cone, fins, launch lug, recovery system"
+    },
+    {
+      "id": "ae-model-and-amateur-rocketry-2",
+      "name": "Commercial motors: impulse classes (A to O), thrust curves and motor designations"
+    },
+    {
+      "id": "ae-model-and-amateur-rocketry-3",
+      "name": "Stability: finding CG and CP, the Barrowman method and the one-caliber rule"
+    },
+    {
+      "id": "ae-model-and-amateur-rocketry-4",
+      "name": "Flight simulation with OpenRocket or RockSim"
+    },
+    {
+      "id": "ae-model-and-amateur-rocketry-5",
+      "name": "Recovery systems: parachutes, streamers, dual deploy, ejection charges and altimeters"
+    },
+    {
+      "id": "ae-model-and-amateur-rocketry-6",
+      "name": "NAR Model Rocket Safety Code and High Power Rocket Safety Code"
+    },
+    {
+      "id": "ae-model-and-amateur-rocketry-7",
+      "name": "Tripoli Rocketry Association safety code and high-power certification levels (L1 to L3)"
+    },
+    {
+      "id": "ae-model-and-amateur-rocketry-8",
+      "name": "Launch site setup: range safety officer, launch controllers, pads and standoff distances"
+    },
+    {
+      "id": "ae-model-and-amateur-rocketry-9",
+      "name": "Airspace regulations: FAA Part 101 and waivers (and national equivalents)"
+    },
+    {
+      "id": "ae-model-and-amateur-rocketry-10",
+      "name": "Avionics for hobby rockets: flight computers, telemetry and GPS tracking"
+    },
+    {
+      "id": "ae-model-and-amateur-rocketry-11",
+      "name": "Experimental and research motors: why propellant making requires training and licensing"
+    },
+    {
+      "id": "ae-model-and-amateur-rocketry-12",
+      "name": "Student competitions: Spaceport America Cup, TARC, and university rocketry teams"
+    },
+    {
+      "id": "ae-model-and-amateur-rocketry-13",
+      "name": "Amateur liquid-fuel and sounding rocket projects and their safety culture"
+    }
+  ]
+}

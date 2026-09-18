@@ -1,0 +1,46 @@
+{
+  "id": "ch-forensic-heritage-chemistry",
+  "name": "Forensic & Heritage Chemistry",
+  "category": "Industrial & Applied Chemistry",
+  "level": 3,
+  "priority": "optional",
+  "summary": "Applying analytical chemistry to legal evidence, art conservation and archaeology.",
+  "prerequisites": [
+    "ch-separation-science"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-forensic-heritage-chemistry-1",
+      "name": "The forensic chemistry workflow and chain of custody"
+    },
+    {
+      "id": "ch-forensic-heritage-chemistry-2",
+      "name": "Drug identification and toxicological analysis"
+    },
+    {
+      "id": "ch-forensic-heritage-chemistry-3",
+      "name": "Trace evidence: fibres, paint, glass and gunshot residue"
+    },
+    {
+      "id": "ch-forensic-heritage-chemistry-4",
+      "name": "Fire-debris and explosive-residue analysis"
+    },
+    {
+      "id": "ch-forensic-heritage-chemistry-5",
+      "name": "Chemistry of DNA profiling"
+    },
+    {
+      "id": "ch-forensic-heritage-chemistry-6",
+      "name": "Forensic statistics and presentation of evidence"
+    },
+    {
+      "id": "ch-forensic-heritage-chemistry-7",
+      "name": "Chemistry of art and cultural heritage: pigments and conservation"
+    },
+    {
+      "id": "ch-forensic-heritage-chemistry-8",
+      "name": "Archaeological science: residue analysis, dating and provenance"
+    }
+  ]
+}

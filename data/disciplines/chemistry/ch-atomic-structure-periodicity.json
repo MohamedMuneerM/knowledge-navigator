@@ -1,0 +1,54 @@
+{
+  "id": "ch-atomic-structure-periodicity",
+  "name": "Atomic Structure & Periodicity",
+  "category": "General Chemistry",
+  "level": 2,
+  "priority": "core",
+  "summary": "The quantum model of the atom, electron configurations and the periodic trends they explain.",
+  "prerequisites": [
+    "ch-introductory-chemistry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-atomic-structure-periodicity-1",
+      "name": "Electromagnetic radiation, photons and the photoelectric effect"
+    },
+    {
+      "id": "ch-atomic-structure-periodicity-2",
+      "name": "Atomic line spectra and the Bohr model"
+    },
+    {
+      "id": "ch-atomic-structure-periodicity-3",
+      "name": "Wave-particle duality and the uncertainty principle"
+    },
+    {
+      "id": "ch-atomic-structure-periodicity-4",
+      "name": "The Schrödinger equation qualitatively: the hydrogen atom and atomic orbitals"
+    },
+    {
+      "id": "ch-atomic-structure-periodicity-5",
+      "name": "Quantum numbers and orbital shapes"
+    },
+    {
+      "id": "ch-atomic-structure-periodicity-6",
+      "name": "Multi-electron atoms: shielding, effective nuclear charge, Aufbau, Hund and Pauli"
+    },
+    {
+      "id": "ch-atomic-structure-periodicity-7",
+      "name": "Electron configurations and the structure of the periodic table"
+    },
+    {
+      "id": "ch-atomic-structure-periodicity-8",
+      "name": "Periodic trends: atomic and ionic radii, ionization energy, electron affinity, electronegativity"
+    },
+    {
+      "id": "ch-atomic-structure-periodicity-9",
+      "name": "Metallic character and reactivity trends across groups"
+    },
+    {
+      "id": "ch-atomic-structure-periodicity-10",
+      "name": "History and organization of the periodic table"
+    }
+  ]
+}

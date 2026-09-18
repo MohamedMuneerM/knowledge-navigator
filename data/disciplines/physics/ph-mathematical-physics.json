@@ -1,0 +1,84 @@
+{
+  "id": "ph-mathematical-physics",
+  "name": "Mathematical Physics",
+  "category": "Mathematical & Computational Methods",
+  "level": 3,
+  "priority": "important",
+  "summary": "The physicist's mathematical toolbox beyond calculus: special functions, Green's functions, transforms, tensors and geometry.",
+  "prerequisites": [
+    "ma-complex-analysis",
+    "ma-partial-differential-equations-pdes",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ma-special-functions",
+    "ma-integral-transforms",
+    "ma-boundary-value-problems",
+    "ma-functional-analysis",
+    "ma-differential-geometry",
+    "ma-mathematical-methods",
+    "ma-solitons-integrable-systems"
+  ],
+  "topics": [
+    {
+      "id": "ph-mathematical-physics-10",
+      "name": "Vector calculus in curvilinear coordinates"
+    },
+    {
+      "id": "ph-mathematical-physics-11",
+      "name": "Linear algebra and eigenvalue problems in physics"
+    },
+    {
+      "id": "ph-mathematical-physics-1",
+      "name": "Differential equations in physics"
+    },
+    {
+      "id": "ph-mathematical-physics-12",
+      "name": "Series solutions and the Frobenius method"
+    },
+    {
+      "id": "ph-mathematical-physics-13",
+      "name": "Sturm-Liouville theory and orthogonal functions"
+    },
+    {
+      "id": "ph-mathematical-physics-7",
+      "name": "Special functions"
+    },
+    {
+      "id": "ph-mathematical-physics-2",
+      "name": "Complex analysis"
+    },
+    {
+      "id": "ph-mathematical-physics-9",
+      "name": "Integral transforms (Fourier, Laplace)"
+    },
+    {
+      "id": "ph-mathematical-physics-8",
+      "name": "Green's functions"
+    },
+    {
+      "id": "ph-mathematical-physics-14",
+      "name": "Calculus of variations"
+    },
+    {
+      "id": "ph-mathematical-physics-15",
+      "name": "Asymptotic methods and the saddle-point approximation"
+    },
+    {
+      "id": "ph-mathematical-physics-3",
+      "name": "Tensor analysis"
+    },
+    {
+      "id": "ph-mathematical-physics-4",
+      "name": "Differential geometry"
+    },
+    {
+      "id": "ph-mathematical-physics-5",
+      "name": "Topology in physics"
+    },
+    {
+      "id": "ph-mathematical-physics-6",
+      "name": "Functional analysis"
+    }
+  ]
+}

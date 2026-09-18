@@ -1,0 +1,64 @@
+{
+  "id": "cs-mobile-development",
+  "name": "Mobile App Development",
+  "category": "Web & Mobile Development",
+  "level": 3,
+  "priority": "important",
+  "summary": "Designing and building apps for Android and iOS, natively or cross-platform, from UI and life cycle to device features, offline data and store release.",
+  "prerequisites": [
+    "cs-object-oriented-programming"
+  ],
+  "related": [
+    "el-multi-device-multi-platform-development"
+  ],
+  "topics": [
+    {
+      "id": "cs-mobile-development-1",
+      "name": "Mobile platforms: the Android and iOS ecosystems"
+    },
+    {
+      "id": "cs-mobile-development-2",
+      "name": "Native development: Kotlin with Jetpack Compose and Swift with SwiftUI"
+    },
+    {
+      "id": "cs-mobile-development-3",
+      "name": "App architecture patterns (MVVM, unidirectional data flow)"
+    },
+    {
+      "id": "cs-mobile-development-4",
+      "name": "UI layout, navigation and the app life cycle"
+    },
+    {
+      "id": "cs-mobile-development-5",
+      "name": "Local storage and offline-first data"
+    },
+    {
+      "id": "cs-mobile-development-6",
+      "name": "Networking and consuming APIs"
+    },
+    {
+      "id": "cs-mobile-development-7",
+      "name": "Device features: sensors, camera, location and notifications"
+    },
+    {
+      "id": "cs-mobile-development-8",
+      "name": "Cross-platform frameworks (Flutter, React Native)"
+    },
+    {
+      "id": "cs-mobile-development-9",
+      "name": "Performance and battery efficiency"
+    },
+    {
+      "id": "cs-mobile-development-10",
+      "name": "Mobile security and permissions"
+    },
+    {
+      "id": "cs-mobile-development-11",
+      "name": "Testing mobile apps"
+    },
+    {
+      "id": "cs-mobile-development-12",
+      "name": "Publishing, distribution and updates through app stores"
+    }
+  ]
+}

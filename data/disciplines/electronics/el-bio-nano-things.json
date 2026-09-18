@@ -1,0 +1,30 @@
+{
+  "id": "el-bio-nano-things",
+  "name": "Bio-Nano Things",
+  "category": "Emerging & Advanced Topics",
+  "level": 5,
+  "priority": "optional",
+  "summary": "Speculative nano-scale networks: molecular communication, molecular motors, DNA computing and in-vivo sensing.",
+  "prerequisites": [
+    "el-bio-integrated-electronics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-bio-nano-things-1",
+      "name": "Nano-scale communication"
+    },
+    {
+      "id": "el-bio-nano-things-2",
+      "name": "Molecular motors"
+    },
+    {
+      "id": "el-bio-nano-things-3",
+      "name": "DNA computing"
+    },
+    {
+      "id": "el-bio-nano-things-4",
+      "name": "In-vivo sensing and actuation"
+    }
+  ]
+}

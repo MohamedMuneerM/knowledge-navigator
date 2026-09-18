@@ -1,0 +1,45 @@
+{
+  "id": "ma-symplectic-geometry",
+  "name": "Symplectic Geometry",
+  "category": "Geometry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The geometry of phase space: symplectic manifolds, Hamiltonian flows, Darboux's theorem and moment maps.",
+  "prerequisites": [
+    "ma-differential-topology"
+  ],
+  "related": [
+    "ph-classical-mechanics",
+    "ma-classical-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "ma-symplectic-geometry-1",
+      "name": "Symplectic vector spaces and linear symplectic group"
+    },
+    {
+      "id": "ma-symplectic-geometry-2",
+      "name": "Symplectic manifolds and Darboux's theorem"
+    },
+    {
+      "id": "ma-symplectic-geometry-3",
+      "name": "Hamiltonian vector fields and Poisson brackets"
+    },
+    {
+      "id": "ma-symplectic-geometry-4",
+      "name": "Lagrangian submanifolds and generating functions"
+    },
+    {
+      "id": "ma-symplectic-geometry-5",
+      "name": "Moment maps and symplectic reduction"
+    },
+    {
+      "id": "ma-symplectic-geometry-6",
+      "name": "Contact geometry"
+    },
+    {
+      "id": "ma-symplectic-geometry-7",
+      "name": "Introduction to symplectic topology: Gromov non-squeezing and Floer homology"
+    }
+  ]
+}

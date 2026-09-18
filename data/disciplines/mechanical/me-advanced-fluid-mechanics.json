@@ -1,0 +1,63 @@
+{
+  "id": "me-advanced-fluid-mechanics",
+  "name": "Advanced Fluid Mechanics & Compressible Flow",
+  "category": "Thermal-Fluid Sciences",
+  "level": 3,
+  "priority": "important",
+  "summary": "Viscous and inviscid flow theory, boundary layers, turbulence and compressible gas dynamics for engineering applications.",
+  "prerequisites": [
+    "me-fluid-mechanics",
+    "ma-partial-differential-equations-pdes"
+  ],
+  "related": [
+    "ph-fluid-mechanics",
+    "ae-compressible-flow-gas-dynamics",
+    "ae-viscous-flow-boundary-layers"
+  ],
+  "topics": [
+    {
+      "id": "me-advanced-fluid-mechanics-1",
+      "name": "Navier-Stokes equations and exact solutions (Couette, Poiseuille, Stokes problems)"
+    },
+    {
+      "id": "me-advanced-fluid-mechanics-2",
+      "name": "Low-Reynolds-number (creeping) flow and lubrication theory"
+    },
+    {
+      "id": "me-advanced-fluid-mechanics-3",
+      "name": "Potential flow, vorticity and circulation"
+    },
+    {
+      "id": "me-advanced-fluid-mechanics-4",
+      "name": "Laminar boundary-layer theory (Blasius, integral methods) and separation"
+    },
+    {
+      "id": "me-advanced-fluid-mechanics-5",
+      "name": "Turbulence: Reynolds averaging, turbulent boundary layers, mixing length"
+    },
+    {
+      "id": "me-advanced-fluid-mechanics-6",
+      "name": "Isentropic compressible flow and nozzles"
+    },
+    {
+      "id": "me-advanced-fluid-mechanics-7",
+      "name": "Normal and oblique shock waves; Prandtl-Meyer expansion"
+    },
+    {
+      "id": "me-advanced-fluid-mechanics-8",
+      "name": "Flow with friction (Fanno) and heat addition (Rayleigh)"
+    },
+    {
+      "id": "me-advanced-fluid-mechanics-9",
+      "name": "Unsteady flow and water hammer"
+    },
+    {
+      "id": "me-advanced-fluid-mechanics-10",
+      "name": "Introduction to multiphase flow (bubbles, droplets, cavitation)"
+    },
+    {
+      "id": "me-advanced-fluid-mechanics-11",
+      "name": "Experimental fluid mechanics: wind tunnels, PIV, hot-wire anemometry"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "el-efficient-neural-network-architectures",
+  "name": "Efficient Neural Network Architectures",
+  "category": "Machine Learning & Edge AI",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Network architectures designed for efficiency: MobileNet, EfficientNet, SqueezeNet, ShuffleNet, GhostNet and MicroNet.",
+  "prerequisites": [
+    "el-tinyml-tiny-machine-learning",
+    "ai-convolutional-neural-networks-cnns"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-efficient-neural-network-architectures-1",
+      "name": "MobileNets (v1, v2, v3)"
+    },
+    {
+      "id": "el-efficient-neural-network-architectures-2",
+      "name": "EfficientNet"
+    },
+    {
+      "id": "el-efficient-neural-network-architectures-3",
+      "name": "SqueezeNet"
+    },
+    {
+      "id": "el-efficient-neural-network-architectures-4",
+      "name": "ShuffleNet"
+    },
+    {
+      "id": "el-efficient-neural-network-architectures-5",
+      "name": "GhostNet"
+    },
+    {
+      "id": "el-efficient-neural-network-architectures-6",
+      "name": "MicroNet"
+    }
+  ]
+}

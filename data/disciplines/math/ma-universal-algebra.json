@@ -1,0 +1,43 @@
+{
+  "id": "ma-universal-algebra",
+  "name": "Universal Algebra & General Algebraic Systems",
+  "category": "Algebra",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "General algebraic systems studied all at once: varieties of algebras, free algebras, Birkhoff's theorems and equational logic.",
+  "prerequisites": [
+    "ma-abstract-algebra",
+    "ma-order-lattices"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-universal-algebra-1",
+      "name": "Algebras, signatures, subalgebras, homomorphisms and congruences"
+    },
+    {
+      "id": "ma-universal-algebra-2",
+      "name": "Isomorphism theorems in general"
+    },
+    {
+      "id": "ma-universal-algebra-3",
+      "name": "Direct products and subdirect representations"
+    },
+    {
+      "id": "ma-universal-algebra-4",
+      "name": "Free algebras and term algebras"
+    },
+    {
+      "id": "ma-universal-algebra-5",
+      "name": "Varieties and Birkhoff's HSP theorem"
+    },
+    {
+      "id": "ma-universal-algebra-6",
+      "name": "Equational logic and Birkhoff's completeness theorem"
+    },
+    {
+      "id": "ma-universal-algebra-7",
+      "name": "Clones, Mal'cev conditions and congruence lattices"
+    }
+  ]
+}

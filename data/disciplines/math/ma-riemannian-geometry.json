@@ -1,0 +1,53 @@
+{
+  "id": "ma-riemannian-geometry",
+  "name": "Riemannian Geometry",
+  "category": "Geometry",
+  "level": 4,
+  "priority": "important",
+  "summary": "Manifolds with a metric: connections, curvature tensors, geodesics and comparison theorems, the geometry behind general relativity.",
+  "prerequisites": [
+    "ma-differential-geometry",
+    "ma-differential-topology"
+  ],
+  "related": [
+    "ph-general-relativity"
+  ],
+  "topics": [
+    {
+      "id": "ma-riemannian-geometry-1",
+      "name": "Riemannian metrics and isometries"
+    },
+    {
+      "id": "ma-riemannian-geometry-2",
+      "name": "Levi-Civita connection and covariant derivative"
+    },
+    {
+      "id": "ma-riemannian-geometry-3",
+      "name": "Geodesics and the exponential map"
+    },
+    {
+      "id": "ma-riemannian-geometry-4",
+      "name": "Curvature: Riemann, sectional, Ricci and scalar curvature"
+    },
+    {
+      "id": "ma-riemannian-geometry-5",
+      "name": "Jacobi fields and conjugate points"
+    },
+    {
+      "id": "ma-riemannian-geometry-6",
+      "name": "Completeness and the Hopf-Rinow theorem"
+    },
+    {
+      "id": "ma-riemannian-geometry-7",
+      "name": "Comparison theorems (Rauch, Bonnet-Myers, Cartan-Hadamard)"
+    },
+    {
+      "id": "ma-riemannian-geometry-8",
+      "name": "Gauss-Bonnet-Chern and curvature-topology links"
+    },
+    {
+      "id": "ma-riemannian-geometry-9",
+      "name": "Pseudo-Riemannian (Lorentzian) geometry"
+    }
+  ]
+}

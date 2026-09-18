@@ -1,0 +1,54 @@
+{
+  "id": "ch-surface-analysis-microscopy",
+  "name": "Surface Analysis & Chemical Imaging",
+  "category": "Analytical Chemistry & Instrumentation",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Techniques that reveal the composition and structure of surfaces and map chemistry at the micro- and nanoscale.",
+  "prerequisites": [
+    "ch-instrumental-analysis"
+  ],
+  "related": [
+    "ph-experimental-techniques",
+    "mt-electron-microscopy",
+    "mt-surface-spectroscopy-probe"
+  ],
+  "topics": [
+    {
+      "id": "ch-surface-analysis-microscopy-1",
+      "name": "Ultra-high vacuum and surface sensitivity"
+    },
+    {
+      "id": "ch-surface-analysis-microscopy-2",
+      "name": "X-ray photoelectron spectroscopy (XPS)"
+    },
+    {
+      "id": "ch-surface-analysis-microscopy-3",
+      "name": "Auger electron spectroscopy"
+    },
+    {
+      "id": "ch-surface-analysis-microscopy-4",
+      "name": "Secondary-ion mass spectrometry (SIMS)"
+    },
+    {
+      "id": "ch-surface-analysis-microscopy-5",
+      "name": "Scanning electron microscopy and energy-dispersive X-ray analysis"
+    },
+    {
+      "id": "ch-surface-analysis-microscopy-6",
+      "name": "Transmission electron microscopy and electron energy-loss spectroscopy"
+    },
+    {
+      "id": "ch-surface-analysis-microscopy-7",
+      "name": "Scanning probe microscopy: STM and AFM"
+    },
+    {
+      "id": "ch-surface-analysis-microscopy-8",
+      "name": "Raman, infrared and super-resolution fluorescence microscopy"
+    },
+    {
+      "id": "ch-surface-analysis-microscopy-9",
+      "name": "Synchrotron techniques and chemical imaging"
+    }
+  ]
+}

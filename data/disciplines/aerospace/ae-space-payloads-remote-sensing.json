@@ -1,0 +1,65 @@
+{
+  "id": "ae-space-payloads-remote-sensing",
+  "name": "Space Payloads and Remote Sensing Instruments",
+  "category": "Spacecraft Subsystems",
+  "level": 3,
+  "priority": "important",
+  "summary": "What spacecraft carry: optical imagers, radars, spectrometers, science instruments and communication payloads, and how they are sized.",
+  "prerequisites": [
+    "ae-spacecraft-bus-fundamentals",
+    "ph-classical-optics"
+  ],
+  "related": [
+    "ph-modern-optics"
+  ],
+  "topics": [
+    {
+      "id": "ae-space-payloads-remote-sensing-1",
+      "name": "Payload types and their requirements on the bus"
+    },
+    {
+      "id": "ae-space-payloads-remote-sensing-2",
+      "name": "Electromagnetic spectrum and remote-sensing principles"
+    },
+    {
+      "id": "ae-space-payloads-remote-sensing-3",
+      "name": "Optical imaging: aperture, diffraction limit, GSD, MTF, SNR"
+    },
+    {
+      "id": "ae-space-payloads-remote-sensing-4",
+      "name": "Detectors and focal planes"
+    },
+    {
+      "id": "ae-space-payloads-remote-sensing-5",
+      "name": "Pushbroom and whiskbroom scanning"
+    },
+    {
+      "id": "ae-space-payloads-remote-sensing-6",
+      "name": "Multispectral and hyperspectral imaging"
+    },
+    {
+      "id": "ae-space-payloads-remote-sensing-7",
+      "name": "Infrared and thermal instruments"
+    },
+    {
+      "id": "ae-space-payloads-remote-sensing-8",
+      "name": "Synthetic aperture radar"
+    },
+    {
+      "id": "ae-space-payloads-remote-sensing-9",
+      "name": "Lidar and radar altimetry"
+    },
+    {
+      "id": "ae-space-payloads-remote-sensing-10",
+      "name": "Space telescopes and astronomical instruments"
+    },
+    {
+      "id": "ae-space-payloads-remote-sensing-11",
+      "name": "In-situ science instruments"
+    },
+    {
+      "id": "ae-space-payloads-remote-sensing-12",
+      "name": "Communications payloads: transponders and processing payloads"
+    }
+  ]
+}

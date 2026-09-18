@@ -1,0 +1,65 @@
+{
+  "id": "ph-sun-heliophysics",
+  "name": "The Sun & Heliophysics",
+  "category": "Stars, the Sun & Interstellar Medium",
+  "level": 3,
+  "priority": "important",
+  "summary": "Our nearest star in detail: its interior, magnetic activity, atmosphere, and its influence on the Solar System.",
+  "prerequisites": [
+    "ph-stellar-astrophysics",
+    "ph-plasma-physics"
+  ],
+  "related": [
+    "ph-space-physics"
+  ],
+  "topics": [
+    {
+      "id": "ph-sun-heliophysics-1",
+      "name": "The Sun's basic parameters and internal structure"
+    },
+    {
+      "id": "ph-sun-heliophysics-2",
+      "name": "Solar fusion and the solar neutrino problem"
+    },
+    {
+      "id": "ph-sun-heliophysics-3",
+      "name": "Helioseismology"
+    },
+    {
+      "id": "ph-sun-heliophysics-4",
+      "name": "The photosphere: granulation, limb darkening and the solar spectrum"
+    },
+    {
+      "id": "ph-sun-heliophysics-5",
+      "name": "The chromosphere and transition region"
+    },
+    {
+      "id": "ph-sun-heliophysics-6",
+      "name": "The corona and the coronal heating problem"
+    },
+    {
+      "id": "ph-sun-heliophysics-7",
+      "name": "Solar magnetism, sunspots and active regions"
+    },
+    {
+      "id": "ph-sun-heliophysics-8",
+      "name": "The solar dynamo and the 11-year cycle"
+    },
+    {
+      "id": "ph-sun-heliophysics-9",
+      "name": "Solar flares and coronal mass ejections"
+    },
+    {
+      "id": "ph-sun-heliophysics-10",
+      "name": "The solar wind and the heliosphere"
+    },
+    {
+      "id": "ph-sun-heliophysics-11",
+      "name": "Solar observatories and missions: SDO, Parker Solar Probe, Solar Orbiter, DKIST"
+    },
+    {
+      "id": "ph-sun-heliophysics-12",
+      "name": "The Sun-Earth connection and solar influence on climate"
+    }
+  ]
+}

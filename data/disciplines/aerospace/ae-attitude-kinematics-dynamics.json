@@ -1,0 +1,64 @@
+{
+  "id": "ae-attitude-kinematics-dynamics",
+  "name": "Spacecraft Attitude Kinematics and Dynamics",
+  "category": "Guidance, Navigation & Control",
+  "level": 3,
+  "priority": "core",
+  "summary": "How spacecraft orientation is described and how it evolves under torques, from spinning satellites to gravity-gradient booms.",
+  "prerequisites": [
+    "ae-aerospace-dynamics"
+  ],
+  "related": [
+    "me-advanced-dynamics-multibody"
+  ],
+  "topics": [
+    {
+      "id": "ae-attitude-kinematics-dynamics-1",
+      "name": "Attitude representations: direction cosine matrix, Euler angles, axis-angle"
+    },
+    {
+      "id": "ae-attitude-kinematics-dynamics-2",
+      "name": "Quaternions and their kinematics"
+    },
+    {
+      "id": "ae-attitude-kinematics-dynamics-3",
+      "name": "Modified Rodrigues parameters"
+    },
+    {
+      "id": "ae-attitude-kinematics-dynamics-4",
+      "name": "Euler's equations for spacecraft"
+    },
+    {
+      "id": "ae-attitude-kinematics-dynamics-5",
+      "name": "Torque-free motion and the polhode"
+    },
+    {
+      "id": "ae-attitude-kinematics-dynamics-6",
+      "name": "Spin stabilisation and the major-axis rule"
+    },
+    {
+      "id": "ae-attitude-kinematics-dynamics-7",
+      "name": "Energy dissipation and nutation damping"
+    },
+    {
+      "id": "ae-attitude-kinematics-dynamics-8",
+      "name": "Dual-spin spacecraft"
+    },
+    {
+      "id": "ae-attitude-kinematics-dynamics-9",
+      "name": "Gravity-gradient stabilisation"
+    },
+    {
+      "id": "ae-attitude-kinematics-dynamics-10",
+      "name": "Environmental disturbance torques: gravity gradient, aerodynamic, solar pressure, magnetic"
+    },
+    {
+      "id": "ae-attitude-kinematics-dynamics-11",
+      "name": "Spacecraft with momentum wheels (gyrostats)"
+    },
+    {
+      "id": "ae-attitude-kinematics-dynamics-12",
+      "name": "Flexible appendages and propellant slosh effects"
+    }
+  ]
+}

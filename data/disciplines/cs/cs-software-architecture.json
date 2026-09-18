@@ -1,0 +1,63 @@
+{
+  "id": "cs-software-architecture",
+  "name": "Software Architecture",
+  "category": "Software Engineering",
+  "level": 3,
+  "priority": "important",
+  "summary": "The high-level structure of software systems: architectural styles, quality-attribute trade-offs, documentation and evaluation of architecture decisions.",
+  "prerequisites": [
+    "cs-software-design-patterns",
+    "cs-requirements-engineering"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-software-architecture-1",
+      "name": "What architecture is: structures, views and decisions"
+    },
+    {
+      "id": "cs-software-architecture-2",
+      "name": "Quality attributes and trade-offs: performance, availability, modifiability and security"
+    },
+    {
+      "id": "cs-software-architecture-3",
+      "name": "Architectural styles: layered, pipe-and-filter, client-server and event-driven"
+    },
+    {
+      "id": "cs-software-architecture-4",
+      "name": "Monoliths, modular monoliths, service-oriented architecture and microservices"
+    },
+    {
+      "id": "cs-software-architecture-5",
+      "name": "Documenting architecture: C4 model, 4+1 views and architecture decision records"
+    },
+    {
+      "id": "cs-software-architecture-6",
+      "name": "Interface styles: REST, RPC, GraphQL and messaging"
+    },
+    {
+      "id": "cs-software-architecture-7",
+      "name": "Integration patterns and message brokers"
+    },
+    {
+      "id": "cs-software-architecture-8",
+      "name": "Data architecture: shared databases, CQRS and event sourcing"
+    },
+    {
+      "id": "cs-software-architecture-9",
+      "name": "Evaluating architectures (ATAM)"
+    },
+    {
+      "id": "cs-software-architecture-10",
+      "name": "Architecture for cloud and serverless systems"
+    },
+    {
+      "id": "cs-software-architecture-11",
+      "name": "Evolutionary architecture and fitness functions"
+    },
+    {
+      "id": "cs-software-architecture-12",
+      "name": "The architect's role and communicating decisions"
+    }
+  ]
+}

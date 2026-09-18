@@ -1,0 +1,78 @@
+{
+  "id": "me-energy-storage-power-integration",
+  "name": "Energy Storage & Power-Dense Systems Integration",
+  "category": "Energy & Power Systems",
+  "level": 4,
+  "priority": "important",
+  "summary": "The mechanical-engineering side of storing and delivering energy in mobile machines: batteries, fuel cells, flywheels and compact engines, pack design and thermal safety.",
+  "prerequisites": [
+    "me-heat-transfer",
+    "me-applied-thermodynamics",
+    "el-battery-technologies",
+    "ch-redox-electrochemistry-basics"
+  ],
+  "related": [
+    "el-battery-management-systems-bms",
+    "el-energy-harvesting",
+    "ph-energy-physics",
+    "ch-battery-chemistry",
+    "ch-fuel-cells-hydrogen",
+    "mt-battery-materials",
+    "ae-spacecraft-power-systems",
+    "ae-electric-aircraft-advanced-air-mobility"
+  ],
+  "topics": [
+    {
+      "id": "me-energy-storage-power-integration-1",
+      "name": "Energy and power density metrics and the Ragone plot"
+    },
+    {
+      "id": "me-energy-storage-power-integration-2",
+      "name": "Battery cell formats and mechanical pack design (structure, compression, vibration)"
+    },
+    {
+      "id": "me-energy-storage-power-integration-3",
+      "name": "Battery thermal behaviour and pack thermal management"
+    },
+    {
+      "id": "me-energy-storage-power-integration-4",
+      "name": "Thermal runaway, propagation prevention and pack safety"
+    },
+    {
+      "id": "me-energy-storage-power-integration-5",
+      "name": "Structural batteries and multifunctional energy storage"
+    },
+    {
+      "id": "me-energy-storage-power-integration-6",
+      "name": "Fuel cell systems: PEM stacks, balance of plant and hydrogen storage"
+    },
+    {
+      "id": "me-energy-storage-power-integration-7",
+      "name": "Flywheel energy storage"
+    },
+    {
+      "id": "me-energy-storage-power-integration-8",
+      "name": "Compressed-air and hydraulic-accumulator energy storage"
+    },
+    {
+      "id": "me-energy-storage-power-integration-9",
+      "name": "Supercapacitors and hybrid storage systems"
+    },
+    {
+      "id": "me-energy-storage-power-integration-10",
+      "name": "Thermal energy storage and phase-change materials"
+    },
+    {
+      "id": "me-energy-storage-power-integration-11",
+      "name": "Compact power sources: micro gas turbines, small engines and range extenders"
+    },
+    {
+      "id": "me-energy-storage-power-integration-12",
+      "name": "Power budgets and mission profiles for mobile robots and wearable suits"
+    },
+    {
+      "id": "me-energy-storage-power-integration-13",
+      "name": "Integration: mass, volume, packaging, crash safety and serviceability"
+    }
+  ]
+}

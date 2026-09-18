@@ -1,0 +1,70 @@
+{
+  "id": "ph-introductory-waves-sound-light",
+  "name": "Introductory Waves, Sound & Light",
+  "category": "Introductory Physics",
+  "level": 1,
+  "priority": "core",
+  "summary": "Algebra-based introduction to oscillations, waves, sound, and geometric and wave optics.",
+  "prerequisites": [
+    "ph-introductory-mechanics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-introductory-waves-sound-light-1",
+      "name": "Simple harmonic motion: springs and pendulums"
+    },
+    {
+      "id": "ph-introductory-waves-sound-light-2",
+      "name": "Damped and driven oscillations and resonance (qualitative)"
+    },
+    {
+      "id": "ph-introductory-waves-sound-light-3",
+      "name": "Wave properties: wavelength, frequency, speed and amplitude"
+    },
+    {
+      "id": "ph-introductory-waves-sound-light-4",
+      "name": "Transverse and longitudinal waves"
+    },
+    {
+      "id": "ph-introductory-waves-sound-light-5",
+      "name": "Superposition, interference and standing waves"
+    },
+    {
+      "id": "ph-introductory-waves-sound-light-6",
+      "name": "Sound: speed, intensity and the decibel scale"
+    },
+    {
+      "id": "ph-introductory-waves-sound-light-7",
+      "name": "Musical instruments, harmonics and beats"
+    },
+    {
+      "id": "ph-introductory-waves-sound-light-8",
+      "name": "The Doppler effect"
+    },
+    {
+      "id": "ph-introductory-waves-sound-light-9",
+      "name": "The electromagnetic spectrum"
+    },
+    {
+      "id": "ph-introductory-waves-sound-light-10",
+      "name": "Reflection and refraction of light (Snell's law)"
+    },
+    {
+      "id": "ph-introductory-waves-sound-light-11",
+      "name": "Total internal reflection"
+    },
+    {
+      "id": "ph-introductory-waves-sound-light-12",
+      "name": "Mirrors and thin lenses: image formation"
+    },
+    {
+      "id": "ph-introductory-waves-sound-light-13",
+      "name": "Optical instruments: the eye, cameras, microscopes and telescopes"
+    },
+    {
+      "id": "ph-introductory-waves-sound-light-14",
+      "name": "Wave optics: double-slit interference, gratings and polarization"
+    }
+  ]
+}

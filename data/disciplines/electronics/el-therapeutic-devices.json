@@ -1,0 +1,47 @@
+{
+  "id": "el-therapeutic-devices",
+  "name": "Therapeutic Devices",
+  "category": "Medical, Industrial & Other Application Domains",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Devices that treat patients: ventilators, CPAP, dialysis and infusion pumps, defibrillators, electrosurgery, laser and radiation therapy.",
+  "prerequisites": [
+    "el-regulatory-standards",
+    "el-biosensors-medical-sensors"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-therapeutic-devices-1",
+      "name": "Ventilators and respirators"
+    },
+    {
+      "id": "el-therapeutic-devices-2",
+      "name": "CPAP/BiPAP machines"
+    },
+    {
+      "id": "el-therapeutic-devices-3",
+      "name": "Dialysis machines"
+    },
+    {
+      "id": "el-therapeutic-devices-4",
+      "name": "Infusion pumps (IV, PCA, syringe)"
+    },
+    {
+      "id": "el-therapeutic-devices-5",
+      "name": "Defibrillators (AED, manual)"
+    },
+    {
+      "id": "el-therapeutic-devices-6",
+      "name": "Surgical instruments and electrosurgery"
+    },
+    {
+      "id": "el-therapeutic-devices-7",
+      "name": "Laser therapy devices"
+    },
+    {
+      "id": "el-therapeutic-devices-8",
+      "name": "Radiation therapy equipment"
+    }
+  ]
+}

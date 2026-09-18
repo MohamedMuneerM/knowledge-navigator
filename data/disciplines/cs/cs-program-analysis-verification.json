@@ -1,0 +1,65 @@
+{
+  "id": "cs-program-analysis-verification",
+  "name": "Program Analysis & Software Verification",
+  "category": "Programming Languages & Compilers",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Tools and methods that reason about programs automatically or with proof (static analysis, symbolic execution, SMT solving, model checking and deductive verification), including safety-critical practice.",
+  "prerequisites": [
+    "cs-programming-languages",
+    "cs-software-testing"
+  ],
+  "related": [
+    "ma-formal-verification",
+    "ma-logic-proof-theory",
+    "el-static-analysis-linters",
+    "el-safety-standards",
+    "ae-flight-software"
+  ],
+  "topics": [
+    {
+      "id": "cs-program-analysis-verification-1",
+      "name": "Static analysis tools and their limits"
+    },
+    {
+      "id": "cs-program-analysis-verification-2",
+      "name": "Abstract interpretation"
+    },
+    {
+      "id": "cs-program-analysis-verification-3",
+      "name": "Symbolic execution and concolic testing"
+    },
+    {
+      "id": "cs-program-analysis-verification-4",
+      "name": "SAT and SMT solvers"
+    },
+    {
+      "id": "cs-program-analysis-verification-5",
+      "name": "Deductive verification (Dafny, Why3, Frama-C)"
+    },
+    {
+      "id": "cs-program-analysis-verification-6",
+      "name": "Model checking software and protocols (TLA+, SPIN)"
+    },
+    {
+      "id": "cs-program-analysis-verification-7",
+      "name": "Lightweight formal methods (Alloy)"
+    },
+    {
+      "id": "cs-program-analysis-verification-8",
+      "name": "Proof assistants for verified software (Rocq/Coq, Isabelle, Lean)"
+    },
+    {
+      "id": "cs-program-analysis-verification-9",
+      "name": "Runtime verification and monitoring"
+    },
+    {
+      "id": "cs-program-analysis-verification-10",
+      "name": "Safety-critical software standards (DO-178C, ISO 26262) and assurance cases"
+    },
+    {
+      "id": "cs-program-analysis-verification-11",
+      "name": "Verified-system case studies (CompCert, seL4)"
+    }
+  ]
+}

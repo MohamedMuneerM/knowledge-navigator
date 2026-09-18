@@ -1,0 +1,48 @@
+{
+  "id": "el-cost-engineering",
+  "name": "Cost Engineering & Engineering Economics",
+  "category": "Professional Practice, Business & Community",
+  "level": 3,
+  "priority": "important",
+  "summary": "Engineering economics for products: time value of money, BOM and manufacturing cost, value engineering, break-even and total cost of ownership.",
+  "prerequisites": [
+    "el-product-development"
+  ],
+  "related": [
+    "me-professional-practice-engineering-economics"
+  ],
+  "topics": [
+    {
+      "id": "el-cost-engineering-7",
+      "name": "Engineering economics: time value of money, present and future worth, annuities"
+    },
+    {
+      "id": "el-cost-engineering-8",
+      "name": "Investment appraisal: NPV, IRR and payback period"
+    },
+    {
+      "id": "el-cost-engineering-1",
+      "name": "Bill of Materials (BOM) costing"
+    },
+    {
+      "id": "el-cost-engineering-2",
+      "name": "Component cost analysis"
+    },
+    {
+      "id": "el-cost-engineering-3",
+      "name": "Manufacturing cost estimation"
+    },
+    {
+      "id": "el-cost-engineering-4",
+      "name": "Cost reduction strategies (value engineering)"
+    },
+    {
+      "id": "el-cost-engineering-5",
+      "name": "Break-even analysis"
+    },
+    {
+      "id": "el-cost-engineering-6",
+      "name": "Total Cost of Ownership (TCO)"
+    }
+  ]
+}

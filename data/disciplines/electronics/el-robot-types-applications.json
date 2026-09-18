@@ -1,0 +1,55 @@
+{
+  "id": "el-robot-types-applications",
+  "name": "Robot Types & Applications",
+  "category": "Control Systems & Robotics",
+  "level": 1,
+  "priority": "optional",
+  "summary": "A tour of robot types (industrial arms, mobile, aerial, humanoid, surgical, swarm) and what each is used for.",
+  "prerequisites": [],
+  "related": [
+    "ai-types-of-robots-applications",
+    "ai-robot-fundamentals"
+  ],
+  "topics": [
+    {
+      "id": "el-robot-types-applications-1",
+      "name": "Industrial robots (6-axis arms, SCARA, delta, Cartesian)"
+    },
+    {
+      "id": "el-robot-types-applications-2",
+      "name": "Mobile robots (wheeled, tracked, legged)"
+    },
+    {
+      "id": "el-robot-types-applications-3",
+      "name": "Autonomous vehicles (ground, aerial, underwater)"
+    },
+    {
+      "id": "el-robot-types-applications-4",
+      "name": "Service robots (cleaning, delivery, hospitality)"
+    },
+    {
+      "id": "el-robot-types-applications-5",
+      "name": "Collaborative robots (cobots)"
+    },
+    {
+      "id": "el-robot-types-applications-6",
+      "name": "Humanoid robots"
+    },
+    {
+      "id": "el-robot-types-applications-7",
+      "name": "Swarm robotics"
+    },
+    {
+      "id": "el-robot-types-applications-8",
+      "name": "Surgical robots"
+    },
+    {
+      "id": "el-robot-types-applications-9",
+      "name": "Agricultural robots"
+    },
+    {
+      "id": "el-robot-types-applications-10",
+      "name": "Inspection and maintenance robots"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "ma-fiber-bundles",
+  "name": "Fiber Bundles",
+  "category": "Topology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Spaces that locally look like products: vector and principal bundles, connections and characteristic classes, the geometry of gauge theory.",
+  "prerequisites": [
+    "ma-algebraic-topology",
+    "ma-differential-topology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-fiber-bundles-2",
+      "name": "Vector bundles"
+    },
+    {
+      "id": "ma-fiber-bundles-1",
+      "name": "Principal bundles"
+    },
+    {
+      "id": "ma-fiber-bundles-4",
+      "name": "Connections and curvature on bundles"
+    },
+    {
+      "id": "ma-fiber-bundles-3",
+      "name": "Characteristic classes"
+    },
+    {
+      "id": "ma-fiber-bundles-5",
+      "name": "Chern-Weil theory"
+    },
+    {
+      "id": "ma-fiber-bundles-6",
+      "name": "Gauge theory (overview)"
+    }
+  ]
+}

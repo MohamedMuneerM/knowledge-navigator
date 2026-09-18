@@ -1,0 +1,61 @@
+{
+  "id": "el-avionics-systems",
+  "name": "Avionics Systems",
+  "category": "Automotive, Aerospace & Defense Systems",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "The electronic systems of an aircraft: flight management, autopilot, navigation, air data, AHRS, weather radar, TCAS, GPWS and EFIS.",
+  "prerequisites": [
+    "el-inertial-sensors",
+    "el-control-theory",
+    "ae-principles-of-flight"
+  ],
+  "related": [
+    "ae-flight-dynamics",
+    "ae-aerospace-navigation-systems",
+    "ae-flight-control-systems",
+    "ai-aerial-robotics-drones"
+  ],
+  "topics": [
+    {
+      "id": "el-avionics-systems-1",
+      "name": "Flight Management System (FMS)"
+    },
+    {
+      "id": "el-avionics-systems-2",
+      "name": "Autopilot and flight control"
+    },
+    {
+      "id": "el-avionics-systems-3",
+      "name": "Navigation systems (INS, GPS, VOR, ILS)"
+    },
+    {
+      "id": "el-avionics-systems-4",
+      "name": "Air Data Computer (ADC)"
+    },
+    {
+      "id": "el-avionics-systems-5",
+      "name": "Attitude and Heading Reference System (AHRS)"
+    },
+    {
+      "id": "el-avionics-systems-6",
+      "name": "Weather radar"
+    },
+    {
+      "id": "el-avionics-systems-7",
+      "name": "Traffic Collision Avoidance System (TCAS)"
+    },
+    {
+      "id": "el-avionics-systems-8",
+      "name": "Ground Proximity Warning System (GPWS)"
+    },
+    {
+      "id": "el-avionics-systems-9",
+      "name": "Electronic Flight Instrument System (EFIS)"
+    },
+    {
+      "id": "el-avionics-systems-10",
+      "name": "Flight Data Recorder (black box)"
+    }
+  ]
+}

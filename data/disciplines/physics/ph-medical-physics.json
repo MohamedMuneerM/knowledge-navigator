@@ -1,0 +1,53 @@
+{
+  "id": "ph-medical-physics",
+  "name": "Medical Physics",
+  "category": "Applied Physics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Physics in medicine: imaging, radiotherapy, dosimetry and radiation protection.",
+  "prerequisites": [
+    "ph-nuclear-physics",
+    "bi-human-anatomy"
+  ],
+  "related": [
+    "el-diagnostic-equipment",
+    "bi-radiation-biology",
+    "ch-magnetic-resonance",
+    "ch-applied-radiochemistry",
+    "bi-neurotechnology-methods"
+  ],
+  "topics": [
+    {
+      "id": "ph-medical-physics-1",
+      "name": "Medical imaging (MRI, CT, PET, ultrasound)"
+    },
+    {
+      "id": "ph-medical-physics-2",
+      "name": "Radiotherapy"
+    },
+    {
+      "id": "ph-medical-physics-3",
+      "name": "Radiation dosimetry"
+    },
+    {
+      "id": "ph-medical-physics-4",
+      "name": "Health physics"
+    },
+    {
+      "id": "ph-medical-physics-5",
+      "name": "Nuclear medicine"
+    },
+    {
+      "id": "ph-medical-physics-6",
+      "name": "Biophysics applications"
+    },
+    {
+      "id": "ph-medical-physics-7",
+      "name": "Optical coherence tomography"
+    },
+    {
+      "id": "ph-medical-physics-8",
+      "name": "Therapeutic ultrasound"
+    }
+  ]
+}

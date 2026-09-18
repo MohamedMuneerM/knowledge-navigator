@@ -1,0 +1,31 @@
+{
+  "id": "el-power-factor-correction-pfc",
+  "name": "Power Factor Correction (PFC)",
+  "category": "Power Electronics & Power Management",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Making AC-DC supplies draw sinusoidal current: passive, active and bridgeless PFC, power factor and THD.",
+  "prerequisites": [
+    "el-ac-dc-conversion",
+    "el-switched-mode-power-supply-smps-design"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-power-factor-correction-pfc-1",
+      "name": "Active PFC"
+    },
+    {
+      "id": "el-power-factor-correction-pfc-2",
+      "name": "Passive PFC"
+    },
+    {
+      "id": "el-power-factor-correction-pfc-3",
+      "name": "Bridgeless PFC topologies"
+    },
+    {
+      "id": "el-power-factor-correction-pfc-4",
+      "name": "Power factor and THD (Total Harmonic Distortion)"
+    }
+  ]
+}

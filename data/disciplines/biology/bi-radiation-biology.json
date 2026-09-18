@@ -1,0 +1,64 @@
+{
+  "id": "bi-radiation-biology",
+  "name": "Radiation Biology",
+  "category": "Astrobiology & Space Biology",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "How ionising radiation damages cells and organisms, from DNA breaks to cancer risk, and what that means for medicine and spaceflight.",
+  "prerequisites": [
+    "bi-molecular-biology"
+  ],
+  "related": [
+    "ph-nuclear-physics",
+    "ph-medical-physics",
+    "ph-space-physics",
+    "ch-nuclear-radiochemistry",
+    "ae-space-environment"
+  ],
+  "topics": [
+    {
+      "id": "bi-radiation-biology-1",
+      "name": "Types of ionising radiation and how they interact with tissue"
+    },
+    {
+      "id": "bi-radiation-biology-2",
+      "name": "Dose, dose equivalent and units (Gy, Sv); linear energy transfer"
+    },
+    {
+      "id": "bi-radiation-biology-3",
+      "name": "Direct and indirect DNA damage and free radicals"
+    },
+    {
+      "id": "bi-radiation-biology-4",
+      "name": "Cellular responses: repair, checkpoints and cell death"
+    },
+    {
+      "id": "bi-radiation-biology-5",
+      "name": "Cell survival curves and the linear-quadratic model"
+    },
+    {
+      "id": "bi-radiation-biology-6",
+      "name": "Relative biological effectiveness of heavy ions"
+    },
+    {
+      "id": "bi-radiation-biology-7",
+      "name": "Acute radiation syndrome"
+    },
+    {
+      "id": "bi-radiation-biology-8",
+      "name": "Late effects: cancer risk, cataracts and cardiovascular disease"
+    },
+    {
+      "id": "bi-radiation-biology-9",
+      "name": "Radiotherapy biology"
+    },
+    {
+      "id": "bi-radiation-biology-10",
+      "name": "Space radiation: galactic cosmic rays, solar particle events and shielding"
+    },
+    {
+      "id": "bi-radiation-biology-11",
+      "name": "Radiation-resistant organisms and radioprotectors"
+    }
+  ]
+}

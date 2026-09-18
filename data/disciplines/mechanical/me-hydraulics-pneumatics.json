@@ -1,0 +1,72 @@
+{
+  "id": "me-hydraulics-pneumatics",
+  "name": "Fluid Power: Hydraulics & Pneumatics",
+  "category": "Fluid Power",
+  "level": 3,
+  "priority": "important",
+  "summary": "Transmitting and controlling power with pressurised liquids and gases: pumps, actuators, valves, circuits and electro-hydraulic control.",
+  "prerequisites": [
+    "me-fluid-mechanics"
+  ],
+  "related": [
+    "el-actuators-drives"
+  ],
+  "topics": [
+    {
+      "id": "me-hydraulics-pneumatics-1",
+      "name": "Fluid power fundamentals: Pascal's law, power and efficiency; hydraulic vs pneumatic vs electric"
+    },
+    {
+      "id": "me-hydraulics-pneumatics-2",
+      "name": "Hydraulic fluids, contamination control and filtration"
+    },
+    {
+      "id": "me-hydraulics-pneumatics-3",
+      "name": "Hydraulic pumps: gear, vane and piston; fixed and variable displacement"
+    },
+    {
+      "id": "me-hydraulics-pneumatics-4",
+      "name": "Hydraulic actuators: cylinder sizing, cushioning and buckling; hydraulic motors"
+    },
+    {
+      "id": "me-hydraulics-pneumatics-5",
+      "name": "Directional control valves and circuit symbols (ISO 1219)"
+    },
+    {
+      "id": "me-hydraulics-pneumatics-6",
+      "name": "Pressure control valves: relief, reducing, sequence and counterbalance"
+    },
+    {
+      "id": "me-hydraulics-pneumatics-7",
+      "name": "Flow control valves and speed-control circuits (meter-in, meter-out, bleed-off)"
+    },
+    {
+      "id": "me-hydraulics-pneumatics-8",
+      "name": "Accumulators, reservoirs, coolers, hoses and fittings"
+    },
+    {
+      "id": "me-hydraulics-pneumatics-9",
+      "name": "Hydraulic circuit design and analysis (regenerative, synchronising, hi-lo circuits)"
+    },
+    {
+      "id": "me-hydraulics-pneumatics-10",
+      "name": "Pneumatic systems: compressors, air preparation (FRL), cylinders and valves"
+    },
+    {
+      "id": "me-hydraulics-pneumatics-11",
+      "name": "Pneumatic circuit design, vacuum systems and grippers"
+    },
+    {
+      "id": "me-hydraulics-pneumatics-12",
+      "name": "Electro-pneumatic and electro-hydraulic control with PLCs"
+    },
+    {
+      "id": "me-hydraulics-pneumatics-13",
+      "name": "Losses, heat generation and troubleshooting of hydraulic systems"
+    },
+    {
+      "id": "me-hydraulics-pneumatics-14",
+      "name": "Fluid power safety and maintenance"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "bi-endocrinology-reproduction",
+  "name": "Endocrinology & Reproductive Biology",
+  "category": "Anatomy & Physiology",
+  "level": 3,
+  "priority": "important",
+  "summary": "Hormonal control of the body and the biology of reproduction, from the hypothalamus-pituitary axis to pregnancy.",
+  "prerequisites": [
+    "bi-human-physiology",
+    "bi-cell-signaling"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-endocrinology-reproduction-1",
+      "name": "Hormone classes, synthesis, transport and receptors"
+    },
+    {
+      "id": "bi-endocrinology-reproduction-2",
+      "name": "The hypothalamic-pituitary axes"
+    },
+    {
+      "id": "bi-endocrinology-reproduction-3",
+      "name": "Thyroid hormones and metabolic rate"
+    },
+    {
+      "id": "bi-endocrinology-reproduction-4",
+      "name": "Adrenal hormones and the stress response"
+    },
+    {
+      "id": "bi-endocrinology-reproduction-5",
+      "name": "Endocrine pancreas, glucose homeostasis and diabetes"
+    },
+    {
+      "id": "bi-endocrinology-reproduction-6",
+      "name": "Calcium and bone regulation: PTH, vitamin D and calcitonin"
+    },
+    {
+      "id": "bi-endocrinology-reproduction-7",
+      "name": "Growth hormone, IGF-1 and growth"
+    },
+    {
+      "id": "bi-endocrinology-reproduction-8",
+      "name": "Male reproductive physiology and spermatogenesis"
+    },
+    {
+      "id": "bi-endocrinology-reproduction-9",
+      "name": "Female reproductive physiology, the ovarian and menstrual cycles"
+    },
+    {
+      "id": "bi-endocrinology-reproduction-10",
+      "name": "Fertilisation, pregnancy, parturition and lactation"
+    },
+    {
+      "id": "bi-endocrinology-reproduction-11",
+      "name": "Assisted reproductive technologies and contraception"
+    },
+    {
+      "id": "bi-endocrinology-reproduction-12",
+      "name": "Endocrine disruptors"
+    }
+  ]
+}

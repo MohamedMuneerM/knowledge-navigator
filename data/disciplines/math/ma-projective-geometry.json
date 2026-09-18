@@ -1,0 +1,42 @@
+{
+  "id": "ma-projective-geometry",
+  "name": "Projective Geometry",
+  "category": "Geometry",
+  "level": 3,
+  "priority": "important",
+  "summary": "Geometry of lines and points where parallel lines meet at infinity, using homogeneous coordinates and duality; key for algebraic geometry and computer vision.",
+  "prerequisites": [
+    "ma-linear-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-projective-geometry-1",
+      "name": "Projective spaces"
+    },
+    {
+      "id": "ma-projective-geometry-2",
+      "name": "Homogeneous coordinates"
+    },
+    {
+      "id": "ma-projective-geometry-4",
+      "name": "Projective transformations and cross-ratio"
+    },
+    {
+      "id": "ma-projective-geometry-3",
+      "name": "Duality"
+    },
+    {
+      "id": "ma-projective-geometry-5",
+      "name": "Theorems of Desargues and Pappus"
+    },
+    {
+      "id": "ma-projective-geometry-6",
+      "name": "Conics in the projective plane"
+    },
+    {
+      "id": "ma-projective-geometry-7",
+      "name": "Applications to perspective and computer vision"
+    }
+  ]
+}

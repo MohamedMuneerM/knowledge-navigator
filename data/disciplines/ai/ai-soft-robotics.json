@@ -1,0 +1,71 @@
+{
+  "id": "ai-soft-robotics",
+  "name": "Soft Robotics",
+  "category": "Robot Platforms & Locomotion",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Robots built from compliant materials, with soft actuators and sensors, continuum models and control, for safe grasping, medical devices and bio-inspired motion.",
+  "prerequisites": [
+    "ai-kinematics-dynamics",
+    "ai-actuators-sensors",
+    "mt-polymer-properties"
+  ],
+  "related": [
+    "ph-soft-matter-physics",
+    "el-flexible-printed-electronics",
+    "mt-soft-materials",
+    "mt-electroactive-polymers-artificial-muscles",
+    "me-soft-robotics-mechanics",
+    "ai-wearable-robotics-exoskeletons"
+  ],
+  "topics": [
+    {
+      "id": "ai-soft-robotics-1",
+      "name": "Soft materials: elastomers, hydrogels and compliance"
+    },
+    {
+      "id": "ai-soft-robotics-2",
+      "name": "Soft actuators: pneumatic networks, fibre-reinforced, McKibben muscles"
+    },
+    {
+      "id": "ai-soft-robotics-3",
+      "name": "Electroactive and smart-material actuators: dielectric elastomers, HASEL, SMA"
+    },
+    {
+      "id": "ai-soft-robotics-4",
+      "name": "Variable stiffness and jamming"
+    },
+    {
+      "id": "ai-soft-robotics-5",
+      "name": "Soft and stretchable sensors"
+    },
+    {
+      "id": "ai-soft-robotics-6",
+      "name": "Modelling: constant curvature, Cosserat rods and FEM"
+    },
+    {
+      "id": "ai-soft-robotics-7",
+      "name": "Control of soft robots: model-based and learned"
+    },
+    {
+      "id": "ai-soft-robotics-8",
+      "name": "Fabrication: moulding and 3D printing"
+    },
+    {
+      "id": "ai-soft-robotics-9",
+      "name": "Soft grippers and manipulation"
+    },
+    {
+      "id": "ai-soft-robotics-10",
+      "name": "Bio-inspired soft robots (octopus, worms, fish)"
+    },
+    {
+      "id": "ai-soft-robotics-11",
+      "name": "Soft wearable robots and exosuits"
+    },
+    {
+      "id": "ai-soft-robotics-12",
+      "name": "Medical and surgical soft robots"
+    }
+  ]
+}

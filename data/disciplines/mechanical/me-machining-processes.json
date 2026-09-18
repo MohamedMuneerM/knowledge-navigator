@@ -1,0 +1,67 @@
+{
+  "id": "me-machining-processes",
+  "name": "Machining & Material Removal",
+  "category": "Manufacturing Engineering",
+  "level": 3,
+  "priority": "important",
+  "summary": "The mechanics, tooling and economics of turning, milling, drilling, grinding and nontraditional machining.",
+  "prerequisites": [
+    "me-manufacturing-processes",
+    "me-mechanics-of-materials"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "me-machining-processes-1",
+      "name": "Mechanics of orthogonal cutting: chip formation, shear plane, Merchant's circle"
+    },
+    {
+      "id": "me-machining-processes-2",
+      "name": "Cutting forces, power and temperature"
+    },
+    {
+      "id": "me-machining-processes-3",
+      "name": "Cutting-tool materials, geometry and coatings"
+    },
+    {
+      "id": "me-machining-processes-4",
+      "name": "Tool wear, tool life (Taylor equation) and machinability"
+    },
+    {
+      "id": "me-machining-processes-5",
+      "name": "Turning and related lathe operations"
+    },
+    {
+      "id": "me-machining-processes-6",
+      "name": "Milling operations and cutter types"
+    },
+    {
+      "id": "me-machining-processes-7",
+      "name": "Drilling, reaming, boring and tapping"
+    },
+    {
+      "id": "me-machining-processes-8",
+      "name": "Grinding and abrasive finishing (honing, lapping, polishing)"
+    },
+    {
+      "id": "me-machining-processes-9",
+      "name": "Surface integrity and surface finish"
+    },
+    {
+      "id": "me-machining-processes-10",
+      "name": "Cutting fluids, dry and minimum-quantity lubrication machining"
+    },
+    {
+      "id": "me-machining-processes-11",
+      "name": "Nontraditional machining: EDM, ECM, laser, waterjet, ultrasonic"
+    },
+    {
+      "id": "me-machining-processes-12",
+      "name": "Machining economics and optimum cutting speed"
+    },
+    {
+      "id": "me-machining-processes-13",
+      "name": "Workholding and fixture design"
+    }
+  ]
+}

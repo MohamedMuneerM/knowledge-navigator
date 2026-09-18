@@ -1,51 +1,63 @@
 # Data schema
 
-Everything the dashboard shows is generated from the JSON files in this folder.
-Edit these, then run `python scripts/build.py` to validate and regenerate
-`knowledge_base.js` / `knowledge_base.json`.
+Everything the app shows is generated from the JSON files in this folder. Edit them, then run
+`python scripts/build.py` to validate and regenerate `knowledge_base.js` / `knowledge_base.json`.
 
 ```
 data/
-  manifest.json            discipline order + roadmap file list
-  disciplines/<id>.json    one file per discipline (chapters + topics)
-  roadmaps/<id>.json       one file per goal roadmap ("I want to learn X / become Y")
+  manifest.json                        version, discipline order, roadmap order
+  disciplines/<discipline>/
+    discipline.json                    discipline metadata + ordered categories
+    <chapter-id>.json                  one file per chapter (file name = chapter id)
+  roadmaps/<roadmap-id>.json           one file per goal roadmap
+  redirects.json                       renamed ids -> their replacements
 ```
 
-## Discipline file
+## discipline.json
 
 ```jsonc
 {
-  "id": "physics",                 // short, lowercase
+  "id": "physics",                     // same as the folder name
   "name": "Physics",
   "icon": "⚛️",
   "color": "#60c5f8",
-  "prefix": "ph",                  // every chapter id starts with "<prefix>-"
+  "prefix": "ph",                      // every chapter id starts with "<prefix>-"
   "description": "One or two sentences on what the discipline covers.",
-  "chapters": [
-    {
-      "id": "ph-classical-mechanics",      // stable forever; progress is keyed on it
-      "name": "Classical Mechanics",
-      "category": "Classical Physics",     // grouping inside the discipline
-      "level": 2,                          // 1-5, see below
-      "priority": "core",                  // core | important | advanced | optional
-      "summary": "One sentence: what this chapter is about and why it matters.",
-      "prerequisites": ["ma-calculus", "ph-kinematics"],   // DIRECT hard prerequisites, any discipline
-      "related": ["ma-classical-mechanics"],               // optional: overlapping chapters elsewhere
-      "topics": [
-        { "id": "ph-classical-mechanics-1", "name": "Kinematics",
-          "sub": [ { "id": "ph-classical-mechanics-1-1", "name": "Projectile motion" } ] },
-        { "name": "A new topic without an id" }            // build.py assigns an id
-      ]
-    }
+  "categories": [                      // display order, foundational -> advanced/applied
+    "Foundations & Introductory Physics",
+    "Mechanics, Waves & Fluids"
   ]
 }
 ```
+
+## Chapter file: `disciplines/<discipline>/<chapter-id>.json`
+
+```jsonc
+{
+  "id": "ph-classical-mechanics",      // = file name; stable forever (progress is keyed on it)
+  "name": "Classical Mechanics",
+  "category": "Mechanics, Waves & Fluids",   // must be listed in discipline.json
+  "level": 2,                          // 1-5, see below
+  "priority": "core",                  // core | important | advanced | optional
+  "summary": "One sentence: what this chapter is about and why it matters.",
+  "prerequisites": ["ma-multivariable-calculus", "ph-introductory-mechanics"],
+  "related": ["ma-classical-mechanics"],
+  "topics": [
+    { "id": "ph-classical-mechanics-1", "name": "Kinematics",
+      "sub": [ { "id": "ph-classical-mechanics-1-1", "name": "Projectile motion" } ] },
+    { "name": "A new topic without an id" }   // build.py assigns ph-classical-mechanics-<n>
+  ]
+}
+```
+
+Chapters are shown per category in **teaching order**, which the build computes from the
+prerequisite graph. There is no manual ordering to maintain.
 
 ### Levels
 
 | level | meaning | typical learner |
 |---|---|---|
-| 1 | Foundations | high school / first contact, no university background |
+| 1 | Foundations | high school / first contact |
 | 2 | Core | first two years of a university degree |
 | 3 | Advanced undergraduate | final years of a degree |
 | 4 | Graduate / specialist | master's, PhD coursework, professional specialty |
@@ -54,26 +66,28 @@ data/
 ### Priority (within the discipline)
 
 - **core**: everyone serious about the discipline must learn it.
-- **important**: part of a complete, well-rounded coverage.
-- **advanced**: a specialisation. Learn it if you go deep in that direction.
-- **optional**: peripheral: history, philosophy, tooling catalogues, communities, business.
+- **important**: part of complete, well-rounded coverage.
+- **advanced**: a specialisation.
+- **optional**: peripheral: history, philosophy, tool catalogues, communities, business.
 
 ### Prerequisites
 
-- List only **direct, hard** prerequisites: what you genuinely need before you can start
-  the chapter. Don't list something that is already implied by another listed prerequisite
-  (if B needs A, and C needs B, C lists only B).
-- Cross-discipline prerequisites are encouraged (physics → maths, robotics → control theory).
-- A chapter's prerequisites must never lead back to itself (no cycles); build.py rejects cycles.
-- `related` is for "same subject seen from another discipline"; it doesn't imply order.
+- List only **direct, hard** prerequisites: what you genuinely need before starting. Don't list
+  something already implied by another prerequisite. The build warns about redundant ones.
+- Prerequisites may come from any discipline, and must not have a higher `level` than the chapter.
+- No cycles. The build rejects them.
+- `related` means "the same subject seen from another angle". It doesn't imply order.
 
 ### Ids
 
-- Chapter ids: `<prefix>-<kebab-slug-of-name>`, globally unique, **never renamed or deleted**
-  once published (browser progress is stored against them).
-- Topic ids: optional when adding. build.py fills in `<chapterId>-<n>` and writes it back.
+- Chapter ids: `<prefix>-<kebab-case-name>`, lowercase letters, digits and hyphens.
+- Topic ids: optional when adding a topic. The build fills in `<chapterId>-<n>`
+  (sub-topics: `<topicId>-<n>`) and writes it back.
+- **Never delete or rename an id.** If one must change, add `"old-id": "new-id"` to
+  `redirects.json` (under `chapters` or `topics`). The app moves saved progress across, and
+  `scripts/check_ids.py` checks that every id that ever existed is still reachable.
 
-## Roadmap file
+## Roadmap file: `roadmaps/<roadmap-id>.json`
 
 ```jsonc
 {
@@ -81,8 +95,8 @@ data/
   "name": "Rocket Science & Spaceflight",
   "icon": "🚀",
   "tagline": "Design, fly and understand rockets and spacecraft.",
-  "description": "Who this is for and what you'll be able to do at the end.",
-  "outcomes": ["Size a launch vehicle with the rocket equation", "..."],
+  "description": "Who this is for and what the journey looks like.",
+  "outcomes": ["Size a launch vehicle with the rocket equation"],
   "stages": [
     {
       "name": "Mathematical foundations",
@@ -90,7 +104,7 @@ data/
       "items": [
         { "chapter": "ma-calculus", "why": "Everything in flight mechanics is rates of change.", "depth": "full" },
         { "chapter": "ph-thermodynamics-statistical-mechanics", "depth": "selected",
-          "focus": ["ph-thermodynamics-statistical-mechanics-1"], "why": "..." }
+          "focus": ["ph-thermodynamics-statistical-mechanics-1"], "why": "…" }
       ]
     }
   ],
@@ -98,8 +112,8 @@ data/
 }
 ```
 
-- `depth`: `full` (study the whole chapter) or `selected` (only the topics listed in `focus`,
-  or the parts relevant to the roadmap if `focus` is omitted).
-- build.py warns when a chapter in a roadmap has a prerequisite that neither appears in an
-  earlier stage nor is already covered transitively. A clean roadmap has zero warnings, so
-  following it top to bottom never hits a missing prerequisite.
+- `depth`: `full` (study the whole chapter) or `selected` (only the topics in `focus`).
+- **Complete roadmaps only.** Every item's prerequisites must appear earlier in the roadmap.
+  The build warns otherwise. `python scripts/path.py <chapter-id>` prints the full ordered
+  prerequisite path to any chapter.
+- Electives go in the last stage, with `why` starting "Elective:".

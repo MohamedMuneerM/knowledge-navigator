@@ -1,0 +1,38 @@
+{
+  "id": "el-advanced-fpga-techniques",
+  "name": "Advanced FPGA Techniques",
+  "category": "FPGA, ASIC & VLSI Design",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Advanced FPGA practice: partial and dynamic reconfiguration, hardware acceleration, co-design, ASIC prototyping and multi-FPGA systems.",
+  "prerequisites": [
+    "el-soft-processors-ip-cores"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-advanced-fpga-techniques-1",
+      "name": "Partial reconfiguration"
+    },
+    {
+      "id": "el-advanced-fpga-techniques-2",
+      "name": "Dynamic reconfiguration"
+    },
+    {
+      "id": "el-advanced-fpga-techniques-3",
+      "name": "Hardware-software co-design"
+    },
+    {
+      "id": "el-advanced-fpga-techniques-4",
+      "name": "Hardware acceleration"
+    },
+    {
+      "id": "el-advanced-fpga-techniques-5",
+      "name": "FPGA-based prototyping"
+    },
+    {
+      "id": "el-advanced-fpga-techniques-6",
+      "name": "Multi-FPGA systems"
+    }
+  ]
+}

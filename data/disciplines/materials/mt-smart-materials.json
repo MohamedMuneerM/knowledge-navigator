@@ -1,0 +1,63 @@
+{
+  "id": "mt-smart-materials",
+  "name": "Smart & Multifunctional Materials",
+  "category": "Smart & Active Materials",
+  "level": 3,
+  "priority": "important",
+  "summary": "Surveys materials that sense and respond to their environment, which are the building blocks of adaptive structures, actuators and wearable systems.",
+  "prerequisites": [
+    "mt-dielectric-ferroic",
+    "mt-magnetic-materials"
+  ],
+  "related": [
+    "el-actuators",
+    "el-mems-devices",
+    "me-smart-materials-artificial-muscles"
+  ],
+  "topics": [
+    {
+      "id": "mt-smart-materials-1",
+      "name": "What makes a material smart: coupled fields and transduction"
+    },
+    {
+      "id": "mt-smart-materials-2",
+      "name": "Piezoelectric actuators and sensors: stacks, benders and design equations"
+    },
+    {
+      "id": "mt-smart-materials-3",
+      "name": "Magnetostrictive actuators"
+    },
+    {
+      "id": "mt-smart-materials-4",
+      "name": "Shape-memory materials overview (alloys and polymers)"
+    },
+    {
+      "id": "mt-smart-materials-5",
+      "name": "Electroactive and magnetoactive polymers overview"
+    },
+    {
+      "id": "mt-smart-materials-6",
+      "name": "Magnetorheological and electrorheological fluids and elastomers"
+    },
+    {
+      "id": "mt-smart-materials-7",
+      "name": "Chromogenic materials: thermochromic, photochromic and electrochromic"
+    },
+    {
+      "id": "mt-smart-materials-8",
+      "name": "Self-sensing materials and piezoresistive composites"
+    },
+    {
+      "id": "mt-smart-materials-9",
+      "name": "Structural health monitoring with embedded smart materials"
+    },
+    {
+      "id": "mt-smart-materials-10",
+      "name": "Energy harvesting with smart materials"
+    },
+    {
+      "id": "mt-smart-materials-11",
+      "name": "Comparing actuator materials: strain, stress, energy density, bandwidth and efficiency"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "mt-soft-materials",
+  "name": "Soft Materials: Colloids, Gels, Liquid Crystals & Foams",
+  "category": "Polymers & Soft Matter",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Studies soft matter, whose behaviour is dominated by weak interactions and thermal fluctuations, from colloids and gels to liquid crystals and self-assembly.",
+  "prerequisites": [
+    "mt-polymer-properties"
+  ],
+  "related": [
+    "ph-soft-matter-physics",
+    "ch-colloid-interface-science"
+  ],
+  "topics": [
+    {
+      "id": "mt-soft-materials-1",
+      "name": "Intermolecular and surface forces: van der Waals, electrostatic double layer and DLVO theory"
+    },
+    {
+      "id": "mt-soft-materials-2",
+      "name": "Colloidal dispersions: stability, aggregation and Brownian motion"
+    },
+    {
+      "id": "mt-soft-materials-3",
+      "name": "Surfactants, micelles and emulsions"
+    },
+    {
+      "id": "mt-soft-materials-4",
+      "name": "Polymer and colloidal gels; hydrogels and swelling"
+    },
+    {
+      "id": "mt-soft-materials-5",
+      "name": "Liquid crystals: nematic, smectic and cholesteric phases; order parameter and displays"
+    },
+    {
+      "id": "mt-soft-materials-6",
+      "name": "Block-copolymer self-assembly and microphase separation"
+    },
+    {
+      "id": "mt-soft-materials-7",
+      "name": "Foams and granular materials"
+    },
+    {
+      "id": "mt-soft-materials-8",
+      "name": "Rheology of complex fluids: yield stress, shear thickening and thixotropy"
+    },
+    {
+      "id": "mt-soft-materials-9",
+      "name": "Elastomers and liquid-crystal elastomers"
+    },
+    {
+      "id": "mt-soft-materials-10",
+      "name": "Active and responsive soft matter"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ma-numerical-linear-algebra",
+  "name": "Numerical Linear Algebra",
+  "category": "Numerical Analysis & Scientific Computing",
+  "level": 3,
+  "priority": "important",
+  "summary": "Solving linear systems and eigenproblems on computers: LU, QR, SVD, iterative methods and conditioning.",
+  "prerequisites": [
+    "ma-linear-algebra",
+    "ma-error-analysis"
+  ],
+  "related": [
+    "ma-matrix-analysis"
+  ],
+  "topics": [
+    {
+      "id": "ma-numerical-linear-algebra-5",
+      "name": "Gaussian elimination and pivoting"
+    },
+    {
+      "id": "ma-numerical-linear-algebra-1",
+      "name": "Matrix factorizations (LU, QR, SVD)"
+    },
+    {
+      "id": "ma-numerical-linear-algebra-4",
+      "name": "Condition number"
+    },
+    {
+      "id": "ma-numerical-linear-algebra-6",
+      "name": "Least squares problems"
+    },
+    {
+      "id": "ma-numerical-linear-algebra-3",
+      "name": "Eigenvalue algorithms"
+    },
+    {
+      "id": "ma-numerical-linear-algebra-2",
+      "name": "Iterative methods"
+    },
+    {
+      "id": "ma-numerical-linear-algebra-7",
+      "name": "Krylov methods: conjugate gradient and GMRES"
+    },
+    {
+      "id": "ma-numerical-linear-algebra-8",
+      "name": "Sparse matrices and preconditioning"
+    }
+  ]
+}

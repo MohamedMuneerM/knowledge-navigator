@@ -1,0 +1,66 @@
+{
+  "id": "mt-polymer-structure",
+  "name": "Polymer Structure & Synthesis",
+  "category": "Polymers & Soft Matter",
+  "level": 2,
+  "priority": "core",
+  "summary": "Introduces how polymer chains are made and how their chemistry, size and architecture determine whether a plastic is soft, tough, clear or crystalline.",
+  "prerequisites": [
+    "mt-atomic-bonding",
+    "ch-organic-structure-bonding"
+  ],
+  "related": [
+    "ph-soft-matter-physics",
+    "ch-polymer-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "mt-polymer-structure-1",
+      "name": "Hydrocarbon molecules, monomers and repeat units"
+    },
+    {
+      "id": "mt-polymer-structure-2",
+      "name": "Chain-growth (addition) polymerisation: radical, ionic and coordination (Ziegler-Natta, metallocene)"
+    },
+    {
+      "id": "mt-polymer-structure-3",
+      "name": "Step-growth (condensation) polymerisation: polyesters, polyamides and Carothers equation"
+    },
+    {
+      "id": "mt-polymer-structure-4",
+      "name": "Molecular weight: number and weight averages, distribution and measurement (GPC)"
+    },
+    {
+      "id": "mt-polymer-structure-5",
+      "name": "Molecular shape and configuration: tacticity, isomerism and conformations"
+    },
+    {
+      "id": "mt-polymer-structure-6",
+      "name": "Architecture: linear, branched, cross-linked and network polymers"
+    },
+    {
+      "id": "mt-polymer-structure-7",
+      "name": "Copolymers: random, alternating, block and graft"
+    },
+    {
+      "id": "mt-polymer-structure-8",
+      "name": "Chain statistics: random walk, end-to-end distance and radius of gyration"
+    },
+    {
+      "id": "mt-polymer-structure-9",
+      "name": "Polymer crystallinity: lamellae, spherulites and degree of crystallinity"
+    },
+    {
+      "id": "mt-polymer-structure-10",
+      "name": "Thermoplastics, thermosets and elastomers"
+    },
+    {
+      "id": "mt-polymer-structure-11",
+      "name": "Commodity and engineering polymers: PE, PP, PVC, PS, PET, PA, PC, PEEK, PTFE"
+    },
+    {
+      "id": "mt-polymer-structure-12",
+      "name": "Additives: plasticisers, fillers, stabilisers and flame retardants"
+    }
+  ]
+}

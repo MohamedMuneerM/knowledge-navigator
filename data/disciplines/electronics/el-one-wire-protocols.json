@@ -1,0 +1,34 @@
+{
+  "id": "el-one-wire-protocols",
+  "name": "One-Wire Protocols",
+  "category": "Communication Protocols & Connectivity",
+  "level": 2,
+  "priority": "advanced",
+  "summary": "Single-wire buses such as Dallas 1-Wire and single-wire debug, with their timing and addressing schemes.",
+  "prerequisites": [
+    "el-serial-protocols"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-one-wire-protocols-1",
+      "name": "1-Wire (Dallas Semiconductor)"
+    },
+    {
+      "id": "el-one-wire-protocols-3",
+      "name": "1-Wire ROM commands, addressing and the search algorithm"
+    },
+    {
+      "id": "el-one-wire-protocols-4",
+      "name": "Parasitic power and timing slots"
+    },
+    {
+      "id": "el-one-wire-protocols-5",
+      "name": "Single-wire LED protocols (WS2812/NeoPixel)"
+    },
+    {
+      "id": "el-one-wire-protocols-2",
+      "name": "SWDIO (Single Wire Debug I/O)"
+    }
+  ]
+}

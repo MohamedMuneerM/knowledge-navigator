@@ -1,0 +1,34 @@
+{
+  "id": "el-high-level-synthesis-hls",
+  "name": "High-Level Synthesis (HLS)",
+  "category": "FPGA, ASIC & VLSI Design",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Generating hardware from C/C++ with HLS tools and directives for pipelining, unrolling and interface synthesis.",
+  "prerequisites": [
+    "el-fpga-design-flow"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-high-level-synthesis-hls-1",
+      "name": "C/C++ to RTL conversion"
+    },
+    {
+      "id": "el-high-level-synthesis-hls-2",
+      "name": "Xilinx Vitis HLS"
+    },
+    {
+      "id": "el-high-level-synthesis-hls-3",
+      "name": "Intel HLS Compiler"
+    },
+    {
+      "id": "el-high-level-synthesis-hls-4",
+      "name": "Optimization directives (pipelining, unrolling)"
+    },
+    {
+      "id": "el-high-level-synthesis-hls-5",
+      "name": "Interface synthesis"
+    }
+  ]
+}

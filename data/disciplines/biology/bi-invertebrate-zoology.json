@@ -1,0 +1,54 @@
+{
+  "id": "bi-invertebrate-zoology",
+  "name": "Invertebrate Zoology",
+  "category": "Biodiversity & Systematics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "An in-depth look at the invertebrate phyla, which make up over 95% of animal species, including insects and other arthropods.",
+  "prerequisites": [
+    "bi-animal-diversity"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-invertebrate-zoology-1",
+      "name": "Early-branching animals: sponges, placozoans, ctenophores"
+    },
+    {
+      "id": "bi-invertebrate-zoology-2",
+      "name": "Cnidarians: polyps, medusae, corals and nematocysts"
+    },
+    {
+      "id": "bi-invertebrate-zoology-3",
+      "name": "Flatworms, rotifers and other small lophotrochozoans"
+    },
+    {
+      "id": "bi-invertebrate-zoology-4",
+      "name": "Molluscs: body plan, diversity and cephalopod intelligence"
+    },
+    {
+      "id": "bi-invertebrate-zoology-5",
+      "name": "Annelids: segmentation and diversity"
+    },
+    {
+      "id": "bi-invertebrate-zoology-6",
+      "name": "Nematodes and other ecdysozoans"
+    },
+    {
+      "id": "bi-invertebrate-zoology-7",
+      "name": "Arthropod body plan, exoskeleton and moulting"
+    },
+    {
+      "id": "bi-invertebrate-zoology-8",
+      "name": "Entomology: insect anatomy, metamorphosis, diversity and ecological roles"
+    },
+    {
+      "id": "bi-invertebrate-zoology-9",
+      "name": "Crustaceans, chelicerates and myriapods"
+    },
+    {
+      "id": "bi-invertebrate-zoology-10",
+      "name": "Echinoderms and invertebrate chordates"
+    }
+  ]
+}

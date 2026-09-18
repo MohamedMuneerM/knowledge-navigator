@@ -1,0 +1,48 @@
+{
+  "id": "ai-monitoring-maintenance",
+  "name": "Monitoring & Maintenance",
+  "category": "MLOps & ML Engineering",
+  "level": 3,
+  "priority": "important",
+  "summary": "Keeping deployed models healthy: monitoring, data and concept drift detection, alerting, and safe rollout strategies such as shadow and canary deployments.",
+  "prerequisites": [
+    "ai-model-deployment"
+  ],
+  "related": [
+    "cs-site-reliability-engineering"
+  ],
+  "topics": [
+    {
+      "id": "ai-monitoring-maintenance-1",
+      "name": "Model Monitoring"
+    },
+    {
+      "id": "ai-monitoring-maintenance-2",
+      "name": "Data Drift Detection"
+    },
+    {
+      "id": "ai-monitoring-maintenance-3",
+      "name": "Concept Drift"
+    },
+    {
+      "id": "ai-monitoring-maintenance-4",
+      "name": "Model Degradation"
+    },
+    {
+      "id": "ai-monitoring-maintenance-5",
+      "name": "Alerting Systems"
+    },
+    {
+      "id": "ai-monitoring-maintenance-6",
+      "name": "A/B Testing in Production"
+    },
+    {
+      "id": "ai-monitoring-maintenance-7",
+      "name": "Shadow Deployment"
+    },
+    {
+      "id": "ai-monitoring-maintenance-8",
+      "name": "Canary Releases"
+    }
+  ]
+}

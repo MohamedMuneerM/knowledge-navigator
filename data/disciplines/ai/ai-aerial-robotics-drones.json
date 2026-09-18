@@ -1,0 +1,72 @@
+{
+  "id": "ai-aerial-robotics-drones",
+  "name": "Aerial Robotics & Drones",
+  "category": "Robot Platforms & Locomotion",
+  "level": 4,
+  "priority": "important",
+  "summary": "Modelling, controlling and automating flying robots, from quadrotor dynamics and flight controllers to vision-based navigation in GPS-denied spaces.",
+  "prerequisites": [
+    "ai-control-systems",
+    "ai-robot-perception",
+    "ae-aerospace-dynamics"
+  ],
+  "related": [
+    "el-avionics-systems",
+    "ae-flight-dynamics",
+    "ae-uav-drone-engineering"
+  ],
+  "topics": [
+    {
+      "id": "ai-aerial-robotics-drones-1",
+      "name": "UAV types: multirotor, fixed-wing, VTOL and hybrids"
+    },
+    {
+      "id": "ai-aerial-robotics-drones-2",
+      "name": "Quadrotor rigid-body dynamics"
+    },
+    {
+      "id": "ai-aerial-robotics-drones-3",
+      "name": "Attitude representation and attitude control"
+    },
+    {
+      "id": "ai-aerial-robotics-drones-4",
+      "name": "Position and trajectory control: cascaded PID and geometric control on SE(3)"
+    },
+    {
+      "id": "ai-aerial-robotics-drones-5",
+      "name": "Differential flatness and minimum-snap trajectories"
+    },
+    {
+      "id": "ai-aerial-robotics-drones-6",
+      "name": "State estimation: IMU, GPS and barometer fusion with an EKF"
+    },
+    {
+      "id": "ai-aerial-robotics-drones-7",
+      "name": "Visual-inertial odometry for GPS-denied flight"
+    },
+    {
+      "id": "ai-aerial-robotics-drones-8",
+      "name": "Autopilot stacks: PX4, ArduPilot, MAVLink"
+    },
+    {
+      "id": "ai-aerial-robotics-drones-9",
+      "name": "Perception-aware planning and obstacle avoidance"
+    },
+    {
+      "id": "ai-aerial-robotics-drones-10",
+      "name": "Aerial manipulation and payloads"
+    },
+    {
+      "id": "ai-aerial-robotics-drones-11",
+      "name": "Multi-drone coordination"
+    },
+    {
+      "id": "ai-aerial-robotics-drones-12",
+      "name": "Learning-based agile flight and drone racing"
+    },
+    {
+      "id": "ai-aerial-robotics-drones-13",
+      "name": "Regulations and safety (FAA Part 107, EASA)"
+    }
+  ]
+}

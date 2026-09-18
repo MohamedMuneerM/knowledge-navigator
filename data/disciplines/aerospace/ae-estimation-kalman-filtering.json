@@ -1,0 +1,66 @@
+{
+  "id": "ae-estimation-kalman-filtering",
+  "name": "Estimation and Kalman Filtering for Aerospace",
+  "category": "Guidance, Navigation & Control",
+  "level": 3,
+  "priority": "core",
+  "summary": "The estimation theory behind every navigation system: least squares, Kalman filters and their nonlinear variants.",
+  "prerequisites": [
+    "ma-probability-theory",
+    "ae-feedback-control-aerospace"
+  ],
+  "related": [
+    "el-sensor-fusion",
+    "ai-probabilistic-ai"
+  ],
+  "topics": [
+    {
+      "id": "ae-estimation-kalman-filtering-1",
+      "name": "Random variables, covariance and Gaussian distributions"
+    },
+    {
+      "id": "ae-estimation-kalman-filtering-2",
+      "name": "Random processes, white noise and Markov models"
+    },
+    {
+      "id": "ae-estimation-kalman-filtering-3",
+      "name": "Least-squares and weighted least-squares estimation"
+    },
+    {
+      "id": "ae-estimation-kalman-filtering-4",
+      "name": "Recursive estimation"
+    },
+    {
+      "id": "ae-estimation-kalman-filtering-5",
+      "name": "The discrete Kalman filter"
+    },
+    {
+      "id": "ae-estimation-kalman-filtering-6",
+      "name": "Continuous-discrete Kalman filtering"
+    },
+    {
+      "id": "ae-estimation-kalman-filtering-7",
+      "name": "Extended Kalman filter"
+    },
+    {
+      "id": "ae-estimation-kalman-filtering-8",
+      "name": "Unscented Kalman filter"
+    },
+    {
+      "id": "ae-estimation-kalman-filtering-9",
+      "name": "Particle filters"
+    },
+    {
+      "id": "ae-estimation-kalman-filtering-10",
+      "name": "Filter tuning, consistency checks and divergence"
+    },
+    {
+      "id": "ae-estimation-kalman-filtering-11",
+      "name": "Error-state and multiplicative filters"
+    },
+    {
+      "id": "ae-estimation-kalman-filtering-12",
+      "name": "Smoothing"
+    }
+  ]
+}

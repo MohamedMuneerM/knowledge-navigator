@@ -1,0 +1,68 @@
+{
+  "id": "ai-edge-ai-embedded-ml",
+  "name": "Edge AI & Embedded ML",
+  "category": "AI Systems & Infrastructure",
+  "level": 4,
+  "priority": "important",
+  "summary": "Running ML on phones, microcontrollers and embedded boards with TinyML, mobile frameworks and edge accelerators.",
+  "prerequisites": [
+    "ai-inference-optimization",
+    "el-embedded-systems-fundamentals"
+  ],
+  "related": [
+    "el-tinyml-tiny-machine-learning",
+    "el-deep-learning-on-edge",
+    "el-edge-ai-for-vision",
+    "el-edge-intelligence"
+  ],
+  "topics": [
+    {
+      "id": "ai-edge-ai-embedded-ml-1",
+      "name": "TinyML"
+    },
+    {
+      "id": "ai-edge-ai-embedded-ml-2",
+      "name": "On-device Inference"
+    },
+    {
+      "id": "ai-edge-ai-embedded-ml-3",
+      "name": "Mobile ML Frameworks",
+      "sub": [
+        {
+          "id": "ai-edge-ai-embedded-ml-3-1",
+          "name": "TensorFlow Lite"
+        },
+        {
+          "id": "ai-edge-ai-embedded-ml-3-2",
+          "name": "Core ML"
+        },
+        {
+          "id": "ai-edge-ai-embedded-ml-3-3",
+          "name": "NNAPI"
+        }
+      ]
+    },
+    {
+      "id": "ai-edge-ai-embedded-ml-4",
+      "name": "Edge Devices",
+      "sub": [
+        {
+          "id": "ai-edge-ai-embedded-ml-4-1",
+          "name": "NVIDIA Jetson"
+        },
+        {
+          "id": "ai-edge-ai-embedded-ml-4-2",
+          "name": "Google Coral"
+        },
+        {
+          "id": "ai-edge-ai-embedded-ml-4-3",
+          "name": "Raspberry Pi"
+        }
+      ]
+    },
+    {
+      "id": "ai-edge-ai-embedded-ml-5",
+      "name": "Model Optimization for Edge"
+    }
+  ]
+}

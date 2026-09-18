@@ -1,0 +1,53 @@
+{
+  "id": "ma-representation-theory",
+  "name": "Representation Theory",
+  "category": "Algebra",
+  "level": 3,
+  "priority": "important",
+  "summary": "Groups acting by matrices: representations and characters of finite groups, the bridge from group theory to physics, chemistry and number theory.",
+  "prerequisites": [
+    "ma-group-theory"
+  ],
+  "related": [
+    "ma-symmetries-groups-in-physics",
+    "ph-symmetry-group-theory"
+  ],
+  "topics": [
+    {
+      "id": "ma-representation-theory-1",
+      "name": "Representations, subrepresentations and group algebras"
+    },
+    {
+      "id": "ma-representation-theory-2",
+      "name": "Maschke's theorem and complete reducibility"
+    },
+    {
+      "id": "ma-representation-theory-3",
+      "name": "Schur's lemma"
+    },
+    {
+      "id": "ma-representation-theory-4",
+      "name": "Characters and orthogonality relations"
+    },
+    {
+      "id": "ma-representation-theory-5",
+      "name": "Character tables of small groups"
+    },
+    {
+      "id": "ma-representation-theory-6",
+      "name": "Tensor products, induced and restricted representations; Frobenius reciprocity"
+    },
+    {
+      "id": "ma-representation-theory-7",
+      "name": "Representations of the symmetric group"
+    },
+    {
+      "id": "ma-representation-theory-8",
+      "name": "Burnside's pq theorem and other applications"
+    },
+    {
+      "id": "ma-representation-theory-9",
+      "name": "Introduction to representations of compact groups (SU(2), SO(3))"
+    }
+  ]
+}

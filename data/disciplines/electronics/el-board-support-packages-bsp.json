@@ -1,0 +1,35 @@
+{
+  "id": "el-board-support-packages-bsp",
+  "name": "Board Support Packages (BSP)",
+  "category": "Embedded Software, Firmware & RTOS",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Bringing up software on a new board: BSP structure, hardware initialization, board configuration and porting.",
+  "prerequisites": [
+    "el-device-drivers",
+    "el-boot-startup"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-board-support-packages-bsp-1",
+      "name": "BSP architecture and components"
+    },
+    {
+      "id": "el-board-support-packages-bsp-2",
+      "name": "Hardware initialization"
+    },
+    {
+      "id": "el-board-support-packages-bsp-3",
+      "name": "Peripheral drivers"
+    },
+    {
+      "id": "el-board-support-packages-bsp-4",
+      "name": "Board-specific configuration"
+    },
+    {
+      "id": "el-board-support-packages-bsp-5",
+      "name": "BSP customization and porting"
+    }
+  ]
+}

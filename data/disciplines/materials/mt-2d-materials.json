@@ -1,0 +1,51 @@
+{
+  "id": "mt-2d-materials",
+  "name": "Two-Dimensional Materials",
+  "category": "Frontier Materials",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Covers atomically thin materials such as graphene and MoS2: their synthesis, extraordinary properties and potential uses.",
+  "prerequisites": [
+    "mt-nanomaterials",
+    "mt-semiconductor-materials"
+  ],
+  "related": [
+    "el-advanced-materials",
+    "ph-quantum-materials",
+    "ph-topological-phases-of-matter"
+  ],
+  "topics": [
+    {
+      "id": "mt-2d-materials-1",
+      "name": "Graphene: structure, Dirac electronic bands and exceptional mechanical and thermal properties"
+    },
+    {
+      "id": "mt-2d-materials-2",
+      "name": "Hexagonal boron nitride and other insulating 2D layers"
+    },
+    {
+      "id": "mt-2d-materials-3",
+      "name": "Transition-metal dichalcogenides (MoS2, WSe2) and their optoelectronics"
+    },
+    {
+      "id": "mt-2d-materials-4",
+      "name": "MXenes, phosphorene and other emerging 2D families"
+    },
+    {
+      "id": "mt-2d-materials-5",
+      "name": "Synthesis: mechanical exfoliation, liquid exfoliation and CVD growth"
+    },
+    {
+      "id": "mt-2d-materials-6",
+      "name": "Transfer, van der Waals heterostructures and twistronics"
+    },
+    {
+      "id": "mt-2d-materials-7",
+      "name": "Characterisation of 2D materials (Raman, AFM, TEM)"
+    },
+    {
+      "id": "mt-2d-materials-8",
+      "name": "Applications: electronics, membranes, composites, sensors and energy storage"
+    }
+  ]
+}

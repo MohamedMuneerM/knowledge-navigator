@@ -1,0 +1,66 @@
+{
+  "id": "el-industrial-protocols",
+  "name": "Industrial Protocols",
+  "category": "Communication Protocols & Connectivity",
+  "level": 3,
+  "priority": "important",
+  "summary": "The protocols of factory automation: Modbus, PROFIBUS/PROFINET, EtherCAT, EtherNet/IP, CANopen, HART, AS-i and more.",
+  "prerequisites": [
+    "el-serial-protocols",
+    "el-ethernet-networking"
+  ],
+  "related": [
+    "el-field-level-buses",
+    "el-industrial-ethernet"
+  ],
+  "topics": [
+    {
+      "id": "el-industrial-protocols-1",
+      "name": "Modbus (RTU, ASCII, TCP)"
+    },
+    {
+      "id": "el-industrial-protocols-2",
+      "name": "Profibus (DP, PA, FMS)"
+    },
+    {
+      "id": "el-industrial-protocols-3",
+      "name": "PROFINET (Industrial Ethernet)"
+    },
+    {
+      "id": "el-industrial-protocols-4",
+      "name": "EtherCAT (Ethernet for Control Automation Technology)"
+    },
+    {
+      "id": "el-industrial-protocols-5",
+      "name": "Ethernet/IP"
+    },
+    {
+      "id": "el-industrial-protocols-6",
+      "name": "CANopen"
+    },
+    {
+      "id": "el-industrial-protocols-7",
+      "name": "DeviceNet"
+    },
+    {
+      "id": "el-industrial-protocols-8",
+      "name": "CC-Link"
+    },
+    {
+      "id": "el-industrial-protocols-9",
+      "name": "HART (Highway Addressable Remote Transducer)"
+    },
+    {
+      "id": "el-industrial-protocols-10",
+      "name": "AS-Interface (AS-i)"
+    },
+    {
+      "id": "el-industrial-protocols-11",
+      "name": "POWERLINK"
+    },
+    {
+      "id": "el-industrial-protocols-12",
+      "name": "SERCOS III"
+    }
+  ]
+}

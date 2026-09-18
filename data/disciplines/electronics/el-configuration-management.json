@@ -1,0 +1,33 @@
+{
+  "id": "el-configuration-management",
+  "name": "Software Configuration Management",
+  "category": "Embedded Development Practices & Debugging",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Managing build-time configuration: config file formats, environment-specific builds, feature flags and provisioning data.",
+  "prerequisites": [
+    "el-build-systems"
+  ],
+  "related": [
+    "el-device-configuration-management",
+    "cs-devops-cicd"
+  ],
+  "topics": [
+    {
+      "id": "el-configuration-management-1",
+      "name": "Configuration files (JSON, YAML, TOML, INI)"
+    },
+    {
+      "id": "el-configuration-management-2",
+      "name": "Environment-specific builds"
+    },
+    {
+      "id": "el-configuration-management-3",
+      "name": "Feature flags"
+    },
+    {
+      "id": "el-configuration-management-4",
+      "name": "Device provisioning data"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ma-time-series-analysis",
+  "name": "Time Series Analysis",
+  "category": "Probability & Statistics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Modelling data ordered in time: stationarity, ARIMA models, spectral analysis and state-space models.",
+  "prerequisites": [
+    "ma-regression-analysis"
+  ],
+  "related": [
+    "ph-astrostatistics"
+  ],
+  "topics": [
+    {
+      "id": "ma-time-series-analysis-4",
+      "name": "Trend, seasonality and stationarity"
+    },
+    {
+      "id": "ma-time-series-analysis-5",
+      "name": "Autocorrelation"
+    },
+    {
+      "id": "ma-time-series-analysis-1",
+      "name": "ARIMA models"
+    },
+    {
+      "id": "ma-time-series-analysis-6",
+      "name": "Forecasting"
+    },
+    {
+      "id": "ma-time-series-analysis-2",
+      "name": "Spectral analysis"
+    },
+    {
+      "id": "ma-time-series-analysis-3",
+      "name": "State-space models"
+    },
+    {
+      "id": "ma-time-series-analysis-7",
+      "name": "Volatility models (ARCH/GARCH)"
+    }
+  ]
+}

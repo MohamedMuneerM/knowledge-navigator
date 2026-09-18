@@ -1,0 +1,32 @@
+{
+  "id": "el-technical-publications",
+  "name": "Technical Publications",
+  "category": "Professional Practice, Business & Community",
+  "level": 1,
+  "priority": "optional",
+  "summary": "Keeping up with the field: IEEE journals, trade magazines, conference proceedings, application notes and reference designs.",
+  "prerequisites": [],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-technical-publications-1",
+      "name": "IEEE journals and transactions"
+    },
+    {
+      "id": "el-technical-publications-2",
+      "name": "Technical magazines (Circuit Cellar, Elektor, EDN, EE Times)"
+    },
+    {
+      "id": "el-technical-publications-3",
+      "name": "Conference proceedings (ISSCC, DAC, DATE, ICRA)"
+    },
+    {
+      "id": "el-technical-publications-4",
+      "name": "Application notes and white papers"
+    },
+    {
+      "id": "el-technical-publications-5",
+      "name": "Datasheets and reference designs"
+    }
+  ]
+}

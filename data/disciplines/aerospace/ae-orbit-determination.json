@@ -1,0 +1,55 @@
+{
+  "id": "ae-orbit-determination",
+  "name": "Statistical Orbit Determination",
+  "category": "Orbital Mechanics & Astrodynamics",
+  "level": 4,
+  "priority": "important",
+  "summary": "Estimating a spacecraft's orbit from tracking measurements using batch least squares and sequential filters.",
+  "prerequisites": [
+    "ae-orbital-perturbations",
+    "ae-estimation-kalman-filtering"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-orbit-determination-1",
+      "name": "Tracking data types: range, range-rate, angles, GNSS, optical"
+    },
+    {
+      "id": "ae-orbit-determination-2",
+      "name": "Observation models and partial derivatives"
+    },
+    {
+      "id": "ae-orbit-determination-3",
+      "name": "State transition matrix and variational equations"
+    },
+    {
+      "id": "ae-orbit-determination-4",
+      "name": "Batch weighted least-squares orbit determination"
+    },
+    {
+      "id": "ae-orbit-determination-5",
+      "name": "Sequential estimation: extended Kalman filter for orbits"
+    },
+    {
+      "id": "ae-orbit-determination-6",
+      "name": "Process noise and dynamic model compensation"
+    },
+    {
+      "id": "ae-orbit-determination-7",
+      "name": "Covariance analysis and consider parameters"
+    },
+    {
+      "id": "ae-orbit-determination-8",
+      "name": "Measurement editing and residual analysis"
+    },
+    {
+      "id": "ae-orbit-determination-9",
+      "name": "Precise orbit determination with GNSS"
+    },
+    {
+      "id": "ae-orbit-determination-10",
+      "name": "Deep-space tracking and ephemeris generation"
+    }
+  ]
+}

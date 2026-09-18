@@ -1,0 +1,67 @@
+{
+  "id": "me-gears-power-transmission",
+  "name": "Gears, Belts, Chains, Clutches & Brakes",
+  "category": "Machine Design & Machine Elements",
+  "level": 3,
+  "priority": "core",
+  "summary": "Designing power-transmission elements: gears of every type, gearboxes, flexible drives, clutches, brakes and flywheels.",
+  "prerequisites": [
+    "me-machine-design-fundamentals",
+    "me-kinematics-of-mechanisms"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "me-gears-power-transmission-1",
+      "name": "Gear types and nomenclature; involute profile and conjugate action"
+    },
+    {
+      "id": "me-gears-power-transmission-2",
+      "name": "Spur gear geometry: contact ratio, interference and undercutting"
+    },
+    {
+      "id": "me-gears-power-transmission-3",
+      "name": "Force analysis of spur, helical, bevel and worm gears"
+    },
+    {
+      "id": "me-gears-power-transmission-4",
+      "name": "AGMA bending and contact (pitting) stress for spur and helical gears"
+    },
+    {
+      "id": "me-gears-power-transmission-5",
+      "name": "Bevel and worm gear design"
+    },
+    {
+      "id": "me-gears-power-transmission-6",
+      "name": "Gearbox design and planetary gear sets"
+    },
+    {
+      "id": "me-gears-power-transmission-7",
+      "name": "Gear manufacturing, quality grades, lubrication and failure modes"
+    },
+    {
+      "id": "me-gears-power-transmission-8",
+      "name": "Specialised reducers: harmonic (strain-wave) and cycloidal drives"
+    },
+    {
+      "id": "me-gears-power-transmission-9",
+      "name": "Belt drives: flat, V- and synchronous (timing) belts"
+    },
+    {
+      "id": "me-gears-power-transmission-10",
+      "name": "Roller and silent chain drives"
+    },
+    {
+      "id": "me-gears-power-transmission-11",
+      "name": "Wire ropes and flexible shafts"
+    },
+    {
+      "id": "me-gears-power-transmission-12",
+      "name": "Clutches and brakes: friction analysis, energy dissipation and temperature rise"
+    },
+    {
+      "id": "me-gears-power-transmission-13",
+      "name": "Flywheels in power transmission"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "ph-nuclear-physics",
+  "name": "Nuclear Physics",
+  "category": "Nuclear & Particle Physics",
+  "level": 3,
+  "priority": "important",
+  "summary": "The structure of atomic nuclei, radioactive decay, nuclear reactions, fission and fusion.",
+  "prerequisites": [
+    "ph-quantum-mechanics"
+  ],
+  "related": [
+    "ch-nuclear-radiochemistry"
+  ],
+  "topics": [
+    {
+      "id": "ph-nuclear-physics-1",
+      "name": "Nuclear structure"
+    },
+    {
+      "id": "ph-nuclear-physics-13",
+      "name": "Nuclear properties: size, mass and the semi-empirical mass formula"
+    },
+    {
+      "id": "ph-nuclear-physics-7",
+      "name": "Isotopes and nuclides"
+    },
+    {
+      "id": "ph-nuclear-physics-2",
+      "name": "Nuclear forces and models (shell model, liquid drop)"
+    },
+    {
+      "id": "ph-nuclear-physics-4",
+      "name": "Radioactivity"
+    },
+    {
+      "id": "ph-nuclear-physics-3",
+      "name": "Nuclear decay (alpha, beta, gamma)"
+    },
+    {
+      "id": "ph-nuclear-physics-14",
+      "name": "Interaction of radiation with matter"
+    },
+    {
+      "id": "ph-nuclear-physics-8",
+      "name": "Nuclear reactions"
+    },
+    {
+      "id": "ph-nuclear-physics-5",
+      "name": "Nuclear fission"
+    },
+    {
+      "id": "ph-nuclear-physics-6",
+      "name": "Nuclear fusion"
+    },
+    {
+      "id": "ph-nuclear-physics-9",
+      "name": "Nuclear reactors"
+    },
+    {
+      "id": "ph-nuclear-physics-10",
+      "name": "High-energy nuclear collisions"
+    },
+    {
+      "id": "ph-nuclear-physics-11",
+      "name": "Stellar nucleosynthesis"
+    },
+    {
+      "id": "ph-nuclear-physics-12",
+      "name": "Nuclear astrophysics"
+    }
+  ]
+}

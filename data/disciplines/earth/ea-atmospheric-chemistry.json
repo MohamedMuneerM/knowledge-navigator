@@ -1,0 +1,54 @@
+{
+  "id": "ea-atmospheric-chemistry",
+  "name": "Atmospheric Chemistry",
+  "category": "Meteorology & Atmospheric Science",
+  "level": 3,
+  "priority": "important",
+  "summary": "The chemical composition of the atmosphere and the reactions that control ozone, oxidants, aerosols and pollutants.",
+  "prerequisites": [
+    "ea-meteorology",
+    "ch-chemical-kinetics-intro"
+  ],
+  "related": [
+    "ch-atmospheric-chemistry",
+    "ch-photochemistry"
+  ],
+  "topics": [
+    {
+      "id": "ea-atmospheric-chemistry-1",
+      "name": "Atmospheric composition, sources, sinks and lifetimes"
+    },
+    {
+      "id": "ea-atmospheric-chemistry-2",
+      "name": "Box models and transport of trace gases"
+    },
+    {
+      "id": "ea-atmospheric-chemistry-3",
+      "name": "Photochemistry and reaction kinetics"
+    },
+    {
+      "id": "ea-atmospheric-chemistry-4",
+      "name": "Stratospheric ozone: Chapman chemistry, catalytic cycles and the ozone hole"
+    },
+    {
+      "id": "ea-atmospheric-chemistry-5",
+      "name": "Tropospheric oxidants: OH radical and oxidising capacity"
+    },
+    {
+      "id": "ea-atmospheric-chemistry-6",
+      "name": "Tropospheric ozone and photochemical smog"
+    },
+    {
+      "id": "ea-atmospheric-chemistry-7",
+      "name": "Atmospheric aerosols: formation, composition and effects"
+    },
+    {
+      "id": "ea-atmospheric-chemistry-8",
+      "name": "Acid deposition"
+    },
+    {
+      "id": "ea-atmospheric-chemistry-9",
+      "name": "Chemistry-climate interactions and short-lived climate forcers"
+    }
+  ]
+}

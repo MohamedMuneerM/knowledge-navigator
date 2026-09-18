@@ -1,0 +1,55 @@
+{
+  "id": "ph-quantum-information-science",
+  "name": "Quantum Information Science",
+  "category": "Quantum Physics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Using superposition and entanglement to compute, communicate and protect information, and the hardware that does it.",
+  "prerequisites": [
+    "ph-quantum-mechanics"
+  ],
+  "related": [
+    "ma-quantum-computation-theory",
+    "el-quantum-technologies",
+    "ai-quantum-machine-learning",
+    "cs-quantum-computing"
+  ],
+  "topics": [
+    {
+      "id": "ph-quantum-information-science-1",
+      "name": "Quantum computing"
+    },
+    {
+      "id": "ph-quantum-information-science-2",
+      "name": "Quantum algorithms"
+    },
+    {
+      "id": "ph-quantum-information-science-3",
+      "name": "Quantum communication"
+    },
+    {
+      "id": "ph-quantum-information-science-4",
+      "name": "Quantum cryptography"
+    },
+    {
+      "id": "ph-quantum-information-science-5",
+      "name": "Quantum error correction"
+    },
+    {
+      "id": "ph-quantum-information-science-6",
+      "name": "Quantum circuits"
+    },
+    {
+      "id": "ph-quantum-information-science-7",
+      "name": "Superconducting quantum circuits"
+    },
+    {
+      "id": "ph-quantum-information-science-8",
+      "name": "Trapped ions"
+    },
+    {
+      "id": "ph-quantum-information-science-9",
+      "name": "Quantum networks"
+    }
+  ]
+}

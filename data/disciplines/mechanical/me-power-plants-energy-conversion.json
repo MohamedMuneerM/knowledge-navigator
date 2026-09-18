@@ -1,0 +1,66 @@
+{
+  "id": "me-power-plants-energy-conversion",
+  "name": "Power Plants & Energy Conversion",
+  "category": "Energy & Power Systems",
+  "level": 3,
+  "priority": "important",
+  "summary": "Large-scale conversion of fuel and natural energy into electricity and heat: steam, gas-turbine, combined-cycle, cogeneration, nuclear and hydro plants.",
+  "prerequisites": [
+    "me-turbomachinery",
+    "me-heat-transfer"
+  ],
+  "related": [
+    "ph-energy-physics",
+    "el-power-generation"
+  ],
+  "topics": [
+    {
+      "id": "me-power-plants-energy-conversion-1",
+      "name": "Energy resources, demand and the power generation mix"
+    },
+    {
+      "id": "me-power-plants-energy-conversion-2",
+      "name": "Steam power plants: layout and Rankine-cycle performance"
+    },
+    {
+      "id": "me-power-plants-energy-conversion-3",
+      "name": "Boilers and steam generators: heat rate and efficiency"
+    },
+    {
+      "id": "me-power-plants-energy-conversion-4",
+      "name": "Condensers, feedwater heaters and cooling systems (cooling towers)"
+    },
+    {
+      "id": "me-power-plants-energy-conversion-5",
+      "name": "Gas-turbine power plants"
+    },
+    {
+      "id": "me-power-plants-energy-conversion-6",
+      "name": "Combined-cycle plants and heat recovery steam generators"
+    },
+    {
+      "id": "me-power-plants-energy-conversion-7",
+      "name": "Cogeneration and combined heat and power (CHP)"
+    },
+    {
+      "id": "me-power-plants-energy-conversion-8",
+      "name": "Nuclear power plant systems overview"
+    },
+    {
+      "id": "me-power-plants-energy-conversion-9",
+      "name": "Hydropower plants"
+    },
+    {
+      "id": "me-power-plants-energy-conversion-10",
+      "name": "Emissions control and carbon capture"
+    },
+    {
+      "id": "me-power-plants-energy-conversion-11",
+      "name": "Plant economics: levelised cost of electricity and load curves"
+    },
+    {
+      "id": "me-power-plants-energy-conversion-12",
+      "name": "Reciprocating-engine gensets and distributed generation"
+    }
+  ]
+}

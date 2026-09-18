@@ -1,0 +1,49 @@
+{
+  "id": "el-concurrency-synchronization",
+  "name": "Concurrency & Synchronization",
+  "category": "Embedded Software, Firmware & RTOS",
+  "level": 3,
+  "priority": "core",
+  "summary": "Getting concurrent code right: interrupt priorities, critical sections, atomics, mutexes, semaphores, queues, deadlock and priority inversion.",
+  "prerequisites": [
+    "el-bare-metal-programming",
+    "cs-operating-systems"
+  ],
+  "related": [
+    "cs-concurrent-programming"
+  ],
+  "topics": [
+    {
+      "id": "el-concurrency-synchronization-1",
+      "name": "Interrupts and interrupt priorities"
+    },
+    {
+      "id": "el-concurrency-synchronization-2",
+      "name": "Critical sections and atomic operations"
+    },
+    {
+      "id": "el-concurrency-synchronization-3",
+      "name": "Mutual exclusion (mutex)"
+    },
+    {
+      "id": "el-concurrency-synchronization-4",
+      "name": "Semaphores (binary, counting)"
+    },
+    {
+      "id": "el-concurrency-synchronization-5",
+      "name": "Event flags and mailboxes"
+    },
+    {
+      "id": "el-concurrency-synchronization-6",
+      "name": "Message queues"
+    },
+    {
+      "id": "el-concurrency-synchronization-7",
+      "name": "Race conditions and deadlocks"
+    },
+    {
+      "id": "el-concurrency-synchronization-8",
+      "name": "Priority inversion and solutions"
+    }
+  ]
+}

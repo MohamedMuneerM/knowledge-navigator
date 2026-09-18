@@ -1,0 +1,42 @@
+{
+  "id": "el-switching-regulators",
+  "name": "Switching Regulators",
+  "category": "Power Electronics & Power Management",
+  "level": 3,
+  "priority": "important",
+  "summary": "The DC-DC converter topologies used in practice (buck, boost, SEPIC, Cuk, flyback, forward, bridge) and when to use each.",
+  "prerequisites": [
+    "el-power-electronics-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-switching-regulators-1",
+      "name": "Buck (step-down) converters"
+    },
+    {
+      "id": "el-switching-regulators-2",
+      "name": "Boost (step-up) converters"
+    },
+    {
+      "id": "el-switching-regulators-3",
+      "name": "Buck-boost converters"
+    },
+    {
+      "id": "el-switching-regulators-4",
+      "name": "SEPIC (Single-Ended Primary-Inductor Converter)"
+    },
+    {
+      "id": "el-switching-regulators-5",
+      "name": "Ćuk converter"
+    },
+    {
+      "id": "el-switching-regulators-6",
+      "name": "Flyback and forward converters"
+    },
+    {
+      "id": "el-switching-regulators-7",
+      "name": "Push-pull and bridge topologies"
+    }
+  ]
+}

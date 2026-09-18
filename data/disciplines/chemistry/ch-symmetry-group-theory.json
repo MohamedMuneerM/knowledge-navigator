@@ -1,0 +1,59 @@
+{
+  "id": "ch-symmetry-group-theory",
+  "name": "Molecular Symmetry & Group Theory",
+  "category": "Inorganic Chemistry",
+  "level": 3,
+  "priority": "core",
+  "summary": "Point groups and character tables as tools for bonding, spectroscopy and structure.",
+  "prerequisites": [
+    "ch-chemical-bonding-molecular-structure",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ph-symmetry-group-theory",
+    "ma-group-theory",
+    "ma-symmetries-groups-in-physics"
+  ],
+  "topics": [
+    {
+      "id": "ch-symmetry-group-theory-1",
+      "name": "Symmetry elements and operations"
+    },
+    {
+      "id": "ch-symmetry-group-theory-2",
+      "name": "Point groups and how to assign them"
+    },
+    {
+      "id": "ch-symmetry-group-theory-3",
+      "name": "Group theory basics: multiplication tables and classes"
+    },
+    {
+      "id": "ch-symmetry-group-theory-4",
+      "name": "Matrix representations and character tables"
+    },
+    {
+      "id": "ch-symmetry-group-theory-5",
+      "name": "Reducible and irreducible representations; the reduction formula"
+    },
+    {
+      "id": "ch-symmetry-group-theory-6",
+      "name": "Symmetry-adapted linear combinations and MO diagrams of polyatomic molecules"
+    },
+    {
+      "id": "ch-symmetry-group-theory-7",
+      "name": "Vibrational modes and IR/Raman selection rules"
+    },
+    {
+      "id": "ch-symmetry-group-theory-8",
+      "name": "Chirality and polarity from symmetry"
+    },
+    {
+      "id": "ch-symmetry-group-theory-9",
+      "name": "Direct products and spectroscopic selection rules"
+    },
+    {
+      "id": "ch-symmetry-group-theory-10",
+      "name": "Crystallographic symmetry and space groups (introduction)"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "bi-computational-neuroscience",
+  "name": "Computational Neuroscience",
+  "category": "Neuroscience",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Mathematical and computational models of neurons, circuits and learning, and how the brain encodes and decodes information.",
+  "prerequisites": [
+    "bi-cellular-molecular-neuroscience",
+    "ma-ordinary-differential-equations-odes",
+    "ma-probability-theory",
+    "cs-programming-fundamentals"
+  ],
+  "related": [
+    "ai-neural-network-foundations",
+    "ai-bio-inspired-ai",
+    "el-neuromorphic-computing",
+    "ma-dynamical-systems"
+  ],
+  "topics": [
+    {
+      "id": "bi-computational-neuroscience-1",
+      "name": "Single-neuron models: Hodgkin-Huxley, integrate-and-fire and reduced models"
+    },
+    {
+      "id": "bi-computational-neuroscience-2",
+      "name": "Compartmental and cable models of dendrites"
+    },
+    {
+      "id": "bi-computational-neuroscience-3",
+      "name": "Synaptic models and short-term dynamics"
+    },
+    {
+      "id": "bi-computational-neuroscience-4",
+      "name": "Spike statistics: Poisson processes and variability"
+    },
+    {
+      "id": "bi-computational-neuroscience-5",
+      "name": "Neural encoding: tuning curves, receptive fields and GLMs"
+    },
+    {
+      "id": "bi-computational-neuroscience-6",
+      "name": "Neural decoding: population vectors and Bayesian decoding"
+    },
+    {
+      "id": "bi-computational-neuroscience-7",
+      "name": "Information theory in neuroscience"
+    },
+    {
+      "id": "bi-computational-neuroscience-8",
+      "name": "Network models: rate models, attractors and balanced networks"
+    },
+    {
+      "id": "bi-computational-neuroscience-9",
+      "name": "Synaptic plasticity rules and Hebbian learning"
+    },
+    {
+      "id": "bi-computational-neuroscience-10",
+      "name": "Reinforcement learning models of behaviour and dopamine"
+    },
+    {
+      "id": "bi-computational-neuroscience-11",
+      "name": "Normative models: the Bayesian brain and efficient coding"
+    },
+    {
+      "id": "bi-computational-neuroscience-12",
+      "name": "Comparing brains with artificial neural networks"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+name: Problem with a chapter
+description: A missing topic, a wrong prerequisite, level or category, or a factual error.
+title: "[chapter] "
+labels: ["content", "feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Open the chapter in the app and use **⚑ Report a problem** to fill in the chapter id automatically.
+  - type: input
+    id: chapter
+    attributes:
+      label: Chapter id
+      description: Shown in the app's "Edit on GitHub" link, e.g. `ph-quantum-mechanics`.
+      placeholder: ph-quantum-mechanics
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What's wrong?
+      multiple: true
+      options:
+        - A topic is missing
+        - A prerequisite is missing
+        - A prerequisite shouldn't be there
+        - The level or priority is wrong
+        - It's in the wrong category or discipline
+        - A topic or summary is inaccurate
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What should change, and why?
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources (optional)
+      description: A syllabus, textbook table of contents or curriculum guide that supports the change.

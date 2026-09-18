@@ -1,0 +1,54 @@
+{
+  "id": "ch-acids-bases-aqueous-equilibria",
+  "name": "Acids, Bases & Aqueous Equilibria",
+  "category": "General Chemistry",
+  "level": 2,
+  "priority": "core",
+  "summary": "Acid-base theories, pH calculations, buffers and titrations in water.",
+  "prerequisites": [
+    "ch-chemical-equilibrium"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-acids-bases-aqueous-equilibria-1",
+      "name": "Arrhenius, Brønsted-Lowry and Lewis acid-base definitions"
+    },
+    {
+      "id": "ch-acids-bases-aqueous-equilibria-2",
+      "name": "Autoionization of water, pH and pOH"
+    },
+    {
+      "id": "ch-acids-bases-aqueous-equilibria-3",
+      "name": "Strong and weak acids and bases; Ka, Kb and pKa"
+    },
+    {
+      "id": "ch-acids-bases-aqueous-equilibria-4",
+      "name": "Acid strength and molecular structure"
+    },
+    {
+      "id": "ch-acids-bases-aqueous-equilibria-5",
+      "name": "Polyprotic acids and species distribution diagrams"
+    },
+    {
+      "id": "ch-acids-bases-aqueous-equilibria-6",
+      "name": "Hydrolysis and the pH of salt solutions"
+    },
+    {
+      "id": "ch-acids-bases-aqueous-equilibria-7",
+      "name": "Buffers and the Henderson-Hasselbalch equation"
+    },
+    {
+      "id": "ch-acids-bases-aqueous-equilibria-8",
+      "name": "Acid-base titrations, titration curves and indicators"
+    },
+    {
+      "id": "ch-acids-bases-aqueous-equilibria-9",
+      "name": "Lewis acids and bases, including hydrated metal ions"
+    },
+    {
+      "id": "ch-acids-bases-aqueous-equilibria-10",
+      "name": "Case studies: acid rain, ocean acidification and blood pH"
+    }
+  ]
+}

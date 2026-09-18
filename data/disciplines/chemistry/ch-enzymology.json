@@ -1,0 +1,54 @@
+{
+  "id": "ch-enzymology",
+  "name": "Enzymology & Biological Catalysis",
+  "category": "Biochemistry & Chemical Biology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The chemical mechanisms and kinetics by which enzymes achieve their catalytic power, and how they are engineered.",
+  "prerequisites": [
+    "ch-biochemistry-structure-function",
+    "ch-physical-organic-chemistry"
+  ],
+  "related": [
+    "bi-biochemistry",
+    "bi-protein-structure-function"
+  ],
+  "topics": [
+    {
+      "id": "ch-enzymology-1",
+      "name": "Sources of catalytic power: transition-state stabilization and proximity"
+    },
+    {
+      "id": "ch-enzymology-2",
+      "name": "Steady-state and pre-steady-state kinetics"
+    },
+    {
+      "id": "ch-enzymology-3",
+      "name": "Multisubstrate mechanisms and inhibition analysis"
+    },
+    {
+      "id": "ch-enzymology-4",
+      "name": "Covalent, acid-base and metal-ion catalysis"
+    },
+    {
+      "id": "ch-enzymology-5",
+      "name": "Cofactor chemistry: PLP, TPP, flavins, NAD, biotin and B12"
+    },
+    {
+      "id": "ch-enzymology-6",
+      "name": "Isotope effects and mechanistic probes in enzymology"
+    },
+    {
+      "id": "ch-enzymology-7",
+      "name": "Allostery and regulation"
+    },
+    {
+      "id": "ch-enzymology-8",
+      "name": "Enzyme engineering and directed evolution"
+    },
+    {
+      "id": "ch-enzymology-9",
+      "name": "Industrial and synthetic biocatalysis"
+    }
+  ]
+}

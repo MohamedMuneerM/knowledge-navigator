@@ -1,0 +1,57 @@
+{
+  "id": "ai-deep-learning-frameworks",
+  "name": "Deep Learning Frameworks",
+  "category": "Deep Learning",
+  "level": 2,
+  "priority": "important",
+  "summary": "The software used to build and train neural networks: PyTorch, TensorFlow/Keras, JAX and model exchange with ONNX.",
+  "prerequisites": [
+    "ai-neural-network-foundations"
+  ],
+  "related": [
+    "cs-gpu-programming",
+    "el-ml-frameworks-for-embedded"
+  ],
+  "topics": [
+    {
+      "id": "ai-deep-learning-frameworks-1",
+      "name": "TensorFlow/Keras"
+    },
+    {
+      "id": "ai-deep-learning-frameworks-2",
+      "name": "PyTorch"
+    },
+    {
+      "id": "ai-deep-learning-frameworks-3",
+      "name": "JAX"
+    },
+    {
+      "id": "ai-deep-learning-frameworks-4",
+      "name": "MXNet"
+    },
+    {
+      "id": "ai-deep-learning-frameworks-5",
+      "name": "Caffe/Caffe2"
+    },
+    {
+      "id": "ai-deep-learning-frameworks-6",
+      "name": "ONNX"
+    },
+    {
+      "id": "ai-deep-learning-frameworks-7",
+      "name": "Tensors, autograd and training loops in PyTorch"
+    },
+    {
+      "id": "ai-deep-learning-frameworks-8",
+      "name": "Data loading pipelines"
+    },
+    {
+      "id": "ai-deep-learning-frameworks-9",
+      "name": "Mixed-precision training on GPUs"
+    },
+    {
+      "id": "ai-deep-learning-frameworks-10",
+      "name": "Hugging Face ecosystem (Transformers, Datasets, Hub)"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ai-statistical-learning-theory",
+  "name": "Statistical Learning Theory",
+  "category": "Theory of Machine Learning",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Why and when learning generalizes: PAC learning, VC dimension, Rademacher complexity, generalization bounds and modern puzzles such as double descent.",
+  "prerequisites": [
+    "ai-types-of-machine-learning",
+    "ma-probability-theory"
+  ],
+  "related": [
+    "ma-statistical-learning-theory",
+    "ma-foundations-of-machine-learning"
+  ],
+  "topics": [
+    {
+      "id": "ai-statistical-learning-theory-1",
+      "name": "PAC Learning"
+    },
+    {
+      "id": "ai-statistical-learning-theory-2",
+      "name": "VC Dimension"
+    },
+    {
+      "id": "ai-statistical-learning-theory-3",
+      "name": "Rademacher Complexity"
+    },
+    {
+      "id": "ai-statistical-learning-theory-4",
+      "name": "Generalization Bounds"
+    },
+    {
+      "id": "ai-statistical-learning-theory-5",
+      "name": "Bias-Variance Decomposition"
+    },
+    {
+      "id": "ai-statistical-learning-theory-6",
+      "name": "Concentration Inequalities"
+    },
+    {
+      "id": "ai-statistical-learning-theory-7",
+      "name": "Double Descent"
+    },
+    {
+      "id": "ai-statistical-learning-theory-8",
+      "name": "Neural Tangent Kernel"
+    },
+    {
+      "id": "ai-statistical-learning-theory-9",
+      "name": "Lottery Ticket Hypothesis"
+    }
+  ]
+}

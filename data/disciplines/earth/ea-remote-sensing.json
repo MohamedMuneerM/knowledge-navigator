@@ -1,0 +1,71 @@
+{
+  "id": "ea-remote-sensing",
+  "name": "Remote Sensing of the Earth",
+  "category": "Remote Sensing, GIS & Geodesy",
+  "level": 3,
+  "priority": "core",
+  "summary": "Observing the Earth from aircraft and satellites: the physics of sensing, image processing and applications.",
+  "prerequisites": [
+    "ea-geographic-information-systems",
+    "ph-introductory-waves-sound-light"
+  ],
+  "related": [
+    "el-space-satellite-systems",
+    "el-imaging-vision-sensors",
+    "ae-space-payloads-remote-sensing"
+  ],
+  "topics": [
+    {
+      "id": "ea-remote-sensing-1",
+      "name": "Electromagnetic radiation and interactions with the atmosphere and surface"
+    },
+    {
+      "id": "ea-remote-sensing-2",
+      "name": "Spectral signatures of rocks, soils, water, vegetation and snow"
+    },
+    {
+      "id": "ea-remote-sensing-3",
+      "name": "Sensors, platforms and orbits (Landsat, Sentinel, MODIS)"
+    },
+    {
+      "id": "ea-remote-sensing-4",
+      "name": "Spatial, spectral, radiometric and temporal resolution"
+    },
+    {
+      "id": "ea-remote-sensing-5",
+      "name": "Radiometric, atmospheric and geometric correction"
+    },
+    {
+      "id": "ea-remote-sensing-6",
+      "name": "Image enhancement and spectral indices (e.g. NDVI)"
+    },
+    {
+      "id": "ea-remote-sensing-7",
+      "name": "Image classification: supervised, unsupervised and machine learning"
+    },
+    {
+      "id": "ea-remote-sensing-8",
+      "name": "Change detection and time-series analysis"
+    },
+    {
+      "id": "ea-remote-sensing-9",
+      "name": "Thermal infrared remote sensing"
+    },
+    {
+      "id": "ea-remote-sensing-10",
+      "name": "Hyperspectral imaging"
+    },
+    {
+      "id": "ea-remote-sensing-11",
+      "name": "LiDAR"
+    },
+    {
+      "id": "ea-remote-sensing-12",
+      "name": "Radar and SAR imaging; introduction to InSAR"
+    },
+    {
+      "id": "ea-remote-sensing-13",
+      "name": "Cloud platforms for Earth observation (e.g. Google Earth Engine)"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "ma-statistical-learning-theory",
+  "name": "Statistical Learning Theory",
+  "category": "Probability & Statistics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Mathematical guarantees for learning from data: PAC learning, VC dimension, Rademacher complexity and risk minimisation.",
+  "prerequisites": [
+    "ma-foundations-of-machine-learning",
+    "ma-high-dimensional-probability"
+  ],
+  "related": [
+    "ai-statistical-learning-theory"
+  ],
+  "topics": [
+    {
+      "id": "ma-statistical-learning-theory-3",
+      "name": "Risk minimization"
+    },
+    {
+      "id": "ma-statistical-learning-theory-1",
+      "name": "PAC learning"
+    },
+    {
+      "id": "ma-statistical-learning-theory-2",
+      "name": "VC dimension"
+    },
+    {
+      "id": "ma-statistical-learning-theory-4",
+      "name": "Rademacher complexity"
+    },
+    {
+      "id": "ma-statistical-learning-theory-5",
+      "name": "Generalisation bounds for kernels and neural networks"
+    }
+  ]
+}

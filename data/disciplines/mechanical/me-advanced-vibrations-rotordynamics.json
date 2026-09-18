@@ -1,0 +1,56 @@
+{
+  "id": "me-advanced-vibrations-rotordynamics",
+  "name": "Structural Dynamics, Advanced Vibrations & Rotordynamics",
+  "category": "Vibrations & Acoustics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Advanced vibration topics for real machines and structures: continuous and random vibration, nonlinear behaviour, rotordynamics, vibration control and condition monitoring.",
+  "prerequisites": [
+    "me-mechanical-vibrations",
+    "ma-partial-differential-equations-pdes",
+    "ma-probability-theory"
+  ],
+  "related": [
+    "ph-chaos-theory-nonlinear-dynamics",
+    "ae-aeroelasticity",
+    "ae-structural-dynamics-vibration"
+  ],
+  "topics": [
+    {
+      "id": "me-advanced-vibrations-rotordynamics-1",
+      "name": "Vibration of plates and other continuous systems (analytical and numerical)"
+    },
+    {
+      "id": "me-advanced-vibrations-rotordynamics-2",
+      "name": "Finite-element structural dynamics and model reduction"
+    },
+    {
+      "id": "me-advanced-vibrations-rotordynamics-3",
+      "name": "Random vibration: power spectral density and response of linear systems"
+    },
+    {
+      "id": "me-advanced-vibrations-rotordynamics-4",
+      "name": "Nonlinear vibrations: Duffing oscillator, jump phenomena and limit cycles"
+    },
+    {
+      "id": "me-advanced-vibrations-rotordynamics-5",
+      "name": "Rotordynamics: critical speeds, whirl, Campbell diagrams, bearing and seal effects"
+    },
+    {
+      "id": "me-advanced-vibrations-rotordynamics-6",
+      "name": "Passive, semi-active and active vibration control; tuned mass dampers"
+    },
+    {
+      "id": "me-advanced-vibrations-rotordynamics-7",
+      "name": "Machine condition monitoring and vibration-based fault diagnosis"
+    },
+    {
+      "id": "me-advanced-vibrations-rotordynamics-8",
+      "name": "Shock and impact response; shock isolation"
+    },
+    {
+      "id": "me-advanced-vibrations-rotordynamics-9",
+      "name": "Fluid-structure interaction and flow-induced vibration"
+    }
+  ]
+}

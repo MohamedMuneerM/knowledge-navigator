@@ -1,0 +1,59 @@
+{
+  "id": "ea-aqueous-geochemistry",
+  "name": "Aqueous & Low-Temperature Geochemistry",
+  "category": "Geochemistry & Geochronology",
+  "level": 3,
+  "priority": "important",
+  "summary": "The chemistry of natural waters and their reactions with minerals, gases and life at Earth-surface conditions.",
+  "prerequisites": [
+    "ea-geochemistry-fundamentals",
+    "ch-acids-bases-aqueous-equilibria",
+    "ch-redox-electrochemistry-basics"
+  ],
+  "related": [
+    "ch-aquatic-chemistry",
+    "ch-environmental-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "ea-aqueous-geochemistry-1",
+      "name": "Water as a solvent; activity models and ionic strength"
+    },
+    {
+      "id": "ea-aqueous-geochemistry-2",
+      "name": "Acid-base equilibria and the carbonate system; alkalinity"
+    },
+    {
+      "id": "ea-aqueous-geochemistry-3",
+      "name": "Mineral solubility and saturation indices"
+    },
+    {
+      "id": "ea-aqueous-geochemistry-4",
+      "name": "Complexation and speciation of dissolved species"
+    },
+    {
+      "id": "ea-aqueous-geochemistry-5",
+      "name": "Redox chemistry, Eh-pH (Pourbaix) diagrams and redox ladders"
+    },
+    {
+      "id": "ea-aqueous-geochemistry-6",
+      "name": "Silicate weathering reactions and clay-mineral formation"
+    },
+    {
+      "id": "ea-aqueous-geochemistry-7",
+      "name": "Sorption, ion exchange and mineral surface chemistry"
+    },
+    {
+      "id": "ea-aqueous-geochemistry-8",
+      "name": "Reaction kinetics and microbially mediated reactions"
+    },
+    {
+      "id": "ea-aqueous-geochemistry-9",
+      "name": "Chemistry of rivers, lakes, groundwater and brines"
+    },
+    {
+      "id": "ea-aqueous-geochemistry-10",
+      "name": "Geochemical modelling with speciation codes (e.g. PHREEQC)"
+    }
+  ]
+}

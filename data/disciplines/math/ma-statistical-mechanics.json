@@ -1,0 +1,51 @@
+{
+  "id": "ma-statistical-mechanics",
+  "name": "Statistical Mechanics",
+  "category": "Mathematical Physics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Deriving macroscopic behaviour from microscopic randomness: ensembles, partition functions, phase transitions and the Ising model.",
+  "prerequisites": [
+    "ma-probability-theory",
+    "ma-thermodynamics"
+  ],
+  "related": [
+    "ph-thermodynamics-statistical-mechanics",
+    "ph-advanced-statistical-mechanics",
+    "ch-statistical-thermodynamics"
+  ],
+  "topics": [
+    {
+      "id": "ma-statistical-mechanics-3",
+      "name": "Boltzmann distribution"
+    },
+    {
+      "id": "ma-statistical-mechanics-4",
+      "name": "Gibbs ensembles"
+    },
+    {
+      "id": "ma-statistical-mechanics-1",
+      "name": "Partition functions"
+    },
+    {
+      "id": "ma-statistical-mechanics-6",
+      "name": "Quantum statistics: Bose and Fermi gases"
+    },
+    {
+      "id": "ma-statistical-mechanics-2",
+      "name": "Phase transitions"
+    },
+    {
+      "id": "ma-statistical-mechanics-5",
+      "name": "Ising model"
+    },
+    {
+      "id": "ma-statistical-mechanics-7",
+      "name": "Mean-field theory and critical exponents"
+    },
+    {
+      "id": "ma-statistical-mechanics-8",
+      "name": "Renormalisation group (introduction)"
+    }
+  ]
+}

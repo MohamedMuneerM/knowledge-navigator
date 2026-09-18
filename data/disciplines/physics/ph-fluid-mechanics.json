@@ -1,0 +1,86 @@
+{
+  "id": "ph-fluid-mechanics",
+  "name": "Fluid Mechanics",
+  "category": "Mechanics, Waves & Fluids",
+  "level": 3,
+  "priority": "important",
+  "summary": "The motion of liquids and gases, from hydrostatics to the Navier-Stokes equations, turbulence and compressible flow.",
+  "prerequisites": [
+    "ph-classical-mechanics",
+    "ma-mathematical-methods"
+  ],
+  "related": [
+    "ma-fluid-mechanics",
+    "me-fluid-mechanics",
+    "ch-transport-phenomena",
+    "ae-aerodynamics-fundamentals",
+    "me-advanced-fluid-mechanics",
+    "ea-geophysical-fluid-dynamics"
+  ],
+  "topics": [
+    {
+      "id": "ph-fluid-mechanics-1",
+      "name": "Hydrostatics"
+    },
+    {
+      "id": "ph-fluid-mechanics-2",
+      "name": "Hydrodynamics"
+    },
+    {
+      "id": "ph-fluid-mechanics-3",
+      "name": "Viscosity"
+    },
+    {
+      "id": "ph-fluid-mechanics-4",
+      "name": "Turbulence"
+    },
+    {
+      "id": "ph-fluid-mechanics-5",
+      "name": "Laminar flow"
+    },
+    {
+      "id": "ph-fluid-mechanics-6",
+      "name": "Navier–Stokes equations"
+    },
+    {
+      "id": "ph-fluid-mechanics-7",
+      "name": "Boundary layers"
+    },
+    {
+      "id": "ph-fluid-mechanics-8",
+      "name": "Compressible flow"
+    },
+    {
+      "id": "ph-fluid-mechanics-9",
+      "name": "Aerodynamics"
+    },
+    {
+      "id": "ph-fluid-mechanics-10",
+      "name": "Magnetohydrodynamics (MHD)"
+    },
+    {
+      "id": "ph-fluid-mechanics-11",
+      "name": "Geophysical fluid dynamics"
+    },
+    {
+      "id": "ph-fluid-mechanics-12",
+      "name": "Continuum mechanics"
+    },
+    {
+      "id": "ph-fluid-mechanics-13",
+      "name": "Non-Newtonian fluids"
+    },
+    {
+      "id": "ph-fluid-mechanics-14",
+      "name": "Vortex dynamics"
+    },
+    {
+      "id": "ph-fluid-mechanics-15",
+      "name": "Cavitation"
+    },
+    {
+      "id": "ph-fluid-mechanics-16",
+      "name": "Multiphase flow"
+    }
+  ]
+}

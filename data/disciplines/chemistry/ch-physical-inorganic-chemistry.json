@@ -1,0 +1,47 @@
+{
+  "id": "ch-physical-inorganic-chemistry",
+  "name": "Physical Inorganic Chemistry",
+  "category": "Inorganic Chemistry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Spectroscopic and magnetic methods for probing the electronic structure of inorganic compounds.",
+  "prerequisites": [
+    "ch-coordination-chemistry",
+    "ch-molecular-spectroscopy"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-physical-inorganic-chemistry-1",
+      "name": "Angular overlap model and advanced ligand field theory"
+    },
+    {
+      "id": "ch-physical-inorganic-chemistry-2",
+      "name": "EPR spectroscopy of transition-metal complexes"
+    },
+    {
+      "id": "ch-physical-inorganic-chemistry-3",
+      "name": "Mössbauer spectroscopy"
+    },
+    {
+      "id": "ch-physical-inorganic-chemistry-4",
+      "name": "Magnetochemistry: susceptibility, exchange coupling and single-molecule magnets"
+    },
+    {
+      "id": "ch-physical-inorganic-chemistry-5",
+      "name": "X-ray absorption spectroscopy (XANES and EXAFS)"
+    },
+    {
+      "id": "ch-physical-inorganic-chemistry-6",
+      "name": "Magnetic circular dichroism and resonance Raman"
+    },
+    {
+      "id": "ch-physical-inorganic-chemistry-7",
+      "name": "Photophysics of metal complexes and luminescent materials"
+    },
+    {
+      "id": "ch-physical-inorganic-chemistry-8",
+      "name": "Spin crossover and molecular switches"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "ph-topological-phases-of-matter",
+  "name": "Topological Phases of Matter",
+  "category": "Condensed Matter Physics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Phases of matter classified by topology: topological insulators, Weyl semimetals, Majoranas and topological order.",
+  "prerequisites": [
+    "ph-solid-state-physics",
+    "ph-advanced-quantum-mechanics"
+  ],
+  "related": [
+    "ph-quantum-materials"
+  ],
+  "topics": [
+    {
+      "id": "ph-topological-phases-of-matter-1",
+      "name": "Topological insulators"
+    },
+    {
+      "id": "ph-topological-phases-of-matter-2",
+      "name": "Topological superconductors"
+    },
+    {
+      "id": "ph-topological-phases-of-matter-3",
+      "name": "Quantum spin Hall effect"
+    },
+    {
+      "id": "ph-topological-phases-of-matter-4",
+      "name": "Majorana fermions"
+    },
+    {
+      "id": "ph-topological-phases-of-matter-5",
+      "name": "Weyl and Dirac semimetals"
+    },
+    {
+      "id": "ph-topological-phases-of-matter-6",
+      "name": "Berry phase and Berry curvature"
+    },
+    {
+      "id": "ph-topological-phases-of-matter-7",
+      "name": "Topological order"
+    }
+  ]
+}

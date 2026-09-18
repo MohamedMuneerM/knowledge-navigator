@@ -1,0 +1,74 @@
+{
+  "id": "ae-aerospace-dynamics",
+  "name": "Dynamics for Aerospace Engineers",
+  "category": "Engineering Foundations",
+  "level": 2,
+  "priority": "core",
+  "summary": "Three-dimensional particle and rigid-body dynamics in rotating reference frames, the mechanical basis of flight mechanics, orbits and attitude.",
+  "prerequisites": [
+    "ph-classical-mechanics",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ma-classical-mechanics",
+    "me-dynamics"
+  ],
+  "topics": [
+    {
+      "id": "ae-aerospace-dynamics-1",
+      "name": "Reference frames, coordinate systems and vector notation"
+    },
+    {
+      "id": "ae-aerospace-dynamics-2",
+      "name": "Kinematics in rotating frames: the transport theorem"
+    },
+    {
+      "id": "ae-aerospace-dynamics-3",
+      "name": "Coriolis, centripetal and Euler accelerations"
+    },
+    {
+      "id": "ae-aerospace-dynamics-4",
+      "name": "Newton-Euler equations for particles and systems of particles"
+    },
+    {
+      "id": "ae-aerospace-dynamics-5",
+      "name": "Variable-mass systems and the rocket as a variable-mass body"
+    },
+    {
+      "id": "ae-aerospace-dynamics-6",
+      "name": "Rigid-body kinematics: angular velocity and rotation matrices"
+    },
+    {
+      "id": "ae-aerospace-dynamics-7",
+      "name": "Euler angles and their singularities"
+    },
+    {
+      "id": "ae-aerospace-dynamics-8",
+      "name": "Quaternions for rotation"
+    },
+    {
+      "id": "ae-aerospace-dynamics-9",
+      "name": "Inertia tensor, principal axes and parallel-axis theorem"
+    },
+    {
+      "id": "ae-aerospace-dynamics-10",
+      "name": "Euler's rotational equations of motion"
+    },
+    {
+      "id": "ae-aerospace-dynamics-11",
+      "name": "Torque-free motion, precession and nutation"
+    },
+    {
+      "id": "ae-aerospace-dynamics-12",
+      "name": "Gyroscopes and gyroscopic effects"
+    },
+    {
+      "id": "ae-aerospace-dynamics-13",
+      "name": "Energy and momentum methods; introduction to Lagrange's equations"
+    },
+    {
+      "id": "ae-aerospace-dynamics-14",
+      "name": "Numerical simulation of 6-DOF rigid-body motion"
+    }
+  ]
+}

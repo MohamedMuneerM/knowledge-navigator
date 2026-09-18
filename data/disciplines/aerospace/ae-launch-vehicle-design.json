@@ -1,0 +1,72 @@
+{
+  "id": "ae-launch-vehicle-design",
+  "name": "Launch Vehicle Design",
+  "category": "Launch Vehicles",
+  "level": 3,
+  "priority": "core",
+  "summary": "Conceptual and preliminary design of launch vehicles: architecture, staging, propulsion selection, structures, mass and cost.",
+  "prerequisites": [
+    "ae-ascent-trajectories",
+    "ae-liquid-rocket-engines",
+    "ae-aerospace-structures"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-launch-vehicle-design-1",
+      "name": "Mission requirements and payload classes"
+    },
+    {
+      "id": "ae-launch-vehicle-design-2",
+      "name": "Launch vehicle architectures: stages, boosters, upper stages"
+    },
+    {
+      "id": "ae-launch-vehicle-design-3",
+      "name": "Staging optimisation with real mass fractions"
+    },
+    {
+      "id": "ae-launch-vehicle-design-4",
+      "name": "Propulsion system selection and engine count"
+    },
+    {
+      "id": "ae-launch-vehicle-design-5",
+      "name": "Mass estimating relationships and mass budgets"
+    },
+    {
+      "id": "ae-launch-vehicle-design-6",
+      "name": "Propellant tanks: common bulkheads, pressure stabilisation, materials"
+    },
+    {
+      "id": "ae-launch-vehicle-design-7",
+      "name": "Interstages, thrust structures and separation systems"
+    },
+    {
+      "id": "ae-launch-vehicle-design-8",
+      "name": "Payload fairings and payload environments"
+    },
+    {
+      "id": "ae-launch-vehicle-design-9",
+      "name": "Aerodynamic design and loads"
+    },
+    {
+      "id": "ae-launch-vehicle-design-10",
+      "name": "Avionics, electrical and flight termination systems"
+    },
+    {
+      "id": "ae-launch-vehicle-design-11",
+      "name": "Reliability and redundancy in launchers"
+    },
+    {
+      "id": "ae-launch-vehicle-design-12",
+      "name": "Launch vehicle cost modelling"
+    },
+    {
+      "id": "ae-launch-vehicle-design-13",
+      "name": "Small-launcher, heavy-lift and super-heavy-lift design trades"
+    },
+    {
+      "id": "ae-launch-vehicle-design-14",
+      "name": "Case studies: Saturn V, Falcon 9, Ariane, Electron, Starship"
+    }
+  ]
+}

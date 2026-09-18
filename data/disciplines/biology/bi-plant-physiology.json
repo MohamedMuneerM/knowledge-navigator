@@ -1,0 +1,63 @@
+{
+  "id": "bi-plant-physiology",
+  "name": "Plant Physiology",
+  "category": "Plant Biology",
+  "level": 3,
+  "priority": "important",
+  "summary": "How plants take in water and nutrients, fix carbon, sense their environment and use hormones to control growth.",
+  "prerequisites": [
+    "bi-plant-structure-growth",
+    "bi-metabolism"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-plant-physiology-1",
+      "name": "Water relations: water potential, transpiration and the cohesion-tension theory"
+    },
+    {
+      "id": "bi-plant-physiology-2",
+      "name": "Phloem transport: pressure-flow and source-sink relationships"
+    },
+    {
+      "id": "bi-plant-physiology-3",
+      "name": "Mineral nutrition, soils and nutrient uptake"
+    },
+    {
+      "id": "bi-plant-physiology-4",
+      "name": "Photosynthesis in the leaf: light, CO2 and environmental limits"
+    },
+    {
+      "id": "bi-plant-physiology-5",
+      "name": "Plant respiration and carbon balance"
+    },
+    {
+      "id": "bi-plant-physiology-6",
+      "name": "Plant hormones: auxin, cytokinin, gibberellin, abscisic acid, ethylene, brassinosteroids, jasmonate"
+    },
+    {
+      "id": "bi-plant-physiology-7",
+      "name": "Tropisms: phototropism and gravitropism"
+    },
+    {
+      "id": "bi-plant-physiology-8",
+      "name": "Photoreceptors, photomorphogenesis and photoperiodism"
+    },
+    {
+      "id": "bi-plant-physiology-9",
+      "name": "Control of flowering"
+    },
+    {
+      "id": "bi-plant-physiology-10",
+      "name": "Plant circadian clocks"
+    },
+    {
+      "id": "bi-plant-physiology-11",
+      "name": "Abiotic stress: drought, salt, heat and cold"
+    },
+    {
+      "id": "bi-plant-physiology-12",
+      "name": "Plant defences against herbivores and pathogens"
+    }
+  ]
+}

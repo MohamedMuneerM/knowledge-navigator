@@ -1,0 +1,34 @@
+{
+  "id": "el-physical-security",
+  "name": "Physical Security",
+  "category": "Security, Privacy & Trust",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Protecting hardware from physical attack: tamper detection, secure enclosures, mesh barriers and secure manufacturing.",
+  "prerequisites": [
+    "el-secure-boot-root-of-trust"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-physical-security-1",
+      "name": "Tamper detection and response"
+    },
+    {
+      "id": "el-physical-security-2",
+      "name": "Secure enclosures"
+    },
+    {
+      "id": "el-physical-security-3",
+      "name": "Mesh barriers and coatings"
+    },
+    {
+      "id": "el-physical-security-4",
+      "name": "Environmental sensors (temperature, light)"
+    },
+    {
+      "id": "el-physical-security-5",
+      "name": "Secure manufacturing and supply chain"
+    }
+  ]
+}

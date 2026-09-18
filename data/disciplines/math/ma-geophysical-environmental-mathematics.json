@@ -1,0 +1,45 @@
+{
+  "id": "ma-geophysical-environmental-mathematics",
+  "name": "Geophysical & Environmental Mathematics",
+  "category": "Applied & Interdisciplinary Mathematics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Mathematical models of the atmosphere, oceans and climate, and how they are solved numerically.",
+  "prerequisites": [
+    "ma-fluid-mechanics",
+    "ma-numerical-solutions-of-pdes"
+  ],
+  "related": [
+    "ph-atmospheric-environmental-physics",
+    "ph-geophysics",
+    "ea-geophysical-fluid-dynamics",
+    "ea-climate-modeling",
+    "ea-numerical-weather-prediction"
+  ],
+  "topics": [
+    {
+      "id": "ma-geophysical-environmental-mathematics-5",
+      "name": "Rotating and stratified flows"
+    },
+    {
+      "id": "ma-geophysical-environmental-mathematics-2",
+      "name": "Ocean modeling"
+    },
+    {
+      "id": "ma-geophysical-environmental-mathematics-3",
+      "name": "Weather prediction"
+    },
+    {
+      "id": "ma-geophysical-environmental-mathematics-6",
+      "name": "Data assimilation"
+    },
+    {
+      "id": "ma-geophysical-environmental-mathematics-1",
+      "name": "Climate modeling"
+    },
+    {
+      "id": "ma-geophysical-environmental-mathematics-4",
+      "name": "Environmental dynamics"
+    }
+  ]
+}

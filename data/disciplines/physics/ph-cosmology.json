@@ -1,0 +1,80 @@
+{
+  "id": "ph-cosmology",
+  "name": "Cosmology",
+  "category": "Galaxies & Cosmology",
+  "level": 3,
+  "priority": "important",
+  "summary": "The origin, evolution and contents of the Universe as a whole: the Big Bang, the CMB, dark matter and dark energy.",
+  "prerequisites": [
+    "ph-astrophysics",
+    "ph-general-relativity",
+    "ph-thermodynamics-statistical-mechanics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ph-cosmology-9",
+      "name": "Expansion of the universe (Hubble's law)"
+    },
+    {
+      "id": "ph-cosmology-13",
+      "name": "Friedmann equations and cosmological parameters"
+    },
+    {
+      "id": "ph-cosmology-14",
+      "name": "Distances, redshift and the cosmic distance ladder"
+    },
+    {
+      "id": "ph-cosmology-7",
+      "name": "Cosmological models"
+    },
+    {
+      "id": "ph-cosmology-1",
+      "name": "Big Bang theory"
+    },
+    {
+      "id": "ph-cosmology-15",
+      "name": "Thermal history of the Universe"
+    },
+    {
+      "id": "ph-cosmology-10",
+      "name": "Nucleosynthesis (Big Bang, stellar)"
+    },
+    {
+      "id": "ph-cosmology-3",
+      "name": "Cosmic microwave background (CMB)"
+    },
+    {
+      "id": "ph-cosmology-5",
+      "name": "Dark matter"
+    },
+    {
+      "id": "ph-cosmology-6",
+      "name": "Dark energy"
+    },
+    {
+      "id": "ph-cosmology-2",
+      "name": "Inflation"
+    },
+    {
+      "id": "ph-cosmology-8",
+      "name": "Baryogenesis and leptogenesis"
+    },
+    {
+      "id": "ph-cosmology-4",
+      "name": "Large-scale structure"
+    },
+    {
+      "id": "ph-cosmology-11",
+      "name": "Cosmic strings and topological defects"
+    },
+    {
+      "id": "ph-cosmology-16",
+      "name": "Observational tests: supernovae, BAO, lensing and the Hubble tension"
+    },
+    {
+      "id": "ph-cosmology-12",
+      "name": "Multiverse theories"
+    }
+  ]
+}

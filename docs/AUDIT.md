@@ -11,7 +11,7 @@ chapter now also says what must be learned before it. The detailed evidence is i
 
 ## What was wrong with the original data
 
-These problems came from the old `parse_notes.py`. The notes themselves were fine.
+These problems came from the old `parse_notes.py` (preserved, with the original notes, in the `legacy-v2` git tag). The notes themselves were fine.
 
 | Problem | Effect | Fix |
 |---|---|---|

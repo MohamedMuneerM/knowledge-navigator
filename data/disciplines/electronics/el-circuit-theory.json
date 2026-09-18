@@ -1,0 +1,73 @@
+{
+  "id": "el-circuit-theory",
+  "name": "Circuit Theory",
+  "category": "Fundamentals & Mathematics",
+  "level": 2,
+  "priority": "core",
+  "summary": "The first circuits course: Kirchhoff's laws, nodal and mesh analysis, network theorems and the transient response of RC, RL and RLC circuits.",
+  "prerequisites": [
+    "el-basic-electricity",
+    "ma-calculus"
+  ],
+  "related": [
+    "ma-circuit-theory"
+  ],
+  "topics": [
+    {
+      "id": "el-circuit-theory-6",
+      "name": "Circuit variables, elements and sign conventions; independent and dependent sources"
+    },
+    {
+      "id": "el-circuit-theory-1",
+      "name": "Ohm's law, Kirchhoff's voltage and current laws"
+    },
+    {
+      "id": "el-circuit-theory-7",
+      "name": "Series-parallel reduction, voltage and current dividers"
+    },
+    {
+      "id": "el-circuit-theory-8",
+      "name": "Source transformation"
+    },
+    {
+      "id": "el-circuit-theory-3",
+      "name": "Nodal and mesh analysis"
+    },
+    {
+      "id": "el-circuit-theory-2",
+      "name": "Network theorems (Thevenin, Norton, superposition, maximum power transfer)"
+    },
+    {
+      "id": "el-circuit-theory-9",
+      "name": "The operational amplifier as a circuit element"
+    },
+    {
+      "id": "el-circuit-theory-10",
+      "name": "Capacitors and inductors: energy storage and i-v relations"
+    },
+    {
+      "id": "el-circuit-theory-4",
+      "name": "AC and DC circuit analysis"
+    },
+    {
+      "id": "el-circuit-theory-5",
+      "name": "Transient and steady-state analysis"
+    },
+    {
+      "id": "el-circuit-theory-11",
+      "name": "First-order RC and RL circuits: natural and step response"
+    },
+    {
+      "id": "el-circuit-theory-12",
+      "name": "Second-order RLC circuits: overdamped, critically damped and underdamped response"
+    },
+    {
+      "id": "el-circuit-theory-13",
+      "name": "Introduction to sinusoids and phasors"
+    },
+    {
+      "id": "el-circuit-theory-14",
+      "name": "Circuit simulation with SPICE"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "ea-geochronology",
+  "name": "Geochronology & Thermochronology",
+  "category": "Geochemistry & Geochronology",
+  "level": 3,
+  "priority": "core",
+  "summary": "How the ages of rocks, minerals, landscapes and events are measured, from relative dating to radiometric and exposure-dating methods.",
+  "prerequisites": [
+    "ea-isotope-geochemistry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-geochronology-1",
+      "name": "Relative dating: superposition, cross-cutting relations and correlation"
+    },
+    {
+      "id": "ea-geochronology-2",
+      "name": "Radioactive decay, half-lives and the age equation"
+    },
+    {
+      "id": "ea-geochronology-3",
+      "name": "Isochron dating and its assumptions"
+    },
+    {
+      "id": "ea-geochronology-4",
+      "name": "U-Pb zircon geochronology and concordia diagrams"
+    },
+    {
+      "id": "ea-geochronology-5",
+      "name": "K-Ar and 40Ar/39Ar dating"
+    },
+    {
+      "id": "ea-geochronology-6",
+      "name": "Radiocarbon dating and calibration"
+    },
+    {
+      "id": "ea-geochronology-7",
+      "name": "Uranium-series disequilibrium dating"
+    },
+    {
+      "id": "ea-geochronology-8",
+      "name": "Cosmogenic-nuclide exposure and burial dating"
+    },
+    {
+      "id": "ea-geochronology-9",
+      "name": "Luminescence dating (OSL and TL)"
+    },
+    {
+      "id": "ea-geochronology-10",
+      "name": "Thermochronology: fission track, (U-Th)/He and closure temperature"
+    },
+    {
+      "id": "ea-geochronology-11",
+      "name": "Incremental methods: dendrochronology, varves and ice layers"
+    },
+    {
+      "id": "ea-geochronology-12",
+      "name": "Magnetostratigraphy, astrochronology and building the geologic time scale"
+    }
+  ]
+}

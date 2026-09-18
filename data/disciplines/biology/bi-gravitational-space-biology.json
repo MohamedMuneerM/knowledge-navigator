@@ -1,0 +1,50 @@
+{
+  "id": "bi-gravitational-space-biology",
+  "name": "Gravitational & Space Cell Biology",
+  "category": "Astrobiology & Space Biology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How cells, microbes, plants and animals sense gravity and respond to microgravity and space conditions.",
+  "prerequisites": [
+    "bi-plant-physiology",
+    "bi-microbiology",
+    "bi-cell-signaling"
+  ],
+  "related": [
+    "ae-space-environment"
+  ],
+  "topics": [
+    {
+      "id": "bi-gravitational-space-biology-1",
+      "name": "Gravity sensing in cells and organisms"
+    },
+    {
+      "id": "bi-gravitational-space-biology-2",
+      "name": "Microgravity simulation: clinostats, random positioning machines and drop towers"
+    },
+    {
+      "id": "bi-gravitational-space-biology-3",
+      "name": "Cell biology in microgravity: cytoskeleton, gene expression and signaling"
+    },
+    {
+      "id": "bi-gravitational-space-biology-4",
+      "name": "Microbial behaviour in space: virulence, biofilms and antibiotic resistance"
+    },
+    {
+      "id": "bi-gravitational-space-biology-5",
+      "name": "Plant growth in space: gravitropism, root orientation and seed-to-seed experiments"
+    },
+    {
+      "id": "bi-gravitational-space-biology-6",
+      "name": "Animal development and reproduction in space"
+    },
+    {
+      "id": "bi-gravitational-space-biology-7",
+      "name": "Model organisms flown in space and key experiments"
+    },
+    {
+      "id": "bi-gravitational-space-biology-8",
+      "name": "Space omics: NASA GeneLab and the space omics databases"
+    }
+  ]
+}

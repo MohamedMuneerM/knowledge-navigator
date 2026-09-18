@@ -1,0 +1,44 @@
+{
+  "id": "el-flexible-printed-electronics",
+  "name": "Flexible & Printed Electronics",
+  "category": "Emerging & Advanced Topics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Electronics on flexible and stretchable substrates: printed sensors and displays, conductive inks, roll-to-roll, e-textiles and paper electronics.",
+  "prerequisites": [
+    "el-semiconductor-devices"
+  ],
+  "related": [
+    "ai-soft-robotics"
+  ],
+  "topics": [
+    {
+      "id": "el-flexible-printed-electronics-1",
+      "name": "Printed Circuit Boards (flexible substrates)"
+    },
+    {
+      "id": "el-flexible-printed-electronics-2",
+      "name": "Printed sensors and displays"
+    },
+    {
+      "id": "el-flexible-printed-electronics-3",
+      "name": "Conductive inks and materials"
+    },
+    {
+      "id": "el-flexible-printed-electronics-4",
+      "name": "Roll-to-roll manufacturing"
+    },
+    {
+      "id": "el-flexible-printed-electronics-5",
+      "name": "Stretchable electronics"
+    },
+    {
+      "id": "el-flexible-printed-electronics-6",
+      "name": "Electronic textiles (e-textiles)"
+    },
+    {
+      "id": "el-flexible-printed-electronics-7",
+      "name": "Paper electronics"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "id": "ai-actuators-sensors",
+  "name": "Actuators & Sensors",
+  "category": "Robotics Foundations",
+  "level": 2,
+  "priority": "core",
+  "summary": "The hardware that lets robots move and perceive: electric, hydraulic and pneumatic actuators, transmissions, and proprioceptive and exteroceptive sensors.",
+  "prerequisites": [
+    "ai-robot-fundamentals",
+    "el-basic-electricity",
+    "ph-introductory-mechanics"
+  ],
+  "related": [
+    "el-actuators",
+    "el-actuators-drives",
+    "el-motor-control",
+    "el-sensor-fusion",
+    "me-actuators-drive-trains",
+    "me-mechatronics"
+  ],
+  "topics": [
+    {
+      "id": "ai-actuators-sensors-1",
+      "name": "Actuators",
+      "sub": [
+        {
+          "id": "ai-actuators-sensors-1-1",
+          "name": "Electric motors (DC, stepper, servo)"
+        },
+        {
+          "id": "ai-actuators-sensors-1-2",
+          "name": "Hydraulic actuators"
+        },
+        {
+          "id": "ai-actuators-sensors-1-3",
+          "name": "Pneumatic actuators"
+        },
+        {
+          "id": "ai-actuators-sensors-1-4",
+          "name": "Shape memory alloys"
+        }
+      ]
+    },
+    {
+      "id": "ai-actuators-sensors-5",
+      "name": "Transmissions and gearing: harmonic drives, cycloidal drives, ball screws"
+    },
+    {
+      "id": "ai-actuators-sensors-6",
+      "name": "Series-elastic and quasi-direct-drive actuators"
+    },
+    {
+      "id": "ai-actuators-sensors-7",
+      "name": "Motor sizing and torque-speed curves"
+    },
+    {
+      "id": "ai-actuators-sensors-2",
+      "name": "Proprioceptive Sensors",
+      "sub": [
+        {
+          "id": "ai-actuators-sensors-2-1",
+          "name": "Encoders"
+        },
+        {
+          "id": "ai-actuators-sensors-2-2",
+          "name": "Gyroscopes"
+        },
+        {
+          "id": "ai-actuators-sensors-2-3",
+          "name": "Accelerometers"
+        },
+        {
+          "id": "ai-actuators-sensors-2-4",
+          "name": "Force/torque sensors"
+        }
+      ]
+    },
+    {
+      "id": "ai-actuators-sensors-3",
+      "name": "Exteroceptive Sensors",
+      "sub": [
+        {
+          "id": "ai-actuators-sensors-3-1",
+          "name": "Cameras (RGB, depth, stereo)"
+        },
+        {
+          "id": "ai-actuators-sensors-3-2",
+          "name": "LIDAR"
+        },
+        {
+          "id": "ai-actuators-sensors-3-3",
+          "name": "RADAR"
+        },
+        {
+          "id": "ai-actuators-sensors-3-4",
+          "name": "Ultrasonic sensors"
+        },
+        {
+          "id": "ai-actuators-sensors-3-5",
+          "name": "Tactile sensors"
+        }
+      ]
+    },
+    {
+      "id": "ai-actuators-sensors-4",
+      "name": "Sensor Fusion"
+    },
+    {
+      "id": "ai-actuators-sensors-8",
+      "name": "Sensor characteristics: noise, bias, resolution and calibration"
+    }
+  ]
+}

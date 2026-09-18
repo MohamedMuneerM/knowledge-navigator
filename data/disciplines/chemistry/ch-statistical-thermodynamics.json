@@ -1,0 +1,71 @@
+{
+  "id": "ch-statistical-thermodynamics",
+  "name": "Statistical Thermodynamics",
+  "category": "Physical Chemistry",
+  "level": 3,
+  "priority": "core",
+  "summary": "Connecting molecular energy levels to bulk thermodynamic properties through partition functions.",
+  "prerequisites": [
+    "ch-chemical-thermodynamics",
+    "ch-quantum-chemistry",
+    "ma-elementary-probability"
+  ],
+  "related": [
+    "ph-thermodynamics-statistical-mechanics",
+    "ma-statistical-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "ch-statistical-thermodynamics-1",
+      "name": "Microstates, ensembles and the Boltzmann distribution"
+    },
+    {
+      "id": "ch-statistical-thermodynamics-2",
+      "name": "Molecular and canonical partition functions"
+    },
+    {
+      "id": "ch-statistical-thermodynamics-3",
+      "name": "Translational, rotational, vibrational and electronic contributions"
+    },
+    {
+      "id": "ch-statistical-thermodynamics-4",
+      "name": "Thermodynamic functions from partition functions"
+    },
+    {
+      "id": "ch-statistical-thermodynamics-5",
+      "name": "Equilibrium constants from statistical mechanics"
+    },
+    {
+      "id": "ch-statistical-thermodynamics-6",
+      "name": "Heat capacities of gases and solids (Einstein and Debye models)"
+    },
+    {
+      "id": "ch-statistical-thermodynamics-7",
+      "name": "The grand canonical ensemble and adsorption"
+    },
+    {
+      "id": "ch-statistical-thermodynamics-8",
+      "name": "Quantum statistics: Fermi-Dirac and Bose-Einstein"
+    },
+    {
+      "id": "ch-statistical-thermodynamics-9",
+      "name": "Intermolecular potentials, virial coefficients and real gases"
+    },
+    {
+      "id": "ch-statistical-thermodynamics-10",
+      "name": "Liquid structure and the radial distribution function"
+    },
+    {
+      "id": "ch-statistical-thermodynamics-11",
+      "name": "Lattice models: polymer solutions and binding isotherms"
+    },
+    {
+      "id": "ch-statistical-thermodynamics-12",
+      "name": "Fluctuations, kinetic theory and transport properties"
+    },
+    {
+      "id": "ch-statistical-thermodynamics-13",
+      "name": "Statistical-mechanical basis of transition-state theory"
+    }
+  ]
+}

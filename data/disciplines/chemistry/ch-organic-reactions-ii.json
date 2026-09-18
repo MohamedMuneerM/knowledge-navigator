@@ -1,0 +1,66 @@
+{
+  "id": "ch-organic-reactions-ii",
+  "name": "Organic Chemistry II: Aromatic & Carbonyl Chemistry",
+  "category": "Organic Chemistry",
+  "level": 2,
+  "priority": "core",
+  "summary": "Conjugated and aromatic systems, carbonyl and enolate chemistry, amines and an introduction to biomolecules.",
+  "prerequisites": [
+    "ch-organic-reactions-i"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-organic-reactions-ii-1",
+      "name": "Conjugated dienes, allylic systems and the Diels-Alder reaction"
+    },
+    {
+      "id": "ch-organic-reactions-ii-2",
+      "name": "Aromaticity, Hückel's rule and benzene stability"
+    },
+    {
+      "id": "ch-organic-reactions-ii-3",
+      "name": "Electrophilic aromatic substitution and substituent effects"
+    },
+    {
+      "id": "ch-organic-reactions-ii-4",
+      "name": "Nucleophilic aromatic substitution and benzyne"
+    },
+    {
+      "id": "ch-organic-reactions-ii-5",
+      "name": "Aldehydes and ketones: nucleophilic addition (hydrates, acetals, imines, Wittig)"
+    },
+    {
+      "id": "ch-organic-reactions-ii-6",
+      "name": "Carboxylic acids and derivatives: nucleophilic acyl substitution"
+    },
+    {
+      "id": "ch-organic-reactions-ii-7",
+      "name": "Enols and enolates: α-halogenation and alkylation"
+    },
+    {
+      "id": "ch-organic-reactions-ii-8",
+      "name": "Aldol, Claisen, Michael and Robinson annulation reactions"
+    },
+    {
+      "id": "ch-organic-reactions-ii-9",
+      "name": "Conjugate addition to α,β-unsaturated carbonyls"
+    },
+    {
+      "id": "ch-organic-reactions-ii-10",
+      "name": "Amines: basicity, synthesis and diazonium chemistry"
+    },
+    {
+      "id": "ch-organic-reactions-ii-11",
+      "name": "Palladium-catalyzed cross-coupling (introductory)"
+    },
+    {
+      "id": "ch-organic-reactions-ii-12",
+      "name": "Carbohydrates, amino acids, lipids and nucleic acids from an organic perspective"
+    },
+    {
+      "id": "ch-organic-reactions-ii-13",
+      "name": "Introduction to synthetic polymers and heterocycles"
+    }
+  ]
+}

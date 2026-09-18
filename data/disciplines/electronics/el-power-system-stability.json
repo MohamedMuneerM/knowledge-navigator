@@ -1,0 +1,53 @@
+{
+  "id": "el-power-system-stability",
+  "name": "Power System Dynamics, Stability & Control",
+  "category": "Electrical Machines & Power Systems",
+  "level": 4,
+  "priority": "important",
+  "summary": "Keeping the grid synchronized: rotor-angle, frequency and voltage stability, excitation and governor control, and low-inertia systems.",
+  "prerequisites": [
+    "el-power-flow-analysis",
+    "el-control-theory"
+  ],
+  "related": [
+    "ma-dynamical-systems"
+  ],
+  "topics": [
+    {
+      "id": "el-power-system-stability-1",
+      "name": "Classification of power system stability"
+    },
+    {
+      "id": "el-power-system-stability-2",
+      "name": "The swing equation and equal-area criterion"
+    },
+    {
+      "id": "el-power-system-stability-3",
+      "name": "Multi-machine transient stability simulation"
+    },
+    {
+      "id": "el-power-system-stability-4",
+      "name": "Small-signal stability and power system stabilizers"
+    },
+    {
+      "id": "el-power-system-stability-5",
+      "name": "Excitation systems and automatic voltage regulators"
+    },
+    {
+      "id": "el-power-system-stability-6",
+      "name": "Governors, load-frequency control and AGC"
+    },
+    {
+      "id": "el-power-system-stability-7",
+      "name": "Voltage stability: PV and QV curves"
+    },
+    {
+      "id": "el-power-system-stability-8",
+      "name": "Low-inertia grids and synthetic inertia"
+    },
+    {
+      "id": "el-power-system-stability-9",
+      "name": "Dynamic simulation tools (PSS/E, PowerFactory)"
+    }
+  ]
+}

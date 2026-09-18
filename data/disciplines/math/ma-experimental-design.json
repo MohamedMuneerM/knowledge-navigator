@@ -1,0 +1,44 @@
+{
+  "id": "ma-experimental-design",
+  "name": "Experimental Design",
+  "category": "Probability & Statistics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Planning experiments that give clear answers: randomisation, blocking, ANOVA and factorial designs.",
+  "prerequisites": [
+    "ma-regression-analysis"
+  ],
+  "related": [
+    "ch-chemometrics"
+  ],
+  "topics": [
+    {
+      "id": "ma-experimental-design-4",
+      "name": "Principles: randomisation, replication and blocking"
+    },
+    {
+      "id": "ma-experimental-design-1",
+      "name": "Design of experiments"
+    },
+    {
+      "id": "ma-experimental-design-2",
+      "name": "ANOVA"
+    },
+    {
+      "id": "ma-experimental-design-5",
+      "name": "Randomised block and Latin square designs"
+    },
+    {
+      "id": "ma-experimental-design-3",
+      "name": "Factorial designs"
+    },
+    {
+      "id": "ma-experimental-design-6",
+      "name": "Response surface methodology"
+    },
+    {
+      "id": "ma-experimental-design-7",
+      "name": "A/B testing"
+    }
+  ]
+}

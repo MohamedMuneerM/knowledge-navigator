@@ -1,0 +1,58 @@
+{
+  "id": "ea-petroleum-geology",
+  "name": "Petroleum Geology",
+  "category": "Earth Resources & Applied Geology",
+  "level": 3,
+  "priority": "important",
+  "summary": "How oil and gas form, migrate and accumulate, and how they are explored for and produced.",
+  "prerequisites": [
+    "ea-sedimentology-and-stratigraphy",
+    "ea-earth-resources-and-energy",
+    "ch-organic-structure-bonding"
+  ],
+  "related": [
+    "ch-fuels-petroleum-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "ea-petroleum-geology-1",
+      "name": "Origin of petroleum: organic matter, kerogen and source rocks"
+    },
+    {
+      "id": "ea-petroleum-geology-2",
+      "name": "Thermal maturation and the oil and gas windows"
+    },
+    {
+      "id": "ea-petroleum-geology-3",
+      "name": "Migration pathways"
+    },
+    {
+      "id": "ea-petroleum-geology-4",
+      "name": "Reservoir rocks: porosity and permeability"
+    },
+    {
+      "id": "ea-petroleum-geology-5",
+      "name": "Traps and seals: structural and stratigraphic"
+    },
+    {
+      "id": "ea-petroleum-geology-6",
+      "name": "The petroleum-system concept"
+    },
+    {
+      "id": "ea-petroleum-geology-7",
+      "name": "Exploration: seismic interpretation and prospect evaluation"
+    },
+    {
+      "id": "ea-petroleum-geology-8",
+      "name": "Well logs and formation evaluation"
+    },
+    {
+      "id": "ea-petroleum-geology-9",
+      "name": "Unconventional resources: shale oil and gas, tight gas and coal-bed methane"
+    },
+    {
+      "id": "ea-petroleum-geology-10",
+      "name": "Reserves, production and decommissioning"
+    }
+  ]
+}

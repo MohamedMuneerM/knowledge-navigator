@@ -1,0 +1,40 @@
+{
+  "id": "el-design-for-assembly-dfa",
+  "name": "Design for Assembly (DFA)",
+  "category": "PCB Design & Hardware Development",
+  "level": 3,
+  "priority": "important",
+  "summary": "Designing boards that assemble reliably: orientation and polarity, SMT vs THT, pick-and-place, stencils and defect prevention.",
+  "prerequisites": [
+    "el-manufacturing-processes"
+  ],
+  "related": [
+    "el-design-for-x-dfx"
+  ],
+  "topics": [
+    {
+      "id": "el-design-for-assembly-dfa-1",
+      "name": "Component orientation and polarity"
+    },
+    {
+      "id": "el-design-for-assembly-dfa-2",
+      "name": "SMT vs through-hole considerations"
+    },
+    {
+      "id": "el-design-for-assembly-dfa-3",
+      "name": "Pick-and-place optimization"
+    },
+    {
+      "id": "el-design-for-assembly-dfa-4",
+      "name": "Tombstoning and bridging prevention"
+    },
+    {
+      "id": "el-design-for-assembly-dfa-5",
+      "name": "Stencil design for paste application"
+    },
+    {
+      "id": "el-design-for-assembly-dfa-6",
+      "name": "Assembly documentation"
+    }
+  ]
+}

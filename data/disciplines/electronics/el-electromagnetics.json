@@ -1,0 +1,77 @@
+{
+  "id": "el-electromagnetics",
+  "name": "Engineering Electromagnetics",
+  "category": "Electromagnetics, RF & Microwave",
+  "level": 2,
+  "priority": "core",
+  "summary": "Electric and magnetic fields from an engineer's viewpoint: electrostatics, magnetostatics, induction and Maxwell's equations, with a first look at waves, EMC and shielding.",
+  "prerequisites": [
+    "ph-classical-electromagnetism",
+    "el-mathematical-foundations"
+  ],
+  "related": [
+    "ma-electromagnetism"
+  ],
+  "topics": [
+    {
+      "id": "el-electromagnetics-6",
+      "name": "Vector analysis and coordinate systems"
+    },
+    {
+      "id": "el-electromagnetics-7",
+      "name": "Electrostatics: Coulomb's law, Gauss's law and electric potential"
+    },
+    {
+      "id": "el-electromagnetics-8",
+      "name": "Conductors, dielectrics, boundary conditions and capacitance"
+    },
+    {
+      "id": "el-electromagnetics-9",
+      "name": "Poisson's and Laplace's equations and the method of images"
+    },
+    {
+      "id": "el-electromagnetics-10",
+      "name": "Steady currents, resistance and Ohm's law in point form"
+    },
+    {
+      "id": "el-electromagnetics-11",
+      "name": "Magnetostatics: Biot-Savart and Ampère's laws"
+    },
+    {
+      "id": "el-electromagnetics-12",
+      "name": "Magnetic materials, inductance and magnetic energy"
+    },
+    {
+      "id": "el-electromagnetics-13",
+      "name": "Faraday's law and induced EMF"
+    },
+    {
+      "id": "el-electromagnetics-14",
+      "name": "Displacement current and time-varying fields"
+    },
+    {
+      "id": "el-electromagnetics-1",
+      "name": "Maxwell's equations fundamentals"
+    },
+    {
+      "id": "el-electromagnetics-15",
+      "name": "Poynting's theorem and electromagnetic power flow"
+    },
+    {
+      "id": "el-electromagnetics-2",
+      "name": "Wave propagation and transmission lines"
+    },
+    {
+      "id": "el-electromagnetics-3",
+      "name": "Antenna theory basics"
+    },
+    {
+      "id": "el-electromagnetics-4",
+      "name": "Electromagnetic compatibility (EMC) and interference (EMI)"
+    },
+    {
+      "id": "el-electromagnetics-5",
+      "name": "Shielding and grounding techniques"
+    }
+  ]
+}

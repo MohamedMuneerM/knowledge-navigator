@@ -1,0 +1,38 @@
+{
+  "id": "el-cmos-technology",
+  "name": "CMOS Process Technology",
+  "category": "Semiconductor Devices & Fabrication",
+  "level": 3,
+  "priority": "important",
+  "summary": "An introduction to how CMOS chips are made: the process flow, lithography, etching, doping, deposition, interconnect and yield.",
+  "prerequisites": [
+    "el-semiconductor-physics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-cmos-technology-1",
+      "name": "CMOS fabrication process flow"
+    },
+    {
+      "id": "el-cmos-technology-2",
+      "name": "Photolithography and etching"
+    },
+    {
+      "id": "el-cmos-technology-3",
+      "name": "Doping and ion implantation"
+    },
+    {
+      "id": "el-cmos-technology-4",
+      "name": "Chemical vapor deposition (CVD)"
+    },
+    {
+      "id": "el-cmos-technology-5",
+      "name": "Metallization and interconnects"
+    },
+    {
+      "id": "el-cmos-technology-6",
+      "name": "Process variations and yield"
+    }
+  ]
+}

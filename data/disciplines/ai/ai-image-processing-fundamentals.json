@@ -1,0 +1,73 @@
+{
+  "id": "ai-image-processing-fundamentals",
+  "name": "Image Processing Fundamentals",
+  "category": "Computer Vision",
+  "level": 2,
+  "priority": "important",
+  "summary": "Classical image processing: pixels and colour, filtering, edges, features, geometric transforms, histograms and morphology.",
+  "prerequisites": [
+    "ai-programming-tools",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "el-image-processing",
+    "el-feature-detection-matching",
+    "el-image-acquisition"
+  ],
+  "topics": [
+    {
+      "id": "ai-image-processing-fundamentals-7",
+      "name": "Digital images: pixels, colour spaces and sampling"
+    },
+    {
+      "id": "ai-image-processing-fundamentals-1",
+      "name": "Image Filtering"
+    },
+    {
+      "id": "ai-image-processing-fundamentals-2",
+      "name": "Edge Detection"
+    },
+    {
+      "id": "ai-image-processing-fundamentals-3",
+      "name": "Feature Detection",
+      "sub": [
+        {
+          "id": "ai-image-processing-fundamentals-3-1",
+          "name": "SIFT"
+        },
+        {
+          "id": "ai-image-processing-fundamentals-3-2",
+          "name": "SURF"
+        },
+        {
+          "id": "ai-image-processing-fundamentals-3-3",
+          "name": "ORB"
+        }
+      ]
+    },
+    {
+      "id": "ai-image-processing-fundamentals-4",
+      "name": "Image Transformations"
+    },
+    {
+      "id": "ai-image-processing-fundamentals-5",
+      "name": "Histogram Processing"
+    },
+    {
+      "id": "ai-image-processing-fundamentals-6",
+      "name": "Morphological Operations"
+    },
+    {
+      "id": "ai-image-processing-fundamentals-8",
+      "name": "Frequency domain: Fourier transform and image pyramids"
+    },
+    {
+      "id": "ai-image-processing-fundamentals-9",
+      "name": "Camera models and calibration"
+    },
+    {
+      "id": "ai-image-processing-fundamentals-10",
+      "name": "Feature matching and RANSAC"
+    }
+  ]
+}

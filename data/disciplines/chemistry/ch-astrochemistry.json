@@ -1,0 +1,67 @@
+{
+  "id": "ch-astrochemistry",
+  "name": "Astrochemistry",
+  "category": "Earth & Space Chemistry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Chemistry in space: how molecules form in interstellar clouds, disks, comets and planetary atmospheres, and links to the origin of life.",
+  "prerequisites": [
+    "ch-molecular-spectroscopy",
+    "ch-chemical-kinetics",
+    "ph-astrophysics"
+  ],
+  "related": [
+    "ph-planetary-science",
+    "ph-interstellar-medium-star-formation"
+  ],
+  "topics": [
+    {
+      "id": "ch-astrochemistry-1",
+      "name": "The interstellar medium: phases, conditions and detected molecules"
+    },
+    {
+      "id": "ch-astrochemistry-2",
+      "name": "Low-temperature gas-phase ion-molecule chemistry"
+    },
+    {
+      "id": "ch-astrochemistry-3",
+      "name": "Grain-surface chemistry and interstellar ices"
+    },
+    {
+      "id": "ch-astrochemistry-4",
+      "name": "Molecular clouds and the chemistry of star formation"
+    },
+    {
+      "id": "ch-astrochemistry-5",
+      "name": "Protoplanetary disks and the chemistry of planet formation"
+    },
+    {
+      "id": "ch-astrochemistry-6",
+      "name": "Astronomical spectroscopy: radio, sub-millimetre and infrared (ALMA, JWST)"
+    },
+    {
+      "id": "ch-astrochemistry-7",
+      "name": "Complex organic molecules and PAHs in space"
+    },
+    {
+      "id": "ch-astrochemistry-8",
+      "name": "Chemistry of comets, asteroids and meteorites"
+    },
+    {
+      "id": "ch-astrochemistry-9",
+      "name": "Planetary and exoplanet atmospheres"
+    },
+    {
+      "id": "ch-astrochemistry-10",
+      "name": "Laboratory astrochemistry and astrochemical modelling"
+    },
+    {
+      "id": "ch-astrochemistry-11",
+      "name": "Prebiotic chemistry and the origin of life"
+    },
+    {
+      "id": "ch-astrochemistry-12",
+      "name": "Astrobiology: biosignatures and habitability"
+    }
+  ]
+}

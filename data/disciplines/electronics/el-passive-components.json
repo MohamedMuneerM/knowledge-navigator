@@ -1,0 +1,50 @@
+{
+  "id": "el-passive-components",
+  "name": "Passive Components",
+  "category": "Analog Electronics",
+  "level": 1,
+  "priority": "important",
+  "summary": "A practical guide to resistors, capacitors, inductors, transformers and crystals: types, ratings and how to choose them.",
+  "prerequisites": [
+    "el-basic-electricity"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-passive-components-1",
+      "name": "Resistors (carbon, metal film, wirewound, variable, SMD, precision)"
+    },
+    {
+      "id": "el-passive-components-2",
+      "name": "Capacitors (ceramic, electrolytic, tantalum, film, supercapacitors)"
+    },
+    {
+      "id": "el-passive-components-3",
+      "name": "Inductors and transformers (air core, ferrite, toroidal)"
+    },
+    {
+      "id": "el-passive-components-4",
+      "name": "Crystals and resonators"
+    },
+    {
+      "id": "el-passive-components-5",
+      "name": "Memristors (emerging technology)"
+    },
+    {
+      "id": "el-passive-components-6",
+      "name": "Tolerances, temperature coefficients and derating"
+    },
+    {
+      "id": "el-passive-components-7",
+      "name": "Parasitics of real components (ESR, ESL, self-resonance)"
+    },
+    {
+      "id": "el-passive-components-8",
+      "name": "Protection components: fuses, PTCs, varistors and TVS diodes"
+    },
+    {
+      "id": "el-passive-components-9",
+      "name": "Connectors, switches and relays: selection basics"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "el-retail-pos-systems",
+  "name": "Retail & POS Systems",
+  "category": "Medical, Industrial & Other Application Domains",
+  "level": 3,
+  "priority": "optional",
+  "summary": "Retail electronics: POS and payment terminals (EMV, NFC), barcode and RFID scanning, inventory and digital signage.",
+  "prerequisites": [
+    "el-short-range-wireless"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-retail-pos-systems-1",
+      "name": "Point-of-Sale (POS) terminals"
+    },
+    {
+      "id": "el-retail-pos-systems-2",
+      "name": "Barcode and RFID scanning"
+    },
+    {
+      "id": "el-retail-pos-systems-3",
+      "name": "Payment terminals (EMV, NFC)"
+    },
+    {
+      "id": "el-retail-pos-systems-4",
+      "name": "Inventory management"
+    },
+    {
+      "id": "el-retail-pos-systems-5",
+      "name": "Customer analytics"
+    },
+    {
+      "id": "el-retail-pos-systems-6",
+      "name": "Digital signage"
+    }
+  ]
+}

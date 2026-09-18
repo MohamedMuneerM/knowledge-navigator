@@ -1,0 +1,65 @@
+{
+  "id": "cs-game-development",
+  "name": "Game Development & Game Engines",
+  "category": "Graphics, Visualization & Games",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Designing and programming video games: game loops, engine architecture, real-time rendering, physics, game AI, networking and working with commercial engines.",
+  "prerequisites": [
+    "cs-computer-graphics",
+    "cs-object-oriented-programming"
+  ],
+  "related": [
+    "el-entertainment-gaming"
+  ],
+  "topics": [
+    {
+      "id": "cs-game-development-1",
+      "name": "Game design fundamentals and the game loop"
+    },
+    {
+      "id": "cs-game-development-2",
+      "name": "Game-engine architecture"
+    },
+    {
+      "id": "cs-game-development-3",
+      "name": "Entity-component-system design"
+    },
+    {
+      "id": "cs-game-development-4",
+      "name": "Real-time rendering for games"
+    },
+    {
+      "id": "cs-game-development-5",
+      "name": "Game physics and collision detection"
+    },
+    {
+      "id": "cs-game-development-6",
+      "name": "Game AI: pathfinding, state machines and behaviour trees"
+    },
+    {
+      "id": "cs-game-development-7",
+      "name": "Input, audio and user interface"
+    },
+    {
+      "id": "cs-game-development-8",
+      "name": "Networking and multiplayer games"
+    },
+    {
+      "id": "cs-game-development-9",
+      "name": "Working with Unity, Unreal or Godot"
+    },
+    {
+      "id": "cs-game-development-10",
+      "name": "Performance optimization and profiling for games"
+    },
+    {
+      "id": "cs-game-development-11",
+      "name": "Procedural content generation"
+    },
+    {
+      "id": "cs-game-development-12",
+      "name": "Playtesting, platforms and publishing"
+    }
+  ]
+}

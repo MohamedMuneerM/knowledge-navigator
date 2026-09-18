@@ -1,0 +1,41 @@
+{
+  "id": "el-system-on-chip-soc",
+  "name": "System-on-Chip (SoC) Design",
+  "category": "FPGA, ASIC & VLSI Design",
+  "level": 4,
+  "priority": "important",
+  "summary": "Architecting a system-on-chip: IP integration, on-chip buses (AXI/AHB/APB), heterogeneous multicore, HW/SW co-design and SoC verification.",
+  "prerequisites": [
+    "el-processor-architecture-concepts",
+    "el-design-verification"
+  ],
+  "related": [
+    "cs-advanced-computer-architecture"
+  ],
+  "topics": [
+    {
+      "id": "el-system-on-chip-soc-1",
+      "name": "SoC architecture and integration"
+    },
+    {
+      "id": "el-system-on-chip-soc-2",
+      "name": "IP (Intellectual Property) cores"
+    },
+    {
+      "id": "el-system-on-chip-soc-3",
+      "name": "On-chip buses (AXI, AHB, APB, Wishbone)"
+    },
+    {
+      "id": "el-system-on-chip-soc-4",
+      "name": "Multi-core and heterogeneous systems"
+    },
+    {
+      "id": "el-system-on-chip-soc-5",
+      "name": "Hardware-software co-design"
+    },
+    {
+      "id": "el-system-on-chip-soc-6",
+      "name": "SoC verification and validation"
+    }
+  ]
+}

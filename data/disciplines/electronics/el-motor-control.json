@@ -1,0 +1,51 @@
+{
+  "id": "el-motor-control",
+  "name": "Motor Control",
+  "category": "Sensors, Transducers & Actuators",
+  "level": 3,
+  "priority": "important",
+  "summary": "Driving motors from a microcontroller: H-bridges, driver ICs, PWM, current sensing, encoder feedback, sensorless and field-oriented control.",
+  "prerequisites": [
+    "el-actuators",
+    "el-peripheral-controllers",
+    "el-diode-transistor-circuits"
+  ],
+  "related": [
+    "el-electric-drives",
+    "ai-actuators-sensors"
+  ],
+  "topics": [
+    {
+      "id": "el-motor-control-1",
+      "name": "H-bridge motor drivers"
+    },
+    {
+      "id": "el-motor-control-2",
+      "name": "Motor driver ICs"
+    },
+    {
+      "id": "el-motor-control-3",
+      "name": "PWM speed control"
+    },
+    {
+      "id": "el-motor-control-4",
+      "name": "Current sensing and limiting"
+    },
+    {
+      "id": "el-motor-control-5",
+      "name": "Encoder feedback"
+    },
+    {
+      "id": "el-motor-control-6",
+      "name": "Sensorless control (back-EMF detection)"
+    },
+    {
+      "id": "el-motor-control-7",
+      "name": "Field-Oriented Control (FOC)"
+    },
+    {
+      "id": "el-motor-control-8",
+      "name": "Trapezoidal vs sinusoidal commutation"
+    }
+  ]
+}

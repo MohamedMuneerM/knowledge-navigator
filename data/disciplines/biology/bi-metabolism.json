@@ -1,0 +1,73 @@
+{
+  "id": "bi-metabolism",
+  "name": "Metabolism",
+  "category": "Biochemistry & Structural Biology",
+  "level": 3,
+  "priority": "core",
+  "summary": "The metabolic pathways that extract energy and build cell components, and how they are regulated and integrated across the body.",
+  "prerequisites": [
+    "bi-biochemistry",
+    "bi-cell-biology"
+  ],
+  "related": [
+    "ch-metabolism-bioenergetics"
+  ],
+  "topics": [
+    {
+      "id": "bi-metabolism-1",
+      "name": "Glycolysis and its regulation"
+    },
+    {
+      "id": "bi-metabolism-2",
+      "name": "Fermentation and anaerobic metabolism"
+    },
+    {
+      "id": "bi-metabolism-3",
+      "name": "Pyruvate dehydrogenase and the citric acid cycle"
+    },
+    {
+      "id": "bi-metabolism-4",
+      "name": "Electron transport chain, chemiosmosis and ATP synthase"
+    },
+    {
+      "id": "bi-metabolism-5",
+      "name": "Photosynthesis: light reactions and photophosphorylation"
+    },
+    {
+      "id": "bi-metabolism-6",
+      "name": "Carbon fixation: the Calvin cycle, photorespiration, C4 and CAM"
+    },
+    {
+      "id": "bi-metabolism-7",
+      "name": "Gluconeogenesis, glycogen metabolism and the pentose phosphate pathway"
+    },
+    {
+      "id": "bi-metabolism-8",
+      "name": "Fatty acid oxidation, ketone bodies and fatty acid synthesis"
+    },
+    {
+      "id": "bi-metabolism-9",
+      "name": "Cholesterol, steroid and membrane lipid biosynthesis"
+    },
+    {
+      "id": "bi-metabolism-10",
+      "name": "Amino acid catabolism and the urea cycle"
+    },
+    {
+      "id": "bi-metabolism-11",
+      "name": "Amino acid and nucleotide biosynthesis"
+    },
+    {
+      "id": "bi-metabolism-12",
+      "name": "Nitrogen fixation and assimilation"
+    },
+    {
+      "id": "bi-metabolism-13",
+      "name": "Integration of metabolism: fed and fasted states, hormones and tissue specialisation"
+    },
+    {
+      "id": "bi-metabolism-14",
+      "name": "Metabolic diseases and inborn errors of metabolism"
+    }
+  ]
+}

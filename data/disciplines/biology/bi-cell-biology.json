@@ -1,0 +1,78 @@
+{
+  "id": "bi-cell-biology",
+  "name": "Cell Biology",
+  "category": "Cell & Molecular Biology",
+  "level": 2,
+  "priority": "core",
+  "summary": "How cells are built and run: membranes, organelles, protein sorting, the cytoskeleton, communication, division and death.",
+  "prerequisites": [
+    "bi-chemistry-of-life"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-cell-biology-1",
+      "name": "Cell theory, microscopy history and the prokaryote/eukaryote divide"
+    },
+    {
+      "id": "bi-cell-biology-2",
+      "name": "Membrane structure: the fluid mosaic model and membrane proteins"
+    },
+    {
+      "id": "bi-cell-biology-3",
+      "name": "The nucleus, nuclear envelope and nuclear pore transport"
+    },
+    {
+      "id": "bi-cell-biology-4",
+      "name": "Endoplasmic reticulum, Golgi apparatus and the secretory pathway"
+    },
+    {
+      "id": "bi-cell-biology-5",
+      "name": "Intracellular compartments and protein sorting signals"
+    },
+    {
+      "id": "bi-cell-biology-6",
+      "name": "Vesicular traffic: endocytosis, exocytosis, coat proteins and SNAREs"
+    },
+    {
+      "id": "bi-cell-biology-7",
+      "name": "Lysosomes, peroxisomes, autophagy and protein degradation"
+    },
+    {
+      "id": "bi-cell-biology-8",
+      "name": "Mitochondria and chloroplasts: structure, genomes and endosymbiotic origin"
+    },
+    {
+      "id": "bi-cell-biology-9",
+      "name": "The cytoskeleton: actin filaments, microtubules, intermediate filaments and motor proteins"
+    },
+    {
+      "id": "bi-cell-biology-10",
+      "name": "Cell motility, cilia and flagella"
+    },
+    {
+      "id": "bi-cell-biology-11",
+      "name": "Cell communication overview: signals, receptors and responses"
+    },
+    {
+      "id": "bi-cell-biology-12",
+      "name": "The cell cycle, checkpoints and cyclin/CDK control"
+    },
+    {
+      "id": "bi-cell-biology-13",
+      "name": "Mitosis, cytokinesis and the mechanics of cell division"
+    },
+    {
+      "id": "bi-cell-biology-14",
+      "name": "Programmed cell death: apoptosis, necroptosis and their regulation"
+    },
+    {
+      "id": "bi-cell-biology-15",
+      "name": "Cell junctions, cell adhesion and the extracellular matrix"
+    },
+    {
+      "id": "bi-cell-biology-16",
+      "name": "Cells in tissues: polarity, differentiation and tissue renewal"
+    }
+  ]
+}

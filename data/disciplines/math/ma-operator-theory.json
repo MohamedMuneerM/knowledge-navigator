@@ -1,0 +1,50 @@
+{
+  "id": "ma-operator-theory",
+  "name": "Operator Theory",
+  "category": "Analysis",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Linear operators on Hilbert and Banach spaces: compact, self-adjoint and unbounded operators, spectral theorems and operator algebras.",
+  "prerequisites": [
+    "ma-functional-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-operator-theory-1",
+      "name": "Bounded operators, adjoints and operator norms"
+    },
+    {
+      "id": "ma-operator-theory-2",
+      "name": "Compact operators and Fredholm alternative"
+    },
+    {
+      "id": "ma-operator-theory-3",
+      "name": "Spectrum and resolvent"
+    },
+    {
+      "id": "ma-operator-theory-4",
+      "name": "Spectral theorem for compact self-adjoint operators"
+    },
+    {
+      "id": "ma-operator-theory-5",
+      "name": "Spectral theorem for bounded self-adjoint and normal operators"
+    },
+    {
+      "id": "ma-operator-theory-6",
+      "name": "Unbounded operators, closed and self-adjoint extensions"
+    },
+    {
+      "id": "ma-operator-theory-7",
+      "name": "Semigroups of operators"
+    },
+    {
+      "id": "ma-operator-theory-8",
+      "name": "C*-algebras and von Neumann algebras"
+    },
+    {
+      "id": "ma-operator-theory-9",
+      "name": "Fredholm index and Toeplitz operators"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "mt-high-temperature-oxidation",
+  "name": "High-Temperature Oxidation & Protective Coatings",
+  "category": "Corrosion, Wear & Degradation",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Studies how metals and ceramics react with hot gases and how coatings protect engine and rocket components.",
+  "prerequisites": [
+    "mt-corrosion",
+    "mt-diffusion"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "mt-high-temperature-oxidation-1",
+      "name": "Thermodynamics of oxidation: Ellingham diagrams and oxide stability"
+    },
+    {
+      "id": "mt-high-temperature-oxidation-2",
+      "name": "Oxidation kinetics: linear, parabolic and logarithmic rate laws"
+    },
+    {
+      "id": "mt-high-temperature-oxidation-3",
+      "name": "Wagner theory of oxidation and defect structure of oxides"
+    },
+    {
+      "id": "mt-high-temperature-oxidation-4",
+      "name": "Protective scales: chromia, alumina and silica formers"
+    },
+    {
+      "id": "mt-high-temperature-oxidation-5",
+      "name": "Scale adhesion, spallation and reactive-element effects"
+    },
+    {
+      "id": "mt-high-temperature-oxidation-6",
+      "name": "Internal oxidation and selective oxidation of alloys"
+    },
+    {
+      "id": "mt-high-temperature-oxidation-7",
+      "name": "Hot corrosion, sulphidation and CMAS attack"
+    },
+    {
+      "id": "mt-high-temperature-oxidation-8",
+      "name": "Oxidation of refractory metals and carbon-carbon; active vs passive oxidation of SiC"
+    },
+    {
+      "id": "mt-high-temperature-oxidation-9",
+      "name": "Thermal barrier coatings: YSZ top coats, bond coats and failure by TGO growth"
+    },
+    {
+      "id": "mt-high-temperature-oxidation-10",
+      "name": "Environmental barrier coatings for SiC ceramics"
+    },
+    {
+      "id": "mt-high-temperature-oxidation-11",
+      "name": "Metal dusting and hydrogen/oxygen-rich rocket combustion environments"
+    }
+  ]
+}

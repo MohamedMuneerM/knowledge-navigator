@@ -1,0 +1,49 @@
+{
+  "id": "ma-special-functions",
+  "name": "Special Functions",
+  "category": "Analysis",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "The named functions of applied mathematics (gamma, Bessel, Legendre, hypergeometric) and their properties.",
+  "prerequisites": [
+    "ma-complex-analysis",
+    "ma-ordinary-differential-equations-odes"
+  ],
+  "related": [
+    "ph-mathematical-physics"
+  ],
+  "topics": [
+    {
+      "id": "ma-special-functions-1",
+      "name": "Gamma and beta functions"
+    },
+    {
+      "id": "ma-special-functions-5",
+      "name": "Orthogonal polynomials"
+    },
+    {
+      "id": "ma-special-functions-3",
+      "name": "Legendre polynomials"
+    },
+    {
+      "id": "ma-special-functions-6",
+      "name": "Hermite and Laguerre polynomials"
+    },
+    {
+      "id": "ma-special-functions-2",
+      "name": "Bessel functions"
+    },
+    {
+      "id": "ma-special-functions-4",
+      "name": "Hypergeometric functions"
+    },
+    {
+      "id": "ma-special-functions-7",
+      "name": "Elliptic integrals and elliptic functions"
+    },
+    {
+      "id": "ma-special-functions-8",
+      "name": "Zeta and related functions"
+    }
+  ]
+}

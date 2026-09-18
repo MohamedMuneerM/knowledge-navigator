@@ -1,0 +1,67 @@
+{
+  "id": "cs-advanced-operating-systems",
+  "name": "Operating System Engineering & Advanced OS",
+  "category": "Operating Systems",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Building and extending real kernels: booting, kernel memory and scheduling, drivers, advanced and distributed file systems, high-performance I/O and OS research.",
+  "prerequisites": [
+    "cs-operating-systems",
+    "cs-computer-architecture"
+  ],
+  "related": [
+    "el-device-drivers",
+    "el-boot-startup",
+    "el-embedded-linux"
+  ],
+  "topics": [
+    {
+      "id": "cs-advanced-operating-systems-1",
+      "name": "Booting and kernel initialization"
+    },
+    {
+      "id": "cs-advanced-operating-systems-2",
+      "name": "Building a teaching kernel (xv6 or similar)"
+    },
+    {
+      "id": "cs-advanced-operating-systems-3",
+      "name": "Kernel memory allocation and page-table management"
+    },
+    {
+      "id": "cs-advanced-operating-systems-4",
+      "name": "Interrupts, exceptions and context switching in depth"
+    },
+    {
+      "id": "cs-advanced-operating-systems-5",
+      "name": "Multiprocessor kernels and kernel synchronization"
+    },
+    {
+      "id": "cs-advanced-operating-systems-6",
+      "name": "Writing device drivers"
+    },
+    {
+      "id": "cs-advanced-operating-systems-7",
+      "name": "Advanced file systems: log-structured and copy-on-write (ZFS, Btrfs)"
+    },
+    {
+      "id": "cs-advanced-operating-systems-8",
+      "name": "Network and distributed file systems (NFS)"
+    },
+    {
+      "id": "cs-advanced-operating-systems-9",
+      "name": "Storage stacks: RAID, SSD internals and NVMe"
+    },
+    {
+      "id": "cs-advanced-operating-systems-10",
+      "name": "Kernel bypass and high-performance I/O (io_uring, DPDK)"
+    },
+    {
+      "id": "cs-advanced-operating-systems-11",
+      "name": "eBPF and kernel observability"
+    },
+    {
+      "id": "cs-advanced-operating-systems-12",
+      "name": "OS research designs: exokernels, microkernels and seL4"
+    }
+  ]
+}

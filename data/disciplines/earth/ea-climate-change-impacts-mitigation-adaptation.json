@@ -1,0 +1,52 @@
+{
+  "id": "ea-climate-change-impacts-mitigation-adaptation",
+  "name": "Climate Change: Impacts, Mitigation & Adaptation",
+  "category": "Climate Science & Paleoclimate",
+  "level": 3,
+  "priority": "important",
+  "summary": "What climate change means for people and ecosystems, and the options for reducing emissions, removing carbon and adapting.",
+  "prerequisites": [
+    "ea-climate-system-science"
+  ],
+  "related": [
+    "bi-global-change-biology"
+  ],
+  "topics": [
+    {
+      "id": "ea-climate-change-impacts-mitigation-adaptation-1",
+      "name": "Observed and projected impacts on ecosystems and biodiversity"
+    },
+    {
+      "id": "ea-climate-change-impacts-mitigation-adaptation-2",
+      "name": "Impacts on water, food, health and cities"
+    },
+    {
+      "id": "ea-climate-change-impacts-mitigation-adaptation-3",
+      "name": "Extreme events in a warming world"
+    },
+    {
+      "id": "ea-climate-change-impacts-mitigation-adaptation-4",
+      "name": "Carbon budgets and emissions pathways"
+    },
+    {
+      "id": "ea-climate-change-impacts-mitigation-adaptation-5",
+      "name": "Mitigation options: energy, land use, industry and transport"
+    },
+    {
+      "id": "ea-climate-change-impacts-mitigation-adaptation-6",
+      "name": "Carbon dioxide removal and solar geoengineering"
+    },
+    {
+      "id": "ea-climate-change-impacts-mitigation-adaptation-7",
+      "name": "Adaptation strategies and resilience"
+    },
+    {
+      "id": "ea-climate-change-impacts-mitigation-adaptation-8",
+      "name": "Climate risk assessment and loss and damage"
+    },
+    {
+      "id": "ea-climate-change-impacts-mitigation-adaptation-9",
+      "name": "Climate policy: UNFCCC, the Paris Agreement and carbon pricing"
+    }
+  ]
+}

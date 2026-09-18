@@ -1,0 +1,66 @@
+{
+  "id": "bi-molecular-biology",
+  "name": "Molecular Biology",
+  "category": "Cell & Molecular Biology",
+  "level": 2,
+  "priority": "core",
+  "summary": "How genetic information is stored, copied, repaired and expressed: DNA, chromosomes, replication, transcription and translation.",
+  "prerequisites": [
+    "bi-cell-biology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-molecular-biology-1",
+      "name": "Discovery of DNA as the genetic material and the double helix"
+    },
+    {
+      "id": "bi-molecular-biology-2",
+      "name": "Chromosome structure: nucleosomes, chromatin packing and genome organisation"
+    },
+    {
+      "id": "bi-molecular-biology-3",
+      "name": "DNA replication: origins, polymerases, the replisome and telomeres"
+    },
+    {
+      "id": "bi-molecular-biology-4",
+      "name": "DNA damage and repair pathways: mismatch, excision, double-strand break repair"
+    },
+    {
+      "id": "bi-molecular-biology-5",
+      "name": "Homologous recombination and transposable elements"
+    },
+    {
+      "id": "bi-molecular-biology-6",
+      "name": "Transcription in bacteria and eukaryotes: RNA polymerases and promoters"
+    },
+    {
+      "id": "bi-molecular-biology-7",
+      "name": "RNA processing: capping, splicing and polyadenylation"
+    },
+    {
+      "id": "bi-molecular-biology-8",
+      "name": "The genetic code and transfer RNA"
+    },
+    {
+      "id": "bi-molecular-biology-9",
+      "name": "Translation: ribosomes, initiation, elongation and termination"
+    },
+    {
+      "id": "bi-molecular-biology-10",
+      "name": "Protein folding, post-translational modification and targeting"
+    },
+    {
+      "id": "bi-molecular-biology-11",
+      "name": "Gene regulation in bacteria: operons, repressors and activators"
+    },
+    {
+      "id": "bi-molecular-biology-12",
+      "name": "Gene regulation in eukaryotes: transcription factors and enhancers (overview)"
+    },
+    {
+      "id": "bi-molecular-biology-13",
+      "name": "Mutations and their molecular consequences"
+    }
+  ]
+}

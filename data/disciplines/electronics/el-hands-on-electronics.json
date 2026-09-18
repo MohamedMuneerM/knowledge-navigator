@@ -1,0 +1,70 @@
+{
+  "id": "el-hands-on-electronics",
+  "name": "Hands-On Electronics: Schematics, Breadboarding & Soldering",
+  "category": "Getting Started",
+  "level": 1,
+  "priority": "core",
+  "summary": "Practical bench skills for a beginner: read a schematic, build and measure circuits on a breadboard, and solder a working board.",
+  "prerequisites": [
+    "el-basic-electricity"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-hands-on-electronics-1",
+      "name": "Schematic symbols and how to read a circuit diagram"
+    },
+    {
+      "id": "el-hands-on-electronics-2",
+      "name": "Identifying components: resistor colour codes, capacitor markings, polarity"
+    },
+    {
+      "id": "el-hands-on-electronics-3",
+      "name": "Solderless breadboards and jumper wiring"
+    },
+    {
+      "id": "el-hands-on-electronics-4",
+      "name": "Using a multimeter: voltage, current, resistance and continuity"
+    },
+    {
+      "id": "el-hands-on-electronics-5",
+      "name": "Bench power supplies and batteries, current limiting"
+    },
+    {
+      "id": "el-hands-on-electronics-6",
+      "name": "LEDs and current-limiting resistors"
+    },
+    {
+      "id": "el-hands-on-electronics-7",
+      "name": "Switches, push buttons and potentiometers"
+    },
+    {
+      "id": "el-hands-on-electronics-8",
+      "name": "The transistor as a switch (driving a relay, motor or lamp)"
+    },
+    {
+      "id": "el-hands-on-electronics-9",
+      "name": "Building a 555 timer blinker and other classic starter circuits"
+    },
+    {
+      "id": "el-hands-on-electronics-10",
+      "name": "Reading a datasheet: pinouts, absolute maximum ratings, typical application"
+    },
+    {
+      "id": "el-hands-on-electronics-11",
+      "name": "Soldering and desoldering through-hole components"
+    },
+    {
+      "id": "el-hands-on-electronics-12",
+      "name": "Wires, connectors, stripboard and perfboard"
+    },
+    {
+      "id": "el-hands-on-electronics-13",
+      "name": "ESD precautions and workbench safety"
+    },
+    {
+      "id": "el-hands-on-electronics-14",
+      "name": "Systematic troubleshooting of a circuit that does not work"
+    }
+  ]
+}

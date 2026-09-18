@@ -1,0 +1,37 @@
+{
+  "id": "el-simultaneous-localization-and-mapping-slam",
+  "name": "Simultaneous Localization and Mapping (SLAM)",
+  "category": "Control Systems & Robotics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Building a map while localizing within it: EKF, particle-filter and graph-based SLAM with cameras and LiDAR.",
+  "prerequisites": [
+    "el-perception-sensing"
+  ],
+  "related": [
+    "ai-robot-perception",
+    "ai-motion-planning-navigation"
+  ],
+  "topics": [
+    {
+      "id": "el-simultaneous-localization-and-mapping-slam-1",
+      "name": "Visual SLAM (VSLAM)"
+    },
+    {
+      "id": "el-simultaneous-localization-and-mapping-slam-2",
+      "name": "LiDAR SLAM"
+    },
+    {
+      "id": "el-simultaneous-localization-and-mapping-slam-3",
+      "name": "EKF SLAM and FastSLAM"
+    },
+    {
+      "id": "el-simultaneous-localization-and-mapping-slam-4",
+      "name": "Graph-based SLAM"
+    },
+    {
+      "id": "el-simultaneous-localization-and-mapping-slam-5",
+      "name": "Loop closure detection"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ph-atmospheric-environmental-physics",
+  "name": "Atmospheric & Environmental Physics",
+  "category": "Applied Physics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "The physics of the atmosphere, oceans and climate: dynamics, radiation, clouds and aerosols.",
+  "prerequisites": [
+    "ph-fluid-mechanics",
+    "ph-thermodynamics-statistical-mechanics"
+  ],
+  "related": [
+    "ma-geophysical-environmental-mathematics",
+    "ea-atmospheric-dynamics",
+    "ea-atmospheric-radiation",
+    "ch-atmospheric-chemistry",
+    "ea-meteorology",
+    "ea-climate-dynamics"
+  ],
+  "topics": [
+    {
+      "id": "ph-atmospheric-environmental-physics-1",
+      "name": "Atmospheric physics"
+    },
+    {
+      "id": "ph-atmospheric-environmental-physics-2",
+      "name": "Climate physics"
+    },
+    {
+      "id": "ph-atmospheric-environmental-physics-3",
+      "name": "Atmospheric dynamics"
+    },
+    {
+      "id": "ph-atmospheric-environmental-physics-4",
+      "name": "Radiative transfer"
+    },
+    {
+      "id": "ph-atmospheric-environmental-physics-5",
+      "name": "Aerosol physics"
+    },
+    {
+      "id": "ph-atmospheric-environmental-physics-6",
+      "name": "Ocean physics"
+    },
+    {
+      "id": "ph-atmospheric-environmental-physics-7",
+      "name": "Environmental acoustics"
+    },
+    {
+      "id": "ph-atmospheric-environmental-physics-8",
+      "name": "Weather physics"
+    }
+  ]
+}

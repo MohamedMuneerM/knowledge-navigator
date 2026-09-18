@@ -1,0 +1,56 @@
+{
+  "id": "bi-laboratory-fundamentals",
+  "name": "Laboratory Fundamentals",
+  "category": "Laboratory & Research Methods",
+  "level": 1,
+  "priority": "important",
+  "summary": "The basic skills of a biology lab: safety, measuring and pipetting, making solutions, sterile technique and using core instruments.",
+  "prerequisites": [
+    "bi-chemistry-of-life"
+  ],
+  "related": [
+    "ch-laboratory-safety-basic-skills"
+  ],
+  "topics": [
+    {
+      "id": "bi-laboratory-fundamentals-1",
+      "name": "Laboratory safety, biosafety levels and waste disposal"
+    },
+    {
+      "id": "bi-laboratory-fundamentals-2",
+      "name": "The lab notebook and good record keeping"
+    },
+    {
+      "id": "bi-laboratory-fundamentals-3",
+      "name": "Measurement: balances, pipettes and micropipettes, accuracy versus precision"
+    },
+    {
+      "id": "bi-laboratory-fundamentals-4",
+      "name": "Solutions: molarity, percent solutions, dilutions and serial dilutions"
+    },
+    {
+      "id": "bi-laboratory-fundamentals-5",
+      "name": "Buffers and pH meters"
+    },
+    {
+      "id": "bi-laboratory-fundamentals-6",
+      "name": "Sterile (aseptic) technique and culturing microbes"
+    },
+    {
+      "id": "bi-laboratory-fundamentals-7",
+      "name": "Light microscopy basics and slide preparation"
+    },
+    {
+      "id": "bi-laboratory-fundamentals-8",
+      "name": "Centrifugation"
+    },
+    {
+      "id": "bi-laboratory-fundamentals-9",
+      "name": "Spectrophotometry and the Beer-Lambert law"
+    },
+    {
+      "id": "bi-laboratory-fundamentals-10",
+      "name": "Standard curves and basic quantitative assays"
+    }
+  ]
+}

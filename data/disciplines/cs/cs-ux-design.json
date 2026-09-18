@@ -1,0 +1,62 @@
+{
+  "id": "cs-ux-design",
+  "name": "UX & Interaction Design",
+  "category": "Human-Computer Interaction",
+  "level": 3,
+  "priority": "important",
+  "summary": "The practice of designing digital products people enjoy using: information architecture, interaction and visual design, design systems, prototyping and UX research.",
+  "prerequisites": [
+    "cs-hci"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-ux-design-1",
+      "name": "The UX process and design thinking"
+    },
+    {
+      "id": "cs-ux-design-2",
+      "name": "Information architecture and navigation"
+    },
+    {
+      "id": "cs-ux-design-3",
+      "name": "Interaction design patterns"
+    },
+    {
+      "id": "cs-ux-design-4",
+      "name": "Visual design: typography, colour, layout and hierarchy"
+    },
+    {
+      "id": "cs-ux-design-5",
+      "name": "Gestalt principles"
+    },
+    {
+      "id": "cs-ux-design-6",
+      "name": "Design systems and component libraries"
+    },
+    {
+      "id": "cs-ux-design-7",
+      "name": "High-fidelity prototyping tools (Figma)"
+    },
+    {
+      "id": "cs-ux-design-8",
+      "name": "Microinteractions, motion and feedback"
+    },
+    {
+      "id": "cs-ux-design-9",
+      "name": "Content design and UX writing"
+    },
+    {
+      "id": "cs-ux-design-10",
+      "name": "Mobile and responsive UX"
+    },
+    {
+      "id": "cs-ux-design-11",
+      "name": "UX research methods: surveys, analytics and A/B testing"
+    },
+    {
+      "id": "cs-ux-design-12",
+      "name": "Design critique and handoff to engineering"
+    }
+  ]
+}

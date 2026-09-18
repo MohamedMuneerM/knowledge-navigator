@@ -1,0 +1,62 @@
+{
+  "id": "ae-aerospace-manufacturing",
+  "name": "Aerospace Manufacturing and Quality",
+  "category": "Structures & Materials",
+  "level": 3,
+  "priority": "important",
+  "summary": "How airframes, engines and rockets are actually made: machining, forming, joining, composites fabrication, additive manufacturing and inspection.",
+  "prerequisites": [
+    "ae-aerospace-materials",
+    "me-manufacturing-processes"
+  ],
+  "related": [
+    "me-additive-manufacturing",
+    "mt-nondestructive-evaluation"
+  ],
+  "topics": [
+    {
+      "id": "ae-aerospace-manufacturing-1",
+      "name": "Machining of aerospace alloys and large monolithic parts"
+    },
+    {
+      "id": "ae-aerospace-manufacturing-2",
+      "name": "Sheet metal forming, spin forming and chemical milling"
+    },
+    {
+      "id": "ae-aerospace-manufacturing-3",
+      "name": "Joining: riveting, welding (including friction-stir welding), brazing and bonding"
+    },
+    {
+      "id": "ae-aerospace-manufacturing-4",
+      "name": "Composite fabrication: prepreg layup, autoclave, out-of-autoclave, filament winding, automated fibre placement"
+    },
+    {
+      "id": "ae-aerospace-manufacturing-5",
+      "name": "Additive manufacturing of engine and rocket components"
+    },
+    {
+      "id": "ae-aerospace-manufacturing-6",
+      "name": "Tolerances, GD&T and fits"
+    },
+    {
+      "id": "ae-aerospace-manufacturing-7",
+      "name": "Non-destructive evaluation: ultrasonic, X-ray/CT, eddy current, dye penetrant"
+    },
+    {
+      "id": "ae-aerospace-manufacturing-8",
+      "name": "Assembly, jigs and tooling"
+    },
+    {
+      "id": "ae-aerospace-manufacturing-9",
+      "name": "Quality systems: AS9100, first-article inspection, traceability"
+    },
+    {
+      "id": "ae-aerospace-manufacturing-10",
+      "name": "Cleanliness and contamination control for propulsion and space hardware"
+    },
+    {
+      "id": "ae-aerospace-manufacturing-11",
+      "name": "Production rate, cost and supply chain"
+    }
+  ]
+}

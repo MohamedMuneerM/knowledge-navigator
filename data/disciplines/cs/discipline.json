@@ -1,0 +1,28 @@
+{
+  "id": "cs",
+  "name": "Computer Science",
+  "icon": "💻",
+  "color": "#fb923c",
+  "prefix": "cs",
+  "description": "The theory-to-practice study of computation and software: programming, data structures and algorithms, computer systems (architecture, operating systems, networks, databases, distributed and cloud computing), programming languages, software engineering, security, HCI, graphics and the profession. Theoretical foundations live in Mathematics and AI/ML in its own discipline.",
+  "categories": [
+    "Computing Foundations",
+    "Mathematical Foundations",
+    "Programming & Paradigms",
+    "Data Structures & Algorithms",
+    "Software Engineering",
+    "Computer Architecture & Systems Programming",
+    "Operating Systems",
+    "Computer Networks",
+    "Data Management",
+    "Programming Languages & Compilers",
+    "Parallel & Distributed Computing",
+    "Cloud Computing & DevOps",
+    "Web & Mobile Development",
+    "Security",
+    "Human-Computer Interaction",
+    "Graphics, Visualization & Games",
+    "Emerging Computing & Frontiers",
+    "Society, Ethics & Profession"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ai-privacy-in-ai",
+  "name": "Privacy in AI",
+  "category": "AI Safety, Ethics & Governance",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Protecting personal data in ML with differential privacy, federated learning, secure computation, homomorphic encryption and machine unlearning.",
+  "prerequisites": [
+    "ai-types-of-machine-learning",
+    "ma-probability-theory"
+  ],
+  "related": [
+    "el-privacy-protection",
+    "el-federated-learning",
+    "cs-security-governance-privacy",
+    "cs-advanced-cryptographic-systems",
+    "ai-robustness-security"
+  ],
+  "topics": [
+    {
+      "id": "ai-privacy-in-ai-1",
+      "name": "Differential Privacy"
+    },
+    {
+      "id": "ai-privacy-in-ai-2",
+      "name": "Federated Learning"
+    },
+    {
+      "id": "ai-privacy-in-ai-3",
+      "name": "Secure Multi-Party Computation"
+    },
+    {
+      "id": "ai-privacy-in-ai-4",
+      "name": "Homomorphic Encryption"
+    },
+    {
+      "id": "ai-privacy-in-ai-5",
+      "name": "Privacy-Preserving ML"
+    },
+    {
+      "id": "ai-privacy-in-ai-6",
+      "name": "Machine unlearning"
+    },
+    {
+      "id": "ai-privacy-in-ai-7",
+      "name": "Training-data extraction attacks on language models"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "ph-electronics-for-physicists",
+  "name": "Electronics for Physicists",
+  "category": "Experimental Physics & Instrumentation",
+  "level": 2,
+  "priority": "important",
+  "summary": "The practical circuits a physicist meets in the lab; the electronics discipline covers the subject in full depth.",
+  "prerequisites": [
+    "ph-introductory-electricity-magnetism",
+    "ma-calculus"
+  ],
+  "related": [
+    "el-circuit-theory",
+    "el-analog-circuits",
+    "el-operational-amplifiers",
+    "el-noise-analysis",
+    "el-data-converters"
+  ],
+  "topics": [
+    {
+      "id": "ph-electronics-for-physicists-1",
+      "name": "Circuit analysis refresher: Kirchhoff's laws, Thevenin and Norton equivalents"
+    },
+    {
+      "id": "ph-electronics-for-physicists-2",
+      "name": "RC, RL and RLC circuits and transients"
+    },
+    {
+      "id": "ph-electronics-for-physicists-3",
+      "name": "AC circuits, phasors and impedance"
+    },
+    {
+      "id": "ph-electronics-for-physicists-4",
+      "name": "Passive filters and frequency response (Bode plots)"
+    },
+    {
+      "id": "ph-electronics-for-physicists-5",
+      "name": "Diodes and rectification"
+    },
+    {
+      "id": "ph-electronics-for-physicists-6",
+      "name": "Transistors as switches and amplifiers"
+    },
+    {
+      "id": "ph-electronics-for-physicists-7",
+      "name": "Operational amplifiers in measurement circuits"
+    },
+    {
+      "id": "ph-electronics-for-physicists-8",
+      "name": "Noise, shielding and grounding in the lab"
+    },
+    {
+      "id": "ph-electronics-for-physicists-9",
+      "name": "Transducers and sensor front-ends"
+    },
+    {
+      "id": "ph-electronics-for-physicists-10",
+      "name": "Digital logic and microcontrollers for experiments"
+    },
+    {
+      "id": "ph-electronics-for-physicists-11",
+      "name": "Analog-to-digital conversion and sampling"
+    },
+    {
+      "id": "ph-electronics-for-physicists-12",
+      "name": "Lock-in amplifiers and phase-sensitive detection"
+    },
+    {
+      "id": "ph-electronics-for-physicists-13",
+      "name": "Oscilloscopes, signal generators and lab instruments"
+    }
+  ]
+}

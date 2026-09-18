@@ -1,0 +1,23 @@
+name: Propose a roadmap
+description: A goal-based path, e.g. "Become a marine biologist" or "Understand nuclear fusion".
+title: "[roadmap] "
+labels: ["roadmap"]
+body:
+  - type: input
+    id: goal
+    attributes:
+      label: Goal
+      placeholder: Understand nuclear fusion
+    validations:
+      required: true
+  - type: textarea
+    id: who
+    attributes:
+      label: Who is it for and what will they be able to do at the end?
+    validations:
+      required: true
+  - type: textarea
+    id: chapters
+    attributes:
+      label: Key chapters or subjects it must include
+      description: The "capstone" chapters are enough. Their prerequisites can be filled in automatically.

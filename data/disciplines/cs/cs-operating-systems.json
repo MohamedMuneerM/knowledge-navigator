@@ -1,0 +1,82 @@
+{
+  "id": "cs-operating-systems",
+  "name": "Operating Systems",
+  "category": "Operating Systems",
+  "level": 3,
+  "priority": "core",
+  "summary": "How an operating system virtualizes the CPU and memory, coordinates concurrent activity and stores data persistently, as in OSTEP-style courses.",
+  "prerequisites": [
+    "cs-systems-programming",
+    "cs-data-structures"
+  ],
+  "related": [
+    "el-real-time-operating-systems-rtos",
+    "el-rtos-concepts"
+  ],
+  "topics": [
+    {
+      "id": "cs-operating-systems-1",
+      "name": "Role of the OS: abstraction, protection and resource management"
+    },
+    {
+      "id": "cs-operating-systems-2",
+      "name": "Kernel architectures: monolithic, microkernel and hybrid"
+    },
+    {
+      "id": "cs-operating-systems-3",
+      "name": "System calls, traps and user/kernel mode"
+    },
+    {
+      "id": "cs-operating-systems-4",
+      "name": "Processes and the process life cycle"
+    },
+    {
+      "id": "cs-operating-systems-5",
+      "name": "Threads and thread implementations"
+    },
+    {
+      "id": "cs-operating-systems-6",
+      "name": "CPU scheduling algorithms"
+    },
+    {
+      "id": "cs-operating-systems-7",
+      "name": "Synchronization: locks, semaphores, condition variables and monitors"
+    },
+    {
+      "id": "cs-operating-systems-8",
+      "name": "Deadlock: prevention, avoidance and detection"
+    },
+    {
+      "id": "cs-operating-systems-9",
+      "name": "Address spaces, segmentation and paging"
+    },
+    {
+      "id": "cs-operating-systems-10",
+      "name": "Virtual memory: page tables, TLBs and page replacement"
+    },
+    {
+      "id": "cs-operating-systems-11",
+      "name": "I/O systems and device drivers"
+    },
+    {
+      "id": "cs-operating-systems-12",
+      "name": "File systems: interface, implementation and journaling"
+    },
+    {
+      "id": "cs-operating-systems-13",
+      "name": "Storage devices (HDD, SSD) and crash consistency"
+    },
+    {
+      "id": "cs-operating-systems-14",
+      "name": "Protection, security and access control"
+    },
+    {
+      "id": "cs-operating-systems-15",
+      "name": "Introduction to virtualization"
+    },
+    {
+      "id": "cs-operating-systems-16",
+      "name": "Overview of real-time and embedded operating systems"
+    }
+  ]
+}

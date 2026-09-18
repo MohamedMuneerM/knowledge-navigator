@@ -1,0 +1,66 @@
+{
+  "id": "mt-cryogenic-materials",
+  "name": "Materials for Cryogenic Service",
+  "category": "Aerospace & Extreme-Environment Materials",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Covers how materials behave near absolute zero and which ones are used for liquid-hydrogen and liquid-oxygen tanks, superconducting magnets and cryogenic instruments.",
+  "prerequisites": [
+    "mt-fracture-mechanics",
+    "mt-thermal-properties"
+  ],
+  "related": [
+    "ph-cryophysics",
+    "ph-vacuum-cryogenic-systems"
+  ],
+  "topics": [
+    {
+      "id": "mt-cryogenic-materials-1",
+      "name": "Cryogenic environments: LN2, LOX, LH2 and liquid helium"
+    },
+    {
+      "id": "mt-cryogenic-materials-2",
+      "name": "Temperature dependence of strength, toughness and ductility; the ductile-brittle transition"
+    },
+    {
+      "id": "mt-cryogenic-materials-3",
+      "name": "FCC metals at low temperature: austenitic stainless steels, aluminium and copper alloys"
+    },
+    {
+      "id": "mt-cryogenic-materials-4",
+      "name": "Aluminium-lithium alloys for cryogenic propellant tanks"
+    },
+    {
+      "id": "mt-cryogenic-materials-5",
+      "name": "Nickel steels and Invar"
+    },
+    {
+      "id": "mt-cryogenic-materials-6",
+      "name": "Thermal contraction and thermal conductivity at low temperature"
+    },
+    {
+      "id": "mt-cryogenic-materials-7",
+      "name": "Polymers and composites at cryogenic temperatures: embrittlement and microcracking"
+    },
+    {
+      "id": "mt-cryogenic-materials-8",
+      "name": "Hydrogen embrittlement and permeation in LH2 systems"
+    },
+    {
+      "id": "mt-cryogenic-materials-9",
+      "name": "Oxygen compatibility and ignition hazards in LOX systems"
+    },
+    {
+      "id": "mt-cryogenic-materials-10",
+      "name": "Superconducting materials for magnets: Nb-Ti, Nb3Sn, MgB2 and REBCO tapes"
+    },
+    {
+      "id": "mt-cryogenic-materials-11",
+      "name": "Cryogenic insulation and seal materials"
+    },
+    {
+      "id": "mt-cryogenic-materials-12",
+      "name": "Cryogenic testing methods"
+    }
+  ]
+}

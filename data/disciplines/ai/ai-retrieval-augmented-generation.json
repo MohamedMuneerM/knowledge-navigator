@@ -1,0 +1,70 @@
+{
+  "id": "ai-retrieval-augmented-generation",
+  "name": "Retrieval-Augmented Generation (RAG)",
+  "category": "Large Language Models & LLM Engineering",
+  "level": 3,
+  "priority": "important",
+  "summary": "Grounding LLM answers in your own documents by embedding, indexing and retrieving relevant passages, then evaluating faithfulness and retrieval quality.",
+  "prerequisites": [
+    "ai-llm-application-engineering"
+  ],
+  "related": [
+    "ai-advanced-nlp",
+    "ai-databases",
+    "cs-information-retrieval"
+  ],
+  "topics": [
+    {
+      "id": "ai-retrieval-augmented-generation-1",
+      "name": "Why RAG: hallucination, knowledge cut-off and private data"
+    },
+    {
+      "id": "ai-retrieval-augmented-generation-2",
+      "name": "The RAG pipeline: ingest, index, retrieve, generate"
+    },
+    {
+      "id": "ai-retrieval-augmented-generation-3",
+      "name": "Document parsing and chunking strategies"
+    },
+    {
+      "id": "ai-retrieval-augmented-generation-4",
+      "name": "Text embeddings and embedding models"
+    },
+    {
+      "id": "ai-retrieval-augmented-generation-5",
+      "name": "Vector search: approximate nearest-neighbour indexes (HNSW, IVF, PQ) and vector databases"
+    },
+    {
+      "id": "ai-retrieval-augmented-generation-6",
+      "name": "Lexical and hybrid search: BM25, dense retrieval, reciprocal rank fusion"
+    },
+    {
+      "id": "ai-retrieval-augmented-generation-7",
+      "name": "Query transformation: rewriting, multi-query, HyDE"
+    },
+    {
+      "id": "ai-retrieval-augmented-generation-8",
+      "name": "Re-ranking with cross-encoders"
+    },
+    {
+      "id": "ai-retrieval-augmented-generation-9",
+      "name": "Context assembly, citations and grounding"
+    },
+    {
+      "id": "ai-retrieval-augmented-generation-10",
+      "name": "Advanced RAG: multi-hop, agentic RAG and GraphRAG"
+    },
+    {
+      "id": "ai-retrieval-augmented-generation-11",
+      "name": "Long-context models versus retrieval: trade-offs"
+    },
+    {
+      "id": "ai-retrieval-augmented-generation-12",
+      "name": "Evaluating RAG: retrieval recall, faithfulness, answer relevance"
+    },
+    {
+      "id": "ai-retrieval-augmented-generation-13",
+      "name": "RAG in production: freshness, access control, caching"
+    }
+  ]
+}

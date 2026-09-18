@@ -1,0 +1,65 @@
+{
+  "id": "ae-structural-dynamics-vibration",
+  "name": "Structural Dynamics and Vibration",
+  "category": "Structures & Materials",
+  "level": 3,
+  "priority": "core",
+  "summary": "Vibration of structures and their response to dynamic loads, from single-degree-of-freedom systems to launch vibration environments.",
+  "prerequisites": [
+    "ae-aerospace-structures",
+    "me-mechanical-vibrations"
+  ],
+  "related": [
+    "me-advanced-vibrations-rotordynamics"
+  ],
+  "topics": [
+    {
+      "id": "ae-structural-dynamics-vibration-1",
+      "name": "Single-degree-of-freedom systems: free and forced vibration, damping"
+    },
+    {
+      "id": "ae-structural-dynamics-vibration-2",
+      "name": "Harmonic, impulse and shock response"
+    },
+    {
+      "id": "ae-structural-dynamics-vibration-3",
+      "name": "Multi-degree-of-freedom systems: natural frequencies and mode shapes"
+    },
+    {
+      "id": "ae-structural-dynamics-vibration-4",
+      "name": "Modal analysis and modal superposition"
+    },
+    {
+      "id": "ae-structural-dynamics-vibration-5",
+      "name": "Continuous systems: bars, beams and plates"
+    },
+    {
+      "id": "ae-structural-dynamics-vibration-6",
+      "name": "Rayleigh-Ritz method"
+    },
+    {
+      "id": "ae-structural-dynamics-vibration-7",
+      "name": "Random vibration and power spectral density"
+    },
+    {
+      "id": "ae-structural-dynamics-vibration-8",
+      "name": "Shock response spectrum"
+    },
+    {
+      "id": "ae-structural-dynamics-vibration-9",
+      "name": "Launch dynamic environments: sine, random, acoustic and shock"
+    },
+    {
+      "id": "ae-structural-dynamics-vibration-10",
+      "name": "Coupled loads analysis"
+    },
+    {
+      "id": "ae-structural-dynamics-vibration-11",
+      "name": "Vibration isolation and damping treatments"
+    },
+    {
+      "id": "ae-structural-dynamics-vibration-12",
+      "name": "Experimental modal analysis"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "el-entertainment-gaming",
+  "name": "Entertainment & Gaming",
+  "category": "Medical, Industrial & Other Application Domains",
+  "level": 2,
+  "priority": "optional",
+  "summary": "Electronics for play: consoles and controllers, haptics, motion tracking, VR/AR headsets and interactive installations.",
+  "prerequisites": [
+    "el-inertial-sensors"
+  ],
+  "related": [
+    "cs-game-development"
+  ],
+  "topics": [
+    {
+      "id": "el-entertainment-gaming-1",
+      "name": "Gaming consoles and controllers"
+    },
+    {
+      "id": "el-entertainment-gaming-2",
+      "name": "Haptic feedback systems"
+    },
+    {
+      "id": "el-entertainment-gaming-3",
+      "name": "Motion tracking and gesture recognition"
+    },
+    {
+      "id": "el-entertainment-gaming-4",
+      "name": "VR/AR headsets"
+    },
+    {
+      "id": "el-entertainment-gaming-5",
+      "name": "Arcade machines"
+    },
+    {
+      "id": "el-entertainment-gaming-6",
+      "name": "Interactive installations"
+    }
+  ]
+}

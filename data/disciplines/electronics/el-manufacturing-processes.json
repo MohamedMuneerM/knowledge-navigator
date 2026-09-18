@@ -1,0 +1,50 @@
+{
+  "id": "el-manufacturing-processes",
+  "name": "PCB Manufacturing & Assembly Processes",
+  "category": "PCB Design & Hardware Development",
+  "level": 2,
+  "priority": "important",
+  "summary": "How boards are fabricated and assembled: etching and plating, SMT and through-hole, reflow, wave and selective soldering, AOI and X-ray.",
+  "prerequisites": [
+    "el-pcb-layout"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-manufacturing-processes-1",
+      "name": "PCB fabrication (etching, plating)"
+    },
+    {
+      "id": "el-manufacturing-processes-2",
+      "name": "Surface Mount Technology (SMT)"
+    },
+    {
+      "id": "el-manufacturing-processes-3",
+      "name": "Through-Hole Technology (THT)"
+    },
+    {
+      "id": "el-manufacturing-processes-4",
+      "name": "Reflow soldering"
+    },
+    {
+      "id": "el-manufacturing-processes-5",
+      "name": "Wave soldering"
+    },
+    {
+      "id": "el-manufacturing-processes-6",
+      "name": "Selective soldering"
+    },
+    {
+      "id": "el-manufacturing-processes-7",
+      "name": "Pick-and-place machines"
+    },
+    {
+      "id": "el-manufacturing-processes-8",
+      "name": "Automated Optical Inspection (AOI)"
+    },
+    {
+      "id": "el-manufacturing-processes-9",
+      "name": "X-ray inspection"
+    }
+  ]
+}

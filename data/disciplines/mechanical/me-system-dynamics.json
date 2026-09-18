@@ -1,0 +1,67 @@
+{
+  "id": "me-system-dynamics",
+  "name": "System Dynamics & Modeling",
+  "category": "System Dynamics, Measurement & Control",
+  "level": 2,
+  "priority": "core",
+  "summary": "Building and analysing mathematical models of mechanical, electrical, fluid and thermal systems as the foundation for vibrations, control and mechatronics.",
+  "prerequisites": [
+    "me-dynamics",
+    "ma-ordinary-differential-equations-odes",
+    "ph-introductory-electricity-magnetism"
+  ],
+  "related": [
+    "ma-systems-theory-control",
+    "ma-dynamical-systems"
+  ],
+  "topics": [
+    {
+      "id": "me-system-dynamics-1",
+      "name": "Modeling philosophy: lumped elements, assumptions and validation"
+    },
+    {
+      "id": "me-system-dynamics-2",
+      "name": "Mechanical translational and rotational systems (masses, springs, dampers, gears, levers)"
+    },
+    {
+      "id": "me-system-dynamics-3",
+      "name": "Electrical and electromechanical systems (DC motors, generators)"
+    },
+    {
+      "id": "me-system-dynamics-4",
+      "name": "Fluid and hydraulic systems (capacitance, resistance, inertance)"
+    },
+    {
+      "id": "me-system-dynamics-5",
+      "name": "Thermal systems"
+    },
+    {
+      "id": "me-system-dynamics-6",
+      "name": "Energy-based modeling and bond graphs"
+    },
+    {
+      "id": "me-system-dynamics-7",
+      "name": "Laplace transforms and transfer functions"
+    },
+    {
+      "id": "me-system-dynamics-8",
+      "name": "Block diagrams and signal-flow graphs"
+    },
+    {
+      "id": "me-system-dynamics-9",
+      "name": "State-space representation and linearisation"
+    },
+    {
+      "id": "me-system-dynamics-10",
+      "name": "Time response of first- and second-order systems"
+    },
+    {
+      "id": "me-system-dynamics-11",
+      "name": "Frequency response and Bode plots"
+    },
+    {
+      "id": "me-system-dynamics-12",
+      "name": "Numerical simulation of dynamic systems (MATLAB/Simulink, Python)"
+    }
+  ]
+}

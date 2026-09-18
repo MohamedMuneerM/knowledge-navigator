@@ -1,0 +1,34 @@
+{
+  "id": "ph-vacuum-cryogenic-systems",
+  "name": "Vacuum & Cryogenic Systems",
+  "category": "Experimental Physics & Instrumentation",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "The practical technology of vacuum systems and cryogenics that many modern experiments depend on.",
+  "prerequisites": [
+    "ph-measurement-instrumentation",
+    "ph-thermodynamics-statistical-mechanics"
+  ],
+  "related": [
+    "ph-cryophysics",
+    "mt-cryogenic-materials"
+  ],
+  "topics": [
+    {
+      "id": "ph-vacuum-cryogenic-systems-1",
+      "name": "Vacuum technology"
+    },
+    {
+      "id": "ph-vacuum-cryogenic-systems-2",
+      "name": "Cryogenic systems"
+    },
+    {
+      "id": "ph-vacuum-cryogenic-systems-3",
+      "name": "Ultra-high vacuum"
+    },
+    {
+      "id": "ph-vacuum-cryogenic-systems-4",
+      "name": "Low-temperature experimental setups"
+    }
+  ]
+}

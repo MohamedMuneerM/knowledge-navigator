@@ -1,0 +1,55 @@
+{
+  "id": "ma-algebraic-geometry",
+  "name": "Algebraic Geometry",
+  "category": "Geometry",
+  "level": 4,
+  "priority": "important",
+  "summary": "Geometry of solution sets of polynomial equations: varieties, schemes, sheaves and cohomology.",
+  "prerequisites": [
+    "ma-commutative-algebra",
+    "ma-projective-geometry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-algebraic-geometry-1",
+      "name": "Affine varieties"
+    },
+    {
+      "id": "ma-algebraic-geometry-7",
+      "name": "Hilbert's Nullstellensatz and the Zariski topology"
+    },
+    {
+      "id": "ma-algebraic-geometry-2",
+      "name": "Projective varieties"
+    },
+    {
+      "id": "ma-algebraic-geometry-8",
+      "name": "Morphisms, rational maps and dimension"
+    },
+    {
+      "id": "ma-algebraic-geometry-9",
+      "name": "Algebraic curves and Bezout's theorem"
+    },
+    {
+      "id": "ma-algebraic-geometry-4",
+      "name": "Sheaf theory"
+    },
+    {
+      "id": "ma-algebraic-geometry-3",
+      "name": "Schemes"
+    },
+    {
+      "id": "ma-algebraic-geometry-5",
+      "name": "Cohomology in algebraic geometry"
+    },
+    {
+      "id": "ma-algebraic-geometry-10",
+      "name": "Riemann-Roch for curves"
+    },
+    {
+      "id": "ma-algebraic-geometry-6",
+      "name": "Intersection theory"
+    }
+  ]
+}

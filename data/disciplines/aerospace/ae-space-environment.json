@@ -1,0 +1,71 @@
+{
+  "id": "ae-space-environment",
+  "name": "The Space Environment and Its Effects",
+  "category": "Spacecraft Subsystems",
+  "level": 2,
+  "priority": "core",
+  "summary": "The physical environment of space and its effects on spacecraft: vacuum, thermal, plasma, radiation, atomic oxygen, micrometeoroids and debris.",
+  "prerequisites": [
+    "ae-space-and-orbits-at-a-glance",
+    "ph-introductory-electricity-magnetism"
+  ],
+  "related": [
+    "ph-space-physics",
+    "el-spacecraft-electronics",
+    "mt-space-environment-materials"
+  ],
+  "topics": [
+    {
+      "id": "ae-space-environment-1",
+      "name": "The Sun, solar cycle and space weather"
+    },
+    {
+      "id": "ae-space-environment-2",
+      "name": "Earth's upper atmosphere and atomic oxygen erosion"
+    },
+    {
+      "id": "ae-space-environment-3",
+      "name": "Vacuum effects: outgassing, cold welding, contamination"
+    },
+    {
+      "id": "ae-space-environment-4",
+      "name": "Thermal environment: solar flux, albedo and Earth IR"
+    },
+    {
+      "id": "ae-space-environment-5",
+      "name": "Ionosphere, plasma and spacecraft charging"
+    },
+    {
+      "id": "ae-space-environment-6",
+      "name": "Earth's magnetic field and magnetosphere"
+    },
+    {
+      "id": "ae-space-environment-7",
+      "name": "Radiation environment: Van Allen belts, solar particle events, galactic cosmic rays"
+    },
+    {
+      "id": "ae-space-environment-8",
+      "name": "Radiation effects on electronics: total ionising dose, single-event effects, displacement damage"
+    },
+    {
+      "id": "ae-space-environment-9",
+      "name": "Radiation shielding and dose analysis"
+    },
+    {
+      "id": "ae-space-environment-10",
+      "name": "Micrometeoroids and orbital debris impacts; Whipple shields"
+    },
+    {
+      "id": "ae-space-environment-11",
+      "name": "Microgravity"
+    },
+    {
+      "id": "ae-space-environment-12",
+      "name": "Environments beyond Earth orbit: Moon, Mars, Jupiter"
+    },
+    {
+      "id": "ae-space-environment-13",
+      "name": "Environment models and standards (AE9/AP9, ECSS-E-ST-10-04)"
+    }
+  ]
+}

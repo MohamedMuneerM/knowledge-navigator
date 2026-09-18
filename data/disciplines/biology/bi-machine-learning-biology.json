@@ -1,0 +1,54 @@
+{
+  "id": "bi-machine-learning-biology",
+  "name": "Machine Learning in Biology",
+  "category": "Quantitative & Computational Biology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How machine learning and deep learning are applied to sequences, structures, images and clinical data, including protein and genomic foundation models.",
+  "prerequisites": [
+    "bi-bioinformatics",
+    "ai-neural-network-foundations"
+  ],
+  "related": [
+    "ai-ai-for-science",
+    "ai-graph-based-ml"
+  ],
+  "topics": [
+    {
+      "id": "bi-machine-learning-biology-1",
+      "name": "Biological data as ML input: sequences, graphs, images and tabular omics"
+    },
+    {
+      "id": "bi-machine-learning-biology-2",
+      "name": "Supervised learning for genomics: predicting regulatory activity from DNA"
+    },
+    {
+      "id": "bi-machine-learning-biology-3",
+      "name": "Protein structure prediction and protein language models"
+    },
+    {
+      "id": "bi-machine-learning-biology-4",
+      "name": "Generative models for protein and molecule design"
+    },
+    {
+      "id": "bi-machine-learning-biology-5",
+      "name": "Bioimage analysis: segmentation and cell classification"
+    },
+    {
+      "id": "bi-machine-learning-biology-6",
+      "name": "Single-cell representation learning"
+    },
+    {
+      "id": "bi-machine-learning-biology-7",
+      "name": "Machine learning for drug discovery"
+    },
+    {
+      "id": "bi-machine-learning-biology-8",
+      "name": "Clinical and biomedical prediction models"
+    },
+    {
+      "id": "bi-machine-learning-biology-9",
+      "name": "Pitfalls: data leakage, batch effects, evaluation and interpretability"
+    }
+  ]
+}

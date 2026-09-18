@@ -1,0 +1,65 @@
+{
+  "id": "bi-ecology",
+  "name": "Ecology",
+  "category": "Ecology & Environment",
+  "level": 2,
+  "priority": "core",
+  "summary": "How organisms interact with each other and their environment, at the scale of individuals, populations, communities, ecosystems and the biosphere.",
+  "prerequisites": [
+    "bi-evolutionary-biology"
+  ],
+  "related": [
+    "ea-introduction-to-environmental-science",
+    "ea-sustainability-science"
+  ],
+  "topics": [
+    {
+      "id": "bi-ecology-1",
+      "name": "Scope of ecology and levels of ecological study"
+    },
+    {
+      "id": "bi-ecology-2",
+      "name": "Climate, the physical environment and the distribution of life"
+    },
+    {
+      "id": "bi-ecology-3",
+      "name": "Terrestrial biomes"
+    },
+    {
+      "id": "bi-ecology-4",
+      "name": "Aquatic biomes"
+    },
+    {
+      "id": "bi-ecology-5",
+      "name": "Organisms and their environment: tolerance, niches and adaptation"
+    },
+    {
+      "id": "bi-ecology-6",
+      "name": "Population ecology basics: density, dispersion, growth"
+    },
+    {
+      "id": "bi-ecology-7",
+      "name": "Species interactions: competition, predation, herbivory, parasitism, mutualism"
+    },
+    {
+      "id": "bi-ecology-8",
+      "name": "Community structure, diversity and succession"
+    },
+    {
+      "id": "bi-ecology-9",
+      "name": "Ecosystems: energy flow, trophic levels and productivity"
+    },
+    {
+      "id": "bi-ecology-10",
+      "name": "Biogeochemical cycles: carbon, nitrogen, phosphorus, water"
+    },
+    {
+      "id": "bi-ecology-11",
+      "name": "Human impacts on ecosystems"
+    },
+    {
+      "id": "bi-ecology-12",
+      "name": "Field methods and ecological sampling"
+    }
+  ]
+}

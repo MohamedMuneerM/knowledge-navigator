@@ -1,0 +1,58 @@
+{
+  "id": "ea-chemical-oceanography",
+  "name": "Chemical Oceanography",
+  "category": "Oceanography",
+  "level": 3,
+  "priority": "important",
+  "summary": "The chemistry of seawater and the processes that control it, from nutrients and gases to the ocean carbon system.",
+  "prerequisites": [
+    "ea-introductory-oceanography",
+    "ea-geochemistry-fundamentals",
+    "ch-acids-bases-aqueous-equilibria"
+  ],
+  "related": [
+    "ch-aquatic-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "ea-chemical-oceanography-1",
+      "name": "Composition of seawater and constancy of major ions"
+    },
+    {
+      "id": "ea-chemical-oceanography-2",
+      "name": "Sources and sinks: rivers, hydrothermal vents, sediments and the atmosphere"
+    },
+    {
+      "id": "ea-chemical-oceanography-3",
+      "name": "Dissolved gases and air-sea gas exchange"
+    },
+    {
+      "id": "ea-chemical-oceanography-4",
+      "name": "The marine carbonate system and ocean acidification"
+    },
+    {
+      "id": "ea-chemical-oceanography-5",
+      "name": "Nutrients and their distributions"
+    },
+    {
+      "id": "ea-chemical-oceanography-6",
+      "name": "The biological pump and organic-matter remineralisation"
+    },
+    {
+      "id": "ea-chemical-oceanography-7",
+      "name": "Trace metals and micronutrients (iron)"
+    },
+    {
+      "id": "ea-chemical-oceanography-8",
+      "name": "Oxygen minimum zones and deoxygenation"
+    },
+    {
+      "id": "ea-chemical-oceanography-9",
+      "name": "Chemical tracers and radioisotopes of ocean circulation"
+    },
+    {
+      "id": "ea-chemical-oceanography-10",
+      "name": "Marine sediment geochemistry and early diagenesis"
+    }
+  ]
+}

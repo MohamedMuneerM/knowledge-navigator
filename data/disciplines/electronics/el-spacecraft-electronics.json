@@ -1,0 +1,49 @@
+{
+  "id": "el-spacecraft-electronics",
+  "name": "Spacecraft Electronics",
+  "category": "Automotive, Aerospace & Defense Systems",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The electronic subsystems of a spacecraft: attitude control, command and data handling, power, thermal, propulsion control and payload interfaces.",
+  "prerequisites": [
+    "el-environmental-challenges",
+    "el-control-theory",
+    "ae-spacecraft-bus-fundamentals"
+  ],
+  "related": [
+    "el-space-satellite-systems",
+    "ae-spacecraft-power-systems",
+    "ae-command-data-handling",
+    "ae-attitude-control"
+  ],
+  "topics": [
+    {
+      "id": "el-spacecraft-electronics-1",
+      "name": "Attitude Determination and Control System (ADCS)"
+    },
+    {
+      "id": "el-spacecraft-electronics-2",
+      "name": "Command and Data Handling (C&DH)"
+    },
+    {
+      "id": "el-spacecraft-electronics-3",
+      "name": "Power systems (solar panels, batteries)"
+    },
+    {
+      "id": "el-spacecraft-electronics-4",
+      "name": "Thermal control systems"
+    },
+    {
+      "id": "el-spacecraft-electronics-5",
+      "name": "Propulsion control"
+    },
+    {
+      "id": "el-spacecraft-electronics-6",
+      "name": "Payload interfaces"
+    },
+    {
+      "id": "el-spacecraft-electronics-7",
+      "name": "Radiation-hardened electronics"
+    }
+  ]
+}

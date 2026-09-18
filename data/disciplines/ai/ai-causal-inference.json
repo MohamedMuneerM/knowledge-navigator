@@ -1,0 +1,76 @@
+{
+  "id": "ai-causal-inference",
+  "name": "Causal Inference & Causal ML",
+  "category": "Reasoning Under Uncertainty & Decision Making",
+  "level": 3,
+  "priority": "important",
+  "summary": "Estimating cause-and-effect from experimental and observational data with potential outcomes, causal graphs and modern causal machine learning.",
+  "prerequisites": [
+    "ai-probabilistic-ai",
+    "ma-regression-analysis"
+  ],
+  "related": [
+    "ma-econometrics",
+    "ma-experimental-design",
+    "ai-business-analytics",
+    "ma-causal-inference"
+  ],
+  "topics": [
+    {
+      "id": "ai-causal-inference-1",
+      "name": "Correlation versus causation and the ladder of causation"
+    },
+    {
+      "id": "ai-causal-inference-2",
+      "name": "Potential outcomes framework: treatment effects (ATE, ATT, CATE)"
+    },
+    {
+      "id": "ai-causal-inference-3",
+      "name": "Randomized controlled trials and A/B tests"
+    },
+    {
+      "id": "ai-causal-inference-4",
+      "name": "Causal graphs (DAGs), d-separation and confounding"
+    },
+    {
+      "id": "ai-causal-inference-5",
+      "name": "Identification: back-door and front-door criteria, do-calculus"
+    },
+    {
+      "id": "ai-causal-inference-6",
+      "name": "Matching, propensity scores and inverse probability weighting"
+    },
+    {
+      "id": "ai-causal-inference-7",
+      "name": "Instrumental variables"
+    },
+    {
+      "id": "ai-causal-inference-8",
+      "name": "Difference-in-differences and synthetic control"
+    },
+    {
+      "id": "ai-causal-inference-9",
+      "name": "Regression discontinuity designs"
+    },
+    {
+      "id": "ai-causal-inference-10",
+      "name": "Heterogeneous effects and uplift modelling"
+    },
+    {
+      "id": "ai-causal-inference-11",
+      "name": "Double/debiased machine learning and causal forests"
+    },
+    {
+      "id": "ai-causal-inference-12",
+      "name": "Causal discovery from data (PC, GES, NOTEARS)"
+    },
+    {
+      "id": "ai-causal-inference-13",
+      "name": "Counterfactual reasoning and sensitivity analysis"
+    },
+    {
+      "id": "ai-causal-inference-14",
+      "name": "Tools: DoWhy, EconML, CausalML"
+    }
+  ]
+}

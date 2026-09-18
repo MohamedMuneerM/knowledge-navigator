@@ -1,0 +1,107 @@
+{
+  "id": "ai-rl-fundamentals",
+  "name": "RL Fundamentals",
+  "category": "Reinforcement Learning",
+  "level": 3,
+  "priority": "core",
+  "summary": "The reinforcement learning problem: agents, rewards, Markov decision processes, Bellman equations and the exploration-exploitation trade-off.",
+  "prerequisites": [
+    "ai-core-ml-concepts",
+    "ma-probability-theory"
+  ],
+  "related": [
+    "ma-reinforcement-learning-mathematics"
+  ],
+  "topics": [
+    {
+      "id": "ai-rl-fundamentals-1",
+      "name": "Core Components",
+      "sub": [
+        {
+          "id": "ai-rl-fundamentals-1-1",
+          "name": "Agent"
+        },
+        {
+          "id": "ai-rl-fundamentals-1-2",
+          "name": "Environment"
+        },
+        {
+          "id": "ai-rl-fundamentals-1-3",
+          "name": "State"
+        },
+        {
+          "id": "ai-rl-fundamentals-1-4",
+          "name": "Action"
+        },
+        {
+          "id": "ai-rl-fundamentals-1-5",
+          "name": "Reward"
+        },
+        {
+          "id": "ai-rl-fundamentals-1-6",
+          "name": "Policy"
+        },
+        {
+          "id": "ai-rl-fundamentals-1-7",
+          "name": "Value function"
+        }
+      ]
+    },
+    {
+      "id": "ai-rl-fundamentals-2",
+      "name": "Markov Decision Processes (MDPs)",
+      "sub": [
+        {
+          "id": "ai-rl-fundamentals-2-1",
+          "name": "State transition probabilities"
+        },
+        {
+          "id": "ai-rl-fundamentals-2-2",
+          "name": "Reward functions"
+        },
+        {
+          "id": "ai-rl-fundamentals-2-3",
+          "name": "Discount factors"
+        }
+      ]
+    },
+    {
+      "id": "ai-rl-fundamentals-6",
+      "name": "Returns, episodic and continuing tasks"
+    },
+    {
+      "id": "ai-rl-fundamentals-3",
+      "name": "Partially Observable MDPs (POMDPs)"
+    },
+    {
+      "id": "ai-rl-fundamentals-4",
+      "name": "Bellman Equations"
+    },
+    {
+      "id": "ai-rl-fundamentals-5",
+      "name": "Exploration vs. Exploitation",
+      "sub": [
+        {
+          "id": "ai-rl-fundamentals-5-1",
+          "name": "ε-greedy"
+        },
+        {
+          "id": "ai-rl-fundamentals-5-2",
+          "name": "UCB"
+        },
+        {
+          "id": "ai-rl-fundamentals-5-3",
+          "name": "Thompson sampling"
+        },
+        {
+          "id": "ai-rl-fundamentals-5-4",
+          "name": "Intrinsic motivation"
+        }
+      ]
+    },
+    {
+      "id": "ai-rl-fundamentals-7",
+      "name": "Optimal policies and optimal value functions"
+    }
+  ]
+}

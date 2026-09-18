@@ -1,0 +1,67 @@
+{
+  "id": "ma-stochastic-processes",
+  "name": "Stochastic Processes",
+  "category": "Probability & Statistics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Random processes in time: Markov chains, Poisson processes, martingales, Brownian motion and Gaussian processes.",
+  "prerequisites": [
+    "ma-probability-theory",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ph-advanced-statistical-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "ma-stochastic-processes-1",
+      "name": "Markov chains",
+      "sub": [
+        {
+          "id": "ma-stochastic-processes-1-1",
+          "name": "Classification of states"
+        },
+        {
+          "id": "ma-stochastic-processes-1-2",
+          "name": "Stationary distributions"
+        },
+        {
+          "id": "ma-stochastic-processes-1-3",
+          "name": "Hitting times"
+        }
+      ]
+    },
+    {
+      "id": "ma-stochastic-processes-7",
+      "name": "Continuous-time Markov chains"
+    },
+    {
+      "id": "ma-stochastic-processes-4",
+      "name": "Poisson processes"
+    },
+    {
+      "id": "ma-stochastic-processes-8",
+      "name": "Birth-death processes and queues"
+    },
+    {
+      "id": "ma-stochastic-processes-9",
+      "name": "Renewal processes"
+    },
+    {
+      "id": "ma-stochastic-processes-2",
+      "name": "Martingales"
+    },
+    {
+      "id": "ma-stochastic-processes-3",
+      "name": "Brownian motion"
+    },
+    {
+      "id": "ma-stochastic-processes-6",
+      "name": "Gaussian processes"
+    },
+    {
+      "id": "ma-stochastic-processes-5",
+      "name": "Lévy processes"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "me-mechatronics",
+  "name": "Mechatronics",
+  "category": "Mechatronics & Robotics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Integrating mechanics, electronics, sensors, actuators and embedded control into working electromechanical products.",
+  "prerequisites": [
+    "me-measurements-instrumentation",
+    "me-feedback-control",
+    "cs-programming-fundamentals"
+  ],
+  "related": [
+    "el-motor-control",
+    "el-actuators",
+    "el-sensor-interfacing",
+    "el-microcontroller-families"
+  ],
+  "topics": [
+    {
+      "id": "me-mechatronics-1",
+      "name": "The mechatronic design approach and system integration"
+    },
+    {
+      "id": "me-mechatronics-2",
+      "name": "Electronics for mechanical engineers: diodes, transistors, op-amps and power stages"
+    },
+    {
+      "id": "me-mechatronics-3",
+      "name": "Microcontrollers and embedded programming: digital I/O, interrupts, timers"
+    },
+    {
+      "id": "me-mechatronics-4",
+      "name": "Interfacing: ADC/DAC, PWM and serial buses (I2C, SPI, CAN)"
+    },
+    {
+      "id": "me-mechatronics-5",
+      "name": "Sensors for mechatronics: encoders, Hall sensors, IMUs, force/torque sensors"
+    },
+    {
+      "id": "me-mechatronics-6",
+      "name": "DC, brushless DC and stepper motors: characteristics and drivers"
+    },
+    {
+      "id": "me-mechatronics-7",
+      "name": "Servo motor sizing and drive electronics"
+    },
+    {
+      "id": "me-mechatronics-8",
+      "name": "Solenoids, voice coils and other electromagnetic actuators"
+    },
+    {
+      "id": "me-mechatronics-9",
+      "name": "Real-time digital control implementation"
+    },
+    {
+      "id": "me-mechatronics-10",
+      "name": "Power supplies and power electronics for mechatronic systems"
+    },
+    {
+      "id": "me-mechatronics-11",
+      "name": "Communication and networking of mechatronic devices"
+    },
+    {
+      "id": "me-mechatronics-12",
+      "name": "Mechatronic prototyping and system debugging"
+    }
+  ]
+}

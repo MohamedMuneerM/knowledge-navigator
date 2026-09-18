@@ -1,0 +1,56 @@
+{
+  "id": "ph-special-relativity",
+  "name": "Special Relativity",
+  "category": "Relativity & Gravitation",
+  "level": 2,
+  "priority": "core",
+  "summary": "Einstein's theory of space and time at high speeds: Lorentz transformations, spacetime and relativistic energy.",
+  "prerequisites": [
+    "ph-classical-mechanics"
+  ],
+  "related": [
+    "ma-relativity"
+  ],
+  "topics": [
+    {
+      "id": "ph-special-relativity-1",
+      "name": "Postulates of special relativity"
+    },
+    {
+      "id": "ph-special-relativity-2",
+      "name": "Lorentz transformations"
+    },
+    {
+      "id": "ph-special-relativity-3",
+      "name": "Time dilation and length contraction"
+    },
+    {
+      "id": "ph-special-relativity-4",
+      "name": "Relativistic energy and momentum"
+    },
+    {
+      "id": "ph-special-relativity-5",
+      "name": "Mass-energy equivalence (E=mc²)"
+    },
+    {
+      "id": "ph-special-relativity-6",
+      "name": "Relativistic electrodynamics"
+    },
+    {
+      "id": "ph-special-relativity-7",
+      "name": "Minkowski spacetime"
+    },
+    {
+      "id": "ph-special-relativity-8",
+      "name": "Four-vectors"
+    },
+    {
+      "id": "ph-special-relativity-9",
+      "name": "Relativistic Doppler effect"
+    },
+    {
+      "id": "ph-special-relativity-10",
+      "name": "Relativistic kinematics"
+    }
+  ]
+}

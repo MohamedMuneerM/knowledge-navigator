@@ -1,0 +1,38 @@
+{
+  "id": "el-inertial-sensors",
+  "name": "Inertial Sensors",
+  "category": "Sensors, Transducers & Actuators",
+  "level": 2,
+  "priority": "important",
+  "summary": "Accelerometers, gyroscopes, magnetometers and IMUs: how they work and how to use them for motion and orientation.",
+  "prerequisites": [
+    "el-intro-microcontrollers"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-inertial-sensors-1",
+      "name": "Accelerometers (MEMS, piezoelectric, capacitive)"
+    },
+    {
+      "id": "el-inertial-sensors-2",
+      "name": "Gyroscopes (MEMS, ring laser, fiber optic)"
+    },
+    {
+      "id": "el-inertial-sensors-3",
+      "name": "Inertial Measurement Units (IMU) - 6-axis, 9-axis"
+    },
+    {
+      "id": "el-inertial-sensors-4",
+      "name": "Magnetometers (Hall effect, magnetoresistive, fluxgate)"
+    },
+    {
+      "id": "el-inertial-sensors-5",
+      "name": "Tilt sensors and inclinometers"
+    },
+    {
+      "id": "el-inertial-sensors-6",
+      "name": "Compass modules"
+    }
+  ]
+}

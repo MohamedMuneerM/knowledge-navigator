@@ -1,0 +1,47 @@
+{
+  "id": "el-power-integrity",
+  "name": "Power Integrity",
+  "category": "PCB Design & Hardware Development",
+  "level": 3,
+  "priority": "important",
+  "summary": "Delivering clean power across a board: PDN design, decoupling, plane design, voltage-drop analysis and sequencing.",
+  "prerequisites": [
+    "el-pcb-layout",
+    "el-ac-circuits-power"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-power-integrity-1",
+      "name": "Power distribution network (PDN) design"
+    },
+    {
+      "id": "el-power-integrity-2",
+      "name": "Decoupling and bypass capacitors"
+    },
+    {
+      "id": "el-power-integrity-3",
+      "name": "Power plane design"
+    },
+    {
+      "id": "el-power-integrity-4",
+      "name": "Voltage drop analysis"
+    },
+    {
+      "id": "el-power-integrity-5",
+      "name": "Power sequencing"
+    },
+    {
+      "id": "el-power-integrity-6",
+      "name": "Target impedance and PDN impedance analysis"
+    },
+    {
+      "id": "el-power-integrity-7",
+      "name": "Simultaneous switching noise and ground bounce"
+    },
+    {
+      "id": "el-power-integrity-8",
+      "name": "Power-integrity simulation and measurement"
+    }
+  ]
+}

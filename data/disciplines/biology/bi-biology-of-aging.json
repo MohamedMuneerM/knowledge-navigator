@@ -1,0 +1,51 @@
+{
+  "id": "bi-biology-of-aging",
+  "name": "Biology of Ageing",
+  "category": "Health & Biomedical Sciences",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Why organisms age and how ageing might be slowed: the hallmarks of ageing, lifespan genetics and rejuvenation research.",
+  "prerequisites": [
+    "bi-gene-regulation-epigenetics",
+    "bi-pathophysiology-human-disease"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-biology-of-aging-1",
+      "name": "Evolutionary theories of ageing"
+    },
+    {
+      "id": "bi-biology-of-aging-2",
+      "name": "The hallmarks of ageing"
+    },
+    {
+      "id": "bi-biology-of-aging-3",
+      "name": "Genetics of lifespan in model organisms"
+    },
+    {
+      "id": "bi-biology-of-aging-4",
+      "name": "Nutrient sensing, caloric restriction and mTOR"
+    },
+    {
+      "id": "bi-biology-of-aging-5",
+      "name": "Cellular senescence and senolytics"
+    },
+    {
+      "id": "bi-biology-of-aging-6",
+      "name": "Mitochondria, oxidative stress and ageing"
+    },
+    {
+      "id": "bi-biology-of-aging-7",
+      "name": "Epigenetic clocks"
+    },
+    {
+      "id": "bi-biology-of-aging-8",
+      "name": "Stem cell exhaustion and tissue ageing"
+    },
+    {
+      "id": "bi-biology-of-aging-9",
+      "name": "Rejuvenation approaches: partial reprogramming, parabiosis"
+    }
+  ]
+}

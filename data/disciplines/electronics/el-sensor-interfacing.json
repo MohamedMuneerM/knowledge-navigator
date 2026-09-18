@@ -1,0 +1,45 @@
+{
+  "id": "el-sensor-interfacing",
+  "name": "Sensor Interfacing",
+  "category": "Sensors, Transducers & Actuators",
+  "level": 2,
+  "priority": "core",
+  "summary": "Connecting sensors to a microcontroller reliably: analog conditioning, digital sensor buses, calibration, compensation and linearity correction.",
+  "prerequisites": [
+    "el-signal-conditioning",
+    "el-embedded-systems-fundamentals"
+  ],
+  "related": [
+    "el-signal-conditioning"
+  ],
+  "topics": [
+    {
+      "id": "el-sensor-interfacing-1",
+      "name": "Analog signal conditioning"
+    },
+    {
+      "id": "el-sensor-interfacing-2",
+      "name": "Digital interfaces (I2C, SPI, UART, 1-Wire)"
+    },
+    {
+      "id": "el-sensor-interfacing-3",
+      "name": "Sensor calibration techniques"
+    },
+    {
+      "id": "el-sensor-interfacing-4",
+      "name": "Temperature compensation"
+    },
+    {
+      "id": "el-sensor-interfacing-5",
+      "name": "Linearity correction"
+    },
+    {
+      "id": "el-sensor-interfacing-6",
+      "name": "Multi-point calibration"
+    },
+    {
+      "id": "el-sensor-interfacing-7",
+      "name": "Factory vs field calibration"
+    }
+  ]
+}

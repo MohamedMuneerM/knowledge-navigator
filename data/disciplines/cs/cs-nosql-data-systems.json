@@ -1,0 +1,61 @@
+{
+  "id": "cs-nosql-data-systems",
+  "name": "NoSQL & Modern Data Systems",
+  "category": "Data Management",
+  "level": 3,
+  "priority": "important",
+  "summary": "The non-relational data stores used in modern applications (key-value, document, wide-column, graph, time-series and vector) and how to choose between them.",
+  "prerequisites": [
+    "cs-databases"
+  ],
+  "related": [
+    "ai-big-data-technologies",
+    "ai-databases"
+  ],
+  "topics": [
+    {
+      "id": "cs-nosql-data-systems-1",
+      "name": "Beyond relational: data models and the CAP trade-off"
+    },
+    {
+      "id": "cs-nosql-data-systems-2",
+      "name": "Key-value stores (Redis, DynamoDB)"
+    },
+    {
+      "id": "cs-nosql-data-systems-3",
+      "name": "Document databases (MongoDB)"
+    },
+    {
+      "id": "cs-nosql-data-systems-4",
+      "name": "Wide-column stores (Cassandra, Bigtable)"
+    },
+    {
+      "id": "cs-nosql-data-systems-5",
+      "name": "Graph databases and query languages (Cypher, SPARQL)"
+    },
+    {
+      "id": "cs-nosql-data-systems-6",
+      "name": "Time-series databases"
+    },
+    {
+      "id": "cs-nosql-data-systems-7",
+      "name": "Search engines as data stores (Elasticsearch)"
+    },
+    {
+      "id": "cs-nosql-data-systems-8",
+      "name": "Vector databases and similarity search"
+    },
+    {
+      "id": "cs-nosql-data-systems-9",
+      "name": "Replication, partitioning and consistency models"
+    },
+    {
+      "id": "cs-nosql-data-systems-10",
+      "name": "Caching layers"
+    },
+    {
+      "id": "cs-nosql-data-systems-11",
+      "name": "Choosing a data store and polyglot persistence"
+    }
+  ]
+}

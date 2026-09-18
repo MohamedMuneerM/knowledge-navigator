@@ -1,0 +1,63 @@
+{
+  "id": "el-intro-microcontrollers",
+  "name": "Introduction to Microcontrollers & Physical Computing",
+  "category": "Getting Started",
+  "level": 1,
+  "priority": "core",
+  "summary": "Program a hobby microcontroller board (Arduino, Raspberry Pi Pico, MicroPython) to read sensors and control lights, sound and motors.",
+  "prerequisites": [
+    "el-hands-on-electronics",
+    "cs-programming-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-intro-microcontrollers-1",
+      "name": "What a microcontroller is and how it differs from a computer"
+    },
+    {
+      "id": "el-intro-microcontrollers-2",
+      "name": "Setting up an IDE (Arduino, MicroPython/Thonny, PlatformIO)"
+    },
+    {
+      "id": "el-intro-microcontrollers-3",
+      "name": "Digital output: blinking LEDs and driving buzzers"
+    },
+    {
+      "id": "el-intro-microcontrollers-4",
+      "name": "Digital input: buttons, pull-up resistors and debouncing"
+    },
+    {
+      "id": "el-intro-microcontrollers-5",
+      "name": "Analog input: reading potentiometers and sensors with the ADC"
+    },
+    {
+      "id": "el-intro-microcontrollers-6",
+      "name": "PWM output: dimming LEDs and positioning servo motors"
+    },
+    {
+      "id": "el-intro-microcontrollers-7",
+      "name": "Serial monitor, printing values and simple debugging"
+    },
+    {
+      "id": "el-intro-microcontrollers-8",
+      "name": "Using libraries and sensor/display breakout modules over I2C and SPI"
+    },
+    {
+      "id": "el-intro-microcontrollers-9",
+      "name": "Driving DC motors safely through a driver board"
+    },
+    {
+      "id": "el-intro-microcontrollers-10",
+      "name": "Timing without delay(): millis-based scheduling and simple state machines"
+    },
+    {
+      "id": "el-intro-microcontrollers-11",
+      "name": "Powering projects: USB, batteries and regulators"
+    },
+    {
+      "id": "el-intro-microcontrollers-12",
+      "name": "Capstone project: a sensor data logger or small robot"
+    }
+  ]
+}

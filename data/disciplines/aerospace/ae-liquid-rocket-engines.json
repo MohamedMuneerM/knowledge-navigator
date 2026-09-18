@@ -1,0 +1,74 @@
+{
+  "id": "ae-liquid-rocket-engines",
+  "name": "Liquid Rocket Engines",
+  "category": "Rocket Propulsion",
+  "level": 3,
+  "priority": "core",
+  "summary": "Design of liquid-propellant rocket engines: thrust chambers, injectors, cooling, ignition and engine operation.",
+  "prerequisites": [
+    "ae-rocket-propellants-performance",
+    "ae-rocket-nozzles-thrust-vector-control",
+    "me-heat-transfer"
+  ],
+  "related": [
+    "ch-propellant-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "ae-liquid-rocket-engines-1",
+      "name": "Liquid rocket engine architecture and subsystems"
+    },
+    {
+      "id": "ae-liquid-rocket-engines-2",
+      "name": "Thrust chamber sizing: chamber pressure, characteristic length (L*), contraction ratio"
+    },
+    {
+      "id": "ae-liquid-rocket-engines-3",
+      "name": "Injector types: impinging, coaxial swirl, pintle, showerhead"
+    },
+    {
+      "id": "ae-liquid-rocket-engines-4",
+      "name": "Injector design: pressure drop, atomisation and mixing"
+    },
+    {
+      "id": "ae-liquid-rocket-engines-5",
+      "name": "Combustion efficiency and c* efficiency"
+    },
+    {
+      "id": "ae-liquid-rocket-engines-6",
+      "name": "Heat transfer in thrust chambers: the Bartz correlation"
+    },
+    {
+      "id": "ae-liquid-rocket-engines-7",
+      "name": "Regenerative cooling channel design"
+    },
+    {
+      "id": "ae-liquid-rocket-engines-8",
+      "name": "Film, transpiration, ablative and radiation cooling"
+    },
+    {
+      "id": "ae-liquid-rocket-engines-9",
+      "name": "Ignition systems: pyrotechnic, spark, hypergolic, TEA-TEB"
+    },
+    {
+      "id": "ae-liquid-rocket-engines-10",
+      "name": "Start-up and shutdown transients"
+    },
+    {
+      "id": "ae-liquid-rocket-engines-11",
+      "name": "Throttling and deep throttling"
+    },
+    {
+      "id": "ae-liquid-rocket-engines-12",
+      "name": "Engine valves, lines and propellant conditioning"
+    },
+    {
+      "id": "ae-liquid-rocket-engines-13",
+      "name": "Engine mass estimation"
+    },
+    {
+      "id": "ae-liquid-rocket-engines-14",
+      "name": "Case studies: F-1, RS-25, Merlin, Raptor, RD-180"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ae-electric-propulsion",
+  "name": "Electric Propulsion",
+  "category": "Space & Advanced Propulsion",
+  "level": 4,
+  "priority": "important",
+  "summary": "Spacecraft propulsion that accelerates propellant with electrical power: resistojets, arcjets, ion and Hall thrusters and electromagnetic devices.",
+  "prerequisites": [
+    "ae-rocket-propulsion-fundamentals",
+    "ph-classical-electromagnetism"
+  ],
+  "related": [
+    "ph-space-physics",
+    "ph-plasma-physics"
+  ],
+  "topics": [
+    {
+      "id": "ae-electric-propulsion-1",
+      "name": "Why electric propulsion: power-limited versus energy-limited rockets"
+    },
+    {
+      "id": "ae-electric-propulsion-2",
+      "name": "Optimal specific impulse and power-to-thrust trade"
+    },
+    {
+      "id": "ae-electric-propulsion-3",
+      "name": "Basic plasma physics for propulsion"
+    },
+    {
+      "id": "ae-electric-propulsion-4",
+      "name": "Electrothermal thrusters: resistojets and arcjets"
+    },
+    {
+      "id": "ae-electric-propulsion-5",
+      "name": "Gridded ion thrusters"
+    },
+    {
+      "id": "ae-electric-propulsion-6",
+      "name": "Hall-effect thrusters"
+    },
+    {
+      "id": "ae-electric-propulsion-7",
+      "name": "Electrospray and field-emission thrusters"
+    },
+    {
+      "id": "ae-electric-propulsion-8",
+      "name": "Pulsed plasma and magnetoplasmadynamic (MPD) thrusters"
+    },
+    {
+      "id": "ae-electric-propulsion-9",
+      "name": "VASIMR and other advanced electromagnetic concepts"
+    },
+    {
+      "id": "ae-electric-propulsion-10",
+      "name": "Power processing units and spacecraft integration"
+    },
+    {
+      "id": "ae-electric-propulsion-11",
+      "name": "Lifetime, erosion and plume interactions"
+    },
+    {
+      "id": "ae-electric-propulsion-12",
+      "name": "Electric propulsion missions: Deep Space 1, Dawn, Starlink, BepiColombo"
+    },
+    {
+      "id": "ae-electric-propulsion-13",
+      "name": "Low-thrust trajectory basics"
+    }
+  ]
+}

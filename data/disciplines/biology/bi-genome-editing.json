@@ -1,0 +1,54 @@
+{
+  "id": "bi-genome-editing",
+  "name": "Genome Editing & CRISPR",
+  "category": "Biotechnology & Bioengineering",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Precise rewriting of genomes: CRISPR-Cas systems, base and prime editing, delivery and their use in research and medicine.",
+  "prerequisites": [
+    "bi-genetic-engineering-biotechnology"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-genome-editing-1",
+      "name": "Earlier nucleases: meganucleases, zinc fingers and TALENs"
+    },
+    {
+      "id": "bi-genome-editing-2",
+      "name": "CRISPR-Cas biology in bacteria"
+    },
+    {
+      "id": "bi-genome-editing-3",
+      "name": "Cas9 and Cas12 editing: guide design, DNA repair outcomes and off-target effects"
+    },
+    {
+      "id": "bi-genome-editing-4",
+      "name": "Base editing and prime editing"
+    },
+    {
+      "id": "bi-genome-editing-5",
+      "name": "CRISPR interference, activation and epigenome editing"
+    },
+    {
+      "id": "bi-genome-editing-6",
+      "name": "RNA-targeting Cas13 and diagnostics"
+    },
+    {
+      "id": "bi-genome-editing-7",
+      "name": "Pooled CRISPR screens"
+    },
+    {
+      "id": "bi-genome-editing-8",
+      "name": "Delivery in vivo and ex vivo therapies"
+    },
+    {
+      "id": "bi-genome-editing-9",
+      "name": "Gene drives"
+    },
+    {
+      "id": "bi-genome-editing-10",
+      "name": "Germline editing: science, ethics and governance"
+    }
+  ]
+}

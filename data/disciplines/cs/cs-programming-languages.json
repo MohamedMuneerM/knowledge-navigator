@@ -1,0 +1,79 @@
+{
+  "id": "cs-programming-languages",
+  "name": "Programming Language Concepts",
+  "category": "Programming Languages & Compilers",
+  "level": 3,
+  "priority": "core",
+  "summary": "The ideas shared by all programming languages (syntax, binding, scope, evaluation, types, control and objects), learned partly by writing interpreters.",
+  "prerequisites": [
+    "cs-functional-programming",
+    "cs-object-oriented-programming",
+    "cs-discrete-mathematics"
+  ],
+  "related": [
+    "ma-type-theory",
+    "ma-formal-languages"
+  ],
+  "topics": [
+    {
+      "id": "cs-programming-languages-1",
+      "name": "Language design goals and programming paradigms"
+    },
+    {
+      "id": "cs-programming-languages-2",
+      "name": "Syntax: grammars, BNF and abstract syntax trees"
+    },
+    {
+      "id": "cs-programming-languages-3",
+      "name": "Names, bindings and scope (static versus dynamic)"
+    },
+    {
+      "id": "cs-programming-languages-4",
+      "name": "Environments, closures and first-class functions"
+    },
+    {
+      "id": "cs-programming-languages-5",
+      "name": "Evaluation strategies: call-by-value, call-by-name and call-by-need"
+    },
+    {
+      "id": "cs-programming-languages-6",
+      "name": "Type systems: static versus dynamic, strong versus weak, type inference"
+    },
+    {
+      "id": "cs-programming-languages-7",
+      "name": "Polymorphism: parametric, subtype and ad hoc"
+    },
+    {
+      "id": "cs-programming-languages-8",
+      "name": "Writing an interpreter for a small language"
+    },
+    {
+      "id": "cs-programming-languages-9",
+      "name": "Memory management: stack, heap and garbage collection"
+    },
+    {
+      "id": "cs-programming-languages-10",
+      "name": "Control abstractions: exceptions, continuations and coroutines"
+    },
+    {
+      "id": "cs-programming-languages-11",
+      "name": "Object models: classes, prototypes, mixins and traits"
+    },
+    {
+      "id": "cs-programming-languages-12",
+      "name": "Logic programming with Prolog"
+    },
+    {
+      "id": "cs-programming-languages-13",
+      "name": "Event-driven and reactive programming"
+    },
+    {
+      "id": "cs-programming-languages-14",
+      "name": "Scripting languages and dynamic features"
+    },
+    {
+      "id": "cs-programming-languages-15",
+      "name": "Metaprogramming, macros and domain-specific languages"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "me-advanced-mechanics-of-materials",
+  "name": "Advanced Mechanics of Materials",
+  "category": "Solid Mechanics & Structures",
+  "level": 3,
+  "priority": "important",
+  "summary": "Beyond elementary strength of materials: energy methods, unsymmetric bending, thick cylinders, rotating discs, contact stresses and plates.",
+  "prerequisites": [
+    "me-mechanics-of-materials",
+    "ma-ordinary-differential-equations-odes"
+  ],
+  "related": [
+    "ae-aerospace-structures"
+  ],
+  "topics": [
+    {
+      "id": "me-advanced-mechanics-of-materials-1",
+      "name": "3D stress and strain; generalised Hooke's law"
+    },
+    {
+      "id": "me-advanced-mechanics-of-materials-2",
+      "name": "Failure criteria for ductile and brittle materials (Tresca, von Mises, Mohr-Coulomb)"
+    },
+    {
+      "id": "me-advanced-mechanics-of-materials-3",
+      "name": "Energy methods: Castigliano's theorems and the unit-load method"
+    },
+    {
+      "id": "me-advanced-mechanics-of-materials-4",
+      "name": "Unsymmetrical bending and the shear centre"
+    },
+    {
+      "id": "me-advanced-mechanics-of-materials-5",
+      "name": "Curved beams"
+    },
+    {
+      "id": "me-advanced-mechanics-of-materials-6",
+      "name": "Torsion of non-circular and thin-walled sections (membrane analogy)"
+    },
+    {
+      "id": "me-advanced-mechanics-of-materials-7",
+      "name": "Thick-walled cylinders and shrink fits (Lamé equations)"
+    },
+    {
+      "id": "me-advanced-mechanics-of-materials-8",
+      "name": "Rotating discs and cylinders"
+    },
+    {
+      "id": "me-advanced-mechanics-of-materials-9",
+      "name": "Beams on elastic foundations"
+    },
+    {
+      "id": "me-advanced-mechanics-of-materials-10",
+      "name": "Contact stresses (Hertz theory)"
+    },
+    {
+      "id": "me-advanced-mechanics-of-materials-11",
+      "name": "Bending of thin plates (introduction)"
+    },
+    {
+      "id": "me-advanced-mechanics-of-materials-12",
+      "name": "Stress concentration and notch analysis"
+    },
+    {
+      "id": "me-advanced-mechanics-of-materials-13",
+      "name": "Experimental stress analysis: strain gauges, photoelasticity, digital image correlation"
+    }
+  ]
+}

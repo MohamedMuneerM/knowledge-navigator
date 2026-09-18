@@ -1,0 +1,69 @@
+{
+  "id": "cs-modern-systems-languages",
+  "name": "Modern C++ & Rust",
+  "category": "Computer Architecture & Systems Programming",
+  "level": 3,
+  "priority": "important",
+  "summary": "The two main modern systems languages: C++ with RAII, move semantics and templates, and Rust with ownership, borrowing and fearless concurrency.",
+  "prerequisites": [
+    "cs-systems-programming",
+    "cs-object-oriented-programming"
+  ],
+  "related": [
+    "el-programming-languages"
+  ],
+  "topics": [
+    {
+      "id": "cs-modern-systems-languages-1",
+      "name": "Modern C++ essentials: RAII, references and const-correctness"
+    },
+    {
+      "id": "cs-modern-systems-languages-2",
+      "name": "Move semantics and value categories"
+    },
+    {
+      "id": "cs-modern-systems-languages-3",
+      "name": "Smart pointers and ownership in C++"
+    },
+    {
+      "id": "cs-modern-systems-languages-4",
+      "name": "Templates, generic programming and concepts"
+    },
+    {
+      "id": "cs-modern-systems-languages-5",
+      "name": "The C++ Standard Library: containers, algorithms and iterators"
+    },
+    {
+      "id": "cs-modern-systems-languages-6",
+      "name": "C++ concurrency: threads, atomics and futures"
+    },
+    {
+      "id": "cs-modern-systems-languages-7",
+      "name": "Rust ownership, borrowing and lifetimes"
+    },
+    {
+      "id": "cs-modern-systems-languages-8",
+      "name": "Rust traits, generics, enums and pattern matching"
+    },
+    {
+      "id": "cs-modern-systems-languages-9",
+      "name": "Error-handling strategies: Result types, exceptions and error codes"
+    },
+    {
+      "id": "cs-modern-systems-languages-10",
+      "name": "Unsafe code and foreign-function interfaces"
+    },
+    {
+      "id": "cs-modern-systems-languages-11",
+      "name": "Async Rust and fearless concurrency"
+    },
+    {
+      "id": "cs-modern-systems-languages-12",
+      "name": "Tooling: Cargo, CMake and package ecosystems"
+    },
+    {
+      "id": "cs-modern-systems-languages-13",
+      "name": "Memory safety: why it matters and how languages achieve it"
+    }
+  ]
+}

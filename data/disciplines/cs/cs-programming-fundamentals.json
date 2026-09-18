@@ -1,0 +1,74 @@
+{
+  "id": "cs-programming-fundamentals",
+  "name": "Programming Fundamentals with Python",
+  "category": "Computing Foundations",
+  "level": 1,
+  "priority": "core",
+  "summary": "Learn to write, run and debug small programs in Python, the usual first language, covering variables, control flow, functions, core data types and files.",
+  "prerequisites": [
+    "cs-computational-thinking"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-programming-fundamentals-1",
+      "name": "Setting up Python, the REPL and a code editor"
+    },
+    {
+      "id": "cs-programming-fundamentals-2",
+      "name": "Values, types, variables and expressions"
+    },
+    {
+      "id": "cs-programming-fundamentals-3",
+      "name": "Input, output and string formatting"
+    },
+    {
+      "id": "cs-programming-fundamentals-4",
+      "name": "Conditionals and Boolean logic"
+    },
+    {
+      "id": "cs-programming-fundamentals-5",
+      "name": "Loops: while, for and common iteration patterns"
+    },
+    {
+      "id": "cs-programming-fundamentals-6",
+      "name": "Functions: parameters, return values and scope"
+    },
+    {
+      "id": "cs-programming-fundamentals-7",
+      "name": "Strings and string methods"
+    },
+    {
+      "id": "cs-programming-fundamentals-8",
+      "name": "Lists, tuples and list comprehensions"
+    },
+    {
+      "id": "cs-programming-fundamentals-9",
+      "name": "Dictionaries and sets"
+    },
+    {
+      "id": "cs-programming-fundamentals-10",
+      "name": "Reading and writing files"
+    },
+    {
+      "id": "cs-programming-fundamentals-11",
+      "name": "Errors, exceptions and debugging with print statements and a debugger"
+    },
+    {
+      "id": "cs-programming-fundamentals-12",
+      "name": "Modules, imports and the standard library"
+    },
+    {
+      "id": "cs-programming-fundamentals-13",
+      "name": "Installing packages with pip and using virtual environments"
+    },
+    {
+      "id": "cs-programming-fundamentals-14",
+      "name": "Introduction to recursion"
+    },
+    {
+      "id": "cs-programming-fundamentals-15",
+      "name": "Small projects: text games and data-processing scripts"
+    }
+  ]
+}

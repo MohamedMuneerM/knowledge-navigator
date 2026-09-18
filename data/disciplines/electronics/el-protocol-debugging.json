@@ -1,0 +1,44 @@
+{
+  "id": "el-protocol-debugging",
+  "name": "Protocol Debugging",
+  "category": "Embedded Development Practices & Debugging",
+  "level": 3,
+  "priority": "important",
+  "summary": "Diagnosing bus and network problems with CAN, SPI/I2C and USB analyzers, Wireshark and serial monitors.",
+  "prerequisites": [
+    "el-serial-protocols",
+    "el-synchronous-serial-protocols",
+    "el-test-equipment"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-protocol-debugging-1",
+      "name": "CAN analyzers"
+    },
+    {
+      "id": "el-protocol-debugging-2",
+      "name": "SPI/I²C analyzers"
+    },
+    {
+      "id": "el-protocol-debugging-3",
+      "name": "USB protocol analyzers (Beagle, Total Phase)"
+    },
+    {
+      "id": "el-protocol-debugging-4",
+      "name": "Ethernet packet capture (Wireshark)"
+    },
+    {
+      "id": "el-protocol-debugging-5",
+      "name": "UART/serial monitors"
+    },
+    {
+      "id": "el-protocol-debugging-6",
+      "name": "Logic analyzers and protocol decoders"
+    },
+    {
+      "id": "el-protocol-debugging-7",
+      "name": "Diagnosing bus errors: timing, noise and termination"
+    }
+  ]
+}

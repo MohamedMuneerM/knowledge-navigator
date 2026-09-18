@@ -1,0 +1,73 @@
+{
+  "id": "ma-discrete-mathematics",
+  "name": "Discrete Mathematics",
+  "category": "Combinatorics & Discrete Mathematics",
+  "level": 2,
+  "priority": "core",
+  "summary": "First course in discrete mathematics: logic, sets, counting, relations, recurrences, graphs and trees, essential for computer science and proof-based maths.",
+  "prerequisites": [
+    "ma-elementary-intermediate-algebra"
+  ],
+  "related": [
+    "ma-introduction-to-proofs",
+    "cs-discrete-mathematics"
+  ],
+  "topics": [
+    {
+      "id": "ma-discrete-mathematics-1",
+      "name": "Propositional and predicate logic"
+    },
+    {
+      "id": "ma-discrete-mathematics-2",
+      "name": "Proof techniques and induction"
+    },
+    {
+      "id": "ma-discrete-mathematics-3",
+      "name": "Sets, functions and relations"
+    },
+    {
+      "id": "ma-discrete-mathematics-4",
+      "name": "Counting: product and sum rules, permutations and combinations"
+    },
+    {
+      "id": "ma-discrete-mathematics-5",
+      "name": "Pigeonhole principle and inclusion-exclusion"
+    },
+    {
+      "id": "ma-discrete-mathematics-6",
+      "name": "Binomial coefficients and Pascal's triangle"
+    },
+    {
+      "id": "ma-discrete-mathematics-7",
+      "name": "Recurrence relations and solving linear recurrences"
+    },
+    {
+      "id": "ma-discrete-mathematics-8",
+      "name": "Discrete probability"
+    },
+    {
+      "id": "ma-discrete-mathematics-9",
+      "name": "Elementary number theory: divisibility, primes and modular arithmetic"
+    },
+    {
+      "id": "ma-discrete-mathematics-10",
+      "name": "Graphs: paths, connectivity, Euler and Hamilton circuits"
+    },
+    {
+      "id": "ma-discrete-mathematics-11",
+      "name": "Trees and spanning trees"
+    },
+    {
+      "id": "ma-discrete-mathematics-12",
+      "name": "Boolean algebra and logic circuits"
+    },
+    {
+      "id": "ma-discrete-mathematics-13",
+      "name": "Partial orders and lattices"
+    },
+    {
+      "id": "ma-discrete-mathematics-14",
+      "name": "Asymptotic notation and growth of functions"
+    }
+  ]
+}

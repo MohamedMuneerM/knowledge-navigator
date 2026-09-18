@@ -1,0 +1,62 @@
+{
+  "id": "ae-small-satellites-cubesats",
+  "name": "Small Satellites and CubeSats",
+  "category": "Space Missions & Exploration",
+  "level": 3,
+  "priority": "important",
+  "summary": "Designing, building and launching small satellites, the most accessible route to real spaceflight hardware.",
+  "prerequisites": [
+    "ae-spacecraft-bus-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-small-satellites-cubesats-1",
+      "name": "SmallSat classes: CubeSats, microsats and ESPA-class satellites"
+    },
+    {
+      "id": "ae-small-satellites-cubesats-2",
+      "name": "The CubeSat standard and deployers"
+    },
+    {
+      "id": "ae-small-satellites-cubesats-3",
+      "name": "COTS components and subsystem suppliers"
+    },
+    {
+      "id": "ae-small-satellites-cubesats-4",
+      "name": "CubeSat ADCS, power, communications and propulsion"
+    },
+    {
+      "id": "ae-small-satellites-cubesats-5",
+      "name": "Rideshare launch opportunities"
+    },
+    {
+      "id": "ae-small-satellites-cubesats-6",
+      "name": "Licensing: amateur radio coordination, FCC/ITU filings, remote-sensing licences"
+    },
+    {
+      "id": "ae-small-satellites-cubesats-7",
+      "name": "Development approach: flatsats, engineering models and flight models"
+    },
+    {
+      "id": "ae-small-satellites-cubesats-8",
+      "name": "Testing on a budget: vibration and thermal vacuum"
+    },
+    {
+      "id": "ae-small-satellites-cubesats-9",
+      "name": "Operations with small ground stations"
+    },
+    {
+      "id": "ae-small-satellites-cubesats-10",
+      "name": "CubeSat missions beyond LEO (MarCO, CAPSTONE)"
+    },
+    {
+      "id": "ae-small-satellites-cubesats-11",
+      "name": "Constellations of small satellites"
+    },
+    {
+      "id": "ae-small-satellites-cubesats-12",
+      "name": "Student and university satellite programmes"
+    }
+  ]
+}

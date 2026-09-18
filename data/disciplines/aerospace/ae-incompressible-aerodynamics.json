@@ -1,0 +1,74 @@
+{
+  "id": "ae-incompressible-aerodynamics",
+  "name": "Incompressible Aerodynamics: Airfoils and Wings",
+  "category": "Aerodynamics",
+  "level": 2,
+  "priority": "core",
+  "summary": "Potential-flow theory for low-speed airfoils and finite wings: how lift arises, what sets induced drag and how wings are shaped.",
+  "prerequisites": [
+    "ae-aerodynamics-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-incompressible-aerodynamics-1",
+      "name": "Bernoulli's equation and Laplace's equation"
+    },
+    {
+      "id": "ae-incompressible-aerodynamics-2",
+      "name": "Elementary flows: uniform flow, source, sink, doublet, vortex"
+    },
+    {
+      "id": "ae-incompressible-aerodynamics-3",
+      "name": "Flow over a cylinder, d'Alembert's paradox and the Kutta-Joukowski theorem"
+    },
+    {
+      "id": "ae-incompressible-aerodynamics-4",
+      "name": "Airfoil nomenclature and NACA airfoil families"
+    },
+    {
+      "id": "ae-incompressible-aerodynamics-5",
+      "name": "The Kutta condition and Kelvin's circulation theorem"
+    },
+    {
+      "id": "ae-incompressible-aerodynamics-6",
+      "name": "Thin airfoil theory: symmetric and cambered airfoils"
+    },
+    {
+      "id": "ae-incompressible-aerodynamics-7",
+      "name": "Vortex and source panel methods"
+    },
+    {
+      "id": "ae-incompressible-aerodynamics-8",
+      "name": "Real airfoil behaviour: stall types and viscous effects"
+    },
+    {
+      "id": "ae-incompressible-aerodynamics-9",
+      "name": "Finite wings: downwash, wingtip vortices and induced drag"
+    },
+    {
+      "id": "ae-incompressible-aerodynamics-10",
+      "name": "Biot-Savart law and Helmholtz vortex theorems"
+    },
+    {
+      "id": "ae-incompressible-aerodynamics-11",
+      "name": "Prandtl lifting-line theory and elliptic lift distribution"
+    },
+    {
+      "id": "ae-incompressible-aerodynamics-12",
+      "name": "Effect of aspect ratio, taper and twist"
+    },
+    {
+      "id": "ae-incompressible-aerodynamics-13",
+      "name": "Vortex lattice method"
+    },
+    {
+      "id": "ae-incompressible-aerodynamics-14",
+      "name": "Swept wings and delta wings at low speed"
+    },
+    {
+      "id": "ae-incompressible-aerodynamics-15",
+      "name": "High-lift devices: flaps and slats"
+    }
+  ]
+}

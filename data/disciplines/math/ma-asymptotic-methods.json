@@ -1,0 +1,53 @@
+{
+  "id": "ma-asymptotic-methods",
+  "name": "Asymptotic & Perturbation Methods",
+  "category": "Analysis",
+  "level": 3,
+  "priority": "important",
+  "summary": "Approximating integrals and differential equations when a parameter is large or small: asymptotic series, Laplace and saddle-point methods, WKB and perturbation theory.",
+  "prerequisites": [
+    "ma-complex-analysis",
+    "ma-ordinary-differential-equations-odes"
+  ],
+  "related": [
+    "ph-advanced-theoretical-methods"
+  ],
+  "topics": [
+    {
+      "id": "ma-asymptotic-methods-1",
+      "name": "Asymptotic notation and asymptotic series"
+    },
+    {
+      "id": "ma-asymptotic-methods-2",
+      "name": "Asymptotic expansion of integrals: integration by parts and Watson's lemma"
+    },
+    {
+      "id": "ma-asymptotic-methods-3",
+      "name": "Laplace's method"
+    },
+    {
+      "id": "ma-asymptotic-methods-4",
+      "name": "Method of stationary phase"
+    },
+    {
+      "id": "ma-asymptotic-methods-5",
+      "name": "Method of steepest descent (saddle points)"
+    },
+    {
+      "id": "ma-asymptotic-methods-6",
+      "name": "Regular and singular perturbation of algebraic equations"
+    },
+    {
+      "id": "ma-asymptotic-methods-7",
+      "name": "Boundary layers and matched asymptotic expansions"
+    },
+    {
+      "id": "ma-asymptotic-methods-8",
+      "name": "WKB approximation"
+    },
+    {
+      "id": "ma-asymptotic-methods-9",
+      "name": "Multiple scales analysis"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "mt-fuel-cell-hydrogen",
+  "name": "Fuel Cell, Electrolyser & Hydrogen Materials",
+  "category": "Energy Materials",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Covers the membranes, catalysts and ceramic electrolytes of fuel cells and electrolysers, and materials for hydrogen storage and handling.",
+  "prerequisites": [
+    "mt-electrochemistry",
+    "mt-ceramics"
+  ],
+  "related": [
+    "ph-energy-physics",
+    "ch-fuel-cells-hydrogen"
+  ],
+  "topics": [
+    {
+      "id": "mt-fuel-cell-hydrogen-1",
+      "name": "Fuel-cell and electrolyser thermodynamics and efficiency"
+    },
+    {
+      "id": "mt-fuel-cell-hydrogen-2",
+      "name": "Proton-exchange-membrane fuel cells: Nafion membranes, Pt catalysts and gas-diffusion layers"
+    },
+    {
+      "id": "mt-fuel-cell-hydrogen-3",
+      "name": "Electrocatalysis: oxygen reduction and evolution reactions; catalyst design and platinum reduction"
+    },
+    {
+      "id": "mt-fuel-cell-hydrogen-4",
+      "name": "Solid-oxide fuel cells and electrolysers: YSZ, perovskite cathodes and interconnects"
+    },
+    {
+      "id": "mt-fuel-cell-hydrogen-5",
+      "name": "Alkaline and anion-exchange membrane systems"
+    },
+    {
+      "id": "mt-fuel-cell-hydrogen-6",
+      "name": "Degradation of fuel-cell materials"
+    },
+    {
+      "id": "mt-fuel-cell-hydrogen-7",
+      "name": "Hydrogen storage: compressed, cryogenic, metal hydrides and chemical carriers"
+    },
+    {
+      "id": "mt-fuel-cell-hydrogen-8",
+      "name": "Hydrogen embrittlement and materials compatibility for hydrogen infrastructure"
+    },
+    {
+      "id": "mt-fuel-cell-hydrogen-9",
+      "name": "Photocatalytic and photoelectrochemical water splitting materials"
+    }
+  ]
+}

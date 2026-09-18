@@ -1,0 +1,60 @@
+{
+  "id": "cs-parallel-computing",
+  "name": "Parallel Computing",
+  "category": "Parallel & Distributed Computing",
+  "level": 3,
+  "priority": "important",
+  "summary": "Using many cores and machines at once: parallel architectures and performance models, shared-memory and message-passing programming, and parallel algorithms.",
+  "prerequisites": [
+    "cs-concurrent-programming",
+    "cs-computer-architecture",
+    "cs-algorithms"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-parallel-computing-1",
+      "name": "Parallel architectures and Flynn's taxonomy"
+    },
+    {
+      "id": "cs-parallel-computing-2",
+      "name": "Performance models: speedup, efficiency, Amdahl's and Gustafson's laws"
+    },
+    {
+      "id": "cs-parallel-computing-3",
+      "name": "The work-span model and analysis of parallel algorithms"
+    },
+    {
+      "id": "cs-parallel-computing-4",
+      "name": "Shared-memory programming with OpenMP"
+    },
+    {
+      "id": "cs-parallel-computing-5",
+      "name": "Task parallelism and fork-join (Cilk, TBB)"
+    },
+    {
+      "id": "cs-parallel-computing-6",
+      "name": "Parallel patterns: map, reduce, scan and stencil"
+    },
+    {
+      "id": "cs-parallel-computing-7",
+      "name": "Parallel sorting and graph algorithms"
+    },
+    {
+      "id": "cs-parallel-computing-8",
+      "name": "Distributed-memory programming with MPI"
+    },
+    {
+      "id": "cs-parallel-computing-9",
+      "name": "Introduction to GPU programming"
+    },
+    {
+      "id": "cs-parallel-computing-10",
+      "name": "Load balancing and scheduling"
+    },
+    {
+      "id": "cs-parallel-computing-11",
+      "name": "Parallel performance analysis and debugging"
+    }
+  ]
+}

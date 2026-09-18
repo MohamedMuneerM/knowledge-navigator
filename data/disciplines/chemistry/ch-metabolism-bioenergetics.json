@@ -1,0 +1,60 @@
+{
+  "id": "ch-metabolism-bioenergetics",
+  "name": "Biochemistry II: Metabolism & Bioenergetics",
+  "category": "Biochemistry & Chemical Biology",
+  "level": 3,
+  "priority": "important",
+  "summary": "How cells extract, store and use energy and build their molecules through regulated metabolic pathways.",
+  "prerequisites": [
+    "ch-biochemistry-structure-function"
+  ],
+  "related": [
+    "bi-metabolism"
+  ],
+  "topics": [
+    {
+      "id": "ch-metabolism-bioenergetics-1",
+      "name": "Bioenergetics: free energy, ATP and coupled reactions"
+    },
+    {
+      "id": "ch-metabolism-bioenergetics-2",
+      "name": "Glycolysis and gluconeogenesis"
+    },
+    {
+      "id": "ch-metabolism-bioenergetics-3",
+      "name": "The citric acid cycle"
+    },
+    {
+      "id": "ch-metabolism-bioenergetics-4",
+      "name": "Oxidative phosphorylation and chemiosmosis"
+    },
+    {
+      "id": "ch-metabolism-bioenergetics-5",
+      "name": "Photosynthesis: light reactions and the Calvin cycle"
+    },
+    {
+      "id": "ch-metabolism-bioenergetics-6",
+      "name": "Glycogen metabolism and the pentose phosphate pathway"
+    },
+    {
+      "id": "ch-metabolism-bioenergetics-7",
+      "name": "Fatty acid oxidation and synthesis"
+    },
+    {
+      "id": "ch-metabolism-bioenergetics-8",
+      "name": "Amino acid metabolism and the urea cycle"
+    },
+    {
+      "id": "ch-metabolism-bioenergetics-9",
+      "name": "Nucleotide metabolism"
+    },
+    {
+      "id": "ch-metabolism-bioenergetics-10",
+      "name": "Integration and hormonal regulation of metabolism"
+    },
+    {
+      "id": "ch-metabolism-bioenergetics-11",
+      "name": "Metabolic disorders and metabolic drug targets"
+    }
+  ]
+}

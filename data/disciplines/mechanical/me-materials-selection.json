@@ -1,0 +1,58 @@
+{
+  "id": "me-materials-selection",
+  "name": "Materials & Process Selection in Design",
+  "category": "Engineering Materials",
+  "level": 3,
+  "priority": "important",
+  "summary": "Systematic choice of materials and processes using Ashby charts, performance indices, shape factors and cost and environmental criteria.",
+  "prerequisites": [
+    "me-engineering-materials",
+    "me-mechanics-of-materials"
+  ],
+  "related": [
+    "mt-materials-selection",
+    "ae-aerospace-materials"
+  ],
+  "topics": [
+    {
+      "id": "me-materials-selection-1",
+      "name": "Design-led selection strategy: translate, screen, rank, document"
+    },
+    {
+      "id": "me-materials-selection-2",
+      "name": "Material property charts (Ashby charts)"
+    },
+    {
+      "id": "me-materials-selection-3",
+      "name": "Performance indices for stiffness-, strength- and energy-limited design"
+    },
+    {
+      "id": "me-materials-selection-4",
+      "name": "Multiple constraints and conflicting objectives (trade-off surfaces, penalty functions)"
+    },
+    {
+      "id": "me-materials-selection-5",
+      "name": "Shape factors and efficient sections"
+    },
+    {
+      "id": "me-materials-selection-6",
+      "name": "Process selection and process-material compatibility"
+    },
+    {
+      "id": "me-materials-selection-7",
+      "name": "Cost modelling of materials and processes"
+    },
+    {
+      "id": "me-materials-selection-8",
+      "name": "Hybrid materials: sandwiches, lattices and segmented structures"
+    },
+    {
+      "id": "me-materials-selection-9",
+      "name": "Eco-selection: embodied energy, carbon footprint and life-cycle assessment"
+    },
+    {
+      "id": "me-materials-selection-10",
+      "name": "Selection software and databases (e.g. Granta EduPack)"
+    }
+  ]
+}

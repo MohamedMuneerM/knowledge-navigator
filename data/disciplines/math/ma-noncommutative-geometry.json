@@ -1,0 +1,32 @@
+{
+  "id": "ma-noncommutative-geometry",
+  "name": "Noncommutative Geometry",
+  "category": "Geometry",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Geometry described by noncommutative operator algebras, following Connes: spectral triples and quantum spaces.",
+  "prerequisites": [
+    "ma-operator-theory",
+    "ma-k-theory",
+    "ma-riemannian-geometry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-noncommutative-geometry-3",
+      "name": "Gelfand duality: commutative C*-algebras as spaces"
+    },
+    {
+      "id": "ma-noncommutative-geometry-1",
+      "name": "Spectral triples"
+    },
+    {
+      "id": "ma-noncommutative-geometry-4",
+      "name": "Cyclic cohomology"
+    },
+    {
+      "id": "ma-noncommutative-geometry-2",
+      "name": "Quantum spaces"
+    }
+  ]
+}

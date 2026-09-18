@@ -1,0 +1,35 @@
+{
+  "id": "el-software-defined-radio-sdr",
+  "name": "Software-Defined Radio (SDR)",
+  "category": "Signal Processing & Communications",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Building radios in software with platforms such as RTL-SDR, HackRF and USRP and frameworks such as GNU Radio.",
+  "prerequisites": [
+    "el-analog-communications",
+    "el-digital-signal-processing-dsp"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-software-defined-radio-sdr-1",
+      "name": "SDR fundamentals and architecture"
+    },
+    {
+      "id": "el-software-defined-radio-sdr-2",
+      "name": "RTL-SDR, HackRF, USRP platforms"
+    },
+    {
+      "id": "el-software-defined-radio-sdr-3",
+      "name": "GNU Radio framework"
+    },
+    {
+      "id": "el-software-defined-radio-sdr-4",
+      "name": "Modulation and demodulation in software"
+    },
+    {
+      "id": "el-software-defined-radio-sdr-5",
+      "name": "Spectrum monitoring"
+    }
+  ]
+}

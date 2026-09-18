@@ -1,0 +1,55 @@
+{
+  "id": "ch-bioanalytical-chemistry-sensors",
+  "name": "Bioanalytical Chemistry & Chemical Sensors",
+  "category": "Analytical Chemistry & Instrumentation",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Analysing biomolecules and building chemical and biological sensors, from ELISA to lab-on-a-chip.",
+  "prerequisites": [
+    "ch-separation-science",
+    "ch-biochemistry-structure-function"
+  ],
+  "related": [
+    "el-chemical-sensors",
+    "el-biosensors-medical-sensors",
+    "bi-protein-biochemical-methods"
+  ],
+  "topics": [
+    {
+      "id": "ch-bioanalytical-chemistry-sensors-1",
+      "name": "Immunoassays: ELISA and lateral-flow tests"
+    },
+    {
+      "id": "ch-bioanalytical-chemistry-sensors-2",
+      "name": "Nucleic-acid analysis: PCR, qPCR and sequencing chemistry"
+    },
+    {
+      "id": "ch-bioanalytical-chemistry-sensors-3",
+      "name": "Protein analysis and quantification"
+    },
+    {
+      "id": "ch-bioanalytical-chemistry-sensors-4",
+      "name": "Biosensor design: recognition elements and transducers"
+    },
+    {
+      "id": "ch-bioanalytical-chemistry-sensors-5",
+      "name": "Optical and electrochemical chemical sensors"
+    },
+    {
+      "id": "ch-bioanalytical-chemistry-sensors-6",
+      "name": "Gas sensors and electronic noses"
+    },
+    {
+      "id": "ch-bioanalytical-chemistry-sensors-7",
+      "name": "Microfluidics and lab-on-a-chip devices"
+    },
+    {
+      "id": "ch-bioanalytical-chemistry-sensors-8",
+      "name": "Point-of-care diagnostics"
+    },
+    {
+      "id": "ch-bioanalytical-chemistry-sensors-9",
+      "name": "Single-cell and single-molecule analysis"
+    }
+  ]
+}

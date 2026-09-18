@@ -1,0 +1,62 @@
+{
+  "id": "ea-geochemistry-fundamentals",
+  "name": "Principles of Geochemistry",
+  "category": "Geochemistry & Geochronology",
+  "level": 2,
+  "priority": "core",
+  "summary": "Chemistry applied to the Earth: where the elements came from, how they are distributed, and the thermodynamic and kinetic rules that move them.",
+  "prerequisites": [
+    "ea-physical-geology",
+    "ch-chemical-equilibrium"
+  ],
+  "related": [
+    "ph-chemical-physics-physical-chemistry",
+    "ch-geochemistry-cosmochemistry"
+  ],
+  "topics": [
+    {
+      "id": "ea-geochemistry-fundamentals-1",
+      "name": "Nucleosynthesis and solar-system element abundances"
+    },
+    {
+      "id": "ea-geochemistry-fundamentals-2",
+      "name": "Accretion and differentiation of the Earth into core, mantle, crust, ocean and atmosphere"
+    },
+    {
+      "id": "ea-geochemistry-fundamentals-3",
+      "name": "Goldschmidt classification: lithophile, siderophile, chalcophile and atmophile elements"
+    },
+    {
+      "id": "ea-geochemistry-fundamentals-4",
+      "name": "Chemical thermodynamics for geologists: enthalpy, entropy, Gibbs energy and equilibrium"
+    },
+    {
+      "id": "ea-geochemistry-fundamentals-5",
+      "name": "Activity, solid solutions and equilibrium constants"
+    },
+    {
+      "id": "ea-geochemistry-fundamentals-6",
+      "name": "Kinetics and diffusion in geological systems"
+    },
+    {
+      "id": "ea-geochemistry-fundamentals-7",
+      "name": "Trace elements: partition coefficients and melting/crystallisation models"
+    },
+    {
+      "id": "ea-geochemistry-fundamentals-8",
+      "name": "An introduction to stable and radiogenic isotopes"
+    },
+    {
+      "id": "ea-geochemistry-fundamentals-9",
+      "name": "Chemical weathering and composition of the continental crust"
+    },
+    {
+      "id": "ea-geochemistry-fundamentals-10",
+      "name": "Global geochemical cycles and residence times"
+    },
+    {
+      "id": "ea-geochemistry-fundamentals-11",
+      "name": "Geochemical data: normalisation, plots and interpretation"
+    }
+  ]
+}

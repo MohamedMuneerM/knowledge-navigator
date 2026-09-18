@@ -1,0 +1,42 @@
+{
+  "id": "el-active-components",
+  "name": "Active Components",
+  "category": "Analog Electronics",
+  "level": 2,
+  "priority": "important",
+  "summary": "A survey of active components (diode types, BJTs, JFETs, MOSFETs, GaN/SiC devices, Darlingtons and thyristors) and where each is used.",
+  "prerequisites": [
+    "el-passive-components"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-active-components-1",
+      "name": "Diodes (standard, Zener, Schottky, PIN, avalanche, varactor, tunnel)"
+    },
+    {
+      "id": "el-active-components-2",
+      "name": "Bipolar Junction Transistors (BJT) - NPN, PNP"
+    },
+    {
+      "id": "el-active-components-3",
+      "name": "Field-Effect Transistors (JFET, MOSFET, GaN FET, SiC devices)"
+    },
+    {
+      "id": "el-active-components-4",
+      "name": "Darlington transistors and compound devices"
+    },
+    {
+      "id": "el-active-components-5",
+      "name": "Thyristors (SCR, TRIAC, DIAC, IGBT)"
+    },
+    {
+      "id": "el-active-components-6",
+      "name": "Reading transistor and diode datasheets: key parameters and ratings"
+    },
+    {
+      "id": "el-active-components-7",
+      "name": "Choosing a transistor or diode for an application"
+    }
+  ]
+}

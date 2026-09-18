@@ -1,0 +1,62 @@
+{
+  "id": "cs-software-design-patterns",
+  "name": "Object-Oriented Design & Design Patterns",
+  "category": "Software Engineering",
+  "level": 3,
+  "priority": "core",
+  "summary": "Principles and reusable patterns for structuring object-oriented code so it stays flexible, testable and understandable as it grows.",
+  "prerequisites": [
+    "cs-software-construction"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-software-design-patterns-1",
+      "name": "Design principles: cohesion, coupling, DRY and KISS"
+    },
+    {
+      "id": "cs-software-design-patterns-2",
+      "name": "SOLID principles in depth"
+    },
+    {
+      "id": "cs-software-design-patterns-3",
+      "name": "Domain modeling and responsibility-driven design"
+    },
+    {
+      "id": "cs-software-design-patterns-4",
+      "name": "Creational patterns: factory, builder, singleton and prototype"
+    },
+    {
+      "id": "cs-software-design-patterns-5",
+      "name": "Structural patterns: adapter, decorator, composite, facade and proxy"
+    },
+    {
+      "id": "cs-software-design-patterns-6",
+      "name": "Behavioural patterns: strategy, observer, command, iterator, state, visitor and template method"
+    },
+    {
+      "id": "cs-software-design-patterns-7",
+      "name": "Dependency injection and inversion of control"
+    },
+    {
+      "id": "cs-software-design-patterns-8",
+      "name": "Model-view-controller and related UI patterns"
+    },
+    {
+      "id": "cs-software-design-patterns-9",
+      "name": "API and library design"
+    },
+    {
+      "id": "cs-software-design-patterns-10",
+      "name": "Domain-driven design basics: entities, value objects and aggregates"
+    },
+    {
+      "id": "cs-software-design-patterns-11",
+      "name": "Designing for testability"
+    },
+    {
+      "id": "cs-software-design-patterns-12",
+      "name": "Anti-patterns and when not to use patterns"
+    }
+  ]
+}

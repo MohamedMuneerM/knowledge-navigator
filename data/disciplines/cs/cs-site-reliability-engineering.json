@@ -1,0 +1,59 @@
+{
+  "id": "cs-site-reliability-engineering",
+  "name": "Site Reliability Engineering & Observability",
+  "category": "Cloud Computing & DevOps",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Keeping production services reliable: SLOs and error budgets, monitoring and tracing, incident response, capacity planning and chaos engineering.",
+  "prerequisites": [
+    "cs-devops-cicd",
+    "cs-distributed-systems"
+  ],
+  "related": [
+    "el-observability-telemetry",
+    "el-logging-monitoring",
+    "ai-monitoring-maintenance"
+  ],
+  "topics": [
+    {
+      "id": "cs-site-reliability-engineering-1",
+      "name": "SRE principles and error budgets"
+    },
+    {
+      "id": "cs-site-reliability-engineering-2",
+      "name": "SLIs, SLOs and SLAs"
+    },
+    {
+      "id": "cs-site-reliability-engineering-3",
+      "name": "Monitoring and alerting"
+    },
+    {
+      "id": "cs-site-reliability-engineering-4",
+      "name": "Logs, metrics and distributed tracing (OpenTelemetry)"
+    },
+    {
+      "id": "cs-site-reliability-engineering-5",
+      "name": "Incident response and on-call practice"
+    },
+    {
+      "id": "cs-site-reliability-engineering-6",
+      "name": "Blameless postmortems"
+    },
+    {
+      "id": "cs-site-reliability-engineering-7",
+      "name": "Capacity planning and load testing"
+    },
+    {
+      "id": "cs-site-reliability-engineering-8",
+      "name": "Toil reduction and automation"
+    },
+    {
+      "id": "cs-site-reliability-engineering-9",
+      "name": "Chaos engineering"
+    },
+    {
+      "id": "cs-site-reliability-engineering-10",
+      "name": "Release engineering and progressive delivery"
+    }
+  ]
+}

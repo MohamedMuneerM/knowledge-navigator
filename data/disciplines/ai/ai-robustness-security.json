@@ -1,0 +1,60 @@
+{
+  "id": "ai-robustness-security",
+  "name": "Robustness & Security",
+  "category": "AI Safety, Ethics & Governance",
+  "level": 4,
+  "priority": "important",
+  "summary": "Attacks on and defences for ML systems: adversarial examples, poisoning and backdoors, model extraction, membership inference and certified robustness.",
+  "prerequisites": [
+    "ai-convolutional-neural-networks-cnns"
+  ],
+  "related": [
+    "ai-privacy-in-ai"
+  ],
+  "topics": [
+    {
+      "id": "ai-robustness-security-1",
+      "name": "Adversarial Examples"
+    },
+    {
+      "id": "ai-robustness-security-2",
+      "name": "Adversarial Training"
+    },
+    {
+      "id": "ai-robustness-security-3",
+      "name": "Certified Robustness"
+    },
+    {
+      "id": "ai-robustness-security-4",
+      "name": "Backdoor Attacks"
+    },
+    {
+      "id": "ai-robustness-security-5",
+      "name": "Data Poisoning"
+    },
+    {
+      "id": "ai-robustness-security-6",
+      "name": "Model Extraction"
+    },
+    {
+      "id": "ai-robustness-security-7",
+      "name": "Membership Inference"
+    },
+    {
+      "id": "ai-robustness-security-8",
+      "name": "Differential Privacy"
+    },
+    {
+      "id": "ai-robustness-security-9",
+      "name": "Federated Learning Security"
+    },
+    {
+      "id": "ai-robustness-security-10",
+      "name": "Out-of-distribution detection"
+    },
+    {
+      "id": "ai-robustness-security-11",
+      "name": "Prompt injection and jailbreaks in LLMs"
+    }
+  ]
+}

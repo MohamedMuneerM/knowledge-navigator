@@ -1,0 +1,34 @@
+{
+  "id": "el-product-analytics-telemetry",
+  "name": "Product Analytics & Telemetry",
+  "category": "Professional Practice, Business & Community",
+  "level": 3,
+  "priority": "optional",
+  "summary": "Learning from products in use: usage analytics, performance and crash reporting, A/B tests and feature adoption.",
+  "prerequisites": [
+    "el-observability-telemetry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-product-analytics-telemetry-1",
+      "name": "Usage analytics"
+    },
+    {
+      "id": "el-product-analytics-telemetry-2",
+      "name": "Performance monitoring"
+    },
+    {
+      "id": "el-product-analytics-telemetry-3",
+      "name": "Error reporting and crash analytics"
+    },
+    {
+      "id": "el-product-analytics-telemetry-4",
+      "name": "A/B testing"
+    },
+    {
+      "id": "el-product-analytics-telemetry-5",
+      "name": "Feature adoption tracking"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ch-green-chemistry",
+  "name": "Green & Sustainable Chemistry",
+  "category": "Environmental & Green Chemistry",
+  "level": 3,
+  "priority": "important",
+  "summary": "Designing chemical products and processes that reduce hazards, waste and energy use across their life cycle.",
+  "prerequisites": [
+    "ch-organic-reactions-ii"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-green-chemistry-1",
+      "name": "The 12 principles of green chemistry and green engineering"
+    },
+    {
+      "id": "ch-green-chemistry-2",
+      "name": "Metrics: atom economy, E-factor and process mass intensity"
+    },
+    {
+      "id": "ch-green-chemistry-3",
+      "name": "Green solvents: water, supercritical CO2, ionic liquids and solvent-selection guides"
+    },
+    {
+      "id": "ch-green-chemistry-4",
+      "name": "Catalysis as a green tool"
+    },
+    {
+      "id": "ch-green-chemistry-5",
+      "name": "Renewable feedstocks and biorefineries"
+    },
+    {
+      "id": "ch-green-chemistry-6",
+      "name": "Designing safer chemicals and inherently safer processes"
+    },
+    {
+      "id": "ch-green-chemistry-7",
+      "name": "Energy efficiency: microwave, mechanochemistry and flow"
+    },
+    {
+      "id": "ch-green-chemistry-8",
+      "name": "Life-cycle assessment"
+    },
+    {
+      "id": "ch-green-chemistry-9",
+      "name": "Circular economy and polymer recycling"
+    },
+    {
+      "id": "ch-green-chemistry-10",
+      "name": "Green chemistry case studies (award-winning processes)"
+    }
+  ]
+}

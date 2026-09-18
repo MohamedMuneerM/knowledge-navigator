@@ -1,0 +1,39 @@
+{
+  "id": "ma-probabilistic-combinatorics",
+  "name": "Probabilistic Combinatorics",
+  "category": "Combinatorics & Discrete Mathematics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The probabilistic method and random discrete structures, proving existence by showing a random object works.",
+  "prerequisites": [
+    "ma-graph-theory",
+    "ma-probability-theory"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-probabilistic-combinatorics-2",
+      "name": "Probabilistic method"
+    },
+    {
+      "id": "ma-probabilistic-combinatorics-3",
+      "name": "Linearity of expectation and alterations"
+    },
+    {
+      "id": "ma-probabilistic-combinatorics-4",
+      "name": "Second moment method"
+    },
+    {
+      "id": "ma-probabilistic-combinatorics-5",
+      "name": "Lovasz local lemma"
+    },
+    {
+      "id": "ma-probabilistic-combinatorics-1",
+      "name": "Random discrete structures"
+    },
+    {
+      "id": "ma-probabilistic-combinatorics-6",
+      "name": "Concentration inequalities (Chernoff, martingale methods)"
+    }
+  ]
+}

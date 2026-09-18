@@ -1,0 +1,57 @@
+{
+  "id": "ae-electric-aircraft-advanced-air-mobility",
+  "name": "Electric Aircraft and Advanced Air Mobility",
+  "category": "Air Vehicle Design",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Electric and hybrid-electric aircraft, distributed propulsion and eVTOL air taxis, and the design trades that batteries impose.",
+  "prerequisites": [
+    "ae-aircraft-design",
+    "ae-propellers-piston-electric-propulsion"
+  ],
+  "related": [
+    "me-energy-storage-power-integration"
+  ],
+  "topics": [
+    {
+      "id": "ae-electric-aircraft-advanced-air-mobility-1",
+      "name": "Why electrify: efficiency, emissions and noise"
+    },
+    {
+      "id": "ae-electric-aircraft-advanced-air-mobility-2",
+      "name": "Batteries, fuel cells and hydrogen as aviation energy sources"
+    },
+    {
+      "id": "ae-electric-aircraft-advanced-air-mobility-3",
+      "name": "Range equations for electric aircraft"
+    },
+    {
+      "id": "ae-electric-aircraft-advanced-air-mobility-4",
+      "name": "Hybrid-electric powertrain architectures"
+    },
+    {
+      "id": "ae-electric-aircraft-advanced-air-mobility-5",
+      "name": "Distributed electric propulsion and boundary-layer ingestion"
+    },
+    {
+      "id": "ae-electric-aircraft-advanced-air-mobility-6",
+      "name": "eVTOL configurations: multicopter, lift+cruise, tilt-wing, tilt-rotor"
+    },
+    {
+      "id": "ae-electric-aircraft-advanced-air-mobility-7",
+      "name": "Thermal management and electrical safety"
+    },
+    {
+      "id": "ae-electric-aircraft-advanced-air-mobility-8",
+      "name": "Certification of electric and eVTOL aircraft"
+    },
+    {
+      "id": "ae-electric-aircraft-advanced-air-mobility-9",
+      "name": "Urban air mobility operations and infrastructure"
+    },
+    {
+      "id": "ae-electric-aircraft-advanced-air-mobility-10",
+      "name": "Sustainable aviation fuels and hydrogen aircraft concepts"
+    }
+  ]
+}

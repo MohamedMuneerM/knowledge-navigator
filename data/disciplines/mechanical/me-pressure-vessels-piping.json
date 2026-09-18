@@ -1,0 +1,60 @@
+{
+  "id": "me-pressure-vessels-piping",
+  "name": "Pressure Vessels & Piping Design",
+  "category": "Machine Design & Machine Elements",
+  "level": 3,
+  "priority": "important",
+  "summary": "Code-based design of pressure vessels, piping and their components, from wall thickness to pipe stress and overpressure protection.",
+  "prerequisites": [
+    "me-advanced-mechanics-of-materials",
+    "me-machine-design-fundamentals",
+    "me-fluid-mechanics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "me-pressure-vessels-piping-1",
+      "name": "Thin- and thick-walled pressure vessel theory review"
+    },
+    {
+      "id": "me-pressure-vessels-piping-2",
+      "name": "ASME Boiler and Pressure Vessel Code (Section VIII) design rules"
+    },
+    {
+      "id": "me-pressure-vessels-piping-3",
+      "name": "Heads, nozzles, openings and reinforcement"
+    },
+    {
+      "id": "me-pressure-vessels-piping-4",
+      "name": "Flanges, gaskets and bolting"
+    },
+    {
+      "id": "me-pressure-vessels-piping-5",
+      "name": "External pressure and vessel buckling"
+    },
+    {
+      "id": "me-pressure-vessels-piping-6",
+      "name": "Pressure relief devices and overpressure protection"
+    },
+    {
+      "id": "me-pressure-vessels-piping-7",
+      "name": "Piping codes (ASME B31.1, B31.3) and wall-thickness calculation"
+    },
+    {
+      "id": "me-pressure-vessels-piping-8",
+      "name": "Pipe stress analysis: thermal expansion, flexibility, supports and hangers"
+    },
+    {
+      "id": "me-pressure-vessels-piping-9",
+      "name": "Materials, welding and inspection of pressure equipment"
+    },
+    {
+      "id": "me-pressure-vessels-piping-10",
+      "name": "Hydrostatic testing, fitness-for-service and failure case studies"
+    },
+    {
+      "id": "me-pressure-vessels-piping-11",
+      "name": "High-pressure gas and hydraulic vessels, including composite-overwrapped vessels"
+    }
+  ]
+}

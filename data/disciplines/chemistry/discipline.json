@@ -1,0 +1,30 @@
+{
+  "id": "chemistry",
+  "name": "Chemistry",
+  "icon": "🧪",
+  "color": "#f472b6",
+  "prefix": "ch",
+  "description": "The science of matter at the level of atoms and molecules: composition, structure, bonding, reactions and energy change, from introductory and general chemistry through organic, inorganic, physical, analytical and biological chemistry to applied fields such as materials, energy, combustion and propellants, environmental chemistry and chemical engineering.",
+  "categories": [
+    "Foundations",
+    "General Chemistry",
+    "Laboratory & Professional Skills",
+    "Organic Chemistry",
+    "Inorganic Chemistry",
+    "Physical Chemistry",
+    "Analytical Chemistry & Instrumentation",
+    "Computational & Theoretical Chemistry",
+    "Biochemistry & Chemical Biology",
+    "Medicinal & Pharmaceutical Chemistry",
+    "Polymer, Materials & Solid-State Chemistry",
+    "Surfaces, Catalysis & Supramolecular Chemistry",
+    "Electrochemistry & Energy",
+    "Combustion, Propellants & Energetic Materials",
+    "Environmental & Green Chemistry",
+    "Earth & Space Chemistry",
+    "Nuclear & Radiochemistry",
+    "Chemical Engineering Fundamentals",
+    "Industrial & Applied Chemistry",
+    "Frontiers of Chemistry"
+  ]
+}

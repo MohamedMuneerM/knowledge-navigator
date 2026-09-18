@@ -1,0 +1,42 @@
+{
+  "id": "ph-black-hole-physics",
+  "name": "Black Hole Physics",
+  "category": "Relativity & Gravitation",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Black holes as theoretical laboratories: thermodynamics, Hawking radiation and the information paradox.",
+  "prerequisites": [
+    "ph-general-relativity",
+    "ph-thermodynamics-statistical-mechanics"
+  ],
+  "related": [
+    "ph-compact-objects",
+    "ph-quantum-field-theory-qft"
+  ],
+  "topics": [
+    {
+      "id": "ph-black-hole-physics-4",
+      "name": "Black hole entropy"
+    },
+    {
+      "id": "ph-black-hole-physics-1",
+      "name": "Black hole thermodynamics"
+    },
+    {
+      "id": "ph-black-hole-physics-2",
+      "name": "Hawking radiation"
+    },
+    {
+      "id": "ph-black-hole-physics-3",
+      "name": "Information paradox"
+    },
+    {
+      "id": "ph-black-hole-physics-6",
+      "name": "Penrose process and superradiance"
+    },
+    {
+      "id": "ph-black-hole-physics-5",
+      "name": "Black hole mergers"
+    }
+  ]
+}

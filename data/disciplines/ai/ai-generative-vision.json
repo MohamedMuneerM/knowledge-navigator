@@ -1,0 +1,43 @@
+{
+  "id": "ai-generative-vision",
+  "name": "Generative Vision",
+  "category": "Computer Vision",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Generating and editing images: image synthesis, image-to-image translation, super-resolution, inpainting, style transfer and virtual try-on.",
+  "prerequisites": [
+    "ai-generative-models",
+    "ai-core-vision-tasks"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-generative-vision-1",
+      "name": "Image Generation"
+    },
+    {
+      "id": "ai-generative-vision-2",
+      "name": "Image-to-Image Translation"
+    },
+    {
+      "id": "ai-generative-vision-3",
+      "name": "Super-Resolution"
+    },
+    {
+      "id": "ai-generative-vision-4",
+      "name": "Inpainting"
+    },
+    {
+      "id": "ai-generative-vision-5",
+      "name": "Style Transfer"
+    },
+    {
+      "id": "ai-generative-vision-6",
+      "name": "Image Editing"
+    },
+    {
+      "id": "ai-generative-vision-7",
+      "name": "Virtual Try-On"
+    }
+  ]
+}

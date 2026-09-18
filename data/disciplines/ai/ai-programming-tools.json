@@ -1,0 +1,110 @@
+{
+  "id": "ai-programming-tools",
+  "name": "Programming & Tools for Data Science",
+  "category": "Getting Started",
+  "level": 1,
+  "priority": "core",
+  "summary": "The practical toolkit for data work and ML: Python (plus R, SQL, Julia), NumPy, pandas, scikit-learn, notebooks and plotting libraries.",
+  "prerequisites": [
+    "cs-programming-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-programming-tools-5",
+      "name": "Development environments: Jupyter notebooks, VS Code, virtual environments"
+    },
+    {
+      "id": "ai-programming-tools-1",
+      "name": "Programming Languages",
+      "sub": [
+        {
+          "id": "ai-programming-tools-1-1",
+          "name": "Python"
+        },
+        {
+          "id": "ai-programming-tools-1-2",
+          "name": "R"
+        },
+        {
+          "id": "ai-programming-tools-1-3",
+          "name": "SQL"
+        },
+        {
+          "id": "ai-programming-tools-1-4",
+          "name": "Julia"
+        }
+      ]
+    },
+    {
+      "id": "ai-programming-tools-2",
+      "name": "Core Libraries",
+      "sub": [
+        {
+          "id": "ai-programming-tools-2-1",
+          "name": "NumPy"
+        },
+        {
+          "id": "ai-programming-tools-2-2",
+          "name": "Pandas"
+        },
+        {
+          "id": "ai-programming-tools-2-3",
+          "name": "SciPy"
+        },
+        {
+          "id": "ai-programming-tools-2-4",
+          "name": "scikit-learn"
+        }
+      ]
+    },
+    {
+      "id": "ai-programming-tools-3",
+      "name": "Visualization Libraries",
+      "sub": [
+        {
+          "id": "ai-programming-tools-3-1",
+          "name": "Matplotlib"
+        },
+        {
+          "id": "ai-programming-tools-3-2",
+          "name": "Seaborn"
+        },
+        {
+          "id": "ai-programming-tools-3-3",
+          "name": "Plotly"
+        },
+        {
+          "id": "ai-programming-tools-3-4",
+          "name": "Bokeh"
+        },
+        {
+          "id": "ai-programming-tools-3-5",
+          "name": "Altair"
+        }
+      ]
+    },
+    {
+      "id": "ai-programming-tools-4",
+      "name": "BI Tools",
+      "sub": [
+        {
+          "id": "ai-programming-tools-4-1",
+          "name": "Tableau"
+        },
+        {
+          "id": "ai-programming-tools-4-2",
+          "name": "Power BI"
+        },
+        {
+          "id": "ai-programming-tools-4-3",
+          "name": "Looker"
+        }
+      ]
+    },
+    {
+      "id": "ai-programming-tools-6",
+      "name": "Version control with Git for data projects"
+    }
+  ]
+}

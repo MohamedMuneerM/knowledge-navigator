@@ -1,0 +1,72 @@
+{
+  "id": "ai-fairness-in-ml",
+  "name": "Fairness in ML",
+  "category": "AI Safety, Ethics & Governance",
+  "level": 3,
+  "priority": "important",
+  "summary": "Detecting, measuring and mitigating unfair bias in ML systems, with fairness metrics, mitigation methods and algorithmic audits.",
+  "prerequisites": [
+    "ai-ml-experimentation-evaluation"
+  ],
+  "related": [
+    "cs-computing-ethics"
+  ],
+  "topics": [
+    {
+      "id": "ai-fairness-in-ml-5",
+      "name": "Sources of bias: historical, representation and measurement bias"
+    },
+    {
+      "id": "ai-fairness-in-ml-1",
+      "name": "Bias Detection"
+    },
+    {
+      "id": "ai-fairness-in-ml-2",
+      "name": "Fairness Metrics",
+      "sub": [
+        {
+          "id": "ai-fairness-in-ml-2-1",
+          "name": "Demographic parity"
+        },
+        {
+          "id": "ai-fairness-in-ml-2-2",
+          "name": "Equalized odds"
+        },
+        {
+          "id": "ai-fairness-in-ml-2-3",
+          "name": "Calibration"
+        }
+      ]
+    },
+    {
+      "id": "ai-fairness-in-ml-3",
+      "name": "Bias Mitigation",
+      "sub": [
+        {
+          "id": "ai-fairness-in-ml-3-1",
+          "name": "Pre-processing"
+        },
+        {
+          "id": "ai-fairness-in-ml-3-2",
+          "name": "In-processing"
+        },
+        {
+          "id": "ai-fairness-in-ml-3-3",
+          "name": "Post-processing"
+        }
+      ]
+    },
+    {
+      "id": "ai-fairness-in-ml-4",
+      "name": "Algorithmic Auditing"
+    },
+    {
+      "id": "ai-fairness-in-ml-6",
+      "name": "Impossibility results and fairness trade-offs"
+    },
+    {
+      "id": "ai-fairness-in-ml-7",
+      "name": "Bias in language and generative models"
+    }
+  ]
+}

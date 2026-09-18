@@ -1,0 +1,65 @@
+{
+  "id": "ea-historical-geology",
+  "name": "Historical Geology & Earth History",
+  "category": "Sedimentary Geology & Earth History",
+  "level": 2,
+  "priority": "core",
+  "summary": "The 4.6-billion-year story of the Earth: how its continents, oceans, atmosphere and life evolved together.",
+  "prerequisites": [
+    "ea-physical-geology"
+  ],
+  "related": [
+    "bi-macroevolution-history-of-life",
+    "bi-origin-of-life"
+  ],
+  "topics": [
+    {
+      "id": "ea-historical-geology-1",
+      "name": "Principles for reading Earth history: uniformitarianism, fossils and time"
+    },
+    {
+      "id": "ea-historical-geology-2",
+      "name": "The geologic time scale and how it was built"
+    },
+    {
+      "id": "ea-historical-geology-3",
+      "name": "The Hadean: accretion, the Moon-forming impact and the first crust"
+    },
+    {
+      "id": "ea-historical-geology-4",
+      "name": "The Archean: early continents, oceans and life"
+    },
+    {
+      "id": "ea-historical-geology-5",
+      "name": "The Proterozoic: oxygenation, supercontinents and Snowball Earth"
+    },
+    {
+      "id": "ea-historical-geology-6",
+      "name": "The Cambrian explosion and the Paleozoic world"
+    },
+    {
+      "id": "ea-historical-geology-7",
+      "name": "Pangaea and the Permian-Triassic extinction"
+    },
+    {
+      "id": "ea-historical-geology-8",
+      "name": "The Mesozoic: dinosaurs, Atlantic opening and the K-Pg impact"
+    },
+    {
+      "id": "ea-historical-geology-9",
+      "name": "The Cenozoic: mammals, cooling climate and modern geography"
+    },
+    {
+      "id": "ea-historical-geology-10",
+      "name": "The Quaternary: ice ages, sea-level change and landscapes"
+    },
+    {
+      "id": "ea-historical-geology-11",
+      "name": "Human evolution and the Anthropocene"
+    },
+    {
+      "id": "ea-historical-geology-12",
+      "name": "Mass extinctions compared"
+    }
+  ]
+}

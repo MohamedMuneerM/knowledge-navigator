@@ -1,0 +1,62 @@
+{
+  "id": "mt-deformation-processing",
+  "name": "Metal Forming & Deformation Processing",
+  "category": "Materials Processing & Manufacturing",
+  "level": 3,
+  "priority": "important",
+  "summary": "Covers rolling, forging, extrusion, drawing and sheet forming, and how hot and cold working shape both the part and its microstructure.",
+  "prerequisites": [
+    "mt-plasticity-strengthening",
+    "mt-interfaces-microstructure-evolution",
+    "me-manufacturing-processes"
+  ],
+  "related": [
+    "me-casting-forming-molding"
+  ],
+  "topics": [
+    {
+      "id": "mt-deformation-processing-1",
+      "name": "Mechanics of forming: flow stress, friction and work of deformation"
+    },
+    {
+      "id": "mt-deformation-processing-2",
+      "name": "Hot working vs cold working; dynamic recovery and recrystallisation"
+    },
+    {
+      "id": "mt-deformation-processing-3",
+      "name": "Rolling: flat and shape rolling, roll forces and thermomechanically controlled rolling"
+    },
+    {
+      "id": "mt-deformation-processing-4",
+      "name": "Forging: open-die, closed-die and isothermal forging"
+    },
+    {
+      "id": "mt-deformation-processing-5",
+      "name": "Extrusion and wire/tube drawing"
+    },
+    {
+      "id": "mt-deformation-processing-6",
+      "name": "Sheet-metal forming: bending, deep drawing, stretching and springback"
+    },
+    {
+      "id": "mt-deformation-processing-7",
+      "name": "Formability: forming limit diagrams and r-value anisotropy"
+    },
+    {
+      "id": "mt-deformation-processing-8",
+      "name": "Superplastic forming and diffusion bonding (aerospace titanium)"
+    },
+    {
+      "id": "mt-deformation-processing-9",
+      "name": "Severe plastic deformation: ECAP, high-pressure torsion and ultrafine grains"
+    },
+    {
+      "id": "mt-deformation-processing-10",
+      "name": "Processing maps and deformation defects"
+    },
+    {
+      "id": "mt-deformation-processing-11",
+      "name": "Machinability of materials and surface integrity (materials view)"
+    }
+  ]
+}

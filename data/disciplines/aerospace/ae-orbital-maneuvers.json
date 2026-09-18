@@ -1,0 +1,62 @@
+{
+  "id": "ae-orbital-maneuvers",
+  "name": "Orbital Manoeuvres",
+  "category": "Orbital Mechanics & Astrodynamics",
+  "level": 3,
+  "priority": "core",
+  "summary": "How spacecraft change orbits: impulsive transfers, plane changes, phasing and delta-v budgeting.",
+  "prerequisites": [
+    "ae-orbital-mechanics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-orbital-maneuvers-1",
+      "name": "Impulsive manoeuvres and the delta-v concept"
+    },
+    {
+      "id": "ae-orbital-maneuvers-2",
+      "name": "Hohmann transfer"
+    },
+    {
+      "id": "ae-orbital-maneuvers-3",
+      "name": "Bi-elliptic transfer"
+    },
+    {
+      "id": "ae-orbital-maneuvers-4",
+      "name": "Phasing manoeuvres"
+    },
+    {
+      "id": "ae-orbital-maneuvers-5",
+      "name": "Non-Hohmann and one-tangent-burn transfers"
+    },
+    {
+      "id": "ae-orbital-maneuvers-6",
+      "name": "Plane-change manoeuvres and combined manoeuvres"
+    },
+    {
+      "id": "ae-orbital-maneuvers-7",
+      "name": "Apse-line rotation"
+    },
+    {
+      "id": "ae-orbital-maneuvers-8",
+      "name": "Lambert-based targeting"
+    },
+    {
+      "id": "ae-orbital-maneuvers-9",
+      "name": "Finite-burn losses and the Oberth effect"
+    },
+    {
+      "id": "ae-orbital-maneuvers-10",
+      "name": "GEO transfer and station acquisition"
+    },
+    {
+      "id": "ae-orbital-maneuvers-11",
+      "name": "Introduction to low-thrust spiral transfers (Edelbaum)"
+    },
+    {
+      "id": "ae-orbital-maneuvers-12",
+      "name": "Delta-v budgets for missions"
+    }
+  ]
+}

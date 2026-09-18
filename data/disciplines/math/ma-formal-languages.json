@@ -1,0 +1,40 @@
+{
+  "id": "ma-formal-languages",
+  "name": "Formal Languages",
+  "category": "Theoretical Computer Science",
+  "level": 3,
+  "priority": "important",
+  "summary": "Grammars and languages: regular and context-free languages, pumping lemmas and the Chomsky hierarchy.",
+  "prerequisites": [
+    "ma-automata-theory"
+  ],
+  "related": [
+    "cs-compilers"
+  ],
+  "topics": [
+    {
+      "id": "ma-formal-languages-1",
+      "name": "Regular languages"
+    },
+    {
+      "id": "ma-formal-languages-4",
+      "name": "Pumping lemmas"
+    },
+    {
+      "id": "ma-formal-languages-2",
+      "name": "Context-free languages"
+    },
+    {
+      "id": "ma-formal-languages-5",
+      "name": "Parsing and normal forms"
+    },
+    {
+      "id": "ma-formal-languages-6",
+      "name": "Context-sensitive and recursively enumerable languages"
+    },
+    {
+      "id": "ma-formal-languages-3",
+      "name": "Chomsky hierarchy"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "mt-materials-informatics",
+  "name": "Materials Informatics & Machine Learning",
+  "category": "Computational Materials Science",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Applies data science and machine learning to materials discovery, property prediction, characterisation and autonomous experimentation.",
+  "prerequisites": [
+    "mt-computational-materials-intro",
+    "ai-core-ml-concepts"
+  ],
+  "related": [
+    "ai-ai-for-science",
+    "ch-cheminformatics-ml"
+  ],
+  "topics": [
+    {
+      "id": "mt-materials-informatics-1",
+      "name": "Materials data: sources, curation, FAIR principles and data quality"
+    },
+    {
+      "id": "mt-materials-informatics-2",
+      "name": "Featurising materials: composition descriptors, structure graphs and fingerprints"
+    },
+    {
+      "id": "mt-materials-informatics-3",
+      "name": "Supervised learning for property prediction"
+    },
+    {
+      "id": "mt-materials-informatics-4",
+      "name": "Graph neural networks for crystals and molecules"
+    },
+    {
+      "id": "mt-materials-informatics-5",
+      "name": "Uncertainty quantification and active learning"
+    },
+    {
+      "id": "mt-materials-informatics-6",
+      "name": "Bayesian optimisation for materials design"
+    },
+    {
+      "id": "mt-materials-informatics-7",
+      "name": "Inverse design and generative models for materials"
+    },
+    {
+      "id": "mt-materials-informatics-8",
+      "name": "High-throughput computation and screening"
+    },
+    {
+      "id": "mt-materials-informatics-9",
+      "name": "Machine learning for microscopy and diffraction data"
+    },
+    {
+      "id": "mt-materials-informatics-10",
+      "name": "Natural-language processing of the materials literature"
+    },
+    {
+      "id": "mt-materials-informatics-11",
+      "name": "Self-driving laboratories and autonomous experimentation"
+    },
+    {
+      "id": "mt-materials-informatics-12",
+      "name": "Pitfalls: data leakage, extrapolation and interpretability"
+    }
+  ]
+}

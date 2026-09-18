@@ -1,0 +1,64 @@
+{
+  "id": "ae-ascent-trajectories",
+  "name": "Launch and Ascent Trajectories",
+  "category": "Launch Vehicles",
+  "level": 3,
+  "priority": "core",
+  "summary": "How a rocket flies from the pad to orbit: equations of motion, gravity turn, losses, launch site geometry and ascent simulation.",
+  "prerequisites": [
+    "ae-rocket-propulsion-fundamentals",
+    "ae-orbital-mechanics",
+    "ae-aerodynamics-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-ascent-trajectories-1",
+      "name": "Launch vehicle equations of motion in 2D and 3D"
+    },
+    {
+      "id": "ae-ascent-trajectories-2",
+      "name": "Vertical rise, pitch-over and gravity turn"
+    },
+    {
+      "id": "ae-ascent-trajectories-3",
+      "name": "Gravity, drag and steering losses"
+    },
+    {
+      "id": "ae-ascent-trajectories-4",
+      "name": "Dynamic pressure, max-Q and aerodynamic heating constraints"
+    },
+    {
+      "id": "ae-ascent-trajectories-5",
+      "name": "Launch site latitude, launch azimuth and Earth rotation benefit"
+    },
+    {
+      "id": "ae-ascent-trajectories-6",
+      "name": "Launch windows for rendezvous and planetary missions"
+    },
+    {
+      "id": "ae-ascent-trajectories-7",
+      "name": "Orbital insertion: direct ascent versus parking orbits"
+    },
+    {
+      "id": "ae-ascent-trajectories-8",
+      "name": "Staging events, coast phases and upper-stage burns"
+    },
+    {
+      "id": "ae-ascent-trajectories-9",
+      "name": "3-DOF trajectory simulation"
+    },
+    {
+      "id": "ae-ascent-trajectories-10",
+      "name": "Trajectory optimisation for ascent"
+    },
+    {
+      "id": "ae-ascent-trajectories-11",
+      "name": "Dispersion analysis and performance margins"
+    },
+    {
+      "id": "ae-ascent-trajectories-12",
+      "name": "Payload capability curves and user's guides"
+    }
+  ]
+}

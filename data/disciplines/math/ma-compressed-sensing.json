@@ -1,0 +1,39 @@
+{
+  "id": "ma-compressed-sensing",
+  "name": "Compressed Sensing",
+  "category": "Optimization & Control Theory",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Recovering sparse signals from few measurements with L1 minimisation and the restricted isometry property.",
+  "prerequisites": [
+    "ma-convex-optimization",
+    "ma-high-dimensional-probability"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-compressed-sensing-3",
+      "name": "Sparsity and underdetermined systems"
+    },
+    {
+      "id": "ma-compressed-sensing-1",
+      "name": "Sparse recovery"
+    },
+    {
+      "id": "ma-compressed-sensing-2",
+      "name": "L1 minimization"
+    },
+    {
+      "id": "ma-compressed-sensing-4",
+      "name": "Restricted isometry property"
+    },
+    {
+      "id": "ma-compressed-sensing-5",
+      "name": "Random measurement matrices"
+    },
+    {
+      "id": "ma-compressed-sensing-6",
+      "name": "Greedy recovery algorithms"
+    }
+  ]
+}

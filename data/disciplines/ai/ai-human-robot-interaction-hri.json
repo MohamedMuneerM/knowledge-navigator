@@ -1,0 +1,70 @@
+{
+  "id": "ai-human-robot-interaction-hri",
+  "name": "Human-Robot Interaction (HRI)",
+  "category": "Human-Centred Robotics & Augmentation",
+  "level": 3,
+  "priority": "important",
+  "summary": "How people and robots work together: physical and social HRI, cobots, communication, trust, safety, teleoperation and shared autonomy.",
+  "prerequisites": [
+    "ai-actuators-sensors"
+  ],
+  "related": [
+    "cs-hci"
+  ],
+  "topics": [
+    {
+      "id": "ai-human-robot-interaction-hri-1",
+      "name": "Physical HRI"
+    },
+    {
+      "id": "ai-human-robot-interaction-hri-2",
+      "name": "Collaborative Robots (Cobots)"
+    },
+    {
+      "id": "ai-human-robot-interaction-hri-3",
+      "name": "Social Robotics"
+    },
+    {
+      "id": "ai-human-robot-interaction-hri-4",
+      "name": "Robot Communication",
+      "sub": [
+        {
+          "id": "ai-human-robot-interaction-hri-4-1",
+          "name": "Gesture recognition"
+        },
+        {
+          "id": "ai-human-robot-interaction-hri-4-2",
+          "name": "Speech interaction"
+        },
+        {
+          "id": "ai-human-robot-interaction-hri-4-3",
+          "name": "Gaze tracking"
+        }
+      ]
+    },
+    {
+      "id": "ai-human-robot-interaction-hri-5",
+      "name": "Safety in HRI"
+    },
+    {
+      "id": "ai-human-robot-interaction-hri-6",
+      "name": "Teleoperation"
+    },
+    {
+      "id": "ai-human-robot-interaction-hri-7",
+      "name": "Shared Autonomy"
+    },
+    {
+      "id": "ai-human-robot-interaction-hri-8",
+      "name": "Haptics and haptic feedback"
+    },
+    {
+      "id": "ai-human-robot-interaction-hri-9",
+      "name": "Trust, transparency and explainable robots"
+    },
+    {
+      "id": "ai-human-robot-interaction-hri-10",
+      "name": "HRI study design and evaluation"
+    }
+  ]
+}

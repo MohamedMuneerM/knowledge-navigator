@@ -1,0 +1,59 @@
+{
+  "id": "el-ethernet-networking",
+  "name": "Ethernet & Networking",
+  "category": "Communication Protocols & Connectivity",
+  "level": 3,
+  "priority": "important",
+  "summary": "Wired networking for embedded devices: Ethernet PHY/MAC and MII interfaces, the TCP/IP stack, time protocols and PoE.",
+  "prerequisites": [
+    "el-embedded-systems-fundamentals",
+    "cs-computer-networks"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-ethernet-networking-1",
+      "name": "Ethernet (10BASE-T, 100BASE-TX, 1000BASE-T)"
+    },
+    {
+      "id": "el-ethernet-networking-2",
+      "name": "MAC and PHY layers"
+    },
+    {
+      "id": "el-ethernet-networking-3",
+      "name": "MII, RMII, RGMII interfaces"
+    },
+    {
+      "id": "el-ethernet-networking-4",
+      "name": "TCP/IP stack"
+    },
+    {
+      "id": "el-ethernet-networking-5",
+      "name": "UDP and TCP protocols"
+    },
+    {
+      "id": "el-ethernet-networking-6",
+      "name": "ARP, ICMP, DHCP, DNS"
+    },
+    {
+      "id": "el-ethernet-networking-7",
+      "name": "IPv4 and IPv6"
+    },
+    {
+      "id": "el-ethernet-networking-8",
+      "name": "Time-Sensitive Networking (TSN)"
+    },
+    {
+      "id": "el-ethernet-networking-9",
+      "name": "IEEE 1588 Precision Time Protocol (PTP)"
+    },
+    {
+      "id": "el-ethernet-networking-10",
+      "name": "Network Time Protocol (NTP)"
+    },
+    {
+      "id": "el-ethernet-networking-11",
+      "name": "Power over Ethernet (PoE, PoE+)"
+    }
+  ]
+}

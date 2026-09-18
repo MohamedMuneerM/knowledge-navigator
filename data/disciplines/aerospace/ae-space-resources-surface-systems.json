@@ -1,0 +1,57 @@
+{
+  "id": "ae-space-resources-surface-systems",
+  "name": "Space Resources and Surface Systems",
+  "category": "Space Missions & Exploration",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Living off the land in space: in-situ resource utilisation, surface power, habitats and construction on the Moon and Mars.",
+  "prerequisites": [
+    "ae-planetary-exploration-systems"
+  ],
+  "related": [
+    "ea-lunar-geology",
+    "ea-mars-geology"
+  ],
+  "topics": [
+    {
+      "id": "ae-space-resources-surface-systems-1",
+      "name": "Space resources: lunar ice, regolith, Martian atmosphere, asteroids"
+    },
+    {
+      "id": "ae-space-resources-surface-systems-2",
+      "name": "Resource prospecting and characterisation"
+    },
+    {
+      "id": "ae-space-resources-surface-systems-3",
+      "name": "Oxygen extraction from regolith"
+    },
+    {
+      "id": "ae-space-resources-surface-systems-4",
+      "name": "Mars ISRU: MOXIE and propellant production"
+    },
+    {
+      "id": "ae-space-resources-surface-systems-5",
+      "name": "Water mining and processing"
+    },
+    {
+      "id": "ae-space-resources-surface-systems-6",
+      "name": "Surface power: solar and fission surface power"
+    },
+    {
+      "id": "ae-space-resources-surface-systems-7",
+      "name": "Surface habitats and radiation shielding"
+    },
+    {
+      "id": "ae-space-resources-surface-systems-8",
+      "name": "Construction with regolith and 3D printing"
+    },
+    {
+      "id": "ae-space-resources-surface-systems-9",
+      "name": "Surface mobility and logistics"
+    },
+    {
+      "id": "ae-space-resources-surface-systems-10",
+      "name": "Economics of space resources"
+    }
+  ]
+}

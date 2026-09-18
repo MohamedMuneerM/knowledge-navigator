@@ -1,0 +1,81 @@
+{
+  "id": "me-mechanics-of-materials",
+  "name": "Mechanics of Materials (Strength of Materials)",
+  "category": "Solid Mechanics & Structures",
+  "level": 2,
+  "priority": "core",
+  "summary": "Stress, strain and deformation in loaded members under axial load, torsion, bending, shear and combined loads, plus column buckling.",
+  "prerequisites": [
+    "me-statics"
+  ],
+  "related": [
+    "ma-solid-mechanics",
+    "mt-mechanical-properties"
+  ],
+  "topics": [
+    {
+      "id": "me-mechanics-of-materials-1",
+      "name": "Stress and strain; normal and shear stress"
+    },
+    {
+      "id": "me-mechanics-of-materials-2",
+      "name": "Hooke's law, Poisson's ratio and properties from the stress-strain curve"
+    },
+    {
+      "id": "me-mechanics-of-materials-3",
+      "name": "Axially loaded members: deformation, statically indeterminate bars, thermal stress"
+    },
+    {
+      "id": "me-mechanics-of-materials-4",
+      "name": "Torsion of circular shafts: shear stress, angle of twist, power transmission"
+    },
+    {
+      "id": "me-mechanics-of-materials-5",
+      "name": "Shear-force and bending-moment diagrams"
+    },
+    {
+      "id": "me-mechanics-of-materials-6",
+      "name": "Flexural (bending) stress in beams; composite beams"
+    },
+    {
+      "id": "me-mechanics-of-materials-7",
+      "name": "Transverse shear stress and shear flow"
+    },
+    {
+      "id": "me-mechanics-of-materials-8",
+      "name": "Stress transformation, principal stresses and Mohr's circle"
+    },
+    {
+      "id": "me-mechanics-of-materials-9",
+      "name": "Strain transformation and strain-gauge rosettes"
+    },
+    {
+      "id": "me-mechanics-of-materials-10",
+      "name": "Thin-walled pressure vessels"
+    },
+    {
+      "id": "me-mechanics-of-materials-11",
+      "name": "Combined loading"
+    },
+    {
+      "id": "me-mechanics-of-materials-12",
+      "name": "Beam deflection: integration, superposition and moment-area methods"
+    },
+    {
+      "id": "me-mechanics-of-materials-13",
+      "name": "Statically indeterminate beams"
+    },
+    {
+      "id": "me-mechanics-of-materials-14",
+      "name": "Column buckling: Euler load, end conditions, secant and Johnson formulas"
+    },
+    {
+      "id": "me-mechanics-of-materials-15",
+      "name": "Strain energy and introduction to energy methods"
+    },
+    {
+      "id": "me-mechanics-of-materials-16",
+      "name": "Stress concentrations and introduction to failure theories"
+    }
+  ]
+}

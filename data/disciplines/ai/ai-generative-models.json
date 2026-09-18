@@ -1,0 +1,163 @@
+{
+  "id": "ai-generative-models",
+  "name": "Generative Models",
+  "category": "Deep Learning",
+  "level": 4,
+  "priority": "important",
+  "summary": "Deep generative models that learn to create data: autoencoders, VAEs, GANs, normalizing flows, energy-based, autoregressive and diffusion models.",
+  "prerequisites": [
+    "ai-convolutional-neural-networks-cnns",
+    "ai-probabilistic-ml"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-generative-models-1",
+      "name": "Generative Adversarial Networks (GANs)",
+      "sub": [
+        {
+          "id": "ai-generative-models-1-1",
+          "name": "DCGAN"
+        },
+        {
+          "id": "ai-generative-models-1-2",
+          "name": "StyleGAN"
+        },
+        {
+          "id": "ai-generative-models-1-3",
+          "name": "CycleGAN"
+        },
+        {
+          "id": "ai-generative-models-1-4",
+          "name": "Conditional GAN"
+        },
+        {
+          "id": "ai-generative-models-1-5",
+          "name": "Progressive GAN"
+        }
+      ]
+    },
+    {
+      "id": "ai-generative-models-2",
+      "name": "Variational Autoencoders (VAEs)",
+      "sub": [
+        {
+          "id": "ai-generative-models-2-1",
+          "name": "Standard VAE"
+        },
+        {
+          "id": "ai-generative-models-2-2",
+          "name": "β-VAE"
+        },
+        {
+          "id": "ai-generative-models-2-3",
+          "name": "VQ-VAE"
+        }
+      ]
+    },
+    {
+      "id": "ai-generative-models-3",
+      "name": "Autoencoders",
+      "sub": [
+        {
+          "id": "ai-generative-models-3-1",
+          "name": "Standard autoencoders"
+        },
+        {
+          "id": "ai-generative-models-3-2",
+          "name": "Denoising autoencoders"
+        },
+        {
+          "id": "ai-generative-models-3-3",
+          "name": "Sparse autoencoders"
+        },
+        {
+          "id": "ai-generative-models-3-4",
+          "name": "Contractive autoencoders"
+        }
+      ]
+    },
+    {
+      "id": "ai-generative-models-4",
+      "name": "Normalizing Flows",
+      "sub": [
+        {
+          "id": "ai-generative-models-4-1",
+          "name": "RealNVP"
+        },
+        {
+          "id": "ai-generative-models-4-2",
+          "name": "Glow"
+        }
+      ]
+    },
+    {
+      "id": "ai-generative-models-5",
+      "name": "Diffusion Models",
+      "sub": [
+        {
+          "id": "ai-generative-models-5-1",
+          "name": "Denoising Diffusion Probabilistic Models (DDPM)"
+        },
+        {
+          "id": "ai-generative-models-5-2",
+          "name": "Score-based models"
+        },
+        {
+          "id": "ai-generative-models-5-3",
+          "name": "Stable Diffusion"
+        },
+        {
+          "id": "ai-generative-models-5-4",
+          "name": "DALL-E"
+        },
+        {
+          "id": "ai-generative-models-5-5",
+          "name": "Midjourney"
+        },
+        {
+          "id": "ai-generative-models-5-6",
+          "name": "Latent Diffusion Models"
+        }
+      ]
+    },
+    {
+      "id": "ai-generative-models-6",
+      "name": "Energy-Based Models"
+    },
+    {
+      "id": "ai-generative-models-7",
+      "name": "Video Generation Models",
+      "sub": [
+        {
+          "id": "ai-generative-models-7-1",
+          "name": "Sora"
+        },
+        {
+          "id": "ai-generative-models-7-2",
+          "name": "Gen-2"
+        },
+        {
+          "id": "ai-generative-models-7-3",
+          "name": "Video diffusion models"
+        }
+      ]
+    },
+    {
+      "id": "ai-generative-models-8",
+      "name": "Autoregressive models (PixelCNN, WaveNet)"
+    },
+    {
+      "id": "ai-generative-models-9",
+      "name": "Flow matching and rectified flow"
+    },
+    {
+      "id": "ai-generative-models-10",
+      "name": "Conditioning and classifier-free guidance"
+    },
+    {
+      "id": "ai-generative-models-11",
+      "name": "Evaluating generative models (FID, IS, likelihood)"
+    }
+  ]
+}

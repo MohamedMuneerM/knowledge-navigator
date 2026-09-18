@@ -1,0 +1,73 @@
+{
+  "id": "cs-concurrent-programming",
+  "name": "Concurrent Programming",
+  "category": "Parallel & Distributed Computing",
+  "level": 3,
+  "priority": "core",
+  "summary": "Writing correct programs with many simultaneous activities: threads, locks, memory models, lock-free structures, message passing and async/await.",
+  "prerequisites": [
+    "cs-operating-systems",
+    "cs-object-oriented-programming"
+  ],
+  "related": [
+    "el-concurrency-synchronization"
+  ],
+  "topics": [
+    {
+      "id": "cs-concurrent-programming-1",
+      "name": "Concurrency versus parallelism"
+    },
+    {
+      "id": "cs-concurrent-programming-2",
+      "name": "Threads and shared memory"
+    },
+    {
+      "id": "cs-concurrent-programming-3",
+      "name": "Race conditions and critical sections"
+    },
+    {
+      "id": "cs-concurrent-programming-4",
+      "name": "Locks, mutexes and read-write locks"
+    },
+    {
+      "id": "cs-concurrent-programming-5",
+      "name": "Condition variables and monitors"
+    },
+    {
+      "id": "cs-concurrent-programming-6",
+      "name": "Deadlock, livelock and starvation"
+    },
+    {
+      "id": "cs-concurrent-programming-7",
+      "name": "Memory models and atomics (Java, C++)"
+    },
+    {
+      "id": "cs-concurrent-programming-8",
+      "name": "Lock-free and wait-free data structures"
+    },
+    {
+      "id": "cs-concurrent-programming-9",
+      "name": "Thread pools, executors and futures"
+    },
+    {
+      "id": "cs-concurrent-programming-10",
+      "name": "Message passing and the actor model"
+    },
+    {
+      "id": "cs-concurrent-programming-11",
+      "name": "Asynchronous programming: event loops and async/await"
+    },
+    {
+      "id": "cs-concurrent-programming-12",
+      "name": "Goroutines and channels (CSP in Go)"
+    },
+    {
+      "id": "cs-concurrent-programming-13",
+      "name": "Transactional memory"
+    },
+    {
+      "id": "cs-concurrent-programming-14",
+      "name": "Testing and debugging concurrent programs"
+    }
+  ]
+}

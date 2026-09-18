@@ -1,0 +1,62 @@
+{
+  "id": "ai-humanoid-robotics",
+  "name": "Humanoid Robotics",
+  "category": "Robot Platforms & Locomotion",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Human-shaped robots that walk, balance and manipulate, covering design, whole-body control, teleoperation and learned general-purpose skills.",
+  "prerequisites": [
+    "ai-legged-locomotion",
+    "ai-manipulation"
+  ],
+  "related": [
+    "ai-types-of-robots-applications",
+    "me-robot-mechanism-design"
+  ],
+  "topics": [
+    {
+      "id": "ai-humanoid-robotics-1",
+      "name": "Humanoid design and actuation: from ASIMO to Atlas, Optimus and Figure"
+    },
+    {
+      "id": "ai-humanoid-robotics-2",
+      "name": "Bipedal walking control: ZMP and preview control"
+    },
+    {
+      "id": "ai-humanoid-robotics-3",
+      "name": "Whole-body control and task prioritization"
+    },
+    {
+      "id": "ai-humanoid-robotics-4",
+      "name": "Balance, push recovery and fall mitigation"
+    },
+    {
+      "id": "ai-humanoid-robotics-5",
+      "name": "Dexterous hands and humanoid manipulation"
+    },
+    {
+      "id": "ai-humanoid-robotics-6",
+      "name": "Motion retargeting from human motion capture"
+    },
+    {
+      "id": "ai-humanoid-robotics-7",
+      "name": "Teleoperation and data collection for humanoids"
+    },
+    {
+      "id": "ai-humanoid-robotics-8",
+      "name": "Learning whole-body skills with reinforcement and imitation learning"
+    },
+    {
+      "id": "ai-humanoid-robotics-9",
+      "name": "Vision-language-action models for humanoids"
+    },
+    {
+      "id": "ai-humanoid-robotics-10",
+      "name": "Safety and operation around people"
+    },
+    {
+      "id": "ai-humanoid-robotics-11",
+      "name": "Applications and economics of humanoids"
+    }
+  ]
+}

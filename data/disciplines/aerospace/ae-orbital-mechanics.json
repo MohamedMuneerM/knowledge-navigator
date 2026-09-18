@@ -1,0 +1,71 @@
+{
+  "id": "ae-orbital-mechanics",
+  "name": "Orbital Mechanics: The Two-Body Problem",
+  "category": "Orbital Mechanics & Astrodynamics",
+  "level": 2,
+  "priority": "core",
+  "summary": "The mathematics of Keplerian orbits: conic sections, orbital elements, time of flight and coordinate frames.",
+  "prerequisites": [
+    "ae-space-and-orbits-at-a-glance",
+    "ph-classical-mechanics",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ma-mathematical-aspects-of-astronomy",
+    "ph-celestial-mechanics"
+  ],
+  "topics": [
+    {
+      "id": "ae-orbital-mechanics-1",
+      "name": "Newton's law of gravitation and the n-body problem"
+    },
+    {
+      "id": "ae-orbital-mechanics-2",
+      "name": "Two-body equations of motion and their integrals"
+    },
+    {
+      "id": "ae-orbital-mechanics-3",
+      "name": "Specific angular momentum and specific energy (vis-viva equation)"
+    },
+    {
+      "id": "ae-orbital-mechanics-4",
+      "name": "Conic sections: circular, elliptical, parabolic and hyperbolic orbits"
+    },
+    {
+      "id": "ae-orbital-mechanics-5",
+      "name": "Kepler's equation and time of flight"
+    },
+    {
+      "id": "ae-orbital-mechanics-6",
+      "name": "Solving Kepler's equation numerically; universal variables"
+    },
+    {
+      "id": "ae-orbital-mechanics-7",
+      "name": "Classical orbital elements"
+    },
+    {
+      "id": "ae-orbital-mechanics-8",
+      "name": "Coordinate systems: ECI, ECEF, perifocal and topocentric frames"
+    },
+    {
+      "id": "ae-orbital-mechanics-9",
+      "name": "Converting between state vectors and orbital elements"
+    },
+    {
+      "id": "ae-orbital-mechanics-10",
+      "name": "Time systems: UTC, TAI, TT, Julian date and sidereal time"
+    },
+    {
+      "id": "ae-orbital-mechanics-11",
+      "name": "Ground tracks"
+    },
+    {
+      "id": "ae-orbital-mechanics-12",
+      "name": "Preliminary orbit determination: Gibbs, Herrick-Gibbs and Gauss methods"
+    },
+    {
+      "id": "ae-orbital-mechanics-13",
+      "name": "Lambert's problem"
+    }
+  ]
+}

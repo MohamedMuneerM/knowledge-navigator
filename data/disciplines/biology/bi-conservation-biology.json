@@ -1,0 +1,57 @@
+{
+  "id": "bi-conservation-biology",
+  "name": "Conservation Biology",
+  "category": "Ecology & Environment",
+  "level": 3,
+  "priority": "important",
+  "summary": "The science of protecting biodiversity: threats, extinction risk, genetics of small populations, protected areas and restoration.",
+  "prerequisites": [
+    "bi-community-ecology",
+    "bi-population-genetics"
+  ],
+  "related": [
+    "ea-sustainability-science"
+  ],
+  "topics": [
+    {
+      "id": "bi-conservation-biology-1",
+      "name": "Biodiversity values and the current extinction crisis"
+    },
+    {
+      "id": "bi-conservation-biology-2",
+      "name": "Threats: habitat loss, fragmentation, overexploitation, invasives, pollution"
+    },
+    {
+      "id": "bi-conservation-biology-3",
+      "name": "Conservation genetics: small populations, inbreeding and genetic rescue"
+    },
+    {
+      "id": "bi-conservation-biology-4",
+      "name": "Extinction risk assessment and the IUCN Red List"
+    },
+    {
+      "id": "bi-conservation-biology-5",
+      "name": "Protected areas and reserve design"
+    },
+    {
+      "id": "bi-conservation-biology-6",
+      "name": "Restoration ecology and rewilding"
+    },
+    {
+      "id": "bi-conservation-biology-7",
+      "name": "Species reintroduction and captive breeding"
+    },
+    {
+      "id": "bi-conservation-biology-8",
+      "name": "Conservation policy and international agreements"
+    },
+    {
+      "id": "bi-conservation-biology-9",
+      "name": "Conservation technology: camera traps, eDNA, telemetry, remote sensing"
+    },
+    {
+      "id": "bi-conservation-biology-10",
+      "name": "Human-wildlife conflict and community-based conservation"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "ae-flight-control-systems",
+  "name": "Automatic Flight Control Systems",
+  "category": "Flight Mechanics & Control",
+  "level": 4,
+  "priority": "important",
+  "summary": "Design of autopilots, stability augmentation and fly-by-wire control laws that make aircraft safe and pleasant to fly.",
+  "prerequisites": [
+    "ae-flight-dynamics",
+    "ae-feedback-control-aerospace"
+  ],
+  "related": [
+    "el-avionics-systems",
+    "el-state-space-digital-control"
+  ],
+  "topics": [
+    {
+      "id": "ae-flight-control-systems-1",
+      "name": "Flight control system architecture: sensors, computers, actuators"
+    },
+    {
+      "id": "ae-flight-control-systems-2",
+      "name": "Stability augmentation: yaw dampers and pitch dampers"
+    },
+    {
+      "id": "ae-flight-control-systems-3",
+      "name": "Control augmentation systems"
+    },
+    {
+      "id": "ae-flight-control-systems-4",
+      "name": "Attitude-hold and altitude-hold autopilots"
+    },
+    {
+      "id": "ae-flight-control-systems-5",
+      "name": "Heading, navigation and approach autopilots; autoland"
+    },
+    {
+      "id": "ae-flight-control-systems-6",
+      "name": "Autothrottle and energy management"
+    },
+    {
+      "id": "ae-flight-control-systems-7",
+      "name": "Fly-by-wire and flight envelope protection"
+    },
+    {
+      "id": "ae-flight-control-systems-8",
+      "name": "Multivariable and robust control (LQR, H-infinity) for aircraft"
+    },
+    {
+      "id": "ae-flight-control-systems-9",
+      "name": "Gain scheduling and nonlinear dynamic inversion"
+    },
+    {
+      "id": "ae-flight-control-systems-10",
+      "name": "Actuator dynamics, rate limits and pilot-induced oscillation"
+    },
+    {
+      "id": "ae-flight-control-systems-11",
+      "name": "Redundancy management in flight control"
+    },
+    {
+      "id": "ae-flight-control-systems-12",
+      "name": "Verification of control laws: piloted simulation and flight test"
+    }
+  ]
+}

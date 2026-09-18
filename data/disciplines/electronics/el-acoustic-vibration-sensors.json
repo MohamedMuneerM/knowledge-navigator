@@ -1,0 +1,40 @@
+{
+  "id": "el-acoustic-vibration-sensors",
+  "name": "Acoustic & Vibration Sensors",
+  "category": "Sensors, Transducers & Actuators",
+  "level": 2,
+  "priority": "advanced",
+  "summary": "Capturing sound and vibration with microphones, ultrasonic transducers, piezo and accelerometer-based sensors.",
+  "prerequisites": [
+    "el-intro-microcontrollers"
+  ],
+  "related": [
+    "ph-acoustics"
+  ],
+  "topics": [
+    {
+      "id": "el-acoustic-vibration-sensors-1",
+      "name": "Microphones (MEMS, electret, dynamic)"
+    },
+    {
+      "id": "el-acoustic-vibration-sensors-2",
+      "name": "Ultrasonic transducers"
+    },
+    {
+      "id": "el-acoustic-vibration-sensors-3",
+      "name": "Piezoelectric vibration sensors"
+    },
+    {
+      "id": "el-acoustic-vibration-sensors-4",
+      "name": "Accelerometers for vibration"
+    },
+    {
+      "id": "el-acoustic-vibration-sensors-5",
+      "name": "Acoustic emission sensors"
+    },
+    {
+      "id": "el-acoustic-vibration-sensors-6",
+      "name": "Sound level meters"
+    }
+  ]
+}

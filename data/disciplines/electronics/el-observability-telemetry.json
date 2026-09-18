@@ -1,0 +1,44 @@
+{
+  "id": "el-observability-telemetry",
+  "name": "Observability & Telemetry",
+  "category": "IoT Architectures, Platforms & Data",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Seeing what deployed devices are doing: metrics, event logs, traces, health reports and telemetry dashboards.",
+  "prerequisites": [
+    "el-device-management"
+  ],
+  "related": [
+    "cs-site-reliability-engineering"
+  ],
+  "topics": [
+    {
+      "id": "el-observability-telemetry-1",
+      "name": "Metrics collection (CPU, memory, temperature)"
+    },
+    {
+      "id": "el-observability-telemetry-2",
+      "name": "Event logging and tracing"
+    },
+    {
+      "id": "el-observability-telemetry-3",
+      "name": "Health status reporting"
+    },
+    {
+      "id": "el-observability-telemetry-4",
+      "name": "Remote diagnostics"
+    },
+    {
+      "id": "el-observability-telemetry-5",
+      "name": "Distributed tracing"
+    },
+    {
+      "id": "el-observability-telemetry-6",
+      "name": "Time-series telemetry"
+    },
+    {
+      "id": "el-observability-telemetry-7",
+      "name": "Dashboard visualization"
+    }
+  ]
+}

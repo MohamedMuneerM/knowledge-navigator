@@ -1,0 +1,42 @@
+{
+  "id": "ma-numerical-methods-for-calculus",
+  "name": "Numerical Methods for Calculus",
+  "category": "Numerical Analysis & Scientific Computing",
+  "level": 2,
+  "priority": "important",
+  "summary": "Numerical differentiation and integration (quadrature), with error estimates and extrapolation.",
+  "prerequisites": [
+    "ma-interpolation-approximation"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-numerical-methods-for-calculus-1",
+      "name": "Numerical differentiation"
+    },
+    {
+      "id": "ma-numerical-methods-for-calculus-2",
+      "name": "Numerical integration (quadrature)"
+    },
+    {
+      "id": "ma-numerical-methods-for-calculus-4",
+      "name": "Newton-Cotes rules and error terms"
+    },
+    {
+      "id": "ma-numerical-methods-for-calculus-5",
+      "name": "Gaussian quadrature"
+    },
+    {
+      "id": "ma-numerical-methods-for-calculus-6",
+      "name": "Adaptive quadrature"
+    },
+    {
+      "id": "ma-numerical-methods-for-calculus-3",
+      "name": "Richardson extrapolation"
+    },
+    {
+      "id": "ma-numerical-methods-for-calculus-7",
+      "name": "Romberg integration"
+    }
+  ]
+}

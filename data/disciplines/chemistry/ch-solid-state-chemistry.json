@@ -1,0 +1,68 @@
+{
+  "id": "ch-solid-state-chemistry",
+  "name": "Solid-State Chemistry",
+  "category": "Polymer, Materials & Solid-State Chemistry",
+  "level": 3,
+  "priority": "important",
+  "summary": "Structure, bonding, defects and electronic, ionic and magnetic properties of crystalline solids, and how they are made.",
+  "prerequisites": [
+    "ch-descriptive-inorganic-chemistry",
+    "ch-quantum-chemistry"
+  ],
+  "related": [
+    "ph-solid-state-physics",
+    "ph-materials-physics",
+    "mt-crystal-structures",
+    "mt-defects"
+  ],
+  "topics": [
+    {
+      "id": "ch-solid-state-chemistry-1",
+      "name": "Crystal structures: close packing, ionic structure types and Pauling's rules"
+    },
+    {
+      "id": "ch-solid-state-chemistry-2",
+      "name": "Lattice energy and structure maps"
+    },
+    {
+      "id": "ch-solid-state-chemistry-3",
+      "name": "Defects and non-stoichiometry; Kröger-Vink notation"
+    },
+    {
+      "id": "ch-solid-state-chemistry-4",
+      "name": "Band theory: free-electron and tight-binding models, band gaps"
+    },
+    {
+      "id": "ch-solid-state-chemistry-5",
+      "name": "Metals, semiconductors and insulators; doping"
+    },
+    {
+      "id": "ch-solid-state-chemistry-6",
+      "name": "Ionic conduction and solid electrolytes"
+    },
+    {
+      "id": "ch-solid-state-chemistry-7",
+      "name": "Magnetic solids: ferro-, ferri- and antiferromagnetism"
+    },
+    {
+      "id": "ch-solid-state-chemistry-8",
+      "name": "Dielectric, ferroelectric and piezoelectric materials"
+    },
+    {
+      "id": "ch-solid-state-chemistry-9",
+      "name": "Superconductors"
+    },
+    {
+      "id": "ch-solid-state-chemistry-10",
+      "name": "Synthesis of solids: ceramic method, sol-gel, hydrothermal, CVD and flux growth"
+    },
+    {
+      "id": "ch-solid-state-chemistry-11",
+      "name": "Phase diagrams and phase transitions in solids"
+    },
+    {
+      "id": "ch-solid-state-chemistry-12",
+      "name": "Characterization of solids: powder XRD, electron microscopy and thermal analysis"
+    }
+  ]
+}

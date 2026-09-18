@@ -1,0 +1,67 @@
+{
+  "id": "mt-superalloys-refractory",
+  "name": "Superalloys & Refractory Metals",
+  "category": "Metals & Alloys",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Studies the nickel-base superalloys and refractory metals that make jet engines and rocket engines possible at temperatures near their melting points.",
+  "prerequisites": [
+    "mt-nonferrous-alloys",
+    "mt-creep"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "mt-superalloys-refractory-1",
+      "name": "Requirements of gas-turbine and rocket-engine hot sections"
+    },
+    {
+      "id": "mt-superalloys-refractory-2",
+      "name": "Ni-base superalloy metallurgy: gamma matrix and gamma-prime precipitates"
+    },
+    {
+      "id": "mt-superalloys-refractory-3",
+      "name": "Strengthening mechanisms: order strengthening, anomalous yield, solid-solution and carbides"
+    },
+    {
+      "id": "mt-superalloys-refractory-4",
+      "name": "Topologically close-packed phases and alloy design (PHACOMP, d-electron methods)"
+    },
+    {
+      "id": "mt-superalloys-refractory-5",
+      "name": "Wrought, cast, directionally solidified and single-crystal superalloys"
+    },
+    {
+      "id": "mt-superalloys-refractory-6",
+      "name": "Investment casting of single-crystal turbine blades; grain selectors and defects"
+    },
+    {
+      "id": "mt-superalloys-refractory-7",
+      "name": "Powder-metallurgy superalloy discs"
+    },
+    {
+      "id": "mt-superalloys-refractory-8",
+      "name": "Co-base and Fe-Ni-base superalloys"
+    },
+    {
+      "id": "mt-superalloys-refractory-9",
+      "name": "Oxidation-resistant coatings: aluminides, MCrAlY bond coats and thermal barrier coatings"
+    },
+    {
+      "id": "mt-superalloys-refractory-10",
+      "name": "Refractory metals: Nb, Mo, Ta, W and Re; their alloys and oxidation problem"
+    },
+    {
+      "id": "mt-superalloys-refractory-11",
+      "name": "Niobium alloys (C-103) for rocket nozzle extensions"
+    },
+    {
+      "id": "mt-superalloys-refractory-12",
+      "name": "Superalloys for oxygen-rich rocket engines and hydrogen environments"
+    },
+    {
+      "id": "mt-superalloys-refractory-13",
+      "name": "Emerging high-temperature alloys: refractory high-entropy alloys, Mo-Si-B, silicides"
+    }
+  ]
+}

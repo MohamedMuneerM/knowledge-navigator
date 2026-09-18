@@ -1,0 +1,65 @@
+{
+  "id": "mt-creep",
+  "name": "Creep & High-Temperature Deformation",
+  "category": "Mechanical Behaviour",
+  "level": 3,
+  "priority": "important",
+  "summary": "Explains time-dependent deformation at high temperature, the mechanisms behind it and how engineers predict creep life of turbine blades and power-plant parts.",
+  "prerequisites": [
+    "mt-plasticity-strengthening",
+    "mt-diffusion"
+  ],
+  "related": [
+    "me-fatigue-fracture-creep"
+  ],
+  "topics": [
+    {
+      "id": "mt-creep-1",
+      "name": "The creep curve: primary, secondary (steady-state) and tertiary creep"
+    },
+    {
+      "id": "mt-creep-2",
+      "name": "Stress and temperature dependence: power-law creep and activation energy"
+    },
+    {
+      "id": "mt-creep-3",
+      "name": "Dislocation creep: climb-controlled and glide-controlled mechanisms"
+    },
+    {
+      "id": "mt-creep-4",
+      "name": "Diffusional creep: Nabarro-Herring and Coble creep"
+    },
+    {
+      "id": "mt-creep-5",
+      "name": "Grain-boundary sliding and superplasticity"
+    },
+    {
+      "id": "mt-creep-6",
+      "name": "Deformation-mechanism (Ashby) maps"
+    },
+    {
+      "id": "mt-creep-7",
+      "name": "Creep fracture: cavitation, creep damage and Monkman-Grant relation"
+    },
+    {
+      "id": "mt-creep-8",
+      "name": "Stress relaxation and its engineering consequences"
+    },
+    {
+      "id": "mt-creep-9",
+      "name": "Larson-Miller and other time-temperature parameters for life prediction"
+    },
+    {
+      "id": "mt-creep-10",
+      "name": "Creep-resistant alloy design: solid solution, precipitates, single crystals and ODS alloys"
+    },
+    {
+      "id": "mt-creep-11",
+      "name": "Creep of ceramics and polymers"
+    },
+    {
+      "id": "mt-creep-12",
+      "name": "Creep-fatigue interaction"
+    }
+  ]
+}

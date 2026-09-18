@@ -1,0 +1,46 @@
+{
+  "id": "ma-convex-optimization",
+  "name": "Convex Optimization",
+  "category": "Optimization & Control Theory",
+  "level": 4,
+  "priority": "important",
+  "summary": "Optimisation problems that can be solved reliably: convex sets and functions, duality, conic and semidefinite programming.",
+  "prerequisites": [
+    "ma-nonlinear-programming",
+    "ma-linear-programming"
+  ],
+  "related": [
+    "ma-convex-analysis",
+    "ai-optimization-theory"
+  ],
+  "topics": [
+    {
+      "id": "ma-convex-optimization-1",
+      "name": "Convex sets and functions"
+    },
+    {
+      "id": "ma-convex-optimization-4",
+      "name": "Convex optimisation problems and standard forms"
+    },
+    {
+      "id": "ma-convex-optimization-5",
+      "name": "Lagrangian duality and KKT for convex problems"
+    },
+    {
+      "id": "ma-convex-optimization-3",
+      "name": "Conic optimization"
+    },
+    {
+      "id": "ma-convex-optimization-2",
+      "name": "Semidefinite programming"
+    },
+    {
+      "id": "ma-convex-optimization-6",
+      "name": "First-order methods: projected and proximal gradient"
+    },
+    {
+      "id": "ma-convex-optimization-7",
+      "name": "Applications in data fitting, control and ML"
+    }
+  ]
+}

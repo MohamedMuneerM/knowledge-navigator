@@ -1,0 +1,72 @@
+{
+  "id": "mt-optical-photonic-materials",
+  "name": "Optical & Photonic Materials",
+  "category": "Electronic, Optical, Magnetic & Thermal Properties",
+  "level": 3,
+  "priority": "important",
+  "summary": "Explains how light interacts with materials and the materials used for lenses, fibres, lasers, LEDs, displays and optical coatings.",
+  "prerequisites": [
+    "mt-electronic-properties",
+    "ph-classical-electromagnetism"
+  ],
+  "related": [
+    "ph-modern-optics",
+    "el-optoelectronic-devices",
+    "el-photonics-silicon-photonics",
+    "ph-nanophotonics-plasmonics"
+  ],
+  "topics": [
+    {
+      "id": "mt-optical-photonic-materials-1",
+      "name": "Electromagnetic radiation and its interaction with solids"
+    },
+    {
+      "id": "mt-optical-photonic-materials-2",
+      "name": "Refraction, reflection, absorption and transmission; the complex refractive index"
+    },
+    {
+      "id": "mt-optical-photonic-materials-3",
+      "name": "Colour in metals, semiconductors, insulators and pigments"
+    },
+    {
+      "id": "mt-optical-photonic-materials-4",
+      "name": "Dispersion and the Lorentz and Drude models of optical response"
+    },
+    {
+      "id": "mt-optical-photonic-materials-5",
+      "name": "Luminescence: photoluminescence, electroluminescence and phosphors"
+    },
+    {
+      "id": "mt-optical-photonic-materials-6",
+      "name": "Semiconductor emitters and detectors: LEDs, laser diodes, photodiodes"
+    },
+    {
+      "id": "mt-optical-photonic-materials-7",
+      "name": "Laser materials: gain media, Nd:YAG, fibre and solid-state lasers"
+    },
+    {
+      "id": "mt-optical-photonic-materials-8",
+      "name": "Optical fibres: glass purity, attenuation, dispersion and doped-fibre amplifiers"
+    },
+    {
+      "id": "mt-optical-photonic-materials-9",
+      "name": "Optical and anti-reflection coatings; thin-film interference"
+    },
+    {
+      "id": "mt-optical-photonic-materials-10",
+      "name": "Transparent conductors (ITO) and transparent ceramics"
+    },
+    {
+      "id": "mt-optical-photonic-materials-11",
+      "name": "Electro-optic, acousto-optic and nonlinear optical materials"
+    },
+    {
+      "id": "mt-optical-photonic-materials-12",
+      "name": "Photonic crystals and plasmonic materials"
+    },
+    {
+      "id": "mt-optical-photonic-materials-13",
+      "name": "Infrared and optical window materials for sensors and spacecraft"
+    }
+  ]
+}

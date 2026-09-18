@@ -1,0 +1,49 @@
+{
+  "id": "el-computational-electromagnetics",
+  "name": "Computational Electromagnetics",
+  "category": "Electromagnetics, RF & Microwave",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Numerical methods (FDTD, FEM, method of moments) used to simulate antennas, circuits and EMC problems.",
+  "prerequisites": [
+    "el-electromagnetic-waves",
+    "ma-numerical-solutions-of-pdes"
+  ],
+  "related": [
+    "ph-computational-physics"
+  ],
+  "topics": [
+    {
+      "id": "el-computational-electromagnetics-1",
+      "name": "Why numerical EM: problem classes and method selection"
+    },
+    {
+      "id": "el-computational-electromagnetics-2",
+      "name": "Finite-difference time-domain (FDTD) method"
+    },
+    {
+      "id": "el-computational-electromagnetics-3",
+      "name": "Finite element method (FEM) for electromagnetics"
+    },
+    {
+      "id": "el-computational-electromagnetics-4",
+      "name": "Method of moments (MoM) and integral equations"
+    },
+    {
+      "id": "el-computational-electromagnetics-5",
+      "name": "Absorbing boundaries and perfectly matched layers"
+    },
+    {
+      "id": "el-computational-electromagnetics-6",
+      "name": "Meshing, convergence and validation"
+    },
+    {
+      "id": "el-computational-electromagnetics-7",
+      "name": "Commercial and open tools (HFSS, CST, Sonnet, openEMS)"
+    },
+    {
+      "id": "el-computational-electromagnetics-8",
+      "name": "Applications: antennas, signal integrity and EMC simulation"
+    }
+  ]
+}

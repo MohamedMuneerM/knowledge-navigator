@@ -1,0 +1,43 @@
+{
+  "id": "ma-modular-forms",
+  "name": "Modular Forms",
+  "category": "Number Theory",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Highly symmetric complex functions (modular and automorphic forms, Hecke operators) at the heart of modern number theory.",
+  "prerequisites": [
+    "ma-elliptic-curves",
+    "ma-complex-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-modular-forms-4",
+      "name": "The modular group and fundamental domain"
+    },
+    {
+      "id": "ma-modular-forms-1",
+      "name": "Modular functions"
+    },
+    {
+      "id": "ma-modular-forms-5",
+      "name": "Eisenstein series and the j-invariant"
+    },
+    {
+      "id": "ma-modular-forms-3",
+      "name": "Hecke operators"
+    },
+    {
+      "id": "ma-modular-forms-6",
+      "name": "L-functions of modular forms"
+    },
+    {
+      "id": "ma-modular-forms-2",
+      "name": "Automorphic forms"
+    },
+    {
+      "id": "ma-modular-forms-7",
+      "name": "Modularity and Fermat's Last Theorem (overview)"
+    }
+  ]
+}

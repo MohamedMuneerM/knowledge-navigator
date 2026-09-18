@@ -1,0 +1,52 @@
+{
+  "id": "ma-non-euclidean-geometry",
+  "name": "Non-Euclidean Geometry",
+  "category": "Geometry",
+  "level": 2,
+  "priority": "important",
+  "summary": "Geometries where the parallel postulate fails (spherical, hyperbolic and elliptic), approached through models and transformation groups.",
+  "prerequisites": [
+    "ma-linear-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-non-euclidean-geometry-4",
+      "name": "The parallel postulate and its history"
+    },
+    {
+      "id": "ma-non-euclidean-geometry-5",
+      "name": "Isometries and transformation groups of the plane"
+    },
+    {
+      "id": "ma-non-euclidean-geometry-3",
+      "name": "Spherical geometry"
+    },
+    {
+      "id": "ma-non-euclidean-geometry-1",
+      "name": "Hyperbolic geometry",
+      "sub": [
+        {
+          "id": "ma-non-euclidean-geometry-1-1",
+          "name": "Poincare disc and upper half-plane models"
+        },
+        {
+          "id": "ma-non-euclidean-geometry-1-2",
+          "name": "Hyperbolic triangles and area"
+        }
+      ]
+    },
+    {
+      "id": "ma-non-euclidean-geometry-6",
+      "name": "Moebius transformations"
+    },
+    {
+      "id": "ma-non-euclidean-geometry-2",
+      "name": "Elliptic geometry"
+    },
+    {
+      "id": "ma-non-euclidean-geometry-7",
+      "name": "Klein's Erlangen programme"
+    }
+  ]
+}

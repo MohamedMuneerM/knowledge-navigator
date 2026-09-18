@@ -1,0 +1,35 @@
+{
+  "id": "ma-arithmetic-geometry",
+  "name": "Arithmetic Geometry",
+  "category": "Emerging & Advanced Areas",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Algebraic geometry over number fields: rational points, heights and Diophantine geometry.",
+  "prerequisites": [
+    "ma-algebraic-geometry",
+    "ma-algebraic-number-theory"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-arithmetic-geometry-2",
+      "name": "Rational points"
+    },
+    {
+      "id": "ma-arithmetic-geometry-3",
+      "name": "Heights"
+    },
+    {
+      "id": "ma-arithmetic-geometry-1",
+      "name": "Diophantine geometry"
+    },
+    {
+      "id": "ma-arithmetic-geometry-4",
+      "name": "Faltings' theorem (overview)"
+    },
+    {
+      "id": "ma-arithmetic-geometry-5",
+      "name": "The Langlands programme (overview)"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "ma-mathematical-chemistry",
+  "name": "Mathematical Chemistry",
+  "category": "Applied & Interdisciplinary Mathematics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Mathematics for chemistry: reaction kinetics and networks, molecular modelling and quantum-chemistry methods.",
+  "prerequisites": [
+    "ma-dynamical-systems",
+    "ma-quantum-mechanics",
+    "ch-chemical-kinetics-intro"
+  ],
+  "related": [
+    "ph-chemical-physics-physical-chemistry",
+    "ch-quantum-chemistry",
+    "ch-chemical-kinetics",
+    "ch-cheminformatics-ml"
+  ],
+  "topics": [
+    {
+      "id": "ma-mathematical-chemistry-4",
+      "name": "Chemical kinetics"
+    },
+    {
+      "id": "ma-mathematical-chemistry-2",
+      "name": "Chemical reaction networks"
+    },
+    {
+      "id": "ma-mathematical-chemistry-5",
+      "name": "Chemical graph theory"
+    },
+    {
+      "id": "ma-mathematical-chemistry-1",
+      "name": "Molecular modeling"
+    },
+    {
+      "id": "ma-mathematical-chemistry-3",
+      "name": "Quantum chemistry mathematics"
+    },
+    {
+      "id": "ma-mathematical-chemistry-6",
+      "name": "Symmetry groups in chemistry"
+    }
+  ]
+}

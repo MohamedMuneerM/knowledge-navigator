@@ -1,0 +1,35 @@
+{
+  "id": "ma-extremal-combinatorics",
+  "name": "Extremal Combinatorics",
+  "category": "Combinatorics & Discrete Mathematics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How large or small a structure can be while avoiding a pattern: Turan-type problems, Sperner families and intersecting families.",
+  "prerequisites": [
+    "ma-graph-theory",
+    "ma-enumerative-combinatorics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-extremal-combinatorics-3",
+      "name": "Mantel's and Turan's theorems"
+    },
+    {
+      "id": "ma-extremal-combinatorics-1",
+      "name": "Turán problems"
+    },
+    {
+      "id": "ma-extremal-combinatorics-2",
+      "name": "Sperner theory"
+    },
+    {
+      "id": "ma-extremal-combinatorics-4",
+      "name": "Intersecting families and Erdos-Ko-Rado"
+    },
+    {
+      "id": "ma-extremal-combinatorics-5",
+      "name": "Szemeredi's regularity lemma"
+    }
+  ]
+}

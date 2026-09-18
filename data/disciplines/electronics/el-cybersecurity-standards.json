@@ -1,0 +1,45 @@
+{
+  "id": "el-cybersecurity-standards",
+  "name": "Cybersecurity Standards",
+  "category": "Standards, Compliance & Certifications",
+  "level": 3,
+  "priority": "important",
+  "summary": "Security standards for products and organizations: NIST CSF, ISO 27001, IEC 62443, ISO/SAE 21434, Common Criteria and FIPS 140.",
+  "prerequisites": [
+    "el-threat-mitigation"
+  ],
+  "related": [
+    "el-compliance-regulations",
+    "cs-security-governance-privacy"
+  ],
+  "topics": [
+    {
+      "id": "el-cybersecurity-standards-1",
+      "name": "NIST Cybersecurity Framework"
+    },
+    {
+      "id": "el-cybersecurity-standards-2",
+      "name": "ISO/IEC 27001 (Information Security)"
+    },
+    {
+      "id": "el-cybersecurity-standards-3",
+      "name": "IEC 62443 (Industrial Automation Security)"
+    },
+    {
+      "id": "el-cybersecurity-standards-4",
+      "name": "ISO/SAE 21434 (Automotive Cybersecurity)"
+    },
+    {
+      "id": "el-cybersecurity-standards-5",
+      "name": "OWASP IoT Top 10"
+    },
+    {
+      "id": "el-cybersecurity-standards-6",
+      "name": "Common Criteria (CC)"
+    },
+    {
+      "id": "el-cybersecurity-standards-7",
+      "name": "FIPS 140-2/3 (Cryptographic Modules)"
+    }
+  ]
+}

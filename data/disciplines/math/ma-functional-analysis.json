@@ -1,0 +1,74 @@
+{
+  "id": "ma-functional-analysis",
+  "name": "Functional Analysis",
+  "category": "Analysis",
+  "level": 4,
+  "priority": "important",
+  "summary": "Linear algebra in infinite dimensions: Banach and Hilbert spaces, bounded operators and spectral theory, the language of PDEs and quantum mechanics.",
+  "prerequisites": [
+    "ma-measure-theory-integration",
+    "ma-general-topology",
+    "ma-linear-algebra"
+  ],
+  "related": [
+    "ph-mathematical-physics"
+  ],
+  "topics": [
+    {
+      "id": "ma-functional-analysis-1",
+      "name": "Normed spaces"
+    },
+    {
+      "id": "ma-functional-analysis-2",
+      "name": "Banach spaces"
+    },
+    {
+      "id": "ma-functional-analysis-8",
+      "name": "Bounded linear operators and dual spaces"
+    },
+    {
+      "id": "ma-functional-analysis-9",
+      "name": "Hahn-Banach theorem"
+    },
+    {
+      "id": "ma-functional-analysis-10",
+      "name": "Baire category, uniform boundedness, open mapping and closed graph theorems"
+    },
+    {
+      "id": "ma-functional-analysis-3",
+      "name": "Hilbert spaces"
+    },
+    {
+      "id": "ma-functional-analysis-11",
+      "name": "Orthonormal bases and the Riesz representation theorem"
+    },
+    {
+      "id": "ma-functional-analysis-12",
+      "name": "Weak and weak-* topologies"
+    },
+    {
+      "id": "ma-functional-analysis-4",
+      "name": "Linear operators"
+    },
+    {
+      "id": "ma-functional-analysis-13",
+      "name": "Compact operators"
+    },
+    {
+      "id": "ma-functional-analysis-6",
+      "name": "Spectral theory"
+    },
+    {
+      "id": "ma-functional-analysis-5",
+      "name": "Operator algebras"
+    },
+    {
+      "id": "ma-functional-analysis-7",
+      "name": "Distribution theory"
+    },
+    {
+      "id": "ma-functional-analysis-14",
+      "name": "Sobolev spaces (introduction)"
+    }
+  ]
+}

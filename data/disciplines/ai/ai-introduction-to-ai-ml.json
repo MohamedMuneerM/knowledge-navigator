@@ -1,0 +1,60 @@
+{
+  "id": "ai-introduction-to-ai-ml",
+  "name": "Introduction to AI & Machine Learning",
+  "category": "Getting Started",
+  "level": 1,
+  "priority": "core",
+  "summary": "A gentle first tour of what AI and machine learning are, how machines learn from data, and where AI is used today, assuming only high-school maths.",
+  "prerequisites": [],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-introduction-to-ai-ml-1",
+      "name": "What is artificial intelligence? Definitions and everyday examples"
+    },
+    {
+      "id": "ai-introduction-to-ai-ml-2",
+      "name": "A short history: from Turing and Dartmouth to deep learning and ChatGPT"
+    },
+    {
+      "id": "ai-introduction-to-ai-ml-3",
+      "name": "How machines learn: data, features, models and predictions"
+    },
+    {
+      "id": "ai-introduction-to-ai-ml-4",
+      "name": "Supervised, unsupervised and reinforcement learning in plain terms"
+    },
+    {
+      "id": "ai-introduction-to-ai-ml-5",
+      "name": "A first model by hand: fitting a line and drawing a decision boundary"
+    },
+    {
+      "id": "ai-introduction-to-ai-ml-6",
+      "name": "Training, testing and why models make mistakes (overfitting in pictures)"
+    },
+    {
+      "id": "ai-introduction-to-ai-ml-7",
+      "name": "Neural networks and deep learning, intuitively"
+    },
+    {
+      "id": "ai-introduction-to-ai-ml-8",
+      "name": "Generative AI and chatbots: what large language models do"
+    },
+    {
+      "id": "ai-introduction-to-ai-ml-9",
+      "name": "Robots and embodied AI: sense, think, act"
+    },
+    {
+      "id": "ai-introduction-to-ai-ml-10",
+      "name": "Hands-on without code: Teachable Machine, notebooks and chat assistants"
+    },
+    {
+      "id": "ai-introduction-to-ai-ml-11",
+      "name": "Limits, bias and societal impact of AI"
+    },
+    {
+      "id": "ai-introduction-to-ai-ml-12",
+      "name": "Careers and learning paths in AI, ML and robotics"
+    }
+  ]
+}

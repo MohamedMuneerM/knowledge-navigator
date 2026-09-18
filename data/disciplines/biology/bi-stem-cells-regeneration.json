@@ -1,0 +1,56 @@
+{
+  "id": "bi-stem-cells-regeneration",
+  "name": "Stem Cells, Regeneration & Tissue Engineering",
+  "category": "Developmental Biology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How stem cells maintain and repair tissues, why some animals regenerate whole limbs, and how cells are engineered into replacement tissues.",
+  "prerequisites": [
+    "bi-developmental-biology"
+  ],
+  "related": [
+    "mt-biomaterials"
+  ],
+  "topics": [
+    {
+      "id": "bi-stem-cells-regeneration-1",
+      "name": "Stem cell properties: self-renewal, potency and niches"
+    },
+    {
+      "id": "bi-stem-cells-regeneration-2",
+      "name": "Embryonic stem cells"
+    },
+    {
+      "id": "bi-stem-cells-regeneration-3",
+      "name": "Adult stem cells: haematopoietic, intestinal, muscle and neural"
+    },
+    {
+      "id": "bi-stem-cells-regeneration-4",
+      "name": "Induced pluripotent stem cells and reprogramming"
+    },
+    {
+      "id": "bi-stem-cells-regeneration-5",
+      "name": "Regeneration in planaria, salamanders and zebrafish"
+    },
+    {
+      "id": "bi-stem-cells-regeneration-6",
+      "name": "Why mammals regenerate poorly"
+    },
+    {
+      "id": "bi-stem-cells-regeneration-7",
+      "name": "Organoids and embryo models"
+    },
+    {
+      "id": "bi-stem-cells-regeneration-8",
+      "name": "Tissue engineering: scaffolds, biomaterials and bioreactors"
+    },
+    {
+      "id": "bi-stem-cells-regeneration-9",
+      "name": "3D bioprinting"
+    },
+    {
+      "id": "bi-stem-cells-regeneration-10",
+      "name": "Stem cell therapies: successes, risks and regulation"
+    }
+  ]
+}

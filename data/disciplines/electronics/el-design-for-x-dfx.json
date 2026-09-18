@@ -1,0 +1,49 @@
+{
+  "id": "el-design-for-x-dfx",
+  "name": "Design for X (DFX)",
+  "category": "Professional Practice, Business & Community",
+  "level": 3,
+  "priority": "important",
+  "summary": "Designing for the whole lifecycle: manufacturing, assembly, test, reliability and sustainability.",
+  "prerequisites": [
+    "el-design-for-manufacturing-dfm"
+  ],
+  "related": [
+    "el-design-for-assembly-dfa",
+    "me-design-for-manufacture-assembly"
+  ],
+  "topics": [
+    {
+      "id": "el-design-for-x-dfx-1",
+      "name": "Design for Manufacturing (DFM)"
+    },
+    {
+      "id": "el-design-for-x-dfx-2",
+      "name": "Design for Assembly (DFA)"
+    },
+    {
+      "id": "el-design-for-x-dfx-3",
+      "name": "Design for Test (DFT)"
+    },
+    {
+      "id": "el-design-for-x-dfx-4",
+      "name": "Design for Reliability (DFR)"
+    },
+    {
+      "id": "el-design-for-x-dfx-5",
+      "name": "Design for Sustainability"
+    },
+    {
+      "id": "el-design-for-x-dfx-6",
+      "name": "Design for serviceability and repair"
+    },
+    {
+      "id": "el-design-for-x-dfx-7",
+      "name": "Design for cost"
+    },
+    {
+      "id": "el-design-for-x-dfx-8",
+      "name": "DFX reviews and checklists"
+    }
+  ]
+}

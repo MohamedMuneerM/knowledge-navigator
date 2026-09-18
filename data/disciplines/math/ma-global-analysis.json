@@ -1,0 +1,35 @@
+{
+  "id": "ma-global-analysis",
+  "name": "Global Analysis",
+  "category": "Analysis",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Analysis on manifolds as a whole: Morse theory, elliptic operators and index theorems.",
+  "prerequisites": [
+    "ma-differential-topology",
+    "ma-functional-analysis"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-global-analysis-1",
+      "name": "Analysis on manifolds"
+    },
+    {
+      "id": "ma-global-analysis-4",
+      "name": "Hodge theory"
+    },
+    {
+      "id": "ma-global-analysis-2",
+      "name": "Morse theory"
+    },
+    {
+      "id": "ma-global-analysis-5",
+      "name": "Elliptic operators on manifolds"
+    },
+    {
+      "id": "ma-global-analysis-3",
+      "name": "Index theory"
+    }
+  ]
+}

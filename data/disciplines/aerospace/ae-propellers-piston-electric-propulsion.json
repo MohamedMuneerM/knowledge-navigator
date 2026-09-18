@@ -1,0 +1,59 @@
+{
+  "id": "ae-propellers-piston-electric-propulsion",
+  "name": "Propellers, Piston and Electric Aircraft Propulsion",
+  "category": "Air-Breathing Propulsion & Combustion",
+  "level": 3,
+  "priority": "important",
+  "summary": "Propeller aerodynamics and the reciprocating and electric powerplants used on general aviation aircraft, drones and eVTOLs.",
+  "prerequisites": [
+    "ae-incompressible-aerodynamics",
+    "ae-aerospace-thermodynamics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-propellers-piston-electric-propulsion-1",
+      "name": "Actuator disk (momentum) theory for propellers"
+    },
+    {
+      "id": "ae-propellers-piston-electric-propulsion-2",
+      "name": "Blade element theory for propellers"
+    },
+    {
+      "id": "ae-propellers-piston-electric-propulsion-3",
+      "name": "Propeller efficiency, advance ratio and propeller charts"
+    },
+    {
+      "id": "ae-propellers-piston-electric-propulsion-4",
+      "name": "Fixed-pitch, variable-pitch and constant-speed propellers"
+    },
+    {
+      "id": "ae-propellers-piston-electric-propulsion-5",
+      "name": "Reciprocating aircraft engines: cycles, power and altitude effects"
+    },
+    {
+      "id": "ae-propellers-piston-electric-propulsion-6",
+      "name": "Turbocharging and supercharging"
+    },
+    {
+      "id": "ae-propellers-piston-electric-propulsion-7",
+      "name": "Electric motors for aircraft: brushless DC motors and motor constants"
+    },
+    {
+      "id": "ae-propellers-piston-electric-propulsion-8",
+      "name": "Motor controllers, batteries and power electronics"
+    },
+    {
+      "id": "ae-propellers-piston-electric-propulsion-9",
+      "name": "Hybrid-electric and turboelectric propulsion"
+    },
+    {
+      "id": "ae-propellers-piston-electric-propulsion-10",
+      "name": "Ducted fans and open rotors"
+    },
+    {
+      "id": "ae-propellers-piston-electric-propulsion-11",
+      "name": "Propeller noise"
+    }
+  ]
+}

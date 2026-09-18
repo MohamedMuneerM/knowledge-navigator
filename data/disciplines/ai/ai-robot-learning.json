@@ -1,0 +1,55 @@
+{
+  "id": "ai-robot-learning",
+  "name": "Robot Learning",
+  "category": "Manipulation & Robot Learning",
+  "level": 4,
+  "priority": "important",
+  "summary": "Teaching robots skills from data: learning from demonstration, RL for robotics, sim-to-real transfer, diffusion policies and robot foundation models.",
+  "prerequisites": [
+    "ai-manipulation",
+    "ai-deep-reinforcement-learning"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-robot-learning-1",
+      "name": "Learning from Demonstration"
+    },
+    {
+      "id": "ai-robot-learning-2",
+      "name": "Reinforcement Learning for Robotics"
+    },
+    {
+      "id": "ai-robot-learning-3",
+      "name": "Sim-to-Real Transfer"
+    },
+    {
+      "id": "ai-robot-learning-4",
+      "name": "Foundation Models for Robotics"
+    },
+    {
+      "id": "ai-robot-learning-5",
+      "name": "Robot Skill Learning"
+    },
+    {
+      "id": "ai-robot-learning-6",
+      "name": "Manipulation Policies"
+    },
+    {
+      "id": "ai-robot-learning-7",
+      "name": "Diffusion policies"
+    },
+    {
+      "id": "ai-robot-learning-8",
+      "name": "Domain randomization"
+    },
+    {
+      "id": "ai-robot-learning-9",
+      "name": "Robot datasets and teleoperation data collection (Open X-Embodiment)"
+    },
+    {
+      "id": "ai-robot-learning-10",
+      "name": "Vision-language-action (VLA) models"
+    }
+  ]
+}

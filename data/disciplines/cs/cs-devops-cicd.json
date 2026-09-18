@@ -1,0 +1,65 @@
+{
+  "id": "cs-devops-cicd",
+  "name": "DevOps, CI/CD & Infrastructure as Code",
+  "category": "Cloud Computing & DevOps",
+  "level": 3,
+  "priority": "important",
+  "summary": "Automating how software is built, tested, deployed and configured, and the culture and metrics of fast, safe delivery.",
+  "prerequisites": [
+    "cs-virtualization-containers",
+    "cs-software-testing",
+    "cs-cloud-computing"
+  ],
+  "related": [
+    "el-continuous-integration-continuous-deployment-cicd",
+    "el-configuration-management",
+    "el-agile-devops-for-embedded",
+    "ai-ml-lifecycle-management"
+  ],
+  "topics": [
+    {
+      "id": "cs-devops-cicd-1",
+      "name": "DevOps culture and principles"
+    },
+    {
+      "id": "cs-devops-cicd-2",
+      "name": "Continuous integration pipelines"
+    },
+    {
+      "id": "cs-devops-cicd-3",
+      "name": "Build automation and artifact management"
+    },
+    {
+      "id": "cs-devops-cicd-4",
+      "name": "Deployment strategies: blue-green, canary and rolling"
+    },
+    {
+      "id": "cs-devops-cicd-5",
+      "name": "Infrastructure as code: Terraform and CloudFormation"
+    },
+    {
+      "id": "cs-devops-cicd-6",
+      "name": "Configuration management and immutable infrastructure"
+    },
+    {
+      "id": "cs-devops-cicd-7",
+      "name": "Kubernetes deployments, Helm and GitOps"
+    },
+    {
+      "id": "cs-devops-cicd-8",
+      "name": "Secrets management"
+    },
+    {
+      "id": "cs-devops-cicd-9",
+      "name": "DevSecOps: security scanning and software supply-chain security"
+    },
+    {
+      "id": "cs-devops-cicd-10",
+      "name": "Feature flags and trunk-based development"
+    },
+    {
+      "id": "cs-devops-cicd-11",
+      "name": "Measuring delivery performance (DORA metrics)"
+    }
+  ]
+}

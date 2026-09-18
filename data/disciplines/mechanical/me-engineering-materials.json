@@ -1,0 +1,92 @@
+{
+  "id": "me-engineering-materials",
+  "name": "Engineering Materials for Mechanical Engineers",
+  "category": "Engineering Materials",
+  "level": 2,
+  "priority": "core",
+  "summary": "How the structure of metals, polymers, ceramics and composites determines their properties, and how processing and heat treatment change them.",
+  "prerequisites": [
+    "me-introduction-to-engineering-mechanical-design",
+    "ch-introductory-chemistry",
+    "mt-intro-to-materials"
+  ],
+  "related": [
+    "ph-materials-physics",
+    "mt-atomic-bonding",
+    "mt-crystal-structures",
+    "mt-phase-diagrams",
+    "mt-mechanical-properties"
+  ],
+  "topics": [
+    {
+      "id": "me-engineering-materials-1",
+      "name": "Material classes and property overview (mechanical, thermal, electrical, chemical)"
+    },
+    {
+      "id": "me-engineering-materials-2",
+      "name": "Atomic bonding and crystal structures (BCC, FCC, HCP)"
+    },
+    {
+      "id": "me-engineering-materials-3",
+      "name": "Crystal defects, dislocations and strengthening mechanisms"
+    },
+    {
+      "id": "me-engineering-materials-4",
+      "name": "Mechanical testing",
+      "sub": [
+        {
+          "id": "me-engineering-materials-4-1",
+          "name": "Tensile test and stress-strain diagrams"
+        },
+        {
+          "id": "me-engineering-materials-4-2",
+          "name": "Hardness tests"
+        },
+        {
+          "id": "me-engineering-materials-4-3",
+          "name": "Impact (Charpy) testing"
+        }
+      ]
+    },
+    {
+      "id": "me-engineering-materials-5",
+      "name": "Phase diagrams and the iron-carbon system"
+    },
+    {
+      "id": "me-engineering-materials-6",
+      "name": "Phase transformations, TTT/CCT diagrams and heat treatment (annealing, quenching, tempering, case hardening)"
+    },
+    {
+      "id": "me-engineering-materials-7",
+      "name": "Steels and cast irons: classification and designations (AISI/SAE, UNS)"
+    },
+    {
+      "id": "me-engineering-materials-8",
+      "name": "Nonferrous alloys: aluminium, titanium, magnesium, copper and nickel alloys"
+    },
+    {
+      "id": "me-engineering-materials-9",
+      "name": "Polymers and elastomers: thermoplastics vs thermosets, viscoelastic behaviour"
+    },
+    {
+      "id": "me-engineering-materials-10",
+      "name": "Ceramics and glasses"
+    },
+    {
+      "id": "me-engineering-materials-11",
+      "name": "Composite materials: fibres, matrices and rule of mixtures"
+    },
+    {
+      "id": "me-engineering-materials-12",
+      "name": "Corrosion mechanisms and control (galvanic, pitting, stress corrosion, coatings, cathodic protection)"
+    },
+    {
+      "id": "me-engineering-materials-13",
+      "name": "Overview of failure mechanisms: ductile and brittle fracture, fatigue, creep, wear"
+    },
+    {
+      "id": "me-engineering-materials-14",
+      "name": "Material data sources and standards"
+    }
+  ]
+}

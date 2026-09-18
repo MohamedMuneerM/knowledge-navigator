@@ -1,0 +1,66 @@
+{
+  "id": "bi-evolutionary-biology",
+  "name": "Evolutionary Biology",
+  "category": "Evolution",
+  "level": 2,
+  "priority": "core",
+  "summary": "The unifying theory of biology: the evidence for evolution, the mechanisms that drive it and how new species arise.",
+  "prerequisites": [
+    "bi-genetics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-evolutionary-biology-1",
+      "name": "History of evolutionary thought: Lamarck, Darwin, Wallace and the Modern Synthesis"
+    },
+    {
+      "id": "bi-evolutionary-biology-2",
+      "name": "Evidence for evolution: fossils, homology, biogeography, molecular data and direct observation"
+    },
+    {
+      "id": "bi-evolutionary-biology-3",
+      "name": "Variation and its sources: mutation, recombination and gene flow"
+    },
+    {
+      "id": "bi-evolutionary-biology-4",
+      "name": "Natural selection: directional, stabilising, disruptive and balancing"
+    },
+    {
+      "id": "bi-evolutionary-biology-5",
+      "name": "Adaptation, constraints and trade-offs"
+    },
+    {
+      "id": "bi-evolutionary-biology-6",
+      "name": "Sexual selection"
+    },
+    {
+      "id": "bi-evolutionary-biology-7",
+      "name": "Genetic drift and neutral evolution (introductory)"
+    },
+    {
+      "id": "bi-evolutionary-biology-8",
+      "name": "Species concepts and reproductive isolation"
+    },
+    {
+      "id": "bi-evolutionary-biology-9",
+      "name": "Speciation: allopatric, sympatric and via polyploidy"
+    },
+    {
+      "id": "bi-evolutionary-biology-10",
+      "name": "Reading phylogenetic trees"
+    },
+    {
+      "id": "bi-evolutionary-biology-11",
+      "name": "Coevolution: predators, parasites and mutualists"
+    },
+    {
+      "id": "bi-evolutionary-biology-12",
+      "name": "Evolution of cooperation: kin selection and reciprocal altruism"
+    },
+    {
+      "id": "bi-evolutionary-biology-13",
+      "name": "Evolutionary medicine and antibiotic resistance as evolution in action"
+    }
+  ]
+}

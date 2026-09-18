@@ -1,0 +1,64 @@
+{
+  "id": "ma-group-theory",
+  "name": "Group Theory",
+  "category": "Algebra",
+  "level": 3,
+  "priority": "important",
+  "summary": "Deeper group theory: group actions, Sylow theorems, solvable and simple groups, permutation groups and presentations.",
+  "prerequisites": [
+    "ma-abstract-algebra"
+  ],
+  "related": [
+    "ch-symmetry-group-theory"
+  ],
+  "topics": [
+    {
+      "id": "ma-group-theory-2",
+      "name": "Permutation groups"
+    },
+    {
+      "id": "ma-group-theory-3",
+      "name": "Group actions"
+    },
+    {
+      "id": "ma-group-theory-8",
+      "name": "Orbit-stabiliser theorem and class equation"
+    },
+    {
+      "id": "ma-group-theory-4",
+      "name": "Sylow theorems"
+    },
+    {
+      "id": "ma-group-theory-1",
+      "name": "Finite groups"
+    },
+    {
+      "id": "ma-group-theory-9",
+      "name": "Direct and semidirect products"
+    },
+    {
+      "id": "ma-group-theory-10",
+      "name": "Finitely generated abelian groups"
+    },
+    {
+      "id": "ma-group-theory-11",
+      "name": "Solvable, nilpotent and simple groups; composition series"
+    },
+    {
+      "id": "ma-group-theory-12",
+      "name": "Free groups and group presentations"
+    },
+    {
+      "id": "ma-group-theory-5",
+      "name": "Representation theory"
+    },
+    {
+      "id": "ma-group-theory-6",
+      "name": "Character theory"
+    },
+    {
+      "id": "ma-group-theory-7",
+      "name": "Geometric group theory"
+    }
+  ]
+}

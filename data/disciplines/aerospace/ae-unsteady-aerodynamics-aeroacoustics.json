@@ -1,0 +1,64 @@
+{
+  "id": "ae-unsteady-aerodynamics-aeroacoustics",
+  "name": "Unsteady Aerodynamics and Aeroacoustics",
+  "category": "Aerodynamics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Time-dependent aerodynamic loads and the generation of noise by flows, needed for aeroelasticity, rotors, gust response and noise certification.",
+  "prerequisites": [
+    "ae-applied-aerodynamics-flight-vehicles"
+  ],
+  "related": [
+    "me-acoustics-noise-control"
+  ],
+  "topics": [
+    {
+      "id": "ae-unsteady-aerodynamics-aeroacoustics-1",
+      "name": "Unsteady thin airfoil theory and apparent mass"
+    },
+    {
+      "id": "ae-unsteady-aerodynamics-aeroacoustics-2",
+      "name": "Theodorsen's function and Wagner and Kussner functions"
+    },
+    {
+      "id": "ae-unsteady-aerodynamics-aeroacoustics-3",
+      "name": "Gust response and gust load alleviation"
+    },
+    {
+      "id": "ae-unsteady-aerodynamics-aeroacoustics-4",
+      "name": "Dynamic stall"
+    },
+    {
+      "id": "ae-unsteady-aerodynamics-aeroacoustics-5",
+      "name": "Vortex shedding and bluff-body aerodynamics"
+    },
+    {
+      "id": "ae-unsteady-aerodynamics-aeroacoustics-6",
+      "name": "Unsteady panel and vortex-lattice methods"
+    },
+    {
+      "id": "ae-unsteady-aerodynamics-aeroacoustics-7",
+      "name": "Acoustics fundamentals: wave equation, decibels, spectra"
+    },
+    {
+      "id": "ae-unsteady-aerodynamics-aeroacoustics-8",
+      "name": "Lighthill's acoustic analogy and Ffowcs Williams-Hawkings equation"
+    },
+    {
+      "id": "ae-unsteady-aerodynamics-aeroacoustics-9",
+      "name": "Jet noise, fan noise and airframe noise"
+    },
+    {
+      "id": "ae-unsteady-aerodynamics-aeroacoustics-10",
+      "name": "Sonic boom and its mitigation"
+    },
+    {
+      "id": "ae-unsteady-aerodynamics-aeroacoustics-11",
+      "name": "Launch vehicle acoustic environment and liftoff noise suppression"
+    },
+    {
+      "id": "ae-unsteady-aerodynamics-aeroacoustics-12",
+      "name": "Aircraft noise certification"
+    }
+  ]
+}

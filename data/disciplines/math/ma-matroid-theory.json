@@ -1,0 +1,39 @@
+{
+  "id": "ma-matroid-theory",
+  "name": "Matroid Theory",
+  "category": "Combinatorics & Discrete Mathematics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Matroids abstract the idea of independence from linear algebra and graphs, and explain when greedy algorithms work.",
+  "prerequisites": [
+    "ma-graph-theory",
+    "ma-linear-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-matroid-theory-1",
+      "name": "Independent sets"
+    },
+    {
+      "id": "ma-matroid-theory-3",
+      "name": "Bases, circuits and rank"
+    },
+    {
+      "id": "ma-matroid-theory-4",
+      "name": "Graphic and linear matroids"
+    },
+    {
+      "id": "ma-matroid-theory-5",
+      "name": "Greedy algorithm and matroids"
+    },
+    {
+      "id": "ma-matroid-theory-2",
+      "name": "Matroid duality"
+    },
+    {
+      "id": "ma-matroid-theory-6",
+      "name": "Matroid intersection and union"
+    }
+  ]
+}

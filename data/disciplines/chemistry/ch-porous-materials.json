@@ -1,0 +1,47 @@
+{
+  "id": "ch-porous-materials",
+  "name": "Porous Framework Materials: Zeolites, MOFs & COFs",
+  "category": "Polymer, Materials & Solid-State Chemistry",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Designed porous solids for gas storage, separation, catalysis and sensing.",
+  "prerequisites": [
+    "ch-coordination-chemistry",
+    "ch-solid-state-chemistry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-porous-materials-1",
+      "name": "Porosity concepts and gas-adsorption characterization (BET)"
+    },
+    {
+      "id": "ch-porous-materials-2",
+      "name": "Zeolites: structure, synthesis and catalysis"
+    },
+    {
+      "id": "ch-porous-materials-3",
+      "name": "Metal-organic frameworks: reticular design and secondary building units"
+    },
+    {
+      "id": "ch-porous-materials-4",
+      "name": "Covalent organic frameworks"
+    },
+    {
+      "id": "ch-porous-materials-5",
+      "name": "Porous organic polymers and cages"
+    },
+    {
+      "id": "ch-porous-materials-6",
+      "name": "Gas storage and separation (H2, CH4, CO2)"
+    },
+    {
+      "id": "ch-porous-materials-7",
+      "name": "Frameworks for catalysis, sensing and water harvesting"
+    },
+    {
+      "id": "ch-porous-materials-8",
+      "name": "Stability and scale-up of framework materials"
+    }
+  ]
+}

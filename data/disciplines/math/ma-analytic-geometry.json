@@ -1,0 +1,60 @@
+{
+  "id": "ma-analytic-geometry",
+  "name": "Analytic Geometry",
+  "category": "Pre-University Foundations",
+  "level": 1,
+  "priority": "important",
+  "summary": "Geometry done with coordinates: lines, conic sections, polar coordinates and parametric curves in the plane and in space.",
+  "prerequisites": [
+    "ma-trigonometry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-analytic-geometry-4",
+      "name": "Distance, midpoint and equations of lines and circles"
+    },
+    {
+      "id": "ma-analytic-geometry-1",
+      "name": "Conic sections",
+      "sub": [
+        {
+          "id": "ma-analytic-geometry-1-1",
+          "name": "Parabolas"
+        },
+        {
+          "id": "ma-analytic-geometry-1-2",
+          "name": "Ellipses"
+        },
+        {
+          "id": "ma-analytic-geometry-1-3",
+          "name": "Hyperbolas"
+        },
+        {
+          "id": "ma-analytic-geometry-1-4",
+          "name": "Rotation of axes and the general conic"
+        }
+      ]
+    },
+    {
+      "id": "ma-analytic-geometry-3",
+      "name": "Polar coordinates"
+    },
+    {
+      "id": "ma-analytic-geometry-2",
+      "name": "Parametric curves"
+    },
+    {
+      "id": "ma-analytic-geometry-5",
+      "name": "Vectors in two and three dimensions"
+    },
+    {
+      "id": "ma-analytic-geometry-6",
+      "name": "Lines, planes and quadric surfaces in three dimensions"
+    },
+    {
+      "id": "ma-analytic-geometry-7",
+      "name": "Coordinate transformations: translation and rotation of axes"
+    }
+  ]
+}

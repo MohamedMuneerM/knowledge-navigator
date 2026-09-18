@@ -4,6 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Knowledge Navigator</title>
+<meta name="description" content="An open map of STEM: 11 disciplines, 1,400+ chapters with prerequisites, and goal roadmaps from the cosmos to rocket science and robotics.">
+<meta property="og:title" content="Knowledge Navigator: an open map of STEM">
+<meta property="og:description" content="Pick a goal or any topic and see exactly what to learn first, across maths, physics, chemistry, biology, CS and engineering.">
+<meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧭</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -211,6 +215,7 @@ textarea.notes:focus { border-color: var(--accent); }
 .x { color: var(--faint); padding: 0 4px; }
 .x:hover { color: var(--core); }
 
+.foot { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--faint); font-size: 12.5px; display: grid; gap: 6px; }
 .toast { position: fixed; bottom: 22px; left: 50%; transform: translate(-50%, 20px); background: var(--text); color: var(--bg); padding: 9px 16px; border-radius: 9px; font-weight: 500; opacity: 0; transition: .2s; z-index: 80; pointer-events: none; }
 .toast.show { opacity: 1; transform: translate(-50%, 0); }
 
@@ -252,7 +257,7 @@ textarea.notes:focus { border-color: var(--accent); }
         <button data-act="export">Export progress (JSON)</button>
         <button data-act="import">Import progress (JSON)</button>
         <button data-act="csv">Export chapters (CSV)</button>
-        <a href="knowledge_map_v2.html">Open classic tracker (v2)</a>
+        <a data-repo="" target="_blank" rel="noopener">Contribute on GitHub ↗</a>
       </div>
     </div>
   </div>
@@ -270,6 +275,7 @@ textarea.notes:focus { border-color: var(--accent); }
 'use strict';
 // ------------------------------------------------------------------ data
 const KB = window.knowledgeBaseData || { subjects: [], roadmaps: [], stats: {} };
+const REPO = 'https://github.com/MohamedMuneerM/knowledge-navigator';
 const SUBJ = new Map(), CH = new Map(), TOPIC = new Map(), IN_RM = new Map();
 KB.subjects.forEach((s, si) => {
   s.index = si;
@@ -298,11 +304,21 @@ function ancestors(id) {
   return out;
 }
 
-// ------------------------------------------------------------------ progress (shared with knowledge_map_v2.html)
+// ------------------------------------------------------------------ progress
 const STORE_KEY = 'knowledgeNavigator_progress';
 let P = { chapters: {}, topics: {}, lastUpdated: null };
 try { const s = localStorage.getItem(STORE_KEY); if (s) P = Object.assign(P, JSON.parse(s)); } catch (e) { /* storage unavailable */ }
 P.chapters = P.chapters || {}; P.topics = P.topics || {};
+// Ids that were renamed carry their saved progress over (data/redirects.json).
+(() => {
+  let moved = false;
+  for (const kind of ['chapters', 'topics']) {
+    for (const [from, to] of Object.entries(KB.redirects?.[kind] || {})) {
+      if (P[kind][from] && !P[kind][to]) { P[kind][to] = P[kind][from]; delete P[kind][from]; moved = true; }
+    }
+  }
+  if (moved) try { localStorage.setItem(STORE_KEY, JSON.stringify(P)); } catch (e) { /* ignore */ }
+})();
 function persist() {
   P.lastUpdated = Date.now();
   try { localStorage.setItem(STORE_KEY, JSON.stringify(P)); } catch (e) { toast('Could not save — browser storage is unavailable'); }
@@ -408,7 +424,11 @@ function viewHome() {
       ${(KB.roadmaps || []).length ? `<div class="grid wide">${KB.roadmaps.map(roadmapCard).join('')}</div>` : '<div class="empty">No roadmaps yet.</div>'}</div>
     <div class="section"><div class="section-head"><h2>Disciplines</h2></div>
       <div class="grid wide">${KB.subjects.map(disciplineCard).join('')}</div>
-      <div class="legend">${Object.entries(LEVELS).map(([l, n]) => `<span><i style="background:${LEVEL_COLORS[l]}"></i>L${l} ${n}</span>`).join('')}</div></div>`;
+      <div class="legend">${Object.entries(LEVELS).map(([l, n]) => `<span><i style="background:${LEVEL_COLORS[l]}"></i>L${l} ${n}</span>`).join('')}</div></div>
+    <footer class="foot">
+      <p><b>Open source.</b> Missing a topic, or a prerequisite looks wrong? <a href="${REPO}/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Contribute on GitHub</a>. The data is written by people and AI together, so expert review is very welcome.</p>
+      <p>Data <a href="${REPO}/blob/main/LICENSE-DATA.md" target="_blank" rel="noopener">CC BY-SA 4.0</a> · Code <a href="${REPO}/blob/main/LICENSE" target="_blank" rel="noopener">MIT</a> · v${esc(KB.version || '')} · updated ${esc(KB.generatedAt || '')}. Your progress is stored only in this browser.</p>
+    </footer>`;
 }
 
 function roadmapCard(r) {
@@ -606,6 +626,10 @@ function renderDrawer(cid, focus = []) {
       ${c.unlocks.length ? `<div class="dr-sec"><h4>Unlocks <span class="faint">${c.unlocks.length}</span></h4><div class="links">${c.unlocks.map(u => linkRow(u)).join('')}</div></div>` : ''}
       ${c.related.length ? `<div class="dr-sec"><h4>Related elsewhere</h4><div class="links">${c.related.map(u => linkRow(u)).join('')}</div></div>` : ''}
       ${rms.length ? `<div class="dr-sec"><h4>Part of roadmaps</h4><div class="row">${rms.map(r => `<a class="btn" href="#/r/${r.id}">${r.icon} ${esc(r.name)}</a>`).join('')}</div></div>` : ''}
+      <div class="dr-sec"><h4>Improve this chapter</h4><div class="row">
+        <a class="btn" target="_blank" rel="noopener" href="${REPO}/edit/main/data/disciplines/${sj.id}/${c.id}.json">✎ Edit on GitHub</a>
+        <a class="btn" target="_blank" rel="noopener" href="${REPO}/issues/new?template=chapter-feedback.yml&chapter=${encodeURIComponent(c.id)}&title=${encodeURIComponent('[' + c.id + '] ')}">⚑ Report a problem</a>
+      </div></div>
       <div class="dr-sec"><h4>Your notes</h4><textarea class="notes" id="notes" placeholder="Thoughts, questions, summaries…">${esc(P.chapters[c.id]?.notes || '')}</textarea></div>
       <div class="dr-sec"><h4>Resources</h4>
         <div class="links">${links.map((l, i) => `<div class="link-row"><a class="l-name" href="${esc(/^https?:\/\//i.test(l.url) ? l.url : 'https://' + l.url)}" target="_blank" rel="noopener">${esc(l.label || l.url)}</a><button class="x" data-dellink="${i}" aria-label="Remove">✕</button></div>`).join('') || '<div class="muted small">Add course, video or book links for this chapter.</div>'}</div>
@@ -704,6 +728,7 @@ function wireSearch(input, box, { chaptersOnly = false, onPick }) {
   input.addEventListener('blur', () => setTimeout(() => box.classList.remove('open'), 120));
 }
 wireSearch($('#q'), $('#results'), {});
+document.querySelectorAll('[data-repo]').forEach(a => { a.href = REPO + a.dataset.repo; });
 
 // ------------------------------------------------------------------ events
 document.addEventListener('click', ev => {

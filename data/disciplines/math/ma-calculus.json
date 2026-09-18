@@ -1,0 +1,118 @@
+{
+  "id": "ma-calculus",
+  "name": "Calculus",
+  "category": "Calculus",
+  "level": 2,
+  "priority": "core",
+  "summary": "Single-variable calculus from limits and derivatives to integrals, integration techniques and applications: the central tool of science and engineering.",
+  "prerequisites": [
+    "ma-precalculus"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-calculus-6",
+      "name": "Limits: intuitive idea, limit laws and one-sided limits"
+    },
+    {
+      "id": "ma-calculus-7",
+      "name": "Continuity and the intermediate value theorem"
+    },
+    {
+      "id": "ma-calculus-8",
+      "name": "Formal epsilon-delta definition of a limit"
+    },
+    {
+      "id": "ma-calculus-1",
+      "name": "Differential calculus",
+      "sub": [
+        {
+          "id": "ma-calculus-1-1",
+          "name": "Derivative as slope and rate of change"
+        },
+        {
+          "id": "ma-calculus-1-2",
+          "name": "Power, product, quotient and chain rules"
+        },
+        {
+          "id": "ma-calculus-1-3",
+          "name": "Derivatives of trigonometric, exponential and logarithmic functions"
+        },
+        {
+          "id": "ma-calculus-1-4",
+          "name": "Implicit differentiation"
+        },
+        {
+          "id": "ma-calculus-1-5",
+          "name": "Higher derivatives"
+        }
+      ]
+    },
+    {
+      "id": "ma-calculus-9",
+      "name": "Related rates and linear approximation"
+    },
+    {
+      "id": "ma-calculus-10",
+      "name": "Mean value theorem and curve sketching"
+    },
+    {
+      "id": "ma-calculus-11",
+      "name": "Optimisation problems"
+    },
+    {
+      "id": "ma-calculus-12",
+      "name": "L'Hopital's rule and indeterminate forms"
+    },
+    {
+      "id": "ma-calculus-13",
+      "name": "Antiderivatives and simple differential equations"
+    },
+    {
+      "id": "ma-calculus-2",
+      "name": "Integral calculus",
+      "sub": [
+        {
+          "id": "ma-calculus-2-1",
+          "name": "Riemann sums and the definite integral"
+        },
+        {
+          "id": "ma-calculus-2-2",
+          "name": "Fundamental theorem of calculus"
+        },
+        {
+          "id": "ma-calculus-2-3",
+          "name": "Substitution rule"
+        }
+      ]
+    },
+    {
+      "id": "ma-calculus-14",
+      "name": "Integration techniques: integration by parts, trigonometric integrals and substitution"
+    },
+    {
+      "id": "ma-calculus-15",
+      "name": "Partial fractions and integration strategy"
+    },
+    {
+      "id": "ma-calculus-16",
+      "name": "Improper integrals"
+    },
+    {
+      "id": "ma-calculus-17",
+      "name": "Applications of integration: area, volume, arc length and surface area"
+    },
+    {
+      "id": "ma-calculus-18",
+      "name": "Physical applications: work, fluid force, centre of mass"
+    },
+    {
+      "id": "ma-calculus-19",
+      "name": "Separable differential equations and exponential growth models"
+    },
+    {
+      "id": "ma-calculus-20",
+      "name": "Calculus with parametric curves and polar coordinates"
+    }
+  ]
+}

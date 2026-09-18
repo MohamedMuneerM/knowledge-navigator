@@ -1,0 +1,65 @@
+{
+  "id": "ch-polymer-chemistry",
+  "name": "Polymer Chemistry",
+  "category": "Polymer, Materials & Solid-State Chemistry",
+  "level": 3,
+  "priority": "important",
+  "summary": "How polymers are made: polymerization mechanisms and kinetics, copolymers and the major polymer families.",
+  "prerequisites": [
+    "ch-organic-reactions-ii",
+    "ch-chemical-kinetics-intro"
+  ],
+  "related": [
+    "mt-polymer-structure"
+  ],
+  "topics": [
+    {
+      "id": "ch-polymer-chemistry-1",
+      "name": "Polymer basics: nomenclature, architecture and molecular-weight averages"
+    },
+    {
+      "id": "ch-polymer-chemistry-2",
+      "name": "Step-growth polymerization and the Carothers equation"
+    },
+    {
+      "id": "ch-polymer-chemistry-3",
+      "name": "Free-radical chain polymerization: kinetics and chain transfer"
+    },
+    {
+      "id": "ch-polymer-chemistry-4",
+      "name": "Ionic and coordination polymerization"
+    },
+    {
+      "id": "ch-polymer-chemistry-5",
+      "name": "Ring-opening polymerization"
+    },
+    {
+      "id": "ch-polymer-chemistry-6",
+      "name": "Controlled/living polymerization: ATRP, RAFT, NMP and anionic"
+    },
+    {
+      "id": "ch-polymer-chemistry-7",
+      "name": "Copolymerization and reactivity ratios"
+    },
+    {
+      "id": "ch-polymer-chemistry-8",
+      "name": "Polymer modification and crosslinking"
+    },
+    {
+      "id": "ch-polymer-chemistry-9",
+      "name": "Commodity and engineering polymers: synthesis and uses"
+    },
+    {
+      "id": "ch-polymer-chemistry-10",
+      "name": "Biopolymers and biodegradable polymers"
+    },
+    {
+      "id": "ch-polymer-chemistry-11",
+      "name": "Polymer degradation, stabilization and recycling"
+    },
+    {
+      "id": "ch-polymer-chemistry-12",
+      "name": "Dendrimers, block copolymers and complex architectures"
+    }
+  ]
+}

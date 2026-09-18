@@ -1,0 +1,65 @@
+{
+  "id": "ai-self-supervised-representation-learning",
+  "name": "Self-Supervised & Representation Learning",
+  "category": "Deep Learning",
+  "level": 4,
+  "priority": "important",
+  "summary": "Learning useful representations from unlabeled data with pretext tasks, contrastive and non-contrastive objectives and masked modelling, the basis of modern foundation models.",
+  "prerequisites": [
+    "ai-convolutional-neural-networks-cnns",
+    "ai-attention-transformers"
+  ],
+  "related": [
+    "ai-types-of-machine-learning"
+  ],
+  "topics": [
+    {
+      "id": "ai-self-supervised-representation-learning-1",
+      "name": "What makes a good representation; disentanglement and transfer"
+    },
+    {
+      "id": "ai-self-supervised-representation-learning-2",
+      "name": "Pretext tasks: rotation, jigsaw, colourization"
+    },
+    {
+      "id": "ai-self-supervised-representation-learning-3",
+      "name": "Contrastive learning and the InfoNCE loss"
+    },
+    {
+      "id": "ai-self-supervised-representation-learning-4",
+      "name": "SimCLR and MoCo"
+    },
+    {
+      "id": "ai-self-supervised-representation-learning-5",
+      "name": "Non-contrastive methods: BYOL, SimSiam, Barlow Twins, VICReg"
+    },
+    {
+      "id": "ai-self-supervised-representation-learning-6",
+      "name": "Self-distillation: DINO and DINOv2"
+    },
+    {
+      "id": "ai-self-supervised-representation-learning-7",
+      "name": "Masked image modelling: MAE and BEiT"
+    },
+    {
+      "id": "ai-self-supervised-representation-learning-8",
+      "name": "Masked and autoregressive pretraining for language"
+    },
+    {
+      "id": "ai-self-supervised-representation-learning-9",
+      "name": "Joint-embedding predictive architectures (JEPA)"
+    },
+    {
+      "id": "ai-self-supervised-representation-learning-10",
+      "name": "Multimodal contrastive pretraining (CLIP)"
+    },
+    {
+      "id": "ai-self-supervised-representation-learning-11",
+      "name": "Evaluating representations: linear probing, k-NN and fine-tuning"
+    },
+    {
+      "id": "ai-self-supervised-representation-learning-12",
+      "name": "Theory: invariance, collapse, alignment and uniformity"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "bi-musculoskeletal-modeling-human-augmentation",
+  "name": "Musculoskeletal Modelling & Human Augmentation",
+  "category": "Biomechanics & Human Performance",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "The biology side of exoskeletons and prosthetics: modelling the body, coupling devices to muscles and nerves, and measuring whether augmentation helps.",
+  "prerequisites": [
+    "bi-biomechanics",
+    "bi-motor-systems",
+    "me-robot-mechanics"
+  ],
+  "related": [
+    "ai-human-robot-interaction-hri",
+    "el-robot-control",
+    "el-wearable-technology-deep-dive",
+    "el-actuators",
+    "me-wearable-mechanisms-exoskeletons",
+    "ai-wearable-robotics-exoskeletons",
+    "me-biomechanics"
+  ],
+  "topics": [
+    {
+      "id": "bi-musculoskeletal-modeling-human-augmentation-1",
+      "name": "Musculoskeletal simulation (OpenSim-style models) and muscle-driven simulations"
+    },
+    {
+      "id": "bi-musculoskeletal-modeling-human-augmentation-2",
+      "name": "EMG-driven models and estimating muscle forces"
+    },
+    {
+      "id": "bi-musculoskeletal-modeling-human-augmentation-3",
+      "name": "Metabolic cost estimation and human-in-the-loop optimisation"
+    },
+    {
+      "id": "bi-musculoskeletal-modeling-human-augmentation-4",
+      "name": "Exoskeleton biomechanics: assisting joints, torque profiles and user adaptation"
+    },
+    {
+      "id": "bi-musculoskeletal-modeling-human-augmentation-5",
+      "name": "Physical human-device interface: attachment, pressure, comfort and safety"
+    },
+    {
+      "id": "bi-musculoskeletal-modeling-human-augmentation-6",
+      "name": "Prosthetic limbs: sockets, osseointegration and powered prostheses"
+    },
+    {
+      "id": "bi-musculoskeletal-modeling-human-augmentation-7",
+      "name": "Targeted muscle reinnervation and neural control of prostheses"
+    },
+    {
+      "id": "bi-musculoskeletal-modeling-human-augmentation-8",
+      "name": "Sensory feedback, embodiment and the body schema"
+    },
+    {
+      "id": "bi-musculoskeletal-modeling-human-augmentation-9",
+      "name": "Rehabilitation robotics and motor recovery"
+    },
+    {
+      "id": "bi-musculoskeletal-modeling-human-augmentation-10",
+      "name": "Human factors, fatigue and long-term effects of wearing augmentation"
+    }
+  ]
+}

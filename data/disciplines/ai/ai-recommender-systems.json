@@ -1,0 +1,70 @@
+{
+  "id": "ai-recommender-systems",
+  "name": "Recommender Systems",
+  "category": "Applied ML Problem Domains",
+  "level": 3,
+  "priority": "important",
+  "summary": "How platforms suggest items to users, from collaborative filtering and matrix factorization to learning-to-rank and large-scale deep recommenders.",
+  "prerequisites": [
+    "ai-types-of-machine-learning"
+  ],
+  "related": [
+    "ai-business-analytics",
+    "ai-graph-based-ml",
+    "ai-multi-armed-bandits"
+  ],
+  "topics": [
+    {
+      "id": "ai-recommender-systems-1",
+      "name": "The recommendation problem: explicit and implicit feedback"
+    },
+    {
+      "id": "ai-recommender-systems-2",
+      "name": "Content-based filtering"
+    },
+    {
+      "id": "ai-recommender-systems-3",
+      "name": "Neighbourhood collaborative filtering (user- and item-based)"
+    },
+    {
+      "id": "ai-recommender-systems-4",
+      "name": "Matrix factorization: SVD, ALS and implicit-feedback models"
+    },
+    {
+      "id": "ai-recommender-systems-5",
+      "name": "Learning to rank: pointwise, pairwise (BPR) and listwise"
+    },
+    {
+      "id": "ai-recommender-systems-6",
+      "name": "Evaluation: precision and recall at k, NDCG, MAP, offline versus online"
+    },
+    {
+      "id": "ai-recommender-systems-7",
+      "name": "Deep recommenders: Wide & Deep, two-tower retrieval, DLRM"
+    },
+    {
+      "id": "ai-recommender-systems-8",
+      "name": "Sequential and session-based recommendation (GRU4Rec, SASRec)"
+    },
+    {
+      "id": "ai-recommender-systems-9",
+      "name": "Industrial architecture: candidate generation, ranking and re-ranking"
+    },
+    {
+      "id": "ai-recommender-systems-10",
+      "name": "Cold start, exploration and bandits"
+    },
+    {
+      "id": "ai-recommender-systems-11",
+      "name": "Popularity bias, diversity, serendipity and fairness"
+    },
+    {
+      "id": "ai-recommender-systems-12",
+      "name": "Graph-based and knowledge-graph recommenders"
+    },
+    {
+      "id": "ai-recommender-systems-13",
+      "name": "LLM-based and generative recommendation"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "el-development-kits-evaluation-boards",
+  "name": "Development Kits & Evaluation Boards",
+  "category": "Professional Practice, Business & Community",
+  "level": 2,
+  "priority": "optional",
+  "summary": "Vendor evaluation boards and development kits for MCUs, FPGAs, DSPs, AI accelerators and sensors.",
+  "prerequisites": [
+    "el-embedded-systems-fundamentals"
+  ],
+  "related": [
+    "el-open-source-hardware"
+  ],
+  "topics": [
+    {
+      "id": "el-development-kits-evaluation-boards-1",
+      "name": "Vendor evaluation boards (TI, ST, NXP, Nordic)"
+    },
+    {
+      "id": "el-development-kits-evaluation-boards-2",
+      "name": "FPGA development kits"
+    },
+    {
+      "id": "el-development-kits-evaluation-boards-3",
+      "name": "DSP starter kits"
+    },
+    {
+      "id": "el-development-kits-evaluation-boards-4",
+      "name": "AI/ML development boards (Jetson Nano, Coral Dev Board)"
+    },
+    {
+      "id": "el-development-kits-evaluation-boards-5",
+      "name": "Sensor evaluation kits"
+    }
+  ]
+}

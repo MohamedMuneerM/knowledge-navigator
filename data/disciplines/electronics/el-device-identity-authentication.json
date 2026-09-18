@@ -1,0 +1,42 @@
+{
+  "id": "el-device-identity-authentication",
+  "name": "Device Identity & Authentication",
+  "category": "Security, Privacy & Trust",
+  "level": 3,
+  "priority": "important",
+  "summary": "Giving each device a trustworthy identity: certificates, unique IDs, PUFs, attestation and authentication protocols.",
+  "prerequisites": [
+    "el-key-management"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-device-identity-authentication-1",
+      "name": "Device certificates and credentials"
+    },
+    {
+      "id": "el-device-identity-authentication-2",
+      "name": "Unique device identifiers"
+    },
+    {
+      "id": "el-device-identity-authentication-3",
+      "name": "Hardware-based identity (PUF - Physically Unclonable Functions)"
+    },
+    {
+      "id": "el-device-identity-authentication-4",
+      "name": "Device attestation"
+    },
+    {
+      "id": "el-device-identity-authentication-5",
+      "name": "Authentication protocols (X.509, EAP)"
+    },
+    {
+      "id": "el-device-identity-authentication-6",
+      "name": "Provisioning identities during manufacturing"
+    },
+    {
+      "id": "el-device-identity-authentication-7",
+      "name": "Zero-touch onboarding (e.g. FIDO Device Onboard)"
+    }
+  ]
+}

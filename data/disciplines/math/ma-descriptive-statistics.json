@@ -1,0 +1,52 @@
+{
+  "id": "ma-descriptive-statistics",
+  "name": "Descriptive Statistics",
+  "category": "Probability & Statistics",
+  "level": 1,
+  "priority": "core",
+  "summary": "Summarising and displaying data: averages, spread, charts, correlation and a first look at fitting a line.",
+  "prerequisites": [
+    "ma-arithmetic-pre-algebra"
+  ],
+  "related": [
+    "ai-exploratory-data-analysis-eda"
+  ],
+  "topics": [
+    {
+      "id": "ma-descriptive-statistics-4",
+      "name": "Data types, variables and levels of measurement"
+    },
+    {
+      "id": "ma-descriptive-statistics-3",
+      "name": "Data visualization"
+    },
+    {
+      "id": "ma-descriptive-statistics-1",
+      "name": "Measures of central tendency"
+    },
+    {
+      "id": "ma-descriptive-statistics-2",
+      "name": "Measures of dispersion"
+    },
+    {
+      "id": "ma-descriptive-statistics-5",
+      "name": "Percentiles, quartiles and box plots"
+    },
+    {
+      "id": "ma-descriptive-statistics-6",
+      "name": "Shape of distributions: skewness and outliers"
+    },
+    {
+      "id": "ma-descriptive-statistics-7",
+      "name": "Two-variable data: scatterplots and correlation"
+    },
+    {
+      "id": "ma-descriptive-statistics-8",
+      "name": "Least-squares line (introduction)"
+    },
+    {
+      "id": "ma-descriptive-statistics-9",
+      "name": "Sampling and study design basics"
+    }
+  ]
+}

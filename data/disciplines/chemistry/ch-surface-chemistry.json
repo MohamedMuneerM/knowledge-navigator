@@ -1,0 +1,54 @@
+{
+  "id": "ch-surface-chemistry",
+  "name": "Surface Chemistry",
+  "category": "Surfaces, Catalysis & Supramolecular Chemistry",
+  "level": 3,
+  "priority": "important",
+  "summary": "Structure of solid surfaces and the adsorption, reaction and film-growth processes that happen on them.",
+  "prerequisites": [
+    "ch-chemical-kinetics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-surface-chemistry-1",
+      "name": "Surface structure: crystal faces, reconstruction and surface energy"
+    },
+    {
+      "id": "ch-surface-chemistry-2",
+      "name": "Physisorption vs chemisorption"
+    },
+    {
+      "id": "ch-surface-chemistry-3",
+      "name": "Adsorption isotherms: Langmuir, Freundlich and BET"
+    },
+    {
+      "id": "ch-surface-chemistry-4",
+      "name": "Adsorption and desorption kinetics; temperature-programmed desorption"
+    },
+    {
+      "id": "ch-surface-chemistry-5",
+      "name": "Surface reactions and mechanisms"
+    },
+    {
+      "id": "ch-surface-chemistry-6",
+      "name": "Electronic structure of surfaces and the work function"
+    },
+    {
+      "id": "ch-surface-chemistry-7",
+      "name": "Self-assembled monolayers and surface functionalization"
+    },
+    {
+      "id": "ch-surface-chemistry-8",
+      "name": "Thin films and epitaxial growth"
+    },
+    {
+      "id": "ch-surface-chemistry-9",
+      "name": "Tribology: friction, lubrication and wear chemistry"
+    },
+    {
+      "id": "ch-surface-chemistry-10",
+      "name": "Surface-science techniques overview (LEED, XPS, STM)"
+    }
+  ]
+}

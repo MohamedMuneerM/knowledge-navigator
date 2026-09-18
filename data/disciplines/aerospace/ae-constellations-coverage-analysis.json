@@ -1,0 +1,58 @@
+{
+  "id": "ae-constellations-coverage-analysis",
+  "name": "Satellite Constellations and Coverage Analysis",
+  "category": "Orbital Mechanics & Astrodynamics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Choosing orbits and constellation geometries to see the right places often enough, from single imaging satellites to mega-constellations.",
+  "prerequisites": [
+    "ae-orbital-perturbations"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-constellations-coverage-analysis-1",
+      "name": "Earth geometry: elevation angle, swath and footprint"
+    },
+    {
+      "id": "ae-constellations-coverage-analysis-2",
+      "name": "Access, revisit time and coverage statistics"
+    },
+    {
+      "id": "ae-constellations-coverage-analysis-3",
+      "name": "Ground-station contact analysis"
+    },
+    {
+      "id": "ae-constellations-coverage-analysis-4",
+      "name": "Geostationary orbits: coverage, station-keeping and slots"
+    },
+    {
+      "id": "ae-constellations-coverage-analysis-5",
+      "name": "Molniya and Tundra orbits"
+    },
+    {
+      "id": "ae-constellations-coverage-analysis-6",
+      "name": "Walker delta and star constellations"
+    },
+    {
+      "id": "ae-constellations-coverage-analysis-7",
+      "name": "Streets-of-coverage design"
+    },
+    {
+      "id": "ae-constellations-coverage-analysis-8",
+      "name": "GNSS constellation design"
+    },
+    {
+      "id": "ae-constellations-coverage-analysis-9",
+      "name": "Mega-constellations: Starlink, OneWeb, Kuiper"
+    },
+    {
+      "id": "ae-constellations-coverage-analysis-10",
+      "name": "Constellation maintenance, phasing and deployment strategies"
+    },
+    {
+      "id": "ae-constellations-coverage-analysis-11",
+      "name": "Eclipse and beta-angle analysis"
+    }
+  ]
+}

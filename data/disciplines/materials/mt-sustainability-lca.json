@@ -1,0 +1,64 @@
+{
+  "id": "mt-sustainability-lca",
+  "name": "Materials Sustainability, Recycling & Life-Cycle Assessment",
+  "category": "Materials Selection, Design & Sustainability",
+  "level": 3,
+  "priority": "important",
+  "summary": "Examines the environmental footprint of materials across their life cycle and the strategies of recycling, circularity and critical-materials management.",
+  "prerequisites": [
+    "mt-materials-selection"
+  ],
+  "related": [
+    "ea-sustainability-science"
+  ],
+  "topics": [
+    {
+      "id": "mt-sustainability-lca-1",
+      "name": "Material flows, consumption growth and resource availability"
+    },
+    {
+      "id": "mt-sustainability-lca-2",
+      "name": "The materials life cycle: extraction, production, use and end of life"
+    },
+    {
+      "id": "mt-sustainability-lca-3",
+      "name": "Embodied energy and carbon footprint of materials"
+    },
+    {
+      "id": "mt-sustainability-lca-4",
+      "name": "Life-cycle assessment (ISO 14040/44): goal and scope, inventory, impact assessment, interpretation"
+    },
+    {
+      "id": "mt-sustainability-lca-5",
+      "name": "Eco-audits and eco-selection with Ashby charts"
+    },
+    {
+      "id": "mt-sustainability-lca-6",
+      "name": "Recycling of metals, polymers, glass and composites; downcycling and contamination"
+    },
+    {
+      "id": "mt-sustainability-lca-7",
+      "name": "Circular economy: design for disassembly, reuse and remanufacture"
+    },
+    {
+      "id": "mt-sustainability-lca-8",
+      "name": "Critical and strategic raw materials; substitution strategies"
+    },
+    {
+      "id": "mt-sustainability-lca-9",
+      "name": "Decarbonising steel, cement, aluminium and chemicals"
+    },
+    {
+      "id": "mt-sustainability-lca-10",
+      "name": "Bio-based and biodegradable materials"
+    },
+    {
+      "id": "mt-sustainability-lca-11",
+      "name": "Toxicity, regulation (REACH, RoHS) and responsible sourcing"
+    },
+    {
+      "id": "mt-sustainability-lca-12",
+      "name": "Battery and electronic-waste recycling"
+    }
+  ]
+}

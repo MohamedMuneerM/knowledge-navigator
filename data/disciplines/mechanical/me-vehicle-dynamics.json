@@ -1,0 +1,54 @@
+{
+  "id": "me-vehicle-dynamics",
+  "name": "Vehicle Dynamics",
+  "category": "Automotive & Vehicle Engineering",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How vehicles accelerate, brake, corner and ride: tyre mechanics, handling models, suspension kinematics and stability control.",
+  "prerequisites": [
+    "me-automotive-engineering",
+    "me-mechanical-vibrations",
+    "me-feedback-control"
+  ],
+  "related": [
+    "el-chassis-safety-systems"
+  ],
+  "topics": [
+    {
+      "id": "me-vehicle-dynamics-1",
+      "name": "Tyre mechanics: slip, cornering stiffness and the Pacejka Magic Formula"
+    },
+    {
+      "id": "me-vehicle-dynamics-2",
+      "name": "Longitudinal dynamics: traction, braking and load transfer"
+    },
+    {
+      "id": "me-vehicle-dynamics-3",
+      "name": "Lateral dynamics: bicycle model, understeer/oversteer, steady-state cornering"
+    },
+    {
+      "id": "me-vehicle-dynamics-4",
+      "name": "Suspension kinematics and compliance; roll centres"
+    },
+    {
+      "id": "me-vehicle-dynamics-5",
+      "name": "Ride dynamics: quarter-car and half-car models and ride comfort"
+    },
+    {
+      "id": "me-vehicle-dynamics-6",
+      "name": "Roll dynamics and rollover"
+    },
+    {
+      "id": "me-vehicle-dynamics-7",
+      "name": "Vehicle stability control, ABS and traction control"
+    },
+    {
+      "id": "me-vehicle-dynamics-8",
+      "name": "Vehicle dynamics simulation and testing"
+    },
+    {
+      "id": "me-vehicle-dynamics-9",
+      "name": "Motorsport vehicle dynamics and setup"
+    }
+  ]
+}

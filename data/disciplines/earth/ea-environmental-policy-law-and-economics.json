@@ -1,0 +1,46 @@
+{
+  "id": "ea-environmental-policy-law-and-economics",
+  "name": "Environmental Policy, Law & Economics",
+  "category": "Sustainability, Policy & Society",
+  "level": 3,
+  "priority": "important",
+  "summary": "How societies govern the environment: laws, treaties, economic instruments, impact assessment and the science-policy interface.",
+  "prerequisites": [
+    "ea-sustainability-science"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-environmental-policy-law-and-economics-1",
+      "name": "Environmental economics: externalities, public goods and valuation"
+    },
+    {
+      "id": "ea-environmental-policy-law-and-economics-2",
+      "name": "Policy instruments: regulation, taxes, cap-and-trade and subsidies"
+    },
+    {
+      "id": "ea-environmental-policy-law-and-economics-3",
+      "name": "Major environmental laws (e.g. clean air and clean water acts)"
+    },
+    {
+      "id": "ea-environmental-policy-law-and-economics-4",
+      "name": "Environmental impact assessment"
+    },
+    {
+      "id": "ea-environmental-policy-law-and-economics-5",
+      "name": "International environmental agreements: Montreal Protocol, CBD and Paris Agreement"
+    },
+    {
+      "id": "ea-environmental-policy-law-and-economics-6",
+      "name": "Science-policy interface and scientific assessments"
+    },
+    {
+      "id": "ea-environmental-policy-law-and-economics-7",
+      "name": "Risk, uncertainty and the precautionary principle"
+    },
+    {
+      "id": "ea-environmental-policy-law-and-economics-8",
+      "name": "Environmental justice and governance of the commons"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "mt-mechanical-properties",
+  "name": "Mechanical Properties & Testing",
+  "category": "Mechanical Behaviour",
+  "level": 2,
+  "priority": "core",
+  "summary": "Defines stress, strain, stiffness, strength, ductility and hardness, and shows how they are measured and why they differ between material classes.",
+  "prerequisites": [
+    "mt-atomic-bonding",
+    "me-statics"
+  ],
+  "related": [
+    "ma-solid-mechanics",
+    "me-mechanics-of-materials",
+    "me-engineering-materials"
+  ],
+  "topics": [
+    {
+      "id": "mt-mechanical-properties-1",
+      "name": "Engineering stress and strain; tension, compression, shear and torsion"
+    },
+    {
+      "id": "mt-mechanical-properties-2",
+      "name": "Elastic deformation: Hooke's law, Young's, shear and bulk moduli, Poisson's ratio"
+    },
+    {
+      "id": "mt-mechanical-properties-3",
+      "name": "Generalised Hooke's law and elastic anisotropy"
+    },
+    {
+      "id": "mt-mechanical-properties-4",
+      "name": "Atomic origin of elasticity; rubber elasticity versus energy elasticity"
+    },
+    {
+      "id": "mt-mechanical-properties-5",
+      "name": "Anelasticity and damping"
+    },
+    {
+      "id": "mt-mechanical-properties-6",
+      "name": "The tensile test: yield strength, tensile strength, ductility, resilience and toughness"
+    },
+    {
+      "id": "mt-mechanical-properties-7",
+      "name": "True stress and true strain; necking and the Considère criterion"
+    },
+    {
+      "id": "mt-mechanical-properties-8",
+      "name": "Strain hardening and the Hollomon equation"
+    },
+    {
+      "id": "mt-mechanical-properties-9",
+      "name": "Hardness testing: Brinell, Rockwell, Vickers, Knoop and nanoindentation"
+    },
+    {
+      "id": "mt-mechanical-properties-10",
+      "name": "Compression, bend (flexural) and torsion tests; testing brittle materials"
+    },
+    {
+      "id": "mt-mechanical-properties-11",
+      "name": "Variability of properties, statistics of test data and design/safety factors"
+    },
+    {
+      "id": "mt-mechanical-properties-12",
+      "name": "Mechanical behaviour of ceramics and polymers compared with metals"
+    },
+    {
+      "id": "mt-mechanical-properties-13",
+      "name": "Test standards (ASTM/ISO) and test machines, extensometers and strain gauges"
+    }
+  ]
+}

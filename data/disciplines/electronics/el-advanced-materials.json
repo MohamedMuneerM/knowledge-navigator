@@ -1,0 +1,44 @@
+{
+  "id": "el-advanced-materials",
+  "name": "Advanced Materials",
+  "category": "Emerging & Advanced Topics",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "New materials for electronics: graphene, carbon nanotubes, 2D semiconductors, organic and perovskite materials and metamaterials.",
+  "prerequisites": [
+    "el-semiconductor-devices"
+  ],
+  "related": [
+    "ph-quantum-materials",
+    "ph-materials-physics",
+    "mt-2d-materials",
+    "mt-nanomaterials",
+    "mt-metamaterials"
+  ],
+  "topics": [
+    {
+      "id": "el-advanced-materials-1",
+      "name": "Graphene electronics"
+    },
+    {
+      "id": "el-advanced-materials-2",
+      "name": "Carbon nanotubes"
+    },
+    {
+      "id": "el-advanced-materials-3",
+      "name": "2D materials (MoS₂, phosphorene)"
+    },
+    {
+      "id": "el-advanced-materials-4",
+      "name": "Organic semiconductors"
+    },
+    {
+      "id": "el-advanced-materials-5",
+      "name": "Perovskite materials"
+    },
+    {
+      "id": "el-advanced-materials-6",
+      "name": "Metamaterials"
+    }
+  ]
+}

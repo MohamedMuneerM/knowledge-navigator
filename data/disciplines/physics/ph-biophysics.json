@@ -1,0 +1,57 @@
+{
+  "id": "ph-biophysics",
+  "name": "Biophysics",
+  "category": "Interdisciplinary Physics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Physical principles of living systems, from protein folding and molecular motors to membranes and neurons.",
+  "prerequisites": [
+    "ph-soft-matter-physics",
+    "bi-molecular-biology"
+  ],
+  "related": [
+    "bi-structural-biology",
+    "bi-biomechanics",
+    "ch-biophysical-chemistry",
+    "bi-membranes-transport-bioelectricity",
+    "bi-protein-structure-function"
+  ],
+  "topics": [
+    {
+      "id": "ph-biophysics-1",
+      "name": "Molecular biophysics"
+    },
+    {
+      "id": "ph-biophysics-2",
+      "name": "Cellular biophysics"
+    },
+    {
+      "id": "ph-biophysics-3",
+      "name": "Protein dynamics and folding"
+    },
+    {
+      "id": "ph-biophysics-4",
+      "name": "DNA structure and dynamics"
+    },
+    {
+      "id": "ph-biophysics-5",
+      "name": "Neural biophysics"
+    },
+    {
+      "id": "ph-biophysics-6",
+      "name": "Biomechanics"
+    },
+    {
+      "id": "ph-biophysics-7",
+      "name": "Systems biology"
+    },
+    {
+      "id": "ph-biophysics-8",
+      "name": "Single-molecule biophysics"
+    },
+    {
+      "id": "ph-biophysics-9",
+      "name": "Membrane biophysics"
+    }
+  ]
+}

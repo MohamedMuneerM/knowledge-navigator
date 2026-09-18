@@ -1,0 +1,63 @@
+{
+  "id": "ch-organometallic-chemistry",
+  "name": "Organometallic Chemistry",
+  "category": "Inorganic Chemistry",
+  "level": 3,
+  "priority": "important",
+  "summary": "Compounds with metal-carbon bonds, their elementary reactions and their use in homogeneous catalysis.",
+  "prerequisites": [
+    "ch-coordination-chemistry",
+    "ch-organic-reactions-ii"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-organometallic-chemistry-1",
+      "name": "The 18-electron rule and electron counting"
+    },
+    {
+      "id": "ch-organometallic-chemistry-2",
+      "name": "Metal carbonyls and π-backbonding"
+    },
+    {
+      "id": "ch-organometallic-chemistry-3",
+      "name": "Metal alkyl, hydride, alkene, alkyne, allyl and arene complexes"
+    },
+    {
+      "id": "ch-organometallic-chemistry-4",
+      "name": "Metallocenes and cyclopentadienyl complexes"
+    },
+    {
+      "id": "ch-organometallic-chemistry-5",
+      "name": "Carbenes, carbynes and N-heterocyclic carbenes"
+    },
+    {
+      "id": "ch-organometallic-chemistry-6",
+      "name": "Phosphine ligands: cone angle and electronic parameters"
+    },
+    {
+      "id": "ch-organometallic-chemistry-7",
+      "name": "Oxidative addition and reductive elimination"
+    },
+    {
+      "id": "ch-organometallic-chemistry-8",
+      "name": "Migratory insertion and β-hydride elimination"
+    },
+    {
+      "id": "ch-organometallic-chemistry-9",
+      "name": "Nucleophilic and electrophilic attack on coordinated ligands"
+    },
+    {
+      "id": "ch-organometallic-chemistry-10",
+      "name": "Homogeneous catalysis: hydrogenation, hydroformylation, Monsanto/Cativa and Wacker processes"
+    },
+    {
+      "id": "ch-organometallic-chemistry-11",
+      "name": "Polymerization catalysis: Ziegler-Natta and metallocene catalysts"
+    },
+    {
+      "id": "ch-organometallic-chemistry-12",
+      "name": "Main-group organometallics: organolithium, Grignard, organoboron and organozinc reagents"
+    }
+  ]
+}

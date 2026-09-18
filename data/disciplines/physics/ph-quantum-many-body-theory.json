@@ -1,0 +1,61 @@
+{
+  "id": "ph-quantum-many-body-theory",
+  "name": "Quantum Many-Body Theory",
+  "category": "Condensed Matter Physics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Field-theoretic methods for interacting electrons and bosons in solids and quantum fluids.",
+  "prerequisites": [
+    "ph-solid-state-physics",
+    "ph-advanced-quantum-mechanics"
+  ],
+  "related": [
+    "ph-quantum-field-theory-qft"
+  ],
+  "topics": [
+    {
+      "id": "ph-quantum-many-body-theory-1",
+      "name": "Second quantization for fermions and bosons"
+    },
+    {
+      "id": "ph-quantum-many-body-theory-2",
+      "name": "Hartree-Fock theory and the homogeneous electron gas"
+    },
+    {
+      "id": "ph-quantum-many-body-theory-3",
+      "name": "Many-body Green's functions and propagators"
+    },
+    {
+      "id": "ph-quantum-many-body-theory-4",
+      "name": "Feynman diagrams at zero and finite temperature"
+    },
+    {
+      "id": "ph-quantum-many-body-theory-5",
+      "name": "Linear response, the dielectric function and screening"
+    },
+    {
+      "id": "ph-quantum-many-body-theory-6",
+      "name": "Fermi-liquid theory"
+    },
+    {
+      "id": "ph-quantum-many-body-theory-7",
+      "name": "Collective excitations: plasmons, phonons and magnons"
+    },
+    {
+      "id": "ph-quantum-many-body-theory-8",
+      "name": "Microscopic theory of superconductivity (BCS)"
+    },
+    {
+      "id": "ph-quantum-many-body-theory-9",
+      "name": "Interacting bosons: superfluidity and Bogoliubov theory"
+    },
+    {
+      "id": "ph-quantum-many-body-theory-10",
+      "name": "The Hubbard model and strong correlations (introduction)"
+    },
+    {
+      "id": "ph-quantum-many-body-theory-11",
+      "name": "Numerical many-body methods: exact diagonalization, quantum Monte Carlo, DMRG"
+    }
+  ]
+}

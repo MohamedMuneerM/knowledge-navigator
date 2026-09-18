@@ -1,0 +1,58 @@
+{
+  "id": "ae-launch-operations-range-safety",
+  "name": "Launch Operations and Range Safety",
+  "category": "Launch Vehicles",
+  "level": 3,
+  "priority": "important",
+  "summary": "Everything around the launch itself: launch sites, ground systems, propellant loading, countdown, range safety and licensing.",
+  "prerequisites": [
+    "ae-launch-vehicle-design"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-launch-operations-range-safety-1",
+      "name": "Launch sites and spaceports around the world"
+    },
+    {
+      "id": "ae-launch-operations-range-safety-2",
+      "name": "Ground support equipment and launch pads"
+    },
+    {
+      "id": "ae-launch-operations-range-safety-3",
+      "name": "Vehicle integration: vertical versus horizontal"
+    },
+    {
+      "id": "ae-launch-operations-range-safety-4",
+      "name": "Propellant and pressurant loading operations"
+    },
+    {
+      "id": "ae-launch-operations-range-safety-5",
+      "name": "Countdown, holds and launch commit criteria"
+    },
+    {
+      "id": "ae-launch-operations-range-safety-6",
+      "name": "Weather constraints: winds, lightning, upper-level winds"
+    },
+    {
+      "id": "ae-launch-operations-range-safety-7",
+      "name": "Range safety: flight safety analysis, debris footprints, flight termination systems"
+    },
+    {
+      "id": "ae-launch-operations-range-safety-8",
+      "name": "Autonomous flight safety systems"
+    },
+    {
+      "id": "ae-launch-operations-range-safety-9",
+      "name": "Tracking, telemetry and range instrumentation"
+    },
+    {
+      "id": "ae-launch-operations-range-safety-10",
+      "name": "Launch licensing and regulations (FAA Part 450 and equivalents)"
+    },
+    {
+      "id": "ae-launch-operations-range-safety-11",
+      "name": "Environmental impact of launches"
+    }
+  ]
+}

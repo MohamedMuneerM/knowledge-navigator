@@ -1,0 +1,45 @@
+{
+  "id": "el-software-testing",
+  "name": "Software Testing",
+  "category": "Embedded Development Practices & Debugging",
+  "level": 3,
+  "priority": "important",
+  "summary": "Core software-testing practice: unit, integration, system and regression testing, coverage, static analysis and leak detection.",
+  "prerequisites": [
+    "el-testing-strategies"
+  ],
+  "related": [
+    "el-testing-strategies",
+    "cs-software-testing"
+  ],
+  "topics": [
+    {
+      "id": "el-software-testing-1",
+      "name": "Unit testing frameworks"
+    },
+    {
+      "id": "el-software-testing-2",
+      "name": "Integration testing"
+    },
+    {
+      "id": "el-software-testing-3",
+      "name": "System testing"
+    },
+    {
+      "id": "el-software-testing-4",
+      "name": "Regression testing"
+    },
+    {
+      "id": "el-software-testing-5",
+      "name": "Code coverage analysis"
+    },
+    {
+      "id": "el-software-testing-6",
+      "name": "Static analysis"
+    },
+    {
+      "id": "el-software-testing-7",
+      "name": "Memory leak detection"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "el-diagnostic-equipment",
+  "name": "Diagnostic Equipment",
+  "category": "Medical, Industrial & Other Application Domains",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "How diagnostic systems work: ECG, EEG and EMG equipment, ultrasound, MRI, CT, X-ray, PET and endoscopy.",
+  "prerequisites": [
+    "el-biomedical-signal-processing"
+  ],
+  "related": [
+    "ph-medical-physics"
+  ],
+  "topics": [
+    {
+      "id": "el-diagnostic-equipment-1",
+      "name": "Electrocardiogram (ECG/EKG) systems"
+    },
+    {
+      "id": "el-diagnostic-equipment-2",
+      "name": "Electroencephalogram (EEG) systems"
+    },
+    {
+      "id": "el-diagnostic-equipment-3",
+      "name": "Electromyography (EMG) equipment"
+    },
+    {
+      "id": "el-diagnostic-equipment-4",
+      "name": "Ultrasound imaging"
+    },
+    {
+      "id": "el-diagnostic-equipment-5",
+      "name": "MRI (Magnetic Resonance Imaging)"
+    },
+    {
+      "id": "el-diagnostic-equipment-6",
+      "name": "CT (Computed Tomography)"
+    },
+    {
+      "id": "el-diagnostic-equipment-7",
+      "name": "X-ray systems"
+    },
+    {
+      "id": "el-diagnostic-equipment-8",
+      "name": "PET (Positron Emission Tomography)"
+    },
+    {
+      "id": "el-diagnostic-equipment-9",
+      "name": "Endoscopy systems"
+    }
+  ]
+}

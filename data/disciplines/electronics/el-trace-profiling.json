@@ -1,0 +1,40 @@
+{
+  "id": "el-trace-profiling",
+  "name": "Trace & Profiling",
+  "category": "Embedded Development Practices & Debugging",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Seeing exactly what code does over time with instruction and data trace, event tracing and tools such as SystemView and Tracealyzer.",
+  "prerequisites": [
+    "el-hardware-debugging"
+  ],
+  "related": [
+    "cs-performance-engineering"
+  ],
+  "topics": [
+    {
+      "id": "el-trace-profiling-1",
+      "name": "Instruction trace"
+    },
+    {
+      "id": "el-trace-profiling-2",
+      "name": "Data trace"
+    },
+    {
+      "id": "el-trace-profiling-3",
+      "name": "Code profiling and execution time"
+    },
+    {
+      "id": "el-trace-profiling-4",
+      "name": "Event tracing"
+    },
+    {
+      "id": "el-trace-profiling-5",
+      "name": "Segger SystemView, Tracealyzer"
+    },
+    {
+      "id": "el-trace-profiling-6",
+      "name": "Printf debugging vs trace"
+    }
+  ]
+}

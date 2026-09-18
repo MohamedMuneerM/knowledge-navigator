@@ -1,0 +1,58 @@
+{
+  "id": "mt-heat-treatment",
+  "name": "Heat Treatment & Thermomechanical Processing",
+  "category": "Materials Processing & Manufacturing",
+  "level": 3,
+  "priority": "core",
+  "summary": "Shows how controlled heating and cooling set the properties of steels and alloys, and how to design heat-treatment schedules.",
+  "prerequisites": [
+    "mt-steels"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "mt-heat-treatment-1",
+      "name": "Annealing, normalising and stress relieving"
+    },
+    {
+      "id": "mt-heat-treatment-2",
+      "name": "Austenitising, quenching media and quench severity"
+    },
+    {
+      "id": "mt-heat-treatment-3",
+      "name": "Tempering and tempering diagrams"
+    },
+    {
+      "id": "mt-heat-treatment-4",
+      "name": "Hardenability revisited: designing for section size"
+    },
+    {
+      "id": "mt-heat-treatment-5",
+      "name": "Austempering, martempering and quench-and-partition treatments"
+    },
+    {
+      "id": "mt-heat-treatment-6",
+      "name": "Surface hardening: carburising, nitriding, carbonitriding, induction and laser hardening"
+    },
+    {
+      "id": "mt-heat-treatment-7",
+      "name": "Solution treatment and ageing of aluminium, titanium and nickel alloys"
+    },
+    {
+      "id": "mt-heat-treatment-8",
+      "name": "Distortion, quench cracking and residual stresses"
+    },
+    {
+      "id": "mt-heat-treatment-9",
+      "name": "Furnaces, atmospheres, vacuum heat treatment and hot isostatic pressing (HIP)"
+    },
+    {
+      "id": "mt-heat-treatment-10",
+      "name": "Thermomechanical processing routes combining deformation and heat treatment"
+    },
+    {
+      "id": "mt-heat-treatment-11",
+      "name": "Heat-treatment simulation and specification (AMS standards)"
+    }
+  ]
+}

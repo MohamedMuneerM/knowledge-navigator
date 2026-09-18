@@ -1,0 +1,60 @@
+{
+  "id": "bi-extremophiles",
+  "name": "Extremophiles & Life at the Limits",
+  "category": "Astrobiology & Space Biology",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Organisms that thrive in extreme heat, cold, salt, acid, pressure or radiation, and what they tell us about where life could exist.",
+  "prerequisites": [
+    "bi-microbiology"
+  ],
+  "related": [
+    "ea-geobiology"
+  ],
+  "topics": [
+    {
+      "id": "bi-extremophiles-1",
+      "name": "Defining the physical and chemical limits of life"
+    },
+    {
+      "id": "bi-extremophiles-2",
+      "name": "Thermophiles and hyperthermophiles"
+    },
+    {
+      "id": "bi-extremophiles-3",
+      "name": "Psychrophiles and life in ice and permafrost"
+    },
+    {
+      "id": "bi-extremophiles-4",
+      "name": "Halophiles and life in brines"
+    },
+    {
+      "id": "bi-extremophiles-5",
+      "name": "Acidophiles and alkaliphiles"
+    },
+    {
+      "id": "bi-extremophiles-6",
+      "name": "Piezophiles and the deep biosphere"
+    },
+    {
+      "id": "bi-extremophiles-7",
+      "name": "Radiation resistance: Deinococcus radiodurans"
+    },
+    {
+      "id": "bi-extremophiles-8",
+      "name": "Desiccation tolerance and cryptobiosis: tardigrades and endolithic microbes"
+    },
+    {
+      "id": "bi-extremophiles-9",
+      "name": "Chemolithoautotrophs at hydrothermal vents"
+    },
+    {
+      "id": "bi-extremophiles-10",
+      "name": "Earth analogue environments for Mars and icy moons"
+    },
+    {
+      "id": "bi-extremophiles-11",
+      "name": "Extremophile enzymes in biotechnology"
+    }
+  ]
+}

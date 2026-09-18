@@ -1,0 +1,63 @@
+{
+  "id": "ai-wearable-ai-assistants-ar",
+  "name": "Wearable AI Assistants & Augmented Reality",
+  "category": "Human-Centred Robotics & Augmentation",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "AI that sees and hears from the wearer's point of view and overlays information on the world, as in smart glasses, heads-up displays and AR headsets.",
+  "prerequisites": [
+    "ai-3d-computer-vision",
+    "ai-conversational-ai-voice-assistants"
+  ],
+  "related": [
+    "el-extended-reality-integration",
+    "el-display-technologies",
+    "cs-virtual-augmented-reality"
+  ],
+  "topics": [
+    {
+      "id": "ai-wearable-ai-assistants-ar-1",
+      "name": "AR and MR fundamentals: optical versus video see-through, heads-up displays"
+    },
+    {
+      "id": "ai-wearable-ai-assistants-ar-2",
+      "name": "Head tracking and visual-inertial odometry on headsets"
+    },
+    {
+      "id": "ai-wearable-ai-assistants-ar-3",
+      "name": "Spatial mapping and scene understanding for AR"
+    },
+    {
+      "id": "ai-wearable-ai-assistants-ar-4",
+      "name": "Hand tracking and gesture input"
+    },
+    {
+      "id": "ai-wearable-ai-assistants-ar-5",
+      "name": "Eye tracking and gaze interaction"
+    },
+    {
+      "id": "ai-wearable-ai-assistants-ar-6",
+      "name": "Egocentric vision: activity recognition and episodic memory (Ego4D)"
+    },
+    {
+      "id": "ai-wearable-ai-assistants-ar-7",
+      "name": "Multimodal assistant pipelines: voice plus vision"
+    },
+    {
+      "id": "ai-wearable-ai-assistants-ar-8",
+      "name": "On-device models under power, thermal and latency budgets"
+    },
+    {
+      "id": "ai-wearable-ai-assistants-ar-9",
+      "name": "Information display and attention management on HUDs"
+    },
+    {
+      "id": "ai-wearable-ai-assistants-ar-10",
+      "name": "Privacy and bystander concerns"
+    },
+    {
+      "id": "ai-wearable-ai-assistants-ar-11",
+      "name": "Case studies: smart glasses, pilot and soldier HUDs"
+    }
+  ]
+}

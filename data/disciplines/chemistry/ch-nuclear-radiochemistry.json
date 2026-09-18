@@ -1,0 +1,65 @@
+{
+  "id": "ch-nuclear-radiochemistry",
+  "name": "Nuclear & Radiochemistry",
+  "category": "Nuclear & Radiochemistry",
+  "level": 3,
+  "priority": "important",
+  "summary": "Radioactive decay, nuclear reactions and the chemical handling, detection and uses of radionuclides.",
+  "prerequisites": [
+    "ch-chemical-kinetics-intro"
+  ],
+  "related": [
+    "ph-nuclear-physics",
+    "ea-isotope-geochemistry"
+  ],
+  "topics": [
+    {
+      "id": "ch-nuclear-radiochemistry-1",
+      "name": "Nuclear structure, stability and binding energy"
+    },
+    {
+      "id": "ch-nuclear-radiochemistry-2",
+      "name": "Modes of radioactive decay: alpha, beta, gamma, electron capture and spontaneous fission"
+    },
+    {
+      "id": "ch-nuclear-radiochemistry-3",
+      "name": "Decay kinetics, decay chains and secular equilibrium"
+    },
+    {
+      "id": "ch-nuclear-radiochemistry-4",
+      "name": "Nuclear reactions, cross sections and energetics"
+    },
+    {
+      "id": "ch-nuclear-radiochemistry-5",
+      "name": "Fission and fusion"
+    },
+    {
+      "id": "ch-nuclear-radiochemistry-6",
+      "name": "Interaction of radiation with matter"
+    },
+    {
+      "id": "ch-nuclear-radiochemistry-7",
+      "name": "Radiation detection and measurement"
+    },
+    {
+      "id": "ch-nuclear-radiochemistry-8",
+      "name": "Dosimetry, biological effects and radiation protection"
+    },
+    {
+      "id": "ch-nuclear-radiochemistry-9",
+      "name": "Radiotracers and isotope-dilution techniques"
+    },
+    {
+      "id": "ch-nuclear-radiochemistry-10",
+      "name": "Radiometric dating (¹⁴C, U-Pb, K-Ar)"
+    },
+    {
+      "id": "ch-nuclear-radiochemistry-11",
+      "name": "Radiation chemistry and hot-atom chemistry (radiolysis of water)"
+    },
+    {
+      "id": "ch-nuclear-radiochemistry-12",
+      "name": "Production of radionuclides: reactors, cyclotrons and generators"
+    }
+  ]
+}

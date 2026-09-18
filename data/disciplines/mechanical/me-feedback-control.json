@@ -1,0 +1,75 @@
+{
+  "id": "me-feedback-control",
+  "name": "Feedback Control of Mechanical Systems",
+  "category": "System Dynamics, Measurement & Control",
+  "level": 3,
+  "priority": "core",
+  "summary": "Designing controllers that make machines behave as intended: stability, PID, root locus, frequency-domain and state-space design, and implementation.",
+  "prerequisites": [
+    "me-system-dynamics"
+  ],
+  "related": [
+    "el-control-theory",
+    "ma-control-theory",
+    "ai-control-systems",
+    "ae-feedback-control-aerospace"
+  ],
+  "topics": [
+    {
+      "id": "me-feedback-control-1",
+      "name": "Open- vs closed-loop control; benefits and costs of feedback"
+    },
+    {
+      "id": "me-feedback-control-2",
+      "name": "Performance specifications: transient response and steady-state error"
+    },
+    {
+      "id": "me-feedback-control-3",
+      "name": "Stability and the Routh-Hurwitz criterion"
+    },
+    {
+      "id": "me-feedback-control-4",
+      "name": "PID control and practical tuning (Ziegler-Nichols, anti-windup)"
+    },
+    {
+      "id": "me-feedback-control-5",
+      "name": "Root-locus analysis and design"
+    },
+    {
+      "id": "me-feedback-control-6",
+      "name": "Frequency-response design: Bode and Nyquist plots, gain and phase margins"
+    },
+    {
+      "id": "me-feedback-control-7",
+      "name": "Lead, lag and lead-lag compensation"
+    },
+    {
+      "id": "me-feedback-control-8",
+      "name": "State-space control: controllability, observability, pole placement, observers"
+    },
+    {
+      "id": "me-feedback-control-9",
+      "name": "Digital control: sampling, discretisation and z-transform basics"
+    },
+    {
+      "id": "me-feedback-control-10",
+      "name": "Motion control: feedforward, trajectory tracking, cascaded position/velocity loops"
+    },
+    {
+      "id": "me-feedback-control-11",
+      "name": "Nonlinearities: saturation, backlash and friction compensation"
+    },
+    {
+      "id": "me-feedback-control-12",
+      "name": "Introduction to optimal (LQR) and model predictive control"
+    },
+    {
+      "id": "me-feedback-control-13",
+      "name": "Introduction to robust, adaptive and nonlinear control"
+    },
+    {
+      "id": "me-feedback-control-14",
+      "name": "Implementation on hardware and hardware-in-the-loop testing"
+    }
+  ]
+}

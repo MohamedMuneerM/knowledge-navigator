@@ -1,0 +1,55 @@
+{
+  "id": "ch-chemical-equilibrium",
+  "name": "Chemical Equilibrium",
+  "category": "General Chemistry",
+  "level": 2,
+  "priority": "core",
+  "summary": "Dynamic equilibrium, equilibrium constants and how equilibria respond to change.",
+  "prerequisites": [
+    "ch-thermochemistry",
+    "ma-precalculus"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-chemical-equilibrium-1",
+      "name": "Dynamic equilibrium and the law of mass action"
+    },
+    {
+      "id": "ch-chemical-equilibrium-2",
+      "name": "Equilibrium constants Kc and Kp and their relationship"
+    },
+    {
+      "id": "ch-chemical-equilibrium-3",
+      "name": "Reaction quotient Q and predicting the direction of change"
+    },
+    {
+      "id": "ch-chemical-equilibrium-4",
+      "name": "ICE tables and equilibrium calculations"
+    },
+    {
+      "id": "ch-chemical-equilibrium-5",
+      "name": "Le Châtelier's principle: concentration, pressure, temperature and catalysts"
+    },
+    {
+      "id": "ch-chemical-equilibrium-6",
+      "name": "Heterogeneous equilibria"
+    },
+    {
+      "id": "ch-chemical-equilibrium-7",
+      "name": "Free energy and equilibrium: ΔG° = −RT ln K and the van 't Hoff equation"
+    },
+    {
+      "id": "ch-chemical-equilibrium-8",
+      "name": "Solubility equilibria: Ksp, common-ion effect and selective precipitation"
+    },
+    {
+      "id": "ch-chemical-equilibrium-9",
+      "name": "Complex-ion equilibria and formation constants"
+    },
+    {
+      "id": "ch-chemical-equilibrium-10",
+      "name": "Industrial application: the Haber-Bosch process"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "ea-geomorphology",
+  "name": "Geomorphology",
+  "category": "Earth Surface Processes",
+  "level": 3,
+  "priority": "core",
+  "summary": "The science of landscapes: the processes that erode, transport and deposit material and how landforms evolve over time.",
+  "prerequisites": [
+    "ea-physical-geology",
+    "ma-calculus",
+    "ph-introductory-mechanics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-geomorphology-1",
+      "name": "Landscapes as systems: mass balance, rates and timescales"
+    },
+    {
+      "id": "ea-geomorphology-2",
+      "name": "Weathering, regolith production and the critical zone"
+    },
+    {
+      "id": "ea-geomorphology-3",
+      "name": "Hillslope processes: soil creep, diffusion and landsliding"
+    },
+    {
+      "id": "ea-geomorphology-4",
+      "name": "Fluvial geomorphology: channels, networks and river profiles"
+    },
+    {
+      "id": "ea-geomorphology-5",
+      "name": "Drainage basins and landscape evolution models"
+    },
+    {
+      "id": "ea-geomorphology-6",
+      "name": "Glacial and periglacial landforms"
+    },
+    {
+      "id": "ea-geomorphology-7",
+      "name": "Aeolian processes and desert landforms"
+    },
+    {
+      "id": "ea-geomorphology-8",
+      "name": "Coastal landforms in outline"
+    },
+    {
+      "id": "ea-geomorphology-9",
+      "name": "Karst landscapes"
+    },
+    {
+      "id": "ea-geomorphology-10",
+      "name": "Tectonic geomorphology: uplift, erosion and topography"
+    },
+    {
+      "id": "ea-geomorphology-11",
+      "name": "Dating landforms and measuring erosion rates"
+    },
+    {
+      "id": "ea-geomorphology-12",
+      "name": "Digital topography and terrain analysis"
+    }
+  ]
+}

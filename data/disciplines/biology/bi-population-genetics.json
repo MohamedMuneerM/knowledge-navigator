@@ -1,0 +1,66 @@
+{
+  "id": "bi-population-genetics",
+  "name": "Population & Quantitative Genetics",
+  "category": "Evolution",
+  "level": 3,
+  "priority": "core",
+  "summary": "The mathematics of evolution: how allele frequencies change under drift, selection, mutation and migration, and how continuous traits are inherited.",
+  "prerequisites": [
+    "bi-evolutionary-biology",
+    "ma-probability-theory"
+  ],
+  "related": [
+    "ma-mathematical-biology",
+    "ma-stochastic-processes"
+  ],
+  "topics": [
+    {
+      "id": "bi-population-genetics-1",
+      "name": "Hardy-Weinberg equilibrium and its assumptions"
+    },
+    {
+      "id": "bi-population-genetics-2",
+      "name": "Genetic drift, effective population size and fixation probability"
+    },
+    {
+      "id": "bi-population-genetics-3",
+      "name": "Models of selection: fitness, dominance and selection coefficients"
+    },
+    {
+      "id": "bi-population-genetics-4",
+      "name": "Mutation-selection balance and genetic load"
+    },
+    {
+      "id": "bi-population-genetics-5",
+      "name": "Migration, gene flow and population structure (F-statistics)"
+    },
+    {
+      "id": "bi-population-genetics-6",
+      "name": "Inbreeding and non-random mating"
+    },
+    {
+      "id": "bi-population-genetics-7",
+      "name": "Linkage disequilibrium and recombination"
+    },
+    {
+      "id": "bi-population-genetics-8",
+      "name": "The coalescent and gene genealogies"
+    },
+    {
+      "id": "bi-population-genetics-9",
+      "name": "Detecting selection in genomic data"
+    },
+    {
+      "id": "bi-population-genetics-10",
+      "name": "Quantitative traits: variance components and heritability"
+    },
+    {
+      "id": "bi-population-genetics-11",
+      "name": "Response to selection: the breeder's equation and artificial selection"
+    },
+    {
+      "id": "bi-population-genetics-12",
+      "name": "QTL mapping and the genetic architecture of complex traits"
+    }
+  ]
+}

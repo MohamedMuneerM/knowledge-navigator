@@ -1,0 +1,49 @@
+{
+  "id": "ai-feature-engineering-at-scale",
+  "name": "Feature Engineering at Scale",
+  "category": "MLOps & ML Engineering",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Managing features for production ML with feature stores, batch and streaming feature pipelines, and consistent online and offline features.",
+  "prerequisites": [
+    "ai-data-engineering",
+    "ai-model-deployment"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-feature-engineering-at-scale-1",
+      "name": "Feature Stores",
+      "sub": [
+        {
+          "id": "ai-feature-engineering-at-scale-1-1",
+          "name": "Feast"
+        },
+        {
+          "id": "ai-feature-engineering-at-scale-1-2",
+          "name": "Tecton"
+        }
+      ]
+    },
+    {
+      "id": "ai-feature-engineering-at-scale-2",
+      "name": "Feature Pipelines"
+    },
+    {
+      "id": "ai-feature-engineering-at-scale-3",
+      "name": "Online vs. Offline Features"
+    },
+    {
+      "id": "ai-feature-engineering-at-scale-4",
+      "name": "Training-serving skew"
+    },
+    {
+      "id": "ai-feature-engineering-at-scale-5",
+      "name": "Point-in-time correct feature joins"
+    },
+    {
+      "id": "ai-feature-engineering-at-scale-6",
+      "name": "Streaming features"
+    }
+  ]
+}

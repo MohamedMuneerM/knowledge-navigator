@@ -1,0 +1,68 @@
+{
+  "id": "me-actuators-drive-trains",
+  "name": "Actuators & Drive Trains for Robots and Machines",
+  "category": "Mechatronics & Robotics",
+  "level": 4,
+  "priority": "important",
+  "summary": "Choosing and designing the motor, transmission and compliance that turn electrical or fluid power into controlled, power-dense mechanical motion.",
+  "prerequisites": [
+    "me-mechatronics",
+    "me-gears-power-transmission"
+  ],
+  "related": [
+    "el-actuators",
+    "el-actuators-drives",
+    "el-motor-control",
+    "ai-actuators-sensors"
+  ],
+  "topics": [
+    {
+      "id": "me-actuators-drive-trains-1",
+      "name": "Actuator figures of merit: torque/force density, power density, bandwidth, efficiency, backdrivability"
+    },
+    {
+      "id": "me-actuators-drive-trains-2",
+      "name": "Electric motor physics for mechanical designers: torque constant, torque-speed curves, thermal limits"
+    },
+    {
+      "id": "me-actuators-drive-trains-3",
+      "name": "Motor and gear-ratio selection; inertia matching and reflected inertia"
+    },
+    {
+      "id": "me-actuators-drive-trains-4",
+      "name": "High-ratio reducers for robots: planetary, harmonic and cycloidal trade-offs"
+    },
+    {
+      "id": "me-actuators-drive-trains-5",
+      "name": "Quasi-direct-drive and proprioceptive actuators"
+    },
+    {
+      "id": "me-actuators-drive-trains-6",
+      "name": "Series elastic and variable-stiffness actuators"
+    },
+    {
+      "id": "me-actuators-drive-trains-7",
+      "name": "Linear actuation: ball screws, roller screws, belts and rack-and-pinion"
+    },
+    {
+      "id": "me-actuators-drive-trains-8",
+      "name": "Cable and tendon drives, Bowden cables and capstan transmissions"
+    },
+    {
+      "id": "me-actuators-drive-trains-9",
+      "name": "Hydraulic vs electric vs pneumatic actuation for mobile and wearable robots"
+    },
+    {
+      "id": "me-actuators-drive-trains-10",
+      "name": "Actuator thermal modeling and duty-cycle rating"
+    },
+    {
+      "id": "me-actuators-drive-trains-11",
+      "name": "Clutches, brakes and mechanical safety features in actuators"
+    },
+    {
+      "id": "me-actuators-drive-trains-12",
+      "name": "Integrated actuator module design (motor, gearbox, encoder, driver, torque sensing)"
+    }
+  ]
+}

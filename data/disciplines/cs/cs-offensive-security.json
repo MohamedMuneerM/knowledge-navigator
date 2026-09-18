@@ -1,0 +1,65 @@
+{
+  "id": "cs-offensive-security",
+  "name": "Penetration Testing & Ethical Hacking",
+  "category": "Security",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Authorized attack practice: reconnaissance, exploitation, privilege escalation and reporting, as done by penetration testers and red teams.",
+  "prerequisites": [
+    "cs-network-security",
+    "cs-application-security"
+  ],
+  "related": [
+    "el-threat-mitigation"
+  ],
+  "topics": [
+    {
+      "id": "cs-offensive-security-1",
+      "name": "Ethics, rules of engagement and legal authorization"
+    },
+    {
+      "id": "cs-offensive-security-2",
+      "name": "Reconnaissance and OSINT"
+    },
+    {
+      "id": "cs-offensive-security-3",
+      "name": "Scanning and enumeration (Nmap)"
+    },
+    {
+      "id": "cs-offensive-security-4",
+      "name": "Vulnerability assessment"
+    },
+    {
+      "id": "cs-offensive-security-5",
+      "name": "Exploitation frameworks (Metasploit)"
+    },
+    {
+      "id": "cs-offensive-security-6",
+      "name": "Web application penetration testing (Burp Suite)"
+    },
+    {
+      "id": "cs-offensive-security-7",
+      "name": "Password attacks"
+    },
+    {
+      "id": "cs-offensive-security-8",
+      "name": "Privilege escalation on Linux and Windows"
+    },
+    {
+      "id": "cs-offensive-security-9",
+      "name": "Active Directory attacks"
+    },
+    {
+      "id": "cs-offensive-security-10",
+      "name": "Post-exploitation and lateral movement"
+    },
+    {
+      "id": "cs-offensive-security-11",
+      "name": "Writing penetration-test reports"
+    },
+    {
+      "id": "cs-offensive-security-12",
+      "name": "Capture-the-flag practice and red teaming"
+    }
+  ]
+}

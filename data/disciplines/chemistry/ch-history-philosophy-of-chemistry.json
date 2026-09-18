@@ -1,0 +1,50 @@
+{
+  "id": "ch-history-philosophy-of-chemistry",
+  "name": "History & Philosophy of Chemistry",
+  "category": "Laboratory & Professional Skills",
+  "level": 2,
+  "priority": "optional",
+  "summary": "How chemistry grew from alchemy into a modern science, and the philosophical questions it raises.",
+  "prerequisites": [
+    "ch-introductory-chemistry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-history-philosophy-of-chemistry-1",
+      "name": "Ancient matter theories and alchemy"
+    },
+    {
+      "id": "ch-history-philosophy-of-chemistry-2",
+      "name": "Lavoisier and the chemical revolution"
+    },
+    {
+      "id": "ch-history-philosophy-of-chemistry-3",
+      "name": "Dalton's atomic theory and the atomic debate"
+    },
+    {
+      "id": "ch-history-philosophy-of-chemistry-4",
+      "name": "Mendeleev and the periodic system"
+    },
+    {
+      "id": "ch-history-philosophy-of-chemistry-5",
+      "name": "Structural theory of organic chemistry (Kekulé, van 't Hoff)"
+    },
+    {
+      "id": "ch-history-philosophy-of-chemistry-6",
+      "name": "The quantum revolution in chemistry (Lewis, Pauling, Mulliken)"
+    },
+    {
+      "id": "ch-history-philosophy-of-chemistry-7",
+      "name": "The rise of the chemical industry and chemistry in wartime"
+    },
+    {
+      "id": "ch-history-philosophy-of-chemistry-8",
+      "name": "Philosophy of chemistry: reduction to physics, the nature of bonds and elements"
+    },
+    {
+      "id": "ch-history-philosophy-of-chemistry-9",
+      "name": "Chemistry and society: disasters, public perception and the Nobel prizes"
+    }
+  ]
+}

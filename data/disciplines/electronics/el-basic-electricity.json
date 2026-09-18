@@ -1,0 +1,61 @@
+{
+  "id": "el-basic-electricity",
+  "name": "Basic Electricity",
+  "category": "Getting Started",
+  "level": 1,
+  "priority": "core",
+  "summary": "A first contact with electricity: charge, voltage, current, resistance, power and how to work safely with them.",
+  "prerequisites": [
+    "ma-elementary-intermediate-algebra"
+  ],
+  "related": [
+    "ph-classical-electromagnetism",
+    "ph-introductory-electricity-magnetism"
+  ],
+  "topics": [
+    {
+      "id": "el-basic-electricity-1",
+      "name": "Atoms, electric charge and conductors vs insulators"
+    },
+    {
+      "id": "el-basic-electricity-2",
+      "name": "Current, voltage and resistance: the water analogy and its limits"
+    },
+    {
+      "id": "el-basic-electricity-3",
+      "name": "Ohm's law and simple calculations"
+    },
+    {
+      "id": "el-basic-electricity-4",
+      "name": "Electrical power and energy (watts, watt-hours, efficiency)"
+    },
+    {
+      "id": "el-basic-electricity-5",
+      "name": "Series and parallel circuits"
+    },
+    {
+      "id": "el-basic-electricity-6",
+      "name": "Units, SI prefixes and scientific notation for electrical quantities"
+    },
+    {
+      "id": "el-basic-electricity-7",
+      "name": "DC vs AC: batteries, mains electricity and frequency"
+    },
+    {
+      "id": "el-basic-electricity-8",
+      "name": "Magnetism, electromagnets and induction (intuitive introduction)"
+    },
+    {
+      "id": "el-basic-electricity-9",
+      "name": "Capacitors and inductors: what they store and why they matter"
+    },
+    {
+      "id": "el-basic-electricity-10",
+      "name": "Electrical safety: shock, burns, fuses, circuit breakers and earthing"
+    },
+    {
+      "id": "el-basic-electricity-11",
+      "name": "How electricity reaches your home: generation to socket overview"
+    }
+  ]
+}

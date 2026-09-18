@@ -1,0 +1,39 @@
+{
+  "id": "ma-stochastic-calculus",
+  "name": "Stochastic Calculus",
+  "category": "Probability & Statistics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Calculus for Brownian motion: the Ito integral, Ito's formula and stochastic differential equations.",
+  "prerequisites": [
+    "ma-stochastic-processes",
+    "ma-measure-theoretic-probability"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-stochastic-calculus-4",
+      "name": "Brownian motion and quadratic variation"
+    },
+    {
+      "id": "ma-stochastic-calculus-3",
+      "name": "Stochastic integration"
+    },
+    {
+      "id": "ma-stochastic-calculus-1",
+      "name": "Itô calculus"
+    },
+    {
+      "id": "ma-stochastic-calculus-2",
+      "name": "Stochastic differential equations"
+    },
+    {
+      "id": "ma-stochastic-calculus-5",
+      "name": "Girsanov theorem and change of measure"
+    },
+    {
+      "id": "ma-stochastic-calculus-6",
+      "name": "Feynman-Kac formula"
+    }
+  ]
+}

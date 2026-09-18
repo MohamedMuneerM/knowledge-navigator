@@ -1,0 +1,38 @@
+{
+  "id": "el-rtos-services",
+  "name": "RTOS Services",
+  "category": "Embedded Software, Firmware & RTOS",
+  "level": 3,
+  "priority": "important",
+  "summary": "Using RTOS APIs in practice: task creation, synchronization primitives, software timers, memory and interrupt management, tick configuration.",
+  "prerequisites": [
+    "el-rtos-concepts"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-rtos-services-1",
+      "name": "Task creation and deletion"
+    },
+    {
+      "id": "el-rtos-services-2",
+      "name": "Task synchronization primitives"
+    },
+    {
+      "id": "el-rtos-services-3",
+      "name": "Timers (software timers)"
+    },
+    {
+      "id": "el-rtos-services-4",
+      "name": "Memory management APIs"
+    },
+    {
+      "id": "el-rtos-services-5",
+      "name": "Interrupt management"
+    },
+    {
+      "id": "el-rtos-services-6",
+      "name": "Time management and tick configuration"
+    }
+  ]
+}

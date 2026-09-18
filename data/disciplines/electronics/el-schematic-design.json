@@ -1,0 +1,42 @@
+{
+  "id": "el-schematic-design",
+  "name": "Schematic Design",
+  "category": "PCB Design & Hardware Development",
+  "level": 2,
+  "priority": "core",
+  "summary": "Capturing a circuit professionally in an EDA tool: part selection and libraries, hierarchical sheets, ERC and BOM generation.",
+  "prerequisites": [
+    "el-hands-on-electronics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-schematic-design-1",
+      "name": "Schematic capture tools (KiCad, Eagle, Altium, OrCAD)"
+    },
+    {
+      "id": "el-schematic-design-2",
+      "name": "Component selection and part libraries"
+    },
+    {
+      "id": "el-schematic-design-3",
+      "name": "Symbol creation"
+    },
+    {
+      "id": "el-schematic-design-4",
+      "name": "Hierarchical and multi-sheet design"
+    },
+    {
+      "id": "el-schematic-design-5",
+      "name": "Design rule checking (ERC)"
+    },
+    {
+      "id": "el-schematic-design-6",
+      "name": "Bill of Materials (BOM) generation"
+    },
+    {
+      "id": "el-schematic-design-7",
+      "name": "Net naming and annotation"
+    }
+  ]
+}

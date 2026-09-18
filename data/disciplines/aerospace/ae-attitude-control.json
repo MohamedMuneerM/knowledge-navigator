@@ -1,0 +1,69 @@
+{
+  "id": "ae-attitude-control",
+  "name": "Spacecraft Attitude Control",
+  "category": "Guidance, Navigation & Control",
+  "level": 3,
+  "priority": "core",
+  "summary": "Actuators and control laws that point spacecraft and keep them stable: wheels, CMGs, magnetorquers and thrusters.",
+  "prerequisites": [
+    "ae-attitude-kinematics-dynamics",
+    "ae-feedback-control-aerospace"
+  ],
+  "related": [
+    "el-state-space-digital-control"
+  ],
+  "topics": [
+    {
+      "id": "ae-attitude-control-1",
+      "name": "ADCS requirements: pointing accuracy, stability, agility"
+    },
+    {
+      "id": "ae-attitude-control-2",
+      "name": "Reaction wheels and momentum wheels"
+    },
+    {
+      "id": "ae-attitude-control-3",
+      "name": "Control moment gyroscopes and singularities"
+    },
+    {
+      "id": "ae-attitude-control-4",
+      "name": "Magnetic torquers and B-dot detumbling"
+    },
+    {
+      "id": "ae-attitude-control-5",
+      "name": "Reaction control thrusters and pulse-width modulation"
+    },
+    {
+      "id": "ae-attitude-control-6",
+      "name": "Attitude control laws: PD, quaternion feedback, nonlinear control"
+    },
+    {
+      "id": "ae-attitude-control-7",
+      "name": "Large-angle slew manoeuvres"
+    },
+    {
+      "id": "ae-attitude-control-8",
+      "name": "Momentum management and desaturation"
+    },
+    {
+      "id": "ae-attitude-control-9",
+      "name": "Spin-stabilised and passive control"
+    },
+    {
+      "id": "ae-attitude-control-10",
+      "name": "Control of flexible spacecraft"
+    },
+    {
+      "id": "ae-attitude-control-11",
+      "name": "Pointing error budgets and jitter"
+    },
+    {
+      "id": "ae-attitude-control-12",
+      "name": "Safe mode and ADCS fault handling"
+    },
+    {
+      "id": "ae-attitude-control-13",
+      "name": "ADCS for CubeSats"
+    }
+  ]
+}

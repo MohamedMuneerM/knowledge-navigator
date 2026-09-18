@@ -1,0 +1,58 @@
+{
+  "id": "el-advanced-control-systems",
+  "name": "Nonlinear, Robust & Predictive Control",
+  "category": "Control Systems & Robotics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Graduate control topics: Lyapunov methods, nonlinear and sliding-mode control, robust H-infinity control, MPC, adaptive control and system identification.",
+  "prerequisites": [
+    "el-state-space-digital-control"
+  ],
+  "related": [
+    "ma-calculus-of-variations-optimal-control",
+    "ma-dynamical-systems",
+    "ma-control-theory"
+  ],
+  "topics": [
+    {
+      "id": "el-advanced-control-systems-1",
+      "name": "Nonlinear system behaviour and phase-plane analysis"
+    },
+    {
+      "id": "el-advanced-control-systems-2",
+      "name": "Lyapunov stability theory"
+    },
+    {
+      "id": "el-advanced-control-systems-3",
+      "name": "Feedback linearization and sliding-mode control"
+    },
+    {
+      "id": "el-advanced-control-systems-4",
+      "name": "Describing functions and limit cycles"
+    },
+    {
+      "id": "el-advanced-control-systems-5",
+      "name": "Robust control: model uncertainty, H-infinity and mu-synthesis"
+    },
+    {
+      "id": "el-advanced-control-systems-6",
+      "name": "Model predictive control (MPC)"
+    },
+    {
+      "id": "el-advanced-control-systems-7",
+      "name": "Adaptive control (MRAC, self-tuning regulators)"
+    },
+    {
+      "id": "el-advanced-control-systems-8",
+      "name": "System identification"
+    },
+    {
+      "id": "el-advanced-control-systems-9",
+      "name": "Optimal control and Pontryagin's principle"
+    },
+    {
+      "id": "el-advanced-control-systems-10",
+      "name": "Data-driven and learning-based control"
+    }
+  ]
+}

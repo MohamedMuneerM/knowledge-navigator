@@ -1,0 +1,40 @@
+{
+  "id": "el-communities-organizations",
+  "name": "Communities & Organizations",
+  "category": "Professional Practice, Business & Community",
+  "level": 1,
+  "priority": "optional",
+  "summary": "The communities around electronics: IEEE and ACM, makerspaces, forums, open-source projects and maker publications.",
+  "prerequisites": [],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-communities-organizations-1",
+      "name": "IEEE (professional society)"
+    },
+    {
+      "id": "el-communities-organizations-2",
+      "name": "ACM (Association for Computing Machinery)"
+    },
+    {
+      "id": "el-communities-organizations-3",
+      "name": "Hackerspaces and makerspaces"
+    },
+    {
+      "id": "el-communities-organizations-4",
+      "name": "Online forums (Stack Overflow, Reddit, EEVblog)"
+    },
+    {
+      "id": "el-communities-organizations-5",
+      "name": "GitHub and open-source projects"
+    },
+    {
+      "id": "el-communities-organizations-6",
+      "name": "Meetup groups and local clubs"
+    },
+    {
+      "id": "el-communities-organizations-7",
+      "name": "Hackaday, Instructables, Element14 Community"
+    }
+  ]
+}

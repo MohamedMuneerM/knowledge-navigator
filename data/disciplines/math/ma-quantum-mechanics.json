@@ -1,0 +1,53 @@
+{
+  "id": "ma-quantum-mechanics",
+  "name": "Quantum Mechanics",
+  "category": "Mathematical Physics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "The mathematical formalism of quantum theory: Hilbert spaces, operators, the Schroedinger equation, perturbation and scattering theory.",
+  "prerequisites": [
+    "ma-mathematical-methods",
+    "ma-probability-theory",
+    "ma-linear-algebra",
+    "ph-modern-physics"
+  ],
+  "related": [
+    "ph-quantum-mechanics",
+    "ph-advanced-quantum-mechanics",
+    "ch-quantum-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "ma-quantum-mechanics-2",
+      "name": "Hilbert space formulation"
+    },
+    {
+      "id": "ma-quantum-mechanics-3",
+      "name": "Quantum operators"
+    },
+    {
+      "id": "ma-quantum-mechanics-1",
+      "name": "Schrödinger equation"
+    },
+    {
+      "id": "ma-quantum-mechanics-6",
+      "name": "Harmonic oscillator and hydrogen atom"
+    },
+    {
+      "id": "ma-quantum-mechanics-7",
+      "name": "Angular momentum and spin"
+    },
+    {
+      "id": "ma-quantum-mechanics-4",
+      "name": "Perturbation theory"
+    },
+    {
+      "id": "ma-quantum-mechanics-5",
+      "name": "Scattering theory"
+    },
+    {
+      "id": "ma-quantum-mechanics-8",
+      "name": "Rigorous foundations: unbounded self-adjoint operators"
+    }
+  ]
+}

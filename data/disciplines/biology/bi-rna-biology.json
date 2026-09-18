@@ -1,0 +1,50 @@
+{
+  "id": "bi-rna-biology",
+  "name": "RNA Biology",
+  "category": "Cell & Molecular Biology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "RNA beyond messenger: splicing mechanics, catalytic and regulatory RNAs, RNA modifications and RNA-based therapeutics.",
+  "prerequisites": [
+    "bi-gene-regulation-epigenetics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-rna-biology-1",
+      "name": "RNA structure: secondary and tertiary folding"
+    },
+    {
+      "id": "bi-rna-biology-2",
+      "name": "Spliceosome mechanics and alternative splicing"
+    },
+    {
+      "id": "bi-rna-biology-3",
+      "name": "Ribozymes and the catalytic ribosome"
+    },
+    {
+      "id": "bi-rna-biology-4",
+      "name": "RNA interference pathways and piRNAs"
+    },
+    {
+      "id": "bi-rna-biology-5",
+      "name": "Long non-coding RNAs and circular RNAs"
+    },
+    {
+      "id": "bi-rna-biology-6",
+      "name": "The epitranscriptome: m6A and other RNA modifications"
+    },
+    {
+      "id": "bi-rna-biology-7",
+      "name": "RNA-binding proteins, granules and phase separation"
+    },
+    {
+      "id": "bi-rna-biology-8",
+      "name": "RNA decay and quality control (nonsense-mediated decay)"
+    },
+    {
+      "id": "bi-rna-biology-9",
+      "name": "RNA therapeutics: antisense oligonucleotides, siRNA drugs and mRNA vaccines"
+    }
+  ]
+}

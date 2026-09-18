@@ -1,0 +1,64 @@
+{
+  "id": "me-welding-joining",
+  "name": "Welding & Joining Technology",
+  "category": "Manufacturing Engineering",
+  "level": 3,
+  "priority": "important",
+  "summary": "Fusion, solid-state and other joining processes, weld metallurgy, residual stress and distortion, inspection and welding codes.",
+  "prerequisites": [
+    "me-manufacturing-processes"
+  ],
+  "related": [
+    "mt-joining"
+  ],
+  "topics": [
+    {
+      "id": "me-welding-joining-1",
+      "name": "Welding heat sources, heat flow and heat input"
+    },
+    {
+      "id": "me-welding-joining-2",
+      "name": "Arc welding: SMAW, GMAW (MIG), GTAW (TIG), FCAW, SAW and plasma"
+    },
+    {
+      "id": "me-welding-joining-3",
+      "name": "Resistance welding: spot, seam and projection"
+    },
+    {
+      "id": "me-welding-joining-4",
+      "name": "High-energy-beam welding: laser and electron beam"
+    },
+    {
+      "id": "me-welding-joining-5",
+      "name": "Solid-state welding: friction, friction stir, ultrasonic and diffusion bonding"
+    },
+    {
+      "id": "me-welding-joining-6",
+      "name": "Brazing and soldering"
+    },
+    {
+      "id": "me-welding-joining-7",
+      "name": "Welding metallurgy: fusion zone, heat-affected zone, weldability and preheat"
+    },
+    {
+      "id": "me-welding-joining-8",
+      "name": "Residual stresses and distortion control"
+    },
+    {
+      "id": "me-welding-joining-9",
+      "name": "Weld defects and nondestructive testing"
+    },
+    {
+      "id": "me-welding-joining-10",
+      "name": "Welding codes and qualification (WPS/PQR, AWS D1.1, ASME Section IX)"
+    },
+    {
+      "id": "me-welding-joining-11",
+      "name": "Joining dissimilar materials, plastics and composites"
+    },
+    {
+      "id": "me-welding-joining-12",
+      "name": "Robotic and automated welding"
+    }
+  ]
+}

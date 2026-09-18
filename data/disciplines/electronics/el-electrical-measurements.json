@@ -1,0 +1,70 @@
+{
+  "id": "el-electrical-measurements",
+  "name": "Electrical Measurements & Instrumentation",
+  "category": "Measurement, Testing & Validation",
+  "level": 2,
+  "priority": "core",
+  "summary": "The principles of measuring electrical quantities correctly: units and standards, errors and uncertainty, bridges, meters, power measurement and data acquisition.",
+  "prerequisites": [
+    "el-circuit-theory",
+    "el-hands-on-electronics"
+  ],
+  "related": [
+    "ph-measurement-instrumentation",
+    "me-measurements-instrumentation"
+  ],
+  "topics": [
+    {
+      "id": "el-electrical-measurements-1",
+      "name": "SI units, electrical standards and traceability"
+    },
+    {
+      "id": "el-electrical-measurements-2",
+      "name": "Measurement errors: accuracy, precision, resolution and uncertainty (GUM)"
+    },
+    {
+      "id": "el-electrical-measurements-3",
+      "name": "Statistical treatment of measurement data"
+    },
+    {
+      "id": "el-electrical-measurements-4",
+      "name": "Analog meters and loading effects"
+    },
+    {
+      "id": "el-electrical-measurements-5",
+      "name": "Digital multimeters and ADC-based measurement"
+    },
+    {
+      "id": "el-electrical-measurements-6",
+      "name": "DC and AC bridges (Wheatstone, Kelvin, Maxwell, Schering)"
+    },
+    {
+      "id": "el-electrical-measurements-7",
+      "name": "Measuring resistance, inductance, capacitance and impedance"
+    },
+    {
+      "id": "el-electrical-measurements-8",
+      "name": "Oscilloscope fundamentals and probing"
+    },
+    {
+      "id": "el-electrical-measurements-9",
+      "name": "Power and energy measurement (single- and three-phase wattmeters, energy meters)"
+    },
+    {
+      "id": "el-electrical-measurements-10",
+      "name": "Instrument transformers (CTs and VTs)"
+    },
+    {
+      "id": "el-electrical-measurements-11",
+      "name": "Frequency, time-interval and phase measurement"
+    },
+    {
+      "id": "el-electrical-measurements-12",
+      "name": "Data acquisition systems and virtual instrumentation"
+    },
+    {
+      "id": "el-electrical-measurements-13",
+      "name": "Grounding, shielding and guarding in measurement"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "el-hardware-software-codesign",
+  "name": "Hardware/Software Co-Design",
+  "category": "FPGA, ASIC & VLSI Design",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Deciding what runs in software and what becomes hardware, then designing both together for performance, power and cost.",
+  "prerequisites": [
+    "el-system-on-chip-soc"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-hardware-software-codesign-1",
+      "name": "Co-design motivation and design-space exploration"
+    },
+    {
+      "id": "el-hardware-software-codesign-2",
+      "name": "System modelling and executable specifications"
+    },
+    {
+      "id": "el-hardware-software-codesign-3",
+      "name": "Profiling and hotspot analysis"
+    },
+    {
+      "id": "el-hardware-software-codesign-4",
+      "name": "Hardware/software partitioning"
+    },
+    {
+      "id": "el-hardware-software-codesign-5",
+      "name": "Accelerators and custom instructions"
+    },
+    {
+      "id": "el-hardware-software-codesign-6",
+      "name": "Interfaces: buses, DMA, memory-mapped I/O"
+    },
+    {
+      "id": "el-hardware-software-codesign-7",
+      "name": "High-level synthesis in co-design flows"
+    },
+    {
+      "id": "el-hardware-software-codesign-8",
+      "name": "Virtual prototypes and co-simulation"
+    },
+    {
+      "id": "el-hardware-software-codesign-9",
+      "name": "Driver and firmware for custom hardware"
+    },
+    {
+      "id": "el-hardware-software-codesign-10",
+      "name": "Performance, power and area trade-offs"
+    },
+    {
+      "id": "el-hardware-software-codesign-11",
+      "name": "Case studies: DSP, crypto and ML accelerators"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "ae-launch-vehicle-dynamics-control",
+  "name": "Launch Vehicle Dynamics and Control",
+  "category": "Launch Vehicles",
+  "level": 4,
+  "priority": "important",
+  "summary": "Keeping a flexible, sloshing, aerodynamically unstable rocket pointed the right way: launch vehicle flight control and loads.",
+  "prerequisites": [
+    "ae-launch-vehicle-design",
+    "ae-feedback-control-aerospace",
+    "ae-structural-dynamics-vibration"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-launch-vehicle-dynamics-control-1",
+      "name": "Rigid-body rocket dynamics and aerodynamic instability"
+    },
+    {
+      "id": "ae-launch-vehicle-dynamics-control-2",
+      "name": "Thrust vector control actuation and dynamics"
+    },
+    {
+      "id": "ae-launch-vehicle-dynamics-control-3",
+      "name": "Attitude control system design: pitch, yaw and roll channels"
+    },
+    {
+      "id": "ae-launch-vehicle-dynamics-control-4",
+      "name": "Propellant slosh modelling and baffles"
+    },
+    {
+      "id": "ae-launch-vehicle-dynamics-control-5",
+      "name": "Structural bending modes and filtering"
+    },
+    {
+      "id": "ae-launch-vehicle-dynamics-control-6",
+      "name": "Wind shear, gusts and load relief"
+    },
+    {
+      "id": "ae-launch-vehicle-dynamics-control-7",
+      "name": "Tail-wags-dog and engine inertia effects"
+    },
+    {
+      "id": "ae-launch-vehicle-dynamics-control-8",
+      "name": "Stability margins and robustness analysis"
+    },
+    {
+      "id": "ae-launch-vehicle-dynamics-control-9",
+      "name": "Roll control and reaction control systems"
+    },
+    {
+      "id": "ae-launch-vehicle-dynamics-control-10",
+      "name": "Monte Carlo 6-DOF flight simulation"
+    }
+  ]
+}

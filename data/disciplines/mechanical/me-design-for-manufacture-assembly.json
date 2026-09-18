@@ -1,0 +1,61 @@
+{
+  "id": "me-design-for-manufacture-assembly",
+  "name": "Design for Manufacture & Assembly (DFMA)",
+  "category": "Design Methodology, Product Development & Reliability",
+  "level": 3,
+  "priority": "important",
+  "summary": "Shaping designs so they are cheap and reliable to make and assemble, using process-specific rules and structured DFA methods.",
+  "prerequisites": [
+    "me-product-design-development",
+    "me-manufacturing-processes"
+  ],
+  "related": [
+    "el-design-for-x-dfx"
+  ],
+  "topics": [
+    {
+      "id": "me-design-for-manufacture-assembly-1",
+      "name": "DFM/DFA principles and the cost of design decisions"
+    },
+    {
+      "id": "me-design-for-manufacture-assembly-2",
+      "name": "Boothroyd-Dewhurst design for assembly and part-count reduction"
+    },
+    {
+      "id": "me-design-for-manufacture-assembly-3",
+      "name": "Design for machining"
+    },
+    {
+      "id": "me-design-for-manufacture-assembly-4",
+      "name": "Design for casting and molding: draft, wall thickness, ribs and bosses"
+    },
+    {
+      "id": "me-design-for-manufacture-assembly-5",
+      "name": "Design for sheet-metal fabrication"
+    },
+    {
+      "id": "me-design-for-manufacture-assembly-6",
+      "name": "Design for injection-molded plastics and snap fits"
+    },
+    {
+      "id": "me-design-for-manufacture-assembly-7",
+      "name": "Design for additive manufacturing (process-aware geometry)"
+    },
+    {
+      "id": "me-design-for-manufacture-assembly-8",
+      "name": "Tolerance allocation and cost-tolerance trade-offs"
+    },
+    {
+      "id": "me-design-for-manufacture-assembly-9",
+      "name": "Design for X: serviceability, disassembly, recycling and testability"
+    },
+    {
+      "id": "me-design-for-manufacture-assembly-10",
+      "name": "Early cost estimation and should-cost models"
+    },
+    {
+      "id": "me-design-for-manufacture-assembly-11",
+      "name": "Mistake-proofing (poka-yoke) and design for automated assembly"
+    }
+  ]
+}

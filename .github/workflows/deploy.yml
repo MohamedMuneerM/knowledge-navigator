@@ -1,0 +1,62 @@
+name: Deploy website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write   # to commit topic ids the build assigns
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate
+        run: python scripts/build.py --strict
+
+      - name: Build (assigns missing topic ids, tidies data files)
+        run: python scripts/build.py
+
+      - name: Commit assigned topic ids
+        run: |
+          if [ -n "$(git status --porcelain data)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data
+            git commit -m "chore: assign topic ids and tidy data [skip ci]"
+            git push
+          fi
+
+      - name: Assemble site
+        run: |
+          mkdir _site
+          cp index.html knowledge_base.js knowledge_base.json _site/
+          touch _site/.nojekyll
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

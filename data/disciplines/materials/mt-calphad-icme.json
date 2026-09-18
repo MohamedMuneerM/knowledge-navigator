@@ -1,0 +1,63 @@
+{
+  "id": "mt-calphad-icme",
+  "name": "CALPHAD & Integrated Computational Materials Engineering",
+  "category": "Computational Materials Science",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Covers computational thermodynamics (CALPHAD) and how linked process-structure-property models (ICME) are used to design alloys and processes faster.",
+  "prerequisites": [
+    "mt-phase-diagrams",
+    "mt-computational-materials-intro"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "mt-calphad-icme-1",
+      "name": "The CALPHAD method: Gibbs energy models for pure elements and solution phases"
+    },
+    {
+      "id": "mt-calphad-icme-2",
+      "name": "Sublattice (compound energy) models for ordered and intermetallic phases"
+    },
+    {
+      "id": "mt-calphad-icme-3",
+      "name": "Thermodynamic database assessment and optimisation"
+    },
+    {
+      "id": "mt-calphad-icme-4",
+      "name": "Multicomponent phase-diagram and equilibrium calculations"
+    },
+    {
+      "id": "mt-calphad-icme-5",
+      "name": "Scheil solidification simulations"
+    },
+    {
+      "id": "mt-calphad-icme-6",
+      "name": "Mobility databases and diffusion simulation (DICTRA-type)"
+    },
+    {
+      "id": "mt-calphad-icme-7",
+      "name": "Precipitation kinetics modelling"
+    },
+    {
+      "id": "mt-calphad-icme-8",
+      "name": "Tools: Thermo-Calc, Pandat, OpenCalphad and pycalphad"
+    },
+    {
+      "id": "mt-calphad-icme-9",
+      "name": "ICME concept: linking process, structure, property and performance models"
+    },
+    {
+      "id": "mt-calphad-icme-10",
+      "name": "Materials Genome Initiative and accelerated alloy design"
+    },
+    {
+      "id": "mt-calphad-icme-11",
+      "name": "ICME case studies: aerospace alloys, AM process optimisation, automotive steels"
+    },
+    {
+      "id": "mt-calphad-icme-12",
+      "name": "Uncertainty quantification and model calibration in ICME"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "cs-software-construction",
+  "name": "Software Construction",
+  "category": "Software Engineering",
+  "level": 2,
+  "priority": "core",
+  "summary": "Writing code that is safe from bugs, easy to understand and ready for change: specifications, abstract data types, testing, static checking and code review.",
+  "prerequisites": [
+    "cs-object-oriented-programming",
+    "cs-version-control-git"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "cs-software-construction-1",
+      "name": "Specifications: preconditions, postconditions and contracts"
+    },
+    {
+      "id": "cs-software-construction-2",
+      "name": "Designing and testing to a specification"
+    },
+    {
+      "id": "cs-software-construction-3",
+      "name": "Abstract data types, representation invariants and abstraction functions"
+    },
+    {
+      "id": "cs-software-construction-4",
+      "name": "Mutability, immutability and aliasing risks"
+    },
+    {
+      "id": "cs-software-construction-5",
+      "name": "Static typing, static checking and linters"
+    },
+    {
+      "id": "cs-software-construction-6",
+      "name": "Test-first programming and unit testing"
+    },
+    {
+      "id": "cs-software-construction-7",
+      "name": "Code review practice"
+    },
+    {
+      "id": "cs-software-construction-8",
+      "name": "Defensive programming, assertions and error handling"
+    },
+    {
+      "id": "cs-software-construction-9",
+      "name": "Recursive data types in real programs"
+    },
+    {
+      "id": "cs-software-construction-10",
+      "name": "Interfaces, modules and information hiding"
+    },
+    {
+      "id": "cs-software-construction-11",
+      "name": "Code smells and basic refactoring"
+    },
+    {
+      "id": "cs-software-construction-12",
+      "name": "Build tools and dependency management"
+    },
+    {
+      "id": "cs-software-construction-13",
+      "name": "Grammars, parsers and small domain-specific languages"
+    },
+    {
+      "id": "cs-software-construction-14",
+      "name": "Introduction to concurrency hazards"
+    }
+  ]
+}

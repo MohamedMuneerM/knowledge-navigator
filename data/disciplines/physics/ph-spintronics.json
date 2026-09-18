@@ -1,0 +1,37 @@
+{
+  "id": "ph-spintronics",
+  "name": "Spintronics",
+  "category": "Condensed Matter Physics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Using the electron spin, not just its charge, to store and process information.",
+  "prerequisites": [
+    "ph-solid-state-physics"
+  ],
+  "related": [
+    "el-nanoelectronics",
+    "mt-magnetic-materials"
+  ],
+  "topics": [
+    {
+      "id": "ph-spintronics-1",
+      "name": "Spin transport"
+    },
+    {
+      "id": "ph-spintronics-2",
+      "name": "Spin-orbit coupling"
+    },
+    {
+      "id": "ph-spintronics-3",
+      "name": "Magnetic semiconductors"
+    },
+    {
+      "id": "ph-spintronics-4",
+      "name": "Spin Hall effect"
+    },
+    {
+      "id": "ph-spintronics-5",
+      "name": "Spin qubits"
+    }
+  ]
+}

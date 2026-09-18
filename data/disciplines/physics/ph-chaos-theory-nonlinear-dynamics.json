@@ -1,0 +1,53 @@
+{
+  "id": "ph-chaos-theory-nonlinear-dynamics",
+  "name": "Chaos Theory & Nonlinear Dynamics",
+  "category": "Nonlinear Dynamics & Complex Systems",
+  "level": 3,
+  "priority": "important",
+  "summary": "How simple deterministic systems produce chaos, fractals, bifurcations, solitons and patterns.",
+  "prerequisites": [
+    "ph-classical-mechanics"
+  ],
+  "related": [
+    "ma-dynamical-systems",
+    "ma-solitons-integrable-systems"
+  ],
+  "topics": [
+    {
+      "id": "ph-chaos-theory-nonlinear-dynamics-1",
+      "name": "Dynamical systems"
+    },
+    {
+      "id": "ph-chaos-theory-nonlinear-dynamics-2",
+      "name": "Strange attractors"
+    },
+    {
+      "id": "ph-chaos-theory-nonlinear-dynamics-3",
+      "name": "Deterministic chaos"
+    },
+    {
+      "id": "ph-chaos-theory-nonlinear-dynamics-4",
+      "name": "Lyapunov exponents"
+    },
+    {
+      "id": "ph-chaos-theory-nonlinear-dynamics-5",
+      "name": "Bifurcation theory"
+    },
+    {
+      "id": "ph-chaos-theory-nonlinear-dynamics-6",
+      "name": "Fractals in physics"
+    },
+    {
+      "id": "ph-chaos-theory-nonlinear-dynamics-7",
+      "name": "Solitons"
+    },
+    {
+      "id": "ph-chaos-theory-nonlinear-dynamics-8",
+      "name": "Pattern formation"
+    },
+    {
+      "id": "ph-chaos-theory-nonlinear-dynamics-9",
+      "name": "Applications to weather and climate"
+    }
+  ]
+}

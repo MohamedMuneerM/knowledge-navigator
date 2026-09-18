@@ -1,0 +1,74 @@
+{
+  "id": "ea-physical-geology",
+  "name": "Physical Geology",
+  "category": "Earth Science Foundations",
+  "level": 1,
+  "priority": "core",
+  "summary": "The standard first geology course: the materials of the solid Earth and the internal and surface processes that shape them.",
+  "prerequisites": [
+    "ea-introduction-to-earth-science"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ea-physical-geology-1",
+      "name": "Minerals: atoms, crystal structure and hand-specimen identification"
+    },
+    {
+      "id": "ea-physical-geology-2",
+      "name": "Igneous rocks, magma and intrusive bodies"
+    },
+    {
+      "id": "ea-physical-geology-3",
+      "name": "Volcanoes and volcanic eruptions"
+    },
+    {
+      "id": "ea-physical-geology-4",
+      "name": "Weathering and soil formation"
+    },
+    {
+      "id": "ea-physical-geology-5",
+      "name": "Sediments and sedimentary rocks"
+    },
+    {
+      "id": "ea-physical-geology-6",
+      "name": "Metamorphism and metamorphic rocks"
+    },
+    {
+      "id": "ea-physical-geology-7",
+      "name": "Earthquakes and Earth's interior revealed by seismic waves"
+    },
+    {
+      "id": "ea-physical-geology-8",
+      "name": "Plate tectonics: evidence, boundaries and driving forces"
+    },
+    {
+      "id": "ea-physical-geology-9",
+      "name": "Crustal deformation: folds, faults and mountain building"
+    },
+    {
+      "id": "ea-physical-geology-10",
+      "name": "Mass wasting on slopes"
+    },
+    {
+      "id": "ea-physical-geology-11",
+      "name": "Running water: streams, floodplains and drainage basins"
+    },
+    {
+      "id": "ea-physical-geology-12",
+      "name": "Groundwater and karst"
+    },
+    {
+      "id": "ea-physical-geology-13",
+      "name": "Glaciers and glaciation"
+    },
+    {
+      "id": "ea-physical-geology-14",
+      "name": "Deserts, wind and coastlines"
+    },
+    {
+      "id": "ea-physical-geology-15",
+      "name": "Geologic maps and cross-sections: a first reading"
+    }
+  ]
+}

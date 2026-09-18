@@ -1,0 +1,38 @@
+{
+  "id": "ma-arithmetic-functions",
+  "name": "Arithmetic Functions",
+  "category": "Number Theory",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Multiplicative functions such as Euler's phi, Moebius and divisor functions, Dirichlet convolution and average orders.",
+  "prerequisites": [
+    "ma-elementary-number-theory"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-arithmetic-functions-4",
+      "name": "Multiplicative functions"
+    },
+    {
+      "id": "ma-arithmetic-functions-1",
+      "name": "Euler's totient function"
+    },
+    {
+      "id": "ma-arithmetic-functions-2",
+      "name": "Möbius function"
+    },
+    {
+      "id": "ma-arithmetic-functions-3",
+      "name": "Divisor functions"
+    },
+    {
+      "id": "ma-arithmetic-functions-5",
+      "name": "Dirichlet convolution and Moebius inversion"
+    },
+    {
+      "id": "ma-arithmetic-functions-6",
+      "name": "Average orders of arithmetic functions"
+    }
+  ]
+}

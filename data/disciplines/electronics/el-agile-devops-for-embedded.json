@@ -1,0 +1,37 @@
+{
+  "id": "el-agile-devops-for-embedded",
+  "name": "Agile & DevOps for Embedded",
+  "category": "Embedded Development Practices & Debugging",
+  "level": 3,
+  "priority": "optional",
+  "summary": "Adapting Scrum, Kanban and DevOps practices to teams that build hardware and firmware.",
+  "prerequisites": [
+    "el-continuous-integration-continuous-deployment-cicd"
+  ],
+  "related": [
+    "cs-software-engineering-process",
+    "cs-devops-cicd"
+  ],
+  "topics": [
+    {
+      "id": "el-agile-devops-for-embedded-1",
+      "name": "Scrum, Kanban methodologies"
+    },
+    {
+      "id": "el-agile-devops-for-embedded-2",
+      "name": "Sprint planning and retrospectives"
+    },
+    {
+      "id": "el-agile-devops-for-embedded-3",
+      "name": "DevOps practices for hardware teams"
+    },
+    {
+      "id": "el-agile-devops-for-embedded-4",
+      "name": "Infrastructure as Code (IaC)"
+    },
+    {
+      "id": "el-agile-devops-for-embedded-5",
+      "name": "Continuous improvement"
+    }
+  ]
+}

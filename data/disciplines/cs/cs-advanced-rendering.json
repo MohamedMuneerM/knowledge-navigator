@@ -1,0 +1,58 @@
+{
+  "id": "cs-advanced-rendering",
+  "name": "Advanced Rendering",
+  "category": "Graphics, Visualization & Games",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Physically based image synthesis: radiometry, the rendering equation, Monte Carlo path tracing, global illumination and modern real-time and neural rendering.",
+  "prerequisites": [
+    "cs-computer-graphics",
+    "cs-probability-statistics-for-cs"
+  ],
+  "related": [
+    "ma-monte-carlo-methods",
+    "ph-classical-optics"
+  ],
+  "topics": [
+    {
+      "id": "cs-advanced-rendering-1",
+      "name": "Radiometry and the rendering equation"
+    },
+    {
+      "id": "cs-advanced-rendering-2",
+      "name": "Physically based materials and BRDFs"
+    },
+    {
+      "id": "cs-advanced-rendering-3",
+      "name": "Monte Carlo path tracing"
+    },
+    {
+      "id": "cs-advanced-rendering-4",
+      "name": "Importance sampling and multiple importance sampling"
+    },
+    {
+      "id": "cs-advanced-rendering-5",
+      "name": "Acceleration structures (BVH, k-d trees)"
+    },
+    {
+      "id": "cs-advanced-rendering-6",
+      "name": "Global illumination: photon mapping and radiosity"
+    },
+    {
+      "id": "cs-advanced-rendering-7",
+      "name": "Participating media and subsurface scattering"
+    },
+    {
+      "id": "cs-advanced-rendering-8",
+      "name": "Real-time rendering: deferred shading, shadows and PBR pipelines"
+    },
+    {
+      "id": "cs-advanced-rendering-9",
+      "name": "Hardware ray tracing and denoising"
+    },
+    {
+      "id": "cs-advanced-rendering-10",
+      "name": "Neural rendering and radiance fields"
+    }
+  ]
+}

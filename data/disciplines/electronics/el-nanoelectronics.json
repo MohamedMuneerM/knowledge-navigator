@@ -1,0 +1,55 @@
+{
+  "id": "el-nanoelectronics",
+  "name": "Nanoelectronics & Beyond-CMOS Devices",
+  "category": "Emerging & Advanced Topics",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "Research-level devices that may succeed or complement CMOS: quantum transport, tunnel FETs, 2D-material and spintronic devices, and memristive computing.",
+  "prerequisites": [
+    "el-semiconductor-devices",
+    "ph-quantum-mechanics"
+  ],
+  "related": [
+    "ph-spintronics",
+    "ph-nanoscience-nanotechnology",
+    "mt-2d-materials"
+  ],
+  "topics": [
+    {
+      "id": "el-nanoelectronics-1",
+      "name": "Limits of CMOS scaling"
+    },
+    {
+      "id": "el-nanoelectronics-2",
+      "name": "Quantum transport basics: Landauer formalism and ballistic conduction"
+    },
+    {
+      "id": "el-nanoelectronics-3",
+      "name": "Tunnel FETs and negative-capacitance FETs"
+    },
+    {
+      "id": "el-nanoelectronics-4",
+      "name": "2D-material and carbon-nanotube transistors"
+    },
+    {
+      "id": "el-nanoelectronics-5",
+      "name": "Spintronic devices: MTJs, STT- and SOT-MRAM"
+    },
+    {
+      "id": "el-nanoelectronics-6",
+      "name": "Single-electron and molecular devices"
+    },
+    {
+      "id": "el-nanoelectronics-7",
+      "name": "Memristors and resistive RAM"
+    },
+    {
+      "id": "el-nanoelectronics-8",
+      "name": "Ferroelectric FETs and in-memory computing"
+    },
+    {
+      "id": "el-nanoelectronics-9",
+      "name": "Monolithic 3D integration"
+    }
+  ]
+}

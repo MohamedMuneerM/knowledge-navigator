@@ -1,0 +1,49 @@
+{
+  "id": "el-reliability-fault-tolerance",
+  "name": "Reliability & Fault Tolerance",
+  "category": "Automotive, Aerospace & Defense Systems",
+  "level": 3,
+  "priority": "important",
+  "summary": "Designing systems that keep working when parts fail: redundancy and TMR, watchdogs, built-in test, graceful degradation and FDIR.",
+  "prerequisites": [
+    "el-reliability-testing",
+    "el-firmware-development"
+  ],
+  "related": [
+    "ae-aerospace-safety-reliability"
+  ],
+  "topics": [
+    {
+      "id": "el-reliability-fault-tolerance-1",
+      "name": "Redundancy (dual, triple modular)"
+    },
+    {
+      "id": "el-reliability-fault-tolerance-2",
+      "name": "Watchdog timers and health monitoring"
+    },
+    {
+      "id": "el-reliability-fault-tolerance-3",
+      "name": "Built-in test (BIT) and diagnostics"
+    },
+    {
+      "id": "el-reliability-fault-tolerance-4",
+      "name": "Graceful degradation"
+    },
+    {
+      "id": "el-reliability-fault-tolerance-5",
+      "name": "Fault detection, isolation, and recovery (FDIR)"
+    },
+    {
+      "id": "el-reliability-fault-tolerance-6",
+      "name": "Reliability block diagrams and fault-tree analysis"
+    },
+    {
+      "id": "el-reliability-fault-tolerance-7",
+      "name": "Error-detecting and correcting memory (ECC, EDAC)"
+    },
+    {
+      "id": "el-reliability-fault-tolerance-8",
+      "name": "Safe states and fail-operational design"
+    }
+  ]
+}

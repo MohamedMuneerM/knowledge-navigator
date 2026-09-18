@@ -1,0 +1,62 @@
+{
+  "id": "me-engineering-drawing-sketching",
+  "name": "Engineering Drawing & Sketching",
+  "category": "Engineering Graphics, CAD & Tolerancing",
+  "level": 1,
+  "priority": "core",
+  "summary": "The graphical language of engineering: freehand sketching, orthographic and pictorial views, sections, dimensions and reading drawings.",
+  "prerequisites": [
+    "ma-euclidean-geometry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "me-engineering-drawing-sketching-1",
+      "name": "Freehand sketching techniques: lines, circles and proportions"
+    },
+    {
+      "id": "me-engineering-drawing-sketching-2",
+      "name": "Pictorial views: isometric, oblique and perspective sketches"
+    },
+    {
+      "id": "me-engineering-drawing-sketching-3",
+      "name": "Orthographic projection: first-angle and third-angle"
+    },
+    {
+      "id": "me-engineering-drawing-sketching-4",
+      "name": "Multiview drawings, hidden lines and centre lines"
+    },
+    {
+      "id": "me-engineering-drawing-sketching-5",
+      "name": "Auxiliary views"
+    },
+    {
+      "id": "me-engineering-drawing-sketching-6",
+      "name": "Section views (full, half, offset, broken-out, revolved) and hatching conventions"
+    },
+    {
+      "id": "me-engineering-drawing-sketching-7",
+      "name": "Dimensioning rules and practices (ASME Y14.5 / ISO 129 basics)"
+    },
+    {
+      "id": "me-engineering-drawing-sketching-8",
+      "name": "Representing threads, fasteners and standard features"
+    },
+    {
+      "id": "me-engineering-drawing-sketching-9",
+      "name": "Drawing sheets: title blocks, scales, line types, notes and revisions"
+    },
+    {
+      "id": "me-engineering-drawing-sketching-10",
+      "name": "Assembly drawings, exploded views and bills of materials"
+    },
+    {
+      "id": "me-engineering-drawing-sketching-11",
+      "name": "Reading and interpreting real engineering drawings"
+    },
+    {
+      "id": "me-engineering-drawing-sketching-12",
+      "name": "Introduction to 2D CAD drafting"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "el-filters",
+  "name": "Analog & Active Filters",
+  "category": "Analog Electronics",
+  "level": 3,
+  "priority": "important",
+  "summary": "Designing passive, active, switched-capacitor and adaptive filters with Butterworth, Chebyshev, Bessel and elliptic responses.",
+  "prerequisites": [
+    "el-operational-amplifiers",
+    "el-signals-and-systems"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-filters-1",
+      "name": "Low-pass, high-pass, band-pass, band-stop/notch filters"
+    },
+    {
+      "id": "el-filters-2",
+      "name": "Active filters (Butterworth, Chebyshev, Bessel, Elliptic)"
+    },
+    {
+      "id": "el-filters-3",
+      "name": "Passive filters (RC, LC, RLC)"
+    },
+    {
+      "id": "el-filters-4",
+      "name": "State-variable filters"
+    },
+    {
+      "id": "el-filters-5",
+      "name": "Switched-capacitor filters"
+    },
+    {
+      "id": "el-filters-6",
+      "name": "Adaptive filters"
+    }
+  ]
+}

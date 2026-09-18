@@ -1,0 +1,30 @@
+{
+  "id": "el-iot-middleware",
+  "name": "IoT Middleware",
+  "category": "IoT Architectures, Platforms & Data",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "The glue between devices and applications: message brokers, integration platforms, rule engines and protocol translation.",
+  "prerequisites": [
+    "el-iot-application-protocols"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-iot-middleware-1",
+      "name": "Message brokers (MQTT brokers, RabbitMQ)"
+    },
+    {
+      "id": "el-iot-middleware-2",
+      "name": "Integration platforms"
+    },
+    {
+      "id": "el-iot-middleware-3",
+      "name": "Rule engines and event processing"
+    },
+    {
+      "id": "el-iot-middleware-4",
+      "name": "Protocol translation and adaptation"
+    }
+  ]
+}

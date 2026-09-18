@@ -1,0 +1,61 @@
+{
+  "id": "cs-network-security",
+  "name": "Network Security",
+  "category": "Security",
+  "level": 4,
+  "priority": "important",
+  "summary": "Attacks on networks and the defences against them: firewalls, intrusion detection, VPNs, secure routing and DNS, wireless security and zero trust.",
+  "prerequisites": [
+    "cs-applied-cryptography"
+  ],
+  "related": [
+    "el-network-security",
+    "el-secure-communication"
+  ],
+  "topics": [
+    {
+      "id": "cs-network-security-1",
+      "name": "Network threats: sniffing, spoofing and session hijacking"
+    },
+    {
+      "id": "cs-network-security-2",
+      "name": "Denial-of-service attacks and mitigation"
+    },
+    {
+      "id": "cs-network-security-3",
+      "name": "Firewalls and packet filtering"
+    },
+    {
+      "id": "cs-network-security-4",
+      "name": "Intrusion detection and prevention systems"
+    },
+    {
+      "id": "cs-network-security-5",
+      "name": "VPNs and IPsec"
+    },
+    {
+      "id": "cs-network-security-6",
+      "name": "DNS security and DNSSEC"
+    },
+    {
+      "id": "cs-network-security-7",
+      "name": "BGP security and routing attacks"
+    },
+    {
+      "id": "cs-network-security-8",
+      "name": "Wireless security (WPA2, WPA3)"
+    },
+    {
+      "id": "cs-network-security-9",
+      "name": "Zero-trust networking"
+    },
+    {
+      "id": "cs-network-security-10",
+      "name": "Network monitoring and traffic analysis"
+    },
+    {
+      "id": "cs-network-security-11",
+      "name": "Anonymity networks (Tor)"
+    }
+  ]
+}

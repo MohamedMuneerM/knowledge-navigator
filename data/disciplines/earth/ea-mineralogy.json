@@ -1,0 +1,109 @@
+{
+  "id": "ea-mineralogy",
+  "name": "Mineralogy",
+  "category": "Mineralogy & Petrology",
+  "level": 2,
+  "priority": "core",
+  "summary": "The crystal chemistry, structure, properties and identification of the minerals that make up the Earth and other planets.",
+  "prerequisites": [
+    "ea-physical-geology",
+    "ch-chemical-bonding-molecular-structure"
+  ],
+  "related": [
+    "ph-solid-state-physics",
+    "mt-crystal-structures",
+    "mt-crystallography-diffraction"
+  ],
+  "topics": [
+    {
+      "id": "ea-mineralogy-1",
+      "name": "What a mineral is; mineral chemistry and formulas"
+    },
+    {
+      "id": "ea-mineralogy-2",
+      "name": "Crystal chemistry: ionic radii, coordination, Pauling's rules and substitution"
+    },
+    {
+      "id": "ea-mineralogy-3",
+      "name": "Crystallography",
+      "sub": [
+        {
+          "id": "ea-mineralogy-3-1",
+          "name": "Symmetry elements and point groups"
+        },
+        {
+          "id": "ea-mineralogy-3-2",
+          "name": "Crystal systems and lattices"
+        },
+        {
+          "id": "ea-mineralogy-3-3",
+          "name": "Miller indices and crystal forms"
+        }
+      ]
+    },
+    {
+      "id": "ea-mineralogy-4",
+      "name": "Physical properties: colour, lustre, hardness, cleavage, density and habit"
+    },
+    {
+      "id": "ea-mineralogy-5",
+      "name": "Silicate structures",
+      "sub": [
+        {
+          "id": "ea-mineralogy-5-1",
+          "name": "Nesosilicates to tectosilicates"
+        },
+        {
+          "id": "ea-mineralogy-5-2",
+          "name": "Polymerisation of SiO4 tetrahedra"
+        }
+      ]
+    },
+    {
+      "id": "ea-mineralogy-6",
+      "name": "Rock-forming silicates: olivine, pyroxenes, amphiboles, micas, feldspars, quartz and clays"
+    },
+    {
+      "id": "ea-mineralogy-7",
+      "name": "Non-silicates: carbonates, oxides, sulfides, sulfates, halides, phosphates and native elements"
+    },
+    {
+      "id": "ea-mineralogy-8",
+      "name": "Solid solution, exsolution and polymorphism"
+    },
+    {
+      "id": "ea-mineralogy-9",
+      "name": "Introductory phase diagrams for mineral systems"
+    },
+    {
+      "id": "ea-mineralogy-10",
+      "name": "Optical mineralogy",
+      "sub": [
+        {
+          "id": "ea-mineralogy-10-1",
+          "name": "Polarised light and the petrographic microscope"
+        },
+        {
+          "id": "ea-mineralogy-10-2",
+          "name": "Refractive index, birefringence and interference colours"
+        },
+        {
+          "id": "ea-mineralogy-10-3",
+          "name": "Extinction, pleochroism and interference figures"
+        }
+      ]
+    },
+    {
+      "id": "ea-mineralogy-11",
+      "name": "Thin-section identification of the common rock-forming minerals"
+    },
+    {
+      "id": "ea-mineralogy-12",
+      "name": "X-ray diffraction and other mineral-analysis methods"
+    },
+    {
+      "id": "ea-mineralogy-13",
+      "name": "Mineral formation environments and gemstones"
+    }
+  ]
+}

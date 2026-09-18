@@ -1,0 +1,46 @@
+{
+  "id": "ph-advanced-theoretical-methods",
+  "name": "Advanced Theoretical Methods",
+  "category": "Mathematical & Computational Methods",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Advanced tools of theoretical physics: perturbative and variational methods, S-matrix, effective theories, RG and CFT.",
+  "prerequisites": [
+    "ph-mathematical-physics",
+    "ph-advanced-quantum-mechanics"
+  ],
+  "related": [
+    "ph-advanced-statistical-mechanics",
+    "ma-asymptotic-methods"
+  ],
+  "topics": [
+    {
+      "id": "ph-advanced-theoretical-methods-1",
+      "name": "Perturbation theory"
+    },
+    {
+      "id": "ph-advanced-theoretical-methods-2",
+      "name": "Variational methods"
+    },
+    {
+      "id": "ph-advanced-theoretical-methods-3",
+      "name": "Scattering theory"
+    },
+    {
+      "id": "ph-advanced-theoretical-methods-4",
+      "name": "S-matrix theory"
+    },
+    {
+      "id": "ph-advanced-theoretical-methods-5",
+      "name": "Effective theories"
+    },
+    {
+      "id": "ph-advanced-theoretical-methods-6",
+      "name": "Renormalization group"
+    },
+    {
+      "id": "ph-advanced-theoretical-methods-7",
+      "name": "Conformal field theory"
+    }
+  ]
+}

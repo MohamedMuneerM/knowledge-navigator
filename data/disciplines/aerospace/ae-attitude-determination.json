@@ -1,0 +1,53 @@
+{
+  "id": "ae-attitude-determination",
+  "name": "Spacecraft Attitude Determination",
+  "category": "Guidance, Navigation & Control",
+  "level": 3,
+  "priority": "core",
+  "summary": "Working out which way a spacecraft is pointing from sensors, using deterministic and filtering methods.",
+  "prerequisites": [
+    "ae-attitude-kinematics-dynamics",
+    "ae-estimation-kalman-filtering"
+  ],
+  "related": [
+    "el-inertial-sensors"
+  ],
+  "topics": [
+    {
+      "id": "ae-attitude-determination-1",
+      "name": "Attitude sensors: sun sensors, Earth horizon sensors, magnetometers"
+    },
+    {
+      "id": "ae-attitude-determination-2",
+      "name": "Star trackers and star identification"
+    },
+    {
+      "id": "ae-attitude-determination-3",
+      "name": "Rate gyros: MEMS, fibre-optic and ring-laser gyros; gyro error models"
+    },
+    {
+      "id": "ae-attitude-determination-4",
+      "name": "Deterministic methods: TRIAD"
+    },
+    {
+      "id": "ae-attitude-determination-5",
+      "name": "Wahba's problem: q-method, QUEST and SVD solutions"
+    },
+    {
+      "id": "ae-attitude-determination-6",
+      "name": "Multiplicative extended Kalman filter for attitude"
+    },
+    {
+      "id": "ae-attitude-determination-7",
+      "name": "Gyro bias estimation"
+    },
+    {
+      "id": "ae-attitude-determination-8",
+      "name": "Sensor calibration and alignment"
+    },
+    {
+      "id": "ae-attitude-determination-9",
+      "name": "Attitude determination accuracy budgets"
+    }
+  ]
+}

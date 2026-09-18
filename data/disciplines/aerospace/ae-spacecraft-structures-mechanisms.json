@@ -1,0 +1,59 @@
+{
+  "id": "ae-spacecraft-structures-mechanisms",
+  "name": "Spacecraft Structures and Mechanisms",
+  "category": "Spacecraft Subsystems",
+  "level": 3,
+  "priority": "important",
+  "summary": "Designing spacecraft structures to survive launch and the mechanisms that deploy, point and release things in orbit.",
+  "prerequisites": [
+    "ae-spacecraft-bus-fundamentals",
+    "ae-structural-dynamics-vibration"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-spacecraft-structures-mechanisms-1",
+      "name": "Structural requirements: strength, stiffness, launch loads and frequency requirements"
+    },
+    {
+      "id": "ae-spacecraft-structures-mechanisms-2",
+      "name": "Primary and secondary structure configurations"
+    },
+    {
+      "id": "ae-spacecraft-structures-mechanisms-3",
+      "name": "Materials and construction: honeycomb panels, central cylinders, trusses"
+    },
+    {
+      "id": "ae-spacecraft-structures-mechanisms-4",
+      "name": "Quasi-static loads and load factors"
+    },
+    {
+      "id": "ae-spacecraft-structures-mechanisms-5",
+      "name": "Structural verification: analysis and test factors of safety"
+    },
+    {
+      "id": "ae-spacecraft-structures-mechanisms-6",
+      "name": "Launch vehicle adapters and separation systems"
+    },
+    {
+      "id": "ae-spacecraft-structures-mechanisms-7",
+      "name": "Hold-down and release mechanisms"
+    },
+    {
+      "id": "ae-spacecraft-structures-mechanisms-8",
+      "name": "Deployment mechanisms: hinges, booms, antennas and solar arrays"
+    },
+    {
+      "id": "ae-spacecraft-structures-mechanisms-9",
+      "name": "Pointing mechanisms: solar array drives and gimbals"
+    },
+    {
+      "id": "ae-spacecraft-structures-mechanisms-10",
+      "name": "Space tribology and lubrication"
+    },
+    {
+      "id": "ae-spacecraft-structures-mechanisms-11",
+      "name": "Mechanism reliability and testing"
+    }
+  ]
+}

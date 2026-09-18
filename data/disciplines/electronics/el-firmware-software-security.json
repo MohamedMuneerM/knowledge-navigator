@@ -1,0 +1,50 @@
+{
+  "id": "el-firmware-software-security",
+  "name": "Firmware & Software Security",
+  "category": "Security, Privacy & Trust",
+  "level": 3,
+  "priority": "important",
+  "summary": "Hardening firmware: code signing, secure coding, static and dynamic analysis, fuzzing, runtime protections and anti-tampering.",
+  "prerequisites": [
+    "el-embedded-cc-best-practices",
+    "el-cryptography-fundamentals",
+    "cs-computer-security"
+  ],
+  "related": [
+    "cs-application-security"
+  ],
+  "topics": [
+    {
+      "id": "el-firmware-software-security-1",
+      "name": "Code signing and verification"
+    },
+    {
+      "id": "el-firmware-software-security-2",
+      "name": "Secure coding practices (CERT C, MISRA)"
+    },
+    {
+      "id": "el-firmware-software-security-3",
+      "name": "Static analysis (linting, SAST tools)"
+    },
+    {
+      "id": "el-firmware-software-security-4",
+      "name": "Dynamic analysis and fuzzing"
+    },
+    {
+      "id": "el-firmware-software-security-5",
+      "name": "Runtime protection (stack canaries, ASLR, DEP)"
+    },
+    {
+      "id": "el-firmware-software-security-6",
+      "name": "Anti-tampering and obfuscation"
+    },
+    {
+      "id": "el-firmware-software-security-7",
+      "name": "Rollback protection"
+    },
+    {
+      "id": "el-firmware-software-security-8",
+      "name": "Secure memory management"
+    }
+  ]
+}

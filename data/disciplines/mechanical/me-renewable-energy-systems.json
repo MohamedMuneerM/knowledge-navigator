@@ -1,0 +1,66 @@
+{
+  "id": "me-renewable-energy-systems",
+  "name": "Renewable Energy Systems",
+  "category": "Energy & Power Systems",
+  "level": 3,
+  "priority": "important",
+  "summary": "Engineering of solar, wind, hydro, geothermal, marine and bioenergy systems, their storage and integration, and their economics.",
+  "prerequisites": [
+    "me-applied-thermodynamics",
+    "me-heat-transfer"
+  ],
+  "related": [
+    "ph-energy-physics",
+    "el-smart-grid-energy"
+  ],
+  "topics": [
+    {
+      "id": "me-renewable-energy-systems-1",
+      "name": "Solar resource and solar geometry"
+    },
+    {
+      "id": "me-renewable-energy-systems-2",
+      "name": "Solar thermal collectors and concentrating solar power"
+    },
+    {
+      "id": "me-renewable-energy-systems-3",
+      "name": "Photovoltaic system sizing and balance of system"
+    },
+    {
+      "id": "me-renewable-energy-systems-4",
+      "name": "Wind resource assessment"
+    },
+    {
+      "id": "me-renewable-energy-systems-5",
+      "name": "Wind turbine design: rotor aerodynamics, drivetrain, structural loads and control"
+    },
+    {
+      "id": "me-renewable-energy-systems-6",
+      "name": "Hydropower and marine energy (tidal, wave)"
+    },
+    {
+      "id": "me-renewable-energy-systems-7",
+      "name": "Geothermal energy systems"
+    },
+    {
+      "id": "me-renewable-energy-systems-8",
+      "name": "Biomass and bioenergy conversion"
+    },
+    {
+      "id": "me-renewable-energy-systems-9",
+      "name": "Hydrogen production and fuel cells"
+    },
+    {
+      "id": "me-renewable-energy-systems-10",
+      "name": "Energy storage for renewables (pumped hydro, batteries, thermal)"
+    },
+    {
+      "id": "me-renewable-energy-systems-11",
+      "name": "Grid integration and hybrid energy systems"
+    },
+    {
+      "id": "me-renewable-energy-systems-12",
+      "name": "Life-cycle and techno-economic assessment of renewables"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "ch-materials-chemistry",
+  "name": "Materials Chemistry",
+  "category": "Polymer, Materials & Solid-State Chemistry",
+  "level": 4,
+  "priority": "important",
+  "summary": "Chemical routes to ceramics, glasses, thin films, alloys, composites and smart materials, and how chemistry sets their properties.",
+  "prerequisites": [
+    "ch-solid-state-chemistry",
+    "ch-polymer-chemistry"
+  ],
+  "related": [
+    "el-advanced-materials",
+    "mt-ceramics",
+    "mt-thin-films-coatings"
+  ],
+  "topics": [
+    {
+      "id": "ch-materials-chemistry-1",
+      "name": "Structure-processing-property relationships from a chemist's perspective"
+    },
+    {
+      "id": "ch-materials-chemistry-2",
+      "name": "Ceramics: oxides, nitrides and carbides; powder processing and sintering"
+    },
+    {
+      "id": "ch-materials-chemistry-3",
+      "name": "Glasses and glass-ceramics"
+    },
+    {
+      "id": "ch-materials-chemistry-4",
+      "name": "Sol-gel chemistry and hybrid organic-inorganic materials"
+    },
+    {
+      "id": "ch-materials-chemistry-5",
+      "name": "Thin-film deposition chemistry: CVD, ALD and PVD"
+    },
+    {
+      "id": "ch-materials-chemistry-6",
+      "name": "Metals and alloys: alloying chemistry and intermetallics"
+    },
+    {
+      "id": "ch-materials-chemistry-7",
+      "name": "Composites: matrices, reinforcements and interfaces"
+    },
+    {
+      "id": "ch-materials-chemistry-8",
+      "name": "Cement and construction-materials chemistry"
+    },
+    {
+      "id": "ch-materials-chemistry-9",
+      "name": "Smart materials: shape-memory, self-healing and stimuli-responsive"
+    },
+    {
+      "id": "ch-materials-chemistry-10",
+      "name": "Biomaterials and biocompatibility"
+    },
+    {
+      "id": "ch-materials-chemistry-11",
+      "name": "Critical raw materials and materials sustainability"
+    }
+  ]
+}

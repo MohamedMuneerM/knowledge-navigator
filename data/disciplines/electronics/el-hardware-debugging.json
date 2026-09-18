@@ -1,0 +1,49 @@
+{
+  "id": "el-hardware-debugging",
+  "name": "Hardware Debugging",
+  "category": "Embedded Development Practices & Debugging",
+  "level": 3,
+  "priority": "important",
+  "summary": "Debugging at the hardware level with JTAG/SWD probes, trace (ETM, ITM, DWT), logic analyzers and in-circuit emulators.",
+  "prerequisites": [
+    "el-debug-interfaces",
+    "el-software-debugging"
+  ],
+  "related": [
+    "el-debug-interfaces"
+  ],
+  "topics": [
+    {
+      "id": "el-hardware-debugging-1",
+      "name": "JTAG debugging"
+    },
+    {
+      "id": "el-hardware-debugging-2",
+      "name": "SWD (Serial Wire Debug)"
+    },
+    {
+      "id": "el-hardware-debugging-3",
+      "name": "Trace capabilities (ETM, ITM, DWT)"
+    },
+    {
+      "id": "el-hardware-debugging-4",
+      "name": "Logic analyzers for protocol debugging"
+    },
+    {
+      "id": "el-hardware-debugging-5",
+      "name": "In-circuit emulators (ICE)"
+    },
+    {
+      "id": "el-hardware-debugging-6",
+      "name": "Debug probes (J-Link, ST-Link, CMSIS-DAP)"
+    },
+    {
+      "id": "el-hardware-debugging-7",
+      "name": "Fault analysis from registers and memory dumps"
+    },
+    {
+      "id": "el-hardware-debugging-8",
+      "name": "Debugging low-power and boot problems"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ma-measure-concentration",
+  "name": "Measure Concentration",
+  "category": "Probability & Statistics",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Why functions of many independent variables are nearly constant: concentration and isoperimetric inequalities.",
+  "prerequisites": [
+    "ma-measure-theoretic-probability"
+  ],
+  "related": [
+    "ma-high-dimensional-probability"
+  ],
+  "topics": [
+    {
+      "id": "ma-measure-concentration-1",
+      "name": "Concentration inequalities"
+    },
+    {
+      "id": "ma-measure-concentration-3",
+      "name": "Martingale methods and bounded differences"
+    },
+    {
+      "id": "ma-measure-concentration-2",
+      "name": "Isoperimetric inequalities"
+    },
+    {
+      "id": "ma-measure-concentration-4",
+      "name": "Log-Sobolev inequalities"
+    }
+  ]
+}

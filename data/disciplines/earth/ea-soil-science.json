@@ -1,0 +1,66 @@
+{
+  "id": "ea-soil-science",
+  "name": "Soil Science",
+  "category": "Earth Surface Processes",
+  "level": 2,
+  "priority": "core",
+  "summary": "How soils form, what they are made of, and how their physical, chemical and biological properties support ecosystems and agriculture.",
+  "prerequisites": [
+    "ea-physical-geology",
+    "ch-introductory-chemistry"
+  ],
+  "related": [
+    "bi-ecosystem-ecology",
+    "bi-plant-agricultural-biotech"
+  ],
+  "topics": [
+    {
+      "id": "ea-soil-science-1",
+      "name": "Soil-forming factors: parent material, climate, organisms, topography and time"
+    },
+    {
+      "id": "ea-soil-science-2",
+      "name": "Soil profiles and horizons"
+    },
+    {
+      "id": "ea-soil-science-3",
+      "name": "Soil physical properties: texture, structure, density and porosity"
+    },
+    {
+      "id": "ea-soil-science-4",
+      "name": "Soil water: retention, movement and plant availability"
+    },
+    {
+      "id": "ea-soil-science-5",
+      "name": "Clay minerals, cation exchange capacity and soil colloids"
+    },
+    {
+      "id": "ea-soil-science-6",
+      "name": "Soil acidity, salinity and sodicity"
+    },
+    {
+      "id": "ea-soil-science-7",
+      "name": "Soil organic matter and soil carbon"
+    },
+    {
+      "id": "ea-soil-science-8",
+      "name": "Soil biology: microbes, fauna and nutrient cycling"
+    },
+    {
+      "id": "ea-soil-science-9",
+      "name": "Soil fertility and plant nutrients"
+    },
+    {
+      "id": "ea-soil-science-10",
+      "name": "Soil classification: USDA Soil Taxonomy and the World Reference Base"
+    },
+    {
+      "id": "ea-soil-science-11",
+      "name": "Soil erosion, degradation and conservation"
+    },
+    {
+      "id": "ea-soil-science-12",
+      "name": "Soil survey and mapping; the critical zone concept"
+    }
+  ]
+}

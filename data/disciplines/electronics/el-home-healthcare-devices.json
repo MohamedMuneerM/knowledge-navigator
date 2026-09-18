@@ -1,0 +1,38 @@
+{
+  "id": "el-home-healthcare-devices",
+  "name": "Home Healthcare Devices",
+  "category": "Medical, Industrial & Other Application Domains",
+  "level": 3,
+  "priority": "optional",
+  "summary": "Consumer health devices: blood-pressure monitors, pulse oximeters, thermometers, nebulizers and hearing aids.",
+  "prerequisites": [
+    "el-patient-monitoring"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-home-healthcare-devices-1",
+      "name": "Blood pressure monitors"
+    },
+    {
+      "id": "el-home-healthcare-devices-2",
+      "name": "Pulse oximeters"
+    },
+    {
+      "id": "el-home-healthcare-devices-3",
+      "name": "Thermometers"
+    },
+    {
+      "id": "el-home-healthcare-devices-4",
+      "name": "Nebulizers"
+    },
+    {
+      "id": "el-home-healthcare-devices-5",
+      "name": "Hearing aids"
+    },
+    {
+      "id": "el-home-healthcare-devices-6",
+      "name": "Mobility aids with electronics"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ai-foundation-models-large-scale-ai",
+  "name": "Foundation Models & Large-Scale AI",
+  "category": "Large Language Models & LLM Engineering",
+  "level": 5,
+  "priority": "advanced",
+  "summary": "What happens at scale: scaling laws, emergent capabilities, in-context learning, reasoning, tool use and self-improvement in foundation models.",
+  "prerequisites": [
+    "ai-large-language-models-llms"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-foundation-models-large-scale-ai-1",
+      "name": "Scaling Laws"
+    },
+    {
+      "id": "ai-foundation-models-large-scale-ai-2",
+      "name": "Emergent Capabilities"
+    },
+    {
+      "id": "ai-foundation-models-large-scale-ai-3",
+      "name": "In-Context Learning"
+    },
+    {
+      "id": "ai-foundation-models-large-scale-ai-4",
+      "name": "Chain-of-Thought Reasoning"
+    },
+    {
+      "id": "ai-foundation-models-large-scale-ai-5",
+      "name": "Tool Use and Agents"
+    },
+    {
+      "id": "ai-foundation-models-large-scale-ai-6",
+      "name": "Self-Improvement"
+    }
+  ]
+}

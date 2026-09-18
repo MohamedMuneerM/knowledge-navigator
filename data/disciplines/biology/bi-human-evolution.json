@@ -1,0 +1,47 @@
+{
+  "id": "bi-human-evolution",
+  "name": "Human Evolution",
+  "category": "Evolution",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Where we came from: primate evolution, the hominin fossil record, archaic humans, ancient DNA and the spread of Homo sapiens.",
+  "prerequisites": [
+    "bi-macroevolution-history-of-life",
+    "bi-population-genetics"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-human-evolution-1",
+      "name": "Primate diversity and evolution"
+    },
+    {
+      "id": "bi-human-evolution-2",
+      "name": "Early hominins and bipedalism"
+    },
+    {
+      "id": "bi-human-evolution-3",
+      "name": "The genus Homo: brains, tools and life history"
+    },
+    {
+      "id": "bi-human-evolution-4",
+      "name": "Neanderthals, Denisovans and archaic admixture"
+    },
+    {
+      "id": "bi-human-evolution-5",
+      "name": "Out of Africa and the peopling of the world"
+    },
+    {
+      "id": "bi-human-evolution-6",
+      "name": "Ancient DNA methods and findings"
+    },
+    {
+      "id": "bi-human-evolution-7",
+      "name": "Recent human adaptation: lactase persistence, altitude, skin pigmentation"
+    },
+    {
+      "id": "bi-human-evolution-8",
+      "name": "Evolution of language, cognition and culture (gene-culture coevolution)"
+    }
+  ]
+}

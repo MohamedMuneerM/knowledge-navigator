@@ -1,0 +1,40 @@
+{
+  "id": "el-low-power-design",
+  "name": "Low-Power Design",
+  "category": "Microcontrollers, Processors & Architectures",
+  "level": 3,
+  "priority": "important",
+  "summary": "The hardware mechanisms for saving energy: sleep modes, DVFS, clock and power gating, power domains and wake-up sources.",
+  "prerequisites": [
+    "el-peripheral-controllers"
+  ],
+  "related": [
+    "el-low-power-design-strategies"
+  ],
+  "topics": [
+    {
+      "id": "el-low-power-design-1",
+      "name": "Power modes (sleep, deep sleep, standby, shutdown)"
+    },
+    {
+      "id": "el-low-power-design-2",
+      "name": "Dynamic voltage and frequency scaling (DVFS)"
+    },
+    {
+      "id": "el-low-power-design-3",
+      "name": "Clock gating and power gating"
+    },
+    {
+      "id": "el-low-power-design-4",
+      "name": "Power domains and isolation"
+    },
+    {
+      "id": "el-low-power-design-5",
+      "name": "Wake-up sources and wake-up latency"
+    },
+    {
+      "id": "el-low-power-design-6",
+      "name": "Energy profiling and optimization"
+    }
+  ]
+}

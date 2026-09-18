@@ -1,0 +1,51 @@
+{
+  "id": "ma-homotopy-theory",
+  "name": "Homotopy Theory",
+  "category": "Topology",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Higher homotopy groups, fibrations, Eilenberg-MacLane spaces, spectral sequences and an introduction to stable homotopy theory.",
+  "prerequisites": [
+    "ma-algebraic-topology",
+    "ma-category-theory"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-homotopy-theory-1",
+      "name": "Higher homotopy groups and the long exact sequence"
+    },
+    {
+      "id": "ma-homotopy-theory-2",
+      "name": "Fibrations and cofibrations"
+    },
+    {
+      "id": "ma-homotopy-theory-3",
+      "name": "Whitehead and Hurewicz theorems"
+    },
+    {
+      "id": "ma-homotopy-theory-4",
+      "name": "Eilenberg-MacLane spaces and representability of cohomology"
+    },
+    {
+      "id": "ma-homotopy-theory-5",
+      "name": "Obstruction theory"
+    },
+    {
+      "id": "ma-homotopy-theory-6",
+      "name": "Spectral sequences (Serre spectral sequence)"
+    },
+    {
+      "id": "ma-homotopy-theory-7",
+      "name": "Homotopy groups of spheres and Freudenthal suspension"
+    },
+    {
+      "id": "ma-homotopy-theory-8",
+      "name": "Spectra and stable homotopy theory"
+    },
+    {
+      "id": "ma-homotopy-theory-9",
+      "name": "Model categories (introduction)"
+    }
+  ]
+}

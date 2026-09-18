@@ -1,0 +1,80 @@
+{
+  "id": "ph-introductory-astronomy",
+  "name": "Introductory Astronomy",
+  "category": "Astronomy Foundations",
+  "level": 1,
+  "priority": "important",
+  "summary": "A first tour of the sky and the Universe: sky motions, the Solar System, stars, galaxies and the Big Bang.",
+  "prerequisites": [
+    "ph-measurement-units-vectors"
+  ],
+  "related": [
+    "ph-history-of-physics"
+  ],
+  "topics": [
+    {
+      "id": "ph-introductory-astronomy-1",
+      "name": "The scale of the Universe: AU, light-years and parsecs"
+    },
+    {
+      "id": "ph-introductory-astronomy-2",
+      "name": "The celestial sphere, constellations and star names"
+    },
+    {
+      "id": "ph-introductory-astronomy-3",
+      "name": "Daily and annual motions of the sky"
+    },
+    {
+      "id": "ph-introductory-astronomy-4",
+      "name": "Sky coordinates: altitude-azimuth and right ascension-declination"
+    },
+    {
+      "id": "ph-introductory-astronomy-5",
+      "name": "The seasons and the Earth's axial tilt"
+    },
+    {
+      "id": "ph-introductory-astronomy-6",
+      "name": "Phases of the Moon, tides and eclipses"
+    },
+    {
+      "id": "ph-introductory-astronomy-7",
+      "name": "History of astronomy: from geocentric models to Copernicus, Kepler, Galileo and Newton"
+    },
+    {
+      "id": "ph-introductory-astronomy-8",
+      "name": "Kepler's laws and gravity"
+    },
+    {
+      "id": "ph-introductory-astronomy-9",
+      "name": "Light and spectra: what starlight tells us"
+    },
+    {
+      "id": "ph-introductory-astronomy-10",
+      "name": "Telescopes and how astronomers observe"
+    },
+    {
+      "id": "ph-introductory-astronomy-11",
+      "name": "A tour of the Solar System"
+    },
+    {
+      "id": "ph-introductory-astronomy-12",
+      "name": "The Sun as a star"
+    },
+    {
+      "id": "ph-introductory-astronomy-13",
+      "name": "Stars: brightness, colour, distance and the HR diagram"
+    },
+    {
+      "id": "ph-introductory-astronomy-14",
+      "name": "Life cycles of stars"
+    },
+    {
+      "id": "ph-introductory-astronomy-15",
+      "name": "The Milky Way and other galaxies"
+    },
+    {
+      "id": "ph-introductory-astronomy-16",
+      "name": "The expanding Universe and the Big Bang (overview)"
+    }
+  ]
+}

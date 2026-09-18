@@ -1,0 +1,44 @@
+{
+  "id": "ma-abstract-harmonic-analysis",
+  "name": "Abstract Harmonic Analysis",
+  "category": "Analysis",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Fourier analysis on groups: Haar measure, Pontryagin duality, Peter-Weyl theorem and unitary representations.",
+  "prerequisites": [
+    "ma-functional-analysis",
+    "ma-harmonic-analysis",
+    "ma-representation-theory"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-abstract-harmonic-analysis-1",
+      "name": "Topological groups and Haar measure"
+    },
+    {
+      "id": "ma-abstract-harmonic-analysis-2",
+      "name": "Convolution and the group algebra L1(G)"
+    },
+    {
+      "id": "ma-abstract-harmonic-analysis-3",
+      "name": "Locally compact abelian groups and characters"
+    },
+    {
+      "id": "ma-abstract-harmonic-analysis-4",
+      "name": "Pontryagin duality and the Fourier transform on groups"
+    },
+    {
+      "id": "ma-abstract-harmonic-analysis-5",
+      "name": "Plancherel theorem"
+    },
+    {
+      "id": "ma-abstract-harmonic-analysis-6",
+      "name": "Compact groups and the Peter-Weyl theorem"
+    },
+    {
+      "id": "ma-abstract-harmonic-analysis-7",
+      "name": "Unitary representations and induced representations"
+    }
+  ]
+}

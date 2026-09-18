@@ -1,0 +1,67 @@
+{
+  "id": "me-manufacturing-systems-quality",
+  "name": "Manufacturing Systems, Automation & Quality",
+  "category": "Manufacturing Engineering",
+  "level": 3,
+  "priority": "important",
+  "summary": "Organising and controlling production: process planning, lean, statistical quality control, automation, robots and smart factories.",
+  "prerequisites": [
+    "me-tolerancing-gdt-metrology",
+    "ma-inferential-statistics"
+  ],
+  "related": [
+    "el-plc-programmable-logic-controller-programming",
+    "el-quality-management",
+    "el-digital-twins"
+  ],
+  "topics": [
+    {
+      "id": "me-manufacturing-systems-quality-1",
+      "name": "Production systems: job shop, batch, flow line and cellular manufacturing"
+    },
+    {
+      "id": "me-manufacturing-systems-quality-2",
+      "name": "Process planning and computer-aided process planning (CAPP)"
+    },
+    {
+      "id": "me-manufacturing-systems-quality-3",
+      "name": "Production planning and control: scheduling and inventory"
+    },
+    {
+      "id": "me-manufacturing-systems-quality-4",
+      "name": "Lean manufacturing: value-stream mapping, 5S, kanban, SMED"
+    },
+    {
+      "id": "me-manufacturing-systems-quality-5",
+      "name": "Statistical process control: control charts and process capability (Cp, Cpk)"
+    },
+    {
+      "id": "me-manufacturing-systems-quality-6",
+      "name": "Six Sigma, DMAIC and quality management systems (ISO 9001)"
+    },
+    {
+      "id": "me-manufacturing-systems-quality-7",
+      "name": "Measurement system analysis (gauge R&R)"
+    },
+    {
+      "id": "me-manufacturing-systems-quality-8",
+      "name": "Industrial automation: PLCs, sensors, conveyors and material handling"
+    },
+    {
+      "id": "me-manufacturing-systems-quality-9",
+      "name": "Industrial robots in manufacturing cells"
+    },
+    {
+      "id": "me-manufacturing-systems-quality-10",
+      "name": "Flexible manufacturing and automated assembly systems"
+    },
+    {
+      "id": "me-manufacturing-systems-quality-11",
+      "name": "Industry 4.0: industrial IoT, digital twins and smart factories"
+    },
+    {
+      "id": "me-manufacturing-systems-quality-12",
+      "name": "Facility layout and discrete-event simulation of manufacturing systems"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ph-measurement-instrumentation",
+  "name": "Measurement & Instrumentation",
+  "category": "Experimental Physics & Instrumentation",
+  "level": 2,
+  "priority": "important",
+  "summary": "How physical quantities are measured in practice: sensors, standards, data acquisition, noise and feedback.",
+  "prerequisites": [
+    "ph-data-analysis-statistics",
+    "ph-electronics-for-physicists"
+  ],
+  "related": [
+    "el-test-equipment",
+    "el-calibration",
+    "el-sensor-interfacing",
+    "ch-instrumental-analysis",
+    "me-measurements-instrumentation",
+    "ae-aerospace-instrumentation",
+    "el-electrical-measurements"
+  ],
+  "topics": [
+    {
+      "id": "ph-measurement-instrumentation-6",
+      "name": "Units, standards, calibration and traceability"
+    },
+    {
+      "id": "ph-measurement-instrumentation-1",
+      "name": "Measurement systems and sensors"
+    },
+    {
+      "id": "ph-measurement-instrumentation-2",
+      "name": "Error analysis and statistics"
+    },
+    {
+      "id": "ph-measurement-instrumentation-7",
+      "name": "Uncertainty budgets (GUM)"
+    },
+    {
+      "id": "ph-measurement-instrumentation-3",
+      "name": "Data acquisition"
+    },
+    {
+      "id": "ph-measurement-instrumentation-8",
+      "name": "Noise sources and signal recovery"
+    },
+    {
+      "id": "ph-measurement-instrumentation-4",
+      "name": "Signal processing"
+    },
+    {
+      "id": "ph-measurement-instrumentation-5",
+      "name": "Feedback and control systems"
+    }
+  ]
+}

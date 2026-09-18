@@ -1,0 +1,49 @@
+{
+  "id": "el-programming-languages",
+  "name": "Programming Languages for Embedded Systems",
+  "category": "Embedded Software, Firmware & RTOS",
+  "level": 2,
+  "priority": "important",
+  "summary": "The languages used in embedded systems (C, C++, assembly, Rust, MicroPython, Ada, Lua) and their trade-offs.",
+  "prerequisites": [
+    "el-intro-microcontrollers"
+  ],
+  "related": [
+    "cs-systems-programming",
+    "cs-modern-systems-languages"
+  ],
+  "topics": [
+    {
+      "id": "el-programming-languages-1",
+      "name": "C (embedded C standards)"
+    },
+    {
+      "id": "el-programming-languages-2",
+      "name": "C++ (embedded C++, modern C++)"
+    },
+    {
+      "id": "el-programming-languages-3",
+      "name": "Assembly language (ARM, x86, AVR, RISC-V)"
+    },
+    {
+      "id": "el-programming-languages-4",
+      "name": "Rust (memory-safe embedded programming)"
+    },
+    {
+      "id": "el-programming-languages-5",
+      "name": "Python (MicroPython, CircuitPython)"
+    },
+    {
+      "id": "el-programming-languages-6",
+      "name": "Ada (safety-critical systems)"
+    },
+    {
+      "id": "el-programming-languages-7",
+      "name": "Lua (embedded scripting)"
+    },
+    {
+      "id": "el-programming-languages-8",
+      "name": "Java ME (Java Micro Edition)"
+    }
+  ]
+}

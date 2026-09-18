@@ -1,0 +1,42 @@
+{
+  "id": "el-simulation-modeling-tools",
+  "name": "Simulation & Modeling Tools",
+  "category": "Professional Practice, Business & Community",
+  "level": 2,
+  "priority": "important",
+  "summary": "Simulation tools for electrical engineers: SPICE, MATLAB/Simulink, LabVIEW, Multisim, Proteus, Ansys and COMSOL.",
+  "prerequisites": [
+    "el-circuit-theory"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-simulation-modeling-tools-1",
+      "name": "SPICE simulation (LTspice, PSPICE, Ngspice)"
+    },
+    {
+      "id": "el-simulation-modeling-tools-2",
+      "name": "MATLAB and Simulink"
+    },
+    {
+      "id": "el-simulation-modeling-tools-3",
+      "name": "LabVIEW"
+    },
+    {
+      "id": "el-simulation-modeling-tools-4",
+      "name": "Multisim"
+    },
+    {
+      "id": "el-simulation-modeling-tools-5",
+      "name": "Proteus (circuit and PCB simulation)"
+    },
+    {
+      "id": "el-simulation-modeling-tools-6",
+      "name": "Ansys (electromagnetic simulation)"
+    },
+    {
+      "id": "el-simulation-modeling-tools-7",
+      "name": "COMSOL Multiphysics"
+    }
+  ]
+}

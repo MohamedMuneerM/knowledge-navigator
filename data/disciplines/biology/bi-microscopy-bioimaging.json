@@ -1,0 +1,63 @@
+{
+  "id": "bi-microscopy-bioimaging",
+  "name": "Microscopy & Bioimaging",
+  "category": "Laboratory & Research Methods",
+  "level": 3,
+  "priority": "important",
+  "summary": "How to see cells and molecules: light, fluorescence, confocal, super-resolution and electron microscopy, and quantitative image analysis.",
+  "prerequisites": [
+    "bi-cell-biology",
+    "bi-laboratory-fundamentals",
+    "ph-classical-optics"
+  ],
+  "related": [
+    "ph-modern-optics",
+    "el-image-processing"
+  ],
+  "topics": [
+    {
+      "id": "bi-microscopy-bioimaging-1",
+      "name": "Optics of the light microscope: resolution, numerical aperture and contrast"
+    },
+    {
+      "id": "bi-microscopy-bioimaging-2",
+      "name": "Phase contrast and DIC"
+    },
+    {
+      "id": "bi-microscopy-bioimaging-3",
+      "name": "Fluorescence microscopy, fluorophores and fluorescent proteins"
+    },
+    {
+      "id": "bi-microscopy-bioimaging-4",
+      "name": "Immunofluorescence and sample preparation"
+    },
+    {
+      "id": "bi-microscopy-bioimaging-5",
+      "name": "Confocal and multiphoton microscopy"
+    },
+    {
+      "id": "bi-microscopy-bioimaging-6",
+      "name": "Live-cell imaging and FRAP/FRET"
+    },
+    {
+      "id": "bi-microscopy-bioimaging-7",
+      "name": "Super-resolution microscopy: STED, PALM/STORM and SIM"
+    },
+    {
+      "id": "bi-microscopy-bioimaging-8",
+      "name": "Light-sheet microscopy and tissue clearing"
+    },
+    {
+      "id": "bi-microscopy-bioimaging-9",
+      "name": "Electron microscopy: TEM, SEM and sample preparation"
+    },
+    {
+      "id": "bi-microscopy-bioimaging-10",
+      "name": "Image analysis and quantification (ImageJ/Fiji)"
+    },
+    {
+      "id": "bi-microscopy-bioimaging-11",
+      "name": "Whole-body imaging in research: MRI, PET and micro-CT"
+    }
+  ]
+}

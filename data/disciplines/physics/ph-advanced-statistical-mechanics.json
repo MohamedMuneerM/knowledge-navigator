@@ -1,0 +1,67 @@
+{
+  "id": "ph-advanced-statistical-mechanics",
+  "name": "Advanced Statistical Mechanics & Critical Phenomena",
+  "category": "Thermal & Statistical Physics",
+  "level": 4,
+  "priority": "important",
+  "summary": "Interacting systems, phase transitions, the renormalization group and non-equilibrium statistical physics.",
+  "prerequisites": [
+    "ph-thermodynamics-statistical-mechanics",
+    "ph-quantum-mechanics"
+  ],
+  "related": [
+    "ma-statistical-mechanics",
+    "ma-stochastic-processes",
+    "ph-advanced-theoretical-methods"
+  ],
+  "topics": [
+    {
+      "id": "ph-advanced-statistical-mechanics-1",
+      "name": "Interacting systems: cluster and virial expansions"
+    },
+    {
+      "id": "ph-advanced-statistical-mechanics-2",
+      "name": "The Ising model and exact solutions in one and two dimensions"
+    },
+    {
+      "id": "ph-advanced-statistical-mechanics-3",
+      "name": "Mean-field theory and Landau theory of phase transitions"
+    },
+    {
+      "id": "ph-advanced-statistical-mechanics-4",
+      "name": "Critical exponents, scaling and universality"
+    },
+    {
+      "id": "ph-advanced-statistical-mechanics-5",
+      "name": "Landau-Ginzburg theory and fluctuations"
+    },
+    {
+      "id": "ph-advanced-statistical-mechanics-6",
+      "name": "The renormalization group (real-space and momentum-shell)"
+    },
+    {
+      "id": "ph-advanced-statistical-mechanics-7",
+      "name": "Topological phase transitions (Kosterlitz-Thouless)"
+    },
+    {
+      "id": "ph-advanced-statistical-mechanics-8",
+      "name": "Disordered systems and spin glasses"
+    },
+    {
+      "id": "ph-advanced-statistical-mechanics-9",
+      "name": "Stochastic processes: Brownian motion, Langevin and Fokker-Planck equations"
+    },
+    {
+      "id": "ph-advanced-statistical-mechanics-10",
+      "name": "Master equations and kinetic Monte Carlo"
+    },
+    {
+      "id": "ph-advanced-statistical-mechanics-11",
+      "name": "Linear response theory and Green-Kubo relations"
+    },
+    {
+      "id": "ph-advanced-statistical-mechanics-12",
+      "name": "Non-equilibrium steady states and fluctuation theorems"
+    }
+  ]
+}

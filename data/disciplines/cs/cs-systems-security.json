@@ -1,0 +1,58 @@
+{
+  "id": "cs-systems-security",
+  "name": "Systems & Hardware Security",
+  "category": "Security",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Low-level attacks and defences: memory-corruption exploits and mitigations, kernel and isolation security, side channels, transient execution and trusted hardware.",
+  "prerequisites": [
+    "cs-computer-security",
+    "cs-computer-architecture"
+  ],
+  "related": [
+    "el-side-channel-attacks",
+    "el-secure-boot-root-of-trust"
+  ],
+  "topics": [
+    {
+      "id": "cs-systems-security-1",
+      "name": "Exploitation techniques: stack smashing, return-oriented programming and heap exploitation"
+    },
+    {
+      "id": "cs-systems-security-2",
+      "name": "Exploit mitigations: ASLR, DEP, stack canaries and control-flow integrity"
+    },
+    {
+      "id": "cs-systems-security-3",
+      "name": "Kernel security and privilege escalation"
+    },
+    {
+      "id": "cs-systems-security-4",
+      "name": "Sandboxing and isolation mechanisms"
+    },
+    {
+      "id": "cs-systems-security-5",
+      "name": "Side-channel attacks: timing, cache and power"
+    },
+    {
+      "id": "cs-systems-security-6",
+      "name": "Transient-execution attacks (Spectre, Meltdown)"
+    },
+    {
+      "id": "cs-systems-security-7",
+      "name": "Trusted execution environments (SGX, TrustZone, SEV)"
+    },
+    {
+      "id": "cs-systems-security-8",
+      "name": "Secure boot and hardware roots of trust"
+    },
+    {
+      "id": "cs-systems-security-9",
+      "name": "Virtualization and container security"
+    },
+    {
+      "id": "cs-systems-security-10",
+      "name": "Rowhammer and physical attacks"
+    }
+  ]
+}

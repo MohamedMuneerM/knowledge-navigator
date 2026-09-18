@@ -1,0 +1,54 @@
+{
+  "id": "ch-chemical-information-communication",
+  "name": "Chemical Information, Communication & Ethics",
+  "category": "Laboratory & Professional Skills",
+  "level": 2,
+  "priority": "important",
+  "summary": "Finding and judging chemical information, communicating results and working ethically.",
+  "prerequisites": [
+    "ch-introductory-chemistry"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ch-chemical-information-communication-1",
+      "name": "Structure of the chemical literature: journals, reviews and patents"
+    },
+    {
+      "id": "ch-chemical-information-communication-2",
+      "name": "Searching databases: CAS SciFinder, Reaxys, PubChem, ChemSpider, CSD"
+    },
+    {
+      "id": "ch-chemical-information-communication-3",
+      "name": "Reading and critically evaluating a research paper"
+    },
+    {
+      "id": "ch-chemical-information-communication-4",
+      "name": "Scientific writing: lab reports, papers and ACS/RSC style"
+    },
+    {
+      "id": "ch-chemical-information-communication-5",
+      "name": "Presenting data: figures, tables and uncertainty"
+    },
+    {
+      "id": "ch-chemical-information-communication-6",
+      "name": "Oral and poster presentations"
+    },
+    {
+      "id": "ch-chemical-information-communication-7",
+      "name": "Research ethics: data integrity, plagiarism and authorship"
+    },
+    {
+      "id": "ch-chemical-information-communication-8",
+      "name": "Safety culture, chemical regulation and dual-use awareness"
+    },
+    {
+      "id": "ch-chemical-information-communication-9",
+      "name": "Intellectual property and patents basics"
+    },
+    {
+      "id": "ch-chemical-information-communication-10",
+      "name": "Electronic lab notebooks and FAIR research data"
+    }
+  ]
+}

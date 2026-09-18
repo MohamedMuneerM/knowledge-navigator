@@ -1,0 +1,71 @@
+{
+  "id": "mt-fracture-mechanics",
+  "name": "Fracture & Fracture Mechanics",
+  "category": "Mechanical Behaviour",
+  "level": 3,
+  "priority": "core",
+  "summary": "Explains how cracks cause failure, from Griffith's energy balance to fracture toughness testing and toughening mechanisms.",
+  "prerequisites": [
+    "mt-plasticity-strengthening",
+    "me-mechanics-of-materials"
+  ],
+  "related": [
+    "ma-solid-mechanics",
+    "me-fatigue-fracture-creep",
+    "ae-fatigue-fracture-damage-tolerance"
+  ],
+  "topics": [
+    {
+      "id": "mt-fracture-mechanics-1",
+      "name": "Ductile versus brittle fracture; fractography basics"
+    },
+    {
+      "id": "mt-fracture-mechanics-2",
+      "name": "Theoretical cohesive strength and stress concentration at flaws (Inglis)"
+    },
+    {
+      "id": "mt-fracture-mechanics-3",
+      "name": "Griffith energy balance and strain energy release rate G"
+    },
+    {
+      "id": "mt-fracture-mechanics-4",
+      "name": "Linear elastic fracture mechanics: stress intensity factor K and fracture modes I, II, III"
+    },
+    {
+      "id": "mt-fracture-mechanics-5",
+      "name": "Fracture toughness K_IC and plane-strain testing (ASTM E399)"
+    },
+    {
+      "id": "mt-fracture-mechanics-6",
+      "name": "Crack-tip plasticity: Irwin plastic zone and small-scale yielding"
+    },
+    {
+      "id": "mt-fracture-mechanics-7",
+      "name": "Elastic-plastic fracture mechanics: CTOD and the J-integral"
+    },
+    {
+      "id": "mt-fracture-mechanics-8",
+      "name": "Ductile fracture mechanisms: void nucleation, growth and coalescence"
+    },
+    {
+      "id": "mt-fracture-mechanics-9",
+      "name": "Cleavage, intergranular fracture and the ductile-to-brittle transition (Charpy impact testing)"
+    },
+    {
+      "id": "mt-fracture-mechanics-10",
+      "name": "R-curves and toughening mechanisms in metals, ceramics and composites"
+    },
+    {
+      "id": "mt-fracture-mechanics-11",
+      "name": "Statistics of brittle fracture: Weibull analysis"
+    },
+    {
+      "id": "mt-fracture-mechanics-12",
+      "name": "Environment-assisted cracking: stress-corrosion cracking and hydrogen embrittlement"
+    },
+    {
+      "id": "mt-fracture-mechanics-13",
+      "name": "Damage-tolerant design and leak-before-break"
+    }
+  ]
+}

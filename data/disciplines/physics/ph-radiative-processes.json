@@ -1,0 +1,71 @@
+{
+  "id": "ph-radiative-processes",
+  "name": "Radiative Processes in Astrophysics",
+  "category": "Stars, the Sun & Interstellar Medium",
+  "level": 3,
+  "priority": "important",
+  "summary": "How matter emits, absorbs and scatters radiation: the physics needed to interpret every astronomical observation.",
+  "prerequisites": [
+    "ph-astrophysics",
+    "ph-classical-electromagnetism",
+    "ph-thermodynamics-statistical-mechanics",
+    "ph-special-relativity"
+  ],
+  "related": [
+    "ea-atmospheric-radiation"
+  ],
+  "topics": [
+    {
+      "id": "ph-radiative-processes-1",
+      "name": "Specific intensity, flux and other radiative quantities"
+    },
+    {
+      "id": "ph-radiative-processes-2",
+      "name": "The radiative transfer equation and optical depth"
+    },
+    {
+      "id": "ph-radiative-processes-3",
+      "name": "Blackbody radiation and thermal equilibrium"
+    },
+    {
+      "id": "ph-radiative-processes-4",
+      "name": "Einstein coefficients and line emission and absorption"
+    },
+    {
+      "id": "ph-radiative-processes-5",
+      "name": "Line profiles and broadening mechanisms"
+    },
+    {
+      "id": "ph-radiative-processes-6",
+      "name": "Radiation from accelerated charges"
+    },
+    {
+      "id": "ph-radiative-processes-7",
+      "name": "Bremsstrahlung (free-free emission)"
+    },
+    {
+      "id": "ph-radiative-processes-8",
+      "name": "Synchrotron radiation"
+    },
+    {
+      "id": "ph-radiative-processes-9",
+      "name": "Compton and inverse-Compton scattering"
+    },
+    {
+      "id": "ph-radiative-processes-10",
+      "name": "Plasma effects: dispersion and Faraday rotation"
+    },
+    {
+      "id": "ph-radiative-processes-11",
+      "name": "Atomic and molecular spectra in astrophysics"
+    },
+    {
+      "id": "ph-radiative-processes-12",
+      "name": "Dust absorption, scattering and emission"
+    },
+    {
+      "id": "ph-radiative-processes-13",
+      "name": "Polarization of astrophysical radiation"
+    }
+  ]
+}

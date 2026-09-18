@@ -1,0 +1,40 @@
+{
+  "id": "el-prototyping",
+  "name": "Prototyping",
+  "category": "PCB Design & Hardware Development",
+  "level": 1,
+  "priority": "important",
+  "summary": "Turning an idea into working hardware quickly: breadboards, perfboard, quick-turn PCBs, 3D-printed enclosures and dev boards.",
+  "prerequisites": [
+    "el-hands-on-electronics"
+  ],
+  "related": [
+    "el-prototyping-rapid-development"
+  ],
+  "topics": [
+    {
+      "id": "el-prototyping-1",
+      "name": "Breadboarding"
+    },
+    {
+      "id": "el-prototyping-2",
+      "name": "Perfboard / stripboard"
+    },
+    {
+      "id": "el-prototyping-3",
+      "name": "Rapid prototyping services"
+    },
+    {
+      "id": "el-prototyping-4",
+      "name": "3D printed enclosures"
+    },
+    {
+      "id": "el-prototyping-5",
+      "name": "Arduino/Raspberry Pi shields"
+    },
+    {
+      "id": "el-prototyping-6",
+      "name": "Development boards and eval kits"
+    }
+  ]
+}

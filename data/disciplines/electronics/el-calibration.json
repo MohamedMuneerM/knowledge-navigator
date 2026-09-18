@@ -1,0 +1,30 @@
+{
+  "id": "el-calibration",
+  "name": "Calibration",
+  "category": "Measurement, Testing & Validation",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Keeping instruments and products accurate: calibration standards, traceability, intervals and in-field procedures.",
+  "prerequisites": [
+    "el-electrical-measurements"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "el-calibration-1",
+      "name": "Equipment calibration and traceability"
+    },
+    {
+      "id": "el-calibration-2",
+      "name": "Calibration standards and references"
+    },
+    {
+      "id": "el-calibration-3",
+      "name": "Calibration intervals"
+    },
+    {
+      "id": "el-calibration-4",
+      "name": "In-field calibration procedures"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "el-high-speed-design",
+  "name": "High-Speed PCB Design",
+  "category": "PCB Design & Hardware Development",
+  "level": 3,
+  "priority": "important",
+  "summary": "PCB techniques for fast signals: controlled impedance, differential pairs, length matching, return paths and termination.",
+  "prerequisites": [
+    "el-pcb-layout",
+    "el-transmission-lines"
+  ],
+  "related": [
+    "el-high-speed-digital-design"
+  ],
+  "topics": [
+    {
+      "id": "el-high-speed-design-1",
+      "name": "Impedance control (controlled impedance traces)"
+    },
+    {
+      "id": "el-high-speed-design-2",
+      "name": "Differential pairs (USB, Ethernet, PCIe, LVDS)"
+    },
+    {
+      "id": "el-high-speed-design-3",
+      "name": "Length matching and skew control"
+    },
+    {
+      "id": "el-high-speed-design-4",
+      "name": "Signal integrity analysis"
+    },
+    {
+      "id": "el-high-speed-design-5",
+      "name": "Return path management"
+    },
+    {
+      "id": "el-high-speed-design-6",
+      "name": "Termination strategies"
+    }
+  ]
+}

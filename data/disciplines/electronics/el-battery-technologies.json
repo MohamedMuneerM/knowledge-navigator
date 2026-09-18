@@ -1,0 +1,45 @@
+{
+  "id": "el-battery-technologies",
+  "name": "Battery Technologies",
+  "category": "Power Electronics & Power Management",
+  "level": 2,
+  "priority": "important",
+  "summary": "Battery chemistries (Li-ion, LiPo, LiFePO4, NiMH, lead-acid, solid-state) and the characteristics that drive their selection.",
+  "prerequisites": [
+    "el-basic-electricity"
+  ],
+  "related": [
+    "mt-battery-materials",
+    "ch-battery-chemistry"
+  ],
+  "topics": [
+    {
+      "id": "el-battery-technologies-1",
+      "name": "Lithium-ion (Li-ion)"
+    },
+    {
+      "id": "el-battery-technologies-2",
+      "name": "Lithium Polymer (LiPo)"
+    },
+    {
+      "id": "el-battery-technologies-3",
+      "name": "Lithium Iron Phosphate (LiFePO4)"
+    },
+    {
+      "id": "el-battery-technologies-4",
+      "name": "Nickel-Metal Hydride (NiMH)"
+    },
+    {
+      "id": "el-battery-technologies-5",
+      "name": "Lead-acid batteries"
+    },
+    {
+      "id": "el-battery-technologies-6",
+      "name": "Solid-state batteries (emerging)"
+    },
+    {
+      "id": "el-battery-technologies-7",
+      "name": "Battery characteristics (capacity, C-rate, cycle life, self-discharge)"
+    }
+  ]
+}

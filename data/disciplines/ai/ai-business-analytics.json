@@ -1,0 +1,65 @@
+{
+  "id": "ai-business-analytics",
+  "name": "Business Analytics",
+  "category": "Data Science",
+  "level": 3,
+  "priority": "optional",
+  "summary": "Applying data science to business questions: A/B testing and experimentation, causal inference, customer, marketing and product analytics, forecasting and recommendations.",
+  "prerequisites": [
+    "ai-exploratory-data-analysis-eda",
+    "ma-experimental-design"
+  ],
+  "related": [
+    "ai-causal-inference",
+    "ai-time-series-forecasting",
+    "ai-recommender-systems"
+  ],
+  "topics": [
+    {
+      "id": "ai-business-analytics-1",
+      "name": "A/B Testing"
+    },
+    {
+      "id": "ai-business-analytics-2",
+      "name": "Experimentation Platforms"
+    },
+    {
+      "id": "ai-business-analytics-3",
+      "name": "Causal Inference for Business"
+    },
+    {
+      "id": "ai-business-analytics-4",
+      "name": "Customer Analytics",
+      "sub": [
+        {
+          "id": "ai-business-analytics-4-1",
+          "name": "Segmentation"
+        },
+        {
+          "id": "ai-business-analytics-4-2",
+          "name": "Churn prediction"
+        },
+        {
+          "id": "ai-business-analytics-4-3",
+          "name": "Lifetime value"
+        }
+      ]
+    },
+    {
+      "id": "ai-business-analytics-5",
+      "name": "Marketing Analytics"
+    },
+    {
+      "id": "ai-business-analytics-6",
+      "name": "Product Analytics"
+    },
+    {
+      "id": "ai-business-analytics-7",
+      "name": "Forecasting"
+    },
+    {
+      "id": "ai-business-analytics-8",
+      "name": "Recommendation Systems"
+    }
+  ]
+}

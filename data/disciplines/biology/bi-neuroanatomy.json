@@ -1,0 +1,63 @@
+{
+  "id": "bi-neuroanatomy",
+  "name": "Neuroanatomy",
+  "category": "Neuroscience",
+  "level": 3,
+  "priority": "important",
+  "summary": "The structure of the human brain and spinal cord in detail: regions, pathways, blood supply and how damage maps to symptoms.",
+  "prerequisites": [
+    "bi-neuroscience-fundamentals",
+    "bi-human-anatomy"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-neuroanatomy-1",
+      "name": "Development-based organisation of the CNS"
+    },
+    {
+      "id": "bi-neuroanatomy-2",
+      "name": "Spinal cord: segments, grey and white matter, ascending and descending tracts"
+    },
+    {
+      "id": "bi-neuroanatomy-3",
+      "name": "Brainstem nuclei and cranial nerves"
+    },
+    {
+      "id": "bi-neuroanatomy-4",
+      "name": "Cerebellum: structure and connections"
+    },
+    {
+      "id": "bi-neuroanatomy-5",
+      "name": "Thalamus and hypothalamus"
+    },
+    {
+      "id": "bi-neuroanatomy-6",
+      "name": "Basal ganglia circuits"
+    },
+    {
+      "id": "bi-neuroanatomy-7",
+      "name": "Cerebral cortex: lobes, cytoarchitecture, Brodmann areas and layers"
+    },
+    {
+      "id": "bi-neuroanatomy-8",
+      "name": "Limbic system: hippocampus and amygdala"
+    },
+    {
+      "id": "bi-neuroanatomy-9",
+      "name": "White matter pathways and connectomics"
+    },
+    {
+      "id": "bi-neuroanatomy-10",
+      "name": "Ventricles, meninges, CSF and the blood-brain barrier"
+    },
+    {
+      "id": "bi-neuroanatomy-11",
+      "name": "Vascular supply of the brain and stroke syndromes"
+    },
+    {
+      "id": "bi-neuroanatomy-12",
+      "name": "Clinical localisation: relating lesions to deficits"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ma-ring-theory",
+  "name": "Ring Theory",
+  "category": "Algebra",
+  "level": 3,
+  "priority": "important",
+  "summary": "Rings, ideals and factorisation: integral domains, PIDs, UFDs, polynomial rings and an introduction to noncommutative rings and modules.",
+  "prerequisites": [
+    "ma-abstract-algebra"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ma-ring-theory-1",
+      "name": "Commutative rings"
+    },
+    {
+      "id": "ma-ring-theory-3",
+      "name": "Integral domains"
+    },
+    {
+      "id": "ma-ring-theory-6",
+      "name": "Polynomial rings"
+    },
+    {
+      "id": "ma-ring-theory-7",
+      "name": "Ideals, quotient rings and the isomorphism theorems"
+    },
+    {
+      "id": "ma-ring-theory-8",
+      "name": "Prime and maximal ideals"
+    },
+    {
+      "id": "ma-ring-theory-5",
+      "name": "Principal ideal domains"
+    },
+    {
+      "id": "ma-ring-theory-4",
+      "name": "Unique factorization domains"
+    },
+    {
+      "id": "ma-ring-theory-9",
+      "name": "Euclidean domains and Gaussian integers"
+    },
+    {
+      "id": "ma-ring-theory-10",
+      "name": "Modules over a PID and the structure theorem"
+    },
+    {
+      "id": "ma-ring-theory-2",
+      "name": "Noncommutative rings"
+    },
+    {
+      "id": "ma-ring-theory-11",
+      "name": "Semisimple rings and the Artin-Wedderburn theorem"
+    }
+  ]
+}

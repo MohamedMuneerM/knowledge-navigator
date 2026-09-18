@@ -1,0 +1,63 @@
+{
+  "id": "ae-spacecraft-propulsion-systems",
+  "name": "Spacecraft Propulsion Systems",
+  "category": "Spacecraft Subsystems",
+  "level": 3,
+  "priority": "important",
+  "summary": "In-space chemical propulsion for spacecraft: cold gas, monopropellant and bipropellant systems, tanks, feed and integration.",
+  "prerequisites": [
+    "ae-spacecraft-bus-fundamentals",
+    "ae-rocket-propulsion-fundamentals"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-spacecraft-propulsion-systems-1",
+      "name": "Spacecraft propulsion functions: orbit insertion, station-keeping, attitude control, deorbit"
+    },
+    {
+      "id": "ae-spacecraft-propulsion-systems-2",
+      "name": "Cold-gas systems"
+    },
+    {
+      "id": "ae-spacecraft-propulsion-systems-3",
+      "name": "Monopropellant hydrazine thrusters and catalyst beds"
+    },
+    {
+      "id": "ae-spacecraft-propulsion-systems-4",
+      "name": "Green monopropellants (AF-M315E, LMP-103S)"
+    },
+    {
+      "id": "ae-spacecraft-propulsion-systems-5",
+      "name": "Bipropellant systems and apogee engines"
+    },
+    {
+      "id": "ae-spacecraft-propulsion-systems-6",
+      "name": "Propellant tanks and propellant management devices"
+    },
+    {
+      "id": "ae-spacecraft-propulsion-systems-7",
+      "name": "Pressurisation: blowdown versus regulated"
+    },
+    {
+      "id": "ae-spacecraft-propulsion-systems-8",
+      "name": "Valves, filters, lines and propulsion system schematics"
+    },
+    {
+      "id": "ae-spacecraft-propulsion-systems-9",
+      "name": "Propellant budget and gauging"
+    },
+    {
+      "id": "ae-spacecraft-propulsion-systems-10",
+      "name": "Plume impingement and contamination"
+    },
+    {
+      "id": "ae-spacecraft-propulsion-systems-11",
+      "name": "Propulsion for small satellites"
+    },
+    {
+      "id": "ae-spacecraft-propulsion-systems-12",
+      "name": "Fuelling operations and safety"
+    }
+  ]
+}

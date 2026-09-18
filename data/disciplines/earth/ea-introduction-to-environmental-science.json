@@ -1,0 +1,66 @@
+{
+  "id": "ea-introduction-to-environmental-science",
+  "name": "Introduction to Environmental Science",
+  "category": "Earth Science Foundations",
+  "level": 1,
+  "priority": "core",
+  "summary": "An on-ramp to how natural systems work and how people use, pollute and protect them: ecosystems, resources, pollution and sustainability.",
+  "prerequisites": [],
+  "related": [
+    "bi-ecology"
+  ],
+  "topics": [
+    {
+      "id": "ea-introduction-to-environmental-science-1",
+      "name": "Environmental science as an interdisciplinary field; systems thinking"
+    },
+    {
+      "id": "ea-introduction-to-environmental-science-2",
+      "name": "Matter and energy flow in ecosystems; trophic levels"
+    },
+    {
+      "id": "ea-introduction-to-environmental-science-3",
+      "name": "Biomes, biodiversity and ecosystem services"
+    },
+    {
+      "id": "ea-introduction-to-environmental-science-4",
+      "name": "Population growth: ecological and human demography"
+    },
+    {
+      "id": "ea-introduction-to-environmental-science-5",
+      "name": "Biogeochemical cycles at a glance: carbon, nitrogen, phosphorus and water"
+    },
+    {
+      "id": "ea-introduction-to-environmental-science-6",
+      "name": "Land use, agriculture, forests and food production"
+    },
+    {
+      "id": "ea-introduction-to-environmental-science-7",
+      "name": "Water resources and water pollution"
+    },
+    {
+      "id": "ea-introduction-to-environmental-science-8",
+      "name": "Air pollution and stratospheric ozone"
+    },
+    {
+      "id": "ea-introduction-to-environmental-science-9",
+      "name": "Energy: fossil fuels, nuclear and renewables"
+    },
+    {
+      "id": "ea-introduction-to-environmental-science-10",
+      "name": "Solid and hazardous waste"
+    },
+    {
+      "id": "ea-introduction-to-environmental-science-11",
+      "name": "Global climate change: causes, evidence and consequences"
+    },
+    {
+      "id": "ea-introduction-to-environmental-science-12",
+      "name": "Environmental health and toxicology basics"
+    },
+    {
+      "id": "ea-introduction-to-environmental-science-13",
+      "name": "Environmental ethics, policy and the idea of sustainability"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ma-calculus-of-variations-optimal-control",
+  "name": "Calculus of Variations & Optimal Control",
+  "category": "Optimization & Control Theory",
+  "level": 4,
+  "priority": "advanced",
+  "summary": "Optimal control of dynamical systems: least action, Pontryagin's maximum principle and Hamilton-Jacobi-Bellman equations.",
+  "prerequisites": [
+    "ma-variational-methods",
+    "ma-control-theory"
+  ],
+  "related": [
+    "ma-variational-methods",
+    "el-advanced-control-systems"
+  ],
+  "topics": [
+    {
+      "id": "ma-calculus-of-variations-optimal-control-1",
+      "name": "Principle of least action"
+    },
+    {
+      "id": "ma-calculus-of-variations-optimal-control-4",
+      "name": "Optimal control problem formulation"
+    },
+    {
+      "id": "ma-calculus-of-variations-optimal-control-2",
+      "name": "Pontryagin's maximum principle"
+    },
+    {
+      "id": "ma-calculus-of-variations-optimal-control-5",
+      "name": "Dynamic programming and the Hamilton-Jacobi-Bellman equation"
+    },
+    {
+      "id": "ma-calculus-of-variations-optimal-control-3",
+      "name": "Hamilton-Jacobi equations"
+    },
+    {
+      "id": "ma-calculus-of-variations-optimal-control-6",
+      "name": "Viscosity solutions (introduction)"
+    }
+  ]
+}

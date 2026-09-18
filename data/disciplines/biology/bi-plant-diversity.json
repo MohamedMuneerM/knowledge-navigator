@@ -1,0 +1,54 @@
+{
+  "id": "bi-plant-diversity",
+  "name": "Plant Diversity & Evolution",
+  "category": "Plant Biology",
+  "level": 2,
+  "priority": "important",
+  "summary": "The evolutionary story of plants, from green algae to flowering plants, and the major lineages alive today.",
+  "prerequisites": [
+    "bi-systematics-taxonomy"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-plant-diversity-1",
+      "name": "Green algal ancestors and the move to land"
+    },
+    {
+      "id": "bi-plant-diversity-2",
+      "name": "Bryophytes: liverworts, hornworts and mosses"
+    },
+    {
+      "id": "bi-plant-diversity-3",
+      "name": "Seedless vascular plants: lycophytes and ferns"
+    },
+    {
+      "id": "bi-plant-diversity-4",
+      "name": "The evolution of seeds and pollen"
+    },
+    {
+      "id": "bi-plant-diversity-5",
+      "name": "Gymnosperms: conifers, cycads, ginkgo and gnetophytes"
+    },
+    {
+      "id": "bi-plant-diversity-6",
+      "name": "Angiosperm origins and diversification"
+    },
+    {
+      "id": "bi-plant-diversity-7",
+      "name": "Monocots, eudicots and major angiosperm families"
+    },
+    {
+      "id": "bi-plant-diversity-8",
+      "name": "Plant-animal coevolution: pollinators and herbivores"
+    },
+    {
+      "id": "bi-plant-diversity-9",
+      "name": "Plant identification and field botany"
+    },
+    {
+      "id": "bi-plant-diversity-10",
+      "name": "Ethnobotany and economic botany"
+    }
+  ]
+}

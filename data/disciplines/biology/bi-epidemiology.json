@@ -1,0 +1,61 @@
+{
+  "id": "bi-epidemiology",
+  "name": "Epidemiology",
+  "category": "Health & Biomedical Sciences",
+  "level": 3,
+  "priority": "important",
+  "summary": "Studying disease in populations: measures of occurrence, study designs, bias, outbreak investigation and infectious disease modelling.",
+  "prerequisites": [
+    "ma-biostatistics",
+    "bi-microbiology"
+  ],
+  "related": [
+    "ma-ordinary-differential-equations-odes"
+  ],
+  "topics": [
+    {
+      "id": "bi-epidemiology-1",
+      "name": "Measures of disease frequency: incidence and prevalence"
+    },
+    {
+      "id": "bi-epidemiology-2",
+      "name": "Measures of association: relative risk, odds ratio and attributable risk"
+    },
+    {
+      "id": "bi-epidemiology-3",
+      "name": "Study designs: cohort, case-control, cross-sectional and ecological"
+    },
+    {
+      "id": "bi-epidemiology-4",
+      "name": "Randomised controlled trials"
+    },
+    {
+      "id": "bi-epidemiology-5",
+      "name": "Bias, confounding and effect modification"
+    },
+    {
+      "id": "bi-epidemiology-6",
+      "name": "Causal inference in epidemiology"
+    },
+    {
+      "id": "bi-epidemiology-7",
+      "name": "Screening and diagnostic test accuracy"
+    },
+    {
+      "id": "bi-epidemiology-8",
+      "name": "Outbreak investigation and surveillance"
+    },
+    {
+      "id": "bi-epidemiology-9",
+      "name": "Infectious disease modelling: SIR models and R0"
+    },
+    {
+      "id": "bi-epidemiology-10",
+      "name": "Chronic disease and environmental epidemiology"
+    },
+    {
+      "id": "bi-epidemiology-11",
+      "name": "Global and public health"
+    }
+  ]
+}

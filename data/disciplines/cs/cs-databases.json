@@ -1,0 +1,64 @@
+{
+  "id": "cs-databases",
+  "name": "Database Systems & SQL",
+  "category": "Data Management",
+  "level": 2,
+  "priority": "core",
+  "summary": "Storing and querying data with relational databases: the relational model, SQL, data modeling, normalization, indexes and transactions.",
+  "prerequisites": [
+    "cs-data-structures"
+  ],
+  "related": [
+    "ai-databases"
+  ],
+  "topics": [
+    {
+      "id": "cs-databases-1",
+      "name": "Data, databases and database management systems"
+    },
+    {
+      "id": "cs-databases-2",
+      "name": "The relational model: relations, keys and integrity constraints"
+    },
+    {
+      "id": "cs-databases-3",
+      "name": "Relational algebra"
+    },
+    {
+      "id": "cs-databases-4",
+      "name": "SQL queries: joins, aggregation and subqueries"
+    },
+    {
+      "id": "cs-databases-5",
+      "name": "SQL data definition, views and constraints"
+    },
+    {
+      "id": "cs-databases-6",
+      "name": "Entity-relationship modeling"
+    },
+    {
+      "id": "cs-databases-7",
+      "name": "Functional dependencies and normalization (1NF to BCNF)"
+    },
+    {
+      "id": "cs-databases-8",
+      "name": "Indexes and query performance basics"
+    },
+    {
+      "id": "cs-databases-9",
+      "name": "Transactions and ACID properties"
+    },
+    {
+      "id": "cs-databases-10",
+      "name": "Stored procedures, triggers and application access through ORMs"
+    },
+    {
+      "id": "cs-databases-11",
+      "name": "Database security and access control"
+    },
+    {
+      "id": "cs-databases-12",
+      "name": "Semi-structured data: JSON and XML in databases"
+    }
+  ]
+}

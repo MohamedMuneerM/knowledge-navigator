@@ -1,0 +1,88 @@
+{
+  "id": "ai-core-ai-concepts",
+  "name": "Core AI Concepts",
+  "category": "Getting Started",
+  "level": 1,
+  "priority": "important",
+  "summary": "The big ideas behind AI: intelligent agents, narrow versus general AI, the history and philosophy of the field, and the symbolic and connectionist paradigms.",
+  "prerequisites": [
+    "ai-introduction-to-ai-ml"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ai-core-ai-concepts-4",
+      "name": "Intelligent agents and environments (PEAS, agent types, rationality)"
+    },
+    {
+      "id": "ai-core-ai-concepts-1",
+      "name": "Types of AI",
+      "sub": [
+        {
+          "id": "ai-core-ai-concepts-1-1",
+          "name": "Narrow/Weak AI"
+        },
+        {
+          "id": "ai-core-ai-concepts-1-2",
+          "name": "General/Strong AI (AGI)"
+        },
+        {
+          "id": "ai-core-ai-concepts-1-3",
+          "name": "Artificial Superintelligence (ASI)"
+        }
+      ]
+    },
+    {
+      "id": "ai-core-ai-concepts-2",
+      "name": "AI History and Philosophy",
+      "sub": [
+        {
+          "id": "ai-core-ai-concepts-2-1",
+          "name": "Evolution of AI"
+        },
+        {
+          "id": "ai-core-ai-concepts-2-2",
+          "name": "Turing Test"
+        },
+        {
+          "id": "ai-core-ai-concepts-2-3",
+          "name": "Chinese Room argument"
+        },
+        {
+          "id": "ai-core-ai-concepts-2-4",
+          "name": "Philosophical implications of intelligent machines"
+        },
+        {
+          "id": "ai-core-ai-concepts-2-5",
+          "name": "Consciousness and AI"
+        }
+      ]
+    },
+    {
+      "id": "ai-core-ai-concepts-3",
+      "name": "AI Paradigms",
+      "sub": [
+        {
+          "id": "ai-core-ai-concepts-3-1",
+          "name": "Symbolic AI"
+        },
+        {
+          "id": "ai-core-ai-concepts-3-2",
+          "name": "Connectionist AI"
+        },
+        {
+          "id": "ai-core-ai-concepts-3-3",
+          "name": "Hybrid symbolic-neural systems"
+        }
+      ]
+    },
+    {
+      "id": "ai-core-ai-concepts-5",
+      "name": "Major milestones: Dartmouth, expert systems, AI winters, deep learning, LLMs"
+    },
+    {
+      "id": "ai-core-ai-concepts-6",
+      "name": "The future of AI: AGI debates and forecasts"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "el-display-technologies",
+  "name": "Display Technologies",
+  "category": "Semiconductor Devices & Fabrication",
+  "level": 2,
+  "priority": "important",
+  "summary": "How LCD, OLED, e-paper and LED displays and touch screens work, and how display controllers drive them.",
+  "prerequisites": [
+    "el-optoelectronic-devices"
+  ],
+  "related": [
+    "ai-wearable-ai-assistants-ar"
+  ],
+  "topics": [
+    {
+      "id": "el-display-technologies-1",
+      "name": "LCD (Liquid Crystal Display) and TFT"
+    },
+    {
+      "id": "el-display-technologies-2",
+      "name": "OLED and AMOLED displays"
+    },
+    {
+      "id": "el-display-technologies-3",
+      "name": "E-ink and e-paper displays"
+    },
+    {
+      "id": "el-display-technologies-4",
+      "name": "LED matrices and segment displays"
+    },
+    {
+      "id": "el-display-technologies-5",
+      "name": "Touch screen technologies (resistive, capacitive, IR)"
+    },
+    {
+      "id": "el-display-technologies-6",
+      "name": "Display drivers and controllers (SPI, parallel, MIPI DSI)"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ph-sociophysics",
+  "name": "Sociophysics",
+  "category": "Interdisciplinary Physics",
+  "level": 4,
+  "priority": "optional",
+  "summary": "Statistical-physics models of social behaviour, opinions and networks.",
+  "prerequisites": [
+    "ph-complex-systems-networks"
+  ],
+  "related": [
+    "ma-network-science"
+  ],
+  "topics": [
+    {
+      "id": "ph-sociophysics-1",
+      "name": "Statistical physics of social systems"
+    },
+    {
+      "id": "ph-sociophysics-2",
+      "name": "Opinion dynamics"
+    },
+    {
+      "id": "ph-sociophysics-3",
+      "name": "Network physics in social systems"
+    }
+  ]
+}

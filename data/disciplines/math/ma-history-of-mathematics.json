@@ -1,0 +1,48 @@
+{
+  "id": "ma-history-of-mathematics",
+  "name": "History of Mathematics",
+  "category": "History, Philosophy & Education",
+  "level": 2,
+  "priority": "optional",
+  "summary": "How mathematics developed from ancient number systems to modern abstraction, and the people behind it.",
+  "prerequisites": [
+    "ma-calculus"
+  ],
+  "related": [
+    "ma-foundations-philosophy"
+  ],
+  "topics": [
+    {
+      "id": "ma-history-of-mathematics-1",
+      "name": "Ancient mathematics"
+    },
+    {
+      "id": "ma-history-of-mathematics-4",
+      "name": "Greek mathematics"
+    },
+    {
+      "id": "ma-history-of-mathematics-5",
+      "name": "Indian, Chinese and Islamic mathematics"
+    },
+    {
+      "id": "ma-history-of-mathematics-6",
+      "name": "Renaissance algebra and the birth of calculus"
+    },
+    {
+      "id": "ma-history-of-mathematics-2",
+      "name": "Development of mathematical ideas"
+    },
+    {
+      "id": "ma-history-of-mathematics-7",
+      "name": "Nineteenth-century rigour and abstraction"
+    },
+    {
+      "id": "ma-history-of-mathematics-8",
+      "name": "Twentieth-century mathematics"
+    },
+    {
+      "id": "ma-history-of-mathematics-3",
+      "name": "Biographies of mathematicians"
+    }
+  ]
+}

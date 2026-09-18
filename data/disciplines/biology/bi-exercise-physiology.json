@@ -1,0 +1,59 @@
+{
+  "id": "bi-exercise-physiology",
+  "name": "Exercise Physiology",
+  "category": "Biomechanics & Human Performance",
+  "level": 3,
+  "priority": "important",
+  "summary": "How the body responds and adapts to physical activity: energy systems, cardiorespiratory limits, training and performance.",
+  "prerequisites": [
+    "bi-muscle-biology",
+    "bi-metabolism"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "bi-exercise-physiology-1",
+      "name": "Energy systems: phosphocreatine, glycolytic and oxidative"
+    },
+    {
+      "id": "bi-exercise-physiology-2",
+      "name": "VO2max, lactate threshold and exercise testing"
+    },
+    {
+      "id": "bi-exercise-physiology-3",
+      "name": "Cardiovascular and respiratory responses to exercise"
+    },
+    {
+      "id": "bi-exercise-physiology-4",
+      "name": "Hormonal and thermoregulatory responses to exercise"
+    },
+    {
+      "id": "bi-exercise-physiology-5",
+      "name": "Principles of training: overload, specificity and periodisation"
+    },
+    {
+      "id": "bi-exercise-physiology-6",
+      "name": "Adaptations to endurance training"
+    },
+    {
+      "id": "bi-exercise-physiology-7",
+      "name": "Adaptations to strength training"
+    },
+    {
+      "id": "bi-exercise-physiology-8",
+      "name": "Metabolic cost of locomotion and economy of movement"
+    },
+    {
+      "id": "bi-exercise-physiology-9",
+      "name": "Environmental exercise physiology: heat, cold, altitude"
+    },
+    {
+      "id": "bi-exercise-physiology-10",
+      "name": "Sports nutrition and ergogenic aids"
+    },
+    {
+      "id": "bi-exercise-physiology-11",
+      "name": "Detraining, bed rest and inactivity physiology"
+    }
+  ]
+}

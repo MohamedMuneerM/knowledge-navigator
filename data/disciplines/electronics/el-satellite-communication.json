@@ -1,0 +1,33 @@
+{
+  "id": "el-satellite-communication",
+  "name": "Satellite Communication",
+  "category": "Communication Protocols & Connectivity",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Satellite links and positioning for devices: LEO and GEO constellations, satellite IoT and GNSS.",
+  "prerequisites": [
+    "el-short-range-wireless"
+  ],
+  "related": [
+    "el-space-satellite-systems",
+    "ae-space-communications-link-budgets"
+  ],
+  "topics": [
+    {
+      "id": "el-satellite-communication-1",
+      "name": "LEO (Low Earth Orbit) - Starlink, Iridium, Globalstar"
+    },
+    {
+      "id": "el-satellite-communication-2",
+      "name": "GEO (Geostationary) - traditional satellite"
+    },
+    {
+      "id": "el-satellite-communication-3",
+      "name": "Satellite IoT - Swarm, Myriota, Astrocast"
+    },
+    {
+      "id": "el-satellite-communication-4",
+      "name": "GNSS (Global Navigation Satellite Systems) - GPS, GLONASS, Galileo, BeiDou"
+    }
+  ]
+}

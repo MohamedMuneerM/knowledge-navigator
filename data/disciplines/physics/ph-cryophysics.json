@@ -1,0 +1,34 @@
+{
+  "id": "ph-cryophysics",
+  "name": "Cryophysics",
+  "category": "Condensed Matter Physics",
+  "level": 3,
+  "priority": "advanced",
+  "summary": "Physics near absolute zero: superfluid helium, quantum fluids and the techniques for reaching millikelvin temperatures.",
+  "prerequisites": [
+    "ph-thermodynamics-statistical-mechanics",
+    "ph-quantum-mechanics"
+  ],
+  "related": [
+    "ph-vacuum-cryogenic-systems",
+    "mt-cryogenic-materials"
+  ],
+  "topics": [
+    {
+      "id": "ph-cryophysics-1",
+      "name": "Low-temperature physics"
+    },
+    {
+      "id": "ph-cryophysics-2",
+      "name": "Cryogenics"
+    },
+    {
+      "id": "ph-cryophysics-3",
+      "name": "Quantum fluids (superfluid helium)"
+    },
+    {
+      "id": "ph-cryophysics-4",
+      "name": "Dilution refrigeration"
+    }
+  ]
+}

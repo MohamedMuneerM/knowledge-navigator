@@ -1,0 +1,57 @@
+{
+  "id": "ch-mass-spectrometry",
+  "name": "Mass Spectrometry",
+  "category": "Analytical Chemistry & Instrumentation",
+  "level": 3,
+  "priority": "important",
+  "summary": "Ionization methods, mass analyzers and tandem MS for identification and quantification from small molecules to proteins.",
+  "prerequisites": [
+    "ch-instrumental-analysis"
+  ],
+  "related": [
+    "bi-protein-biochemical-methods",
+    "ea-analytical-methods-in-geochemistry"
+  ],
+  "topics": [
+    {
+      "id": "ch-mass-spectrometry-1",
+      "name": "Ionization methods: EI, CI, ESI, MALDI and APCI"
+    },
+    {
+      "id": "ch-mass-spectrometry-2",
+      "name": "Mass analyzers: quadrupole, time-of-flight, ion trap, Orbitrap and FT-ICR"
+    },
+    {
+      "id": "ch-mass-spectrometry-3",
+      "name": "Resolution, mass accuracy and isotope patterns"
+    },
+    {
+      "id": "ch-mass-spectrometry-4",
+      "name": "Tandem MS and fragmentation mechanisms"
+    },
+    {
+      "id": "ch-mass-spectrometry-5",
+      "name": "Quantitative MS: isotope dilution and SRM/MRM"
+    },
+    {
+      "id": "ch-mass-spectrometry-6",
+      "name": "Ion mobility spectrometry"
+    },
+    {
+      "id": "ch-mass-spectrometry-7",
+      "name": "Proteomics and metabolomics workflows"
+    },
+    {
+      "id": "ch-mass-spectrometry-8",
+      "name": "Imaging mass spectrometry"
+    },
+    {
+      "id": "ch-mass-spectrometry-9",
+      "name": "Isotope-ratio mass spectrometry"
+    },
+    {
+      "id": "ch-mass-spectrometry-10",
+      "name": "Ambient ionization and field-portable MS"
+    }
+  ]
+}

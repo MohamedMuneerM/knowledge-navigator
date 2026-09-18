@@ -1,0 +1,63 @@
+{
+  "id": "ae-space-mission-design",
+  "name": "Space Mission Design and Analysis",
+  "category": "Space Missions & Exploration",
+  "level": 3,
+  "priority": "core",
+  "summary": "The SMAD process: turning mission objectives into a mission concept, orbit, spacecraft, ground segment, cost and schedule.",
+  "prerequisites": [
+    "ae-spacecraft-bus-fundamentals",
+    "ae-orbital-maneuvers"
+  ],
+  "related": [],
+  "topics": [
+    {
+      "id": "ae-space-mission-design-1",
+      "name": "Mission objectives, requirements and concept of operations"
+    },
+    {
+      "id": "ae-space-mission-design-2",
+      "name": "Mission architecture elements: payload, bus, launch, ground, operations"
+    },
+    {
+      "id": "ae-space-mission-design-3",
+      "name": "Orbit and constellation selection"
+    },
+    {
+      "id": "ae-space-mission-design-4",
+      "name": "Delta-v budget and propellant sizing"
+    },
+    {
+      "id": "ae-space-mission-design-5",
+      "name": "Payload sizing and observation geometry"
+    },
+    {
+      "id": "ae-space-mission-design-6",
+      "name": "Spacecraft sizing and budgets from first principles"
+    },
+    {
+      "id": "ae-space-mission-design-7",
+      "name": "Launch vehicle selection"
+    },
+    {
+      "id": "ae-space-mission-design-8",
+      "name": "Ground segment and operations concept"
+    },
+    {
+      "id": "ae-space-mission-design-9",
+      "name": "Trade studies and figures of merit"
+    },
+    {
+      "id": "ae-space-mission-design-10",
+      "name": "Space mission cost estimation (cost models, CERs)"
+    },
+    {
+      "id": "ae-space-mission-design-11",
+      "name": "Risk and reliability at mission level"
+    },
+    {
+      "id": "ae-space-mission-design-12",
+      "name": "End-of-life disposal planning"
+    }
+  ]
+}
