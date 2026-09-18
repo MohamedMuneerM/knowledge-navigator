@@ -395,7 +395,7 @@
         },
         {
           "chapter": "el-real-time-operating-systems-rtos",
-          "why": "FreeRTOS, Zephyr and friends: the RTOS landscape and how to choose.",
+          "why": "FreeRTOS, Zephyr and friends: the main RTOS options and how to choose between them.",
           "depth": "full"
         },
         {

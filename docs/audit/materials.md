@@ -88,47 +88,43 @@ The 20 categories go from foundational to applied:
 19. Computational Materials Science
 20. Frontier Materials
 
-Grouping decisions:
-
-- **Material classes (categories 6 to 9)** follow Callister's grouping.
-- **Application categories (15 to 18)** support the aerospace, Iron Man and energy roadmaps, so a roadmap can pick a whole block. Two chapters sit in their material-class category even though they are aerospace-critical: superalloys (Metals & Alloys) and CFRP (Composites).
-- **Thermal properties** is grouped with the other functional properties but set to level 2, because materials selection depends on it.
+The material-class categories (6 to 9) follow Callister's grouping. The application categories (15 to 18) support the aerospace, Iron Man and energy roadmaps, so a roadmap can pick a whole block. Two aerospace-critical chapters still sit in their material-class category: superalloys (Metals & Alloys) and CFRP (Composites). Thermal properties is grouped with the other functional properties but set to level 2, because materials selection depends on it.
 
 ## 5. What was added
 
-All 83 chapters are new. Chapters to note:
+All 83 chapters are new. The following are worth noting:
 
-- **On-ramp:** `mt-intro-to-materials` (L1, core) and `mt-materials-history-society` (L1, optional).
-- **Aerospace depth:**
+- On-ramp: `mt-intro-to-materials` (L1, core) and `mt-materials-history-society` (L1, optional).
+- Aerospace depth:
   - `mt-superalloys-refractory` (single-crystal blades, TBCs, C-103 nozzle alloys)
   - `mt-fibre-composites-mechanics-manufacturing` (laminate theory, CAI, AFP, COPVs, cryotanks)
   - `mt-ceramic-matrix-composites` (CVI/PIP/MI, C/C, EBCs)
   - `mt-thermal-protection-systems` (tiles, RCC, PICA/AVCOAT/carbon-phenolic, ablation physics, UHTCs, arc-jet testing)
   - `mt-aerospace-materials` (allowables, MMPDS/CMH-17, qualification)
-- **Extreme environments:** `mt-cryogenic-materials` (LH2/LOX tanks, superconducting magnet conductors), `mt-radiation-nuclear-materials`, `mt-space-environment-materials` (atomic oxygen, outgassing, MMOD/Whipple shields), `mt-high-temperature-oxidation`.
-- **Iron Man suit direction:**
+- Extreme environments: `mt-cryogenic-materials` (LH2/LOX tanks, superconducting magnet conductors), `mt-radiation-nuclear-materials`, `mt-space-environment-materials` (atomic oxygen, outgassing, MMOD/Whipple shields), `mt-high-temperature-oxidation`.
+- Iron Man suit direction:
   - `mt-lightweight-structures` (cellular and architected materials, exoskeleton frames)
   - `mt-impact-protective-materials` (high-rate behaviour, fibre and ceramic protection concepts, helmets; conceptual only)
   - `mt-battery-materials`
   - `mt-smart-materials`, `mt-shape-memory-alloys`, `mt-electroactive-polymers-artificial-muscles`
-- **Statistics and experimental methods** (ABET element iii) are topics in `mt-characterization-fundamentals`, not a separate chapter.
+- Statistics and experimental methods (ABET element iii) are topics in `mt-characterization-fundamentals`, not a separate chapter.
 
 ## 6. Learning-order notes
 
-**Main spine:** Intro to Materials → Atomic Bonding → Crystal Structures → Defects → Thermodynamics → Phase Diagrams → Diffusion → Phase Transformations → Mechanical Properties → Plasticity → Fracture → Fatigue. The material-class chapters (steels, ceramics, polymers, composites) and processing come next, followed by the applied specialisations.
+The main spine is Intro to Materials → Atomic Bonding → Crystal Structures → Defects → Thermodynamics → Phase Diagrams → Diffusion → Phase Transformations → Mechanical Properties → Plasticity → Fracture → Fatigue. The material-class chapters (steels, ceramics, polymers, composites) and processing come next, followed by the applied specialisations.
 
-**Branches:**
-- **Functional:** Crystallography + Quantum Mechanics → Electronic Properties → Semiconductors, Dielectrics, Magnetic, Optical → Energy and Smart materials.
-- **Aerospace:** Composites + Light Alloys + Fatigue → Aerospace Materials → Space Environment. Composites + Ceramics → CMCs → Thermal Protection Systems.
-- **Computational:** Diffusion + Numerical PDEs → Intro Computational → DFT, MD, CALPHAD/ICME, Phase-Field → Informatics.
+Three branches leave the spine:
+- Functional: Crystallography + Quantum Mechanics → Electronic Properties → Semiconductors, Dielectrics, Magnetic, Optical → Energy and Smart materials.
+- Aerospace: Composites + Light Alloys + Fatigue → Aerospace Materials → Space Environment. Composites + Ceramics → CMCs → Thermal Protection Systems.
+- Computational: Diffusion + Numerical PDEs → Intro Computational → DFT, MD, CALPHAD/ICME, Phase-Field → Informatics.
 
 The prerequisite graph has 9 stages, and every prerequisite is at the same or a lower level.
 
 ## 7. Recommended moves and open questions
 
-- **Chapter count:** 83 is more than a typical materials degree covers. This is deliberate: six application areas get proper depth, which added about 20 specialist chapters. Each one maps to a real course or book section. Candidates to merge if the count must come down:
+- 83 chapters is more than a typical materials degree covers. This is deliberate: giving six application areas proper depth added about 20 specialist chapters, and each one maps to a real course or book section. If the count must come down, these are candidates to merge:
   - `mt-space-environment-materials` into `mt-radiation-nuclear-materials`
   - `mt-thermal-analysis` into `mt-characterization-fundamentals`
   - `mt-self-healing-materials` into `mt-emerging-materials`
-- **Overlap with physics:** `ph-materials-physics` duplicates parts of this discipline (alloys, ceramics, composites, smart materials). It is linked as `related` from several `mt-` chapters. Physics should consider treating it as a pointer to `materials`.
-- **Overlap with electronics:** `el-advanced-materials` overlaps with `mt-2d-materials` and `mt-emerging-materials`, and `el-battery-technologies` overlaps with `mt-battery-materials`. They are linked via `related`. The mt chapters take the materials-science view and the el chapters the device view.
+- `ph-materials-physics` duplicates parts of this discipline (alloys, ceramics, composites, smart materials). It is linked as `related` from several `mt-` chapters. Physics should consider treating it as a pointer to `materials`.
+- In electronics, `el-advanced-materials` overlaps with `mt-2d-materials` and `mt-emerging-materials`, and `el-battery-technologies` overlaps with `mt-battery-materials`. They are linked via `related`. The mt chapters take the materials-science view and the el chapters the device view.

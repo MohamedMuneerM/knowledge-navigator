@@ -4,7 +4,7 @@
   "category": "Differential Equations & Dynamical Systems",
   "level": 2,
   "priority": "important",
-  "summary": "Laplace, Fourier and Mellin transforms that turn differential equations into algebra, essential in engineering and signal analysis.",
+  "summary": "Laplace, Fourier and Mellin transforms that turn differential equations into algebra, used throughout engineering and signal analysis.",
   "prerequisites": [
     "ma-ordinary-differential-equations-odes"
   ],

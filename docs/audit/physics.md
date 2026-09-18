@@ -90,57 +90,57 @@ The 11 old categories were replaced by 23 categories, ordered from foundational 
 
 ## 5. What was added
 
-**40 new chapters.**
+40 new chapters, grouped by area:
 
-- **On-ramp:** ph-measurement-units-vectors, ph-introductory-mechanics, ph-introductory-heat-thermodynamics, ph-introductory-waves-sound-light, ph-introductory-electricity-magnetism, ph-modern-physics.
-- **Core and graduate core:** ph-waves-oscillations, ph-advanced-electrodynamics, ph-advanced-statistical-mechanics, ph-advanced-quantum-mechanics, ph-string-theory.
-- **Optics and AMO:** ph-laser-physics, ph-atomic-physics, ph-molecular-physics, ph-atom-light-interaction-laser-cooling.
-- **Condensed matter, plasma and complex systems:** ph-quantum-many-body-theory, ph-plasma-physics, ph-fusion-energy, ph-complex-systems-networks.
-- **Astronomy (19 chapters):**
+- On-ramp: ph-measurement-units-vectors, ph-introductory-mechanics, ph-introductory-heat-thermodynamics, ph-introductory-waves-sound-light, ph-introductory-electricity-magnetism, ph-modern-physics.
+- Core and graduate core: ph-waves-oscillations, ph-advanced-electrodynamics, ph-advanced-statistical-mechanics, ph-advanced-quantum-mechanics, ph-string-theory.
+- Optics and AMO: ph-laser-physics, ph-atomic-physics, ph-molecular-physics, ph-atom-light-interaction-laser-cooling.
+- Condensed matter, plasma and complex systems: ph-quantum-many-body-theory, ph-plasma-physics, ph-fusion-energy, ph-complex-systems-networks.
+- Astronomy (19 chapters):
   - ph-introductory-astronomy, ph-sky-observing-amateur-astronomy, ph-positional-astronomy
   - ph-observational-astronomy-telescopes, ph-astrostatistics, ph-radio-astronomy
   - ph-radiative-processes, ph-stellar-astrophysics, ph-sun-heliophysics, ph-astrophysical-fluid-dynamics, ph-interstellar-medium-star-formation
   - ph-celestial-mechanics, ph-exoplanets, ph-astrobiology
   - ph-galaxies-galactic-dynamics, ph-galaxy-formation-evolution, ph-advanced-cosmology
   - ph-compact-objects, ph-astroparticle-physics
-- **Experimental:** ph-data-analysis-statistics, ph-electronics-for-physicists.
+- Experimental: ph-data-analysis-statistics, ph-electronics-for-physicists.
 
-**Notable topics added to existing chapters:**
+Notable topics added to existing chapters:
 
-- **Classical Mechanics:** non-inertial frames, normal modes, canonical transformations, Hamilton-Jacobi.
-- **Electromagnetism:** vector calculus, method of images, multipoles, Faraday's law, Poynting theorem.
-- **Quantum Mechanics:** square wells, harmonic oscillator, hydrogen atom, Dirac notation, two-state systems. These central items were missing before.
-- **General Relativity:** tensor calculus, classic tests, linearized gravity.
-- **Quantum Field Theory:** classical field theory, Yang-Mills, the Standard Model as a QFT.
-- **Particle Physics:** kinematics and cross-sections, quark model.
-- **Nuclear Physics:** semi-empirical mass formula, radiation-matter interaction.
-- **Solid State Physics:** Drude and Sommerfeld free-electron models.
-- **Mathematical Physics:** Sturm-Liouville theory, Frobenius method, calculus of variations, asymptotics.
-- **Computational Physics:** ODE/PDE solvers, FFT, N-body/PIC, HPC.
-- **Astrophysics:** 6 survey topics.
-- **Cosmology:** Friedmann equations, thermal history, distance measures, observational tests and the Hubble tension.
-- **Planetary Science:** 7 topics, including surfaces, magnetospheres, the Kuiper Belt and Oort Cloud, missions and planetary defence.
-- **Space Physics:** 6 topics, including radiation belts, aurorae and spacecraft environment.
-- **Gravitational-Wave Astronomy:** 6 topics, including waveforms, matched filtering and pulsar timing arrays.
-- **Neutrino Astronomy:** MSW effect, cosmic neutrino background.
-- **Measurement & Instrumentation:** standards and traceability, GUM, noise.
-- **Energy Physics:** 6 topics.
-- **Symmetry & Group Theory:** point groups, SU(2)/SU(3), Lorentz/Poincaré groups.
-- **Black Hole Physics:** Penrose process.
-- **Statistical Mechanics:** a sub-topic on ideal quantum gases.
+- Classical Mechanics: non-inertial frames, normal modes, canonical transformations, Hamilton-Jacobi.
+- Electromagnetism: vector calculus, method of images, multipoles, Faraday's law, Poynting theorem.
+- Quantum Mechanics: square wells, harmonic oscillator, hydrogen atom, Dirac notation, two-state systems. These central items were missing before.
+- General Relativity: tensor calculus, classic tests, linearized gravity.
+- Quantum Field Theory: classical field theory, Yang-Mills, the Standard Model as a QFT.
+- Particle Physics: kinematics and cross-sections, quark model.
+- Nuclear Physics: semi-empirical mass formula, radiation-matter interaction.
+- Solid State Physics: Drude and Sommerfeld free-electron models.
+- Mathematical Physics: Sturm-Liouville theory, Frobenius method, calculus of variations, asymptotics.
+- Computational Physics: ODE/PDE solvers, FFT, N-body/PIC, HPC.
+- Astrophysics: 6 survey topics.
+- Cosmology: Friedmann equations, thermal history, distance measures, observational tests and the Hubble tension.
+- Planetary Science: 7 topics, including surfaces, magnetospheres, the Kuiper Belt and Oort Cloud, missions and planetary defence.
+- Space Physics: 6 topics, including radiation belts, aurorae and spacecraft environment.
+- Gravitational-Wave Astronomy: 6 topics, including waveforms, matched filtering and pulsar timing arrays.
+- Neutrino Astronomy: MSW effect, cosmic neutrino background.
+- Measurement & Instrumentation: standards and traceability, GUM, noise.
+- Energy Physics: 6 topics.
+- Symmetry & Group Theory: point groups, SU(2)/SU(3), Lorentz/Poincaré groups.
+- Black Hole Physics: Penrose process.
+- Statistical Mechanics: a sub-topic on ideal quantum gases.
 
 ## 6. Learning-order notes
 
-**Main spine:** Measurement, Units & Vectors → Introductory Mechanics → (Intro Heat / Waves & Light / E&M) → Classical Mechanics → Waves & Oscillations → Modern Physics → Quantum Mechanics → Advanced QM → QFT. The parallel classical branch is Classical E&M → Optics → Laser Physics, and Thermo & Stat Mech → Advanced Stat Mech.
+The main spine is Measurement, Units & Vectors → Introductory Mechanics → (Intro Heat / Waves & Light / E&M) → Classical Mechanics → Waves & Oscillations → Modern Physics → Quantum Mechanics → Advanced QM → QFT. The parallel classical branch is Classical E&M → Optics → Laser Physics, and Thermo & Stat Mech → Advanced Stat Mech.
 
-**Astronomy spine:** Introductory Astronomy → Astrophysics (survey, after Modern Physics) → Radiative Processes → Stellar Structure & Evolution → Galaxies → Cosmology (after GR) → Galaxy Formation / Cosmological Perturbations. Side branches: the Sun → Space Physics; Planetary Science → Exoplanets → Astrobiology; Compact Objects → Gravitational-Wave Astronomy.
+The astronomy spine is Introductory Astronomy → Astrophysics (survey, after Modern Physics) → Radiative Processes → Stellar Structure & Evolution → Galaxies → Cosmology (after GR) → Galaxy Formation / Cosmological Perturbations. Its side branches are the Sun → Space Physics, Planetary Science → Exoplanets → Astrobiology, and Compact Objects → Gravitational-Wave Astronomy.
 
-Relativity runs Special Relativity → General Relativity → Black Hole Physics → Quantum Gravity. String Theory needs QFT and GR.
+The relativity sequence is Special Relativity → General Relativity → Black Hole Physics → Quantum Gravity. String Theory needs QFT and GR.
 
 ## 7. Recommended moves / open questions
 
-- **Mathematical methods.** No level-2 "Mathematical Methods for Physicists" chapter was added, to avoid duplicating math. Core physics chapters point straight at ma-calculus, ma-linear-algebra, ma-ordinary-differential-equations-odes and ma-partial-differential-equations-pdes. ph-mathematical-physics is the level-3 physics-flavoured toolbox. ph-classical-electromagnetism and ph-fluid-mechanics build on ma-vector-calculus, and the introductory chapters on ma-precalculus.
-- **Overlaps kept on purpose and linked:**
+- Physics has no level-2 mathematical-methods chapter of its own, to avoid duplicating maths. Core physics chapters point straight at maths chapters instead: ph-classical-electromagnetism builds on ma-vector-calculus, ph-fluid-mechanics on ma-mathematical-methods, ph-quantum-mechanics on ma-linear-algebra, and the introductory chapters on ma-precalculus. ph-mathematical-physics is the level-3 physics-flavoured toolbox.
+- These overlaps were kept on purpose and linked:
   - ph-astrophysics (survey) overlaps the new deep chapters. Topics such as "Black holes" or "Gamma-ray bursts" appear at survey level there and in depth in ph-compact-objects.
   - ph-planetary-science topics "Exoplanets" and "Astrobiology" overlap the new chapters.
   - ph-space-physics topics "Solar physics" and "Heliophysics" overlap ph-sun-heliophysics.
@@ -148,11 +148,10 @@ Relativity runs Special Relativity → General Relativity → Black Hole Physics
   - ph-classical-electromagnetism topic "Plasma physics (classical)" overlaps ph-plasma-physics.
   - ph-materials-physics topic "Phase transitions" overlaps ph-advanced-statistical-mechanics.
   - ph-engineering-physics overlaps the electronics discipline.
-- **Recommended moves (not done):**
+- These moves are recommended but not done:
   - ph-engineering-physics topics on control, power engineering and signal processing belong to electronics or mechanical engineering.
   - ph-geophysics and ph-atmospheric-environmental-physics overlap the new earth discipline. They are linked via `related`.
   - ph-chemical-physics-physical-chemistry overlaps the new chemistry discipline.
   - ph-materials-physics and ph-nanoscience-nanotechnology overlap the new materials discipline.
   - ph-biophysics overlaps biology.
-- **Elasticity and solid continuum mechanics** has only a "Continuum mechanics" topic inside Fluid Mechanics. Solid mechanics is expected to live in the mechanical or materials disciplines, so it was not added here.
-- **Math prerequisites.** Physics relies on the math discipline's own ordering, for example that ma-ordinary-differential-equations-odes requires ma-calculus. If the math agent adds prerequisites such as ma-ordinary-differential-equations-odes → ma-linear-algebra, a few physics prerequisites (ma-linear-algebra on Quantum Mechanics and General Relativity) may become "redundant" warnings. Prune them then.
+- Elasticity and solid continuum mechanics have only a "Continuum mechanics" topic inside Fluid Mechanics. Solid mechanics is expected to live in the mechanical or materials disciplines, so it was not added here.

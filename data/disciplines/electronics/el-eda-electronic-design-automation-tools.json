@@ -4,7 +4,7 @@
   "category": "Professional Practice, Business & Community",
   "level": 2,
   "priority": "optional",
-  "summary": "The EDA tool landscape: KiCad, Altium, OrCAD and Cadence for boards; Virtuoso and Synopsys for chips; Vivado and Quartus for FPGAs.",
+  "summary": "The main EDA tools: KiCad, Altium, OrCAD and Cadence for boards; Virtuoso and Synopsys for chips; Vivado and Quartus for FPGAs.",
   "prerequisites": [
     "el-schematic-design"
   ],

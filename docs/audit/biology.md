@@ -5,7 +5,7 @@
 **Before:** the discipline was an empty stub (0 chapters, 0 topics).
 **Now:** 100 chapters and 1,104 topics in 19 categories. The discipline runs from a level-1 on-ramp (Introductory Biology, Chemistry of Life, Laboratory Fundamentals) to frontier chapters (Brain-Computer Interfaces, Biosignatures & Life Detection). It covers every area of Campbell Biology, Alberts' *Molecular Biology of the Cell*, the MIT Course 7 subject list and the Cambridge NST Part IB biological subjects, plus the space-biology and human-augmentation topics the space and Iron Man roadmaps need. The validator reports 0 errors and 0 warnings.
 
-The chapter count (100) is above the rough 50–80 estimate. Each chapter is still about one university course. Merging further would have pushed real courses (for example Virology into Microbiology, or Motor Systems into Neuroscience) down into topics.
+The chapter count (100) is above the rough estimate of 50 to 80. Each chapter still corresponds to about one university course, and merging further would have pushed real courses (for example Virology into Microbiology, or Motor Systems into Neuroscience) down into topics.
 
 ## 2. Sources checked
 
@@ -110,34 +110,34 @@ The chapter count (100) is above the rough 50–80 estimate. Each chapter is sti
 
 There were no existing chapters, so nothing was moved. The 19 categories run from foundational to applied: Foundations → Cell & Molecular → Biochemistry & Structural → Genetics & Genomics → Evolution → Biodiversity & Systematics → Ecology & Environment → Microbiology, Virology & Immunology → Plant Biology → Anatomy & Physiology → Biomechanics & Human Performance → Developmental Biology → Neuroscience → Laboratory & Research Methods → Quantitative & Computational Biology → Biotechnology & Bioengineering → Health & Biomedical Sciences → Astrobiology & Space Biology → Bioethics, History & Society.
 
-Some design decisions:
-- **Biomechanics & Human Performance** is its own category (muscle biology, exercise physiology, biomechanics, musculoskeletal modelling and augmentation) because it feeds the Iron Man roadmap.
-- **Astrobiology & Space Biology** is its own category (8 chapters) to support the space roadmaps. Its priority is still `advanced`, since that is its weight within biology.
-- Some smaller subjects are topics, not chapters: histology (in Human Anatomy), quantitative genetics (in Population & Quantitative Genetics), mechanobiology (in Biomechanics), tissue engineering (in Stem Cells), toxicology (in Pharmacology), limnology (in Marine & Freshwater Biology), entomology (in Invertebrate Zoology), paleobiology (in Macroevolution), parasitology (in Infectious Disease), nutrition (in Human Physiology), and circadian biology (in Behavioural Neuroscience, Plant Physiology and Space Physiology).
+Three design decisions shaped the grouping:
+- Biomechanics & Human Performance is a separate category (muscle biology, exercise physiology, biomechanics, musculoskeletal modelling and augmentation) because the Iron Man roadmap draws on it.
+- Astrobiology & Space Biology is also a separate category (8 chapters), to support the space roadmaps. Its priority stays `advanced`, since that is its weight within biology.
+- Some smaller subjects are topics rather than chapters: histology (in Human Anatomy), quantitative genetics (in Population & Quantitative Genetics), mechanobiology (in Biomechanics), tissue engineering (in Stem Cells), toxicology (in Pharmacology), limnology (in Marine & Freshwater Biology), entomology (in Invertebrate Zoology), paleobiology (in Macroevolution), parasitology (in Infectious Disease), nutrition (in Human Physiology), and circadian biology (in Behavioural Neuroscience, Plant Physiology and Space Physiology).
 
 ## 5. What was added
 
 All 100 chapters are new. By priority: 20 core, 48 important, 30 advanced and 2 optional. By level: 4 at level 1, 20 at level 2, 45 at level 3, 29 at level 4 and 2 at level 5.
 
-Notable chapters for the space and Iron Man roadmaps:
-- **Space:** Radiation Biology, Extremophiles, Origin of Life, Astrobiology, Biosignatures & Life Detection, Human Physiology in Spaceflight (NASA's five hazards, SANS, bone and muscle loss, EVA), Gravitational & Space Cell Biology, Bioregenerative Life Support & Space Agriculture (MELiSSA, Veggie, biomining).
-- **Iron Man (exoskeletons and BCIs):** Muscle Biology (motor units, EMG), Motor Systems & Motor Control, Biomechanics (Hill model, inverse dynamics, gait), Musculoskeletal Modelling & Human Augmentation, Neural Recording, Imaging & Stimulation, and Brain-Computer Interfaces & Neuroprosthetics.
+Several chapters exist mainly for the space and Iron Man roadmaps:
+- For the space roadmaps: Radiation Biology, Extremophiles, Origin of Life, Astrobiology, Biosignatures & Life Detection, Human Physiology in Spaceflight (NASA's five hazards, SANS, bone and muscle loss, EVA), Gravitational & Space Cell Biology, Bioregenerative Life Support & Space Agriculture (MELiSSA, Veggie, biomining).
+- For the Iron Man roadmap (exoskeletons and BCIs): Muscle Biology (motor units, EMG), Motor Systems & Motor Control, Biomechanics (Hill model, inverse dynamics, gait), Musculoskeletal Modelling & Human Augmentation, Neural Recording, Imaging & Stimulation, and Brain-Computer Interfaces & Neuroprosthetics.
 
 ## 6. Learning-order notes
 
 The main spine: Introductory Biology → Chemistry of Life → Cell Biology → Molecular Biology / Biochemistry → Genetics → Evolutionary Biology → Ecology.
 
-Branches:
-- **Molecular:** Cell Signaling / Gene Regulation → Developmental Biology, Cancer Biology, Systems Biology → Synthetic Biology.
-- **Organismal:** Human Anatomy → Human Physiology → Muscle Biology → Biomechanics / Exercise Physiology → Space Physiology.
-- **Neuro:** Membranes & Bioelectricity → Intro Neuroscience → Cellular Neuroscience → Motor/Sensory Systems → Systems Neuroscience → Neurotechnology → BCIs.
-- **Space:** Microbiology → Extremophiles, plus Origin of Life → Astrobiology → Biosignatures.
-- **Computational:** Biological Data Analysis → Bioinformatics → Omics / ML in Biology.
+Five branches leave the spine:
+- Molecular: Cell Signaling / Gene Regulation → Developmental Biology, Cancer Biology, Systems Biology → Synthetic Biology.
+- Organismal: Human Anatomy → Human Physiology → Muscle Biology → Biomechanics / Exercise Physiology → Space Physiology.
+- Neuro: Membranes & Bioelectricity → Intro Neuroscience → Cellular Neuroscience → Motor/Sensory Systems → Systems Neuroscience → Neurotechnology → BCIs.
+- Space: Microbiology → Extremophiles, plus Origin of Life → Astrobiology → Biosignatures.
+- Computational: Biological Data Analysis → Bioinformatics → Omics / ML in Biology.
 
-The longest prerequisite chain is 10 stages.
+The longest prerequisite chain has 10 stages.
 
-## 7. Recommended moves / open questions
+## 7. Recommended moves and open questions
 
-- **Biostatistics.** The math chapter `ma-biostatistics` stays the home of biostatistics theory. Biology's `bi-quantitative-biology-data-analysis` is the applied lab version and links to it.
-- **Biophysics.** `ph-biophysics` overlaps with Membranes & Bioelectricity, Protein Structure & Function, Structural Biology and Cellular Neuroscience. These are linked via `related`, and no move is needed.
-- **Possible future splits** if more depth is wanted: Entomology, Ornithology/Mammalogy, Parasitology and Toxicology could each become a chapter.
+- Biostatistics theory stays in the math chapter `ma-biostatistics`. Biology's `bi-quantitative-biology-data-analysis` is the applied lab version and links to it.
+- `ph-biophysics` overlaps with Membranes & Bioelectricity, Protein Structure & Function, Structural Biology and Cellular Neuroscience. The chapters are linked via `related`, so no move is needed.
+- If more depth is wanted later, Entomology, Ornithology/Mammalogy, Parasitology and Toxicology could each become a chapter.

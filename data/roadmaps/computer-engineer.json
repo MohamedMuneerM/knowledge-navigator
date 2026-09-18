@@ -594,7 +594,7 @@
         },
         {
           "chapter": "el-high-level-synthesis-hls",
-          "why": "Generating accelerators from C/C++, a key hardware/software co-design technique.",
+          "why": "Generating accelerators from C/C++, a common technique in hardware/software co-design.",
           "depth": "full"
         },
         {
@@ -689,7 +689,7 @@
         },
         {
           "chapter": "el-control-theory",
-          "why": "Elective: feedback control, essential if you move toward robotics, motor control or power.",
+          "why": "Elective: feedback control, worth learning if you move toward robotics, motor control or power.",
           "depth": "full"
         },
         {

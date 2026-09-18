@@ -4,7 +4,7 @@
   "category": "Number Theory",
   "level": 4,
   "priority": "advanced",
-  "summary": "The p-adic numbers, a different completion of the rationals, and analysis over them, a key tool in modern number theory.",
+  "summary": "The p-adic numbers, a different completion of the rationals, and analysis over them, a standard tool in modern number theory.",
   "prerequisites": [
     "ma-algebraic-number-theory",
     "ma-real-analysis"

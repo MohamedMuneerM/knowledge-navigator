@@ -3,6 +3,7 @@
 ## 1. Verdict
 
 **Before:** the discipline did not exist. The file was an empty stub with no description and no chapters.
+
 **Now:** 75 chapters with 913 topics and 15 sub-topics (928 items in total) in 19 categories. They run from a level-1 on-ramp (intro to engineering design, how machines work, workshop practice, engineering drawing) to level-5 frontiers (soft robotics, mechanical metamaterials). Every knowledge area in the NCEES FE Mechanical specification and in all three PE Mechanical specifications maps to at least one chapter. So do both ABET "thermal and mechanical systems" requirements and the core and elective course lists of MIT, Georgia Tech and Purdue. The Iron Man and robotics roadmaps get dedicated chapters: fluid power, actuators and drive trains, lightweight structures, wearable mechanisms and exoskeletons, compact-system thermal management, and energy-storage integration.
 
 ## 2. Sources checked
@@ -64,11 +65,11 @@
 | Control systems (MIT 2.14, 2.151-2.153) | `me-feedback-control` (with intro topics on LQR/MPC/robust/adaptive); deeper theory lives in `el-control-theory` and `ma-control-theory` | ✅ covered |
 | Mechatronics (GT ME 4405, Purdue ME 588) | `me-mechatronics` | ➕ added |
 | Robotics mechanics & mechanism design (MIT 2.12, Purdue ME 572) | `me-robot-mechanics`, `me-robot-mechanism-design` | ➕ added |
-| Actuators & drive trains (owner goal) | `me-actuators-drive-trains`, `me-smart-materials-artificial-muscles` | ➕ added |
-| Fluid power (Purdue ME 535; owner goal) | `me-hydraulics-pneumatics`, `me-servo-hydraulics-advanced-fluid-power` | ➕ added |
-| Wearable mechanisms / exoskeletons, human-machine joints (owner goal) | `me-wearable-mechanisms-exoskeletons`, `me-biomechanics` | ➕ added |
-| Thermal management of compact power (owner goal; Purdue ME 511, GT ME 4754) | `me-thermal-management-compact-power` | ➕ added |
-| Power-dense energy storage (owner goal; GT ME 4759, 4325) | `me-energy-storage-power-integration` | ➕ added |
+| Actuators & drive trains (roadmap goal) | `me-actuators-drive-trains`, `me-smart-materials-artificial-muscles` | ➕ added |
+| Fluid power (Purdue ME 535; roadmap goal) | `me-hydraulics-pneumatics`, `me-servo-hydraulics-advanced-fluid-power` | ➕ added |
+| Wearable mechanisms / exoskeletons, human-machine joints (roadmap goal) | `me-wearable-mechanisms-exoskeletons`, `me-biomechanics` | ➕ added |
+| Thermal management of compact power (roadmap goal; Purdue ME 511, GT ME 4754) | `me-thermal-management-compact-power` | ➕ added |
+| Power-dense energy storage (roadmap goal; GT ME 4759, 4325) | `me-energy-storage-power-integration` | ➕ added |
 | FEA, CFD (MIT 2.095-2.097, GT ME 4342) | `me-finite-element-analysis`, `me-computational-fluid-dynamics` | ➕ added |
 | Design optimization and topology optimization (MIT 2.083) | `me-design-optimization` | ➕ added |
 | Reliability (Purdue ME 571, GT ME 4725) | `me-reliability-safety-engineering` | ➕ added |
@@ -106,7 +107,7 @@ This is a new discipline, so nothing was moved. The 19 categories run from found
 18. Automotive & Vehicle Engineering
 19. Frontiers of Mechanical Engineering
 
-Fluid Power, Biomechanics & Wearable Systems, and the compact-power chapters in Energy & Power Systems are separate from the standard ME core on purpose. That makes the Iron Man suit and robotics roadmap easy to assemble.
+Fluid Power, Biomechanics & Wearable Systems, and the compact-power chapters in Energy & Power Systems are deliberately kept apart from the standard ME core, so the Iron Man suit and robotics roadmaps can draw on them directly.
 
 ## 5. What was added
 
@@ -122,15 +123,17 @@ All 75 chapters are new: 25 core, 34 important and 16 advanced. By level: 4 at l
 
 ## 6. Learning-order notes
 
-- **Mechanics spine:** Intro to Engineering → Statics → Mechanics of Materials → Machine Design → Shafts/Gears/Fasteners → Product Design.
-- **Dynamics and control spine:** Statics → Dynamics → System Dynamics → Vibrations / Feedback Control → Mechatronics → Actuators & Drive Trains → Robot Mechanism Design → Wearable Exoskeletons.
-- **Thermal-fluids spine:** Thermodynamics → Fluid Mechanics → Heat Transfer → Applied Thermodynamics → Thermal Systems Design → HVAC / Power / Compact Thermal Management.
-- **Manufacturing spine:** Drawing → CAD → Engineering Materials → Manufacturing Processes → Machining → CNC/CAM, with Tolerancing/GD&T feeding Manufacturing Systems & Quality.
-- The longest prerequisite chain in the discipline has 9 stages.
+The discipline has four main spines:
+
+- Mechanics: Intro to Engineering → Statics → Mechanics of Materials → Machine Design → Shafts/Gears/Fasteners → Product Design.
+- Dynamics and control: Statics → Dynamics → System Dynamics → Vibrations / Feedback Control → Mechatronics → Actuators & Drive Trains → Robot Mechanism Design → Wearable Exoskeletons.
+- Thermal-fluids: Thermodynamics → Fluid Mechanics → Heat Transfer → Applied Thermodynamics → Thermal Systems Design → HVAC / Power / Compact Thermal Management.
+- Manufacturing: Drawing → CAD → Engineering Materials → Manufacturing Processes → Machining → CNC/CAM, with Tolerancing/GD&T feeding Manufacturing Systems & Quality.
+
+The longest prerequisite chain in the discipline has 9 stages.
 
 ## 7. Recommended moves and open questions
 
-- **Physics on-ramp:** `me-statics` and `me-dynamics` list `ph-classical-mechanics` as `related`, not as a prerequisite. That chapter includes Lagrangian and Hamiltonian mechanics, which is too heavy for a first engineering-mechanics course. If the physics agent adds an introductory mechanics chapter, it should become a prerequisite of `me-statics`.
-- `me-mechanical-vibrations` lists both `me-system-dynamics` (which needs `ma-ordinary-differential-equations-odes`) and `ma-linear-algebra`. If the math discipline makes ODEs depend on linear algebra, the validator will flag `ma-linear-algebra` as redundant. It is safe to drop it then.
+- `me-statics` builds on `ph-introductory-mechanics`. `ph-classical-mechanics` is only linked as `related`, because it includes Lagrangian and Hamiltonian mechanics, which is too much for a first engineering-mechanics course.
 - Control theory exists in three places (`el-control-theory`, `ma-control-theory`, `me-feedback-control`). The ME chapter keeps the mechanical-systems focus, and the three are linked with `related`.
 - Robot kinematics overlaps with `ai-kinematics-dynamics` and `el-kinematics-dynamics`. `me-robot-mechanics` is the rigorous mechanics version (screw theory, statics, dynamics, parallel mechanisms), linked with `related`.

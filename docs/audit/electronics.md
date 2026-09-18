@@ -6,7 +6,7 @@
 
 **Now:** 353 chapters (+53), 2,604 topics (+756), 26 categories. Every chapter has a level, priority, one-sentence summary and minimal direct prerequisites. Every area in the NCEES FE Electrical & Computer specification and in the MIT 6-5 EE tracks is covered, apart from the pure computing subjects that belong to the new CS discipline. The validator reports 0 errors and 0 warnings.
 
-The display name changed from "Electronics, Embedded & IoT" to **"Electrical & Electronics Engineering"**. The id is still `electronics`, and the description notes the deep embedded and IoT coverage.
+The display name changed from "Electronics, Embedded & IoT" to "Electrical & Electronics Engineering". The id is still `electronics`, and the description mentions the deep embedded and IoT coverage.
 
 ## 2. Sources checked
 
@@ -76,20 +76,20 @@ The display name changed from "Electronics, Embedded & IoT" to **"Electrical & E
 
 The 32 categories became 26, ordered from foundations through core EE, systems, embedded and IoT, and application domains, to professional topics.
 
-- **New:** Getting Started; Electromagnetics, RF & Microwave; Signal Processing & Communications; Electrical Machines & Power Systems.
-- **Renamed:** "Semiconductors, Integrated Circuits & Devices" became **Semiconductor Devices & Fabrication**. "Field-Programmable Gate Arrays (FPGAs) & HDL" became **FPGA, ASIC & VLSI Design** and now also holds the IC-design chapters.
-- **Merged:**
-  - "Embedded Software & Firmware" and "Real-Time Systems & Operating Systems" became **Embedded Software, Firmware & RTOS**.
-  - "Robotics & Control Systems" plus the control chapters became **Control Systems & Robotics**.
-  - "Communication Protocols - Wired", "Communication Protocols - Wireless & IoT" and "Time-Sensitive & Industrial Networks" became **Communication Protocols & Connectivity**.
-  - "IoT Architectures, Platforms & Cloud" and "Data Formats, Interoperability & APIs" became **IoT Architectures, Platforms & Data**.
-  - "Software Engineering & Development Practices" and "Debugging & Instrumentation" became **Embedded Development Practices & Debugging**.
-  - "Machine Learning & AI for Embedded Systems" and "Computer Vision & Perception on Edge" became **Machine Learning & Edge AI**.
-  - "Automotive & Mobility Systems" and "Aerospace, Defense & Avionics" became **Automotive, Aerospace & Defense Systems**.
-  - "Medical & Healthcare Electronics" and "Niche & Specialized Domains" became **Medical, Industrial & Other Application Domains**.
-  - "Business, Product & Lifecycle Management" and "Education, Community & Resources" became **Professional Practice, Business & Community**.
-- **Dissolved:** "Practical Cross-Cutting Techniques". Its chapters moved next to their subject: low-power strategies to Microcontrollers; OTA strategies, device configuration, i18n and boot-time optimization to Embedded Software; observability, field diagnostics and data compression to IoT; time synchronization to Protocols; multi-platform development to Dev Practices.
-- **Other moves:**
+- New categories: Getting Started; Electromagnetics, RF & Microwave; Signal Processing & Communications; Electrical Machines & Power Systems.
+- Two categories were renamed. "Semiconductors, Integrated Circuits & Devices" is now Semiconductor Devices & Fabrication. "Field-Programmable Gate Arrays (FPGAs) & HDL" is now FPGA, ASIC & VLSI Design and also holds the IC-design chapters.
+- Merged categories:
+  - "Embedded Software & Firmware" and "Real-Time Systems & Operating Systems" became Embedded Software, Firmware & RTOS.
+  - "Robotics & Control Systems" plus the control chapters became Control Systems & Robotics.
+  - "Communication Protocols - Wired", "Communication Protocols - Wireless & IoT" and "Time-Sensitive & Industrial Networks" became Communication Protocols & Connectivity.
+  - "IoT Architectures, Platforms & Cloud" and "Data Formats, Interoperability & APIs" became IoT Architectures, Platforms & Data.
+  - "Software Engineering & Development Practices" and "Debugging & Instrumentation" became Embedded Development Practices & Debugging.
+  - "Machine Learning & AI for Embedded Systems" and "Computer Vision & Perception on Edge" became Machine Learning & Edge AI.
+  - "Automotive & Mobility Systems" and "Aerospace, Defense & Avionics" became Automotive, Aerospace & Defense Systems.
+  - "Medical & Healthcare Electronics" and "Niche & Specialized Domains" became Medical, Industrial & Other Application Domains.
+  - "Business, Product & Lifecycle Management" and "Education, Community & Resources" became Professional Practice, Business & Community.
+- "Practical Cross-Cutting Techniques" was dissolved, and its chapters moved next to their subjects: low-power strategies to Microcontrollers; OTA strategies, device configuration, i18n and boot-time optimization to Embedded Software; observability, field diagnostics and data compression to IoT; time synchronization to Protocols; multi-platform development to Dev Practices.
+- Other moves:
   - DSP moved from Digital Electronics to Signal Processing & Communications.
   - SDR moved from Wireless IoT to Signal Processing & Communications.
   - Semiconductor physics moved from Fundamentals to Semiconductor Devices & Fabrication.
@@ -97,50 +97,50 @@ The 32 categories became 26, ordered from foundations through core EE, systems, 
   - Electromagnetics moved from Fundamentals to Electromagnetics, RF & Microwave.
   - Smart grid moved from Niche to Electrical Machines & Power Systems.
   - Software Testing moved from Measurement to Dev Practices.
-- **Clarified names** (ids unchanged): Engineering Electromagnetics, Feedback Control Systems, CMOS Process Technology, Analog Building Blocks, Analog & Active Filters, Buses & Bus Interfacing, Robot Kinematics & Dynamics, Robot Perception & Sensing, Robot Actuators & Drives, High-Speed PCB Design, PCB Thermal Design, PCB Manufacturing & Assembly Processes, Production & Functional Testing, Power Measurement & Analysis, Programming Languages for Embedded Systems, Embedded Memory Management, Firmware Architecture & Development, RTOS Landscape, System-on-Chip (SoC) Design, PLC Programming, Time Synchronization & Timekeeping, IoT Data Management, IoT Analytics & Visualization, Engineering Documentation, Hardware Accelerators for Edge ML, Reinforcement Learning for Embedded Control, Automotive Testing & Validation (XiL), Avionics Safety & Certification, Harsh-Environment Electronics, Medical Device Regulation & Standards, Cost Engineering & Engineering Economics, Mathematical Foundations for Electrical Engineering.
-- **Name clashes fixed:** there were two chapters called "Configuration Management". They are now "Software Configuration Management" (el-configuration-management) and "Device Configuration Management" (el-device-configuration-management).
-- **`related` links:**
+- Chapters renamed for clarity (ids unchanged): Engineering Electromagnetics, Feedback Control Systems, CMOS Process Technology, Analog Building Blocks, Analog & Active Filters, Buses & Bus Interfacing, Robot Kinematics & Dynamics, Robot Perception & Sensing, Robot Actuators & Drives, High-Speed PCB Design, PCB Thermal Design, PCB Manufacturing & Assembly Processes, Production & Functional Testing, Power Measurement & Analysis, Programming Languages for Embedded Systems, Embedded Memory Management, Firmware Architecture & Development, RTOS Landscape, System-on-Chip (SoC) Design, PLC Programming, Time Synchronization & Timekeeping, IoT Data Management, IoT Analytics & Visualization, Engineering Documentation, Hardware Accelerators for Edge ML, Reinforcement Learning for Embedded Control, Automotive Testing & Validation (XiL), Avionics Safety & Certification, Harsh-Environment Electronics, Medical Device Regulation & Standards, Cost Engineering & Engineering Economics, Mathematical Foundations for Electrical Engineering.
+- Two chapters were both called "Configuration Management". They are now "Software Configuration Management" (el-configuration-management) and "Device Configuration Management" (el-device-configuration-management).
+- Cross-discipline `related` links:
   - Fundamentals, signals, control, coding and crypto chapters link to the matching `ma-*` chapters (e.g. ma-circuit-theory, ma-signal-processing, ma-control-theory, ma-information-theory, ma-error-correcting-codes, ma-cryptography).
   - Every robotics, computer-vision and edge-ML chapter links to its `ai-*` counterpart.
   - Physics overlaps link to `ph-*` (solid-state physics, EM, optics, energy, medical physics, spintronics).
 
 ## 5. What was added
 
-**53 new chapters:**
+53 chapters are new:
 
-- **Getting Started:** el-basic-electricity, el-hands-on-electronics, el-intro-microcontrollers
-- **Fundamentals:** el-ac-circuits-power, el-electrical-materials
-- **EM/RF:** el-electromagnetic-waves, el-transmission-lines, el-antennas-propagation, el-rf-microwave-engineering, el-radar-systems, el-computational-electromagnetics
-- **Semiconductors:** el-semiconductor-devices, el-semiconductor-fabrication, el-ic-packaging
-- **Analog:** el-diode-transistor-circuits, el-amplifier-design
-- **Measurement:** el-electrical-measurements
-- **Signals & communications:** el-signals-and-systems, el-statistical-signal-processing, el-analog-communications, el-digital-communications, el-channel-coding, el-wireless-communications, el-optical-fiber-communications
-- **Control:** el-state-space-digital-control, el-advanced-control-systems
-- **Power electronics:** el-power-electronics-fundamentals, el-high-power-converters
-- **Machines & power systems:** el-magnetic-circuits-transformers, el-electrical-installations, el-electrical-machines, el-pm-special-machines, el-electric-drives, el-power-system-fundamentals, el-power-generation, el-transmission-distribution, el-power-flow-analysis, el-power-system-fault-analysis, el-power-system-protection, el-power-system-stability, el-power-quality, el-hvdc-facts, el-renewable-grid-integration, el-power-system-operation, el-high-voltage-engineering
-- **Embedded:** el-embedded-systems-fundamentals
-- **IC design:** el-digital-vlsi-design, el-design-verification, el-asic-physical-design, el-analog-ic-design, el-rf-ic-design
-- **Emerging:** el-nanoelectronics
-- **Professional:** el-engineering-ethics-practice
+- Getting Started: el-basic-electricity, el-hands-on-electronics, el-intro-microcontrollers
+- Fundamentals: el-ac-circuits-power, el-electrical-materials
+- EM/RF: el-electromagnetic-waves, el-transmission-lines, el-antennas-propagation, el-rf-microwave-engineering, el-radar-systems, el-computational-electromagnetics
+- Semiconductors: el-semiconductor-devices, el-semiconductor-fabrication, el-ic-packaging
+- Analog: el-diode-transistor-circuits, el-amplifier-design
+- Measurement: el-electrical-measurements
+- Signals & communications: el-signals-and-systems, el-statistical-signal-processing, el-analog-communications, el-digital-communications, el-channel-coding, el-wireless-communications, el-optical-fiber-communications
+- Control: el-state-space-digital-control, el-advanced-control-systems
+- Power electronics: el-power-electronics-fundamentals, el-high-power-converters
+- Machines & power systems: el-magnetic-circuits-transformers, el-electrical-installations, el-electrical-machines, el-pm-special-machines, el-electric-drives, el-power-system-fundamentals, el-power-generation, el-transmission-distribution, el-power-flow-analysis, el-power-system-fault-analysis, el-power-system-protection, el-power-system-stability, el-power-quality, el-hvdc-facts, el-renewable-grid-integration, el-power-system-operation, el-high-voltage-engineering
+- Embedded: el-embedded-systems-fundamentals
+- IC design: el-digital-vlsi-design, el-design-verification, el-asic-physical-design, el-analog-ic-design, el-rf-ic-design
+- Emerging: el-nanoelectronics
+- Professional: el-engineering-ethics-practice
 
-**Notable topic additions to existing chapters (topic ids preserved):**
+Existing chapters also gained topics, with their topic ids preserved:
 
-- **Full syllabi:** el-circuit-theory (sources, dividers, first- and second-order transients, SPICE); el-electromagnetics (electrostatics through Faraday and Poynting); el-semiconductor-physics (carrier statistics, transport, recombination, contacts, MOS, heterojunctions); el-control-theory (modelling, time-domain specs, Routh, Nyquist, lead-lag); el-digital-signal-processing-dsp (FIR/IIR design, finite word length, implementation).
-- **Missing foundations:** number systems and hazards (combinational logic); FSM design procedure (sequential logic); engineering economics (cost engineering); qubit control electronics and cryo-CMOS (quantum technologies).
-- **Thin chapters brought to 6+ topics:** 36 practical core/important chapters (e.g. serial/SPI/I2C buses, linear regulators, inverters, TinyML, cross-compilation, PLC programming, reliability and fault tolerance).
+- Full syllabi were written for el-circuit-theory (sources, dividers, first- and second-order transients, SPICE); el-electromagnetics (electrostatics through Faraday and Poynting); el-semiconductor-physics (carrier statistics, transport, recombination, contacts, MOS, heterojunctions); el-control-theory (modelling, time-domain specs, Routh, Nyquist, lead-lag); el-digital-signal-processing-dsp (FIR/IIR design, finite word length, implementation).
+- Missing foundations were filled in: number systems and hazards (combinational logic); FSM design procedure (sequential logic); engineering economics (cost engineering); qubit control electronics and cryo-CMOS (quantum technologies).
+- 36 thin practical core/important chapters were brought to 6+ topics (e.g. serial/SPI/I2C buses, linear regulators, inverters, TinyML, cross-compilation, PLC programming, reliability and fault tolerance).
 
 ## 6. Learning-order notes
 
-- **Main EE spine:** Basic Electricity → Circuit Theory → AC Circuits & Three-Phase → Signals & Systems → (Analog electronics: Diode & Transistor Circuits → Amplifier Design → Analog IC Design) | (EM: Engineering Electromagnetics → EM Waves / Transmission Lines → RF & Microwave / Antennas) | (Comms: Analog → Digital → Wireless / Coding) | (Control: Feedback Control → State-Space → Advanced) | (Power: Magnetic Circuits & Transformers → Machines → Power System Fundamentals → Load Flow / Faults → Protection / Stability → Renewables integration).
-- **Devices & chips:** Electrical Materials → Semiconductor Physics → Semiconductor Devices → CMOS Process → Fabrication; Logic Families + Devices → Digital VLSI → ASIC flow; HDL → FPGA flow → Verification → SoC.
-- **Embedded & IoT spine:** Hands-On Electronics → Intro to Microcontrollers → Embedded Systems Fundamentals → Bare-Metal → Concurrency → Real-Time → RTOS; and Embedded Systems Fundamentals → Serial/Ethernet → IoT protocols → Cloud platforms → Device management → Fleet OTA.
+- Main EE spine: Basic Electricity → Circuit Theory → AC Circuits & Three-Phase → Signals & Systems → (Analog electronics: Diode & Transistor Circuits → Amplifier Design → Analog IC Design) | (EM: Engineering Electromagnetics → EM Waves / Transmission Lines → RF & Microwave / Antennas) | (Comms: Analog → Digital → Wireless / Coding) | (Control: Feedback Control → State-Space → Advanced) | (Power: Magnetic Circuits & Transformers → Machines → Power System Fundamentals → Load Flow / Faults → Protection / Stability → Renewables integration).
+- Devices & chips: Electrical Materials → Semiconductor Physics → Semiconductor Devices → CMOS Process → Fabrication; Logic Families + Devices → Digital VLSI → ASIC flow; HDL → FPGA flow → Verification → SoC.
+- Embedded & IoT spine: Hands-On Electronics → Intro to Microcontrollers → Embedded Systems Fundamentals → Bare-Metal → Concurrency → Real-Time → RTOS; and Embedded Systems Fundamentals → Serial/Ethernet → IoT protocols → Cloud platforms → Device management → Fleet OTA.
 - Cross-discipline entry points: ma-elementary-intermediate-algebra (on-ramp), ma-calculus (circuits, math foundations), ph-classical-electromagnetism (EM, materials), ph-quantum-mechanics (nanoelectronics, quantum), ma-linear-algebra, ma-probability-theory, ma-stochastic-processes, ma-root-finding-algorithms and ma-numerical-solutions-of-pdes where needed, plus ai-neural-network-foundations, ai-core-ml-concepts, ai-convolutional-neural-networks-cnns and ai-rl-fundamentals for edge ML.
 
-## 7. Recommended moves / open questions
+## 7. Recommended moves and open questions
 
-- **Chapters that are really computer science** (left in place because the discipline is a legacy one): el-version-control, el-build-systems, el-api-architectures, el-data-serialization-formats, el-message-schemas, el-file-formats, el-cloud-computing-for-iot, el-data-management, el-network-security, el-agile-devops-for-embedded, el-project-management. They are linked to their Computer Science counterparts via `related`.
-- **Overlaps with AI** (kept, linked via `related`): the robotics chapters (el-kinematics-dynamics, el-robot-control, el-perception-sensing, el-path-planning-navigation, el-simultaneous-localization-and-mapping-slam) and the CV/edge-ML chapters. el-reinforcement-learning and el-federated-learning are mostly AI content.
-- **Overlapping pairs inside this file** (kept, linked via `related`):
+- Some chapters are really computer science but were left in place because the discipline is a legacy one: el-version-control, el-build-systems, el-api-architectures, el-data-serialization-formats, el-message-schemas, el-file-formats, el-cloud-computing-for-iot, el-data-management, el-network-security, el-agile-devops-for-embedded, el-project-management. They are linked to their Computer Science counterparts via `related`.
+- The robotics chapters (el-kinematics-dynamics, el-robot-control, el-perception-sensing, el-path-planning-navigation, el-simultaneous-localization-and-mapping-slam) and the CV/edge-ML chapters overlap with AI. They are kept and linked via `related`. el-reinforcement-learning and el-federated-learning are mostly AI content.
+- These overlapping pairs inside this file are kept and linked via `related`:
   - el-low-power-design / el-low-power-design-strategies
   - el-firmware-updates-ota / el-over-the-air-ota-update-strategies
   - el-configuration-management / el-device-configuration-management
@@ -163,5 +163,5 @@ The 32 categories became 26, ordered from foundations through core EE, systems, 
   - el-cmos-technology / el-semiconductor-fabrication (intro vs in depth)
   - el-debug-interfaces / el-hardware-debugging
   - el-open-source-hardware / el-development-kits-evaluation-boards
-- **Level 3 is heavy** (about 190 chapters), because most embedded/IoT practice chapters sit at final-year-degree depth. This is deliberate, though some practical IoT chapters could reasonably move to level 2.
-- **Not added (judged out of scope or too niche):** railway electrification, lighting/illumination engineering, audio/speech processing as a separate chapter (covered partly by DSP and the AI discipline), and the theory of electronic circuit simulation (SPICE algorithms).
+- Level 3 is heavy (about 190 chapters), because most embedded/IoT practice chapters sit at final-year-degree depth. This is deliberate, though some practical IoT chapters could reasonably move to level 2.
+- Some areas were judged out of scope or too niche and were not added: railway electrification, lighting/illumination engineering, audio/speech processing as a separate chapter (covered partly by DSP and the AI discipline), and the theory of electronic circuit simulation (SPICE algorithms).

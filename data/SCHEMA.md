@@ -50,8 +50,8 @@ data/
 }
 ```
 
-Chapters are shown per category in **teaching order**, which the build computes from the
-prerequisite graph. There is no manual ordering to maintain.
+Within each category, chapters are shown in teaching order, which the build works out from the
+prerequisite graph. There's no manual ordering to maintain.
 
 ### Levels
 
@@ -65,25 +65,26 @@ prerequisite graph. There is no manual ordering to maintain.
 
 ### Priority (within the discipline)
 
-- **core**: everyone serious about the discipline must learn it.
-- **important**: part of complete, well-rounded coverage.
-- **advanced**: a specialisation.
-- **optional**: peripheral: history, philosophy, tool catalogues, communities, business.
+- `core`: everyone serious about the discipline must learn it.
+- `important`: needed for complete, well-rounded coverage.
+- `advanced`: a specialisation.
+- `optional`: peripheral material such as history, philosophy, tool catalogues, communities and business.
 
 ### Prerequisites
 
-- List only **direct, hard** prerequisites: what you genuinely need before starting. Don't list
-  something already implied by another prerequisite. The build warns about redundant ones.
+- List only direct, hard prerequisites: what you need before starting. Leave out anything another
+  prerequisite already implies. The build warns about redundant ones.
 - Prerequisites may come from any discipline, and must not have a higher `level` than the chapter.
-- No cycles. The build rejects them.
+- Cycles aren't allowed, and the build rejects them.
 - `related` means "the same subject seen from another angle". It doesn't imply order.
 
 ### Ids
 
-- Chapter ids: `<prefix>-<kebab-case-name>`, lowercase letters, digits and hyphens.
-- Topic ids: optional when adding a topic. The build fills in `<chapterId>-<n>`
-  (sub-topics: `<topicId>-<n>`) and writes it back.
-- **Never delete or rename an id.** If one must change, add `"old-id": "new-id"` to
+- Chapter ids look like `<prefix>-<kebab-case-name>` and use only lowercase letters, digits and
+  hyphens.
+- Topic ids are optional when you add a topic. The build fills in `<chapterId>-<n>` (for sub-topics,
+  `<topicId>-<n>`) and writes it back.
+- Never delete or rename an id. If one has to change, add `"old-id": "new-id"` to
   `redirects.json` (under `chapters` or `topics`). The app moves saved progress across, and
   `scripts/check_ids.py` checks that every id that ever existed is still reachable.
 
@@ -113,7 +114,6 @@ prerequisite graph. There is no manual ordering to maintain.
 ```
 
 - `depth`: `full` (study the whole chapter) or `selected` (only the topics in `focus`).
-- **Complete roadmaps only.** Every item's prerequisites must appear earlier in the roadmap.
-  The build warns otherwise. `python scripts/path.py <chapter-id>` prints the full ordered
-  prerequisite path to any chapter.
+- Every item's prerequisites must appear earlier in the roadmap. The build warns when they don't.
+  `python scripts/path.py <chapter-id>` prints the full, ordered prerequisite path to any chapter.
 - Electives go in the last stage, with `why` starting "Elective:".

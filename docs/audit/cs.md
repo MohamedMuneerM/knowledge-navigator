@@ -7,14 +7,14 @@
 
 ## 2. Sources checked
 
-- ACM/IEEE-CS/AAAI **Computer Science Curricula 2023 (CS2023)**: list of knowledge areas at https://csed.acm.org/knowledge-areas/. All 17 areas and roughly 150 knowledge units were taken from the full report: https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm
-- **ACM Computing Classification System 2012**: https://dl.acm.org/ccs (mirror used: https://cran.r-project.org/web/classifications/ACM-2012.html)
-- ACM/IEEE **Computer Engineering Curricula 2016 (CE2016)**: https://www.acm.org/binaries/content/assets/education/ce2016-final-report.pdf (subject-area list checked via https://www.ccny.cuny.edu/sites/default/files/2023-10/ACM-IEEE--computer-engineering-2016--excerpts.pdf)
-- **MIT EECS** Course 6 subject listing (6.1xxx undergraduate and 6.5xxx graduate CS subjects): https://catalog.mit.edu/subjects/6/
-- **Stanford** CS B.S. core and tracks (Systems, Theory, AI, HCI, Information, Visual Computing): https://bulletin.stanford.edu/programs/CS-BS
-- **teachyourselfcs.com**, a self-learner guide covering 9 subjects: https://teachyourselfcs.com/
-- **OSSU Computer Science** open curriculum (intro, core, advanced and final project): https://github.com/ossu/computer-science
-- Standard textbooks, used for chapter syllabi: CS:APP (Bryant & O'Hallaron), OSTEP, Kurose & Ross, *Crafting Interpreters*, *Designing Data-Intensive Applications*, CLRS/Kleinberg-Tardos, Hennessy & Patterson, *Saltzer & Kaashoek* (MIT 6.1800), and *The Missing Semester* (MIT).
+- ACM/IEEE-CS/AAAI, *Computer Science Curricula 2023 (CS2023)*. The list of knowledge areas is at https://csed.acm.org/knowledge-areas/. All 17 areas and roughly 150 knowledge units were taken from the full report: https://csed.acm.org/wp-content/uploads/2025/11/CS2023-Report.htm
+- ACM Computing Classification System 2012: https://dl.acm.org/ccs (mirror used: https://cran.r-project.org/web/classifications/ACM-2012.html)
+- ACM/IEEE, *Computer Engineering Curricula 2016 (CE2016)*: https://www.acm.org/binaries/content/assets/education/ce2016-final-report.pdf (subject-area list checked via https://www.ccny.cuny.edu/sites/default/files/2023-10/ACM-IEEE--computer-engineering-2016--excerpts.pdf)
+- MIT EECS Course 6 subject listing (6.1xxx undergraduate and 6.5xxx graduate CS subjects): https://catalog.mit.edu/subjects/6/
+- Stanford CS B.S. core and tracks (Systems, Theory, AI, HCI, Information, Visual Computing): https://bulletin.stanford.edu/programs/CS-BS
+- teachyourselfcs.com, a self-learner guide covering 9 subjects: https://teachyourselfcs.com/
+- OSSU Computer Science open curriculum (intro, core, advanced and final project): https://github.com/ossu/computer-science
+- Standard textbooks used for chapter syllabi: CS:APP (Bryant & O'Hallaron), OSTEP, Kurose & Ross, *Crafting Interpreters*, *Designing Data-Intensive Applications*, CLRS/Kleinberg-Tardos, Hennessy & Patterson, *Saltzer & Kaashoek* (MIT 6.1800), and *The Missing Semester* (MIT).
 
 ## 3. Coverage checklist
 
@@ -103,32 +103,33 @@
 
 ## 4. Grouping changes
 
-Not applicable: the discipline was new. The 18 categories run from foundational to applied:
+The discipline was new, so no existing chapters were regrouped. The 18 categories run from foundational to applied:
 Computing Foundations → Mathematical Foundations → Programming & Paradigms → Data Structures & Algorithms → Software Engineering → Computer Architecture & Systems Programming → Operating Systems → Computer Networks → Data Management → Programming Languages & Compilers → Parallel & Distributed Computing → Cloud Computing & DevOps → Web & Mobile Development → Security → Human-Computer Interaction → Graphics, Visualization & Games → Emerging Computing & Frontiers → Society, Ethics & Profession.
 
-Some placements are judgement calls:
-- **Principles of Computer System Design** (MIT 6.1800 style) opens Parallel & Distributed Computing, because it bridges OS and networks to distributed systems.
-- **Linux System Administration** sits under Cloud Computing & DevOps rather than Operating Systems. It is operations practice, not OS internals.
-- **Web Fundamentals** is level 1 and gives a second on-ramp next to Python, even though its category appears later in the list.
+Three placements are judgement calls:
+- Principles of Computer System Design (MIT 6.1800 style) opens Parallel & Distributed Computing, because it bridges OS and networks to distributed systems.
+- Linux System Administration sits under Cloud Computing & DevOps rather than Operating Systems, since it covers operations practice rather than OS internals.
+- Web Fundamentals is level 1 and gives a second on-ramp next to Python, even though its category appears later in the list.
 
 ## 5. What was added
 
 All 84 chapters are new:
-- **On-ramp (level 1):** cs-computational-thinking, cs-programming-fundamentals, cs-command-line-shell, cs-version-control-git, cs-web-fundamentals, cs-history-of-computing.
-- **Core spine:** discrete math and probability for CS, program design, OOP, data structures, algorithms, software construction, computer organization, systems programming in C, computer architecture, operating systems, networks, databases, programming-language concepts, concurrent programming, distributed systems, computer security, computing ethics.
-- **Breadth:** functional programming, Modern C++ & Rust, performance engineering, virtualization and containers, NoSQL, data engineering, compilers, parallel computing, cloud, DevOps, SRE, large-scale system design, web frontend and backend, mobile, the full security track (applied crypto, application, network, systems, offensive, SOC/forensics, governance/privacy), HCI, UX, accessibility, graphics, visualization, rendering, geometric modeling, animation, XR, game development, quantum computing, blockchain.
-- **Frontier (level 5):** AI-assisted software development and program synthesis, advanced cryptographic systems (post-quantum, ZK, MPC, FHE), and frontiers in computer systems (CXL, disaggregation, CHERI, confidential computing, carbon-aware computing).
+- On-ramp (level 1): cs-computational-thinking, cs-programming-fundamentals, cs-command-line-shell, cs-version-control-git, cs-web-fundamentals, cs-history-of-computing.
+- Core spine: discrete math and probability for CS, program design, OOP, data structures, algorithms, software construction, computer organization, systems programming in C, computer architecture, operating systems, networks, databases, programming-language concepts, concurrent programming, distributed systems, computer security, computing ethics.
+- Breadth: functional programming, Modern C++ & Rust, performance engineering, virtualization and containers, NoSQL, data engineering, compilers, parallel computing, cloud, DevOps, SRE, large-scale system design, web frontend and backend, mobile, the full security track (applied crypto, application, network, systems, offensive, SOC/forensics, governance/privacy), HCI, UX, accessibility, graphics, visualization, rendering, geometric modeling, animation, XR, game development, quantum computing, blockchain.
+- Frontier (level 5): AI-assisted software development and program synthesis, advanced cryptographic systems (post-quantum, ZK, MPC, FHE), and frontiers in computer systems (CXL, disaggregation, CHERI, confidential computing, carbon-aware computing).
 
 ## 6. Learning-order notes
 
-- **Programming spine:** Computational Thinking → Programming Fundamentals (Python) → Program Design → OOP → Software Construction → Design Patterns / Testing → Software Architecture.
-- **Theory spine:** Discrete Math → Data Structures → Algorithms → Advanced Algorithms (with ma-complexity-theory etc. as related reading).
-- **Systems spine:** Computer Organization → Systems Programming in C → Operating Systems / Computer Networks / Computer Architecture → Concurrent Programming → Distributed Systems → Large-Scale System Design / SRE.
-- **Security spine:** OS and Networks → Foundations of Computer Security → Applied Cryptography → Network Security → Offensive Security / Forensics.
+Four spines run through the discipline:
+- Programming: Computational Thinking → Programming Fundamentals (Python) → Program Design → OOP → Software Construction → Design Patterns / Testing → Software Architecture.
+- Theory: Discrete Math → Data Structures → Algorithms → Advanced Algorithms (with ma-complexity-theory etc. as related reading).
+- Systems: Computer Organization → Systems Programming in C → Operating Systems / Computer Networks / Computer Architecture → Concurrent Programming → Distributed Systems → Large-Scale System Design / SRE.
+- Security: OS and Networks → Foundations of Computer Security → Applied Cryptography → Network Security → Offensive Security / Forensics.
 
-## 7. Recommended moves / open questions
+## 7. Recommended moves and open questions
 
-- **Math has no introductory discrete-math chapter.** Its combinatorics and logic chapters are specialist ones. cs-discrete-mathematics fills that gap, with `related` links to ma-logic-proof-theory, ma-set-theory, ma-graph-theory, ma-enumerative-combinatorics and ma-elementary-number-theory. If Math later adds a general "Discrete Mathematics" chapter, link it as `related`.
-- **AI overlap:** there is no AI survey chapter in CS. The overlaps are handled with `related` links (ai-databases, ai-data-engineering, ai-hardware-for-ai, ai-large-language-models-llms, ai-fairness-in-ml and others). ai-databases and ai-big-data-technologies overlap with cs-databases and cs-data-engineering. The CS versions are the full courses.
-- **Electronics overlap:** el-version-control, el-software-testing, el-continuous-integration-continuous-deployment-cicd, el-containers-virtualization, el-network-security and el-cryptography-fundamentals are embedded-flavoured duplicates of general CS subjects. They are linked as `related` from the CS chapters. The electronics chapters link back to them as `related`, and use CS chapters as prerequisites where needed..
-- **Image processing** (CS2023 GIT-Image) is left to ai-image-processing-fundamentals and el-image-processing.
+- Math has no introductory discrete-math chapter, since its combinatorics and logic chapters are specialist ones. cs-discrete-mathematics fills that gap, with `related` links to ma-logic-proof-theory, ma-set-theory, ma-graph-theory, ma-enumerative-combinatorics and ma-elementary-number-theory. If Math later adds a general "Discrete Mathematics" chapter, it should be linked as `related`.
+- CS has no AI survey chapter. Overlaps with AI are handled with `related` links (ai-databases, ai-data-engineering, ai-hardware-for-ai, ai-large-language-models-llms, ai-fairness-in-ml and others). ai-databases and ai-big-data-technologies overlap with cs-databases and cs-data-engineering, and the CS versions are the full courses.
+- el-version-control, el-software-testing, el-continuous-integration-continuous-deployment-cicd, el-containers-virtualization, el-network-security and el-cryptography-fundamentals are embedded-flavoured duplicates of general CS subjects. The CS chapters link to them as `related`. The electronics chapters link back as `related` and use CS chapters as prerequisites where needed.
+- Image processing (CS2023 GIT-Image) is left to ai-image-processing-fundamentals and el-image-processing.

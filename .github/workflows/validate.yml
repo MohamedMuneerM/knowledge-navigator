@@ -32,3 +32,9 @@ jobs:
           python -c "import re; s = open('index.html', encoding='utf-8').read(); open('app.js', 'w', encoding='utf-8').write(re.findall(r'<script>(.*?)</script>', s, re.S)[-1])"
           node --check app.js
           node --check knowledge_base.js
+
+      - name: Browser test (desktop + phone)
+        run: |
+          pip install --quiet playwright
+          python -m playwright install --with-deps chromium
+          python scripts/ui_test.py

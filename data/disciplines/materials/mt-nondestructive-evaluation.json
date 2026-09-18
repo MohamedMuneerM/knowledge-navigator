@@ -4,7 +4,7 @@
   "category": "Materials Characterization",
   "level": 3,
   "priority": "important",
-  "summary": "Covers the methods used to find cracks, voids and damage in parts without destroying them, essential for aerospace and safety-critical components.",
+  "summary": "Methods for finding cracks, voids and damage in parts without destroying them, used throughout aerospace and other safety-critical work.",
   "prerequisites": [
     "mt-characterization-fundamentals",
     "mt-fracture-mechanics"

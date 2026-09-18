@@ -4,7 +4,7 @@
   "category": "Combinatorics & Discrete Mathematics",
   "level": 2,
   "priority": "core",
-  "summary": "First course in discrete mathematics: logic, sets, counting, relations, recurrences, graphs and trees, essential for computer science and proof-based maths.",
+  "summary": "First course in discrete mathematics: logic, sets, counting, relations, recurrences, graphs and trees and the groundwork for computer science and proof-based maths.",
   "prerequisites": [
     "ma-elementary-intermediate-algebra"
   ],

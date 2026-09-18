@@ -2,25 +2,27 @@
 
 ## 1. Verdict
 
-**Before:** an empty stub (0 chapters, 0 topics). **Now:** 83 chapters and 854 topics (sub-topics included) in 18 categories. They run from three level-1 on-ramps (Introduction to Earth Science, Physical Geology, Introduction to Environmental Science) up to graduate-level specialisms such as geodynamics, numerical weather prediction, climate modelling and planetary atmospheres. Every area in the AGU sections, the Earth Science Literacy Principles, the NSF GEO divisions and the MIT, Caltech and Stanford course lists maps to at least one chapter. The only exceptions are space physics and aeronomy, which the physics file already covers.
+**Before:** an empty stub (0 chapters, 0 topics).
 
-The chapter count is higher than a single degree would have. That is deliberate: this discipline combines what universities teach as four or five separate degrees (geology and geophysics, atmospheric science, oceanography, environmental science and planetary science). Most chapters here correspond one-to-one to a real course (MIT 12.xx or Caltech Ge xxx).
+**Now:** 83 chapters and 854 topics (sub-topics included) in 18 categories. They start with three level-1 on-ramps (Introduction to Earth Science, Physical Geology, Introduction to Environmental Science) and go up to graduate-level specialisms such as geodynamics, numerical weather prediction, climate modelling and planetary atmospheres. Every area in the AGU sections, the Earth Science Literacy Principles, the NSF GEO divisions and the MIT, Caltech and Stanford course lists maps to at least one chapter. The only exceptions are space physics and aeronomy, which the physics file already covers.
+
+The chapter count is deliberately higher than a single degree would have. This discipline combines what universities teach as four or five separate degrees: geology and geophysics, atmospheric science, oceanography, environmental science and planetary science. Most chapters correspond one-to-one to a real course (MIT 12.xx or Caltech Ge xxx).
 
 ## 2. Sources checked
 
-- AGU sections (list via Wikipedia; agu.org blocks automated fetches): https://en.wikipedia.org/wiki/American_Geophysical_Union and https://www.agu.org/learn-about-agu/about-agu/governance/sections
+- AGU sections (list via Wikipedia, because agu.org blocks automated fetches): https://en.wikipedia.org/wiki/American_Geophysical_Union and https://www.agu.org/learn-about-agu/about-agu/governance/sections
 - Earth Science Literacy Principles, the 9 Big Ideas: https://www.earthscienceliteracy.org/ and https://www.nsta.org/blog/big-ideas-earth-science
 - NSF Directorate for Geosciences: divisions AGS, EAR, OCE and OPP (https://www.nsf.gov/geo, https://www.nsf.gov/geo/core-geoscience-research). EAR programs: Geobiology & Low-Temperature Geochemistry, Geomorphology & Land-Use Dynamics, Geophysics, Hydrologic Sciences, Petrology & Geochemistry, Sedimentary Geology & Paleobiology, Tectonics (https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=13689)
 - MIT EAPS subject list (Course 12): https://catalog.mit.edu/subjects/12/
 - Caltech Geological & Planetary Sciences course list (Ge): https://catalog.caltech.edu/current/ge
 - Stanford Earth & Planetary Sciences programme and courses: https://epsci.stanford.edu/academics-admissions/undergraduate-program and https://bulletin.stanford.edu/programs/EPS-BS
-- Standard textbook tables of contents, used from knowledge: Tarbuck & Lutgens *Earth* (physical geology); Wallace & Hobbs *Atmospheric Science*; Holton *Dynamic Meteorology*; Turcotte & Schubert *Geodynamics*; Fetter *Applied Hydrogeology*; Brady & Weil *Nature and Properties of Soils*; Talley et al. *Descriptive Physical Oceanography*
+- Tables of contents of standard textbooks, used to plan chapter syllabi: Tarbuck & Lutgens *Earth* (physical geology); Wallace & Hobbs *Atmospheric Science*; Holton *Dynamic Meteorology*; Turcotte & Schubert *Geodynamics*; Fetter *Applied Hydrogeology*; Brady & Weil *Nature and Properties of Soils*; Talley et al. *Descriptive Physical Oceanography*
 
 ## 3. Coverage checklist
 
 | Taxonomy area (source) | Chapter(s) | Status |
 |---|---|---|
-| Intro Earth science, Earth systems, rock cycle, weather vs climate (ESLP 1–3; MIT 12.001, Caltech Ge 1/11) | ea-introduction-to-earth-science, ea-physical-geology | ➕ |
+| Intro Earth science, Earth systems, rock cycle, weather vs climate (ESLP 1-3; MIT 12.001, Caltech Ge 1/11) | ea-introduction-to-earth-science, ea-physical-geology | ➕ |
 | Environmental science on-ramp | ea-introduction-to-environmental-science | ➕ |
 | Mineralogy, optical mineralogy (MIT 12.108, Caltech Ge 114) | ea-mineralogy | ➕ |
 | Igneous and metamorphic petrology (Caltech Ge 115; NSF Petrology & Geochemistry) | ea-igneous-petrology, ea-metamorphic-petrology | ➕ |
@@ -100,28 +102,28 @@ The chapter count is higher than a single degree would have. That is deliberate:
 
 ## 4. Grouping changes
 
-This is a new file, so nothing was moved. There are 18 categories, ordered from foundations → Earth materials and geochemistry → solid-Earth structure and geophysics → Earth history → surface, water, ocean, atmosphere and climate → hazards, environment and resources (applied) → methods → planetary geoscience → sustainability and society. Two things to know:
+This is a new file, so nothing was moved. The 18 categories are ordered from foundations → Earth materials and geochemistry → solid-Earth structure and geophysics → Earth history → surface, water, ocean, atmosphere and climate → hazards, environment and resources (applied) → methods → planetary geoscience → sustainability and society. Two choices are worth noting:
 - Sedimentary petrology is folded into Sedimentology & Stratigraphy, and optical mineralogy into Mineralogy, as many curricula do.
 - The planetary block is kept separate so it can feed a COSMOS roadmap directly.
 
 ## 5. What was added
 
-All 83 chapters are new. Highlights:
-- **On-ramp (level 1):** Introduction to Earth Science, Physical Geology, Introduction to Environmental Science, and History, Philosophy & Communication of Earth Science (optional).
-- **Planetary geoscience (for COSMOS):** Comparative Planetology, Planetary Surfaces & Impact Cratering, Meteoritics & Cosmochemistry, Planetary Atmospheres & Climates, Geology of the Moon, Geology of Mars, Icy Worlds, Asteroids & Comets, and Astrobiology & Planetary Habitability. All eight are linked to `ph-planetary-science`.
-- **Topics that are often missed:** clumped and non-traditional isotopes, induced seismicity, natural (geologic) hydrogen, PFAS and microplastics, machine-learning weather models, Earth-observation cloud platforms, planetary defence, the Sendai Framework and wildfire science.
-- **Links to other disciplines (`related`):** ph-geophysics, ma-geophysics, ph-atmospheric-environmental-physics, ph-planetary-science, ph-fluid-mechanics, ph-space-physics, ph-energy-physics, ma-geophysical-environmental-mathematics, ma-solid-mechanics, ma-time-series-analysis and el-space-satellite-systems.
+All 83 chapters are new. The main groups:
+- The level-1 on-ramp is Introduction to Earth Science, Physical Geology, Introduction to Environmental Science, and History, Philosophy & Communication of Earth Science (optional).
+- The planetary geoscience chapters, written for COSMOS, are Comparative Planetology, Planetary Surfaces & Impact Cratering, Meteoritics & Cosmochemistry, Planetary Atmospheres & Climates, Geology of the Moon, Geology of Mars, Icy Worlds, Asteroids & Comets, and Astrobiology & Planetary Habitability. All eight are linked to `ph-planetary-science`.
+- Several often-missed topics are included: clumped and non-traditional isotopes, induced seismicity, natural (geologic) hydrogen, PFAS and microplastics, machine-learning weather models, Earth-observation cloud platforms, planetary defence, the Sendai Framework and wildfire science.
+- Chapters link via `related` to ph-geophysics, ma-geophysics, ph-atmospheric-environmental-physics, ph-planetary-science, ph-fluid-mechanics, ph-space-physics, ph-energy-physics, ma-geophysical-environmental-mathematics, ma-solid-mechanics, ma-time-series-analysis and el-space-satellite-systems.
 
 ## 6. Learning-order notes
 
-- **Geology spine:** Intro Earth Science → Physical Geology → Mineralogy → Principles of Geochemistry → Igneous/Metamorphic Petrology; and Physical Geology → Plate Tectonics + Structural Geology → Tectonics → Field Geology.
-- **Geophysics:** Plate Tectonics + Classical Mechanics → Solid-Earth Geophysics → Seismology / Geodynamics / Geodesy.
-- **Fluid Earth:** Intro Earth Science → Meteorology → Atmospheric Thermodynamics / Dynamics / Radiation → Weather Systems → NWP. Meteorology → Climate System Science → Climate Dynamics → Climate Modelling. Intro Oceanography → Physical Oceanography → GFD.
-- **Environmental:** Intro Environmental Science → Sustainability Science → Policy. Hydrology → Hydrogeology → Contaminant Fate & Remediation.
-- **Planetary:** Intro Earth Science → Comparative Planetology → Planetary Surfaces → Moon / Mars / Icy Worlds.
+- Geology: Intro Earth Science → Physical Geology → Mineralogy → Principles of Geochemistry → Igneous/Metamorphic Petrology; and Physical Geology → Plate Tectonics + Structural Geology → Tectonics → Field Geology.
+- Geophysics: Plate Tectonics + Classical Mechanics → Solid-Earth Geophysics → Seismology / Geodynamics / Geodesy.
+- Fluid Earth: Intro Earth Science → Meteorology → Atmospheric Thermodynamics / Dynamics / Radiation → Weather Systems → NWP. Meteorology → Climate System Science → Climate Dynamics → Climate Modelling. Intro Oceanography → Physical Oceanography → GFD.
+- Environmental: Intro Environmental Science → Sustainability Science → Policy. Hydrology → Hydrogeology → Contaminant Fate & Remediation.
+- Planetary: Intro Earth Science → Comparative Planetology → Planetary Surfaces → Moon / Mars / Icy Worlds.
 
 ## 7. Recommended moves / open questions
 
-- **Limnology** is covered as topics, not as its own chapter. Add one if the biology file doesn't cover freshwater ecology.
-- **Space physics and aeronomy** stay in physics (`ph-space-physics`).
-- **Too many chapters?** If a smaller count is preferred, the easiest merges are: Chemical + Biological Oceanography; Numerical Weather Prediction into Weather Systems & Forecasting; Geophysical Fluid Dynamics into Atmospheric Dynamics; Basin Analysis into Sedimentology & Stratigraphy.
+- Limnology is covered as topics, not as its own chapter. A chapter should be added if the biology file doesn't cover freshwater ecology.
+- Space physics and aeronomy stay in physics (`ph-space-physics`).
+- If a smaller chapter count is preferred, the easiest merges are Chemical + Biological Oceanography; Numerical Weather Prediction into Weather Systems & Forecasting; Geophysical Fluid Dynamics into Atmospheric Dynamics; and Basin Analysis into Sedimentology & Stratigraphy.

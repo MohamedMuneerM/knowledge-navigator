@@ -1,17 +1,16 @@
 # Contributing to Knowledge Navigator
 
-Thanks for helping. The goal is simple: **a learner should be able to follow this map and know
-they haven't missed anything, in an order that always makes sense.** Every fix makes that more
-true for everyone.
+Thanks for helping. The aim is that a learner can follow this map, trust that nothing important is
+missing, and always meet chapters in an order that makes sense. Every fix gets it closer to that.
 
-You don't need to be a programmer. Pick the path that suits you.
+You don't need to be a programmer. Pick whichever way suits you:
 
 | I want to… | Easiest way |
 |---|---|
-| Point out a missing topic, a wrong prerequisite, a bad level | [Open an issue](../../issues/new/choose): a short form, no git needed |
-| Fix one chapter myself | Open the chapter in the app → **✎ Edit on GitHub**. GitHub makes the fork and pull request for you |
-| Add chapters, a discipline or a roadmap | Clone the repo, edit `data/`, run the build, open a pull request |
-| Improve the app | Edit `index.html` (plain HTML/CSS/JS, no framework, no build step) |
+| Point out a missing topic, a wrong prerequisite or a wrong level | [Open an issue](../../issues/new/choose). It's a short form and needs no git. |
+| Fix one chapter myself | Open the chapter in the app and click **Edit on GitHub**. GitHub creates the fork and the pull request for you. |
+| Add chapters, a discipline or a roadmap | Clone the repo, edit `data/`, run the build and open a pull request. |
+| Improve the app | Edit `index.html`. It's plain HTML, CSS and JavaScript with no framework and no build step. |
 
 ## How the data is organised
 
@@ -25,7 +24,7 @@ data/
   redirects.json                    old id -> new id, when an id ever has to change
 ```
 
-The full field reference is in [`data/SCHEMA.md`](data/SCHEMA.md). A chapter file looks like this:
+[`data/SCHEMA.md`](data/SCHEMA.md) describes every field. A chapter file looks like this:
 
 ```json
 {
@@ -46,7 +45,7 @@ The full field reference is in [`data/SCHEMA.md`](data/SCHEMA.md). A chapter fil
 
 ## Working locally
 
-You need Python 3.9 or newer. Nothing else.
+You need Python 3.9 or newer, and nothing else.
 
 ```bash
 git clone https://github.com/MohamedMuneerM/knowledge-navigator.git
@@ -55,31 +54,39 @@ python scripts/build.py          # validate data/, add missing topic ids, genera
 # open index.html in your browser
 ```
 
-Before you open a pull request:
+Before you open a pull request, run:
 
 ```bash
 python scripts/build.py --strict  # errors and warnings must both be zero
 python scripts/check_ids.py       # no id may disappear (compares with origin/main)
 ```
 
-CI runs the same two commands on every pull request.
+If you changed `index.html`, also run the browser test. It checks desktop and phone layouts and the
+main interactions:
 
-## The rules that keep the map trustworthy
+```bash
+pip install playwright && python -m playwright install chromium   # once
+python scripts/ui_test.py
+```
 
-1. **Ids are forever.** People's saved progress is keyed on chapter and topic ids. Never delete
-   or rename one. If you really must, for example after a merge, add the old id to
-   `data/redirects.json` and the app will move saved progress across.
-2. **Prerequisites are direct, hard and minimal.** List only what you genuinely need *before
-   starting* the chapter, and nothing already implied by another prerequisite. The build flags
-   redundant ones.
-3. **Never point up.** A prerequisite must not have a higher level than the chapter.
-4. **No cycles.** The build rejects them.
-5. **Chapter ≈ one university course** (about 15–60 hours). Topics are its syllabus, in teaching
-   order. Use `sub` for one level of breakdown, never deeper.
-6. **Use `related` for overlap.** If two disciplines cover the same ground (e.g. maths and
-   physics both teach Lagrangian mechanics), keep both and link them. Don't merge them.
-7. **Roadmaps must be complete.** Followed top to bottom, a roadmap never reaches a chapter whose
-   prerequisites haven't come earlier. The build checks this.
+CI runs all three on every pull request.
+
+## Rules that keep the map trustworthy
+
+1. Ids never change. Saved progress is stored against chapter and topic ids, so don't delete or
+   rename one. If you have to (after merging two chapters, say), add the old id to
+   `data/redirects.json` and the app will move people's progress to the new one.
+2. Prerequisites are direct, hard and minimal. List only what you need *before starting* the
+   chapter, and leave out anything another prerequisite already implies. The build flags redundant
+   ones.
+3. A prerequisite can't have a higher level than the chapter that needs it.
+4. There can be no cycles. The build rejects them.
+5. A chapter is roughly one university course, about 15 to 60 hours of study. Its topics are the
+   syllabus, in teaching order. Use `sub` for one level of breakdown and never go deeper.
+6. When two disciplines cover the same ground (maths and physics both teach Lagrangian mechanics,
+   for example), keep both chapters and link them with `related` instead of merging them.
+7. Roadmaps must be complete. Read from top to bottom, a roadmap never reaches a chapter whose
+   prerequisites haven't already appeared. The build checks this.
 
 ### Levels and priorities
 
@@ -91,42 +98,43 @@ CI runs the same two commands on every pull request.
 | 4 | Graduate / specialist |
 | 5 | Frontier: research-level or emerging |
 
-Priority is relative to the discipline: `core` (everyone must learn it), `important` (complete
-coverage), `advanced` (a specialisation), `optional` (history, tools, community).
+Priority is relative to the discipline: `core` means everyone must learn it, `important` is needed
+for complete coverage, `advanced` is a specialisation, and `optional` covers history, tools and
+community.
 
 ## Common tasks
 
-**Add a topic.** Append `{ "name": "…" }` to the chapter's `topics`. The build assigns the id.
+To add a topic, append `{ "name": "…" }` to the chapter's `topics`. The build assigns the id.
 
-**Add a chapter.** Create `data/disciplines/<discipline>/<prefix>-<kebab-name>.json`. The id must
-equal the file name and start with the discipline's prefix (`ma`, `ph`, `ch`, `bi`, `ea`, `cs`,
+To add a chapter, create `data/disciplines/<discipline>/<prefix>-<kebab-name>.json`. The id must
+match the file name and start with the discipline's prefix (`ma`, `ph`, `ch`, `bi`, `ea`, `cs`,
 `el`, `ai`, `me`, `mt`, `ae`). Use a category that already exists in that discipline's
-`discipline.json`, or add a new one there. Then run the build and fix what it reports.
+`discipline.json`, or add a new one there. Then run the build and fix whatever it reports.
 
-**Add a roadmap.** Create `data/roadmaps/<id>.json` (copy an existing one) and add the id to
-`data/manifest.json`. `python scripts/path.py <chapter-id>` prints the full prerequisite path
-to any chapter, which is the fastest way to build a complete roadmap.
+To add a roadmap, copy an existing file in `data/roadmaps/`, give it a new id and add that id to
+`data/manifest.json`. `python scripts/path.py <chapter-id>` prints the full prerequisite path to any
+chapter, which is the quickest way to make a roadmap complete.
 
-**Add a discipline.** Create `data/disciplines/<id>/discipline.json` with a unique two-letter
-`prefix`, add the id to `data/manifest.json`, then add chapters. Please open an issue first so
-the scope and its overlap with existing disciplines can be agreed.
+To add a discipline, create `data/disciplines/<id>/discipline.json` with an unused two-letter
+`prefix`, add the id to `data/manifest.json`, then add chapters. Please open an issue first, so we
+can agree on the scope and how it overlaps with existing disciplines.
 
-## Quality bar for content
+## What good content looks like
 
-- Prefer established curricula as evidence: university course lists, professional-body
-  guidelines, standard textbook tables of contents. Mention your sources in the pull request.
-- Topics should be concrete and learnable ("Gauss's law and its applications"), not vague
-  ("Other topics").
-- Keep summaries to one plain sentence.
-- **AI-assisted contributions are welcome**, but a human must check every line. Say in the pull
+- Back changes with established curricula: university course lists, professional-body guidelines,
+  or the tables of contents of standard textbooks. Mention your sources in the pull request.
+- Make topics concrete and learnable ("Gauss's law and its applications"), not vague ("Other
+  topics").
+- Keep each summary to one plain sentence.
+- AI-assisted contributions are welcome, but a person has to check every line. Say in the pull
   request that AI helped. Unchecked bulk dumps will be closed.
 
 ## Pull requests
 
-- One logical change per pull request (e.g. "add superconducting circuits chapter", not a mix of
-  ten unrelated edits).
-- CI must pass. A maintainer reviews the content, and may ask for sources.
-- By contributing you agree to license data under CC BY-SA 4.0 and code under MIT
-  (see [LICENSE-DATA.md](LICENSE-DATA.md) and [LICENSE](LICENSE)).
+- Keep each pull request to one change, such as "add superconducting circuits chapter" rather than
+  ten unrelated edits.
+- CI must pass. A maintainer reviews the content and may ask for sources.
+- By contributing, you agree to license data under CC BY-SA 4.0 and code under MIT (see
+  [LICENSE-DATA.md](LICENSE-DATA.md) and [LICENSE](LICENSE)).
 
 Please follow the [Code of Conduct](CODE_OF_CONDUCT.md).

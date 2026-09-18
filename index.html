@@ -37,7 +37,7 @@
   color-scheme: light;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
-html, body { height: 100%; }
+body { min-height: 100vh; }
 body { font: 14px/1.5 Inter, system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); -webkit-font-smoothing: antialiased; }
 button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
 input, textarea, select { font: inherit; color: inherit; }
@@ -233,7 +233,7 @@ textarea.notes:focus { border-color: var(--accent); }
   .topbar { gap: 8px; padding: 0 10px; }
   .search { margin-left: 0; }
   .item { grid-template-columns: auto minmax(0, 1fr); }
-  .item .i-side { grid-column: 2; flex-direction: row; align-items: center; }
+  .item .i-side { grid-column: 2; flex-direction: row; flex-wrap: wrap; align-items: center; }
   .link-row .dn { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
@@ -321,7 +321,7 @@ P.chapters = P.chapters || {}; P.topics = P.topics || {};
 })();
 function persist() {
   P.lastUpdated = Date.now();
-  try { localStorage.setItem(STORE_KEY, JSON.stringify(P)); } catch (e) { toast('Could not save — browser storage is unavailable'); }
+  try { localStorage.setItem(STORE_KEY, JSON.stringify(P)); } catch (e) { toast('Could not save: browser storage is unavailable'); }
 }
 const st = id => P.chapters[id]?.status || 'not-started';
 const tst = id => P.topics[id]?.status || 'not-started';
@@ -407,7 +407,7 @@ function viewHome() {
   const st_ = KB.stats || {};
   return `
     <h1>Your STEM knowledge map</h1>
-    <p class="lede">Every discipline is broken into chapters with a learning order: each chapter lists what you must know first, even when that lives in another discipline. Pick a <b>roadmap</b> for a goal, walk a <b>discipline</b> stage by stage, or use the <b>path finder</b> to see everything you need before any chapter.</p>
+    <p class="lede">Every discipline is split into chapters, and each chapter lists what you need to know first, even when that's in another discipline. Follow a roadmap towards a goal, work through a discipline stage by stage, or open the path finder to see everything you need before any chapter.</p>
     <div class="stats">
       <div class="stat"><b>${KB.subjects.length}</b><span>disciplines</span></div>
       <div class="stat"><b>${(st_.chapters || all.length).toLocaleString()}</b><span>chapters</span></div>
@@ -418,15 +418,15 @@ function viewHome() {
     ${learning.length ? `<div class="section"><div class="section-head"><h2>Continue learning</h2></div>
       <div class="grid">${learning.map(c => chapterCard(c, { disc: true })).join('')}</div></div>` : ''}
     <div class="section"><div class="section-head"><h2>${started ? 'Ready to learn next' : 'Start here'}</h2>
-      <span class="hint">${started ? 'Not started, and every prerequisite is done' : 'Foundation chapters with no prerequisites'}</span></div>
-      ${ready.length ? `<div class="grid">${ready.map(c => chapterCard(c, { disc: true })).join('')}</div>` : '<div class="empty">Nothing unlocked right now. Finish an in-progress chapter.</div>'}</div>
-    <div class="section"><div class="section-head"><h2>Roadmaps</h2><span class="hint">Goal-driven paths across disciplines</span></div>
+      <span class="hint">${started ? 'Not started yet, and all their prerequisites are done' : 'Foundation chapters with no prerequisites'}</span></div>
+      ${ready.length ? `<div class="grid">${ready.map(c => chapterCard(c, { disc: true })).join('')}</div>` : '<div class="empty">Nothing new is unlocked yet. Finish a chapter you have started to unlock more.</div>'}</div>
+    <div class="section"><div class="section-head"><h2>Roadmaps</h2><span class="hint">Routes towards a goal, across disciplines</span></div>
       ${(KB.roadmaps || []).length ? `<div class="grid wide">${KB.roadmaps.map(roadmapCard).join('')}</div>` : '<div class="empty">No roadmaps yet.</div>'}</div>
     <div class="section"><div class="section-head"><h2>Disciplines</h2></div>
       <div class="grid wide">${KB.subjects.map(disciplineCard).join('')}</div>
       <div class="legend">${Object.entries(LEVELS).map(([l, n]) => `<span><i style="background:${LEVEL_COLORS[l]}"></i>L${l} ${n}</span>`).join('')}</div></div>
     <footer class="foot">
-      <p><b>Open source.</b> Missing a topic, or a prerequisite looks wrong? <a href="${REPO}/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Contribute on GitHub</a>. The data is written by people and AI together, so expert review is very welcome.</p>
+      <p><b>Open source.</b> Missing a topic, or a prerequisite looks wrong? <a href="${REPO}/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Contribute on GitHub</a>. The content was curated with AI assistance and checked against real curricula, so reviews from people who know a field are especially welcome.</p>
       <p>Data <a href="${REPO}/blob/main/LICENSE-DATA.md" target="_blank" rel="noopener">CC BY-SA 4.0</a> · Code <a href="${REPO}/blob/main/LICENSE" target="_blank" rel="noopener">MIT</a> · v${esc(KB.version || '')} · updated ${esc(KB.generatedAt || '')}. Your progress is stored only in this browser.</p>
     </footer>`;
 }
@@ -470,7 +470,7 @@ function viewDiscipline(id) {
     body = [...stages.keys()].sort((a, b) => a - b).map(n => {
       const list = stages.get(n), sp = progressOf(list.map(c => c.id));
       return `<div class="stage"><div class="stage-head"><span class="stage-num">Stage ${n}</span>
-        <h3>${n === 1 ? 'Start here' : `Builds on stage${n > 2 ? 's 1–' + (n - 1) : ' 1'}`}</h3>
+        <h3>${n === 1 ? 'Start here' : `Builds on stage${n > 2 ? 's 1 to ' + (n - 1) : ' 1'}`}</h3>
         <span class="faint small">${plural(list.length, 'chapter')} · ${sp.pct}% done</span></div>
         <div class="grid">${list.map(c => chapterCard(c)).join('')}</div></div>`;
     }).join('');
@@ -559,7 +559,7 @@ function viewPath(id) {
       <div class="results" id="pathResults"></div></div>`;
   if (!c) {
     return `<h1>Path finder</h1>
-      <p class="lede">Choose any chapter and see <b>everything you need to learn before it</b>, across all disciplines, in a valid order. Each step only depends on earlier steps.</p>${picker}`;
+      <p class="lede">Choose any chapter to see everything you need to learn before it, across all disciplines. The steps are in order, and each one depends only on the steps before it.</p>${picker}`;
   }
   const list = [...ancestors(c.id)].map(i => CH.get(i));
   const p = progressOf(list.map(x => x.id));

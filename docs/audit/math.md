@@ -110,26 +110,26 @@
 
 ## 4. Grouping changes
 
-- **New category "Pre-University Foundations"** (level 1): arithmetic, algebra, Euclidean geometry, trigonometry, precalculus and analytic geometry. Euclidean and analytic geometry moved here from "Geometry", and elementary algebra moved here from "Algebra".
-- **New category "Calculus"**: calculus moved out of "Analysis", plus the new series, multivariable and vector calculus chapters.
-- **"Meta-Mathematics & Education" renamed to "History, Philosophy & Education".** The chapter "Foundations & Philosophy" (philosophy, history, aesthetics and metamathematics) moved here from "Foundations & Mathematical Logic".
-- **Categories reordered** from foundational to applied: Pre-University → Calculus → Foundations & Logic → Combinatorics & Discrete → Algebra → Number Theory → Analysis → Differential Equations → Geometry → Topology → Probability & Statistics → Numerical → Optimization & Control → Theoretical CS → ML Mathematics → Mathematical Physics → Applied → Emerging → History/Philosophy/Education. Within each category, chapters are ordered by level.
-- **Topics moved (ids kept):** `ma-calculus-3` "Multivariable calculus" → ma-multivariable-calculus, `ma-calculus-4` "Vector calculus" → ma-vector-calculus, `ma-calculus-5` "Calculus of variations" → ma-variational-methods. Each got a clarified name. This makes Calculus a clean single-variable syllabus.
-- **Mathematical Physics** (15 chapters) and **ML & Data Science Mathematics** (10 chapters) were kept, set to `advanced` (ma-geophysics `optional`), and linked with `related` to their physics (ph-*) and AI (ai-*) counterparts.
+- A new level-1 category, "Pre-University Foundations", holds arithmetic, algebra, Euclidean geometry, trigonometry, precalculus and analytic geometry. Euclidean and analytic geometry moved here from "Geometry", and elementary algebra moved here from "Algebra".
+- A new "Calculus" category holds calculus, moved out of "Analysis", plus the new series, multivariable and vector calculus chapters.
+- "Meta-Mathematics & Education" is now "History, Philosophy & Education". The chapter "Foundations & Philosophy" (philosophy, history, aesthetics and metamathematics) moved here from "Foundations & Mathematical Logic".
+- Categories now run from foundational to applied: Pre-University → Calculus → Foundations & Logic → Combinatorics & Discrete → Algebra → Number Theory → Analysis → Differential Equations → Geometry → Topology → Probability & Statistics → Numerical → Optimization & Control → Theoretical CS → ML Mathematics → Mathematical Physics → Applied → Emerging → History/Philosophy/Education. Within each category, chapters are ordered by level.
+- Three topics moved, keeping their ids: `ma-calculus-3` "Multivariable calculus" → ma-multivariable-calculus, `ma-calculus-4` "Vector calculus" → ma-vector-calculus, and `ma-calculus-5` "Calculus of variations" → ma-variational-methods. Each got a clearer name, and Calculus is now a single-variable syllabus.
+- Mathematical Physics (15 chapters) and ML & Data Science Mathematics (10 chapters) stay. They are set to `advanced` (ma-geophysics is `optional`) and linked with `related` to their physics (ph-*) and AI (ai-*) counterparts.
 
 ## 5. What was added
 
-**31 new chapters:**
+31 new chapters:
 ma-arithmetic-pre-algebra, ma-trigonometry, ma-precalculus, ma-sequences-series, ma-multivariable-calculus, ma-vector-calculus, ma-introduction-to-proofs, ma-discrete-mathematics, ma-representation-theory, ma-matrix-analysis, ma-order-lattices, ma-universal-algebra, ma-real-functions, ma-asymptotic-methods, ma-operator-theory, ma-abstract-harmonic-analysis, ma-several-complex-variables, ma-riemann-surfaces, ma-summability-divergent-series, ma-mathematical-methods, ma-tensor-analysis, ma-riemannian-geometry, ma-symplectic-geometry, ma-integral-geometry, ma-manifolds-cell-complexes, ma-homotopy-theory, ma-elementary-probability, ma-mathematical-statistics, ma-measure-theoretic-probability, ma-causal-inference, ma-computer-algebra.
 
-**Notable enrichment of existing chapters** (topics before → after):
+Existing chapters with the largest gains (topics before → after):
 Calculus 5 → 17 (limits, derivative rules as sub-topics, applications, integration techniques, improper integrals, applications of integration); Linear Algebra 8 → 15; Real Analysis 6 → 9 (plus sub-topics); Abstract Algebra 6 → 10; Group Theory 7 → 12; Ring Theory 6 → 11; Field Theory 5 → 9; ODEs 5 → 11; PDEs 6 → 15; Probability Theory 7 → 13; Graph Theory 9 → 13; Complex Analysis 8 → 16; General Topology 6 → 11; Algebraic Topology 7 → 11; Functional Analysis 7 → 14; Elementary Number Theory 6 → 13; Control Theory 6 → 13; Game Theory 6 → 13. Most former 2- or 3-topic advanced chapters now have 4 to 8 concrete topics. Only ma-mathematical-aesthetics (optional) still has 3.
 
-**Discipline description** was filled in.
+The discipline description was also filled in.
 
 ## 6. Learning-order notes
 
-Main spine: **Arithmetic → Algebra → Geometry → Trigonometry → Precalculus → Calculus → Sequences & Series → Multivariable → Vector Calculus**, with **Linear Algebra** (after precalculus) and **ODEs** (after calculus) alongside. From there:
+The main spine is Arithmetic → Algebra → Geometry → Trigonometry → Precalculus → Calculus → Sequences & Series → Multivariable → Vector Calculus. Linear Algebra (after precalculus) and ODEs (after calculus) run alongside it. From there, three tracks branch off:
 
 - Pure: Intro to Proofs → Real Analysis → General Topology / Measure Theory → Functional Analysis, and Intro to Proofs + Linear Algebra → Abstract Algebra → Group/Ring/Field theory → Commutative Algebra → Algebraic Geometry.
 - Applied: ODEs + Vector Calculus → Mathematical Methods → PDEs → Numerical PDEs.
@@ -137,10 +137,10 @@ Main spine: **Arithmetic → Algebra → Geometry → Trigonometry → Precalcul
 
 The graph has 12 in-discipline stages. The main roots other disciplines should use are ma-calculus, ma-multivariable-calculus, ma-vector-calculus, ma-linear-algebra, ma-ordinary-differential-equations-odes, ma-mathematical-methods, ma-probability-theory, ma-discrete-mathematics and ma-precalculus.
 
-Deliberate choice: **ODEs require only Calculus, not Linear Algebra** (as in MIT 18.03, where the needed matrix facts are taught in the course). This also avoids redundant-prerequisite warnings in physics, chemistry, mechanical and aerospace chapters that list both. Dynamical systems, control theory, classical mechanics and quantum mechanics list Linear Algebra explicitly.
+ODEs deliberately require only Calculus, not Linear Algebra, as in MIT 18.03, where the course teaches the matrix facts it needs. This also avoids redundant-prerequisite warnings in physics, chemistry, mechanical and aerospace chapters that list both. Dynamical systems, control theory, classical mechanics and quantum mechanics list Linear Algebra explicitly.
 
 ## 7. Recommended moves / open questions
 
-- **Overlapping chapters kept and cross-linked with `related`:** ma-computability-theory ↔ ma-recursion-computability; ma-topological-data-analysis-tda ↔ ma-topological-data-analysis (true duplicates, one in Topology and one in Emerging); ma-information-geometry ↔ ma-information-geometry-ml-context; ma-algebraic-coding-theory ↔ ma-error-correcting-codes ↔ ma-coding-theory-combinatorial-aspects; ma-cryptography ↔ ma-cryptographic-number-theory; ma-linear-programming ↔ ma-mathematical-programming; ma-control-theory ↔ ma-systems-theory-control; ma-convex-analysis ↔ ma-convex-optimization / ma-convex-geometry; ma-variational-methods ↔ ma-calculus-of-variations-optimal-control; ma-high-dimensional-probability ↔ ma-measure-concentration; ma-philosophy-of-mathematics ↔ ma-foundations-philosophy ↔ ma-history-of-mathematics; ma-discrete-mathematics ↔ ma-introduction-to-proofs.
-- **Belongs arguably in another discipline (left in place):** the Theoretical Computer Science category (automata, formal languages, complexity, algorithm analysis, algorithmic graph theory, type theory, formal verification) → CS; the ML & Data Science Mathematics category → AI; ma-circuit-theory and ma-signal-processing → Electronics; ma-control-theory / ma-systems-theory-control → Electronics/Mechanical; ma-geophysics and ma-geophysical-environmental-mathematics → Earth science; the Mathematical Physics category → Physics.
-- **Not added:** no dedicated chapter for nonassociative algebras (MSC 17, apart from Lie theory) because it is too niche. No separate "Metric Spaces" chapter, because it is covered inside General Topology and Real Analysis.
+- These overlapping chapters were kept and cross-linked with `related`: ma-computability-theory ↔ ma-recursion-computability; ma-topological-data-analysis-tda ↔ ma-topological-data-analysis (true duplicates, one in Topology and one in Emerging); ma-information-geometry ↔ ma-information-geometry-ml-context; ma-algebraic-coding-theory ↔ ma-error-correcting-codes ↔ ma-coding-theory-combinatorial-aspects; ma-cryptography ↔ ma-cryptographic-number-theory; ma-linear-programming ↔ ma-mathematical-programming; ma-control-theory ↔ ma-systems-theory-control; ma-convex-analysis ↔ ma-convex-optimization / ma-convex-geometry; ma-variational-methods ↔ ma-calculus-of-variations-optimal-control; ma-high-dimensional-probability ↔ ma-measure-concentration; ma-philosophy-of-mathematics ↔ ma-foundations-philosophy ↔ ma-history-of-mathematics; ma-discrete-mathematics ↔ ma-introduction-to-proofs.
+- Some chapters arguably belong in another discipline but were left in place: the Theoretical Computer Science category (automata, formal languages, complexity, algorithm analysis, algorithmic graph theory, type theory, formal verification) → CS; the ML & Data Science Mathematics category → AI; ma-circuit-theory and ma-signal-processing → Electronics; ma-control-theory / ma-systems-theory-control → Electronics/Mechanical; ma-geophysics and ma-geophysical-environmental-mathematics → Earth science; the Mathematical Physics category → Physics.
+- Nonassociative algebras (MSC 17, apart from Lie theory) have no dedicated chapter because the area is too niche. There is no separate "Metric Spaces" chapter either, because General Topology and Real Analysis already cover it.

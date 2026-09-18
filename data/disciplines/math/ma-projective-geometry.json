@@ -4,7 +4,7 @@
   "category": "Geometry",
   "level": 3,
   "priority": "important",
-  "summary": "Geometry of lines and points where parallel lines meet at infinity, using homogeneous coordinates and duality; key for algebraic geometry and computer vision.",
+  "summary": "Geometry of lines and points where parallel lines meet at infinity, using homogeneous coordinates and duality; it underpins algebraic geometry and computer vision.",
   "prerequisites": [
     "ma-linear-algebra"
   ],
