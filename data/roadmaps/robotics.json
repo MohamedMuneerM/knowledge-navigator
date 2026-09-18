@@ -2,9 +2,805 @@
   "id": "robotics",
   "name": "Robotics Engineer",
   "icon": "🦾",
-  "tagline": "",
-  "description": "",
-  "outcomes": [],
-  "stages": [],
-  "related": []
+  "tagline": "Design, build and program robots that sense, think and move.",
+  "description": "For anyone who wants to build real robots, from a line-following rover to a learning robot arm. You start with the maths, physics and programming every roboticist relies on, add the electronics and mechanical design to build the body, then learn kinematics, control, ROS, perception, SLAM, planning and manipulation. The route ends with learning-based robotics and specialist electives: legged, aerial, humanoid, soft, swarm and human-robot interaction.",
+  "outcomes": [
+    "Derive forward and inverse kinematics, Jacobians and dynamics for a robot arm or legged machine",
+    "Design and tune PID, state-space and computed-torque controllers for motors and joints",
+    "Build a robot’s electronics: microcontroller, sensors, motor drivers and battery power",
+    "Write ROS 2 software that ties perception, planning and control together, first in simulation and then on hardware",
+    "Localise and map with sensor fusion and SLAM, and plan collision-free paths for mobile robots and arms",
+    "Train perception models and control policies with deep learning and reinforcement learning"
+  ],
+  "stages": [
+    {
+      "name": "Orientation & mathematical foundations",
+      "description": "The big picture of what robots are, plus the algebra, geometry, calculus, linear algebra, differential equations and probability that every later stage leans on.",
+      "items": [
+        {
+          "chapter": "ai-robot-fundamentals",
+          "why": "Start with the map: the sense-plan-act loop, degrees of freedom and workspace tell you what the rest of this route is for.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-arithmetic-pre-algebra",
+          "why": "The number sense behind every gear ratio, unit conversion and back-of-envelope torque check.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-intermediate-algebra",
+          "why": "Rearranging equations is how you solve for a motor torque or a link length.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-euclidean-geometry",
+          "why": "Robot arms are chains of triangles and circles; geometric reasoning is the root of kinematics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-trigonometry",
+          "why": "Joint angles become positions through sines and cosines; you will use trig on every page of kinematics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-precalculus",
+          "why": "Functions, vectors and polar coordinates bridge algebra to calculus and to describing motion.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-analytic-geometry",
+          "why": "Coordinates, lines and conics are how you describe where the robot and the obstacles are.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-calculus",
+          "why": "Velocity, acceleration and optimisation are derivatives; controllers integrate error over time.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-linear-algebra",
+          "why": "The most important maths in robotics: rotations, transforms, Jacobians and least squares are all matrices.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-multivariable-calculus",
+          "why": "Gradients and Jacobians of many-variable functions drive inverse kinematics, optimisation and learning.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-ordinary-differential-equations-odes",
+          "why": "Robot dynamics and every controller you design are differential equations in time.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-integral-transforms",
+          "why": "Laplace transforms turn dynamics into transfer functions, the language of classical control.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-descriptive-statistics",
+          "why": "Summarising sensor data (mean, spread, outliers) is the first step in calibrating anything.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-probability",
+          "why": "Sensors are noisy and the world is uncertain; probability is how robots reason about it.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-probability-theory",
+          "why": "Gaussians, conditioning and Bayes’ rule are the maths inside Kalman filters, particle filters and SLAM.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-inferential-statistics",
+          "why": "Estimating parameters and judging measurement error underpins calibration and experiments.",
+          "depth": "selected"
+        }
+      ]
+    },
+    {
+      "name": "Physics & engineering mechanics",
+      "description": "Forces, motion and electricity from first principles, then the statics, dynamics and strength of materials that tell you whether a robot will move as planned without breaking.",
+      "items": [
+        {
+          "chapter": "ph-measurement-units-vectors",
+          "why": "Units and vectors keep your force and torque calculations honest.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-mechanics",
+          "why": "Newton’s laws, torque, energy and momentum are the physics every joint and wheel obeys.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-electricity-magnetism",
+          "why": "Motors, sensors and batteries all run on electromagnetism; this is where it starts.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-classical-mechanics",
+          "why": "Lagrangian mechanics is the cleanest way to derive the equations of motion of a multi-joint robot.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-introduction-to-engineering-mechanical-design",
+          "why": "How engineers turn requirements into a working mechanism: the mindset for building robot hardware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-statics",
+          "why": "Free-body diagrams give the joint torques needed to hold a payload and the loads each part must carry.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-dynamics",
+          "why": "Rigid-body kinematics and kinetics are the direct foundation of robot kinematics and dynamics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-mechanics-of-materials",
+          "why": "Stress and deflection decide whether a link bends, a shaft twists or a bracket snaps.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-system-dynamics",
+          "why": "Modelling motors, gears, springs and dampers as systems is the bridge from mechanics to control.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Programming & computer science",
+      "description": "Python and C/C++ fluency, data structures and algorithms, and Linux: the software toolkit robots are built with.",
+      "items": [
+        {
+          "chapter": "cs-computational-thinking",
+          "why": "Breaking a robot task into steps a computer can execute is where all robot software starts.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-programming-fundamentals",
+          "why": "Python is the lingua franca of robotics scripting, tooling and machine learning.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-command-line-shell",
+          "why": "ROS, embedded toolchains and robot computers are all driven from the terminal.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-version-control-git",
+          "why": "Every robotics team manages code, robot descriptions and configs in Git.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-linux-system-administration",
+          "why": "Robots run Linux; you need to install packages, manage services and debug a headless onboard computer.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-program-design",
+          "why": "Structuring larger programs so perception, planning and control code stays maintainable.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-object-oriented-programming",
+          "why": "ROS nodes, drivers and planners are written as classes; OOP is how robot software is organised.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-discrete-mathematics",
+          "why": "Graphs, logic and counting underpin search-based planners and state machines.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-data-structures",
+          "why": "Trees, heaps, hash maps and graphs are what occupancy grids, k-d trees and A* are built from.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-algorithms",
+          "why": "Graph search, dynamic programming and complexity analysis are at the heart of motion planning.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-computer-organization",
+          "why": "Knowing how a CPU executes code explains timing, interrupts and why some control loops miss deadlines.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-systems-programming",
+          "why": "C is how you talk to hardware, write drivers and make control loops fast and predictable.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-modern-systems-languages",
+          "why": "Modern C++ is the language of ROS 2 internals, real-time controllers and fast perception code.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Electronics, sensors & embedded systems",
+      "description": "Circuits, microcontrollers, sensors, actuators and motor drivers: the nervous system and muscles of a robot.",
+      "items": [
+        {
+          "chapter": "el-basic-electricity",
+          "why": "Voltage, current and power are the first things you check when a robot will not move.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-hands-on-electronics",
+          "why": "Reading schematics, breadboarding and soldering let you actually wire up a robot.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-passive-components",
+          "why": "Resistors, capacitors and inductors show up in every sensor circuit and motor driver.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-active-components",
+          "why": "Diodes, transistors and MOSFETs switch motors, protect circuits and drive indicators.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-mathematical-foundations",
+          "why": "Complex numbers and phasors are the maths of circuits and signals.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-circuit-theory",
+          "why": "Circuit analysis lets you design sensor front-ends and power paths that work first time.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-diode-transistor-circuits",
+          "why": "Transistor switches and H-bridges are how a microcontroller pin ends up driving a motor.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-operational-amplifiers",
+          "why": "Op-amps amplify and filter weak sensor signals such as strain gauges and current-sense resistors.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-signal-conditioning",
+          "why": "Cleaning up analog sensor signals before the ADC sees them.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-combinational-logic",
+          "why": "Digital logic is the substrate of every microcontroller and encoder interface.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-sequential-logic",
+          "why": "Counters and state machines are how quadrature encoders and PWM generators work.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-intro-microcontrollers",
+          "why": "Your first robot brain: reading sensors and driving outputs with Arduino-class boards.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-embedded-systems-fundamentals",
+          "why": "Interrupts, timers and memory on a microcontroller are where low-level robot control runs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-peripheral-controllers",
+          "why": "PWM, ADC, timers and DMA are the peripherals that drive motors and sample sensors.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-serial-protocols",
+          "why": "UART links the microcontroller to the onboard computer, GPS receivers and smart servos.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-synchronous-serial-protocols",
+          "why": "I2C and SPI connect IMUs, encoders and most other robot sensors.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-sensor-interfacing",
+          "why": "Getting clean, calibrated readings from real sensors into firmware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-inertial-sensors",
+          "why": "Accelerometers and gyros give a robot its orientation, central to balance and navigation.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-actuators",
+          "why": "DC, brushless, stepper and servo motors: knowing each one’s strengths is the first actuator decision.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-actuators-drives",
+          "why": "Motor drivers, servo control and gearboxes: choosing and driving the motors that move each joint.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-motor-control",
+          "why": "Current, velocity and position loops, encoders and field-oriented control make joints move precisely.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-battery-technologies",
+          "why": "LiPo and Li-ion packs power mobile robots; capacity and C-rate set runtime and peak power.",
+          "depth": "selected",
+          "focus": [
+            "el-battery-technologies-1",
+            "el-battery-technologies-2",
+            "el-battery-technologies-7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mechanical design & mechanisms",
+      "description": "Drawing, CAD, materials, manufacturing and machine elements: how to design a robot body that is stiff, light and possible to make.",
+      "items": [
+        {
+          "chapter": "me-engineering-drawing-sketching",
+          "why": "Sketches and drawings are how robot mechanisms are communicated and made.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-cad-solid-modeling",
+          "why": "You will design every bracket, link and gearbox housing in CAD, and reuse the meshes in your robot model.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-introductory-chemistry",
+          "why": "Just enough chemistry to see why metals, plastics and composites behave so differently.",
+          "depth": "selected",
+          "focus": [
+            "ch-introductory-chemistry-4",
+            "ch-introductory-chemistry-5",
+            "ch-introductory-chemistry-6"
+          ]
+        },
+        {
+          "chapter": "mt-intro-to-materials",
+          "why": "Aluminium, steel, nylon, carbon fibre: choosing robot materials starts with knowing the families.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-engineering-materials",
+          "why": "Stiffness, strength, density and fatigue decide what each robot part is made of.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-manufacturing-processes",
+          "why": "Designing parts that can actually be machined, moulded or printed.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-additive-manufacturing",
+          "why": "3D printing is how most robot prototypes get built; design for it from the start.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "me-machine-design-fundamentals",
+          "why": "Sizing shafts, links and joints against failure keeps robots from breaking under load.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-kinematics-of-mechanisms",
+          "why": "Linkages, cams and four-bars: the classical mechanisms inside grippers and legs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-gears-power-transmission",
+          "why": "Gears, belts and pulleys trade speed for torque in almost every robot joint.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Control systems & mechatronics",
+      "description": "Feedback control from PID to state space, and the mechatronic integration of sensors, actuators and embedded control into one machine.",
+      "items": [
+        {
+          "chapter": "el-signals-and-systems",
+          "why": "Signals, convolution and frequency response are the language of both control and filtering.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-signal-processing-fundamentals",
+          "why": "Sampling and digital filtering clean up sensor data before a controller acts on it.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-control-theory",
+          "why": "Stability, root locus, Bode plots and PID design: the classical control behind every robot joint.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-feedback-control",
+          "why": "Motion control for machines: cascaded loops, feedforward, friction and backlash compensation, hardware-in-the-loop.",
+          "depth": "selected",
+          "focus": [
+            "me-feedback-control-4",
+            "me-feedback-control-10",
+            "me-feedback-control-11",
+            "me-feedback-control-12",
+            "me-feedback-control-14"
+          ]
+        },
+        {
+          "chapter": "el-state-space-digital-control",
+          "why": "State space, LQR and observers control multi-joint robots and run as discrete-time code.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-nonlinear-programming",
+          "why": "Constrained optimisation sits inside inverse kinematics, trajectory optimisation and MPC.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-measurements-instrumentation",
+          "why": "Measuring what the robot actually does, with honest uncertainty, is how you validate a design.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-mechatronics",
+          "why": "Mechatronics is robotics in miniature: sensors, actuators, electronics and control designed as one system.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-actuators-drive-trains",
+          "why": "Motor and gearbox selection, harmonic and cycloidal drives, series-elastic and quasi-direct-drive actuators.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Robot kinematics, dynamics & software",
+      "description": "The core theory of robot motion (transforms, kinematics, Jacobians, dynamics and robot-specific control) and ROS 2, the software framework it runs on.",
+      "items": [
+        {
+          "chapter": "me-robot-mechanics",
+          "why": "The heart of robotics: homogeneous transforms, forward and inverse kinematics, Jacobians and manipulator dynamics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-kinematics-dynamics",
+          "why": "Quaternions, screw theory, singularities and redundancy: the parts that trip people up in practice.",
+          "depth": "selected",
+          "focus": [
+            "ai-kinematics-dynamics-8",
+            "ai-kinematics-dynamics-9",
+            "ai-kinematics-dynamics-10"
+          ]
+        },
+        {
+          "chapter": "el-kinematics-dynamics",
+          "why": "Trajectory interpolation and trapezoidal or S-curve motion profiles for smooth, feasible joint motion.",
+          "depth": "selected",
+          "focus": [
+            "el-kinematics-dynamics-5",
+            "el-kinematics-dynamics-6"
+          ]
+        },
+        {
+          "chapter": "ai-actuators-sensors",
+          "why": "Proprioceptive and exteroceptive sensing, transmissions and motor sizing from the robot’s point of view.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-control-systems",
+          "why": "Computed-torque, operational-space, force and impedance control: control designed for robots specifically.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-robot-mechanism-design",
+          "why": "Designing whole arms, legs and grippers: kinematic synthesis, actuator placement and stiffness.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-robot-software-ros",
+          "why": "ROS 2 nodes, tf2, URDF, Gazebo and MuJoCo simulation, ros2_control, Nav2 and MoveIt: the standard robot software stack.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Machine learning, vision & reinforcement learning",
+      "description": "The AI toolkit modern robots use: probabilistic reasoning, machine learning, deep learning, computer vision and reinforcement learning.",
+      "items": [
+        {
+          "chapter": "ai-introduction-to-ai-ml",
+          "why": "Where AI and machine learning fit in a robot, and what they can and cannot do.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-core-ai-concepts",
+          "why": "Agents, search and knowledge: the AI concepts behind planning and decision-making.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-mathematics-statistics",
+          "why": "A refresher on the statistics and linear algebra used throughout machine learning.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ai-programming-tools",
+          "why": "NumPy, pandas and notebooks: the Python data stack for logging and learning from robot data.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-probabilistic-ai",
+          "why": "Bayesian networks and probabilistic inference are the theory behind state estimation and SLAM.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-classical-ai-gofai-good-old-fashioned-ai",
+          "why": "Search, planning and state machines: the classical AI that task and motion planners are built on.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-core-ml-concepts",
+          "why": "Training, validation, overfitting and loss functions: the fundamentals behind every learned robot skill.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-types-of-machine-learning",
+          "why": "Supervised, unsupervised and reinforcement learning, and which robot problems each one solves.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-neural-network-foundations",
+          "why": "Backpropagation and neural networks power modern perception and learned control policies.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-deep-learning-frameworks",
+          "why": "PyTorch is how you actually train and deploy robot perception and policy networks.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-regularization-normalization",
+          "why": "Making networks generalise from limited, noisy robot data.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-convolutional-neural-networks-cnns",
+          "why": "CNNs are the backbone of robot vision: detection, segmentation and grasp prediction.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-image-processing-fundamentals",
+          "why": "Filtering, edges, colour spaces and image geometry, before any learning happens.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-core-vision-tasks",
+          "why": "Detection, segmentation and pose estimation tell a robot what things are and where they are.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-3d-computer-vision",
+          "why": "Camera models, stereo, depth and point clouds give robots the 3D understanding manipulation needs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-rl-fundamentals",
+          "why": "Markov decision processes, rewards and value functions: the framework for learning behaviour by trial and error.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-dynamic-programming",
+          "why": "Value and policy iteration connect reinforcement learning to optimal control.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-monte-carlo-methods",
+          "why": "Learning values from sampled episodes, a stepping stone to modern RL.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-model-free-methods",
+          "why": "TD learning and policy gradients are the algorithms behind learned locomotion and manipulation.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-deep-reinforcement-learning",
+          "why": "PPO, SAC and their relatives train robot policies in simulation that transfer to real hardware.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Perception, navigation, manipulation & robot learning",
+      "description": "Putting it all together: estimating state, mapping, planning, driving a mobile robot, grasping objects and learning new skills.",
+      "items": [
+        {
+          "chapter": "el-sensor-fusion",
+          "why": "Kalman, complementary and particle filters fuse IMU, encoders and GPS into one reliable state estimate.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-perception-sensing",
+          "why": "Cameras, LiDAR, radar, IMU/GPS and tactile sensors: what each one sees and how they combine for localisation.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-robot-perception",
+          "why": "Object recognition, pose estimation, point-cloud registration, calibration and visual odometry on a real robot.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-simultaneous-localization-and-mapping-slam",
+          "why": "SLAM lets a robot build a map of an unknown place while tracking where it is within it.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-motion-planning-navigation",
+          "why": "Configuration space, collision checking, RRT/PRM and trajectory optimisation plan motion around obstacles.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-path-planning-navigation",
+          "why": "A*, D*, dynamic-window local planners and waypoint following for mobile robots.",
+          "depth": "selected",
+          "focus": [
+            "el-path-planning-navigation-1",
+            "el-path-planning-navigation-4",
+            "el-path-planning-navigation-5",
+            "el-path-planning-navigation-6"
+          ]
+        },
+        {
+          "chapter": "ai-mobile-robotics",
+          "why": "Wheeled-robot kinematics, localisation and navigation come together in a robot that drives itself.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-autonomous-navigation-systems",
+          "why": "The full autonomy stack: localisation, mapping, planning and control running on one platform.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-manipulation",
+          "why": "Grasping, pick-and-place and contact-rich manipulation: the capstone of arm robotics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-robot-learning",
+          "why": "Imitation learning, sim-to-real transfer and learned policies: how today’s most capable robots acquire skills.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Specialisations (electives)",
+      "description": "Pick the kind of robot you care about most. Each elective lists the extra background it needs just before it.",
+      "items": [
+        {
+          "chapter": "el-advanced-control-systems",
+          "why": "Elective: nonlinear, robust and model-predictive control for agile or safety-critical robots.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-human-robot-interaction-hri",
+          "why": "Elective: designing robots that work safely and naturally alongside people.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-legged-locomotion",
+          "why": "Elective: gaits, balance, zero-moment point and whole-body control for walking and running robots.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-humanoid-robotics",
+          "why": "Elective: humanoids combine legged locomotion, manipulation and whole-body control in one machine.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-aerospace-dynamics",
+          "why": "Elective (aerial robotics background): 3D rigid-body dynamics and rotating frames for vehicles that fly.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-aerial-robotics-drones",
+          "why": "Elective: quadrotor dynamics, flight control and aerial perception.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-linear-programming",
+          "why": "Elective (swarm background): linear programming is the entry point to game theory and task allocation.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-game-theory",
+          "why": "Elective (swarm background): strategic interaction between agents, used in multi-robot coordination.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-multi-agent-systems",
+          "why": "Elective (swarm background): coordination, negotiation and consensus among many agents.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-swarm-multi-robot-systems",
+          "why": "Elective: many simple robots cooperating through formation control, consensus and task allocation.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-atomic-structure-periodicity",
+          "why": "Elective (soft-robotics background): atomic structure, the start of the chemistry path to polymers.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ch-chemical-bonding-molecular-structure",
+          "why": "Elective (soft-robotics background): bonding explains why polymers stretch and metals do not.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ch-states-of-matter-solutions",
+          "why": "Elective (soft-robotics background): states of matter and solutions, background for gels and elastomers.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ch-thermochemistry",
+          "why": "Elective (soft-robotics background): energy in reactions, a step on the path to organic chemistry.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ch-chemical-equilibrium",
+          "why": "Elective (soft-robotics background): chemical equilibrium, a step on the path to organic chemistry.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ch-acids-bases-aqueous-equilibria",
+          "why": "Elective (soft-robotics background): acid-base chemistry, the last step before organic structure.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ch-organic-structure-bonding",
+          "why": "Elective (soft-robotics background): carbon chains are what polymers and silicone elastomers are made of.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "mt-atomic-bonding",
+          "why": "Elective (soft-robotics background): how bonding sets stiffness and strength in engineering materials.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-polymer-structure",
+          "why": "Elective (soft-robotics background): polymer chains and cross-linking behind soft robot bodies.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-mechanical-properties",
+          "why": "Elective (soft-robotics background): stress-strain testing, including the large-strain behaviour of elastomers.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-polymer-properties",
+          "why": "Elective (soft-robotics background): viscoelastic and hyperelastic behaviour of the silicones soft robots are cast from.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-soft-robotics",
+          "why": "Elective: compliant bodies, pneumatic actuators and continuum kinematics for safe, adaptable robots.",
+          "depth": "full"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "ai-engineer",
+    "embedded-iot",
+    "electrical-electronics-engineer",
+    "computer-engineer",
+    "iron-man"
+  ]
 }

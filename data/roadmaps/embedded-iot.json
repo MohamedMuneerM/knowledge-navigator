@@ -2,9 +2,769 @@
   "id": "embedded-iot",
   "name": "Embedded & IoT Engineer",
   "icon": "📟",
-  "tagline": "",
-  "description": "",
-  "outcomes": [],
-  "stages": [],
-  "related": []
+  "tagline": "Build the firmware, hardware and cloud links behind connected devices.",
+  "description": "For programmers who want to get closer to the hardware, and for electronics hobbyists who want to ship real connected products. You start with the maths, C and computer-systems basics and the electronics every firmware engineer needs, then work up through microcontrollers, peripherals and protocols, RTOS and embedded Linux, wireless and IoT cloud platforms, low-power and PCB design, security, and the testing and debugging practices that get devices into the field and keep them there.",
+  "outcomes": [
+    "Write bare-metal and RTOS firmware in C for a microcontroller, including drivers for I2C, SPI, UART and ADC peripherals",
+    "Bring up embedded Linux on a system-on-chip board and write services that run on it",
+    "Connect devices over BLE, Wi-Fi, LoRaWAN or cellular and stream data to a cloud IoT platform with MQTT",
+    "Design a low-power device from schematic to manufacturable PCB that runs for months on a battery",
+    "Secure a device with secure boot, device identity, encrypted communication and safe over-the-air updates",
+    "Debug firmware and hardware with JTAG/SWD, logic analysers and oscilloscopes, and automate testing in CI"
+  ],
+  "stages": [
+    {
+      "name": "Foundations: maths & programming",
+      "description": "The maths used in circuits and security, and a solid start in programming: enough to think like a firmware engineer before touching hardware.",
+      "items": [
+        {
+          "chapter": "ma-arithmetic-pre-algebra",
+          "why": "Binary, hex, powers of two and unit prefixes are everyday embedded arithmetic.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-intermediate-algebra",
+          "why": "Ohm’s law, timer prescalers and battery-life estimates are all algebra.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-euclidean-geometry",
+          "why": "Geometry background for trigonometry and signals.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ma-trigonometry",
+          "why": "Sinusoids describe AC signals, PWM filtering and radio carriers.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-precalculus",
+          "why": "Exponentials and logarithms describe RC charging, decibels and battery discharge.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-calculus",
+          "why": "Capacitor and inductor behaviour, energy and average power are calculus.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-introduction-to-proofs",
+          "why": "Rigorous reasoning, needed to follow the number theory behind cryptography.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ma-elementary-number-theory",
+          "why": "Modular arithmetic and primes are the maths of RSA, ECC and every security protocol.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-computational-thinking",
+          "why": "Breaking a device’s behaviour into steps and states.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-programming-fundamentals",
+          "why": "Programming fundamentals in Python, also the language of test scripts and tooling.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-command-line-shell",
+          "why": "Toolchains, flashing utilities and embedded Linux are all driven from the shell.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-program-design",
+          "why": "Structuring programs into functions and modules, the habit good firmware depends on.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-discrete-mathematics",
+          "why": "Bits, logic, sets and state machines are the discrete maths of firmware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-data-structures",
+          "why": "Ring buffers, queues, linked lists and hash tables are firmware staples.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Computing foundations: C, operating systems & networks",
+      "description": "How computers really work: assembly, C, memory, operating systems, networks and Linux, the ground that every embedded system stands on.",
+      "items": [
+        {
+          "chapter": "cs-computer-organization",
+          "why": "Registers, memory, assembly and the instruction cycle: the view firmware engineers work from.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-systems-programming",
+          "why": "C, pointers, memory layout and bit manipulation: the language of embedded systems.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-operating-systems",
+          "why": "Processes, scheduling, synchronisation and memory management, the concepts behind every RTOS and Linux.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-computer-networks",
+          "why": "The TCP/IP stack is what IoT devices use to reach the cloud.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-linux-system-administration",
+          "why": "Configuring and debugging Linux systems, from your workstation to an embedded board.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-web-fundamentals",
+          "why": "HTTP, JSON and web basics behind REST APIs and device dashboards.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "cs-databases",
+          "why": "Where device telemetry ends up: storing and querying time-series and device data.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "cs-computer-security",
+          "why": "Threat models, attacks and defences: the foundation for securing devices.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Electronics for embedded engineers",
+      "description": "The circuits, analog front-ends, digital logic, signals and lab instruments you need to design and debug hardware around a microcontroller.",
+      "items": [
+        {
+          "chapter": "el-basic-electricity",
+          "why": "Voltage, current and power: the first things to check when a board misbehaves.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-hands-on-electronics",
+          "why": "Schematics, breadboards and soldering: the maker skills behind every prototype.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-passive-components",
+          "why": "Pull-ups, decoupling capacitors and filters are everywhere on an embedded board.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-active-components",
+          "why": "Diodes, transistors and MOSFETs switch loads and protect I/O pins.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-mathematical-foundations",
+          "why": "Complex numbers and transforms for circuits and signals.",
+          "depth": "selected",
+          "focus": [
+            "el-mathematical-foundations-1",
+            "el-mathematical-foundations-2",
+            "el-mathematical-foundations-3",
+            "el-mathematical-foundations-7"
+          ]
+        },
+        {
+          "chapter": "el-circuit-theory",
+          "why": "Circuit analysis for sensor front-ends, dividers and RC filters.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-diode-transistor-circuits",
+          "why": "Driving relays, motors and LEDs safely from a GPIO pin.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-operational-amplifiers",
+          "why": "Op-amps amplify and buffer sensor signals before the ADC.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-signal-conditioning",
+          "why": "Filtering, amplifying and protecting analog inputs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-combinational-logic",
+          "why": "Logic gates and Boolean algebra behind every digital interface.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-sequential-logic",
+          "why": "Flip-flops, counters and state machines: the hardware behind timers and serial ports.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-signals-and-systems",
+          "why": "Frequency response and sampling theory for anything that measures signals.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-signal-processing-fundamentals",
+          "why": "Sampling, aliasing and digital filters in firmware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-data-converters",
+          "why": "ADC and DAC resolution, sampling rate and error sources decide measurement quality.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-test-equipment",
+          "why": "Multimeters, bench supplies and logic analysers on the embedded bench.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-oscilloscope-techniques",
+          "why": "The oscilloscope is the firmware engineer’s best friend for timing and signal problems.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Microcontrollers & embedded C",
+      "description": "From blinking an LED to register-level programming: microcontroller architecture, embedded C practice, toolchains and the first debugging skills.",
+      "items": [
+        {
+          "chapter": "el-intro-microcontrollers",
+          "why": "Your first microcontroller projects: GPIO, sensors and outputs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-programming-languages",
+          "why": "C, C++, Rust and MicroPython for embedded work, and when to use each.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-embedded-systems-fundamentals",
+          "why": "Memory maps, interrupts, timers and the embedded development cycle.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-microcontroller-families",
+          "why": "AVR, ARM Cortex-M, ESP32, RISC-V: choosing the right MCU for a product.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-processor-architecture-concepts",
+          "why": "Pipelines, caches, MPUs and MMUs explain performance and memory protection.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-bare-metal-programming",
+          "why": "Register-level programming, startup code and interrupt handlers with no OS underneath.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-embedded-cc-best-practices",
+          "why": "MISRA-style defensive C, volatile, fixed-width types and safe coding patterns.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-memory-management",
+          "why": "Stack, heap, static allocation and linker scripts on memory-starved devices.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-boot-startup",
+          "why": "Reset vectors, bootloaders and startup sequences.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-version-control",
+          "why": "Git for firmware, hardware files and release management.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-build-systems",
+          "why": "Make, CMake and vendor build tools for reproducible firmware builds.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-cross-compilation",
+          "why": "Toolchains that compile on your PC and run on the target.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-debug-interfaces",
+          "why": "JTAG and SWD let you halt, step and inspect a running microcontroller.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-software-debugging",
+          "why": "Breakpoints, watchpoints and systematic debugging of firmware.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Peripherals, sensors & wired protocols",
+      "description": "Talking to the outside world: on-chip peripherals, sensors and actuators, and the wired buses that connect chips and boards.",
+      "items": [
+        {
+          "chapter": "el-peripheral-controllers",
+          "why": "Timers, PWM, ADC, DMA and watchdogs: the hardware blocks your firmware drives.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-serial-protocols",
+          "why": "UART and RS-485: the simplest and most common device links.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-synchronous-serial-protocols",
+          "why": "I2C and SPI connect sensors, displays, memories and radios.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-one-wire-protocols",
+          "why": "1-Wire and similar single-pin buses for low-cost sensors.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-usb-universal-serial-bus",
+          "why": "USB device classes for configuration, data logging and firmware update.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-automotive-protocols",
+          "why": "CAN and LIN, the robust buses used in vehicles and industrial equipment.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "el-sensor-interfacing",
+          "why": "Reading real sensors reliably: calibration, filtering and error handling.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-inertial-sensors",
+          "why": "Accelerometers and gyros for motion, orientation and wake-on-motion.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-environmental-sensors",
+          "why": "Temperature, humidity, pressure and air-quality sensors, the classic IoT inputs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-actuators",
+          "why": "Motors, relays and solenoids: making devices act, not just sense.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-protocol-debugging",
+          "why": "Decoding I2C, SPI and UART traffic with logic analysers when a sensor will not answer.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Operating systems: RTOS & embedded Linux",
+      "description": "Structuring firmware that does many things at once, real-time operating systems for microcontrollers, and embedded Linux for application processors.",
+      "items": [
+        {
+          "chapter": "el-firmware-development",
+          "why": "Firmware architecture: layers, state machines, event loops and hardware abstraction.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-concurrency-synchronization",
+          "why": "Interrupts, shared data, mutexes and race conditions in embedded code.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-real-time-concepts",
+          "why": "Deadlines, latency, jitter and schedulability: what real-time actually means.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-rtos-concepts",
+          "why": "Tasks, schedulers and context switching in an RTOS.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-rtos-services",
+          "why": "Queues, semaphores, timers and memory pools: the RTOS toolbox.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-real-time-operating-systems-rtos",
+          "why": "FreeRTOS, Zephyr and friends: the RTOS landscape and how to choose.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-device-drivers",
+          "why": "Writing drivers that separate hardware details from application logic.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-error-handling-diagnostics",
+          "why": "Watchdogs, fault handlers and diagnostics so devices recover instead of hanging.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-logging-monitoring",
+          "why": "Logging and runtime monitoring on devices with little memory and no screen.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-system-on-chip-platforms",
+          "why": "Application-class SoCs such as the Raspberry Pi and i.MX that run embedded Linux.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-embedded-linux",
+          "why": "Bootloaders, kernels, device trees and root filesystems with Yocto and Buildroot.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-linux-system-services",
+          "why": "systemd services, IPC and the user-space side of an embedded Linux device.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-board-support-packages-bsp",
+          "why": "Board support packages: bringing an OS up on custom hardware.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Connectivity & IoT architecture",
+      "description": "Getting data off the device: networking, short- and long-range wireless, IoT protocols, and the edge and cloud platforms that manage fleets of devices.",
+      "items": [
+        {
+          "chapter": "el-ethernet-networking",
+          "why": "Ethernet and embedded TCP/IP stacks such as lwIP.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-short-range-wireless",
+          "why": "Bluetooth Low Energy, Wi-Fi, Zigbee and Thread: the radios in most IoT devices.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-long-range-wireless-lpwan",
+          "why": "LoRaWAN, Sigfox and NB-IoT for kilometres of range on a coin cell.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-cellular-technologies",
+          "why": "LTE-M, NB-IoT and 5G for devices that must connect anywhere.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-mesh-networking",
+          "why": "Mesh networks such as Thread and BLE Mesh extend coverage device by device.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-iot-application-protocols",
+          "why": "MQTT, CoAP and HTTP: how devices publish telemetry and receive commands.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-iot-architecture-layers",
+          "why": "The device, gateway, network, cloud and application layers of an IoT system.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-data-serialization-formats",
+          "why": "JSON, CBOR and Protocol Buffers: compact data on constrained links.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-api-architectures",
+          "why": "REST, gRPC and webhooks that connect device data to applications.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-edge-computing",
+          "why": "Processing data on gateways and devices to save bandwidth and cut latency.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-cloud-computing-for-iot",
+          "why": "Cloud services for ingesting, storing and processing device data.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-iot-cloud-platforms",
+          "why": "AWS IoT, Azure IoT and similar platforms: device shadows, rules and fleets.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-device-management",
+          "why": "Provisioning, configuring and monitoring thousands of devices in the field.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-firmware-updates-ota",
+          "why": "Bootloaders, A/B partitions and rollback for safe firmware updates.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-over-the-air-ota-update-strategies",
+          "why": "Staged rollouts, delta updates and fleet-wide OTA without bricking devices.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-observability-telemetry",
+          "why": "Metrics, logs and traces from devices in the field.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-data-management",
+          "why": "Time-series storage and pipelines for device data.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-analytics-visualization",
+          "why": "Dashboards and analytics that turn telemetry into decisions.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Low-power & PCB design",
+      "description": "Making devices that run for years on a battery and turning a breadboard prototype into a manufacturable printed circuit board.",
+      "items": [
+        {
+          "chapter": "el-battery-technologies",
+          "why": "Coin cells, Li-ion and LiFePO4: capacity, self-discharge and what they mean for battery life.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-linear-regulators",
+          "why": "LDOs and quiescent current: the power supply choices that make or break battery life.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-power-distribution-management",
+          "why": "Power domains, load switches and sequencing on a board.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-low-power-design",
+          "why": "Sleep modes, clock gating and duty cycling on microcontrollers.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-low-power-design-strategies",
+          "why": "Power budgets, measuring microamps and system-level strategies for multi-year battery life.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-prototyping",
+          "why": "From breadboard to perfboard to dev-kit shields: fast hardware iteration.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-schematic-design",
+          "why": "Clean, reviewable schematics for microcontroller boards.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-pcb-layout",
+          "why": "Placement, grounding, decoupling and routing, including RF keep-outs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-manufacturing-processes",
+          "why": "How PCBs are fabricated and assembled.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-design-for-manufacturing-dfm",
+          "why": "Designing boards that are cheap and reliable to build in volume.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Device security",
+      "description": "Protecting devices, data and fleets: cryptography, secure boot, identity, secure communication and defending firmware against attack.",
+      "items": [
+        {
+          "chapter": "el-cryptography-fundamentals",
+          "why": "Symmetric and public-key crypto, hashes and signatures, the tools of device security.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-key-management",
+          "why": "Generating, storing and rotating keys on devices that attackers can hold in their hands.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-secure-boot-root-of-trust",
+          "why": "Secure boot and hardware roots of trust so devices only run your firmware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-device-identity-authentication",
+          "why": "Certificates and device identity for authenticating to the cloud.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-secure-communication",
+          "why": "TLS and DTLS on constrained devices.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-firmware-software-security",
+          "why": "Memory-safety bugs, hardening and secure coding for firmware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-network-security",
+          "why": "Firewalls, segmentation and attacks on IoT networks.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-threat-mitigation",
+          "why": "Threat modelling and mitigations across the whole device lifecycle.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-physical-security",
+          "why": "Tamper resistance, debug-port lockdown and protecting secrets from physical attack.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-privacy-protection",
+          "why": "Handling personal data from sensors and devices responsibly.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-compliance-regulations",
+          "why": "Regulations such as the EU Cyber Resilience Act that connected products must meet.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Testing, debugging, delivery & electives",
+      "description": "Shipping devices that work and stay working: hardware debugging, profiling, automated testing and CI, and electives in TinyML, Rust and industrial protocols.",
+      "items": [
+        {
+          "chapter": "el-hardware-debugging",
+          "why": "Tracking down hardware faults with probes, analysers and debug interfaces.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-trace-profiling",
+          "why": "Instruction trace and profiling to find timing and performance problems.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-testing-strategies",
+          "why": "Unit, integration and hardware-in-the-loop testing for firmware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-software-testing",
+          "why": "Test frameworks, mocking hardware and test-driven firmware development.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-static-analysis-linters",
+          "why": "Static analysis catches the bugs that are hardest to find on target.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-continuous-integration-continuous-deployment-cicd",
+          "why": "Automated builds, tests and releases for firmware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-functional-testing",
+          "why": "Production and end-of-line testing so every shipped unit works.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-field-diagnostics-remote-troubleshooting",
+          "why": "Diagnosing devices you cannot touch, from crash dumps to remote logs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-object-oriented-programming",
+          "why": "Elective (Rust/C++ background): objects and interfaces for larger firmware code bases.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "cs-modern-systems-languages",
+          "why": "Elective: modern C++ and Rust bring memory safety and zero-cost abstractions to firmware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-industrial-protocols",
+          "why": "Elective: Modbus, PROFINET and friends for industrial IoT.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-analytic-geometry",
+          "why": "Elective (TinyML background): coordinate geometry needed for multivariable calculus.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ma-linear-algebra",
+          "why": "Elective (TinyML background): vectors and matrices are the maths of neural networks.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-multivariable-calculus",
+          "why": "Elective (TinyML background): gradients drive how networks learn.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ai-introduction-to-ai-ml",
+          "why": "Elective (TinyML background): what machine learning is and where it fits on devices.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-mathematics-statistics",
+          "why": "Elective (TinyML background): statistics refresher for machine learning.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ai-programming-tools",
+          "why": "Elective (TinyML background): NumPy and notebooks for preparing sensor datasets.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-core-ml-concepts",
+          "why": "Elective (TinyML background): training, validation and overfitting.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-types-of-machine-learning",
+          "why": "Elective (TinyML background): supervised and unsupervised learning on sensor data.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-neural-network-foundations",
+          "why": "Elective (TinyML background): the neural networks that TinyML squeezes onto microcontrollers.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-tinyml-tiny-machine-learning",
+          "why": "Elective: running neural networks on microcontrollers for keyword spotting, gesture and anomaly detection.",
+          "depth": "full"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "electrical-electronics-engineer",
+    "computer-engineer",
+    "robotics",
+    "ai-engineer",
+    "iron-man"
+  ]
 }

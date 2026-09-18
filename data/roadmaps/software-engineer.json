@@ -2,9 +2,420 @@
   "id": "software-engineer",
   "name": "Software Engineer",
   "icon": "👩‍💻",
-  "tagline": "",
-  "description": "",
-  "outcomes": [],
-  "stages": [],
-  "related": []
+  "tagline": "From your first program to designing large systems as a senior engineer.",
+  "description": "For anyone who wants to build software professionally, starting with no programming experience. The path runs from programming fundamentals, data structures and algorithms through the machine, operating system and network beneath your code, then web development, testing, architecture, distributed systems, cloud, DevOps and security, the breadth expected of a senior engineer.",
+  "outcomes": [
+    "Write clean, tested, maintainable code in more than one paradigm and pick suitable data structures and algorithms",
+    "Build and deploy a full-stack web application with a relational database, an API and a frontend",
+    "Explain what happens in the hardware, operating system and network when your code runs, and use that to debug and tune it",
+    "Design a scalable, fault-tolerant distributed system and defend its trade-offs in a design review",
+    "Ship through CI/CD to the cloud with containers, infrastructure as code and observability",
+    "Find and fix common security flaws, and apply cryptography correctly"
+  ],
+  "stages": [
+    {
+      "name": "Maths for programmers",
+      "description": "The small amount of algebra, discrete maths and probability that programming actually leans on.",
+      "items": [
+        {
+          "chapter": "ma-arithmetic-pre-algebra",
+          "why": "Fractions, exponents and powers of two show up in sizing, estimates and binary.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-intermediate-algebra",
+          "why": "Variables, functions and equations: the mental model behind code.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-discrete-mathematics",
+          "why": "Logic, sets, induction, counting and graphs are the maths of algorithms and data structures.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-probability",
+          "why": "Probability for hashing, randomised algorithms, load, and reading A/B tests and metrics.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Programming fundamentals & tools",
+      "description": "Learn to program, then to structure programs, using the everyday tools of the trade.",
+      "items": [
+        {
+          "chapter": "cs-computational-thinking",
+          "why": "Decomposition, abstraction and how computers represent data, before you write code.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-programming-fundamentals",
+          "why": "Variables, control flow, functions and collections in your first language.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-command-line-shell",
+          "why": "Every engineer lives in the terminal: shells, scripts, editors and dev tools.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-version-control-git",
+          "why": "Branches, commits, merges and pull requests are how every team ships code.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-program-design",
+          "why": "Designing functions, modules and tests before writing larger programs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-object-oriented-programming",
+          "why": "Classes, interfaces and polymorphism dominate industry codebases.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-functional-programming",
+          "why": "Immutability, higher-order functions and pure code make programs easier to reason about and test.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Data structures, algorithms & data",
+      "description": "The core computer science every interview and every performance problem comes back to, plus storing data.",
+      "items": [
+        {
+          "chapter": "cs-data-structures",
+          "why": "Arrays, lists, hash maps, trees, heaps and graphs: choosing the right one is half of good code.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-algorithms",
+          "why": "Sorting, searching, graph algorithms, dynamic programming and Big-O analysis.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-databases",
+          "why": "Relational modelling, SQL, indexing and transactions; almost every application has a database.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Engineering software well",
+      "description": "Move from writing code that works to building software a team can maintain.",
+      "items": [
+        {
+          "chapter": "cs-software-construction",
+          "why": "Readable code, debugging, code review and working in a real codebase.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-software-design-patterns",
+          "why": "SOLID principles and the classic design patterns give you a shared vocabulary for design.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-software-testing",
+          "why": "Unit, integration and end-to-end tests, TDD and coverage: how you know your code works.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-software-maintenance-evolution",
+          "why": "Most engineering time goes into changing existing code; refactoring keeps it healthy.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-software-engineering-process",
+          "why": "Agile, estimation, code review and team workflows are how software actually gets delivered.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-professional-practice",
+          "why": "Design docs, communication and collaboration matter more with every step toward senior.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-computing-ethics",
+          "why": "Privacy, bias, safety and the social impact of the systems you build.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "How computers run your code",
+      "description": "The machine, operating system and network under every program.",
+      "items": [
+        {
+          "chapter": "cs-computer-organization",
+          "why": "Binary, memory and how a CPU executes instructions demystify performance and bugs.",
+          "depth": "selected",
+          "focus": [
+            "cs-computer-organization-1",
+            "cs-computer-organization-2",
+            "cs-computer-organization-3",
+            "cs-computer-organization-7",
+            "cs-computer-organization-8",
+            "cs-computer-organization-9",
+            "cs-computer-organization-10",
+            "cs-computer-organization-13",
+            "cs-computer-organization-14"
+          ]
+        },
+        {
+          "chapter": "cs-systems-programming",
+          "why": "C, pointers and manual memory show what higher-level languages hide from you.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-computer-architecture",
+          "why": "Caches, pipelines and multicore explain why some code is 100 times faster than other code.",
+          "depth": "selected",
+          "focus": [
+            "cs-computer-architecture-1",
+            "cs-computer-architecture-3",
+            "cs-computer-architecture-6",
+            "cs-computer-architecture-7",
+            "cs-computer-architecture-8",
+            "cs-computer-architecture-10",
+            "cs-computer-architecture-11"
+          ]
+        },
+        {
+          "chapter": "cs-operating-systems",
+          "why": "Processes, threads, memory and file systems: the environment every program runs in.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-concurrent-programming",
+          "why": "Threads, locks, async code and race conditions, a common source of production bugs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-computer-networks",
+          "why": "TCP/IP, DNS, HTTP and TLS underlie every web and distributed application.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-linux-system-administration",
+          "why": "Servers run Linux; you'll configure, deploy and debug on it.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Web development",
+      "description": "Build full-stack applications, backend and frontend.",
+      "items": [
+        {
+          "chapter": "cs-web-fundamentals",
+          "why": "HTML, CSS, JavaScript and the browser, the most widely deployed platform there is.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-frontend-development",
+          "why": "Component frameworks, state management, TypeScript and frontend performance.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-backend-development",
+          "why": "APIs, authentication, caching and server-side frameworks behind every product.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "description": "Build software that resists attack.",
+      "items": [
+        {
+          "chapter": "cs-computer-security",
+          "why": "Threat modelling, memory safety, access control and the security mindset.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-introduction-to-proofs",
+          "why": "Only the modular arithmetic warm-up needed for number theory.",
+          "depth": "selected",
+          "focus": [
+            "ma-introduction-to-proofs-10"
+          ]
+        },
+        {
+          "chapter": "ma-elementary-number-theory",
+          "why": "Modular arithmetic, primes and Euler's theorem are the maths inside RSA and Diffie-Hellman.",
+          "depth": "selected",
+          "focus": [
+            "ma-elementary-number-theory-1",
+            "ma-elementary-number-theory-3",
+            "ma-elementary-number-theory-7",
+            "ma-elementary-number-theory-2",
+            "ma-elementary-number-theory-4",
+            "ma-elementary-number-theory-5",
+            "ma-elementary-number-theory-9",
+            "ma-elementary-number-theory-6"
+          ]
+        },
+        {
+          "chapter": "cs-applied-cryptography",
+          "why": "Hashing, encryption, signatures, TLS and key management, and how to use them without mistakes.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-application-security",
+          "why": "OWASP Top 10, injection, XSS, auth flaws and secure coding for web applications.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Architecture & distributed systems",
+      "description": "Design systems that scale, stay available and remain changeable, the core of senior engineering.",
+      "items": [
+        {
+          "chapter": "cs-requirements-engineering",
+          "why": "Turning vague needs into clear functional and quality requirements that drive design.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-software-architecture",
+          "why": "Architectural styles, quality attributes and trade-offs: monoliths, microservices and events.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-nosql-data-systems",
+          "why": "Key-value, document, column and graph stores, and when to choose them over SQL.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-computer-systems-principles",
+          "why": "Naming, layering, fault tolerance and end-to-end arguments that recur in every system.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-distributed-systems",
+          "why": "Replication, consistency, consensus and partial failure are unavoidable at scale.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-system-design",
+          "why": "Load balancers, caches, queues, sharding and capacity estimates: designing large systems end to end.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "description": "Ship and operate software reliably in production.",
+      "items": [
+        {
+          "chapter": "cs-virtualization-containers",
+          "why": "VMs, containers and Docker are how software is packaged and isolated today.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-cloud-computing",
+          "why": "Compute, storage, networking and managed services on the major cloud platforms.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-devops-cicd",
+          "why": "CI/CD pipelines, Kubernetes and infrastructure as code automate delivery.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-site-reliability-engineering",
+          "why": "SLOs, monitoring, tracing, incident response and on-call keep production healthy.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "description": "Optional specialisations that build on the core.",
+      "items": [
+        {
+          "chapter": "cs-mobile-development",
+          "why": "Elective: native and cross-platform iOS and Android apps.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-programming-languages",
+          "why": "Elective: how languages differ in types, scope, evaluation and paradigms, and why it matters.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-compilers",
+          "why": "Elective: lexing, parsing, type checking and code generation; understanding your tools deeply.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-hci",
+          "why": "Elective: human-computer interaction, designing software around how people actually behave.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-ux-design",
+          "why": "Elective: interaction design, prototyping and usability testing.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-accessibility",
+          "why": "Elective: building software everyone can use, often a legal requirement.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-modern-systems-languages",
+          "why": "Elective: modern C++ and Rust for performance-critical and systems work.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-performance-engineering",
+          "why": "Elective: profiling and optimising code once it's correct.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-data-engineering",
+          "why": "Elective: data pipelines, warehouses and batch or stream processing.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-introduction-to-ai-ml",
+          "why": "Elective: how machine learning and LLMs work, before building with them.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-prompt-engineering",
+          "why": "Elective: prompting LLMs reliably, including structured output and injection risks.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-programming-tools",
+          "why": "Elective: the Python data stack that most AI tooling assumes.",
+          "depth": "selected",
+          "focus": [
+            "ai-programming-tools-5",
+            "ai-programming-tools-1",
+            "ai-programming-tools-2"
+          ]
+        },
+        {
+          "chapter": "ai-llm-application-engineering",
+          "why": "Elective: building features on top of LLM APIs, with tools, streaming and cost control.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-ai-assisted-software-development",
+          "why": "Elective: working effectively with AI coding assistants and program synthesis.",
+          "depth": "full"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "computer-engineer",
+    "ai-engineer",
+    "data-scientist",
+    "embedded-iot"
+  ]
 }

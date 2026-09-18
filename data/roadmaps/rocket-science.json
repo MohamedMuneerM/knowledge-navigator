@@ -2,9 +2,1247 @@
   "id": "rocket-science",
   "name": "Rocket Science & Spaceflight",
   "icon": "🚀",
-  "tagline": "",
-  "description": "",
-  "outcomes": [],
-  "stages": [],
-  "related": []
+  "tagline": "Design, analyse and fly rockets and spacecraft.",
+  "description": "For anyone who wants to go from watching launches to understanding and designing them. You start with the maths and a model rocket, build up the mechanical, thermal-fluid and aerodynamic engineering, then learn propulsion, orbital mechanics, launch and re-entry, guidance and control, avionics and flight software, and finish by designing a complete space mission.",
+  "outcomes": [
+    "Size a multi-stage launch vehicle with the rocket equation and estimate its payload to orbit",
+    "Analyse a liquid, solid or hybrid rocket engine: propellant performance, nozzle expansion, cooling and feed system",
+    "Plan orbits, transfers and interplanetary trajectories, and build a delta-v budget for a mission",
+    "Estimate entry heating and choose a thermal protection and landing approach for a returning vehicle",
+    "Design attitude determination and control and a Kalman-filter navigation loop for a spacecraft",
+    "Write and structure real-time flight software for an embedded flight computer",
+    "Carry a spacecraft from mission requirements through subsystem trades to an integrated, testable design"
+  ],
+  "stages": [
+    {
+      "name": "Mathematical foundations",
+      "description": "The algebra, geometry, trigonometry and basic statistics that every flight calculation is built on.",
+      "items": [
+        {
+          "chapter": "ma-arithmetic-pre-algebra",
+          "why": "Ratios, powers and scientific notation are needed for mass ratios, thrust-to-weight and unit conversions.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-intermediate-algebra",
+          "why": "Rearranging the rocket equation and performance formulas is everyday algebra.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-euclidean-geometry",
+          "why": "Geometry of nozzles, fins, tanks and trajectories starts with Euclid.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-trigonometry",
+          "why": "Resolving thrust, drag and gravity into components along a flight path is trigonometry.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-precalculus",
+          "why": "Exponentials and logarithms: the rocket equation is a logarithm of the mass ratio.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-analytic-geometry",
+          "why": "Orbits are conic sections; you will use ellipse and hyperbola geometry constantly.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-descriptive-statistics",
+          "why": "Summarising test data, from motor burns to sensor logs, starts with means, spread and plots.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-probability",
+          "why": "Reliability, dispersion and risk in launch are all probability.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Hands-on start: how rockets fly",
+      "description": "Build intuition and fly something: the physics of rockets and orbits at a conceptual level, plus model rocketry.",
+      "items": [
+        {
+          "chapter": "ph-measurement-units-vectors",
+          "why": "Units and vectors: mixing up units has destroyed real spacecraft, and forces and velocities are vectors.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-mechanics",
+          "why": "Newton's laws, momentum and gravity are exactly why and how a rocket works.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-introduction-to-aerospace-engineering",
+          "why": "A map of the field: vehicles, disciplines and the units aerospace engineers use.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-rocketry-basics",
+          "why": "Action and reaction, thrust, specific impulse and staging explained before the equations arrive.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-model-and-amateur-rocketry",
+          "why": "The hands-on start: build and fly model and high-power rockets safely, and learn stability, recovery and motor choice by doing.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-space-and-orbits-at-a-glance",
+          "why": "What orbit means, why it takes about 7.8 km/s, and the main orbit types, before the formal mechanics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-principles-of-flight",
+          "why": "Lift, drag and speed regimes; rockets fly through the same atmosphere as aircraft.",
+          "depth": "selected",
+          "focus": [
+            "ae-principles-of-flight-1",
+            "ae-principles-of-flight-2",
+            "ae-principles-of-flight-5",
+            "ae-principles-of-flight-8",
+            "ae-principles-of-flight-14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Calculus, statistics & computing",
+      "description": "The engineering mathematics and programming used in every later analysis.",
+      "items": [
+        {
+          "chapter": "ma-calculus",
+          "why": "Thrust, mass flow and trajectories are rates of change; the rocket equation itself comes from an integral.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-sequences-series",
+          "why": "Taylor series underpin linearisation, error estimates and numerical methods.",
+          "depth": "selected",
+          "focus": [
+            "ma-sequences-series-1",
+            "ma-sequences-series-2",
+            "ma-sequences-series-7",
+            "ma-sequences-series-9",
+            "ma-sequences-series-10"
+          ]
+        },
+        {
+          "chapter": "ma-linear-algebra",
+          "why": "Rotation matrices, state vectors and Kalman filters are linear algebra.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-multivariable-calculus",
+          "why": "Flow fields, heat flux and structural stress vary in three dimensions.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-ordinary-differential-equations-odes",
+          "why": "Equations of motion for rockets, orbits and control loops are ODEs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-vector-calculus",
+          "why": "Conservation laws in fluid mechanics and heat transfer are written with divergence and gradient.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-integral-transforms",
+          "why": "Laplace transforms turn control-system dynamics into algebra; Fourier transforms analyse vibration and signals.",
+          "depth": "selected",
+          "focus": [
+            "ma-integral-transforms-1",
+            "ma-integral-transforms-1-1",
+            "ma-integral-transforms-1-2",
+            "ma-integral-transforms-1-3",
+            "ma-integral-transforms-2"
+          ]
+        },
+        {
+          "chapter": "ma-probability-theory",
+          "why": "Random variables and covariance are the basis of navigation filters, dispersions and reliability.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-inferential-statistics",
+          "why": "Confidence intervals and tests tell you whether a test-stand result is real.",
+          "depth": "selected",
+          "focus": [
+            "ma-inferential-statistics-5",
+            "ma-inferential-statistics-1",
+            "ma-inferential-statistics-3",
+            "ma-inferential-statistics-2",
+            "ma-inferential-statistics-6"
+          ]
+        },
+        {
+          "chapter": "ma-mathematical-methods",
+          "why": "Fourier series, separation of variables and Bessel functions solve heat, vibration and acoustic problems.",
+          "depth": "selected",
+          "focus": [
+            "ma-mathematical-methods-1",
+            "ma-mathematical-methods-2",
+            "ma-mathematical-methods-3",
+            "ma-mathematical-methods-4",
+            "ma-mathematical-methods-6",
+            "ma-mathematical-methods-7",
+            "ma-mathematical-methods-9"
+          ]
+        },
+        {
+          "chapter": "ma-introduction-to-proofs",
+          "why": "Only the logic and proof basics needed to follow the real-analysis ideas behind PDE theory.",
+          "depth": "selected",
+          "focus": [
+            "ma-introduction-to-proofs-1",
+            "ma-introduction-to-proofs-2",
+            "ma-introduction-to-proofs-3",
+            "ma-introduction-to-proofs-4",
+            "ma-introduction-to-proofs-5"
+          ]
+        },
+        {
+          "chapter": "ma-real-analysis",
+          "why": "Only the core ideas (limits, convergence, Taylor's theorem) that PDE methods lean on.",
+          "depth": "selected",
+          "focus": [
+            "ma-real-analysis-1",
+            "ma-real-analysis-2",
+            "ma-real-analysis-3",
+            "ma-real-analysis-3-2",
+            "ma-real-analysis-4-2"
+          ]
+        },
+        {
+          "chapter": "ma-partial-differential-equations-pdes",
+          "why": "Heat conduction, wave propagation and fluid flow are PDEs; you need the classical equations and characteristics.",
+          "depth": "selected",
+          "focus": [
+            "ma-partial-differential-equations-pdes-7",
+            "ma-partial-differential-equations-pdes-1",
+            "ma-partial-differential-equations-pdes-8",
+            "ma-partial-differential-equations-pdes-9",
+            "ma-partial-differential-equations-pdes-10",
+            "ma-partial-differential-equations-pdes-11",
+            "ma-partial-differential-equations-pdes-12",
+            "ma-partial-differential-equations-pdes-13",
+            "ma-partial-differential-equations-pdes-15"
+          ]
+        },
+        {
+          "chapter": "cs-computational-thinking",
+          "why": "A quick grounding in how computers represent data before you start programming.",
+          "depth": "selected",
+          "focus": [
+            "cs-computational-thinking-1",
+            "cs-computational-thinking-2",
+            "cs-computational-thinking-3",
+            "cs-computational-thinking-4",
+            "cs-computational-thinking-5"
+          ]
+        },
+        {
+          "chapter": "cs-programming-fundamentals",
+          "why": "Python is the everyday tool for trajectory simulation, data reduction and design scripts.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-computational-methods-aerospace",
+          "why": "Numerical integration, root finding and linear solvers applied to aerospace problems such as trajectory propagation.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Physics, chemistry & circuits",
+      "description": "Classical physics, the chemistry behind combustion and the electrical basics every flight system needs.",
+      "items": [
+        {
+          "chapter": "ph-introductory-heat-thermodynamics",
+          "why": "Heat, temperature and gas laws come before engine thermodynamics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-electricity-magnetism",
+          "why": "Charges, fields and circuits, the base for avionics, power systems and electric propulsion.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-classical-mechanics",
+          "why": "Central forces, rotating frames and rigid-body motion are the physics of orbits and attitude.",
+          "depth": "selected",
+          "focus": [
+            "ph-classical-mechanics-1",
+            "ph-classical-mechanics-2",
+            "ph-classical-mechanics-4",
+            "ph-classical-mechanics-5",
+            "ph-classical-mechanics-6",
+            "ph-classical-mechanics-7",
+            "ph-classical-mechanics-8",
+            "ph-classical-mechanics-9",
+            "ph-classical-mechanics-21",
+            "ph-classical-mechanics-19",
+            "ph-classical-mechanics-11",
+            "ph-classical-mechanics-12",
+            "ph-classical-mechanics-16"
+          ]
+        },
+        {
+          "chapter": "ae-aerospace-dynamics",
+          "why": "3D rigid-body dynamics in rotating frames: the mechanical basis of flight mechanics, orbits and attitude.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-classical-electromagnetism",
+          "why": "Fields, induction and EM waves are needed for electric thrusters, antennas and the space environment.",
+          "depth": "selected",
+          "focus": [
+            "ph-classical-electromagnetism-1",
+            "ph-classical-electromagnetism-2",
+            "ph-classical-electromagnetism-19",
+            "ph-classical-electromagnetism-4",
+            "ph-classical-electromagnetism-5",
+            "ph-classical-electromagnetism-9",
+            "ph-classical-electromagnetism-10"
+          ]
+        },
+        {
+          "chapter": "el-basic-electricity",
+          "why": "Voltage, current and power, and working safely with batteries and igniters.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-circuit-theory",
+          "why": "Circuit analysis is needed for instrumentation, power systems and avionics.",
+          "depth": "selected",
+          "focus": [
+            "el-circuit-theory-6",
+            "el-circuit-theory-1",
+            "el-circuit-theory-7",
+            "el-circuit-theory-3",
+            "el-circuit-theory-2",
+            "el-circuit-theory-9",
+            "el-circuit-theory-10",
+            "el-circuit-theory-4",
+            "el-circuit-theory-5",
+            "el-circuit-theory-11",
+            "el-circuit-theory-12",
+            "el-circuit-theory-13"
+          ]
+        },
+        {
+          "chapter": "ch-introductory-chemistry",
+          "why": "Moles, reactions and stoichiometry: every propellant calculation starts here.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-atomic-structure-periodicity",
+          "why": "Atomic structure explains why hydrogen, oxygen and certain metals make good propellants and structures.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-chemical-bonding-molecular-structure",
+          "why": "Bond energies are where propellant energy is stored.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-states-of-matter-solutions",
+          "why": "Gases, liquids and phase behaviour matter for cryogenic propellants and tank pressurisation.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-thermochemistry",
+          "why": "Heats of formation and reaction set how much energy a propellant combination releases.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-chemical-kinetics-intro",
+          "why": "Reaction rates decide ignition, burn rate and whether combustion is stable.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-chemical-equilibrium",
+          "why": "Equilibrium and dissociation at chamber temperatures set exhaust composition and performance.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Mechanics, structures, materials & control",
+      "description": "Mechanical-engineering fundamentals: how structures carry load, what they are made of, how they vibrate and how feedback control works.",
+      "items": [
+        {
+          "chapter": "me-introduction-to-engineering-mechanical-design",
+          "why": "The engineering design process and habits used throughout vehicle design.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-statics",
+          "why": "Free-body diagrams and equilibrium: loads on a rocket on the pad and in flight.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-dynamics",
+          "why": "Engineering dynamics of particles and rigid bodies, the base for vibration and flight mechanics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-mechanics-of-materials",
+          "why": "Stress, strain, bending and buckling size tanks, interstages and thrust structures.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-intro-to-materials",
+          "why": "Why metals, ceramics, polymers and composites behave differently.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-engineering-materials",
+          "why": "Properties of engineering alloys and composites as a designer uses them.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-aerospace-materials",
+          "why": "Aluminium-lithium, titanium, nickel superalloys and composites: how aerospace materials are chosen.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-aerospace-structures",
+          "why": "Thin-walled, stiffened structures are what rockets and spacecraft are made of.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-composite-structures",
+          "why": "Composite overwrapped tanks, fairings and interstages are laminated structures.",
+          "depth": "selected",
+          "focus": [
+            "ae-composite-structures-1",
+            "ae-composite-structures-2",
+            "ae-composite-structures-3",
+            "ae-composite-structures-4",
+            "ae-composite-structures-5",
+            "ae-composite-structures-6",
+            "ae-composite-structures-7",
+            "ae-composite-structures-10"
+          ]
+        },
+        {
+          "chapter": "me-system-dynamics",
+          "why": "Modelling mechanical, electrical and fluid systems as differential equations and transfer functions.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-mechanical-vibrations",
+          "why": "Rockets shake: modes, damping and forced response.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-structural-dynamics-vibration",
+          "why": "Launch vibration, acoustic and shock environments and how structures respond.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-feedback-control-aerospace",
+          "why": "Classical and state-space control, the foundation for thrust vectoring, attitude and guidance loops.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Thermodynamics, fluids & aerodynamics",
+      "description": "Energy, flow and heat: the physics inside engines and around vehicles flying through the atmosphere.",
+      "items": [
+        {
+          "chapter": "me-engineering-thermodynamics",
+          "why": "Energy balances, entropy and cycles, the foundation of propulsion analysis.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-applied-thermodynamics",
+          "why": "Gas mixtures, combustion and cycles; turbopump drive cycles are thermodynamic cycles.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-aerospace-thermodynamics",
+          "why": "Thermodynamics aimed at propulsion: gas properties, enthalpy and propulsion cycles.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-fluid-mechanics",
+          "why": "Pressure, flow in pipes and control-volume analysis for feed systems and aerodynamics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-heat-transfer",
+          "why": "Conduction, convection and radiation size engine cooling, heat shields and spacecraft thermal control.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-advanced-fluid-mechanics",
+          "why": "Navier-Stokes, boundary layers, compressible flow and cavitation for engine and pump design.",
+          "depth": "selected",
+          "focus": [
+            "me-advanced-fluid-mechanics-1",
+            "me-advanced-fluid-mechanics-3",
+            "me-advanced-fluid-mechanics-4",
+            "me-advanced-fluid-mechanics-5",
+            "me-advanced-fluid-mechanics-6",
+            "me-advanced-fluid-mechanics-7",
+            "me-advanced-fluid-mechanics-8",
+            "me-advanced-fluid-mechanics-10"
+          ]
+        },
+        {
+          "chapter": "ae-aerodynamics-fundamentals",
+          "why": "Forces, moments and dimensionless numbers for vehicles moving through air.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-incompressible-aerodynamics",
+          "why": "Potential flow, circulation and lift: the basis of fin and body aerodynamics.",
+          "depth": "selected",
+          "focus": [
+            "ae-incompressible-aerodynamics-1",
+            "ae-incompressible-aerodynamics-2",
+            "ae-incompressible-aerodynamics-3",
+            "ae-incompressible-aerodynamics-5",
+            "ae-incompressible-aerodynamics-9",
+            "ae-incompressible-aerodynamics-10"
+          ]
+        },
+        {
+          "chapter": "ae-compressible-flow-gas-dynamics",
+          "why": "Shocks, expansions and isentropic nozzle flow: the physics of every rocket nozzle and supersonic ascent.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-viscous-flow-boundary-layers",
+          "why": "Skin friction, heat transfer and separation, needed for drag, nozzle and entry heating.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-applied-aerodynamics-flight-vehicles",
+          "why": "Missile and launcher aerodynamics: drag build-up, fin design, centre of pressure and base drag.",
+          "depth": "selected",
+          "focus": [
+            "ae-applied-aerodynamics-flight-vehicles-1",
+            "ae-applied-aerodynamics-flight-vehicles-5",
+            "ae-applied-aerodynamics-flight-vehicles-8",
+            "ae-applied-aerodynamics-flight-vehicles-9",
+            "ae-applied-aerodynamics-flight-vehicles-10",
+            "ae-applied-aerodynamics-flight-vehicles-11"
+          ]
+        },
+        {
+          "chapter": "ae-hypersonic-aerothermodynamics",
+          "why": "Above Mach 5 heating and gas chemistry dominate: essential for re-entry and ascent heating.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Rocket propulsion",
+      "description": "From the rocket equation to real engines: propellants and combustion, nozzles, liquid, solid, hybrid and electric propulsion, and testing.",
+      "items": [
+        {
+          "chapter": "ae-rocket-propulsion-fundamentals",
+          "why": "The rocket equation, thrust, specific impulse and ideal rocket theory: the core of the whole roadmap.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-chemical-thermodynamics",
+          "why": "Gibbs energy and chemical equilibrium are how propellant performance codes compute chamber composition.",
+          "depth": "selected",
+          "focus": [
+            "ch-chemical-thermodynamics-1",
+            "ch-chemical-thermodynamics-2",
+            "ch-chemical-thermodynamics-3",
+            "ch-chemical-thermodynamics-4",
+            "ch-chemical-thermodynamics-6",
+            "ch-chemical-thermodynamics-7",
+            "ch-chemical-thermodynamics-8",
+            "ch-chemical-thermodynamics-11"
+          ]
+        },
+        {
+          "chapter": "ch-chemical-kinetics",
+          "why": "Chain reactions and rate theory explain ignition, flame holding and explosions.",
+          "depth": "selected",
+          "focus": [
+            "ch-chemical-kinetics-1",
+            "ch-chemical-kinetics-2",
+            "ch-chemical-kinetics-3",
+            "ch-chemical-kinetics-4",
+            "ch-chemical-kinetics-6",
+            "ch-chemical-kinetics-7",
+            "ch-chemical-kinetics-14"
+          ]
+        },
+        {
+          "chapter": "ae-combustion-fundamentals",
+          "why": "Flames, sprays and detonations as they happen inside engines.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-combustion-chemistry",
+          "why": "Adiabatic flame temperature, dissociation and combustion in rocket chambers.",
+          "depth": "selected",
+          "focus": [
+            "ch-combustion-chemistry-1",
+            "ch-combustion-chemistry-2",
+            "ch-combustion-chemistry-3",
+            "ch-combustion-chemistry-4",
+            "ch-combustion-chemistry-6",
+            "ch-combustion-chemistry-8",
+            "ch-combustion-chemistry-9",
+            "ch-combustion-chemistry-11",
+            "ch-combustion-chemistry-12",
+            "ch-combustion-chemistry-14"
+          ]
+        },
+        {
+          "chapter": "ch-propellant-chemistry",
+          "why": "The chemistry of oxidisers, fuels, monopropellants and solid propellants, and why each is chosen.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-rocket-propellants-performance",
+          "why": "How propellant choice sets characteristic velocity and specific impulse; equilibrium performance calculations.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-rocket-nozzles-thrust-vector-control",
+          "why": "Real nozzle design, expansion ratio, altitude losses and how rockets steer their thrust.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-solid-rocket-motors",
+          "why": "Grain geometry, burn rate and motor design: the scaled-up version of your model rocket motor.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-hybrid-rocket-propulsion",
+          "why": "Solid fuel with liquid oxidiser: popular in amateur and university rocketry for safety and throttling.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-liquid-rocket-engines",
+          "why": "Thrust chambers, injectors, regenerative cooling and ignition of liquid engines.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-turbomachinery",
+          "why": "Pumps and turbines, velocity triangles and cavitation, the basis of turbopump design.",
+          "depth": "selected",
+          "focus": [
+            "me-turbomachinery-1",
+            "me-turbomachinery-2",
+            "me-turbomachinery-3",
+            "me-turbomachinery-4",
+            "me-turbomachinery-8",
+            "me-turbomachinery-13"
+          ]
+        },
+        {
+          "chapter": "ae-engine-cycles-turbopumps-feed-systems",
+          "why": "Pressure-fed versus gas-generator, staged-combustion and expander cycles, turbopumps and tank pressurisation.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-aerospace-instrumentation",
+          "why": "Pressure, temperature, force and strain measurement and data acquisition for tests and flight.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-propulsion-testing",
+          "why": "Test stands, instrumentation and test safety: how engines are actually proven.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-electric-propulsion",
+          "why": "Ion, Hall and other electric thrusters that move spacecraft once they are in space.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Orbits, launch vehicles & re-entry",
+      "description": "Astrodynamics, getting from the pad to orbit, and coming back through the atmosphere.",
+      "items": [
+        {
+          "chapter": "ae-orbital-mechanics",
+          "why": "The two-body problem, orbital elements and time of flight: the geometry of spaceflight.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-orbital-maneuvers",
+          "why": "Hohmann transfers, plane changes and phasing, and how to build a delta-v budget.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-orbital-perturbations",
+          "why": "Oblateness, drag, solar pressure and third bodies, and numerical orbit propagation.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-interplanetary-trajectories",
+          "why": "Patched conics, launch windows, porkchop plots and gravity assists for the Moon and planets.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-ascent-trajectories",
+          "why": "Gravity turns, gravity and drag losses and ascent simulation from pad to orbit.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-launch-vehicle-design",
+          "why": "Staging, propulsion selection, structures and mass budgets brought together into a launch vehicle.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-launch-vehicle-dynamics-control",
+          "why": "Controlling a flexible, sloshing, aerodynamically unstable rocket and the loads that result.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-atmospheric-entry",
+          "why": "Ballistic and lifting entry, deceleration, heating and entry corridors.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-thermal-protection-systems",
+          "why": "Ablative and reusable heat shields: materials, sizing and testing.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-descent-landing-systems",
+          "why": "Parachutes, inflatable decelerators, retropropulsion and precision landing.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-reusable-launch-systems",
+          "why": "Propulsive landing, recovery and refurbishment, and the economics of reuse.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Guidance, navigation & control",
+      "description": "Knowing where the vehicle is, deciding where it should go and steering it there, for rockets and spacecraft.",
+      "items": [
+        {
+          "chapter": "ae-estimation-kalman-filtering",
+          "why": "Least squares and Kalman filters are behind every navigation system.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-attitude-kinematics-dynamics",
+          "why": "Quaternions, Euler angles and rigid-body attitude dynamics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-attitude-determination",
+          "why": "Star trackers, sun sensors, gyros and filters to work out which way the spacecraft points.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-attitude-control",
+          "why": "Reaction wheels, thrusters and magnetorquers and the control laws that use them.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-aerospace-navigation-systems",
+          "why": "Inertial, GNSS and deep-space navigation for launchers and spacecraft.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-guidance-algorithms",
+          "why": "Ascent, transfer, entry and powered-landing guidance laws.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-rendezvous-proximity-operations",
+          "why": "Relative motion, rendezvous and docking, as used for space stations and servicing.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-orbit-determination",
+          "why": "Estimating an orbit from tracking data with batch and sequential filters.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-gnc-system-design-verification",
+          "why": "Integrating guidance, navigation and control into a verified flight system with fault management.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Avionics, embedded systems & flight software",
+      "description": "The electronics, embedded computing and software engineering that turn a vehicle into something that can fly itself.",
+      "items": [
+        {
+          "chapter": "el-hands-on-electronics",
+          "why": "Breadboarding, soldering and a multimeter: the bench skills for building flight computers and ground-support gear.",
+          "depth": "selected",
+          "focus": [
+            "el-hands-on-electronics-1",
+            "el-hands-on-electronics-2",
+            "el-hands-on-electronics-3",
+            "el-hands-on-electronics-4",
+            "el-hands-on-electronics-5",
+            "el-hands-on-electronics-10",
+            "el-hands-on-electronics-11",
+            "el-hands-on-electronics-13",
+            "el-hands-on-electronics-14"
+          ]
+        },
+        {
+          "chapter": "el-combinational-logic",
+          "why": "Binary numbers and logic gates: how flight computers represent and process data.",
+          "depth": "selected",
+          "focus": [
+            "el-combinational-logic-8",
+            "el-combinational-logic-1",
+            "el-combinational-logic-2",
+            "el-combinational-logic-4",
+            "el-combinational-logic-5"
+          ]
+        },
+        {
+          "chapter": "el-sequential-logic",
+          "why": "Registers, counters and state machines, which also model flight sequencing.",
+          "depth": "selected",
+          "focus": [
+            "el-sequential-logic-1",
+            "el-sequential-logic-2",
+            "el-sequential-logic-3",
+            "el-sequential-logic-4",
+            "el-sequential-logic-5"
+          ]
+        },
+        {
+          "chapter": "el-intro-microcontrollers",
+          "why": "Program a microcontroller to read sensors and fire events: the core of an amateur flight computer.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-command-line-shell",
+          "why": "The shell, scripting and build tools used to develop and test flight code.",
+          "depth": "selected",
+          "focus": [
+            "cs-command-line-shell-1",
+            "cs-command-line-shell-2",
+            "cs-command-line-shell-4",
+            "cs-command-line-shell-5",
+            "cs-command-line-shell-7",
+            "cs-command-line-shell-8",
+            "cs-command-line-shell-9",
+            "cs-command-line-shell-11",
+            "cs-command-line-shell-13"
+          ]
+        },
+        {
+          "chapter": "cs-program-design",
+          "why": "Decomposition, testing and debugging discipline for programs bigger than scripts.",
+          "depth": "selected",
+          "focus": [
+            "cs-program-design-1",
+            "cs-program-design-2",
+            "cs-program-design-3",
+            "cs-program-design-5",
+            "cs-program-design-8",
+            "cs-program-design-9",
+            "cs-program-design-10"
+          ]
+        },
+        {
+          "chapter": "cs-computer-organization",
+          "why": "Number representation, the processor and interrupts at machine level, which flight software depends on.",
+          "depth": "selected",
+          "focus": [
+            "cs-computer-organization-1",
+            "cs-computer-organization-2",
+            "cs-computer-organization-3",
+            "cs-computer-organization-4",
+            "cs-computer-organization-7",
+            "cs-computer-organization-9",
+            "cs-computer-organization-10",
+            "cs-computer-organization-13",
+            "cs-computer-organization-14"
+          ]
+        },
+        {
+          "chapter": "cs-systems-programming",
+          "why": "C, pointers and memory: most flight software is written in C or C++.",
+          "depth": "selected",
+          "focus": [
+            "cs-systems-programming-1",
+            "cs-systems-programming-2",
+            "cs-systems-programming-3",
+            "cs-systems-programming-4",
+            "cs-systems-programming-5",
+            "cs-systems-programming-6",
+            "cs-systems-programming-7",
+            "cs-systems-programming-10",
+            "cs-systems-programming-14"
+          ]
+        },
+        {
+          "chapter": "el-embedded-systems-fundamentals",
+          "why": "Register-level C, interrupts, timers, ADCs and serial buses on microcontrollers.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-bare-metal-programming",
+          "why": "Programming without an OS: memory-mapped I/O and interrupt service routines.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-discrete-mathematics",
+          "why": "Logic, state machines and invariants for reasoning about software correctness.",
+          "depth": "selected",
+          "focus": [
+            "cs-discrete-mathematics-1",
+            "cs-discrete-mathematics-2",
+            "cs-discrete-mathematics-3",
+            "cs-discrete-mathematics-4",
+            "cs-discrete-mathematics-5",
+            "cs-discrete-mathematics-11",
+            "cs-discrete-mathematics-13",
+            "cs-discrete-mathematics-14"
+          ]
+        },
+        {
+          "chapter": "cs-data-structures",
+          "why": "Queues, buffers and fixed-size structures used in telemetry and command handling.",
+          "depth": "selected",
+          "focus": [
+            "cs-data-structures-1",
+            "cs-data-structures-2",
+            "cs-data-structures-3",
+            "cs-data-structures-5",
+            "cs-data-structures-6",
+            "cs-data-structures-10",
+            "cs-data-structures-16"
+          ]
+        },
+        {
+          "chapter": "cs-operating-systems",
+          "why": "Scheduling, synchronisation and real-time operating systems.",
+          "depth": "selected",
+          "focus": [
+            "cs-operating-systems-1",
+            "cs-operating-systems-3",
+            "cs-operating-systems-4",
+            "cs-operating-systems-5",
+            "cs-operating-systems-6",
+            "cs-operating-systems-7",
+            "cs-operating-systems-8",
+            "cs-operating-systems-9",
+            "cs-operating-systems-11",
+            "cs-operating-systems-16"
+          ]
+        },
+        {
+          "chapter": "el-concurrency-synchronization",
+          "why": "Critical sections, priority inversion and deadlock: the bugs that have hit real spacecraft.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-real-time-concepts",
+          "why": "Deadlines, jitter and worst-case execution time for control loops that must never be late.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-object-oriented-programming",
+          "why": "Classes and interfaces as used in C++ flight frameworks and ground software.",
+          "depth": "selected",
+          "focus": [
+            "cs-object-oriented-programming-1",
+            "cs-object-oriented-programming-2",
+            "cs-object-oriented-programming-3",
+            "cs-object-oriented-programming-5",
+            "cs-object-oriented-programming-6",
+            "cs-object-oriented-programming-7",
+            "cs-object-oriented-programming-10"
+          ]
+        },
+        {
+          "chapter": "cs-version-control-git",
+          "why": "Version control and code review are mandatory on any flight-software team.",
+          "depth": "selected",
+          "focus": [
+            "cs-version-control-git-1",
+            "cs-version-control-git-3",
+            "cs-version-control-git-4",
+            "cs-version-control-git-5",
+            "cs-version-control-git-6",
+            "cs-version-control-git-10"
+          ]
+        },
+        {
+          "chapter": "cs-software-construction",
+          "why": "Specifications, testing and defensive programming for code that cannot fail.",
+          "depth": "selected",
+          "focus": [
+            "cs-software-construction-1",
+            "cs-software-construction-2",
+            "cs-software-construction-3",
+            "cs-software-construction-5",
+            "cs-software-construction-6",
+            "cs-software-construction-7",
+            "cs-software-construction-8",
+            "cs-software-construction-14"
+          ]
+        },
+        {
+          "chapter": "cs-software-engineering-process",
+          "why": "Life-cycle, configuration and release management as practised on flight programmes.",
+          "depth": "selected",
+          "focus": [
+            "cs-software-engineering-process-1",
+            "cs-software-engineering-process-3",
+            "cs-software-engineering-process-5",
+            "cs-software-engineering-process-6",
+            "cs-software-engineering-process-7",
+            "cs-software-engineering-process-9"
+          ]
+        },
+        {
+          "chapter": "el-mathematical-foundations",
+          "why": "Phasors, transforms and discrete-time maths for signals and communications.",
+          "depth": "selected",
+          "focus": [
+            "el-mathematical-foundations-1",
+            "el-mathematical-foundations-3",
+            "el-mathematical-foundations-2",
+            "el-mathematical-foundations-7",
+            "el-mathematical-foundations-9"
+          ]
+        },
+        {
+          "chapter": "el-signals-and-systems",
+          "why": "Sampling, filtering and transfer functions for sensors, control and radio links.",
+          "depth": "selected",
+          "focus": [
+            "el-signals-and-systems-1",
+            "el-signals-and-systems-2",
+            "el-signals-and-systems-3",
+            "el-signals-and-systems-8",
+            "el-signals-and-systems-9",
+            "el-signals-and-systems-10",
+            "el-signals-and-systems-11",
+            "el-signals-and-systems-12",
+            "el-signals-and-systems-13",
+            "el-signals-and-systems-14"
+          ]
+        },
+        {
+          "chapter": "el-signal-processing-fundamentals",
+          "why": "Sampling, aliasing and digital filtering of sensor and telemetry data.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-inertial-sensors",
+          "why": "Accelerometers and gyroscopes: the IMU at the heart of every rocket's navigation.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-control-theory",
+          "why": "Digital and robust control as implemented on real flight computers.",
+          "depth": "selected",
+          "focus": [
+            "el-control-theory-2",
+            "el-control-theory-3",
+            "el-control-theory-5",
+            "el-control-theory-6"
+          ]
+        },
+        {
+          "chapter": "el-avionics-systems",
+          "why": "Autopilots, inertial and GPS navigation and flight recorders as avionics hardware.",
+          "depth": "selected",
+          "focus": [
+            "el-avionics-systems-2",
+            "el-avionics-systems-3",
+            "el-avionics-systems-4",
+            "el-avionics-systems-5",
+            "el-avionics-systems-10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Capstone: spacecraft & mission design",
+      "description": "Spacecraft subsystems, systems engineering and mission design brought together into complete, launchable missions; ends with electives.",
+      "items": [
+        {
+          "chapter": "ae-space-environment",
+          "why": "Vacuum, radiation, plasma, atomic oxygen and debris: what every spacecraft must survive.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-spacecraft-bus-fundamentals",
+          "why": "The spacecraft as a system of subsystems tied together by mass, power and data budgets.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-spacecraft-power-systems",
+          "why": "Solar arrays, batteries and power distribution.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-spacecraft-thermal-control",
+          "why": "Keeping hardware within temperature limits in vacuum with coatings, heaters and radiators.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-space-communications-link-budgets",
+          "why": "Antennas, modulation and link budgets: how spacecraft talk to Earth.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-command-data-handling",
+          "why": "The onboard computer, data buses, telemetry and telecommand.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-flight-software",
+          "why": "Safety-critical real-time flight software and the lessons of famous software failures.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-spacecraft-structures-mechanisms",
+          "why": "Structures that survive launch and mechanisms that deploy and point.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-spacecraft-propulsion-systems",
+          "why": "Cold-gas, monopropellant and bipropellant in-space propulsion, tanks and feed systems.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-aerospace-systems-engineering",
+          "why": "Requirements, interfaces, reviews and verification, the NASA way of building complex vehicles.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-avionics-systems-integration",
+          "why": "Redundant avionics architectures, networks and integration into the vehicle.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-aerospace-safety-reliability",
+          "why": "FMEA, fault trees and probabilistic risk, and lessons from accidents.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-launch-operations-range-safety",
+          "why": "Launch sites, propellant loading, countdown, range safety and licensing.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-spacecraft-assembly-integration-test",
+          "why": "Integration and environmental testing: vibration, thermal-vacuum and EMC before shipping to the launch site.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-space-mission-design",
+          "why": "Capstone: the SMAD process of turning objectives into orbit, spacecraft, ground segment, cost and schedule.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-mission-operations-ground-systems",
+          "why": "Mission control, flight dynamics operations and anomaly response.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-spacecraft-design",
+          "why": "Capstone: take a mission from requirements to a balanced, integrated spacecraft design.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-combustion-instability",
+          "why": "Elective: the combustion-acoustic coupling that can destroy liquid engines, and how it is suppressed.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-small-satellites-cubesats",
+          "why": "Elective: CubeSats are the most accessible route to building real flight hardware yourself.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-planetary-exploration-systems",
+          "why": "Elective: landers, rovers, aerial vehicles and sample return for the Moon, Mars and beyond.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-dynamical-systems",
+          "why": "Elective: fixed points, stability and invariant manifolds, groundwork for three-body orbit design.",
+          "depth": "selected",
+          "focus": [
+            "ma-dynamical-systems-7",
+            "ma-dynamical-systems-1",
+            "ma-dynamical-systems-8",
+            "ma-dynamical-systems-3",
+            "ma-dynamical-systems-9",
+            "ma-dynamical-systems-12"
+          ]
+        },
+        {
+          "chapter": "ae-three-body-problem",
+          "why": "Elective: Lagrange points, halo orbits and low-energy transfers used by JWST and lunar missions.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-variational-methods",
+          "why": "Elective: calculus of variations, groundwork for trajectory optimisation.",
+          "depth": "selected",
+          "focus": [
+            "ma-variational-methods-4",
+            "ma-variational-methods-1",
+            "ma-variational-methods-5",
+            "ma-variational-methods-7"
+          ]
+        },
+        {
+          "chapter": "ma-control-theory",
+          "why": "Elective: mathematical control theory, groundwork for optimal control.",
+          "depth": "selected",
+          "focus": [
+            "ma-control-theory-4",
+            "ma-control-theory-3",
+            "ma-control-theory-12",
+            "ma-control-theory-2",
+            "ma-control-theory-13"
+          ]
+        },
+        {
+          "chapter": "ma-calculus-of-variations-optimal-control",
+          "why": "Elective: Pontryagin's principle and optimal control, groundwork for trajectory optimisation.",
+          "depth": "selected",
+          "focus": [
+            "ma-calculus-of-variations-optimal-control-1",
+            "ma-calculus-of-variations-optimal-control-4",
+            "ma-calculus-of-variations-optimal-control-2",
+            "ma-calculus-of-variations-optimal-control-5"
+          ]
+        },
+        {
+          "chapter": "ae-trajectory-optimization",
+          "why": "Elective: minimum-fuel and minimum-time trajectories for launchers, landers and spacecraft.",
+          "depth": "full"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "cosmos",
+    "astrobiology",
+    "robotics"
+  ]
 }

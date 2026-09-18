@@ -2,9 +2,729 @@
   "id": "computer-engineer",
   "name": "Computer Engineer",
   "icon": "🖥️",
-  "tagline": "",
-  "description": "",
-  "outcomes": [],
-  "stages": [],
-  "related": []
+  "tagline": "Design computers from the transistor up to the operating system.",
+  "description": "For anyone who wants a computer engineering degree's worth of understanding, sitting between electrical engineering and computer science. You start with the maths, programming and physics, work through circuits, digital logic and computer architecture, then build embedded systems, real-time software, FPGA designs and chips, and finish with hardware/software co-design.",
+  "outcomes": [
+    "Analyse and build analog and digital circuits and debug them with a multimeter, oscilloscope and logic analyser",
+    "Explain how a pipelined, cached processor executes a program, from the instruction set down to gates",
+    "Write bare-metal and RTOS firmware in C for a microcontroller, including drivers for its peripherals and sensors",
+    "Describe, simulate, verify and synthesise digital hardware in an HDL and run it on an FPGA",
+    "Reason about operating systems, concurrency and networking from the hardware interface upwards",
+    "Take a digital block from RTL towards silicon and decide which work belongs in hardware and which in software on an SoC"
+  ],
+  "stages": [
+    {
+      "name": "Mathematical foundations",
+      "description": "The algebra, calculus, linear algebra and transform methods that circuit, signal and architecture analysis depend on.",
+      "items": [
+        {
+          "chapter": "ma-arithmetic-pre-algebra",
+          "why": "Number sense, fractions and powers of ten come up in every component value and unit conversion.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-intermediate-algebra",
+          "why": "Circuit equations are systems of linear equations; you need to rearrange and solve them fluently.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-euclidean-geometry",
+          "why": "Only the geometry that trigonometry and phasor diagrams build on.",
+          "depth": "selected",
+          "focus": [
+            "ma-euclidean-geometry-7",
+            "ma-euclidean-geometry-9",
+            "ma-euclidean-geometry-10"
+          ]
+        },
+        {
+          "chapter": "ma-trigonometry",
+          "why": "AC signals are sinusoids; amplitude, phase and frequency are trigonometry.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-precalculus",
+          "why": "Exponentials (RC charging), logarithms (decibels) and complex numbers (phasors) all start here.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-analytic-geometry",
+          "why": "Vectors and coordinates needed before multivariable calculus.",
+          "depth": "selected",
+          "focus": [
+            "ma-analytic-geometry-4",
+            "ma-analytic-geometry-3",
+            "ma-analytic-geometry-5",
+            "ma-analytic-geometry-6"
+          ]
+        },
+        {
+          "chapter": "ma-calculus",
+          "why": "Capacitor and inductor behaviour, energy and power are derivatives and integrals.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-multivariable-calculus",
+          "why": "Fields and optimisation in several variables, the step before vector calculus.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-vector-calculus",
+          "why": "Divergence, curl and flux are the language of the electromagnetism behind devices.",
+          "depth": "selected",
+          "focus": [
+            "ma-vector-calculus-1",
+            "ma-vector-calculus-5",
+            "ma-vector-calculus-6",
+            "ma-vector-calculus-7",
+            "ma-vector-calculus-8",
+            "ma-vector-calculus-10"
+          ]
+        },
+        {
+          "chapter": "ma-linear-algebra",
+          "why": "Nodal analysis, state-space models and signal transforms are all matrix problems.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-ordinary-differential-equations-odes",
+          "why": "RC, RL and RLC transients are first- and second-order ODEs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-mathematical-foundations",
+          "why": "Phasors, Laplace, Fourier and z-transforms are the engineer's toolkit for circuits and signals.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Programming & discrete structures",
+      "description": "Learn to program well and meet the discrete maths, data structures and algorithms under all software.",
+      "items": [
+        {
+          "chapter": "cs-computational-thinking",
+          "why": "Binary, data representation and how hardware and software layers fit together.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-programming-fundamentals",
+          "why": "Your first language; everything from test scripts to firmware tooling needs it.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-command-line-shell",
+          "why": "Toolchains, compilers, simulators and embedded builds are driven from the shell.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-version-control-git",
+          "why": "Firmware, HDL and software projects all live in Git.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-program-design",
+          "why": "Decomposing problems into well-structured functions and modules before moving to C.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-object-oriented-programming",
+          "why": "Drivers, HALs and testbenches use classes and interfaces; C++ and SystemVerilog are object-oriented.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-discrete-mathematics",
+          "why": "Boolean logic, sets, relations and proof are the mathematical basis of digital design.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-probability-statistics-for-cs",
+          "why": "Reliability, noise, caching behaviour and performance analysis are probabilistic.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-data-structures",
+          "why": "Queues, ring buffers, trees and hash tables are everywhere in OS and firmware code.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-algorithms",
+          "why": "Algorithmic cost decides whether code fits a microcontroller's time and memory budget.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Physics of electricity & materials",
+      "description": "The physics and materials science behind components and semiconductors.",
+      "items": [
+        {
+          "chapter": "ph-measurement-units-vectors",
+          "why": "Units, dimensional analysis and vectors for all the physics that follows.",
+          "depth": "selected",
+          "focus": [
+            "ph-measurement-units-vectors-2",
+            "ph-measurement-units-vectors-3",
+            "ph-measurement-units-vectors-5",
+            "ph-measurement-units-vectors-6",
+            "ph-measurement-units-vectors-8",
+            "ph-measurement-units-vectors-9",
+            "ph-measurement-units-vectors-10"
+          ]
+        },
+        {
+          "chapter": "ph-introductory-mechanics",
+          "why": "Force, work and energy concepts that electromagnetism reuses.",
+          "depth": "selected",
+          "focus": [
+            "ph-introductory-mechanics-1",
+            "ph-introductory-mechanics-5",
+            "ph-introductory-mechanics-8",
+            "ph-introductory-mechanics-9",
+            "ph-introductory-mechanics-10"
+          ]
+        },
+        {
+          "chapter": "ph-introductory-electricity-magnetism",
+          "why": "Charge, fields, potential, current and induction: the physical meaning of circuit quantities.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-classical-electromagnetism",
+          "why": "Maxwell's equations explain capacitance, inductance, signal propagation and interference.",
+          "depth": "selected",
+          "focus": [
+            "ph-classical-electromagnetism-1",
+            "ph-classical-electromagnetism-2",
+            "ph-classical-electromagnetism-19",
+            "ph-classical-electromagnetism-4",
+            "ph-classical-electromagnetism-5",
+            "ph-classical-electromagnetism-8",
+            "ph-classical-electromagnetism-11"
+          ]
+        },
+        {
+          "chapter": "mt-intro-to-materials",
+          "why": "Material classes and how structure sets properties.",
+          "depth": "selected",
+          "focus": [
+            "mt-intro-to-materials-3",
+            "mt-intro-to-materials-4",
+            "mt-intro-to-materials-5"
+          ]
+        },
+        {
+          "chapter": "ch-introductory-chemistry",
+          "why": "Atoms, the periodic table and bonding, enough to understand doping.",
+          "depth": "selected",
+          "focus": [
+            "ch-introductory-chemistry-4",
+            "ch-introductory-chemistry-5",
+            "ch-introductory-chemistry-6"
+          ]
+        },
+        {
+          "chapter": "mt-atomic-bonding",
+          "why": "Energy bands explain why silicon is a semiconductor.",
+          "depth": "selected",
+          "focus": [
+            "mt-atomic-bonding-1",
+            "mt-atomic-bonding-5",
+            "mt-atomic-bonding-9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Circuits & electronics",
+      "description": "Analyse and build the analog circuits that every digital system is made from and connected to.",
+      "items": [
+        {
+          "chapter": "el-basic-electricity",
+          "why": "Voltage, current, resistance and power, used in every design decision.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-hands-on-electronics",
+          "why": "Reading schematics, breadboarding and soldering turn theory into working hardware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-passive-components",
+          "why": "Choosing resistors, capacitors and inductors for pull-ups, decoupling and filters.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-active-components",
+          "why": "Diodes, transistors and ICs as components before you study their physics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-circuit-theory",
+          "why": "Kirchhoff's laws, Thevenin equivalents and transients, the core of circuit analysis.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-ac-circuits-power",
+          "why": "Impedance, resonance and frequency response for clocks, filters and interfaces.",
+          "depth": "selected",
+          "focus": [
+            "el-ac-circuits-power-1",
+            "el-ac-circuits-power-2",
+            "el-ac-circuits-power-3",
+            "el-ac-circuits-power-4",
+            "el-ac-circuits-power-7",
+            "el-ac-circuits-power-8",
+            "el-ac-circuits-power-13"
+          ]
+        },
+        {
+          "chapter": "el-operational-amplifiers",
+          "why": "Op-amps condition sensor signals before they reach an ADC.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-diode-transistor-circuits",
+          "why": "A logic gate is a transistor switch; you need to know how transistors switch.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-test-equipment",
+          "why": "The DMM, oscilloscope, logic analyser and bench supply are your daily instruments.",
+          "depth": "selected",
+          "focus": [
+            "el-test-equipment-1",
+            "el-test-equipment-2",
+            "el-test-equipment-3",
+            "el-test-equipment-5",
+            "el-test-equipment-6",
+            "el-test-equipment-10"
+          ]
+        },
+        {
+          "chapter": "el-oscilloscope-techniques",
+          "why": "Probing and triggering well is how you see timing and signal-integrity bugs.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Digital logic & computer organization",
+      "description": "From gates and flip-flops to a working processor and the memory system around it.",
+      "items": [
+        {
+          "chapter": "el-combinational-logic",
+          "why": "Gates, Boolean minimisation, adders and multiplexers are the building blocks of every datapath.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-sequential-logic",
+          "why": "Flip-flops, registers, counters and state machines give hardware memory and control.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-logic-families",
+          "why": "CMOS and TTL levels, fan-out and noise margins decide which chips can talk to each other.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-timing-synchronization",
+          "why": "Setup and hold times, clock skew and metastability limit how fast a design can run.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-memory-devices",
+          "why": "SRAM, DRAM and flash are what caches, main memory and firmware storage are built from.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-buses-communication",
+          "why": "Address decoding, DMA and interrupts are how a CPU connects to memory and peripherals.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-computer-organization",
+          "why": "Instruction sets, assembly, the datapath and control: where hardware meets software.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-systems-programming",
+          "why": "C, pointers, memory layout and linking are the working language of computer engineers.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-computer-architecture",
+          "why": "Pipelining, caches, virtual memory and multicore determine real performance.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Signals & systems",
+      "description": "Model signals and linear systems in time and frequency, and move between the analog and digital worlds.",
+      "items": [
+        {
+          "chapter": "el-signals-and-systems",
+          "why": "Convolution, Fourier and Laplace analysis of the systems your hardware implements.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-signal-processing-fundamentals",
+          "why": "Sampling, aliasing and quantisation govern every ADC-based design.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-digital-signal-processing-dsp",
+          "why": "Digital filters and the FFT are common firmware and FPGA workloads.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-data-converters",
+          "why": "ADCs and DACs are the boundary between the physical world and the processor.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Operating systems, networks & software",
+      "description": "The system software that manages hardware, and how computers communicate securely.",
+      "items": [
+        {
+          "chapter": "cs-operating-systems",
+          "why": "Processes, scheduling, virtual memory, drivers and file systems: the software view of the hardware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-concurrent-programming",
+          "why": "Threads, locks and races show up in multicore software and interrupt-driven firmware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-computer-networks",
+          "why": "The protocol stack from Ethernet up to TCP/IP connects every modern device.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-software-construction",
+          "why": "Modular design, debugging and code review practices for large firmware and systems code.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-software-testing",
+          "why": "Unit testing, test doubles and coverage apply equally to firmware and hardware testbenches.",
+          "depth": "selected",
+          "focus": [
+            "cs-software-testing-1",
+            "cs-software-testing-2",
+            "cs-software-testing-3",
+            "cs-software-testing-4",
+            "cs-software-testing-5",
+            "cs-software-testing-6"
+          ]
+        },
+        {
+          "chapter": "cs-computer-security",
+          "why": "Threat models, memory-safety bugs and access control for systems that ship in millions of devices.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-computing-ethics",
+          "why": "Engineers carry responsibility for safety, privacy and the social impact of what they build.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Embedded systems & real-time software",
+      "description": "Program microcontrollers from bare metal to an RTOS and embedded Linux, and interface them with the physical world.",
+      "items": [
+        {
+          "chapter": "el-intro-microcontrollers",
+          "why": "GPIO, ADC and PWM on a real board, your first hands-on embedded system.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-embedded-systems-fundamentals",
+          "why": "The constraints, architecture and toolchain of embedded systems.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-programming-languages",
+          "why": "Embedded C first, then C++, assembly and Rust on constrained targets.",
+          "depth": "selected",
+          "focus": [
+            "el-programming-languages-1",
+            "el-programming-languages-2",
+            "el-programming-languages-3",
+            "el-programming-languages-4"
+          ]
+        },
+        {
+          "chapter": "el-bare-metal-programming",
+          "why": "Registers, startup code, interrupts and linker scripts without an operating system.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-embedded-cc-best-practices",
+          "why": "volatile, fixed-width types, MISRA-style rules and safe patterns for firmware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-peripheral-controllers",
+          "why": "Timers, ADCs, DMA and interrupt controllers are what firmware actually programs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-serial-protocols",
+          "why": "UART and RS-485, the first way a microcontroller talks to anything.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-synchronous-serial-protocols",
+          "why": "I2C and SPI connect sensors, displays and memories on every board.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-signal-conditioning",
+          "why": "Scaling, buffering and isolating signals before they reach a microcontroller pin.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-sensor-interfacing",
+          "why": "Reading real sensors correctly, with calibration and compensation.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-debug-interfaces",
+          "why": "JTAG and SWD give you breakpoints and memory access on the target.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-software-debugging",
+          "why": "Systematic debugging of firmware with a debugger, logs and assertions.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-hardware-debugging",
+          "why": "Finding faults that span hardware and software with scopes, analysers and debug probes.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-processor-architecture-concepts",
+          "why": "The MCU-side view of architecture: Harvard buses, MMU and MPU.",
+          "depth": "selected",
+          "focus": [
+            "el-processor-architecture-concepts-10",
+            "el-processor-architecture-concepts-1",
+            "el-processor-architecture-concepts-7",
+            "el-processor-architecture-concepts-8",
+            "el-processor-architecture-concepts-9"
+          ]
+        },
+        {
+          "chapter": "el-boot-startup",
+          "why": "What happens from reset to main(): bootloaders, vector tables and memory initialisation.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-low-power-design",
+          "why": "Sleep modes and clock gating let battery devices run for years.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-concurrency-synchronization",
+          "why": "Interrupts, critical sections and atomic operations on a single core and on many.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-real-time-concepts",
+          "why": "Deadlines, latency, jitter and schedulability analysis.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-rtos-concepts",
+          "why": "Tasks, priorities and preemptive scheduling in a real-time kernel.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-rtos-services",
+          "why": "Queues, semaphores, mutexes, timers and memory pools used to structure firmware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-device-drivers",
+          "why": "Drivers are the interface between OS or RTOS code and the hardware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-embedded-linux",
+          "why": "When a design outgrows a microcontroller: bootloaders, kernel, device tree and root file system.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Digital design: FPGA, VLSI & co-design",
+      "description": "Describe hardware in an HDL, implement it on FPGAs and silicon, and split systems between hardware and software.",
+      "items": [
+        {
+          "chapter": "el-hardware-description-languages-hdl",
+          "why": "Verilog/VHDL and RTL thinking: describing hardware rather than writing programs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-fpga-architectures",
+          "why": "LUTs, block RAM, DSP slices and routing, the resources your RTL maps onto.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-fpga-design-flow",
+          "why": "Synthesis, place-and-route, timing constraints and closure on real FPGAs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-design-verification",
+          "why": "Testbenches, assertions and coverage: most chip effort goes into verification.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-soft-processors-ip-cores",
+          "why": "Put a RISC-V or vendor soft CPU plus IP cores on an FPGA to build a custom computer.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-high-level-synthesis-hls",
+          "why": "Generating accelerators from C/C++, a key hardware/software co-design technique.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-electrical-materials",
+          "why": "Conductors, dielectrics and semiconductors as materials, as background for devices.",
+          "depth": "selected",
+          "focus": [
+            "el-electrical-materials-1",
+            "el-electrical-materials-2",
+            "el-electrical-materials-4",
+            "el-electrical-materials-9",
+            "el-electrical-materials-11"
+          ]
+        },
+        {
+          "chapter": "el-semiconductor-physics",
+          "why": "Band theory, doping and the PN junction explain how transistors work.",
+          "depth": "selected",
+          "focus": [
+            "el-semiconductor-physics-5",
+            "el-semiconductor-physics-2",
+            "el-semiconductor-physics-6",
+            "el-semiconductor-physics-7",
+            "el-semiconductor-physics-1",
+            "el-semiconductor-physics-11"
+          ]
+        },
+        {
+          "chapter": "el-semiconductor-devices",
+          "why": "MOSFET behaviour, leakage and scaling set the speed and power of every chip.",
+          "depth": "selected",
+          "focus": [
+            "el-semiconductor-devices-1",
+            "el-semiconductor-devices-3",
+            "el-semiconductor-devices-4",
+            "el-semiconductor-devices-5",
+            "el-semiconductor-devices-6",
+            "el-semiconductor-devices-7",
+            "el-semiconductor-devices-8"
+          ]
+        },
+        {
+          "chapter": "el-cmos-technology",
+          "why": "How CMOS chips are fabricated, and why process variation and yield matter.",
+          "depth": "selected",
+          "focus": [
+            "el-cmos-technology-1",
+            "el-cmos-technology-5",
+            "el-cmos-technology-6"
+          ]
+        },
+        {
+          "chapter": "el-digital-vlsi-design",
+          "why": "CMOS gates, sizing, wire delay, power and clocking at the transistor level.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-asic-physical-design",
+          "why": "The RTL-to-GDSII flow: synthesis, floorplanning, placement, routing and signoff.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-system-on-chip-soc",
+          "why": "On-chip buses, IP integration and hardware/software co-design of a full SoC.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-advanced-computer-architecture",
+          "why": "Accelerators, coherence and in-memory computing: where architecture research is heading.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "description": "Optional directions that build on the core, depending on where you want to specialise.",
+      "items": [
+        {
+          "chapter": "el-schematic-design",
+          "why": "Elective: capture your own designs as proper schematics, ready for a PCB.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-pcb-layout",
+          "why": "Elective: lay out a board for your microcontroller or FPGA project.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-control-theory",
+          "why": "Elective: feedback control, essential if you move toward robotics, motor control or power.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-ethernet-networking",
+          "why": "Elective: networking stacks on embedded devices, the bridge to IoT.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-modern-systems-languages",
+          "why": "Elective: modern C++ and Rust for safer, more expressive systems and firmware code.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-performance-engineering",
+          "why": "Elective: profiling and tuning software for the cache and pipeline you now understand.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-parallel-computing",
+          "why": "Elective: parallel algorithms and programming models for multicore machines.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-gpu-programming",
+          "why": "Elective: GPU programming, the most common form of hardware acceleration today.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-systems-security",
+          "why": "Elective: hardware security, side channels and trusted execution.",
+          "depth": "full"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "electrical-electronics-engineer",
+    "embedded-iot",
+    "software-engineer",
+    "robotics",
+    "ai-engineer"
+  ]
 }

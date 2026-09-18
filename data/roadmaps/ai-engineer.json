@@ -2,9 +2,680 @@
   "id": "ai-engineer",
   "name": "AI / ML Engineer",
   "icon": "🧠",
-  "tagline": "",
-  "description": "",
-  "outcomes": [],
-  "stages": [],
-  "related": []
+  "tagline": "Build, evaluate and ship machine-learning systems and LLM applications.",
+  "description": "For anyone who wants to build machine-learning products, from classic models to LLM-powered applications and agents, and run them reliably in production. You begin with the maths and programming, work through core ML, deep learning, NLP and transformers, then prompting, RAG, fine-tuning, evaluation and agents, and finish with MLOps, inference and responsible AI.",
+  "outcomes": [
+    "Frame a business problem as an ML task, build a baseline and evaluate it honestly with the right metrics and validation",
+    "Implement and train neural networks, including CNNs and transformers, in a modern deep-learning framework",
+    "Build LLM applications with prompting, retrieval-augmented generation, tool-using agents and systematic evaluation",
+    "Fine-tune a pretrained model for a task and judge whether that beats prompting or RAG",
+    "Package, deploy, optimise and monitor models in production with an MLOps pipeline",
+    "Assess a system for fairness, robustness, privacy and safety risks and explain its predictions"
+  ],
+  "stages": [
+    {
+      "name": "Mathematical foundations",
+      "description": "Algebra to calculus and linear algebra, the language every model is written in.",
+      "items": [
+        {
+          "chapter": "ma-arithmetic-pre-algebra",
+          "why": "Fractions, exponents and logarithm-ready number sense for everything that follows.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-intermediate-algebra",
+          "why": "Functions and equations; a model is a function with tunable parameters.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-euclidean-geometry",
+          "why": "Just the geometry that trigonometry and vectors build on.",
+          "depth": "selected",
+          "focus": [
+            "ma-euclidean-geometry-5",
+            "ma-euclidean-geometry-7",
+            "ma-euclidean-geometry-3"
+          ]
+        },
+        {
+          "chapter": "ma-trigonometry",
+          "why": "Angles and the unit circle for cosine similarity and positional encodings.",
+          "depth": "selected",
+          "focus": [
+            "ma-trigonometry-1",
+            "ma-trigonometry-2",
+            "ma-trigonometry-3",
+            "ma-trigonometry-4",
+            "ma-trigonometry-7"
+          ]
+        },
+        {
+          "chapter": "ma-precalculus",
+          "why": "Exponentials and logs are everywhere in ML: softmax, log-likelihood, learning-rate schedules.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-analytic-geometry",
+          "why": "Vectors, lines and planes: a linear classifier is a hyperplane.",
+          "depth": "selected",
+          "focus": [
+            "ma-analytic-geometry-4",
+            "ma-analytic-geometry-5",
+            "ma-analytic-geometry-6"
+          ]
+        },
+        {
+          "chapter": "ma-calculus",
+          "why": "Derivatives and the chain rule are how models learn.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-multivariable-calculus",
+          "why": "Gradients, Jacobians and partial derivatives drive gradient descent in millions of dimensions.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-linear-algebra",
+          "why": "Data are matrices, layers are matrix multiplies and embeddings are vectors; this is the core ML maths.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Probability, statistics & optimisation",
+      "description": "Reason about uncertainty, evaluate models properly and understand how training optimises them.",
+      "items": [
+        {
+          "chapter": "ma-descriptive-statistics",
+          "why": "Summarising data with distributions, averages and spread comes before modelling.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-probability",
+          "why": "Events, conditional probability and Bayes' rule, the starting point for probabilistic models.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-probability-theory",
+          "why": "Random variables, expectations and distributions underpin loss functions and generative models.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-inferential-statistics",
+          "why": "Confidence intervals and hypothesis tests tell you whether a model improvement is real.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-regression-analysis",
+          "why": "Linear and logistic regression are the first ML models and the baseline you should always try.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-bayesian-statistics",
+          "why": "Priors, posteriors and approximate inference for principled uncertainty.",
+          "depth": "selected",
+          "focus": [
+            "ma-bayesian-statistics-4",
+            "ma-bayesian-statistics-1",
+            "ma-bayesian-statistics-5",
+            "ma-bayesian-statistics-2",
+            "ma-bayesian-statistics-3",
+            "ma-bayesian-statistics-8"
+          ]
+        },
+        {
+          "chapter": "ma-nonlinear-programming",
+          "why": "Optimality conditions, convexity and Lagrange multipliers behind training objectives.",
+          "depth": "selected",
+          "focus": [
+            "ma-nonlinear-programming-1",
+            "ma-nonlinear-programming-5",
+            "ma-nonlinear-programming-6",
+            "ma-nonlinear-programming-2",
+            "ma-nonlinear-programming-3"
+          ]
+        },
+        {
+          "chapter": "ma-gradient-based-optimization",
+          "why": "SGD, momentum, Adam and backpropagation: how networks are actually trained.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-foundations-of-machine-learning",
+          "why": "Risk, generalisation, bias-variance and model selection: the theory of why ML works.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Programming & data tooling",
+      "description": "Python, data structures and the data stack you'll use every day.",
+      "items": [
+        {
+          "chapter": "cs-computational-thinking",
+          "why": "How computers represent and process data, before writing code.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-programming-fundamentals",
+          "why": "Python is the language of ML; fluency here pays off in every later stage.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-command-line-shell",
+          "why": "Environments, GPUs and remote training jobs are managed from the shell.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-version-control-git",
+          "why": "Code, experiments and collaboration all run through Git.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-program-design",
+          "why": "Structuring code into clean functions and modules instead of one giant notebook.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-object-oriented-programming",
+          "why": "PyTorch modules, datasets and most ML libraries are class-based.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-discrete-mathematics",
+          "why": "Logic, counting, graphs and asymptotic notation for data structures and algorithms.",
+          "depth": "selected",
+          "focus": [
+            "cs-discrete-mathematics-1",
+            "cs-discrete-mathematics-5",
+            "cs-discrete-mathematics-8",
+            "cs-discrete-mathematics-10",
+            "cs-discrete-mathematics-11",
+            "cs-discrete-mathematics-13",
+            "cs-discrete-mathematics-15"
+          ]
+        },
+        {
+          "chapter": "cs-data-structures",
+          "why": "Hash maps, heaps, trees and graphs appear in tokenisers, retrieval indexes and data pipelines.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-algorithms",
+          "why": "Algorithmic cost matters when data has billions of rows or a vector index millions of entries.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-programming-tools",
+          "why": "NumPy, pandas, scikit-learn, notebooks and plotting, the daily ML toolkit.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-databases",
+          "why": "SQL for getting training data, and vector databases for retrieval.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-mathematics-statistics",
+          "why": "A practitioner's recap tying the maths to code: SVD, the chain rule and hypothesis tests in practice.",
+          "depth": "selected",
+          "focus": [
+            "ai-mathematics-statistics-1-3",
+            "ai-mathematics-statistics-2-3",
+            "ai-mathematics-statistics-4-3",
+            "ai-mathematics-statistics-4-4"
+          ]
+        },
+        {
+          "chapter": "ai-exploratory-data-analysis-eda",
+          "why": "Looking hard at the data before modelling catches most problems early.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Core machine learning",
+      "description": "Supervised and unsupervised learning, features and honest evaluation.",
+      "items": [
+        {
+          "chapter": "ai-introduction-to-ai-ml",
+          "why": "The big picture of what ML can and can't do, before the details.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-core-ai-concepts",
+          "why": "Agents, paradigms and the history that explains today's AI landscape.",
+          "depth": "selected",
+          "focus": [
+            "ai-core-ai-concepts-4",
+            "ai-core-ai-concepts-3",
+            "ai-core-ai-concepts-5"
+          ]
+        },
+        {
+          "chapter": "ai-core-ml-concepts",
+          "why": "Training, validation, loss, overfitting and generalisation in practice.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-data-preprocessing-feature-engineering",
+          "why": "Cleaning, encoding, scaling and building features often matters more than the model.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-types-of-machine-learning",
+          "why": "Regression, classification, clustering and dimensionality reduction: the algorithm toolbox.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-ml-experimentation-evaluation",
+          "why": "Metrics, cross-validation, leakage and statistical comparison keep you honest.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-ensemble-methods",
+          "why": "Gradient-boosted trees still win on tabular data, which covers most business problems.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-probabilistic-ai",
+          "why": "Bayesian reasoning and graphical models for handling uncertainty.",
+          "depth": "selected",
+          "focus": [
+            "ai-probabilistic-ai-1",
+            "ai-probabilistic-ai-2",
+            "ai-probabilistic-ai-3",
+            "ai-probabilistic-ai-6"
+          ]
+        },
+        {
+          "chapter": "ai-probabilistic-ml",
+          "why": "Latent-variable models, EM and variational inference, the basis of VAEs and diffusion.",
+          "depth": "selected",
+          "focus": [
+            "ai-probabilistic-ml-1",
+            "ai-probabilistic-ml-6",
+            "ai-probabilistic-ml-9",
+            "ai-probabilistic-ml-10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Deep learning & computer vision",
+      "description": "Neural networks from first principles to CNNs, transformers and generative models.",
+      "items": [
+        {
+          "chapter": "ai-neural-network-foundations",
+          "why": "Perceptrons, backpropagation, activations and losses: how a network learns.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-deep-learning-frameworks",
+          "why": "PyTorch (and friends): tensors, autograd, data loaders and training loops.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-optimization-theory",
+          "why": "Why training converges or doesn't: non-convex, stochastic and second-order methods.",
+          "depth": "selected",
+          "focus": [
+            "ai-optimization-theory-1",
+            "ai-optimization-theory-3",
+            "ai-optimization-theory-4",
+            "ai-optimization-theory-7"
+          ]
+        },
+        {
+          "chapter": "ai-information-theory",
+          "why": "Entropy, cross-entropy and KL divergence are the loss functions of modern ML.",
+          "depth": "selected",
+          "focus": [
+            "ai-information-theory-1",
+            "ai-information-theory-2",
+            "ai-information-theory-3",
+            "ai-information-theory-4"
+          ]
+        },
+        {
+          "chapter": "ai-regularization-normalization",
+          "why": "Dropout, weight decay, batch and layer norm make deep networks trainable.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-convolutional-neural-networks-cnns",
+          "why": "Convolutions and residual networks, the backbone of vision models.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-image-processing-fundamentals",
+          "why": "Pixels, colour spaces, filtering and augmentation, needed for any vision pipeline.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-core-vision-tasks",
+          "why": "Classification, detection and segmentation: the everyday computer-vision tasks.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-recurrent-neural-networks-rnns",
+          "why": "Sequence modelling with RNNs and LSTMs, the problem transformers were built to solve.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-attention-transformers",
+          "why": "Self-attention and the transformer, the architecture behind LLMs and modern vision.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-self-supervised-representation-learning",
+          "why": "Contrastive and masked pretraining produce the embeddings behind search and RAG.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-generative-models",
+          "why": "VAEs, GANs and diffusion models for generating images, audio and data.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "NLP & large language models",
+      "description": "From text processing to how LLMs are pretrained and aligned.",
+      "items": [
+        {
+          "chapter": "ai-text-preprocessing",
+          "why": "Tokenisation and text normalisation, including the subword tokenisers LLMs use.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-traditional-nlp-techniques",
+          "why": "TF-IDF, n-grams and classic classifiers: strong baselines and the basis of keyword search in hybrid RAG.",
+          "depth": "selected",
+          "focus": [
+            "ai-traditional-nlp-techniques-1",
+            "ai-traditional-nlp-techniques-2",
+            "ai-traditional-nlp-techniques-3",
+            "ai-traditional-nlp-techniques-9",
+            "ai-traditional-nlp-techniques-5",
+            "ai-traditional-nlp-techniques-10"
+          ]
+        },
+        {
+          "chapter": "ai-word-representations",
+          "why": "Word and sentence embeddings are the foundation of semantic search.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-nlp-tasks-applications",
+          "why": "Classification, NER, summarisation, QA and translation, the tasks LLMs are applied to.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-rl-fundamentals",
+          "why": "MDPs, rewards and policies, the background you need for RLHF and for agents.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-large-language-models-llms",
+          "why": "Pretraining, scaling laws, instruction tuning and RLHF: how LLMs are made and why they behave as they do.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-multimodal-fusion",
+          "why": "Combining text, images and audio in one model.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-vision-language-models",
+          "why": "Models that read images and documents, now standard in LLM applications.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Building LLM applications",
+      "description": "Prompting, retrieval, agents, evaluation and fine-tuning: the LLM engineer's core toolkit.",
+      "items": [
+        {
+          "chapter": "ai-prompt-engineering",
+          "why": "Few-shot, chain-of-thought, structured output and injection defences for dependable prompts.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-llm-application-engineering",
+          "why": "LLM APIs, tool calling, streaming, caching and cost and latency trade-offs in real products.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-retrieval-augmented-generation",
+          "why": "Chunking, embeddings, vector search, reranking and grounding answers in your own data.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-autonomous-agents",
+          "why": "Tool-using agents, planning loops, memory and multi-agent orchestration.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-llm-evaluation",
+          "why": "Eval sets, LLM-as-judge, benchmarks and regression testing, which make LLM work engineering and not guesswork.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-llm-fine-tuning",
+          "why": "SFT, LoRA, preference tuning and distillation for when prompting and RAG aren't enough.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "MLOps, systems & deployment",
+      "description": "Take models from notebook to reliable, efficient production systems.",
+      "items": [
+        {
+          "chapter": "cs-software-construction",
+          "why": "Production ML code needs modular design, code review and good debugging habits.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-software-testing",
+          "why": "Unit and integration tests for data pipelines, features and model services.",
+          "depth": "selected",
+          "focus": [
+            "cs-software-testing-1",
+            "cs-software-testing-4",
+            "cs-software-testing-5",
+            "cs-software-testing-6",
+            "cs-software-testing-9"
+          ]
+        },
+        {
+          "chapter": "cs-computer-organization",
+          "why": "Number formats and memory hierarchy explain FP16/INT8 and why models are memory-bound.",
+          "depth": "selected",
+          "focus": [
+            "cs-computer-organization-1",
+            "cs-computer-organization-2",
+            "cs-computer-organization-3",
+            "cs-computer-organization-7",
+            "cs-computer-organization-13"
+          ]
+        },
+        {
+          "chapter": "cs-systems-programming",
+          "why": "Memory, processes and linking, enough to debug native ML libraries and CUDA builds.",
+          "depth": "selected",
+          "focus": [
+            "cs-systems-programming-1",
+            "cs-systems-programming-2",
+            "cs-systems-programming-5",
+            "cs-systems-programming-7",
+            "cs-systems-programming-8",
+            "cs-systems-programming-11"
+          ]
+        },
+        {
+          "chapter": "cs-computer-architecture",
+          "why": "Caches, SIMD, GPUs and memory bandwidth decide training and inference speed.",
+          "depth": "selected",
+          "focus": [
+            "cs-computer-architecture-1",
+            "cs-computer-architecture-6",
+            "cs-computer-architecture-9",
+            "cs-computer-architecture-10",
+            "cs-computer-architecture-11",
+            "cs-computer-architecture-12"
+          ]
+        },
+        {
+          "chapter": "cs-operating-systems",
+          "why": "Processes, threads, memory and I/O on the machines that serve your models.",
+          "depth": "selected",
+          "focus": [
+            "cs-operating-systems-1",
+            "cs-operating-systems-4",
+            "cs-operating-systems-5",
+            "cs-operating-systems-9",
+            "cs-operating-systems-10",
+            "cs-operating-systems-11",
+            "cs-operating-systems-15"
+          ]
+        },
+        {
+          "chapter": "cs-virtualization-containers",
+          "why": "Docker images are how models are packaged and deployed.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-ml-lifecycle-management",
+          "why": "Experiment tracking, data and model versioning, registries and pipelines.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-model-deployment",
+          "why": "Serving models behind APIs, batch versus online inference, and Kubernetes.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-monitoring-maintenance",
+          "why": "Detecting drift, degraded quality and failures once a model is live.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-data-engineering",
+          "why": "Pipelines, warehouses and feature stores that feed training and inference.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-hardware-for-ai",
+          "why": "GPUs, TPUs, CUDA and the roofline model, the hardware your budget buys.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-inference-optimization",
+          "why": "Quantisation, distillation, batching and vLLM-style serving make models fast and affordable.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-cloud-ml-platforms",
+          "why": "Managed ML services on AWS, GCP and Azure for training and serving at scale.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Responsible AI",
+      "description": "Build systems that are fair, explainable, robust, private and safe.",
+      "items": [
+        {
+          "chapter": "ai-ai-governance-policy",
+          "why": "Regulation such as the EU AI Act, and the governance processes organisations now require.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-fairness-in-ml",
+          "why": "Measuring and mitigating bias across groups affected by your model.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-interpretability-explainability-xai",
+          "why": "SHAP, attribution and mechanistic methods for explaining predictions.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-robustness-security",
+          "why": "Adversarial examples, data poisoning and attacks on ML systems, including LLMs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-privacy-in-ai",
+          "why": "Differential privacy, federated learning and protecting training data.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-ai-safety",
+          "why": "Alignment, reward hacking and the safety of increasingly capable systems.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "description": "Specialisations that build on the core: reinforcement learning, recommenders, time series and more.",
+      "items": [
+        {
+          "chapter": "ai-dynamic-programming",
+          "why": "Elective (RL): policy and value iteration, the exact solutions to MDPs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-monte-carlo-methods",
+          "why": "Elective (RL): learning values from sampled episodes.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-model-free-methods",
+          "why": "Elective (RL): TD learning, Q-learning and policy gradients.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-deep-reinforcement-learning",
+          "why": "Elective (RL): DQN, PPO and actor-critic methods, also used in RLHF.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-recommender-systems",
+          "why": "Elective: collaborative filtering, two-tower retrieval and ranking for feeds and stores.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-time-series-analysis",
+          "why": "Elective (time series): autocorrelation, stationarity and ARIMA.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-time-series-forecasting",
+          "why": "Elective (time series): ML and deep-learning forecasting for demand, finance and sensors.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-anomaly-detection",
+          "why": "Elective: fraud, fault and intrusion detection with little labelled data.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-causal-inference",
+          "why": "Elective: estimating the effects of interventions, beyond correlation.",
+          "depth": "full"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "data-scientist",
+    "software-engineer",
+    "computer-engineer",
+    "robotics"
+  ]
 }

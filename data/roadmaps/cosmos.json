@@ -2,9 +2,618 @@
   "id": "cosmos",
   "name": "Cosmos & Space Science",
   "icon": "🌌",
-  "tagline": "",
-  "description": "",
-  "outcomes": [],
-  "stages": [],
-  "related": []
+  "tagline": "Understand the universe, from the night sky to the Big Bang.",
+  "description": "For a curious adult who wants to really understand the universe rather than just admire it. You start by learning the night sky and the maths and physics it runs on, then work outward: stars and the Sun, planets and exoplanets, black holes and gravitational waves, galaxies, and the history and structure of the cosmos itself.",
+  "outcomes": [
+    "Find your way around the night sky, predict where objects will appear and observe them with a telescope",
+    "Read a stellar spectrum or light curve and infer temperature, composition, mass and distance",
+    "Explain how stars are born, live and die, and how they leave behind white dwarfs, neutron stars and black holes",
+    "Work with Kepler orbits and tides, and explain how exoplanets are found and characterised",
+    "Use general relativity at the level of the Schwarzschild metric, gravitational lensing and gravitational waves",
+    "Derive the expansion history of the universe from the Friedmann equations and explain the CMB, dark matter and dark energy",
+    "Analyse real astronomical data in Python with proper uncertainties and Bayesian inference"
+  ],
+  "stages": [
+    {
+      "name": "Mathematical foundations",
+      "description": "The algebra, geometry, trigonometry and probability that every later calculation in astronomy assumes.",
+      "items": [
+        {
+          "chapter": "ma-arithmetic-pre-algebra",
+          "why": "Astronomy is a science of enormous and tiny numbers; you need ratios, powers and scientific notation to be fluent.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-intermediate-algebra",
+          "why": "Rearranging formulas such as Kepler's third law or the inverse-square law is algebra.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-euclidean-geometry",
+          "why": "Parallax, angular size and eclipses are all triangle and circle geometry.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-trigonometry",
+          "why": "Distances to stars, telescope resolution and the angles on the celestial sphere are trigonometry.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-precalculus",
+          "why": "Exponentials and logarithms underpin magnitudes, radioactive ages and cosmic expansion.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-analytic-geometry",
+          "why": "Orbits are conic sections; you will use ellipse and hyperbola geometry constantly.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-probability",
+          "why": "Photon counting, measurement error and every statistical result in astronomy start here.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "The night sky",
+      "description": "Meet the sky first: what is up there, how it moves and how to observe it yourself.",
+      "items": [
+        {
+          "chapter": "ph-measurement-units-vectors",
+          "why": "Units, orders of magnitude and vectors let you move between metres, AU, light-years and parsecs without mistakes.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-astronomy",
+          "why": "The first tour of the cosmos: sky motions, the Solar System, stars, galaxies and the Big Bang in outline.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-sky-observing-amateur-astronomy",
+          "why": "Hands-on observing with eyes, binoculars and a telescope turns the diagrams into things you have seen.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-positional-astronomy",
+          "why": "Celestial coordinates and time scales let you predict where and when anything will be in the sky.",
+          "depth": "selected",
+          "focus": [
+            "ph-positional-astronomy-1",
+            "ph-positional-astronomy-2",
+            "ph-positional-astronomy-3",
+            "ph-positional-astronomy-4",
+            "ph-positional-astronomy-5",
+            "ph-positional-astronomy-6",
+            "ph-positional-astronomy-8"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Calculus, linear algebra & computing",
+      "description": "The mathematical language of physics, plus the programming you need to work with real data.",
+      "items": [
+        {
+          "chapter": "ma-calculus",
+          "why": "Rates of change and accumulation: orbits, luminosities and the expansion of the universe are all derivatives and integrals.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-linear-algebra",
+          "why": "Coordinate rotations, normal modes and quantum states are linear algebra.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-multivariable-calculus",
+          "why": "Fields, fluxes and densities in three dimensions need partial derivatives and multiple integrals.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-ordinary-differential-equations-odes",
+          "why": "Equations of motion, stellar structure and the Friedmann equations are differential equations.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-vector-calculus",
+          "why": "Gradient, divergence and curl are the language of gravity fields and Maxwell's equations.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-probability-theory",
+          "why": "Distributions and likelihoods are the basis of measuring anything from faint, noisy signals.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-mathematical-methods",
+          "why": "Fourier series, spherical harmonics and Green's functions appear in radiation, fluids and the CMB.",
+          "depth": "selected",
+          "focus": [
+            "ma-mathematical-methods-1",
+            "ma-mathematical-methods-2",
+            "ma-mathematical-methods-3",
+            "ma-mathematical-methods-4",
+            "ma-mathematical-methods-5",
+            "ma-mathematical-methods-6",
+            "ma-mathematical-methods-7",
+            "ma-mathematical-methods-8",
+            "ma-mathematical-methods-9"
+          ]
+        },
+        {
+          "chapter": "cs-computational-thinking",
+          "why": "A quick grounding in how computers represent data before you start programming.",
+          "depth": "selected",
+          "focus": [
+            "cs-computational-thinking-1",
+            "cs-computational-thinking-2",
+            "cs-computational-thinking-3",
+            "cs-computational-thinking-4",
+            "cs-computational-thinking-5"
+          ]
+        },
+        {
+          "chapter": "cs-programming-fundamentals",
+          "why": "Python is the working tool of modern astronomy: every data set, simulation and plot goes through it.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Classical physics toolkit",
+      "description": "Mechanics, waves, electromagnetism, optics and relativity: the physics behind orbits, light and telescopes.",
+      "items": [
+        {
+          "chapter": "ph-introductory-mechanics",
+          "why": "Newton's laws and gravitation are the starting point for every orbit and every star.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-heat-thermodynamics",
+          "why": "Temperature, heat and gas laws explain why stars shine and planets have the climates they do.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-waves-sound-light",
+          "why": "Light is a wave; wavelength, frequency and the Doppler effect are how we learn almost everything about the sky.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-electricity-magnetism",
+          "why": "Charges, fields and currents lead to light itself and to the magnetic fields of planets and stars.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-classical-mechanics",
+          "why": "Central forces, rotating frames and Lagrangian mechanics are the backbone of celestial dynamics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-waves-oscillations",
+          "why": "Oscillations, Fourier analysis and dispersion recur in stellar pulsations, plasmas and gravitational waves.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-classical-electromagnetism",
+          "why": "Maxwell's equations and radiation from accelerating charges explain where astronomical light comes from.",
+          "depth": "selected",
+          "focus": [
+            "ph-classical-electromagnetism-16",
+            "ph-classical-electromagnetism-1",
+            "ph-classical-electromagnetism-2",
+            "ph-classical-electromagnetism-19",
+            "ph-classical-electromagnetism-3",
+            "ph-classical-electromagnetism-4",
+            "ph-classical-electromagnetism-20",
+            "ph-classical-electromagnetism-5",
+            "ph-classical-electromagnetism-13",
+            "ph-classical-electromagnetism-15",
+            "ph-classical-electromagnetism-9"
+          ]
+        },
+        {
+          "chapter": "ph-classical-optics",
+          "why": "Imaging, diffraction and interference set what any telescope can resolve and how spectrographs work.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-special-relativity",
+          "why": "Relativistic Doppler shifts, jets and E = mc^2 in stellar cores need special relativity.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-fluid-mechanics",
+          "why": "Stars, discs and interstellar gas are fluids; you need the basic flow equations, shocks and MHD.",
+          "depth": "selected",
+          "focus": [
+            "ph-fluid-mechanics-1",
+            "ph-fluid-mechanics-2",
+            "ph-fluid-mechanics-3",
+            "ph-fluid-mechanics-4",
+            "ph-fluid-mechanics-6",
+            "ph-fluid-mechanics-8",
+            "ph-fluid-mechanics-10",
+            "ph-fluid-mechanics-14"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modern physics & data analysis",
+      "description": "Quantum and statistical physics explain spectra and stellar matter; statistics turns observations into results.",
+      "items": [
+        {
+          "chapter": "ph-modern-physics",
+          "why": "Blackbody radiation, photons and atomic spectra are the keys to decoding starlight.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-thermodynamics-statistical-mechanics",
+          "why": "Photon gases, degenerate electrons and the Boltzmann and Saha distributions describe stars and the early universe.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-quantum-mechanics",
+          "why": "Energy levels and transitions are why each element leaves its fingerprint in a spectrum.",
+          "depth": "selected",
+          "focus": [
+            "ph-quantum-mechanics-1",
+            "ph-quantum-mechanics-2",
+            "ph-quantum-mechanics-4",
+            "ph-quantum-mechanics-21",
+            "ph-quantum-mechanics-22",
+            "ph-quantum-mechanics-9",
+            "ph-quantum-mechanics-23",
+            "ph-quantum-mechanics-3",
+            "ph-quantum-mechanics-5",
+            "ph-quantum-mechanics-24",
+            "ph-quantum-mechanics-6",
+            "ph-quantum-mechanics-7",
+            "ph-quantum-mechanics-26",
+            "ph-quantum-mechanics-8",
+            "ph-quantum-mechanics-15",
+            "ph-quantum-mechanics-12"
+          ]
+        },
+        {
+          "chapter": "ph-atomic-physics",
+          "why": "Fine structure, the 21-cm line and selection rules are what astronomers actually measure in spectra.",
+          "depth": "selected",
+          "focus": [
+            "ph-atomic-physics-1",
+            "ph-atomic-physics-2",
+            "ph-atomic-physics-4",
+            "ph-atomic-physics-5",
+            "ph-atomic-physics-9",
+            "ph-atomic-physics-10",
+            "ph-atomic-physics-11"
+          ]
+        },
+        {
+          "chapter": "ph-nuclear-physics",
+          "why": "Fusion, nuclear reactions and nucleosynthesis power the stars and made the elements.",
+          "depth": "selected",
+          "focus": [
+            "ph-nuclear-physics-1",
+            "ph-nuclear-physics-13",
+            "ph-nuclear-physics-2",
+            "ph-nuclear-physics-4",
+            "ph-nuclear-physics-3",
+            "ph-nuclear-physics-8",
+            "ph-nuclear-physics-6",
+            "ph-nuclear-physics-11",
+            "ph-nuclear-physics-12"
+          ]
+        },
+        {
+          "chapter": "ph-plasma-physics",
+          "why": "Most visible matter is plasma; Debye shielding, MHD and plasma waves underlie the Sun and space physics.",
+          "depth": "selected",
+          "focus": [
+            "ph-plasma-physics-1",
+            "ph-plasma-physics-2",
+            "ph-plasma-physics-3",
+            "ph-plasma-physics-4",
+            "ph-plasma-physics-6",
+            "ph-plasma-physics-7",
+            "ph-plasma-physics-9",
+            "ph-plasma-physics-15"
+          ]
+        },
+        {
+          "chapter": "ph-data-analysis-statistics",
+          "why": "Error bars, fitting, Bayesian inference and MCMC are how every cosmological parameter is measured.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Astrophysics, stars & the Sun",
+      "description": "How we observe the universe and how stars, from the Sun to the interstellar clouds that form them, actually work.",
+      "items": [
+        {
+          "chapter": "ph-astrophysics",
+          "why": "The first real astrophysics course: magnitudes, spectra, the H-R diagram and the distance ladder.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-observational-astronomy-telescopes",
+          "why": "How professional telescopes, detectors, photometry and spectroscopy turn photons into measurements.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-radiative-processes",
+          "why": "Radiative transfer, synchrotron and bremsstrahlung explain every spectrum you will interpret.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-stellar-astrophysics",
+          "why": "Stellar structure and evolution, from main sequence to supernova, is the core of astrophysics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-sun-heliophysics",
+          "why": "The Sun is the one star we can study up close: its interior, magnetic cycle, flares and wind.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-space-physics",
+          "why": "The solar wind, magnetospheres and space weather connect the Sun to the planets.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-astrophysical-fluid-dynamics",
+          "why": "Jeans instability, shocks, accretion discs and dynamos govern star formation and compact objects.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-interstellar-medium-star-formation",
+          "why": "The gas and dust between the stars and how it collapses into new stars and planetary systems.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Planets, the Solar System & exoplanets",
+      "description": "Orbits, planetary physics and the discovery of thousands of worlds around other stars.",
+      "items": [
+        {
+          "chapter": "ph-celestial-mechanics",
+          "why": "Kepler orbits, resonances, tides and Lagrange points shape every planetary system.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-planetary-science",
+          "why": "Planetary formation, interiors, atmospheres and magnetospheres, with the Solar System as the laboratory.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-introduction-to-earth-science",
+          "why": "Earth is the planet we know best; its layered interior, rock cycle and deep time frame comparisons with other worlds.",
+          "depth": "selected",
+          "focus": [
+            "ea-introduction-to-earth-science-2",
+            "ea-introduction-to-earth-science-3",
+            "ea-introduction-to-earth-science-4",
+            "ea-introduction-to-earth-science-5",
+            "ea-introduction-to-earth-science-6",
+            "ea-introduction-to-earth-science-7",
+            "ea-introduction-to-earth-science-8",
+            "ea-introduction-to-earth-science-10"
+          ]
+        },
+        {
+          "chapter": "ea-comparative-planetology",
+          "why": "Comparing the planets shows why Venus, Earth and Mars turned out so differently.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-exoplanets",
+          "why": "Capstone: transit and radial-velocity methods, exoplanet demographics, atmospheres and habitable zones.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Gravity, black holes & gravitational waves",
+      "description": "Einstein's gravity and the extreme objects it predicts, now observed directly.",
+      "items": [
+        {
+          "chapter": "ma-tensor-analysis",
+          "why": "Index notation, the metric and curvature tensors are the language general relativity is written in.",
+          "depth": "selected",
+          "focus": [
+            "ma-tensor-analysis-1",
+            "ma-tensor-analysis-2",
+            "ma-tensor-analysis-3",
+            "ma-tensor-analysis-4",
+            "ma-tensor-analysis-5",
+            "ma-tensor-analysis-6",
+            "ma-tensor-analysis-7"
+          ]
+        },
+        {
+          "chapter": "ph-general-relativity",
+          "why": "Curved spacetime, the Schwarzschild metric, lensing, gravitational waves and the FLRW metric; the ideas and key solutions matter most here.",
+          "depth": "selected",
+          "focus": [
+            "ph-general-relativity-1",
+            "ph-general-relativity-2",
+            "ph-general-relativity-6",
+            "ph-general-relativity-3",
+            "ph-general-relativity-4",
+            "ph-general-relativity-7",
+            "ph-general-relativity-14",
+            "ph-general-relativity-8",
+            "ph-general-relativity-5",
+            "ph-general-relativity-15",
+            "ph-general-relativity-9",
+            "ph-general-relativity-10"
+          ]
+        },
+        {
+          "chapter": "ph-compact-objects",
+          "why": "Capstone: white dwarfs, neutron stars, pulsars, black holes and the high-energy astrophysics of accretion.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-gravitational-wave-astronomy",
+          "why": "LIGO and pulsar timing now hear merging black holes and neutron stars; this is how it works.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Galaxies & cosmology",
+      "description": "From the Milky Way to the whole observable universe: its contents, history and large-scale structure.",
+      "items": [
+        {
+          "chapter": "ph-galaxies-galactic-dynamics",
+          "why": "Galaxy structure, rotation curves and stellar dynamics, and the first evidence for dark matter.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-cosmology",
+          "why": "The expanding universe, the Friedmann equations, Big Bang nucleosynthesis and the cosmic microwave background.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-galaxy-formation-evolution",
+          "why": "Capstone: how galaxies assembled from the first halos to today's spirals and ellipticals.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-advanced-cosmology",
+          "why": "Capstone: cosmological perturbations, CMB anisotropies and the growth of large-scale structure.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-particle-physics",
+          "why": "The Standard Model and neutrinos are needed to understand the early universe and dark-matter candidates.",
+          "depth": "selected",
+          "focus": [
+            "ph-particle-physics-16",
+            "ph-particle-physics-1",
+            "ph-particle-physics-2",
+            "ph-particle-physics-3",
+            "ph-particle-physics-6",
+            "ph-particle-physics-7",
+            "ph-particle-physics-8",
+            "ph-particle-physics-4",
+            "ph-particle-physics-15",
+            "ph-particle-physics-13"
+          ]
+        },
+        {
+          "chapter": "ph-astroparticle-physics",
+          "why": "Dark matter searches, cosmic rays and the particle physics of the early universe.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "description": "Optional deep dives into observing techniques, data science, planetary geology and the quantum side of black holes.",
+      "items": [
+        {
+          "chapter": "ph-radio-astronomy",
+          "why": "Elective: radio telescopes and interferometry, from the 21-cm line and pulsars to the Event Horizon Telescope.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-astrostatistics",
+          "why": "Elective: survey data, FITS and Astropy, hierarchical Bayesian models and machine learning for astronomy.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-neutrino-astronomy",
+          "why": "Elective: solar neutrinos, supernova neutrinos and IceCube, a completely different window on the cosmos.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-computational-physics",
+          "why": "Elective: numerical ODEs, N-body and hydrodynamics methods so you can simulate orbits, clusters and galaxies yourself.",
+          "depth": "selected",
+          "focus": [
+            "ph-computational-physics-1",
+            "ph-computational-physics-9",
+            "ph-computational-physics-10",
+            "ph-computational-physics-11",
+            "ph-computational-physics-12",
+            "ph-computational-physics-2",
+            "ph-computational-physics-3",
+            "ph-computational-physics-13",
+            "ph-computational-physics-14"
+          ]
+        },
+        {
+          "chapter": "ea-physical-geology",
+          "why": "Elective: the rocks and surface processes you need before doing geology on other planets.",
+          "depth": "selected",
+          "focus": [
+            "ea-physical-geology-1",
+            "ea-physical-geology-2",
+            "ea-physical-geology-3",
+            "ea-physical-geology-4",
+            "ea-physical-geology-5",
+            "ea-physical-geology-6",
+            "ea-physical-geology-7",
+            "ea-physical-geology-8",
+            "ea-physical-geology-9",
+            "ea-physical-geology-11",
+            "ea-physical-geology-13",
+            "ea-physical-geology-14"
+          ]
+        },
+        {
+          "chapter": "ea-planetary-surfaces-and-impact-cratering",
+          "why": "Elective: planetary geoscience; impact craters, volcanism and crater-count dating of other worlds.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-icy-worlds-and-small-bodies",
+          "why": "Elective: ocean worlds like Europa and Enceladus, Titan, asteroids, comets and Pluto.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-advanced-quantum-mechanics",
+          "why": "Elective: groundwork for black-hole physics; second quantization, photon fields and relativistic QM, only as far as needed.",
+          "depth": "selected",
+          "focus": [
+            "ph-advanced-quantum-mechanics-1",
+            "ph-advanced-quantum-mechanics-2",
+            "ph-advanced-quantum-mechanics-3",
+            "ph-advanced-quantum-mechanics-7",
+            "ph-advanced-quantum-mechanics-11",
+            "ph-advanced-quantum-mechanics-12",
+            "ph-advanced-quantum-mechanics-13"
+          ]
+        },
+        {
+          "chapter": "ph-quantum-field-theory-qft",
+          "why": "Elective: groundwork for black-hole physics; the idea of quantized fields and particles as excitations, not full QFT technique.",
+          "depth": "selected",
+          "focus": [
+            "ph-quantum-field-theory-qft-15",
+            "ph-quantum-field-theory-qft-8",
+            "ph-quantum-field-theory-qft-2",
+            "ph-quantum-field-theory-qft-1",
+            "ph-quantum-field-theory-qft-6",
+            "ph-quantum-field-theory-qft-3",
+            "ph-quantum-field-theory-qft-10"
+          ]
+        },
+        {
+          "chapter": "ph-black-hole-physics",
+          "why": "Elective: black-hole thermodynamics, Hawking radiation and the information paradox.",
+          "depth": "full"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "rocket-science",
+    "astrobiology",
+    "theoretical-physicist"
+  ]
 }

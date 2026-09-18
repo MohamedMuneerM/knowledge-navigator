@@ -2,9 +2,763 @@
   "id": "electrical-electronics-engineer",
   "name": "Electrical & Electronics Engineer",
   "icon": "⚡",
-  "tagline": "",
-  "description": "",
-  "outcomes": [],
-  "stages": [],
-  "related": []
+  "tagline": "A full electrical and electronic engineering degree, from Ohm’s law to the power grid.",
+  "description": "For learners who want the depth of an EEE bachelor’s degree without the enrolment. You build the maths and physics first, then work through circuits, signals and systems, devices and analog design, digital electronics and microprocessors, electromagnetics and communications, control, and electrical power from power electronics to machines and the grid. It ends with hardware design practice and elective tracks in VLSI and IC design, RF and high-voltage engineering.",
+  "outcomes": [
+    "Analyse DC, AC and three-phase circuits, and design analog circuits with transistors and op-amps",
+    "Model and design systems in the time and frequency domains, including feedback controllers and digital filters",
+    "Design digital logic in an HDL, and program microcontrollers down to registers and interrupts",
+    "Explain how electromagnetic waves, transmission lines and antennas carry signals, and analyse analog and digital communication links",
+    "Design power converters and motor drives, and analyse load flow, faults and stability in power systems",
+    "Take a circuit from schematic to a PCB that passes EMC, safety and test requirements"
+  ],
+  "stages": [
+    {
+      "name": "Mathematical foundations",
+      "description": "The engineering maths toolkit: algebra to calculus, linear algebra, differential equations, transforms and probability.",
+      "items": [
+        {
+          "chapter": "ma-arithmetic-pre-algebra",
+          "why": "Fluent arithmetic with powers of ten and units is the daily work of an electrical engineer.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-intermediate-algebra",
+          "why": "Circuit equations are algebra; solving simultaneous equations is nodal analysis.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-euclidean-geometry",
+          "why": "Geometry underpins phasor diagrams and field sketches.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-trigonometry",
+          "why": "AC voltages and currents are sinusoids; trig identities are unavoidable.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-precalculus",
+          "why": "Exponentials, logarithms (decibels) and complex numbers begin here.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-analytic-geometry",
+          "why": "Coordinate geometry for plotting responses and describing fields.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-calculus",
+          "why": "Capacitor current and inductor voltage are derivatives; energy is an integral.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-sequences-series",
+          "why": "Fourier and Taylor series decompose signals and linearise devices.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-linear-algebra",
+          "why": "Nodal analysis, state space and power flow are all matrix problems.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-multivariable-calculus",
+          "why": "Fields vary in space; partial derivatives and multiple integrals describe them.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-vector-calculus",
+          "why": "Divergence, curl and the integral theorems are the language of Maxwell’s equations.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-ordinary-differential-equations-odes",
+          "why": "RLC circuits, motors and control loops are governed by ODEs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-integral-transforms",
+          "why": "Laplace, Fourier and z-transforms are the central tools of circuits, signals and control.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-descriptive-statistics",
+          "why": "Summarising measurement data and component tolerances.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-probability",
+          "why": "Noise, bit errors and failures are probabilistic.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-probability-theory",
+          "why": "Random variables and distributions underpin noise analysis, communications and reliability.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Physics, materials & programming foundations",
+      "description": "The physics of mechanics, heat, waves and electromagnetism, why materials conduct or insulate, and enough programming and numerical methods to simulate, automate and write firmware.",
+      "items": [
+        {
+          "chapter": "ph-measurement-units-vectors",
+          "why": "SI units and vectors keep calculations consistent.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-mechanics",
+          "why": "Force, energy and power: the mechanical side of motors and generators.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-heat-thermodynamics",
+          "why": "Every circuit dissipates heat; thermal limits bound every design.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-waves-sound-light",
+          "why": "Waves, interference and light: the basis of electromagnetic waves and optics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-electricity-magnetism",
+          "why": "Charge, fields, current and induction: the physical origin of everything in this degree.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-classical-electromagnetism",
+          "why": "Maxwell’s equations, properly: the foundation of fields, waves, machines and antennas.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-classical-mechanics",
+          "why": "Oscillators and energy methods, the classical physics behind modern physics.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ph-modern-physics",
+          "why": "Photons, electrons and energy levels explain semiconductors, LEDs and photodiodes.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-introductory-chemistry",
+          "why": "Atoms, bonding and reactions, the chemistry behind materials and batteries.",
+          "depth": "selected",
+          "focus": [
+            "ch-introductory-chemistry-4",
+            "ch-introductory-chemistry-5",
+            "ch-introductory-chemistry-6",
+            "ch-introductory-chemistry-9"
+          ]
+        },
+        {
+          "chapter": "mt-intro-to-materials",
+          "why": "The families of materials an electrical engineer designs with.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-atomic-bonding",
+          "why": "Bonding and crystal structure determine conductivity and band structure.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-computational-thinking",
+          "why": "Decomposing a problem into steps a computer can execute.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-programming-fundamentals",
+          "why": "Python for simulation, data analysis and test automation.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-command-line-shell",
+          "why": "Toolchains, simulators and lab automation run from the command line.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-program-design",
+          "why": "Writing programs larger than a script, with functions, modules and tests.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-computer-organization",
+          "why": "How binary, assembly and a CPU fit together, the bridge to microprocessors.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-systems-programming",
+          "why": "C is the language of microcontrollers and hardware drivers.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-error-analysis",
+          "why": "Numerical error and conditioning matter as soon as you simulate a circuit or a grid.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-root-finding-algorithms",
+          "why": "Newton-Raphson is how load-flow and nonlinear circuit solvers converge.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Circuits & measurement",
+      "description": "Circuit analysis from DC to three-phase AC, the components, and the instruments you use to see what a circuit really does.",
+      "items": [
+        {
+          "chapter": "el-basic-electricity",
+          "why": "Voltage, current, resistance, power and electrical safety: the first principles.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-hands-on-electronics",
+          "why": "Schematics, breadboards and soldering turn theory into working circuits.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-passive-components",
+          "why": "Real resistors, capacitors and inductors have tolerances, parasitics and ratings.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-active-components",
+          "why": "A first look at diodes, transistors and ICs before their physics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-mathematical-foundations",
+          "why": "Phasors, transforms and convolution as electrical engineers use them.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-circuit-theory",
+          "why": "Kirchhoff’s laws, nodal and mesh analysis, Thévenin and transients: the core of the degree.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-ac-circuits-power",
+          "why": "Phasors, impedance, complex power and three-phase systems for everything that runs on AC.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-simulation-modeling-tools",
+          "why": "SPICE and MATLAB/Simulink let you check designs before you build them.",
+          "depth": "selected",
+          "focus": [
+            "el-simulation-modeling-tools-1",
+            "el-simulation-modeling-tools-2"
+          ]
+        },
+        {
+          "chapter": "el-test-equipment",
+          "why": "Multimeters, supplies, generators and analysers: the lab bench.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-oscilloscope-techniques",
+          "why": "Probing, triggering and measuring waveforms properly.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-electrical-measurements",
+          "why": "Measurement principles, bridges, errors and instrumentation.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-calibration",
+          "why": "Traceability and calibration: knowing how far to trust an instrument.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Signals, systems & control",
+      "description": "Describing signals and systems in time and frequency, processing them digitally, and using feedback to make systems behave.",
+      "items": [
+        {
+          "chapter": "el-signals-and-systems",
+          "why": "Convolution, frequency response and transforms: the common language of circuits, communications and control.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-signal-processing-fundamentals",
+          "why": "Sampling, aliasing and discrete-time filtering.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-digital-signal-processing-dsp",
+          "why": "FFT, FIR and IIR filters: signal processing in software and silicon.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-control-theory",
+          "why": "Stability, root locus, Bode and Nyquist design and PID: classical feedback control.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-state-space-digital-control",
+          "why": "State-space models, controllability, observers and digital controllers.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Semiconductor devices & analog electronics",
+      "description": "How semiconductor devices work and how to design amplifiers, filters, oscillators, data converters and regulators with them.",
+      "items": [
+        {
+          "chapter": "el-electrical-materials",
+          "why": "Conductors, dielectrics, magnetic materials and semiconductors from the engineer’s perspective.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-semiconductor-physics",
+          "why": "Bands, carriers, doping and the p-n junction: why semiconductors behave as they do.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-semiconductor-devices",
+          "why": "Diodes, BJTs and MOSFETs from device physics to circuit models.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-diode-transistor-circuits",
+          "why": "Rectifiers, biasing and small-signal amplifiers: the first analog designs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-operational-amplifiers",
+          "why": "The op-amp is the analog designer’s universal building block.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-amplifier-design",
+          "why": "Frequency response, feedback and output stages for real amplifiers.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-analog-circuits",
+          "why": "Current mirrors, differential pairs and references: the building blocks inside ICs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-filters",
+          "why": "Passive and active filter design for anti-aliasing, audio and instrumentation.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-oscillators-timing",
+          "why": "Oscillators and crystals generate every clock and carrier.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-noise-analysis",
+          "why": "Thermal, shot and flicker noise set the floor on every measurement.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-signal-conditioning",
+          "why": "Amplifying, filtering and isolating sensor signals for measurement.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-data-converters",
+          "why": "ADCs and DACs are where the analog and digital worlds meet.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-linear-regulators",
+          "why": "Linear regulators and references provide clean, stable supply rails.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-optoelectronic-devices",
+          "why": "LEDs, photodiodes and lasers: semiconductors that emit and detect light.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Digital electronics & microprocessors",
+      "description": "Logic design, sequential circuits and HDL, then processors and microcontrollers programmed from the bare metal up.",
+      "items": [
+        {
+          "chapter": "el-combinational-logic",
+          "why": "Boolean algebra, gates, multiplexers and adders.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-sequential-logic",
+          "why": "Flip-flops, registers, counters and finite-state machines.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-logic-families",
+          "why": "CMOS and TTL electrical characteristics: what a logic gate really is.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-memory-devices",
+          "why": "SRAM, DRAM and flash: how bits are stored in silicon.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-timing-synchronization",
+          "why": "Setup and hold, clock domains and metastability.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-hardware-description-languages-hdl",
+          "why": "Verilog and VHDL let you describe and synthesise digital hardware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-fpga-architectures",
+          "why": "LUTs, routing and hard blocks: the reconfigurable chip.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-fpga-design-flow",
+          "why": "Synthesis, place and route, and timing closure on an FPGA.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-intro-microcontrollers",
+          "why": "Your first programmable hardware: GPIO, sensors and outputs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-embedded-systems-fundamentals",
+          "why": "Interrupts, timers, memory maps and the embedded development cycle.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-processor-architecture-concepts",
+          "why": "ISAs, pipelines, caches and memory management: how processors execute code.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-bare-metal-programming",
+          "why": "Programming registers and interrupts directly, with no operating system.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-peripheral-controllers",
+          "why": "Timers, PWM, ADCs and DMA: the microcontroller’s built-in hardware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-serial-protocols",
+          "why": "UART and RS-485 serial links between devices.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-synchronous-serial-protocols",
+          "why": "I2C and SPI buses connect sensors, memories and converters.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-buses-communication",
+          "why": "Parallel and serial buses, arbitration and interfacing.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-sensor-interfacing",
+          "why": "Connecting real sensors to a microcontroller: the core of instrumentation.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Electromagnetics & communications",
+      "description": "Fields and waves, transmission lines and antennas, and the analog and digital communication systems built on them.",
+      "items": [
+        {
+          "chapter": "el-electromagnetics",
+          "why": "Electrostatics, magnetostatics and Maxwell’s equations applied to engineering problems.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-electromagnetic-waves",
+          "why": "Plane waves, reflection and waveguides.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-transmission-lines",
+          "why": "Impedance matching, reflections and the Smith chart: when wires stop being wires.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-antennas-propagation",
+          "why": "How antennas radiate and how signals propagate through the air.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-analog-communications",
+          "why": "AM, FM, noise and receivers: the classical communication systems.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-digital-communications",
+          "why": "Modulation, detection, bit-error rate and pulse shaping for digital links.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-channel-coding",
+          "why": "Information theory and error-correcting codes: how close you can get to the Shannon limit.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-wireless-communications",
+          "why": "Fading, OFDM, MIMO and cellular systems.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Electrical power: electronics, machines & grids",
+      "description": "Converting and controlling electrical power, the machines that turn it into motion and back, and the power system that generates, transmits and protects it.",
+      "items": [
+        {
+          "chapter": "el-power-devices",
+          "why": "Power MOSFETs, IGBTs, SiC and GaN switches.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-power-electronics-fundamentals",
+          "why": "Switching converters, losses and magnetics: efficient power conversion.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-switching-regulators",
+          "why": "Buck, boost and flyback converters for DC-DC conversion.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-switched-mode-power-supply-smps-design",
+          "why": "Designing and compensating a complete switched-mode power supply.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-ac-dc-conversion",
+          "why": "Rectifiers and controlled converters from the mains.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-dc-ac-conversion-inverters",
+          "why": "PWM inverters for drives, UPS and solar.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-magnetic-circuits-transformers",
+          "why": "Magnetic circuits and transformers, the first electrical machines.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-electrical-machines",
+          "why": "DC, induction and synchronous machines: torque, equivalent circuits and characteristics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-electric-drives",
+          "why": "Variable-speed drives and motor control with power electronics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-electrical-installations",
+          "why": "Wiring, earthing, protection devices and electrical safety in buildings.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-power-system-fundamentals",
+          "why": "Per-unit analysis and the structure of the power system.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-introduction-to-engineering-mechanical-design",
+          "why": "Background for thermal power generation: engineering design basics.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "me-engineering-thermodynamics",
+          "why": "Thermodynamic cycles explain how thermal and nuclear plants make electricity.",
+          "depth": "selected",
+          "focus": [
+            "me-engineering-thermodynamics-2",
+            "me-engineering-thermodynamics-5",
+            "me-engineering-thermodynamics-8",
+            "me-engineering-thermodynamics-9"
+          ]
+        },
+        {
+          "chapter": "el-power-generation",
+          "why": "Thermal, hydro, wind and solar generation and the economics of the generation mix.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-transmission-distribution",
+          "why": "Lines, cables and distribution networks that carry power to users.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-power-flow-analysis",
+          "why": "Load flow and economic dispatch: how the grid is operated.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-power-system-fault-analysis",
+          "why": "Symmetrical components and short-circuit calculations.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-power-system-protection",
+          "why": "Relays, circuit breakers and protection schemes that keep faults from becoming blackouts.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-power-system-stability",
+          "why": "Rotor-angle, frequency and voltage stability and their control.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-power-quality",
+          "why": "Harmonics, sags and flicker from modern loads.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-renewable-grid-integration",
+          "why": "Connecting wind, solar and storage to a grid built for spinning machines.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Hardware design & professional practice",
+      "description": "Turning circuits into reliable products: schematic and PCB design, power integrity, EMC, thermal design, safety and professional responsibility.",
+      "items": [
+        {
+          "chapter": "el-schematic-design",
+          "why": "Clear, reviewable schematics are the source of every hardware product.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-pcb-layout",
+          "why": "Placement, routing, grounding and stack-up.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-power-integrity",
+          "why": "Decoupling and power-distribution-network design for clean supplies.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-electromagnetic-compatibility-emcemi",
+          "why": "Designing so your circuit neither emits nor suffers interference.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-thermal-management",
+          "why": "Heat sinks, airflow and derating keep components alive.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-reliability-testing",
+          "why": "Failure rates, accelerated life tests and MTBF.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-international-standards-organizations",
+          "why": "IEC, IEEE, UL and the standards bodies that shape electrical practice.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-product-safety",
+          "why": "Designing products that meet electrical safety standards.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-engineering-ethics-practice",
+          "why": "Licensure, codes of ethics, liability and safety culture for professional engineers.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Elective tracks: VLSI, RF & high voltage",
+      "description": "Specialise. The VLSI track takes you from CMOS process to ASIC and analog IC design; the other electives cover RF, high-speed and high-voltage engineering.",
+      "items": [
+        {
+          "chapter": "el-cmos-technology",
+          "why": "Elective (VLSI): how CMOS transistors and interconnect are manufactured.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-digital-vlsi-design",
+          "why": "Elective (VLSI): CMOS gates, timing, power and layout of digital ICs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-design-verification",
+          "why": "Elective (VLSI): testbenches, SystemVerilog and coverage-driven verification.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-asic-physical-design",
+          "why": "Elective (VLSI): the RTL-to-GDSII flow of synthesis, floorplanning, place and route and sign-off.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-system-on-chip-soc",
+          "why": "Elective (VLSI): integrating processors, memories and interconnect on one chip.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-analog-ic-design",
+          "why": "Elective (VLSI): transistor-level analog IC design of op-amps, references and converters.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-semiconductor-fabrication",
+          "why": "Elective (VLSI): lithography, etch, deposition and process integration.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-rf-microwave-engineering",
+          "why": "Elective: RF amplifiers, mixers and microwave circuits.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-high-speed-digital-design",
+          "why": "Elective: signal integrity for fast digital buses.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-high-voltage-engineering",
+          "why": "Elective: insulation, breakdown and high-voltage testing.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-high-power-converters",
+          "why": "Elective (HVDC background): grid-connected and high-power converters.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-hvdc-facts",
+          "why": "Elective: HVDC links and FACTS devices for long-distance and controllable transmission.",
+          "depth": "full"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "embedded-iot",
+    "computer-engineer",
+    "robotics",
+    "iron-man"
+  ]
 }

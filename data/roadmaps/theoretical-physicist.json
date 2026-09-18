@@ -2,9 +2,548 @@
   "id": "theoretical-physicist",
   "name": "Theoretical Physicist",
   "icon": "🌀",
-  "tagline": "",
-  "description": "",
-  "outcomes": [],
-  "stages": [],
-  "related": []
+  "tagline": "Climb the full theory ladder, from Newton to quantum field theory and curved spacetime.",
+  "description": "For ambitious self-learners who want the theoretical core of a physics PhD: the mathematics, and the physics built on it. The route runs from calculus and classical mechanics through analytical mechanics, electrodynamics, statistical and quantum mechanics, then the group theory and geometry needed for general relativity, quantum field theory, particle physics and condensed matter theory, with string theory, quantum gravity and cosmology as electives.",
+  "outcomes": [
+    "Derive equations of motion from a Lagrangian or Hamiltonian, and use symmetries and Noether's theorem to find conserved quantities",
+    "Solve boundary-value, Green's function and radiation problems in electrodynamics with the full toolkit of mathematical methods",
+    "Use perturbation theory, angular momentum algebra, path integrals and second quantisation in quantum mechanics",
+    "Compute partition functions, analyse phase transitions and apply renormalisation-group ideas",
+    "Work with tensors and curvature to solve problems in general relativity (Schwarzschild, gravitational waves, FLRW)",
+    "Quantise free fields, draw and evaluate Feynman diagrams, and explain the gauge structure of the Standard Model",
+    "Read research-level papers in high-energy or condensed matter theory and follow their mathematics"
+  ],
+  "stages": [
+    {
+      "name": "Mathematical foundations",
+      "description": "Algebra through multivariable and vector calculus, linear algebra, ODEs and probability.",
+      "items": [
+        {
+          "chapter": "ma-arithmetic-pre-algebra",
+          "why": "The number sense everything else is built on.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-intermediate-algebra",
+          "why": "Fluent symbol manipulation is the theorist's most-used skill.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-euclidean-geometry",
+          "why": "Geometric reasoning and similarity, needed for trigonometry and physical intuition.",
+          "depth": "selected",
+          "focus": [
+            "ma-euclidean-geometry-5",
+            "ma-euclidean-geometry-6",
+            "ma-euclidean-geometry-7",
+            "ma-euclidean-geometry-9",
+            "ma-euclidean-geometry-10",
+            "ma-euclidean-geometry-3",
+            "ma-euclidean-geometry-11"
+          ]
+        },
+        {
+          "chapter": "ma-trigonometry",
+          "why": "Oscillations, rotations and waves are all trigonometric.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-precalculus",
+          "why": "Functions, exponentials, logarithms and complex numbers in polar form.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-analytic-geometry",
+          "why": "Conic sections (orbits), polar coordinates and coordinate transformations.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-calculus",
+          "why": "Newton invented it for physics; every law of physics is a statement about rates of change.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-sequences-series",
+          "why": "Taylor expansions are the theorist's main approximation tool, and Fourier series appear everywhere.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-multivariable-calculus",
+          "why": "Fields and wavefunctions depend on several variables; Jacobians and Lagrange multipliers are routine.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-vector-calculus",
+          "why": "Gradient, divergence, curl and Stokes' theorem are the language of electromagnetism and fluids.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-linear-algebra",
+          "why": "Eigenvalue problems, vector spaces and inner products are the backbone of quantum mechanics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-ordinary-differential-equations-odes",
+          "why": "Equations of motion are differential equations; linear systems and stability recur throughout.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-probability",
+          "why": "Probability is fundamental in both statistical and quantum physics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-probability-theory",
+          "why": "Distributions, moments and the central limit theorem underlie statistical mechanics.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Introductory physics",
+      "description": "The calculus-based survey of mechanics, heat, waves and electromagnetism.",
+      "items": [
+        {
+          "chapter": "ph-measurement-units-vectors",
+          "why": "Dimensional analysis and order-of-magnitude estimates are how theorists sanity-check results.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-mechanics",
+          "why": "Newton's laws, energy and momentum: the first physical theory you learn.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-heat-thermodynamics",
+          "why": "Temperature, heat and entropy, leading into statistical mechanics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-waves-sound-light",
+          "why": "Wave phenomena and interference, the intuition behind field theory and quantum mechanics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-electricity-magnetism",
+          "why": "Charges, currents and fields: the first field theory.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Classical mechanics, waves & fields",
+      "description": "Lagrangian and Hamiltonian mechanics, Maxwell's theory and special relativity: the classical templates for modern theory.",
+      "items": [
+        {
+          "chapter": "ma-variational-methods",
+          "why": "The calculus of variations and Hamilton's principle: every modern theory is defined by an action.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-classical-mechanics",
+          "why": "Lagrangian and Hamiltonian mechanics, Poisson brackets and Hamilton-Jacobi theory lead directly into quantum mechanics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-waves-oscillations",
+          "why": "Normal modes and wave equations; a field is an infinite set of coupled oscillators.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-classical-electromagnetism",
+          "why": "Maxwell's equations, the prototype gauge field theory.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-special-relativity",
+          "why": "Lorentz invariance constrains every fundamental theory; four-vectors become second nature.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-chaos-theory-nonlinear-dynamics",
+          "why": "Nonlinear dynamics, bifurcations and chaos: what happens when perturbation theory fails.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Analysis & mathematical methods",
+      "description": "Rigorous analysis and the problem-solving methods of theoretical physics.",
+      "items": [
+        {
+          "chapter": "ma-introduction-to-proofs",
+          "why": "Advanced theory is built from definitions and theorems; you need to read and write proofs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-real-analysis",
+          "why": "Limits, convergence and uniform convergence make series expansions and interchanged limits trustworthy.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-complex-analysis",
+          "why": "Contour integration and residues evaluate propagators, dispersion relations and Green's functions.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-mathematical-methods",
+          "why": "Fourier methods, Sturm-Liouville theory, spherical harmonics and Green's functions solve the standard physics problems.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-partial-differential-equations-pdes",
+          "why": "The wave, heat, Laplace and Schrödinger equations are PDEs; you need their theory as well as the solution techniques.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-special-functions",
+          "why": "Gamma, Bessel, Legendre, Hermite and hypergeometric functions appear in exact solutions.",
+          "depth": "selected",
+          "focus": [
+            "ma-special-functions-1",
+            "ma-special-functions-5",
+            "ma-special-functions-3",
+            "ma-special-functions-6",
+            "ma-special-functions-2",
+            "ma-special-functions-4",
+            "ma-special-functions-8"
+          ]
+        },
+        {
+          "chapter": "ma-asymptotic-methods",
+          "why": "Saddle-point, stationary-phase and WKB methods, used in path integrals and semiclassical physics.",
+          "depth": "selected",
+          "focus": [
+            "ma-asymptotic-methods-1",
+            "ma-asymptotic-methods-3",
+            "ma-asymptotic-methods-4",
+            "ma-asymptotic-methods-5",
+            "ma-asymptotic-methods-6",
+            "ma-asymptotic-methods-8",
+            "ma-asymptotic-methods-9"
+          ]
+        },
+        {
+          "chapter": "ph-mathematical-physics",
+          "why": "Ties the methods together in a physics setting: Green's functions, tensors, geometry and topology in physics.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Quantum mechanics & statistical physics",
+      "description": "The quantum theory from its origins to its advanced formulation, together with thermodynamics and statistical mechanics.",
+      "items": [
+        {
+          "chapter": "ph-modern-physics",
+          "why": "The experiments and ideas that broke classical physics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-thermodynamics-statistical-mechanics",
+          "why": "Ensembles, partition functions and quantum statistics: the bridge from microscopic laws to macroscopic behaviour.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-quantum-mechanics",
+          "why": "Hilbert space, operators, angular momentum, hydrogen, perturbation theory and entanglement.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-advanced-quantum-mechanics",
+          "why": "Symmetries, Wigner-Eckart, scattering theory, the Berry phase, path integrals, second quantisation and Dirac: the gateway to QFT.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Graduate electrodynamics, statistical mechanics & computation",
+      "description": "The remaining graduate core courses, plus the computational skills every modern theorist uses.",
+      "items": [
+        {
+          "chapter": "ph-advanced-electrodynamics",
+          "why": "Jackson-level electrodynamics: multipoles, radiation, the covariant field tensor and field Lagrangians.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-advanced-statistical-mechanics",
+          "why": "Landau theory, critical exponents, the renormalisation group and non-equilibrium physics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-computational-thinking",
+          "why": "Framing a physics problem so a computer can solve it.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-programming-fundamentals",
+          "why": "Python programming for numerical experiments and checking analytic results.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-computational-physics",
+          "why": "Numerical ODE/PDE solvers, Monte Carlo and eigenvalue methods: most theory research today includes computation.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Symmetry, algebra, geometry & topology",
+      "description": "The pure mathematics of modern theoretical physics: groups and Lie theory, manifolds, curvature and topology.",
+      "items": [
+        {
+          "chapter": "ma-abstract-algebra",
+          "why": "Groups, rings and fields: the structures that symmetries form.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-group-theory",
+          "why": "Group actions, finite groups and products, needed for crystal symmetries and for classifying particles.",
+          "depth": "selected",
+          "focus": [
+            "ma-group-theory-1",
+            "ma-group-theory-2",
+            "ma-group-theory-3",
+            "ma-group-theory-8",
+            "ma-group-theory-9",
+            "ma-group-theory-10",
+            "ma-group-theory-5",
+            "ma-group-theory-6"
+          ]
+        },
+        {
+          "chapter": "ma-representation-theory",
+          "why": "Particles and states are classified by irreducible representations of symmetry groups.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-symmetry-group-theory",
+          "why": "Lie algebras, SU(2), SU(3), the Lorentz group, C/P/T and symmetry breaking in physics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-general-topology",
+          "why": "Open sets, compactness and continuity, needed for manifolds and functional analysis.",
+          "depth": "selected",
+          "focus": [
+            "ma-general-topology-1",
+            "ma-general-topology-2",
+            "ma-general-topology-7",
+            "ma-general-topology-3",
+            "ma-general-topology-8",
+            "ma-general-topology-4",
+            "ma-general-topology-5"
+          ]
+        },
+        {
+          "chapter": "ma-measure-theory-integration",
+          "why": "Lebesgue integration and L^p spaces, the setting of quantum mechanical Hilbert spaces.",
+          "depth": "selected",
+          "focus": [
+            "ma-measure-theory-integration-6",
+            "ma-measure-theory-integration-1",
+            "ma-measure-theory-integration-2",
+            "ma-measure-theory-integration-3",
+            "ma-measure-theory-integration-4",
+            "ma-measure-theory-integration-8",
+            "ma-measure-theory-integration-5"
+          ]
+        },
+        {
+          "chapter": "ma-functional-analysis",
+          "why": "Hilbert spaces, unbounded operators, spectral theory and distributions: rigorous quantum mechanics.",
+          "depth": "selected",
+          "focus": [
+            "ma-functional-analysis-1",
+            "ma-functional-analysis-3",
+            "ma-functional-analysis-11",
+            "ma-functional-analysis-8",
+            "ma-functional-analysis-4",
+            "ma-functional-analysis-13",
+            "ma-functional-analysis-6",
+            "ma-functional-analysis-7"
+          ]
+        },
+        {
+          "chapter": "ma-algebraic-topology",
+          "why": "Homotopy, the fundamental group and homology classify defects, anomalies and topological phases.",
+          "depth": "selected",
+          "focus": [
+            "ma-algebraic-topology-8",
+            "ma-algebraic-topology-1",
+            "ma-algebraic-topology-7",
+            "ma-algebraic-topology-5",
+            "ma-algebraic-topology-3",
+            "ma-algebraic-topology-4"
+          ]
+        },
+        {
+          "chapter": "ma-differential-topology",
+          "why": "Smooth manifolds, tangent spaces and differential forms are where modern physics lives.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-lie-theory",
+          "why": "Lie groups and algebras, root systems and highest-weight representations underlie gauge theory and the Standard Model.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-tensor-analysis",
+          "why": "Index notation, covariant derivatives and curvature tensors, the working language of general relativity.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-differential-geometry",
+          "why": "Curvature, geodesics and pseudo-Riemannian manifolds give the geometric meaning behind Einstein's equations.",
+          "depth": "selected",
+          "focus": [
+            "ma-differential-geometry-1",
+            "ma-differential-geometry-9",
+            "ma-differential-geometry-8",
+            "ma-differential-geometry-6",
+            "ma-differential-geometry-7",
+            "ma-differential-geometry-2",
+            "ma-differential-geometry-5"
+          ]
+        },
+        {
+          "chapter": "ma-riemannian-geometry",
+          "why": "The Levi-Civita connection, curvature and Lorentzian geometry, done properly.",
+          "depth": "selected",
+          "focus": [
+            "ma-riemannian-geometry-1",
+            "ma-riemannian-geometry-2",
+            "ma-riemannian-geometry-3",
+            "ma-riemannian-geometry-4",
+            "ma-riemannian-geometry-9"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Relativity, quantum fields & particles",
+      "description": "The two pillars of fundamental physics and the Standard Model built on them.",
+      "items": [
+        {
+          "chapter": "ph-general-relativity",
+          "why": "Einstein's theory of gravity: curved spacetime, black holes, gravitational waves and cosmological solutions.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-quantum-field-theory-qft",
+          "why": "Field quantisation, Feynman diagrams, renormalisation and gauge theories: the framework of modern physics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-particle-physics",
+          "why": "The Standard Model and its phenomenology: electroweak theory, QCD, the Higgs, neutrinos and CP violation.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-advanced-theoretical-methods",
+          "why": "Scattering and S-matrix theory, effective theories, the renormalisation group and conformal field theory.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Condensed matter theory",
+      "description": "Quantum many-body physics: the other half of modern theoretical physics.",
+      "items": [
+        {
+          "chapter": "ph-solid-state-physics",
+          "why": "Crystals, bands, phonons, magnetism and superconductivity: the phenomena many-body theory explains.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-quantum-many-body-theory",
+          "why": "Green's functions, Feynman diagrams at finite temperature, Fermi liquids, BCS and strong correlations.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Electives: frontiers",
+      "description": "Optional research directions once the core is in place.",
+      "items": [
+        {
+          "chapter": "ph-topological-phases-of-matter",
+          "why": "Elective: Berry curvature, topological insulators, Majoranas and topological order.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-fiber-bundles",
+          "why": "Elective: gauge fields are connections on principal bundles; this is the geometry behind Yang-Mills and anomalies.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-quantum-information-science",
+          "why": "Elective: entanglement and quantum information are now central tools in many-body physics and quantum gravity.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-astronomy",
+          "why": "Elective: the observational picture needed before cosmology.",
+          "depth": "selected",
+          "focus": [
+            "ph-introductory-astronomy-1",
+            "ph-introductory-astronomy-8",
+            "ph-introductory-astronomy-9",
+            "ph-introductory-astronomy-13",
+            "ph-introductory-astronomy-15",
+            "ph-introductory-astronomy-16"
+          ]
+        },
+        {
+          "chapter": "ph-astrophysics",
+          "why": "Elective: stars, compact objects and galaxies, as background for cosmology.",
+          "depth": "selected",
+          "focus": [
+            "ph-astrophysics-15",
+            "ph-astrophysics-16",
+            "ph-astrophysics-1",
+            "ph-astrophysics-2",
+            "ph-astrophysics-3",
+            "ph-astrophysics-4",
+            "ph-astrophysics-5"
+          ]
+        },
+        {
+          "chapter": "ph-cosmology",
+          "why": "Elective: Friedmann equations, the thermal history, the CMB, inflation, dark matter and dark energy.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-advanced-cosmology",
+          "why": "Elective: cosmological perturbation theory and the growth of large-scale structure.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-black-hole-physics",
+          "why": "Elective: black hole thermodynamics, Hawking radiation and the information paradox.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-string-theory",
+          "why": "Elective: the Polyakov string, conformal field theory, D-branes, dualities and holography.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-quantum-gravity",
+          "why": "Elective: loop quantum gravity, spin foams, AdS/CFT and the holographic principle.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-philosophy-of-physics",
+          "why": "Elective: the interpretation of quantum mechanics, spacetime and the meaning of physical laws.",
+          "depth": "full"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "quantum",
+    "cosmos",
+    "data-scientist"
+  ]
 }

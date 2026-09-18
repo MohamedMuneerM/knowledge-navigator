@@ -2,9 +2,570 @@
   "id": "data-scientist",
   "name": "Data Scientist",
   "icon": "📊",
-  "tagline": "",
-  "description": "",
-  "outcomes": [],
-  "stages": [],
-  "related": []
+  "tagline": "Turn messy data into sound conclusions and models, with statistics as the backbone.",
+  "description": "For adults who want to become data scientists who can defend their answers, not just run libraries. The route builds the maths and Python/SQL toolkit, then a solid core of probability, inference, regression and Bayesian statistics, before moving on to experiments, causal inference, time series, machine learning, data engineering and communicating results to decision-makers.",
+  "outcomes": [
+    "Clean, join and explore real datasets with Python, pandas and SQL, and summarise them in honest, readable charts",
+    "Choose and run the right statistical test, confidence interval or regression model, and state its assumptions",
+    "Design an A/B test with proper power and randomisation, and estimate causal effects from observational data",
+    "Build, tune and validate machine-learning models (linear models, trees and ensembles, clustering) without leaking information from the test set",
+    "Forecast time series and quantify the uncertainty in those forecasts",
+    "Take a model from notebook to a reproducible pipeline on warehouse or Spark-scale data",
+    "Present findings to non-specialists as a clear recommendation with caveats"
+  ],
+  "stages": [
+    {
+      "name": "Mathematical foundations",
+      "description": "The algebra, functions, calculus and linear algebra that every statistical and ML method is written in.",
+      "items": [
+        {
+          "chapter": "ma-arithmetic-pre-algebra",
+          "why": "Fractions, percentages and ratios are the everyday language of data reports.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-intermediate-algebra",
+          "why": "Rearranging formulas and working with functions underlies every model equation you will read.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-euclidean-geometry",
+          "why": "Only the essentials needed for trigonometry and for thinking of data as points in space.",
+          "depth": "selected",
+          "focus": [
+            "ma-euclidean-geometry-5",
+            "ma-euclidean-geometry-7",
+            "ma-euclidean-geometry-3",
+            "ma-euclidean-geometry-11"
+          ]
+        },
+        {
+          "chapter": "ma-trigonometry",
+          "why": "A short pass: radians, the unit circle and periodic functions, which return in seasonality and Fourier features.",
+          "depth": "selected",
+          "focus": [
+            "ma-trigonometry-1",
+            "ma-trigonometry-3",
+            "ma-trigonometry-4",
+            "ma-trigonometry-7"
+          ]
+        },
+        {
+          "chapter": "ma-precalculus",
+          "why": "Exponentials, logarithms and function transformations appear constantly in growth models and log-scaled data.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-analytic-geometry",
+          "why": "Coordinates, lines, planes and vectors in 3D give the geometric picture of regression and distances.",
+          "depth": "selected",
+          "focus": [
+            "ma-analytic-geometry-4",
+            "ma-analytic-geometry-5",
+            "ma-analytic-geometry-6"
+          ]
+        },
+        {
+          "chapter": "ma-calculus",
+          "why": "Derivatives and integrals define densities, expectations and the loss minimisation behind model fitting.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-sequences-series",
+          "why": "Taylor approximations and convergence justify many statistical approximations and asymptotic results.",
+          "depth": "selected",
+          "focus": [
+            "ma-sequences-series-1",
+            "ma-sequences-series-2",
+            "ma-sequences-series-7",
+            "ma-sequences-series-9",
+            "ma-sequences-series-10"
+          ]
+        },
+        {
+          "chapter": "ma-multivariable-calculus",
+          "why": "Gradients, Lagrange multipliers and multiple integrals are how multi-parameter models are fitted and how joint distributions work.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-linear-algebra",
+          "why": "Datasets are matrices: least squares, PCA and most of ML are linear algebra.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-introduction-to-proofs",
+          "why": "Reading a derivation carefully is what separates understanding a method from copying it.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Programming & data tooling",
+      "description": "Python, the command line, Git and the core data libraries you will use every day.",
+      "items": [
+        {
+          "chapter": "cs-computational-thinking",
+          "why": "Breaking a question into steps a computer can execute is the first data-science skill.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-programming-fundamentals",
+          "why": "Python is the main language of data science; this is where fluency starts.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-command-line-shell",
+          "why": "Moving files, running scripts and inspecting large data files happens in the shell.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-version-control-git",
+          "why": "Reproducible analysis means versioned code; teams review and share work through Git.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-program-design",
+          "why": "Functions, tests and modular code turn throwaway notebooks into analyses others can rerun.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-discrete-mathematics",
+          "why": "Logic, sets, counting and discrete probability, which you need for combinatorial probability and algorithms.",
+          "depth": "selected",
+          "focus": [
+            "cs-discrete-mathematics-1",
+            "cs-discrete-mathematics-2",
+            "cs-discrete-mathematics-5",
+            "cs-discrete-mathematics-8",
+            "cs-discrete-mathematics-9",
+            "cs-discrete-mathematics-11",
+            "cs-discrete-mathematics-15"
+          ]
+        },
+        {
+          "chapter": "cs-data-structures",
+          "why": "Hash tables, trees and big-O thinking explain why some pandas and SQL operations are fast and others crawl.",
+          "depth": "selected",
+          "focus": [
+            "cs-data-structures-2",
+            "cs-data-structures-3",
+            "cs-data-structures-6",
+            "cs-data-structures-7",
+            "cs-data-structures-10",
+            "cs-data-structures-12",
+            "cs-data-structures-15"
+          ]
+        },
+        {
+          "chapter": "ai-programming-tools",
+          "why": "NumPy, pandas, scikit-learn, Jupyter and plotting libraries are the data scientist's workbench.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Probability & statistics core",
+      "description": "The heart of the roadmap: probability, estimation, testing, regression and Bayesian reasoning.",
+      "items": [
+        {
+          "chapter": "ma-descriptive-statistics",
+          "why": "Means, spreads, quantiles and correlation are the first look at any dataset.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-probability",
+          "why": "Conditional probability and Bayes' rule are the logic of reasoning under uncertainty.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-probability-theory",
+          "why": "Random variables, distributions, expectation and the CLT are the objects all of statistics is about.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-probability-statistics-for-cs",
+          "why": "A computational view of probability: simulation, bootstrapping and A/B tests in code.",
+          "depth": "selected",
+          "focus": [
+            "cs-probability-statistics-for-cs-7",
+            "cs-probability-statistics-for-cs-8",
+            "cs-probability-statistics-for-cs-9",
+            "cs-probability-statistics-for-cs-10",
+            "cs-probability-statistics-for-cs-11",
+            "cs-probability-statistics-for-cs-12",
+            "cs-probability-statistics-for-cs-15"
+          ]
+        },
+        {
+          "chapter": "ma-inferential-statistics",
+          "why": "Sampling distributions, confidence intervals and hypothesis tests are how you generalise from data to a population.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-regression-analysis",
+          "why": "Linear and generalised linear regression is the most-used modelling tool in data science.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-real-analysis",
+          "why": "Just enough rigour on limits and convergence to follow mathematical statistics.",
+          "depth": "selected",
+          "focus": [
+            "ma-real-analysis-7",
+            "ma-real-analysis-1",
+            "ma-real-analysis-2",
+            "ma-real-analysis-4",
+            "ma-real-analysis-6"
+          ]
+        },
+        {
+          "chapter": "ma-mathematical-statistics",
+          "why": "Likelihood, sufficiency, estimator properties and asymptotics explain why the standard methods work.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-bayesian-statistics",
+          "why": "Priors, posteriors and hierarchical models let you combine evidence and quantify uncertainty directly.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-nonparametric-statistics",
+          "why": "Rank tests and distribution-free methods handle skewed, messy real-world data safely.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-multivariate-statistics",
+          "why": "Covariance matrices, PCA and multivariate tests handle many correlated variables at once.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-monte-carlo-methods",
+          "why": "Simulation, resampling and MCMC are how modern statistics computes what formulas cannot.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Data wrangling, SQL & exploration",
+      "description": "Getting data out of databases, understanding it before you model it, and showing it honestly.",
+      "items": [
+        {
+          "chapter": "cs-databases",
+          "why": "SQL and relational modelling: most business data lives in relational databases.",
+          "depth": "selected",
+          "focus": [
+            "cs-databases-2",
+            "cs-databases-4",
+            "cs-databases-5",
+            "cs-databases-6",
+            "cs-databases-7",
+            "cs-databases-8"
+          ]
+        },
+        {
+          "chapter": "ai-databases",
+          "why": "Window functions, NoSQL and vector stores round out how analysts query real systems.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-mathematics-statistics",
+          "why": "A practitioner's recap that ties the maths so far to day-to-day data work.",
+          "depth": "selected",
+          "focus": [
+            "ai-mathematics-statistics-4",
+            "ai-mathematics-statistics-5",
+            "ai-mathematics-statistics-6"
+          ]
+        },
+        {
+          "chapter": "ai-exploratory-data-analysis-eda",
+          "why": "Profiling, distributions, missing values and outliers: most insight and most bugs are found here.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-hci",
+          "why": "Perception and cognition limits explain why some charts mislead; controlled experiments in HCI mirror A/B testing.",
+          "depth": "selected",
+          "focus": [
+            "cs-hci-2",
+            "cs-hci-10",
+            "cs-hci-14"
+          ]
+        },
+        {
+          "chapter": "cs-information-visualization",
+          "why": "Visual encoding, colour, dashboards and avoiding misleading charts are central to data communication.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Experiments, causality & time",
+      "description": "Answering \"did it work?\" and \"what happens next?\", the questions businesses actually ask.",
+      "items": [
+        {
+          "chapter": "ma-experimental-design",
+          "why": "Randomisation, blocking, factorial designs and power analysis are the science behind A/B testing.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-causal-inference",
+          "why": "Potential outcomes, confounding, matching and instrumental variables let you estimate effects without an experiment.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-time-series-analysis",
+          "why": "Autocorrelation, stationarity and ARIMA-style models are needed for sales, traffic and sensor data.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Machine learning",
+      "description": "Predictive modelling done carefully: from the learning setup to trees, ensembles, clustering and honest evaluation.",
+      "items": [
+        {
+          "chapter": "ai-introduction-to-ai-ml",
+          "why": "A quick orientation to what ML can and cannot do before going deep.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-core-ai-concepts",
+          "why": "A light pass on the paradigms of AI, so you know where ML sits.",
+          "depth": "selected",
+          "focus": [
+            "ai-core-ai-concepts-1",
+            "ai-core-ai-concepts-3"
+          ]
+        },
+        {
+          "chapter": "ai-core-ml-concepts",
+          "why": "Bias-variance, cross-validation, regularisation and metrics are the discipline of predictive modelling.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-data-preprocessing-feature-engineering",
+          "why": "Encoding, scaling, imputation and feature construction often matter more than the choice of algorithm.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-types-of-machine-learning",
+          "why": "Regression, classification, clustering and anomaly detection: the task taxonomy you map problems onto.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-foundations-of-machine-learning",
+          "why": "The statistical framing of learning, risk and generalisation, linking ML back to inference.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-linear-methods",
+          "why": "Ridge, lasso, logistic regression and LDA are strong, interpretable baselines that are hard to beat.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-ensemble-methods",
+          "why": "Random forests and gradient boosting win most tabular-data problems.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-ml-experimentation-evaluation",
+          "why": "Leakage-free validation, proper baselines and statistical comparison of models keep results trustworthy.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-dimensionality-reduction",
+          "why": "PCA, t-SNE and UMAP for visualising and compressing high-dimensional data.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-data-mining",
+          "why": "Clustering, association rules and pattern discovery in large tables.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-anomaly-detection",
+          "why": "Fraud, defects and outages are all rare-event detection problems.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-neural-network-foundations",
+          "why": "Enough deep learning to know when a neural network is worth it over boosted trees.",
+          "depth": "selected",
+          "focus": [
+            "ai-neural-network-foundations-2",
+            "ai-neural-network-foundations-4",
+            "ai-neural-network-foundations-5",
+            "ai-neural-network-foundations-6",
+            "ai-neural-network-foundations-7",
+            "ai-neural-network-foundations-12"
+          ]
+        },
+        {
+          "chapter": "ai-interpretability-explainability-xai",
+          "why": "Feature attribution (SHAP), interpretable models and counterfactuals let you explain a model to stakeholders and regulators.",
+          "depth": "selected",
+          "focus": [
+            "ai-interpretability-explainability-xai-9",
+            "ai-interpretability-explainability-xai-1",
+            "ai-interpretability-explainability-xai-4",
+            "ai-interpretability-explainability-xai-10"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Applied modelling: forecasting, causal ML & recommendation",
+      "description": "Combining statistics and ML on the problems data scientists are most often hired to solve.",
+      "items": [
+        {
+          "chapter": "ai-time-series-forecasting",
+          "why": "ML forecasting (feature-based, boosted and neural) builds on classical time-series models for demand and capacity planning.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-probabilistic-ai",
+          "why": "Graphical models and Bayesian reasoning are the language that causal ML is written in.",
+          "depth": "selected",
+          "focus": [
+            "ai-probabilistic-ai-1",
+            "ai-probabilistic-ai-2",
+            "ai-probabilistic-ai-3",
+            "ai-probabilistic-ai-4",
+            "ai-probabilistic-ai-5"
+          ]
+        },
+        {
+          "chapter": "ai-causal-inference",
+          "why": "Causal ML methods (uplift, double ML, heterogeneous treatment effects) target interventions at the right people.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-recommender-systems",
+          "why": "Collaborative filtering and ranking power a large share of commercial data science.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Data engineering, big data & production",
+      "description": "Getting data and models out of notebooks and into reliable pipelines.",
+      "items": [
+        {
+          "chapter": "ai-data-engineering",
+          "why": "Pipelines, warehouses, data modelling and data quality: the infrastructure your analyses depend on.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-big-data-technologies",
+          "why": "Spark and streaming tools for data that does not fit on one machine.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-ml-lifecycle-management",
+          "why": "Experiment tracking, versioning and reproducibility for models that must be retrained and audited.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-model-deployment",
+          "why": "Batch scoring and model APIs are how predictions actually reach a business process.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Communication, ethics & business impact",
+      "description": "Turning analysis into decisions, responsibly.",
+      "items": [
+        {
+          "chapter": "ai-business-analytics",
+          "why": "A/B platforms, customer, marketing and product analytics: where statistical skill turns into business value.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-professional-practice",
+          "why": "Writing clear reports and explaining technical results to non-specialists.",
+          "depth": "selected",
+          "focus": [
+            "cs-professional-practice-1",
+            "cs-professional-practice-2",
+            "cs-professional-practice-3",
+            "cs-professional-practice-8"
+          ]
+        },
+        {
+          "chapter": "cs-computing-ethics",
+          "why": "Privacy, bias and accountability in the use of personal data.",
+          "depth": "selected",
+          "focus": [
+            "cs-computing-ethics-1",
+            "cs-computing-ethics-3",
+            "cs-computing-ethics-4",
+            "cs-computing-ethics-12"
+          ]
+        },
+        {
+          "chapter": "ai-fairness-in-ml",
+          "why": "Measuring and mitigating unfair outcomes is now part of shipping any model that affects people.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Electives: specialisations",
+      "description": "Optional directions to take once the core is solid.",
+      "items": [
+        {
+          "chapter": "ma-econometrics",
+          "why": "Elective: panel data, IV and difference-in-differences for economics, policy and pricing work.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-biostatistics",
+          "why": "Elective: survival analysis and clinical-trial methods for health and pharma data science.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-stochastic-processes",
+          "why": "Elective: Markov chains, Poisson processes and Gaussian processes for queueing, churn and spatial models.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-probabilistic-models",
+          "why": "Elective: graphical models, hidden Markov models, EM and Gaussian processes for richer probabilistic modelling.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-text-preprocessing",
+          "why": "Elective: tokenising and cleaning text, the first step in analysing reviews, tickets and surveys.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-traditional-nlp-techniques",
+          "why": "Elective: bag-of-words, TF-IDF and topic models for text analytics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-deep-learning-frameworks",
+          "why": "Elective: PyTorch or TensorFlow for when neural networks are the right tool.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-monitoring-maintenance",
+          "why": "Elective: detecting data drift and model decay once models are live.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-privacy-in-ai",
+          "why": "Elective: differential privacy and anonymisation for working with sensitive personal data.",
+          "depth": "full"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "ai-engineer",
+    "software-engineer",
+    "quantum"
+  ]
 }

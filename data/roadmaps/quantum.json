@@ -1,10 +1,637 @@
 {
   "id": "quantum",
-  "name": "Quantum Computing & Technology",
+  "name": "Quantum Computing & Quantum Technology",
   "icon": "⚛️",
-  "tagline": "",
-  "description": "",
-  "outcomes": [],
-  "stages": [],
-  "related": []
+  "tagline": "From complex numbers to qubits, lasers, cold atoms and quantum sensors.",
+  "description": "For adult learners who want to really understand quantum computers and quantum technologies, from the physics up, rather than treating them as black boxes. The route goes from linear algebra and classical physics through quantum mechanics into quantum information, algorithms and error correction, then into the hardware: quantum optics, cold atoms, superconducting and semiconductor platforms, sensing and communication.",
+  "outcomes": [
+    "Describe qubits, entanglement and measurement with state vectors, density matrices and Dirac notation",
+    "Build and simulate quantum circuits, and explain how Deutsch-Jozsa, Grover, the quantum Fourier transform and Shor's algorithm work",
+    "Explain how quantum error correction protects information, starting from classical linear codes",
+    "Compare superconducting, trapped-ion, neutral-atom, spin and photonic qubits, and the lasers, cryogenics and control electronics each one needs",
+    "Explain how atomic clocks, atom interferometers and quantum magnetometers beat classical sensitivity limits",
+    "Assess what quantum computers mean for cryptography, and how QKD and post-quantum cryptography respond"
+  ],
+  "stages": [
+    {
+      "name": "Mathematical foundations",
+      "description": "Complex numbers, linear algebra, calculus and probability: quantum mechanics is written in these.",
+      "items": [
+        {
+          "chapter": "ma-arithmetic-pre-algebra",
+          "why": "The number sense everything else rests on.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-intermediate-algebra",
+          "why": "Symbol manipulation is the daily work of every quantum calculation.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-euclidean-geometry",
+          "why": "The geometry needed for trigonometry and for picturing rotations of the Bloch sphere.",
+          "depth": "selected",
+          "focus": [
+            "ma-euclidean-geometry-5",
+            "ma-euclidean-geometry-7",
+            "ma-euclidean-geometry-9",
+            "ma-euclidean-geometry-11"
+          ]
+        },
+        {
+          "chapter": "ma-trigonometry",
+          "why": "Qubit states and rotation gates are parameterised by angles; sines and cosines are everywhere.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-precalculus",
+          "why": "Complex numbers in polar form and exponentials are the raw material of quantum amplitudes and phases.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-analytic-geometry",
+          "why": "Polar coordinates and 3D vectors, used for the Bloch sphere and for physics generally.",
+          "depth": "selected",
+          "focus": [
+            "ma-analytic-geometry-3",
+            "ma-analytic-geometry-5",
+            "ma-analytic-geometry-6",
+            "ma-analytic-geometry-7"
+          ]
+        },
+        {
+          "chapter": "ma-calculus",
+          "why": "Time evolution, wavefunctions and expectation values all need derivatives and integrals.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-sequences-series",
+          "why": "Power series define the matrix exponential that turns Hamiltonians into gates.",
+          "depth": "selected",
+          "focus": [
+            "ma-sequences-series-1",
+            "ma-sequences-series-2",
+            "ma-sequences-series-7",
+            "ma-sequences-series-9",
+            "ma-sequences-series-10",
+            "ma-sequences-series-12"
+          ]
+        },
+        {
+          "chapter": "ma-multivariable-calculus",
+          "why": "Wavefunctions live in 3D space; you need partial derivatives and multiple integrals.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-vector-calculus",
+          "why": "Maxwell's equations, and therefore light and microwave control of qubits, are written in vector calculus.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-ordinary-differential-equations-odes",
+          "why": "The Schrödinger equation and Rabi oscillations are differential equations.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-linear-algebra",
+          "why": "The single most important tool: states are vectors, gates are unitary matrices, observables are Hermitian operators.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-mathematical-methods",
+          "why": "Fourier analysis, eigenfunction expansions and special functions solve the standard quantum problems.",
+          "depth": "selected",
+          "focus": [
+            "ma-mathematical-methods-1",
+            "ma-mathematical-methods-2",
+            "ma-mathematical-methods-3",
+            "ma-mathematical-methods-5",
+            "ma-mathematical-methods-7",
+            "ma-mathematical-methods-8",
+            "ma-mathematical-methods-12"
+          ]
+        },
+        {
+          "chapter": "ma-elementary-probability",
+          "why": "Measurement outcomes are probabilistic; the Born rule assigns them probabilities.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-probability-theory",
+          "why": "Distributions, expectation and variance underpin measurement statistics, sampling and noise.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-introduction-to-proofs",
+          "why": "Quantum information theory is proof-based; this lets you follow the arguments.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Programming for quantum",
+      "description": "Python, scientific computing and algorithmic thinking, which you need to simulate circuits and understand quantum speed-ups.",
+      "items": [
+        {
+          "chapter": "cs-computational-thinking",
+          "why": "Framing problems as algorithms is the starting point for understanding quantum algorithms.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-programming-fundamentals",
+          "why": "Python is the language of Qiskit, Cirq and most quantum software.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-program-design",
+          "why": "Structured, tested code for simulations and experiments you can trust.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-programming-tools",
+          "why": "NumPy and notebooks are how you simulate small quantum systems as matrices.",
+          "depth": "selected",
+          "focus": [
+            "ai-programming-tools-5",
+            "ai-programming-tools-1",
+            "ai-programming-tools-2",
+            "ai-programming-tools-3"
+          ]
+        },
+        {
+          "chapter": "cs-discrete-mathematics",
+          "why": "Logic, modular arithmetic and asymptotic notation, used to reason about algorithms and complexity.",
+          "depth": "selected",
+          "focus": [
+            "cs-discrete-mathematics-1",
+            "cs-discrete-mathematics-3",
+            "cs-discrete-mathematics-4",
+            "cs-discrete-mathematics-5",
+            "cs-discrete-mathematics-8",
+            "cs-discrete-mathematics-11",
+            "cs-discrete-mathematics-12"
+          ]
+        },
+        {
+          "chapter": "cs-data-structures",
+          "why": "Just enough to support the algorithms course.",
+          "depth": "selected",
+          "focus": [
+            "cs-data-structures-1",
+            "cs-data-structures-2",
+            "cs-data-structures-3",
+            "cs-data-structures-6",
+            "cs-data-structures-7",
+            "cs-data-structures-12"
+          ]
+        },
+        {
+          "chapter": "cs-algorithms",
+          "why": "Classical complexity, divide-and-conquer and NP-hardness are the baseline any quantum speed-up is measured against.",
+          "depth": "selected",
+          "focus": [
+            "cs-algorithms-2",
+            "cs-algorithms-3",
+            "cs-algorithms-5",
+            "cs-algorithms-7",
+            "cs-algorithms-13",
+            "cs-algorithms-15",
+            "cs-algorithms-16"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Classical physics toolkit",
+      "description": "Mechanics, waves, electromagnetism and optics: the classical physics that quantum theory extends.",
+      "items": [
+        {
+          "chapter": "ph-measurement-units-vectors",
+          "why": "Units, estimates and vectors, the working habits of physics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-mechanics",
+          "why": "Energy, momentum and oscillators come back directly in quantum mechanics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-heat-thermodynamics",
+          "why": "Temperature and heat matter for qubits that must be kept near absolute zero.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-waves-sound-light",
+          "why": "Interference and superposition of waves are the intuition behind quantum amplitudes.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-electricity-magnetism",
+          "why": "Charges, fields and circuits, the basis of superconducting and ion-trap hardware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-classical-mechanics",
+          "why": "Hamiltonian mechanics is the direct template for quantum mechanics.",
+          "depth": "selected",
+          "focus": [
+            "ph-classical-mechanics-4",
+            "ph-classical-mechanics-5",
+            "ph-classical-mechanics-6",
+            "ph-classical-mechanics-9",
+            "ph-classical-mechanics-7",
+            "ph-classical-mechanics-12",
+            "ph-classical-mechanics-22",
+            "ph-classical-mechanics-13",
+            "ph-classical-mechanics-23"
+          ]
+        },
+        {
+          "chapter": "ph-waves-oscillations",
+          "why": "Normal modes and the harmonic oscillator are the models behind cavity photons and phonons.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-classical-electromagnetism",
+          "why": "Maxwell's equations describe the lasers and microwaves used to control and read out qubits.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-special-relativity",
+          "why": "Just the essentials needed for advanced quantum mechanics and the photon.",
+          "depth": "selected",
+          "focus": [
+            "ph-special-relativity-1",
+            "ph-special-relativity-2",
+            "ph-special-relativity-4",
+            "ph-special-relativity-5",
+            "ph-special-relativity-7",
+            "ph-special-relativity-8"
+          ]
+        },
+        {
+          "chapter": "ph-classical-optics",
+          "why": "Interference, polarisation, coherence and cavities are the everyday tools of photonic quantum technology.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Quantum mechanics",
+      "description": "The physical theory itself, from wave-particle duality to open systems.",
+      "items": [
+        {
+          "chapter": "ph-modern-physics",
+          "why": "Photons, spectra and the uncertainty principle: the experiments that forced quantum theory on us.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-quantum-mechanics",
+          "why": "Dirac notation, spin, two-state systems, entanglement, density matrices and decoherence: the core of everything that follows.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-thermodynamics-statistical-mechanics",
+          "why": "Entropy, ensembles and fluctuations explain thermal noise, cooling and information entropy.",
+          "depth": "selected",
+          "focus": [
+            "ph-thermodynamics-statistical-mechanics-1",
+            "ph-thermodynamics-statistical-mechanics-4",
+            "ph-thermodynamics-statistical-mechanics-5",
+            "ph-thermodynamics-statistical-mechanics-10",
+            "ph-thermodynamics-statistical-mechanics-11",
+            "ph-thermodynamics-statistical-mechanics-13",
+            "ph-thermodynamics-statistical-mechanics-16"
+          ]
+        },
+        {
+          "chapter": "ph-advanced-quantum-mechanics",
+          "why": "Pictures of time evolution, perturbation theory, photon quantisation and open-system master equations model real, noisy qubits.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Quantum information & quantum computing",
+      "description": "Qubits, gates, circuits, algorithms and quantum information theory.",
+      "items": [
+        {
+          "chapter": "ma-quantum-computation-theory",
+          "why": "The mathematical model of quantum computation: tensor products, circuits, algorithms, error correction and complexity classes.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-quantum-information-science",
+          "why": "The physicist's view: algorithms, communication, cryptography, error correction and the first hardware platforms.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-quantum-computing",
+          "why": "The programmer's view: Deutsch-Jozsa to Shor and Grover, Qiskit and Cirq, NISQ variational algorithms.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-information-theory",
+          "why": "Shannon entropy, mutual information and channel capacity, which quantum information theory generalises.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Error correction: the algebra behind fault tolerance",
+      "description": "The abstract algebra and classical coding theory that quantum error-correcting codes build on.",
+      "items": [
+        {
+          "chapter": "ma-abstract-algebra",
+          "why": "Groups, rings and fields: the language of stabiliser codes and the Pauli group.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-group-theory",
+          "why": "Group actions and abelian groups, which underpin the stabiliser formalism and the hidden subgroup problem.",
+          "depth": "selected",
+          "focus": [
+            "ma-group-theory-1",
+            "ma-group-theory-2",
+            "ma-group-theory-3",
+            "ma-group-theory-8",
+            "ma-group-theory-9",
+            "ma-group-theory-10"
+          ]
+        },
+        {
+          "chapter": "ma-ring-theory",
+          "why": "Polynomial rings and ideals, needed to construct finite fields and cyclic codes.",
+          "depth": "selected",
+          "focus": [
+            "ma-ring-theory-1",
+            "ma-ring-theory-6",
+            "ma-ring-theory-7",
+            "ma-ring-theory-8",
+            "ma-ring-theory-5"
+          ]
+        },
+        {
+          "chapter": "ma-field-theory",
+          "why": "Finite fields are the arithmetic of classical codes and of CSS quantum codes.",
+          "depth": "selected",
+          "focus": [
+            "ma-field-theory-1",
+            "ma-field-theory-6",
+            "ma-field-theory-3"
+          ]
+        },
+        {
+          "chapter": "ma-algebraic-coding-theory",
+          "why": "Linear, cyclic and BCH codes are the direct ancestors of CSS and stabiliser quantum codes.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-error-correcting-codes",
+          "why": "Hamming and LDPC codes and their decoders, whose ideas carry into quantum LDPC and surface-code decoding.",
+          "depth": "selected",
+          "focus": [
+            "ma-error-correcting-codes-4",
+            "ma-error-correcting-codes-1",
+            "ma-error-correcting-codes-3",
+            "ma-error-correcting-codes-5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quantum optics & atomic physics",
+      "description": "Light and atoms as quantum systems, the basis of trapped-ion, neutral-atom and photonic platforms.",
+      "items": [
+        {
+          "chapter": "ph-atomic-physics",
+          "why": "Fine and hyperfine structure define the qubit levels in ions and neutral atoms, and the transitions in atomic clocks.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-laser-physics",
+          "why": "Lasers cool, trap, manipulate and read out atomic qubits; frequency stabilisation is critical.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-quantum-optics",
+          "why": "Single photons, coherent and squeezed states and cavity QED underlie photonic qubits and quantum networks.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-atom-light-interaction-laser-cooling",
+          "why": "Rabi oscillations, optical Bloch equations and ion or atom traps are how gates are actually applied.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-cold-atom-physics",
+          "why": "Optical lattices, BECs and atom interferometry power neutral-atom quantum simulators and inertial sensors.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Quantum hardware platforms & the lab",
+      "description": "Materials, cryogenics, electronics and measurement: what it takes to build and run a quantum device.",
+      "items": [
+        {
+          "chapter": "ph-solid-state-physics",
+          "why": "Superconductivity, semiconductors, magnetism and the quantum Hall effect are the physics of solid-state qubits.",
+          "depth": "selected",
+          "focus": [
+            "ph-solid-state-physics-1",
+            "ph-solid-state-physics-4",
+            "ph-solid-state-physics-8",
+            "ph-solid-state-physics-13",
+            "ph-solid-state-physics-5",
+            "ph-solid-state-physics-11",
+            "ph-solid-state-physics-18",
+            "ph-solid-state-physics-19"
+          ]
+        },
+        {
+          "chapter": "ph-cryophysics",
+          "why": "Dilution refrigerators and low-temperature physics keep superconducting and spin qubits coherent.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-data-analysis-statistics",
+          "why": "Fitting, uncertainty and Bayesian estimation are needed for characterising qubits and gate fidelities.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-electronics-for-physicists",
+          "why": "Amplifiers, lock-in detection and ADCs are the backbone of qubit control and readout chains.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-measurement-instrumentation",
+          "why": "Noise sources, signal recovery and feedback control are central to qubit readout and laser locking.",
+          "depth": "selected",
+          "focus": [
+            "ph-measurement-instrumentation-1",
+            "ph-measurement-instrumentation-2",
+            "ph-measurement-instrumentation-3",
+            "ph-measurement-instrumentation-8",
+            "ph-measurement-instrumentation-4",
+            "ph-measurement-instrumentation-5"
+          ]
+        },
+        {
+          "chapter": "ph-vacuum-cryogenic-systems",
+          "why": "Ultra-high vacuum for ion and atom traps and cryogenic setups for solid-state qubits.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-intro-to-materials",
+          "why": "A short orientation to material classes before the device-physics chain.",
+          "depth": "selected",
+          "focus": [
+            "mt-intro-to-materials-1",
+            "mt-intro-to-materials-3",
+            "mt-intro-to-materials-4"
+          ]
+        },
+        {
+          "chapter": "ch-introductory-chemistry",
+          "why": "Just enough chemistry (atoms, the periodic table, bonding) to follow materials science.",
+          "depth": "selected",
+          "focus": [
+            "ch-introductory-chemistry-4",
+            "ch-introductory-chemistry-5",
+            "ch-introductory-chemistry-6"
+          ]
+        },
+        {
+          "chapter": "mt-atomic-bonding",
+          "why": "Bonding and energy bands, which explain why silicon and superconductors behave as they do.",
+          "depth": "selected",
+          "focus": [
+            "mt-atomic-bonding-1",
+            "mt-atomic-bonding-2",
+            "mt-atomic-bonding-4",
+            "mt-atomic-bonding-5",
+            "mt-atomic-bonding-9"
+          ]
+        },
+        {
+          "chapter": "el-electrical-materials",
+          "why": "Dielectric loss and superconducting materials limit qubit coherence.",
+          "depth": "selected",
+          "focus": [
+            "el-electrical-materials-2",
+            "el-electrical-materials-4",
+            "el-electrical-materials-8",
+            "el-electrical-materials-9"
+          ]
+        },
+        {
+          "chapter": "el-semiconductor-physics",
+          "why": "Band structure, doping and heterojunctions are the basis of spin qubits, quantum dots and single-photon detectors.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-semiconductor-devices",
+          "why": "MOS structures and compound-semiconductor devices are where silicon spin qubits and cryo-CMOS control chips come from.",
+          "depth": "selected",
+          "focus": [
+            "el-semiconductor-devices-1",
+            "el-semiconductor-devices-3",
+            "el-semiconductor-devices-4",
+            "el-semiconductor-devices-8",
+            "el-semiconductor-devices-9"
+          ]
+        },
+        {
+          "chapter": "el-quantum-technologies",
+          "why": "Brings it together: qubit platforms, microwave control and readout, cryo-CMOS, QRNGs and post-quantum crypto.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Quantum sensing, communication & security",
+      "description": "Where quantum technology is already useful: precision measurement and secure communication.",
+      "items": [
+        {
+          "chapter": "ph-quantum-sensing-metrology",
+          "why": "Atomic clocks, magnetometers and gravimeters are the most mature quantum technologies.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-number-theory",
+          "why": "Modular arithmetic, orders and primitive roots, which are exactly what Shor's algorithm exploits.",
+          "depth": "selected",
+          "focus": [
+            "ma-elementary-number-theory-1",
+            "ma-elementary-number-theory-3",
+            "ma-elementary-number-theory-7",
+            "ma-elementary-number-theory-2",
+            "ma-elementary-number-theory-4",
+            "ma-elementary-number-theory-5",
+            "ma-elementary-number-theory-9",
+            "ma-elementary-number-theory-10",
+            "ma-elementary-number-theory-12"
+          ]
+        },
+        {
+          "chapter": "ma-cryptographic-number-theory",
+          "why": "RSA, discrete logs and lattices: what Shor breaks and what post-quantum cryptography replaces it with.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "description": "Optional deepening in simulation, exotic qubits and quantum machine learning.",
+      "items": [
+        {
+          "chapter": "ph-computational-physics",
+          "why": "Elective: numerical linear algebra, Monte Carlo and PDE solvers for simulating quantum systems classically.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-topological-phases-of-matter",
+          "why": "Elective: Majorana modes and topological order, the physics behind topological qubits.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-introduction-to-ai-ml",
+          "why": "Elective: orientation before quantum machine learning.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-mathematics-statistics",
+          "why": "Elective: a quick recap of the statistics used in ML.",
+          "depth": "selected",
+          "focus": [
+            "ai-mathematics-statistics-3",
+            "ai-mathematics-statistics-4",
+            "ai-mathematics-statistics-5"
+          ]
+        },
+        {
+          "chapter": "ai-core-ml-concepts",
+          "why": "Elective: losses, overfitting and cross-validation, needed to judge claims about quantum ML.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-types-of-machine-learning",
+          "why": "Elective: the classical tasks that quantum ML tries to speed up.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-quantum-machine-learning",
+          "why": "Elective: variational circuits, quantum kernels and quantum optimisation, with an honest look at where any advantage might come from.",
+          "depth": "full"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "theoretical-physicist",
+    "ai-engineer",
+    "software-engineer",
+    "data-scientist"
+  ]
 }

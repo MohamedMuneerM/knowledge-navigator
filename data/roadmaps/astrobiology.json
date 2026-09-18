@@ -2,9 +2,716 @@
   "id": "astrobiology",
   "name": "Astrobiology & Life in the Universe",
   "icon": "👽",
-  "tagline": "",
-  "description": "",
-  "outcomes": [],
-  "stages": [],
-  "related": []
+  "tagline": "How life began, where else it could exist, and how we would recognise it.",
+  "description": "For anyone drawn to the biggest open question in science: are we alone? Astrobiology borrows from biology, chemistry, geology and astronomy, so you build a working base in each, then follow life from its chemical origins and its limits on Earth out to Mars, the ocean moons and the atmospheres of exoplanets, ending with how missions search for biosignatures.",
+  "outcomes": [
+    "Explain the leading hypotheses for the origin of life, from prebiotic chemistry to the RNA world and the last universal common ancestor",
+    "Describe how extremophiles and microbial metabolisms set the physical and chemical limits of life",
+    "Read the rock record for evidence of early life, using isotopes, fossils and the co-evolution of Earth and its biosphere",
+    "Assess the habitability of Mars, Europa, Enceladus, Titan and exoplanets from their geology, energy sources and atmospheres",
+    "Evaluate proposed biosignatures, including their false positives, and how missions and telescopes try to detect them",
+    "Follow and critically read current astrobiology research and mission results"
+  ],
+  "stages": [
+    {
+      "name": "Mathematical foundations",
+      "description": "The algebra, geometry, probability and calculus that the physical and life sciences use.",
+      "items": [
+        {
+          "chapter": "ma-arithmetic-pre-algebra",
+          "why": "Ratios, powers and scientific notation, from cell sizes to interstellar distances.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-intermediate-algebra",
+          "why": "Rearranging formulas for rates, concentrations and energies is basic algebra.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-euclidean-geometry",
+          "why": "Geometry of orbits, planets and molecules starts here.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-trigonometry",
+          "why": "Needed for waves, orbits and the physics of light.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-precalculus",
+          "why": "Exponentials and logarithms describe population growth, radioactive dating and pH.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-analytic-geometry",
+          "why": "Coordinates and conic sections for orbits and graphs of data.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-probability",
+          "why": "Genetics, evolution and every measurement uncertainty rest on probability.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-calculus",
+          "why": "Rates of reaction, growth and energy flow are derivatives and integrals.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "First look: life, Earth and sky",
+      "description": "Introductory biology, chemistry, geology and astronomy: the four pillars astrobiology stands on.",
+      "items": [
+        {
+          "chapter": "bi-introductory-biology",
+          "why": "What life is, how cells work and how organisms evolve: the definition you are going to look for elsewhere.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-introductory-chemistry",
+          "why": "Atoms, molecules and reactions are the raw material of life.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-chemistry-of-life",
+          "why": "Water, carbon and the four classes of biomolecules: why life as we know it is built the way it is.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-introduction-to-earth-science",
+          "why": "Earth as interacting systems of rock, water, air and life, and deep time.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-physical-geology",
+          "why": "Minerals, rocks and surface processes, the setting in which life arose and left its traces.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-measurement-units-vectors",
+          "why": "Units and orders of magnitude, from nanometres to light-years.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-astronomy",
+          "why": "Stars, planets and galaxies: the cosmic setting for life.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Mathematics & physics toolkit",
+      "description": "Just enough physics to understand light, energy, planets and telescopes, and the statistics to judge evidence.",
+      "items": [
+        {
+          "chapter": "ma-multivariable-calculus",
+          "why": "Quantities that vary in space, from atmospheres to planetary interiors.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-ordinary-differential-equations-odes",
+          "why": "Population growth, reaction kinetics and climate feedbacks are ODEs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-vector-calculus",
+          "why": "Needed for fields and fluxes in electromagnetism and atmospheres.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-probability-theory",
+          "why": "Distributions and likelihood, used in population genetics and data analysis.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-mechanics",
+          "why": "Gravity and motion, the physics behind orbits and planetary structure.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-heat-thermodynamics",
+          "why": "Energy, heat and temperature: every habitability argument is about energy and liquid water.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-waves-sound-light",
+          "why": "Light and spectra are how we study planets and atmospheres we cannot visit.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-electricity-magnetism",
+          "why": "Fields and charges, leading to light and to planetary magnetic shields.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-classical-mechanics",
+          "why": "Orbits, tides and rotation, which set climates and tidal heating of moons.",
+          "depth": "selected",
+          "focus": [
+            "ph-classical-mechanics-1",
+            "ph-classical-mechanics-2",
+            "ph-classical-mechanics-4",
+            "ph-classical-mechanics-5",
+            "ph-classical-mechanics-6",
+            "ph-classical-mechanics-7",
+            "ph-classical-mechanics-9",
+            "ph-classical-mechanics-19",
+            "ph-classical-mechanics-11",
+            "ph-classical-mechanics-15"
+          ]
+        },
+        {
+          "chapter": "ph-waves-oscillations",
+          "why": "Wave physics needed for optics and spectroscopy.",
+          "depth": "selected",
+          "focus": [
+            "ph-waves-oscillations-1",
+            "ph-waves-oscillations-2",
+            "ph-waves-oscillations-3",
+            "ph-waves-oscillations-5",
+            "ph-waves-oscillations-7",
+            "ph-waves-oscillations-8",
+            "ph-waves-oscillations-10",
+            "ph-waves-oscillations-14",
+            "ph-waves-oscillations-15"
+          ]
+        },
+        {
+          "chapter": "ph-classical-electromagnetism",
+          "why": "Electromagnetic waves are the messengers carrying every biosignature we can detect remotely.",
+          "depth": "selected",
+          "focus": [
+            "ph-classical-electromagnetism-16",
+            "ph-classical-electromagnetism-1",
+            "ph-classical-electromagnetism-2",
+            "ph-classical-electromagnetism-19",
+            "ph-classical-electromagnetism-4",
+            "ph-classical-electromagnetism-5",
+            "ph-classical-electromagnetism-9"
+          ]
+        },
+        {
+          "chapter": "ph-modern-physics",
+          "why": "Photons, blackbody radiation and atomic spectra, the basis of reading planetary light.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-thermodynamics-statistical-mechanics",
+          "why": "Entropy, free energy and disequilibrium: life is a far-from-equilibrium process.",
+          "depth": "selected",
+          "focus": [
+            "ph-thermodynamics-statistical-mechanics-1",
+            "ph-thermodynamics-statistical-mechanics-4",
+            "ph-thermodynamics-statistical-mechanics-5",
+            "ph-thermodynamics-statistical-mechanics-7",
+            "ph-thermodynamics-statistical-mechanics-8",
+            "ph-thermodynamics-statistical-mechanics-10",
+            "ph-thermodynamics-statistical-mechanics-11",
+            "ph-thermodynamics-statistical-mechanics-11-3",
+            "ph-thermodynamics-statistical-mechanics-12",
+            "ph-thermodynamics-statistical-mechanics-15",
+            "ph-thermodynamics-statistical-mechanics-16"
+          ]
+        },
+        {
+          "chapter": "ph-classical-optics",
+          "why": "Telescopes, spectrographs and diffraction limits for observing distant worlds.",
+          "depth": "selected",
+          "focus": [
+            "ph-classical-optics-1",
+            "ph-classical-optics-6",
+            "ph-classical-optics-2",
+            "ph-classical-optics-3",
+            "ph-classical-optics-4",
+            "ph-classical-optics-5",
+            "ph-classical-optics-8"
+          ]
+        },
+        {
+          "chapter": "ph-data-analysis-statistics",
+          "why": "Weak signals demand honest statistics; extraordinary claims of life need extraordinary evidence.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Chemistry of life's building blocks",
+      "description": "General, organic and biochemistry, with an eye to how life's molecules could form without life.",
+      "items": [
+        {
+          "chapter": "ch-atomic-structure-periodicity",
+          "why": "Why carbon, hydrogen, nitrogen, oxygen, phosphorus and sulfur are the elements of life.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-chemical-bonding-molecular-structure",
+          "why": "Bonding and molecular shape explain why carbon chemistry is so versatile and why water is special.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-states-of-matter-solutions",
+          "why": "Solutions and phase behaviour: water as a solvent, and alternatives like Titan's liquid methane.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-thermochemistry",
+          "why": "The energetics of reactions, the currency of every metabolism.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-chemical-kinetics-intro",
+          "why": "Reaction rates decide which prebiotic pathways can actually produce useful amounts of molecules.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-chemical-equilibrium",
+          "why": "Equilibrium versus disequilibrium is the basis of chemical energy sources and biosignatures.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-chemical-thermodynamics",
+          "why": "Gibbs energy of reactions tells you which environments can power life.",
+          "depth": "selected",
+          "focus": [
+            "ch-chemical-thermodynamics-1",
+            "ch-chemical-thermodynamics-2",
+            "ch-chemical-thermodynamics-4",
+            "ch-chemical-thermodynamics-6",
+            "ch-chemical-thermodynamics-7",
+            "ch-chemical-thermodynamics-8",
+            "ch-chemical-thermodynamics-11"
+          ]
+        },
+        {
+          "chapter": "ch-acids-bases-aqueous-equilibria",
+          "why": "pH and aqueous chemistry of oceans, hydrothermal vents and brines.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-redox-electrochemistry-basics",
+          "why": "Redox gradients power chemolithotrophic life, the likeliest kind on other worlds.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-organic-structure-bonding",
+          "why": "Functional groups and structure of the organic molecules life is made of.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-stereochemistry",
+          "why": "Chirality and homochirality are a candidate universal biosignature.",
+          "depth": "selected",
+          "focus": [
+            "ch-stereochemistry-1",
+            "ch-stereochemistry-2",
+            "ch-stereochemistry-3",
+            "ch-stereochemistry-4",
+            "ch-stereochemistry-5",
+            "ch-stereochemistry-6",
+            "ch-stereochemistry-13"
+          ]
+        },
+        {
+          "chapter": "ch-organic-reactions-i",
+          "why": "Reaction mechanisms needed to follow prebiotic synthesis routes.",
+          "depth": "selected",
+          "focus": [
+            "ch-organic-reactions-i-1",
+            "ch-organic-reactions-i-2",
+            "ch-organic-reactions-i-4",
+            "ch-organic-reactions-i-8",
+            "ch-organic-reactions-i-9",
+            "ch-organic-reactions-i-10"
+          ]
+        },
+        {
+          "chapter": "ch-organic-reactions-ii",
+          "why": "Carbonyl and amine chemistry behind Strecker amino-acid synthesis and the formose reaction.",
+          "depth": "selected",
+          "focus": [
+            "ch-organic-reactions-ii-2",
+            "ch-organic-reactions-ii-5",
+            "ch-organic-reactions-ii-6",
+            "ch-organic-reactions-ii-7",
+            "ch-organic-reactions-ii-8",
+            "ch-organic-reactions-ii-10",
+            "ch-organic-reactions-ii-12"
+          ]
+        },
+        {
+          "chapter": "ch-organic-spectroscopy",
+          "why": "Mass spectrometry and IR are how rover and lab instruments identify organic molecules.",
+          "depth": "selected",
+          "focus": [
+            "ch-organic-spectroscopy-1",
+            "ch-organic-spectroscopy-2",
+            "ch-organic-spectroscopy-3",
+            "ch-organic-spectroscopy-4",
+            "ch-organic-spectroscopy-5",
+            "ch-organic-spectroscopy-9"
+          ]
+        },
+        {
+          "chapter": "bi-biochemistry",
+          "why": "Proteins, nucleic acids, lipids and enzymes: the machinery a first cell had to assemble.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Cells, genes & microbes",
+      "description": "How cells work and how microbes, the dominant form of life on Earth, survive almost everywhere.",
+      "items": [
+        {
+          "chapter": "bi-cell-biology",
+          "why": "Membranes, compartments and energy: the minimum a living cell must do.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-molecular-biology",
+          "why": "DNA, RNA and protein synthesis: the information system any origin-of-life theory must explain.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-genetics",
+          "why": "Heredity and mutation, the raw material of evolution.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-metabolism",
+          "why": "Metabolic pathways and bioenergetics, including the ancient ones that may date to life's origin.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-microbiology",
+          "why": "Microbial diversity and metabolism; any life we find beyond Earth is most likely microbial.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-extremophiles",
+          "why": "Life at the limits of heat, cold, salt, acidity, pressure and dryness, and the Earth analogues for Mars and icy moons.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-radiation-biology",
+          "why": "Radiation limits life on the surfaces of Mars and Europa; some organisms tolerate astonishing doses.",
+          "depth": "selected",
+          "focus": [
+            "bi-radiation-biology-1",
+            "bi-radiation-biology-2",
+            "bi-radiation-biology-3",
+            "bi-radiation-biology-4",
+            "bi-radiation-biology-10",
+            "bi-radiation-biology-11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Evolution & the history of life",
+      "description": "How life diversified over four billion years and what the record of that history looks like.",
+      "items": [
+        {
+          "chapter": "bi-evolutionary-biology",
+          "why": "Natural selection and descent with modification, the process any living system must undergo.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-population-genetics",
+          "why": "The mathematics of drift and selection that shapes early and simple populations.",
+          "depth": "selected",
+          "focus": [
+            "bi-population-genetics-1",
+            "bi-population-genetics-2",
+            "bi-population-genetics-3",
+            "bi-population-genetics-4",
+            "bi-population-genetics-8"
+          ]
+        },
+        {
+          "chapter": "bi-molecular-evolution-phylogenetics",
+          "why": "Reconstructing the tree of life back towards LUCA from molecular sequences.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-macroevolution-history-of-life",
+          "why": "The major transitions: from the first cells to eukaryotes and complex life.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-historical-geology",
+          "why": "The 4.6-billion-year story of Earth, including the Hadean, the Archean and the Great Oxidation.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-paleontology",
+          "why": "Fossils, including microfossils and stromatolites, the oldest direct evidence of life.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "The living Earth & the origin of life",
+      "description": "Geochemistry and geobiology of a planet that life has changed, and how life may have started in the first place.",
+      "items": [
+        {
+          "chapter": "ea-mineralogy",
+          "why": "Minerals catalyse prebiotic reactions, preserve biosignatures and tell us what Mars rovers are seeing.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-geochemistry-fundamentals",
+          "why": "Where the elements came from and the thermodynamics that move them through the Earth system.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-isotope-geochemistry",
+          "why": "Carbon, sulfur and nitrogen isotope fractionation is one of the main tools for detecting ancient life.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-sedimentology-and-stratigraphy",
+          "why": "Sedimentary rocks such as lake beds and deltas are where life's traces are preserved, on Earth and Mars.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-introductory-oceanography",
+          "why": "Ocean basins, seawater and hydrothermal systems, the leading candidate settings for life's origin.",
+          "depth": "selected",
+          "focus": [
+            "ea-introductory-oceanography-1",
+            "ea-introductory-oceanography-2",
+            "ea-introductory-oceanography-3",
+            "ea-introductory-oceanography-4",
+            "ea-introductory-oceanography-7",
+            "ea-introductory-oceanography-11"
+          ]
+        },
+        {
+          "chapter": "ea-biogeochemical-cycles",
+          "why": "How life drives the carbon, nitrogen, sulfur and oxygen cycles, and so shapes a planet's atmosphere.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-geobiology",
+          "why": "The co-evolution of Earth and life, early environments and biosignatures in rocks.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-origin-of-life",
+          "why": "Capstone foundation: prebiotic chemistry, the RNA world, protocells and the path to LUCA.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Planets, moons & exoplanets",
+      "description": "The places life might exist: the planets and moons of our Solar System and the worlds around other stars.",
+      "items": [
+        {
+          "chapter": "ph-astrophysics",
+          "why": "Stars as energy sources: luminosity, spectra and lifetimes set the habitable zone.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-observational-astronomy-telescopes",
+          "why": "Photometry and spectroscopy with ground and space telescopes such as JWST.",
+          "depth": "selected",
+          "focus": [
+            "ph-observational-astronomy-telescopes-1",
+            "ph-observational-astronomy-telescopes-2",
+            "ph-observational-astronomy-telescopes-3",
+            "ph-observational-astronomy-telescopes-4",
+            "ph-observational-astronomy-telescopes-5",
+            "ph-observational-astronomy-telescopes-7",
+            "ph-observational-astronomy-telescopes-8",
+            "ph-observational-astronomy-telescopes-10",
+            "ph-observational-astronomy-telescopes-12",
+            "ph-observational-astronomy-telescopes-13"
+          ]
+        },
+        {
+          "chapter": "ph-planetary-science",
+          "why": "Formation, interiors, surfaces and atmospheres of planets, and tidal heating of moons.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-comparative-planetology",
+          "why": "Why Venus, Earth and Mars diverged, the central question of planetary habitability.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-planetary-surfaces-and-impact-cratering",
+          "why": "Reading planetary surfaces: impacts, volcanism, water-carved landforms and surface ages.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-mars-geology",
+          "why": "Ancient lakes, deltas and groundwater on Mars, and where rovers look for signs of past life.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-icy-worlds-and-small-bodies",
+          "why": "Europa, Enceladus and Titan: subsurface oceans, plumes and organic-rich surfaces.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-meteorology",
+          "why": "Atmospheric structure and energy balance, the base for understanding other planets' atmospheres.",
+          "depth": "selected",
+          "focus": [
+            "ea-meteorology-1",
+            "ea-meteorology-2",
+            "ea-meteorology-4",
+            "ea-meteorology-5",
+            "ea-meteorology-6",
+            "ea-meteorology-7",
+            "ea-meteorology-8"
+          ]
+        },
+        {
+          "chapter": "ea-atmospheric-radiation",
+          "why": "Radiative transfer and the greenhouse effect set surface temperatures and shape exoplanet spectra.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-atmospheric-thermodynamics-and-cloud-physics",
+          "why": "Moist thermodynamics and clouds, needed to model climates and water on other worlds.",
+          "depth": "selected",
+          "focus": [
+            "ea-atmospheric-thermodynamics-and-cloud-physics-1",
+            "ea-atmospheric-thermodynamics-and-cloud-physics-2",
+            "ea-atmospheric-thermodynamics-and-cloud-physics-3",
+            "ea-atmospheric-thermodynamics-and-cloud-physics-4",
+            "ea-atmospheric-thermodynamics-and-cloud-physics-6",
+            "ea-atmospheric-thermodynamics-and-cloud-physics-7",
+            "ea-atmospheric-thermodynamics-and-cloud-physics-8"
+          ]
+        },
+        {
+          "chapter": "ea-planetary-atmospheres-and-climates",
+          "why": "Atmospheres of Venus, Mars and Titan, climate stability and the limits of the habitable zone.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-exoplanets",
+          "why": "Detecting exoplanets and reading their atmospheres with transmission and emission spectroscopy.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Capstone: astrobiology & the search for life",
+      "description": "Putting biology, chemistry, geology and astronomy together to ask where life could be and how we would know.",
+      "items": [
+        {
+          "chapter": "ph-astrobiology",
+          "why": "The physicist's view: habitable zones, ocean worlds, remote biosignatures and SETI.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-astrobiology",
+          "why": "The biologist's view: habitability, Mars, icy moons, Titan, panspermia and exoplanet habitability.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-astrobiology-and-planetary-habitability",
+          "why": "The geoscientist's view: planetary habitability factors, biosignatures and their false positives.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-biosignatures-life-detection",
+          "why": "Capstone: morphological, chemical, isotopic, atmospheric and agnostic biosignatures and the missions hunting for them.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Electives",
+      "description": "Optional deeper chemistry of space and meteorites, where life's ingredients are made and delivered.",
+      "items": [
+        {
+          "chapter": "ma-linear-algebra",
+          "why": "Elective: groundwork for quantum chemistry and spectroscopy.",
+          "depth": "selected",
+          "focus": [
+            "ma-linear-algebra-9",
+            "ma-linear-algebra-10",
+            "ma-linear-algebra-1",
+            "ma-linear-algebra-2",
+            "ma-linear-algebra-6",
+            "ma-linear-algebra-4",
+            "ma-linear-algebra-11",
+            "ma-linear-algebra-5"
+          ]
+        },
+        {
+          "chapter": "ch-quantum-chemistry",
+          "why": "Elective: groundwork for molecular spectroscopy; molecular orbitals and energy levels.",
+          "depth": "selected",
+          "focus": [
+            "ch-quantum-chemistry-1",
+            "ch-quantum-chemistry-2",
+            "ch-quantum-chemistry-3",
+            "ch-quantum-chemistry-4",
+            "ch-quantum-chemistry-5",
+            "ch-quantum-chemistry-6",
+            "ch-quantum-chemistry-7",
+            "ch-quantum-chemistry-8",
+            "ch-quantum-chemistry-11",
+            "ch-quantum-chemistry-14"
+          ]
+        },
+        {
+          "chapter": "ch-symmetry-group-theory",
+          "why": "Elective: groundwork for spectroscopic selection rules and molecular vibrations.",
+          "depth": "selected",
+          "focus": [
+            "ch-symmetry-group-theory-1",
+            "ch-symmetry-group-theory-2",
+            "ch-symmetry-group-theory-3",
+            "ch-symmetry-group-theory-4",
+            "ch-symmetry-group-theory-5",
+            "ch-symmetry-group-theory-7",
+            "ch-symmetry-group-theory-8"
+          ]
+        },
+        {
+          "chapter": "ch-molecular-spectroscopy",
+          "why": "Elective: rotational and vibrational spectra are how molecules are identified in space and in exoplanet atmospheres.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-chemical-kinetics",
+          "why": "Elective: gas-phase and surface kinetics needed for interstellar chemistry.",
+          "depth": "selected",
+          "focus": [
+            "ch-chemical-kinetics-1",
+            "ch-chemical-kinetics-2",
+            "ch-chemical-kinetics-3",
+            "ch-chemical-kinetics-6",
+            "ch-chemical-kinetics-7",
+            "ch-chemical-kinetics-10",
+            "ch-chemical-kinetics-12",
+            "ch-chemical-kinetics-13"
+          ]
+        },
+        {
+          "chapter": "ch-astrochemistry",
+          "why": "Elective: how complex organic molecules form in interstellar clouds and protoplanetary discs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ea-meteoritics-and-cosmochemistry",
+          "why": "Elective: meteorites such as Murchison carry amino acids and record the chemistry of the early Solar System.",
+          "depth": "full"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "cosmos",
+    "rocket-science"
+  ]
 }

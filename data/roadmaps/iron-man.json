@@ -2,9 +2,1209 @@
   "id": "iron-man",
   "name": "Iron Man: Build a Powered Exosuit",
   "icon": "🦸",
-  "tagline": "",
-  "description": "",
-  "outcomes": [],
-  "stages": [],
-  "related": []
+  "tagline": "Everything you would need to learn to build a real Tony Stark-style powered suit.",
+  "description": "For anyone who has watched Tony Stark in his workshop and wondered what it would really take, treated as a serious engineering problem. The route follows the build: foundations, the suit’s skeleton and the human body inside it, power, actuation, control electronics, a JARVIS-style AI co-pilot, then flight and integration. Be honest about the limits: powered exoskeletons exist and real jet suits fly for a few minutes at a time, but combining armour, strength and sustained flight sits at the edge of what today’s batteries, fuels and materials allow, and there is no arc reactor.",
+  "outcomes": [
+    "Derive joint torque and power requirements for a powered suit from human biomechanics and gait data",
+    "Choose and size actuators (electric, hydraulic or artificial muscle) and design the drive trains and exoskeleton mechanisms that carry them",
+    "Budget the energy, power and heat of a wearable machine, and design its battery pack, power electronics and cooling",
+    "Build embedded real-time control that reads IMUs, force sensors and EMG and assists the wearer safely",
+    "Assemble a voice-and-vision AI co-pilot with a heads-up display that runs on wearable hardware",
+    "Explain the physics of jet and rocket thrust, and why sustained, controllable flight in a suit is so hard"
+  ],
+  "stages": [
+    {
+      "name": "Foundations: maths & physics",
+      "description": "Stark had MIT. You need the same toolkit: calculus, linear algebra, differential equations, probability and the physics of force, heat, waves and electromagnetism.",
+      "items": [
+        {
+          "chapter": "ma-arithmetic-pre-algebra",
+          "why": "Every suit calculation, from thrust-to-weight to battery watt-hours, starts with confident arithmetic.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-intermediate-algebra",
+          "why": "Solving for an unknown force, current or burn time is algebra.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-euclidean-geometry",
+          "why": "Limb segments, joint axes and armour plates are geometry before they are engineering.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-trigonometry",
+          "why": "Joint angles, thrust vectors and lever arms all resolve through sines and cosines.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-precalculus",
+          "why": "Functions and vectors are the language the rest of the maths is written in.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-analytic-geometry",
+          "why": "Coordinates and curves describe where each part of the suit and the wearer is.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-calculus",
+          "why": "Power is the rate of change of energy; thrust, velocity and heat flow are all derivatives.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-linear-algebra",
+          "why": "Rotations, transforms, Jacobians and state estimation are matrices; this is the suit’s core maths.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-multivariable-calculus",
+          "why": "Fields, gradients and many-variable optimisation for aerodynamics, heat and control.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-vector-calculus",
+          "why": "Flux and circulation describe airflow over the suit and the magnetic fields inside its motors.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-ordinary-differential-equations-odes",
+          "why": "Limb dynamics, motor response and flight dynamics are differential equations.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-integral-transforms",
+          "why": "Laplace and Fourier transforms turn dynamics into transfer functions and spectra for control and signals.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-descriptive-statistics",
+          "why": "Summarising gait data, sensor noise and test results.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-elementary-probability",
+          "why": "The suit never knows its state exactly; probability is how it reasons about noisy sensors.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-probability-theory",
+          "why": "Gaussians and Bayes’ rule are the engine of Kalman filters and intent decoding.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-inferential-statistics",
+          "why": "Judging whether assistance really reduces effort needs statistics on noisy human trials.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ph-measurement-units-vectors",
+          "why": "Units and vectors keep newtons, watts and joules straight when lives depend on the numbers.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-mechanics",
+          "why": "Newton’s laws: the suit must support its own weight, the wearer and every reaction force.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-heat-thermodynamics",
+          "why": "Every watt the suit uses ends up as heat near a human body; this is where thermal thinking starts.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-waves-sound-light",
+          "why": "Sound for voice control, light for displays and cameras.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-introductory-electricity-magnetism",
+          "why": "Motors, batteries and sensors all run on electromagnetism.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-classical-mechanics",
+          "why": "Lagrangian rigid-body mechanics is how you model a multi-joint suit and a flying body.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ph-classical-electromagnetism",
+          "why": "Maxwell’s equations underlie motor design, electromagnetic interference and wireless links.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Foundations: chemistry, code & circuits",
+      "description": "The chemistry behind batteries, fuels and polymers, the programming behind every line of suit firmware and AI, and the circuits that tie them together.",
+      "items": [
+        {
+          "chapter": "ch-introductory-chemistry",
+          "why": "Batteries, fuels and armour materials are chemistry; start with atoms, moles and reactions.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-atomic-structure-periodicity",
+          "why": "Why lithium stores so much energy per kilogram starts with the periodic table.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ch-chemical-bonding-molecular-structure",
+          "why": "Bond types explain why ceramics are hard, polymers flex and metals conduct.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ch-states-of-matter-solutions",
+          "why": "Electrolytes, gases and fluids: the states of matter inside batteries and hydraulics.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ch-thermochemistry",
+          "why": "Energy released by fuels and reactions sets the limits for any power source.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-chemical-equilibrium",
+          "why": "Equilibrium governs battery voltages and combustion products.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ch-redox-electrochemistry-basics",
+          "why": "Every battery and fuel cell is a controlled redox reaction.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ch-acids-bases-aqueous-equilibria",
+          "why": "A step on the path to organic chemistry, needed for polymers and biochemistry.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ch-organic-structure-bonding",
+          "why": "Polymers, elastomers, aramid fibres and the molecules of life are carbon chemistry.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "cs-computational-thinking",
+          "why": "Breaking the suit’s behaviour into steps a computer can run.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-programming-fundamentals",
+          "why": "Python for analysis, simulation and AI.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-command-line-shell",
+          "why": "Embedded toolchains and onboard Linux computers are driven from the terminal.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-program-design",
+          "why": "Structuring larger programs so the suit’s software stays understandable.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-object-oriented-programming",
+          "why": "Classes and interfaces organise drivers, controllers and AI services.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-discrete-mathematics",
+          "why": "Logic, graphs and state machines underpin control modes and safety interlocks.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-data-structures",
+          "why": "Queues, buffers and trees are the plumbing of real-time firmware and AI pipelines.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-computer-organization",
+          "why": "How a processor executes code explains timing, interrupts and latency in the control loop.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-systems-programming",
+          "why": "C is the language suit firmware and motor controllers are written in.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-operating-systems",
+          "why": "Scheduling, concurrency and memory protection are prerequisites for real-time, safety-critical software.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-computer-architecture",
+          "why": "Caches, pipelines and accelerators decide whether JARVIS can run on the suit itself.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "el-basic-electricity",
+          "why": "Voltage, current, power and safety: the suit carries hundreds of watts next to a person.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-hands-on-electronics",
+          "why": "Schematics, breadboards and soldering: the workshop skills Stark shows off in the cave.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-passive-components",
+          "why": "Resistors, capacitors and inductors are in every sensor, filter and power stage.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-active-components",
+          "why": "Diodes, transistors and MOSFETs switch the suit’s power and signals.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-mathematical-foundations",
+          "why": "Complex numbers and phasors are the maths of AC circuits and signals.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-circuit-theory",
+          "why": "Circuit analysis lets you design power paths and sensor front-ends that work first time.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-diode-transistor-circuits",
+          "why": "Transistor switches and H-bridges turn a logic signal into motor current.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-operational-amplifiers",
+          "why": "Op-amps amplify microvolt muscle signals and current-sense readings.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-combinational-logic",
+          "why": "Digital logic is the substrate of every microcontroller in the suit.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-sequential-logic",
+          "why": "Counters and state machines read encoders and generate motor PWM.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-intro-microcontrollers",
+          "why": "Your first suit brain: read a sensor, drive a motor, blink the repulsor LEDs.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "The suit’s skeleton: mechanics, mechanisms & materials",
+      "description": "Statics, dynamics, strength of materials, machine design and the lightweight, impact-resistant materials that let a suit carry loads and take a hit.",
+      "items": [
+        {
+          "chapter": "me-introduction-to-engineering-mechanical-design",
+          "why": "How to turn “a flying armoured suit” into requirements, concepts and a design you can build.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-engineering-drawing-sketching",
+          "why": "Sketching mechanisms is how every suit iteration starts, from Mark I to Mark 85.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-cad-solid-modeling",
+          "why": "Every plate, joint and housing is designed parametrically in CAD, the real version of Stark’s hologram table.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-statics",
+          "why": "Load paths through the suit: which member carries the wearer, the payload and the landing impact.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-dynamics",
+          "why": "Moving limbs, landings and recoil are dynamics problems.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-mechanics-of-materials",
+          "why": "Stress and deflection decide whether a limb strut bends or a joint pin shears.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-advanced-mechanics-of-materials",
+          "why": "Thin-walled sections, torsion and energy methods for light but strong structures.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-intro-to-materials",
+          "why": "Metals, ceramics, polymers and composites: the material families a suit is made from.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-atomic-bonding",
+          "why": "Bonding explains stiffness, strength and why titanium alloys are prized.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-crystal-structures",
+          "why": "Crystal structure sets how metals deform and fail.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-defects",
+          "why": "Dislocations and defects control the strength and toughness of suit alloys.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-thermodynamics-of-materials",
+          "why": "Phase stability and energy in materials, groundwork for alloys and batteries.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-phase-diagrams",
+          "why": "Phase diagrams show how titanium and aluminium alloys get their properties.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-mechanical-properties",
+          "why": "Strength, stiffness, toughness and hardness: the numbers that decide what the armour is made of.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-plasticity-strengthening",
+          "why": "How alloys are strengthened, and how metal absorbs energy by yielding.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-fracture-mechanics",
+          "why": "Cracks and toughness decide whether armour cracks or holds under impact.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-polymer-structure",
+          "why": "Polymer chains are the basis of aramid, UHMWPE and elastomer liners.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-polymer-properties",
+          "why": "Viscoelastic polymers damp impacts and form flexible joints and seals.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-composites",
+          "why": "Carbon-fibre and fibre-reinforced composites give the best strength for the weight.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-ceramics",
+          "why": "Ceramic strike faces are how real body armour stops projectiles.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-engineering-materials",
+          "why": "Materials as a mechanical designer sees them: fatigue, heat treatment and failure in real parts.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-materials-selection",
+          "why": "Material and process selection for suit parts, trading mass against performance.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-lightweight-structures-composites",
+          "why": "Laminate design, sandwich panels and thin-walled structures: every gram saved is flight time gained.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-impact-protective-materials",
+          "why": "The armour itself: high-rate behaviour, aramid and ceramic layers, foams and helmet criteria.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-manufacturing-processes",
+          "why": "How suit parts are actually machined, formed, moulded and joined.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-additive-manufacturing",
+          "why": "3D-printed titanium and polymer parts make one-off, body-fitted suit components possible.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-machine-design-fundamentals",
+          "why": "Sizing joints, shafts and brackets against fatigue for millions of steps.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-kinematics-of-mechanisms",
+          "why": "Linkages and cams are how knee and shoulder joints track the body’s motion.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-gears-power-transmission",
+          "why": "Gears, belts and cables trade motor speed for joint torque.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "The human inside: anatomy, physiology & biomechanics",
+      "description": "The suit must move with a living body, not against it. Learn how bones, muscles and nerves produce movement and what limits a human can tolerate.",
+      "items": [
+        {
+          "chapter": "bi-introductory-biology",
+          "why": "The pilot is the most important and most fragile part of the system.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-chemistry-of-life",
+          "why": "The chemistry of cells, needed to understand muscle and nerve.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "bi-cell-biology",
+          "why": "Cells are the units that make up muscle and nerve.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "bi-biochemistry",
+          "why": "How muscles turn chemical energy into force, and why humans tire.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "bi-cell-signaling",
+          "why": "How nerve and muscle cells signal each other.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "bi-membranes-transport-bioelectricity",
+          "why": "Nerves and muscles are electrical; this is the physics behind EMG and brain signals.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-human-anatomy",
+          "why": "Joint axes, ranges of motion and body segments define where the suit’s joints must be.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-human-physiology",
+          "why": "Heart rate, breathing and heat tolerance set the limits the suit must respect.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-muscle-biology",
+          "why": "Muscle force-length and force-velocity behaviour is what an exosuit must assist.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-neuroscience-fundamentals",
+          "why": "How the nervous system commands movement, the signal the suit wants to read.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-neuroanatomy",
+          "why": "Where motor commands originate and travel, from cortex to spinal cord to muscle.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-cellular-molecular-neuroscience",
+          "why": "Action potentials and synapses: the origin of every EMG and EEG signal.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "bi-motor-systems",
+          "why": "How the brain plans and controls movement, so the suit can follow intent rather than fight it.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-biomechanics",
+          "why": "Joint torques, gait and injury tolerance of the human body: the numbers that size every suit actuator.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-biomechanics",
+          "why": "Engineering biomechanics: inverse dynamics, motion capture, anthropometry and injury limits.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Power: energy storage, heat & power electronics",
+      "description": "The arc reactor is fiction, so the real bottleneck is energy. Learn batteries and compact power sources, how to get the heat out, and the power electronics and motors that turn stored energy into motion.",
+      "items": [
+        {
+          "chapter": "me-engineering-thermodynamics",
+          "why": "Energy conservation and efficiency: where every joule of the suit’s energy goes.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-applied-thermodynamics",
+          "why": "Cycles and combustion, the basis of fuel-burning power sources and jet engines.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-fluid-mechanics",
+          "why": "Coolant loops, hydraulics and airflow over the suit all obey fluid mechanics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-heat-transfer",
+          "why": "Conduction, convection and radiation decide whether the pilot cooks inside the suit.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-thermal-fluid-systems-design",
+          "why": "Designing pumps, heat exchangers and cooling loops as systems.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-battery-technologies",
+          "why": "Li-ion, LiPo and solid-state cells: energy density, C-rate and cycle life set how long the suit runs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-diffusion",
+          "why": "Ion diffusion limits how fast a battery charges and discharges.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-electrochemistry",
+          "why": "Electrode potentials and kinetics of the cells that store the suit’s energy.",
+          "depth": "full"
+        },
+        {
+          "chapter": "mt-battery-materials",
+          "why": "Cathodes, anodes and electrolytes: where future gains in energy density will come from.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-energy-storage-power-integration",
+          "why": "Pack design, thermal runaway safety, fuel cells, micro-turbines and power budgets for wearable suits.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-thermal-management",
+          "why": "Keeping power electronics and processors within their temperature limits.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-thermal-management-compact-power",
+          "why": "Heat pipes, liquid cooling, phase-change buffers and skin-temperature limits for dense wearable machines.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-ac-circuits-power",
+          "why": "AC power, phasors and three-phase systems are how brushless motors are driven.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-electromagnetics",
+          "why": "Fields, flux and inductance are the physics inside every motor and inductor.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-magnetic-circuits-transformers",
+          "why": "Magnetic circuits are the starting point for motor design.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-electrical-machines",
+          "why": "How electric motors produce torque, and what limits their power density.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-pm-special-machines",
+          "why": "Permanent-magnet brushless motors are the most torque-dense electric actuators, the ones a suit would use.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-power-electronics-fundamentals",
+          "why": "Switching converters move kilowatts efficiently between battery, motors and electronics.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-switching-regulators",
+          "why": "DC-DC converters supply every rail in the suit from one battery pack.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-dc-ac-conversion-inverters",
+          "why": "Inverters synthesise the three-phase currents that drive brushless joint motors.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-electric-drives",
+          "why": "Motor plus inverter plus control: the complete electric drive behind each joint.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Actuation: giving the suit muscles",
+      "description": "Turning power into strength. Feedback control basics, electric and hydraulic actuators, artificial muscles, robot mechanics, and the exoskeleton mechanisms that fit a human body.",
+      "items": [
+        {
+          "chapter": "me-system-dynamics",
+          "why": "Modelling motors, gears, springs and hydraulics as dynamic systems.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-feedback-control",
+          "why": "Stability, PID and motion control: an actuator is useless without a controller.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-measurements-instrumentation",
+          "why": "Measuring torque, position and force accurately on the test bench.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-mechatronics",
+          "why": "Integrating sensors, actuators, electronics and control into one working machine.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-actuators",
+          "why": "Brushless, servo, linear, piezo and shape-memory actuators, and what each can and cannot do.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-actuators-drive-trains",
+          "why": "Power density, harmonic and cycloidal reducers, series-elastic and quasi-direct-drive actuators for wearables.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-hydraulics-pneumatics",
+          "why": "Hydraulics offers the highest force density, which is why heavy exoskeletons have used it.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-servo-hydraulics-advanced-fluid-power",
+          "why": "Servo-valves and electro-hydrostatic actuators give precise, powerful joint control.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-smart-materials-artificial-muscles",
+          "why": "Piezo, shape-memory, electroactive polymer, HASEL and fibre muscles: candidates for suit muscles that are closer to real muscle.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-robot-mechanics",
+          "why": "Transforms, kinematics, Jacobians and dynamics for a multi-joint machine, which is what the suit is.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-robot-mechanism-design",
+          "why": "Kinematic synthesis and actuator placement for legs and arms.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-wearable-mechanisms-exoskeletons",
+          "why": "The core suit chapter: joint alignment, cuffs, load paths to the ground, soft exosuits and power budgets for full-body suits.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Control, sensing & the pilot interface",
+      "description": "The suit’s nervous system: real-time embedded control, IMUs and force sensors, sensor fusion, reading muscle signals, and control strategies that assist the wearer without hurting them.",
+      "items": [
+        {
+          "chapter": "el-embedded-systems-fundamentals",
+          "why": "Interrupts, timers and memory on the microcontrollers that run each joint.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-peripheral-controllers",
+          "why": "PWM, ADC, timers and DMA drive motors and sample sensors at kilohertz rates.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-bare-metal-programming",
+          "why": "Firmware written directly against the hardware for the lowest-latency control loops.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-concurrency-synchronization",
+          "why": "Many tasks, one processor: race conditions in a suit mean injuries.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-real-time-concepts",
+          "why": "Hard deadlines: a balance controller that answers late is a controller that fails.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-rtos-concepts",
+          "why": "An RTOS schedules control, sensing and communication tasks with guaranteed timing.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-serial-protocols",
+          "why": "UART and CAN-style links connect joint controllers to the suit’s central computer.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-synchronous-serial-protocols",
+          "why": "I2C and SPI connect IMUs, encoders and force sensors.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-signal-conditioning",
+          "why": "Amplifying and filtering weak analog sensor signals.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-sensor-interfacing",
+          "why": "Getting clean, calibrated sensor readings into firmware.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-force-strain-load-sensors",
+          "why": "Load cells and strain gauges measure the interaction force between wearer and suit.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-inertial-sensors",
+          "why": "IMUs on every limb segment track posture, gait phase and flight attitude.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-signals-and-systems",
+          "why": "Frequency response and convolution: the language of control and filtering.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-signal-processing-fundamentals",
+          "why": "Sampling and filtering turn raw sensor data into usable signals.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-digital-signal-processing-dsp",
+          "why": "Digital filters and spectra for EMG processing, vibration analysis and audio.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-sensor-fusion",
+          "why": "Kalman and complementary filters fuse IMUs, encoders and force sensors into one trustworthy state.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-motor-control",
+          "why": "Current, velocity and position loops and field-oriented control for each joint motor.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-battery-management-systems-bms",
+          "why": "Cell balancing, state-of-charge and protection keep a high-power pack from becoming a fire on your back.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-control-theory",
+          "why": "Root locus, Bode design and PID: classical control for every loop in the suit.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-state-space-digital-control",
+          "why": "State-space models, LQR and observers for coordinated multi-joint control.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-biosensors-medical-sensors",
+          "why": "EMG electrodes read the wearer’s muscle activation before the limb even moves.",
+          "depth": "selected",
+          "focus": [
+            "el-biosensors-medical-sensors-1",
+            "el-biosensors-medical-sensors-5",
+            "el-biosensors-medical-sensors-6",
+            "el-biosensors-medical-sensors-7"
+          ]
+        },
+        {
+          "chapter": "el-biomedical-signal-processing",
+          "why": "Turning noisy EMG and EEG into clean features that reveal intent.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-robot-fundamentals",
+          "why": "Robot vocabulary for the suit: degrees of freedom, workspace, specifications and safety standards.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-actuators-sensors",
+          "why": "Proprioceptive sensing and actuator sizing from the robotics point of view.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-kinematics-dynamics",
+          "why": "Quaternions, singularities and redundancy for tracking and controlling suit limbs.",
+          "depth": "selected",
+          "focus": [
+            "ai-kinematics-dynamics-8",
+            "ai-kinematics-dynamics-10",
+            "ai-kinematics-dynamics-11"
+          ]
+        },
+        {
+          "chapter": "ai-control-systems",
+          "why": "Impedance, admittance, force and whole-body control: how the suit moves with you rather than against you.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-human-robot-interaction-hri",
+          "why": "Safety, trust and physical interaction when the robot is wrapped around a person.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-musculoskeletal-modeling-human-augmentation",
+          "why": "EMG-driven muscle models, metabolic cost and human-in-the-loop optimisation of assistance.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-wearable-robotics-exoskeletons",
+          "why": "Wearable robotics end to end: intent detection, gait-phase estimation, assist-as-needed control, military load-carrying suits.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "JARVIS: the AI co-pilot & heads-up display",
+      "description": "Machine learning, computer vision, speech and language models, and the AR display and on-device inference that turn them into an assistant that sees what you see and answers when you speak.",
+      "items": [
+        {
+          "chapter": "ai-introduction-to-ai-ml",
+          "why": "What AI can and cannot do today, a reality check before building JARVIS.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-core-ai-concepts",
+          "why": "Agents, search and reasoning: the conceptual core of an assistant.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-mathematics-statistics",
+          "why": "A refresher on the maths machine learning uses.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ai-programming-tools",
+          "why": "NumPy, pandas and notebooks for working with data.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-core-ml-concepts",
+          "why": "Training, validation and generalisation, the basis of every model in the suit.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-types-of-machine-learning",
+          "why": "Supervised, unsupervised and reinforcement learning, and where each fits in the suit.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-neural-network-foundations",
+          "why": "Neural networks power vision, speech, language and intent decoding.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-deep-learning-frameworks",
+          "why": "PyTorch is how you train and export the suit’s models.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-regularization-normalization",
+          "why": "Making models robust to the messy real world outside the lab.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-convolutional-neural-networks-cnns",
+          "why": "CNNs are the backbone of the suit’s vision system.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-recurrent-neural-networks-rnns",
+          "why": "Sequence models for signals over time, a step towards transformers.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-attention-transformers",
+          "why": "Transformers power modern speech recognition and language models.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-large-language-models-llms",
+          "why": "The reasoning and conversation engine at the centre of a JARVIS-like assistant.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-prompt-engineering",
+          "why": "Steering an LLM to act as a concise, reliable co-pilot.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-llm-application-engineering",
+          "why": "Tool use, memory and structured outputs turn an LLM into an assistant that can act.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-speech-audio-processing",
+          "why": "Speech recognition and synthesis let you talk to the suit in a noisy environment.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-conversational-ai-voice-assistants",
+          "why": "Wake words, dialogue management and low-latency voice interaction: JARVIS’s voice.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-image-processing-fundamentals",
+          "why": "Filtering, colour and image geometry for the suit’s cameras.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-core-vision-tasks",
+          "why": "Detection, segmentation and tracking to recognise people, objects and threats.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-3d-computer-vision",
+          "why": "Depth, stereo and 3D reconstruction map the world around the suit.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-robot-perception",
+          "why": "Pose estimation, point clouds, calibration and visual odometry on a moving platform.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-hci",
+          "why": "Designing interfaces a pilot can use under stress without looking away.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-computer-graphics",
+          "why": "Rendering the overlays and 3D models the HUD shows.",
+          "depth": "full"
+        },
+        {
+          "chapter": "cs-virtual-augmented-reality",
+          "why": "Registration, tracking and rendering for see-through augmented reality.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-optoelectronic-devices",
+          "why": "LEDs, lasers and photodetectors behind displays and eye tracking.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-display-technologies",
+          "why": "Micro-OLED and waveguide displays are how a real helmet HUD is built.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-wearable-ai-assistants-ar",
+          "why": "Head tracking, gaze and gesture input, and multimodal voice-plus-vision assistants on HUDs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-hardware-for-ai",
+          "why": "GPUs, NPUs and accelerators: the silicon that could run JARVIS inside the suit.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-inference-optimization",
+          "why": "Quantisation and pruning squeeze big models into a small power and heat budget.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-edge-ai-embedded-ml",
+          "why": "Running models on the suit itself, because a co-pilot cannot depend on a mobile network.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-difference-equations",
+          "why": "Discrete-time models of sampled signals, needed for neural signal processing.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ma-signal-processing",
+          "why": "Mathematical signal processing for decoding brain and muscle signals.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-computational-neuroscience",
+          "why": "Models of neurons and networks that neural decoders are built on.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-neurotechnology-methods",
+          "why": "EEG, ECoG and intracortical recording: the ways of listening to the brain.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-brain-computer-interfaces",
+          "why": "The ultimate pilot link: decoding intended movement straight from neural activity, and where the field really stands.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Flight: aerodynamics, propulsion & flight control",
+      "description": "The hardest part. Learn how things fly, how jets and rockets make thrust, how thrust is vectored, and how an unstable flying body is kept upright by control, drawing on drones and real jet suits.",
+      "items": [
+        {
+          "chapter": "ae-introduction-to-aerospace-engineering",
+          "why": "The aerospace engineer’s view of vehicles, requirements and trade-offs.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-principles-of-flight",
+          "why": "Lift, drag, weight and thrust: why a human-shaped body is a very poor aircraft.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-rocketry-basics",
+          "why": "Newton’s third law and the rocket equation: the physics of the repulsor fantasy made real.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-aerospace-thermodynamics",
+          "why": "Thermodynamics of compressible gases and combustion products in engines.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-aerospace-dynamics",
+          "why": "Six-degree-of-freedom rigid-body dynamics of a flying body.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-aerodynamics-fundamentals",
+          "why": "Pressure, drag and flow over bluff bodies like an armoured human.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-incompressible-aerodynamics",
+          "why": "Airfoils and wings, relevant if the suit ever uses lifting surfaces.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "ae-compressible-flow-gas-dynamics",
+          "why": "Nozzles, shocks and high-speed flow inside jet and rocket engines.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-gas-turbine-engines",
+          "why": "Real jet suits fly on small gas turbines; cycle analysis shows their thrust and fuel burn.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-rocket-propulsion-fundamentals",
+          "why": "Thrust, specific impulse and mass ratio decide how many seconds of flight a suit can carry.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-rocket-nozzles-thrust-vector-control",
+          "why": "Gimballing, vanes and differential throttling: steering by pointing the thrust, like Stark’s hand repulsors.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-feedback-control-aerospace",
+          "why": "Control for flying vehicles: stability augmentation and attitude loops.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-estimation-kalman-filtering",
+          "why": "Kalman filtering for flight state: attitude, velocity and position from noisy sensors.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-attitude-kinematics-dynamics",
+          "why": "Quaternions and rotational dynamics for a body that can tumble in any direction.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-aircraft-performance",
+          "why": "Thrust-to-weight, endurance and range: the numbers that make or break a flying suit.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-uav-drone-engineering",
+          "why": "Multirotor and VTOL drones are today’s closest analogue to a hovering suit.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-aerial-robotics-drones",
+          "why": "Quadrotor dynamics, flight control and aerial perception from the robotics side.",
+          "depth": "full"
+        }
+      ]
+    },
+    {
+      "name": "Integration, safety & electives",
+      "description": "Making the parts into one suit that a person can trust with their life, plus optional deep dives for the parts you care about most.",
+      "items": [
+        {
+          "chapter": "ae-aerospace-systems-engineering",
+          "why": "Requirements, interfaces and trade studies: how thousands of parts become one suit.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-reliability-safety-engineering",
+          "why": "Failure modes and risk analysis for a machine where a failure injures the wearer.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-aerospace-safety-reliability",
+          "why": "Redundancy and fault tolerance for anything that flies with a person in it.",
+          "depth": "full"
+        },
+        {
+          "chapter": "me-product-design-development",
+          "why": "Prototyping, testing and iterating: the Mark I to Mark III journey, done properly.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ai-legged-locomotion",
+          "why": "Elective: balance, gait and whole-body control, for a heavy suit that must walk and not fall.",
+          "depth": "full"
+        },
+        {
+          "chapter": "el-advanced-control-systems",
+          "why": "Elective: nonlinear, robust and model-predictive control for aggressive flight and balance.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-aircraft-stability-control",
+          "why": "Elective (flight-control background): static stability and control surfaces.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-flight-dynamics",
+          "why": "Elective (flight-control background): dynamic modes and handling qualities of flying vehicles.",
+          "depth": "full"
+        },
+        {
+          "chapter": "ae-flight-control-systems",
+          "why": "Elective: autopilots and fly-by-wire, needed for any suit that flies itself when the pilot cannot.",
+          "depth": "full"
+        },
+        {
+          "chapter": "bi-metabolism",
+          "why": "Elective (human-performance background): how the body produces energy.",
+          "depth": "selected"
+        },
+        {
+          "chapter": "bi-exercise-physiology",
+          "why": "Elective: fatigue, heat stress and metabolic cost, to judge whether the suit actually helps the wearer.",
+          "depth": "full"
+        }
+      ]
+    }
+  ],
+  "related": [
+    "robotics",
+    "rocket-science",
+    "ai-engineer",
+    "electrical-electronics-engineer",
+    "embedded-iot"
+  ]
 }
