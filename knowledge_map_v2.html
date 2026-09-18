@@ -2625,10 +2625,16 @@ function saveKnowledgeBase() {
 }
 
 function loadSavedKnowledgeBase() {
+  // knowledge_base.js is the source of truth; only chapters added through the
+  // "Add Topic" form are carried over from the copy saved in localStorage.
   const saved = localStorage.getItem('knowledgeNavigator_data');
-  if (saved) {
-    knowledgeBase = JSON.parse(saved);
-  }
+  if (!saved) return;
+  JSON.parse(saved).subjects.forEach(s => {
+    const target = knowledgeBase.subjects.find(t => t.id === s.id);
+    if (!target) return;
+    s.chapters.filter(c => c.id.includes('-custom-') && !target.chapters.some(t => t.id === c.id))
+      .forEach(c => target.chapters.push(c));
+  });
 }
 
 // ============================================================

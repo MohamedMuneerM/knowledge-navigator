@@ -4,7 +4,10 @@ Validate data/ and generate knowledge_base.js + knowledge_base.json.
 
   python scripts/build.py            validate, assign missing topic ids, generate
   python scripts/build.py --check    validate only (no writes); exit 1 on errors
-  python scripts/build.py --only physics   limit warnings to one discipline / roadmap
+  python scripts/build.py --only physics   limit printed warnings to lines mentioning "physics"
+  python scripts/build.py --discipline chemistry
+                                     validate one discipline file (no writes); other
+                                     files are only used to resolve cross-references
 
 See data/SCHEMA.md for the format.
 """
@@ -91,7 +94,8 @@ def find_cycle(nodes, edges):
 
 
 def main():
-    check_only = '--check' in sys.argv
+    scope = sys.argv[sys.argv.index('--discipline') + 1] if '--discipline' in sys.argv else None
+    check_only = '--check' in sys.argv or scope is not None
     only = sys.argv[sys.argv.index('--only') + 1] if '--only' in sys.argv else None
     manifest = load(DATA / 'manifest.json')
     errors, warnings = [], []
@@ -99,7 +103,13 @@ def main():
     disciplines = []
     for did in manifest['disciplines']:
         path = DATA / 'disciplines' / f'{did}.json'
-        doc = load(path)
+        try:
+            doc = load(path)
+        except (OSError, ValueError) as e:
+            if scope and did != scope:
+                print(f'note: skipping unreadable {path.name} ({e.__class__.__name__})')
+                continue
+            raise
         changed = False
         for ch in doc['chapters']:
             changed |= assign_topic_ids(ch)
@@ -158,6 +168,14 @@ def main():
     if cycle:
         errors.append('prerequisite cycle: ' + ' -> '.join(cycle))
 
+    if scope:
+        owned = {cid for cid, o in owner.items() if o == scope}
+
+        def mine(msg):
+            return msg.startswith(scope + ':') or any(
+                tok in owned for tok in re.findall(r'[a-z0-9]+(?:-[a-z0-9]+)+', msg))
+        errors[:] = [e for e in errors if mine(e)]
+
     if errors:
         print('\n'.join('ERROR   ' + e for e in errors))
         print(f'\n{len(errors)} error(s); nothing generated.')
@@ -199,11 +217,21 @@ def main():
         if redundant:
             warnings.append(f'{cid}: redundant prerequisites (already implied): {", ".join(redundant)}')
 
+    if scope:
+        warnings = [w for w in warnings if mine(w)]
+        print('\n'.join('WARN    ' + w for w in warnings))
+        mine_chs = [c for c in chapters.values() if owner[c['id']] == scope]
+        n_topics = sum(1 for c in mine_chs for _ in flatten(c.get('topics', []), c))
+        n_stages = max((stage[c['id']] for c in mine_chs), default=0)
+        print(f'\nOK {scope}: {len(mine_chs)} chapters, {n_topics} topics, {n_stages} stages, '
+              f'{len(warnings)} warning(s)')
+        return
+
     # ---- roadmaps -------------------------------------------------------------------
     roadmaps = []
     for rid in manifest.get('roadmaps', []):
         rm = load(DATA / 'roadmaps' / f'{rid}.json')
-        position, seen_before = {}, set()
+        position = {}
         for si, st in enumerate(rm['stages']):
             for ii, it in enumerate(st['items']):
                 cid = it['chapter']

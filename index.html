@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Knowledge Navigator</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧭</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="knowledge_base.js"></script>
+<style>
+:root {
+  --bg: #0b0f19; --panel: #121826; --panel2: #182033; --panel3: #1f2940;
+  --line: #243049; --line2: #33405e;
+  --text: #e6ebf5; --muted: #a3afc4; --faint: #6f7c95;
+  --accent: #8aa4ff; --accent-bg: rgba(138,164,255,.14);
+  --done: #4ade80; --done-bg: rgba(74,222,128,.14);
+  --learning: #fbbf24; --learning-bg: rgba(251,191,36,.14);
+  --core: #f87171; --important: #fb923c; --advanced: #c084fc; --optional: #94a3b8;
+  --shadow: 0 10px 40px rgba(0,0,0,.45);
+  --radius: 12px;
+  color-scheme: dark;
+}
+:root[data-theme="light"] {
+  --bg: #f5f6fa; --panel: #ffffff; --panel2: #f0f2f8; --panel3: #e7eaf3;
+  --line: #e1e5ee; --line2: #cfd5e3;
+  --text: #121826; --muted: #4f5b72; --faint: #7d889e;
+  --accent: #3553d6; --accent-bg: rgba(53,83,214,.1);
+  --done: #16a34a; --done-bg: rgba(22,163,74,.1);
+  --learning: #c27803; --learning-bg: rgba(194,120,3,.1);
+  --core: #dc2626; --important: #ea580c; --advanced: #9333ea; --optional: #64748b;
+  --shadow: 0 10px 40px rgba(20,30,60,.15);
+  color-scheme: light;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body { font: 14px/1.5 Inter, system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); -webkit-font-smoothing: antialiased; }
+button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; }
+input, textarea, select { font: inherit; color: inherit; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px; }
+
+/* ---------- shell ---------- */
+.topbar { position: sticky; top: 0; z-index: 30; display: flex; align-items: center; gap: 14px; height: 58px; padding: 0 18px; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+.brand { display: flex; align-items: center; gap: 9px; font-weight: 700; font-size: 15px; white-space: nowrap; color: var(--text); }
+.brand:hover { text-decoration: none; }
+.menu-btn { display: none; width: 34px; height: 34px; border-radius: 8px; }
+.menu-btn:hover { background: var(--panel2); }
+.search { position: relative; flex: 1; max-width: 520px; margin-left: 10px; }
+.search input { width: 100%; height: 36px; padding: 0 12px 0 34px; border-radius: 9px; border: 1px solid var(--line); background: var(--panel); outline: none; }
+.search input:focus { border-color: var(--accent); }
+.search .icon { position: absolute; left: 11px; top: 8px; color: var(--faint); pointer-events: none; }
+.search kbd { position: absolute; right: 9px; top: 8px; font: 11px/18px Inter, sans-serif; padding: 0 6px; border: 1px solid var(--line2); border-radius: 5px; color: var(--faint); }
+.results { position: absolute; top: 42px; left: 0; right: 0; max-height: 70vh; overflow: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); display: none; }
+.results.open { display: block; }
+.result { display: flex; gap: 10px; align-items: baseline; width: 100%; text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--line); }
+.result:last-child { border-bottom: 0; }
+.result.active, .result:hover { background: var(--panel2); }
+.result .r-main { flex: 1; min-width: 0; }
+.result .r-title { font-weight: 500; }
+.result .r-sub { font-size: 12px; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.result .r-kind { font-size: 11px; color: var(--faint); white-space: nowrap; }
+.top-actions { display: flex; align-items: center; gap: 6px; margin-left: auto; }
+.icon-btn { height: 34px; padding: 0 11px; border-radius: 8px; color: var(--muted); display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.icon-btn:hover { background: var(--panel2); color: var(--text); }
+.menu { position: relative; }
+.menu-list { position: absolute; right: 0; top: 40px; min-width: 220px; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); padding: 6px; display: none; z-index: 40; }
+.menu-list.open { display: block; }
+.menu-list button, .menu-list a { display: block; width: 100%; text-align: left; padding: 8px 10px; border-radius: 7px; color: var(--text); }
+.menu-list button:hover, .menu-list a:hover { background: var(--panel2); text-decoration: none; }
+
+.layout { display: grid; grid-template-columns: 250px minmax(0, 1fr); min-height: calc(100vh - 58px); }
+.sidenav { position: sticky; top: 58px; height: calc(100vh - 58px); overflow: auto; border-right: 1px solid var(--line); padding: 14px 10px 30px; }
+.nav-label { font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--faint); padding: 14px 10px 6px; }
+.nav-item { display: flex; align-items: center; gap: 10px; width: 100%; padding: 7px 10px; border-radius: 8px; color: var(--muted); text-align: left; }
+.nav-item:hover { background: var(--panel2); color: var(--text); text-decoration: none; }
+.nav-item.active { background: var(--accent-bg); color: var(--text); }
+.nav-item .n-icon { width: 20px; text-align: center; flex: none; }
+.nav-item .n-name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.nav-item .n-pct { font-size: 11px; color: var(--faint); font-variant-numeric: tabular-nums; }
+main { padding: 28px clamp(16px, 3vw, 40px) 80px; min-width: 0; }
+.page { max-width: 1240px; margin: 0 auto; }
+
+/* ---------- common ---------- */
+h1 { font-size: 26px; line-height: 1.25; letter-spacing: -.01em; }
+h2 { font-size: 17px; margin-bottom: 12px; }
+.lede { color: var(--muted); max-width: 760px; margin-top: 6px; }
+.section { margin-top: 34px; }
+.section-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
+.section-head h2 { margin: 0; }
+.section-head .hint { color: var(--faint); font-size: 13px; }
+.grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); }
+.grid.wide { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; }
+button.card, a.card { display: block; width: 100%; text-align: left; color: var(--text); transition: border-color .15s, transform .15s; }
+button.card:hover, a.card:hover { border-color: var(--line2); transform: translateY(-1px); text-decoration: none; }
+.muted { color: var(--muted); } .faint { color: var(--faint); }
+.small { font-size: 12px; }
+.row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.spacer { flex: 1; }
+.bar { height: 6px; border-radius: 3px; background: var(--panel3); overflow: hidden; }
+.bar > i { display: block; height: 100%; background: var(--done); border-radius: 3px; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-top: 22px; }
+.stat { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px 16px; }
+.stat b { display: block; font-size: 24px; font-variant-numeric: tabular-nums; letter-spacing: -.01em; }
+.stat span { color: var(--muted); font-size: 12px; }
+.chip { display: inline-flex; align-items: center; gap: 5px; height: 22px; padding: 0 8px; border-radius: 11px; font-size: 11.5px; font-weight: 500; background: var(--panel2); color: var(--muted); white-space: nowrap; }
+.chip.p-core { color: var(--core); } .chip.p-important { color: var(--important); }
+.chip.p-advanced { color: var(--advanced); } .chip.p-optional { color: var(--optional); }
+.chip .d { width: 7px; height: 7px; border-radius: 50%; }
+.toggle { display: inline-flex; padding: 3px; border-radius: 9px; background: var(--panel2); gap: 2px; }
+.toggle button { height: 28px; padding: 0 11px; border-radius: 7px; color: var(--muted); font-size: 13px; }
+.toggle button.on { background: var(--panel); color: var(--text); box-shadow: 0 1px 3px rgba(0,0,0,.2); }
+.filterbar { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin: 20px 0 6px; }
+.fchip { height: 28px; padding: 0 10px; border-radius: 14px; border: 1px solid var(--line); color: var(--muted); font-size: 12.5px; }
+.fchip.on { border-color: var(--accent); color: var(--text); background: var(--accent-bg); }
+.empty { padding: 30px; text-align: center; color: var(--muted); border: 1px dashed var(--line2); border-radius: var(--radius); }
+
+/* status dot */
+.sd { width: 10px; height: 10px; border-radius: 50%; border: 2px solid var(--faint); flex: none; }
+.sd.in-progress { border-color: var(--learning); background: var(--learning); }
+.sd.done { border-color: var(--done); background: var(--done); }
+
+/* chapter card */
+.ch { position: relative; padding: 12px 14px 12px 16px; overflow: hidden; }
+.ch::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--dc, var(--line2)); }
+.ch .ch-top { display: flex; gap: 9px; align-items: flex-start; }
+.ch .ch-top .sd { margin-top: 5px; }
+.ch .ch-name { font-weight: 600; line-height: 1.35; }
+.ch .ch-meta { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 9px; align-items: center; }
+.ch .ch-sum { color: var(--muted); font-size: 12.5px; margin-top: 6px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.ch.ready { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); }
+.ch .needs { font-size: 11.5px; color: var(--faint); }
+.ch.dim { opacity: .55; }
+
+/* stages / timeline */
+.stage { margin-top: 26px; }
+.stage-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
+.stage-num { font-size: 12px; font-weight: 700; color: var(--accent); background: var(--accent-bg); padding: 2px 9px; border-radius: 10px; }
+.stage-head h3 { font-size: 15px; }
+.timeline { position: relative; margin-top: 24px; }
+.tl-stage { position: relative; padding-left: 34px; padding-bottom: 26px; }
+.tl-stage::before { content: ""; position: absolute; left: 11px; top: 26px; bottom: 0; width: 2px; background: var(--line); }
+.tl-stage:last-child::before { display: none; }
+.tl-dot { position: absolute; left: 0; top: 0; width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; font-size: 11px; font-weight: 700; background: var(--panel2); border: 2px solid var(--line2); color: var(--muted); }
+.tl-stage.complete .tl-dot { background: var(--done); border-color: var(--done); color: #06220f; }
+.tl-stage.current .tl-dot { border-color: var(--accent); color: var(--accent); }
+.tl-title { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.tl-title h3 { font-size: 16px; }
+.items { display: grid; gap: 8px; margin-top: 12px; }
+.item { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 12px; align-items: start; width: 100%; text-align: left; padding: 11px 14px; background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--dc, var(--line2)); border-radius: 10px; color: var(--text); }
+.item:hover { border-color: var(--line2); border-left-color: var(--dc, var(--line2)); }
+.item .sd { margin-top: 5px; }
+.item .i-name { font-weight: 600; }
+.item .i-why { color: var(--muted); font-size: 12.5px; margin-top: 3px; }
+.item .i-focus { color: var(--faint); font-size: 12px; margin-top: 4px; }
+.item .i-side { display: flex; flex-direction: column; align-items: flex-end; gap: 5px; }
+.item.next { border-color: var(--accent); border-left-color: var(--dc, var(--accent)); box-shadow: 0 0 0 3px var(--accent-bg); }
+.next-tag { font-size: 11px; font-weight: 600; color: var(--accent); }
+
+/* hero */
+.hero { display: flex; gap: 18px; align-items: flex-start; }
+.hero .h-icon { font-size: 40px; line-height: 1; width: 64px; height: 64px; display: grid; place-items: center; border-radius: 16px; background: var(--panel); border: 1px solid var(--line); flex: none; }
+.outcomes { margin: 14px 0 0 18px; color: var(--muted); }
+.outcomes li { margin: 3px 0; }
+.levelbar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; gap: 2px; margin-top: 10px; }
+.levelbar i { display: block; height: 100%; }
+.legend { display: flex; gap: 12px; flex-wrap: wrap; font-size: 11.5px; color: var(--faint); margin-top: 6px; }
+.legend span { display: inline-flex; gap: 5px; align-items: center; }
+.legend i { width: 8px; height: 8px; border-radius: 2px; display: inline-block; }
+
+/* drawer */
+.scrim { position: fixed; inset: 0; background: rgba(5,8,15,.5); z-index: 50; opacity: 0; pointer-events: none; transition: opacity .2s; }
+.scrim.open { opacity: 1; pointer-events: auto; }
+.drawer { position: fixed; top: 0; right: 0; bottom: 0; width: min(640px, 100vw); z-index: 60; background: var(--panel); border-left: 1px solid var(--line); box-shadow: var(--shadow); transform: translateX(102%); transition: transform .22s ease; display: flex; flex-direction: column; }
+.drawer.open { transform: none; }
+.dr-head { padding: 18px 22px 14px; border-bottom: 1px solid var(--line); }
+.dr-crumbs { font-size: 12px; color: var(--faint); display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.dr-close { position: absolute; top: 12px; right: 12px; width: 34px; height: 34px; border-radius: 8px; color: var(--muted); font-size: 18px; }
+.dr-close:hover { background: var(--panel2); }
+.dr-title { font-size: 21px; font-weight: 700; margin: 6px 36px 0 0; line-height: 1.3; }
+.dr-body { flex: 1; overflow: auto; padding: 4px 22px 40px; }
+.dr-sec { margin-top: 22px; }
+.dr-sec h4 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--faint); margin-bottom: 8px; display: flex; gap: 8px; align-items: center; }
+.status-seg { display: inline-flex; background: var(--panel2); padding: 3px; border-radius: 9px; gap: 2px; margin-top: 14px; }
+.status-seg button { height: 30px; padding: 0 12px; border-radius: 7px; color: var(--muted); font-size: 13px; display: inline-flex; gap: 6px; align-items: center; }
+.status-seg button.on[data-s="not-started"] { background: var(--panel3); color: var(--text); }
+.status-seg button.on[data-s="in-progress"] { background: var(--learning-bg); color: var(--learning); }
+.status-seg button.on[data-s="done"] { background: var(--done-bg); color: var(--done); }
+.links { display: grid; gap: 6px; }
+.link-row { display: flex; align-items: center; gap: 9px; width: 100%; text-align: left; padding: 7px 10px; border-radius: 8px; background: var(--panel2); color: var(--text); }
+.link-row:hover { background: var(--panel3); }
+.link-row .l-name { flex: 1; min-width: 0; }
+.link-row .l-disc { font-size: 11.5px; color: var(--faint); white-space: nowrap; }
+.topics { list-style: none; }
+.topics li { display: flex; gap: 10px; align-items: flex-start; padding: 5px 0; }
+.topics li.sub { padding-left: 26px; font-size: 13px; color: var(--muted); }
+.topics li.focus label { font-weight: 600; }
+.topics input { margin-top: 3px; width: 15px; height: 15px; accent-color: var(--done); flex: none; }
+.topics label { cursor: pointer; }
+.topics li.checked label { color: var(--faint); text-decoration: line-through; text-decoration-color: var(--line2); }
+textarea.notes { width: 100%; min-height: 110px; padding: 10px 12px; border-radius: 9px; background: var(--panel2); border: 1px solid var(--line); resize: vertical; outline: none; }
+textarea.notes:focus { border-color: var(--accent); }
+.addlink { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+.addlink input { flex: 1; min-width: 120px; height: 32px; padding: 0 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel2); outline: none; }
+.btn { height: 32px; padding: 0 12px; border-radius: 8px; background: var(--panel2); border: 1px solid var(--line); color: var(--text); font-size: 13px; display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.btn:hover { border-color: var(--line2); text-decoration: none; }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+:root:not([data-theme="light"]) .btn.primary { color: #0b1020; }
+.x { color: var(--faint); padding: 0 4px; }
+.x:hover { color: var(--core); }
+
+.toast { position: fixed; bottom: 22px; left: 50%; transform: translate(-50%, 20px); background: var(--text); color: var(--bg); padding: 9px 16px; border-radius: 9px; font-weight: 500; opacity: 0; transition: .2s; z-index: 80; pointer-events: none; }
+.toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+@media (max-width: 900px) {
+  .layout { grid-template-columns: 1fr; }
+  .menu-btn { display: inline-grid; place-items: center; }
+  .sidenav { position: fixed; top: 58px; left: 0; bottom: 0; width: 270px; height: auto; z-index: 45; background: var(--bg); transform: translateX(-102%); transition: transform .2s; box-shadow: var(--shadow); }
+  .sidenav.open { transform: none; }
+  .brand .b-text, .icon-btn .t { display: none; }
+  .search kbd { display: none; }
+  .hero .h-icon { width: 52px; height: 52px; font-size: 30px; }
+  h1 { font-size: 22px; }
+}
+@media (max-width: 560px) {
+  .topbar { gap: 8px; padding: 0 10px; }
+  .search { margin-left: 0; }
+  .item { grid-template-columns: auto minmax(0, 1fr); }
+  .item .i-side { grid-column: 2; flex-direction: row; align-items: center; }
+  .link-row .dn { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+  <a class="brand" href="#/"><span>🧭</span><span class="b-text">Knowledge Navigator</span></a>
+  <div class="search">
+    <span class="icon">⌕</span>
+    <input id="q" type="search" placeholder="Search chapters and topics…" autocomplete="off" aria-label="Search">
+    <kbd>/</kbd>
+    <div class="results" id="results"></div>
+  </div>
+  <div class="top-actions">
+    <button class="icon-btn" id="themeBtn" title="Toggle theme">◐</button>
+    <div class="menu">
+      <button class="icon-btn" id="dataBtn">⇅ <span class="t">Data</span></button>
+      <div class="menu-list" id="dataMenu">
+        <button data-act="export">Export progress (JSON)</button>
+        <button data-act="import">Import progress (JSON)</button>
+        <button data-act="csv">Export chapters (CSV)</button>
+        <a href="knowledge_map_v2.html">Open classic tracker (v2)</a>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="layout">
+  <nav class="sidenav" id="sidenav"></nav>
+  <main><div class="page" id="view"></div></main>
+</div>
+<div class="scrim" id="scrim"></div>
+<aside class="drawer" id="drawer" aria-hidden="true"></aside>
+<div class="toast" id="toast"></div>
+<input type="file" id="importFile" accept=".json,application/json" hidden>
+
+<script>
+'use strict';
+// ------------------------------------------------------------------ data
+const KB = window.knowledgeBaseData || { subjects: [], roadmaps: [], stats: {} };
+const SUBJ = new Map(), CH = new Map(), TOPIC = new Map(), IN_RM = new Map();
+KB.subjects.forEach((s, si) => {
+  s.index = si;
+  SUBJ.set(s.id, s);
+  s.chapters.forEach(c => {
+    c.subject = s.id;
+    CH.set(c.id, c);
+    c.topics.forEach(t => TOPIC.set(t.id, { topic: t, chapter: c.id }));
+  });
+});
+(KB.roadmaps || []).forEach(r => r.stages.forEach(st => st.items.forEach(it => {
+  if (!IN_RM.has(it.chapter)) IN_RM.set(it.chapter, []);
+  if (!IN_RM.get(it.chapter).includes(r.id)) IN_RM.get(it.chapter).push(r.id);
+})));
+const RM = new Map((KB.roadmaps || []).map(r => [r.id, r]));
+const LEVELS = { 1: 'Foundations', 2: 'Core', 3: 'Advanced undergrad', 4: 'Graduate', 5: 'Frontier' };
+const LEVEL_COLORS = { 1: '#4ade80', 2: '#38bdf8', 3: '#818cf8', 4: '#c084fc', 5: '#f472b6' };
+const PRIO = ['core', 'important', 'advanced', 'optional'];
+
+const anc = new Map();
+function ancestors(id) {
+  if (anc.has(id)) return anc.get(id);
+  const out = new Set();
+  anc.set(id, out);
+  (CH.get(id)?.prerequisites || []).forEach(p => { out.add(p); ancestors(p).forEach(a => out.add(a)); });
+  return out;
+}
+
+// ------------------------------------------------------------------ progress (shared with knowledge_map_v2.html)
+const STORE_KEY = 'knowledgeNavigator_progress';
+let P = { chapters: {}, topics: {}, lastUpdated: null };
+try { const s = localStorage.getItem(STORE_KEY); if (s) P = Object.assign(P, JSON.parse(s)); } catch (e) { /* storage unavailable */ }
+P.chapters = P.chapters || {}; P.topics = P.topics || {};
+function persist() {
+  P.lastUpdated = Date.now();
+  try { localStorage.setItem(STORE_KEY, JSON.stringify(P)); } catch (e) { toast('Could not save — browser storage is unavailable'); }
+}
+const st = id => P.chapters[id]?.status || 'not-started';
+const tst = id => P.topics[id]?.status || 'not-started';
+function setStatus(id, s) {
+  const rec = P.chapters[id] = P.chapters[id] || {};
+  rec.status = s;
+  if (s === 'done') rec.completedAt = Date.now();
+  if (s === 'in-progress' && !rec.startedAt) rec.startedAt = Date.now();
+  persist();
+}
+function setTopic(id, done) {
+  const rec = P.topics[id] = P.topics[id] || {};
+  rec.status = done ? 'done' : 'not-started';
+  if (done) rec.completedAt = Date.now();
+  const cid = TOPIC.get(id).chapter, c = CH.get(cid);
+  const all = c.topics.every(t => tst(t.id) === 'done');
+  if (all && st(cid) !== 'done') setStatus(cid, 'done');
+  else if (!all && st(cid) !== 'in-progress') setStatus(cid, 'in-progress');
+  else persist();
+}
+const topicPct = c => c.topics.length ? Math.round(100 * c.topics.filter(t => tst(t.id) === 'done').length / c.topics.length) : 0;
+const isReady = c => st(c.id) !== 'done' && c.prerequisites.every(p => st(p) === 'done');
+function progressOf(ids) {
+  let done = 0, prog = 0;
+  ids.forEach(id => { const s = st(id); if (s === 'done') done++; else if (s === 'in-progress') prog++; });
+  return { done, prog, total: ids.length, pct: ids.length ? Math.round(100 * done / ids.length) : 0 };
+}
+const rmChapters = r => [...new Set(r.stages.flatMap(s => s.items.map(i => i.chapter)))].filter(id => CH.has(id));
+
+// ------------------------------------------------------------------ helpers
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
+const subj = c => SUBJ.get(c.subject);
+const plural = (n, w) => `${n.toLocaleString()} ${w}${n === 1 ? '' : 's'}`;
+function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('show'); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('show'), 2200); }
+const sd = s => `<span class="sd ${s}" title="${s.replace('-', ' ')}"></span>`;
+const prioChip = p => `<span class="chip p-${p}">${p}</span>`;
+const levelChip = l => `<span class="chip" title="${LEVELS[l]}"><span class="d" style="background:${LEVEL_COLORS[l]}"></span>L${l} · ${LEVELS[l]}</span>`;
+const discChip = s => `<span class="chip"><span class="d" style="background:${s.color}"></span>${esc(s.name)}</span>`;
+
+function chapterCard(c, opts = {}) {
+  const s = st(c.id), sj = subj(c), pct = topicPct(c);
+  const ext = [...new Set(c.prerequisites.map(p => CH.get(p)?.subject).filter(x => x && x !== c.subject))];
+  const ready = s === 'not-started' && isReady(c);
+  const needs = ext.length ? `<span class="needs" title="Needs chapters from other disciplines">needs ${ext.map(x => SUBJ.get(x).icon).join(' ')}</span>` : '';
+  return `<button class="card ch ${ready ? 'ready' : ''} ${opts.dim ? 'dim' : ''}" data-cid="${c.id}" style="--dc:${sj.color}">
+    <div class="ch-top">${sd(s)}<div class="ch-name">${esc(c.name)}</div></div>
+    ${opts.summary !== false && c.summary ? `<div class="ch-sum">${esc(c.summary)}</div>` : ''}
+    <div class="ch-meta">
+      ${opts.disc ? discChip(sj) : ''}
+      <span class="chip" title="${LEVELS[c.level]}"><span class="d" style="background:${LEVEL_COLORS[c.level]}"></span>L${c.level}</span>
+      ${prioChip(c.priority)}
+      <span class="faint small">${c.topics.length} topics${pct ? ` · <span style="color:var(--done)">${pct}%</span>` : ''}</span>
+      ${needs}
+    </div>
+  </button>`;
+}
+
+// ------------------------------------------------------------------ side nav
+function renderNav(route) {
+  const cur = location.hash || '#/';
+  const item = (href, icon, name, pct, color) => `<a class="nav-item ${cur.split('?')[0] === href ? 'active' : ''}" href="${href}">
+      <span class="n-icon" ${color ? `style="color:${color}"` : ''}>${icon}</span><span class="n-name">${esc(name)}</span>${pct != null ? `<span class="n-pct">${pct}%</span>` : ''}</a>`;
+  $('#sidenav').innerHTML = `
+    ${item('#/', '🏠', 'Home')}
+    ${item('#/path', '🧭', 'Path finder')}
+    <div class="nav-label">Roadmaps · goals</div>
+    ${(KB.roadmaps || []).map(r => item('#/r/' + r.id, r.icon, r.name, progressOf(rmChapters(r)).pct)).join('') || '<div class="faint small" style="padding:4px 10px">No roadmaps yet</div>'}
+    <div class="nav-label">Disciplines</div>
+    ${KB.subjects.map(s => item('#/d/' + s.id, s.icon, s.name, progressOf(s.chapters.map(c => c.id)).pct)).join('')}`;
+}
+
+// ------------------------------------------------------------------ views
+function viewHome() {
+  const all = [...CH.values()];
+  const prog = progressOf(all.map(c => c.id));
+  const learning = all.filter(c => st(c.id) === 'in-progress');
+  const engagedRm = new Set((KB.roadmaps || []).filter(r => rmChapters(r).some(id => st(id) !== 'not-started')).map(r => r.id));
+  const rank = c => [(IN_RM.get(c.id) || []).some(r => engagedRm.has(r)) ? 0 : 1, c.level, PRIO.indexOf(c.priority), c.depth];
+  const cmp = (a, b) => { const x = rank(a), y = rank(b); for (let i = 0; i < x.length; i++) if (x[i] !== y[i]) return x[i] - y[i]; return 0; };
+  const started = prog.done + prog.prog > 0;
+  const ready = all.filter(c => st(c.id) === 'not-started' && isReady(c) && (started || (c.level === 1 && c.priority === 'core'))).sort(cmp).slice(0, 12);
+  const st_ = KB.stats || {};
+  return `
+    <h1>Your STEM knowledge map</h1>
+    <p class="lede">Every discipline is broken into chapters with a learning order: each chapter lists what you must know first, even when that lives in another discipline. Pick a <b>roadmap</b> for a goal, walk a <b>discipline</b> stage by stage, or use the <b>path finder</b> to see everything you need before any chapter.</p>
+    <div class="stats">
+      <div class="stat"><b>${KB.subjects.length}</b><span>disciplines</span></div>
+      <div class="stat"><b>${(st_.chapters || all.length).toLocaleString()}</b><span>chapters</span></div>
+      <div class="stat"><b>${(st_.topics || 0).toLocaleString()}</b><span>topics</span></div>
+      <div class="stat"><b>${(st_.prerequisiteLinks || 0).toLocaleString()}</b><span>prerequisite links</span></div>
+      <div class="stat"><b style="color:var(--done)">${prog.done}</b><span>chapters done · ${prog.prog} in progress</span></div>
+    </div>
+    ${learning.length ? `<div class="section"><div class="section-head"><h2>Continue learning</h2></div>
+      <div class="grid">${learning.map(c => chapterCard(c, { disc: true })).join('')}</div></div>` : ''}
+    <div class="section"><div class="section-head"><h2>${started ? 'Ready to learn next' : 'Start here'}</h2>
+      <span class="hint">${started ? 'Not started, and every prerequisite is done' : 'Foundation chapters with no prerequisites'}</span></div>
+      ${ready.length ? `<div class="grid">${ready.map(c => chapterCard(c, { disc: true })).join('')}</div>` : '<div class="empty">Nothing unlocked right now. Finish an in-progress chapter.</div>'}</div>
+    <div class="section"><div class="section-head"><h2>Roadmaps</h2><span class="hint">Goal-driven paths across disciplines</span></div>
+      ${(KB.roadmaps || []).length ? `<div class="grid wide">${KB.roadmaps.map(roadmapCard).join('')}</div>` : '<div class="empty">No roadmaps yet.</div>'}</div>
+    <div class="section"><div class="section-head"><h2>Disciplines</h2></div>
+      <div class="grid wide">${KB.subjects.map(disciplineCard).join('')}</div>
+      <div class="legend">${Object.entries(LEVELS).map(([l, n]) => `<span><i style="background:${LEVEL_COLORS[l]}"></i>L${l} ${n}</span>`).join('')}</div></div>`;
+}
+
+function roadmapCard(r) {
+  const ids = rmChapters(r), p = progressOf(ids);
+  const discs = [...new Set(ids.map(id => CH.get(id).subject))];
+  return `<a class="card" href="#/r/${r.id}">
+    <div class="row"><span style="font-size:22px">${r.icon}</span><b style="font-size:15px">${esc(r.name)}</b></div>
+    <div class="muted small" style="margin:6px 0 10px">${esc(r.tagline || '')}</div>
+    <div class="bar"><i style="width:${p.pct}%"></i></div>
+    <div class="row faint small" style="margin-top:8px">${r.stages.length} stages · ${ids.length} chapters · ${discs.map(d => SUBJ.get(d).icon).join(' ')}<span class="spacer"></span>${p.pct}%</div>
+  </a>`;
+}
+
+function disciplineCard(s) {
+  const p = progressOf(s.chapters.map(c => c.id));
+  const byLevel = [1, 2, 3, 4, 5].map(l => s.chapters.filter(c => c.level === l).length);
+  const topics = s.chapters.reduce((a, c) => a + c.topics.length, 0);
+  return `<a class="card" href="#/d/${s.id}" style="border-top:3px solid ${s.color}">
+    <div class="row"><span style="font-size:22px">${s.icon}</span><b style="font-size:15px">${esc(s.name)}</b><span class="spacer"></span><span class="faint small">${p.pct}%</span></div>
+    <div class="faint small" style="margin-top:6px">${s.chapters.length} chapters · ${topics.toLocaleString()} topics · ${s.categories.length} categories</div>
+    <div class="levelbar" title="Chapters by level">${byLevel.map((n, i) => n ? `<i style="flex:${n};background:${LEVEL_COLORS[i + 1]}" title="L${i + 1}: ${n}"></i>` : '').join('')}</div>
+    <div class="bar" style="margin-top:8px"><i style="width:${p.pct}%"></i></div>
+  </a>`;
+}
+
+const dState = { mode: 'order', prio: new Set(PRIO), status: 'all' };
+try { Object.assign(dState, { mode: localStorage.getItem('kn_dmode') || 'order' }); } catch (e) { /* ignore */ }
+
+function viewDiscipline(id) {
+  const s = SUBJ.get(id);
+  if (!s) return notFound();
+  const p = progressOf(s.chapters.map(c => c.id));
+  const visible = c => dState.prio.has(c.priority) && (dState.status === 'all' || (dState.status === 'ready' ? st(c.id) === 'not-started' && isReady(c) : st(c.id) === dState.status));
+  const chs = s.chapters.filter(visible);
+  let body = '';
+  if (dState.mode === 'order') {
+    const stages = new Map();
+    [...chs].sort((a, b) => a.order - b.order).forEach(c => { if (!stages.has(c.stage)) stages.set(c.stage, []); stages.get(c.stage).push(c); });
+    body = [...stages.keys()].sort((a, b) => a - b).map(n => {
+      const list = stages.get(n), sp = progressOf(list.map(c => c.id));
+      return `<div class="stage"><div class="stage-head"><span class="stage-num">Stage ${n}</span>
+        <h3>${n === 1 ? 'Start here: no prerequisites inside this discipline' : `Builds on stage${n > 2 ? 's 1–' + (n - 1) : ' 1'}`}</h3>
+        <span class="faint small">${plural(list.length, 'chapter')} · ${sp.pct}% done</span></div>
+        <div class="grid">${list.map(c => chapterCard(c)).join('')}</div></div>`;
+    }).join('');
+  } else {
+    body = s.categories.map(cat => {
+      const list = chs.filter(c => c.category === cat);
+      if (!list.length) return '';
+      const sp = progressOf(list.map(c => c.id));
+      return `<div class="stage"><div class="stage-head"><h3>${esc(cat)}</h3><span class="faint small">${plural(list.length, 'chapter')} · ${sp.pct}% done</span></div>
+        <div class="grid">${list.map(c => chapterCard(c)).join('')}</div></div>`;
+    }).join('');
+  }
+  const topics = s.chapters.reduce((a, c) => a + c.topics.length, 0);
+  return `
+    <div class="hero"><div class="h-icon" style="border-color:${s.color}">${s.icon}</div><div style="flex:1;min-width:0">
+      <h1>${esc(s.name)}</h1>
+      <p class="lede">${esc(s.description || '')}</p>
+      <div class="row faint small" style="margin-top:10px">${s.chapters.length} chapters · ${topics.toLocaleString()} topics · ${p.done} done · ${p.prog} in progress</div>
+      <div class="bar" style="margin-top:8px;max-width:420px"><i style="width:${p.pct}%"></i></div>
+    </div></div>
+    <div class="filterbar">
+      <div class="toggle" data-group="mode">
+        <button class="${dState.mode === 'order' ? 'on' : ''}" data-v="order">Learning order</button>
+        <button class="${dState.mode === 'category' ? 'on' : ''}" data-v="category">By category</button>
+      </div>
+      <span class="spacer"></span>
+      ${PRIO.map(pr => `<button class="fchip ${dState.prio.has(pr) ? 'on' : ''}" data-prio="${pr}">${pr}</button>`).join('')}
+      <select class="btn" id="statusFilter" aria-label="Status filter">
+        ${[['all', 'All statuses'], ['ready', 'Ready to start'], ['not-started', 'Not started'], ['in-progress', 'In progress'], ['done', 'Done']].map(([v, n]) => `<option value="${v}" ${dState.status === v ? 'selected' : ''}>${n}</option>`).join('')}
+      </select>
+    </div>
+    ${dState.mode === 'order' ? `<p class="faint small">Stages come from the prerequisite graph: a chapter sits one stage after its latest prerequisite in ${esc(s.name)}. Prerequisites from other disciplines are shown as icons on the card; open a chapter for the full path.</p>` : ''}
+    ${body || '<div class="empty" style="margin-top:20px">No chapters match these filters.</div>'}`;
+}
+
+function viewRoadmap(id) {
+  const r = RM.get(id);
+  if (!r) return notFound();
+  const ids = rmChapters(r), p = progressOf(ids);
+  let nextFound = false;
+  const discs = [...new Set(ids.map(i => CH.get(i).subject))];
+  const stages = r.stages.map((stg, si) => {
+    const sIds = stg.items.map(i => i.chapter).filter(i => CH.has(i));
+    const sp = progressOf(sIds);
+    const complete = sp.total && sp.done === sp.total;
+    let current = false;
+    const items = stg.items.filter(it => CH.has(it.chapter)).map(it => {
+      const c = CH.get(it.chapter), s = st(c.id), sj = subj(c);
+      let next = false;
+      if (!nextFound && s !== 'done') { next = nextFound = current = true; }
+      const focus = (it.focus || []).map(f => TOPIC.get(f)?.topic.name).filter(Boolean);
+      return `<button class="item ${next ? 'next' : ''}" data-cid="${c.id}" data-focus="${esc((it.focus || []).join(','))}" style="--dc:${sj.color}">
+        ${sd(s)}
+        <div style="min-width:0"><div class="i-name">${esc(c.name)}</div>
+          ${it.why ? `<div class="i-why">${esc(it.why)}</div>` : ''}
+          ${focus.length ? `<div class="i-focus">Focus: ${focus.map(esc).join(' · ')}</div>` : ''}</div>
+        <div class="i-side">${next ? '<span class="next-tag">NEXT UP →</span>' : ''}
+          <span class="chip"><span class="d" style="background:${sj.color}"></span>${sj.icon} ${esc(sj.name)}</span>
+          <span class="chip">${it.depth === 'selected' ? 'Selected topics' : 'Full chapter'} · L${c.level}</span></div>
+      </button>`;
+    }).join('');
+    return `<div class="tl-stage ${complete ? 'complete' : ''} ${current ? 'current' : ''}">
+      <div class="tl-dot">${complete ? '✓' : si + 1}</div>
+      <div class="tl-title"><h3>${esc(stg.name)}</h3><span class="faint small">${sp.done}/${sp.total} done</span></div>
+      ${stg.description ? `<p class="muted small" style="margin-top:3px">${esc(stg.description)}</p>` : ''}
+      <div class="items">${items}</div></div>`;
+  }).join('');
+  return `
+    <div class="hero"><div class="h-icon">${r.icon}</div><div style="flex:1;min-width:0">
+      <h1>${esc(r.name)}</h1>
+      <p class="lede">${esc(r.description || r.tagline || '')}</p>
+      <div class="row" style="margin-top:12px">${discs.map(d => discChip(SUBJ.get(d))).join('')}</div>
+      <div class="row faint small" style="margin-top:12px">${r.stages.length} stages · ${ids.length} chapters · ${p.done} done · ${p.prog} in progress</div>
+      <div class="bar" style="margin-top:8px;max-width:420px"><i style="width:${p.pct}%"></i></div>
+    </div></div>
+    ${(r.outcomes || []).length ? `<div class="section" style="margin-top:22px"><h2>By the end you'll be able to</h2><ul class="outcomes">${r.outcomes.map(o => `<li>${esc(o)}</li>`).join('')}</ul></div>` : ''}
+    <div class="timeline">${stages}</div>
+    ${(r.related || []).filter(x => RM.has(x)).length ? `<div class="section"><h2>Related roadmaps</h2><div class="grid wide">${r.related.filter(x => RM.has(x)).map(x => roadmapCard(RM.get(x))).join('')}</div></div>` : ''}`;
+}
+
+const pState = { hideDone: false };
+function viewPath(id) {
+  const c = id && CH.get(id);
+  const picker = `<div class="search" style="max-width:560px;margin:18px 0 0">
+      <span class="icon">⌕</span><input id="pathQ" type="search" placeholder="Pick a target chapter, e.g. General Relativity, Rocket Propulsion…" autocomplete="off">
+      <div class="results" id="pathResults"></div></div>`;
+  if (!c) {
+    return `<h1>Path finder</h1>
+      <p class="lede">Choose any chapter and see <b>everything you need to learn before it</b>, across all disciplines, in a valid order. Each step only depends on earlier steps.</p>${picker}`;
+  }
+  const list = [...ancestors(c.id)].map(i => CH.get(i));
+  const p = progressOf(list.map(x => x.id));
+  const byDepth = new Map();
+  list.sort((a, b) => a.depth - b.depth || subj(a).index - subj(b).index || a.order - b.order)
+    .forEach(x => { if (!byDepth.has(x.depth)) byDepth.set(x.depth, []); byDepth.get(x.depth).push(x); });
+  const discs = [...new Set(list.map(x => x.subject))];
+  const steps = [...byDepth.keys()].map((d, i) => {
+    const chs = byDepth.get(d).filter(x => !(pState.hideDone && st(x.id) === 'done'));
+    if (!chs.length) return '';
+    return `<div class="stage"><div class="stage-head"><span class="stage-num">Step ${i + 1}</span>
+      <span class="faint small">${plural(chs.length, 'chapter')}</span>
+      <button class="btn" data-markdone="${chs.map(x => x.id).join(',')}" style="height:26px;font-size:12px">Mark step as known</button></div>
+      <div class="grid">${chs.map(x => chapterCard(x, { disc: true, summary: false })).join('')}</div></div>`;
+  }).join('');
+  return `<h1>Path to ${esc(c.name)}</h1>
+    <p class="lede">${list.length ? `${plural(list.length, 'chapter')} to learn first, across ${plural(discs.length, 'discipline')}. ${p.done} already done.` : 'This chapter has no prerequisites. You can start it right away.'}</p>
+    ${picker}
+    <div class="row" style="margin-top:14px">${discs.map(d => discChip(SUBJ.get(d))).join('')}
+      <span class="spacer"></span>
+      <label class="row small muted"><input type="checkbox" id="hideDone" ${pState.hideDone ? 'checked' : ''}> Hide completed</label></div>
+    ${list.length ? `<div class="bar" style="margin-top:12px;max-width:420px"><i style="width:${p.pct}%"></i></div>` : ''}
+    ${steps}
+    <div class="stage"><div class="stage-head"><span class="stage-num">Goal</span></div><div class="grid">${chapterCard(c, { disc: true })}</div></div>`;
+}
+
+function notFound() { return `<div class="empty">Not found. <a href="#/">Go home</a></div>`; }
+
+// ------------------------------------------------------------------ chapter drawer
+function renderDrawer(cid, focus = []) {
+  const c = CH.get(cid);
+  const dr = $('#drawer');
+  if (!c) { closeDrawer(); return; }
+  const sj = subj(c), s = st(c.id), pct = topicPct(c);
+  const linkRow = (id, extra = '') => {
+    const x = CH.get(id);
+    if (!x) return '';
+    return `<button class="link-row" data-cid="${x.id}">${sd(st(x.id))}<span class="l-name">${esc(x.name)}</span><span class="l-disc">${SUBJ.get(x.subject).icon} <span class="dn">${esc(SUBJ.get(x.subject).name)} · </span>L${x.level}${extra}</span></button>`;
+  };
+  const prereqs = c.prerequisites, done = prereqs.filter(p => st(p) === 'done').length;
+  const allAnc = ancestors(c.id).size;
+  const rms = (IN_RM.get(c.id) || []).map(r => RM.get(r));
+  const links = P.chapters[c.id]?.links || [];
+  dr.innerHTML = `
+    <div class="dr-head" style="border-top:3px solid ${sj.color}">
+      <button class="dr-close" data-close aria-label="Close">✕</button>
+      <div class="dr-crumbs"><a href="#/d/${sj.id}">${sj.icon} ${esc(sj.name)}</a><span>›</span><span>${esc(c.category)}</span></div>
+      <div class="dr-title">${esc(c.name)}</div>
+      ${c.summary ? `<p class="muted" style="margin-top:6px">${esc(c.summary)}</p>` : ''}
+      <div class="row" style="margin-top:10px">${levelChip(c.level)}${prioChip(c.priority)}<span class="chip">Stage ${c.stage} in ${esc(sj.name)}</span></div>
+      <div class="status-seg" role="group" aria-label="Status">
+        ${[['not-started', 'Not started'], ['in-progress', 'Learning'], ['done', 'Done']].map(([v, n]) => `<button data-s="${v}" class="${s === v ? 'on' : ''}">${sd(v)} ${n}</button>`).join('')}
+      </div>
+    </div>
+    <div class="dr-body">
+      <div class="dr-sec"><h4>Prerequisites <span class="faint">${prereqs.length ? `${done}/${prereqs.length} done` : ''}</span></h4>
+        ${prereqs.length ? `<div class="links">${prereqs.map(p => linkRow(p)).join('')}</div>` : '<div class="muted small">None. This is an entry point.</div>'}
+        ${allAnc ? `<a class="btn" style="margin-top:10px" href="#/path/${c.id}">🧭 Full path: ${plural(allAnc, 'chapter')} before this</a>` : ''}
+      </div>
+      <div class="dr-sec"><h4>Topics <span class="faint">${c.topics.filter(t => tst(t.id) === 'done').length}/${c.topics.length} · ${pct}%</span></h4>
+        <ul class="topics">${c.topics.map(t => `<li class="${t.depth ? 'sub' : ''} ${tst(t.id) === 'done' ? 'checked' : ''} ${focus.includes(t.id) ? 'focus' : ''}">
+          <input type="checkbox" id="t_${t.id}" data-tid="${t.id}" ${tst(t.id) === 'done' ? 'checked' : ''}><label for="t_${t.id}">${esc(t.name)}${focus.includes(t.id) ? ' <span class="chip" style="height:18px">roadmap focus</span>' : ''}</label></li>`).join('')}</ul>
+      </div>
+      ${c.unlocks.length ? `<div class="dr-sec"><h4>Unlocks <span class="faint">${c.unlocks.length}</span></h4><div class="links">${c.unlocks.map(u => linkRow(u)).join('')}</div></div>` : ''}
+      ${c.related.length ? `<div class="dr-sec"><h4>Related elsewhere</h4><div class="links">${c.related.map(u => linkRow(u)).join('')}</div></div>` : ''}
+      ${rms.length ? `<div class="dr-sec"><h4>Part of roadmaps</h4><div class="row">${rms.map(r => `<a class="btn" href="#/r/${r.id}">${r.icon} ${esc(r.name)}</a>`).join('')}</div></div>` : ''}
+      <div class="dr-sec"><h4>Your notes</h4><textarea class="notes" id="notes" placeholder="Thoughts, questions, summaries…">${esc(P.chapters[c.id]?.notes || '')}</textarea></div>
+      <div class="dr-sec"><h4>Resources</h4>
+        <div class="links">${links.map((l, i) => `<div class="link-row"><a class="l-name" href="${esc(/^https?:\/\//i.test(l.url) ? l.url : 'https://' + l.url)}" target="_blank" rel="noopener">${esc(l.label || l.url)}</a><button class="x" data-dellink="${i}" aria-label="Remove">✕</button></div>`).join('') || '<div class="muted small">Add course, video or book links for this chapter.</div>'}</div>
+        <form class="addlink" id="addLink"><input name="label" placeholder="Label"><input name="url" placeholder="https://…" required><button class="btn">Add</button></form>
+      </div>
+    </div>`;
+  dr.dataset.open = cid;
+  dr.classList.add('open'); dr.setAttribute('aria-hidden', 'false');
+  $('#scrim').classList.add('open');
+}
+function closeDrawer() {
+  $('#drawer').classList.remove('open'); $('#drawer').setAttribute('aria-hidden', 'true');
+  $('#scrim').classList.remove('open');
+}
+function openChapter(cid, focus) {
+  const [path] = (location.hash || '#/').split('?');
+  const q = new URLSearchParams({ c: cid });
+  if (focus) q.set('f', focus);
+  location.hash = `${path}?${q}`;
+}
+function closeChapter() {
+  const [path] = (location.hash || '#/').split('?');
+  location.hash = path;
+}
+
+// ------------------------------------------------------------------ router
+function route() {
+  const [path, query] = (location.hash.slice(1) || '/').split('?');
+  const parts = path.split('/').filter(Boolean);
+  const q = new URLSearchParams(query || '');
+  const key = path;
+  let html;
+  if (!parts.length) html = viewHome();
+  else if (parts[0] === 'd') html = viewDiscipline(parts[1]);
+  else if (parts[0] === 'r') html = viewRoadmap(parts[1]);
+  else if (parts[0] === 'path') html = viewPath(parts[1]);
+  else html = notFound();
+  const view = $('#view');
+  const y = route.lastKey === key ? window.scrollY : 0;
+  view.innerHTML = html;
+  window.scrollTo(0, y);
+  route.lastKey = key;
+  renderNav();
+  $('#sidenav').classList.remove('open');
+  $('#results').classList.remove('open');
+  if (q.get('c')) renderDrawer(q.get('c'), (q.get('f') || '').split(',').filter(Boolean));
+  else closeDrawer();
+  const pq = $('#pathQ');
+  if (pq) wireSearch(pq, $('#pathResults'), { chaptersOnly: true, onPick: id => { location.hash = '#/path/' + id; } });
+}
+function refresh() { route(); }
+
+// ------------------------------------------------------------------ search
+const INDEX = [];
+KB.subjects.forEach(s => s.chapters.forEach(c => {
+  INDEX.push({ kind: 'chapter', id: c.id, name: c.name, key: c.name.toLowerCase(), sub: `${s.icon} ${s.name} · ${c.category}` });
+  c.topics.forEach(t => INDEX.push({ kind: 'topic', id: c.id, tid: t.id, name: t.name, key: t.name.toLowerCase(), sub: `${s.icon} ${c.name}` }));
+}));
+(KB.roadmaps || []).forEach(r => INDEX.push({ kind: 'roadmap', id: r.id, name: r.name, key: (r.name + ' ' + (r.tagline || '')).toLowerCase(), sub: r.tagline || '' }));
+function search(q, chaptersOnly) {
+  const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
+  if (!terms.length) return [];
+  const out = [];
+  for (const e of INDEX) {
+    if (chaptersOnly && e.kind !== 'chapter') continue;
+    if (!terms.every(t => e.key.includes(t))) continue;
+    const score = (e.key === q.toLowerCase() ? 0 : e.key.startsWith(terms[0]) ? 1 : 2) + (e.kind === 'roadmap' ? -1 : e.kind === 'chapter' ? 0 : 3);
+    out.push([score, e]);
+    if (out.length > 400) break;
+  }
+  return out.sort((a, b) => a[0] - b[0]).slice(0, 30).map(x => x[1]);
+}
+function wireSearch(input, box, { chaptersOnly = false, onPick }) {
+  let res = [], active = 0;
+  const draw = () => {
+    box.innerHTML = res.map((e, i) => `<button class="result ${i === active ? 'active' : ''}" data-i="${i}">
+      <div class="r-main"><div class="r-title">${esc(e.name)}</div><div class="r-sub">${esc(e.sub)}</div></div><span class="r-kind">${e.kind}</span></button>`).join('')
+      || (input.value.trim() ? '<div class="result muted">No matches</div>' : '');
+    box.classList.toggle('open', !!input.value.trim());
+  };
+  const pick = e => {
+    if (!e) return;
+    input.value = ''; box.classList.remove('open'); input.blur();
+    if (onPick) return onPick(e.id);
+    if (e.kind === 'roadmap') location.hash = '#/r/' + e.id;
+    else openChapter(e.id, e.tid);
+  };
+  input.addEventListener('input', () => { res = search(input.value, chaptersOnly); active = 0; draw(); });
+  input.addEventListener('keydown', ev => {
+    if (ev.key === 'ArrowDown') { active = Math.min(active + 1, res.length - 1); draw(); ev.preventDefault(); }
+    else if (ev.key === 'ArrowUp') { active = Math.max(active - 1, 0); draw(); ev.preventDefault(); }
+    else if (ev.key === 'Enter') { pick(res[active]); ev.preventDefault(); }
+    else if (ev.key === 'Escape') { input.value = ''; box.classList.remove('open'); input.blur(); }
+  });
+  box.addEventListener('mousedown', ev => { const b = ev.target.closest('[data-i]'); if (b) { ev.preventDefault(); pick(res[+b.dataset.i]); } });
+  input.addEventListener('blur', () => setTimeout(() => box.classList.remove('open'), 120));
+}
+wireSearch($('#q'), $('#results'), {});
+
+// ------------------------------------------------------------------ events
+document.addEventListener('click', ev => {
+  const t = ev.target;
+  const card = t.closest('[data-cid]');
+  if (card && !t.closest('a')) { openChapter(card.dataset.cid, card.dataset.focus || ''); return; }
+  if (t.closest('[data-close]') || t === $('#scrim')) { closeChapter(); return; }
+  const seg = t.closest('.status-seg [data-s]');
+  if (seg) { setStatus($('#drawer').dataset.open, seg.dataset.s); refresh(); return; }
+  const tog = t.closest('.toggle[data-group="mode"] button');
+  if (tog) { dState.mode = tog.dataset.v; try { localStorage.setItem('kn_dmode', dState.mode); } catch (e) { /* ignore */ } refresh(); return; }
+  const pr = t.closest('[data-prio]');
+  if (pr) { const v = pr.dataset.prio; dState.prio.has(v) ? dState.prio.delete(v) : dState.prio.add(v); refresh(); return; }
+  const md = t.closest('[data-markdone]');
+  if (md) { md.dataset.markdone.split(',').forEach(id => setStatus(id, 'done')); toast('Marked as known'); refresh(); return; }
+  const dl = t.closest('[data-dellink]');
+  if (dl) { const cid = $('#drawer').dataset.open; P.chapters[cid].links.splice(+dl.dataset.dellink, 1); persist(); refresh(); return; }
+  if (t.closest('#dataBtn')) { $('#dataMenu').classList.toggle('open'); return; }
+  if (!t.closest('#dataMenu')) $('#dataMenu').classList.remove('open');
+  const act = t.closest('[data-act]');
+  if (act) { $('#dataMenu').classList.remove('open'); dataAction(act.dataset.act); }
+  if (t.closest('#menuBtn')) $('#sidenav').classList.toggle('open');
+});
+document.addEventListener('change', ev => {
+  const t = ev.target;
+  if (t.dataset.tid) { setTopic(t.dataset.tid, t.checked); refresh(); }
+  else if (t.id === 'statusFilter') { dState.status = t.value; refresh(); }
+  else if (t.id === 'hideDone') { pState.hideDone = t.checked; refresh(); }
+});
+document.addEventListener('input', ev => {
+  if (ev.target.id !== 'notes') return;
+  const cid = $('#drawer').dataset.open;
+  clearTimeout(document.notesT);
+  document.notesT = setTimeout(() => { (P.chapters[cid] = P.chapters[cid] || {}).notes = ev.target.value; persist(); }, 400);
+});
+document.addEventListener('submit', ev => {
+  if (ev.target.id !== 'addLink') return;
+  ev.preventDefault();
+  const f = new FormData(ev.target), cid = $('#drawer').dataset.open;
+  const rec = P.chapters[cid] = P.chapters[cid] || {};
+  (rec.links = rec.links || []).push({ url: f.get('url').trim(), label: f.get('label').trim() || f.get('url').trim() });
+  persist(); refresh();
+});
+document.addEventListener('keydown', ev => {
+  if (ev.key === '/' && !/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)) { ev.preventDefault(); $('#q').focus(); }
+  if (ev.key === 'Escape' && $('#drawer').classList.contains('open') && !/INPUT|TEXTAREA/.test(document.activeElement.tagName)) closeChapter();
+});
+window.addEventListener('hashchange', route);
+
+// ------------------------------------------------------------------ data menu
+function download(name, text, type) {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([text], { type }));
+  a.download = name; a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+function dataAction(act) {
+  const stamp = new Date().toISOString().slice(0, 10);
+  if (act === 'export') download(`knowledge-progress-${stamp}.json`, JSON.stringify({ userProgress: P, exportedAt: new Date().toISOString(), app: 'knowledge-navigator-4' }, null, 2), 'application/json');
+  if (act === 'import') $('#importFile').click();
+  if (act === 'csv') {
+    const rows = [['Discipline', 'Category', 'Chapter', 'Level', 'Priority', 'Stage', 'Prerequisites', 'Topics', 'Status', 'Notes']];
+    KB.subjects.forEach(s => [...s.chapters].sort((a, b) => a.order - b.order).forEach(c => rows.push([s.name, c.category, c.name, c.level, c.priority, c.stage,
+      c.prerequisites.map(p => CH.get(p)?.name).join('; '), c.topics.length, st(c.id), P.chapters[c.id]?.notes || ''])));
+    download(`knowledge-chapters-${stamp}.csv`, '﻿' + rows.map(r => r.map(v => `"${String(v).replace(/"/g, '""')}"`).join(',')).join('\r\n'), 'text/csv');
+  }
+}
+$('#importFile').addEventListener('change', ev => {
+  const file = ev.target.files[0];
+  if (!file) return;
+  file.text().then(txt => {
+    const data = JSON.parse(txt);
+    const up = data.userProgress || (data.chapters && data.topics ? data : null);
+    if (!up) throw new Error('no progress in file');
+    P = { chapters: up.chapters || {}, topics: up.topics || {}, lastUpdated: up.lastUpdated || null };
+    persist(); refresh(); toast('Progress imported');
+  }).catch(() => toast('That file does not contain progress data'));
+  ev.target.value = '';
+});
+
+// ------------------------------------------------------------------ theme
+function applyTheme(t) { document.documentElement.dataset.theme = t; try { localStorage.setItem('kn_theme', t); } catch (e) { /* ignore */ } }
+(() => {
+  let t = null;
+  try { t = localStorage.getItem('kn_theme'); } catch (e) { /* ignore */ }
+  document.documentElement.dataset.theme = t || (matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+})();
+$('#themeBtn').addEventListener('click', () => applyTheme(document.documentElement.dataset.theme === 'light' ? 'dark' : 'light'));
+
+if (!KB.subjects.length) $('#view').innerHTML = '<div class="empty">knowledge_base.js is missing or empty. Run <code>python scripts/build.py</code>.</div>';
+else route();
+</script>
+</body>
+</html>
