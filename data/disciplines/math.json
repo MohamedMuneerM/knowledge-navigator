@@ -1,0 +1,3976 @@
+{
+  "id": "math",
+  "name": "Mathematics",
+  "icon": "∑",
+  "color": "#fbbf24",
+  "prefix": "ma",
+  "description": "",
+  "chapters": [
+    {
+      "id": "ma-logic-proof-theory",
+      "name": "Logic & Proof Theory",
+      "category": "Foundations & Mathematical Logic",
+      "topics": [
+        {
+          "id": "ma-logic-proof-theory-1",
+          "name": "Mathematical logic"
+        },
+        {
+          "id": "ma-logic-proof-theory-2",
+          "name": "Formal logic systems"
+        },
+        {
+          "id": "ma-logic-proof-theory-3",
+          "name": "Proof theory"
+        },
+        {
+          "id": "ma-logic-proof-theory-4",
+          "name": "Axiomatic systems"
+        },
+        {
+          "id": "ma-logic-proof-theory-5",
+          "name": "Constructivism"
+        }
+      ]
+    },
+    {
+      "id": "ma-set-theory",
+      "name": "Set Theory",
+      "category": "Foundations & Mathematical Logic",
+      "topics": [
+        {
+          "id": "ma-set-theory-1",
+          "name": "Naive set theory"
+        },
+        {
+          "id": "ma-set-theory-2",
+          "name": "Axiomatic set theory (ZFC)"
+        },
+        {
+          "id": "ma-set-theory-3",
+          "name": "Cardinal numbers"
+        },
+        {
+          "id": "ma-set-theory-4",
+          "name": "Ordinal numbers"
+        },
+        {
+          "id": "ma-set-theory-5",
+          "name": "Infinite sets and cardinality"
+        }
+      ]
+    },
+    {
+      "id": "ma-foundations-philosophy",
+      "name": "Foundations & Philosophy",
+      "category": "Foundations & Mathematical Logic",
+      "topics": [
+        {
+          "id": "ma-foundations-philosophy-1",
+          "name": "Philosophy of mathematics"
+        },
+        {
+          "id": "ma-foundations-philosophy-2",
+          "name": "Mathematical aesthetics"
+        },
+        {
+          "id": "ma-foundations-philosophy-3",
+          "name": "History of mathematics"
+        },
+        {
+          "id": "ma-foundations-philosophy-4",
+          "name": "Metamathematics"
+        }
+      ]
+    },
+    {
+      "id": "ma-model-theory",
+      "name": "Model Theory",
+      "category": "Foundations & Mathematical Logic",
+      "topics": [
+        {
+          "id": "ma-model-theory-1",
+          "name": "First-order logic"
+        },
+        {
+          "id": "ma-model-theory-2",
+          "name": "Model construction"
+        },
+        {
+          "id": "ma-model-theory-3",
+          "name": "Completeness and compactness"
+        }
+      ]
+    },
+    {
+      "id": "ma-recursion-computability",
+      "name": "Recursion & Computability",
+      "category": "Foundations & Mathematical Logic",
+      "topics": [
+        {
+          "id": "ma-recursion-computability-1",
+          "name": "Recursion theory"
+        },
+        {
+          "id": "ma-recursion-computability-2",
+          "name": "Computability theory"
+        },
+        {
+          "id": "ma-recursion-computability-3",
+          "name": "Turing machines"
+        },
+        {
+          "id": "ma-recursion-computability-4",
+          "name": "Decidability"
+        }
+      ]
+    },
+    {
+      "id": "ma-category-theory",
+      "name": "Category Theory",
+      "category": "Foundations & Mathematical Logic",
+      "topics": [
+        {
+          "id": "ma-category-theory-1",
+          "name": "Categories and functors"
+        },
+        {
+          "id": "ma-category-theory-2",
+          "name": "Natural transformations"
+        },
+        {
+          "id": "ma-category-theory-3",
+          "name": "Limits and colimits"
+        },
+        {
+          "id": "ma-category-theory-4",
+          "name": "Adjoint functors"
+        },
+        {
+          "id": "ma-category-theory-5",
+          "name": "Topos theory"
+        },
+        {
+          "id": "ma-category-theory-6",
+          "name": "Higher category theory"
+        },
+        {
+          "id": "ma-category-theory-7",
+          "name": "Category-theoretic physics"
+        }
+      ]
+    },
+    {
+      "id": "ma-elementary-intermediate-algebra",
+      "name": "Elementary & Intermediate Algebra",
+      "category": "Algebra",
+      "topics": [
+        {
+          "id": "ma-elementary-intermediate-algebra-1",
+          "name": "Elementary algebra"
+        },
+        {
+          "id": "ma-elementary-intermediate-algebra-2",
+          "name": "Polynomial algebra"
+        },
+        {
+          "id": "ma-elementary-intermediate-algebra-3",
+          "name": "Rational expressions"
+        },
+        {
+          "id": "ma-elementary-intermediate-algebra-4",
+          "name": "Systems of equations"
+        }
+      ]
+    },
+    {
+      "id": "ma-linear-algebra",
+      "name": "Linear Algebra",
+      "category": "Algebra",
+      "topics": [
+        {
+          "id": "ma-linear-algebra-1",
+          "name": "Vector spaces"
+        },
+        {
+          "id": "ma-linear-algebra-2",
+          "name": "Linear transformations"
+        },
+        {
+          "id": "ma-linear-algebra-3",
+          "name": "Matrix theory"
+        },
+        {
+          "id": "ma-linear-algebra-4",
+          "name": "Eigenvalues and eigenvectors"
+        },
+        {
+          "id": "ma-linear-algebra-5",
+          "name": "Inner product spaces"
+        },
+        {
+          "id": "ma-linear-algebra-6",
+          "name": "Determinants"
+        },
+        {
+          "id": "ma-linear-algebra-7",
+          "name": "Linear algebra for machine learning"
+        },
+        {
+          "id": "ma-linear-algebra-8",
+          "name": "Matrix calculus"
+        }
+      ]
+    },
+    {
+      "id": "ma-abstract-algebra",
+      "name": "Abstract Algebra",
+      "category": "Algebra",
+      "topics": [
+        {
+          "id": "ma-abstract-algebra-1",
+          "name": "Groups and subgroups"
+        },
+        {
+          "id": "ma-abstract-algebra-2",
+          "name": "Rings and ideals"
+        },
+        {
+          "id": "ma-abstract-algebra-3",
+          "name": "Fields and field extensions"
+        },
+        {
+          "id": "ma-abstract-algebra-4",
+          "name": "Modules"
+        },
+        {
+          "id": "ma-abstract-algebra-5",
+          "name": "Algebraic structures"
+        },
+        {
+          "id": "ma-abstract-algebra-6",
+          "name": "Universal algebra"
+        }
+      ]
+    },
+    {
+      "id": "ma-group-theory",
+      "name": "Group Theory",
+      "category": "Algebra",
+      "topics": [
+        {
+          "id": "ma-group-theory-1",
+          "name": "Finite groups"
+        },
+        {
+          "id": "ma-group-theory-2",
+          "name": "Permutation groups"
+        },
+        {
+          "id": "ma-group-theory-3",
+          "name": "Group actions"
+        },
+        {
+          "id": "ma-group-theory-4",
+          "name": "Sylow theorems"
+        },
+        {
+          "id": "ma-group-theory-5",
+          "name": "Representation theory"
+        },
+        {
+          "id": "ma-group-theory-6",
+          "name": "Character theory"
+        },
+        {
+          "id": "ma-group-theory-7",
+          "name": "Geometric group theory"
+        }
+      ]
+    },
+    {
+      "id": "ma-ring-theory",
+      "name": "Ring Theory",
+      "category": "Algebra",
+      "topics": [
+        {
+          "id": "ma-ring-theory-1",
+          "name": "Commutative rings"
+        },
+        {
+          "id": "ma-ring-theory-2",
+          "name": "Noncommutative rings"
+        },
+        {
+          "id": "ma-ring-theory-3",
+          "name": "Integral domains"
+        },
+        {
+          "id": "ma-ring-theory-4",
+          "name": "Unique factorization domains"
+        },
+        {
+          "id": "ma-ring-theory-5",
+          "name": "Principal ideal domains"
+        },
+        {
+          "id": "ma-ring-theory-6",
+          "name": "Polynomial rings"
+        }
+      ]
+    },
+    {
+      "id": "ma-field-theory",
+      "name": "Field Theory",
+      "category": "Algebra",
+      "topics": [
+        {
+          "id": "ma-field-theory-1",
+          "name": "Field extensions"
+        },
+        {
+          "id": "ma-field-theory-2",
+          "name": "Galois theory"
+        },
+        {
+          "id": "ma-field-theory-3",
+          "name": "Finite fields"
+        },
+        {
+          "id": "ma-field-theory-4",
+          "name": "Algebraic closures"
+        },
+        {
+          "id": "ma-field-theory-5",
+          "name": "Transcendental extensions"
+        }
+      ]
+    },
+    {
+      "id": "ma-commutative-algebra",
+      "name": "Commutative Algebra",
+      "category": "Algebra",
+      "topics": [
+        {
+          "id": "ma-commutative-algebra-1",
+          "name": "Ideals and modules"
+        },
+        {
+          "id": "ma-commutative-algebra-2",
+          "name": "Noetherian rings"
+        },
+        {
+          "id": "ma-commutative-algebra-3",
+          "name": "Localization"
+        },
+        {
+          "id": "ma-commutative-algebra-4",
+          "name": "Primary decomposition"
+        }
+      ]
+    },
+    {
+      "id": "ma-lie-theory",
+      "name": "Lie Theory",
+      "category": "Algebra",
+      "topics": [
+        {
+          "id": "ma-lie-theory-1",
+          "name": "Lie groups"
+        },
+        {
+          "id": "ma-lie-theory-2",
+          "name": "Lie algebras"
+        },
+        {
+          "id": "ma-lie-theory-3",
+          "name": "Lie group representations"
+        },
+        {
+          "id": "ma-lie-theory-4",
+          "name": "Root systems"
+        },
+        {
+          "id": "ma-lie-theory-5",
+          "name": "Weyl groups"
+        }
+      ]
+    },
+    {
+      "id": "ma-homological-algebra",
+      "name": "Homological Algebra",
+      "category": "Algebra",
+      "topics": [
+        {
+          "id": "ma-homological-algebra-1",
+          "name": "Chain complexes"
+        },
+        {
+          "id": "ma-homological-algebra-2",
+          "name": "Homology and cohomology"
+        },
+        {
+          "id": "ma-homological-algebra-3",
+          "name": "Derived functors"
+        },
+        {
+          "id": "ma-homological-algebra-4",
+          "name": "Ext and Tor functors"
+        },
+        {
+          "id": "ma-homological-algebra-5",
+          "name": "Spectral sequences"
+        }
+      ]
+    },
+    {
+      "id": "ma-specialized-algebraic-structures",
+      "name": "Specialized Algebraic Structures",
+      "category": "Algebra",
+      "topics": [
+        {
+          "id": "ma-specialized-algebraic-structures-1",
+          "name": "Quaternions and octonions"
+        },
+        {
+          "id": "ma-specialized-algebraic-structures-2",
+          "name": "Clifford algebras"
+        },
+        {
+          "id": "ma-specialized-algebraic-structures-3",
+          "name": "Boolean algebra"
+        },
+        {
+          "id": "ma-specialized-algebraic-structures-4",
+          "name": "Lattices and ordered structures"
+        },
+        {
+          "id": "ma-specialized-algebraic-structures-5",
+          "name": "Tensor algebra"
+        },
+        {
+          "id": "ma-specialized-algebraic-structures-6",
+          "name": "Exterior algebra"
+        }
+      ]
+    },
+    {
+      "id": "ma-k-theory",
+      "name": "K-Theory",
+      "category": "Algebra",
+      "topics": [
+        {
+          "id": "ma-k-theory-1",
+          "name": "Algebraic K-theory"
+        },
+        {
+          "id": "ma-k-theory-2",
+          "name": "Topological K-theory"
+        }
+      ]
+    },
+    {
+      "id": "ma-algebraic-coding-theory",
+      "name": "Algebraic Coding Theory",
+      "category": "Algebra",
+      "topics": [
+        {
+          "id": "ma-algebraic-coding-theory-1",
+          "name": "Error-correcting codes"
+        },
+        {
+          "id": "ma-algebraic-coding-theory-2",
+          "name": "Linear codes"
+        },
+        {
+          "id": "ma-algebraic-coding-theory-3",
+          "name": "Cyclic codes"
+        }
+      ]
+    },
+    {
+      "id": "ma-elementary-number-theory",
+      "name": "Elementary Number Theory",
+      "category": "Number Theory",
+      "topics": [
+        {
+          "id": "ma-elementary-number-theory-1",
+          "name": "Divisibility"
+        },
+        {
+          "id": "ma-elementary-number-theory-2",
+          "name": "Prime numbers"
+        },
+        {
+          "id": "ma-elementary-number-theory-3",
+          "name": "Greatest common divisors"
+        },
+        {
+          "id": "ma-elementary-number-theory-4",
+          "name": "Modular arithmetic"
+        },
+        {
+          "id": "ma-elementary-number-theory-5",
+          "name": "Congruences"
+        },
+        {
+          "id": "ma-elementary-number-theory-6",
+          "name": "Chinese remainder theorem"
+        }
+      ]
+    },
+    {
+      "id": "ma-arithmetic-functions",
+      "name": "Arithmetic Functions",
+      "category": "Number Theory",
+      "topics": [
+        {
+          "id": "ma-arithmetic-functions-1",
+          "name": "Euler's totient function"
+        },
+        {
+          "id": "ma-arithmetic-functions-2",
+          "name": "Möbius function"
+        },
+        {
+          "id": "ma-arithmetic-functions-3",
+          "name": "Divisor functions"
+        },
+        {
+          "id": "ma-arithmetic-functions-4",
+          "name": "Multiplicative functions"
+        }
+      ]
+    },
+    {
+      "id": "ma-analytic-number-theory",
+      "name": "Analytic Number Theory",
+      "category": "Number Theory",
+      "topics": [
+        {
+          "id": "ma-analytic-number-theory-1",
+          "name": "Prime number theorem"
+        },
+        {
+          "id": "ma-analytic-number-theory-2",
+          "name": "Riemann zeta function"
+        },
+        {
+          "id": "ma-analytic-number-theory-3",
+          "name": "L-functions"
+        },
+        {
+          "id": "ma-analytic-number-theory-4",
+          "name": "Distribution of primes"
+        },
+        {
+          "id": "ma-analytic-number-theory-5",
+          "name": "Dirichlet's theorem"
+        }
+      ]
+    },
+    {
+      "id": "ma-algebraic-number-theory",
+      "name": "Algebraic Number Theory",
+      "category": "Number Theory",
+      "topics": [
+        {
+          "id": "ma-algebraic-number-theory-1",
+          "name": "Algebraic integers"
+        },
+        {
+          "id": "ma-algebraic-number-theory-2",
+          "name": "Algebraic number fields"
+        },
+        {
+          "id": "ma-algebraic-number-theory-3",
+          "name": "Class field theory"
+        },
+        {
+          "id": "ma-algebraic-number-theory-4",
+          "name": "Ideal theory"
+        },
+        {
+          "id": "ma-algebraic-number-theory-5",
+          "name": "Valuations"
+        }
+      ]
+    },
+    {
+      "id": "ma-transcendental-number-theory",
+      "name": "Transcendental Number Theory",
+      "category": "Number Theory",
+      "topics": [
+        {
+          "id": "ma-transcendental-number-theory-1",
+          "name": "Transcendental numbers"
+        },
+        {
+          "id": "ma-transcendental-number-theory-2",
+          "name": "Algebraic independence"
+        }
+      ]
+    },
+    {
+      "id": "ma-diophantine-equations",
+      "name": "Diophantine Equations",
+      "category": "Number Theory",
+      "topics": [
+        {
+          "id": "ma-diophantine-equations-1",
+          "name": "Linear Diophantine equations"
+        },
+        {
+          "id": "ma-diophantine-equations-2",
+          "name": "Pell's equation"
+        },
+        {
+          "id": "ma-diophantine-equations-3",
+          "name": "Fermat's Last Theorem"
+        }
+      ]
+    },
+    {
+      "id": "ma-p-adic-numbers",
+      "name": "p-adic Numbers",
+      "category": "Number Theory",
+      "topics": [
+        {
+          "id": "ma-p-adic-numbers-1",
+          "name": "p-adic analysis"
+        },
+        {
+          "id": "ma-p-adic-numbers-2",
+          "name": "p-adic fields"
+        }
+      ]
+    },
+    {
+      "id": "ma-elliptic-curves",
+      "name": "Elliptic Curves",
+      "category": "Number Theory",
+      "topics": [
+        {
+          "id": "ma-elliptic-curves-1",
+          "name": "Elliptic curve theory"
+        },
+        {
+          "id": "ma-elliptic-curves-2",
+          "name": "Elliptic curve cryptography"
+        },
+        {
+          "id": "ma-elliptic-curves-3",
+          "name": "Mordell-Weil theorem"
+        }
+      ]
+    },
+    {
+      "id": "ma-modular-forms",
+      "name": "Modular Forms",
+      "category": "Number Theory",
+      "topics": [
+        {
+          "id": "ma-modular-forms-1",
+          "name": "Modular functions"
+        },
+        {
+          "id": "ma-modular-forms-2",
+          "name": "Automorphic forms"
+        },
+        {
+          "id": "ma-modular-forms-3",
+          "name": "Hecke operators"
+        }
+      ]
+    },
+    {
+      "id": "ma-additive-combinatorics",
+      "name": "Additive Combinatorics",
+      "category": "Number Theory",
+      "topics": [
+        {
+          "id": "ma-additive-combinatorics-1",
+          "name": "Sum-free sets"
+        },
+        {
+          "id": "ma-additive-combinatorics-2",
+          "name": "Arithmetic progressions"
+        },
+        {
+          "id": "ma-additive-combinatorics-3",
+          "name": "Additive number theory"
+        }
+      ]
+    },
+    {
+      "id": "ma-cryptographic-number-theory",
+      "name": "Cryptographic Number Theory",
+      "category": "Number Theory",
+      "topics": [
+        {
+          "id": "ma-cryptographic-number-theory-1",
+          "name": "RSA cryptography"
+        },
+        {
+          "id": "ma-cryptographic-number-theory-2",
+          "name": "Discrete logarithm problem"
+        },
+        {
+          "id": "ma-cryptographic-number-theory-3",
+          "name": "Primality testing"
+        }
+      ]
+    },
+    {
+      "id": "ma-euclidean-geometry",
+      "name": "Euclidean Geometry",
+      "category": "Geometry",
+      "topics": [
+        {
+          "id": "ma-euclidean-geometry-1",
+          "name": "Classical plane geometry"
+        },
+        {
+          "id": "ma-euclidean-geometry-2",
+          "name": "Solid geometry"
+        },
+        {
+          "id": "ma-euclidean-geometry-3",
+          "name": "Coordinate geometry"
+        },
+        {
+          "id": "ma-euclidean-geometry-4",
+          "name": "Geometric constructions"
+        }
+      ]
+    },
+    {
+      "id": "ma-analytic-geometry",
+      "name": "Analytic Geometry",
+      "category": "Geometry",
+      "topics": [
+        {
+          "id": "ma-analytic-geometry-1",
+          "name": "Conic sections"
+        },
+        {
+          "id": "ma-analytic-geometry-2",
+          "name": "Parametric curves"
+        },
+        {
+          "id": "ma-analytic-geometry-3",
+          "name": "Polar coordinates"
+        }
+      ]
+    },
+    {
+      "id": "ma-non-euclidean-geometry",
+      "name": "Non-Euclidean Geometry",
+      "category": "Geometry",
+      "topics": [
+        {
+          "id": "ma-non-euclidean-geometry-1",
+          "name": "Hyperbolic geometry"
+        },
+        {
+          "id": "ma-non-euclidean-geometry-2",
+          "name": "Elliptic geometry"
+        },
+        {
+          "id": "ma-non-euclidean-geometry-3",
+          "name": "Spherical geometry"
+        }
+      ]
+    },
+    {
+      "id": "ma-differential-geometry",
+      "name": "Differential Geometry",
+      "category": "Geometry",
+      "topics": [
+        {
+          "id": "ma-differential-geometry-1",
+          "name": "Curves and surfaces"
+        },
+        {
+          "id": "ma-differential-geometry-2",
+          "name": "Riemannian geometry"
+        },
+        {
+          "id": "ma-differential-geometry-3",
+          "name": "Finsler geometry"
+        },
+        {
+          "id": "ma-differential-geometry-4",
+          "name": "Symplectic geometry"
+        },
+        {
+          "id": "ma-differential-geometry-5",
+          "name": "Pseudo-Riemannian geometry"
+        },
+        {
+          "id": "ma-differential-geometry-6",
+          "name": "Differential manifolds"
+        },
+        {
+          "id": "ma-differential-geometry-7",
+          "name": "Curvature theory"
+        },
+        {
+          "id": "ma-differential-geometry-8",
+          "name": "Geodesics"
+        }
+      ]
+    },
+    {
+      "id": "ma-algebraic-geometry",
+      "name": "Algebraic Geometry",
+      "category": "Geometry",
+      "topics": [
+        {
+          "id": "ma-algebraic-geometry-1",
+          "name": "Affine varieties"
+        },
+        {
+          "id": "ma-algebraic-geometry-2",
+          "name": "Projective varieties"
+        },
+        {
+          "id": "ma-algebraic-geometry-3",
+          "name": "Schemes"
+        },
+        {
+          "id": "ma-algebraic-geometry-4",
+          "name": "Sheaf theory"
+        },
+        {
+          "id": "ma-algebraic-geometry-5",
+          "name": "Cohomology in algebraic geometry"
+        },
+        {
+          "id": "ma-algebraic-geometry-6",
+          "name": "Intersection theory"
+        }
+      ]
+    },
+    {
+      "id": "ma-projective-geometry",
+      "name": "Projective Geometry",
+      "category": "Geometry",
+      "topics": [
+        {
+          "id": "ma-projective-geometry-1",
+          "name": "Projective spaces"
+        },
+        {
+          "id": "ma-projective-geometry-2",
+          "name": "Homogeneous coordinates"
+        },
+        {
+          "id": "ma-projective-geometry-3",
+          "name": "Duality"
+        }
+      ]
+    },
+    {
+      "id": "ma-discrete-computational-geometry",
+      "name": "Discrete & Computational Geometry",
+      "category": "Geometry",
+      "topics": [
+        {
+          "id": "ma-discrete-computational-geometry-1",
+          "name": "Discrete geometry"
+        },
+        {
+          "id": "ma-discrete-computational-geometry-2",
+          "name": "Computational geometry"
+        },
+        {
+          "id": "ma-discrete-computational-geometry-3",
+          "name": "Geometric algorithms"
+        }
+      ]
+    },
+    {
+      "id": "ma-convex-geometry",
+      "name": "Convex Geometry",
+      "category": "Geometry",
+      "topics": [
+        {
+          "id": "ma-convex-geometry-1",
+          "name": "Convex sets"
+        },
+        {
+          "id": "ma-convex-geometry-2",
+          "name": "Convex polytopes"
+        },
+        {
+          "id": "ma-convex-geometry-3",
+          "name": "Convex analysis"
+        }
+      ]
+    },
+    {
+      "id": "ma-fractal-geometry",
+      "name": "Fractal Geometry",
+      "category": "Geometry",
+      "topics": [
+        {
+          "id": "ma-fractal-geometry-1",
+          "name": "Self-similar sets"
+        },
+        {
+          "id": "ma-fractal-geometry-2",
+          "name": "Hausdorff dimension"
+        },
+        {
+          "id": "ma-fractal-geometry-3",
+          "name": "Iterated function systems"
+        }
+      ]
+    },
+    {
+      "id": "ma-tropical-geometry",
+      "name": "Tropical Geometry",
+      "category": "Geometry",
+      "topics": [
+        {
+          "id": "ma-tropical-geometry-1",
+          "name": "Tropical algebraic geometry"
+        },
+        {
+          "id": "ma-tropical-geometry-2",
+          "name": "Tropical curves"
+        }
+      ]
+    },
+    {
+      "id": "ma-noncommutative-geometry",
+      "name": "Noncommutative Geometry",
+      "category": "Geometry",
+      "topics": [
+        {
+          "id": "ma-noncommutative-geometry-1",
+          "name": "Spectral triples"
+        },
+        {
+          "id": "ma-noncommutative-geometry-2",
+          "name": "Quantum spaces"
+        }
+      ]
+    },
+    {
+      "id": "ma-information-geometry",
+      "name": "Information Geometry",
+      "category": "Geometry",
+      "topics": [
+        {
+          "id": "ma-information-geometry-1",
+          "name": "Statistical manifolds"
+        },
+        {
+          "id": "ma-information-geometry-2",
+          "name": "Fisher information metric"
+        }
+      ]
+    },
+    {
+      "id": "ma-general-topology",
+      "name": "General Topology",
+      "category": "Topology",
+      "topics": [
+        {
+          "id": "ma-general-topology-1",
+          "name": "Metric spaces"
+        },
+        {
+          "id": "ma-general-topology-2",
+          "name": "Topological spaces"
+        },
+        {
+          "id": "ma-general-topology-3",
+          "name": "Continuity"
+        },
+        {
+          "id": "ma-general-topology-4",
+          "name": "Compactness"
+        },
+        {
+          "id": "ma-general-topology-5",
+          "name": "Connectedness"
+        },
+        {
+          "id": "ma-general-topology-6",
+          "name": "Separation axioms"
+        }
+      ]
+    },
+    {
+      "id": "ma-algebraic-topology",
+      "name": "Algebraic Topology",
+      "category": "Topology",
+      "topics": [
+        {
+          "id": "ma-algebraic-topology-1",
+          "name": "Fundamental group"
+        },
+        {
+          "id": "ma-algebraic-topology-2",
+          "name": "Homotopy theory"
+        },
+        {
+          "id": "ma-algebraic-topology-3",
+          "name": "Homology theory"
+        },
+        {
+          "id": "ma-algebraic-topology-4",
+          "name": "Cohomology theory"
+        },
+        {
+          "id": "ma-algebraic-topology-5",
+          "name": "Simplicial complexes"
+        },
+        {
+          "id": "ma-algebraic-topology-6",
+          "name": "CW complexes"
+        },
+        {
+          "id": "ma-algebraic-topology-7",
+          "name": "Covering spaces"
+        }
+      ]
+    },
+    {
+      "id": "ma-differential-topology",
+      "name": "Differential Topology",
+      "category": "Topology",
+      "topics": [
+        {
+          "id": "ma-differential-topology-1",
+          "name": "Smooth manifolds"
+        },
+        {
+          "id": "ma-differential-topology-2",
+          "name": "Tangent spaces"
+        },
+        {
+          "id": "ma-differential-topology-3",
+          "name": "Vector fields"
+        },
+        {
+          "id": "ma-differential-topology-4",
+          "name": "Differential forms"
+        },
+        {
+          "id": "ma-differential-topology-5",
+          "name": "De Rham cohomology"
+        }
+      ]
+    },
+    {
+      "id": "ma-geometric-topology",
+      "name": "Geometric Topology",
+      "category": "Topology",
+      "topics": [
+        {
+          "id": "ma-geometric-topology-1",
+          "name": "Knot theory"
+        },
+        {
+          "id": "ma-geometric-topology-2",
+          "name": "3-manifolds"
+        },
+        {
+          "id": "ma-geometric-topology-3",
+          "name": "4-manifolds"
+        },
+        {
+          "id": "ma-geometric-topology-4",
+          "name": "Braids"
+        }
+      ]
+    },
+    {
+      "id": "ma-low-dimensional-topology",
+      "name": "Low-Dimensional Topology",
+      "category": "Topology",
+      "topics": [
+        {
+          "id": "ma-low-dimensional-topology-1",
+          "name": "Surface topology"
+        },
+        {
+          "id": "ma-low-dimensional-topology-2",
+          "name": "Knot invariants"
+        }
+      ]
+    },
+    {
+      "id": "ma-fiber-bundles",
+      "name": "Fiber Bundles",
+      "category": "Topology",
+      "topics": [
+        {
+          "id": "ma-fiber-bundles-1",
+          "name": "Principal bundles"
+        },
+        {
+          "id": "ma-fiber-bundles-2",
+          "name": "Vector bundles"
+        },
+        {
+          "id": "ma-fiber-bundles-3",
+          "name": "Characteristic classes"
+        }
+      ]
+    },
+    {
+      "id": "ma-quantum-topology",
+      "name": "Quantum Topology",
+      "category": "Topology",
+      "topics": [
+        {
+          "id": "ma-quantum-topology-1",
+          "name": "Quantum invariants"
+        },
+        {
+          "id": "ma-quantum-topology-2",
+          "name": "Topological quantum field theory"
+        }
+      ]
+    },
+    {
+      "id": "ma-topological-data-analysis-tda",
+      "name": "Topological Data Analysis (TDA)",
+      "category": "Topology",
+      "topics": [
+        {
+          "id": "ma-topological-data-analysis-tda-1",
+          "name": "Persistent homology"
+        },
+        {
+          "id": "ma-topological-data-analysis-tda-2",
+          "name": "Mapper algorithm"
+        }
+      ]
+    },
+    {
+      "id": "ma-calculus",
+      "name": "Calculus",
+      "category": "Analysis",
+      "topics": [
+        {
+          "id": "ma-calculus-1",
+          "name": "Differential calculus"
+        },
+        {
+          "id": "ma-calculus-2",
+          "name": "Integral calculus"
+        },
+        {
+          "id": "ma-calculus-3",
+          "name": "Multivariable calculus"
+        },
+        {
+          "id": "ma-calculus-4",
+          "name": "Vector calculus"
+        },
+        {
+          "id": "ma-calculus-5",
+          "name": "Calculus of variations"
+        }
+      ]
+    },
+    {
+      "id": "ma-real-analysis",
+      "name": "Real Analysis",
+      "category": "Analysis",
+      "topics": [
+        {
+          "id": "ma-real-analysis-1",
+          "name": "Sequences and series"
+        },
+        {
+          "id": "ma-real-analysis-2",
+          "name": "Limits and continuity"
+        },
+        {
+          "id": "ma-real-analysis-3",
+          "name": "Differentiation"
+        },
+        {
+          "id": "ma-real-analysis-4",
+          "name": "Riemann integration"
+        },
+        {
+          "id": "ma-real-analysis-5",
+          "name": "Functions of real variables"
+        },
+        {
+          "id": "ma-real-analysis-6",
+          "name": "Convergence theory"
+        }
+      ]
+    },
+    {
+      "id": "ma-measure-theory-integration",
+      "name": "Measure Theory & Integration",
+      "category": "Analysis",
+      "topics": [
+        {
+          "id": "ma-measure-theory-integration-1",
+          "name": "Lebesgue measure"
+        },
+        {
+          "id": "ma-measure-theory-integration-2",
+          "name": "Measurable functions"
+        },
+        {
+          "id": "ma-measure-theory-integration-3",
+          "name": "Lebesgue integration"
+        },
+        {
+          "id": "ma-measure-theory-integration-4",
+          "name": "Convergence theorems"
+        },
+        {
+          "id": "ma-measure-theory-integration-5",
+          "name": "Lp spaces"
+        }
+      ]
+    },
+    {
+      "id": "ma-complex-analysis",
+      "name": "Complex Analysis",
+      "category": "Analysis",
+      "topics": [
+        {
+          "id": "ma-complex-analysis-1",
+          "name": "Analytic functions"
+        },
+        {
+          "id": "ma-complex-analysis-2",
+          "name": "Cauchy's theorem"
+        },
+        {
+          "id": "ma-complex-analysis-3",
+          "name": "Complex integration"
+        },
+        {
+          "id": "ma-complex-analysis-4",
+          "name": "Residue theory"
+        },
+        {
+          "id": "ma-complex-analysis-5",
+          "name": "Conformal mappings"
+        },
+        {
+          "id": "ma-complex-analysis-6",
+          "name": "Riemann surfaces"
+        },
+        {
+          "id": "ma-complex-analysis-7",
+          "name": "Complex dynamics"
+        },
+        {
+          "id": "ma-complex-analysis-8",
+          "name": "Several complex variables"
+        }
+      ]
+    },
+    {
+      "id": "ma-functional-analysis",
+      "name": "Functional Analysis",
+      "category": "Analysis",
+      "topics": [
+        {
+          "id": "ma-functional-analysis-1",
+          "name": "Normed spaces"
+        },
+        {
+          "id": "ma-functional-analysis-2",
+          "name": "Banach spaces"
+        },
+        {
+          "id": "ma-functional-analysis-3",
+          "name": "Hilbert spaces"
+        },
+        {
+          "id": "ma-functional-analysis-4",
+          "name": "Linear operators"
+        },
+        {
+          "id": "ma-functional-analysis-5",
+          "name": "Operator algebras"
+        },
+        {
+          "id": "ma-functional-analysis-6",
+          "name": "Spectral theory"
+        },
+        {
+          "id": "ma-functional-analysis-7",
+          "name": "Distribution theory"
+        }
+      ]
+    },
+    {
+      "id": "ma-harmonic-analysis",
+      "name": "Harmonic Analysis",
+      "category": "Analysis",
+      "topics": [
+        {
+          "id": "ma-harmonic-analysis-1",
+          "name": "Fourier series"
+        },
+        {
+          "id": "ma-harmonic-analysis-2",
+          "name": "Fourier transforms"
+        },
+        {
+          "id": "ma-harmonic-analysis-3",
+          "name": "Wavelet analysis"
+        },
+        {
+          "id": "ma-harmonic-analysis-4",
+          "name": "Abstract harmonic analysis"
+        }
+      ]
+    },
+    {
+      "id": "ma-special-functions",
+      "name": "Special Functions",
+      "category": "Analysis",
+      "topics": [
+        {
+          "id": "ma-special-functions-1",
+          "name": "Gamma and beta functions"
+        },
+        {
+          "id": "ma-special-functions-2",
+          "name": "Bessel functions"
+        },
+        {
+          "id": "ma-special-functions-3",
+          "name": "Legendre polynomials"
+        },
+        {
+          "id": "ma-special-functions-4",
+          "name": "Hypergeometric functions"
+        }
+      ]
+    },
+    {
+      "id": "ma-approximation-theory",
+      "name": "Approximation Theory",
+      "category": "Analysis",
+      "topics": [
+        {
+          "id": "ma-approximation-theory-1",
+          "name": "Polynomial approximation"
+        },
+        {
+          "id": "ma-approximation-theory-2",
+          "name": "Rational approximation"
+        },
+        {
+          "id": "ma-approximation-theory-3",
+          "name": "Spline approximation"
+        }
+      ]
+    },
+    {
+      "id": "ma-potential-theory",
+      "name": "Potential Theory",
+      "category": "Analysis",
+      "topics": [
+        {
+          "id": "ma-potential-theory-1",
+          "name": "Harmonic functions"
+        },
+        {
+          "id": "ma-potential-theory-2",
+          "name": "Green's functions"
+        },
+        {
+          "id": "ma-potential-theory-3",
+          "name": "Dirichlet problem"
+        }
+      ]
+    },
+    {
+      "id": "ma-global-analysis",
+      "name": "Global Analysis",
+      "category": "Analysis",
+      "topics": [
+        {
+          "id": "ma-global-analysis-1",
+          "name": "Analysis on manifolds"
+        },
+        {
+          "id": "ma-global-analysis-2",
+          "name": "Morse theory"
+        },
+        {
+          "id": "ma-global-analysis-3",
+          "name": "Index theory"
+        }
+      ]
+    },
+    {
+      "id": "ma-convex-analysis",
+      "name": "Convex Analysis",
+      "category": "Analysis",
+      "topics": [
+        {
+          "id": "ma-convex-analysis-1",
+          "name": "Convex functions"
+        },
+        {
+          "id": "ma-convex-analysis-2",
+          "name": "Subdifferentials"
+        },
+        {
+          "id": "ma-convex-analysis-3",
+          "name": "Duality theory"
+        }
+      ]
+    },
+    {
+      "id": "ma-ordinary-differential-equations-odes",
+      "name": "Ordinary Differential Equations (ODEs)",
+      "category": "Differential Equations & Dynamical Systems",
+      "topics": [
+        {
+          "id": "ma-ordinary-differential-equations-odes-1",
+          "name": "First-order ODEs"
+        },
+        {
+          "id": "ma-ordinary-differential-equations-odes-2",
+          "name": "Higher-order ODEs"
+        },
+        {
+          "id": "ma-ordinary-differential-equations-odes-3",
+          "name": "Linear differential equations"
+        },
+        {
+          "id": "ma-ordinary-differential-equations-odes-4",
+          "name": "Systems of ODEs"
+        },
+        {
+          "id": "ma-ordinary-differential-equations-odes-5",
+          "name": "Existence and uniqueness theorems"
+        }
+      ]
+    },
+    {
+      "id": "ma-partial-differential-equations-pdes",
+      "name": "Partial Differential Equations (PDEs)",
+      "category": "Differential Equations & Dynamical Systems",
+      "topics": [
+        {
+          "id": "ma-partial-differential-equations-pdes-1",
+          "name": "First-order PDEs"
+        },
+        {
+          "id": "ma-partial-differential-equations-pdes-2",
+          "name": "Second-order PDEs"
+        },
+        {
+          "id": "ma-partial-differential-equations-pdes-3",
+          "name": "Elliptic equations"
+        },
+        {
+          "id": "ma-partial-differential-equations-pdes-4",
+          "name": "Parabolic equations"
+        },
+        {
+          "id": "ma-partial-differential-equations-pdes-5",
+          "name": "Hyperbolic equations"
+        },
+        {
+          "id": "ma-partial-differential-equations-pdes-6",
+          "name": "Nonlinear PDEs"
+        }
+      ]
+    },
+    {
+      "id": "ma-boundary-value-problems",
+      "name": "Boundary Value Problems",
+      "category": "Differential Equations & Dynamical Systems",
+      "topics": [
+        {
+          "id": "ma-boundary-value-problems-1",
+          "name": "Sturm-Liouville theory"
+        },
+        {
+          "id": "ma-boundary-value-problems-2",
+          "name": "Green's functions"
+        },
+        {
+          "id": "ma-boundary-value-problems-3",
+          "name": "Eigenvalue problems"
+        }
+      ]
+    },
+    {
+      "id": "ma-dynamical-systems",
+      "name": "Dynamical Systems",
+      "category": "Differential Equations & Dynamical Systems",
+      "topics": [
+        {
+          "id": "ma-dynamical-systems-1",
+          "name": "Continuous dynamical systems"
+        },
+        {
+          "id": "ma-dynamical-systems-2",
+          "name": "Discrete dynamical systems"
+        },
+        {
+          "id": "ma-dynamical-systems-3",
+          "name": "Stability theory"
+        },
+        {
+          "id": "ma-dynamical-systems-4",
+          "name": "Bifurcation theory"
+        },
+        {
+          "id": "ma-dynamical-systems-5",
+          "name": "Chaos theory"
+        },
+        {
+          "id": "ma-dynamical-systems-6",
+          "name": "Attractors"
+        }
+      ]
+    },
+    {
+      "id": "ma-ergodic-theory",
+      "name": "Ergodic Theory",
+      "category": "Differential Equations & Dynamical Systems",
+      "topics": [
+        {
+          "id": "ma-ergodic-theory-1",
+          "name": "Measure-preserving systems"
+        },
+        {
+          "id": "ma-ergodic-theory-2",
+          "name": "Mixing properties"
+        },
+        {
+          "id": "ma-ergodic-theory-3",
+          "name": "Ergodic theorems"
+        }
+      ]
+    },
+    {
+      "id": "ma-difference-equations",
+      "name": "Difference Equations",
+      "category": "Differential Equations & Dynamical Systems",
+      "topics": [
+        {
+          "id": "ma-difference-equations-1",
+          "name": "Linear difference equations"
+        },
+        {
+          "id": "ma-difference-equations-2",
+          "name": "Nonlinear difference equations"
+        }
+      ]
+    },
+    {
+      "id": "ma-functional-equations",
+      "name": "Functional Equations",
+      "category": "Differential Equations & Dynamical Systems",
+      "topics": [
+        {
+          "id": "ma-functional-equations-1",
+          "name": "Cauchy equations"
+        },
+        {
+          "id": "ma-functional-equations-2",
+          "name": "Jensen equations"
+        }
+      ]
+    },
+    {
+      "id": "ma-variational-methods",
+      "name": "Variational Methods",
+      "category": "Differential Equations & Dynamical Systems",
+      "topics": [
+        {
+          "id": "ma-variational-methods-1",
+          "name": "Euler-Lagrange equations"
+        },
+        {
+          "id": "ma-variational-methods-2",
+          "name": "Direct methods"
+        },
+        {
+          "id": "ma-variational-methods-3",
+          "name": "Variational inequalities"
+        }
+      ]
+    },
+    {
+      "id": "ma-integral-equations",
+      "name": "Integral Equations",
+      "category": "Differential Equations & Dynamical Systems",
+      "topics": [
+        {
+          "id": "ma-integral-equations-1",
+          "name": "Fredholm equations"
+        },
+        {
+          "id": "ma-integral-equations-2",
+          "name": "Volterra equations"
+        }
+      ]
+    },
+    {
+      "id": "ma-integral-transforms",
+      "name": "Integral Transforms",
+      "category": "Differential Equations & Dynamical Systems",
+      "topics": [
+        {
+          "id": "ma-integral-transforms-1",
+          "name": "Laplace transforms"
+        },
+        {
+          "id": "ma-integral-transforms-2",
+          "name": "Fourier transforms"
+        },
+        {
+          "id": "ma-integral-transforms-3",
+          "name": "Mellin transforms"
+        }
+      ]
+    },
+    {
+      "id": "ma-symbolic-dynamics",
+      "name": "Symbolic Dynamics",
+      "category": "Differential Equations & Dynamical Systems",
+      "topics": [
+        {
+          "id": "ma-symbolic-dynamics-1",
+          "name": "Symbolic sequences"
+        },
+        {
+          "id": "ma-symbolic-dynamics-2",
+          "name": "Shift spaces"
+        }
+      ]
+    },
+    {
+      "id": "ma-neural-differential-equations",
+      "name": "Neural Differential Equations",
+      "category": "Differential Equations & Dynamical Systems",
+      "topics": [
+        {
+          "id": "ma-neural-differential-equations-1",
+          "name": "Neural ODEs"
+        },
+        {
+          "id": "ma-neural-differential-equations-2",
+          "name": "Physics-informed neural networks"
+        }
+      ]
+    },
+    {
+      "id": "ma-enumerative-combinatorics",
+      "name": "Enumerative Combinatorics",
+      "category": "Combinatorics & Discrete Mathematics",
+      "topics": [
+        {
+          "id": "ma-enumerative-combinatorics-1",
+          "name": "Permutations and combinations"
+        },
+        {
+          "id": "ma-enumerative-combinatorics-2",
+          "name": "Generating functions"
+        },
+        {
+          "id": "ma-enumerative-combinatorics-3",
+          "name": "Recurrence relations"
+        },
+        {
+          "id": "ma-enumerative-combinatorics-4",
+          "name": "Partition theory"
+        }
+      ]
+    },
+    {
+      "id": "ma-graph-theory",
+      "name": "Graph Theory",
+      "category": "Combinatorics & Discrete Mathematics",
+      "topics": [
+        {
+          "id": "ma-graph-theory-1",
+          "name": "Graph properties"
+        },
+        {
+          "id": "ma-graph-theory-2",
+          "name": "Trees and forests"
+        },
+        {
+          "id": "ma-graph-theory-3",
+          "name": "Planar graphs"
+        },
+        {
+          "id": "ma-graph-theory-4",
+          "name": "Graph coloring"
+        },
+        {
+          "id": "ma-graph-theory-5",
+          "name": "Matching theory"
+        },
+        {
+          "id": "ma-graph-theory-6",
+          "name": "Network flows"
+        },
+        {
+          "id": "ma-graph-theory-7",
+          "name": "Extremal graph theory"
+        },
+        {
+          "id": "ma-graph-theory-8",
+          "name": "Algebraic graph theory"
+        },
+        {
+          "id": "ma-graph-theory-9",
+          "name": "Random graphs"
+        }
+      ]
+    },
+    {
+      "id": "ma-combinatorial-designs",
+      "name": "Combinatorial Designs",
+      "category": "Combinatorics & Discrete Mathematics",
+      "topics": [
+        {
+          "id": "ma-combinatorial-designs-1",
+          "name": "Block designs"
+        },
+        {
+          "id": "ma-combinatorial-designs-2",
+          "name": "Latin squares"
+        },
+        {
+          "id": "ma-combinatorial-designs-3",
+          "name": "Steiner systems"
+        }
+      ]
+    },
+    {
+      "id": "ma-ramsey-theory",
+      "name": "Ramsey Theory",
+      "category": "Combinatorics & Discrete Mathematics",
+      "topics": [
+        {
+          "id": "ma-ramsey-theory-1",
+          "name": "Ramsey numbers"
+        },
+        {
+          "id": "ma-ramsey-theory-2",
+          "name": "Ramsey-type theorems"
+        }
+      ]
+    },
+    {
+      "id": "ma-probabilistic-combinatorics",
+      "name": "Probabilistic Combinatorics",
+      "category": "Combinatorics & Discrete Mathematics",
+      "topics": [
+        {
+          "id": "ma-probabilistic-combinatorics-1",
+          "name": "Random discrete structures"
+        },
+        {
+          "id": "ma-probabilistic-combinatorics-2",
+          "name": "Probabilistic method"
+        }
+      ]
+    },
+    {
+      "id": "ma-algebraic-combinatorics",
+      "name": "Algebraic Combinatorics",
+      "category": "Combinatorics & Discrete Mathematics",
+      "topics": [
+        {
+          "id": "ma-algebraic-combinatorics-1",
+          "name": "Symmetric functions"
+        },
+        {
+          "id": "ma-algebraic-combinatorics-2",
+          "name": "Young tableaux"
+        },
+        {
+          "id": "ma-algebraic-combinatorics-3",
+          "name": "Representation theory connections"
+        }
+      ]
+    },
+    {
+      "id": "ma-extremal-combinatorics",
+      "name": "Extremal Combinatorics",
+      "category": "Combinatorics & Discrete Mathematics",
+      "topics": [
+        {
+          "id": "ma-extremal-combinatorics-1",
+          "name": "Turán problems"
+        },
+        {
+          "id": "ma-extremal-combinatorics-2",
+          "name": "Sperner theory"
+        }
+      ]
+    },
+    {
+      "id": "ma-matroid-theory",
+      "name": "Matroid Theory",
+      "category": "Combinatorics & Discrete Mathematics",
+      "topics": [
+        {
+          "id": "ma-matroid-theory-1",
+          "name": "Independent sets"
+        },
+        {
+          "id": "ma-matroid-theory-2",
+          "name": "Matroid duality"
+        }
+      ]
+    },
+    {
+      "id": "ma-coding-theory-combinatorial-aspects",
+      "name": "Coding Theory (Combinatorial Aspects)",
+      "category": "Combinatorics & Discrete Mathematics",
+      "topics": [
+        {
+          "id": "ma-coding-theory-combinatorial-aspects-1",
+          "name": "Block codes"
+        },
+        {
+          "id": "ma-coding-theory-combinatorial-aspects-2",
+          "name": "Network coding"
+        }
+      ]
+    },
+    {
+      "id": "ma-probability-theory",
+      "name": "Probability Theory",
+      "category": "Probability & Statistics",
+      "topics": [
+        {
+          "id": "ma-probability-theory-1",
+          "name": "Probability spaces"
+        },
+        {
+          "id": "ma-probability-theory-2",
+          "name": "Random variables"
+        },
+        {
+          "id": "ma-probability-theory-3",
+          "name": "Probability distributions"
+        },
+        {
+          "id": "ma-probability-theory-4",
+          "name": "Expectation and variance"
+        },
+        {
+          "id": "ma-probability-theory-5",
+          "name": "Conditional probability"
+        },
+        {
+          "id": "ma-probability-theory-6",
+          "name": "Law of large numbers"
+        },
+        {
+          "id": "ma-probability-theory-7",
+          "name": "Central limit theorem"
+        }
+      ]
+    },
+    {
+      "id": "ma-stochastic-processes",
+      "name": "Stochastic Processes",
+      "category": "Probability & Statistics",
+      "topics": [
+        {
+          "id": "ma-stochastic-processes-1",
+          "name": "Markov chains"
+        },
+        {
+          "id": "ma-stochastic-processes-2",
+          "name": "Martingales"
+        },
+        {
+          "id": "ma-stochastic-processes-3",
+          "name": "Brownian motion"
+        },
+        {
+          "id": "ma-stochastic-processes-4",
+          "name": "Poisson processes"
+        },
+        {
+          "id": "ma-stochastic-processes-5",
+          "name": "Lévy processes"
+        },
+        {
+          "id": "ma-stochastic-processes-6",
+          "name": "Gaussian processes"
+        }
+      ]
+    },
+    {
+      "id": "ma-stochastic-calculus",
+      "name": "Stochastic Calculus",
+      "category": "Probability & Statistics",
+      "topics": [
+        {
+          "id": "ma-stochastic-calculus-1",
+          "name": "Itô calculus"
+        },
+        {
+          "id": "ma-stochastic-calculus-2",
+          "name": "Stochastic differential equations"
+        },
+        {
+          "id": "ma-stochastic-calculus-3",
+          "name": "Stochastic integration"
+        }
+      ]
+    },
+    {
+      "id": "ma-descriptive-statistics",
+      "name": "Descriptive Statistics",
+      "category": "Probability & Statistics",
+      "topics": [
+        {
+          "id": "ma-descriptive-statistics-1",
+          "name": "Measures of central tendency"
+        },
+        {
+          "id": "ma-descriptive-statistics-2",
+          "name": "Measures of dispersion"
+        },
+        {
+          "id": "ma-descriptive-statistics-3",
+          "name": "Data visualization"
+        }
+      ]
+    },
+    {
+      "id": "ma-inferential-statistics",
+      "name": "Inferential Statistics",
+      "category": "Probability & Statistics",
+      "topics": [
+        {
+          "id": "ma-inferential-statistics-1",
+          "name": "Parameter estimation"
+        },
+        {
+          "id": "ma-inferential-statistics-2",
+          "name": "Hypothesis testing"
+        },
+        {
+          "id": "ma-inferential-statistics-3",
+          "name": "Confidence intervals"
+        },
+        {
+          "id": "ma-inferential-statistics-4",
+          "name": "Maximum likelihood estimation"
+        }
+      ]
+    },
+    {
+      "id": "ma-regression-analysis",
+      "name": "Regression Analysis",
+      "category": "Probability & Statistics",
+      "topics": [
+        {
+          "id": "ma-regression-analysis-1",
+          "name": "Linear regression"
+        },
+        {
+          "id": "ma-regression-analysis-2",
+          "name": "Nonlinear regression"
+        },
+        {
+          "id": "ma-regression-analysis-3",
+          "name": "Logistic regression"
+        },
+        {
+          "id": "ma-regression-analysis-4",
+          "name": "Generalized linear models"
+        }
+      ]
+    },
+    {
+      "id": "ma-multivariate-statistics",
+      "name": "Multivariate Statistics",
+      "category": "Probability & Statistics",
+      "topics": [
+        {
+          "id": "ma-multivariate-statistics-1",
+          "name": "Multivariate distributions"
+        },
+        {
+          "id": "ma-multivariate-statistics-2",
+          "name": "Principal component analysis"
+        },
+        {
+          "id": "ma-multivariate-statistics-3",
+          "name": "Factor analysis"
+        },
+        {
+          "id": "ma-multivariate-statistics-4",
+          "name": "Discriminant analysis"
+        }
+      ]
+    },
+    {
+      "id": "ma-bayesian-statistics",
+      "name": "Bayesian Statistics",
+      "category": "Probability & Statistics",
+      "topics": [
+        {
+          "id": "ma-bayesian-statistics-1",
+          "name": "Prior and posterior distributions"
+        },
+        {
+          "id": "ma-bayesian-statistics-2",
+          "name": "Bayesian inference"
+        },
+        {
+          "id": "ma-bayesian-statistics-3",
+          "name": "Markov chain Monte Carlo"
+        }
+      ]
+    },
+    {
+      "id": "ma-time-series-analysis",
+      "name": "Time Series Analysis",
+      "category": "Probability & Statistics",
+      "topics": [
+        {
+          "id": "ma-time-series-analysis-1",
+          "name": "ARIMA models"
+        },
+        {
+          "id": "ma-time-series-analysis-2",
+          "name": "Spectral analysis"
+        },
+        {
+          "id": "ma-time-series-analysis-3",
+          "name": "State-space models"
+        }
+      ]
+    },
+    {
+      "id": "ma-nonparametric-statistics",
+      "name": "Nonparametric Statistics",
+      "category": "Probability & Statistics",
+      "topics": [
+        {
+          "id": "ma-nonparametric-statistics-1",
+          "name": "Rank tests"
+        },
+        {
+          "id": "ma-nonparametric-statistics-2",
+          "name": "Kernel density estimation"
+        },
+        {
+          "id": "ma-nonparametric-statistics-3",
+          "name": "Bootstrap methods"
+        }
+      ]
+    },
+    {
+      "id": "ma-experimental-design",
+      "name": "Experimental Design",
+      "category": "Probability & Statistics",
+      "topics": [
+        {
+          "id": "ma-experimental-design-1",
+          "name": "Design of experiments"
+        },
+        {
+          "id": "ma-experimental-design-2",
+          "name": "ANOVA"
+        },
+        {
+          "id": "ma-experimental-design-3",
+          "name": "Factorial designs"
+        }
+      ]
+    },
+    {
+      "id": "ma-biostatistics",
+      "name": "Biostatistics",
+      "category": "Probability & Statistics",
+      "topics": [
+        {
+          "id": "ma-biostatistics-1",
+          "name": "Survival analysis"
+        },
+        {
+          "id": "ma-biostatistics-2",
+          "name": "Clinical trial design"
+        },
+        {
+          "id": "ma-biostatistics-3",
+          "name": "Epidemiological statistics"
+        }
+      ]
+    },
+    {
+      "id": "ma-econometrics",
+      "name": "Econometrics",
+      "category": "Probability & Statistics",
+      "topics": [
+        {
+          "id": "ma-econometrics-1",
+          "name": "Panel data analysis"
+        },
+        {
+          "id": "ma-econometrics-2",
+          "name": "Instrumental variables"
+        },
+        {
+          "id": "ma-econometrics-3",
+          "name": "Time series econometrics"
+        }
+      ]
+    },
+    {
+      "id": "ma-high-dimensional-probability",
+      "name": "High-Dimensional Probability",
+      "category": "Probability & Statistics",
+      "topics": [
+        {
+          "id": "ma-high-dimensional-probability-1",
+          "name": "Concentration of measure"
+        },
+        {
+          "id": "ma-high-dimensional-probability-2",
+          "name": "Random matrix theory"
+        },
+        {
+          "id": "ma-high-dimensional-probability-3",
+          "name": "High-dimensional statistics"
+        }
+      ]
+    },
+    {
+      "id": "ma-statistical-learning-theory",
+      "name": "Statistical Learning Theory",
+      "category": "Probability & Statistics",
+      "topics": [
+        {
+          "id": "ma-statistical-learning-theory-1",
+          "name": "PAC learning"
+        },
+        {
+          "id": "ma-statistical-learning-theory-2",
+          "name": "VC dimension"
+        },
+        {
+          "id": "ma-statistical-learning-theory-3",
+          "name": "Risk minimization"
+        }
+      ]
+    },
+    {
+      "id": "ma-measure-concentration",
+      "name": "Measure Concentration",
+      "category": "Probability & Statistics",
+      "topics": [
+        {
+          "id": "ma-measure-concentration-1",
+          "name": "Concentration inequalities"
+        },
+        {
+          "id": "ma-measure-concentration-2",
+          "name": "Isoperimetric inequalities"
+        }
+      ]
+    },
+    {
+      "id": "ma-numerical-methods-for-calculus",
+      "name": "Numerical Methods for Calculus",
+      "category": "Numerical Analysis & Scientific Computing",
+      "topics": [
+        {
+          "id": "ma-numerical-methods-for-calculus-1",
+          "name": "Numerical differentiation"
+        },
+        {
+          "id": "ma-numerical-methods-for-calculus-2",
+          "name": "Numerical integration (quadrature)"
+        },
+        {
+          "id": "ma-numerical-methods-for-calculus-3",
+          "name": "Richardson extrapolation"
+        }
+      ]
+    },
+    {
+      "id": "ma-root-finding-algorithms",
+      "name": "Root-Finding Algorithms",
+      "category": "Numerical Analysis & Scientific Computing",
+      "topics": [
+        {
+          "id": "ma-root-finding-algorithms-1",
+          "name": "Bisection method"
+        },
+        {
+          "id": "ma-root-finding-algorithms-2",
+          "name": "Newton's method"
+        },
+        {
+          "id": "ma-root-finding-algorithms-3",
+          "name": "Secant method"
+        }
+      ]
+    },
+    {
+      "id": "ma-numerical-linear-algebra",
+      "name": "Numerical Linear Algebra",
+      "category": "Numerical Analysis & Scientific Computing",
+      "topics": [
+        {
+          "id": "ma-numerical-linear-algebra-1",
+          "name": "Matrix factorizations (LU, QR, SVD)"
+        },
+        {
+          "id": "ma-numerical-linear-algebra-2",
+          "name": "Iterative methods"
+        },
+        {
+          "id": "ma-numerical-linear-algebra-3",
+          "name": "Eigenvalue algorithms"
+        },
+        {
+          "id": "ma-numerical-linear-algebra-4",
+          "name": "Condition number"
+        }
+      ]
+    },
+    {
+      "id": "ma-numerical-solutions-of-odes",
+      "name": "Numerical Solutions of ODEs",
+      "category": "Numerical Analysis & Scientific Computing",
+      "topics": [
+        {
+          "id": "ma-numerical-solutions-of-odes-1",
+          "name": "Euler's method"
+        },
+        {
+          "id": "ma-numerical-solutions-of-odes-2",
+          "name": "Runge-Kutta methods"
+        },
+        {
+          "id": "ma-numerical-solutions-of-odes-3",
+          "name": "Multistep methods"
+        },
+        {
+          "id": "ma-numerical-solutions-of-odes-4",
+          "name": "Stiff equations"
+        }
+      ]
+    },
+    {
+      "id": "ma-numerical-solutions-of-pdes",
+      "name": "Numerical Solutions of PDEs",
+      "category": "Numerical Analysis & Scientific Computing",
+      "topics": [
+        {
+          "id": "ma-numerical-solutions-of-pdes-1",
+          "name": "Finite difference methods"
+        },
+        {
+          "id": "ma-numerical-solutions-of-pdes-2",
+          "name": "Finite element methods"
+        },
+        {
+          "id": "ma-numerical-solutions-of-pdes-3",
+          "name": "Finite volume methods"
+        },
+        {
+          "id": "ma-numerical-solutions-of-pdes-4",
+          "name": "Spectral methods"
+        },
+        {
+          "id": "ma-numerical-solutions-of-pdes-5",
+          "name": "Boundary element methods"
+        }
+      ]
+    },
+    {
+      "id": "ma-optimization-algorithms",
+      "name": "Optimization Algorithms",
+      "category": "Numerical Analysis & Scientific Computing",
+      "topics": [
+        {
+          "id": "ma-optimization-algorithms-1",
+          "name": "Gradient descent"
+        },
+        {
+          "id": "ma-optimization-algorithms-2",
+          "name": "Newton's method"
+        },
+        {
+          "id": "ma-optimization-algorithms-3",
+          "name": "Conjugate gradient"
+        },
+        {
+          "id": "ma-optimization-algorithms-4",
+          "name": "Interior point methods"
+        }
+      ]
+    },
+    {
+      "id": "ma-interpolation-approximation",
+      "name": "Interpolation & Approximation",
+      "category": "Numerical Analysis & Scientific Computing",
+      "topics": [
+        {
+          "id": "ma-interpolation-approximation-1",
+          "name": "Polynomial interpolation"
+        },
+        {
+          "id": "ma-interpolation-approximation-2",
+          "name": "Spline interpolation"
+        },
+        {
+          "id": "ma-interpolation-approximation-3",
+          "name": "Least squares approximation"
+        }
+      ]
+    },
+    {
+      "id": "ma-fast-algorithms",
+      "name": "Fast Algorithms",
+      "category": "Numerical Analysis & Scientific Computing",
+      "topics": [
+        {
+          "id": "ma-fast-algorithms-1",
+          "name": "Fast Fourier Transform (FFT)"
+        },
+        {
+          "id": "ma-fast-algorithms-2",
+          "name": "Fast multipole method"
+        }
+      ]
+    },
+    {
+      "id": "ma-error-analysis",
+      "name": "Error Analysis",
+      "category": "Numerical Analysis & Scientific Computing",
+      "topics": [
+        {
+          "id": "ma-error-analysis-1",
+          "name": "Truncation error"
+        },
+        {
+          "id": "ma-error-analysis-2",
+          "name": "Round-off error"
+        },
+        {
+          "id": "ma-error-analysis-3",
+          "name": "Stability analysis"
+        }
+      ]
+    },
+    {
+      "id": "ma-monte-carlo-methods",
+      "name": "Monte Carlo Methods",
+      "category": "Numerical Analysis & Scientific Computing",
+      "topics": [
+        {
+          "id": "ma-monte-carlo-methods-1",
+          "name": "Random sampling"
+        },
+        {
+          "id": "ma-monte-carlo-methods-2",
+          "name": "Variance reduction"
+        },
+        {
+          "id": "ma-monte-carlo-methods-3",
+          "name": "Quasi-Monte Carlo"
+        }
+      ]
+    },
+    {
+      "id": "ma-linear-programming",
+      "name": "Linear Programming",
+      "category": "Optimization & Control Theory",
+      "topics": [
+        {
+          "id": "ma-linear-programming-1",
+          "name": "Simplex method"
+        },
+        {
+          "id": "ma-linear-programming-2",
+          "name": "Duality theory"
+        },
+        {
+          "id": "ma-linear-programming-3",
+          "name": "Interior point methods"
+        }
+      ]
+    },
+    {
+      "id": "ma-nonlinear-programming",
+      "name": "Nonlinear Programming",
+      "category": "Optimization & Control Theory",
+      "topics": [
+        {
+          "id": "ma-nonlinear-programming-1",
+          "name": "Unconstrained optimization"
+        },
+        {
+          "id": "ma-nonlinear-programming-2",
+          "name": "Constrained optimization"
+        },
+        {
+          "id": "ma-nonlinear-programming-3",
+          "name": "Lagrange multipliers"
+        },
+        {
+          "id": "ma-nonlinear-programming-4",
+          "name": "KKT conditions"
+        }
+      ]
+    },
+    {
+      "id": "ma-convex-optimization",
+      "name": "Convex Optimization",
+      "category": "Optimization & Control Theory",
+      "topics": [
+        {
+          "id": "ma-convex-optimization-1",
+          "name": "Convex sets and functions"
+        },
+        {
+          "id": "ma-convex-optimization-2",
+          "name": "Semidefinite programming"
+        },
+        {
+          "id": "ma-convex-optimization-3",
+          "name": "Conic optimization"
+        }
+      ]
+    },
+    {
+      "id": "ma-integer-programming",
+      "name": "Integer Programming",
+      "category": "Optimization & Control Theory",
+      "topics": [
+        {
+          "id": "ma-integer-programming-1",
+          "name": "Branch and bound"
+        },
+        {
+          "id": "ma-integer-programming-2",
+          "name": "Cutting plane methods"
+        },
+        {
+          "id": "ma-integer-programming-3",
+          "name": "Mixed-integer programming"
+        }
+      ]
+    },
+    {
+      "id": "ma-combinatorial-optimization",
+      "name": "Combinatorial Optimization",
+      "category": "Optimization & Control Theory",
+      "topics": [
+        {
+          "id": "ma-combinatorial-optimization-1",
+          "name": "Network optimization"
+        },
+        {
+          "id": "ma-combinatorial-optimization-2",
+          "name": "Assignment problems"
+        },
+        {
+          "id": "ma-combinatorial-optimization-3",
+          "name": "Traveling salesman problem"
+        }
+      ]
+    },
+    {
+      "id": "ma-dynamic-programming",
+      "name": "Dynamic Programming",
+      "category": "Optimization & Control Theory",
+      "topics": [
+        {
+          "id": "ma-dynamic-programming-1",
+          "name": "Bellman equations"
+        },
+        {
+          "id": "ma-dynamic-programming-2",
+          "name": "Value iteration"
+        },
+        {
+          "id": "ma-dynamic-programming-3",
+          "name": "Policy iteration"
+        }
+      ]
+    },
+    {
+      "id": "ma-stochastic-optimization",
+      "name": "Stochastic Optimization",
+      "category": "Optimization & Control Theory",
+      "topics": [
+        {
+          "id": "ma-stochastic-optimization-1",
+          "name": "Stochastic gradient descent"
+        },
+        {
+          "id": "ma-stochastic-optimization-2",
+          "name": "Robust optimization"
+        },
+        {
+          "id": "ma-stochastic-optimization-3",
+          "name": "Chance constraints"
+        }
+      ]
+    },
+    {
+      "id": "ma-game-theory",
+      "name": "Game Theory",
+      "category": "Optimization & Control Theory",
+      "topics": [
+        {
+          "id": "ma-game-theory-1",
+          "name": "Normal form games"
+        },
+        {
+          "id": "ma-game-theory-2",
+          "name": "Extensive form games"
+        },
+        {
+          "id": "ma-game-theory-3",
+          "name": "Nash equilibrium"
+        },
+        {
+          "id": "ma-game-theory-4",
+          "name": "Cooperative games"
+        },
+        {
+          "id": "ma-game-theory-5",
+          "name": "Evolutionary game theory"
+        },
+        {
+          "id": "ma-game-theory-6",
+          "name": "Mechanism design"
+        }
+      ]
+    },
+    {
+      "id": "ma-control-theory",
+      "name": "Control Theory",
+      "category": "Optimization & Control Theory",
+      "topics": [
+        {
+          "id": "ma-control-theory-1",
+          "name": "Linear control systems"
+        },
+        {
+          "id": "ma-control-theory-2",
+          "name": "Optimal control"
+        },
+        {
+          "id": "ma-control-theory-3",
+          "name": "Controllability and observability"
+        },
+        {
+          "id": "ma-control-theory-4",
+          "name": "State-space methods"
+        },
+        {
+          "id": "ma-control-theory-5",
+          "name": "Feedback control"
+        },
+        {
+          "id": "ma-control-theory-6",
+          "name": "Robust control"
+        }
+      ]
+    },
+    {
+      "id": "ma-calculus-of-variations-optimal-control",
+      "name": "Calculus of Variations & Optimal Control",
+      "category": "Optimization & Control Theory",
+      "topics": [
+        {
+          "id": "ma-calculus-of-variations-optimal-control-1",
+          "name": "Principle of least action"
+        },
+        {
+          "id": "ma-calculus-of-variations-optimal-control-2",
+          "name": "Pontryagin's maximum principle"
+        },
+        {
+          "id": "ma-calculus-of-variations-optimal-control-3",
+          "name": "Hamilton-Jacobi equations"
+        }
+      ]
+    },
+    {
+      "id": "ma-compressed-sensing",
+      "name": "Compressed Sensing",
+      "category": "Optimization & Control Theory",
+      "topics": [
+        {
+          "id": "ma-compressed-sensing-1",
+          "name": "Sparse recovery"
+        },
+        {
+          "id": "ma-compressed-sensing-2",
+          "name": "L1 minimization"
+        }
+      ]
+    },
+    {
+      "id": "ma-optimal-transport",
+      "name": "Optimal Transport",
+      "category": "Optimization & Control Theory",
+      "topics": [
+        {
+          "id": "ma-optimal-transport-1",
+          "name": "Monge-Kantorovich problem"
+        },
+        {
+          "id": "ma-optimal-transport-2",
+          "name": "Wasserstein distances"
+        }
+      ]
+    },
+    {
+      "id": "ma-classical-mechanics",
+      "name": "Classical Mechanics",
+      "category": "Mathematical Physics",
+      "topics": [
+        {
+          "id": "ma-classical-mechanics-1",
+          "name": "Newtonian mechanics"
+        },
+        {
+          "id": "ma-classical-mechanics-2",
+          "name": "Lagrangian mechanics"
+        },
+        {
+          "id": "ma-classical-mechanics-3",
+          "name": "Hamiltonian mechanics"
+        },
+        {
+          "id": "ma-classical-mechanics-4",
+          "name": "Rigid body dynamics"
+        },
+        {
+          "id": "ma-classical-mechanics-5",
+          "name": "Continuum mechanics"
+        }
+      ]
+    },
+    {
+      "id": "ma-fluid-mechanics",
+      "name": "Fluid Mechanics",
+      "category": "Mathematical Physics",
+      "topics": [
+        {
+          "id": "ma-fluid-mechanics-1",
+          "name": "Navier-Stokes equations"
+        },
+        {
+          "id": "ma-fluid-mechanics-2",
+          "name": "Euler equations"
+        },
+        {
+          "id": "ma-fluid-mechanics-3",
+          "name": "Potential flow"
+        },
+        {
+          "id": "ma-fluid-mechanics-4",
+          "name": "Turbulence"
+        },
+        {
+          "id": "ma-fluid-mechanics-5",
+          "name": "Geophysical fluid dynamics"
+        }
+      ]
+    },
+    {
+      "id": "ma-solid-mechanics",
+      "name": "Solid Mechanics",
+      "category": "Mathematical Physics",
+      "topics": [
+        {
+          "id": "ma-solid-mechanics-1",
+          "name": "Elasticity theory"
+        },
+        {
+          "id": "ma-solid-mechanics-2",
+          "name": "Plasticity"
+        },
+        {
+          "id": "ma-solid-mechanics-3",
+          "name": "Biomechanics"
+        }
+      ]
+    },
+    {
+      "id": "ma-electromagnetism",
+      "name": "Electromagnetism",
+      "category": "Mathematical Physics",
+      "topics": [
+        {
+          "id": "ma-electromagnetism-1",
+          "name": "Maxwell's equations"
+        },
+        {
+          "id": "ma-electromagnetism-2",
+          "name": "Electromagnetic waves"
+        },
+        {
+          "id": "ma-electromagnetism-3",
+          "name": "Magnetostatics and electrostatics"
+        }
+      ]
+    },
+    {
+      "id": "ma-quantum-mechanics",
+      "name": "Quantum Mechanics",
+      "category": "Mathematical Physics",
+      "topics": [
+        {
+          "id": "ma-quantum-mechanics-1",
+          "name": "Schrödinger equation"
+        },
+        {
+          "id": "ma-quantum-mechanics-2",
+          "name": "Hilbert space formulation"
+        },
+        {
+          "id": "ma-quantum-mechanics-3",
+          "name": "Quantum operators"
+        },
+        {
+          "id": "ma-quantum-mechanics-4",
+          "name": "Perturbation theory"
+        },
+        {
+          "id": "ma-quantum-mechanics-5",
+          "name": "Scattering theory"
+        }
+      ]
+    },
+    {
+      "id": "ma-quantum-field-theory",
+      "name": "Quantum Field Theory",
+      "category": "Mathematical Physics",
+      "topics": [
+        {
+          "id": "ma-quantum-field-theory-1",
+          "name": "Path integrals"
+        },
+        {
+          "id": "ma-quantum-field-theory-2",
+          "name": "Feynman diagrams"
+        },
+        {
+          "id": "ma-quantum-field-theory-3",
+          "name": "Renormalization"
+        },
+        {
+          "id": "ma-quantum-field-theory-4",
+          "name": "Gauge theories"
+        }
+      ]
+    },
+    {
+      "id": "ma-statistical-mechanics",
+      "name": "Statistical Mechanics",
+      "category": "Mathematical Physics",
+      "topics": [
+        {
+          "id": "ma-statistical-mechanics-1",
+          "name": "Partition functions"
+        },
+        {
+          "id": "ma-statistical-mechanics-2",
+          "name": "Phase transitions"
+        },
+        {
+          "id": "ma-statistical-mechanics-3",
+          "name": "Boltzmann distribution"
+        },
+        {
+          "id": "ma-statistical-mechanics-4",
+          "name": "Gibbs ensembles"
+        },
+        {
+          "id": "ma-statistical-mechanics-5",
+          "name": "Ising model"
+        }
+      ]
+    },
+    {
+      "id": "ma-thermodynamics",
+      "name": "Thermodynamics",
+      "category": "Mathematical Physics",
+      "topics": [
+        {
+          "id": "ma-thermodynamics-1",
+          "name": "Laws of thermodynamics"
+        },
+        {
+          "id": "ma-thermodynamics-2",
+          "name": "Entropy"
+        },
+        {
+          "id": "ma-thermodynamics-3",
+          "name": "Free energy"
+        }
+      ]
+    },
+    {
+      "id": "ma-relativity",
+      "name": "Relativity",
+      "category": "Mathematical Physics",
+      "topics": [
+        {
+          "id": "ma-relativity-1",
+          "name": "Special relativity"
+        },
+        {
+          "id": "ma-relativity-2",
+          "name": "General relativity"
+        },
+        {
+          "id": "ma-relativity-3",
+          "name": "Einstein field equations"
+        },
+        {
+          "id": "ma-relativity-4",
+          "name": "Schwarzschild solution"
+        }
+      ]
+    },
+    {
+      "id": "ma-quantum-computation-theory",
+      "name": "Quantum Computation Theory",
+      "category": "Mathematical Physics",
+      "topics": [
+        {
+          "id": "ma-quantum-computation-theory-1",
+          "name": "Quantum gates"
+        },
+        {
+          "id": "ma-quantum-computation-theory-2",
+          "name": "Quantum algorithms"
+        },
+        {
+          "id": "ma-quantum-computation-theory-3",
+          "name": "Quantum information theory"
+        }
+      ]
+    },
+    {
+      "id": "ma-optics",
+      "name": "Optics",
+      "category": "Mathematical Physics",
+      "topics": [
+        {
+          "id": "ma-optics-1",
+          "name": "Geometric optics"
+        },
+        {
+          "id": "ma-optics-2",
+          "name": "Wave optics"
+        },
+        {
+          "id": "ma-optics-3",
+          "name": "Fourier optics"
+        }
+      ]
+    },
+    {
+      "id": "ma-solitons-integrable-systems",
+      "name": "Solitons & Integrable Systems",
+      "category": "Mathematical Physics",
+      "topics": [
+        {
+          "id": "ma-solitons-integrable-systems-1",
+          "name": "Soliton equations"
+        },
+        {
+          "id": "ma-solitons-integrable-systems-2",
+          "name": "Inverse scattering"
+        },
+        {
+          "id": "ma-solitons-integrable-systems-3",
+          "name": "KdV equation"
+        }
+      ]
+    },
+    {
+      "id": "ma-symmetries-groups-in-physics",
+      "name": "Symmetries & Groups in Physics",
+      "category": "Mathematical Physics",
+      "topics": [
+        {
+          "id": "ma-symmetries-groups-in-physics-1",
+          "name": "Lie groups in physics"
+        },
+        {
+          "id": "ma-symmetries-groups-in-physics-2",
+          "name": "Gauge symmetry"
+        },
+        {
+          "id": "ma-symmetries-groups-in-physics-3",
+          "name": "Noether's theorem"
+        }
+      ]
+    },
+    {
+      "id": "ma-mathematical-aspects-of-astronomy",
+      "name": "Mathematical Aspects of Astronomy",
+      "category": "Mathematical Physics",
+      "topics": [
+        {
+          "id": "ma-mathematical-aspects-of-astronomy-1",
+          "name": "Celestial mechanics"
+        },
+        {
+          "id": "ma-mathematical-aspects-of-astronomy-2",
+          "name": "Orbital dynamics"
+        },
+        {
+          "id": "ma-mathematical-aspects-of-astronomy-3",
+          "name": "N-body problem"
+        }
+      ]
+    },
+    {
+      "id": "ma-geophysics",
+      "name": "Geophysics",
+      "category": "Mathematical Physics",
+      "topics": [
+        {
+          "id": "ma-geophysics-1",
+          "name": "Seismology"
+        },
+        {
+          "id": "ma-geophysics-2",
+          "name": "Gravitational theory"
+        }
+      ]
+    },
+    {
+      "id": "ma-automata-theory",
+      "name": "Automata Theory",
+      "category": "Theoretical Computer Science",
+      "topics": [
+        {
+          "id": "ma-automata-theory-1",
+          "name": "Finite automata"
+        },
+        {
+          "id": "ma-automata-theory-2",
+          "name": "Pushdown automata"
+        },
+        {
+          "id": "ma-automata-theory-3",
+          "name": "Turing machines"
+        }
+      ]
+    },
+    {
+      "id": "ma-formal-languages",
+      "name": "Formal Languages",
+      "category": "Theoretical Computer Science",
+      "topics": [
+        {
+          "id": "ma-formal-languages-1",
+          "name": "Regular languages"
+        },
+        {
+          "id": "ma-formal-languages-2",
+          "name": "Context-free languages"
+        },
+        {
+          "id": "ma-formal-languages-3",
+          "name": "Chomsky hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "ma-complexity-theory",
+      "name": "Complexity Theory",
+      "category": "Theoretical Computer Science",
+      "topics": [
+        {
+          "id": "ma-complexity-theory-1",
+          "name": "P vs NP"
+        },
+        {
+          "id": "ma-complexity-theory-2",
+          "name": "NP-completeness"
+        },
+        {
+          "id": "ma-complexity-theory-3",
+          "name": "Computational complexity classes"
+        },
+        {
+          "id": "ma-complexity-theory-4",
+          "name": "Circuit complexity"
+        }
+      ]
+    },
+    {
+      "id": "ma-computability-theory",
+      "name": "Computability Theory",
+      "category": "Theoretical Computer Science",
+      "topics": [
+        {
+          "id": "ma-computability-theory-1",
+          "name": "Recursive functions"
+        },
+        {
+          "id": "ma-computability-theory-2",
+          "name": "Church-Turing thesis"
+        },
+        {
+          "id": "ma-computability-theory-3",
+          "name": "Undecidability"
+        }
+      ]
+    },
+    {
+      "id": "ma-algorithm-analysis",
+      "name": "Algorithm Analysis",
+      "category": "Theoretical Computer Science",
+      "topics": [
+        {
+          "id": "ma-algorithm-analysis-1",
+          "name": "Time complexity"
+        },
+        {
+          "id": "ma-algorithm-analysis-2",
+          "name": "Space complexity"
+        },
+        {
+          "id": "ma-algorithm-analysis-3",
+          "name": "Amortized analysis"
+        }
+      ]
+    },
+    {
+      "id": "ma-algorithmic-graph-theory",
+      "name": "Algorithmic Graph Theory",
+      "category": "Theoretical Computer Science",
+      "topics": [
+        {
+          "id": "ma-algorithmic-graph-theory-1",
+          "name": "Graph algorithms"
+        },
+        {
+          "id": "ma-algorithmic-graph-theory-2",
+          "name": "Network algorithms"
+        }
+      ]
+    },
+    {
+      "id": "ma-information-theory",
+      "name": "Information Theory",
+      "category": "Theoretical Computer Science",
+      "topics": [
+        {
+          "id": "ma-information-theory-1",
+          "name": "Entropy"
+        },
+        {
+          "id": "ma-information-theory-2",
+          "name": "Channel capacity"
+        },
+        {
+          "id": "ma-information-theory-3",
+          "name": "Source coding"
+        },
+        {
+          "id": "ma-information-theory-4",
+          "name": "Data compression"
+        }
+      ]
+    },
+    {
+      "id": "ma-cryptography",
+      "name": "Cryptography",
+      "category": "Theoretical Computer Science",
+      "topics": [
+        {
+          "id": "ma-cryptography-1",
+          "name": "Public-key cryptography"
+        },
+        {
+          "id": "ma-cryptography-2",
+          "name": "Symmetric cryptography"
+        },
+        {
+          "id": "ma-cryptography-3",
+          "name": "Cryptographic protocols"
+        },
+        {
+          "id": "ma-cryptography-4",
+          "name": "Hash functions"
+        }
+      ]
+    },
+    {
+      "id": "ma-error-correcting-codes",
+      "name": "Error-Correcting Codes",
+      "category": "Theoretical Computer Science",
+      "topics": [
+        {
+          "id": "ma-error-correcting-codes-1",
+          "name": "Hamming codes"
+        },
+        {
+          "id": "ma-error-correcting-codes-2",
+          "name": "Reed-Solomon codes"
+        },
+        {
+          "id": "ma-error-correcting-codes-3",
+          "name": "LDPC codes"
+        }
+      ]
+    },
+    {
+      "id": "ma-type-theory",
+      "name": "Type Theory",
+      "category": "Theoretical Computer Science",
+      "topics": [
+        {
+          "id": "ma-type-theory-1",
+          "name": "Lambda calculus"
+        },
+        {
+          "id": "ma-type-theory-2",
+          "name": "Type systems"
+        },
+        {
+          "id": "ma-type-theory-3",
+          "name": "Dependent types"
+        }
+      ]
+    },
+    {
+      "id": "ma-formal-verification",
+      "name": "Formal Verification",
+      "category": "Theoretical Computer Science",
+      "topics": [
+        {
+          "id": "ma-formal-verification-1",
+          "name": "Program semantics"
+        },
+        {
+          "id": "ma-formal-verification-2",
+          "name": "Model checking"
+        },
+        {
+          "id": "ma-formal-verification-3",
+          "name": "Proof assistants"
+        }
+      ]
+    },
+    {
+      "id": "ma-foundations-of-machine-learning",
+      "name": "Foundations of Machine Learning",
+      "category": "Machine Learning & Data Science Mathematics",
+      "topics": [
+        {
+          "id": "ma-foundations-of-machine-learning-1",
+          "name": "Statistical learning theory"
+        },
+        {
+          "id": "ma-foundations-of-machine-learning-2",
+          "name": "Bias-variance tradeoff"
+        },
+        {
+          "id": "ma-foundations-of-machine-learning-3",
+          "name": "Cross-validation"
+        }
+      ]
+    },
+    {
+      "id": "ma-linear-methods",
+      "name": "Linear Methods",
+      "category": "Machine Learning & Data Science Mathematics",
+      "topics": [
+        {
+          "id": "ma-linear-methods-1",
+          "name": "Linear regression"
+        },
+        {
+          "id": "ma-linear-methods-2",
+          "name": "Logistic regression"
+        },
+        {
+          "id": "ma-linear-methods-3",
+          "name": "Linear discriminant analysis"
+        }
+      ]
+    },
+    {
+      "id": "ma-gradient-based-optimization",
+      "name": "Gradient-Based Optimization",
+      "category": "Machine Learning & Data Science Mathematics",
+      "topics": [
+        {
+          "id": "ma-gradient-based-optimization-1",
+          "name": "Gradient descent variants"
+        },
+        {
+          "id": "ma-gradient-based-optimization-2",
+          "name": "Backpropagation"
+        },
+        {
+          "id": "ma-gradient-based-optimization-3",
+          "name": "Automatic differentiation"
+        }
+      ]
+    },
+    {
+      "id": "ma-kernel-methods",
+      "name": "Kernel Methods",
+      "category": "Machine Learning & Data Science Mathematics",
+      "topics": [
+        {
+          "id": "ma-kernel-methods-1",
+          "name": "Support vector machines"
+        },
+        {
+          "id": "ma-kernel-methods-2",
+          "name": "Kernel trick"
+        },
+        {
+          "id": "ma-kernel-methods-3",
+          "name": "Reproducing kernel Hilbert spaces"
+        }
+      ]
+    },
+    {
+      "id": "ma-neural-network-mathematics",
+      "name": "Neural Network Mathematics",
+      "category": "Machine Learning & Data Science Mathematics",
+      "topics": [
+        {
+          "id": "ma-neural-network-mathematics-1",
+          "name": "Deep learning theory"
+        },
+        {
+          "id": "ma-neural-network-mathematics-2",
+          "name": "Universal approximation"
+        },
+        {
+          "id": "ma-neural-network-mathematics-3",
+          "name": "Optimization landscapes"
+        }
+      ]
+    },
+    {
+      "id": "ma-probabilistic-models",
+      "name": "Probabilistic Models",
+      "category": "Machine Learning & Data Science Mathematics",
+      "topics": [
+        {
+          "id": "ma-probabilistic-models-1",
+          "name": "Graphical models"
+        },
+        {
+          "id": "ma-probabilistic-models-2",
+          "name": "Bayesian networks"
+        },
+        {
+          "id": "ma-probabilistic-models-3",
+          "name": "Hidden Markov models"
+        },
+        {
+          "id": "ma-probabilistic-models-4",
+          "name": "Gaussian processes"
+        }
+      ]
+    },
+    {
+      "id": "ma-dimensionality-reduction",
+      "name": "Dimensionality Reduction",
+      "category": "Machine Learning & Data Science Mathematics",
+      "topics": [
+        {
+          "id": "ma-dimensionality-reduction-1",
+          "name": "PCA"
+        },
+        {
+          "id": "ma-dimensionality-reduction-2",
+          "name": "Manifold learning"
+        },
+        {
+          "id": "ma-dimensionality-reduction-3",
+          "name": "t-SNE"
+        },
+        {
+          "id": "ma-dimensionality-reduction-4",
+          "name": "Autoencoders"
+        }
+      ]
+    },
+    {
+      "id": "ma-reinforcement-learning-mathematics",
+      "name": "Reinforcement Learning Mathematics",
+      "category": "Machine Learning & Data Science Mathematics",
+      "topics": [
+        {
+          "id": "ma-reinforcement-learning-mathematics-1",
+          "name": "Markov decision processes"
+        },
+        {
+          "id": "ma-reinforcement-learning-mathematics-2",
+          "name": "Bellman equations"
+        },
+        {
+          "id": "ma-reinforcement-learning-mathematics-3",
+          "name": "Q-learning"
+        },
+        {
+          "id": "ma-reinforcement-learning-mathematics-4",
+          "name": "Policy gradient methods"
+        }
+      ]
+    },
+    {
+      "id": "ma-information-geometry-ml-context",
+      "name": "Information Geometry (ML Context)",
+      "category": "Machine Learning & Data Science Mathematics",
+      "topics": [
+        {
+          "id": "ma-information-geometry-ml-context-1",
+          "name": "Natural gradients"
+        },
+        {
+          "id": "ma-information-geometry-ml-context-2",
+          "name": "Fisher information"
+        }
+      ]
+    },
+    {
+      "id": "ma-matrix-methods-for-ml",
+      "name": "Matrix Methods for ML",
+      "category": "Machine Learning & Data Science Mathematics",
+      "topics": [
+        {
+          "id": "ma-matrix-methods-for-ml-1",
+          "name": "Matrix factorization"
+        },
+        {
+          "id": "ma-matrix-methods-for-ml-2",
+          "name": "Tensor decomposition"
+        }
+      ]
+    },
+    {
+      "id": "ma-operations-research",
+      "name": "Operations Research",
+      "category": "Applied & Interdisciplinary Mathematics",
+      "topics": [
+        {
+          "id": "ma-operations-research-1",
+          "name": "Queuing theory"
+        },
+        {
+          "id": "ma-operations-research-2",
+          "name": "Scheduling theory"
+        },
+        {
+          "id": "ma-operations-research-3",
+          "name": "Inventory theory"
+        },
+        {
+          "id": "ma-operations-research-4",
+          "name": "Supply chain optimization"
+        }
+      ]
+    },
+    {
+      "id": "ma-mathematical-programming",
+      "name": "Mathematical Programming",
+      "category": "Applied & Interdisciplinary Mathematics",
+      "topics": [
+        {
+          "id": "ma-mathematical-programming-1",
+          "name": "Linear programming applications"
+        },
+        {
+          "id": "ma-mathematical-programming-2",
+          "name": "Network optimization"
+        }
+      ]
+    },
+    {
+      "id": "ma-mathematical-biology",
+      "name": "Mathematical Biology",
+      "category": "Applied & Interdisciplinary Mathematics",
+      "topics": [
+        {
+          "id": "ma-mathematical-biology-1",
+          "name": "Population dynamics"
+        },
+        {
+          "id": "ma-mathematical-biology-2",
+          "name": "Epidemiological modeling (SIR, SEIR models)"
+        },
+        {
+          "id": "ma-mathematical-biology-3",
+          "name": "Neural modeling"
+        },
+        {
+          "id": "ma-mathematical-biology-4",
+          "name": "Ecology models"
+        },
+        {
+          "id": "ma-mathematical-biology-5",
+          "name": "DNA and protein modeling"
+        },
+        {
+          "id": "ma-mathematical-biology-6",
+          "name": "Systems biology"
+        }
+      ]
+    },
+    {
+      "id": "ma-mathematical-chemistry",
+      "name": "Mathematical Chemistry",
+      "category": "Applied & Interdisciplinary Mathematics",
+      "topics": [
+        {
+          "id": "ma-mathematical-chemistry-1",
+          "name": "Molecular modeling"
+        },
+        {
+          "id": "ma-mathematical-chemistry-2",
+          "name": "Chemical reaction networks"
+        },
+        {
+          "id": "ma-mathematical-chemistry-3",
+          "name": "Quantum chemistry mathematics"
+        },
+        {
+          "id": "ma-mathematical-chemistry-4",
+          "name": "Chemical kinetics"
+        }
+      ]
+    },
+    {
+      "id": "ma-financial-mathematics",
+      "name": "Financial Mathematics",
+      "category": "Applied & Interdisciplinary Mathematics",
+      "topics": [
+        {
+          "id": "ma-financial-mathematics-1",
+          "name": "Option pricing"
+        },
+        {
+          "id": "ma-financial-mathematics-2",
+          "name": "Black-Scholes equation"
+        },
+        {
+          "id": "ma-financial-mathematics-3",
+          "name": "Stochastic finance"
+        },
+        {
+          "id": "ma-financial-mathematics-4",
+          "name": "Risk theory"
+        },
+        {
+          "id": "ma-financial-mathematics-5",
+          "name": "Portfolio optimization"
+        },
+        {
+          "id": "ma-financial-mathematics-6",
+          "name": "Interest rate models"
+        },
+        {
+          "id": "ma-financial-mathematics-7",
+          "name": "Quantitative modeling"
+        }
+      ]
+    },
+    {
+      "id": "ma-mathematical-economics",
+      "name": "Mathematical Economics",
+      "category": "Applied & Interdisciplinary Mathematics",
+      "topics": [
+        {
+          "id": "ma-mathematical-economics-1",
+          "name": "General equilibrium theory"
+        },
+        {
+          "id": "ma-mathematical-economics-2",
+          "name": "Input-output models"
+        },
+        {
+          "id": "ma-mathematical-economics-3",
+          "name": "Optimization in economics"
+        },
+        {
+          "id": "ma-mathematical-economics-4",
+          "name": "Utility theory"
+        }
+      ]
+    },
+    {
+      "id": "ma-actuarial-mathematics",
+      "name": "Actuarial Mathematics",
+      "category": "Applied & Interdisciplinary Mathematics",
+      "topics": [
+        {
+          "id": "ma-actuarial-mathematics-1",
+          "name": "Life contingencies"
+        },
+        {
+          "id": "ma-actuarial-mathematics-2",
+          "name": "Pension mathematics"
+        },
+        {
+          "id": "ma-actuarial-mathematics-3",
+          "name": "Insurance mathematics"
+        }
+      ]
+    },
+    {
+      "id": "ma-network-science",
+      "name": "Network Science",
+      "category": "Applied & Interdisciplinary Mathematics",
+      "topics": [
+        {
+          "id": "ma-network-science-1",
+          "name": "Network theory"
+        },
+        {
+          "id": "ma-network-science-2",
+          "name": "Social network analysis"
+        },
+        {
+          "id": "ma-network-science-3",
+          "name": "Complex networks"
+        },
+        {
+          "id": "ma-network-science-4",
+          "name": "Graph modeling"
+        },
+        {
+          "id": "ma-network-science-5",
+          "name": "Epidemic modeling on networks"
+        }
+      ]
+    },
+    {
+      "id": "ma-systems-theory-control",
+      "name": "Systems Theory & Control",
+      "category": "Applied & Interdisciplinary Mathematics",
+      "topics": [
+        {
+          "id": "ma-systems-theory-control-1",
+          "name": "Linear systems"
+        },
+        {
+          "id": "ma-systems-theory-control-2",
+          "name": "Nonlinear systems"
+        },
+        {
+          "id": "ma-systems-theory-control-3",
+          "name": "Adaptive control"
+        },
+        {
+          "id": "ma-systems-theory-control-4",
+          "name": "System identification"
+        }
+      ]
+    },
+    {
+      "id": "ma-signal-processing",
+      "name": "Signal Processing",
+      "category": "Applied & Interdisciplinary Mathematics",
+      "topics": [
+        {
+          "id": "ma-signal-processing-1",
+          "name": "Digital signal processing"
+        },
+        {
+          "id": "ma-signal-processing-2",
+          "name": "Filter design"
+        },
+        {
+          "id": "ma-signal-processing-3",
+          "name": "Time-frequency analysis"
+        }
+      ]
+    },
+    {
+      "id": "ma-information-communication-theory",
+      "name": "Information & Communication Theory",
+      "category": "Applied & Interdisciplinary Mathematics",
+      "topics": [
+        {
+          "id": "ma-information-communication-theory-1",
+          "name": "Coding theory"
+        },
+        {
+          "id": "ma-information-communication-theory-2",
+          "name": "Network information theory"
+        },
+        {
+          "id": "ma-information-communication-theory-3",
+          "name": "Wireless communications"
+        }
+      ]
+    },
+    {
+      "id": "ma-circuit-theory",
+      "name": "Circuit Theory",
+      "category": "Applied & Interdisciplinary Mathematics",
+      "topics": [
+        {
+          "id": "ma-circuit-theory-1",
+          "name": "Electrical network analysis"
+        },
+        {
+          "id": "ma-circuit-theory-2",
+          "name": "Transfer functions"
+        }
+      ]
+    },
+    {
+      "id": "ma-mathematical-modeling",
+      "name": "Mathematical Modeling",
+      "category": "Applied & Interdisciplinary Mathematics",
+      "topics": [
+        {
+          "id": "ma-mathematical-modeling-1",
+          "name": "Model construction"
+        },
+        {
+          "id": "ma-mathematical-modeling-2",
+          "name": "Parameter estimation"
+        },
+        {
+          "id": "ma-mathematical-modeling-3",
+          "name": "Model validation"
+        }
+      ]
+    },
+    {
+      "id": "ma-geophysical-environmental-mathematics",
+      "name": "Geophysical & Environmental Mathematics",
+      "category": "Applied & Interdisciplinary Mathematics",
+      "topics": [
+        {
+          "id": "ma-geophysical-environmental-mathematics-1",
+          "name": "Climate modeling"
+        },
+        {
+          "id": "ma-geophysical-environmental-mathematics-2",
+          "name": "Ocean modeling"
+        },
+        {
+          "id": "ma-geophysical-environmental-mathematics-3",
+          "name": "Weather prediction"
+        },
+        {
+          "id": "ma-geophysical-environmental-mathematics-4",
+          "name": "Environmental dynamics"
+        }
+      ]
+    },
+    {
+      "id": "ma-topological-data-analysis",
+      "name": "Topological Data Analysis",
+      "category": "Emerging & Advanced Areas",
+      "topics": [
+        {
+          "id": "ma-topological-data-analysis-1",
+          "name": "Persistent homology"
+        },
+        {
+          "id": "ma-topological-data-analysis-2",
+          "name": "Barcodes and persistence diagrams"
+        }
+      ]
+    },
+    {
+      "id": "ma-higher-dimensional-algebra",
+      "name": "Higher-Dimensional Algebra",
+      "category": "Emerging & Advanced Areas",
+      "topics": [
+        {
+          "id": "ma-higher-dimensional-algebra-1",
+          "name": "n-categories"
+        },
+        {
+          "id": "ma-higher-dimensional-algebra-2",
+          "name": "Operads"
+        },
+        {
+          "id": "ma-higher-dimensional-algebra-3",
+          "name": "Homotopy type theory"
+        }
+      ]
+    },
+    {
+      "id": "ma-mirror-symmetry",
+      "name": "Mirror Symmetry",
+      "category": "Emerging & Advanced Areas",
+      "topics": [
+        {
+          "id": "ma-mirror-symmetry-1",
+          "name": "Calabi-Yau manifolds"
+        },
+        {
+          "id": "ma-mirror-symmetry-2",
+          "name": "String theory mathematics"
+        }
+      ]
+    },
+    {
+      "id": "ma-quantum-groups",
+      "name": "Quantum Groups",
+      "category": "Emerging & Advanced Areas",
+      "topics": [
+        {
+          "id": "ma-quantum-groups-1",
+          "name": "Hopf algebras"
+        },
+        {
+          "id": "ma-quantum-groups-2",
+          "name": "Deformation theory"
+        }
+      ]
+    },
+    {
+      "id": "ma-arithmetic-geometry",
+      "name": "Arithmetic Geometry",
+      "category": "Emerging & Advanced Areas",
+      "topics": [
+        {
+          "id": "ma-arithmetic-geometry-1",
+          "name": "Diophantine geometry"
+        },
+        {
+          "id": "ma-arithmetic-geometry-2",
+          "name": "Rational points"
+        }
+      ]
+    },
+    {
+      "id": "ma-derived-algebraic-geometry",
+      "name": "Derived Algebraic Geometry",
+      "category": "Emerging & Advanced Areas",
+      "topics": [
+        {
+          "id": "ma-derived-algebraic-geometry-1",
+          "name": "Derived categories"
+        },
+        {
+          "id": "ma-derived-algebraic-geometry-2",
+          "name": "Stacks"
+        }
+      ]
+    },
+    {
+      "id": "ma-o-minimality",
+      "name": "o-Minimality",
+      "category": "Emerging & Advanced Areas",
+      "topics": [
+        {
+          "id": "ma-o-minimality-1",
+          "name": "Tame geometry"
+        },
+        {
+          "id": "ma-o-minimality-2",
+          "name": "Model theory applications"
+        }
+      ]
+    },
+    {
+      "id": "ma-geometric-measure-theory",
+      "name": "Geometric Measure Theory",
+      "category": "Emerging & Advanced Areas",
+      "topics": [
+        {
+          "id": "ma-geometric-measure-theory-1",
+          "name": "Rectifiability"
+        },
+        {
+          "id": "ma-geometric-measure-theory-2",
+          "name": "Minimal surfaces"
+        }
+      ]
+    },
+    {
+      "id": "ma-sub-riemannian-geometry",
+      "name": "Sub-Riemannian Geometry",
+      "category": "Emerging & Advanced Areas",
+      "topics": [
+        {
+          "id": "ma-sub-riemannian-geometry-1",
+          "name": "Carnot groups"
+        },
+        {
+          "id": "ma-sub-riemannian-geometry-2",
+          "name": "Hypoelliptic operators"
+        }
+      ]
+    },
+    {
+      "id": "ma-stochastic-geometry",
+      "name": "Stochastic Geometry",
+      "category": "Emerging & Advanced Areas",
+      "topics": [
+        {
+          "id": "ma-stochastic-geometry-1",
+          "name": "Random geometric structures"
+        }
+      ]
+    },
+    {
+      "id": "ma-mean-field-games",
+      "name": "Mean Field Games",
+      "category": "Emerging & Advanced Areas",
+      "topics": [
+        {
+          "id": "ma-mean-field-games-1",
+          "name": "Differential games"
+        },
+        {
+          "id": "ma-mean-field-games-2",
+          "name": "Mean field theory"
+        }
+      ]
+    },
+    {
+      "id": "ma-fractional-calculus",
+      "name": "Fractional Calculus",
+      "category": "Emerging & Advanced Areas",
+      "topics": [
+        {
+          "id": "ma-fractional-calculus-1",
+          "name": "Fractional derivatives"
+        },
+        {
+          "id": "ma-fractional-calculus-2",
+          "name": "Fractional differential equations"
+        }
+      ]
+    },
+    {
+      "id": "ma-history-of-mathematics",
+      "name": "History of Mathematics",
+      "category": "Meta-Mathematics & Education",
+      "topics": [
+        {
+          "id": "ma-history-of-mathematics-1",
+          "name": "Ancient mathematics"
+        },
+        {
+          "id": "ma-history-of-mathematics-2",
+          "name": "Development of mathematical ideas"
+        },
+        {
+          "id": "ma-history-of-mathematics-3",
+          "name": "Biographies of mathematicians"
+        }
+      ]
+    },
+    {
+      "id": "ma-philosophy-of-mathematics",
+      "name": "Philosophy of Mathematics",
+      "category": "Meta-Mathematics & Education",
+      "topics": [
+        {
+          "id": "ma-philosophy-of-mathematics-1",
+          "name": "Platonism"
+        },
+        {
+          "id": "ma-philosophy-of-mathematics-2",
+          "name": "Formalism"
+        },
+        {
+          "id": "ma-philosophy-of-mathematics-3",
+          "name": "Intuitionism"
+        },
+        {
+          "id": "ma-philosophy-of-mathematics-4",
+          "name": "Structuralism"
+        }
+      ]
+    },
+    {
+      "id": "ma-mathematical-aesthetics",
+      "name": "Mathematical Aesthetics",
+      "category": "Meta-Mathematics & Education",
+      "topics": [
+        {
+          "id": "ma-mathematical-aesthetics-1",
+          "name": "Beauty in mathematics"
+        },
+        {
+          "id": "ma-mathematical-aesthetics-2",
+          "name": "Mathematical creativity"
+        }
+      ]
+    },
+    {
+      "id": "ma-mathematics-education",
+      "name": "Mathematics Education",
+      "category": "Meta-Mathematics & Education",
+      "topics": [
+        {
+          "id": "ma-mathematics-education-1",
+          "name": "Pedagogy"
+        },
+        {
+          "id": "ma-mathematics-education-2",
+          "name": "Curriculum development"
+        },
+        {
+          "id": "ma-mathematics-education-3",
+          "name": "Assessment methods"
+        },
+        {
+          "id": "ma-mathematics-education-4",
+          "name": "Learning theories"
+        }
+      ]
+    },
+    {
+      "id": "ma-mathematical-writing-communication",
+      "name": "Mathematical Writing & Communication",
+      "category": "Meta-Mathematics & Education",
+      "topics": [
+        {
+          "id": "ma-mathematical-writing-communication-1",
+          "name": "Proof writing"
+        },
+        {
+          "id": "ma-mathematical-writing-communication-2",
+          "name": "Mathematical exposition"
+        },
+        {
+          "id": "ma-mathematical-writing-communication-3",
+          "name": "Technical communication"
+        }
+      ]
+    }
+  ]
+}

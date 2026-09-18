@@ -1,0 +1,2424 @@
+{
+  "id": "physics",
+  "name": "Physics",
+  "icon": "⚛️",
+  "color": "#60c5f8",
+  "prefix": "ph",
+  "description": "",
+  "chapters": [
+    {
+      "id": "ph-classical-mechanics",
+      "name": "Classical Mechanics",
+      "category": "Classical Physics",
+      "topics": [
+        {
+          "id": "ph-classical-mechanics-1",
+          "name": "Kinematics (motion analysis without forces)"
+        },
+        {
+          "id": "ph-classical-mechanics-2",
+          "name": "Dynamics (forces and their effects)"
+        },
+        {
+          "id": "ph-classical-mechanics-3",
+          "name": "Statics (equilibrium systems)"
+        },
+        {
+          "id": "ph-classical-mechanics-4",
+          "name": "Newtonian mechanics"
+        },
+        {
+          "id": "ph-classical-mechanics-5",
+          "name": "Work, energy, power"
+        },
+        {
+          "id": "ph-classical-mechanics-6",
+          "name": "Momentum and collisions"
+        },
+        {
+          "id": "ph-classical-mechanics-7",
+          "name": "Rotational motion"
+        },
+        {
+          "id": "ph-classical-mechanics-8",
+          "name": "Rigid body dynamics"
+        },
+        {
+          "id": "ph-classical-mechanics-9",
+          "name": "Oscillations and harmonic motion"
+        },
+        {
+          "id": "ph-classical-mechanics-10",
+          "name": "Nonlinear dynamics"
+        },
+        {
+          "id": "ph-classical-mechanics-11",
+          "name": "Gravitation"
+        },
+        {
+          "id": "ph-classical-mechanics-12",
+          "name": "Lagrangian mechanics"
+        },
+        {
+          "id": "ph-classical-mechanics-13",
+          "name": "Hamiltonian mechanics"
+        },
+        {
+          "id": "ph-classical-mechanics-14",
+          "name": "Analytical mechanics"
+        },
+        {
+          "id": "ph-classical-mechanics-15",
+          "name": "Celestial mechanics"
+        },
+        {
+          "id": "ph-classical-mechanics-16",
+          "name": "Orbital mechanics"
+        },
+        {
+          "id": "ph-classical-mechanics-17",
+          "name": "Perturbation theory"
+        },
+        {
+          "id": "ph-classical-mechanics-18",
+          "name": "Variational principles"
+        },
+        {
+          "id": "ph-classical-mechanics-19",
+          "name": "Central force problems"
+        },
+        {
+          "id": "ph-classical-mechanics-20",
+          "name": "Constraints and generalized coordinates"
+        }
+      ]
+    },
+    {
+      "id": "ph-fluid-mechanics",
+      "name": "Fluid Mechanics",
+      "category": "Classical Physics",
+      "topics": [
+        {
+          "id": "ph-fluid-mechanics-1",
+          "name": "Hydrostatics"
+        },
+        {
+          "id": "ph-fluid-mechanics-2",
+          "name": "Hydrodynamics"
+        },
+        {
+          "id": "ph-fluid-mechanics-3",
+          "name": "Viscosity"
+        },
+        {
+          "id": "ph-fluid-mechanics-4",
+          "name": "Turbulence"
+        },
+        {
+          "id": "ph-fluid-mechanics-5",
+          "name": "Laminar flow"
+        },
+        {
+          "id": "ph-fluid-mechanics-6",
+          "name": "Navier–Stokes equations"
+        },
+        {
+          "id": "ph-fluid-mechanics-7",
+          "name": "Boundary layers"
+        },
+        {
+          "id": "ph-fluid-mechanics-8",
+          "name": "Compressible flow"
+        },
+        {
+          "id": "ph-fluid-mechanics-9",
+          "name": "Aerodynamics"
+        },
+        {
+          "id": "ph-fluid-mechanics-10",
+          "name": "Magnetohydrodynamics (MHD)"
+        },
+        {
+          "id": "ph-fluid-mechanics-11",
+          "name": "Geophysical fluid dynamics"
+        },
+        {
+          "id": "ph-fluid-mechanics-12",
+          "name": "Continuum mechanics"
+        },
+        {
+          "id": "ph-fluid-mechanics-13",
+          "name": "Non-Newtonian fluids"
+        },
+        {
+          "id": "ph-fluid-mechanics-14",
+          "name": "Vortex dynamics"
+        },
+        {
+          "id": "ph-fluid-mechanics-15",
+          "name": "Cavitation"
+        },
+        {
+          "id": "ph-fluid-mechanics-16",
+          "name": "Multiphase flow"
+        }
+      ]
+    },
+    {
+      "id": "ph-thermodynamics-statistical-mechanics",
+      "name": "Thermodynamics & Statistical Mechanics",
+      "category": "Classical Physics",
+      "topics": [
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-1",
+          "name": "Laws of thermodynamics (0th, 1st, 2nd, 3rd)"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-2",
+          "name": "Heat transfer (conduction, convection, radiation)"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-3",
+          "name": "Heat engines and refrigerators"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-4",
+          "name": "Entropy"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-5",
+          "name": "Thermodynamic potentials (Gibbs, Helmholtz, enthalpy)"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-6",
+          "name": "Carnot cycle and other thermodynamic cycles"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-7",
+          "name": "Equations of state"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-8",
+          "name": "Phase transitions and phase diagrams"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-9",
+          "name": "Irreversible thermodynamics"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-10",
+          "name": "Thermodynamic equilibrium"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-11",
+          "name": "Statistical mechanics",
+          "sub": [
+            {
+              "id": "ph-thermodynamics-statistical-mechanics-11-1",
+              "name": "Classical statistics"
+            },
+            {
+              "id": "ph-thermodynamics-statistical-mechanics-11-2",
+              "name": "Quantum statistics (Fermi-Dirac, Bose-Einstein)"
+            },
+            {
+              "id": "ph-thermodynamics-statistical-mechanics-11-3",
+              "name": "Boltzmann distribution"
+            },
+            {
+              "id": "ph-thermodynamics-statistical-mechanics-11-4",
+              "name": "Partition functions"
+            },
+            {
+              "id": "ph-thermodynamics-statistical-mechanics-11-5",
+              "name": "Ensembles (microcanonical, canonical, grand canonical)"
+            }
+          ]
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-12",
+          "name": "Kinetic theory of gases"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-13",
+          "name": "Fluctuations and fluctuation-dissipation theorem"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-14",
+          "name": "Transport theory"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-15",
+          "name": "Non-equilibrium thermodynamics"
+        },
+        {
+          "id": "ph-thermodynamics-statistical-mechanics-16",
+          "name": "Information theory and entropy"
+        }
+      ]
+    },
+    {
+      "id": "ph-classical-electromagnetism",
+      "name": "Classical Electromagnetism",
+      "category": "Classical Physics",
+      "topics": [
+        {
+          "id": "ph-classical-electromagnetism-1",
+          "name": "Electrostatics"
+        },
+        {
+          "id": "ph-classical-electromagnetism-2",
+          "name": "Magnetostatics"
+        },
+        {
+          "id": "ph-classical-electromagnetism-3",
+          "name": "Electrodynamics"
+        },
+        {
+          "id": "ph-classical-electromagnetism-4",
+          "name": "Maxwell's equations"
+        },
+        {
+          "id": "ph-classical-electromagnetism-5",
+          "name": "Electromagnetic waves"
+        },
+        {
+          "id": "ph-classical-electromagnetism-6",
+          "name": "Electromagnetic field theory"
+        },
+        {
+          "id": "ph-classical-electromagnetism-7",
+          "name": "AC/DC circuits"
+        },
+        {
+          "id": "ph-classical-electromagnetism-8",
+          "name": "Waveguides and transmission lines"
+        },
+        {
+          "id": "ph-classical-electromagnetism-9",
+          "name": "Radiation and antennas"
+        },
+        {
+          "id": "ph-classical-electromagnetism-10",
+          "name": "Plasma physics (classical)"
+        },
+        {
+          "id": "ph-classical-electromagnetism-11",
+          "name": "Dielectrics and polarization"
+        },
+        {
+          "id": "ph-classical-electromagnetism-12",
+          "name": "Magnetic materials"
+        },
+        {
+          "id": "ph-classical-electromagnetism-13",
+          "name": "Electromagnetic potentials"
+        },
+        {
+          "id": "ph-classical-electromagnetism-14",
+          "name": "Gauge transformations"
+        },
+        {
+          "id": "ph-classical-electromagnetism-15",
+          "name": "Retarded potentials and Jefimenko's equations"
+        }
+      ]
+    },
+    {
+      "id": "ph-classical-optics",
+      "name": "Classical Optics",
+      "category": "Classical Physics",
+      "topics": [
+        {
+          "id": "ph-classical-optics-1",
+          "name": "Geometrical optics (ray optics)"
+        },
+        {
+          "id": "ph-classical-optics-2",
+          "name": "Wave optics"
+        },
+        {
+          "id": "ph-classical-optics-3",
+          "name": "Interference"
+        },
+        {
+          "id": "ph-classical-optics-4",
+          "name": "Diffraction (Fresnel, Fraunhofer)"
+        },
+        {
+          "id": "ph-classical-optics-5",
+          "name": "Polarization"
+        },
+        {
+          "id": "ph-classical-optics-6",
+          "name": "Optical instruments"
+        },
+        {
+          "id": "ph-classical-optics-7",
+          "name": "Aberrations"
+        },
+        {
+          "id": "ph-classical-optics-8",
+          "name": "Dispersion"
+        },
+        {
+          "id": "ph-classical-optics-9",
+          "name": "Fourier optics"
+        },
+        {
+          "id": "ph-classical-optics-10",
+          "name": "Coherence theory"
+        }
+      ]
+    },
+    {
+      "id": "ph-acoustics",
+      "name": "Acoustics",
+      "category": "Classical Physics",
+      "topics": [
+        {
+          "id": "ph-acoustics-1",
+          "name": "Physical acoustics (sound wave properties)"
+        },
+        {
+          "id": "ph-acoustics-2",
+          "name": "Musical acoustics"
+        },
+        {
+          "id": "ph-acoustics-3",
+          "name": "Architectural acoustics"
+        },
+        {
+          "id": "ph-acoustics-4",
+          "name": "Environmental acoustics"
+        },
+        {
+          "id": "ph-acoustics-5",
+          "name": "Speech acoustics"
+        },
+        {
+          "id": "ph-acoustics-6",
+          "name": "Psychoacoustics (human sound perception)"
+        },
+        {
+          "id": "ph-acoustics-7",
+          "name": "Electroacoustics"
+        },
+        {
+          "id": "ph-acoustics-8",
+          "name": "Underwater acoustics"
+        },
+        {
+          "id": "ph-acoustics-9",
+          "name": "Ultrasonics"
+        },
+        {
+          "id": "ph-acoustics-10",
+          "name": "Infrasound"
+        }
+      ]
+    },
+    {
+      "id": "ph-chaos-theory-nonlinear-dynamics",
+      "name": "Chaos Theory & Nonlinear Dynamics",
+      "category": "Classical Physics",
+      "topics": [
+        {
+          "id": "ph-chaos-theory-nonlinear-dynamics-1",
+          "name": "Dynamical systems"
+        },
+        {
+          "id": "ph-chaos-theory-nonlinear-dynamics-2",
+          "name": "Strange attractors"
+        },
+        {
+          "id": "ph-chaos-theory-nonlinear-dynamics-3",
+          "name": "Deterministic chaos"
+        },
+        {
+          "id": "ph-chaos-theory-nonlinear-dynamics-4",
+          "name": "Lyapunov exponents"
+        },
+        {
+          "id": "ph-chaos-theory-nonlinear-dynamics-5",
+          "name": "Bifurcation theory"
+        },
+        {
+          "id": "ph-chaos-theory-nonlinear-dynamics-6",
+          "name": "Fractals in physics"
+        },
+        {
+          "id": "ph-chaos-theory-nonlinear-dynamics-7",
+          "name": "Solitons"
+        },
+        {
+          "id": "ph-chaos-theory-nonlinear-dynamics-8",
+          "name": "Pattern formation"
+        },
+        {
+          "id": "ph-chaos-theory-nonlinear-dynamics-9",
+          "name": "Applications to weather and climate"
+        }
+      ]
+    },
+    {
+      "id": "ph-special-relativity",
+      "name": "Special Relativity",
+      "category": "Modern Physics",
+      "topics": [
+        {
+          "id": "ph-special-relativity-1",
+          "name": "Postulates of special relativity"
+        },
+        {
+          "id": "ph-special-relativity-2",
+          "name": "Lorentz transformations"
+        },
+        {
+          "id": "ph-special-relativity-3",
+          "name": "Time dilation and length contraction"
+        },
+        {
+          "id": "ph-special-relativity-4",
+          "name": "Relativistic energy and momentum"
+        },
+        {
+          "id": "ph-special-relativity-5",
+          "name": "Mass-energy equivalence (E=mc²)"
+        },
+        {
+          "id": "ph-special-relativity-6",
+          "name": "Relativistic electrodynamics"
+        },
+        {
+          "id": "ph-special-relativity-7",
+          "name": "Minkowski spacetime"
+        },
+        {
+          "id": "ph-special-relativity-8",
+          "name": "Four-vectors"
+        },
+        {
+          "id": "ph-special-relativity-9",
+          "name": "Relativistic Doppler effect"
+        },
+        {
+          "id": "ph-special-relativity-10",
+          "name": "Relativistic kinematics"
+        }
+      ]
+    },
+    {
+      "id": "ph-general-relativity",
+      "name": "General Relativity",
+      "category": "Modern Physics",
+      "topics": [
+        {
+          "id": "ph-general-relativity-1",
+          "name": "Principle of equivalence"
+        },
+        {
+          "id": "ph-general-relativity-2",
+          "name": "Curved spacetime"
+        },
+        {
+          "id": "ph-general-relativity-3",
+          "name": "Einstein's field equations"
+        },
+        {
+          "id": "ph-general-relativity-4",
+          "name": "Schwarzschild metric"
+        },
+        {
+          "id": "ph-general-relativity-5",
+          "name": "Kerr metric"
+        },
+        {
+          "id": "ph-general-relativity-6",
+          "name": "Geodesics"
+        },
+        {
+          "id": "ph-general-relativity-7",
+          "name": "Gravitational time dilation"
+        },
+        {
+          "id": "ph-general-relativity-8",
+          "name": "Gravitational lensing"
+        },
+        {
+          "id": "ph-general-relativity-9",
+          "name": "Gravitational waves"
+        },
+        {
+          "id": "ph-general-relativity-10",
+          "name": "Cosmological solutions (FLRW metric)"
+        },
+        {
+          "id": "ph-general-relativity-11",
+          "name": "Penrose diagrams"
+        },
+        {
+          "id": "ph-general-relativity-12",
+          "name": "Singularities"
+        }
+      ]
+    },
+    {
+      "id": "ph-quantum-mechanics",
+      "name": "Quantum Mechanics",
+      "category": "Modern Physics",
+      "topics": [
+        {
+          "id": "ph-quantum-mechanics-1",
+          "name": "Wave-particle duality"
+        },
+        {
+          "id": "ph-quantum-mechanics-2",
+          "name": "Wave functions and probability"
+        },
+        {
+          "id": "ph-quantum-mechanics-3",
+          "name": "Operators and observables"
+        },
+        {
+          "id": "ph-quantum-mechanics-4",
+          "name": "Schrödinger equation (time-dependent and time-independent)"
+        },
+        {
+          "id": "ph-quantum-mechanics-5",
+          "name": "Quantum states and superposition"
+        },
+        {
+          "id": "ph-quantum-mechanics-6",
+          "name": "Uncertainty principle"
+        },
+        {
+          "id": "ph-quantum-mechanics-7",
+          "name": "Angular momentum (orbital and spin)"
+        },
+        {
+          "id": "ph-quantum-mechanics-8",
+          "name": "Spin and spinors"
+        },
+        {
+          "id": "ph-quantum-mechanics-9",
+          "name": "Quantum tunneling"
+        },
+        {
+          "id": "ph-quantum-mechanics-10",
+          "name": "Measurement theory and collapse"
+        },
+        {
+          "id": "ph-quantum-mechanics-11",
+          "name": "Scattering theory"
+        },
+        {
+          "id": "ph-quantum-mechanics-12",
+          "name": "Perturbation theory (time-dependent and time-independent)"
+        },
+        {
+          "id": "ph-quantum-mechanics-13",
+          "name": "WKB approximation"
+        },
+        {
+          "id": "ph-quantum-mechanics-14",
+          "name": "Variational methods"
+        },
+        {
+          "id": "ph-quantum-mechanics-15",
+          "name": "Identical particles and exchange symmetry"
+        },
+        {
+          "id": "ph-quantum-mechanics-16",
+          "name": "Density matrix and mixed states"
+        },
+        {
+          "id": "ph-quantum-mechanics-17",
+          "name": "Decoherence"
+        },
+        {
+          "id": "ph-quantum-mechanics-18",
+          "name": "Interpretations of quantum mechanics (Copenhagen, Many-worlds, etc.)"
+        },
+        {
+          "id": "ph-quantum-mechanics-19",
+          "name": "Bell's theorem and EPR paradox"
+        },
+        {
+          "id": "ph-quantum-mechanics-20",
+          "name": "Quantum entanglement"
+        }
+      ]
+    },
+    {
+      "id": "ph-quantum-field-theory-qft",
+      "name": "Quantum Field Theory (QFT)",
+      "category": "Modern Physics",
+      "topics": [
+        {
+          "id": "ph-quantum-field-theory-qft-1",
+          "name": "Second quantization"
+        },
+        {
+          "id": "ph-quantum-field-theory-qft-2",
+          "name": "Fields and field quantization"
+        },
+        {
+          "id": "ph-quantum-field-theory-qft-3",
+          "name": "Feynman diagrams"
+        },
+        {
+          "id": "ph-quantum-field-theory-qft-4",
+          "name": "Renormalization"
+        },
+        {
+          "id": "ph-quantum-field-theory-qft-5",
+          "name": "Gauge theories"
+        },
+        {
+          "id": "ph-quantum-field-theory-qft-6",
+          "name": "Scalar, spinor, vector fields"
+        },
+        {
+          "id": "ph-quantum-field-theory-qft-7",
+          "name": "Path integrals"
+        },
+        {
+          "id": "ph-quantum-field-theory-qft-8",
+          "name": "Symmetry and Noether's theorem"
+        },
+        {
+          "id": "ph-quantum-field-theory-qft-9",
+          "name": "Spontaneous symmetry breaking"
+        },
+        {
+          "id": "ph-quantum-field-theory-qft-10",
+          "name": "Quantum electrodynamics (QED)"
+        },
+        {
+          "id": "ph-quantum-field-theory-qft-11",
+          "name": "Quantum chromodynamics (QCD)"
+        },
+        {
+          "id": "ph-quantum-field-theory-qft-12",
+          "name": "Effective field theories"
+        },
+        {
+          "id": "ph-quantum-field-theory-qft-13",
+          "name": "Anomalies"
+        },
+        {
+          "id": "ph-quantum-field-theory-qft-14",
+          "name": "Lattice gauge theory"
+        }
+      ]
+    },
+    {
+      "id": "ph-particle-physics",
+      "name": "Particle Physics",
+      "category": "Modern Physics",
+      "topics": [
+        {
+          "id": "ph-particle-physics-1",
+          "name": "Standard Model"
+        },
+        {
+          "id": "ph-particle-physics-2",
+          "name": "Quarks and leptons"
+        },
+        {
+          "id": "ph-particle-physics-3",
+          "name": "Gauge bosons (photon, W, Z, gluons)"
+        },
+        {
+          "id": "ph-particle-physics-4",
+          "name": "Higgs mechanism and Higgs boson"
+        },
+        {
+          "id": "ph-particle-physics-5",
+          "name": "Electroweak unification"
+        },
+        {
+          "id": "ph-particle-physics-6",
+          "name": "Strong interactions"
+        },
+        {
+          "id": "ph-particle-physics-7",
+          "name": "Weak interactions"
+        },
+        {
+          "id": "ph-particle-physics-8",
+          "name": "Neutrino physics (oscillations, masses)"
+        },
+        {
+          "id": "ph-particle-physics-9",
+          "name": "CP violation"
+        },
+        {
+          "id": "ph-particle-physics-10",
+          "name": "Hadron physics (mesons, baryons)"
+        },
+        {
+          "id": "ph-particle-physics-11",
+          "name": "Quark-gluon plasma"
+        },
+        {
+          "id": "ph-particle-physics-12",
+          "name": "Collider physics"
+        },
+        {
+          "id": "ph-particle-physics-13",
+          "name": "Beyond Standard Model (supersymmetry, grand unification)"
+        },
+        {
+          "id": "ph-particle-physics-14",
+          "name": "Flavor physics"
+        },
+        {
+          "id": "ph-particle-physics-15",
+          "name": "Antimatter"
+        }
+      ]
+    },
+    {
+      "id": "ph-nuclear-physics",
+      "name": "Nuclear Physics",
+      "category": "Modern Physics",
+      "topics": [
+        {
+          "id": "ph-nuclear-physics-1",
+          "name": "Nuclear structure"
+        },
+        {
+          "id": "ph-nuclear-physics-2",
+          "name": "Nuclear forces and models (shell model, liquid drop)"
+        },
+        {
+          "id": "ph-nuclear-physics-3",
+          "name": "Nuclear decay (alpha, beta, gamma)"
+        },
+        {
+          "id": "ph-nuclear-physics-4",
+          "name": "Radioactivity"
+        },
+        {
+          "id": "ph-nuclear-physics-5",
+          "name": "Nuclear fission"
+        },
+        {
+          "id": "ph-nuclear-physics-6",
+          "name": "Nuclear fusion"
+        },
+        {
+          "id": "ph-nuclear-physics-7",
+          "name": "Isotopes and nuclides"
+        },
+        {
+          "id": "ph-nuclear-physics-8",
+          "name": "Nuclear reactions"
+        },
+        {
+          "id": "ph-nuclear-physics-9",
+          "name": "Nuclear reactors"
+        },
+        {
+          "id": "ph-nuclear-physics-10",
+          "name": "High-energy nuclear collisions"
+        },
+        {
+          "id": "ph-nuclear-physics-11",
+          "name": "Stellar nucleosynthesis"
+        },
+        {
+          "id": "ph-nuclear-physics-12",
+          "name": "Nuclear astrophysics"
+        }
+      ]
+    },
+    {
+      "id": "ph-solid-state-physics",
+      "name": "Solid State Physics",
+      "category": "Condensed Matter Physics",
+      "topics": [
+        {
+          "id": "ph-solid-state-physics-1",
+          "name": "Crystal structures and crystallography"
+        },
+        {
+          "id": "ph-solid-state-physics-2",
+          "name": "Reciprocal lattice and Brillouin zones"
+        },
+        {
+          "id": "ph-solid-state-physics-3",
+          "name": "X-ray diffraction"
+        },
+        {
+          "id": "ph-solid-state-physics-4",
+          "name": "Band theory of solids"
+        },
+        {
+          "id": "ph-solid-state-physics-5",
+          "name": "Phonons and lattice dynamics"
+        },
+        {
+          "id": "ph-solid-state-physics-6",
+          "name": "Electrical conductivity"
+        },
+        {
+          "id": "ph-solid-state-physics-7",
+          "name": "Thermal conductivity"
+        },
+        {
+          "id": "ph-solid-state-physics-8",
+          "name": "Semiconductors (intrinsic, extrinsic, p-n junctions)"
+        },
+        {
+          "id": "ph-solid-state-physics-9",
+          "name": "Insulators"
+        },
+        {
+          "id": "ph-solid-state-physics-10",
+          "name": "Metals and Fermi surfaces"
+        },
+        {
+          "id": "ph-solid-state-physics-11",
+          "name": "Superconductivity (BCS theory, Type I/II)"
+        },
+        {
+          "id": "ph-solid-state-physics-12",
+          "name": "High-temperature superconductivity"
+        },
+        {
+          "id": "ph-solid-state-physics-13",
+          "name": "Magnetism (ferro-, antiferro-, ferri-, para-, dia-)"
+        },
+        {
+          "id": "ph-solid-state-physics-14",
+          "name": "Dielectrics"
+        },
+        {
+          "id": "ph-solid-state-physics-15",
+          "name": "Defects and dislocations"
+        },
+        {
+          "id": "ph-solid-state-physics-16",
+          "name": "Surface physics"
+        },
+        {
+          "id": "ph-solid-state-physics-17",
+          "name": "Electron-phonon interactions"
+        },
+        {
+          "id": "ph-solid-state-physics-18",
+          "name": "Hall effect and quantum Hall effect"
+        },
+        {
+          "id": "ph-solid-state-physics-19",
+          "name": "Topological insulators"
+        }
+      ]
+    },
+    {
+      "id": "ph-soft-matter-physics",
+      "name": "Soft Matter Physics",
+      "category": "Condensed Matter Physics",
+      "topics": [
+        {
+          "id": "ph-soft-matter-physics-1",
+          "name": "Polymers and polymer physics"
+        },
+        {
+          "id": "ph-soft-matter-physics-2",
+          "name": "Colloids and dispersions"
+        },
+        {
+          "id": "ph-soft-matter-physics-3",
+          "name": "Liquid crystals"
+        },
+        {
+          "id": "ph-soft-matter-physics-4",
+          "name": "Gels and foams"
+        },
+        {
+          "id": "ph-soft-matter-physics-5",
+          "name": "Complex fluids"
+        },
+        {
+          "id": "ph-soft-matter-physics-6",
+          "name": "Biological materials"
+        },
+        {
+          "id": "ph-soft-matter-physics-7",
+          "name": "Active matter"
+        },
+        {
+          "id": "ph-soft-matter-physics-8",
+          "name": "Self-assembly and self-organization"
+        },
+        {
+          "id": "ph-soft-matter-physics-9",
+          "name": "Mechanobiology"
+        },
+        {
+          "id": "ph-soft-matter-physics-10",
+          "name": "Surfactants and membranes"
+        },
+        {
+          "id": "ph-soft-matter-physics-11",
+          "name": "Granular materials"
+        }
+      ]
+    },
+    {
+      "id": "ph-materials-physics",
+      "name": "Materials Physics",
+      "category": "Condensed Matter Physics",
+      "topics": [
+        {
+          "id": "ph-materials-physics-1",
+          "name": "Nanomaterials"
+        },
+        {
+          "id": "ph-materials-physics-2",
+          "name": "Metamaterials",
+          "sub": [
+            {
+              "id": "ph-materials-physics-2-1",
+              "name": "Metasurfaces"
+            },
+            {
+              "id": "ph-materials-physics-2-2",
+              "name": "Active and tunable metamaterials"
+            },
+            {
+              "id": "ph-materials-physics-2-3",
+              "name": "Electromagnetic metamaterials"
+            },
+            {
+              "id": "ph-materials-physics-2-4",
+              "name": "2D metamaterials"
+            }
+          ]
+        },
+        {
+          "id": "ph-materials-physics-3",
+          "name": "Thin films"
+        },
+        {
+          "id": "ph-materials-physics-4",
+          "name": "Alloys"
+        },
+        {
+          "id": "ph-materials-physics-5",
+          "name": "Ceramics"
+        },
+        {
+          "id": "ph-materials-physics-6",
+          "name": "Composites"
+        },
+        {
+          "id": "ph-materials-physics-7",
+          "name": "Graphene and 2D materials"
+        },
+        {
+          "id": "ph-materials-physics-8",
+          "name": "Phase transitions and critical phenomena"
+        },
+        {
+          "id": "ph-materials-physics-9",
+          "name": "Glass and glass transition"
+        },
+        {
+          "id": "ph-materials-physics-10",
+          "name": "Amorphous materials"
+        },
+        {
+          "id": "ph-materials-physics-11",
+          "name": "Smart materials (piezoelectric, shape memory)"
+        }
+      ]
+    },
+    {
+      "id": "ph-topological-phases-of-matter",
+      "name": "Topological Phases of Matter",
+      "category": "Condensed Matter Physics",
+      "topics": [
+        {
+          "id": "ph-topological-phases-of-matter-1",
+          "name": "Topological insulators"
+        },
+        {
+          "id": "ph-topological-phases-of-matter-2",
+          "name": "Topological superconductors"
+        },
+        {
+          "id": "ph-topological-phases-of-matter-3",
+          "name": "Quantum spin Hall effect"
+        },
+        {
+          "id": "ph-topological-phases-of-matter-4",
+          "name": "Majorana fermions"
+        },
+        {
+          "id": "ph-topological-phases-of-matter-5",
+          "name": "Weyl and Dirac semimetals"
+        },
+        {
+          "id": "ph-topological-phases-of-matter-6",
+          "name": "Berry phase and Berry curvature"
+        },
+        {
+          "id": "ph-topological-phases-of-matter-7",
+          "name": "Topological order"
+        }
+      ]
+    },
+    {
+      "id": "ph-modern-optics",
+      "name": "Modern Optics",
+      "category": "Optics & Photonics",
+      "topics": [
+        {
+          "id": "ph-modern-optics-1",
+          "name": "Lasers and laser physics"
+        },
+        {
+          "id": "ph-modern-optics-2",
+          "name": "Nonlinear optics"
+        },
+        {
+          "id": "ph-modern-optics-3",
+          "name": "Fiber optics"
+        },
+        {
+          "id": "ph-modern-optics-4",
+          "name": "Holography"
+        },
+        {
+          "id": "ph-modern-optics-5",
+          "name": "Photonic crystals"
+        },
+        {
+          "id": "ph-modern-optics-6",
+          "name": "Photonic bandgap materials"
+        },
+        {
+          "id": "ph-modern-optics-7",
+          "name": "Ultrafast optics"
+        },
+        {
+          "id": "ph-modern-optics-8",
+          "name": "Adaptive optics"
+        },
+        {
+          "id": "ph-modern-optics-9",
+          "name": "Optical engineering"
+        }
+      ]
+    },
+    {
+      "id": "ph-quantum-optics",
+      "name": "Quantum Optics",
+      "category": "Optics & Photonics",
+      "topics": [
+        {
+          "id": "ph-quantum-optics-1",
+          "name": "Single photons"
+        },
+        {
+          "id": "ph-quantum-optics-2",
+          "name": "Coherent states"
+        },
+        {
+          "id": "ph-quantum-optics-3",
+          "name": "Quantum coherence"
+        },
+        {
+          "id": "ph-quantum-optics-4",
+          "name": "Squeezed light"
+        },
+        {
+          "id": "ph-quantum-optics-5",
+          "name": "Quantum entanglement in optics"
+        },
+        {
+          "id": "ph-quantum-optics-6",
+          "name": "Cavity QED"
+        },
+        {
+          "id": "ph-quantum-optics-7",
+          "name": "Photon statistics"
+        },
+        {
+          "id": "ph-quantum-optics-8",
+          "name": "Light-matter interactions"
+        }
+      ]
+    },
+    {
+      "id": "ph-nanophotonics-plasmonics",
+      "name": "Nanophotonics & Plasmonics",
+      "category": "Optics & Photonics",
+      "topics": [
+        {
+          "id": "ph-nanophotonics-plasmonics-1",
+          "name": "Nanophotonics"
+        },
+        {
+          "id": "ph-nanophotonics-plasmonics-2",
+          "name": "Plasmonics"
+        },
+        {
+          "id": "ph-nanophotonics-plasmonics-3",
+          "name": "Near-field optics"
+        },
+        {
+          "id": "ph-nanophotonics-plasmonics-4",
+          "name": "Surface plasmon polaritons"
+        },
+        {
+          "id": "ph-nanophotonics-plasmonics-5",
+          "name": "Light-matter interactions at nanoscale"
+        },
+        {
+          "id": "ph-nanophotonics-plasmonics-6",
+          "name": "Optical metamaterials"
+        }
+      ]
+    },
+    {
+      "id": "ph-astrophysics",
+      "name": "Astrophysics",
+      "category": "Astronomy & Astrophysics",
+      "topics": [
+        {
+          "id": "ph-astrophysics-1",
+          "name": "Stellar structure"
+        },
+        {
+          "id": "ph-astrophysics-2",
+          "name": "Stellar evolution"
+        },
+        {
+          "id": "ph-astrophysics-3",
+          "name": "White dwarfs"
+        },
+        {
+          "id": "ph-astrophysics-4",
+          "name": "Neutron stars and pulsars"
+        },
+        {
+          "id": "ph-astrophysics-5",
+          "name": "Black holes"
+        },
+        {
+          "id": "ph-astrophysics-6",
+          "name": "Accretion disks"
+        },
+        {
+          "id": "ph-astrophysics-7",
+          "name": "Supernovae"
+        },
+        {
+          "id": "ph-astrophysics-8",
+          "name": "Galaxy formation and evolution"
+        },
+        {
+          "id": "ph-astrophysics-9",
+          "name": "Active galactic nuclei and quasars"
+        },
+        {
+          "id": "ph-astrophysics-10",
+          "name": "Astroparticle physics"
+        },
+        {
+          "id": "ph-astrophysics-11",
+          "name": "Astrophysical plasmas"
+        },
+        {
+          "id": "ph-astrophysics-12",
+          "name": "High-energy astrophysics"
+        },
+        {
+          "id": "ph-astrophysics-13",
+          "name": "Cosmic rays"
+        },
+        {
+          "id": "ph-astrophysics-14",
+          "name": "Gamma-ray bursts"
+        }
+      ]
+    },
+    {
+      "id": "ph-cosmology",
+      "name": "Cosmology",
+      "category": "Astronomy & Astrophysics",
+      "topics": [
+        {
+          "id": "ph-cosmology-1",
+          "name": "Big Bang theory"
+        },
+        {
+          "id": "ph-cosmology-2",
+          "name": "Inflation"
+        },
+        {
+          "id": "ph-cosmology-3",
+          "name": "Cosmic microwave background (CMB)"
+        },
+        {
+          "id": "ph-cosmology-4",
+          "name": "Large-scale structure"
+        },
+        {
+          "id": "ph-cosmology-5",
+          "name": "Dark matter"
+        },
+        {
+          "id": "ph-cosmology-6",
+          "name": "Dark energy"
+        },
+        {
+          "id": "ph-cosmology-7",
+          "name": "Cosmological models"
+        },
+        {
+          "id": "ph-cosmology-8",
+          "name": "Baryogenesis and leptogenesis"
+        },
+        {
+          "id": "ph-cosmology-9",
+          "name": "Expansion of the universe (Hubble's law)"
+        },
+        {
+          "id": "ph-cosmology-10",
+          "name": "Nucleosynthesis (Big Bang, stellar)"
+        },
+        {
+          "id": "ph-cosmology-11",
+          "name": "Cosmic strings and topological defects"
+        },
+        {
+          "id": "ph-cosmology-12",
+          "name": "Multiverse theories"
+        }
+      ]
+    },
+    {
+      "id": "ph-planetary-science",
+      "name": "Planetary Science",
+      "category": "Astronomy & Astrophysics",
+      "topics": [
+        {
+          "id": "ph-planetary-science-1",
+          "name": "Planetary atmospheres"
+        },
+        {
+          "id": "ph-planetary-science-2",
+          "name": "Planetary interiors"
+        },
+        {
+          "id": "ph-planetary-science-3",
+          "name": "Orbital dynamics"
+        },
+        {
+          "id": "ph-planetary-science-4",
+          "name": "Exoplanets"
+        },
+        {
+          "id": "ph-planetary-science-5",
+          "name": "Planetary formation"
+        },
+        {
+          "id": "ph-planetary-science-6",
+          "name": "Astrobiology"
+        },
+        {
+          "id": "ph-planetary-science-7",
+          "name": "Meteoritics"
+        },
+        {
+          "id": "ph-planetary-science-8",
+          "name": "Comets and asteroids"
+        }
+      ]
+    },
+    {
+      "id": "ph-space-physics",
+      "name": "Space Physics",
+      "category": "Astronomy & Astrophysics",
+      "topics": [
+        {
+          "id": "ph-space-physics-1",
+          "name": "Solar physics"
+        },
+        {
+          "id": "ph-space-physics-2",
+          "name": "Solar wind"
+        },
+        {
+          "id": "ph-space-physics-3",
+          "name": "Magnetospheres"
+        },
+        {
+          "id": "ph-space-physics-4",
+          "name": "Heliophysics"
+        },
+        {
+          "id": "ph-space-physics-5",
+          "name": "Space weather"
+        },
+        {
+          "id": "ph-space-physics-6",
+          "name": "Ionosphere physics"
+        }
+      ]
+    },
+    {
+      "id": "ph-gravitational-wave-astronomy",
+      "name": "Gravitational Wave Astronomy",
+      "category": "Astronomy & Astrophysics",
+      "topics": [
+        {
+          "id": "ph-gravitational-wave-astronomy-1",
+          "name": "Detection methods (LIGO, VIRGO, LISA)"
+        },
+        {
+          "id": "ph-gravitational-wave-astronomy-2",
+          "name": "Sources (binary mergers, supernovae)"
+        },
+        {
+          "id": "ph-gravitational-wave-astronomy-3",
+          "name": "Multi-messenger astronomy"
+        }
+      ]
+    },
+    {
+      "id": "ph-neutrino-astronomy",
+      "name": "Neutrino Astronomy",
+      "category": "Astronomy & Astrophysics",
+      "topics": [
+        {
+          "id": "ph-neutrino-astronomy-1",
+          "name": "Solar neutrinos"
+        },
+        {
+          "id": "ph-neutrino-astronomy-2",
+          "name": "Supernova neutrinos"
+        },
+        {
+          "id": "ph-neutrino-astronomy-3",
+          "name": "High-energy neutrino sources"
+        },
+        {
+          "id": "ph-neutrino-astronomy-4",
+          "name": "Neutrino detection"
+        }
+      ]
+    },
+    {
+      "id": "ph-engineering-physics",
+      "name": "Engineering Physics",
+      "category": "Applied Physics",
+      "topics": [
+        {
+          "id": "ph-engineering-physics-1",
+          "name": "Electronic devices"
+        },
+        {
+          "id": "ph-engineering-physics-2",
+          "name": "Semiconductor physics"
+        },
+        {
+          "id": "ph-engineering-physics-3",
+          "name": "Microelectronics"
+        },
+        {
+          "id": "ph-engineering-physics-4",
+          "name": "MEMS and NEMS"
+        },
+        {
+          "id": "ph-engineering-physics-5",
+          "name": "Nanotechnology"
+        },
+        {
+          "id": "ph-engineering-physics-6",
+          "name": "Quantum technologies"
+        },
+        {
+          "id": "ph-engineering-physics-7",
+          "name": "Control engineering"
+        },
+        {
+          "id": "ph-engineering-physics-8",
+          "name": "Power engineering"
+        },
+        {
+          "id": "ph-engineering-physics-9",
+          "name": "Signal processing"
+        }
+      ]
+    },
+    {
+      "id": "ph-medical-physics",
+      "name": "Medical Physics",
+      "category": "Applied Physics",
+      "topics": [
+        {
+          "id": "ph-medical-physics-1",
+          "name": "Medical imaging (MRI, CT, PET, ultrasound)"
+        },
+        {
+          "id": "ph-medical-physics-2",
+          "name": "Radiotherapy"
+        },
+        {
+          "id": "ph-medical-physics-3",
+          "name": "Radiation dosimetry"
+        },
+        {
+          "id": "ph-medical-physics-4",
+          "name": "Health physics"
+        },
+        {
+          "id": "ph-medical-physics-5",
+          "name": "Nuclear medicine"
+        },
+        {
+          "id": "ph-medical-physics-6",
+          "name": "Biophysics applications"
+        },
+        {
+          "id": "ph-medical-physics-7",
+          "name": "Optical coherence tomography"
+        },
+        {
+          "id": "ph-medical-physics-8",
+          "name": "Therapeutic ultrasound"
+        }
+      ]
+    },
+    {
+      "id": "ph-computational-physics",
+      "name": "Computational Physics",
+      "category": "Applied Physics",
+      "topics": [
+        {
+          "id": "ph-computational-physics-1",
+          "name": "Numerical methods"
+        },
+        {
+          "id": "ph-computational-physics-2",
+          "name": "Simulation and modeling"
+        },
+        {
+          "id": "ph-computational-physics-3",
+          "name": "Monte Carlo methods"
+        },
+        {
+          "id": "ph-computational-physics-4",
+          "name": "Finite element methods"
+        },
+        {
+          "id": "ph-computational-physics-5",
+          "name": "Molecular dynamics"
+        },
+        {
+          "id": "ph-computational-physics-6",
+          "name": "Density functional theory (DFT)"
+        },
+        {
+          "id": "ph-computational-physics-7",
+          "name": "Ab-initio calculations"
+        },
+        {
+          "id": "ph-computational-physics-8",
+          "name": "Machine learning in physics"
+        }
+      ]
+    },
+    {
+      "id": "ph-geophysics",
+      "name": "Geophysics",
+      "category": "Applied Physics",
+      "topics": [
+        {
+          "id": "ph-geophysics-1",
+          "name": "Seismology"
+        },
+        {
+          "id": "ph-geophysics-2",
+          "name": "Geomagnetism"
+        },
+        {
+          "id": "ph-geophysics-3",
+          "name": "Volcanology"
+        },
+        {
+          "id": "ph-geophysics-4",
+          "name": "Earth structure and composition"
+        },
+        {
+          "id": "ph-geophysics-5",
+          "name": "Geodynamics"
+        },
+        {
+          "id": "ph-geophysics-6",
+          "name": "Heat flow in the Earth"
+        },
+        {
+          "id": "ph-geophysics-7",
+          "name": "Plate tectonics"
+        },
+        {
+          "id": "ph-geophysics-8",
+          "name": "Mineral physics"
+        },
+        {
+          "id": "ph-geophysics-9",
+          "name": "Gravity and geodesy"
+        }
+      ]
+    },
+    {
+      "id": "ph-atmospheric-environmental-physics",
+      "name": "Atmospheric & Environmental Physics",
+      "category": "Applied Physics",
+      "topics": [
+        {
+          "id": "ph-atmospheric-environmental-physics-1",
+          "name": "Atmospheric physics"
+        },
+        {
+          "id": "ph-atmospheric-environmental-physics-2",
+          "name": "Climate physics"
+        },
+        {
+          "id": "ph-atmospheric-environmental-physics-3",
+          "name": "Atmospheric dynamics"
+        },
+        {
+          "id": "ph-atmospheric-environmental-physics-4",
+          "name": "Radiative transfer"
+        },
+        {
+          "id": "ph-atmospheric-environmental-physics-5",
+          "name": "Aerosol physics"
+        },
+        {
+          "id": "ph-atmospheric-environmental-physics-6",
+          "name": "Ocean physics"
+        },
+        {
+          "id": "ph-atmospheric-environmental-physics-7",
+          "name": "Environmental acoustics"
+        },
+        {
+          "id": "ph-atmospheric-environmental-physics-8",
+          "name": "Weather physics"
+        }
+      ]
+    },
+    {
+      "id": "ph-energy-physics",
+      "name": "Energy Physics",
+      "category": "Applied Physics",
+      "topics": [
+        {
+          "id": "ph-energy-physics-1",
+          "name": "Nuclear energy"
+        },
+        {
+          "id": "ph-energy-physics-2",
+          "name": "Renewable energy systems (solar, wind, hydro)"
+        },
+        {
+          "id": "ph-energy-physics-3",
+          "name": "Energy conversion"
+        },
+        {
+          "id": "ph-energy-physics-4",
+          "name": "Energy storage"
+        },
+        {
+          "id": "ph-energy-physics-5",
+          "name": "Fuel cells"
+        },
+        {
+          "id": "ph-energy-physics-6",
+          "name": "Thermoelectric devices"
+        }
+      ]
+    },
+    {
+      "id": "ph-biophysics",
+      "name": "Biophysics",
+      "category": "Interdisciplinary Fields",
+      "topics": [
+        {
+          "id": "ph-biophysics-1",
+          "name": "Molecular biophysics"
+        },
+        {
+          "id": "ph-biophysics-2",
+          "name": "Cellular biophysics"
+        },
+        {
+          "id": "ph-biophysics-3",
+          "name": "Protein dynamics and folding"
+        },
+        {
+          "id": "ph-biophysics-4",
+          "name": "DNA structure and dynamics"
+        },
+        {
+          "id": "ph-biophysics-5",
+          "name": "Neural biophysics"
+        },
+        {
+          "id": "ph-biophysics-6",
+          "name": "Biomechanics"
+        },
+        {
+          "id": "ph-biophysics-7",
+          "name": "Systems biology"
+        },
+        {
+          "id": "ph-biophysics-8",
+          "name": "Single-molecule biophysics"
+        },
+        {
+          "id": "ph-biophysics-9",
+          "name": "Membrane biophysics"
+        }
+      ]
+    },
+    {
+      "id": "ph-chemical-physics-physical-chemistry",
+      "name": "Chemical Physics & Physical Chemistry",
+      "category": "Interdisciplinary Fields",
+      "topics": [
+        {
+          "id": "ph-chemical-physics-physical-chemistry-1",
+          "name": "Reaction dynamics"
+        },
+        {
+          "id": "ph-chemical-physics-physical-chemistry-2",
+          "name": "Spectroscopy (all types)"
+        },
+        {
+          "id": "ph-chemical-physics-physical-chemistry-3",
+          "name": "Molecular structure"
+        },
+        {
+          "id": "ph-chemical-physics-physical-chemistry-4",
+          "name": "Quantum chemistry"
+        },
+        {
+          "id": "ph-chemical-physics-physical-chemistry-5",
+          "name": "Surface chemistry"
+        },
+        {
+          "id": "ph-chemical-physics-physical-chemistry-6",
+          "name": "Photochemistry"
+        },
+        {
+          "id": "ph-chemical-physics-physical-chemistry-7",
+          "name": "Catalysis physics"
+        }
+      ]
+    },
+    {
+      "id": "ph-quantum-information-science",
+      "name": "Quantum Information Science",
+      "category": "Interdisciplinary Fields",
+      "topics": [
+        {
+          "id": "ph-quantum-information-science-1",
+          "name": "Quantum computing"
+        },
+        {
+          "id": "ph-quantum-information-science-2",
+          "name": "Quantum algorithms"
+        },
+        {
+          "id": "ph-quantum-information-science-3",
+          "name": "Quantum communication"
+        },
+        {
+          "id": "ph-quantum-information-science-4",
+          "name": "Quantum cryptography"
+        },
+        {
+          "id": "ph-quantum-information-science-5",
+          "name": "Quantum error correction"
+        },
+        {
+          "id": "ph-quantum-information-science-6",
+          "name": "Quantum circuits"
+        },
+        {
+          "id": "ph-quantum-information-science-7",
+          "name": "Superconducting quantum circuits"
+        },
+        {
+          "id": "ph-quantum-information-science-8",
+          "name": "Trapped ions"
+        },
+        {
+          "id": "ph-quantum-information-science-9",
+          "name": "Quantum networks"
+        }
+      ]
+    },
+    {
+      "id": "ph-nanoscience-nanotechnology",
+      "name": "Nanoscience & Nanotechnology",
+      "category": "Interdisciplinary Fields",
+      "topics": [
+        {
+          "id": "ph-nanoscience-nanotechnology-1",
+          "name": "Nanoparticles"
+        },
+        {
+          "id": "ph-nanoscience-nanotechnology-2",
+          "name": "Quantum dots"
+        },
+        {
+          "id": "ph-nanoscience-nanotechnology-3",
+          "name": "Nanowires"
+        },
+        {
+          "id": "ph-nanoscience-nanotechnology-4",
+          "name": "Nanotubes"
+        },
+        {
+          "id": "ph-nanoscience-nanotechnology-5",
+          "name": "Nanostructured materials"
+        },
+        {
+          "id": "ph-nanoscience-nanotechnology-6",
+          "name": "Nanofabrication"
+        },
+        {
+          "id": "ph-nanoscience-nanotechnology-7",
+          "name": "Nano-optics"
+        },
+        {
+          "id": "ph-nanoscience-nanotechnology-8",
+          "name": "Nanomechanics"
+        }
+      ]
+    },
+    {
+      "id": "ph-econophysics",
+      "name": "Econophysics",
+      "category": "Interdisciplinary Fields",
+      "topics": [
+        {
+          "id": "ph-econophysics-1",
+          "name": "Statistical approaches to economic systems"
+        },
+        {
+          "id": "ph-econophysics-2",
+          "name": "Financial market physics"
+        },
+        {
+          "id": "ph-econophysics-3",
+          "name": "Complex systems in economics"
+        },
+        {
+          "id": "ph-econophysics-4",
+          "name": "Agent-based modeling"
+        }
+      ]
+    },
+    {
+      "id": "ph-sociophysics",
+      "name": "Sociophysics",
+      "category": "Interdisciplinary Fields",
+      "topics": [
+        {
+          "id": "ph-sociophysics-1",
+          "name": "Statistical physics of social systems"
+        },
+        {
+          "id": "ph-sociophysics-2",
+          "name": "Opinion dynamics"
+        },
+        {
+          "id": "ph-sociophysics-3",
+          "name": "Network physics in social systems"
+        }
+      ]
+    },
+    {
+      "id": "ph-quantum-gravity",
+      "name": "Quantum Gravity",
+      "category": "Emerging & Advanced Fields",
+      "topics": [
+        {
+          "id": "ph-quantum-gravity-1",
+          "name": "String theory and M-theory"
+        },
+        {
+          "id": "ph-quantum-gravity-2",
+          "name": "Loop quantum gravity"
+        },
+        {
+          "id": "ph-quantum-gravity-3",
+          "name": "Causal dynamical triangulation"
+        },
+        {
+          "id": "ph-quantum-gravity-4",
+          "name": "Spin foam models"
+        },
+        {
+          "id": "ph-quantum-gravity-5",
+          "name": "AdS/CFT correspondence"
+        },
+        {
+          "id": "ph-quantum-gravity-6",
+          "name": "Holographic principle"
+        }
+      ]
+    },
+    {
+      "id": "ph-black-hole-physics",
+      "name": "Black Hole Physics",
+      "category": "Emerging & Advanced Fields",
+      "topics": [
+        {
+          "id": "ph-black-hole-physics-1",
+          "name": "Black hole thermodynamics"
+        },
+        {
+          "id": "ph-black-hole-physics-2",
+          "name": "Hawking radiation"
+        },
+        {
+          "id": "ph-black-hole-physics-3",
+          "name": "Information paradox"
+        },
+        {
+          "id": "ph-black-hole-physics-4",
+          "name": "Black hole entropy"
+        },
+        {
+          "id": "ph-black-hole-physics-5",
+          "name": "Black hole mergers"
+        }
+      ]
+    },
+    {
+      "id": "ph-quantum-sensing-metrology",
+      "name": "Quantum Sensing & Metrology",
+      "category": "Emerging & Advanced Fields",
+      "topics": [
+        {
+          "id": "ph-quantum-sensing-metrology-1",
+          "name": "Atomic clocks"
+        },
+        {
+          "id": "ph-quantum-sensing-metrology-2",
+          "name": "Quantum magnetometry"
+        },
+        {
+          "id": "ph-quantum-sensing-metrology-3",
+          "name": "Quantum gravimetry"
+        },
+        {
+          "id": "ph-quantum-sensing-metrology-4",
+          "name": "Precision measurements"
+        },
+        {
+          "id": "ph-quantum-sensing-metrology-5",
+          "name": "Fundamental constants"
+        }
+      ]
+    },
+    {
+      "id": "ph-ultrafast-physics",
+      "name": "Ultrafast Physics",
+      "category": "Emerging & Advanced Fields",
+      "topics": [
+        {
+          "id": "ph-ultrafast-physics-1",
+          "name": "Attosecond science"
+        },
+        {
+          "id": "ph-ultrafast-physics-2",
+          "name": "Femtosecond physics"
+        },
+        {
+          "id": "ph-ultrafast-physics-3",
+          "name": "Ultrafast spectroscopy"
+        },
+        {
+          "id": "ph-ultrafast-physics-4",
+          "name": "High harmonic generation"
+        }
+      ]
+    },
+    {
+      "id": "ph-cold-atom-physics",
+      "name": "Cold Atom Physics",
+      "category": "Emerging & Advanced Fields",
+      "topics": [
+        {
+          "id": "ph-cold-atom-physics-1",
+          "name": "Bose-Einstein condensates (BEC)"
+        },
+        {
+          "id": "ph-cold-atom-physics-2",
+          "name": "Optical lattices"
+        },
+        {
+          "id": "ph-cold-atom-physics-3",
+          "name": "Fermi gases"
+        },
+        {
+          "id": "ph-cold-atom-physics-4",
+          "name": "Atom interferometry"
+        },
+        {
+          "id": "ph-cold-atom-physics-5",
+          "name": "Ultracold molecules"
+        },
+        {
+          "id": "ph-cold-atom-physics-6",
+          "name": "Quantum simulation"
+        }
+      ]
+    },
+    {
+      "id": "ph-cryophysics",
+      "name": "Cryophysics",
+      "category": "Emerging & Advanced Fields",
+      "topics": [
+        {
+          "id": "ph-cryophysics-1",
+          "name": "Low-temperature physics"
+        },
+        {
+          "id": "ph-cryophysics-2",
+          "name": "Cryogenics"
+        },
+        {
+          "id": "ph-cryophysics-3",
+          "name": "Quantum fluids (superfluid helium)"
+        },
+        {
+          "id": "ph-cryophysics-4",
+          "name": "Dilution refrigeration"
+        }
+      ]
+    },
+    {
+      "id": "ph-spintronics",
+      "name": "Spintronics",
+      "category": "Emerging & Advanced Fields",
+      "topics": [
+        {
+          "id": "ph-spintronics-1",
+          "name": "Spin transport"
+        },
+        {
+          "id": "ph-spintronics-2",
+          "name": "Spin-orbit coupling"
+        },
+        {
+          "id": "ph-spintronics-3",
+          "name": "Magnetic semiconductors"
+        },
+        {
+          "id": "ph-spintronics-4",
+          "name": "Spin Hall effect"
+        },
+        {
+          "id": "ph-spintronics-5",
+          "name": "Spin qubits"
+        }
+      ]
+    },
+    {
+      "id": "ph-quantum-materials",
+      "name": "Quantum Materials",
+      "category": "Emerging & Advanced Fields",
+      "topics": [
+        {
+          "id": "ph-quantum-materials-1",
+          "name": "Strongly correlated systems"
+        },
+        {
+          "id": "ph-quantum-materials-2",
+          "name": "Heavy fermion systems"
+        },
+        {
+          "id": "ph-quantum-materials-3",
+          "name": "Mott insulators"
+        },
+        {
+          "id": "ph-quantum-materials-4",
+          "name": "Quantum spin liquids"
+        }
+      ]
+    },
+    {
+      "id": "ph-measurement-instrumentation",
+      "name": "Measurement & Instrumentation",
+      "category": "Experimental Physics",
+      "topics": [
+        {
+          "id": "ph-measurement-instrumentation-1",
+          "name": "Measurement systems and sensors"
+        },
+        {
+          "id": "ph-measurement-instrumentation-2",
+          "name": "Error analysis and statistics"
+        },
+        {
+          "id": "ph-measurement-instrumentation-3",
+          "name": "Data acquisition"
+        },
+        {
+          "id": "ph-measurement-instrumentation-4",
+          "name": "Signal processing"
+        },
+        {
+          "id": "ph-measurement-instrumentation-5",
+          "name": "Feedback and control systems"
+        }
+      ]
+    },
+    {
+      "id": "ph-accelerator-physics",
+      "name": "Accelerator Physics",
+      "category": "Experimental Physics",
+      "topics": [
+        {
+          "id": "ph-accelerator-physics-1",
+          "name": "Particle accelerators (linear, circular)"
+        },
+        {
+          "id": "ph-accelerator-physics-2",
+          "name": "Synchrotron radiation"
+        },
+        {
+          "id": "ph-accelerator-physics-3",
+          "name": "Free electron lasers"
+        },
+        {
+          "id": "ph-accelerator-physics-4",
+          "name": "Beam dynamics"
+        },
+        {
+          "id": "ph-accelerator-physics-5",
+          "name": "Collider design"
+        }
+      ]
+    },
+    {
+      "id": "ph-detector-physics",
+      "name": "Detector Physics",
+      "category": "Experimental Physics",
+      "topics": [
+        {
+          "id": "ph-detector-physics-1",
+          "name": "Particle detectors"
+        },
+        {
+          "id": "ph-detector-physics-2",
+          "name": "Scintillators"
+        },
+        {
+          "id": "ph-detector-physics-3",
+          "name": "Calorimeters"
+        },
+        {
+          "id": "ph-detector-physics-4",
+          "name": "Tracking detectors"
+        },
+        {
+          "id": "ph-detector-physics-5",
+          "name": "Photomultipliers and photodetectors"
+        },
+        {
+          "id": "ph-detector-physics-6",
+          "name": "Semiconductor detectors"
+        }
+      ]
+    },
+    {
+      "id": "ph-experimental-techniques",
+      "name": "Experimental Techniques",
+      "category": "Experimental Physics",
+      "topics": [
+        {
+          "id": "ph-experimental-techniques-1",
+          "name": "Spectroscopy (optical, X-ray, NMR, EPR, Mössbauer)"
+        },
+        {
+          "id": "ph-experimental-techniques-2",
+          "name": "Microscopy (AFM, STM, SEM, TEM, optical)"
+        },
+        {
+          "id": "ph-experimental-techniques-3",
+          "name": "X-ray crystallography"
+        },
+        {
+          "id": "ph-experimental-techniques-4",
+          "name": "Neutron scattering"
+        },
+        {
+          "id": "ph-experimental-techniques-5",
+          "name": "Electron diffraction"
+        },
+        {
+          "id": "ph-experimental-techniques-6",
+          "name": "Mass spectrometry"
+        },
+        {
+          "id": "ph-experimental-techniques-7",
+          "name": "Interferometry"
+        }
+      ]
+    },
+    {
+      "id": "ph-vacuum-cryogenic-systems",
+      "name": "Vacuum & Cryogenic Systems",
+      "category": "Experimental Physics",
+      "topics": [
+        {
+          "id": "ph-vacuum-cryogenic-systems-1",
+          "name": "Vacuum technology"
+        },
+        {
+          "id": "ph-vacuum-cryogenic-systems-2",
+          "name": "Cryogenic systems"
+        },
+        {
+          "id": "ph-vacuum-cryogenic-systems-3",
+          "name": "Ultra-high vacuum"
+        },
+        {
+          "id": "ph-vacuum-cryogenic-systems-4",
+          "name": "Low-temperature experimental setups"
+        }
+      ]
+    },
+    {
+      "id": "ph-high-energy-experimental-physics",
+      "name": "High-Energy Experimental Physics",
+      "category": "Experimental Physics",
+      "topics": [
+        {
+          "id": "ph-high-energy-experimental-physics-1",
+          "name": "Collider experiments"
+        },
+        {
+          "id": "ph-high-energy-experimental-physics-2",
+          "name": "Fixed-target experiments"
+        },
+        {
+          "id": "ph-high-energy-experimental-physics-3",
+          "name": "Underground experiments"
+        },
+        {
+          "id": "ph-high-energy-experimental-physics-4",
+          "name": "Neutrino detectors"
+        }
+      ]
+    },
+    {
+      "id": "ph-mathematical-physics",
+      "name": "Mathematical Physics",
+      "category": "Theoretical & Mathematical Physics",
+      "topics": [
+        {
+          "id": "ph-mathematical-physics-1",
+          "name": "Differential equations in physics"
+        },
+        {
+          "id": "ph-mathematical-physics-2",
+          "name": "Complex analysis"
+        },
+        {
+          "id": "ph-mathematical-physics-3",
+          "name": "Tensor analysis"
+        },
+        {
+          "id": "ph-mathematical-physics-4",
+          "name": "Differential geometry"
+        },
+        {
+          "id": "ph-mathematical-physics-5",
+          "name": "Topology in physics"
+        },
+        {
+          "id": "ph-mathematical-physics-6",
+          "name": "Functional analysis"
+        },
+        {
+          "id": "ph-mathematical-physics-7",
+          "name": "Special functions"
+        },
+        {
+          "id": "ph-mathematical-physics-8",
+          "name": "Green's functions"
+        },
+        {
+          "id": "ph-mathematical-physics-9",
+          "name": "Integral transforms (Fourier, Laplace)"
+        }
+      ]
+    },
+    {
+      "id": "ph-symmetry-group-theory",
+      "name": "Symmetry & Group Theory",
+      "category": "Theoretical & Mathematical Physics",
+      "topics": [
+        {
+          "id": "ph-symmetry-group-theory-1",
+          "name": "Lie groups and Lie algebras"
+        },
+        {
+          "id": "ph-symmetry-group-theory-2",
+          "name": "Representation theory"
+        },
+        {
+          "id": "ph-symmetry-group-theory-3",
+          "name": "Symmetry in quantum mechanics"
+        },
+        {
+          "id": "ph-symmetry-group-theory-4",
+          "name": "Gauge symmetries"
+        },
+        {
+          "id": "ph-symmetry-group-theory-5",
+          "name": "Discrete symmetries (C, P, T)"
+        },
+        {
+          "id": "ph-symmetry-group-theory-6",
+          "name": "Spontaneous symmetry breaking"
+        }
+      ]
+    },
+    {
+      "id": "ph-advanced-theoretical-methods",
+      "name": "Advanced Theoretical Methods",
+      "category": "Theoretical & Mathematical Physics",
+      "topics": [
+        {
+          "id": "ph-advanced-theoretical-methods-1",
+          "name": "Perturbation theory"
+        },
+        {
+          "id": "ph-advanced-theoretical-methods-2",
+          "name": "Variational methods"
+        },
+        {
+          "id": "ph-advanced-theoretical-methods-3",
+          "name": "Scattering theory"
+        },
+        {
+          "id": "ph-advanced-theoretical-methods-4",
+          "name": "S-matrix theory"
+        },
+        {
+          "id": "ph-advanced-theoretical-methods-5",
+          "name": "Effective theories"
+        },
+        {
+          "id": "ph-advanced-theoretical-methods-6",
+          "name": "Renormalization group"
+        },
+        {
+          "id": "ph-advanced-theoretical-methods-7",
+          "name": "Conformal field theory"
+        }
+      ]
+    },
+    {
+      "id": "ph-philosophy-of-physics",
+      "name": "Philosophy of Physics",
+      "category": "Foundations & Meta-Physics",
+      "topics": [
+        {
+          "id": "ph-philosophy-of-physics-1",
+          "name": "Interpretation of quantum mechanics"
+        },
+        {
+          "id": "ph-philosophy-of-physics-2",
+          "name": "Nature of space and time"
+        },
+        {
+          "id": "ph-philosophy-of-physics-3",
+          "name": "Causality and determinism"
+        },
+        {
+          "id": "ph-philosophy-of-physics-4",
+          "name": "Reductionism vs. emergence"
+        },
+        {
+          "id": "ph-philosophy-of-physics-5",
+          "name": "Foundations of statistical mechanics"
+        },
+        {
+          "id": "ph-philosophy-of-physics-6",
+          "name": "Philosophy of cosmology"
+        }
+      ]
+    },
+    {
+      "id": "ph-history-of-physics",
+      "name": "History of Physics",
+      "category": "Foundations & Meta-Physics",
+      "topics": [
+        {
+          "id": "ph-history-of-physics-1",
+          "name": "Ancient and medieval physics"
+        },
+        {
+          "id": "ph-history-of-physics-2",
+          "name": "Scientific revolution"
+        },
+        {
+          "id": "ph-history-of-physics-3",
+          "name": "Classical physics era"
+        },
+        {
+          "id": "ph-history-of-physics-4",
+          "name": "Quantum revolution"
+        },
+        {
+          "id": "ph-history-of-physics-5",
+          "name": "Modern developments"
+        }
+      ]
+    },
+    {
+      "id": "ph-physics-education",
+      "name": "Physics Education",
+      "category": "Foundations & Meta-Physics",
+      "topics": [
+        {
+          "id": "ph-physics-education-1",
+          "name": "Pedagogy of physics"
+        },
+        {
+          "id": "ph-physics-education-2",
+          "name": "Conceptual physics"
+        },
+        {
+          "id": "ph-physics-education-3",
+          "name": "Physics demonstrations"
+        },
+        {
+          "id": "ph-physics-education-4",
+          "name": "Laboratory education"
+        }
+      ]
+    }
+  ]
+}

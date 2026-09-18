@@ -1,0 +1,5143 @@
+{
+  "id": "ai",
+  "name": "AI, Machine Learning & Robotics",
+  "icon": "🤖",
+  "color": "#a78bfa",
+  "prefix": "ai",
+  "description": "",
+  "chapters": [
+    {
+      "id": "ai-core-ai-concepts",
+      "name": "Core AI Concepts",
+      "category": "Artificial Intelligence (AI) - Foundations",
+      "topics": [
+        {
+          "id": "ai-core-ai-concepts-1",
+          "name": "Types of AI",
+          "sub": [
+            {
+              "id": "ai-core-ai-concepts-1-1",
+              "name": "Narrow/Weak AI"
+            },
+            {
+              "id": "ai-core-ai-concepts-1-2",
+              "name": "General/Strong AI (AGI)"
+            },
+            {
+              "id": "ai-core-ai-concepts-1-3",
+              "name": "Artificial Superintelligence (ASI)"
+            }
+          ]
+        },
+        {
+          "id": "ai-core-ai-concepts-2",
+          "name": "AI History and Philosophy",
+          "sub": [
+            {
+              "id": "ai-core-ai-concepts-2-1",
+              "name": "Evolution of AI"
+            },
+            {
+              "id": "ai-core-ai-concepts-2-2",
+              "name": "Turing Test"
+            },
+            {
+              "id": "ai-core-ai-concepts-2-3",
+              "name": "Chinese Room argument"
+            },
+            {
+              "id": "ai-core-ai-concepts-2-4",
+              "name": "Philosophical implications of intelligent machines"
+            },
+            {
+              "id": "ai-core-ai-concepts-2-5",
+              "name": "Consciousness and AI"
+            }
+          ]
+        },
+        {
+          "id": "ai-core-ai-concepts-3",
+          "name": "AI Paradigms",
+          "sub": [
+            {
+              "id": "ai-core-ai-concepts-3-1",
+              "name": "Symbolic AI"
+            },
+            {
+              "id": "ai-core-ai-concepts-3-2",
+              "name": "Connectionist AI"
+            },
+            {
+              "id": "ai-core-ai-concepts-3-3",
+              "name": "Hybrid symbolic-neural systems"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-classical-ai-gofai-good-old-fashioned-ai",
+      "name": "Classical AI / GOFAI (Good Old-Fashioned AI)",
+      "category": "Artificial Intelligence (AI) - Foundations",
+      "topics": [
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-1",
+          "name": "Search Algorithms",
+          "sub": [
+            {
+              "id": "ai-classical-ai-gofai-good-old-fashioned-ai-1-1",
+              "name": "Uninformed search (DFS, BFS, Uniform Cost)"
+            },
+            {
+              "id": "ai-classical-ai-gofai-good-old-fashioned-ai-1-2",
+              "name": "Informed search (A, Greedy Best-First)"
+            },
+            {
+              "id": "ai-classical-ai-gofai-good-old-fashioned-ai-1-3",
+              "name": "Iterative deepening"
+            },
+            {
+              "id": "ai-classical-ai-gofai-good-old-fashioned-ai-1-4",
+              "name": "Bidirectional search"
+            },
+            {
+              "id": "ai-classical-ai-gofai-good-old-fashioned-ai-1-5",
+              "name": "Local search (Hill climbing, Simulated annealing)"
+            }
+          ]
+        },
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-2",
+          "name": "Constraint Satisfaction Problems (CSP)",
+          "sub": [
+            {
+              "id": "ai-classical-ai-gofai-good-old-fashioned-ai-2-1",
+              "name": "Backtracking"
+            },
+            {
+              "id": "ai-classical-ai-gofai-good-old-fashioned-ai-2-2",
+              "name": "Arc consistency"
+            },
+            {
+              "id": "ai-classical-ai-gofai-good-old-fashioned-ai-2-3",
+              "name": "Constraint propagation"
+            }
+          ]
+        },
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-3",
+          "name": "Game-Playing Algorithms",
+          "sub": [
+            {
+              "id": "ai-classical-ai-gofai-good-old-fashioned-ai-3-1",
+              "name": "Minimax"
+            },
+            {
+              "id": "ai-classical-ai-gofai-good-old-fashioned-ai-3-2",
+              "name": "Alpha-beta pruning"
+            },
+            {
+              "id": "ai-classical-ai-gofai-good-old-fashioned-ai-3-3",
+              "name": "Expectimax"
+            },
+            {
+              "id": "ai-classical-ai-gofai-good-old-fashioned-ai-3-4",
+              "name": "Monte Carlo Tree Search (MCTS)"
+            }
+          ]
+        },
+        {
+          "id": "ai-classical-ai-gofai-good-old-fashioned-ai-4",
+          "name": "Planning",
+          "sub": [
+            {
+              "id": "ai-classical-ai-gofai-good-old-fashioned-ai-4-1",
+              "name": "Classical planning"
+            },
+            {
+              "id": "ai-classical-ai-gofai-good-old-fashioned-ai-4-2",
+              "name": "Automated planning"
+            },
+            {
+              "id": "ai-classical-ai-gofai-good-old-fashioned-ai-4-3",
+              "name": "STRIPS"
+            },
+            {
+              "id": "ai-classical-ai-gofai-good-old-fashioned-ai-4-4",
+              "name": "Partial-order planning"
+            },
+            {
+              "id": "ai-classical-ai-gofai-good-old-fashioned-ai-4-5",
+              "name": "Hierarchical task networks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-knowledge-representation-reasoning",
+      "name": "Knowledge Representation & Reasoning",
+      "category": "Artificial Intelligence (AI) - Foundations",
+      "topics": [
+        {
+          "id": "ai-knowledge-representation-reasoning-1",
+          "name": "Logic-Based Representations",
+          "sub": [
+            {
+              "id": "ai-knowledge-representation-reasoning-1-1",
+              "name": "Propositional logic"
+            },
+            {
+              "id": "ai-knowledge-representation-reasoning-1-2",
+              "name": "First-order logic"
+            },
+            {
+              "id": "ai-knowledge-representation-reasoning-1-3",
+              "name": "Description logics"
+            }
+          ]
+        },
+        {
+          "id": "ai-knowledge-representation-reasoning-2",
+          "name": "Rule-Based Systems",
+          "sub": [
+            {
+              "id": "ai-knowledge-representation-reasoning-2-1",
+              "name": "Production systems"
+            },
+            {
+              "id": "ai-knowledge-representation-reasoning-2-2",
+              "name": "Forward and backward chaining"
+            }
+          ]
+        },
+        {
+          "id": "ai-knowledge-representation-reasoning-3",
+          "name": "Semantic Representations",
+          "sub": [
+            {
+              "id": "ai-knowledge-representation-reasoning-3-1",
+              "name": "Ontologies"
+            },
+            {
+              "id": "ai-knowledge-representation-reasoning-3-2",
+              "name": "Semantic networks"
+            },
+            {
+              "id": "ai-knowledge-representation-reasoning-3-3",
+              "name": "Frames"
+            },
+            {
+              "id": "ai-knowledge-representation-reasoning-3-4",
+              "name": "Knowledge graphs"
+            }
+          ]
+        },
+        {
+          "id": "ai-knowledge-representation-reasoning-4",
+          "name": "Expert Systems",
+          "sub": [
+            {
+              "id": "ai-knowledge-representation-reasoning-4-1",
+              "name": "Inference engines"
+            },
+            {
+              "id": "ai-knowledge-representation-reasoning-4-2",
+              "name": "Knowledge bases"
+            },
+            {
+              "id": "ai-knowledge-representation-reasoning-4-3",
+              "name": "Explanation facilities"
+            }
+          ]
+        },
+        {
+          "id": "ai-knowledge-representation-reasoning-5",
+          "name": "Fuzzy Logic",
+          "sub": [
+            {
+              "id": "ai-knowledge-representation-reasoning-5-1",
+              "name": "Fuzzy sets"
+            },
+            {
+              "id": "ai-knowledge-representation-reasoning-5-2",
+              "name": "Fuzzy inference systems"
+            },
+            {
+              "id": "ai-knowledge-representation-reasoning-5-3",
+              "name": "Defuzzification"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-probabilistic-ai",
+      "name": "Probabilistic AI",
+      "category": "Artificial Intelligence (AI) - Foundations",
+      "topics": [
+        {
+          "id": "ai-probabilistic-ai-1",
+          "name": "Bayesian Reasoning",
+          "sub": [
+            {
+              "id": "ai-probabilistic-ai-1-1",
+              "name": "Bayes' theorem"
+            },
+            {
+              "id": "ai-probabilistic-ai-1-2",
+              "name": "Prior and posterior probabilities"
+            }
+          ]
+        },
+        {
+          "id": "ai-probabilistic-ai-2",
+          "name": "Probabilistic Inference",
+          "sub": [
+            {
+              "id": "ai-probabilistic-ai-2-1",
+              "name": "Exact inference"
+            },
+            {
+              "id": "ai-probabilistic-ai-2-2",
+              "name": "Approximate inference (MCMC, Variational)"
+            }
+          ]
+        },
+        {
+          "id": "ai-probabilistic-ai-3",
+          "name": "Graphical Models",
+          "sub": [
+            {
+              "id": "ai-probabilistic-ai-3-1",
+              "name": "Bayesian networks"
+            },
+            {
+              "id": "ai-probabilistic-ai-3-2",
+              "name": "Markov random fields"
+            },
+            {
+              "id": "ai-probabilistic-ai-3-3",
+              "name": "Factor graphs"
+            }
+          ]
+        },
+        {
+          "id": "ai-probabilistic-ai-4",
+          "name": "Causality & Causal Inference",
+          "sub": [
+            {
+              "id": "ai-probabilistic-ai-4-1",
+              "name": "Structural causal models"
+            },
+            {
+              "id": "ai-probabilistic-ai-4-2",
+              "name": "Do-calculus"
+            },
+            {
+              "id": "ai-probabilistic-ai-4-3",
+              "name": "Counterfactuals"
+            }
+          ]
+        },
+        {
+          "id": "ai-probabilistic-ai-5",
+          "name": "Decision Theory",
+          "sub": [
+            {
+              "id": "ai-probabilistic-ai-5-1",
+              "name": "Utility theory"
+            },
+            {
+              "id": "ai-probabilistic-ai-5-2",
+              "name": "Decision networks"
+            },
+            {
+              "id": "ai-probabilistic-ai-5-3",
+              "name": "Multi-criteria decision making"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-cognitive-architectures",
+      "name": "Cognitive Architectures",
+      "category": "Artificial Intelligence (AI) - Foundations",
+      "topics": [
+        {
+          "id": "ai-cognitive-architectures-1",
+          "name": "Classical Architectures",
+          "sub": [
+            {
+              "id": "ai-cognitive-architectures-1-1",
+              "name": "ACT-R"
+            },
+            {
+              "id": "ai-cognitive-architectures-1-2",
+              "name": "Soar"
+            },
+            {
+              "id": "ai-cognitive-architectures-1-3",
+              "name": "CLARION"
+            },
+            {
+              "id": "ai-cognitive-architectures-1-4",
+              "name": "LIDA"
+            }
+          ]
+        },
+        {
+          "id": "ai-cognitive-architectures-2",
+          "name": "Memory Systems",
+          "sub": [
+            {
+              "id": "ai-cognitive-architectures-2-1",
+              "name": "Working memory"
+            },
+            {
+              "id": "ai-cognitive-architectures-2-2",
+              "name": "Long-term memory"
+            },
+            {
+              "id": "ai-cognitive-architectures-2-3",
+              "name": "Episodic memory"
+            }
+          ]
+        },
+        {
+          "id": "ai-cognitive-architectures-3",
+          "name": "Embodied Cognition"
+        },
+        {
+          "id": "ai-cognitive-architectures-4",
+          "name": "Cognitive Modeling"
+        }
+      ]
+    },
+    {
+      "id": "ai-evolutionary-computation",
+      "name": "Evolutionary Computation",
+      "category": "Artificial Intelligence (AI) - Foundations",
+      "topics": [
+        {
+          "id": "ai-evolutionary-computation-1",
+          "name": "Genetic Algorithms"
+        },
+        {
+          "id": "ai-evolutionary-computation-2",
+          "name": "Genetic Programming"
+        },
+        {
+          "id": "ai-evolutionary-computation-3",
+          "name": "Evolution Strategies"
+        },
+        {
+          "id": "ai-evolutionary-computation-4",
+          "name": "Swarm Intelligence",
+          "sub": [
+            {
+              "id": "ai-evolutionary-computation-4-1",
+              "name": "Particle swarm optimization"
+            },
+            {
+              "id": "ai-evolutionary-computation-4-2",
+              "name": "Ant colony optimization"
+            },
+            {
+              "id": "ai-evolutionary-computation-4-3",
+              "name": "Bee algorithms"
+            }
+          ]
+        },
+        {
+          "id": "ai-evolutionary-computation-5",
+          "name": "Neuroevolution",
+          "sub": [
+            {
+              "id": "ai-evolutionary-computation-5-1",
+              "name": "NEAT"
+            },
+            {
+              "id": "ai-evolutionary-computation-5-2",
+              "name": "HyperNEAT"
+            }
+          ]
+        },
+        {
+          "id": "ai-evolutionary-computation-6",
+          "name": "Differential Evolution"
+        }
+      ]
+    },
+    {
+      "id": "ai-core-ml-concepts",
+      "name": "Core ML Concepts",
+      "category": "Machine Learning (ML)",
+      "topics": [
+        {
+          "id": "ai-core-ml-concepts-1",
+          "name": "Machine Learning Pipeline",
+          "sub": [
+            {
+              "id": "ai-core-ml-concepts-1-1",
+              "name": "Problem formulation"
+            },
+            {
+              "id": "ai-core-ml-concepts-1-2",
+              "name": "Data collection"
+            },
+            {
+              "id": "ai-core-ml-concepts-1-3",
+              "name": "Model selection"
+            },
+            {
+              "id": "ai-core-ml-concepts-1-4",
+              "name": "Training and validation"
+            },
+            {
+              "id": "ai-core-ml-concepts-1-5",
+              "name": "Deployment"
+            }
+          ]
+        },
+        {
+          "id": "ai-core-ml-concepts-2",
+          "name": "Bias-Variance Tradeoff"
+        },
+        {
+          "id": "ai-core-ml-concepts-3",
+          "name": "Overfitting and Underfitting"
+        },
+        {
+          "id": "ai-core-ml-concepts-4",
+          "name": "Regularization Techniques",
+          "sub": [
+            {
+              "id": "ai-core-ml-concepts-4-1",
+              "name": "L1/L2 regularization"
+            },
+            {
+              "id": "ai-core-ml-concepts-4-2",
+              "name": "Dropout"
+            },
+            {
+              "id": "ai-core-ml-concepts-4-3",
+              "name": "Early stopping"
+            }
+          ]
+        },
+        {
+          "id": "ai-core-ml-concepts-5",
+          "name": "Cross-Validation"
+        },
+        {
+          "id": "ai-core-ml-concepts-6",
+          "name": "Model Evaluation Metrics",
+          "sub": [
+            {
+              "id": "ai-core-ml-concepts-6-1",
+              "name": "Classification metrics (accuracy, precision, recall, F1, AUC-ROC)"
+            },
+            {
+              "id": "ai-core-ml-concepts-6-2",
+              "name": "Regression metrics (MSE, MAE, R²)"
+            },
+            {
+              "id": "ai-core-ml-concepts-6-3",
+              "name": "Ranking metrics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-data-preprocessing-feature-engineering",
+      "name": "Data Preprocessing & Feature Engineering",
+      "category": "Machine Learning (ML)",
+      "topics": [
+        {
+          "id": "ai-data-preprocessing-feature-engineering-1",
+          "name": "Data Cleaning",
+          "sub": [
+            {
+              "id": "ai-data-preprocessing-feature-engineering-1-1",
+              "name": "Missing value handling"
+            },
+            {
+              "id": "ai-data-preprocessing-feature-engineering-1-2",
+              "name": "Outlier detection and treatment"
+            },
+            {
+              "id": "ai-data-preprocessing-feature-engineering-1-3",
+              "name": "Data normalization and standardization"
+            }
+          ]
+        },
+        {
+          "id": "ai-data-preprocessing-feature-engineering-2",
+          "name": "Feature Engineering",
+          "sub": [
+            {
+              "id": "ai-data-preprocessing-feature-engineering-2-1",
+              "name": "Feature creation"
+            },
+            {
+              "id": "ai-data-preprocessing-feature-engineering-2-2",
+              "name": "Feature transformation"
+            },
+            {
+              "id": "ai-data-preprocessing-feature-engineering-2-3",
+              "name": "Polynomial features"
+            }
+          ]
+        },
+        {
+          "id": "ai-data-preprocessing-feature-engineering-3",
+          "name": "Feature Selection",
+          "sub": [
+            {
+              "id": "ai-data-preprocessing-feature-engineering-3-1",
+              "name": "Filter methods"
+            },
+            {
+              "id": "ai-data-preprocessing-feature-engineering-3-2",
+              "name": "Wrapper methods"
+            },
+            {
+              "id": "ai-data-preprocessing-feature-engineering-3-3",
+              "name": "Embedded methods"
+            }
+          ]
+        },
+        {
+          "id": "ai-data-preprocessing-feature-engineering-4",
+          "name": "Dimensionality Reduction",
+          "sub": [
+            {
+              "id": "ai-data-preprocessing-feature-engineering-4-1",
+              "name": "Principal Component Analysis (PCA)"
+            },
+            {
+              "id": "ai-data-preprocessing-feature-engineering-4-2",
+              "name": "Independent Component Analysis (ICA)"
+            },
+            {
+              "id": "ai-data-preprocessing-feature-engineering-4-3",
+              "name": "t-SNE"
+            },
+            {
+              "id": "ai-data-preprocessing-feature-engineering-4-4",
+              "name": "UMAP"
+            },
+            {
+              "id": "ai-data-preprocessing-feature-engineering-4-5",
+              "name": "Locally Linear Embedding (LLE)"
+            },
+            {
+              "id": "ai-data-preprocessing-feature-engineering-4-6",
+              "name": "Manifold learning"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-types-of-machine-learning",
+      "name": "Types of Machine Learning",
+      "category": "Machine Learning (ML)",
+      "topics": [
+        {
+          "id": "ai-types-of-machine-learning-1",
+          "name": "Regression",
+          "sub": [
+            {
+              "id": "ai-types-of-machine-learning-1-1",
+              "name": "Linear Regression"
+            },
+            {
+              "id": "ai-types-of-machine-learning-1-2",
+              "name": "Polynomial Regression"
+            },
+            {
+              "id": "ai-types-of-machine-learning-1-3",
+              "name": "Ridge/Lasso Regression"
+            },
+            {
+              "id": "ai-types-of-machine-learning-1-4",
+              "name": "Elastic Net"
+            },
+            {
+              "id": "ai-types-of-machine-learning-1-5",
+              "name": "Quantile Regression"
+            }
+          ]
+        },
+        {
+          "id": "ai-types-of-machine-learning-2",
+          "name": "Classification",
+          "sub": [
+            {
+              "id": "ai-types-of-machine-learning-2-1",
+              "name": "Logistic Regression"
+            },
+            {
+              "id": "ai-types-of-machine-learning-2-2",
+              "name": "K-Nearest Neighbors (KNN)"
+            },
+            {
+              "id": "ai-types-of-machine-learning-2-3",
+              "name": "Naive Bayes"
+            },
+            {
+              "id": "ai-types-of-machine-learning-2-4",
+              "name": "Support Vector Machines (SVM)"
+            },
+            {
+              "id": "ai-types-of-machine-learning-2-5",
+              "name": "Decision Trees"
+            },
+            {
+              "id": "ai-types-of-machine-learning-2-6",
+              "name": "Random Forests"
+            },
+            {
+              "id": "ai-types-of-machine-learning-2-7",
+              "name": "Gradient Boosting (XGBoost, LightGBM, CatBoost)"
+            }
+          ]
+        },
+        {
+          "id": "ai-types-of-machine-learning-3",
+          "name": "Clustering",
+          "sub": [
+            {
+              "id": "ai-types-of-machine-learning-3-1",
+              "name": "K-Means"
+            },
+            {
+              "id": "ai-types-of-machine-learning-3-2",
+              "name": "Hierarchical Clustering"
+            },
+            {
+              "id": "ai-types-of-machine-learning-3-3",
+              "name": "DBSCAN"
+            },
+            {
+              "id": "ai-types-of-machine-learning-3-4",
+              "name": "Gaussian Mixture Models (GMM)"
+            },
+            {
+              "id": "ai-types-of-machine-learning-3-5",
+              "name": "Spectral Clustering"
+            },
+            {
+              "id": "ai-types-of-machine-learning-3-6",
+              "name": "Mean Shift"
+            }
+          ]
+        },
+        {
+          "id": "ai-types-of-machine-learning-4",
+          "name": "Association Rule Learning",
+          "sub": [
+            {
+              "id": "ai-types-of-machine-learning-4-1",
+              "name": "Apriori algorithm"
+            },
+            {
+              "id": "ai-types-of-machine-learning-4-2",
+              "name": "FP-Growth"
+            }
+          ]
+        },
+        {
+          "id": "ai-types-of-machine-learning-5",
+          "name": "Anomaly Detection",
+          "sub": [
+            {
+              "id": "ai-types-of-machine-learning-5-1",
+              "name": "Isolation Forest"
+            },
+            {
+              "id": "ai-types-of-machine-learning-5-2",
+              "name": "One-class SVM"
+            },
+            {
+              "id": "ai-types-of-machine-learning-5-3",
+              "name": "Local Outlier Factor"
+            }
+          ]
+        },
+        {
+          "id": "ai-types-of-machine-learning-6",
+          "name": "Semi-Supervised Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-7",
+          "name": "Self-Supervised Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-8",
+          "name": "Weakly Supervised Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-9",
+          "name": "Multi-Instance Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-10",
+          "name": "Active Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-11",
+          "name": "Transfer Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-12",
+          "name": "Domain Adaptation"
+        },
+        {
+          "id": "ai-types-of-machine-learning-13",
+          "name": "Few-Shot Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-14",
+          "name": "Zero-Shot Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-15",
+          "name": "One-Shot Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-16",
+          "name": "Meta-Learning (Learning to Learn)"
+        },
+        {
+          "id": "ai-types-of-machine-learning-17",
+          "name": "Online Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-18",
+          "name": "Federated Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-19",
+          "name": "Multitask Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-20",
+          "name": "Curriculum Learning"
+        },
+        {
+          "id": "ai-types-of-machine-learning-21",
+          "name": "Continual/Lifelong Learning"
+        }
+      ]
+    },
+    {
+      "id": "ai-ensemble-methods",
+      "name": "Ensemble Methods",
+      "category": "Machine Learning (ML)",
+      "topics": [
+        {
+          "id": "ai-ensemble-methods-1",
+          "name": "Bagging",
+          "sub": [
+            {
+              "id": "ai-ensemble-methods-1-1",
+              "name": "Bootstrap aggregating"
+            },
+            {
+              "id": "ai-ensemble-methods-1-2",
+              "name": "Random Forests"
+            }
+          ]
+        },
+        {
+          "id": "ai-ensemble-methods-2",
+          "name": "Boosting",
+          "sub": [
+            {
+              "id": "ai-ensemble-methods-2-1",
+              "name": "AdaBoost"
+            },
+            {
+              "id": "ai-ensemble-methods-2-2",
+              "name": "Gradient Boosting"
+            },
+            {
+              "id": "ai-ensemble-methods-2-3",
+              "name": "XGBoost"
+            },
+            {
+              "id": "ai-ensemble-methods-2-4",
+              "name": "LightGBM"
+            },
+            {
+              "id": "ai-ensemble-methods-2-5",
+              "name": "CatBoost"
+            }
+          ]
+        },
+        {
+          "id": "ai-ensemble-methods-3",
+          "name": "Stacking"
+        },
+        {
+          "id": "ai-ensemble-methods-4",
+          "name": "Blending"
+        },
+        {
+          "id": "ai-ensemble-methods-5",
+          "name": "Voting Classifiers"
+        }
+      ]
+    },
+    {
+      "id": "ai-probabilistic-ml",
+      "name": "Probabilistic ML",
+      "category": "Machine Learning (ML)",
+      "topics": [
+        {
+          "id": "ai-probabilistic-ml-1",
+          "name": "Bayesian Machine Learning"
+        },
+        {
+          "id": "ai-probabilistic-ml-2",
+          "name": "Gaussian Processes"
+        },
+        {
+          "id": "ai-probabilistic-ml-3",
+          "name": "Hidden Markov Models (HMM)"
+        },
+        {
+          "id": "ai-probabilistic-ml-4",
+          "name": "Conditional Random Fields (CRF)"
+        },
+        {
+          "id": "ai-probabilistic-ml-5",
+          "name": "Bayesian Neural Networks"
+        },
+        {
+          "id": "ai-probabilistic-ml-6",
+          "name": "Variational Inference"
+        },
+        {
+          "id": "ai-probabilistic-ml-7",
+          "name": "MCMC Methods"
+        }
+      ]
+    },
+    {
+      "id": "ai-graph-based-ml",
+      "name": "Graph-Based ML",
+      "category": "Machine Learning (ML)",
+      "topics": [
+        {
+          "id": "ai-graph-based-ml-1",
+          "name": "Graph Algorithms for ML"
+        },
+        {
+          "id": "ai-graph-based-ml-2",
+          "name": "Label Propagation"
+        },
+        {
+          "id": "ai-graph-based-ml-3",
+          "name": "Spectral Methods"
+        },
+        {
+          "id": "ai-graph-based-ml-4",
+          "name": "Random Walks"
+        }
+      ]
+    },
+    {
+      "id": "ai-automl-neural-architecture-search",
+      "name": "AutoML & Neural Architecture Search",
+      "category": "Machine Learning (ML)",
+      "topics": [
+        {
+          "id": "ai-automl-neural-architecture-search-1",
+          "name": "Automated Machine Learning (AutoML)"
+        },
+        {
+          "id": "ai-automl-neural-architecture-search-2",
+          "name": "Hyperparameter Optimization",
+          "sub": [
+            {
+              "id": "ai-automl-neural-architecture-search-2-1",
+              "name": "Grid search"
+            },
+            {
+              "id": "ai-automl-neural-architecture-search-2-2",
+              "name": "Random search"
+            },
+            {
+              "id": "ai-automl-neural-architecture-search-2-3",
+              "name": "Bayesian optimization"
+            },
+            {
+              "id": "ai-automl-neural-architecture-search-2-4",
+              "name": "Hyperband"
+            }
+          ]
+        },
+        {
+          "id": "ai-automl-neural-architecture-search-3",
+          "name": "Neural Architecture Search (NAS)"
+        },
+        {
+          "id": "ai-automl-neural-architecture-search-4",
+          "name": "Auto-sklearn, Auto-Keras, etc."
+        }
+      ]
+    },
+    {
+      "id": "ai-neural-network-foundations",
+      "name": "Neural Network Foundations",
+      "category": "Deep Learning (DL)",
+      "topics": [
+        {
+          "id": "ai-neural-network-foundations-1",
+          "name": "Perceptrons"
+        },
+        {
+          "id": "ai-neural-network-foundations-2",
+          "name": "Multi-Layer Perceptrons (MLP)"
+        },
+        {
+          "id": "ai-neural-network-foundations-3",
+          "name": "Feedforward Neural Networks"
+        },
+        {
+          "id": "ai-neural-network-foundations-4",
+          "name": "Activation Functions",
+          "sub": [
+            {
+              "id": "ai-neural-network-foundations-4-1",
+              "name": "Sigmoid"
+            },
+            {
+              "id": "ai-neural-network-foundations-4-2",
+              "name": "Tanh"
+            },
+            {
+              "id": "ai-neural-network-foundations-4-3",
+              "name": "ReLU and variants (Leaky ReLU, PReLU, ELU, GELU, Swish)"
+            },
+            {
+              "id": "ai-neural-network-foundations-4-4",
+              "name": "Softmax"
+            }
+          ]
+        },
+        {
+          "id": "ai-neural-network-foundations-5",
+          "name": "Loss Functions",
+          "sub": [
+            {
+              "id": "ai-neural-network-foundations-5-1",
+              "name": "Cross-entropy"
+            },
+            {
+              "id": "ai-neural-network-foundations-5-2",
+              "name": "Mean squared error"
+            },
+            {
+              "id": "ai-neural-network-foundations-5-3",
+              "name": "Hinge loss"
+            },
+            {
+              "id": "ai-neural-network-foundations-5-4",
+              "name": "Contrastive loss"
+            },
+            {
+              "id": "ai-neural-network-foundations-5-5",
+              "name": "Triplet loss"
+            }
+          ]
+        },
+        {
+          "id": "ai-neural-network-foundations-6",
+          "name": "Backpropagation"
+        },
+        {
+          "id": "ai-neural-network-foundations-7",
+          "name": "Gradient Descent Variants",
+          "sub": [
+            {
+              "id": "ai-neural-network-foundations-7-1",
+              "name": "Batch, Mini-batch, Stochastic"
+            }
+          ]
+        },
+        {
+          "id": "ai-neural-network-foundations-8",
+          "name": "Optimization Algorithms",
+          "sub": [
+            {
+              "id": "ai-neural-network-foundations-8-1",
+              "name": "SGD with momentum"
+            },
+            {
+              "id": "ai-neural-network-foundations-8-2",
+              "name": "Nesterov momentum"
+            },
+            {
+              "id": "ai-neural-network-foundations-8-3",
+              "name": "AdaGrad"
+            },
+            {
+              "id": "ai-neural-network-foundations-8-4",
+              "name": "RMSprop"
+            },
+            {
+              "id": "ai-neural-network-foundations-8-5",
+              "name": "Adam, AdamW"
+            },
+            {
+              "id": "ai-neural-network-foundations-8-6",
+              "name": "LAMB"
+            },
+            {
+              "id": "ai-neural-network-foundations-8-7",
+              "name": "Lion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-regularization-normalization",
+      "name": "Regularization & Normalization",
+      "category": "Deep Learning (DL)",
+      "topics": [
+        {
+          "id": "ai-regularization-normalization-1",
+          "name": "Dropout"
+        },
+        {
+          "id": "ai-regularization-normalization-2",
+          "name": "Weight Decay"
+        },
+        {
+          "id": "ai-regularization-normalization-3",
+          "name": "Data Augmentation"
+        },
+        {
+          "id": "ai-regularization-normalization-4",
+          "name": "Batch Normalization"
+        },
+        {
+          "id": "ai-regularization-normalization-5",
+          "name": "Layer Normalization"
+        },
+        {
+          "id": "ai-regularization-normalization-6",
+          "name": "Group Normalization"
+        },
+        {
+          "id": "ai-regularization-normalization-7",
+          "name": "Instance Normalization"
+        },
+        {
+          "id": "ai-regularization-normalization-8",
+          "name": "RMSNorm"
+        }
+      ]
+    },
+    {
+      "id": "ai-convolutional-neural-networks-cnns",
+      "name": "Convolutional Neural Networks (CNNs)",
+      "category": "Deep Learning (DL)",
+      "topics": [
+        {
+          "id": "ai-convolutional-neural-networks-cnns-1",
+          "name": "Convolution Operations"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-2",
+          "name": "Pooling Layers"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-3",
+          "name": "Stride and Padding"
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-4",
+          "name": "Classic Architectures",
+          "sub": [
+            {
+              "id": "ai-convolutional-neural-networks-cnns-4-1",
+              "name": "LeNet"
+            },
+            {
+              "id": "ai-convolutional-neural-networks-cnns-4-2",
+              "name": "AlexNet"
+            },
+            {
+              "id": "ai-convolutional-neural-networks-cnns-4-3",
+              "name": "VGGNet"
+            },
+            {
+              "id": "ai-convolutional-neural-networks-cnns-4-4",
+              "name": "GoogLeNet/Inception"
+            },
+            {
+              "id": "ai-convolutional-neural-networks-cnns-4-5",
+              "name": "ResNet"
+            },
+            {
+              "id": "ai-convolutional-neural-networks-cnns-4-6",
+              "name": "DenseNet"
+            },
+            {
+              "id": "ai-convolutional-neural-networks-cnns-4-7",
+              "name": "EfficientNet"
+            },
+            {
+              "id": "ai-convolutional-neural-networks-cnns-4-8",
+              "name": "MobileNet"
+            },
+            {
+              "id": "ai-convolutional-neural-networks-cnns-4-9",
+              "name": "ConvNeXt"
+            }
+          ]
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-5",
+          "name": "Object Detection",
+          "sub": [
+            {
+              "id": "ai-convolutional-neural-networks-cnns-5-1",
+              "name": "R-CNN, Fast R-CNN, Faster R-CNN"
+            },
+            {
+              "id": "ai-convolutional-neural-networks-cnns-5-2",
+              "name": "YOLO (v1-v8)"
+            },
+            {
+              "id": "ai-convolutional-neural-networks-cnns-5-3",
+              "name": "SSD"
+            },
+            {
+              "id": "ai-convolutional-neural-networks-cnns-5-4",
+              "name": "RetinaNet"
+            },
+            {
+              "id": "ai-convolutional-neural-networks-cnns-5-5",
+              "name": "DETR"
+            }
+          ]
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-6",
+          "name": "Image Segmentation",
+          "sub": [
+            {
+              "id": "ai-convolutional-neural-networks-cnns-6-1",
+              "name": "U-Net"
+            },
+            {
+              "id": "ai-convolutional-neural-networks-cnns-6-2",
+              "name": "DeepLab"
+            },
+            {
+              "id": "ai-convolutional-neural-networks-cnns-6-3",
+              "name": "Mask R-CNN"
+            },
+            {
+              "id": "ai-convolutional-neural-networks-cnns-6-4",
+              "name": "Segment Anything Model (SAM)"
+            }
+          ]
+        },
+        {
+          "id": "ai-convolutional-neural-networks-cnns-7",
+          "name": "3D Vision",
+          "sub": [
+            {
+              "id": "ai-convolutional-neural-networks-cnns-7-1",
+              "name": "3D CNNs"
+            },
+            {
+              "id": "ai-convolutional-neural-networks-cnns-7-2",
+              "name": "Point cloud networks (PointNet, PointNet++)"
+            },
+            {
+              "id": "ai-convolutional-neural-networks-cnns-7-3",
+              "name": "Neural Radiance Fields (NeRF)"
+            },
+            {
+              "id": "ai-convolutional-neural-networks-cnns-7-4",
+              "name": "Gaussian Splatting"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-recurrent-neural-networks-rnns",
+      "name": "Recurrent Neural Networks (RNNs)",
+      "category": "Deep Learning (DL)",
+      "topics": [
+        {
+          "id": "ai-recurrent-neural-networks-rnns-1",
+          "name": "Vanilla RNN"
+        },
+        {
+          "id": "ai-recurrent-neural-networks-rnns-2",
+          "name": "Long Short-Term Memory (LSTM)"
+        },
+        {
+          "id": "ai-recurrent-neural-networks-rnns-3",
+          "name": "Gated Recurrent Unit (GRU)"
+        },
+        {
+          "id": "ai-recurrent-neural-networks-rnns-4",
+          "name": "Bidirectional RNNs"
+        },
+        {
+          "id": "ai-recurrent-neural-networks-rnns-5",
+          "name": "Deep RNNs"
+        },
+        {
+          "id": "ai-recurrent-neural-networks-rnns-6",
+          "name": "Sequence-to-Sequence Models"
+        },
+        {
+          "id": "ai-recurrent-neural-networks-rnns-7",
+          "name": "Encoder-Decoder Architecture"
+        }
+      ]
+    },
+    {
+      "id": "ai-attention-transformers",
+      "name": "Attention & Transformers",
+      "category": "Deep Learning (DL)",
+      "topics": [
+        {
+          "id": "ai-attention-transformers-1",
+          "name": "Attention Mechanisms",
+          "sub": [
+            {
+              "id": "ai-attention-transformers-1-1",
+              "name": "Self-attention"
+            },
+            {
+              "id": "ai-attention-transformers-1-2",
+              "name": "Cross-attention"
+            },
+            {
+              "id": "ai-attention-transformers-1-3",
+              "name": "Multi-head attention"
+            }
+          ]
+        },
+        {
+          "id": "ai-attention-transformers-2",
+          "name": "Transformer Architecture",
+          "sub": [
+            {
+              "id": "ai-attention-transformers-2-1",
+              "name": "Encoder-only (BERT)"
+            },
+            {
+              "id": "ai-attention-transformers-2-2",
+              "name": "Decoder-only (GPT)"
+            },
+            {
+              "id": "ai-attention-transformers-2-3",
+              "name": "Encoder-decoder (T5)"
+            }
+          ]
+        },
+        {
+          "id": "ai-attention-transformers-3",
+          "name": "Positional Encoding"
+        },
+        {
+          "id": "ai-attention-transformers-4",
+          "name": "Vision Transformers (ViT)"
+        },
+        {
+          "id": "ai-attention-transformers-5",
+          "name": "Efficient Transformers",
+          "sub": [
+            {
+              "id": "ai-attention-transformers-5-1",
+              "name": "Sparse attention"
+            },
+            {
+              "id": "ai-attention-transformers-5-2",
+              "name": "Linear attention"
+            },
+            {
+              "id": "ai-attention-transformers-5-3",
+              "name": "FlashAttention"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-large-language-models-llms",
+      "name": "Large Language Models (LLMs)",
+      "category": "Deep Learning (DL)",
+      "topics": [
+        {
+          "id": "ai-large-language-models-llms-1",
+          "name": "Foundation Models",
+          "sub": [
+            {
+              "id": "ai-large-language-models-llms-1-1",
+              "name": "BERT and variants (RoBERTa, ALBERT, DeBERTa)"
+            },
+            {
+              "id": "ai-large-language-models-llms-1-2",
+              "name": "GPT series (GPT-2, GPT-3, GPT-4)"
+            },
+            {
+              "id": "ai-large-language-models-llms-1-3",
+              "name": "T5, FLAN-T5"
+            },
+            {
+              "id": "ai-large-language-models-llms-1-4",
+              "name": "LLaMA, LLaMA 2"
+            },
+            {
+              "id": "ai-large-language-models-llms-1-5",
+              "name": "PaLM, Gemini"
+            },
+            {
+              "id": "ai-large-language-models-llms-1-6",
+              "name": "Claude"
+            },
+            {
+              "id": "ai-large-language-models-llms-1-7",
+              "name": "Mistral, Mixtral"
+            }
+          ]
+        },
+        {
+          "id": "ai-large-language-models-llms-2",
+          "name": "Tokenization",
+          "sub": [
+            {
+              "id": "ai-large-language-models-llms-2-1",
+              "name": "BPE"
+            },
+            {
+              "id": "ai-large-language-models-llms-2-2",
+              "name": "WordPiece"
+            },
+            {
+              "id": "ai-large-language-models-llms-2-3",
+              "name": "SentencePiece"
+            },
+            {
+              "id": "ai-large-language-models-llms-2-4",
+              "name": "Unigram"
+            }
+          ]
+        },
+        {
+          "id": "ai-large-language-models-llms-3",
+          "name": "Pretraining Objectives",
+          "sub": [
+            {
+              "id": "ai-large-language-models-llms-3-1",
+              "name": "Masked Language Modeling (MLM)"
+            },
+            {
+              "id": "ai-large-language-models-llms-3-2",
+              "name": "Causal Language Modeling (CLM)"
+            },
+            {
+              "id": "ai-large-language-models-llms-3-3",
+              "name": "Next Sentence Prediction"
+            }
+          ]
+        },
+        {
+          "id": "ai-large-language-models-llms-4",
+          "name": "Fine-Tuning Techniques",
+          "sub": [
+            {
+              "id": "ai-large-language-models-llms-4-1",
+              "name": "Full fine-tuning"
+            },
+            {
+              "id": "ai-large-language-models-llms-4-2",
+              "name": "Parameter-efficient fine-tuning (PEFT)"
+            },
+            {
+              "id": "ai-large-language-models-llms-4-3",
+              "name": "LoRA (Low-Rank Adaptation)"
+            },
+            {
+              "id": "ai-large-language-models-llms-4-4",
+              "name": "QLoRA"
+            },
+            {
+              "id": "ai-large-language-models-llms-4-5",
+              "name": "Prompt tuning"
+            },
+            {
+              "id": "ai-large-language-models-llms-4-6",
+              "name": "Prefix tuning"
+            },
+            {
+              "id": "ai-large-language-models-llms-4-7",
+              "name": "Adapter layers"
+            }
+          ]
+        },
+        {
+          "id": "ai-large-language-models-llms-5",
+          "name": "Alignment",
+          "sub": [
+            {
+              "id": "ai-large-language-models-llms-5-1",
+              "name": "RLHF (Reinforcement Learning from Human Feedback)"
+            },
+            {
+              "id": "ai-large-language-models-llms-5-2",
+              "name": "DPO (Direct Preference Optimization)"
+            },
+            {
+              "id": "ai-large-language-models-llms-5-3",
+              "name": "Constitutional AI"
+            }
+          ]
+        },
+        {
+          "id": "ai-large-language-models-llms-6",
+          "name": "Inference Optimization",
+          "sub": [
+            {
+              "id": "ai-large-language-models-llms-6-1",
+              "name": "KV-cache"
+            },
+            {
+              "id": "ai-large-language-models-llms-6-2",
+              "name": "Speculative decoding"
+            },
+            {
+              "id": "ai-large-language-models-llms-6-3",
+              "name": "Quantization (INT8, INT4)"
+            }
+          ]
+        },
+        {
+          "id": "ai-large-language-models-llms-7",
+          "name": "Context Length Extensions",
+          "sub": [
+            {
+              "id": "ai-large-language-models-llms-7-1",
+              "name": "RoPE"
+            },
+            {
+              "id": "ai-large-language-models-llms-7-2",
+              "name": "ALiBi"
+            },
+            {
+              "id": "ai-large-language-models-llms-7-3",
+              "name": "Sliding window attention"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-generative-models",
+      "name": "Generative Models",
+      "category": "Deep Learning (DL)",
+      "topics": [
+        {
+          "id": "ai-generative-models-1",
+          "name": "Generative Adversarial Networks (GANs)",
+          "sub": [
+            {
+              "id": "ai-generative-models-1-1",
+              "name": "DCGAN"
+            },
+            {
+              "id": "ai-generative-models-1-2",
+              "name": "StyleGAN"
+            },
+            {
+              "id": "ai-generative-models-1-3",
+              "name": "CycleGAN"
+            },
+            {
+              "id": "ai-generative-models-1-4",
+              "name": "Conditional GAN"
+            },
+            {
+              "id": "ai-generative-models-1-5",
+              "name": "Progressive GAN"
+            }
+          ]
+        },
+        {
+          "id": "ai-generative-models-2",
+          "name": "Variational Autoencoders (VAEs)",
+          "sub": [
+            {
+              "id": "ai-generative-models-2-1",
+              "name": "Standard VAE"
+            },
+            {
+              "id": "ai-generative-models-2-2",
+              "name": "β-VAE"
+            },
+            {
+              "id": "ai-generative-models-2-3",
+              "name": "VQ-VAE"
+            }
+          ]
+        },
+        {
+          "id": "ai-generative-models-3",
+          "name": "Autoencoders",
+          "sub": [
+            {
+              "id": "ai-generative-models-3-1",
+              "name": "Standard autoencoders"
+            },
+            {
+              "id": "ai-generative-models-3-2",
+              "name": "Denoising autoencoders"
+            },
+            {
+              "id": "ai-generative-models-3-3",
+              "name": "Sparse autoencoders"
+            },
+            {
+              "id": "ai-generative-models-3-4",
+              "name": "Contractive autoencoders"
+            }
+          ]
+        },
+        {
+          "id": "ai-generative-models-4",
+          "name": "Normalizing Flows",
+          "sub": [
+            {
+              "id": "ai-generative-models-4-1",
+              "name": "RealNVP"
+            },
+            {
+              "id": "ai-generative-models-4-2",
+              "name": "Glow"
+            }
+          ]
+        },
+        {
+          "id": "ai-generative-models-5",
+          "name": "Diffusion Models",
+          "sub": [
+            {
+              "id": "ai-generative-models-5-1",
+              "name": "Denoising Diffusion Probabilistic Models (DDPM)"
+            },
+            {
+              "id": "ai-generative-models-5-2",
+              "name": "Score-based models"
+            },
+            {
+              "id": "ai-generative-models-5-3",
+              "name": "Stable Diffusion"
+            },
+            {
+              "id": "ai-generative-models-5-4",
+              "name": "DALL-E"
+            },
+            {
+              "id": "ai-generative-models-5-5",
+              "name": "Midjourney"
+            },
+            {
+              "id": "ai-generative-models-5-6",
+              "name": "Latent Diffusion Models"
+            }
+          ]
+        },
+        {
+          "id": "ai-generative-models-6",
+          "name": "Energy-Based Models"
+        },
+        {
+          "id": "ai-generative-models-7",
+          "name": "Video Generation Models",
+          "sub": [
+            {
+              "id": "ai-generative-models-7-1",
+              "name": "Sora"
+            },
+            {
+              "id": "ai-generative-models-7-2",
+              "name": "Gen-2"
+            },
+            {
+              "id": "ai-generative-models-7-3",
+              "name": "Video diffusion models"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-special-deep-learning-topics",
+      "name": "Special Deep Learning Topics",
+      "category": "Deep Learning (DL)",
+      "topics": [
+        {
+          "id": "ai-special-deep-learning-topics-1",
+          "name": "Graph Neural Networks (GNNs)",
+          "sub": [
+            {
+              "id": "ai-special-deep-learning-topics-1-1",
+              "name": "Graph Convolutional Networks (GCN)"
+            },
+            {
+              "id": "ai-special-deep-learning-topics-1-2",
+              "name": "Graph Attention Networks (GAT)"
+            },
+            {
+              "id": "ai-special-deep-learning-topics-1-3",
+              "name": "GraphSAGE"
+            },
+            {
+              "id": "ai-special-deep-learning-topics-1-4",
+              "name": "Message Passing Neural Networks"
+            }
+          ]
+        },
+        {
+          "id": "ai-special-deep-learning-topics-2",
+          "name": "Neural ODEs"
+        },
+        {
+          "id": "ai-special-deep-learning-topics-3",
+          "name": "Physics-Informed Neural Networks (PINNs)"
+        },
+        {
+          "id": "ai-special-deep-learning-topics-4",
+          "name": "Sparse Neural Networks"
+        },
+        {
+          "id": "ai-special-deep-learning-topics-5",
+          "name": "Model Compression",
+          "sub": [
+            {
+              "id": "ai-special-deep-learning-topics-5-1",
+              "name": "Pruning"
+            },
+            {
+              "id": "ai-special-deep-learning-topics-5-2",
+              "name": "Quantization"
+            },
+            {
+              "id": "ai-special-deep-learning-topics-5-3",
+              "name": "Knowledge distillation"
+            },
+            {
+              "id": "ai-special-deep-learning-topics-5-4",
+              "name": "Low-rank factorization"
+            }
+          ]
+        },
+        {
+          "id": "ai-special-deep-learning-topics-6",
+          "name": "Mixture of Experts (MoE)"
+        },
+        {
+          "id": "ai-special-deep-learning-topics-7",
+          "name": "State Space Models",
+          "sub": [
+            {
+              "id": "ai-special-deep-learning-topics-7-1",
+              "name": "Mamba"
+            },
+            {
+              "id": "ai-special-deep-learning-topics-7-2",
+              "name": "S4"
+            }
+          ]
+        },
+        {
+          "id": "ai-special-deep-learning-topics-8",
+          "name": "Kolmogorov-Arnold Networks (KAN)"
+        }
+      ]
+    },
+    {
+      "id": "ai-rl-fundamentals",
+      "name": "RL Fundamentals",
+      "category": "Reinforcement Learning (RL)",
+      "topics": [
+        {
+          "id": "ai-rl-fundamentals-1",
+          "name": "Core Components",
+          "sub": [
+            {
+              "id": "ai-rl-fundamentals-1-1",
+              "name": "Agent"
+            },
+            {
+              "id": "ai-rl-fundamentals-1-2",
+              "name": "Environment"
+            },
+            {
+              "id": "ai-rl-fundamentals-1-3",
+              "name": "State"
+            },
+            {
+              "id": "ai-rl-fundamentals-1-4",
+              "name": "Action"
+            },
+            {
+              "id": "ai-rl-fundamentals-1-5",
+              "name": "Reward"
+            },
+            {
+              "id": "ai-rl-fundamentals-1-6",
+              "name": "Policy"
+            },
+            {
+              "id": "ai-rl-fundamentals-1-7",
+              "name": "Value function"
+            }
+          ]
+        },
+        {
+          "id": "ai-rl-fundamentals-2",
+          "name": "Markov Decision Processes (MDPs)",
+          "sub": [
+            {
+              "id": "ai-rl-fundamentals-2-1",
+              "name": "State transition probabilities"
+            },
+            {
+              "id": "ai-rl-fundamentals-2-2",
+              "name": "Reward functions"
+            },
+            {
+              "id": "ai-rl-fundamentals-2-3",
+              "name": "Discount factors"
+            }
+          ]
+        },
+        {
+          "id": "ai-rl-fundamentals-3",
+          "name": "Partially Observable MDPs (POMDPs)"
+        },
+        {
+          "id": "ai-rl-fundamentals-4",
+          "name": "Bellman Equations"
+        },
+        {
+          "id": "ai-rl-fundamentals-5",
+          "name": "Exploration vs. Exploitation",
+          "sub": [
+            {
+              "id": "ai-rl-fundamentals-5-1",
+              "name": "ε-greedy"
+            },
+            {
+              "id": "ai-rl-fundamentals-5-2",
+              "name": "UCB"
+            },
+            {
+              "id": "ai-rl-fundamentals-5-3",
+              "name": "Thompson sampling"
+            },
+            {
+              "id": "ai-rl-fundamentals-5-4",
+              "name": "Intrinsic motivation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-dynamic-programming",
+      "name": "Dynamic Programming",
+      "category": "Reinforcement Learning (RL)",
+      "topics": [
+        {
+          "id": "ai-dynamic-programming-1",
+          "name": "Policy Evaluation"
+        },
+        {
+          "id": "ai-dynamic-programming-2",
+          "name": "Policy Iteration"
+        },
+        {
+          "id": "ai-dynamic-programming-3",
+          "name": "Value Iteration"
+        }
+      ]
+    },
+    {
+      "id": "ai-model-free-methods",
+      "name": "Model-Free Methods",
+      "category": "Reinforcement Learning (RL)",
+      "topics": [
+        {
+          "id": "ai-model-free-methods-1",
+          "name": "TD(0)"
+        },
+        {
+          "id": "ai-model-free-methods-2",
+          "name": "TD(λ)"
+        },
+        {
+          "id": "ai-model-free-methods-3",
+          "name": "Eligibility Traces"
+        },
+        {
+          "id": "ai-model-free-methods-4",
+          "name": "Q-Learning"
+        },
+        {
+          "id": "ai-model-free-methods-5",
+          "name": "SARSA"
+        },
+        {
+          "id": "ai-model-free-methods-6",
+          "name": "Expected SARSA"
+        },
+        {
+          "id": "ai-model-free-methods-7",
+          "name": "REINFORCE"
+        },
+        {
+          "id": "ai-model-free-methods-8",
+          "name": "Policy Gradient Theorem"
+        },
+        {
+          "id": "ai-model-free-methods-9",
+          "name": "Advantage Actor-Critic (A2C)"
+        },
+        {
+          "id": "ai-model-free-methods-10",
+          "name": "Asynchronous Advantage Actor-Critic (A3C)"
+        },
+        {
+          "id": "ai-model-free-methods-11",
+          "name": "Proximal Policy Optimization (PPO)"
+        },
+        {
+          "id": "ai-model-free-methods-12",
+          "name": "Trust Region Policy Optimization (TRPO)"
+        },
+        {
+          "id": "ai-model-free-methods-13",
+          "name": "Soft Actor-Critic (SAC)"
+        },
+        {
+          "id": "ai-model-free-methods-14",
+          "name": "Deep Deterministic Policy Gradient (DDPG)"
+        },
+        {
+          "id": "ai-model-free-methods-15",
+          "name": "Twin Delayed DDPG (TD3)"
+        }
+      ]
+    },
+    {
+      "id": "ai-deep-reinforcement-learning",
+      "name": "Deep Reinforcement Learning",
+      "category": "Reinforcement Learning (RL)",
+      "topics": [
+        {
+          "id": "ai-deep-reinforcement-learning-1",
+          "name": "Deep Q-Networks (DQN)"
+        },
+        {
+          "id": "ai-deep-reinforcement-learning-2",
+          "name": "Double DQN"
+        },
+        {
+          "id": "ai-deep-reinforcement-learning-3",
+          "name": "Dueling DQN"
+        },
+        {
+          "id": "ai-deep-reinforcement-learning-4",
+          "name": "Prioritized Experience Replay"
+        },
+        {
+          "id": "ai-deep-reinforcement-learning-5",
+          "name": "Rainbow DQN"
+        },
+        {
+          "id": "ai-deep-reinforcement-learning-6",
+          "name": "Distributional RL (C51, QR-DQN)"
+        }
+      ]
+    },
+    {
+      "id": "ai-advanced-rl-topics",
+      "name": "Advanced RL Topics",
+      "category": "Reinforcement Learning (RL)",
+      "topics": [
+        {
+          "id": "ai-advanced-rl-topics-1",
+          "name": "Model-Based RL",
+          "sub": [
+            {
+              "id": "ai-advanced-rl-topics-1-1",
+              "name": "Dyna architecture"
+            },
+            {
+              "id": "ai-advanced-rl-topics-1-2",
+              "name": "World models"
+            },
+            {
+              "id": "ai-advanced-rl-topics-1-3",
+              "name": "MuZero"
+            },
+            {
+              "id": "ai-advanced-rl-topics-1-4",
+              "name": "Dreamer"
+            }
+          ]
+        },
+        {
+          "id": "ai-advanced-rl-topics-2",
+          "name": "Hierarchical RL",
+          "sub": [
+            {
+              "id": "ai-advanced-rl-topics-2-1",
+              "name": "Options framework"
+            },
+            {
+              "id": "ai-advanced-rl-topics-2-2",
+              "name": "Feudal networks"
+            }
+          ]
+        },
+        {
+          "id": "ai-advanced-rl-topics-3",
+          "name": "Multi-Agent RL (MARL)",
+          "sub": [
+            {
+              "id": "ai-advanced-rl-topics-3-1",
+              "name": "Cooperative learning"
+            },
+            {
+              "id": "ai-advanced-rl-topics-3-2",
+              "name": "Competitive learning"
+            },
+            {
+              "id": "ai-advanced-rl-topics-3-3",
+              "name": "Mixed-motive games"
+            }
+          ]
+        },
+        {
+          "id": "ai-advanced-rl-topics-4",
+          "name": "Inverse Reinforcement Learning"
+        },
+        {
+          "id": "ai-advanced-rl-topics-5",
+          "name": "Imitation Learning",
+          "sub": [
+            {
+              "id": "ai-advanced-rl-topics-5-1",
+              "name": "Behavioral cloning"
+            },
+            {
+              "id": "ai-advanced-rl-topics-5-2",
+              "name": "DAGGER"
+            },
+            {
+              "id": "ai-advanced-rl-topics-5-3",
+              "name": "Generative adversarial imitation learning (GAIL)"
+            }
+          ]
+        },
+        {
+          "id": "ai-advanced-rl-topics-6",
+          "name": "Offline RL (Batch RL)",
+          "sub": [
+            {
+              "id": "ai-advanced-rl-topics-6-1",
+              "name": "Conservative Q-learning (CQL)"
+            },
+            {
+              "id": "ai-advanced-rl-topics-6-2",
+              "name": "Decision Transformer"
+            }
+          ]
+        },
+        {
+          "id": "ai-advanced-rl-topics-7",
+          "name": "Meta-RL"
+        },
+        {
+          "id": "ai-advanced-rl-topics-8",
+          "name": "Curriculum RL"
+        },
+        {
+          "id": "ai-advanced-rl-topics-9",
+          "name": "Safe RL"
+        },
+        {
+          "id": "ai-advanced-rl-topics-10",
+          "name": "Planning + RL Hybrids",
+          "sub": [
+            {
+              "id": "ai-advanced-rl-topics-10-1",
+              "name": "AlphaGo"
+            },
+            {
+              "id": "ai-advanced-rl-topics-10-2",
+              "name": "AlphaZero"
+            },
+            {
+              "id": "ai-advanced-rl-topics-10-3",
+              "name": "MuZero"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-monte-carlo-methods",
+      "name": "Monte Carlo Methods",
+      "category": "Reinforcement Learning (RL)",
+      "topics": [
+        {
+          "id": "ai-monte-carlo-methods-1",
+          "name": "Monte Carlo Prediction"
+        },
+        {
+          "id": "ai-monte-carlo-methods-2",
+          "name": "Monte Carlo Control"
+        },
+        {
+          "id": "ai-monte-carlo-methods-3",
+          "name": "Off-policy Monte Carlo"
+        }
+      ]
+    },
+    {
+      "id": "ai-text-preprocessing",
+      "name": "Text Preprocessing",
+      "category": "Natural Language Processing (NLP)",
+      "topics": [
+        {
+          "id": "ai-text-preprocessing-1",
+          "name": "Tokenization",
+          "sub": [
+            {
+              "id": "ai-text-preprocessing-1-1",
+              "name": "Word tokenization"
+            },
+            {
+              "id": "ai-text-preprocessing-1-2",
+              "name": "Subword tokenization"
+            },
+            {
+              "id": "ai-text-preprocessing-1-3",
+              "name": "Character tokenization"
+            }
+          ]
+        },
+        {
+          "id": "ai-text-preprocessing-2",
+          "name": "Text Normalization",
+          "sub": [
+            {
+              "id": "ai-text-preprocessing-2-1",
+              "name": "Lowercasing"
+            },
+            {
+              "id": "ai-text-preprocessing-2-2",
+              "name": "Stemming"
+            },
+            {
+              "id": "ai-text-preprocessing-2-3",
+              "name": "Lemmatization"
+            }
+          ]
+        },
+        {
+          "id": "ai-text-preprocessing-3",
+          "name": "Stop Word Removal"
+        },
+        {
+          "id": "ai-text-preprocessing-4",
+          "name": "Regular Expressions"
+        },
+        {
+          "id": "ai-text-preprocessing-5",
+          "name": "Text Cleaning"
+        }
+      ]
+    },
+    {
+      "id": "ai-traditional-nlp-techniques",
+      "name": "Traditional NLP Techniques",
+      "category": "Natural Language Processing (NLP)",
+      "topics": [
+        {
+          "id": "ai-traditional-nlp-techniques-1",
+          "name": "Bag of Words"
+        },
+        {
+          "id": "ai-traditional-nlp-techniques-2",
+          "name": "TF-IDF"
+        },
+        {
+          "id": "ai-traditional-nlp-techniques-3",
+          "name": "N-grams"
+        },
+        {
+          "id": "ai-traditional-nlp-techniques-4",
+          "name": "Part-of-Speech Tagging"
+        },
+        {
+          "id": "ai-traditional-nlp-techniques-5",
+          "name": "Named Entity Recognition (NER)"
+        },
+        {
+          "id": "ai-traditional-nlp-techniques-6",
+          "name": "Syntactic Parsing",
+          "sub": [
+            {
+              "id": "ai-traditional-nlp-techniques-6-1",
+              "name": "Constituency parsing"
+            },
+            {
+              "id": "ai-traditional-nlp-techniques-6-2",
+              "name": "Dependency parsing"
+            }
+          ]
+        },
+        {
+          "id": "ai-traditional-nlp-techniques-7",
+          "name": "Semantic Role Labeling"
+        },
+        {
+          "id": "ai-traditional-nlp-techniques-8",
+          "name": "Coreference Resolution"
+        }
+      ]
+    },
+    {
+      "id": "ai-word-representations",
+      "name": "Word Representations",
+      "category": "Natural Language Processing (NLP)",
+      "topics": [
+        {
+          "id": "ai-word-representations-1",
+          "name": "One-Hot Encoding"
+        },
+        {
+          "id": "ai-word-representations-2",
+          "name": "Word Embeddings",
+          "sub": [
+            {
+              "id": "ai-word-representations-2-1",
+              "name": "Word2Vec (Skip-gram, CBOW)"
+            },
+            {
+              "id": "ai-word-representations-2-2",
+              "name": "GloVe"
+            },
+            {
+              "id": "ai-word-representations-2-3",
+              "name": "FastText"
+            }
+          ]
+        },
+        {
+          "id": "ai-word-representations-3",
+          "name": "Contextualized Embeddings",
+          "sub": [
+            {
+              "id": "ai-word-representations-3-1",
+              "name": "ELMo"
+            },
+            {
+              "id": "ai-word-representations-3-2",
+              "name": "BERT embeddings"
+            },
+            {
+              "id": "ai-word-representations-3-3",
+              "name": "Sentence embeddings (Sentence-BERT)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-nlp-tasks-applications",
+      "name": "NLP Tasks & Applications",
+      "category": "Natural Language Processing (NLP)",
+      "topics": [
+        {
+          "id": "ai-nlp-tasks-applications-1",
+          "name": "Text Classification",
+          "sub": [
+            {
+              "id": "ai-nlp-tasks-applications-1-1",
+              "name": "Sentiment analysis"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-1-2",
+              "name": "Spam detection"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-1-3",
+              "name": "Topic classification"
+            }
+          ]
+        },
+        {
+          "id": "ai-nlp-tasks-applications-2",
+          "name": "Sequence Labeling",
+          "sub": [
+            {
+              "id": "ai-nlp-tasks-applications-2-1",
+              "name": "NER"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-2-2",
+              "name": "POS tagging"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-2-3",
+              "name": "Chunking"
+            }
+          ]
+        },
+        {
+          "id": "ai-nlp-tasks-applications-3",
+          "name": "Machine Translation",
+          "sub": [
+            {
+              "id": "ai-nlp-tasks-applications-3-1",
+              "name": "Statistical MT"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-3-2",
+              "name": "Neural MT"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-3-3",
+              "name": "Multilingual models"
+            }
+          ]
+        },
+        {
+          "id": "ai-nlp-tasks-applications-4",
+          "name": "Text Summarization",
+          "sub": [
+            {
+              "id": "ai-nlp-tasks-applications-4-1",
+              "name": "Extractive"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-4-2",
+              "name": "Abstractive"
+            }
+          ]
+        },
+        {
+          "id": "ai-nlp-tasks-applications-5",
+          "name": "Question Answering",
+          "sub": [
+            {
+              "id": "ai-nlp-tasks-applications-5-1",
+              "name": "Reading comprehension"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-5-2",
+              "name": "Open-domain QA"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-5-3",
+              "name": "Knowledge-based QA"
+            }
+          ]
+        },
+        {
+          "id": "ai-nlp-tasks-applications-6",
+          "name": "Information Retrieval",
+          "sub": [
+            {
+              "id": "ai-nlp-tasks-applications-6-1",
+              "name": "Document retrieval"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-6-2",
+              "name": "Passage retrieval"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-6-3",
+              "name": "Dense retrieval (DPR)"
+            }
+          ]
+        },
+        {
+          "id": "ai-nlp-tasks-applications-7",
+          "name": "Information Extraction",
+          "sub": [
+            {
+              "id": "ai-nlp-tasks-applications-7-1",
+              "name": "Relation extraction"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-7-2",
+              "name": "Event extraction"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-7-3",
+              "name": "Knowledge base population"
+            }
+          ]
+        },
+        {
+          "id": "ai-nlp-tasks-applications-8",
+          "name": "Text Generation",
+          "sub": [
+            {
+              "id": "ai-nlp-tasks-applications-8-1",
+              "name": "Creative writing"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-8-2",
+              "name": "Data-to-text"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-8-3",
+              "name": "Controllable generation"
+            }
+          ]
+        },
+        {
+          "id": "ai-nlp-tasks-applications-9",
+          "name": "Dialogue Systems",
+          "sub": [
+            {
+              "id": "ai-nlp-tasks-applications-9-1",
+              "name": "Task-oriented dialogue"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-9-2",
+              "name": "Open-domain chatbots"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-9-3",
+              "name": "Conversational AI"
+            }
+          ]
+        },
+        {
+          "id": "ai-nlp-tasks-applications-10",
+          "name": "Speech Processing",
+          "sub": [
+            {
+              "id": "ai-nlp-tasks-applications-10-1",
+              "name": "Automatic Speech Recognition (ASR)"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-10-2",
+              "name": "Text-to-Speech (TTS)"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-10-3",
+              "name": "Speaker recognition"
+            },
+            {
+              "id": "ai-nlp-tasks-applications-10-4",
+              "name": "Voice cloning"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-advanced-nlp",
+      "name": "Advanced NLP",
+      "category": "Natural Language Processing (NLP)",
+      "topics": [
+        {
+          "id": "ai-advanced-nlp-1",
+          "name": "Retrieval-Augmented Generation (RAG)"
+        },
+        {
+          "id": "ai-advanced-nlp-2",
+          "name": "Chain-of-Thought Prompting"
+        },
+        {
+          "id": "ai-advanced-nlp-3",
+          "name": "In-Context Learning"
+        },
+        {
+          "id": "ai-advanced-nlp-4",
+          "name": "Instruction Tuning"
+        },
+        {
+          "id": "ai-advanced-nlp-5",
+          "name": "Multilingual NLP"
+        },
+        {
+          "id": "ai-advanced-nlp-6",
+          "name": "Cross-lingual Transfer"
+        },
+        {
+          "id": "ai-advanced-nlp-7",
+          "name": "Low-Resource NLP"
+        },
+        {
+          "id": "ai-advanced-nlp-8",
+          "name": "Document Understanding"
+        },
+        {
+          "id": "ai-advanced-nlp-9",
+          "name": "Multimodal NLP"
+        }
+      ]
+    },
+    {
+      "id": "ai-image-processing-fundamentals",
+      "name": "Image Processing Fundamentals",
+      "category": "Computer Vision (CV)",
+      "topics": [
+        {
+          "id": "ai-image-processing-fundamentals-1",
+          "name": "Image Filtering"
+        },
+        {
+          "id": "ai-image-processing-fundamentals-2",
+          "name": "Edge Detection"
+        },
+        {
+          "id": "ai-image-processing-fundamentals-3",
+          "name": "Feature Detection",
+          "sub": [
+            {
+              "id": "ai-image-processing-fundamentals-3-1",
+              "name": "SIFT"
+            },
+            {
+              "id": "ai-image-processing-fundamentals-3-2",
+              "name": "SURF"
+            },
+            {
+              "id": "ai-image-processing-fundamentals-3-3",
+              "name": "ORB"
+            }
+          ]
+        },
+        {
+          "id": "ai-image-processing-fundamentals-4",
+          "name": "Image Transformations"
+        },
+        {
+          "id": "ai-image-processing-fundamentals-5",
+          "name": "Histogram Processing"
+        },
+        {
+          "id": "ai-image-processing-fundamentals-6",
+          "name": "Morphological Operations"
+        }
+      ]
+    },
+    {
+      "id": "ai-core-vision-tasks",
+      "name": "Core Vision Tasks",
+      "category": "Computer Vision (CV)",
+      "topics": [
+        {
+          "id": "ai-core-vision-tasks-1",
+          "name": "Image Classification"
+        },
+        {
+          "id": "ai-core-vision-tasks-2",
+          "name": "Object Detection"
+        },
+        {
+          "id": "ai-core-vision-tasks-3",
+          "name": "Object Localization"
+        },
+        {
+          "id": "ai-core-vision-tasks-4",
+          "name": "Semantic Segmentation"
+        },
+        {
+          "id": "ai-core-vision-tasks-5",
+          "name": "Instance Segmentation"
+        },
+        {
+          "id": "ai-core-vision-tasks-6",
+          "name": "Panoptic Segmentation"
+        },
+        {
+          "id": "ai-core-vision-tasks-7",
+          "name": "Pose Estimation"
+        },
+        {
+          "id": "ai-core-vision-tasks-8",
+          "name": "Face Detection and Recognition"
+        },
+        {
+          "id": "ai-core-vision-tasks-9",
+          "name": "Optical Character Recognition (OCR)"
+        },
+        {
+          "id": "ai-core-vision-tasks-10",
+          "name": "Scene Understanding"
+        }
+      ]
+    },
+    {
+      "id": "ai-video-analysis",
+      "name": "Video Analysis",
+      "category": "Computer Vision (CV)",
+      "topics": [
+        {
+          "id": "ai-video-analysis-1",
+          "name": "Action Recognition"
+        },
+        {
+          "id": "ai-video-analysis-2",
+          "name": "Video Classification"
+        },
+        {
+          "id": "ai-video-analysis-3",
+          "name": "Object Tracking"
+        },
+        {
+          "id": "ai-video-analysis-4",
+          "name": "Video Segmentation"
+        },
+        {
+          "id": "ai-video-analysis-5",
+          "name": "Temporal Modeling"
+        },
+        {
+          "id": "ai-video-analysis-6",
+          "name": "Optical Flow"
+        }
+      ]
+    },
+    {
+      "id": "ai-3d-computer-vision",
+      "name": "3D Computer Vision",
+      "category": "Computer Vision (CV)",
+      "topics": [
+        {
+          "id": "ai-3d-computer-vision-1",
+          "name": "Depth Estimation"
+        },
+        {
+          "id": "ai-3d-computer-vision-2",
+          "name": "3D Reconstruction"
+        },
+        {
+          "id": "ai-3d-computer-vision-3",
+          "name": "Structure from Motion"
+        },
+        {
+          "id": "ai-3d-computer-vision-4",
+          "name": "SLAM (Simultaneous Localization and Mapping)"
+        },
+        {
+          "id": "ai-3d-computer-vision-5",
+          "name": "Point Cloud Processing"
+        },
+        {
+          "id": "ai-3d-computer-vision-6",
+          "name": "Neural Radiance Fields (NeRF)"
+        },
+        {
+          "id": "ai-3d-computer-vision-7",
+          "name": "Gaussian Splatting"
+        },
+        {
+          "id": "ai-3d-computer-vision-8",
+          "name": "Multi-view Geometry"
+        },
+        {
+          "id": "ai-3d-computer-vision-9",
+          "name": "Stereo Vision"
+        }
+      ]
+    },
+    {
+      "id": "ai-generative-vision",
+      "name": "Generative Vision",
+      "category": "Computer Vision (CV)",
+      "topics": [
+        {
+          "id": "ai-generative-vision-1",
+          "name": "Image Generation"
+        },
+        {
+          "id": "ai-generative-vision-2",
+          "name": "Image-to-Image Translation"
+        },
+        {
+          "id": "ai-generative-vision-3",
+          "name": "Super-Resolution"
+        },
+        {
+          "id": "ai-generative-vision-4",
+          "name": "Inpainting"
+        },
+        {
+          "id": "ai-generative-vision-5",
+          "name": "Style Transfer"
+        },
+        {
+          "id": "ai-generative-vision-6",
+          "name": "Image Editing"
+        },
+        {
+          "id": "ai-generative-vision-7",
+          "name": "Virtual Try-On"
+        }
+      ]
+    },
+    {
+      "id": "ai-vision-language-models",
+      "name": "Vision-Language Models",
+      "category": "Multimodal AI",
+      "topics": [
+        {
+          "id": "ai-vision-language-models-1",
+          "name": "Image Captioning"
+        },
+        {
+          "id": "ai-vision-language-models-2",
+          "name": "Visual Question Answering (VQA)"
+        },
+        {
+          "id": "ai-vision-language-models-3",
+          "name": "CLIP and variants"
+        },
+        {
+          "id": "ai-vision-language-models-4",
+          "name": "BLIP, BLIP-2"
+        },
+        {
+          "id": "ai-vision-language-models-5",
+          "name": "Flamingo"
+        },
+        {
+          "id": "ai-vision-language-models-6",
+          "name": "LLaVA"
+        },
+        {
+          "id": "ai-vision-language-models-7",
+          "name": "GPT-4V"
+        },
+        {
+          "id": "ai-vision-language-models-8",
+          "name": "Gemini"
+        }
+      ]
+    },
+    {
+      "id": "ai-audio-visual-learning",
+      "name": "Audio-Visual Learning",
+      "category": "Multimodal AI",
+      "topics": [
+        {
+          "id": "ai-audio-visual-learning-1",
+          "name": "Audio-Visual Speech Recognition"
+        },
+        {
+          "id": "ai-audio-visual-learning-2",
+          "name": "Sound Source Localization"
+        },
+        {
+          "id": "ai-audio-visual-learning-3",
+          "name": "Video-Audio Generation"
+        }
+      ]
+    },
+    {
+      "id": "ai-multimodal-fusion",
+      "name": "Multimodal Fusion",
+      "category": "Multimodal AI",
+      "topics": [
+        {
+          "id": "ai-multimodal-fusion-1",
+          "name": "Early Fusion"
+        },
+        {
+          "id": "ai-multimodal-fusion-2",
+          "name": "Late Fusion"
+        },
+        {
+          "id": "ai-multimodal-fusion-3",
+          "name": "Cross-modal Attention"
+        },
+        {
+          "id": "ai-multimodal-fusion-4",
+          "name": "Multimodal Transformers"
+        }
+      ]
+    },
+    {
+      "id": "ai-cross-modal-generation",
+      "name": "Cross-Modal Generation",
+      "category": "Multimodal AI",
+      "topics": [
+        {
+          "id": "ai-cross-modal-generation-1",
+          "name": "Text-to-Image"
+        },
+        {
+          "id": "ai-cross-modal-generation-2",
+          "name": "Image-to-Text"
+        },
+        {
+          "id": "ai-cross-modal-generation-3",
+          "name": "Text-to-Video"
+        },
+        {
+          "id": "ai-cross-modal-generation-4",
+          "name": "Text-to-Audio"
+        },
+        {
+          "id": "ai-cross-modal-generation-5",
+          "name": "Text-to-3D"
+        },
+        {
+          "id": "ai-cross-modal-generation-6",
+          "name": "Any-to-Any Models"
+        }
+      ]
+    },
+    {
+      "id": "ai-programming-tools",
+      "name": "Programming & Tools",
+      "category": "Data Science",
+      "topics": [
+        {
+          "id": "ai-programming-tools-1",
+          "name": "Programming Languages",
+          "sub": [
+            {
+              "id": "ai-programming-tools-1-1",
+              "name": "Python"
+            },
+            {
+              "id": "ai-programming-tools-1-2",
+              "name": "R"
+            },
+            {
+              "id": "ai-programming-tools-1-3",
+              "name": "SQL"
+            },
+            {
+              "id": "ai-programming-tools-1-4",
+              "name": "Julia"
+            }
+          ]
+        },
+        {
+          "id": "ai-programming-tools-2",
+          "name": "Core Libraries",
+          "sub": [
+            {
+              "id": "ai-programming-tools-2-1",
+              "name": "NumPy"
+            },
+            {
+              "id": "ai-programming-tools-2-2",
+              "name": "Pandas"
+            },
+            {
+              "id": "ai-programming-tools-2-3",
+              "name": "SciPy"
+            },
+            {
+              "id": "ai-programming-tools-2-4",
+              "name": "scikit-learn"
+            }
+          ]
+        },
+        {
+          "id": "ai-programming-tools-3",
+          "name": "Visualization Libraries",
+          "sub": [
+            {
+              "id": "ai-programming-tools-3-1",
+              "name": "Matplotlib"
+            },
+            {
+              "id": "ai-programming-tools-3-2",
+              "name": "Seaborn"
+            },
+            {
+              "id": "ai-programming-tools-3-3",
+              "name": "Plotly"
+            },
+            {
+              "id": "ai-programming-tools-3-4",
+              "name": "Bokeh"
+            },
+            {
+              "id": "ai-programming-tools-3-5",
+              "name": "Altair"
+            }
+          ]
+        },
+        {
+          "id": "ai-programming-tools-4",
+          "name": "BI Tools",
+          "sub": [
+            {
+              "id": "ai-programming-tools-4-1",
+              "name": "Tableau"
+            },
+            {
+              "id": "ai-programming-tools-4-2",
+              "name": "Power BI"
+            },
+            {
+              "id": "ai-programming-tools-4-3",
+              "name": "Looker"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-mathematics-statistics",
+      "name": "Mathematics & Statistics",
+      "category": "Data Science",
+      "topics": [
+        {
+          "id": "ai-mathematics-statistics-1",
+          "name": "Linear Algebra",
+          "sub": [
+            {
+              "id": "ai-mathematics-statistics-1-1",
+              "name": "Vectors and matrices"
+            },
+            {
+              "id": "ai-mathematics-statistics-1-2",
+              "name": "Eigendecomposition"
+            },
+            {
+              "id": "ai-mathematics-statistics-1-3",
+              "name": "SVD"
+            }
+          ]
+        },
+        {
+          "id": "ai-mathematics-statistics-2",
+          "name": "Calculus",
+          "sub": [
+            {
+              "id": "ai-mathematics-statistics-2-1",
+              "name": "Derivatives"
+            },
+            {
+              "id": "ai-mathematics-statistics-2-2",
+              "name": "Gradients"
+            },
+            {
+              "id": "ai-mathematics-statistics-2-3",
+              "name": "Chain rule"
+            },
+            {
+              "id": "ai-mathematics-statistics-2-4",
+              "name": "Optimization"
+            }
+          ]
+        },
+        {
+          "id": "ai-mathematics-statistics-3",
+          "name": "Probability Theory",
+          "sub": [
+            {
+              "id": "ai-mathematics-statistics-3-1",
+              "name": "Probability distributions"
+            },
+            {
+              "id": "ai-mathematics-statistics-3-2",
+              "name": "Conditional probability"
+            },
+            {
+              "id": "ai-mathematics-statistics-3-3",
+              "name": "Bayes' theorem"
+            }
+          ]
+        },
+        {
+          "id": "ai-mathematics-statistics-4",
+          "name": "Statistics",
+          "sub": [
+            {
+              "id": "ai-mathematics-statistics-4-1",
+              "name": "Descriptive statistics"
+            },
+            {
+              "id": "ai-mathematics-statistics-4-2",
+              "name": "Inferential statistics"
+            },
+            {
+              "id": "ai-mathematics-statistics-4-3",
+              "name": "Hypothesis testing"
+            },
+            {
+              "id": "ai-mathematics-statistics-4-4",
+              "name": "Confidence intervals"
+            },
+            {
+              "id": "ai-mathematics-statistics-4-5",
+              "name": "Statistical significance"
+            }
+          ]
+        },
+        {
+          "id": "ai-mathematics-statistics-5",
+          "name": "Regression Analysis"
+        },
+        {
+          "id": "ai-mathematics-statistics-6",
+          "name": "Time Series Analysis",
+          "sub": [
+            {
+              "id": "ai-mathematics-statistics-6-1",
+              "name": "ARIMA"
+            },
+            {
+              "id": "ai-mathematics-statistics-6-2",
+              "name": "Exponential smoothing"
+            },
+            {
+              "id": "ai-mathematics-statistics-6-3",
+              "name": "Seasonal decomposition"
+            },
+            {
+              "id": "ai-mathematics-statistics-6-4",
+              "name": "Prophet"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-data-engineering",
+      "name": "Data Engineering",
+      "category": "Data Science",
+      "topics": [
+        {
+          "id": "ai-data-engineering-1",
+          "name": "Data Pipelines"
+        },
+        {
+          "id": "ai-data-engineering-2",
+          "name": "ETL/ELT Processes"
+        },
+        {
+          "id": "ai-data-engineering-3",
+          "name": "Data Warehousing"
+        },
+        {
+          "id": "ai-data-engineering-4",
+          "name": "Data Lakes"
+        },
+        {
+          "id": "ai-data-engineering-5",
+          "name": "Data Modeling"
+        },
+        {
+          "id": "ai-data-engineering-6",
+          "name": "Data Quality"
+        },
+        {
+          "id": "ai-data-engineering-7",
+          "name": "Master Data Management"
+        }
+      ]
+    },
+    {
+      "id": "ai-exploratory-data-analysis-eda",
+      "name": "Exploratory Data Analysis (EDA)",
+      "category": "Data Science",
+      "topics": [
+        {
+          "id": "ai-exploratory-data-analysis-eda-1",
+          "name": "Data Profiling"
+        },
+        {
+          "id": "ai-exploratory-data-analysis-eda-2",
+          "name": "Distribution Analysis"
+        },
+        {
+          "id": "ai-exploratory-data-analysis-eda-3",
+          "name": "Correlation Analysis"
+        },
+        {
+          "id": "ai-exploratory-data-analysis-eda-4",
+          "name": "Visualization Techniques"
+        },
+        {
+          "id": "ai-exploratory-data-analysis-eda-5",
+          "name": "Missing Data Analysis"
+        },
+        {
+          "id": "ai-exploratory-data-analysis-eda-6",
+          "name": "Outlier Detection"
+        }
+      ]
+    },
+    {
+      "id": "ai-big-data-technologies",
+      "name": "Big Data Technologies",
+      "category": "Data Science",
+      "topics": [
+        {
+          "id": "ai-big-data-technologies-1",
+          "name": "Hadoop Ecosystem",
+          "sub": [
+            {
+              "id": "ai-big-data-technologies-1-1",
+              "name": "HDFS"
+            },
+            {
+              "id": "ai-big-data-technologies-1-2",
+              "name": "MapReduce"
+            },
+            {
+              "id": "ai-big-data-technologies-1-3",
+              "name": "Hive"
+            },
+            {
+              "id": "ai-big-data-technologies-1-4",
+              "name": "Pig"
+            }
+          ]
+        },
+        {
+          "id": "ai-big-data-technologies-2",
+          "name": "Apache Spark"
+        },
+        {
+          "id": "ai-big-data-technologies-3",
+          "name": "Apache Kafka"
+        },
+        {
+          "id": "ai-big-data-technologies-4",
+          "name": "Apache Flink"
+        },
+        {
+          "id": "ai-big-data-technologies-5",
+          "name": "Distributed Computing"
+        },
+        {
+          "id": "ai-big-data-technologies-6",
+          "name": "Stream Processing"
+        }
+      ]
+    },
+    {
+      "id": "ai-databases",
+      "name": "Databases",
+      "category": "Data Science",
+      "topics": [
+        {
+          "id": "ai-databases-1",
+          "name": "Relational Databases (SQL)",
+          "sub": [
+            {
+              "id": "ai-databases-1-1",
+              "name": "MySQL"
+            },
+            {
+              "id": "ai-databases-1-2",
+              "name": "PostgreSQL"
+            },
+            {
+              "id": "ai-databases-1-3",
+              "name": "Oracle"
+            }
+          ]
+        },
+        {
+          "id": "ai-databases-2",
+          "name": "NoSQL Databases",
+          "sub": [
+            {
+              "id": "ai-databases-2-1",
+              "name": "MongoDB (Document)"
+            },
+            {
+              "id": "ai-databases-2-2",
+              "name": "Cassandra (Wide-column)"
+            },
+            {
+              "id": "ai-databases-2-3",
+              "name": "Redis (Key-value)"
+            },
+            {
+              "id": "ai-databases-2-4",
+              "name": "Neo4j (Graph)"
+            }
+          ]
+        },
+        {
+          "id": "ai-databases-3",
+          "name": "Vector Databases",
+          "sub": [
+            {
+              "id": "ai-databases-3-1",
+              "name": "Pinecone"
+            },
+            {
+              "id": "ai-databases-3-2",
+              "name": "Weaviate"
+            },
+            {
+              "id": "ai-databases-3-3",
+              "name": "Milvus"
+            },
+            {
+              "id": "ai-databases-3-4",
+              "name": "Chroma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-business-analytics",
+      "name": "Business Analytics",
+      "category": "Data Science",
+      "topics": [
+        {
+          "id": "ai-business-analytics-1",
+          "name": "A/B Testing"
+        },
+        {
+          "id": "ai-business-analytics-2",
+          "name": "Experimentation Platforms"
+        },
+        {
+          "id": "ai-business-analytics-3",
+          "name": "Causal Inference for Business"
+        },
+        {
+          "id": "ai-business-analytics-4",
+          "name": "Customer Analytics",
+          "sub": [
+            {
+              "id": "ai-business-analytics-4-1",
+              "name": "Segmentation"
+            },
+            {
+              "id": "ai-business-analytics-4-2",
+              "name": "Churn prediction"
+            },
+            {
+              "id": "ai-business-analytics-4-3",
+              "name": "Lifetime value"
+            }
+          ]
+        },
+        {
+          "id": "ai-business-analytics-5",
+          "name": "Marketing Analytics"
+        },
+        {
+          "id": "ai-business-analytics-6",
+          "name": "Product Analytics"
+        },
+        {
+          "id": "ai-business-analytics-7",
+          "name": "Forecasting"
+        },
+        {
+          "id": "ai-business-analytics-8",
+          "name": "Recommendation Systems"
+        }
+      ]
+    },
+    {
+      "id": "ai-data-mining",
+      "name": "Data Mining",
+      "category": "Data Science",
+      "topics": [
+        {
+          "id": "ai-data-mining-1",
+          "name": "Pattern Discovery"
+        },
+        {
+          "id": "ai-data-mining-2",
+          "name": "Association Rules"
+        },
+        {
+          "id": "ai-data-mining-3",
+          "name": "Sequential Pattern Mining"
+        },
+        {
+          "id": "ai-data-mining-4",
+          "name": "Anomaly Detection"
+        },
+        {
+          "id": "ai-data-mining-5",
+          "name": "Link Analysis"
+        }
+      ]
+    },
+    {
+      "id": "ai-ml-lifecycle-management",
+      "name": "ML Lifecycle Management",
+      "category": "MLOps & ML Engineering",
+      "topics": [
+        {
+          "id": "ai-ml-lifecycle-management-1",
+          "name": "Experiment Tracking",
+          "sub": [
+            {
+              "id": "ai-ml-lifecycle-management-1-1",
+              "name": "MLflow"
+            },
+            {
+              "id": "ai-ml-lifecycle-management-1-2",
+              "name": "Weights & Biases"
+            },
+            {
+              "id": "ai-ml-lifecycle-management-1-3",
+              "name": "Neptune"
+            }
+          ]
+        },
+        {
+          "id": "ai-ml-lifecycle-management-2",
+          "name": "Version Control for ML",
+          "sub": [
+            {
+              "id": "ai-ml-lifecycle-management-2-1",
+              "name": "DVC"
+            },
+            {
+              "id": "ai-ml-lifecycle-management-2-2",
+              "name": "Git-LFS"
+            }
+          ]
+        },
+        {
+          "id": "ai-ml-lifecycle-management-3",
+          "name": "Model Registry"
+        },
+        {
+          "id": "ai-ml-lifecycle-management-4",
+          "name": "Reproducibility"
+        }
+      ]
+    },
+    {
+      "id": "ai-model-deployment",
+      "name": "Model Deployment",
+      "category": "MLOps & ML Engineering",
+      "topics": [
+        {
+          "id": "ai-model-deployment-1",
+          "name": "Model Serving",
+          "sub": [
+            {
+              "id": "ai-model-deployment-1-1",
+              "name": "TensorFlow Serving"
+            },
+            {
+              "id": "ai-model-deployment-1-2",
+              "name": "TorchServe"
+            },
+            {
+              "id": "ai-model-deployment-1-3",
+              "name": "Triton Inference Server"
+            }
+          ]
+        },
+        {
+          "id": "ai-model-deployment-2",
+          "name": "API Development",
+          "sub": [
+            {
+              "id": "ai-model-deployment-2-1",
+              "name": "REST APIs"
+            },
+            {
+              "id": "ai-model-deployment-2-2",
+              "name": "gRPC"
+            },
+            {
+              "id": "ai-model-deployment-2-3",
+              "name": "FastAPI"
+            }
+          ]
+        },
+        {
+          "id": "ai-model-deployment-3",
+          "name": "Containerization",
+          "sub": [
+            {
+              "id": "ai-model-deployment-3-1",
+              "name": "Docker"
+            },
+            {
+              "id": "ai-model-deployment-3-2",
+              "name": "Kubernetes"
+            }
+          ]
+        },
+        {
+          "id": "ai-model-deployment-4",
+          "name": "Serverless ML"
+        },
+        {
+          "id": "ai-model-deployment-5",
+          "name": "Edge Deployment"
+        }
+      ]
+    },
+    {
+      "id": "ai-feature-engineering-at-scale",
+      "name": "Feature Engineering at Scale",
+      "category": "MLOps & ML Engineering",
+      "topics": [
+        {
+          "id": "ai-feature-engineering-at-scale-1",
+          "name": "Feature Stores",
+          "sub": [
+            {
+              "id": "ai-feature-engineering-at-scale-1-1",
+              "name": "Feast"
+            },
+            {
+              "id": "ai-feature-engineering-at-scale-1-2",
+              "name": "Tecton"
+            }
+          ]
+        },
+        {
+          "id": "ai-feature-engineering-at-scale-2",
+          "name": "Feature Pipelines"
+        },
+        {
+          "id": "ai-feature-engineering-at-scale-3",
+          "name": "Online vs. Offline Features"
+        }
+      ]
+    },
+    {
+      "id": "ai-monitoring-maintenance",
+      "name": "Monitoring & Maintenance",
+      "category": "MLOps & ML Engineering",
+      "topics": [
+        {
+          "id": "ai-monitoring-maintenance-1",
+          "name": "Model Monitoring"
+        },
+        {
+          "id": "ai-monitoring-maintenance-2",
+          "name": "Data Drift Detection"
+        },
+        {
+          "id": "ai-monitoring-maintenance-3",
+          "name": "Concept Drift"
+        },
+        {
+          "id": "ai-monitoring-maintenance-4",
+          "name": "Model Degradation"
+        },
+        {
+          "id": "ai-monitoring-maintenance-5",
+          "name": "Alerting Systems"
+        },
+        {
+          "id": "ai-monitoring-maintenance-6",
+          "name": "A/B Testing in Production"
+        },
+        {
+          "id": "ai-monitoring-maintenance-7",
+          "name": "Shadow Deployment"
+        },
+        {
+          "id": "ai-monitoring-maintenance-8",
+          "name": "Canary Releases"
+        }
+      ]
+    },
+    {
+      "id": "ai-cloud-ml-platforms",
+      "name": "Cloud ML Platforms",
+      "category": "MLOps & ML Engineering",
+      "topics": [
+        {
+          "id": "ai-cloud-ml-platforms-1",
+          "name": "AWS SageMaker"
+        },
+        {
+          "id": "ai-cloud-ml-platforms-2",
+          "name": "Google Cloud Vertex AI"
+        },
+        {
+          "id": "ai-cloud-ml-platforms-3",
+          "name": "Azure Machine Learning"
+        },
+        {
+          "id": "ai-cloud-ml-platforms-4",
+          "name": "Databricks"
+        }
+      ]
+    },
+    {
+      "id": "ai-robot-fundamentals",
+      "name": "Robot Fundamentals",
+      "category": "Robotics",
+      "topics": [
+        {
+          "id": "ai-robot-fundamentals-1",
+          "name": "Robot Morphology",
+          "sub": [
+            {
+              "id": "ai-robot-fundamentals-1-1",
+              "name": "Serial robots"
+            },
+            {
+              "id": "ai-robot-fundamentals-1-2",
+              "name": "Parallel robots"
+            },
+            {
+              "id": "ai-robot-fundamentals-1-3",
+              "name": "Mobile robots"
+            },
+            {
+              "id": "ai-robot-fundamentals-1-4",
+              "name": "Humanoid robots"
+            }
+          ]
+        },
+        {
+          "id": "ai-robot-fundamentals-2",
+          "name": "Degrees of Freedom"
+        },
+        {
+          "id": "ai-robot-fundamentals-3",
+          "name": "Workspace Analysis"
+        },
+        {
+          "id": "ai-robot-fundamentals-4",
+          "name": "Robot Components",
+          "sub": [
+            {
+              "id": "ai-robot-fundamentals-4-1",
+              "name": "Links and joints"
+            },
+            {
+              "id": "ai-robot-fundamentals-4-2",
+              "name": "End effectors"
+            },
+            {
+              "id": "ai-robot-fundamentals-4-3",
+              "name": "Grippers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-kinematics-dynamics",
+      "name": "Kinematics & Dynamics",
+      "category": "Robotics",
+      "topics": [
+        {
+          "id": "ai-kinematics-dynamics-1",
+          "name": "Forward Kinematics"
+        },
+        {
+          "id": "ai-kinematics-dynamics-2",
+          "name": "Inverse Kinematics"
+        },
+        {
+          "id": "ai-kinematics-dynamics-3",
+          "name": "Denavit-Hartenberg Parameters"
+        },
+        {
+          "id": "ai-kinematics-dynamics-4",
+          "name": "Jacobian Matrix"
+        },
+        {
+          "id": "ai-kinematics-dynamics-5",
+          "name": "Velocity Kinematics"
+        },
+        {
+          "id": "ai-kinematics-dynamics-6",
+          "name": "Robot Dynamics",
+          "sub": [
+            {
+              "id": "ai-kinematics-dynamics-6-1",
+              "name": "Newton-Euler formulation"
+            },
+            {
+              "id": "ai-kinematics-dynamics-6-2",
+              "name": "Lagrangian formulation"
+            }
+          ]
+        },
+        {
+          "id": "ai-kinematics-dynamics-7",
+          "name": "Manipulator Dynamics"
+        }
+      ]
+    },
+    {
+      "id": "ai-actuators-sensors",
+      "name": "Actuators & Sensors",
+      "category": "Robotics",
+      "topics": [
+        {
+          "id": "ai-actuators-sensors-1",
+          "name": "Actuators",
+          "sub": [
+            {
+              "id": "ai-actuators-sensors-1-1",
+              "name": "Electric motors (DC, stepper, servo)"
+            },
+            {
+              "id": "ai-actuators-sensors-1-2",
+              "name": "Hydraulic actuators"
+            },
+            {
+              "id": "ai-actuators-sensors-1-3",
+              "name": "Pneumatic actuators"
+            },
+            {
+              "id": "ai-actuators-sensors-1-4",
+              "name": "Shape memory alloys"
+            }
+          ]
+        },
+        {
+          "id": "ai-actuators-sensors-2",
+          "name": "Proprioceptive Sensors",
+          "sub": [
+            {
+              "id": "ai-actuators-sensors-2-1",
+              "name": "Encoders"
+            },
+            {
+              "id": "ai-actuators-sensors-2-2",
+              "name": "Gyroscopes"
+            },
+            {
+              "id": "ai-actuators-sensors-2-3",
+              "name": "Accelerometers"
+            },
+            {
+              "id": "ai-actuators-sensors-2-4",
+              "name": "Force/torque sensors"
+            }
+          ]
+        },
+        {
+          "id": "ai-actuators-sensors-3",
+          "name": "Exteroceptive Sensors",
+          "sub": [
+            {
+              "id": "ai-actuators-sensors-3-1",
+              "name": "Cameras (RGB, depth, stereo)"
+            },
+            {
+              "id": "ai-actuators-sensors-3-2",
+              "name": "LIDAR"
+            },
+            {
+              "id": "ai-actuators-sensors-3-3",
+              "name": "RADAR"
+            },
+            {
+              "id": "ai-actuators-sensors-3-4",
+              "name": "Ultrasonic sensors"
+            },
+            {
+              "id": "ai-actuators-sensors-3-5",
+              "name": "Tactile sensors"
+            }
+          ]
+        },
+        {
+          "id": "ai-actuators-sensors-4",
+          "name": "Sensor Fusion"
+        }
+      ]
+    },
+    {
+      "id": "ai-control-systems",
+      "name": "Control Systems",
+      "category": "Robotics",
+      "topics": [
+        {
+          "id": "ai-control-systems-1",
+          "name": "Classical Control",
+          "sub": [
+            {
+              "id": "ai-control-systems-1-1",
+              "name": "PID control"
+            },
+            {
+              "id": "ai-control-systems-1-2",
+              "name": "Lead-lag compensators"
+            }
+          ]
+        },
+        {
+          "id": "ai-control-systems-2",
+          "name": "Modern Control",
+          "sub": [
+            {
+              "id": "ai-control-systems-2-1",
+              "name": "State-space representation"
+            },
+            {
+              "id": "ai-control-systems-2-2",
+              "name": "Pole placement"
+            }
+          ]
+        },
+        {
+          "id": "ai-control-systems-3",
+          "name": "Optimal Control",
+          "sub": [
+            {
+              "id": "ai-control-systems-3-1",
+              "name": "LQR (Linear Quadratic Regulator)"
+            },
+            {
+              "id": "ai-control-systems-3-2",
+              "name": "LQG (Linear Quadratic Gaussian)"
+            }
+          ]
+        },
+        {
+          "id": "ai-control-systems-4",
+          "name": "Nonlinear Control",
+          "sub": [
+            {
+              "id": "ai-control-systems-4-1",
+              "name": "Feedback linearization"
+            },
+            {
+              "id": "ai-control-systems-4-2",
+              "name": "Sliding mode control"
+            },
+            {
+              "id": "ai-control-systems-4-3",
+              "name": "Lyapunov methods"
+            }
+          ]
+        },
+        {
+          "id": "ai-control-systems-5",
+          "name": "Robust Control",
+          "sub": [
+            {
+              "id": "ai-control-systems-5-1",
+              "name": "H∞ control"
+            },
+            {
+              "id": "ai-control-systems-5-2",
+              "name": "μ-synthesis"
+            }
+          ]
+        },
+        {
+          "id": "ai-control-systems-6",
+          "name": "Model Predictive Control (MPC)"
+        },
+        {
+          "id": "ai-control-systems-7",
+          "name": "Adaptive Control"
+        },
+        {
+          "id": "ai-control-systems-8",
+          "name": "Force Control",
+          "sub": [
+            {
+              "id": "ai-control-systems-8-1",
+              "name": "Impedance control"
+            },
+            {
+              "id": "ai-control-systems-8-2",
+              "name": "Admittance control"
+            },
+            {
+              "id": "ai-control-systems-8-3",
+              "name": "Hybrid force/position control"
+            }
+          ]
+        },
+        {
+          "id": "ai-control-systems-9",
+          "name": "Visual Servoing"
+        }
+      ]
+    },
+    {
+      "id": "ai-motion-planning-navigation",
+      "name": "Motion Planning & Navigation",
+      "category": "Robotics",
+      "topics": [
+        {
+          "id": "ai-motion-planning-navigation-1",
+          "name": "Path Planning",
+          "sub": [
+            {
+              "id": "ai-motion-planning-navigation-1-1",
+              "name": "A\\"
+            },
+            {
+              "id": "ai-motion-planning-navigation-1-2",
+              "name": "Dijkstra's algorithm"
+            },
+            {
+              "id": "ai-motion-planning-navigation-1-3",
+              "name": "D and D Lite"
+            }
+          ]
+        },
+        {
+          "id": "ai-motion-planning-navigation-2",
+          "name": "Sampling-Based Planning",
+          "sub": [
+            {
+              "id": "ai-motion-planning-navigation-2-1",
+              "name": "Rapidly-exploring Random Trees (RRT)"
+            },
+            {
+              "id": "ai-motion-planning-navigation-2-2",
+              "name": "RRT\\"
+            },
+            {
+              "id": "ai-motion-planning-navigation-2-3",
+              "name": "Probabilistic Roadmaps (PRM)"
+            }
+          ]
+        },
+        {
+          "id": "ai-motion-planning-navigation-3",
+          "name": "Trajectory Optimization",
+          "sub": [
+            {
+              "id": "ai-motion-planning-navigation-3-1",
+              "name": "Minimum jerk"
+            },
+            {
+              "id": "ai-motion-planning-navigation-3-2",
+              "name": "Time-optimal trajectories"
+            }
+          ]
+        },
+        {
+          "id": "ai-motion-planning-navigation-4",
+          "name": "Motion Primitives"
+        },
+        {
+          "id": "ai-motion-planning-navigation-5",
+          "name": "SLAM (Simultaneous Localization and Mapping)",
+          "sub": [
+            {
+              "id": "ai-motion-planning-navigation-5-1",
+              "name": "EKF-SLAM"
+            },
+            {
+              "id": "ai-motion-planning-navigation-5-2",
+              "name": "FastSLAM"
+            },
+            {
+              "id": "ai-motion-planning-navigation-5-3",
+              "name": "Graph-based SLAM"
+            },
+            {
+              "id": "ai-motion-planning-navigation-5-4",
+              "name": "Visual SLAM"
+            },
+            {
+              "id": "ai-motion-planning-navigation-5-5",
+              "name": "LiDAR SLAM"
+            }
+          ]
+        },
+        {
+          "id": "ai-motion-planning-navigation-6",
+          "name": "Localization",
+          "sub": [
+            {
+              "id": "ai-motion-planning-navigation-6-1",
+              "name": "Kalman filters"
+            },
+            {
+              "id": "ai-motion-planning-navigation-6-2",
+              "name": "Extended Kalman filters"
+            },
+            {
+              "id": "ai-motion-planning-navigation-6-3",
+              "name": "Unscented Kalman filters"
+            },
+            {
+              "id": "ai-motion-planning-navigation-6-4",
+              "name": "Particle filters"
+            },
+            {
+              "id": "ai-motion-planning-navigation-6-5",
+              "name": "Monte Carlo localization"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-robot-perception",
+      "name": "Robot Perception",
+      "category": "Robotics",
+      "topics": [
+        {
+          "id": "ai-robot-perception-1",
+          "name": "Computer Vision for Robotics"
+        },
+        {
+          "id": "ai-robot-perception-2",
+          "name": "Object Recognition"
+        },
+        {
+          "id": "ai-robot-perception-3",
+          "name": "Pose Estimation"
+        },
+        {
+          "id": "ai-robot-perception-4",
+          "name": "Scene Understanding"
+        },
+        {
+          "id": "ai-robot-perception-5",
+          "name": "3D Reconstruction"
+        },
+        {
+          "id": "ai-robot-perception-6",
+          "name": "Depth Perception"
+        },
+        {
+          "id": "ai-robot-perception-7",
+          "name": "Visual Odometry"
+        }
+      ]
+    },
+    {
+      "id": "ai-manipulation",
+      "name": "Manipulation",
+      "category": "Robotics",
+      "topics": [
+        {
+          "id": "ai-manipulation-1",
+          "name": "Grasping",
+          "sub": [
+            {
+              "id": "ai-manipulation-1-1",
+              "name": "Grasp planning"
+            },
+            {
+              "id": "ai-manipulation-1-2",
+              "name": "Grasp synthesis"
+            },
+            {
+              "id": "ai-manipulation-1-3",
+              "name": "Force closure"
+            }
+          ]
+        },
+        {
+          "id": "ai-manipulation-2",
+          "name": "Object Manipulation"
+        },
+        {
+          "id": "ai-manipulation-3",
+          "name": "Dexterous Manipulation"
+        },
+        {
+          "id": "ai-manipulation-4",
+          "name": "Contact Dynamics"
+        },
+        {
+          "id": "ai-manipulation-5",
+          "name": "Task and Motion Planning (TAMP)"
+        }
+      ]
+    },
+    {
+      "id": "ai-types-of-robots-applications",
+      "name": "Types of Robots & Applications",
+      "category": "Robotics",
+      "topics": [
+        {
+          "id": "ai-types-of-robots-applications-1",
+          "name": "Industrial Robotics",
+          "sub": [
+            {
+              "id": "ai-types-of-robots-applications-1-1",
+              "name": "Manufacturing robots"
+            },
+            {
+              "id": "ai-types-of-robots-applications-1-2",
+              "name": "Assembly robots"
+            },
+            {
+              "id": "ai-types-of-robots-applications-1-3",
+              "name": "Welding robots"
+            }
+          ]
+        },
+        {
+          "id": "ai-types-of-robots-applications-2",
+          "name": "Autonomous Vehicles",
+          "sub": [
+            {
+              "id": "ai-types-of-robots-applications-2-1",
+              "name": "Self-driving cars"
+            },
+            {
+              "id": "ai-types-of-robots-applications-2-2",
+              "name": "Perception systems"
+            },
+            {
+              "id": "ai-types-of-robots-applications-2-3",
+              "name": "Decision making"
+            },
+            {
+              "id": "ai-types-of-robots-applications-2-4",
+              "name": "V2X communication"
+            }
+          ]
+        },
+        {
+          "id": "ai-types-of-robots-applications-3",
+          "name": "Unmanned Aerial Vehicles (UAVs/Drones)",
+          "sub": [
+            {
+              "id": "ai-types-of-robots-applications-3-1",
+              "name": "Quadcopters"
+            },
+            {
+              "id": "ai-types-of-robots-applications-3-2",
+              "name": "Fixed-wing UAVs"
+            },
+            {
+              "id": "ai-types-of-robots-applications-3-3",
+              "name": "Flight control"
+            }
+          ]
+        },
+        {
+          "id": "ai-types-of-robots-applications-4",
+          "name": "Autonomous Mobile Robots (AMRs)"
+        },
+        {
+          "id": "ai-types-of-robots-applications-5",
+          "name": "Legged Robots",
+          "sub": [
+            {
+              "id": "ai-types-of-robots-applications-5-1",
+              "name": "Bipeds"
+            },
+            {
+              "id": "ai-types-of-robots-applications-5-2",
+              "name": "Quadrupeds"
+            },
+            {
+              "id": "ai-types-of-robots-applications-5-3",
+              "name": "Hexapods"
+            }
+          ]
+        },
+        {
+          "id": "ai-types-of-robots-applications-6",
+          "name": "Humanoid Robots"
+        },
+        {
+          "id": "ai-types-of-robots-applications-7",
+          "name": "Medical & Healthcare Robotics",
+          "sub": [
+            {
+              "id": "ai-types-of-robots-applications-7-1",
+              "name": "Surgical robots"
+            },
+            {
+              "id": "ai-types-of-robots-applications-7-2",
+              "name": "Rehabilitation robots"
+            },
+            {
+              "id": "ai-types-of-robots-applications-7-3",
+              "name": "Assistive robots"
+            }
+          ]
+        },
+        {
+          "id": "ai-types-of-robots-applications-8",
+          "name": "Agricultural Robotics"
+        },
+        {
+          "id": "ai-types-of-robots-applications-9",
+          "name": "Space Robotics"
+        },
+        {
+          "id": "ai-types-of-robots-applications-10",
+          "name": "Underwater Robotics (AUVs/ROVs)"
+        },
+        {
+          "id": "ai-types-of-robots-applications-11",
+          "name": "Soft Robotics"
+        },
+        {
+          "id": "ai-types-of-robots-applications-12",
+          "name": "Swarm Robotics"
+        },
+        {
+          "id": "ai-types-of-robots-applications-13",
+          "name": "Micro/Nano Robotics"
+        }
+      ]
+    },
+    {
+      "id": "ai-human-robot-interaction-hri",
+      "name": "Human-Robot Interaction (HRI)",
+      "category": "Robotics",
+      "topics": [
+        {
+          "id": "ai-human-robot-interaction-hri-1",
+          "name": "Physical HRI"
+        },
+        {
+          "id": "ai-human-robot-interaction-hri-2",
+          "name": "Collaborative Robots (Cobots)"
+        },
+        {
+          "id": "ai-human-robot-interaction-hri-3",
+          "name": "Social Robotics"
+        },
+        {
+          "id": "ai-human-robot-interaction-hri-4",
+          "name": "Robot Communication",
+          "sub": [
+            {
+              "id": "ai-human-robot-interaction-hri-4-1",
+              "name": "Gesture recognition"
+            },
+            {
+              "id": "ai-human-robot-interaction-hri-4-2",
+              "name": "Speech interaction"
+            },
+            {
+              "id": "ai-human-robot-interaction-hri-4-3",
+              "name": "Gaze tracking"
+            }
+          ]
+        },
+        {
+          "id": "ai-human-robot-interaction-hri-5",
+          "name": "Safety in HRI"
+        },
+        {
+          "id": "ai-human-robot-interaction-hri-6",
+          "name": "Teleoperation"
+        },
+        {
+          "id": "ai-human-robot-interaction-hri-7",
+          "name": "Shared Autonomy"
+        }
+      ]
+    },
+    {
+      "id": "ai-robot-learning",
+      "name": "Robot Learning",
+      "category": "Robotics",
+      "topics": [
+        {
+          "id": "ai-robot-learning-1",
+          "name": "Learning from Demonstration"
+        },
+        {
+          "id": "ai-robot-learning-2",
+          "name": "Reinforcement Learning for Robotics"
+        },
+        {
+          "id": "ai-robot-learning-3",
+          "name": "Sim-to-Real Transfer"
+        },
+        {
+          "id": "ai-robot-learning-4",
+          "name": "Foundation Models for Robotics"
+        },
+        {
+          "id": "ai-robot-learning-5",
+          "name": "Robot Skill Learning"
+        },
+        {
+          "id": "ai-robot-learning-6",
+          "name": "Manipulation Policies"
+        }
+      ]
+    },
+    {
+      "id": "ai-hardware-for-ai",
+      "name": "Hardware for AI",
+      "category": "AI Systems & Infrastructure",
+      "topics": [
+        {
+          "id": "ai-hardware-for-ai-1",
+          "name": "GPU Computing",
+          "sub": [
+            {
+              "id": "ai-hardware-for-ai-1-1",
+              "name": "NVIDIA CUDA"
+            },
+            {
+              "id": "ai-hardware-for-ai-1-2",
+              "name": "GPU architectures"
+            }
+          ]
+        },
+        {
+          "id": "ai-hardware-for-ai-2",
+          "name": "TPUs (Tensor Processing Units)"
+        },
+        {
+          "id": "ai-hardware-for-ai-3",
+          "name": "FPGAs"
+        },
+        {
+          "id": "ai-hardware-for-ai-4",
+          "name": "ASICs for AI"
+        },
+        {
+          "id": "ai-hardware-for-ai-5",
+          "name": "Neuromorphic Computing"
+        },
+        {
+          "id": "ai-hardware-for-ai-6",
+          "name": "Quantum Computing for ML"
+        }
+      ]
+    },
+    {
+      "id": "ai-distributed-training",
+      "name": "Distributed Training",
+      "category": "AI Systems & Infrastructure",
+      "topics": [
+        {
+          "id": "ai-distributed-training-1",
+          "name": "Data Parallelism"
+        },
+        {
+          "id": "ai-distributed-training-2",
+          "name": "Model Parallelism"
+        },
+        {
+          "id": "ai-distributed-training-3",
+          "name": "Pipeline Parallelism"
+        },
+        {
+          "id": "ai-distributed-training-4",
+          "name": "Tensor Parallelism"
+        },
+        {
+          "id": "ai-distributed-training-5",
+          "name": "Zero Redundancy Optimizer (ZeRO)"
+        },
+        {
+          "id": "ai-distributed-training-6",
+          "name": "Distributed Frameworks",
+          "sub": [
+            {
+              "id": "ai-distributed-training-6-1",
+              "name": "Horovod"
+            },
+            {
+              "id": "ai-distributed-training-6-2",
+              "name": "PyTorch Distributed"
+            },
+            {
+              "id": "ai-distributed-training-6-3",
+              "name": "DeepSpeed"
+            },
+            {
+              "id": "ai-distributed-training-6-4",
+              "name": "FSDP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-inference-optimization",
+      "name": "Inference Optimization",
+      "category": "AI Systems & Infrastructure",
+      "topics": [
+        {
+          "id": "ai-inference-optimization-1",
+          "name": "Quantization",
+          "sub": [
+            {
+              "id": "ai-inference-optimization-1-1",
+              "name": "Post-training quantization"
+            },
+            {
+              "id": "ai-inference-optimization-1-2",
+              "name": "Quantization-aware training"
+            },
+            {
+              "id": "ai-inference-optimization-1-3",
+              "name": "INT8, INT4, FP16, BF16"
+            }
+          ]
+        },
+        {
+          "id": "ai-inference-optimization-2",
+          "name": "Pruning"
+        },
+        {
+          "id": "ai-inference-optimization-3",
+          "name": "Knowledge Distillation"
+        },
+        {
+          "id": "ai-inference-optimization-4",
+          "name": "Compilation",
+          "sub": [
+            {
+              "id": "ai-inference-optimization-4-1",
+              "name": "TensorRT"
+            },
+            {
+              "id": "ai-inference-optimization-4-2",
+              "name": "ONNX Runtime"
+            },
+            {
+              "id": "ai-inference-optimization-4-3",
+              "name": "TVM"
+            }
+          ]
+        },
+        {
+          "id": "ai-inference-optimization-5",
+          "name": "Batching Strategies"
+        },
+        {
+          "id": "ai-inference-optimization-6",
+          "name": "Caching"
+        }
+      ]
+    },
+    {
+      "id": "ai-edge-ai-embedded-ml",
+      "name": "Edge AI & Embedded ML",
+      "category": "AI Systems & Infrastructure",
+      "topics": [
+        {
+          "id": "ai-edge-ai-embedded-ml-1",
+          "name": "TinyML"
+        },
+        {
+          "id": "ai-edge-ai-embedded-ml-2",
+          "name": "On-device Inference"
+        },
+        {
+          "id": "ai-edge-ai-embedded-ml-3",
+          "name": "Mobile ML Frameworks",
+          "sub": [
+            {
+              "id": "ai-edge-ai-embedded-ml-3-1",
+              "name": "TensorFlow Lite"
+            },
+            {
+              "id": "ai-edge-ai-embedded-ml-3-2",
+              "name": "Core ML"
+            },
+            {
+              "id": "ai-edge-ai-embedded-ml-3-3",
+              "name": "NNAPI"
+            }
+          ]
+        },
+        {
+          "id": "ai-edge-ai-embedded-ml-4",
+          "name": "Edge Devices",
+          "sub": [
+            {
+              "id": "ai-edge-ai-embedded-ml-4-1",
+              "name": "NVIDIA Jetson"
+            },
+            {
+              "id": "ai-edge-ai-embedded-ml-4-2",
+              "name": "Google Coral"
+            },
+            {
+              "id": "ai-edge-ai-embedded-ml-4-3",
+              "name": "Raspberry Pi"
+            }
+          ]
+        },
+        {
+          "id": "ai-edge-ai-embedded-ml-5",
+          "name": "Model Optimization for Edge"
+        }
+      ]
+    },
+    {
+      "id": "ai-deep-learning-frameworks",
+      "name": "Deep Learning Frameworks",
+      "category": "AI Systems & Infrastructure",
+      "topics": [
+        {
+          "id": "ai-deep-learning-frameworks-1",
+          "name": "TensorFlow/Keras"
+        },
+        {
+          "id": "ai-deep-learning-frameworks-2",
+          "name": "PyTorch"
+        },
+        {
+          "id": "ai-deep-learning-frameworks-3",
+          "name": "JAX"
+        },
+        {
+          "id": "ai-deep-learning-frameworks-4",
+          "name": "MXNet"
+        },
+        {
+          "id": "ai-deep-learning-frameworks-5",
+          "name": "Caffe/Caffe2"
+        },
+        {
+          "id": "ai-deep-learning-frameworks-6",
+          "name": "ONNX"
+        }
+      ]
+    },
+    {
+      "id": "ai-optimization-theory",
+      "name": "Optimization Theory",
+      "category": "AI Theory & Foundations",
+      "topics": [
+        {
+          "id": "ai-optimization-theory-1",
+          "name": "Gradient Descent"
+        },
+        {
+          "id": "ai-optimization-theory-2",
+          "name": "Convex Optimization"
+        },
+        {
+          "id": "ai-optimization-theory-3",
+          "name": "Non-convex Optimization"
+        },
+        {
+          "id": "ai-optimization-theory-4",
+          "name": "Stochastic Optimization"
+        },
+        {
+          "id": "ai-optimization-theory-5",
+          "name": "Constrained Optimization"
+        },
+        {
+          "id": "ai-optimization-theory-6",
+          "name": "Second-Order Methods"
+        },
+        {
+          "id": "ai-optimization-theory-7",
+          "name": "Convergence Analysis"
+        },
+        {
+          "id": "ai-optimization-theory-8",
+          "name": "Variational Optimization"
+        }
+      ]
+    },
+    {
+      "id": "ai-information-theory",
+      "name": "Information Theory",
+      "category": "AI Theory & Foundations",
+      "topics": [
+        {
+          "id": "ai-information-theory-1",
+          "name": "Entropy"
+        },
+        {
+          "id": "ai-information-theory-2",
+          "name": "Mutual Information"
+        },
+        {
+          "id": "ai-information-theory-3",
+          "name": "KL Divergence"
+        },
+        {
+          "id": "ai-information-theory-4",
+          "name": "Cross-Entropy"
+        },
+        {
+          "id": "ai-information-theory-5",
+          "name": "Rate-Distortion Theory"
+        },
+        {
+          "id": "ai-information-theory-6",
+          "name": "Information Bottleneck"
+        },
+        {
+          "id": "ai-information-theory-7",
+          "name": "Minimum Description Length"
+        }
+      ]
+    },
+    {
+      "id": "ai-statistical-learning-theory",
+      "name": "Statistical Learning Theory",
+      "category": "AI Theory & Foundations",
+      "topics": [
+        {
+          "id": "ai-statistical-learning-theory-1",
+          "name": "PAC Learning"
+        },
+        {
+          "id": "ai-statistical-learning-theory-2",
+          "name": "VC Dimension"
+        },
+        {
+          "id": "ai-statistical-learning-theory-3",
+          "name": "Rademacher Complexity"
+        },
+        {
+          "id": "ai-statistical-learning-theory-4",
+          "name": "Generalization Bounds"
+        },
+        {
+          "id": "ai-statistical-learning-theory-5",
+          "name": "Bias-Variance Decomposition"
+        },
+        {
+          "id": "ai-statistical-learning-theory-6",
+          "name": "Concentration Inequalities"
+        },
+        {
+          "id": "ai-statistical-learning-theory-7",
+          "name": "Double Descent"
+        },
+        {
+          "id": "ai-statistical-learning-theory-8",
+          "name": "Neural Tangent Kernel"
+        },
+        {
+          "id": "ai-statistical-learning-theory-9",
+          "name": "Lottery Ticket Hypothesis"
+        }
+      ]
+    },
+    {
+      "id": "ai-computational-complexity",
+      "name": "Computational Complexity",
+      "category": "AI Theory & Foundations",
+      "topics": [
+        {
+          "id": "ai-computational-complexity-1",
+          "name": "Time Complexity"
+        },
+        {
+          "id": "ai-computational-complexity-2",
+          "name": "Space Complexity"
+        },
+        {
+          "id": "ai-computational-complexity-3",
+          "name": "NP-Hardness in ML"
+        },
+        {
+          "id": "ai-computational-complexity-4",
+          "name": "Approximation Algorithms"
+        }
+      ]
+    },
+    {
+      "id": "ai-ai-safety",
+      "name": "AI Safety",
+      "category": "AI Safety, Ethics & Governance",
+      "topics": [
+        {
+          "id": "ai-ai-safety-1",
+          "name": "Alignment Problem"
+        },
+        {
+          "id": "ai-ai-safety-2",
+          "name": "Reward Hacking"
+        },
+        {
+          "id": "ai-ai-safety-3",
+          "name": "Goal Misgeneralization"
+        },
+        {
+          "id": "ai-ai-safety-4",
+          "name": "Distributional Shift"
+        },
+        {
+          "id": "ai-ai-safety-5",
+          "name": "Specification Gaming"
+        },
+        {
+          "id": "ai-ai-safety-6",
+          "name": "Safe Exploration"
+        },
+        {
+          "id": "ai-ai-safety-7",
+          "name": "Scalable Oversight"
+        },
+        {
+          "id": "ai-ai-safety-8",
+          "name": "Corrigibility"
+        },
+        {
+          "id": "ai-ai-safety-9",
+          "name": "Value Learning"
+        }
+      ]
+    },
+    {
+      "id": "ai-interpretability-explainability-xai",
+      "name": "Interpretability & Explainability (XAI)",
+      "category": "AI Safety, Ethics & Governance",
+      "topics": [
+        {
+          "id": "ai-interpretability-explainability-xai-1",
+          "name": "Feature Attribution",
+          "sub": [
+            {
+              "id": "ai-interpretability-explainability-xai-1-1",
+              "name": "SHAP"
+            },
+            {
+              "id": "ai-interpretability-explainability-xai-1-2",
+              "name": "LIME"
+            },
+            {
+              "id": "ai-interpretability-explainability-xai-1-3",
+              "name": "Integrated Gradients"
+            }
+          ]
+        },
+        {
+          "id": "ai-interpretability-explainability-xai-2",
+          "name": "Attention Visualization"
+        },
+        {
+          "id": "ai-interpretability-explainability-xai-3",
+          "name": "Concept-Based Explanations"
+        },
+        {
+          "id": "ai-interpretability-explainability-xai-4",
+          "name": "Counterfactual Explanations"
+        },
+        {
+          "id": "ai-interpretability-explainability-xai-5",
+          "name": "Prototype-Based Explanations"
+        },
+        {
+          "id": "ai-interpretability-explainability-xai-6",
+          "name": "Mechanistic Interpretability"
+        },
+        {
+          "id": "ai-interpretability-explainability-xai-7",
+          "name": "Probing Classifiers"
+        },
+        {
+          "id": "ai-interpretability-explainability-xai-8",
+          "name": "Saliency Maps"
+        }
+      ]
+    },
+    {
+      "id": "ai-robustness-security",
+      "name": "Robustness & Security",
+      "category": "AI Safety, Ethics & Governance",
+      "topics": [
+        {
+          "id": "ai-robustness-security-1",
+          "name": "Adversarial Examples"
+        },
+        {
+          "id": "ai-robustness-security-2",
+          "name": "Adversarial Training"
+        },
+        {
+          "id": "ai-robustness-security-3",
+          "name": "Certified Robustness"
+        },
+        {
+          "id": "ai-robustness-security-4",
+          "name": "Backdoor Attacks"
+        },
+        {
+          "id": "ai-robustness-security-5",
+          "name": "Data Poisoning"
+        },
+        {
+          "id": "ai-robustness-security-6",
+          "name": "Model Extraction"
+        },
+        {
+          "id": "ai-robustness-security-7",
+          "name": "Membership Inference"
+        },
+        {
+          "id": "ai-robustness-security-8",
+          "name": "Differential Privacy"
+        },
+        {
+          "id": "ai-robustness-security-9",
+          "name": "Federated Learning Security"
+        }
+      ]
+    },
+    {
+      "id": "ai-fairness-in-ml",
+      "name": "Fairness in ML",
+      "category": "AI Safety, Ethics & Governance",
+      "topics": [
+        {
+          "id": "ai-fairness-in-ml-1",
+          "name": "Bias Detection"
+        },
+        {
+          "id": "ai-fairness-in-ml-2",
+          "name": "Fairness Metrics",
+          "sub": [
+            {
+              "id": "ai-fairness-in-ml-2-1",
+              "name": "Demographic parity"
+            },
+            {
+              "id": "ai-fairness-in-ml-2-2",
+              "name": "Equalized odds"
+            },
+            {
+              "id": "ai-fairness-in-ml-2-3",
+              "name": "Calibration"
+            }
+          ]
+        },
+        {
+          "id": "ai-fairness-in-ml-3",
+          "name": "Bias Mitigation",
+          "sub": [
+            {
+              "id": "ai-fairness-in-ml-3-1",
+              "name": "Pre-processing"
+            },
+            {
+              "id": "ai-fairness-in-ml-3-2",
+              "name": "In-processing"
+            },
+            {
+              "id": "ai-fairness-in-ml-3-3",
+              "name": "Post-processing"
+            }
+          ]
+        },
+        {
+          "id": "ai-fairness-in-ml-4",
+          "name": "Algorithmic Auditing"
+        }
+      ]
+    },
+    {
+      "id": "ai-ai-governance-policy",
+      "name": "AI Governance & Policy",
+      "category": "AI Safety, Ethics & Governance",
+      "topics": [
+        {
+          "id": "ai-ai-governance-policy-1",
+          "name": "AI Regulation"
+        },
+        {
+          "id": "ai-ai-governance-policy-2",
+          "name": "AI Standards"
+        },
+        {
+          "id": "ai-ai-governance-policy-3",
+          "name": "Responsible AI Frameworks"
+        },
+        {
+          "id": "ai-ai-governance-policy-4",
+          "name": "AI Auditing"
+        },
+        {
+          "id": "ai-ai-governance-policy-5",
+          "name": "Model Cards"
+        },
+        {
+          "id": "ai-ai-governance-policy-6",
+          "name": "Datasheets for Datasets"
+        },
+        {
+          "id": "ai-ai-governance-policy-7",
+          "name": "Human-in-the-Loop Systems"
+        },
+        {
+          "id": "ai-ai-governance-policy-8",
+          "name": "AI Impact Assessment"
+        }
+      ]
+    },
+    {
+      "id": "ai-privacy-in-ai",
+      "name": "Privacy in AI",
+      "category": "AI Safety, Ethics & Governance",
+      "topics": [
+        {
+          "id": "ai-privacy-in-ai-1",
+          "name": "Differential Privacy"
+        },
+        {
+          "id": "ai-privacy-in-ai-2",
+          "name": "Federated Learning"
+        },
+        {
+          "id": "ai-privacy-in-ai-3",
+          "name": "Secure Multi-Party Computation"
+        },
+        {
+          "id": "ai-privacy-in-ai-4",
+          "name": "Homomorphic Encryption"
+        },
+        {
+          "id": "ai-privacy-in-ai-5",
+          "name": "Privacy-Preserving ML"
+        }
+      ]
+    },
+    {
+      "id": "ai-foundation-models-large-scale-ai",
+      "name": "Foundation Models & Large-Scale AI",
+      "category": "Emerging & Frontier Fields",
+      "topics": [
+        {
+          "id": "ai-foundation-models-large-scale-ai-1",
+          "name": "Scaling Laws"
+        },
+        {
+          "id": "ai-foundation-models-large-scale-ai-2",
+          "name": "Emergent Capabilities"
+        },
+        {
+          "id": "ai-foundation-models-large-scale-ai-3",
+          "name": "In-Context Learning"
+        },
+        {
+          "id": "ai-foundation-models-large-scale-ai-4",
+          "name": "Chain-of-Thought Reasoning"
+        },
+        {
+          "id": "ai-foundation-models-large-scale-ai-5",
+          "name": "Tool Use and Agents"
+        },
+        {
+          "id": "ai-foundation-models-large-scale-ai-6",
+          "name": "Self-Improvement"
+        }
+      ]
+    },
+    {
+      "id": "ai-autonomous-agents",
+      "name": "Autonomous Agents",
+      "category": "Emerging & Frontier Fields",
+      "topics": [
+        {
+          "id": "ai-autonomous-agents-1",
+          "name": "LLM-Based Agents"
+        },
+        {
+          "id": "ai-autonomous-agents-2",
+          "name": "ReAct Framework"
+        },
+        {
+          "id": "ai-autonomous-agents-3",
+          "name": "AutoGPT-style Agents"
+        },
+        {
+          "id": "ai-autonomous-agents-4",
+          "name": "Multi-Agent Systems"
+        },
+        {
+          "id": "ai-autonomous-agents-5",
+          "name": "Agent Memory Systems"
+        },
+        {
+          "id": "ai-autonomous-agents-6",
+          "name": "Tool Use"
+        },
+        {
+          "id": "ai-autonomous-agents-7",
+          "name": "Planning and Reasoning"
+        },
+        {
+          "id": "ai-autonomous-agents-8",
+          "name": "Web Agents"
+        },
+        {
+          "id": "ai-autonomous-agents-9",
+          "name": "Code Agents"
+        }
+      ]
+    },
+    {
+      "id": "ai-neuro-symbolic-ai",
+      "name": "Neuro-Symbolic AI",
+      "category": "Emerging & Frontier Fields",
+      "topics": [
+        {
+          "id": "ai-neuro-symbolic-ai-1",
+          "name": "Neural-Symbolic Integration"
+        },
+        {
+          "id": "ai-neuro-symbolic-ai-2",
+          "name": "Differentiable Programming"
+        },
+        {
+          "id": "ai-neuro-symbolic-ai-3",
+          "name": "Neural Theorem Proving"
+        },
+        {
+          "id": "ai-neuro-symbolic-ai-4",
+          "name": "Symbolic Reasoning with Neural Networks"
+        },
+        {
+          "id": "ai-neuro-symbolic-ai-5",
+          "name": "Knowledge-Enhanced Language Models"
+        }
+      ]
+    },
+    {
+      "id": "ai-world-models-simulation",
+      "name": "World Models & Simulation",
+      "category": "Emerging & Frontier Fields",
+      "topics": [
+        {
+          "id": "ai-world-models-simulation-1",
+          "name": "Learned World Models"
+        },
+        {
+          "id": "ai-world-models-simulation-2",
+          "name": "Video Prediction"
+        },
+        {
+          "id": "ai-world-models-simulation-3",
+          "name": "Physical Simulation"
+        },
+        {
+          "id": "ai-world-models-simulation-4",
+          "name": "Embodied AI Environments"
+        },
+        {
+          "id": "ai-world-models-simulation-5",
+          "name": "Synthetic Data Generation"
+        }
+      ]
+    },
+    {
+      "id": "ai-ai-for-science",
+      "name": "AI for Science",
+      "category": "Emerging & Frontier Fields",
+      "topics": [
+        {
+          "id": "ai-ai-for-science-1",
+          "name": "AI for Drug Discovery"
+        },
+        {
+          "id": "ai-ai-for-science-2",
+          "name": "AI for Materials Science"
+        },
+        {
+          "id": "ai-ai-for-science-3",
+          "name": "AI for Climate Modeling"
+        },
+        {
+          "id": "ai-ai-for-science-4",
+          "name": "AI for Physics"
+        },
+        {
+          "id": "ai-ai-for-science-5",
+          "name": "AI for Biology (AlphaFold, etc.)"
+        },
+        {
+          "id": "ai-ai-for-science-6",
+          "name": "AI for Chemistry"
+        },
+        {
+          "id": "ai-ai-for-science-7",
+          "name": "AI for Mathematics"
+        },
+        {
+          "id": "ai-ai-for-science-8",
+          "name": "Scientific Machine Learning"
+        }
+      ]
+    },
+    {
+      "id": "ai-bio-inspired-ai",
+      "name": "Bio-Inspired AI",
+      "category": "Emerging & Frontier Fields",
+      "topics": [
+        {
+          "id": "ai-bio-inspired-ai-1",
+          "name": "Spiking Neural Networks"
+        },
+        {
+          "id": "ai-bio-inspired-ai-2",
+          "name": "Neuromorphic Computing"
+        },
+        {
+          "id": "ai-bio-inspired-ai-3",
+          "name": "Brain-Computer Interfaces"
+        },
+        {
+          "id": "ai-bio-inspired-ai-4",
+          "name": "Evolutionary Neural Networks"
+        },
+        {
+          "id": "ai-bio-inspired-ai-5",
+          "name": "Hebbian Learning"
+        },
+        {
+          "id": "ai-bio-inspired-ai-6",
+          "name": "Predictive Coding"
+        }
+      ]
+    },
+    {
+      "id": "ai-quantum-machine-learning",
+      "name": "Quantum Machine Learning",
+      "category": "Emerging & Frontier Fields",
+      "topics": [
+        {
+          "id": "ai-quantum-machine-learning-1",
+          "name": "Quantum Neural Networks"
+        },
+        {
+          "id": "ai-quantum-machine-learning-2",
+          "name": "Variational Quantum Algorithms"
+        },
+        {
+          "id": "ai-quantum-machine-learning-3",
+          "name": "Quantum Kernel Methods"
+        },
+        {
+          "id": "ai-quantum-machine-learning-4",
+          "name": "Quantum Optimization"
+        },
+        {
+          "id": "ai-quantum-machine-learning-5",
+          "name": "Quantum Sampling"
+        }
+      ]
+    },
+    {
+      "id": "ai-generative-ai-frontiers",
+      "name": "Generative AI Frontiers",
+      "category": "Emerging & Frontier Fields",
+      "topics": [
+        {
+          "id": "ai-generative-ai-frontiers-1",
+          "name": "3D Generative AI"
+        },
+        {
+          "id": "ai-generative-ai-frontiers-2",
+          "name": "4D Generation (3D + Time)"
+        },
+        {
+          "id": "ai-generative-ai-frontiers-3",
+          "name": "Neural Rendering"
+        },
+        {
+          "id": "ai-generative-ai-frontiers-4",
+          "name": "Controllable Generation"
+        },
+        {
+          "id": "ai-generative-ai-frontiers-5",
+          "name": "Multi-Modal Generation"
+        },
+        {
+          "id": "ai-generative-ai-frontiers-6",
+          "name": "Interactive Generation"
+        }
+      ]
+    },
+    {
+      "id": "ai-continual-lifelong-learning",
+      "name": "Continual & Lifelong Learning",
+      "category": "Emerging & Frontier Fields",
+      "topics": [
+        {
+          "id": "ai-continual-lifelong-learning-1",
+          "name": "Catastrophic Forgetting"
+        },
+        {
+          "id": "ai-continual-lifelong-learning-2",
+          "name": "Elastic Weight Consolidation"
+        },
+        {
+          "id": "ai-continual-lifelong-learning-3",
+          "name": "Progressive Neural Networks"
+        },
+        {
+          "id": "ai-continual-lifelong-learning-4",
+          "name": "Memory-Augmented Networks"
+        },
+        {
+          "id": "ai-continual-lifelong-learning-5",
+          "name": "Replay Methods"
+        }
+      ]
+    },
+    {
+      "id": "ai-cognitive-ai",
+      "name": "Cognitive AI",
+      "category": "Emerging & Frontier Fields",
+      "topics": [
+        {
+          "id": "ai-cognitive-ai-1",
+          "name": "Cognitive Simulation"
+        },
+        {
+          "id": "ai-cognitive-ai-2",
+          "name": "Common Sense Reasoning"
+        },
+        {
+          "id": "ai-cognitive-ai-3",
+          "name": "Theory of Mind"
+        },
+        {
+          "id": "ai-cognitive-ai-4",
+          "name": "Causal Reasoning"
+        },
+        {
+          "id": "ai-cognitive-ai-5",
+          "name": "Analogical Reasoning"
+        },
+        {
+          "id": "ai-cognitive-ai-6",
+          "name": "Abstract Reasoning"
+        }
+      ]
+    }
+  ]
+}
