@@ -450,7 +450,7 @@ function viewDiscipline(id) {
     body = [...stages.keys()].sort((a, b) => a - b).map(n => {
       const list = stages.get(n), sp = progressOf(list.map(c => c.id));
       return `<div class="stage"><div class="stage-head"><span class="stage-num">Stage ${n}</span>
-        <h3>${n === 1 ? 'Start here: no prerequisites inside this discipline' : `Builds on stage${n > 2 ? 's 1–' + (n - 1) : ' 1'}`}</h3>
+        <h3>${n === 1 ? 'Start here' : `Builds on stage${n > 2 ? 's 1–' + (n - 1) : ' 1'}`}</h3>
         <span class="faint small">${plural(list.length, 'chapter')} · ${sp.pct}% done</span></div>
         <div class="grid">${list.map(c => chapterCard(c)).join('')}</div></div>`;
     }).join('');
@@ -482,7 +482,7 @@ function viewDiscipline(id) {
         ${[['all', 'All statuses'], ['ready', 'Ready to start'], ['not-started', 'Not started'], ['in-progress', 'In progress'], ['done', 'Done']].map(([v, n]) => `<option value="${v}" ${dState.status === v ? 'selected' : ''}>${n}</option>`).join('')}
       </select>
     </div>
-    ${dState.mode === 'order' ? `<p class="faint small">Stages come from the prerequisite graph: a chapter sits one stage after its latest prerequisite in ${esc(s.name)}. Prerequisites from other disciplines are shown as icons on the card; open a chapter for the full path.</p>` : ''}
+    ${dState.mode === 'order' ? `<p class="faint small">Stages follow the full prerequisite graph, including prerequisites from other disciplines, so every chapter comes after everything it depends on. Icons on a card show the other disciplines it draws on; open a chapter to see its full path.</p>` : ''}
     ${body || '<div class="empty" style="margin-top:20px">No chapters match these filters.</div>'}`;
 }
 

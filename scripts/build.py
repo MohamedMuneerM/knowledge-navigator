@@ -200,22 +200,23 @@ def main():
             gdepth[cid] = 1 + max((depth(p) for p in edges[cid]), default=0)
         return gdepth[cid]
 
-    stage = {}
-
-    def local_stage(cid):
-        if cid not in stage:
-            same = [p for p in edges[cid] if owner[p] == owner[cid]]
-            stage[cid] = 1 + max((local_stage(p) for p in same), default=0)
-        return stage[cid]
-
     unlocks = collections.defaultdict(list)
     for cid in chapters:
-        closure(cid), depth(cid), local_stage(cid)
+        closure(cid), depth(cid)
         for p in edges[cid]:
             unlocks[p].append(cid)
         redundant = [p for p in edges[cid] if any(p in closure(q) for q in edges[cid] if q != p)]
         if redundant:
             warnings.append(f'{cid}: redundant prerequisites (already implied): {", ".join(redundant)}')
+
+    # A discipline's stages are its chapters' global depths (which count prerequisites
+    # from every discipline), renumbered 1..N. A chapter therefore always sits in a later
+    # stage than anything it depends on, inside or outside its own discipline.
+    stage = {}
+    for d in disciplines:
+        ids = [c['id'] for c in d['chapters']]
+        rank = {g: i + 1 for i, g in enumerate(sorted({gdepth[i] for i in ids}))}
+        stage.update({i: rank[gdepth[i]] for i in ids})
 
     if scope:
         warnings = [w for w in warnings if mine(w)]
