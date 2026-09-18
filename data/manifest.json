@@ -1,4 +1,16 @@
 {
-  "disciplines": ["math", "physics", "electronics", "ai"],
+  "disciplines": [
+    "math",
+    "physics",
+    "chemistry",
+    "biology",
+    "earth",
+    "cs",
+    "electronics",
+    "ai",
+    "mechanical",
+    "materials",
+    "aerospace"
+  ],
   "roadmaps": []
 }

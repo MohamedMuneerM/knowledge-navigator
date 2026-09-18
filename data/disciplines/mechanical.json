@@ -1,0 +1,4919 @@
+{
+  "id": "mechanical",
+  "name": "Mechanical Engineering",
+  "icon": "⚙️",
+  "color": "#f87171",
+  "prefix": "me",
+  "description": "Mechanical engineering designs, analyses and makes machines and thermal-fluid systems: mechanics, materials, thermodynamics, fluids and heat transfer, machine design, manufacturing, dynamics and control, robotics and energy systems, from first workshop skills to research frontiers.",
+  "chapters": [
+    {
+      "id": "me-introduction-to-engineering-mechanical-design",
+      "name": "Introduction to Engineering & Mechanical Design",
+      "category": "Foundations & Professional Practice",
+      "level": 1,
+      "priority": "core",
+      "summary": "A first contact with how mechanical engineers think and work: units, estimation, structured problem solving and a simple design-build-test process.",
+      "prerequisites": [],
+      "topics": [
+        {
+          "name": "What mechanical engineers do: fields, industries and career paths",
+          "id": "me-introduction-to-engineering-mechanical-design-1"
+        },
+        {
+          "name": "SI and US customary units, unit conversion and dimensional consistency",
+          "sub": [
+            {
+              "name": "Base and derived SI units, prefixes",
+              "id": "me-introduction-to-engineering-mechanical-design-2-1"
+            },
+            {
+              "name": "Force, mass and weight: newton vs pound-force vs pound-mass",
+              "id": "me-introduction-to-engineering-mechanical-design-2-2"
+            }
+          ],
+          "id": "me-introduction-to-engineering-mechanical-design-2"
+        },
+        {
+          "name": "Significant figures, estimation and order-of-magnitude (Fermi) reasoning",
+          "id": "me-introduction-to-engineering-mechanical-design-3"
+        },
+        {
+          "name": "Structured engineering problem solving (given, find, assumptions, solution, check)",
+          "id": "me-introduction-to-engineering-mechanical-design-4"
+        },
+        {
+          "name": "Forces, moments, energy and power in everyday terms",
+          "id": "me-introduction-to-engineering-mechanical-design-5"
+        },
+        {
+          "name": "The engineering design process: need, requirements, concepts, prototype, test, iterate",
+          "id": "me-introduction-to-engineering-mechanical-design-6"
+        },
+        {
+          "name": "Sketching ideas and reading simple engineering drawings",
+          "id": "me-introduction-to-engineering-mechanical-design-7"
+        },
+        {
+          "name": "Common engineering materials and how they are chosen at a glance",
+          "id": "me-introduction-to-engineering-mechanical-design-8"
+        },
+        {
+          "name": "Safety factors, failure and why things break",
+          "id": "me-introduction-to-engineering-mechanical-design-9"
+        },
+        {
+          "name": "Spreadsheets for engineering calculations",
+          "id": "me-introduction-to-engineering-mechanical-design-10"
+        },
+        {
+          "name": "Teamwork, engineering notebooks and technical communication",
+          "id": "me-introduction-to-engineering-mechanical-design-11"
+        },
+        {
+          "name": "A simple design-build-test project (e.g. a load-carrying bridge or a rubber-band car)",
+          "id": "me-introduction-to-engineering-mechanical-design-12"
+        }
+      ]
+    },
+    {
+      "id": "me-how-machines-work",
+      "name": "How Machines Work",
+      "category": "Foundations & Professional Practice",
+      "level": 1,
+      "priority": "core",
+      "summary": "A guided tour of the machines around us, from levers and gears to engines, pumps, refrigerators and robots, explaining the working principle of each.",
+      "prerequisites": [
+        "me-introduction-to-engineering-mechanical-design"
+      ],
+      "topics": [
+        {
+          "name": "Simple machines and mechanical advantage",
+          "sub": [
+            {
+              "name": "Lever, wheel and axle, pulley",
+              "id": "me-how-machines-work-1-1"
+            },
+            {
+              "name": "Inclined plane, wedge and screw",
+              "id": "me-how-machines-work-1-2"
+            }
+          ],
+          "id": "me-how-machines-work-1"
+        },
+        {
+          "name": "Gears, belts and chains: trading speed for torque",
+          "id": "me-how-machines-work-2"
+        },
+        {
+          "name": "Linkages and cams: converting rotary and linear motion",
+          "id": "me-how-machines-work-3"
+        },
+        {
+          "name": "Bearings, shafts and couplings: supporting and transmitting rotation",
+          "id": "me-how-machines-work-4"
+        },
+        {
+          "name": "Springs, dampers, clutches and brakes: storing, controlling and dissipating energy",
+          "id": "me-how-machines-work-5"
+        },
+        {
+          "name": "Heat engines: how car engines and gas turbines turn fuel into work",
+          "id": "me-how-machines-work-6"
+        },
+        {
+          "name": "Pumps, fans, compressors and turbines",
+          "id": "me-how-machines-work-7"
+        },
+        {
+          "name": "Refrigerators, air conditioners and heat pumps",
+          "id": "me-how-machines-work-8"
+        },
+        {
+          "name": "Hydraulic and pneumatic machines (jacks, excavators, air tools)",
+          "id": "me-how-machines-work-9"
+        },
+        {
+          "name": "Electric motors and generators from a mechanical viewpoint",
+          "id": "me-how-machines-work-10"
+        },
+        {
+          "name": "Integrated machines: clocks, bicycles, cars and teardown/dissection exercises",
+          "id": "me-how-machines-work-11"
+        },
+        {
+          "name": "Robots and automated machines: sensors, actuators and control in outline",
+          "id": "me-how-machines-work-12"
+        }
+      ]
+    },
+    {
+      "id": "me-workshop-practice-hand-tools",
+      "name": "Workshop Practice & Hand Tools",
+      "category": "Foundations & Professional Practice",
+      "level": 1,
+      "priority": "important",
+      "summary": "Hands-on workshop skills: safe use of measuring instruments, hand and power tools, basic machine tools, sheet metal and fastening.",
+      "prerequisites": [],
+      "topics": [
+        {
+          "name": "Workshop safety, PPE and risk awareness",
+          "id": "me-workshop-practice-hand-tools-1"
+        },
+        {
+          "name": "Measuring and marking out: rules, squares, scribers, height gauges, surface plates",
+          "id": "me-workshop-practice-hand-tools-2"
+        },
+        {
+          "name": "Precision measurement instruments",
+          "sub": [
+            {
+              "name": "Vernier and digital calipers",
+              "id": "me-workshop-practice-hand-tools-3-1"
+            },
+            {
+              "name": "Micrometers",
+              "id": "me-workshop-practice-hand-tools-3-2"
+            },
+            {
+              "name": "Dial indicators and gauge blocks",
+              "id": "me-workshop-practice-hand-tools-3-3"
+            }
+          ],
+          "id": "me-workshop-practice-hand-tools-3"
+        },
+        {
+          "name": "Hand tools: files, hacksaws, chisels, hammers, wrenches and screwdrivers",
+          "id": "me-workshop-practice-hand-tools-4"
+        },
+        {
+          "name": "Drilling, reaming, countersinking and hand tapping/threading",
+          "id": "me-workshop-practice-hand-tools-5"
+        },
+        {
+          "name": "Power tools: drills, angle grinders, band saws and bench grinders",
+          "id": "me-workshop-practice-hand-tools-6"
+        },
+        {
+          "name": "Introduction to the manual lathe (facing, turning, drilling, threading)",
+          "id": "me-workshop-practice-hand-tools-7"
+        },
+        {
+          "name": "Introduction to the manual milling machine (squaring, slots, pockets)",
+          "id": "me-workshop-practice-hand-tools-8"
+        },
+        {
+          "name": "Sheet-metal work: cutting, bending, riveting",
+          "id": "me-workshop-practice-hand-tools-9"
+        },
+        {
+          "name": "Soldering, brazing and introductory welding",
+          "id": "me-workshop-practice-hand-tools-10"
+        },
+        {
+          "name": "Fasteners, threads and torque tightening in practice",
+          "id": "me-workshop-practice-hand-tools-11"
+        },
+        {
+          "name": "Workholding: vises, clamps, V-blocks and simple fixtures",
+          "id": "me-workshop-practice-hand-tools-12"
+        },
+        {
+          "name": "Fitting, deburring and finishing by hand",
+          "id": "me-workshop-practice-hand-tools-13"
+        },
+        {
+          "name": "Maker tools: desktop 3D printers, laser cutters and CNC routers",
+          "id": "me-workshop-practice-hand-tools-14"
+        }
+      ]
+    },
+    {
+      "id": "me-engineering-computation",
+      "name": "Engineering Computation & Numerical Methods",
+      "category": "Foundations & Professional Practice",
+      "level": 2,
+      "priority": "important",
+      "summary": "Programming and numerical methods that mechanical engineers use daily to solve equations, fit data and simulate systems.",
+      "prerequisites": [
+        "me-introduction-to-engineering-mechanical-design",
+        "ma-calculus"
+      ],
+      "related": [
+        "ma-numerical-methods-for-calculus",
+        "ph-computational-physics"
+      ],
+      "topics": [
+        {
+          "name": "Programming for engineers in Python or MATLAB: variables, control flow, functions",
+          "id": "me-engineering-computation-1"
+        },
+        {
+          "name": "Arrays, vectorisation and plotting engineering data",
+          "id": "me-engineering-computation-2"
+        },
+        {
+          "name": "Algorithm development: flowcharts and pseudocode",
+          "id": "me-engineering-computation-3"
+        },
+        {
+          "name": "Numerical error: round-off, truncation and Taylor series",
+          "id": "me-engineering-computation-4"
+        },
+        {
+          "name": "Root finding: bisection, Newton's method and secant method",
+          "id": "me-engineering-computation-5"
+        },
+        {
+          "name": "Linear systems: Gaussian elimination and LU decomposition",
+          "id": "me-engineering-computation-6"
+        },
+        {
+          "name": "Curve fitting: least-squares regression and interpolation",
+          "id": "me-engineering-computation-7"
+        },
+        {
+          "name": "Numerical differentiation and integration",
+          "id": "me-engineering-computation-8"
+        },
+        {
+          "name": "Numerical solution of ODEs: Euler and Runge-Kutta methods",
+          "id": "me-engineering-computation-9"
+        },
+        {
+          "name": "Optimization basics for engineering problems",
+          "id": "me-engineering-computation-10"
+        },
+        {
+          "name": "Symbolic computation and units-aware computing",
+          "id": "me-engineering-computation-11"
+        },
+        {
+          "name": "Handling test data: import, filtering and visualisation",
+          "id": "me-engineering-computation-12"
+        }
+      ]
+    },
+    {
+      "id": "me-professional-practice-engineering-economics",
+      "name": "Professional Practice, Ethics & Engineering Economics",
+      "category": "Foundations & Professional Practice",
+      "level": 2,
+      "priority": "important",
+      "summary": "The professional side of engineering: ethics, licensure, codes and standards, intellectual property and the economics of engineering decisions.",
+      "prerequisites": [
+        "me-introduction-to-engineering-mechanical-design"
+      ],
+      "related": [
+        "el-cost-engineering"
+      ],
+      "topics": [
+        {
+          "name": "Engineering ethics: codes of ethics (NSPE, ASME) and case studies",
+          "id": "me-professional-practice-engineering-economics-1"
+        },
+        {
+          "name": "Professional licensure: FE and PE exams and the NCEES Model Law",
+          "id": "me-professional-practice-engineering-economics-2"
+        },
+        {
+          "name": "Public health, safety and welfare responsibilities",
+          "id": "me-professional-practice-engineering-economics-3"
+        },
+        {
+          "name": "Codes and standards: ASME, ISO, ANSI and ASTM and how they are used",
+          "id": "me-professional-practice-engineering-economics-4"
+        },
+        {
+          "name": "Intellectual property: patents, copyrights, trademarks and trade secrets",
+          "id": "me-professional-practice-engineering-economics-5"
+        },
+        {
+          "name": "Contracts, liability and engineering law basics",
+          "id": "me-professional-practice-engineering-economics-6"
+        },
+        {
+          "name": "Time value of money: interest, equivalence, present, future and annual worth",
+          "id": "me-professional-practice-engineering-economics-7"
+        },
+        {
+          "name": "Economic comparison: rate of return, benefit-cost ratio, payback",
+          "id": "me-professional-practice-engineering-economics-8"
+        },
+        {
+          "name": "Cost types (fixed, variable, sunk, incremental) and break-even analysis",
+          "id": "me-professional-practice-engineering-economics-9"
+        },
+        {
+          "name": "Depreciation, taxes and inflation",
+          "id": "me-professional-practice-engineering-economics-10"
+        },
+        {
+          "name": "Life-cycle cost analysis and replacement decisions",
+          "id": "me-professional-practice-engineering-economics-11"
+        },
+        {
+          "name": "Sustainability, life-cycle assessment and societal impact",
+          "id": "me-professional-practice-engineering-economics-12"
+        },
+        {
+          "name": "Project management basics: scheduling, budgeting and risk",
+          "id": "me-professional-practice-engineering-economics-13"
+        },
+        {
+          "name": "Technical communication: reports, presentations and design documentation",
+          "id": "me-professional-practice-engineering-economics-14"
+        }
+      ]
+    },
+    {
+      "id": "me-engineering-drawing-sketching",
+      "name": "Engineering Drawing & Sketching",
+      "category": "Engineering Graphics, CAD & Tolerancing",
+      "level": 1,
+      "priority": "core",
+      "summary": "The graphical language of engineering: freehand sketching, orthographic and pictorial views, sections, dimensions and reading drawings.",
+      "prerequisites": [],
+      "topics": [
+        {
+          "name": "Freehand sketching techniques: lines, circles and proportions",
+          "id": "me-engineering-drawing-sketching-1"
+        },
+        {
+          "name": "Pictorial views: isometric, oblique and perspective sketches",
+          "id": "me-engineering-drawing-sketching-2"
+        },
+        {
+          "name": "Orthographic projection: first-angle and third-angle",
+          "id": "me-engineering-drawing-sketching-3"
+        },
+        {
+          "name": "Multiview drawings, hidden lines and centre lines",
+          "id": "me-engineering-drawing-sketching-4"
+        },
+        {
+          "name": "Auxiliary views",
+          "id": "me-engineering-drawing-sketching-5"
+        },
+        {
+          "name": "Section views (full, half, offset, broken-out, revolved) and hatching conventions",
+          "id": "me-engineering-drawing-sketching-6"
+        },
+        {
+          "name": "Dimensioning rules and practices (ASME Y14.5 / ISO 129 basics)",
+          "id": "me-engineering-drawing-sketching-7"
+        },
+        {
+          "name": "Representing threads, fasteners and standard features",
+          "id": "me-engineering-drawing-sketching-8"
+        },
+        {
+          "name": "Drawing sheets: title blocks, scales, line types, notes and revisions",
+          "id": "me-engineering-drawing-sketching-9"
+        },
+        {
+          "name": "Assembly drawings, exploded views and bills of materials",
+          "id": "me-engineering-drawing-sketching-10"
+        },
+        {
+          "name": "Reading and interpreting real engineering drawings",
+          "id": "me-engineering-drawing-sketching-11"
+        },
+        {
+          "name": "Introduction to 2D CAD drafting",
+          "id": "me-engineering-drawing-sketching-12"
+        }
+      ]
+    },
+    {
+      "id": "me-cad-solid-modeling",
+      "name": "CAD & Parametric Solid Modeling",
+      "category": "Engineering Graphics, CAD & Tolerancing",
+      "level": 2,
+      "priority": "core",
+      "summary": "Building 3D parametric part and assembly models, generating drawings and managing design data in modern CAD systems.",
+      "prerequisites": [
+        "me-engineering-drawing-sketching"
+      ],
+      "topics": [
+        {
+          "name": "CAD landscape: parametric, direct and cloud CAD (SolidWorks, Fusion, Onshape, NX, CATIA, Creo)",
+          "id": "me-cad-solid-modeling-1"
+        },
+        {
+          "name": "Sketches, geometric constraints and design intent",
+          "id": "me-cad-solid-modeling-2"
+        },
+        {
+          "name": "Feature-based modeling: extrude, revolve, sweep, loft, fillet, shell, patterns",
+          "id": "me-cad-solid-modeling-3"
+        },
+        {
+          "name": "Parameters, equations and configurations/design tables",
+          "id": "me-cad-solid-modeling-4"
+        },
+        {
+          "name": "Assemblies: mates/joints, top-down vs bottom-up design, interference checking",
+          "id": "me-cad-solid-modeling-5"
+        },
+        {
+          "name": "Motion studies and mechanism simulation inside CAD",
+          "id": "me-cad-solid-modeling-6"
+        },
+        {
+          "name": "Detail drawings generated from 3D models",
+          "id": "me-cad-solid-modeling-7"
+        },
+        {
+          "name": "Sheet-metal, weldment and mold-tooling features",
+          "id": "me-cad-solid-modeling-8"
+        },
+        {
+          "name": "Surface modeling for complex shapes",
+          "id": "me-cad-solid-modeling-9"
+        },
+        {
+          "name": "Standard part libraries and purchased components",
+          "id": "me-cad-solid-modeling-10"
+        },
+        {
+          "name": "Mass properties and basic in-CAD simulation",
+          "id": "me-cad-solid-modeling-11"
+        },
+        {
+          "name": "File formats and interoperability (STEP, IGES, STL, 3MF, Parasolid)",
+          "id": "me-cad-solid-modeling-12"
+        },
+        {
+          "name": "Product data management (PDM/PLM), revision control and model-based definition (MBD)",
+          "id": "me-cad-solid-modeling-13"
+        }
+      ]
+    },
+    {
+      "id": "me-tolerancing-gdt-metrology",
+      "name": "Tolerancing, GD&T & Dimensional Metrology",
+      "category": "Engineering Graphics, CAD & Tolerancing",
+      "level": 3,
+      "priority": "core",
+      "summary": "Specifying and verifying allowable variation: limits and fits, geometric dimensioning and tolerancing, tolerance stack-ups and inspection.",
+      "prerequisites": [
+        "me-cad-solid-modeling",
+        "me-manufacturing-processes"
+      ],
+      "topics": [
+        {
+          "name": "Why variation matters: interchangeability and cost vs tolerance",
+          "id": "me-tolerancing-gdt-metrology-1"
+        },
+        {
+          "name": "Limits, fits and tolerance grades (ISO 286, ANSI B4.1): clearance, transition, interference",
+          "id": "me-tolerancing-gdt-metrology-2"
+        },
+        {
+          "name": "Surface texture specification (Ra, Rz, lay symbols)",
+          "id": "me-tolerancing-gdt-metrology-3"
+        },
+        {
+          "name": "GD&T fundamentals and ASME Y14.5 rules (Rule #1, feature control frames)",
+          "id": "me-tolerancing-gdt-metrology-4"
+        },
+        {
+          "name": "Datums and datum reference frames",
+          "id": "me-tolerancing-gdt-metrology-5"
+        },
+        {
+          "name": "Form tolerances: flatness, straightness, circularity, cylindricity",
+          "id": "me-tolerancing-gdt-metrology-6"
+        },
+        {
+          "name": "Orientation tolerances: perpendicularity, parallelism, angularity",
+          "id": "me-tolerancing-gdt-metrology-7"
+        },
+        {
+          "name": "Position tolerance, MMC/LMC modifiers and bonus tolerance",
+          "id": "me-tolerancing-gdt-metrology-8"
+        },
+        {
+          "name": "Profile and runout tolerances",
+          "id": "me-tolerancing-gdt-metrology-9"
+        },
+        {
+          "name": "ISO GPS system vs ASME Y14.5",
+          "id": "me-tolerancing-gdt-metrology-10"
+        },
+        {
+          "name": "Tolerance stack-up analysis",
+          "sub": [
+            {
+              "name": "Worst-case",
+              "id": "me-tolerancing-gdt-metrology-11-1"
+            },
+            {
+              "name": "Root-sum-square (RSS)",
+              "id": "me-tolerancing-gdt-metrology-11-2"
+            },
+            {
+              "name": "Monte Carlo simulation",
+              "id": "me-tolerancing-gdt-metrology-11-3"
+            }
+          ],
+          "id": "me-tolerancing-gdt-metrology-11"
+        },
+        {
+          "name": "Dimensional metrology: gauges, CMMs, optical and 3D-scanning inspection",
+          "id": "me-tolerancing-gdt-metrology-12"
+        },
+        {
+          "name": "Functional gauging and inspection planning",
+          "id": "me-tolerancing-gdt-metrology-13"
+        }
+      ]
+    },
+    {
+      "id": "me-statics",
+      "name": "Engineering Statics",
+      "category": "Engineering Mechanics",
+      "level": 2,
+      "priority": "core",
+      "summary": "Equilibrium of particles and rigid bodies: forces, moments, free-body diagrams, trusses, frames, friction and section properties.",
+      "prerequisites": [
+        "me-introduction-to-engineering-mechanical-design",
+        "ma-calculus"
+      ],
+      "related": [
+        "ph-classical-mechanics",
+        "ma-classical-mechanics"
+      ],
+      "topics": [
+        {
+          "name": "Vectors, force components and resultants",
+          "id": "me-statics-1"
+        },
+        {
+          "name": "Equilibrium of a particle in 2D and 3D",
+          "id": "me-statics-2"
+        },
+        {
+          "name": "Moments of a force and couples; equivalent force systems",
+          "id": "me-statics-3"
+        },
+        {
+          "name": "Free-body diagrams and support reactions",
+          "id": "me-statics-4"
+        },
+        {
+          "name": "Equilibrium of rigid bodies in 2D and 3D",
+          "id": "me-statics-5"
+        },
+        {
+          "name": "Trusses: method of joints and method of sections",
+          "id": "me-statics-6"
+        },
+        {
+          "name": "Frames and machines",
+          "id": "me-statics-7"
+        },
+        {
+          "name": "Internal forces in beams; introduction to shear and bending-moment diagrams",
+          "id": "me-statics-8"
+        },
+        {
+          "name": "Distributed loads, centroids and centres of gravity",
+          "id": "me-statics-9"
+        },
+        {
+          "name": "Area moments of inertia, parallel-axis theorem and polar moment",
+          "id": "me-statics-10"
+        },
+        {
+          "name": "Mass moments of inertia",
+          "id": "me-statics-11"
+        },
+        {
+          "name": "Dry (Coulomb) friction: wedges, screws, belts and bearings",
+          "id": "me-statics-12"
+        },
+        {
+          "name": "Cables and hydrostatic loads",
+          "id": "me-statics-13"
+        },
+        {
+          "name": "Virtual work and stability of equilibrium",
+          "id": "me-statics-14"
+        }
+      ]
+    },
+    {
+      "id": "me-dynamics",
+      "name": "Engineering Dynamics",
+      "category": "Engineering Mechanics",
+      "level": 2,
+      "priority": "core",
+      "summary": "Motion of particles and rigid bodies under forces, using Newton's laws, work-energy and impulse-momentum methods.",
+      "prerequisites": [
+        "me-statics"
+      ],
+      "related": [
+        "ph-classical-mechanics"
+      ],
+      "topics": [
+        {
+          "name": "Particle kinematics: rectilinear and curvilinear motion",
+          "id": "me-dynamics-1"
+        },
+        {
+          "name": "Coordinate systems: rectangular, normal-tangential, polar/cylindrical",
+          "id": "me-dynamics-2"
+        },
+        {
+          "name": "Relative and dependent motion",
+          "id": "me-dynamics-3"
+        },
+        {
+          "name": "Newton's second law for particles; kinetic friction",
+          "id": "me-dynamics-4"
+        },
+        {
+          "name": "Work-energy principle, power and efficiency",
+          "id": "me-dynamics-5"
+        },
+        {
+          "name": "Conservative forces and potential energy",
+          "id": "me-dynamics-6"
+        },
+        {
+          "name": "Linear impulse-momentum and impact (coefficient of restitution)",
+          "id": "me-dynamics-7"
+        },
+        {
+          "name": "Angular momentum; systems of particles and variable-mass systems",
+          "id": "me-dynamics-8"
+        },
+        {
+          "name": "Planar rigid-body kinematics: rotation, general plane motion, instantaneous centre",
+          "id": "me-dynamics-9"
+        },
+        {
+          "name": "Relative motion in rotating frames (Coriolis acceleration)",
+          "id": "me-dynamics-10"
+        },
+        {
+          "name": "Planar rigid-body kinetics: Newton-Euler equations",
+          "id": "me-dynamics-11"
+        },
+        {
+          "name": "Work-energy and impulse-momentum for rigid bodies",
+          "id": "me-dynamics-12"
+        },
+        {
+          "name": "Introduction to 3D rigid-body kinematics and kinetics",
+          "id": "me-dynamics-13"
+        },
+        {
+          "name": "Introduction to free vibration",
+          "id": "me-dynamics-14"
+        }
+      ]
+    },
+    {
+      "id": "me-advanced-dynamics-multibody",
+      "name": "Advanced Dynamics & Multibody Systems",
+      "category": "Engineering Mechanics",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Three-dimensional rigid-body dynamics and the analytical methods used to model and simulate complex machines, vehicles and robots.",
+      "prerequisites": [
+        "me-dynamics",
+        "ph-classical-mechanics"
+      ],
+      "related": [
+        "ma-classical-mechanics"
+      ],
+      "topics": [
+        {
+          "name": "Rotation representations: rotation matrices, Euler angles, axis-angle, quaternions",
+          "id": "me-advanced-dynamics-multibody-1"
+        },
+        {
+          "name": "Angular velocity and acceleration in 3D; rotating reference frames",
+          "id": "me-advanced-dynamics-multibody-2"
+        },
+        {
+          "name": "Inertia tensor, principal axes and Euler's equations",
+          "id": "me-advanced-dynamics-multibody-3"
+        },
+        {
+          "name": "Gyroscopic effects, spinning tops and gyroscopes",
+          "id": "me-advanced-dynamics-multibody-4"
+        },
+        {
+          "name": "Generalised coordinates, holonomic and nonholonomic constraints, virtual work",
+          "id": "me-advanced-dynamics-multibody-5"
+        },
+        {
+          "name": "Lagrange's equations for engineering systems",
+          "id": "me-advanced-dynamics-multibody-6"
+        },
+        {
+          "name": "Kane's method and recursive Newton-Euler formulations",
+          "id": "me-advanced-dynamics-multibody-7"
+        },
+        {
+          "name": "Multibody system formulations and constraint stabilisation",
+          "id": "me-advanced-dynamics-multibody-8"
+        },
+        {
+          "name": "Contact, impact and friction in multibody simulation",
+          "id": "me-advanced-dynamics-multibody-9"
+        },
+        {
+          "name": "Numerical multibody simulation tools (Simscape Multibody, MSC Adams, MuJoCo)",
+          "id": "me-advanced-dynamics-multibody-10"
+        },
+        {
+          "name": "Linearisation and stability of motion",
+          "id": "me-advanced-dynamics-multibody-11"
+        }
+      ]
+    },
+    {
+      "id": "me-engineering-materials",
+      "name": "Engineering Materials for Mechanical Engineers",
+      "category": "Engineering Materials",
+      "level": 2,
+      "priority": "core",
+      "summary": "How the structure of metals, polymers, ceramics and composites determines their properties, and how processing and heat treatment change them.",
+      "prerequisites": [
+        "me-introduction-to-engineering-mechanical-design"
+      ],
+      "related": [
+        "ph-materials-physics"
+      ],
+      "topics": [
+        {
+          "name": "Material classes and property overview (mechanical, thermal, electrical, chemical)",
+          "id": "me-engineering-materials-1"
+        },
+        {
+          "name": "Atomic bonding and crystal structures (BCC, FCC, HCP)",
+          "id": "me-engineering-materials-2"
+        },
+        {
+          "name": "Crystal defects, dislocations and strengthening mechanisms",
+          "id": "me-engineering-materials-3"
+        },
+        {
+          "name": "Mechanical testing",
+          "sub": [
+            {
+              "name": "Tensile test and stress-strain diagrams",
+              "id": "me-engineering-materials-4-1"
+            },
+            {
+              "name": "Hardness tests",
+              "id": "me-engineering-materials-4-2"
+            },
+            {
+              "name": "Impact (Charpy) testing",
+              "id": "me-engineering-materials-4-3"
+            }
+          ],
+          "id": "me-engineering-materials-4"
+        },
+        {
+          "name": "Phase diagrams and the iron-carbon system",
+          "id": "me-engineering-materials-5"
+        },
+        {
+          "name": "Phase transformations, TTT/CCT diagrams and heat treatment (annealing, quenching, tempering, case hardening)",
+          "id": "me-engineering-materials-6"
+        },
+        {
+          "name": "Steels and cast irons: classification and designations (AISI/SAE, UNS)",
+          "id": "me-engineering-materials-7"
+        },
+        {
+          "name": "Nonferrous alloys: aluminium, titanium, magnesium, copper and nickel alloys",
+          "id": "me-engineering-materials-8"
+        },
+        {
+          "name": "Polymers and elastomers: thermoplastics vs thermosets, viscoelastic behaviour",
+          "id": "me-engineering-materials-9"
+        },
+        {
+          "name": "Ceramics and glasses",
+          "id": "me-engineering-materials-10"
+        },
+        {
+          "name": "Composite materials: fibres, matrices and rule of mixtures",
+          "id": "me-engineering-materials-11"
+        },
+        {
+          "name": "Corrosion mechanisms and control (galvanic, pitting, stress corrosion, coatings, cathodic protection)",
+          "id": "me-engineering-materials-12"
+        },
+        {
+          "name": "Overview of failure mechanisms: ductile and brittle fracture, fatigue, creep, wear",
+          "id": "me-engineering-materials-13"
+        },
+        {
+          "name": "Material data sources and standards",
+          "id": "me-engineering-materials-14"
+        }
+      ]
+    },
+    {
+      "id": "me-materials-selection",
+      "name": "Materials & Process Selection in Design",
+      "category": "Engineering Materials",
+      "level": 3,
+      "priority": "important",
+      "summary": "Systematic choice of materials and processes using Ashby charts, performance indices, shape factors and cost and environmental criteria.",
+      "prerequisites": [
+        "me-engineering-materials",
+        "me-mechanics-of-materials"
+      ],
+      "topics": [
+        {
+          "name": "Design-led selection strategy: translate, screen, rank, document",
+          "id": "me-materials-selection-1"
+        },
+        {
+          "name": "Material property charts (Ashby charts)",
+          "id": "me-materials-selection-2"
+        },
+        {
+          "name": "Performance indices for stiffness-, strength- and energy-limited design",
+          "id": "me-materials-selection-3"
+        },
+        {
+          "name": "Multiple constraints and conflicting objectives (trade-off surfaces, penalty functions)",
+          "id": "me-materials-selection-4"
+        },
+        {
+          "name": "Shape factors and efficient sections",
+          "id": "me-materials-selection-5"
+        },
+        {
+          "name": "Process selection and process-material compatibility",
+          "id": "me-materials-selection-6"
+        },
+        {
+          "name": "Cost modelling of materials and processes",
+          "id": "me-materials-selection-7"
+        },
+        {
+          "name": "Hybrid materials: sandwiches, lattices and segmented structures",
+          "id": "me-materials-selection-8"
+        },
+        {
+          "name": "Eco-selection: embodied energy, carbon footprint and life-cycle assessment",
+          "id": "me-materials-selection-9"
+        },
+        {
+          "name": "Selection software and databases (e.g. Granta EduPack)",
+          "id": "me-materials-selection-10"
+        }
+      ]
+    },
+    {
+      "id": "me-mechanics-of-materials",
+      "name": "Mechanics of Materials (Strength of Materials)",
+      "category": "Solid Mechanics & Structures",
+      "level": 2,
+      "priority": "core",
+      "summary": "Stress, strain and deformation in loaded members under axial load, torsion, bending, shear and combined loads, plus column buckling.",
+      "prerequisites": [
+        "me-statics"
+      ],
+      "related": [
+        "ma-solid-mechanics"
+      ],
+      "topics": [
+        {
+          "name": "Stress and strain; normal and shear stress",
+          "id": "me-mechanics-of-materials-1"
+        },
+        {
+          "name": "Hooke's law, Poisson's ratio and properties from the stress-strain curve",
+          "id": "me-mechanics-of-materials-2"
+        },
+        {
+          "name": "Axially loaded members: deformation, statically indeterminate bars, thermal stress",
+          "id": "me-mechanics-of-materials-3"
+        },
+        {
+          "name": "Torsion of circular shafts: shear stress, angle of twist, power transmission",
+          "id": "me-mechanics-of-materials-4"
+        },
+        {
+          "name": "Shear-force and bending-moment diagrams",
+          "id": "me-mechanics-of-materials-5"
+        },
+        {
+          "name": "Flexural (bending) stress in beams; composite beams",
+          "id": "me-mechanics-of-materials-6"
+        },
+        {
+          "name": "Transverse shear stress and shear flow",
+          "id": "me-mechanics-of-materials-7"
+        },
+        {
+          "name": "Stress transformation, principal stresses and Mohr's circle",
+          "id": "me-mechanics-of-materials-8"
+        },
+        {
+          "name": "Strain transformation and strain-gauge rosettes",
+          "id": "me-mechanics-of-materials-9"
+        },
+        {
+          "name": "Thin-walled pressure vessels",
+          "id": "me-mechanics-of-materials-10"
+        },
+        {
+          "name": "Combined loading",
+          "id": "me-mechanics-of-materials-11"
+        },
+        {
+          "name": "Beam deflection: integration, superposition and moment-area methods",
+          "id": "me-mechanics-of-materials-12"
+        },
+        {
+          "name": "Statically indeterminate beams",
+          "id": "me-mechanics-of-materials-13"
+        },
+        {
+          "name": "Column buckling: Euler load, end conditions, secant and Johnson formulas",
+          "id": "me-mechanics-of-materials-14"
+        },
+        {
+          "name": "Strain energy and introduction to energy methods",
+          "id": "me-mechanics-of-materials-15"
+        },
+        {
+          "name": "Stress concentrations and introduction to failure theories",
+          "id": "me-mechanics-of-materials-16"
+        }
+      ]
+    },
+    {
+      "id": "me-advanced-mechanics-of-materials",
+      "name": "Advanced Mechanics of Materials",
+      "category": "Solid Mechanics & Structures",
+      "level": 3,
+      "priority": "important",
+      "summary": "Beyond elementary strength of materials: energy methods, unsymmetric bending, thick cylinders, rotating discs, contact stresses and plates.",
+      "prerequisites": [
+        "me-mechanics-of-materials",
+        "ma-ordinary-differential-equations-odes"
+      ],
+      "topics": [
+        {
+          "name": "3D stress and strain; generalised Hooke's law",
+          "id": "me-advanced-mechanics-of-materials-1"
+        },
+        {
+          "name": "Failure criteria for ductile and brittle materials (Tresca, von Mises, Mohr-Coulomb)",
+          "id": "me-advanced-mechanics-of-materials-2"
+        },
+        {
+          "name": "Energy methods: Castigliano's theorems and the unit-load method",
+          "id": "me-advanced-mechanics-of-materials-3"
+        },
+        {
+          "name": "Unsymmetrical bending and the shear centre",
+          "id": "me-advanced-mechanics-of-materials-4"
+        },
+        {
+          "name": "Curved beams",
+          "id": "me-advanced-mechanics-of-materials-5"
+        },
+        {
+          "name": "Torsion of non-circular and thin-walled sections (membrane analogy)",
+          "id": "me-advanced-mechanics-of-materials-6"
+        },
+        {
+          "name": "Thick-walled cylinders and shrink fits (Lamé equations)",
+          "id": "me-advanced-mechanics-of-materials-7"
+        },
+        {
+          "name": "Rotating discs and cylinders",
+          "id": "me-advanced-mechanics-of-materials-8"
+        },
+        {
+          "name": "Beams on elastic foundations",
+          "id": "me-advanced-mechanics-of-materials-9"
+        },
+        {
+          "name": "Contact stresses (Hertz theory)",
+          "id": "me-advanced-mechanics-of-materials-10"
+        },
+        {
+          "name": "Bending of thin plates (introduction)",
+          "id": "me-advanced-mechanics-of-materials-11"
+        },
+        {
+          "name": "Stress concentration and notch analysis",
+          "id": "me-advanced-mechanics-of-materials-12"
+        },
+        {
+          "name": "Experimental stress analysis: strain gauges, photoelasticity, digital image correlation",
+          "id": "me-advanced-mechanics-of-materials-13"
+        }
+      ]
+    },
+    {
+      "id": "me-fatigue-fracture-creep",
+      "name": "Fatigue, Fracture & Creep",
+      "category": "Solid Mechanics & Structures",
+      "level": 3,
+      "priority": "important",
+      "summary": "How and when components fail under cyclic loads, cracks and high temperature, and how engineers design and inspect against it.",
+      "prerequisites": [
+        "me-mechanics-of-materials",
+        "me-engineering-materials"
+      ],
+      "topics": [
+        {
+          "name": "Failure analysis methodology and fractography",
+          "id": "me-fatigue-fracture-creep-1"
+        },
+        {
+          "name": "Stress-life (S-N) approach: endurance limit and modifying factors",
+          "id": "me-fatigue-fracture-creep-2"
+        },
+        {
+          "name": "Mean-stress effects (Goodman, Gerber, Soderberg, Smith-Watson-Topper)",
+          "id": "me-fatigue-fracture-creep-3"
+        },
+        {
+          "name": "Notches: fatigue notch factor and notch sensitivity",
+          "id": "me-fatigue-fracture-creep-4"
+        },
+        {
+          "name": "Strain-life approach: Coffin-Manson, cyclic stress-strain, Neuber's rule",
+          "id": "me-fatigue-fracture-creep-5"
+        },
+        {
+          "name": "Variable-amplitude loading: rainflow counting and Miner's rule",
+          "id": "me-fatigue-fracture-creep-6"
+        },
+        {
+          "name": "Linear elastic fracture mechanics: stress intensity factor and fracture toughness",
+          "id": "me-fatigue-fracture-creep-7"
+        },
+        {
+          "name": "Elastic-plastic fracture mechanics: CTOD and the J-integral",
+          "id": "me-fatigue-fracture-creep-8"
+        },
+        {
+          "name": "Fatigue crack growth (Paris law) and damage-tolerant design",
+          "id": "me-fatigue-fracture-creep-9"
+        },
+        {
+          "name": "Fatigue of welded joints and multiaxial fatigue",
+          "id": "me-fatigue-fracture-creep-10"
+        },
+        {
+          "name": "Creep, stress rupture, Larson-Miller parameter and creep-fatigue interaction",
+          "id": "me-fatigue-fracture-creep-11"
+        },
+        {
+          "name": "Environmental effects: corrosion fatigue, hydrogen embrittlement, fretting",
+          "id": "me-fatigue-fracture-creep-12"
+        },
+        {
+          "name": "Nondestructive inspection for cracks (ultrasonic, magnetic particle, dye penetrant, eddy current, radiography)",
+          "id": "me-fatigue-fracture-creep-13"
+        }
+      ]
+    },
+    {
+      "id": "me-continuum-mechanics-elasticity-plasticity",
+      "name": "Continuum Mechanics, Elasticity & Plasticity",
+      "category": "Solid Mechanics & Structures",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "The rigorous tensor theory of deformable solids, covering elasticity, hyperelasticity, viscoelasticity and plasticity for advanced stress analysis and modelling.",
+      "prerequisites": [
+        "me-advanced-mechanics-of-materials",
+        "ma-partial-differential-equations-pdes"
+      ],
+      "related": [
+        "ma-solid-mechanics"
+      ],
+      "topics": [
+        {
+          "name": "Tensor algebra and index notation",
+          "id": "me-continuum-mechanics-elasticity-plasticity-1"
+        },
+        {
+          "name": "Kinematics of deformation: deformation gradient, finite and infinitesimal strain",
+          "id": "me-continuum-mechanics-elasticity-plasticity-2"
+        },
+        {
+          "name": "Stress tensors (Cauchy, Piola-Kirchhoff) and balance laws",
+          "id": "me-continuum-mechanics-elasticity-plasticity-3"
+        },
+        {
+          "name": "Linear elasticity: constitutive laws, anisotropy and boundary-value problems",
+          "id": "me-continuum-mechanics-elasticity-plasticity-4"
+        },
+        {
+          "name": "Plane stress and plane strain; Airy stress-function solutions",
+          "id": "me-continuum-mechanics-elasticity-plasticity-5"
+        },
+        {
+          "name": "Energy principles: minimum potential energy and Rayleigh-Ritz",
+          "id": "me-continuum-mechanics-elasticity-plasticity-6"
+        },
+        {
+          "name": "Hyperelasticity for rubbers and soft materials (neo-Hookean, Mooney-Rivlin, Ogden)",
+          "id": "me-continuum-mechanics-elasticity-plasticity-7"
+        },
+        {
+          "name": "Viscoelasticity: spring-dashpot models, creep, relaxation, time-temperature superposition",
+          "id": "me-continuum-mechanics-elasticity-plasticity-8"
+        },
+        {
+          "name": "Plasticity: yield surfaces, flow rules, hardening and limit analysis",
+          "id": "me-continuum-mechanics-elasticity-plasticity-9"
+        },
+        {
+          "name": "Thermoelasticity",
+          "id": "me-continuum-mechanics-elasticity-plasticity-10"
+        },
+        {
+          "name": "Elastic waves in solids",
+          "id": "me-continuum-mechanics-elasticity-plasticity-11"
+        }
+      ]
+    },
+    {
+      "id": "me-lightweight-structures-composites",
+      "name": "Lightweight Structures & Composite Design",
+      "category": "Solid Mechanics & Structures",
+      "level": 4,
+      "priority": "important",
+      "summary": "Designing stiff, strong structures at minimum mass with thin-walled sections, sandwich panels, composite laminates, lattices and structural optimisation.",
+      "prerequisites": [
+        "me-advanced-mechanics-of-materials",
+        "me-materials-selection"
+      ],
+      "topics": [
+        {
+          "name": "Lightweighting strategy: specific stiffness/strength and structural efficiency",
+          "id": "me-lightweight-structures-composites-1"
+        },
+        {
+          "name": "Thin-walled open and closed sections: bending, torsion and shear flow",
+          "id": "me-lightweight-structures-composites-2"
+        },
+        {
+          "name": "Plate and shell buckling; stiffened panels and crippling",
+          "id": "me-lightweight-structures-composites-3"
+        },
+        {
+          "name": "Sandwich structures: face/core design and failure modes",
+          "id": "me-lightweight-structures-composites-4"
+        },
+        {
+          "name": "Composite lamina mechanics: micromechanics and orthotropic properties",
+          "id": "me-lightweight-structures-composites-5"
+        },
+        {
+          "name": "Classical laminate theory (ABD matrix) and laminate stacking design",
+          "id": "me-lightweight-structures-composites-6"
+        },
+        {
+          "name": "Composite failure criteria (Tsai-Wu, Hashin) and damage",
+          "id": "me-lightweight-structures-composites-7"
+        },
+        {
+          "name": "Composite manufacturing routes (layup, RTM, filament winding, automated fibre placement) and design implications",
+          "id": "me-lightweight-structures-composites-8"
+        },
+        {
+          "name": "Joining lightweight structures: bonded and bolted composite joints",
+          "id": "me-lightweight-structures-composites-9"
+        },
+        {
+          "name": "Lattice and cellular structures for additive manufacturing",
+          "id": "me-lightweight-structures-composites-10"
+        },
+        {
+          "name": "Crashworthiness and energy absorption",
+          "id": "me-lightweight-structures-composites-11"
+        },
+        {
+          "name": "Frames, shells and protective panels for wearable and mobile machines",
+          "id": "me-lightweight-structures-composites-12"
+        }
+      ]
+    },
+    {
+      "id": "me-engineering-thermodynamics",
+      "name": "Engineering Thermodynamics",
+      "category": "Thermal-Fluid Sciences",
+      "level": 2,
+      "priority": "core",
+      "summary": "Energy, heat and work in engineering systems: properties of substances, the first and second laws, entropy and exergy.",
+      "prerequisites": [
+        "me-introduction-to-engineering-mechanical-design",
+        "ma-calculus"
+      ],
+      "related": [
+        "ph-thermodynamics-statistical-mechanics",
+        "ma-thermodynamics"
+      ],
+      "topics": [
+        {
+          "name": "Systems, control volumes, properties, state and equilibrium",
+          "id": "me-engineering-thermodynamics-1"
+        },
+        {
+          "name": "Energy, heat and work; forms of energy",
+          "id": "me-engineering-thermodynamics-2"
+        },
+        {
+          "name": "Properties of pure substances: phase diagrams, property tables, quality",
+          "id": "me-engineering-thermodynamics-3"
+        },
+        {
+          "name": "Ideal-gas model and real-gas behaviour (compressibility factor)",
+          "id": "me-engineering-thermodynamics-4"
+        },
+        {
+          "name": "First law for closed systems",
+          "id": "me-engineering-thermodynamics-5"
+        },
+        {
+          "name": "Mass and energy analysis of control volumes",
+          "sub": [
+            {
+              "name": "Steady-flow devices: nozzles, diffusers, turbines, compressors, pumps",
+              "id": "me-engineering-thermodynamics-6-1"
+            },
+            {
+              "name": "Throttling valves, mixing chambers and heat exchangers",
+              "id": "me-engineering-thermodynamics-6-2"
+            }
+          ],
+          "id": "me-engineering-thermodynamics-6"
+        },
+        {
+          "name": "Transient flow processes (tank filling and discharging)",
+          "id": "me-engineering-thermodynamics-7"
+        },
+        {
+          "name": "Second law: Kelvin-Planck and Clausius statements; heat engines, refrigerators and heat pumps",
+          "id": "me-engineering-thermodynamics-8"
+        },
+        {
+          "name": "Carnot cycle and reversibility",
+          "id": "me-engineering-thermodynamics-9"
+        },
+        {
+          "name": "Entropy, entropy generation and isentropic processes",
+          "id": "me-engineering-thermodynamics-10"
+        },
+        {
+          "name": "Isentropic efficiencies of turbines, compressors and nozzles",
+          "id": "me-engineering-thermodynamics-11"
+        },
+        {
+          "name": "Exergy (availability) and second-law efficiency",
+          "id": "me-engineering-thermodynamics-12"
+        },
+        {
+          "name": "Thermodynamic property relations (Maxwell relations, Clapeyron equation)",
+          "id": "me-engineering-thermodynamics-13"
+        }
+      ]
+    },
+    {
+      "id": "me-applied-thermodynamics",
+      "name": "Applied Thermodynamics: Cycles, Mixtures & Combustion",
+      "category": "Thermal-Fluid Sciences",
+      "level": 3,
+      "priority": "core",
+      "summary": "Applying thermodynamics to power and refrigeration cycles, gas mixtures, psychrometrics, combustion and chemical equilibrium.",
+      "prerequisites": [
+        "me-engineering-thermodynamics"
+      ],
+      "topics": [
+        {
+          "name": "Gas power cycles: Otto, Diesel, dual, Stirling and Ericsson",
+          "id": "me-applied-thermodynamics-1"
+        },
+        {
+          "name": "Brayton cycle with regeneration, intercooling and reheat; jet-propulsion cycle overview",
+          "id": "me-applied-thermodynamics-2"
+        },
+        {
+          "name": "Vapour power cycles: Rankine with superheat, reheat and regeneration",
+          "id": "me-applied-thermodynamics-3"
+        },
+        {
+          "name": "Combined and cogeneration cycles",
+          "id": "me-applied-thermodynamics-4"
+        },
+        {
+          "name": "Refrigeration and heat pump cycles: vapour-compression, absorption and gas refrigeration",
+          "id": "me-applied-thermodynamics-5"
+        },
+        {
+          "name": "Non-reacting gas mixtures (Dalton and Amagat models)",
+          "id": "me-applied-thermodynamics-6"
+        },
+        {
+          "name": "Psychrometrics: humidity, dew point and the psychrometric chart",
+          "id": "me-applied-thermodynamics-7"
+        },
+        {
+          "name": "Air-conditioning processes: heating, cooling, dehumidification, mixing, evaporative cooling, cooling towers",
+          "id": "me-applied-thermodynamics-8"
+        },
+        {
+          "name": "Combustion: fuels, stoichiometry, air-fuel ratio and products",
+          "id": "me-applied-thermodynamics-9"
+        },
+        {
+          "name": "Enthalpy of formation, adiabatic flame temperature and heating values",
+          "id": "me-applied-thermodynamics-10"
+        },
+        {
+          "name": "Chemical and phase equilibrium",
+          "id": "me-applied-thermodynamics-11"
+        },
+        {
+          "name": "Exergy analysis of cycles and energy systems",
+          "id": "me-applied-thermodynamics-12"
+        }
+      ]
+    },
+    {
+      "id": "me-fluid-mechanics",
+      "name": "Engineering Fluid Mechanics",
+      "category": "Thermal-Fluid Sciences",
+      "level": 2,
+      "priority": "core",
+      "summary": "Fluid statics and flow for engineers: control-volume analysis, dimensional analysis, pipe flow, drag and lift, and pumps.",
+      "prerequisites": [
+        "me-dynamics",
+        "me-engineering-thermodynamics"
+      ],
+      "related": [
+        "ph-fluid-mechanics",
+        "ma-fluid-mechanics"
+      ],
+      "topics": [
+        {
+          "name": "Fluid properties: density, viscosity, surface tension, vapour pressure",
+          "id": "me-fluid-mechanics-1"
+        },
+        {
+          "name": "Fluid statics: pressure, manometry, hydrostatic forces on surfaces, buoyancy and stability",
+          "id": "me-fluid-mechanics-2"
+        },
+        {
+          "name": "Fluid kinematics: Lagrangian and Eulerian descriptions, streamlines",
+          "id": "me-fluid-mechanics-3"
+        },
+        {
+          "name": "Bernoulli equation and its limitations",
+          "id": "me-fluid-mechanics-4"
+        },
+        {
+          "name": "Control-volume analysis: conservation of mass, linear and angular momentum, energy",
+          "id": "me-fluid-mechanics-5"
+        },
+        {
+          "name": "Differential analysis: continuity and Navier-Stokes equations (introduction)",
+          "id": "me-fluid-mechanics-6"
+        },
+        {
+          "name": "Dimensional analysis, Buckingham Pi theorem and similitude",
+          "id": "me-fluid-mechanics-7"
+        },
+        {
+          "name": "Internal flow: laminar and turbulent pipe flow, Moody chart, major and minor losses",
+          "id": "me-fluid-mechanics-8"
+        },
+        {
+          "name": "Piping networks and flow measurement (Venturi, orifice, Pitot tube)",
+          "id": "me-fluid-mechanics-9"
+        },
+        {
+          "name": "External flow: boundary layers, drag and lift",
+          "id": "me-fluid-mechanics-10"
+        },
+        {
+          "name": "Open-channel flow (introduction)",
+          "id": "me-fluid-mechanics-11"
+        },
+        {
+          "name": "Pumps and fans: performance and system curves, affinity laws, NPSH and cavitation",
+          "id": "me-fluid-mechanics-12"
+        },
+        {
+          "name": "Introduction to compressible flow: Mach number and speed of sound",
+          "id": "me-fluid-mechanics-13"
+        }
+      ]
+    },
+    {
+      "id": "me-advanced-fluid-mechanics",
+      "name": "Advanced Fluid Mechanics & Compressible Flow",
+      "category": "Thermal-Fluid Sciences",
+      "level": 3,
+      "priority": "important",
+      "summary": "Viscous and inviscid flow theory, boundary layers, turbulence and compressible gas dynamics for engineering applications.",
+      "prerequisites": [
+        "me-fluid-mechanics",
+        "ma-partial-differential-equations-pdes"
+      ],
+      "related": [
+        "ph-fluid-mechanics"
+      ],
+      "topics": [
+        {
+          "name": "Navier-Stokes equations and exact solutions (Couette, Poiseuille, Stokes problems)",
+          "id": "me-advanced-fluid-mechanics-1"
+        },
+        {
+          "name": "Low-Reynolds-number (creeping) flow and lubrication theory",
+          "id": "me-advanced-fluid-mechanics-2"
+        },
+        {
+          "name": "Potential flow, vorticity and circulation",
+          "id": "me-advanced-fluid-mechanics-3"
+        },
+        {
+          "name": "Laminar boundary-layer theory (Blasius, integral methods) and separation",
+          "id": "me-advanced-fluid-mechanics-4"
+        },
+        {
+          "name": "Turbulence: Reynolds averaging, turbulent boundary layers, mixing length",
+          "id": "me-advanced-fluid-mechanics-5"
+        },
+        {
+          "name": "Isentropic compressible flow and nozzles",
+          "id": "me-advanced-fluid-mechanics-6"
+        },
+        {
+          "name": "Normal and oblique shock waves; Prandtl-Meyer expansion",
+          "id": "me-advanced-fluid-mechanics-7"
+        },
+        {
+          "name": "Flow with friction (Fanno) and heat addition (Rayleigh)",
+          "id": "me-advanced-fluid-mechanics-8"
+        },
+        {
+          "name": "Unsteady flow and water hammer",
+          "id": "me-advanced-fluid-mechanics-9"
+        },
+        {
+          "name": "Introduction to multiphase flow (bubbles, droplets, cavitation)",
+          "id": "me-advanced-fluid-mechanics-10"
+        },
+        {
+          "name": "Experimental fluid mechanics: wind tunnels, PIV, hot-wire anemometry",
+          "id": "me-advanced-fluid-mechanics-11"
+        }
+      ]
+    },
+    {
+      "id": "me-heat-transfer",
+      "name": "Heat & Mass Transfer",
+      "category": "Thermal-Fluid Sciences",
+      "level": 3,
+      "priority": "core",
+      "summary": "Conduction, convection and radiation, from fins and transient cooling to heat exchangers, boiling and mass transfer.",
+      "prerequisites": [
+        "me-fluid-mechanics",
+        "ma-ordinary-differential-equations-odes"
+      ],
+      "topics": [
+        {
+          "name": "Modes of heat transfer and the energy balance",
+          "id": "me-heat-transfer-1"
+        },
+        {
+          "name": "1D steady conduction: thermal-resistance networks, contact resistance, critical insulation",
+          "id": "me-heat-transfer-2"
+        },
+        {
+          "name": "Heat generation and extended surfaces (fins)",
+          "id": "me-heat-transfer-3"
+        },
+        {
+          "name": "2D steady conduction: shape factors and finite-difference methods",
+          "id": "me-heat-transfer-4"
+        },
+        {
+          "name": "Transient conduction: lumped capacitance, Biot and Fourier numbers, one-term solutions",
+          "id": "me-heat-transfer-5"
+        },
+        {
+          "name": "Convection fundamentals: boundary layers and dimensionless groups (Nu, Re, Pr)",
+          "id": "me-heat-transfer-6"
+        },
+        {
+          "name": "Forced convection in external flow: plates, cylinders and tube banks",
+          "id": "me-heat-transfer-7"
+        },
+        {
+          "name": "Forced convection in internal flow: pipes and ducts",
+          "id": "me-heat-transfer-8"
+        },
+        {
+          "name": "Natural (free) convection",
+          "id": "me-heat-transfer-9"
+        },
+        {
+          "name": "Boiling and condensation",
+          "id": "me-heat-transfer-10"
+        },
+        {
+          "name": "Heat exchangers: types, LMTD and effectiveness-NTU methods",
+          "id": "me-heat-transfer-11"
+        },
+        {
+          "name": "Radiation: blackbody, emissivity and view factors",
+          "id": "me-heat-transfer-12"
+        },
+        {
+          "name": "Radiation exchange between surfaces (radiosity networks)",
+          "id": "me-heat-transfer-13"
+        },
+        {
+          "name": "Mass transfer: Fick's law, diffusion and heat-mass transfer analogies",
+          "id": "me-heat-transfer-14"
+        }
+      ]
+    },
+    {
+      "id": "me-thermal-fluid-systems-design",
+      "name": "Thermal-Fluid Systems Design",
+      "category": "Thermal-Fluid Sciences",
+      "level": 3,
+      "priority": "important",
+      "summary": "Integrating thermodynamics, fluid mechanics and heat transfer to size, simulate and optimise complete thermal-fluid systems.",
+      "prerequisites": [
+        "me-heat-transfer",
+        "me-applied-thermodynamics"
+      ],
+      "topics": [
+        {
+          "name": "Thermal system design process: workable vs optimum design",
+          "id": "me-thermal-fluid-systems-design-1"
+        },
+        {
+          "name": "Piping and duct system design; pipe networks (Hardy Cross)",
+          "id": "me-thermal-fluid-systems-design-2"
+        },
+        {
+          "name": "Pump, fan and compressor selection; system matching; series and parallel operation",
+          "id": "me-thermal-fluid-systems-design-3"
+        },
+        {
+          "name": "Heat exchanger design and rating (shell-and-tube, plate, compact)",
+          "id": "me-thermal-fluid-systems-design-4"
+        },
+        {
+          "name": "Cooling towers, condensers and evaporators",
+          "id": "me-thermal-fluid-systems-design-5"
+        },
+        {
+          "name": "Control valves: characteristics and sizing",
+          "id": "me-thermal-fluid-systems-design-6"
+        },
+        {
+          "name": "Steady-state system simulation and component modelling",
+          "id": "me-thermal-fluid-systems-design-7"
+        },
+        {
+          "name": "Economics of thermal systems (life-cycle cost, payback)",
+          "id": "me-thermal-fluid-systems-design-8"
+        },
+        {
+          "name": "Optimization of thermal systems (Lagrange multipliers, search methods)",
+          "id": "me-thermal-fluid-systems-design-9"
+        },
+        {
+          "name": "Energy recovery: waste heat, heat pipes and thermal storage",
+          "id": "me-thermal-fluid-systems-design-10"
+        },
+        {
+          "name": "Pinch analysis and heat exchanger networks",
+          "id": "me-thermal-fluid-systems-design-11"
+        }
+      ]
+    },
+    {
+      "id": "me-combustion-engineering",
+      "name": "Combustion Engineering",
+      "category": "Thermal-Fluid Sciences",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "The chemistry and physics of flames, burners and fuels, with emphasis on engines, furnaces and pollutant control.",
+      "prerequisites": [
+        "me-applied-thermodynamics",
+        "me-heat-transfer"
+      ],
+      "topics": [
+        {
+          "name": "Thermochemistry and equilibrium composition of combustion products",
+          "id": "me-combustion-engineering-1"
+        },
+        {
+          "name": "Chemical kinetics: reaction rates, mechanisms and ignition delay",
+          "id": "me-combustion-engineering-2"
+        },
+        {
+          "name": "Chemically reacting system models (well-stirred and plug-flow reactors)",
+          "id": "me-combustion-engineering-3"
+        },
+        {
+          "name": "Conservation equations for reacting flows",
+          "id": "me-combustion-engineering-4"
+        },
+        {
+          "name": "Laminar premixed flames: flame speed, flammability limits, quenching",
+          "id": "me-combustion-engineering-5"
+        },
+        {
+          "name": "Laminar diffusion (non-premixed) flames",
+          "id": "me-combustion-engineering-6"
+        },
+        {
+          "name": "Turbulent combustion basics",
+          "id": "me-combustion-engineering-7"
+        },
+        {
+          "name": "Droplet evaporation, sprays and liquid-fuel combustion",
+          "id": "me-combustion-engineering-8"
+        },
+        {
+          "name": "Solid-fuel combustion (coal, biomass)",
+          "id": "me-combustion-engineering-9"
+        },
+        {
+          "name": "Pollutant formation and control: NOx, CO, soot, unburned hydrocarbons",
+          "id": "me-combustion-engineering-10"
+        },
+        {
+          "name": "Burners, furnaces and combustion safety",
+          "id": "me-combustion-engineering-11"
+        },
+        {
+          "name": "Alternative fuels: hydrogen, ammonia and biofuels",
+          "id": "me-combustion-engineering-12"
+        }
+      ]
+    },
+    {
+      "id": "me-system-dynamics",
+      "name": "System Dynamics & Modeling",
+      "category": "System Dynamics, Measurement & Control",
+      "level": 2,
+      "priority": "core",
+      "summary": "Building and analysing mathematical models of mechanical, electrical, fluid and thermal systems as the foundation for vibrations, control and mechatronics.",
+      "prerequisites": [
+        "me-dynamics",
+        "ma-ordinary-differential-equations-odes"
+      ],
+      "related": [
+        "ma-systems-theory-control",
+        "ma-dynamical-systems"
+      ],
+      "topics": [
+        {
+          "name": "Modeling philosophy: lumped elements, assumptions and validation",
+          "id": "me-system-dynamics-1"
+        },
+        {
+          "name": "Mechanical translational and rotational systems (masses, springs, dampers, gears, levers)",
+          "id": "me-system-dynamics-2"
+        },
+        {
+          "name": "Electrical and electromechanical systems (DC motors, generators)",
+          "id": "me-system-dynamics-3"
+        },
+        {
+          "name": "Fluid and hydraulic systems (capacitance, resistance, inertance)",
+          "id": "me-system-dynamics-4"
+        },
+        {
+          "name": "Thermal systems",
+          "id": "me-system-dynamics-5"
+        },
+        {
+          "name": "Energy-based modeling and bond graphs",
+          "id": "me-system-dynamics-6"
+        },
+        {
+          "name": "Laplace transforms and transfer functions",
+          "id": "me-system-dynamics-7"
+        },
+        {
+          "name": "Block diagrams and signal-flow graphs",
+          "id": "me-system-dynamics-8"
+        },
+        {
+          "name": "State-space representation and linearisation",
+          "id": "me-system-dynamics-9"
+        },
+        {
+          "name": "Time response of first- and second-order systems",
+          "id": "me-system-dynamics-10"
+        },
+        {
+          "name": "Frequency response and Bode plots",
+          "id": "me-system-dynamics-11"
+        },
+        {
+          "name": "Numerical simulation of dynamic systems (MATLAB/Simulink, Python)",
+          "id": "me-system-dynamics-12"
+        }
+      ]
+    },
+    {
+      "id": "me-measurements-instrumentation",
+      "name": "Measurements, Instrumentation & Experimental Methods",
+      "category": "System Dynamics, Measurement & Control",
+      "level": 3,
+      "priority": "core",
+      "summary": "Planning experiments and measuring force, strain, pressure, temperature, flow and motion reliably, with proper uncertainty analysis and reporting.",
+      "prerequisites": [
+        "me-system-dynamics",
+        "el-circuit-theory",
+        "ma-inferential-statistics"
+      ],
+      "related": [
+        "ph-measurement-instrumentation",
+        "el-sensor-interfacing",
+        "el-calibration"
+      ],
+      "topics": [
+        {
+          "name": "Measurement system elements and static characteristics (accuracy, precision, resolution, linearity, hysteresis)",
+          "id": "me-measurements-instrumentation-1"
+        },
+        {
+          "name": "Dynamic response of instruments (first- and second-order sensors)",
+          "id": "me-measurements-instrumentation-2"
+        },
+        {
+          "name": "Statistics for experimentation and uncertainty analysis (propagation, confidence intervals)",
+          "id": "me-measurements-instrumentation-3"
+        },
+        {
+          "name": "Calibration, traceability and standards",
+          "id": "me-measurements-instrumentation-4"
+        },
+        {
+          "name": "Signal conditioning: bridges, amplifiers and filters",
+          "id": "me-measurements-instrumentation-5"
+        },
+        {
+          "name": "Data acquisition: sampling, aliasing, quantisation and ADCs",
+          "id": "me-measurements-instrumentation-6"
+        },
+        {
+          "name": "Spectral analysis and the FFT for measurement data",
+          "id": "me-measurements-instrumentation-7"
+        },
+        {
+          "name": "Strain, force, torque and pressure measurement (strain gauges, load cells, transducers)",
+          "id": "me-measurements-instrumentation-8"
+        },
+        {
+          "name": "Temperature measurement (thermocouples, RTDs, thermistors, infrared)",
+          "id": "me-measurements-instrumentation-9"
+        },
+        {
+          "name": "Flow measurement (differential pressure, turbine, Coriolis, ultrasonic, hot-wire)",
+          "id": "me-measurements-instrumentation-10"
+        },
+        {
+          "name": "Motion measurement: displacement (LVDT, encoders), velocity and acceleration (accelerometers)",
+          "id": "me-measurements-instrumentation-11"
+        },
+        {
+          "name": "Design of experiments and test planning",
+          "id": "me-measurements-instrumentation-12"
+        },
+        {
+          "name": "Technical reporting and presentation of experimental results",
+          "id": "me-measurements-instrumentation-13"
+        }
+      ]
+    },
+    {
+      "id": "me-feedback-control",
+      "name": "Feedback Control of Mechanical Systems",
+      "category": "System Dynamics, Measurement & Control",
+      "level": 3,
+      "priority": "core",
+      "summary": "Designing controllers that make machines behave as intended: stability, PID, root locus, frequency-domain and state-space design, and implementation.",
+      "prerequisites": [
+        "me-system-dynamics"
+      ],
+      "related": [
+        "el-control-theory",
+        "ma-control-theory",
+        "ai-control-systems"
+      ],
+      "topics": [
+        {
+          "name": "Open- vs closed-loop control; benefits and costs of feedback",
+          "id": "me-feedback-control-1"
+        },
+        {
+          "name": "Performance specifications: transient response and steady-state error",
+          "id": "me-feedback-control-2"
+        },
+        {
+          "name": "Stability and the Routh-Hurwitz criterion",
+          "id": "me-feedback-control-3"
+        },
+        {
+          "name": "PID control and practical tuning (Ziegler-Nichols, anti-windup)",
+          "id": "me-feedback-control-4"
+        },
+        {
+          "name": "Root-locus analysis and design",
+          "id": "me-feedback-control-5"
+        },
+        {
+          "name": "Frequency-response design: Bode and Nyquist plots, gain and phase margins",
+          "id": "me-feedback-control-6"
+        },
+        {
+          "name": "Lead, lag and lead-lag compensation",
+          "id": "me-feedback-control-7"
+        },
+        {
+          "name": "State-space control: controllability, observability, pole placement, observers",
+          "id": "me-feedback-control-8"
+        },
+        {
+          "name": "Digital control: sampling, discretisation and z-transform basics",
+          "id": "me-feedback-control-9"
+        },
+        {
+          "name": "Motion control: feedforward, trajectory tracking, cascaded position/velocity loops",
+          "id": "me-feedback-control-10"
+        },
+        {
+          "name": "Nonlinearities: saturation, backlash and friction compensation",
+          "id": "me-feedback-control-11"
+        },
+        {
+          "name": "Introduction to optimal (LQR) and model predictive control",
+          "id": "me-feedback-control-12"
+        },
+        {
+          "name": "Introduction to robust, adaptive and nonlinear control",
+          "id": "me-feedback-control-13"
+        },
+        {
+          "name": "Implementation on hardware and hardware-in-the-loop testing",
+          "id": "me-feedback-control-14"
+        }
+      ]
+    },
+    {
+      "id": "me-mechanical-vibrations",
+      "name": "Mechanical Vibrations",
+      "category": "Vibrations & Acoustics",
+      "level": 3,
+      "priority": "core",
+      "summary": "Free and forced vibration of single- and multi-degree-of-freedom and continuous systems, and how to isolate, absorb and measure vibration.",
+      "prerequisites": [
+        "me-system-dynamics",
+        "ma-linear-algebra"
+      ],
+      "topics": [
+        {
+          "name": "Free vibration of undamped single-degree-of-freedom systems; natural frequency",
+          "id": "me-mechanical-vibrations-1"
+        },
+        {
+          "name": "Damped free vibration: viscous, Coulomb and structural damping; logarithmic decrement",
+          "id": "me-mechanical-vibrations-2"
+        },
+        {
+          "name": "Harmonically forced vibration: resonance, magnification factor and phase",
+          "id": "me-mechanical-vibrations-3"
+        },
+        {
+          "name": "Base excitation, rotating unbalance and transmissibility",
+          "id": "me-mechanical-vibrations-4"
+        },
+        {
+          "name": "Vibration isolation and isolator selection",
+          "id": "me-mechanical-vibrations-5"
+        },
+        {
+          "name": "Response to general excitation: impulse response, convolution and shock spectra",
+          "id": "me-mechanical-vibrations-6"
+        },
+        {
+          "name": "Two-degree-of-freedom systems and dynamic vibration absorbers",
+          "id": "me-mechanical-vibrations-7"
+        },
+        {
+          "name": "Multi-degree-of-freedom systems: eigenvalue problem, mode shapes and modal analysis",
+          "id": "me-mechanical-vibrations-8"
+        },
+        {
+          "name": "Continuous systems: strings, bars, shafts and beams",
+          "id": "me-mechanical-vibrations-9"
+        },
+        {
+          "name": "Rayleigh's method and other approximate methods",
+          "id": "me-mechanical-vibrations-10"
+        },
+        {
+          "name": "Torsional vibration of shafts and drivetrains",
+          "id": "me-mechanical-vibrations-11"
+        },
+        {
+          "name": "Vibration measurement and experimental modal analysis",
+          "id": "me-mechanical-vibrations-12"
+        },
+        {
+          "name": "Balancing of rotors (single- and two-plane)",
+          "id": "me-mechanical-vibrations-13"
+        }
+      ]
+    },
+    {
+      "id": "me-acoustics-noise-control",
+      "name": "Engineering Acoustics & Noise Control",
+      "category": "Vibrations & Acoustics",
+      "level": 3,
+      "priority": "important",
+      "summary": "Sound generation, propagation and measurement, and the practical engineering of quieter machines, products and buildings.",
+      "prerequisites": [
+        "me-mechanical-vibrations"
+      ],
+      "related": [
+        "ph-acoustics"
+      ],
+      "topics": [
+        {
+          "name": "The acoustic wave equation; plane and spherical waves",
+          "id": "me-acoustics-noise-control-1"
+        },
+        {
+          "name": "Decibels: sound pressure, intensity and power levels; combining sources",
+          "id": "me-acoustics-noise-control-2"
+        },
+        {
+          "name": "Frequency analysis, octave bands and A-/C-weighting",
+          "id": "me-acoustics-noise-control-3"
+        },
+        {
+          "name": "Human hearing, noise criteria and regulations; hearing conservation",
+          "id": "me-acoustics-noise-control-4"
+        },
+        {
+          "name": "Sound measurement: microphones, sound level meters, intensity probes",
+          "id": "me-acoustics-noise-control-5"
+        },
+        {
+          "name": "Outdoor sound propagation and barriers",
+          "id": "me-acoustics-noise-control-6"
+        },
+        {
+          "name": "Room acoustics: reverberation time, absorption and the Sabine equation",
+          "id": "me-acoustics-noise-control-7"
+        },
+        {
+          "name": "Sound transmission loss through walls and enclosures",
+          "id": "me-acoustics-noise-control-8"
+        },
+        {
+          "name": "Mufflers and silencers (reactive and dissipative)",
+          "id": "me-acoustics-noise-control-9"
+        },
+        {
+          "name": "Machinery noise sources: fans, gears, motors, flow noise and impacts",
+          "id": "me-acoustics-noise-control-10"
+        },
+        {
+          "name": "Noise control at source, path and receiver; damping treatments",
+          "id": "me-acoustics-noise-control-11"
+        },
+        {
+          "name": "HVAC system noise and vibration control",
+          "id": "me-acoustics-noise-control-12"
+        },
+        {
+          "name": "Active noise control and sound quality",
+          "id": "me-acoustics-noise-control-13"
+        }
+      ]
+    },
+    {
+      "id": "me-advanced-vibrations-rotordynamics",
+      "name": "Structural Dynamics, Advanced Vibrations & Rotordynamics",
+      "category": "Vibrations & Acoustics",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Advanced vibration topics for real machines and structures: continuous and random vibration, nonlinear behaviour, rotordynamics, vibration control and condition monitoring.",
+      "prerequisites": [
+        "me-mechanical-vibrations",
+        "ma-partial-differential-equations-pdes",
+        "ma-probability-theory"
+      ],
+      "related": [
+        "ph-chaos-theory-nonlinear-dynamics"
+      ],
+      "topics": [
+        {
+          "name": "Vibration of plates and other continuous systems (analytical and numerical)",
+          "id": "me-advanced-vibrations-rotordynamics-1"
+        },
+        {
+          "name": "Finite-element structural dynamics and model reduction",
+          "id": "me-advanced-vibrations-rotordynamics-2"
+        },
+        {
+          "name": "Random vibration: power spectral density and response of linear systems",
+          "id": "me-advanced-vibrations-rotordynamics-3"
+        },
+        {
+          "name": "Nonlinear vibrations: Duffing oscillator, jump phenomena and limit cycles",
+          "id": "me-advanced-vibrations-rotordynamics-4"
+        },
+        {
+          "name": "Rotordynamics: critical speeds, whirl, Campbell diagrams, bearing and seal effects",
+          "id": "me-advanced-vibrations-rotordynamics-5"
+        },
+        {
+          "name": "Passive, semi-active and active vibration control; tuned mass dampers",
+          "id": "me-advanced-vibrations-rotordynamics-6"
+        },
+        {
+          "name": "Machine condition monitoring and vibration-based fault diagnosis",
+          "id": "me-advanced-vibrations-rotordynamics-7"
+        },
+        {
+          "name": "Shock and impact response; shock isolation",
+          "id": "me-advanced-vibrations-rotordynamics-8"
+        },
+        {
+          "name": "Fluid-structure interaction and flow-induced vibration",
+          "id": "me-advanced-vibrations-rotordynamics-9"
+        }
+      ]
+    },
+    {
+      "id": "me-kinematics-of-mechanisms",
+      "name": "Kinematics of Mechanisms",
+      "category": "Mechanisms & Kinematics of Machinery",
+      "level": 3,
+      "priority": "core",
+      "summary": "Analysis and synthesis of linkages, cams and gear trains that produce a desired motion.",
+      "prerequisites": [
+        "me-dynamics"
+      ],
+      "topics": [
+        {
+          "name": "Links, joints, kinematic chains and mechanism classification",
+          "id": "me-kinematics-of-mechanisms-1"
+        },
+        {
+          "name": "Degrees of freedom: Gruebler/Kutzbach criterion",
+          "id": "me-kinematics-of-mechanisms-2"
+        },
+        {
+          "name": "Grashof condition, four-bar linkage behaviour and inversions",
+          "id": "me-kinematics-of-mechanisms-3"
+        },
+        {
+          "name": "Position analysis of linkages (graphical, vector-loop, complex-number methods)",
+          "id": "me-kinematics-of-mechanisms-4"
+        },
+        {
+          "name": "Velocity analysis and instant centres (Kennedy's theorem)",
+          "id": "me-kinematics-of-mechanisms-5"
+        },
+        {
+          "name": "Acceleration analysis including Coriolis components",
+          "id": "me-kinematics-of-mechanisms-6"
+        },
+        {
+          "name": "Slider-crank, quick-return and other common mechanisms",
+          "id": "me-kinematics-of-mechanisms-7"
+        },
+        {
+          "name": "Linkage synthesis: function, path and motion generation (graphical and Freudenstein methods)",
+          "id": "me-kinematics-of-mechanisms-8"
+        },
+        {
+          "name": "Cam design: follower motions, SVAJ diagrams and cam-profile synthesis",
+          "id": "me-kinematics-of-mechanisms-9"
+        },
+        {
+          "name": "Gear-train kinematics: simple, compound, reverted and epicyclic trains",
+          "id": "me-kinematics-of-mechanisms-10"
+        },
+        {
+          "name": "Intermittent-motion mechanisms: Geneva wheels and ratchets",
+          "id": "me-kinematics-of-mechanisms-11"
+        },
+        {
+          "name": "Introduction to spatial mechanisms",
+          "id": "me-kinematics-of-mechanisms-12"
+        },
+        {
+          "name": "Mechanism simulation software",
+          "id": "me-kinematics-of-mechanisms-13"
+        }
+      ]
+    },
+    {
+      "id": "me-dynamics-of-machinery",
+      "name": "Dynamics of Machinery",
+      "category": "Mechanisms & Kinematics of Machinery",
+      "level": 3,
+      "priority": "important",
+      "summary": "Forces in moving machinery: dynamic force analysis, engine dynamics, balancing, flywheels and cam dynamics.",
+      "prerequisites": [
+        "me-kinematics-of-mechanisms"
+      ],
+      "topics": [
+        {
+          "name": "Dynamic force analysis of linkages (matrix method)",
+          "id": "me-dynamics-of-machinery-1"
+        },
+        {
+          "name": "Superposition and energy methods for machine force analysis",
+          "id": "me-dynamics-of-machinery-2"
+        },
+        {
+          "name": "Slider-crank engine dynamics: gas and inertia forces, crankshaft torque",
+          "id": "me-dynamics-of-machinery-3"
+        },
+        {
+          "name": "Multicylinder engine configurations and firing order",
+          "id": "me-dynamics-of-machinery-4"
+        },
+        {
+          "name": "Shaking forces and shaking moments",
+          "id": "me-dynamics-of-machinery-5"
+        },
+        {
+          "name": "Static and dynamic balancing of rotating masses",
+          "id": "me-dynamics-of-machinery-6"
+        },
+        {
+          "name": "Balancing of reciprocating machines and linkages",
+          "id": "me-dynamics-of-machinery-7"
+        },
+        {
+          "name": "Flywheel design and speed fluctuation",
+          "id": "me-dynamics-of-machinery-8"
+        },
+        {
+          "name": "Cam dynamics: follower jump and cam-follower vibration",
+          "id": "me-dynamics-of-machinery-9"
+        },
+        {
+          "name": "Governors and gyroscopic couples in machines",
+          "id": "me-dynamics-of-machinery-10"
+        }
+      ]
+    },
+    {
+      "id": "me-machine-design-fundamentals",
+      "name": "Machine Design: Stress, Deflection & Failure",
+      "category": "Machine Design & Machine Elements",
+      "level": 3,
+      "priority": "core",
+      "summary": "Designing machine components that do not fail: load analysis, stress concentration, static and fatigue failure theories and factors of safety.",
+      "prerequisites": [
+        "me-mechanics-of-materials",
+        "me-engineering-materials"
+      ],
+      "topics": [
+        {
+          "name": "The mechanical design process, codes, standards and design factors",
+          "id": "me-machine-design-fundamentals-1"
+        },
+        {
+          "name": "Load analysis and free-body diagrams of machine components",
+          "id": "me-machine-design-fundamentals-2"
+        },
+        {
+          "name": "Stress analysis review: combined stresses and stress concentration",
+          "id": "me-machine-design-fundamentals-3"
+        },
+        {
+          "name": "Deflection and stiffness; stiffness-driven design",
+          "id": "me-machine-design-fundamentals-4"
+        },
+        {
+          "name": "Static failure theories for ductile and brittle materials",
+          "id": "me-machine-design-fundamentals-5"
+        },
+        {
+          "name": "Fatigue design: endurance limit, Marin factors, fully reversed and fluctuating stresses",
+          "id": "me-machine-design-fundamentals-6"
+        },
+        {
+          "name": "Fatigue failure criteria (modified Goodman, Gerber, ASME-elliptic)",
+          "id": "me-machine-design-fundamentals-7"
+        },
+        {
+          "name": "Factor of safety, reliability-based design factors and statistical considerations",
+          "id": "me-machine-design-fundamentals-8"
+        },
+        {
+          "name": "Surface failure and wear (introduction)",
+          "id": "me-machine-design-fundamentals-9"
+        },
+        {
+          "name": "Material selection for machine components",
+          "id": "me-machine-design-fundamentals-10"
+        },
+        {
+          "name": "Design of simple components: levers, brackets and frames",
+          "id": "me-machine-design-fundamentals-11"
+        },
+        {
+          "name": "Case study: integrated design of a complete machine",
+          "id": "me-machine-design-fundamentals-12"
+        }
+      ]
+    },
+    {
+      "id": "me-shafts-bearings-seals",
+      "name": "Shafts, Bearings, Couplings & Seals",
+      "category": "Machine Design & Machine Elements",
+      "level": 3,
+      "priority": "core",
+      "summary": "Designing rotating assemblies: shafts and their connections, rolling and sliding bearings, lubrication, couplings, seals and linear guides.",
+      "prerequisites": [
+        "me-machine-design-fundamentals"
+      ],
+      "topics": [
+        {
+          "name": "Shaft layout and materials",
+          "id": "me-shafts-bearings-seals-1"
+        },
+        {
+          "name": "Shaft design for stress (static and fatigue) and deflection",
+          "id": "me-shafts-bearings-seals-2"
+        },
+        {
+          "name": "Critical speeds of shafts",
+          "id": "me-shafts-bearings-seals-3"
+        },
+        {
+          "name": "Keys, keyways, splines, set screws and pins",
+          "id": "me-shafts-bearings-seals-4"
+        },
+        {
+          "name": "Press and shrink fits; retaining rings",
+          "id": "me-shafts-bearings-seals-5"
+        },
+        {
+          "name": "Couplings: rigid, flexible, universal joints and constant-velocity joints",
+          "id": "me-shafts-bearings-seals-6"
+        },
+        {
+          "name": "Rolling-element bearings: types, load ratings and L10 life",
+          "id": "me-shafts-bearings-seals-7"
+        },
+        {
+          "name": "Bearing selection: combined loads, reliability, preload and mounting",
+          "id": "me-shafts-bearings-seals-8"
+        },
+        {
+          "name": "Lubrication fundamentals and viscosity",
+          "id": "me-shafts-bearings-seals-9"
+        },
+        {
+          "name": "Hydrodynamic journal bearings (Petroff, Sommerfeld number, Raimondi-Boyd charts)",
+          "id": "me-shafts-bearings-seals-10"
+        },
+        {
+          "name": "Hydrostatic, air and magnetic bearings (overview)",
+          "id": "me-shafts-bearings-seals-11"
+        },
+        {
+          "name": "Seals: gaskets, O-rings, lip seals and mechanical face seals",
+          "id": "me-shafts-bearings-seals-12"
+        },
+        {
+          "name": "Linear motion guides and bushings",
+          "id": "me-shafts-bearings-seals-13"
+        }
+      ]
+    },
+    {
+      "id": "me-gears-power-transmission",
+      "name": "Gears, Belts, Chains, Clutches & Brakes",
+      "category": "Machine Design & Machine Elements",
+      "level": 3,
+      "priority": "core",
+      "summary": "Designing power-transmission elements: gears of every type, gearboxes, flexible drives, clutches, brakes and flywheels.",
+      "prerequisites": [
+        "me-machine-design-fundamentals",
+        "me-kinematics-of-mechanisms"
+      ],
+      "topics": [
+        {
+          "name": "Gear types and nomenclature; involute profile and conjugate action",
+          "id": "me-gears-power-transmission-1"
+        },
+        {
+          "name": "Spur gear geometry: contact ratio, interference and undercutting",
+          "id": "me-gears-power-transmission-2"
+        },
+        {
+          "name": "Force analysis of spur, helical, bevel and worm gears",
+          "id": "me-gears-power-transmission-3"
+        },
+        {
+          "name": "AGMA bending and contact (pitting) stress for spur and helical gears",
+          "id": "me-gears-power-transmission-4"
+        },
+        {
+          "name": "Bevel and worm gear design",
+          "id": "me-gears-power-transmission-5"
+        },
+        {
+          "name": "Gearbox design and planetary gear sets",
+          "id": "me-gears-power-transmission-6"
+        },
+        {
+          "name": "Gear manufacturing, quality grades, lubrication and failure modes",
+          "id": "me-gears-power-transmission-7"
+        },
+        {
+          "name": "Specialised reducers: harmonic (strain-wave) and cycloidal drives",
+          "id": "me-gears-power-transmission-8"
+        },
+        {
+          "name": "Belt drives: flat, V- and synchronous (timing) belts",
+          "id": "me-gears-power-transmission-9"
+        },
+        {
+          "name": "Roller and silent chain drives",
+          "id": "me-gears-power-transmission-10"
+        },
+        {
+          "name": "Wire ropes and flexible shafts",
+          "id": "me-gears-power-transmission-11"
+        },
+        {
+          "name": "Clutches and brakes: friction analysis, energy dissipation and temperature rise",
+          "id": "me-gears-power-transmission-12"
+        },
+        {
+          "name": "Flywheels in power transmission",
+          "id": "me-gears-power-transmission-13"
+        }
+      ]
+    },
+    {
+      "id": "me-fasteners-joints-springs",
+      "name": "Fasteners, Joints, Springs & Power Screws",
+      "category": "Machine Design & Machine Elements",
+      "level": 3,
+      "priority": "core",
+      "summary": "Designing threaded fasteners, power and ball screws, welded, bonded and riveted joints, and springs of all common types.",
+      "prerequisites": [
+        "me-machine-design-fundamentals"
+      ],
+      "topics": [
+        {
+          "name": "Thread standards and terminology",
+          "id": "me-fasteners-joints-springs-1"
+        },
+        {
+          "name": "Power screws: lifting and lowering torque, self-locking and efficiency",
+          "id": "me-fasteners-joints-springs-2"
+        },
+        {
+          "name": "Ball screws and roller screws",
+          "id": "me-fasteners-joints-springs-3"
+        },
+        {
+          "name": "Bolted joints: joint stiffness, preload and torque-tension relationship",
+          "id": "me-fasteners-joints-springs-4"
+        },
+        {
+          "name": "Bolted joints under tension and fatigue loading; gasketed joints",
+          "id": "me-fasteners-joints-springs-5"
+        },
+        {
+          "name": "Bolt and rivet groups under eccentric shear",
+          "id": "me-fasteners-joints-springs-6"
+        },
+        {
+          "name": "Welded joints: weld symbols, stresses in fillet and butt welds, static and fatigue strength",
+          "id": "me-fasteners-joints-springs-7"
+        },
+        {
+          "name": "Adhesive bonding: joint design and stress distribution",
+          "id": "me-fasteners-joints-springs-8"
+        },
+        {
+          "name": "Riveted and snap-fit joints",
+          "id": "me-fasteners-joints-springs-9"
+        },
+        {
+          "name": "Helical compression springs: stress, deflection, buckling, surge and fatigue",
+          "id": "me-fasteners-joints-springs-10"
+        },
+        {
+          "name": "Extension and torsion springs",
+          "id": "me-fasteners-joints-springs-11"
+        },
+        {
+          "name": "Belleville, leaf, wave and gas springs",
+          "id": "me-fasteners-joints-springs-12"
+        },
+        {
+          "name": "Fastener materials, grades, corrosion and locking methods",
+          "id": "me-fasteners-joints-springs-13"
+        }
+      ]
+    },
+    {
+      "id": "me-pressure-vessels-piping",
+      "name": "Pressure Vessels & Piping Design",
+      "category": "Machine Design & Machine Elements",
+      "level": 3,
+      "priority": "important",
+      "summary": "Code-based design of pressure vessels, piping and their components, from wall thickness to pipe stress and overpressure protection.",
+      "prerequisites": [
+        "me-advanced-mechanics-of-materials",
+        "me-machine-design-fundamentals",
+        "me-fluid-mechanics"
+      ],
+      "topics": [
+        {
+          "name": "Thin- and thick-walled pressure vessel theory review",
+          "id": "me-pressure-vessels-piping-1"
+        },
+        {
+          "name": "ASME Boiler and Pressure Vessel Code (Section VIII) design rules",
+          "id": "me-pressure-vessels-piping-2"
+        },
+        {
+          "name": "Heads, nozzles, openings and reinforcement",
+          "id": "me-pressure-vessels-piping-3"
+        },
+        {
+          "name": "Flanges, gaskets and bolting",
+          "id": "me-pressure-vessels-piping-4"
+        },
+        {
+          "name": "External pressure and vessel buckling",
+          "id": "me-pressure-vessels-piping-5"
+        },
+        {
+          "name": "Pressure relief devices and overpressure protection",
+          "id": "me-pressure-vessels-piping-6"
+        },
+        {
+          "name": "Piping codes (ASME B31.1, B31.3) and wall-thickness calculation",
+          "id": "me-pressure-vessels-piping-7"
+        },
+        {
+          "name": "Pipe stress analysis: thermal expansion, flexibility, supports and hangers",
+          "id": "me-pressure-vessels-piping-8"
+        },
+        {
+          "name": "Materials, welding and inspection of pressure equipment",
+          "id": "me-pressure-vessels-piping-9"
+        },
+        {
+          "name": "Hydrostatic testing, fitness-for-service and failure case studies",
+          "id": "me-pressure-vessels-piping-10"
+        },
+        {
+          "name": "High-pressure gas and hydraulic vessels, including composite-overwrapped vessels",
+          "id": "me-pressure-vessels-piping-11"
+        }
+      ]
+    },
+    {
+      "id": "me-tribology",
+      "name": "Tribology: Friction, Wear & Lubrication",
+      "category": "Machine Design & Machine Elements",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "The science of interacting surfaces in relative motion: contact, friction, wear, lubrication and surface engineering of machine elements.",
+      "prerequisites": [
+        "me-shafts-bearings-seals",
+        "me-advanced-mechanics-of-materials",
+        "me-fluid-mechanics"
+      ],
+      "topics": [
+        {
+          "name": "Surface topography and roughness characterisation",
+          "id": "me-tribology-1"
+        },
+        {
+          "name": "Contact mechanics of rough surfaces (Greenwood-Williamson)",
+          "id": "me-tribology-2"
+        },
+        {
+          "name": "Friction mechanisms and friction models",
+          "id": "me-tribology-3"
+        },
+        {
+          "name": "Wear mechanisms: adhesive, abrasive, fatigue, corrosive, fretting and erosion",
+          "id": "me-tribology-4"
+        },
+        {
+          "name": "Lubricants: oils, greases, additives and solid lubricants",
+          "id": "me-tribology-5"
+        },
+        {
+          "name": "Lubrication regimes and the Stribeck curve",
+          "id": "me-tribology-6"
+        },
+        {
+          "name": "Hydrodynamic lubrication and the Reynolds equation",
+          "id": "me-tribology-7"
+        },
+        {
+          "name": "Elastohydrodynamic lubrication in gears and rolling bearings",
+          "id": "me-tribology-8"
+        },
+        {
+          "name": "Surface engineering and coatings (DLC, nitriding, hard coatings)",
+          "id": "me-tribology-9"
+        },
+        {
+          "name": "Tribological testing and tribology of seals, gears and bearings",
+          "id": "me-tribology-10"
+        },
+        {
+          "name": "Tribology of polymers and biomedical implants",
+          "id": "me-tribology-11"
+        }
+      ]
+    },
+    {
+      "id": "me-precision-design-compliant-mechanisms",
+      "name": "Precision Machine Design & Compliant Mechanisms",
+      "category": "Machine Design & Machine Elements",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Designing machines for micrometre-level accuracy and mechanisms that move by flexing, using exact constraint, error budgets and flexures.",
+      "prerequisites": [
+        "me-machine-design-fundamentals",
+        "me-advanced-mechanics-of-materials"
+      ],
+      "topics": [
+        {
+          "name": "Accuracy, repeatability and resolution",
+          "id": "me-precision-design-compliant-mechanisms-1"
+        },
+        {
+          "name": "Error budgets and the Abbe principle",
+          "id": "me-precision-design-compliant-mechanisms-2"
+        },
+        {
+          "name": "Exact-constraint design and kinematic couplings",
+          "id": "me-precision-design-compliant-mechanisms-3"
+        },
+        {
+          "name": "Structural loops, stiffness and thermal error management",
+          "id": "me-precision-design-compliant-mechanisms-4"
+        },
+        {
+          "name": "Precision bearings and linear stages",
+          "id": "me-precision-design-compliant-mechanisms-5"
+        },
+        {
+          "name": "Flexure hinges and flexure-based stages",
+          "id": "me-precision-design-compliant-mechanisms-6"
+        },
+        {
+          "name": "Pseudo-rigid-body model of compliant mechanisms",
+          "id": "me-precision-design-compliant-mechanisms-7"
+        },
+        {
+          "name": "Compliant mechanism synthesis and topology optimisation",
+          "id": "me-precision-design-compliant-mechanisms-8"
+        },
+        {
+          "name": "Bistable and statically balanced mechanisms",
+          "id": "me-precision-design-compliant-mechanisms-9"
+        },
+        {
+          "name": "Precision actuation and metrology frames",
+          "id": "me-precision-design-compliant-mechanisms-10"
+        }
+      ]
+    },
+    {
+      "id": "me-manufacturing-processes",
+      "name": "Introduction to Manufacturing Processes",
+      "category": "Manufacturing Engineering",
+      "level": 2,
+      "priority": "core",
+      "summary": "A survey of how parts are made, from casting and forming to machining, joining and additive manufacturing, and how to choose between processes.",
+      "prerequisites": [
+        "me-engineering-materials"
+      ],
+      "topics": [
+        {
+          "name": "Manufacturing in the product life cycle; process families and classification",
+          "id": "me-manufacturing-processes-1"
+        },
+        {
+          "name": "Casting processes overview",
+          "id": "me-manufacturing-processes-2"
+        },
+        {
+          "name": "Bulk deformation and sheet-metal forming overview",
+          "id": "me-manufacturing-processes-3"
+        },
+        {
+          "name": "Machining and material removal overview",
+          "id": "me-manufacturing-processes-4"
+        },
+        {
+          "name": "Polymer processing: injection molding, extrusion, thermoforming",
+          "id": "me-manufacturing-processes-5"
+        },
+        {
+          "name": "Powder metallurgy and ceramics processing",
+          "id": "me-manufacturing-processes-6"
+        },
+        {
+          "name": "Joining: welding, brazing, soldering, adhesives, mechanical fastening",
+          "id": "me-manufacturing-processes-7"
+        },
+        {
+          "name": "Additive manufacturing overview",
+          "id": "me-manufacturing-processes-8"
+        },
+        {
+          "name": "Surface treatments, coatings and heat treatment in production",
+          "id": "me-manufacturing-processes-9"
+        },
+        {
+          "name": "Process capability, achievable tolerances and surface finish by process",
+          "id": "me-manufacturing-processes-10"
+        },
+        {
+          "name": "Manufacturing cost estimation and process selection",
+          "id": "me-manufacturing-processes-11"
+        },
+        {
+          "name": "Sustainability and environmental impact of manufacturing",
+          "id": "me-manufacturing-processes-12"
+        }
+      ]
+    },
+    {
+      "id": "me-machining-processes",
+      "name": "Machining & Material Removal",
+      "category": "Manufacturing Engineering",
+      "level": 3,
+      "priority": "important",
+      "summary": "The mechanics, tooling and economics of turning, milling, drilling, grinding and nontraditional machining.",
+      "prerequisites": [
+        "me-manufacturing-processes",
+        "me-mechanics-of-materials"
+      ],
+      "topics": [
+        {
+          "name": "Mechanics of orthogonal cutting: chip formation, shear plane, Merchant's circle",
+          "id": "me-machining-processes-1"
+        },
+        {
+          "name": "Cutting forces, power and temperature",
+          "id": "me-machining-processes-2"
+        },
+        {
+          "name": "Cutting-tool materials, geometry and coatings",
+          "id": "me-machining-processes-3"
+        },
+        {
+          "name": "Tool wear, tool life (Taylor equation) and machinability",
+          "id": "me-machining-processes-4"
+        },
+        {
+          "name": "Turning and related lathe operations",
+          "id": "me-machining-processes-5"
+        },
+        {
+          "name": "Milling operations and cutter types",
+          "id": "me-machining-processes-6"
+        },
+        {
+          "name": "Drilling, reaming, boring and tapping",
+          "id": "me-machining-processes-7"
+        },
+        {
+          "name": "Grinding and abrasive finishing (honing, lapping, polishing)",
+          "id": "me-machining-processes-8"
+        },
+        {
+          "name": "Surface integrity and surface finish",
+          "id": "me-machining-processes-9"
+        },
+        {
+          "name": "Cutting fluids, dry and minimum-quantity lubrication machining",
+          "id": "me-machining-processes-10"
+        },
+        {
+          "name": "Nontraditional machining: EDM, ECM, laser, waterjet, ultrasonic",
+          "id": "me-machining-processes-11"
+        },
+        {
+          "name": "Machining economics and optimum cutting speed",
+          "id": "me-machining-processes-12"
+        },
+        {
+          "name": "Workholding and fixture design",
+          "id": "me-machining-processes-13"
+        }
+      ]
+    },
+    {
+      "id": "me-casting-forming-molding",
+      "name": "Casting, Forming & Molding",
+      "category": "Manufacturing Engineering",
+      "level": 3,
+      "priority": "important",
+      "summary": "Shaping metals and polymers by solidification and deformation: casting, forging, rolling, extrusion, sheet-metal forming and molding.",
+      "prerequisites": [
+        "me-manufacturing-processes",
+        "me-mechanics-of-materials"
+      ],
+      "topics": [
+        {
+          "name": "Casting fundamentals: solidification, fluidity, Chvorinov's rule, gating and risering",
+          "id": "me-casting-forming-molding-1"
+        },
+        {
+          "name": "Expendable-mold casting: sand, investment and lost-foam",
+          "id": "me-casting-forming-molding-2"
+        },
+        {
+          "name": "Permanent-mold and die casting",
+          "id": "me-casting-forming-molding-3"
+        },
+        {
+          "name": "Casting defects and design for casting",
+          "id": "me-casting-forming-molding-4"
+        },
+        {
+          "name": "Metal-forming fundamentals: flow stress, strain hardening, hot vs cold working",
+          "id": "me-casting-forming-molding-5"
+        },
+        {
+          "name": "Forging (open-die, closed-die) and rolling",
+          "id": "me-casting-forming-molding-6"
+        },
+        {
+          "name": "Extrusion and drawing (wire, bar, tube)",
+          "id": "me-casting-forming-molding-7"
+        },
+        {
+          "name": "Sheet-metal operations: shearing, blanking, bending, deep drawing, stretch forming, springback",
+          "id": "me-casting-forming-molding-8"
+        },
+        {
+          "name": "Hydroforming, incremental and high-rate forming",
+          "id": "me-casting-forming-molding-9"
+        },
+        {
+          "name": "Plastic injection molding: machines, mold design, cooling and defects",
+          "id": "me-casting-forming-molding-10"
+        },
+        {
+          "name": "Blow molding, thermoforming, compression and transfer molding",
+          "id": "me-casting-forming-molding-11"
+        },
+        {
+          "name": "Composite part fabrication: layup, RTM, pultrusion",
+          "id": "me-casting-forming-molding-12"
+        },
+        {
+          "name": "Powder metallurgy and metal injection molding",
+          "id": "me-casting-forming-molding-13"
+        }
+      ]
+    },
+    {
+      "id": "me-welding-joining",
+      "name": "Welding & Joining Technology",
+      "category": "Manufacturing Engineering",
+      "level": 3,
+      "priority": "important",
+      "summary": "Fusion, solid-state and other joining processes, weld metallurgy, residual stress and distortion, inspection and welding codes.",
+      "prerequisites": [
+        "me-manufacturing-processes"
+      ],
+      "topics": [
+        {
+          "name": "Welding heat sources, heat flow and heat input",
+          "id": "me-welding-joining-1"
+        },
+        {
+          "name": "Arc welding: SMAW, GMAW (MIG), GTAW (TIG), FCAW, SAW and plasma",
+          "id": "me-welding-joining-2"
+        },
+        {
+          "name": "Resistance welding: spot, seam and projection",
+          "id": "me-welding-joining-3"
+        },
+        {
+          "name": "High-energy-beam welding: laser and electron beam",
+          "id": "me-welding-joining-4"
+        },
+        {
+          "name": "Solid-state welding: friction, friction stir, ultrasonic and diffusion bonding",
+          "id": "me-welding-joining-5"
+        },
+        {
+          "name": "Brazing and soldering",
+          "id": "me-welding-joining-6"
+        },
+        {
+          "name": "Welding metallurgy: fusion zone, heat-affected zone, weldability and preheat",
+          "id": "me-welding-joining-7"
+        },
+        {
+          "name": "Residual stresses and distortion control",
+          "id": "me-welding-joining-8"
+        },
+        {
+          "name": "Weld defects and nondestructive testing",
+          "id": "me-welding-joining-9"
+        },
+        {
+          "name": "Welding codes and qualification (WPS/PQR, AWS D1.1, ASME Section IX)",
+          "id": "me-welding-joining-10"
+        },
+        {
+          "name": "Joining dissimilar materials, plastics and composites",
+          "id": "me-welding-joining-11"
+        },
+        {
+          "name": "Robotic and automated welding",
+          "id": "me-welding-joining-12"
+        }
+      ]
+    },
+    {
+      "id": "me-additive-manufacturing",
+      "name": "Additive Manufacturing",
+      "category": "Manufacturing Engineering",
+      "level": 3,
+      "priority": "important",
+      "summary": "Building parts layer by layer: the seven AM process families, materials, design for AM, process physics, post-processing and qualification.",
+      "prerequisites": [
+        "me-manufacturing-processes",
+        "me-cad-solid-modeling"
+      ],
+      "topics": [
+        {
+          "name": "AM process categories (ISO/ASTM 52900) and the digital workflow (CAD, STL/3MF, slicing)",
+          "id": "me-additive-manufacturing-1"
+        },
+        {
+          "name": "Material extrusion (FDM/FFF)",
+          "id": "me-additive-manufacturing-2"
+        },
+        {
+          "name": "Vat photopolymerisation (SLA, DLP)",
+          "id": "me-additive-manufacturing-3"
+        },
+        {
+          "name": "Powder bed fusion: polymer (SLS, MJF) and metal (LPBF, EBM)",
+          "id": "me-additive-manufacturing-4"
+        },
+        {
+          "name": "Directed energy deposition and wire-arc AM",
+          "id": "me-additive-manufacturing-5"
+        },
+        {
+          "name": "Binder jetting, material jetting and sheet lamination",
+          "id": "me-additive-manufacturing-6"
+        },
+        {
+          "name": "AM materials: polymers, metals, composites and ceramics",
+          "id": "me-additive-manufacturing-7"
+        },
+        {
+          "name": "Design for additive manufacturing: overhangs, supports, orientation, part consolidation",
+          "id": "me-additive-manufacturing-8"
+        },
+        {
+          "name": "Lattices and topology-optimised parts",
+          "id": "me-additive-manufacturing-9"
+        },
+        {
+          "name": "Process physics, defects, residual stress and anisotropy",
+          "id": "me-additive-manufacturing-10"
+        },
+        {
+          "name": "Post-processing: support removal, heat treatment, HIP, machining and finishing",
+          "id": "me-additive-manufacturing-11"
+        },
+        {
+          "name": "Qualification, inspection and standards for AM parts",
+          "id": "me-additive-manufacturing-12"
+        },
+        {
+          "name": "AM economics and applications (tooling, medical, aerospace, robotics)",
+          "id": "me-additive-manufacturing-13"
+        }
+      ]
+    },
+    {
+      "id": "me-cnc-cam",
+      "name": "CNC Machining & CAM",
+      "category": "Manufacturing Engineering",
+      "level": 3,
+      "priority": "important",
+      "summary": "Programming and running computer-numerically-controlled machine tools, by hand in G-code and from CAD models with CAM software.",
+      "prerequisites": [
+        "me-machining-processes",
+        "me-cad-solid-modeling"
+      ],
+      "topics": [
+        {
+          "name": "CNC machine architecture: axes, drives, spindles and controllers",
+          "id": "me-cnc-cam-1"
+        },
+        {
+          "name": "Coordinate systems, work offsets and tool-length compensation",
+          "id": "me-cnc-cam-2"
+        },
+        {
+          "name": "G-code and M-code programming by hand",
+          "id": "me-cnc-cam-3"
+        },
+        {
+          "name": "Canned cycles, subprograms and parametric (macro) programming",
+          "id": "me-cnc-cam-4"
+        },
+        {
+          "name": "CAM workflow: stock, setups, toolpaths and post-processors",
+          "id": "me-cnc-cam-5"
+        },
+        {
+          "name": "2.5D milling strategies: facing, pocketing, contouring, drilling",
+          "id": "me-cnc-cam-6"
+        },
+        {
+          "name": "3D surface machining and high-speed/adaptive toolpaths",
+          "id": "me-cnc-cam-7"
+        },
+        {
+          "name": "Multi-axis (4- and 5-axis) machining",
+          "id": "me-cnc-cam-8"
+        },
+        {
+          "name": "CNC turning and mill-turn",
+          "id": "me-cnc-cam-9"
+        },
+        {
+          "name": "Feeds and speeds, chip load and tool deflection",
+          "id": "me-cnc-cam-10"
+        },
+        {
+          "name": "Toolpath simulation, verification and collision checking",
+          "id": "me-cnc-cam-11"
+        },
+        {
+          "name": "Other CNC processes: routers, laser, plasma, waterjet and wire EDM",
+          "id": "me-cnc-cam-12"
+        },
+        {
+          "name": "In-process probing and on-machine metrology",
+          "id": "me-cnc-cam-13"
+        }
+      ]
+    },
+    {
+      "id": "me-manufacturing-systems-quality",
+      "name": "Manufacturing Systems, Automation & Quality",
+      "category": "Manufacturing Engineering",
+      "level": 3,
+      "priority": "important",
+      "summary": "Organising and controlling production: process planning, lean, statistical quality control, automation, robots and smart factories.",
+      "prerequisites": [
+        "me-tolerancing-gdt-metrology",
+        "ma-inferential-statistics"
+      ],
+      "related": [
+        "el-plc-programmable-logic-controller-programming",
+        "el-quality-management",
+        "el-digital-twins"
+      ],
+      "topics": [
+        {
+          "name": "Production systems: job shop, batch, flow line and cellular manufacturing",
+          "id": "me-manufacturing-systems-quality-1"
+        },
+        {
+          "name": "Process planning and computer-aided process planning (CAPP)",
+          "id": "me-manufacturing-systems-quality-2"
+        },
+        {
+          "name": "Production planning and control: scheduling and inventory",
+          "id": "me-manufacturing-systems-quality-3"
+        },
+        {
+          "name": "Lean manufacturing: value-stream mapping, 5S, kanban, SMED",
+          "id": "me-manufacturing-systems-quality-4"
+        },
+        {
+          "name": "Statistical process control: control charts and process capability (Cp, Cpk)",
+          "id": "me-manufacturing-systems-quality-5"
+        },
+        {
+          "name": "Six Sigma, DMAIC and quality management systems (ISO 9001)",
+          "id": "me-manufacturing-systems-quality-6"
+        },
+        {
+          "name": "Measurement system analysis (gauge R&R)",
+          "id": "me-manufacturing-systems-quality-7"
+        },
+        {
+          "name": "Industrial automation: PLCs, sensors, conveyors and material handling",
+          "id": "me-manufacturing-systems-quality-8"
+        },
+        {
+          "name": "Industrial robots in manufacturing cells",
+          "id": "me-manufacturing-systems-quality-9"
+        },
+        {
+          "name": "Flexible manufacturing and automated assembly systems",
+          "id": "me-manufacturing-systems-quality-10"
+        },
+        {
+          "name": "Industry 4.0: industrial IoT, digital twins and smart factories",
+          "id": "me-manufacturing-systems-quality-11"
+        },
+        {
+          "name": "Facility layout and discrete-event simulation of manufacturing systems",
+          "id": "me-manufacturing-systems-quality-12"
+        }
+      ]
+    },
+    {
+      "id": "me-finite-element-analysis",
+      "name": "Finite Element Analysis",
+      "category": "Computational Engineering & Simulation",
+      "level": 3,
+      "priority": "core",
+      "summary": "The finite element method for structural, thermal and dynamic analysis, from stiffness matrices to responsible use of commercial codes.",
+      "prerequisites": [
+        "me-mechanics-of-materials",
+        "me-engineering-computation",
+        "ma-linear-algebra"
+      ],
+      "related": [
+        "ma-numerical-solutions-of-pdes"
+      ],
+      "topics": [
+        {
+          "name": "Overview of FEA and the direct stiffness method",
+          "id": "me-finite-element-analysis-1"
+        },
+        {
+          "name": "Spring, bar and truss elements; assembly and boundary conditions",
+          "id": "me-finite-element-analysis-2"
+        },
+        {
+          "name": "Beam and frame elements",
+          "id": "me-finite-element-analysis-3"
+        },
+        {
+          "name": "Weak forms, variational principles and the Galerkin method",
+          "id": "me-finite-element-analysis-4"
+        },
+        {
+          "name": "Shape functions and the isoparametric formulation",
+          "id": "me-finite-element-analysis-5"
+        },
+        {
+          "name": "2D elements for plane stress, plane strain and axisymmetry",
+          "id": "me-finite-element-analysis-6"
+        },
+        {
+          "name": "3D solid, plate and shell elements",
+          "id": "me-finite-element-analysis-7"
+        },
+        {
+          "name": "Numerical integration (Gauss quadrature)",
+          "id": "me-finite-element-analysis-8"
+        },
+        {
+          "name": "Meshing, element quality, convergence and error estimation",
+          "id": "me-finite-element-analysis-9"
+        },
+        {
+          "name": "Thermal (heat-transfer) FEA",
+          "id": "me-finite-element-analysis-10"
+        },
+        {
+          "name": "Modal and dynamic analysis",
+          "id": "me-finite-element-analysis-11"
+        },
+        {
+          "name": "Linear buckling analysis",
+          "id": "me-finite-element-analysis-12"
+        },
+        {
+          "name": "Nonlinear FEA: geometric nonlinearity, plasticity, hyperelasticity and contact",
+          "id": "me-finite-element-analysis-13"
+        },
+        {
+          "name": "Explicit dynamics, impact and crash simulation",
+          "id": "me-finite-element-analysis-14"
+        },
+        {
+          "name": "Verification, validation and good practice with commercial codes (ANSYS, Abaqus)",
+          "id": "me-finite-element-analysis-15"
+        }
+      ]
+    },
+    {
+      "id": "me-computational-fluid-dynamics",
+      "name": "Computational Fluid Dynamics (CFD)",
+      "category": "Computational Engineering & Simulation",
+      "level": 4,
+      "priority": "important",
+      "summary": "Numerical solution of fluid-flow and heat-transfer problems, from discretisation schemes and turbulence models to validated engineering simulations.",
+      "prerequisites": [
+        "me-advanced-fluid-mechanics",
+        "me-engineering-computation",
+        "ma-numerical-solutions-of-pdes"
+      ],
+      "related": [
+        "ph-computational-physics"
+      ],
+      "topics": [
+        {
+          "name": "Governing equations in conservative form and their mathematical classification",
+          "id": "me-computational-fluid-dynamics-1"
+        },
+        {
+          "name": "Finite-difference methods: discretisation, consistency, stability (CFL) and convergence",
+          "id": "me-computational-fluid-dynamics-2"
+        },
+        {
+          "name": "Finite-volume method for diffusion and convection-diffusion problems",
+          "id": "me-computational-fluid-dynamics-3"
+        },
+        {
+          "name": "Convection schemes: upwind, central and high-resolution (TVD)",
+          "id": "me-computational-fluid-dynamics-4"
+        },
+        {
+          "name": "Pressure-velocity coupling: SIMPLE, PISO and projection methods",
+          "id": "me-computational-fluid-dynamics-5"
+        },
+        {
+          "name": "Time integration for unsteady flows",
+          "id": "me-computational-fluid-dynamics-6"
+        },
+        {
+          "name": "Mesh generation: structured, unstructured and boundary-layer meshing",
+          "id": "me-computational-fluid-dynamics-7"
+        },
+        {
+          "name": "Turbulence modeling: RANS (k-epsilon, k-omega SST), LES and DNS",
+          "id": "me-computational-fluid-dynamics-8"
+        },
+        {
+          "name": "Boundary conditions and wall functions",
+          "id": "me-computational-fluid-dynamics-9"
+        },
+        {
+          "name": "Conjugate heat transfer and multiphase CFD",
+          "id": "me-computational-fluid-dynamics-10"
+        },
+        {
+          "name": "Verification and validation; grid-convergence studies",
+          "id": "me-computational-fluid-dynamics-11"
+        },
+        {
+          "name": "Practical CFD workflows (OpenFOAM, ANSYS Fluent, STAR-CCM+)",
+          "id": "me-computational-fluid-dynamics-12"
+        }
+      ]
+    },
+    {
+      "id": "me-design-optimization",
+      "name": "Design Optimization",
+      "category": "Computational Engineering & Simulation",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Formulating and solving engineering design problems as optimisation problems, including topology optimisation and multidisciplinary design.",
+      "prerequisites": [
+        "me-finite-element-analysis",
+        "ma-optimization-algorithms"
+      ],
+      "related": [
+        "ma-nonlinear-programming"
+      ],
+      "topics": [
+        {
+          "name": "Formulating design optimization problems: variables, objectives and constraints",
+          "id": "me-design-optimization-1"
+        },
+        {
+          "name": "Unconstrained gradient-based methods",
+          "id": "me-design-optimization-2"
+        },
+        {
+          "name": "Constrained optimization: KKT conditions, SQP and penalty methods",
+          "id": "me-design-optimization-3"
+        },
+        {
+          "name": "Sensitivity analysis and adjoint methods",
+          "id": "me-design-optimization-4"
+        },
+        {
+          "name": "Gradient-free methods: genetic algorithms, particle swarm, simulated annealing",
+          "id": "me-design-optimization-5"
+        },
+        {
+          "name": "Multi-objective optimization and Pareto fronts",
+          "id": "me-design-optimization-6"
+        },
+        {
+          "name": "Surrogate models and design of computer experiments",
+          "id": "me-design-optimization-7"
+        },
+        {
+          "name": "Shape and size optimization",
+          "id": "me-design-optimization-8"
+        },
+        {
+          "name": "Topology optimization (SIMP, level-set) and generative design",
+          "id": "me-design-optimization-9"
+        },
+        {
+          "name": "Robust and reliability-based design optimization",
+          "id": "me-design-optimization-10"
+        },
+        {
+          "name": "Multidisciplinary design optimization (MDO)",
+          "id": "me-design-optimization-11"
+        }
+      ]
+    },
+    {
+      "id": "me-product-design-development",
+      "name": "Product Design & Development",
+      "category": "Design Methodology, Product Development & Reliability",
+      "level": 3,
+      "priority": "core",
+      "summary": "A structured path from customer need to validated product: specifications, concept generation and selection, embodiment, prototyping and testing.",
+      "prerequisites": [
+        "me-cad-solid-modeling",
+        "me-machine-design-fundamentals"
+      ],
+      "related": [
+        "el-product-development"
+      ],
+      "topics": [
+        {
+          "name": "Product development processes: stage-gate, spiral and agile hardware",
+          "id": "me-product-design-development-1"
+        },
+        {
+          "name": "Opportunity identification and customer needs",
+          "id": "me-product-design-development-2"
+        },
+        {
+          "name": "Product specifications and quality function deployment (QFD)",
+          "id": "me-product-design-development-3"
+        },
+        {
+          "name": "Concept generation: brainstorming, morphological charts, biomimicry, TRIZ",
+          "id": "me-product-design-development-4"
+        },
+        {
+          "name": "Concept selection: Pugh matrix and weighted decision matrices",
+          "id": "me-product-design-development-5"
+        },
+        {
+          "name": "Product architecture and modularity",
+          "id": "me-product-design-development-6"
+        },
+        {
+          "name": "Embodiment and detail design",
+          "id": "me-product-design-development-7"
+        },
+        {
+          "name": "Industrial design, aesthetics and user experience",
+          "id": "me-product-design-development-8"
+        },
+        {
+          "name": "Human factors and ergonomics in design (anthropometry, usability)",
+          "id": "me-product-design-development-9"
+        },
+        {
+          "name": "Prototyping strategy: looks-like vs works-like models and rapid prototyping",
+          "id": "me-product-design-development-10"
+        },
+        {
+          "name": "Design verification and validation testing",
+          "id": "me-product-design-development-11"
+        },
+        {
+          "name": "Systems engineering basics: requirements, interfaces, V-model and trade studies",
+          "id": "me-product-design-development-12"
+        },
+        {
+          "name": "Intellectual property: patents and freedom to operate",
+          "id": "me-product-design-development-13"
+        },
+        {
+          "name": "Sustainable design and design for environment",
+          "id": "me-product-design-development-14"
+        },
+        {
+          "name": "Project management, design reviews and the capstone design project",
+          "id": "me-product-design-development-15"
+        }
+      ]
+    },
+    {
+      "id": "me-design-for-manufacture-assembly",
+      "name": "Design for Manufacture & Assembly (DFMA)",
+      "category": "Design Methodology, Product Development & Reliability",
+      "level": 3,
+      "priority": "important",
+      "summary": "Shaping designs so they are cheap and reliable to make and assemble, using process-specific rules and structured DFA methods.",
+      "prerequisites": [
+        "me-product-design-development",
+        "me-manufacturing-processes"
+      ],
+      "related": [
+        "el-design-for-x-dfx"
+      ],
+      "topics": [
+        {
+          "name": "DFM/DFA principles and the cost of design decisions",
+          "id": "me-design-for-manufacture-assembly-1"
+        },
+        {
+          "name": "Boothroyd-Dewhurst design for assembly and part-count reduction",
+          "id": "me-design-for-manufacture-assembly-2"
+        },
+        {
+          "name": "Design for machining",
+          "id": "me-design-for-manufacture-assembly-3"
+        },
+        {
+          "name": "Design for casting and molding: draft, wall thickness, ribs and bosses",
+          "id": "me-design-for-manufacture-assembly-4"
+        },
+        {
+          "name": "Design for sheet-metal fabrication",
+          "id": "me-design-for-manufacture-assembly-5"
+        },
+        {
+          "name": "Design for injection-molded plastics and snap fits",
+          "id": "me-design-for-manufacture-assembly-6"
+        },
+        {
+          "name": "Design for additive manufacturing (process-aware geometry)",
+          "id": "me-design-for-manufacture-assembly-7"
+        },
+        {
+          "name": "Tolerance allocation and cost-tolerance trade-offs",
+          "id": "me-design-for-manufacture-assembly-8"
+        },
+        {
+          "name": "Design for X: serviceability, disassembly, recycling and testability",
+          "id": "me-design-for-manufacture-assembly-9"
+        },
+        {
+          "name": "Early cost estimation and should-cost models",
+          "id": "me-design-for-manufacture-assembly-10"
+        },
+        {
+          "name": "Mistake-proofing (poka-yoke) and design for automated assembly",
+          "id": "me-design-for-manufacture-assembly-11"
+        }
+      ]
+    },
+    {
+      "id": "me-reliability-safety-engineering",
+      "name": "Reliability, Safety & Risk Engineering",
+      "category": "Design Methodology, Product Development & Reliability",
+      "level": 3,
+      "priority": "important",
+      "summary": "Quantifying and improving how long machines last and how safely they fail: life data analysis, FMEA, fault trees, testing and machinery safety standards.",
+      "prerequisites": [
+        "me-machine-design-fundamentals",
+        "ma-probability-theory"
+      ],
+      "related": [
+        "el-reliability-testing",
+        "el-reliability-fault-tolerance"
+      ],
+      "topics": [
+        {
+          "name": "Reliability concepts: failure rate, MTTF/MTBF and the bathtub curve",
+          "id": "me-reliability-safety-engineering-1"
+        },
+        {
+          "name": "Life distributions (exponential, Weibull, lognormal) and Weibull analysis of test data",
+          "id": "me-reliability-safety-engineering-2"
+        },
+        {
+          "name": "System reliability: series, parallel, k-out-of-n and redundancy",
+          "id": "me-reliability-safety-engineering-3"
+        },
+        {
+          "name": "Stress-strength interference and probabilistic design",
+          "id": "me-reliability-safety-engineering-4"
+        },
+        {
+          "name": "Failure mode and effects analysis (FMEA/FMECA)",
+          "id": "me-reliability-safety-engineering-5"
+        },
+        {
+          "name": "Fault tree and event tree analysis",
+          "id": "me-reliability-safety-engineering-6"
+        },
+        {
+          "name": "Reliability testing: accelerated life testing, HALT/HASS, reliability growth",
+          "id": "me-reliability-safety-engineering-7"
+        },
+        {
+          "name": "Maintainability, availability and reliability-centred maintenance",
+          "id": "me-reliability-safety-engineering-8"
+        },
+        {
+          "name": "Prognostics and health management",
+          "id": "me-reliability-safety-engineering-9"
+        },
+        {
+          "name": "Machine safety and risk assessment (ISO 12100); guarding",
+          "id": "me-reliability-safety-engineering-10"
+        },
+        {
+          "name": "Functional safety of machinery (ISO 13849, IEC 62061)",
+          "id": "me-reliability-safety-engineering-11"
+        },
+        {
+          "name": "Safety standards for robots and personal-care devices (ISO 10218, ISO 13482) and product liability",
+          "id": "me-reliability-safety-engineering-12"
+        }
+      ]
+    },
+    {
+      "id": "me-hydraulics-pneumatics",
+      "name": "Fluid Power: Hydraulics & Pneumatics",
+      "category": "Fluid Power",
+      "level": 3,
+      "priority": "important",
+      "summary": "Transmitting and controlling power with pressurised liquids and gases: pumps, actuators, valves, circuits and electro-hydraulic control.",
+      "prerequisites": [
+        "me-fluid-mechanics"
+      ],
+      "related": [
+        "el-actuators-drives"
+      ],
+      "topics": [
+        {
+          "name": "Fluid power fundamentals: Pascal's law, power and efficiency; hydraulic vs pneumatic vs electric",
+          "id": "me-hydraulics-pneumatics-1"
+        },
+        {
+          "name": "Hydraulic fluids, contamination control and filtration",
+          "id": "me-hydraulics-pneumatics-2"
+        },
+        {
+          "name": "Hydraulic pumps: gear, vane and piston; fixed and variable displacement",
+          "id": "me-hydraulics-pneumatics-3"
+        },
+        {
+          "name": "Hydraulic actuators: cylinder sizing, cushioning and buckling; hydraulic motors",
+          "id": "me-hydraulics-pneumatics-4"
+        },
+        {
+          "name": "Directional control valves and circuit symbols (ISO 1219)",
+          "id": "me-hydraulics-pneumatics-5"
+        },
+        {
+          "name": "Pressure control valves: relief, reducing, sequence and counterbalance",
+          "id": "me-hydraulics-pneumatics-6"
+        },
+        {
+          "name": "Flow control valves and speed-control circuits (meter-in, meter-out, bleed-off)",
+          "id": "me-hydraulics-pneumatics-7"
+        },
+        {
+          "name": "Accumulators, reservoirs, coolers, hoses and fittings",
+          "id": "me-hydraulics-pneumatics-8"
+        },
+        {
+          "name": "Hydraulic circuit design and analysis (regenerative, synchronising, hi-lo circuits)",
+          "id": "me-hydraulics-pneumatics-9"
+        },
+        {
+          "name": "Pneumatic systems: compressors, air preparation (FRL), cylinders and valves",
+          "id": "me-hydraulics-pneumatics-10"
+        },
+        {
+          "name": "Pneumatic circuit design, vacuum systems and grippers",
+          "id": "me-hydraulics-pneumatics-11"
+        },
+        {
+          "name": "Electro-pneumatic and electro-hydraulic control with PLCs",
+          "id": "me-hydraulics-pneumatics-12"
+        },
+        {
+          "name": "Losses, heat generation and troubleshooting of hydraulic systems",
+          "id": "me-hydraulics-pneumatics-13"
+        },
+        {
+          "name": "Fluid power safety and maintenance",
+          "id": "me-hydraulics-pneumatics-14"
+        }
+      ]
+    },
+    {
+      "id": "me-servo-hydraulics-advanced-fluid-power",
+      "name": "Advanced Fluid Power & Servo-Hydraulic Actuation",
+      "category": "Fluid Power",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "High-performance, closed-loop and compact fluid-power actuation, including electro-hydrostatic actuators and hydraulics for legged robots and exoskeletons.",
+      "prerequisites": [
+        "me-hydraulics-pneumatics",
+        "me-feedback-control"
+      ],
+      "topics": [
+        {
+          "name": "Proportional and servo valves: construction and flow-pressure characteristics",
+          "id": "me-servo-hydraulics-advanced-fluid-power-1"
+        },
+        {
+          "name": "Modeling valve-controlled cylinders and motors: hydraulic stiffness and natural frequency",
+          "id": "me-servo-hydraulics-advanced-fluid-power-2"
+        },
+        {
+          "name": "Pump-controlled systems and electro-hydrostatic actuators (EHA)",
+          "id": "me-servo-hydraulics-advanced-fluid-power-3"
+        },
+        {
+          "name": "Closed-loop position, velocity and force control of hydraulic actuators",
+          "id": "me-servo-hydraulics-advanced-fluid-power-4"
+        },
+        {
+          "name": "Load-sensing, energy-efficient and digital hydraulics",
+          "id": "me-servo-hydraulics-advanced-fluid-power-5"
+        },
+        {
+          "name": "Compact high-pressure hydraulics for legged robots and exoskeletons (integrated and 3D-printed manifolds)",
+          "id": "me-servo-hydraulics-advanced-fluid-power-6"
+        },
+        {
+          "name": "Pneumatic servo control and pneumatic artificial muscles (McKibben)",
+          "id": "me-servo-hydraulics-advanced-fluid-power-7"
+        },
+        {
+          "name": "Hydraulic power units: miniaturisation, power density and thermal limits",
+          "id": "me-servo-hydraulics-advanced-fluid-power-8"
+        },
+        {
+          "name": "Simulation of fluid power systems (Simscape Fluids, Amesim)",
+          "id": "me-servo-hydraulics-advanced-fluid-power-9"
+        }
+      ]
+    },
+    {
+      "id": "me-mechatronics",
+      "name": "Mechatronics",
+      "category": "Mechatronics & Robotics",
+      "level": 3,
+      "priority": "important",
+      "summary": "Integrating mechanics, electronics, sensors, actuators and embedded control into working electromechanical products.",
+      "prerequisites": [
+        "me-measurements-instrumentation",
+        "me-feedback-control"
+      ],
+      "related": [
+        "el-motor-control",
+        "el-actuators",
+        "el-sensor-interfacing",
+        "el-microcontroller-families"
+      ],
+      "topics": [
+        {
+          "name": "The mechatronic design approach and system integration",
+          "id": "me-mechatronics-1"
+        },
+        {
+          "name": "Electronics for mechanical engineers: diodes, transistors, op-amps and power stages",
+          "id": "me-mechatronics-2"
+        },
+        {
+          "name": "Microcontrollers and embedded programming: digital I/O, interrupts, timers",
+          "id": "me-mechatronics-3"
+        },
+        {
+          "name": "Interfacing: ADC/DAC, PWM and serial buses (I2C, SPI, CAN)",
+          "id": "me-mechatronics-4"
+        },
+        {
+          "name": "Sensors for mechatronics: encoders, Hall sensors, IMUs, force/torque sensors",
+          "id": "me-mechatronics-5"
+        },
+        {
+          "name": "DC, brushless DC and stepper motors: characteristics and drivers",
+          "id": "me-mechatronics-6"
+        },
+        {
+          "name": "Servo motor sizing and drive electronics",
+          "id": "me-mechatronics-7"
+        },
+        {
+          "name": "Solenoids, voice coils and other electromagnetic actuators",
+          "id": "me-mechatronics-8"
+        },
+        {
+          "name": "Real-time digital control implementation",
+          "id": "me-mechatronics-9"
+        },
+        {
+          "name": "Power supplies and power electronics for mechatronic systems",
+          "id": "me-mechatronics-10"
+        },
+        {
+          "name": "Communication and networking of mechatronic devices",
+          "id": "me-mechatronics-11"
+        },
+        {
+          "name": "Mechatronic prototyping and system debugging",
+          "id": "me-mechatronics-12"
+        }
+      ]
+    },
+    {
+      "id": "me-robot-mechanics",
+      "name": "Robot Mechanics: Kinematics & Dynamics",
+      "category": "Mechatronics & Robotics",
+      "level": 3,
+      "priority": "important",
+      "summary": "The mechanics of robot arms, parallel robots and legged machines: rigid-body motion, forward and inverse kinematics, Jacobians, statics and dynamics.",
+      "prerequisites": [
+        "me-dynamics",
+        "ma-linear-algebra"
+      ],
+      "related": [
+        "ai-kinematics-dynamics",
+        "el-kinematics-dynamics",
+        "ai-manipulation"
+      ],
+      "topics": [
+        {
+          "name": "Configuration space, degrees of freedom and workspace",
+          "id": "me-robot-mechanics-1"
+        },
+        {
+          "name": "Rigid-body motions: homogeneous transforms, SE(3), twists and screw theory",
+          "id": "me-robot-mechanics-2"
+        },
+        {
+          "name": "Forward kinematics: Denavit-Hartenberg and product of exponentials",
+          "id": "me-robot-mechanics-3"
+        },
+        {
+          "name": "Velocity kinematics: the Jacobian, singularities and manipulability",
+          "id": "me-robot-mechanics-4"
+        },
+        {
+          "name": "Inverse kinematics: analytical and numerical methods",
+          "id": "me-robot-mechanics-5"
+        },
+        {
+          "name": "Statics of open chains: wrenches and force transmission",
+          "id": "me-robot-mechanics-6"
+        },
+        {
+          "name": "Manipulator dynamics: Newton-Euler and Lagrangian formulations",
+          "id": "me-robot-mechanics-7"
+        },
+        {
+          "name": "Trajectory generation: point-to-point motion, time scaling and via points",
+          "id": "me-robot-mechanics-8"
+        },
+        {
+          "name": "Closed-chain and parallel mechanisms (Stewart platform, delta robot)",
+          "id": "me-robot-mechanics-9"
+        },
+        {
+          "name": "Robot control basics: joint-space, computed-torque, force and impedance control",
+          "id": "me-robot-mechanics-10"
+        },
+        {
+          "name": "Grasping and contact mechanics",
+          "id": "me-robot-mechanics-11"
+        },
+        {
+          "name": "Kinematics of wheeled mobile robots and legged locomotion",
+          "id": "me-robot-mechanics-12"
+        }
+      ]
+    },
+    {
+      "id": "me-actuators-drive-trains",
+      "name": "Actuators & Drive Trains for Robots and Machines",
+      "category": "Mechatronics & Robotics",
+      "level": 4,
+      "priority": "important",
+      "summary": "Choosing and designing the motor, transmission and compliance that turn electrical or fluid power into controlled, power-dense mechanical motion.",
+      "prerequisites": [
+        "me-mechatronics",
+        "me-gears-power-transmission"
+      ],
+      "related": [
+        "el-actuators",
+        "el-actuators-drives",
+        "el-motor-control",
+        "ai-actuators-sensors"
+      ],
+      "topics": [
+        {
+          "name": "Actuator figures of merit: torque/force density, power density, bandwidth, efficiency, backdrivability",
+          "id": "me-actuators-drive-trains-1"
+        },
+        {
+          "name": "Electric motor physics for mechanical designers: torque constant, torque-speed curves, thermal limits",
+          "id": "me-actuators-drive-trains-2"
+        },
+        {
+          "name": "Motor and gear-ratio selection; inertia matching and reflected inertia",
+          "id": "me-actuators-drive-trains-3"
+        },
+        {
+          "name": "High-ratio reducers for robots: planetary, harmonic and cycloidal trade-offs",
+          "id": "me-actuators-drive-trains-4"
+        },
+        {
+          "name": "Quasi-direct-drive and proprioceptive actuators",
+          "id": "me-actuators-drive-trains-5"
+        },
+        {
+          "name": "Series elastic and variable-stiffness actuators",
+          "id": "me-actuators-drive-trains-6"
+        },
+        {
+          "name": "Linear actuation: ball screws, roller screws, belts and rack-and-pinion",
+          "id": "me-actuators-drive-trains-7"
+        },
+        {
+          "name": "Cable and tendon drives, Bowden cables and capstan transmissions",
+          "id": "me-actuators-drive-trains-8"
+        },
+        {
+          "name": "Hydraulic vs electric vs pneumatic actuation for mobile and wearable robots",
+          "id": "me-actuators-drive-trains-9"
+        },
+        {
+          "name": "Actuator thermal modeling and duty-cycle rating",
+          "id": "me-actuators-drive-trains-10"
+        },
+        {
+          "name": "Clutches, brakes and mechanical safety features in actuators",
+          "id": "me-actuators-drive-trains-11"
+        },
+        {
+          "name": "Integrated actuator module design (motor, gearbox, encoder, driver, torque sensing)",
+          "id": "me-actuators-drive-trains-12"
+        }
+      ]
+    },
+    {
+      "id": "me-robot-mechanism-design",
+      "name": "Robot Mechanism Design",
+      "category": "Mechatronics & Robotics",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Turning robot requirements into hardware: arm, hand, leg and mobile-base architectures, link and joint design, and lightweight structures.",
+      "prerequisites": [
+        "me-robot-mechanics",
+        "me-actuators-drive-trains"
+      ],
+      "related": [
+        "ai-robot-fundamentals",
+        "ai-types-of-robots-applications"
+      ],
+      "topics": [
+        {
+          "name": "Robot requirements and kinematic architecture selection",
+          "id": "me-robot-mechanism-design-1"
+        },
+        {
+          "name": "Serial arm design: link sizing, mass distribution and stiffness",
+          "id": "me-robot-mechanism-design-2"
+        },
+        {
+          "name": "Parallel robot design: workspace and singularity optimisation",
+          "id": "me-robot-mechanism-design-3"
+        },
+        {
+          "name": "Gripper and robotic hand design (underactuated and tendon-driven hands)",
+          "id": "me-robot-mechanism-design-4"
+        },
+        {
+          "name": "Legged robot mechanism design: leg topologies, energy efficiency and impact tolerance",
+          "id": "me-robot-mechanism-design-5"
+        },
+        {
+          "name": "Wheeled and tracked mobile platform design",
+          "id": "me-robot-mechanism-design-6"
+        },
+        {
+          "name": "Cable-driven parallel robots",
+          "id": "me-robot-mechanism-design-7"
+        },
+        {
+          "name": "Gravity compensation and counterbalancing",
+          "id": "me-robot-mechanism-design-8"
+        },
+        {
+          "name": "Joint design: bearings, seals, cable routing through joints, slip rings",
+          "id": "me-robot-mechanism-design-9"
+        },
+        {
+          "name": "Lightweight robot links (composites, additive manufacturing, topology optimisation)",
+          "id": "me-robot-mechanism-design-10"
+        },
+        {
+          "name": "Safety by design and collaborative-robot mechanics",
+          "id": "me-robot-mechanism-design-11"
+        }
+      ]
+    },
+    {
+      "id": "me-biomechanics",
+      "name": "Biomechanics",
+      "category": "Biomechanics & Wearable Systems",
+      "level": 3,
+      "priority": "important",
+      "summary": "Mechanics applied to the human body: tissue mechanics, muscles and joints, human movement analysis and musculoskeletal modelling.",
+      "prerequisites": [
+        "me-mechanics-of-materials",
+        "me-dynamics"
+      ],
+      "related": [
+        "ph-biophysics",
+        "ma-solid-mechanics"
+      ],
+      "topics": [
+        {
+          "name": "Musculoskeletal anatomy and terminology for engineers",
+          "id": "me-biomechanics-1"
+        },
+        {
+          "name": "Mechanics of biological tissues: bone, cartilage, ligament and tendon",
+          "id": "me-biomechanics-2"
+        },
+        {
+          "name": "Muscle mechanics: Hill model, force-length and force-velocity relations",
+          "id": "me-biomechanics-3"
+        },
+        {
+          "name": "Joint mechanics: hip, knee, ankle, shoulder and spine",
+          "id": "me-biomechanics-4"
+        },
+        {
+          "name": "Human gait and movement: gait phases, ground reaction forces and joint moments",
+          "id": "me-biomechanics-5"
+        },
+        {
+          "name": "Motion capture, force plates, IMUs and EMG measurement",
+          "id": "me-biomechanics-6"
+        },
+        {
+          "name": "Inverse dynamics and musculoskeletal modeling (OpenSim)",
+          "id": "me-biomechanics-7"
+        },
+        {
+          "name": "Anthropometry and body-segment parameters",
+          "id": "me-biomechanics-8"
+        },
+        {
+          "name": "Injury biomechanics and human tolerance limits",
+          "id": "me-biomechanics-9"
+        },
+        {
+          "name": "Orthopaedic implant and prosthesis design",
+          "id": "me-biomechanics-10"
+        },
+        {
+          "name": "Sports and occupational biomechanics; ergonomics of lifting",
+          "id": "me-biomechanics-11"
+        },
+        {
+          "name": "Biofluid mechanics overview (blood flow, respiration)",
+          "id": "me-biomechanics-12"
+        }
+      ]
+    },
+    {
+      "id": "me-wearable-mechanisms-exoskeletons",
+      "name": "Wearable Mechanisms & Exoskeletons",
+      "category": "Biomechanics & Wearable Systems",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Designing machines worn on the body, from passive supports to powered exoskeletons and suits, with emphasis on human-machine joints and interfaces.",
+      "prerequisites": [
+        "me-biomechanics",
+        "me-robot-mechanism-design"
+      ],
+      "related": [
+        "ai-human-robot-interaction-hri"
+      ],
+      "topics": [
+        {
+          "name": "Exoskeleton and exosuit classes: passive/active, upper/lower body, industrial, medical, military",
+          "id": "me-wearable-mechanisms-exoskeletons-1"
+        },
+        {
+          "name": "Deriving requirements from human biomechanics: joint torques, powers and ranges of motion",
+          "id": "me-wearable-mechanisms-exoskeletons-2"
+        },
+        {
+          "name": "Human-machine joint alignment: misalignment, self-aligning and remote-centre-of-motion mechanisms",
+          "id": "me-wearable-mechanisms-exoskeletons-3"
+        },
+        {
+          "name": "Physical human-robot interface: cuffs, straps, pressure distribution and skin comfort",
+          "id": "me-wearable-mechanisms-exoskeletons-4"
+        },
+        {
+          "name": "Load paths, load transfer to the ground and body-weight support",
+          "id": "me-wearable-mechanisms-exoskeletons-5"
+        },
+        {
+          "name": "Actuation and transmission choices for wearables (cable-driven, series elastic, hydraulic)",
+          "id": "me-wearable-mechanisms-exoskeletons-6"
+        },
+        {
+          "name": "Soft exosuits and textile-based actuation",
+          "id": "me-wearable-mechanisms-exoskeletons-7"
+        },
+        {
+          "name": "Control: transparency, assist-as-needed, impedance and admittance control",
+          "id": "me-wearable-mechanisms-exoskeletons-8"
+        },
+        {
+          "name": "Intent detection: EMG, IMUs, force sensing and gait-phase estimation",
+          "id": "me-wearable-mechanisms-exoskeletons-9"
+        },
+        {
+          "name": "Evaluation: metabolic cost, kinematics and user acceptance",
+          "id": "me-wearable-mechanisms-exoskeletons-10"
+        },
+        {
+          "name": "Safety, fit, donning/doffing and standards (ISO 13482)",
+          "id": "me-wearable-mechanisms-exoskeletons-11"
+        },
+        {
+          "name": "Powered prostheses and orthoses",
+          "id": "me-wearable-mechanisms-exoskeletons-12"
+        },
+        {
+          "name": "Power, thermal and mass budgets for full-body powered suits",
+          "id": "me-wearable-mechanisms-exoskeletons-13"
+        }
+      ]
+    },
+    {
+      "id": "me-hvac-refrigeration",
+      "name": "HVAC & Refrigeration",
+      "category": "Energy & Power Systems",
+      "level": 3,
+      "priority": "important",
+      "summary": "Heating, ventilating, air-conditioning and refrigeration of buildings and processes: loads, psychrometrics, equipment, distribution and controls.",
+      "prerequisites": [
+        "me-applied-thermodynamics",
+        "me-heat-transfer"
+      ],
+      "topics": [
+        {
+          "name": "Thermal comfort and indoor air quality (ASHRAE 55 and 62.1)",
+          "id": "me-hvac-refrigeration-1"
+        },
+        {
+          "name": "Psychrometric analysis of HVAC processes, including altitude effects",
+          "id": "me-hvac-refrigeration-2"
+        },
+        {
+          "name": "Heating and cooling load calculations",
+          "id": "me-hvac-refrigeration-3"
+        },
+        {
+          "name": "Air distribution: air handlers, duct design, terminal units and diffusers",
+          "id": "me-hvac-refrigeration-4"
+        },
+        {
+          "name": "Hydronic systems: piping, pumps and balancing",
+          "id": "me-hvac-refrigeration-5"
+        },
+        {
+          "name": "Vapour-compression refrigeration components: compressors, condensers, evaporators, expansion devices",
+          "id": "me-hvac-refrigeration-6"
+        },
+        {
+          "name": "Refrigerants: properties, environmental impact (GWP/ODP) and regulations",
+          "id": "me-hvac-refrigeration-7"
+        },
+        {
+          "name": "Chillers, cooling towers and heat rejection",
+          "id": "me-hvac-refrigeration-8"
+        },
+        {
+          "name": "Heat pumps (air-, water- and ground-source) and VRF systems",
+          "id": "me-hvac-refrigeration-9"
+        },
+        {
+          "name": "Boilers and furnaces",
+          "id": "me-hvac-refrigeration-10"
+        },
+        {
+          "name": "Energy recovery ventilation: enthalpy wheels, heat pipes, run-around loops",
+          "id": "me-hvac-refrigeration-11"
+        },
+        {
+          "name": "HVAC controls: economisers, reset strategies and building automation",
+          "id": "me-hvac-refrigeration-12"
+        },
+        {
+          "name": "Commercial and industrial refrigeration, cold storage, freezing and cryogenics overview",
+          "id": "me-hvac-refrigeration-13"
+        },
+        {
+          "name": "Building energy modeling and energy codes (ASHRAE 90.1)",
+          "id": "me-hvac-refrigeration-14"
+        }
+      ]
+    },
+    {
+      "id": "me-internal-combustion-engines",
+      "name": "Internal Combustion Engines",
+      "category": "Energy & Power Systems",
+      "level": 3,
+      "priority": "important",
+      "summary": "How reciprocating engines work and are designed: cycles, performance, air and fuel systems, combustion, emissions and boosting.",
+      "prerequisites": [
+        "me-applied-thermodynamics",
+        "me-fluid-mechanics"
+      ],
+      "related": [
+        "el-powertrain-systems"
+      ],
+      "topics": [
+        {
+          "name": "Engine types, operating cycles and geometry",
+          "id": "me-internal-combustion-engines-1"
+        },
+        {
+          "name": "Performance parameters: IMEP, BMEP, efficiencies and specific fuel consumption",
+          "id": "me-internal-combustion-engines-2"
+        },
+        {
+          "name": "Ideal and real engine cycles; fuel-air cycle analysis",
+          "id": "me-internal-combustion-engines-3"
+        },
+        {
+          "name": "Air intake, volumetric efficiency and valve timing",
+          "id": "me-internal-combustion-engines-4"
+        },
+        {
+          "name": "Fuel systems: port and direct injection",
+          "id": "me-internal-combustion-engines-5"
+        },
+        {
+          "name": "Spark-ignition combustion, knock and octane rating",
+          "id": "me-internal-combustion-engines-6"
+        },
+        {
+          "name": "Compression-ignition (diesel) combustion and cetane rating",
+          "id": "me-internal-combustion-engines-7"
+        },
+        {
+          "name": "Turbocharging and supercharging",
+          "id": "me-internal-combustion-engines-8"
+        },
+        {
+          "name": "Heat transfer, friction and lubrication in engines",
+          "id": "me-internal-combustion-engines-9"
+        },
+        {
+          "name": "Emissions formation and aftertreatment (catalysts, particulate filters, SCR)",
+          "id": "me-internal-combustion-engines-10"
+        },
+        {
+          "name": "Engine testing and dynamometers",
+          "id": "me-internal-combustion-engines-11"
+        },
+        {
+          "name": "Advanced combustion modes and alternative fuels, including hydrogen engines",
+          "id": "me-internal-combustion-engines-12"
+        },
+        {
+          "name": "Hybridisation and the future of the combustion engine",
+          "id": "me-internal-combustion-engines-13"
+        },
+        {
+          "name": "Small engines for portable power and range extenders",
+          "id": "me-internal-combustion-engines-14"
+        }
+      ]
+    },
+    {
+      "id": "me-turbomachinery",
+      "name": "Turbomachinery",
+      "category": "Energy & Power Systems",
+      "level": 3,
+      "priority": "important",
+      "summary": "Pumps, fans, compressors and turbines analysed with velocity triangles and similarity laws, and designed for performance.",
+      "prerequisites": [
+        "me-advanced-fluid-mechanics",
+        "me-applied-thermodynamics"
+      ],
+      "topics": [
+        {
+          "name": "Classification of turbomachines and energy transfer",
+          "id": "me-turbomachinery-1"
+        },
+        {
+          "name": "Euler turbomachine equation and velocity triangles",
+          "id": "me-turbomachinery-2"
+        },
+        {
+          "name": "Dimensional analysis: specific speed, specific diameter and similarity laws",
+          "id": "me-turbomachinery-3"
+        },
+        {
+          "name": "Centrifugal pumps: design, performance and cavitation",
+          "id": "me-turbomachinery-4"
+        },
+        {
+          "name": "Fans and blowers",
+          "id": "me-turbomachinery-5"
+        },
+        {
+          "name": "Centrifugal compressors",
+          "id": "me-turbomachinery-6"
+        },
+        {
+          "name": "Axial compressors: stage design, stall and surge",
+          "id": "me-turbomachinery-7"
+        },
+        {
+          "name": "Axial turbines: impulse and reaction stages",
+          "id": "me-turbomachinery-8"
+        },
+        {
+          "name": "Steam turbines",
+          "id": "me-turbomachinery-9"
+        },
+        {
+          "name": "Industrial gas turbines for power and mechanical drive",
+          "id": "me-turbomachinery-10"
+        },
+        {
+          "name": "Hydraulic turbines: Pelton, Francis and Kaplan",
+          "id": "me-turbomachinery-11"
+        },
+        {
+          "name": "Wind turbine aerodynamics overview (actuator disc, Betz limit)",
+          "id": "me-turbomachinery-12"
+        },
+        {
+          "name": "Mechanical design of rotors: blade stresses, cooling and materials",
+          "id": "me-turbomachinery-13"
+        }
+      ]
+    },
+    {
+      "id": "me-power-plants-energy-conversion",
+      "name": "Power Plants & Energy Conversion",
+      "category": "Energy & Power Systems",
+      "level": 3,
+      "priority": "important",
+      "summary": "Large-scale conversion of fuel and natural energy into electricity and heat: steam, gas-turbine, combined-cycle, cogeneration, nuclear and hydro plants.",
+      "prerequisites": [
+        "me-turbomachinery",
+        "me-heat-transfer"
+      ],
+      "related": [
+        "ph-energy-physics"
+      ],
+      "topics": [
+        {
+          "name": "Energy resources, demand and the power generation mix",
+          "id": "me-power-plants-energy-conversion-1"
+        },
+        {
+          "name": "Steam power plants: layout and Rankine-cycle performance",
+          "id": "me-power-plants-energy-conversion-2"
+        },
+        {
+          "name": "Boilers and steam generators: heat rate and efficiency",
+          "id": "me-power-plants-energy-conversion-3"
+        },
+        {
+          "name": "Condensers, feedwater heaters and cooling systems (cooling towers)",
+          "id": "me-power-plants-energy-conversion-4"
+        },
+        {
+          "name": "Gas-turbine power plants",
+          "id": "me-power-plants-energy-conversion-5"
+        },
+        {
+          "name": "Combined-cycle plants and heat recovery steam generators",
+          "id": "me-power-plants-energy-conversion-6"
+        },
+        {
+          "name": "Cogeneration and combined heat and power (CHP)",
+          "id": "me-power-plants-energy-conversion-7"
+        },
+        {
+          "name": "Nuclear power plant systems overview",
+          "id": "me-power-plants-energy-conversion-8"
+        },
+        {
+          "name": "Hydropower plants",
+          "id": "me-power-plants-energy-conversion-9"
+        },
+        {
+          "name": "Emissions control and carbon capture",
+          "id": "me-power-plants-energy-conversion-10"
+        },
+        {
+          "name": "Plant economics: levelised cost of electricity and load curves",
+          "id": "me-power-plants-energy-conversion-11"
+        },
+        {
+          "name": "Reciprocating-engine gensets and distributed generation",
+          "id": "me-power-plants-energy-conversion-12"
+        }
+      ]
+    },
+    {
+      "id": "me-renewable-energy-systems",
+      "name": "Renewable Energy Systems",
+      "category": "Energy & Power Systems",
+      "level": 3,
+      "priority": "important",
+      "summary": "Engineering of solar, wind, hydro, geothermal, marine and bioenergy systems, their storage and integration, and their economics.",
+      "prerequisites": [
+        "me-applied-thermodynamics",
+        "me-heat-transfer"
+      ],
+      "related": [
+        "ph-energy-physics",
+        "el-smart-grid-energy"
+      ],
+      "topics": [
+        {
+          "name": "Solar resource and solar geometry",
+          "id": "me-renewable-energy-systems-1"
+        },
+        {
+          "name": "Solar thermal collectors and concentrating solar power",
+          "id": "me-renewable-energy-systems-2"
+        },
+        {
+          "name": "Photovoltaic system sizing and balance of system",
+          "id": "me-renewable-energy-systems-3"
+        },
+        {
+          "name": "Wind resource assessment",
+          "id": "me-renewable-energy-systems-4"
+        },
+        {
+          "name": "Wind turbine design: rotor aerodynamics, drivetrain, structural loads and control",
+          "id": "me-renewable-energy-systems-5"
+        },
+        {
+          "name": "Hydropower and marine energy (tidal, wave)",
+          "id": "me-renewable-energy-systems-6"
+        },
+        {
+          "name": "Geothermal energy systems",
+          "id": "me-renewable-energy-systems-7"
+        },
+        {
+          "name": "Biomass and bioenergy conversion",
+          "id": "me-renewable-energy-systems-8"
+        },
+        {
+          "name": "Hydrogen production and fuel cells",
+          "id": "me-renewable-energy-systems-9"
+        },
+        {
+          "name": "Energy storage for renewables (pumped hydro, batteries, thermal)",
+          "id": "me-renewable-energy-systems-10"
+        },
+        {
+          "name": "Grid integration and hybrid energy systems",
+          "id": "me-renewable-energy-systems-11"
+        },
+        {
+          "name": "Life-cycle and techno-economic assessment of renewables",
+          "id": "me-renewable-energy-systems-12"
+        }
+      ]
+    },
+    {
+      "id": "me-energy-storage-power-integration",
+      "name": "Energy Storage & Power-Dense Systems Integration",
+      "category": "Energy & Power Systems",
+      "level": 4,
+      "priority": "important",
+      "summary": "The mechanical-engineering side of storing and delivering energy in mobile machines: batteries, fuel cells, flywheels and compact engines, pack design and thermal safety.",
+      "prerequisites": [
+        "me-heat-transfer",
+        "me-applied-thermodynamics",
+        "el-battery-technologies"
+      ],
+      "related": [
+        "el-battery-management-systems-bms",
+        "el-energy-harvesting",
+        "ph-energy-physics"
+      ],
+      "topics": [
+        {
+          "name": "Energy and power density metrics and the Ragone plot",
+          "id": "me-energy-storage-power-integration-1"
+        },
+        {
+          "name": "Battery cell formats and mechanical pack design (structure, compression, vibration)",
+          "id": "me-energy-storage-power-integration-2"
+        },
+        {
+          "name": "Battery thermal behaviour and pack thermal management",
+          "id": "me-energy-storage-power-integration-3"
+        },
+        {
+          "name": "Thermal runaway, propagation prevention and pack safety",
+          "id": "me-energy-storage-power-integration-4"
+        },
+        {
+          "name": "Structural batteries and multifunctional energy storage",
+          "id": "me-energy-storage-power-integration-5"
+        },
+        {
+          "name": "Fuel cell systems: PEM stacks, balance of plant and hydrogen storage",
+          "id": "me-energy-storage-power-integration-6"
+        },
+        {
+          "name": "Flywheel energy storage",
+          "id": "me-energy-storage-power-integration-7"
+        },
+        {
+          "name": "Compressed-air and hydraulic-accumulator energy storage",
+          "id": "me-energy-storage-power-integration-8"
+        },
+        {
+          "name": "Supercapacitors and hybrid storage systems",
+          "id": "me-energy-storage-power-integration-9"
+        },
+        {
+          "name": "Thermal energy storage and phase-change materials",
+          "id": "me-energy-storage-power-integration-10"
+        },
+        {
+          "name": "Compact power sources: micro gas turbines, small engines and range extenders",
+          "id": "me-energy-storage-power-integration-11"
+        },
+        {
+          "name": "Power budgets and mission profiles for mobile robots and wearable suits",
+          "id": "me-energy-storage-power-integration-12"
+        },
+        {
+          "name": "Integration: mass, volume, packaging, crash safety and serviceability",
+          "id": "me-energy-storage-power-integration-13"
+        }
+      ]
+    },
+    {
+      "id": "me-thermal-management-compact-power",
+      "name": "Thermal Management of Compact Power Systems",
+      "category": "Energy & Power Systems",
+      "level": 4,
+      "priority": "important",
+      "summary": "Keeping motors, drives, batteries and electronics in dense machines and wearables within temperature limits using conduction, liquid, phase-change and thermoelectric cooling.",
+      "prerequisites": [
+        "me-thermal-fluid-systems-design"
+      ],
+      "related": [
+        "el-thermal-management",
+        "el-thermal-design"
+      ],
+      "topics": [
+        {
+          "name": "Heat sources and thermal budgets in compact machines (motors, drives, batteries, electronics)",
+          "id": "me-thermal-management-compact-power-1"
+        },
+        {
+          "name": "Heat spreading, heat sinks and fin optimisation",
+          "id": "me-thermal-management-compact-power-2"
+        },
+        {
+          "name": "Thermal interface materials and contact resistance",
+          "id": "me-thermal-management-compact-power-3"
+        },
+        {
+          "name": "Forced-air cooling and fan selection",
+          "id": "me-thermal-management-compact-power-4"
+        },
+        {
+          "name": "Liquid cooling: cold plates, pumps, radiators and loop design",
+          "id": "me-thermal-management-compact-power-5"
+        },
+        {
+          "name": "Microchannel and jet-impingement cooling",
+          "id": "me-thermal-management-compact-power-6"
+        },
+        {
+          "name": "Heat pipes, vapour chambers and loop heat pipes",
+          "id": "me-thermal-management-compact-power-7"
+        },
+        {
+          "name": "Phase-change materials for transient thermal buffering",
+          "id": "me-thermal-management-compact-power-8"
+        },
+        {
+          "name": "Thermoelectric coolers and heat pumps",
+          "id": "me-thermal-management-compact-power-9"
+        },
+        {
+          "name": "Two-phase and spray cooling",
+          "id": "me-thermal-management-compact-power-10"
+        },
+        {
+          "name": "Motor and actuator thermal management (winding temperature, potting, housings)",
+          "id": "me-thermal-management-compact-power-11"
+        },
+        {
+          "name": "Human-contact and wearable thermal limits (skin temperature, garment cooling)",
+          "id": "me-thermal-management-compact-power-12"
+        },
+        {
+          "name": "Thermal simulation and testing (conjugate heat transfer CFD, IR thermography)",
+          "id": "me-thermal-management-compact-power-13"
+        }
+      ]
+    },
+    {
+      "id": "me-automotive-engineering",
+      "name": "Automotive Engineering",
+      "category": "Automotive & Vehicle Engineering",
+      "level": 3,
+      "priority": "important",
+      "summary": "The engineering of road vehicles as integrated machines: performance, powertrains, driveline, brakes, suspension, steering, structures and electric vehicles.",
+      "prerequisites": [
+        "me-internal-combustion-engines",
+        "me-gears-power-transmission"
+      ],
+      "related": [
+        "el-electric-vehicle-ev-systems",
+        "el-chassis-safety-systems"
+      ],
+      "topics": [
+        {
+          "name": "Vehicle architectures and packaging",
+          "id": "me-automotive-engineering-1"
+        },
+        {
+          "name": "Vehicle performance: tractive effort, resistance forces, acceleration and gradeability",
+          "id": "me-automotive-engineering-2"
+        },
+        {
+          "name": "Powertrains: combustion engines, electric motors and hybrids",
+          "id": "me-automotive-engineering-3"
+        },
+        {
+          "name": "Transmissions: manual, automatic, CVT and dual-clutch",
+          "id": "me-automotive-engineering-4"
+        },
+        {
+          "name": "Driveline: clutches, propeller shafts, differentials and axles",
+          "id": "me-automotive-engineering-5"
+        },
+        {
+          "name": "Braking systems and brake design",
+          "id": "me-automotive-engineering-6"
+        },
+        {
+          "name": "Suspension systems and components",
+          "id": "me-automotive-engineering-7"
+        },
+        {
+          "name": "Steering systems and geometry (Ackermann, wheel alignment)",
+          "id": "me-automotive-engineering-8"
+        },
+        {
+          "name": "Tyres: construction and basic mechanics",
+          "id": "me-automotive-engineering-9"
+        },
+        {
+          "name": "Body structures, materials and crashworthiness",
+          "id": "me-automotive-engineering-10"
+        },
+        {
+          "name": "Vehicle aerodynamics",
+          "id": "me-automotive-engineering-11"
+        },
+        {
+          "name": "Vehicle noise, vibration and harshness (NVH)",
+          "id": "me-automotive-engineering-12"
+        },
+        {
+          "name": "Electric vehicle design: battery packs, e-axles and thermal systems",
+          "id": "me-automotive-engineering-13"
+        }
+      ]
+    },
+    {
+      "id": "me-vehicle-dynamics",
+      "name": "Vehicle Dynamics",
+      "category": "Automotive & Vehicle Engineering",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "How vehicles accelerate, brake, corner and ride: tyre mechanics, handling models, suspension kinematics and stability control.",
+      "prerequisites": [
+        "me-automotive-engineering",
+        "me-mechanical-vibrations",
+        "me-feedback-control"
+      ],
+      "related": [
+        "el-chassis-safety-systems"
+      ],
+      "topics": [
+        {
+          "name": "Tyre mechanics: slip, cornering stiffness and the Pacejka Magic Formula",
+          "id": "me-vehicle-dynamics-1"
+        },
+        {
+          "name": "Longitudinal dynamics: traction, braking and load transfer",
+          "id": "me-vehicle-dynamics-2"
+        },
+        {
+          "name": "Lateral dynamics: bicycle model, understeer/oversteer, steady-state cornering",
+          "id": "me-vehicle-dynamics-3"
+        },
+        {
+          "name": "Suspension kinematics and compliance; roll centres",
+          "id": "me-vehicle-dynamics-4"
+        },
+        {
+          "name": "Ride dynamics: quarter-car and half-car models and ride comfort",
+          "id": "me-vehicle-dynamics-5"
+        },
+        {
+          "name": "Roll dynamics and rollover",
+          "id": "me-vehicle-dynamics-6"
+        },
+        {
+          "name": "Vehicle stability control, ABS and traction control",
+          "id": "me-vehicle-dynamics-7"
+        },
+        {
+          "name": "Vehicle dynamics simulation and testing",
+          "id": "me-vehicle-dynamics-8"
+        },
+        {
+          "name": "Motorsport vehicle dynamics and setup",
+          "id": "me-vehicle-dynamics-9"
+        }
+      ]
+    },
+    {
+      "id": "me-smart-materials-artificial-muscles",
+      "name": "Smart Materials & Artificial Muscles",
+      "category": "Frontiers of Mechanical Engineering",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Active materials that move or sense, such as piezoelectrics, shape-memory alloys, electroactive polymers and fibre muscles, and how to design actuators with them.",
+      "prerequisites": [
+        "me-actuators-drive-trains"
+      ],
+      "related": [
+        "el-actuators",
+        "el-energy-harvesting"
+      ],
+      "topics": [
+        {
+          "name": "Survey of active materials and actuator figures of merit (strain, stress, bandwidth, efficiency)",
+          "id": "me-smart-materials-artificial-muscles-1"
+        },
+        {
+          "name": "Piezoelectric actuators and sensors: stack and bender design",
+          "id": "me-smart-materials-artificial-muscles-2"
+        },
+        {
+          "name": "Shape memory alloys: phase transformation, actuator design and control",
+          "id": "me-smart-materials-artificial-muscles-3"
+        },
+        {
+          "name": "Electroactive polymers: dielectric elastomers and ionic EAPs",
+          "id": "me-smart-materials-artificial-muscles-4"
+        },
+        {
+          "name": "Hydraulically amplified electrostatic actuators (HASEL)",
+          "id": "me-smart-materials-artificial-muscles-5"
+        },
+        {
+          "name": "Twisted and coiled polymer-fibre muscles",
+          "id": "me-smart-materials-artificial-muscles-6"
+        },
+        {
+          "name": "Magnetostrictive, magnetorheological and electrorheological materials and devices",
+          "id": "me-smart-materials-artificial-muscles-7"
+        },
+        {
+          "name": "Pneumatic artificial muscles",
+          "id": "me-smart-materials-artificial-muscles-8"
+        },
+        {
+          "name": "Comparison with biological muscle and implications for wearable actuators",
+          "id": "me-smart-materials-artificial-muscles-9"
+        },
+        {
+          "name": "Energy harvesting with smart materials",
+          "id": "me-smart-materials-artificial-muscles-10"
+        }
+      ]
+    },
+    {
+      "id": "me-soft-robotics-mechanics",
+      "name": "Soft Robotics Mechanics",
+      "category": "Frontiers of Mechanical Engineering",
+      "level": 5,
+      "priority": "advanced",
+      "summary": "The mechanics, modelling and fabrication of robots made from compliant materials that bend, stretch and adapt to their environment.",
+      "prerequisites": [
+        "me-smart-materials-artificial-muscles",
+        "me-continuum-mechanics-elasticity-plasticity"
+      ],
+      "related": [
+        "ph-soft-matter-physics"
+      ],
+      "topics": [
+        {
+          "name": "Soft materials for robots: elastomers, hydrogels and fabrics",
+          "id": "me-soft-robotics-mechanics-1"
+        },
+        {
+          "name": "Hyperelastic modelling of soft actuators",
+          "id": "me-soft-robotics-mechanics-2"
+        },
+        {
+          "name": "Fluidic elastomer actuators (PneuNets, fibre-reinforced bending actuators)",
+          "id": "me-soft-robotics-mechanics-3"
+        },
+        {
+          "name": "Modelling slender soft robots: Cosserat rods and piecewise-constant-curvature models",
+          "id": "me-soft-robotics-mechanics-4"
+        },
+        {
+          "name": "Variable stiffness: granular and layer jamming, low-melting-point alloys",
+          "id": "me-soft-robotics-mechanics-5"
+        },
+        {
+          "name": "Soft sensing and embedded strain/pressure sensors",
+          "id": "me-soft-robotics-mechanics-6"
+        },
+        {
+          "name": "Fabrication: molding, casting and 3D printing of soft robots",
+          "id": "me-soft-robotics-mechanics-7"
+        },
+        {
+          "name": "Soft grippers and soft wearable robots",
+          "id": "me-soft-robotics-mechanics-8"
+        },
+        {
+          "name": "Modelling-based and learning-based control of soft robots",
+          "id": "me-soft-robotics-mechanics-9"
+        }
+      ]
+    },
+    {
+      "id": "me-mechanical-metamaterials",
+      "name": "Mechanical Metamaterials & Architected Materials",
+      "category": "Frontiers of Mechanical Engineering",
+      "level": 5,
+      "priority": "advanced",
+      "summary": "Materials whose properties come from their designed geometry rather than their chemistry: lattices, auxetics, multistable, origami and phononic structures.",
+      "prerequisites": [
+        "me-continuum-mechanics-elasticity-plasticity",
+        "me-additive-manufacturing"
+      ],
+      "topics": [
+        {
+          "name": "Architected lattices: stretch- vs bending-dominated behaviour and scaling laws",
+          "id": "me-mechanical-metamaterials-1"
+        },
+        {
+          "name": "Auxetic (negative Poisson's ratio) structures",
+          "id": "me-mechanical-metamaterials-2"
+        },
+        {
+          "name": "Negative stiffness, multistability and energy trapping",
+          "id": "me-mechanical-metamaterials-3"
+        },
+        {
+          "name": "Origami- and kirigami-inspired structures",
+          "id": "me-mechanical-metamaterials-4"
+        },
+        {
+          "name": "Programmable and reconfigurable metamaterials",
+          "id": "me-mechanical-metamaterials-5"
+        },
+        {
+          "name": "Phononic crystals and vibration/acoustic band gaps",
+          "id": "me-mechanical-metamaterials-6"
+        },
+        {
+          "name": "Impact-absorbing and protective architected materials",
+          "id": "me-mechanical-metamaterials-7"
+        },
+        {
+          "name": "Computational and inverse design of metamaterials",
+          "id": "me-mechanical-metamaterials-8"
+        }
+      ]
+    },
+    {
+      "id": "me-micro-nano-mechanics",
+      "name": "Micro & Nano Mechanics",
+      "category": "Frontiers of Mechanical Engineering",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Mechanics and manufacturing at micrometre and nanometre scales, where scaling laws change which forces dominate: thin films, MEMS structures and nanoscale testing.",
+      "prerequisites": [
+        "me-advanced-mechanics-of-materials",
+        "me-mechanical-vibrations"
+      ],
+      "related": [
+        "el-mems-devices",
+        "el-mems-sensor-technologies",
+        "ph-nanoscience-nanotechnology"
+      ],
+      "topics": [
+        {
+          "name": "Scaling laws in micro- and nanosystems",
+          "id": "me-micro-nano-mechanics-1"
+        },
+        {
+          "name": "Mechanics of thin films: residual stress, Stoney equation, delamination",
+          "id": "me-micro-nano-mechanics-2"
+        },
+        {
+          "name": "Micro-beams, plates and membranes; electrostatic actuation and pull-in",
+          "id": "me-micro-nano-mechanics-3"
+        },
+        {
+          "name": "MEMS resonators, damping and quality factor",
+          "id": "me-micro-nano-mechanics-4"
+        },
+        {
+          "name": "Microfabrication of mechanical structures (lithography, etching, micro-molding)",
+          "id": "me-micro-nano-mechanics-5"
+        },
+        {
+          "name": "Micro/nano-manufacturing: micro-machining, two-photon lithography, nanoimprint",
+          "id": "me-micro-nano-mechanics-6"
+        },
+        {
+          "name": "Size effects in plasticity and strength at small scales",
+          "id": "me-micro-nano-mechanics-7"
+        },
+        {
+          "name": "Nanoindentation and AFM-based mechanical characterisation",
+          "id": "me-micro-nano-mechanics-8"
+        },
+        {
+          "name": "Microfluidics fundamentals",
+          "id": "me-micro-nano-mechanics-9"
+        },
+        {
+          "name": "Micro/nanoscale heat transfer",
+          "id": "me-micro-nano-mechanics-10"
+        }
+      ]
+    },
+    {
+      "id": "me-machine-learning-digital-twins",
+      "name": "Machine Learning & Digital Twins in Mechanical Engineering",
+      "category": "Frontiers of Mechanical Engineering",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Using data and learning algorithms alongside physics models to simulate, monitor, design and control mechanical systems.",
+      "prerequisites": [
+        "me-finite-element-analysis",
+        "ai-core-ml-concepts"
+      ],
+      "related": [
+        "el-digital-twins",
+        "ai-ai-for-science"
+      ],
+      "topics": [
+        {
+          "name": "Data-driven modelling of mechanical systems",
+          "id": "me-machine-learning-digital-twins-1"
+        },
+        {
+          "name": "Surrogate and reduced-order models for simulation",
+          "id": "me-machine-learning-digital-twins-2"
+        },
+        {
+          "name": "Physics-informed neural networks and scientific machine learning",
+          "id": "me-machine-learning-digital-twins-3"
+        },
+        {
+          "name": "Predictive maintenance and prognostics from sensor data",
+          "id": "me-machine-learning-digital-twins-4"
+        },
+        {
+          "name": "Digital twins of machines and production systems",
+          "id": "me-machine-learning-digital-twins-5"
+        },
+        {
+          "name": "Generative and AI-assisted design",
+          "id": "me-machine-learning-digital-twins-6"
+        },
+        {
+          "name": "Machine learning for manufacturing process monitoring and control",
+          "id": "me-machine-learning-digital-twins-7"
+        },
+        {
+          "name": "Machine-learning-driven discovery of materials and structures",
+          "id": "me-machine-learning-digital-twins-8"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5355 @@
+{
+  "id": "materials",
+  "name": "Materials Science & Engineering",
+  "icon": "🧱",
+  "color": "#2dd4bf",
+  "prefix": "mt",
+  "description": "How the structure of materials, from atoms to microstructure, controls their properties, and how processing and selection turn metals, ceramics, polymers, composites and functional materials into reliable, high-performance products.",
+  "chapters": [
+    {
+      "id": "mt-intro-to-materials",
+      "name": "Introduction to Materials",
+      "category": "Foundations",
+      "level": 1,
+      "priority": "core",
+      "summary": "A first tour of what materials are, the main material classes, and how structure, properties, processing and performance are linked, using everyday objects.",
+      "prerequisites": [],
+      "topics": [
+        {
+          "name": "What materials science and engineering is (and how it differs from chemistry and physics)",
+          "id": "mt-intro-to-materials-1"
+        },
+        {
+          "name": "The materials tetrahedron: structure, properties, processing and performance",
+          "id": "mt-intro-to-materials-2"
+        },
+        {
+          "name": "The material classes: metals, ceramics, polymers, composites, semiconductors and biomaterials",
+          "id": "mt-intro-to-materials-3"
+        },
+        {
+          "name": "Length scales of structure: atoms, crystals, grains, microstructure and components",
+          "id": "mt-intro-to-materials-4"
+        },
+        {
+          "name": "Families of properties",
+          "sub": [
+            {
+              "name": "Mechanical (stiffness, strength, toughness, hardness)",
+              "id": "mt-intro-to-materials-5-1"
+            },
+            {
+              "name": "Thermal (melting point, expansion, conductivity)",
+              "id": "mt-intro-to-materials-5-2"
+            },
+            {
+              "name": "Electrical, magnetic and optical",
+              "id": "mt-intro-to-materials-5-3"
+            },
+            {
+              "name": "Chemical (corrosion, degradation)",
+              "id": "mt-intro-to-materials-5-4"
+            }
+          ],
+          "id": "mt-intro-to-materials-5"
+        },
+        {
+          "name": "Why a paperclip bends, a mug shatters and a bottle stretches: property differences explained by bonding",
+          "id": "mt-intro-to-materials-6"
+        },
+        {
+          "name": "Everyday case studies: drink cans, smartphone glass, bicycle frames, tyres and non-stick pans",
+          "id": "mt-intro-to-materials-7"
+        },
+        {
+          "name": "How materials are made: an overview of casting, shaping, joining and finishing",
+          "id": "mt-intro-to-materials-8"
+        },
+        {
+          "name": "Units, orders of magnitude and reading a simple property chart (strength vs density)",
+          "id": "mt-intro-to-materials-9"
+        },
+        {
+          "name": "Materials failures in the news: why bridges, pipes and aircraft parts fail",
+          "id": "mt-intro-to-materials-10"
+        },
+        {
+          "name": "Materials and the environment: resources, energy and recycling at a glance",
+          "id": "mt-intro-to-materials-11"
+        },
+        {
+          "name": "Careers and sub-fields in materials science and engineering",
+          "id": "mt-intro-to-materials-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-materials-history-society",
+      "name": "Materials in Human History & Society",
+      "category": "Foundations",
+      "level": 1,
+      "priority": "optional",
+      "summary": "How the discovery and mastery of materials, from flint to silicon, shaped civilisations, economies and warfare.",
+      "prerequisites": [
+        "mt-intro-to-materials"
+      ],
+      "topics": [
+        {
+          "name": "Stone, bone and fibre: the earliest engineered materials",
+          "id": "mt-materials-history-society-1"
+        },
+        {
+          "name": "Ceramics and pottery: firing clay and the first kilns",
+          "id": "mt-materials-history-society-2"
+        },
+        {
+          "name": "The Bronze Age: smelting copper and tin alloying",
+          "id": "mt-materials-history-society-3"
+        },
+        {
+          "name": "The Iron Age: bloomeries, wrought iron and early steel (wootz, Damascus, tatara)",
+          "id": "mt-materials-history-society-4"
+        },
+        {
+          "name": "Glass from antiquity to the float process",
+          "id": "mt-materials-history-society-5"
+        },
+        {
+          "name": "Concrete from Rome to Portland cement",
+          "id": "mt-materials-history-society-6"
+        },
+        {
+          "name": "The Industrial Revolution: Bessemer and open-hearth steel, aluminium by electrolysis",
+          "id": "mt-materials-history-society-7"
+        },
+        {
+          "name": "The polymer age: Bakelite, nylon and the plastics boom",
+          "id": "mt-materials-history-society-8"
+        },
+        {
+          "name": "The silicon age: transistors, integrated circuits and optical fibre",
+          "id": "mt-materials-history-society-9"
+        },
+        {
+          "name": "Materials in war and flight: armour, jet engines and the space race",
+          "id": "mt-materials-history-society-10"
+        },
+        {
+          "name": "Critical materials, geopolitics and supply chains today",
+          "id": "mt-materials-history-society-11"
+        }
+      ]
+    },
+    {
+      "id": "mt-atomic-bonding",
+      "name": "Atomic Structure, Bonding & Solid-State Chemistry",
+      "category": "Foundations",
+      "level": 2,
+      "priority": "core",
+      "summary": "Explains how electrons bind atoms into solids and how bond type controls melting point, stiffness, expansion and conductivity.",
+      "prerequisites": [
+        "mt-intro-to-materials"
+      ],
+      "topics": [
+        {
+          "name": "Atomic structure: electrons, orbitals, quantum numbers and electron configurations",
+          "id": "mt-atomic-bonding-1"
+        },
+        {
+          "name": "The periodic table and periodic trends (radius, ionisation energy, electronegativity)",
+          "id": "mt-atomic-bonding-2"
+        },
+        {
+          "name": "Ionic bonding, lattice energy and the Born-Haber cycle",
+          "id": "mt-atomic-bonding-3"
+        },
+        {
+          "name": "Covalent bonding: Lewis structures, VSEPR, hybridisation and molecular orbitals",
+          "id": "mt-atomic-bonding-4"
+        },
+        {
+          "name": "Metallic bonding and the free-electron picture",
+          "id": "mt-atomic-bonding-5"
+        },
+        {
+          "name": "Secondary bonding: van der Waals, dipole interactions and hydrogen bonds",
+          "id": "mt-atomic-bonding-6"
+        },
+        {
+          "name": "Interatomic force and potential-energy curves (Lennard-Jones, Morse)",
+          "id": "mt-atomic-bonding-7"
+        },
+        {
+          "name": "Linking bond energy to melting point, elastic modulus and thermal expansion",
+          "id": "mt-atomic-bonding-8"
+        },
+        {
+          "name": "From molecular orbitals to energy bands: metals, semiconductors and insulators",
+          "id": "mt-atomic-bonding-9"
+        },
+        {
+          "name": "Mixed bonding and the bonding triangle (van Arkel-Ketelaar)",
+          "id": "mt-atomic-bonding-10"
+        },
+        {
+          "name": "Introduction to solid-state reactions, stoichiometry and chemical kinetics",
+          "id": "mt-atomic-bonding-11"
+        },
+        {
+          "name": "Acids, bases, oxidation-reduction and solutions for materials engineers",
+          "id": "mt-atomic-bonding-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-crystal-structures",
+      "name": "Crystal Structures",
+      "category": "Structure of Materials",
+      "level": 2,
+      "priority": "core",
+      "summary": "Describes how atoms pack into the crystal structures of metals, ceramics and polymers, and how to index directions and planes.",
+      "prerequisites": [
+        "mt-atomic-bonding"
+      ],
+      "topics": [
+        {
+          "name": "Crystalline versus amorphous solids",
+          "id": "mt-crystal-structures-1"
+        },
+        {
+          "name": "Lattices, bases and unit cells; the seven crystal systems and 14 Bravais lattices",
+          "id": "mt-crystal-structures-2"
+        },
+        {
+          "name": "Metallic crystal structures: FCC, BCC and HCP; coordination number and packing factor",
+          "id": "mt-crystal-structures-3"
+        },
+        {
+          "name": "Close-packed planes and stacking sequences (ABAB, ABCABC)",
+          "id": "mt-crystal-structures-4"
+        },
+        {
+          "name": "Density calculations from crystal structure",
+          "id": "mt-crystal-structures-5"
+        },
+        {
+          "name": "Miller indices for directions and planes; Miller-Bravais indices for hexagonal crystals",
+          "id": "mt-crystal-structures-6"
+        },
+        {
+          "name": "Linear and planar densities; slip-relevant planes",
+          "id": "mt-crystal-structures-7"
+        },
+        {
+          "name": "Interstitial sites (tetrahedral and octahedral) and radius-ratio rules",
+          "id": "mt-crystal-structures-8"
+        },
+        {
+          "name": "Ceramic crystal structures: rock salt, CsCl, zinc blende, fluorite, perovskite, spinel, corundum",
+          "id": "mt-crystal-structures-9"
+        },
+        {
+          "name": "Silicate structures and carbon allotropes (diamond, graphite, fullerenes)",
+          "id": "mt-crystal-structures-10"
+        },
+        {
+          "name": "Polymorphism and allotropy (iron, carbon, SiO2, ZrO2)",
+          "id": "mt-crystal-structures-11"
+        },
+        {
+          "name": "Polycrystals, grains, texture and anisotropy",
+          "id": "mt-crystal-structures-12"
+        },
+        {
+          "name": "Polymer crystallinity: chain folding and spherulites",
+          "id": "mt-crystal-structures-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-crystallography-diffraction",
+      "name": "Crystallography & Diffraction",
+      "category": "Structure of Materials",
+      "level": 2,
+      "priority": "core",
+      "summary": "Covers the symmetry language of crystals and the diffraction theory used to determine structure from X-ray, electron and neutron scattering.",
+      "prerequisites": [
+        "mt-crystal-structures",
+        "ma-linear-algebra"
+      ],
+      "related": [
+        "ph-solid-state-physics",
+        "ma-group-theory"
+      ],
+      "topics": [
+        {
+          "name": "Symmetry operations: rotation, reflection, inversion, screw axes and glide planes",
+          "id": "mt-crystallography-diffraction-1"
+        },
+        {
+          "name": "Point groups and crystal classes; Hermann-Mauguin notation",
+          "id": "mt-crystallography-diffraction-2"
+        },
+        {
+          "name": "Space groups and reading the International Tables for Crystallography",
+          "id": "mt-crystallography-diffraction-3"
+        },
+        {
+          "name": "Stereographic projection and Wulff nets",
+          "id": "mt-crystallography-diffraction-4"
+        },
+        {
+          "name": "Vector and matrix treatment of lattices; metric tensor; zone axes and the Weiss zone law",
+          "id": "mt-crystallography-diffraction-5"
+        },
+        {
+          "name": "The reciprocal lattice and its relation to lattice planes",
+          "id": "mt-crystallography-diffraction-6"
+        },
+        {
+          "name": "Bragg's law, the Laue equations and the Ewald sphere",
+          "id": "mt-crystallography-diffraction-7"
+        },
+        {
+          "name": "Atomic scattering factors and the structure factor; systematic absences",
+          "id": "mt-crystallography-diffraction-8"
+        },
+        {
+          "name": "Diffraction intensities: multiplicity, Lorentz-polarisation, temperature (Debye-Waller) factors",
+          "id": "mt-crystallography-diffraction-9"
+        },
+        {
+          "name": "Powder diffraction patterns and indexing cubic and non-cubic crystals",
+          "id": "mt-crystallography-diffraction-10"
+        },
+        {
+          "name": "Comparison of X-ray, electron and neutron diffraction",
+          "id": "mt-crystallography-diffraction-11"
+        },
+        {
+          "name": "Quasicrystals and incommensurate structures",
+          "id": "mt-crystallography-diffraction-12"
+        },
+        {
+          "name": "Tensor properties of crystals and Neumann's principle (anisotropy of conductivity, elasticity, piezoelectricity)",
+          "id": "mt-crystallography-diffraction-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-defects",
+      "name": "Defects in Crystals & Dislocations",
+      "category": "Structure of Materials",
+      "level": 2,
+      "priority": "core",
+      "summary": "Introduces point, line, planar and volume defects, which control diffusion, strength, conductivity and almost every useful property.",
+      "prerequisites": [
+        "mt-crystal-structures"
+      ],
+      "related": [
+        "ph-solid-state-physics"
+      ],
+      "topics": [
+        {
+          "name": "Why real crystals are imperfect: the thermodynamic necessity of vacancies",
+          "id": "mt-defects-1"
+        },
+        {
+          "name": "Point defects in metals: vacancies, self-interstitials and equilibrium concentration",
+          "id": "mt-defects-2"
+        },
+        {
+          "name": "Impurities and solid solutions: substitutional, interstitial and the Hume-Rothery rules",
+          "id": "mt-defects-3"
+        },
+        {
+          "name": "Point defects in ionic crystals: Schottky and Frenkel defects, charge neutrality, Kröger-Vink notation",
+          "id": "mt-defects-4"
+        },
+        {
+          "name": "Composition specification: weight and atom percent conversions",
+          "id": "mt-defects-5"
+        },
+        {
+          "name": "Dislocations",
+          "sub": [
+            {
+              "name": "Edge, screw and mixed dislocations",
+              "id": "mt-defects-6-1"
+            },
+            {
+              "name": "Burgers vector and Burgers circuit",
+              "id": "mt-defects-6-2"
+            },
+            {
+              "name": "Stress fields and strain energy of dislocations",
+              "id": "mt-defects-6-3"
+            },
+            {
+              "name": "Dislocation motion: glide and climb",
+              "id": "mt-defects-6-4"
+            },
+            {
+              "name": "Partial dislocations and stacking faults",
+              "id": "mt-defects-6-5"
+            },
+            {
+              "name": "Dislocation interactions, jogs and kinks",
+              "id": "mt-defects-6-6"
+            }
+          ],
+          "id": "mt-defects-6"
+        },
+        {
+          "name": "Slip systems in FCC, BCC and HCP metals",
+          "id": "mt-defects-7"
+        },
+        {
+          "name": "Interfacial defects: grain boundaries (low and high angle), twin boundaries, phase boundaries and surfaces",
+          "id": "mt-defects-8"
+        },
+        {
+          "name": "Bulk defects: pores, cracks, inclusions and precipitates",
+          "id": "mt-defects-9"
+        },
+        {
+          "name": "Observing defects: etch pits, TEM contrast and grain-size measurement (ASTM grain size)",
+          "id": "mt-defects-10"
+        },
+        {
+          "name": "Defect-property relationships: how defects govern strength, diffusion and conductivity",
+          "id": "mt-defects-11"
+        }
+      ]
+    },
+    {
+      "id": "mt-thermodynamics-of-materials",
+      "name": "Thermodynamics of Materials",
+      "category": "Thermodynamics & Kinetics",
+      "level": 2,
+      "priority": "core",
+      "summary": "Applies the laws of thermodynamics to solids and solutions to predict which phases are stable and what drives change in materials.",
+      "prerequisites": [
+        "mt-atomic-bonding",
+        "ma-calculus"
+      ],
+      "related": [
+        "ph-thermodynamics-statistical-mechanics",
+        "ma-thermodynamics"
+      ],
+      "topics": [
+        {
+          "name": "Thermodynamic systems, state functions and the first law; enthalpy and heat capacity",
+          "id": "mt-thermodynamics-of-materials-1"
+        },
+        {
+          "name": "Entropy and the second law; statistical interpretation of entropy",
+          "id": "mt-thermodynamics-of-materials-2"
+        },
+        {
+          "name": "Gibbs and Helmholtz free energies; conditions for equilibrium",
+          "id": "mt-thermodynamics-of-materials-3"
+        },
+        {
+          "name": "Third law and the temperature dependence of thermodynamic properties",
+          "id": "mt-thermodynamics-of-materials-4"
+        },
+        {
+          "name": "Maxwell relations and thermodynamic identities",
+          "id": "mt-thermodynamics-of-materials-5"
+        },
+        {
+          "name": "Unary phase equilibria: Clausius-Clapeyron equation and one-component phase diagrams",
+          "id": "mt-thermodynamics-of-materials-6"
+        },
+        {
+          "name": "Solutions: partial molar quantities and chemical potential",
+          "id": "mt-thermodynamics-of-materials-7"
+        },
+        {
+          "name": "Ideal, regular and non-ideal solutions; activity and activity coefficients",
+          "id": "mt-thermodynamics-of-materials-8"
+        },
+        {
+          "name": "Free-energy-composition curves and the common tangent construction",
+          "id": "mt-thermodynamics-of-materials-9"
+        },
+        {
+          "name": "Gibbs phase rule",
+          "id": "mt-thermodynamics-of-materials-10"
+        },
+        {
+          "name": "Reaction equilibria, equilibrium constants and Ellingham diagrams",
+          "id": "mt-thermodynamics-of-materials-11"
+        },
+        {
+          "name": "Thermodynamics of point defects",
+          "id": "mt-thermodynamics-of-materials-12"
+        },
+        {
+          "name": "Surfaces and interfaces: surface energy and capillarity (Gibbs-Thomson effect)",
+          "id": "mt-thermodynamics-of-materials-13"
+        },
+        {
+          "name": "Introduction to statistical thermodynamics: partition functions and Einstein/Debye solids",
+          "id": "mt-thermodynamics-of-materials-14"
+        }
+      ]
+    },
+    {
+      "id": "mt-phase-diagrams",
+      "name": "Phase Diagrams",
+      "category": "Thermodynamics & Kinetics",
+      "level": 2,
+      "priority": "core",
+      "summary": "Teaches how to read and construct equilibrium phase diagrams and use them to predict the microstructure of alloys and ceramics.",
+      "prerequisites": [
+        "mt-thermodynamics-of-materials"
+      ],
+      "topics": [
+        {
+          "name": "Phases, components and microstructure; solubility limits",
+          "id": "mt-phase-diagrams-1"
+        },
+        {
+          "name": "Binary isomorphous systems (Cu-Ni): liquidus, solidus, tie lines",
+          "id": "mt-phase-diagrams-2"
+        },
+        {
+          "name": "The lever rule and phase compositions/amounts",
+          "id": "mt-phase-diagrams-3"
+        },
+        {
+          "name": "Development of microstructure during equilibrium and non-equilibrium cooling (coring)",
+          "id": "mt-phase-diagrams-4"
+        },
+        {
+          "name": "Binary eutectic systems (Pb-Sn): eutectic microstructures and hypo/hypereutectic alloys",
+          "id": "mt-phase-diagrams-5"
+        },
+        {
+          "name": "Peritectic, monotectic, eutectoid and peritectoid reactions",
+          "id": "mt-phase-diagrams-6"
+        },
+        {
+          "name": "Intermediate phases and intermetallic compounds",
+          "id": "mt-phase-diagrams-7"
+        },
+        {
+          "name": "Congruent and incongruent phase transformations",
+          "id": "mt-phase-diagrams-8"
+        },
+        {
+          "name": "The iron-carbon (Fe-Fe3C) phase diagram: ferrite, austenite, cementite and pearlite",
+          "id": "mt-phase-diagrams-9"
+        },
+        {
+          "name": "Ceramic phase diagrams (Al2O3-Cr2O3, MgO-Al2O3, ZrO2-CaO, SiO2-Al2O3)",
+          "id": "mt-phase-diagrams-10"
+        },
+        {
+          "name": "Ternary phase diagrams: isothermal and vertical sections, liquidus projections",
+          "id": "mt-phase-diagrams-11"
+        },
+        {
+          "name": "Deriving phase diagrams from free-energy curves",
+          "id": "mt-phase-diagrams-12"
+        },
+        {
+          "name": "Experimental determination of phase diagrams (thermal analysis, metallography, diffraction)",
+          "id": "mt-phase-diagrams-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-diffusion",
+      "name": "Diffusion in Solids",
+      "category": "Thermodynamics & Kinetics",
+      "level": 2,
+      "priority": "core",
+      "summary": "Explains how atoms move through solids, the mathematics of Fick's laws, and why diffusion controls heat treatment, doping and high-temperature behaviour.",
+      "prerequisites": [
+        "mt-defects",
+        "mt-thermodynamics-of-materials"
+      ],
+      "related": [
+        "ma-partial-differential-equations-pdes"
+      ],
+      "topics": [
+        {
+          "name": "Diffusion mechanisms: vacancy, interstitial, interstitialcy and exchange",
+          "id": "mt-diffusion-1"
+        },
+        {
+          "name": "Fick's first law and steady-state diffusion",
+          "id": "mt-diffusion-2"
+        },
+        {
+          "name": "Fick's second law; error-function solutions for semi-infinite solids",
+          "id": "mt-diffusion-3"
+        },
+        {
+          "name": "Thin-film (Gaussian) and diffusion-couple solutions; carburising and doping profiles",
+          "id": "mt-diffusion-4"
+        },
+        {
+          "name": "Temperature dependence: Arrhenius behaviour and activation energy",
+          "id": "mt-diffusion-5"
+        },
+        {
+          "name": "Atomistic theory: random walk, jump frequency and correlation effects",
+          "id": "mt-diffusion-6"
+        },
+        {
+          "name": "Diffusion in alloys: interdiffusion, Darken's equations and the Kirkendall effect",
+          "id": "mt-diffusion-7"
+        },
+        {
+          "name": "Chemical potential as the true driving force; uphill diffusion",
+          "id": "mt-diffusion-8"
+        },
+        {
+          "name": "Short-circuit paths: grain-boundary, dislocation-pipe and surface diffusion",
+          "id": "mt-diffusion-9"
+        },
+        {
+          "name": "Diffusion in ionic crystals and semiconductors; ionic conductivity",
+          "id": "mt-diffusion-10"
+        },
+        {
+          "name": "Diffusion in polymers and permeation of gases",
+          "id": "mt-diffusion-11"
+        },
+        {
+          "name": "Numerical solution of diffusion problems with finite differences",
+          "id": "mt-diffusion-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-phase-transformations",
+      "name": "Phase Transformations",
+      "category": "Thermodynamics & Kinetics",
+      "level": 3,
+      "priority": "core",
+      "summary": "Covers how and how fast phases form: nucleation, growth, solidification, precipitation, spinodal and martensitic transformations, and TTT/CCT diagrams.",
+      "prerequisites": [
+        "mt-phase-diagrams",
+        "mt-diffusion"
+      ],
+      "topics": [
+        {
+          "name": "Classification of phase transformations: diffusional vs diffusionless, first vs second order",
+          "id": "mt-phase-transformations-1"
+        },
+        {
+          "name": "Driving force and undercooling",
+          "id": "mt-phase-transformations-2"
+        },
+        {
+          "name": "Homogeneous nucleation: critical radius and nucleation barrier",
+          "id": "mt-phase-transformations-3"
+        },
+        {
+          "name": "Heterogeneous nucleation and wetting angle",
+          "id": "mt-phase-transformations-4"
+        },
+        {
+          "name": "Growth kinetics: interface-controlled and diffusion-controlled growth",
+          "id": "mt-phase-transformations-5"
+        },
+        {
+          "name": "Overall transformation kinetics: the Johnson-Mehl-Avrami-Kolmogorov equation",
+          "id": "mt-phase-transformations-6"
+        },
+        {
+          "name": "Solidification: constitutional supercooling, planar/cellular/dendritic growth and eutectic growth",
+          "id": "mt-phase-transformations-7"
+        },
+        {
+          "name": "Precipitation from supersaturated solid solution: GP zones, transition phases and age hardening",
+          "id": "mt-phase-transformations-8"
+        },
+        {
+          "name": "Spinodal decomposition and the Cahn-Hilliard picture",
+          "id": "mt-phase-transformations-9"
+        },
+        {
+          "name": "Eutectoid transformations: pearlite and bainite formation",
+          "id": "mt-phase-transformations-10"
+        },
+        {
+          "name": "Martensitic transformations: crystallography, habit plane and athermal kinetics",
+          "id": "mt-phase-transformations-11"
+        },
+        {
+          "name": "Order-disorder transformations",
+          "id": "mt-phase-transformations-12"
+        },
+        {
+          "name": "Isothermal (TTT) and continuous-cooling (CCT) transformation diagrams",
+          "id": "mt-phase-transformations-13"
+        },
+        {
+          "name": "Massive and discontinuous transformations",
+          "id": "mt-phase-transformations-14"
+        }
+      ]
+    },
+    {
+      "id": "mt-interfaces-microstructure-evolution",
+      "name": "Interfaces & Microstructure Evolution",
+      "category": "Thermodynamics & Kinetics",
+      "level": 3,
+      "priority": "core",
+      "summary": "Studies surfaces and interfaces and the processes that reshape microstructure over time: recovery, recrystallisation, grain growth, coarsening and sintering.",
+      "prerequisites": [
+        "mt-phase-transformations"
+      ],
+      "topics": [
+        {
+          "name": "Surface free energy, surface stress and the Wulff construction",
+          "id": "mt-interfaces-microstructure-evolution-1"
+        },
+        {
+          "name": "Grain-boundary structure: tilt and twist boundaries, CSL model, boundary energy and mobility",
+          "id": "mt-interfaces-microstructure-evolution-2"
+        },
+        {
+          "name": "Interphase interfaces: coherent, semi-coherent and incoherent",
+          "id": "mt-interfaces-microstructure-evolution-3"
+        },
+        {
+          "name": "Triple junctions, dihedral angles and wetting",
+          "id": "mt-interfaces-microstructure-evolution-4"
+        },
+        {
+          "name": "Adsorption and segregation to surfaces and grain boundaries",
+          "id": "mt-interfaces-microstructure-evolution-5"
+        },
+        {
+          "name": "Stored energy of cold work",
+          "id": "mt-interfaces-microstructure-evolution-6"
+        },
+        {
+          "name": "Recovery: polygonisation and subgrain formation",
+          "id": "mt-interfaces-microstructure-evolution-7"
+        },
+        {
+          "name": "Recrystallisation: nucleation, growth, kinetics and recrystallisation diagrams",
+          "id": "mt-interfaces-microstructure-evolution-8"
+        },
+        {
+          "name": "Normal and abnormal grain growth; Zener pinning",
+          "id": "mt-interfaces-microstructure-evolution-9"
+        },
+        {
+          "name": "Particle coarsening: Ostwald ripening and LSW theory",
+          "id": "mt-interfaces-microstructure-evolution-10"
+        },
+        {
+          "name": "Microstructural instabilities: spheroidisation and Rayleigh instability",
+          "id": "mt-interfaces-microstructure-evolution-11"
+        },
+        {
+          "name": "Texture evolution during deformation and annealing",
+          "id": "mt-interfaces-microstructure-evolution-12"
+        },
+        {
+          "name": "Introduction to sintering as capillarity-driven evolution",
+          "id": "mt-interfaces-microstructure-evolution-13"
+        },
+        {
+          "name": "Quantitative microstructure description: stereology, grain-size distributions",
+          "id": "mt-interfaces-microstructure-evolution-14"
+        }
+      ]
+    },
+    {
+      "id": "mt-electrochemistry",
+      "name": "Electrochemistry of Materials",
+      "category": "Thermodynamics & Kinetics",
+      "level": 3,
+      "priority": "important",
+      "summary": "Provides the electrochemical thermodynamics and kinetics needed for corrosion, batteries, fuel cells, electroplating and extractive metallurgy.",
+      "prerequisites": [
+        "mt-thermodynamics-of-materials"
+      ],
+      "topics": [
+        {
+          "name": "Redox reactions, half-cells and electrochemical cells",
+          "id": "mt-electrochemistry-1"
+        },
+        {
+          "name": "Electrode potentials, the standard hydrogen electrode and the electrochemical series",
+          "id": "mt-electrochemistry-2"
+        },
+        {
+          "name": "The Nernst equation and concentration effects",
+          "id": "mt-electrochemistry-3"
+        },
+        {
+          "name": "Pourbaix (potential-pH) diagrams",
+          "id": "mt-electrochemistry-4"
+        },
+        {
+          "name": "Electrode kinetics: exchange current density and the Butler-Volmer equation",
+          "id": "mt-electrochemistry-5"
+        },
+        {
+          "name": "Overpotentials: activation, concentration and ohmic; Tafel analysis",
+          "id": "mt-electrochemistry-6"
+        },
+        {
+          "name": "Mass transport: diffusion, migration and convection; limiting current",
+          "id": "mt-electrochemistry-7"
+        },
+        {
+          "name": "Electrolytes: aqueous, molten salt, polymer and solid ionic conductors",
+          "id": "mt-electrochemistry-8"
+        },
+        {
+          "name": "The electrical double layer and capacitance",
+          "id": "mt-electrochemistry-9"
+        },
+        {
+          "name": "Electrochemical techniques: cyclic voltammetry, potentiodynamic polarisation, impedance spectroscopy",
+          "id": "mt-electrochemistry-10"
+        },
+        {
+          "name": "Faraday's laws and electrodeposition/electroplating",
+          "id": "mt-electrochemistry-11"
+        }
+      ]
+    },
+    {
+      "id": "mt-mechanical-properties",
+      "name": "Mechanical Properties & Testing",
+      "category": "Mechanical Behaviour",
+      "level": 2,
+      "priority": "core",
+      "summary": "Defines stress, strain, stiffness, strength, ductility and hardness, and shows how they are measured and why they differ between material classes.",
+      "prerequisites": [
+        "mt-atomic-bonding",
+        "ph-classical-mechanics"
+      ],
+      "related": [
+        "ma-solid-mechanics"
+      ],
+      "topics": [
+        {
+          "name": "Engineering stress and strain; tension, compression, shear and torsion",
+          "id": "mt-mechanical-properties-1"
+        },
+        {
+          "name": "Elastic deformation: Hooke's law, Young's, shear and bulk moduli, Poisson's ratio",
+          "id": "mt-mechanical-properties-2"
+        },
+        {
+          "name": "Generalised Hooke's law and elastic anisotropy",
+          "id": "mt-mechanical-properties-3"
+        },
+        {
+          "name": "Atomic origin of elasticity; rubber elasticity versus energy elasticity",
+          "id": "mt-mechanical-properties-4"
+        },
+        {
+          "name": "Anelasticity and damping",
+          "id": "mt-mechanical-properties-5"
+        },
+        {
+          "name": "The tensile test: yield strength, tensile strength, ductility, resilience and toughness",
+          "id": "mt-mechanical-properties-6"
+        },
+        {
+          "name": "True stress and true strain; necking and the Considère criterion",
+          "id": "mt-mechanical-properties-7"
+        },
+        {
+          "name": "Strain hardening and the Hollomon equation",
+          "id": "mt-mechanical-properties-8"
+        },
+        {
+          "name": "Hardness testing: Brinell, Rockwell, Vickers, Knoop and nanoindentation",
+          "id": "mt-mechanical-properties-9"
+        },
+        {
+          "name": "Compression, bend (flexural) and torsion tests; testing brittle materials",
+          "id": "mt-mechanical-properties-10"
+        },
+        {
+          "name": "Variability of properties, statistics of test data and design/safety factors",
+          "id": "mt-mechanical-properties-11"
+        },
+        {
+          "name": "Mechanical behaviour of ceramics and polymers compared with metals",
+          "id": "mt-mechanical-properties-12"
+        },
+        {
+          "name": "Test standards (ASTM/ISO) and test machines, extensometers and strain gauges",
+          "id": "mt-mechanical-properties-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-plasticity-strengthening",
+      "name": "Plasticity & Strengthening Mechanisms",
+      "category": "Mechanical Behaviour",
+      "level": 3,
+      "priority": "core",
+      "summary": "Connects dislocation behaviour to macroscopic yielding and explains every major way to make metals stronger.",
+      "prerequisites": [
+        "mt-mechanical-properties",
+        "mt-defects"
+      ],
+      "related": [
+        "ma-solid-mechanics"
+      ],
+      "topics": [
+        {
+          "name": "Theoretical shear strength and why real crystals are weaker",
+          "id": "mt-plasticity-strengthening-1"
+        },
+        {
+          "name": "Resolved shear stress and Schmid's law; critical resolved shear stress",
+          "id": "mt-plasticity-strengthening-2"
+        },
+        {
+          "name": "Single-crystal deformation: easy glide, multiple slip and stage I-III hardening",
+          "id": "mt-plasticity-strengthening-3"
+        },
+        {
+          "name": "Deformation by twinning",
+          "id": "mt-plasticity-strengthening-4"
+        },
+        {
+          "name": "Polycrystal plasticity: Taylor factor and compatibility",
+          "id": "mt-plasticity-strengthening-5"
+        },
+        {
+          "name": "Dislocation multiplication (Frank-Read sources) and forest hardening (Taylor equation)",
+          "id": "mt-plasticity-strengthening-6"
+        },
+        {
+          "name": "Strengthening mechanisms",
+          "sub": [
+            {
+              "name": "Grain-size (Hall-Petch) strengthening",
+              "id": "mt-plasticity-strengthening-7-1"
+            },
+            {
+              "name": "Solid-solution strengthening",
+              "id": "mt-plasticity-strengthening-7-2"
+            },
+            {
+              "name": "Precipitation and dispersion strengthening (cutting vs Orowan looping)",
+              "id": "mt-plasticity-strengthening-7-3"
+            },
+            {
+              "name": "Strain (work) hardening",
+              "id": "mt-plasticity-strengthening-7-4"
+            },
+            {
+              "name": "Transformation and composite strengthening",
+              "id": "mt-plasticity-strengthening-7-5"
+            }
+          ],
+          "id": "mt-plasticity-strengthening-7"
+        },
+        {
+          "name": "Yield-point phenomena, strain ageing and Lüders bands",
+          "id": "mt-plasticity-strengthening-8"
+        },
+        {
+          "name": "Temperature and strain-rate dependence of flow stress; thermally activated glide; Peierls stress in BCC",
+          "id": "mt-plasticity-strengthening-9"
+        },
+        {
+          "name": "Yield criteria: Tresca and von Mises; flow rules and plastic anisotropy (Hill)",
+          "id": "mt-plasticity-strengthening-10"
+        },
+        {
+          "name": "Strength-ductility trade-off and strategies to overcome it (TRIP, TWIP, bimodal grains)",
+          "id": "mt-plasticity-strengthening-11"
+        },
+        {
+          "name": "Introduction to crystal plasticity and dislocation dynamics modelling",
+          "id": "mt-plasticity-strengthening-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-creep",
+      "name": "Creep & High-Temperature Deformation",
+      "category": "Mechanical Behaviour",
+      "level": 3,
+      "priority": "important",
+      "summary": "Explains time-dependent deformation at high temperature, the mechanisms behind it and how engineers predict creep life of turbine blades and power-plant parts.",
+      "prerequisites": [
+        "mt-plasticity-strengthening",
+        "mt-diffusion"
+      ],
+      "topics": [
+        {
+          "name": "The creep curve: primary, secondary (steady-state) and tertiary creep",
+          "id": "mt-creep-1"
+        },
+        {
+          "name": "Stress and temperature dependence: power-law creep and activation energy",
+          "id": "mt-creep-2"
+        },
+        {
+          "name": "Dislocation creep: climb-controlled and glide-controlled mechanisms",
+          "id": "mt-creep-3"
+        },
+        {
+          "name": "Diffusional creep: Nabarro-Herring and Coble creep",
+          "id": "mt-creep-4"
+        },
+        {
+          "name": "Grain-boundary sliding and superplasticity",
+          "id": "mt-creep-5"
+        },
+        {
+          "name": "Deformation-mechanism (Ashby) maps",
+          "id": "mt-creep-6"
+        },
+        {
+          "name": "Creep fracture: cavitation, creep damage and Monkman-Grant relation",
+          "id": "mt-creep-7"
+        },
+        {
+          "name": "Stress relaxation and its engineering consequences",
+          "id": "mt-creep-8"
+        },
+        {
+          "name": "Larson-Miller and other time-temperature parameters for life prediction",
+          "id": "mt-creep-9"
+        },
+        {
+          "name": "Creep-resistant alloy design: solid solution, precipitates, single crystals and ODS alloys",
+          "id": "mt-creep-10"
+        },
+        {
+          "name": "Creep of ceramics and polymers",
+          "id": "mt-creep-11"
+        },
+        {
+          "name": "Creep-fatigue interaction",
+          "id": "mt-creep-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-fracture-mechanics",
+      "name": "Fracture & Fracture Mechanics",
+      "category": "Mechanical Behaviour",
+      "level": 3,
+      "priority": "core",
+      "summary": "Explains how cracks cause failure, from Griffith's energy balance to fracture toughness testing and toughening mechanisms.",
+      "prerequisites": [
+        "mt-plasticity-strengthening"
+      ],
+      "related": [
+        "ma-solid-mechanics"
+      ],
+      "topics": [
+        {
+          "name": "Ductile versus brittle fracture; fractography basics",
+          "id": "mt-fracture-mechanics-1"
+        },
+        {
+          "name": "Theoretical cohesive strength and stress concentration at flaws (Inglis)",
+          "id": "mt-fracture-mechanics-2"
+        },
+        {
+          "name": "Griffith energy balance and strain energy release rate G",
+          "id": "mt-fracture-mechanics-3"
+        },
+        {
+          "name": "Linear elastic fracture mechanics: stress intensity factor K and fracture modes I, II, III",
+          "id": "mt-fracture-mechanics-4"
+        },
+        {
+          "name": "Fracture toughness K_IC and plane-strain testing (ASTM E399)",
+          "id": "mt-fracture-mechanics-5"
+        },
+        {
+          "name": "Crack-tip plasticity: Irwin plastic zone and small-scale yielding",
+          "id": "mt-fracture-mechanics-6"
+        },
+        {
+          "name": "Elastic-plastic fracture mechanics: CTOD and the J-integral",
+          "id": "mt-fracture-mechanics-7"
+        },
+        {
+          "name": "Ductile fracture mechanisms: void nucleation, growth and coalescence",
+          "id": "mt-fracture-mechanics-8"
+        },
+        {
+          "name": "Cleavage, intergranular fracture and the ductile-to-brittle transition (Charpy impact testing)",
+          "id": "mt-fracture-mechanics-9"
+        },
+        {
+          "name": "R-curves and toughening mechanisms in metals, ceramics and composites",
+          "id": "mt-fracture-mechanics-10"
+        },
+        {
+          "name": "Statistics of brittle fracture: Weibull analysis",
+          "id": "mt-fracture-mechanics-11"
+        },
+        {
+          "name": "Environment-assisted cracking: stress-corrosion cracking and hydrogen embrittlement",
+          "id": "mt-fracture-mechanics-12"
+        },
+        {
+          "name": "Damage-tolerant design and leak-before-break",
+          "id": "mt-fracture-mechanics-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-fatigue-failure-analysis",
+      "name": "Fatigue & Failure Analysis",
+      "category": "Mechanical Behaviour",
+      "level": 3,
+      "priority": "core",
+      "summary": "Covers failure under cyclic loading and the forensic methods used to find out why real components broke.",
+      "prerequisites": [
+        "mt-fracture-mechanics"
+      ],
+      "related": [
+        "el-reliability-testing"
+      ],
+      "topics": [
+        {
+          "name": "Cyclic stresses: amplitude, mean stress and stress ratio",
+          "id": "mt-fatigue-failure-analysis-1"
+        },
+        {
+          "name": "Stress-life (S-N) approach and endurance limit; mean-stress corrections (Goodman, Gerber)",
+          "id": "mt-fatigue-failure-analysis-2"
+        },
+        {
+          "name": "Strain-life approach: Coffin-Manson and cyclic stress-strain behaviour",
+          "id": "mt-fatigue-failure-analysis-3"
+        },
+        {
+          "name": "Fatigue crack initiation: persistent slip bands, notches and surface effects",
+          "id": "mt-fatigue-failure-analysis-4"
+        },
+        {
+          "name": "Fatigue crack growth: Paris law, threshold and crack closure",
+          "id": "mt-fatigue-failure-analysis-5"
+        },
+        {
+          "name": "Variable-amplitude loading and cumulative damage (Miner's rule)",
+          "id": "mt-fatigue-failure-analysis-6"
+        },
+        {
+          "name": "Factors affecting fatigue life: surface finish, residual stresses, shot peening, environment",
+          "id": "mt-fatigue-failure-analysis-7"
+        },
+        {
+          "name": "Thermal and thermomechanical fatigue; fretting fatigue",
+          "id": "mt-fatigue-failure-analysis-8"
+        },
+        {
+          "name": "Fatigue of welds, composites and polymers",
+          "id": "mt-fatigue-failure-analysis-9"
+        },
+        {
+          "name": "Failure analysis methodology: evidence gathering, visual inspection and fractography (beach marks, striations)",
+          "id": "mt-fatigue-failure-analysis-10"
+        },
+        {
+          "name": "Root-cause analysis tools: fault trees, fishbone diagrams and FMEA",
+          "id": "mt-fatigue-failure-analysis-11"
+        },
+        {
+          "name": "Classic case studies: Liberty ships, Comet airliner, Aloha 243, Challenger O-rings, Columbia foam strike",
+          "id": "mt-fatigue-failure-analysis-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-thermal-properties",
+      "name": "Thermal Properties of Materials",
+      "category": "Electronic, Optical, Magnetic & Thermal Properties",
+      "level": 2,
+      "priority": "important",
+      "summary": "Explains heat capacity, thermal expansion, thermal conductivity and thermal shock, and why they matter for engines, electronics and spacecraft.",
+      "prerequisites": [
+        "mt-thermodynamics-of-materials",
+        "mt-crystal-structures"
+      ],
+      "related": [
+        "ph-solid-state-physics",
+        "el-thermal-management"
+      ],
+      "topics": [
+        {
+          "name": "Heat capacity: classical Dulong-Petit, Einstein and Debye models",
+          "id": "mt-thermal-properties-1"
+        },
+        {
+          "name": "Phonons as heat carriers: lattice vibrations and the phonon picture",
+          "id": "mt-thermal-properties-2"
+        },
+        {
+          "name": "Thermal expansion: anharmonic potentials, coefficient of thermal expansion and the Grüneisen parameter",
+          "id": "mt-thermal-properties-3"
+        },
+        {
+          "name": "Negative and near-zero expansion materials (Invar, ZrW2O8, Zerodur)",
+          "id": "mt-thermal-properties-4"
+        },
+        {
+          "name": "Thermal conductivity in metals (Wiedemann-Franz law) and in insulators (phonon scattering, Umklapp)",
+          "id": "mt-thermal-properties-5"
+        },
+        {
+          "name": "Thermal conductivity of polymers, composites, foams and aerogels",
+          "id": "mt-thermal-properties-6"
+        },
+        {
+          "name": "Thermal diffusivity and transient heat flow",
+          "id": "mt-thermal-properties-7"
+        },
+        {
+          "name": "Thermal stresses from constrained expansion and CTE mismatch",
+          "id": "mt-thermal-properties-8"
+        },
+        {
+          "name": "Thermal shock resistance and thermal shock parameters",
+          "id": "mt-thermal-properties-9"
+        },
+        {
+          "name": "Radiative properties: emissivity and absorptivity",
+          "id": "mt-thermal-properties-10"
+        },
+        {
+          "name": "Measuring thermal properties: laser flash, dilatometry, DSC",
+          "id": "mt-thermal-properties-11"
+        },
+        {
+          "name": "Thermal management materials: heat spreaders, thermal interface materials, insulators",
+          "id": "mt-thermal-properties-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-electronic-properties",
+      "name": "Electronic Properties of Materials",
+      "category": "Electronic, Optical, Magnetic & Thermal Properties",
+      "level": 3,
+      "priority": "core",
+      "summary": "Uses band theory to explain why metals conduct, semiconductors switch and insulators insulate, and how processing changes electrical behaviour.",
+      "prerequisites": [
+        "mt-crystallography-diffraction",
+        "ph-quantum-mechanics"
+      ],
+      "related": [
+        "ph-solid-state-physics",
+        "el-semiconductor-physics"
+      ],
+      "topics": [
+        {
+          "name": "Ohm's law, conductivity, mobility and the Drude model",
+          "id": "mt-electronic-properties-1"
+        },
+        {
+          "name": "Free-electron model: Fermi energy, density of states and Fermi-Dirac statistics",
+          "id": "mt-electronic-properties-2"
+        },
+        {
+          "name": "Electrons in periodic potentials: Bloch's theorem, band gaps and Brillouin zones",
+          "id": "mt-electronic-properties-3"
+        },
+        {
+          "name": "Tight-binding picture and band structures of real materials",
+          "id": "mt-electronic-properties-4"
+        },
+        {
+          "name": "Metals: resistivity contributions from temperature, impurities and deformation (Matthiessen's rule)",
+          "id": "mt-electronic-properties-5"
+        },
+        {
+          "name": "Intrinsic and extrinsic semiconductors; carrier concentration and temperature dependence",
+          "id": "mt-electronic-properties-6"
+        },
+        {
+          "name": "Hall effect and carrier measurements",
+          "id": "mt-electronic-properties-7"
+        },
+        {
+          "name": "Semiconductor junctions and devices from a materials viewpoint",
+          "id": "mt-electronic-properties-8"
+        },
+        {
+          "name": "Ionic conduction and mixed conductors",
+          "id": "mt-electronic-properties-9"
+        },
+        {
+          "name": "Electrical conduction in polymers and conducting polymers",
+          "id": "mt-electronic-properties-10"
+        },
+        {
+          "name": "Superconductivity: phenomenology, type I/II, critical field and current",
+          "id": "mt-electronic-properties-11"
+        },
+        {
+          "name": "Electronic properties at the nanoscale: quantum confinement and tunnelling",
+          "id": "mt-electronic-properties-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-semiconductor-materials",
+      "name": "Semiconductor Materials & Electronic Packaging",
+      "category": "Electronic, Optical, Magnetic & Thermal Properties",
+      "level": 3,
+      "priority": "important",
+      "summary": "Covers the materials science of silicon, compound and wide-bandgap semiconductors, from crystal growth and doping to interconnects and packaging reliability.",
+      "prerequisites": [
+        "mt-electronic-properties",
+        "mt-diffusion"
+      ],
+      "related": [
+        "el-semiconductor-physics",
+        "el-cmos-technology",
+        "el-power-devices",
+        "el-pcb-materials"
+      ],
+      "topics": [
+        {
+          "name": "Elemental and compound semiconductors: Si, Ge, GaAs, InP, GaN, SiC, Ga2O3",
+          "id": "mt-semiconductor-materials-1"
+        },
+        {
+          "name": "Band engineering: alloys, direct vs indirect gaps, heterostructures and strain",
+          "id": "mt-semiconductor-materials-2"
+        },
+        {
+          "name": "Bulk crystal growth: Czochralski, float-zone and Bridgman methods",
+          "id": "mt-semiconductor-materials-3"
+        },
+        {
+          "name": "Epitaxy: MBE, MOCVD and lattice-mismatch dislocations",
+          "id": "mt-semiconductor-materials-4"
+        },
+        {
+          "name": "Doping by diffusion and ion implantation; dopant activation and annealing",
+          "id": "mt-semiconductor-materials-5"
+        },
+        {
+          "name": "Defects in semiconductors: deep levels, recombination centres and gettering",
+          "id": "mt-semiconductor-materials-6"
+        },
+        {
+          "name": "Oxides and dielectrics on silicon: thermal oxidation (Deal-Grove), high-k gate dielectrics",
+          "id": "mt-semiconductor-materials-7"
+        },
+        {
+          "name": "Metallisation and contacts: silicides, Schottky vs ohmic contacts, copper interconnects",
+          "id": "mt-semiconductor-materials-8"
+        },
+        {
+          "name": "Electromigration and stress voiding in interconnects",
+          "id": "mt-semiconductor-materials-9"
+        },
+        {
+          "name": "Wide-bandgap materials for power electronics (SiC, GaN)",
+          "id": "mt-semiconductor-materials-10"
+        },
+        {
+          "name": "Organic and amorphous semiconductors",
+          "id": "mt-semiconductor-materials-11"
+        },
+        {
+          "name": "Electronic packaging materials: solders (Sn-Ag-Cu), die attach, underfill, substrates",
+          "id": "mt-semiconductor-materials-12"
+        },
+        {
+          "name": "Packaging reliability: thermal cycling, solder fatigue and intermetallic growth",
+          "id": "mt-semiconductor-materials-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-dielectric-ferroic",
+      "name": "Dielectric, Ferroelectric & Piezoelectric Materials",
+      "category": "Electronic, Optical, Magnetic & Thermal Properties",
+      "level": 3,
+      "priority": "important",
+      "summary": "Explains polarisation in insulators and the ferroic materials behind capacitors, sensors, actuators and ultrasonic transducers.",
+      "prerequisites": [
+        "mt-electronic-properties"
+      ],
+      "related": [
+        "el-memory-devices",
+        "el-energy-harvesting"
+      ],
+      "topics": [
+        {
+          "name": "Dielectric polarisation mechanisms: electronic, ionic, orientational and space-charge",
+          "id": "mt-dielectric-ferroic-1"
+        },
+        {
+          "name": "Dielectric constant, loss tangent and frequency dependence",
+          "id": "mt-dielectric-ferroic-2"
+        },
+        {
+          "name": "Dielectric breakdown and insulating materials",
+          "id": "mt-dielectric-ferroic-3"
+        },
+        {
+          "name": "Capacitor dielectrics: BaTiO3 multilayer ceramic capacitors and polymer films",
+          "id": "mt-dielectric-ferroic-4"
+        },
+        {
+          "name": "Pyroelectricity and ferroelectricity; hysteresis loops and domains",
+          "id": "mt-dielectric-ferroic-5"
+        },
+        {
+          "name": "Perovskite ferroelectrics and the Curie temperature; relaxor ferroelectrics",
+          "id": "mt-dielectric-ferroic-6"
+        },
+        {
+          "name": "Piezoelectric effect: constitutive equations, d and g coefficients, coupling factor",
+          "id": "mt-dielectric-ferroic-7"
+        },
+        {
+          "name": "Piezoelectric materials: quartz, PZT, PMN-PT single crystals, PVDF and lead-free alternatives",
+          "id": "mt-dielectric-ferroic-8"
+        },
+        {
+          "name": "Poling and ageing of piezoceramics",
+          "id": "mt-dielectric-ferroic-9"
+        },
+        {
+          "name": "Electrostriction and flexoelectricity",
+          "id": "mt-dielectric-ferroic-10"
+        },
+        {
+          "name": "Applications: sensors, ultrasonic transducers, actuators and energy harvesters",
+          "id": "mt-dielectric-ferroic-11"
+        },
+        {
+          "name": "Ferroelectric memories and multiferroics",
+          "id": "mt-dielectric-ferroic-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-magnetic-materials",
+      "name": "Magnetic Materials",
+      "category": "Electronic, Optical, Magnetic & Thermal Properties",
+      "level": 3,
+      "priority": "important",
+      "summary": "Covers the origins of magnetism in solids and the soft and hard magnetic materials used in motors, transformers, data storage and sensors.",
+      "prerequisites": [
+        "mt-electronic-properties"
+      ],
+      "related": [
+        "ph-spintronics",
+        "ph-classical-electromagnetism"
+      ],
+      "topics": [
+        {
+          "name": "Magnetic field quantities: H, B, M, susceptibility and permeability",
+          "id": "mt-magnetic-materials-1"
+        },
+        {
+          "name": "Atomic origin of magnetic moments; diamagnetism and paramagnetism",
+          "id": "mt-magnetic-materials-2"
+        },
+        {
+          "name": "Ferromagnetism, antiferromagnetism and ferrimagnetism; exchange interaction and Curie temperature",
+          "id": "mt-magnetic-materials-3"
+        },
+        {
+          "name": "Magnetic anisotropy: magnetocrystalline, shape and stress anisotropy",
+          "id": "mt-magnetic-materials-4"
+        },
+        {
+          "name": "Domains, domain walls and the magnetisation process; hysteresis",
+          "id": "mt-magnetic-materials-5"
+        },
+        {
+          "name": "Soft magnetic materials: electrical steels, Ni-Fe (permalloy), ferrites, amorphous and nanocrystalline alloys",
+          "id": "mt-magnetic-materials-6"
+        },
+        {
+          "name": "Core losses: hysteresis and eddy-current losses",
+          "id": "mt-magnetic-materials-7"
+        },
+        {
+          "name": "Hard (permanent) magnets: alnico, hard ferrites, SmCo and NdFeB; energy product (BH)max",
+          "id": "mt-magnetic-materials-8"
+        },
+        {
+          "name": "Rare-earth supply issues and rare-earth-free magnet research",
+          "id": "mt-magnetic-materials-9"
+        },
+        {
+          "name": "Magnetostriction and magnetostrictive materials (Terfenol-D, Galfenol)",
+          "id": "mt-magnetic-materials-10"
+        },
+        {
+          "name": "Magnetic recording and spintronic materials (GMR, TMR, MRAM)",
+          "id": "mt-magnetic-materials-11"
+        },
+        {
+          "name": "Magnetic nanoparticles and superparamagnetism",
+          "id": "mt-magnetic-materials-12"
+        },
+        {
+          "name": "Magnetocaloric materials",
+          "id": "mt-magnetic-materials-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-optical-photonic-materials",
+      "name": "Optical & Photonic Materials",
+      "category": "Electronic, Optical, Magnetic & Thermal Properties",
+      "level": 3,
+      "priority": "important",
+      "summary": "Explains how light interacts with materials and the materials used for lenses, fibres, lasers, LEDs, displays and optical coatings.",
+      "prerequisites": [
+        "mt-electronic-properties",
+        "ph-classical-electromagnetism"
+      ],
+      "related": [
+        "ph-modern-optics",
+        "el-optoelectronic-devices",
+        "el-photonics-silicon-photonics",
+        "ph-nanophotonics-plasmonics"
+      ],
+      "topics": [
+        {
+          "name": "Electromagnetic radiation and its interaction with solids",
+          "id": "mt-optical-photonic-materials-1"
+        },
+        {
+          "name": "Refraction, reflection, absorption and transmission; the complex refractive index",
+          "id": "mt-optical-photonic-materials-2"
+        },
+        {
+          "name": "Colour in metals, semiconductors, insulators and pigments",
+          "id": "mt-optical-photonic-materials-3"
+        },
+        {
+          "name": "Dispersion and the Lorentz and Drude models of optical response",
+          "id": "mt-optical-photonic-materials-4"
+        },
+        {
+          "name": "Luminescence: photoluminescence, electroluminescence and phosphors",
+          "id": "mt-optical-photonic-materials-5"
+        },
+        {
+          "name": "Semiconductor emitters and detectors: LEDs, laser diodes, photodiodes",
+          "id": "mt-optical-photonic-materials-6"
+        },
+        {
+          "name": "Laser materials: gain media, Nd:YAG, fibre and solid-state lasers",
+          "id": "mt-optical-photonic-materials-7"
+        },
+        {
+          "name": "Optical fibres: glass purity, attenuation, dispersion and doped-fibre amplifiers",
+          "id": "mt-optical-photonic-materials-8"
+        },
+        {
+          "name": "Optical and anti-reflection coatings; thin-film interference",
+          "id": "mt-optical-photonic-materials-9"
+        },
+        {
+          "name": "Transparent conductors (ITO) and transparent ceramics",
+          "id": "mt-optical-photonic-materials-10"
+        },
+        {
+          "name": "Electro-optic, acousto-optic and nonlinear optical materials",
+          "id": "mt-optical-photonic-materials-11"
+        },
+        {
+          "name": "Photonic crystals and plasmonic materials",
+          "id": "mt-optical-photonic-materials-12"
+        },
+        {
+          "name": "Infrared and optical window materials for sensors and spacecraft",
+          "id": "mt-optical-photonic-materials-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-steels",
+      "name": "Steels & Ferrous Alloys",
+      "category": "Metals & Alloys",
+      "level": 3,
+      "priority": "core",
+      "summary": "Covers the metallurgy of iron and steel, the world's most important structural material, from phase transformations to alloy families.",
+      "prerequisites": [
+        "mt-phase-transformations",
+        "mt-plasticity-strengthening"
+      ],
+      "topics": [
+        {
+          "name": "Iron and steel production overview: blast furnace, BOF, EAF, direct reduction and secondary steelmaking",
+          "id": "mt-steels-1"
+        },
+        {
+          "name": "The Fe-C diagram revisited: ferrite, austenite, cementite and pearlite",
+          "id": "mt-steels-2"
+        },
+        {
+          "name": "Transformation products: pearlite, bainite and martensite; tempered martensite",
+          "id": "mt-steels-3"
+        },
+        {
+          "name": "Effects of alloying elements on phase stability and hardenability",
+          "id": "mt-steels-4"
+        },
+        {
+          "name": "Hardenability and the Jominy end-quench test",
+          "id": "mt-steels-5"
+        },
+        {
+          "name": "Plain-carbon and low-alloy steels; AISI/SAE designations",
+          "id": "mt-steels-6"
+        },
+        {
+          "name": "High-strength low-alloy (HSLA) and microalloyed steels; thermomechanical processing",
+          "id": "mt-steels-7"
+        },
+        {
+          "name": "Advanced high-strength steels for lightweight vehicles: DP, TRIP, TWIP, martensitic, Q&P",
+          "id": "mt-steels-8"
+        },
+        {
+          "name": "Tool steels and bearing steels",
+          "id": "mt-steels-9"
+        },
+        {
+          "name": "Stainless steels: ferritic, austenitic, martensitic, duplex and precipitation-hardening",
+          "id": "mt-steels-10"
+        },
+        {
+          "name": "Maraging and ultra-high-strength steels for aerospace landing gear and rocket casings",
+          "id": "mt-steels-11"
+        },
+        {
+          "name": "Cast irons: grey, ductile (nodular), white, malleable and compacted-graphite",
+          "id": "mt-steels-12"
+        },
+        {
+          "name": "Hydrogen embrittlement and temper embrittlement in steels",
+          "id": "mt-steels-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-nonferrous-alloys",
+      "name": "Light & Nonferrous Alloys",
+      "category": "Metals & Alloys",
+      "level": 3,
+      "priority": "important",
+      "summary": "Covers aluminium, magnesium, titanium, copper and nickel alloys: their metallurgy, heat treatment and where each is used.",
+      "prerequisites": [
+        "mt-phase-transformations",
+        "mt-plasticity-strengthening"
+      ],
+      "topics": [
+        {
+          "name": "Aluminium alloys",
+          "sub": [
+            {
+              "name": "Wrought vs cast alloys and designation system",
+              "id": "mt-nonferrous-alloys-1-1"
+            },
+            {
+              "name": "Precipitation hardening in 2xxx, 6xxx and 7xxx alloys; temper designations",
+              "id": "mt-nonferrous-alloys-1-2"
+            },
+            {
+              "name": "Aluminium-lithium alloys for aerospace",
+              "id": "mt-nonferrous-alloys-1-3"
+            },
+            {
+              "name": "Cast Al-Si alloys",
+              "id": "mt-nonferrous-alloys-1-4"
+            }
+          ],
+          "id": "mt-nonferrous-alloys-1"
+        },
+        {
+          "name": "Magnesium alloys",
+          "sub": [
+            {
+              "name": "HCP deformation and formability limits",
+              "id": "mt-nonferrous-alloys-2-1"
+            },
+            {
+              "name": "AZ, AM and rare-earth Mg alloys",
+              "id": "mt-nonferrous-alloys-2-2"
+            },
+            {
+              "name": "Corrosion challenges",
+              "id": "mt-nonferrous-alloys-2-3"
+            }
+          ],
+          "id": "mt-nonferrous-alloys-2"
+        },
+        {
+          "name": "Titanium alloys",
+          "sub": [
+            {
+              "name": "Alpha, alpha-beta and beta alloys; Ti-6Al-4V",
+              "id": "mt-nonferrous-alloys-3-1"
+            },
+            {
+              "name": "Microstructure control: lamellar, bimodal and equiaxed",
+              "id": "mt-nonferrous-alloys-3-2"
+            },
+            {
+              "name": "Titanium in airframes, engines and implants",
+              "id": "mt-nonferrous-alloys-3-3"
+            },
+            {
+              "name": "Titanium aluminides",
+              "id": "mt-nonferrous-alloys-3-4"
+            }
+          ],
+          "id": "mt-nonferrous-alloys-3"
+        },
+        {
+          "name": "Copper alloys",
+          "sub": [
+            {
+              "name": "Pure copper and conductivity",
+              "id": "mt-nonferrous-alloys-4-1"
+            },
+            {
+              "name": "Brasses, bronzes and Cu-Be",
+              "id": "mt-nonferrous-alloys-4-2"
+            },
+            {
+              "name": "Cu-Cr-Zr and GRCop alloys for rocket combustion chambers",
+              "id": "mt-nonferrous-alloys-4-3"
+            }
+          ],
+          "id": "mt-nonferrous-alloys-4"
+        },
+        {
+          "name": "Nickel and cobalt alloys (introduction; superalloys treated separately)",
+          "id": "mt-nonferrous-alloys-5"
+        },
+        {
+          "name": "Zinc, tin and lead alloys; solders and bearings",
+          "id": "mt-nonferrous-alloys-6"
+        },
+        {
+          "name": "Precious metals and their engineering uses",
+          "id": "mt-nonferrous-alloys-7"
+        },
+        {
+          "name": "Beryllium and its hazards",
+          "id": "mt-nonferrous-alloys-8"
+        },
+        {
+          "name": "Comparing specific strength and stiffness of light alloys",
+          "id": "mt-nonferrous-alloys-9"
+        }
+      ]
+    },
+    {
+      "id": "mt-superalloys-refractory",
+      "name": "Superalloys & Refractory Metals",
+      "category": "Metals & Alloys",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Studies the nickel-base superalloys and refractory metals that make jet engines and rocket engines possible at temperatures near their melting points.",
+      "prerequisites": [
+        "mt-nonferrous-alloys",
+        "mt-creep"
+      ],
+      "topics": [
+        {
+          "name": "Requirements of gas-turbine and rocket-engine hot sections",
+          "id": "mt-superalloys-refractory-1"
+        },
+        {
+          "name": "Ni-base superalloy metallurgy: gamma matrix and gamma-prime precipitates",
+          "id": "mt-superalloys-refractory-2"
+        },
+        {
+          "name": "Strengthening mechanisms: order strengthening, anomalous yield, solid-solution and carbides",
+          "id": "mt-superalloys-refractory-3"
+        },
+        {
+          "name": "Topologically close-packed phases and alloy design (PHACOMP, d-electron methods)",
+          "id": "mt-superalloys-refractory-4"
+        },
+        {
+          "name": "Wrought, cast, directionally solidified and single-crystal superalloys",
+          "id": "mt-superalloys-refractory-5"
+        },
+        {
+          "name": "Investment casting of single-crystal turbine blades; grain selectors and defects",
+          "id": "mt-superalloys-refractory-6"
+        },
+        {
+          "name": "Powder-metallurgy superalloy discs",
+          "id": "mt-superalloys-refractory-7"
+        },
+        {
+          "name": "Co-base and Fe-Ni-base superalloys",
+          "id": "mt-superalloys-refractory-8"
+        },
+        {
+          "name": "Oxidation-resistant coatings: aluminides, MCrAlY bond coats and thermal barrier coatings",
+          "id": "mt-superalloys-refractory-9"
+        },
+        {
+          "name": "Refractory metals: Nb, Mo, Ta, W and Re; their alloys and oxidation problem",
+          "id": "mt-superalloys-refractory-10"
+        },
+        {
+          "name": "Niobium alloys (C-103) for rocket nozzle extensions",
+          "id": "mt-superalloys-refractory-11"
+        },
+        {
+          "name": "Superalloys for oxygen-rich rocket engines and hydrogen environments",
+          "id": "mt-superalloys-refractory-12"
+        },
+        {
+          "name": "Emerging high-temperature alloys: refractory high-entropy alloys, Mo-Si-B, silicides",
+          "id": "mt-superalloys-refractory-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-extractive-metallurgy",
+      "name": "Extractive Metallurgy & Metal Production",
+      "category": "Metals & Alloys",
+      "level": 3,
+      "priority": "advanced",
+      "summary": "Explains how metals are won from ores and scrap by mineral processing, pyrometallurgy, hydrometallurgy and electrometallurgy.",
+      "prerequisites": [
+        "mt-electrochemistry"
+      ],
+      "topics": [
+        {
+          "name": "Ores, minerals and mineral processing: comminution, flotation and concentration",
+          "id": "mt-extractive-metallurgy-1"
+        },
+        {
+          "name": "Thermodynamics of extraction: Ellingham diagrams and predominance diagrams",
+          "id": "mt-extractive-metallurgy-2"
+        },
+        {
+          "name": "Pyrometallurgy: roasting, smelting, converting and refining; slags",
+          "id": "mt-extractive-metallurgy-3"
+        },
+        {
+          "name": "Ironmaking in the blast furnace and hydrogen-based direct reduction",
+          "id": "mt-extractive-metallurgy-4"
+        },
+        {
+          "name": "Hydrometallurgy: leaching, solvent extraction and precipitation",
+          "id": "mt-extractive-metallurgy-5"
+        },
+        {
+          "name": "Electrometallurgy: electrowinning and electrorefining; Hall-Héroult aluminium process",
+          "id": "mt-extractive-metallurgy-6"
+        },
+        {
+          "name": "Production of titanium (Kroll process) and emerging routes",
+          "id": "mt-extractive-metallurgy-7"
+        },
+        {
+          "name": "Rare-earth and battery-metal extraction (Li, Ni, Co)",
+          "id": "mt-extractive-metallurgy-8"
+        },
+        {
+          "name": "Vacuum and special melting: VIM, VAR and ESR for aerospace alloys",
+          "id": "mt-extractive-metallurgy-9"
+        },
+        {
+          "name": "Energy use and decarbonisation of metal production",
+          "id": "mt-extractive-metallurgy-10"
+        },
+        {
+          "name": "Recycling as metal production: secondary aluminium and steel",
+          "id": "mt-extractive-metallurgy-11"
+        }
+      ]
+    },
+    {
+      "id": "mt-construction-materials",
+      "name": "Construction & Natural Materials",
+      "category": "Ceramics & Glasses",
+      "level": 2,
+      "priority": "important",
+      "summary": "Introduces the high-volume materials of the built environment: cement and concrete, timber, stone, brick and asphalt.",
+      "prerequisites": [
+        "mt-mechanical-properties"
+      ],
+      "topics": [
+        {
+          "name": "Portland cement: manufacture, clinker phases and hydration chemistry",
+          "id": "mt-construction-materials-1"
+        },
+        {
+          "name": "Concrete: mix design, strength development, curing and durability",
+          "id": "mt-construction-materials-2"
+        },
+        {
+          "name": "Reinforced and prestressed concrete from a materials viewpoint; rebar corrosion",
+          "id": "mt-construction-materials-3"
+        },
+        {
+          "name": "Low-carbon cements, geopolymers and supplementary cementitious materials",
+          "id": "mt-construction-materials-4"
+        },
+        {
+          "name": "Wood: cellular structure, anisotropy, moisture and engineered wood products",
+          "id": "mt-construction-materials-5"
+        },
+        {
+          "name": "Bamboo and other natural fibres",
+          "id": "mt-construction-materials-6"
+        },
+        {
+          "name": "Stone, brick and traditional ceramics",
+          "id": "mt-construction-materials-7"
+        },
+        {
+          "name": "Asphalt and bituminous materials",
+          "id": "mt-construction-materials-8"
+        },
+        {
+          "name": "Glass in buildings: float glass, laminated and tempered glass",
+          "id": "mt-construction-materials-9"
+        },
+        {
+          "name": "Durability, weathering and service life of construction materials",
+          "id": "mt-construction-materials-10"
+        }
+      ]
+    },
+    {
+      "id": "mt-ceramics",
+      "name": "Ceramic Materials",
+      "category": "Ceramics & Glasses",
+      "level": 3,
+      "priority": "core",
+      "summary": "Covers the structure, defects, mechanical behaviour and applications of traditional and advanced engineering ceramics.",
+      "prerequisites": [
+        "mt-defects",
+        "mt-phase-diagrams",
+        "mt-mechanical-properties"
+      ],
+      "topics": [
+        {
+          "name": "Classification: traditional (clay-based) vs advanced/technical ceramics",
+          "id": "mt-ceramics-1"
+        },
+        {
+          "name": "Ceramic crystal structures and defect chemistry revisited",
+          "id": "mt-ceramics-2"
+        },
+        {
+          "name": "Oxide ceramics: alumina, zirconia, magnesia, silica",
+          "id": "mt-ceramics-3"
+        },
+        {
+          "name": "Non-oxide ceramics: silicon carbide, silicon nitride, boron carbide, aluminium nitride",
+          "id": "mt-ceramics-4"
+        },
+        {
+          "name": "Mechanical behaviour: brittleness, flaw sensitivity and Weibull statistics",
+          "id": "mt-ceramics-5"
+        },
+        {
+          "name": "Toughening mechanisms: transformation toughening (zirconia), crack deflection, bridging",
+          "id": "mt-ceramics-6"
+        },
+        {
+          "name": "Refractories and high-temperature ceramics",
+          "id": "mt-ceramics-7"
+        },
+        {
+          "name": "Ultra-high-temperature ceramics: ZrB2, HfB2, HfC and TaC",
+          "id": "mt-ceramics-8"
+        },
+        {
+          "name": "Electroceramics overview: dielectrics, piezoceramics, ionic conductors, ferrites",
+          "id": "mt-ceramics-9"
+        },
+        {
+          "name": "Bioceramics: alumina, zirconia, hydroxyapatite and bioactive glass",
+          "id": "mt-ceramics-10"
+        },
+        {
+          "name": "Carbon materials: graphite, carbon fibres, diamond and DLC",
+          "id": "mt-ceramics-11"
+        },
+        {
+          "name": "Ceramic processing overview (treated in depth under powder processing)",
+          "id": "mt-ceramics-12"
+        },
+        {
+          "name": "Design with brittle materials: proof testing and probabilistic design",
+          "id": "mt-ceramics-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-glasses",
+      "name": "Glasses & Amorphous Materials",
+      "category": "Ceramics & Glasses",
+      "level": 3,
+      "priority": "important",
+      "summary": "Explains the structure of non-crystalline solids, the glass transition and the processing and strengthening of oxide and metallic glasses.",
+      "prerequisites": [
+        "mt-ceramics"
+      ],
+      "topics": [
+        {
+          "name": "The glass transition: kinetics, fictive temperature and the Kauzmann paradox",
+          "id": "mt-glasses-1"
+        },
+        {
+          "name": "Glass-forming ability and Zachariasen's rules",
+          "id": "mt-glasses-2"
+        },
+        {
+          "name": "Structure of silicate glasses: network formers, modifiers and intermediates",
+          "id": "mt-glasses-3"
+        },
+        {
+          "name": "Describing amorphous structure: radial distribution functions",
+          "id": "mt-glasses-4"
+        },
+        {
+          "name": "Viscosity-temperature behaviour: fragility and the VFT equation; working points",
+          "id": "mt-glasses-5"
+        },
+        {
+          "name": "Commercial glasses: soda-lime, borosilicate, aluminosilicate, fused silica",
+          "id": "mt-glasses-6"
+        },
+        {
+          "name": "Glass forming: float, drawn, blown and pressed glass; fibre drawing",
+          "id": "mt-glasses-7"
+        },
+        {
+          "name": "Strengthening glass: thermal tempering and chemical ion exchange (Gorilla Glass)",
+          "id": "mt-glasses-8"
+        },
+        {
+          "name": "Glass-ceramics: controlled nucleation and crystallisation (Zerodur, cooktops)",
+          "id": "mt-glasses-9"
+        },
+        {
+          "name": "Chalcogenide and fluoride glasses for infrared optics",
+          "id": "mt-glasses-10"
+        },
+        {
+          "name": "Metallic glasses and bulk metallic glasses",
+          "id": "mt-glasses-11"
+        },
+        {
+          "name": "Amorphous semiconductors and oxide thin films",
+          "id": "mt-glasses-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-polymer-structure",
+      "name": "Polymer Structure & Synthesis",
+      "category": "Polymers & Soft Matter",
+      "level": 2,
+      "priority": "core",
+      "summary": "Introduces how polymer chains are made and how their chemistry, size and architecture determine whether a plastic is soft, tough, clear or crystalline.",
+      "prerequisites": [
+        "mt-atomic-bonding"
+      ],
+      "related": [
+        "ph-soft-matter-physics"
+      ],
+      "topics": [
+        {
+          "name": "Hydrocarbon molecules, monomers and repeat units",
+          "id": "mt-polymer-structure-1"
+        },
+        {
+          "name": "Chain-growth (addition) polymerisation: radical, ionic and coordination (Ziegler-Natta, metallocene)",
+          "id": "mt-polymer-structure-2"
+        },
+        {
+          "name": "Step-growth (condensation) polymerisation: polyesters, polyamides and Carothers equation",
+          "id": "mt-polymer-structure-3"
+        },
+        {
+          "name": "Molecular weight: number and weight averages, distribution and measurement (GPC)",
+          "id": "mt-polymer-structure-4"
+        },
+        {
+          "name": "Molecular shape and configuration: tacticity, isomerism and conformations",
+          "id": "mt-polymer-structure-5"
+        },
+        {
+          "name": "Architecture: linear, branched, cross-linked and network polymers",
+          "id": "mt-polymer-structure-6"
+        },
+        {
+          "name": "Copolymers: random, alternating, block and graft",
+          "id": "mt-polymer-structure-7"
+        },
+        {
+          "name": "Chain statistics: random walk, end-to-end distance and radius of gyration",
+          "id": "mt-polymer-structure-8"
+        },
+        {
+          "name": "Polymer crystallinity: lamellae, spherulites and degree of crystallinity",
+          "id": "mt-polymer-structure-9"
+        },
+        {
+          "name": "Thermoplastics, thermosets and elastomers",
+          "id": "mt-polymer-structure-10"
+        },
+        {
+          "name": "Commodity and engineering polymers: PE, PP, PVC, PS, PET, PA, PC, PEEK, PTFE",
+          "id": "mt-polymer-structure-11"
+        },
+        {
+          "name": "Additives: plasticisers, fillers, stabilisers and flame retardants",
+          "id": "mt-polymer-structure-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-polymer-properties",
+      "name": "Polymer Properties & Engineering Polymers",
+      "category": "Polymers & Soft Matter",
+      "level": 3,
+      "priority": "important",
+      "summary": "Covers the thermal, mechanical, viscoelastic and rheological behaviour of polymers and how to choose and design with them.",
+      "prerequisites": [
+        "mt-polymer-structure",
+        "mt-mechanical-properties"
+      ],
+      "related": [
+        "ph-soft-matter-physics"
+      ],
+      "topics": [
+        {
+          "name": "Thermal transitions: glass transition and melting; factors that control Tg and Tm",
+          "id": "mt-polymer-properties-1"
+        },
+        {
+          "name": "Polymer solutions and blends: Flory-Huggins theory and miscibility",
+          "id": "mt-polymer-properties-2"
+        },
+        {
+          "name": "Stress-strain behaviour of glassy, semicrystalline and rubbery polymers",
+          "id": "mt-polymer-properties-3"
+        },
+        {
+          "name": "Viscoelasticity: creep, stress relaxation, Maxwell and Kelvin-Voigt models",
+          "id": "mt-polymer-properties-4"
+        },
+        {
+          "name": "Dynamic mechanical behaviour: storage and loss moduli",
+          "id": "mt-polymer-properties-5"
+        },
+        {
+          "name": "Time-temperature superposition and the WLF equation",
+          "id": "mt-polymer-properties-6"
+        },
+        {
+          "name": "Rubber elasticity: entropy springs, cross-link density and vulcanisation",
+          "id": "mt-polymer-properties-7"
+        },
+        {
+          "name": "Yielding, crazing and shear banding; fracture and toughening of polymers",
+          "id": "mt-polymer-properties-8"
+        },
+        {
+          "name": "Melt rheology: shear thinning, viscosity models and die swell",
+          "id": "mt-polymer-properties-9"
+        },
+        {
+          "name": "High-performance polymers and fibres: aramid (Kevlar), UHMWPE (Dyneema), PBO, PEEK, polyimides",
+          "id": "mt-polymer-properties-10"
+        },
+        {
+          "name": "Thermoset resins: epoxy, cyanate ester, phenolic and bismaleimide curing chemistry",
+          "id": "mt-polymer-properties-11"
+        },
+        {
+          "name": "Polymer degradation, ageing and weathering",
+          "id": "mt-polymer-properties-12"
+        },
+        {
+          "name": "Designing plastic parts: creep allowances, temperature limits and safety factors",
+          "id": "mt-polymer-properties-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-soft-materials",
+      "name": "Soft Materials: Colloids, Gels, Liquid Crystals & Foams",
+      "category": "Polymers & Soft Matter",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Studies soft matter, whose behaviour is dominated by weak interactions and thermal fluctuations, from colloids and gels to liquid crystals and self-assembly.",
+      "prerequisites": [
+        "mt-polymer-properties"
+      ],
+      "related": [
+        "ph-soft-matter-physics"
+      ],
+      "topics": [
+        {
+          "name": "Intermolecular and surface forces: van der Waals, electrostatic double layer and DLVO theory",
+          "id": "mt-soft-materials-1"
+        },
+        {
+          "name": "Colloidal dispersions: stability, aggregation and Brownian motion",
+          "id": "mt-soft-materials-2"
+        },
+        {
+          "name": "Surfactants, micelles and emulsions",
+          "id": "mt-soft-materials-3"
+        },
+        {
+          "name": "Polymer and colloidal gels; hydrogels and swelling",
+          "id": "mt-soft-materials-4"
+        },
+        {
+          "name": "Liquid crystals: nematic, smectic and cholesteric phases; order parameter and displays",
+          "id": "mt-soft-materials-5"
+        },
+        {
+          "name": "Block-copolymer self-assembly and microphase separation",
+          "id": "mt-soft-materials-6"
+        },
+        {
+          "name": "Foams and granular materials",
+          "id": "mt-soft-materials-7"
+        },
+        {
+          "name": "Rheology of complex fluids: yield stress, shear thickening and thixotropy",
+          "id": "mt-soft-materials-8"
+        },
+        {
+          "name": "Elastomers and liquid-crystal elastomers",
+          "id": "mt-soft-materials-9"
+        },
+        {
+          "name": "Active and responsive soft matter",
+          "id": "mt-soft-materials-10"
+        }
+      ]
+    },
+    {
+      "id": "mt-composites",
+      "name": "Composite Materials",
+      "category": "Composites",
+      "level": 3,
+      "priority": "core",
+      "summary": "Explains how combining fibres, particles and matrices produces materials stiffer, stronger and lighter than their constituents.",
+      "prerequisites": [
+        "mt-polymer-properties"
+      ],
+      "topics": [
+        {
+          "name": "Classification: particle-, fibre- and structural composites; PMC, MMC and CMC",
+          "id": "mt-composites-1"
+        },
+        {
+          "name": "Reinforcements: glass, carbon, aramid, UHMWPE, ceramic and natural fibres",
+          "id": "mt-composites-2"
+        },
+        {
+          "name": "Matrices: thermoset, thermoplastic, metal and ceramic",
+          "id": "mt-composites-3"
+        },
+        {
+          "name": "Particle-reinforced composites and cermets",
+          "id": "mt-composites-4"
+        },
+        {
+          "name": "Rule of mixtures: longitudinal and transverse stiffness (Voigt and Reuss bounds)",
+          "id": "mt-composites-5"
+        },
+        {
+          "name": "Short-fibre composites: critical fibre length and shear-lag theory",
+          "id": "mt-composites-6"
+        },
+        {
+          "name": "The fibre-matrix interface: sizing, adhesion and load transfer",
+          "id": "mt-composites-7"
+        },
+        {
+          "name": "Strength of unidirectional composites and failure modes",
+          "id": "mt-composites-8"
+        },
+        {
+          "name": "Introduction to laminates: ply orientation and quasi-isotropic lay-ups",
+          "id": "mt-composites-9"
+        },
+        {
+          "name": "Metal-matrix composites: SiC/Al, B/Al and their processing",
+          "id": "mt-composites-10"
+        },
+        {
+          "name": "Sandwich structures and honeycomb cores",
+          "id": "mt-composites-11"
+        },
+        {
+          "name": "Applications in aircraft, automotive, sports goods and wind turbines",
+          "id": "mt-composites-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-fibre-composites-mechanics-manufacturing",
+      "name": "Fibre-Reinforced Composites: Mechanics & Manufacturing",
+      "category": "Composites",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Goes deep into laminate analysis, damage tolerance and manufacturing of advanced fibre composites such as the CFRP used in modern aircraft and rockets.",
+      "prerequisites": [
+        "mt-composites",
+        "ma-linear-algebra"
+      ],
+      "related": [
+        "ma-solid-mechanics"
+      ],
+      "topics": [
+        {
+          "name": "Carbon-fibre manufacture: PAN and pitch precursors, stabilisation, carbonisation and graphitisation",
+          "id": "mt-fibre-composites-mechanics-manufacturing-1"
+        },
+        {
+          "name": "Anisotropic elasticity of a lamina: compliance and stiffness matrices",
+          "id": "mt-fibre-composites-mechanics-manufacturing-2"
+        },
+        {
+          "name": "Classical laminate theory: ABD matrix, coupling and symmetric/balanced laminates",
+          "id": "mt-fibre-composites-mechanics-manufacturing-3"
+        },
+        {
+          "name": "Hygrothermal stresses and residual stresses in laminates",
+          "id": "mt-fibre-composites-mechanics-manufacturing-4"
+        },
+        {
+          "name": "Lamina failure criteria: maximum stress, Tsai-Hill, Tsai-Wu, Hashin and Puck",
+          "id": "mt-fibre-composites-mechanics-manufacturing-5"
+        },
+        {
+          "name": "Progressive damage: matrix cracking, delamination and fibre failure",
+          "id": "mt-fibre-composites-mechanics-manufacturing-6"
+        },
+        {
+          "name": "Impact damage and compression-after-impact (CAI); damage-tolerant design",
+          "id": "mt-fibre-composites-mechanics-manufacturing-7"
+        },
+        {
+          "name": "Fatigue and environmental durability of composites",
+          "id": "mt-fibre-composites-mechanics-manufacturing-8"
+        },
+        {
+          "name": "Manufacturing: prepreg lay-up and autoclave curing, out-of-autoclave processes",
+          "id": "mt-fibre-composites-mechanics-manufacturing-9"
+        },
+        {
+          "name": "Liquid moulding (RTM, VARTM, infusion), filament winding and pultrusion",
+          "id": "mt-fibre-composites-mechanics-manufacturing-10"
+        },
+        {
+          "name": "Automated fibre placement and tape laying; thermoplastic composites and welding",
+          "id": "mt-fibre-composites-mechanics-manufacturing-11"
+        },
+        {
+          "name": "Defects: porosity, wrinkles and fibre misalignment; NDI of composites",
+          "id": "mt-fibre-composites-mechanics-manufacturing-12"
+        },
+        {
+          "name": "Joining composites: bonded and bolted joints",
+          "id": "mt-fibre-composites-mechanics-manufacturing-13"
+        },
+        {
+          "name": "Composite overwrapped pressure vessels (COPVs) and cryogenic composite tanks",
+          "id": "mt-fibre-composites-mechanics-manufacturing-14"
+        }
+      ]
+    },
+    {
+      "id": "mt-characterization-fundamentals",
+      "name": "Characterization Fundamentals & Metallography",
+      "category": "Materials Characterization",
+      "level": 2,
+      "priority": "core",
+      "summary": "Introduces how materials are examined and measured: sample preparation, optical microscopy, quantitative microstructure and good experimental practice.",
+      "prerequisites": [
+        "mt-crystal-structures"
+      ],
+      "related": [
+        "ph-experimental-techniques",
+        "ma-experimental-design"
+      ],
+      "topics": [
+        {
+          "name": "The characterization toolbox: what each family of techniques reveals (structure, chemistry, properties)",
+          "id": "mt-characterization-fundamentals-1"
+        },
+        {
+          "name": "Probes and signals: photons, electrons, ions and neutrons interacting with matter",
+          "id": "mt-characterization-fundamentals-2"
+        },
+        {
+          "name": "Sample preparation: sectioning, mounting, grinding, polishing and etching",
+          "id": "mt-characterization-fundamentals-3"
+        },
+        {
+          "name": "Optical (light) microscopy: resolution, contrast modes, polarised light and DIC",
+          "id": "mt-characterization-fundamentals-4"
+        },
+        {
+          "name": "Stereomicroscopy and macro-examination",
+          "id": "mt-characterization-fundamentals-5"
+        },
+        {
+          "name": "Quantitative metallography and stereology: grain size, phase fraction, particle size",
+          "id": "mt-characterization-fundamentals-6"
+        },
+        {
+          "name": "Image analysis with software (ImageJ/Fiji)",
+          "id": "mt-characterization-fundamentals-7"
+        },
+        {
+          "name": "Density, porosity and chemical analysis basics (Archimedes, ICP, combustion analysis)",
+          "id": "mt-characterization-fundamentals-8"
+        },
+        {
+          "name": "Measurement uncertainty, error propagation and calibration",
+          "id": "mt-characterization-fundamentals-9"
+        },
+        {
+          "name": "Statistics for materials data: distributions, confidence intervals, regression and Weibull plots",
+          "id": "mt-characterization-fundamentals-10"
+        },
+        {
+          "name": "Design of experiments for materials development",
+          "id": "mt-characterization-fundamentals-11"
+        },
+        {
+          "name": "Laboratory safety, notebooks and reporting results",
+          "id": "mt-characterization-fundamentals-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-xray-neutron-methods",
+      "name": "X-ray, Neutron & Synchrotron Methods",
+      "category": "Materials Characterization",
+      "level": 3,
+      "priority": "important",
+      "summary": "Applies diffraction and scattering to identify phases, measure strain and texture, and probe structure from atoms to microns.",
+      "prerequisites": [
+        "mt-crystallography-diffraction",
+        "mt-characterization-fundamentals"
+      ],
+      "related": [
+        "ph-experimental-techniques"
+      ],
+      "topics": [
+        {
+          "name": "Generating X-rays: tubes, characteristic spectra and filters; synchrotron sources",
+          "id": "mt-xray-neutron-methods-1"
+        },
+        {
+          "name": "Powder diffractometer geometry and data collection",
+          "id": "mt-xray-neutron-methods-2"
+        },
+        {
+          "name": "Phase identification with the PDF database",
+          "id": "mt-xray-neutron-methods-3"
+        },
+        {
+          "name": "Quantitative phase analysis and Rietveld refinement",
+          "id": "mt-xray-neutron-methods-4"
+        },
+        {
+          "name": "Crystallite size and microstrain from peak broadening (Scherrer, Williamson-Hall)",
+          "id": "mt-xray-neutron-methods-5"
+        },
+        {
+          "name": "Residual stress measurement (sin²ψ method)",
+          "id": "mt-xray-neutron-methods-6"
+        },
+        {
+          "name": "Texture measurement: pole figures and orientation distribution functions",
+          "id": "mt-xray-neutron-methods-7"
+        },
+        {
+          "name": "Single-crystal diffraction and Laue methods",
+          "id": "mt-xray-neutron-methods-8"
+        },
+        {
+          "name": "Thin-film methods: grazing incidence, reflectivity and high-resolution XRD",
+          "id": "mt-xray-neutron-methods-9"
+        },
+        {
+          "name": "Small-angle X-ray and neutron scattering (SAXS/SANS)",
+          "id": "mt-xray-neutron-methods-10"
+        },
+        {
+          "name": "Neutron diffraction: light elements, magnetic structure and bulk residual stress",
+          "id": "mt-xray-neutron-methods-11"
+        },
+        {
+          "name": "X-ray absorption spectroscopy (XANES/EXAFS) and X-ray fluorescence",
+          "id": "mt-xray-neutron-methods-12"
+        },
+        {
+          "name": "X-ray computed tomography and 3D/4D imaging",
+          "id": "mt-xray-neutron-methods-13"
+        },
+        {
+          "name": "In-situ and operando diffraction at synchrotrons",
+          "id": "mt-xray-neutron-methods-14"
+        }
+      ]
+    },
+    {
+      "id": "mt-electron-microscopy",
+      "name": "Electron Microscopy & Microanalysis",
+      "category": "Materials Characterization",
+      "level": 3,
+      "priority": "important",
+      "summary": "Covers scanning and transmission electron microscopy and the analytical methods that image and analyse materials down to single atoms.",
+      "prerequisites": [
+        "mt-crystallography-diffraction",
+        "mt-characterization-fundamentals"
+      ],
+      "related": [
+        "ph-experimental-techniques"
+      ],
+      "topics": [
+        {
+          "name": "Electron optics: sources, lenses, aberrations and resolution",
+          "id": "mt-electron-microscopy-1"
+        },
+        {
+          "name": "Electron-specimen interactions: secondary, backscattered and characteristic X-ray signals",
+          "id": "mt-electron-microscopy-2"
+        },
+        {
+          "name": "Scanning electron microscopy: imaging modes, contrast and fractography",
+          "id": "mt-electron-microscopy-3"
+        },
+        {
+          "name": "Energy- and wavelength-dispersive X-ray spectroscopy (EDS/WDS) and electron probe microanalysis",
+          "id": "mt-electron-microscopy-4"
+        },
+        {
+          "name": "Electron backscatter diffraction (EBSD): orientation maps, grain boundaries and texture",
+          "id": "mt-electron-microscopy-5"
+        },
+        {
+          "name": "Focused ion beam (FIB): cross-sectioning, TEM lamella preparation and serial sectioning",
+          "id": "mt-electron-microscopy-6"
+        },
+        {
+          "name": "Transmission electron microscopy: bright field, dark field and diffraction contrast",
+          "id": "mt-electron-microscopy-7"
+        },
+        {
+          "name": "Selected-area and convergent-beam electron diffraction",
+          "id": "mt-electron-microscopy-8"
+        },
+        {
+          "name": "Imaging dislocations and defects: g·b analysis",
+          "id": "mt-electron-microscopy-9"
+        },
+        {
+          "name": "High-resolution TEM and aberration-corrected STEM (HAADF, Z-contrast)",
+          "id": "mt-electron-microscopy-10"
+        },
+        {
+          "name": "Electron energy-loss spectroscopy (EELS)",
+          "id": "mt-electron-microscopy-11"
+        },
+        {
+          "name": "In-situ TEM, cryo-EM of materials and 4D-STEM",
+          "id": "mt-electron-microscopy-12"
+        },
+        {
+          "name": "Atom probe tomography",
+          "id": "mt-electron-microscopy-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-surface-spectroscopy-probe",
+      "name": "Surface Analysis, Spectroscopy & Scanning Probes",
+      "category": "Materials Characterization",
+      "level": 3,
+      "priority": "important",
+      "summary": "Covers techniques that measure surface chemistry, bonding and topography: XPS, Auger, SIMS, vibrational spectroscopy and scanning probe microscopy.",
+      "prerequisites": [
+        "mt-characterization-fundamentals"
+      ],
+      "related": [
+        "ph-experimental-techniques",
+        "ph-chemical-physics-physical-chemistry"
+      ],
+      "topics": [
+        {
+          "name": "Why surfaces need special techniques: information depth and ultra-high vacuum",
+          "id": "mt-surface-spectroscopy-probe-1"
+        },
+        {
+          "name": "X-ray photoelectron spectroscopy (XPS): chemical states and depth profiling",
+          "id": "mt-surface-spectroscopy-probe-2"
+        },
+        {
+          "name": "Auger electron spectroscopy",
+          "id": "mt-surface-spectroscopy-probe-3"
+        },
+        {
+          "name": "Secondary ion mass spectrometry (SIMS) and ToF-SIMS",
+          "id": "mt-surface-spectroscopy-probe-4"
+        },
+        {
+          "name": "Rutherford backscattering and ion-beam analysis",
+          "id": "mt-surface-spectroscopy-probe-5"
+        },
+        {
+          "name": "Infrared (FTIR) spectroscopy of polymers and surfaces",
+          "id": "mt-surface-spectroscopy-probe-6"
+        },
+        {
+          "name": "Raman spectroscopy: phase identification, stress and carbon materials",
+          "id": "mt-surface-spectroscopy-probe-7"
+        },
+        {
+          "name": "UV-visible spectroscopy and ellipsometry",
+          "id": "mt-surface-spectroscopy-probe-8"
+        },
+        {
+          "name": "Solid-state NMR and Mössbauer spectroscopy (overview)",
+          "id": "mt-surface-spectroscopy-probe-9"
+        },
+        {
+          "name": "Atomic force microscopy: contact, tapping and force spectroscopy modes",
+          "id": "mt-surface-spectroscopy-probe-10"
+        },
+        {
+          "name": "Scanning tunnelling microscopy and spectroscopy",
+          "id": "mt-surface-spectroscopy-probe-11"
+        },
+        {
+          "name": "Kelvin probe, magnetic force and conductive AFM",
+          "id": "mt-surface-spectroscopy-probe-12"
+        },
+        {
+          "name": "Contact angle and surface energy measurement",
+          "id": "mt-surface-spectroscopy-probe-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-thermal-analysis",
+      "name": "Thermal Analysis & Thermophysical Testing",
+      "category": "Materials Characterization",
+      "level": 3,
+      "priority": "important",
+      "summary": "Uses controlled heating and cooling to measure transitions, reactions, stability and thermal properties of materials.",
+      "prerequisites": [
+        "mt-characterization-fundamentals",
+        "mt-phase-diagrams"
+      ],
+      "topics": [
+        {
+          "name": "Principles of thermal analysis and instrument calibration",
+          "id": "mt-thermal-analysis-1"
+        },
+        {
+          "name": "Differential scanning calorimetry (DSC): Tg, melting, crystallisation and cure",
+          "id": "mt-thermal-analysis-2"
+        },
+        {
+          "name": "Differential thermal analysis (DTA) for high-temperature transitions",
+          "id": "mt-thermal-analysis-3"
+        },
+        {
+          "name": "Thermogravimetric analysis (TGA): decomposition, oxidation and filler content",
+          "id": "mt-thermal-analysis-4"
+        },
+        {
+          "name": "Evolved gas analysis (TGA-MS, TGA-FTIR)",
+          "id": "mt-thermal-analysis-5"
+        },
+        {
+          "name": "Dilatometry: thermal expansion and phase-transformation start temperatures",
+          "id": "mt-thermal-analysis-6"
+        },
+        {
+          "name": "Dynamic mechanical analysis (DMA) and thermomechanical analysis (TMA)",
+          "id": "mt-thermal-analysis-7"
+        },
+        {
+          "name": "Thermal conductivity and diffusivity: laser flash, hot disk and guarded hot plate",
+          "id": "mt-thermal-analysis-8"
+        },
+        {
+          "name": "Kinetic analysis of thermal data (Kissinger, isoconversional methods)",
+          "id": "mt-thermal-analysis-9"
+        },
+        {
+          "name": "Calorimetry for battery safety (accelerating rate calorimetry)",
+          "id": "mt-thermal-analysis-10"
+        }
+      ]
+    },
+    {
+      "id": "mt-nondestructive-evaluation",
+      "name": "Nondestructive Evaluation (NDE)",
+      "category": "Materials Characterization",
+      "level": 3,
+      "priority": "important",
+      "summary": "Covers the methods used to find cracks, voids and damage in parts without destroying them, essential for aerospace and safety-critical components.",
+      "prerequisites": [
+        "mt-characterization-fundamentals",
+        "mt-fracture-mechanics"
+      ],
+      "topics": [
+        {
+          "name": "Role of NDE in damage-tolerant design and probability of detection (POD)",
+          "id": "mt-nondestructive-evaluation-1"
+        },
+        {
+          "name": "Visual inspection, liquid penetrant and magnetic particle testing",
+          "id": "mt-nondestructive-evaluation-2"
+        },
+        {
+          "name": "Ultrasonic testing: pulse-echo, through-transmission, phased array and TOFD",
+          "id": "mt-nondestructive-evaluation-3"
+        },
+        {
+          "name": "Radiography and industrial computed tomography",
+          "id": "mt-nondestructive-evaluation-4"
+        },
+        {
+          "name": "Eddy-current testing",
+          "id": "mt-nondestructive-evaluation-5"
+        },
+        {
+          "name": "Acoustic emission monitoring",
+          "id": "mt-nondestructive-evaluation-6"
+        },
+        {
+          "name": "Infrared thermography and shearography",
+          "id": "mt-nondestructive-evaluation-7"
+        },
+        {
+          "name": "NDI of composites: C-scans, delamination and porosity detection",
+          "id": "mt-nondestructive-evaluation-8"
+        },
+        {
+          "name": "Inspection of welds and castings",
+          "id": "mt-nondestructive-evaluation-9"
+        },
+        {
+          "name": "Structural health monitoring with embedded sensors",
+          "id": "mt-nondestructive-evaluation-10"
+        },
+        {
+          "name": "NDE standards and inspector certification",
+          "id": "mt-nondestructive-evaluation-11"
+        }
+      ]
+    },
+    {
+      "id": "mt-casting-solidification",
+      "name": "Casting & Solidification Processing",
+      "category": "Materials Processing & Manufacturing",
+      "level": 3,
+      "priority": "core",
+      "summary": "Explains how molten metal is turned into shapes and how heat flow and solidification control the resulting microstructure and defects.",
+      "prerequisites": [
+        "mt-phase-transformations"
+      ],
+      "topics": [
+        {
+          "name": "Transport phenomena in processing: heat conduction, convection and fluid flow basics",
+          "id": "mt-casting-solidification-1"
+        },
+        {
+          "name": "Heat flow in casting: Chvorinov's rule and mould-metal interface",
+          "id": "mt-casting-solidification-2"
+        },
+        {
+          "name": "Solidification microstructures: chill, columnar and equiaxed zones; dendrite arm spacing",
+          "id": "mt-casting-solidification-3"
+        },
+        {
+          "name": "Segregation: Scheil equation, microsegregation and macrosegregation",
+          "id": "mt-casting-solidification-4"
+        },
+        {
+          "name": "Grain refinement and inoculation; eutectic modification",
+          "id": "mt-casting-solidification-5"
+        },
+        {
+          "name": "Casting processes: sand, investment, die, permanent mould and centrifugal casting",
+          "id": "mt-casting-solidification-6"
+        },
+        {
+          "name": "Continuous casting of steel and aluminium; ingot casting",
+          "id": "mt-casting-solidification-7"
+        },
+        {
+          "name": "Directional solidification and single-crystal growth",
+          "id": "mt-casting-solidification-8"
+        },
+        {
+          "name": "Casting defects: shrinkage, gas porosity, hot tearing and inclusions",
+          "id": "mt-casting-solidification-9"
+        },
+        {
+          "name": "Gating, risering and casting simulation",
+          "id": "mt-casting-solidification-10"
+        },
+        {
+          "name": "Rapid solidification and melt spinning",
+          "id": "mt-casting-solidification-11"
+        },
+        {
+          "name": "Semi-solid processing (thixocasting, rheocasting)",
+          "id": "mt-casting-solidification-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-deformation-processing",
+      "name": "Metal Forming & Deformation Processing",
+      "category": "Materials Processing & Manufacturing",
+      "level": 3,
+      "priority": "important",
+      "summary": "Covers rolling, forging, extrusion, drawing and sheet forming, and how hot and cold working shape both the part and its microstructure.",
+      "prerequisites": [
+        "mt-plasticity-strengthening",
+        "mt-interfaces-microstructure-evolution"
+      ],
+      "topics": [
+        {
+          "name": "Mechanics of forming: flow stress, friction and work of deformation",
+          "id": "mt-deformation-processing-1"
+        },
+        {
+          "name": "Hot working vs cold working; dynamic recovery and recrystallisation",
+          "id": "mt-deformation-processing-2"
+        },
+        {
+          "name": "Rolling: flat and shape rolling, roll forces and thermomechanically controlled rolling",
+          "id": "mt-deformation-processing-3"
+        },
+        {
+          "name": "Forging: open-die, closed-die and isothermal forging",
+          "id": "mt-deformation-processing-4"
+        },
+        {
+          "name": "Extrusion and wire/tube drawing",
+          "id": "mt-deformation-processing-5"
+        },
+        {
+          "name": "Sheet-metal forming: bending, deep drawing, stretching and springback",
+          "id": "mt-deformation-processing-6"
+        },
+        {
+          "name": "Formability: forming limit diagrams and r-value anisotropy",
+          "id": "mt-deformation-processing-7"
+        },
+        {
+          "name": "Superplastic forming and diffusion bonding (aerospace titanium)",
+          "id": "mt-deformation-processing-8"
+        },
+        {
+          "name": "Severe plastic deformation: ECAP, high-pressure torsion and ultrafine grains",
+          "id": "mt-deformation-processing-9"
+        },
+        {
+          "name": "Processing maps and deformation defects",
+          "id": "mt-deformation-processing-10"
+        },
+        {
+          "name": "Machinability of materials and surface integrity (materials view)",
+          "id": "mt-deformation-processing-11"
+        }
+      ]
+    },
+    {
+      "id": "mt-heat-treatment",
+      "name": "Heat Treatment & Thermomechanical Processing",
+      "category": "Materials Processing & Manufacturing",
+      "level": 3,
+      "priority": "core",
+      "summary": "Shows how controlled heating and cooling set the properties of steels and alloys, and how to design heat-treatment schedules.",
+      "prerequisites": [
+        "mt-steels"
+      ],
+      "topics": [
+        {
+          "name": "Annealing, normalising and stress relieving",
+          "id": "mt-heat-treatment-1"
+        },
+        {
+          "name": "Austenitising, quenching media and quench severity",
+          "id": "mt-heat-treatment-2"
+        },
+        {
+          "name": "Tempering and tempering diagrams",
+          "id": "mt-heat-treatment-3"
+        },
+        {
+          "name": "Hardenability revisited: designing for section size",
+          "id": "mt-heat-treatment-4"
+        },
+        {
+          "name": "Austempering, martempering and quench-and-partition treatments",
+          "id": "mt-heat-treatment-5"
+        },
+        {
+          "name": "Surface hardening: carburising, nitriding, carbonitriding, induction and laser hardening",
+          "id": "mt-heat-treatment-6"
+        },
+        {
+          "name": "Solution treatment and ageing of aluminium, titanium and nickel alloys",
+          "id": "mt-heat-treatment-7"
+        },
+        {
+          "name": "Distortion, quench cracking and residual stresses",
+          "id": "mt-heat-treatment-8"
+        },
+        {
+          "name": "Furnaces, atmospheres, vacuum heat treatment and hot isostatic pressing (HIP)",
+          "id": "mt-heat-treatment-9"
+        },
+        {
+          "name": "Thermomechanical processing routes combining deformation and heat treatment",
+          "id": "mt-heat-treatment-10"
+        },
+        {
+          "name": "Heat-treatment simulation and specification (AMS standards)",
+          "id": "mt-heat-treatment-11"
+        }
+      ]
+    },
+    {
+      "id": "mt-powder-processing",
+      "name": "Powder Metallurgy & Ceramic Processing",
+      "category": "Materials Processing & Manufacturing",
+      "level": 3,
+      "priority": "important",
+      "summary": "Covers making parts from powders: powder production, forming, sintering and densification of metals and ceramics.",
+      "prerequisites": [
+        "mt-ceramics",
+        "mt-interfaces-microstructure-evolution"
+      ],
+      "topics": [
+        {
+          "name": "Powder production: atomisation, chemical reduction, milling and chemical synthesis",
+          "id": "mt-powder-processing-1"
+        },
+        {
+          "name": "Powder characterisation: size distribution, morphology and flowability",
+          "id": "mt-powder-processing-2"
+        },
+        {
+          "name": "Slurries, dispersion and rheology for ceramic forming",
+          "id": "mt-powder-processing-3"
+        },
+        {
+          "name": "Forming: die pressing, cold isostatic pressing, slip casting, tape casting and extrusion",
+          "id": "mt-powder-processing-4"
+        },
+        {
+          "name": "Powder injection moulding (MIM/CIM)",
+          "id": "mt-powder-processing-5"
+        },
+        {
+          "name": "Sintering theory: driving forces, neck growth, densification stages and mechanisms",
+          "id": "mt-powder-processing-6"
+        },
+        {
+          "name": "Liquid-phase sintering and cemented carbides",
+          "id": "mt-powder-processing-7"
+        },
+        {
+          "name": "Pressure-assisted sintering: hot pressing, HIP and spark plasma sintering",
+          "id": "mt-powder-processing-8"
+        },
+        {
+          "name": "Sol-gel processing and chemical routes to ceramics",
+          "id": "mt-powder-processing-9"
+        },
+        {
+          "name": "Polymer-derived ceramics",
+          "id": "mt-powder-processing-10"
+        },
+        {
+          "name": "Firing of traditional ceramics and glazes",
+          "id": "mt-powder-processing-11"
+        },
+        {
+          "name": "Defects in powder-processed parts and their control",
+          "id": "mt-powder-processing-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-polymer-processing",
+      "name": "Polymer Processing",
+      "category": "Materials Processing & Manufacturing",
+      "level": 3,
+      "priority": "important",
+      "summary": "Covers how polymers are melted, shaped and solidified by extrusion, moulding and forming, and how processing affects properties.",
+      "prerequisites": [
+        "mt-polymer-properties"
+      ],
+      "topics": [
+        {
+          "name": "Heat transfer and melt flow in polymer processing",
+          "id": "mt-polymer-processing-1"
+        },
+        {
+          "name": "Extrusion: single- and twin-screw extruders, compounding and profile extrusion",
+          "id": "mt-polymer-processing-2"
+        },
+        {
+          "name": "Injection moulding: cycle, mould design, shrinkage and warpage",
+          "id": "mt-polymer-processing-3"
+        },
+        {
+          "name": "Blow moulding and film blowing",
+          "id": "mt-polymer-processing-4"
+        },
+        {
+          "name": "Thermoforming and rotational moulding",
+          "id": "mt-polymer-processing-5"
+        },
+        {
+          "name": "Processing of thermosets: reaction injection moulding and compression moulding",
+          "id": "mt-polymer-processing-6"
+        },
+        {
+          "name": "Fibre spinning: melt, wet and gel spinning (e.g. UHMWPE and aramid)",
+          "id": "mt-polymer-processing-7"
+        },
+        {
+          "name": "Orientation, residual stress and crystallinity induced by processing",
+          "id": "mt-polymer-processing-8"
+        },
+        {
+          "name": "Foaming processes",
+          "id": "mt-polymer-processing-9"
+        },
+        {
+          "name": "Processing defects and quality control",
+          "id": "mt-polymer-processing-10"
+        },
+        {
+          "name": "Mould-filling simulation",
+          "id": "mt-polymer-processing-11"
+        }
+      ]
+    },
+    {
+      "id": "mt-joining",
+      "name": "Welding & Joining of Materials",
+      "category": "Materials Processing & Manufacturing",
+      "level": 3,
+      "priority": "important",
+      "summary": "Explains how materials are joined by welding, brazing, soldering, adhesives and mechanical fastening, and the metallurgy of the joint.",
+      "prerequisites": [
+        "mt-casting-solidification",
+        "mt-steels"
+      ],
+      "topics": [
+        {
+          "name": "Classification of joining processes",
+          "id": "mt-joining-1"
+        },
+        {
+          "name": "Fusion welding processes: arc (SMAW, GMAW, GTAW), plasma, laser and electron-beam welding",
+          "id": "mt-joining-2"
+        },
+        {
+          "name": "Weld thermal cycles and heat input",
+          "id": "mt-joining-3"
+        },
+        {
+          "name": "Weld metallurgy: fusion zone solidification, heat-affected zone and weldability",
+          "id": "mt-joining-4"
+        },
+        {
+          "name": "Weld defects: porosity, hot cracking, cold (hydrogen) cracking and lack of fusion",
+          "id": "mt-joining-5"
+        },
+        {
+          "name": "Welding of aluminium, titanium, stainless steel and superalloys",
+          "id": "mt-joining-6"
+        },
+        {
+          "name": "Solid-state joining: friction stir welding, inertia/linear friction welding, diffusion bonding",
+          "id": "mt-joining-7"
+        },
+        {
+          "name": "Brazing and soldering",
+          "id": "mt-joining-8"
+        },
+        {
+          "name": "Adhesive bonding: surface preparation, adhesive types and joint design",
+          "id": "mt-joining-9"
+        },
+        {
+          "name": "Mechanical fastening and hybrid joints",
+          "id": "mt-joining-10"
+        },
+        {
+          "name": "Joining dissimilar materials and ceramics-to-metals",
+          "id": "mt-joining-11"
+        },
+        {
+          "name": "Residual stress, distortion and post-weld heat treatment; weld qualification",
+          "id": "mt-joining-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-thin-films-coatings",
+      "name": "Thin Films, Coatings & Surface Engineering",
+      "category": "Materials Processing & Manufacturing",
+      "level": 3,
+      "priority": "important",
+      "summary": "Covers depositing and engineering thin films and coatings, from semiconductor layers to wear-resistant and thermal-barrier coatings.",
+      "prerequisites": [
+        "mt-interfaces-microstructure-evolution"
+      ],
+      "related": [
+        "el-cmos-technology",
+        "ph-vacuum-cryogenic-systems"
+      ],
+      "topics": [
+        {
+          "name": "Vacuum technology basics for deposition",
+          "id": "mt-thin-films-coatings-1"
+        },
+        {
+          "name": "Physical vapour deposition: evaporation, sputtering and pulsed laser deposition",
+          "id": "mt-thin-films-coatings-2"
+        },
+        {
+          "name": "Chemical vapour deposition and plasma-enhanced CVD",
+          "id": "mt-thin-films-coatings-3"
+        },
+        {
+          "name": "Atomic layer deposition",
+          "id": "mt-thin-films-coatings-4"
+        },
+        {
+          "name": "Epitaxial growth and film growth modes (Frank-van der Merwe, Volmer-Weber, Stranski-Krastanov)",
+          "id": "mt-thin-films-coatings-5"
+        },
+        {
+          "name": "Nucleation and microstructure of films: structure-zone models",
+          "id": "mt-thin-films-coatings-6"
+        },
+        {
+          "name": "Stress in thin films: Stoney equation, wafer curvature and delamination",
+          "id": "mt-thin-films-coatings-7"
+        },
+        {
+          "name": "Electroplating and electroless deposition",
+          "id": "mt-thin-films-coatings-8"
+        },
+        {
+          "name": "Thermal spray: plasma spray, HVOF and cold spray",
+          "id": "mt-thin-films-coatings-9"
+        },
+        {
+          "name": "Hard and wear-resistant coatings: TiN, DLC and diamond",
+          "id": "mt-thin-films-coatings-10"
+        },
+        {
+          "name": "Conversion coatings and anodising",
+          "id": "mt-thin-films-coatings-11"
+        },
+        {
+          "name": "Surface modification: ion implantation, shot peening and laser surface treatment",
+          "id": "mt-thin-films-coatings-12"
+        },
+        {
+          "name": "Measuring film thickness, adhesion and properties",
+          "id": "mt-thin-films-coatings-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-additive-manufacturing",
+      "name": "Additive Manufacturing of Materials",
+      "category": "Materials Processing & Manufacturing",
+      "level": 3,
+      "priority": "important",
+      "summary": "Covers 3D printing of metals, polymers, ceramics and composites, with focus on process-structure-property relationships and qualification.",
+      "prerequisites": [
+        "mt-casting-solidification",
+        "mt-powder-processing"
+      ],
+      "topics": [
+        {
+          "name": "The seven ASTM/ISO additive manufacturing process categories",
+          "id": "mt-additive-manufacturing-1"
+        },
+        {
+          "name": "Polymer AM: material extrusion (FDM), vat photopolymerisation (SLA/DLP) and powder bed fusion (SLS)",
+          "id": "mt-additive-manufacturing-2"
+        },
+        {
+          "name": "Metal laser and electron-beam powder bed fusion",
+          "id": "mt-additive-manufacturing-3"
+        },
+        {
+          "name": "Directed energy deposition and wire-arc AM",
+          "id": "mt-additive-manufacturing-4"
+        },
+        {
+          "name": "Binder jetting and sintering; metal material extrusion",
+          "id": "mt-additive-manufacturing-5"
+        },
+        {
+          "name": "Melt-pool physics: keyholing, balling and spatter",
+          "id": "mt-additive-manufacturing-6"
+        },
+        {
+          "name": "Rapid solidification microstructures, texture and anisotropy in AM metals",
+          "id": "mt-additive-manufacturing-7"
+        },
+        {
+          "name": "Defects: lack-of-fusion and gas porosity, residual stress and cracking",
+          "id": "mt-additive-manufacturing-8"
+        },
+        {
+          "name": "Post-processing: HIP, heat treatment, machining and surface finishing",
+          "id": "mt-additive-manufacturing-9"
+        },
+        {
+          "name": "Alloys designed for AM (e.g. printable high-strength aluminium)",
+          "id": "mt-additive-manufacturing-10"
+        },
+        {
+          "name": "Ceramic and composite AM; continuous-fibre printing",
+          "id": "mt-additive-manufacturing-11"
+        },
+        {
+          "name": "Design for AM: lattices, topology optimisation and part consolidation",
+          "id": "mt-additive-manufacturing-12"
+        },
+        {
+          "name": "In-situ monitoring, qualification and certification of AM parts (e.g. rocket engine components)",
+          "id": "mt-additive-manufacturing-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-corrosion",
+      "name": "Corrosion & Degradation of Materials",
+      "category": "Corrosion, Wear & Degradation",
+      "level": 3,
+      "priority": "core",
+      "summary": "Explains why and how metals corrode and other materials degrade, and the engineering methods used to prevent it.",
+      "prerequisites": [
+        "mt-electrochemistry"
+      ],
+      "topics": [
+        {
+          "name": "Economic and safety cost of corrosion",
+          "id": "mt-corrosion-1"
+        },
+        {
+          "name": "Corrosion thermodynamics and kinetics: mixed-potential theory and Evans diagrams",
+          "id": "mt-corrosion-2"
+        },
+        {
+          "name": "Passivity and passive films",
+          "id": "mt-corrosion-3"
+        },
+        {
+          "name": "Galvanic corrosion and the galvanic series",
+          "id": "mt-corrosion-4"
+        },
+        {
+          "name": "Localised corrosion: pitting, crevice and intergranular corrosion; sensitisation",
+          "id": "mt-corrosion-5"
+        },
+        {
+          "name": "Dealloying, erosion-corrosion and cavitation",
+          "id": "mt-corrosion-6"
+        },
+        {
+          "name": "Stress-corrosion cracking and corrosion fatigue",
+          "id": "mt-corrosion-7"
+        },
+        {
+          "name": "Hydrogen damage and hydrogen embrittlement mechanisms",
+          "id": "mt-corrosion-8"
+        },
+        {
+          "name": "Atmospheric, marine, soil and microbiologically influenced corrosion",
+          "id": "mt-corrosion-9"
+        },
+        {
+          "name": "Corrosion protection: materials selection, design, inhibitors, coatings and cathodic protection",
+          "id": "mt-corrosion-10"
+        },
+        {
+          "name": "Corrosion testing and monitoring (salt spray, polarisation, EIS)",
+          "id": "mt-corrosion-11"
+        },
+        {
+          "name": "Degradation of polymers: UV, oxidation, hydrolysis, swelling and environmental stress cracking",
+          "id": "mt-corrosion-12"
+        },
+        {
+          "name": "Degradation of ceramics and concrete",
+          "id": "mt-corrosion-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-high-temperature-oxidation",
+      "name": "High-Temperature Oxidation & Protective Coatings",
+      "category": "Corrosion, Wear & Degradation",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Studies how metals and ceramics react with hot gases and how coatings protect engine and rocket components.",
+      "prerequisites": [
+        "mt-corrosion",
+        "mt-diffusion"
+      ],
+      "topics": [
+        {
+          "name": "Thermodynamics of oxidation: Ellingham diagrams and oxide stability",
+          "id": "mt-high-temperature-oxidation-1"
+        },
+        {
+          "name": "Oxidation kinetics: linear, parabolic and logarithmic rate laws",
+          "id": "mt-high-temperature-oxidation-2"
+        },
+        {
+          "name": "Wagner theory of oxidation and defect structure of oxides",
+          "id": "mt-high-temperature-oxidation-3"
+        },
+        {
+          "name": "Protective scales: chromia, alumina and silica formers",
+          "id": "mt-high-temperature-oxidation-4"
+        },
+        {
+          "name": "Scale adhesion, spallation and reactive-element effects",
+          "id": "mt-high-temperature-oxidation-5"
+        },
+        {
+          "name": "Internal oxidation and selective oxidation of alloys",
+          "id": "mt-high-temperature-oxidation-6"
+        },
+        {
+          "name": "Hot corrosion, sulphidation and CMAS attack",
+          "id": "mt-high-temperature-oxidation-7"
+        },
+        {
+          "name": "Oxidation of refractory metals and carbon-carbon; active vs passive oxidation of SiC",
+          "id": "mt-high-temperature-oxidation-8"
+        },
+        {
+          "name": "Thermal barrier coatings: YSZ top coats, bond coats and failure by TGO growth",
+          "id": "mt-high-temperature-oxidation-9"
+        },
+        {
+          "name": "Environmental barrier coatings for SiC ceramics",
+          "id": "mt-high-temperature-oxidation-10"
+        },
+        {
+          "name": "Metal dusting and hydrogen/oxygen-rich rocket combustion environments",
+          "id": "mt-high-temperature-oxidation-11"
+        }
+      ]
+    },
+    {
+      "id": "mt-tribology",
+      "name": "Tribology: Friction, Wear & Lubrication",
+      "category": "Corrosion, Wear & Degradation",
+      "level": 3,
+      "priority": "important",
+      "summary": "Explains how surfaces in contact interact, why parts wear out, and how materials and lubricants are chosen to control friction and wear.",
+      "prerequisites": [
+        "mt-mechanical-properties"
+      ],
+      "topics": [
+        {
+          "name": "Surface topography and roughness parameters",
+          "id": "mt-tribology-1"
+        },
+        {
+          "name": "Contact mechanics: Hertzian contact and real area of contact",
+          "id": "mt-tribology-2"
+        },
+        {
+          "name": "Friction laws and mechanisms: adhesion, ploughing and stick-slip",
+          "id": "mt-tribology-3"
+        },
+        {
+          "name": "Wear mechanisms: adhesive, abrasive, erosive, fatigue and corrosive wear; Archard's law",
+          "id": "mt-tribology-4"
+        },
+        {
+          "name": "Wear maps and wear testing (pin-on-disc)",
+          "id": "mt-tribology-5"
+        },
+        {
+          "name": "Lubrication regimes: boundary, mixed, elastohydrodynamic and hydrodynamic; the Stribeck curve",
+          "id": "mt-tribology-6"
+        },
+        {
+          "name": "Lubricants and additives; solid lubricants (MoS2, graphite, PTFE)",
+          "id": "mt-tribology-7"
+        },
+        {
+          "name": "Tribology in vacuum and space mechanisms",
+          "id": "mt-tribology-8"
+        },
+        {
+          "name": "Wear-resistant materials and coatings",
+          "id": "mt-tribology-9"
+        },
+        {
+          "name": "Tribology of polymers, ceramics and biomedical joints",
+          "id": "mt-tribology-10"
+        }
+      ]
+    },
+    {
+      "id": "mt-materials-selection",
+      "name": "Materials Selection in Design",
+      "category": "Materials Selection, Design & Sustainability",
+      "level": 3,
+      "priority": "core",
+      "summary": "Teaches the systematic Ashby method for choosing the best material and process for a component using property charts, performance indices and cost.",
+      "prerequisites": [
+        "mt-mechanical-properties",
+        "mt-thermal-properties"
+      ],
+      "topics": [
+        {
+          "name": "Materials in the design process: conceptual, embodiment and detailed design",
+          "id": "mt-materials-selection-1"
+        },
+        {
+          "name": "The families of engineering materials and materials information for design",
+          "id": "mt-materials-selection-2"
+        },
+        {
+          "name": "Material property charts (modulus-density, strength-density, toughness-strength and more)",
+          "id": "mt-materials-selection-3"
+        },
+        {
+          "name": "Translating design requirements: function, constraints, objectives and free variables",
+          "id": "mt-materials-selection-4"
+        },
+        {
+          "name": "Deriving material performance indices (e.g. E^(1/2)/ρ for a light stiff beam)",
+          "id": "mt-materials-selection-5"
+        },
+        {
+          "name": "Screening and ranking with charts and selection lines",
+          "id": "mt-materials-selection-6"
+        },
+        {
+          "name": "Case studies: oars, flywheels, springs, pressure vessels, heat exchangers",
+          "id": "mt-materials-selection-7"
+        },
+        {
+          "name": "Multiple constraints and conflicting objectives; penalty functions and trade-off surfaces",
+          "id": "mt-materials-selection-8"
+        },
+        {
+          "name": "Selection of material and shape: shape factors",
+          "id": "mt-materials-selection-9"
+        },
+        {
+          "name": "Process selection: process attributes, process charts and economic batch size",
+          "id": "mt-materials-selection-10"
+        },
+        {
+          "name": "Cost modelling of materials and processes",
+          "id": "mt-materials-selection-11"
+        },
+        {
+          "name": "Using selection software and databases (Granta EduPack/Selector, MatWeb)",
+          "id": "mt-materials-selection-12"
+        },
+        {
+          "name": "Industrial design, aesthetics and perceived attributes of materials",
+          "id": "mt-materials-selection-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-sustainability-lca",
+      "name": "Materials Sustainability, Recycling & Life-Cycle Assessment",
+      "category": "Materials Selection, Design & Sustainability",
+      "level": 3,
+      "priority": "important",
+      "summary": "Examines the environmental footprint of materials across their life cycle and the strategies of recycling, circularity and critical-materials management.",
+      "prerequisites": [
+        "mt-materials-selection"
+      ],
+      "topics": [
+        {
+          "name": "Material flows, consumption growth and resource availability",
+          "id": "mt-sustainability-lca-1"
+        },
+        {
+          "name": "The materials life cycle: extraction, production, use and end of life",
+          "id": "mt-sustainability-lca-2"
+        },
+        {
+          "name": "Embodied energy and carbon footprint of materials",
+          "id": "mt-sustainability-lca-3"
+        },
+        {
+          "name": "Life-cycle assessment (ISO 14040/44): goal and scope, inventory, impact assessment, interpretation",
+          "id": "mt-sustainability-lca-4"
+        },
+        {
+          "name": "Eco-audits and eco-selection with Ashby charts",
+          "id": "mt-sustainability-lca-5"
+        },
+        {
+          "name": "Recycling of metals, polymers, glass and composites; downcycling and contamination",
+          "id": "mt-sustainability-lca-6"
+        },
+        {
+          "name": "Circular economy: design for disassembly, reuse and remanufacture",
+          "id": "mt-sustainability-lca-7"
+        },
+        {
+          "name": "Critical and strategic raw materials; substitution strategies",
+          "id": "mt-sustainability-lca-8"
+        },
+        {
+          "name": "Decarbonising steel, cement, aluminium and chemicals",
+          "id": "mt-sustainability-lca-9"
+        },
+        {
+          "name": "Bio-based and biodegradable materials",
+          "id": "mt-sustainability-lca-10"
+        },
+        {
+          "name": "Toxicity, regulation (REACH, RoHS) and responsible sourcing",
+          "id": "mt-sustainability-lca-11"
+        },
+        {
+          "name": "Battery and electronic-waste recycling",
+          "id": "mt-sustainability-lca-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-nanomaterials",
+      "name": "Nanomaterials & Nanostructured Materials",
+      "category": "Nanomaterials & Biomaterials",
+      "level": 3,
+      "priority": "important",
+      "summary": "Explains why materials behave differently at the nanoscale and how nanoparticles, nanowires, nanotubes and nanostructured solids are made and used.",
+      "prerequisites": [
+        "mt-interfaces-microstructure-evolution",
+        "mt-electronic-properties"
+      ],
+      "related": [
+        "ph-nanoscience-nanotechnology",
+        "el-advanced-materials"
+      ],
+      "topics": [
+        {
+          "name": "Size effects: surface-to-volume ratio, melting-point depression and quantum confinement",
+          "id": "mt-nanomaterials-1"
+        },
+        {
+          "name": "Classification: 0D, 1D, 2D and 3D nanostructures",
+          "id": "mt-nanomaterials-2"
+        },
+        {
+          "name": "Bottom-up synthesis: colloidal nanoparticles, sol-gel, vapour-liquid-solid nanowire growth",
+          "id": "mt-nanomaterials-3"
+        },
+        {
+          "name": "Top-down fabrication: lithography, etching and nanoimprint",
+          "id": "mt-nanomaterials-4"
+        },
+        {
+          "name": "Self-assembly and directed assembly",
+          "id": "mt-nanomaterials-5"
+        },
+        {
+          "name": "Quantum dots and their optical properties",
+          "id": "mt-nanomaterials-6"
+        },
+        {
+          "name": "Carbon nanotubes and fullerenes: structure, chirality and properties",
+          "id": "mt-nanomaterials-7"
+        },
+        {
+          "name": "Metallic nanoparticles and plasmonics",
+          "id": "mt-nanomaterials-8"
+        },
+        {
+          "name": "Nanocrystalline and nanotwinned metals: strength and the inverse Hall-Petch effect",
+          "id": "mt-nanomaterials-9"
+        },
+        {
+          "name": "Nanomechanics: nanoindentation, size effects in plasticity and micropillar testing",
+          "id": "mt-nanomaterials-10"
+        },
+        {
+          "name": "Nanocomposites and nanoporous materials (aerogels, MOFs, zeolites)",
+          "id": "mt-nanomaterials-11"
+        },
+        {
+          "name": "Characterising nanomaterials",
+          "id": "mt-nanomaterials-12"
+        },
+        {
+          "name": "Nanotoxicology, safety and regulation",
+          "id": "mt-nanomaterials-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-biomaterials",
+      "name": "Biomaterials & Tissue Engineering",
+      "category": "Nanomaterials & Biomaterials",
+      "level": 3,
+      "priority": "important",
+      "summary": "Covers materials placed in the body, how the body responds to them, and how scaffolds and biomaterials are designed to repair or replace tissue.",
+      "prerequisites": [
+        "mt-polymer-properties",
+        "mt-ceramics"
+      ],
+      "related": [
+        "el-implantable-devices",
+        "ph-biophysics"
+      ],
+      "topics": [
+        {
+          "name": "History and classes of biomaterials: metals, ceramics, polymers and composites",
+          "id": "mt-biomaterials-1"
+        },
+        {
+          "name": "Protein adsorption and cell-material interactions",
+          "id": "mt-biomaterials-2"
+        },
+        {
+          "name": "Host response: inflammation, foreign-body reaction and fibrous encapsulation",
+          "id": "mt-biomaterials-3"
+        },
+        {
+          "name": "Biocompatibility testing and ISO 10993",
+          "id": "mt-biomaterials-4"
+        },
+        {
+          "name": "Metallic implants: Ti alloys, CoCr, stainless steel; corrosion and wear debris",
+          "id": "mt-biomaterials-5"
+        },
+        {
+          "name": "Bioceramics and bioactive glasses; bone bonding",
+          "id": "mt-biomaterials-6"
+        },
+        {
+          "name": "Biomedical polymers and hydrogels; biodegradable polymers (PLA, PGA, PCL)",
+          "id": "mt-biomaterials-7"
+        },
+        {
+          "name": "Orthopaedic and dental implants; joint replacement",
+          "id": "mt-biomaterials-8"
+        },
+        {
+          "name": "Cardiovascular materials: stents, heart valves and blood compatibility",
+          "id": "mt-biomaterials-9"
+        },
+        {
+          "name": "Drug-delivery systems",
+          "id": "mt-biomaterials-10"
+        },
+        {
+          "name": "Tissue engineering scaffolds: porosity, degradation and cell seeding",
+          "id": "mt-biomaterials-11"
+        },
+        {
+          "name": "Bioprinting and regenerative medicine",
+          "id": "mt-biomaterials-12"
+        },
+        {
+          "name": "Neural interfaces and implantable electronics",
+          "id": "mt-biomaterials-13"
+        },
+        {
+          "name": "Sterilisation, regulation (FDA/CE) and device failure case studies",
+          "id": "mt-biomaterials-14"
+        }
+      ]
+    },
+    {
+      "id": "mt-biological-bioinspired",
+      "name": "Biological & Bioinspired Materials",
+      "category": "Nanomaterials & Biomaterials",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Studies how nature builds tough, light and adaptive materials such as bone, nacre, wood and silk, and how engineers copy their design principles.",
+      "prerequisites": [
+        "mt-composites",
+        "mt-biomaterials"
+      ],
+      "topics": [
+        {
+          "name": "Hierarchical structure as a design principle",
+          "id": "mt-biological-bioinspired-1"
+        },
+        {
+          "name": "Structural proteins and polysaccharides: collagen, keratin, silk, chitin and cellulose",
+          "id": "mt-biological-bioinspired-2"
+        },
+        {
+          "name": "Bone and teeth: mineralised collagen and toughening mechanisms",
+          "id": "mt-biological-bioinspired-3"
+        },
+        {
+          "name": "Nacre and shells: brick-and-mortar toughening",
+          "id": "mt-biological-bioinspired-4"
+        },
+        {
+          "name": "Wood and plant cell walls: cellular solids and fibre composites",
+          "id": "mt-biological-bioinspired-5"
+        },
+        {
+          "name": "Spider silk and high-performance natural fibres",
+          "id": "mt-biological-bioinspired-6"
+        },
+        {
+          "name": "Impact-resistant biological armour: mantis shrimp club, fish scales, turtle shells",
+          "id": "mt-biological-bioinspired-7"
+        },
+        {
+          "name": "Adhesion and surfaces: gecko feet, mussel adhesives, lotus effect",
+          "id": "mt-biological-bioinspired-8"
+        },
+        {
+          "name": "Structural colour and photonic structures in nature",
+          "id": "mt-biological-bioinspired-9"
+        },
+        {
+          "name": "Bioinspired and biomimetic synthesis: freeze casting, layer-by-layer assembly",
+          "id": "mt-biological-bioinspired-10"
+        }
+      ]
+    },
+    {
+      "id": "mt-battery-materials",
+      "name": "Battery Materials",
+      "category": "Energy Materials",
+      "level": 3,
+      "priority": "important",
+      "summary": "Covers the electrode and electrolyte materials inside lithium-ion and next-generation batteries and how their structure controls energy, power, life and safety.",
+      "prerequisites": [
+        "mt-electrochemistry",
+        "mt-diffusion"
+      ],
+      "related": [
+        "el-battery-technologies",
+        "el-battery-management-systems-bms"
+      ],
+      "topics": [
+        {
+          "name": "Battery fundamentals: voltage, capacity, energy and power density, C-rate and Ragone plots",
+          "id": "mt-battery-materials-1"
+        },
+        {
+          "name": "Intercalation chemistry and the thermodynamics of cell voltage",
+          "id": "mt-battery-materials-2"
+        },
+        {
+          "name": "Cathode materials",
+          "sub": [
+            {
+              "name": "Layered oxides: LCO, NMC, NCA",
+              "id": "mt-battery-materials-3-1"
+            },
+            {
+              "name": "Spinel LMO and high-voltage spinels",
+              "id": "mt-battery-materials-3-2"
+            },
+            {
+              "name": "Olivine LiFePO4",
+              "id": "mt-battery-materials-3-3"
+            },
+            {
+              "name": "Disordered rock salts and high-nickel trends",
+              "id": "mt-battery-materials-3-4"
+            }
+          ],
+          "id": "mt-battery-materials-3"
+        },
+        {
+          "name": "Anode materials",
+          "sub": [
+            {
+              "name": "Graphite and intercalation staging",
+              "id": "mt-battery-materials-4-1"
+            },
+            {
+              "name": "Silicon and alloy anodes: volume change",
+              "id": "mt-battery-materials-4-2"
+            },
+            {
+              "name": "Lithium titanate",
+              "id": "mt-battery-materials-4-3"
+            },
+            {
+              "name": "Lithium metal and dendrite formation",
+              "id": "mt-battery-materials-4-4"
+            }
+          ],
+          "id": "mt-battery-materials-4"
+        },
+        {
+          "name": "Liquid electrolytes, salts and additives; the solid-electrolyte interphase (SEI)",
+          "id": "mt-battery-materials-5"
+        },
+        {
+          "name": "Solid-state electrolytes: oxides (LLZO), sulfides and polymers",
+          "id": "mt-battery-materials-6"
+        },
+        {
+          "name": "Separators, binders, current collectors and electrode architecture",
+          "id": "mt-battery-materials-7"
+        },
+        {
+          "name": "Degradation mechanisms and capacity fade",
+          "id": "mt-battery-materials-8"
+        },
+        {
+          "name": "Thermal runaway and battery safety materials",
+          "id": "mt-battery-materials-9"
+        },
+        {
+          "name": "Beyond lithium-ion: sodium-ion, lithium-sulfur, lithium-air, multivalent and flow batteries",
+          "id": "mt-battery-materials-10"
+        },
+        {
+          "name": "Supercapacitor electrode materials",
+          "id": "mt-battery-materials-11"
+        },
+        {
+          "name": "Characterising battery materials: in-situ XRD, electrochemical testing and post-mortem analysis",
+          "id": "mt-battery-materials-12"
+        },
+        {
+          "name": "Battery materials for aerospace and wearable systems: specific energy and safety constraints",
+          "id": "mt-battery-materials-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-fuel-cell-hydrogen",
+      "name": "Fuel Cell, Electrolyser & Hydrogen Materials",
+      "category": "Energy Materials",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Covers the membranes, catalysts and ceramic electrolytes of fuel cells and electrolysers, and materials for hydrogen storage and handling.",
+      "prerequisites": [
+        "mt-electrochemistry",
+        "mt-ceramics"
+      ],
+      "related": [
+        "ph-energy-physics"
+      ],
+      "topics": [
+        {
+          "name": "Fuel-cell and electrolyser thermodynamics and efficiency",
+          "id": "mt-fuel-cell-hydrogen-1"
+        },
+        {
+          "name": "Proton-exchange-membrane fuel cells: Nafion membranes, Pt catalysts and gas-diffusion layers",
+          "id": "mt-fuel-cell-hydrogen-2"
+        },
+        {
+          "name": "Electrocatalysis: oxygen reduction and evolution reactions; catalyst design and platinum reduction",
+          "id": "mt-fuel-cell-hydrogen-3"
+        },
+        {
+          "name": "Solid-oxide fuel cells and electrolysers: YSZ, perovskite cathodes and interconnects",
+          "id": "mt-fuel-cell-hydrogen-4"
+        },
+        {
+          "name": "Alkaline and anion-exchange membrane systems",
+          "id": "mt-fuel-cell-hydrogen-5"
+        },
+        {
+          "name": "Degradation of fuel-cell materials",
+          "id": "mt-fuel-cell-hydrogen-6"
+        },
+        {
+          "name": "Hydrogen storage: compressed, cryogenic, metal hydrides and chemical carriers",
+          "id": "mt-fuel-cell-hydrogen-7"
+        },
+        {
+          "name": "Hydrogen embrittlement and materials compatibility for hydrogen infrastructure",
+          "id": "mt-fuel-cell-hydrogen-8"
+        },
+        {
+          "name": "Photocatalytic and photoelectrochemical water splitting materials",
+          "id": "mt-fuel-cell-hydrogen-9"
+        }
+      ]
+    },
+    {
+      "id": "mt-photovoltaic-materials",
+      "name": "Photovoltaic Materials",
+      "category": "Energy Materials",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Explains how solar cells convert light into electricity and the materials used, from crystalline silicon to perovskites and space-grade multijunction cells.",
+      "prerequisites": [
+        "mt-semiconductor-materials",
+        "mt-optical-photonic-materials"
+      ],
+      "related": [
+        "el-optoelectronic-devices",
+        "ph-energy-physics"
+      ],
+      "topics": [
+        {
+          "name": "The solar spectrum and photovoltaic operating principles",
+          "id": "mt-photovoltaic-materials-1"
+        },
+        {
+          "name": "The p-n junction solar cell: I-V curve, fill factor and efficiency",
+          "id": "mt-photovoltaic-materials-2"
+        },
+        {
+          "name": "Shockley-Queisser limit and loss mechanisms",
+          "id": "mt-photovoltaic-materials-3"
+        },
+        {
+          "name": "Crystalline silicon: feedstock, wafers, PERC, TOPCon and heterojunction cells",
+          "id": "mt-photovoltaic-materials-4"
+        },
+        {
+          "name": "Thin-film PV: CdTe, CIGS and amorphous silicon",
+          "id": "mt-photovoltaic-materials-5"
+        },
+        {
+          "name": "Metal-halide perovskite solar cells: structure, stability and tandems",
+          "id": "mt-photovoltaic-materials-6"
+        },
+        {
+          "name": "III-V multijunction cells for space and concentrator PV",
+          "id": "mt-photovoltaic-materials-7"
+        },
+        {
+          "name": "Radiation hardness of space solar cells",
+          "id": "mt-photovoltaic-materials-8"
+        },
+        {
+          "name": "Organic and dye-sensitised solar cells",
+          "id": "mt-photovoltaic-materials-9"
+        },
+        {
+          "name": "Light management and anti-reflection texturing",
+          "id": "mt-photovoltaic-materials-10"
+        },
+        {
+          "name": "Module materials, encapsulation and degradation",
+          "id": "mt-photovoltaic-materials-11"
+        }
+      ]
+    },
+    {
+      "id": "mt-thermoelectric-thermal-energy",
+      "name": "Thermoelectric & Thermal Energy Materials",
+      "category": "Energy Materials",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Covers materials that convert heat directly to electricity or store and manage heat, including thermoelectrics for spacecraft power and phase-change materials.",
+      "prerequisites": [
+        "mt-thermal-properties",
+        "mt-semiconductor-materials"
+      ],
+      "related": [
+        "el-energy-harvesting",
+        "ph-energy-physics"
+      ],
+      "topics": [
+        {
+          "name": "Seebeck, Peltier and Thomson effects",
+          "id": "mt-thermoelectric-thermal-energy-1"
+        },
+        {
+          "name": "Figure of merit ZT and device efficiency",
+          "id": "mt-thermoelectric-thermal-energy-2"
+        },
+        {
+          "name": "Decoupling electrical and thermal transport: phonon-glass electron-crystal",
+          "id": "mt-thermoelectric-thermal-energy-3"
+        },
+        {
+          "name": "Thermoelectric materials: Bi2Te3, PbTe, SiGe, skutterudites, half-Heuslers",
+          "id": "mt-thermoelectric-thermal-energy-4"
+        },
+        {
+          "name": "Nanostructuring and band engineering to raise ZT",
+          "id": "mt-thermoelectric-thermal-energy-5"
+        },
+        {
+          "name": "Radioisotope thermoelectric generators (RTGs) for spacecraft",
+          "id": "mt-thermoelectric-thermal-energy-6"
+        },
+        {
+          "name": "Thermoelectric coolers and waste-heat recovery",
+          "id": "mt-thermoelectric-thermal-energy-7"
+        },
+        {
+          "name": "Phase-change materials for thermal energy storage",
+          "id": "mt-thermoelectric-thermal-energy-8"
+        },
+        {
+          "name": "Thermochemical and sensible heat storage materials",
+          "id": "mt-thermoelectric-thermal-energy-9"
+        },
+        {
+          "name": "Radiative cooling and spectrally selective surfaces",
+          "id": "mt-thermoelectric-thermal-energy-10"
+        }
+      ]
+    },
+    {
+      "id": "mt-smart-materials",
+      "name": "Smart & Multifunctional Materials",
+      "category": "Smart & Active Materials",
+      "level": 3,
+      "priority": "important",
+      "summary": "Surveys materials that sense and respond to their environment, which are the building blocks of adaptive structures, actuators and wearable systems.",
+      "prerequisites": [
+        "mt-dielectric-ferroic",
+        "mt-magnetic-materials"
+      ],
+      "related": [
+        "el-actuators",
+        "el-mems-devices"
+      ],
+      "topics": [
+        {
+          "name": "What makes a material smart: coupled fields and transduction",
+          "id": "mt-smart-materials-1"
+        },
+        {
+          "name": "Piezoelectric actuators and sensors: stacks, benders and design equations",
+          "id": "mt-smart-materials-2"
+        },
+        {
+          "name": "Magnetostrictive actuators",
+          "id": "mt-smart-materials-3"
+        },
+        {
+          "name": "Shape-memory materials overview (alloys and polymers)",
+          "id": "mt-smart-materials-4"
+        },
+        {
+          "name": "Electroactive and magnetoactive polymers overview",
+          "id": "mt-smart-materials-5"
+        },
+        {
+          "name": "Magnetorheological and electrorheological fluids and elastomers",
+          "id": "mt-smart-materials-6"
+        },
+        {
+          "name": "Chromogenic materials: thermochromic, photochromic and electrochromic",
+          "id": "mt-smart-materials-7"
+        },
+        {
+          "name": "Self-sensing materials and piezoresistive composites",
+          "id": "mt-smart-materials-8"
+        },
+        {
+          "name": "Structural health monitoring with embedded smart materials",
+          "id": "mt-smart-materials-9"
+        },
+        {
+          "name": "Energy harvesting with smart materials",
+          "id": "mt-smart-materials-10"
+        },
+        {
+          "name": "Comparing actuator materials: strain, stress, energy density, bandwidth and efficiency",
+          "id": "mt-smart-materials-11"
+        }
+      ]
+    },
+    {
+      "id": "mt-shape-memory-alloys",
+      "name": "Shape-Memory Alloys & Polymers",
+      "category": "Smart & Active Materials",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Explains the martensitic transformation behind shape memory and superelasticity, and how SMAs and SMPs are designed into actuators, medical devices and morphing structures.",
+      "prerequisites": [
+        "mt-smart-materials",
+        "mt-phase-transformations"
+      ],
+      "topics": [
+        {
+          "name": "Thermoelastic martensitic transformation and transformation temperatures",
+          "id": "mt-shape-memory-alloys-1"
+        },
+        {
+          "name": "Shape-memory effect: one-way and two-way memory",
+          "id": "mt-shape-memory-alloys-2"
+        },
+        {
+          "name": "Superelasticity (pseudoelasticity) and hysteresis",
+          "id": "mt-shape-memory-alloys-3"
+        },
+        {
+          "name": "NiTi (Nitinol): processing, composition sensitivity and training",
+          "id": "mt-shape-memory-alloys-4"
+        },
+        {
+          "name": "Cu-based, Fe-based and high-temperature SMAs",
+          "id": "mt-shape-memory-alloys-5"
+        },
+        {
+          "name": "Functional fatigue and stability",
+          "id": "mt-shape-memory-alloys-6"
+        },
+        {
+          "name": "Constitutive modelling of SMA behaviour",
+          "id": "mt-shape-memory-alloys-7"
+        },
+        {
+          "name": "SMA actuators: wires, springs and heating/cooling bandwidth",
+          "id": "mt-shape-memory-alloys-8"
+        },
+        {
+          "name": "Applications: medical stents, aerospace morphing structures, deployable space mechanisms",
+          "id": "mt-shape-memory-alloys-9"
+        },
+        {
+          "name": "Shape-memory polymers and 4D printing",
+          "id": "mt-shape-memory-alloys-10"
+        },
+        {
+          "name": "Magnetic shape-memory alloys",
+          "id": "mt-shape-memory-alloys-11"
+        }
+      ]
+    },
+    {
+      "id": "mt-electroactive-polymers-artificial-muscles",
+      "name": "Electroactive Polymers & Artificial Muscles",
+      "category": "Smart & Active Materials",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Covers soft actuator materials that mimic muscle, from dielectric elastomers to fibre muscles, and what limits their use in robots and wearable exoskeletons.",
+      "prerequisites": [
+        "mt-smart-materials",
+        "mt-polymer-properties"
+      ],
+      "topics": [
+        {
+          "name": "Natural muscle as a benchmark: strain, stress, power density and efficiency",
+          "id": "mt-electroactive-polymers-artificial-muscles-1"
+        },
+        {
+          "name": "Dielectric elastomer actuators: Maxwell stress, electrodes and breakdown",
+          "id": "mt-electroactive-polymers-artificial-muscles-2"
+        },
+        {
+          "name": "Ionic polymer-metal composites and conducting-polymer actuators",
+          "id": "mt-electroactive-polymers-artificial-muscles-3"
+        },
+        {
+          "name": "Liquid-crystal elastomer actuators",
+          "id": "mt-electroactive-polymers-artificial-muscles-4"
+        },
+        {
+          "name": "Hydrogel and stimuli-responsive actuators",
+          "id": "mt-electroactive-polymers-artificial-muscles-5"
+        },
+        {
+          "name": "Twisted and coiled polymer fibre muscles (nylon) and carbon-nanotube yarn muscles",
+          "id": "mt-electroactive-polymers-artificial-muscles-6"
+        },
+        {
+          "name": "Pneumatic and hydraulically amplified soft actuators (HASEL)",
+          "id": "mt-electroactive-polymers-artificial-muscles-7"
+        },
+        {
+          "name": "Electrostrictive and relaxor ferroelectric polymers (P(VDF-TrFE))",
+          "id": "mt-electroactive-polymers-artificial-muscles-8"
+        },
+        {
+          "name": "Stretchable conductors and electrodes",
+          "id": "mt-electroactive-polymers-artificial-muscles-9"
+        },
+        {
+          "name": "Durability, fatigue and control of soft actuators",
+          "id": "mt-electroactive-polymers-artificial-muscles-10"
+        },
+        {
+          "name": "Applications: soft robotics, prosthetics, haptics and wearable assistive suits",
+          "id": "mt-electroactive-polymers-artificial-muscles-11"
+        }
+      ]
+    },
+    {
+      "id": "mt-aerospace-materials",
+      "name": "Aerospace Materials",
+      "category": "Aerospace & Extreme-Environment Materials",
+      "level": 3,
+      "priority": "important",
+      "summary": "Surveys how materials are chosen, qualified and used in aircraft, rockets and spacecraft, where weight, reliability and temperature dominate.",
+      "prerequisites": [
+        "mt-nonferrous-alloys",
+        "mt-composites",
+        "mt-fatigue-failure-analysis"
+      ],
+      "topics": [
+        {
+          "name": "Requirements of aerospace structures: specific stiffness, strength, toughness and damage tolerance",
+          "id": "mt-aerospace-materials-1"
+        },
+        {
+          "name": "Evolution of airframe materials: wood, aluminium, titanium and CFRP",
+          "id": "mt-aerospace-materials-2"
+        },
+        {
+          "name": "Airframe aluminium and aluminium-lithium alloys",
+          "id": "mt-aerospace-materials-3"
+        },
+        {
+          "name": "Titanium in airframes and engines",
+          "id": "mt-aerospace-materials-4"
+        },
+        {
+          "name": "CFRP airframes (e.g. Boeing 787, Airbus A350) and design considerations",
+          "id": "mt-aerospace-materials-5"
+        },
+        {
+          "name": "Jet-engine materials by section: fan, compressor, combustor and turbine",
+          "id": "mt-aerospace-materials-6"
+        },
+        {
+          "name": "Launch-vehicle materials: tanks, thrust structures, engines and fairings",
+          "id": "mt-aerospace-materials-7"
+        },
+        {
+          "name": "Materials for rocket engines: combustion chambers, nozzles and turbopumps",
+          "id": "mt-aerospace-materials-8"
+        },
+        {
+          "name": "Spacecraft structural materials and dimensionally stable structures",
+          "id": "mt-aerospace-materials-9"
+        },
+        {
+          "name": "Design allowables: A- and B-basis values, MMPDS and CMH-17",
+          "id": "mt-aerospace-materials-10"
+        },
+        {
+          "name": "Materials qualification, certification and process specifications",
+          "id": "mt-aerospace-materials-11"
+        },
+        {
+          "name": "Aerospace failure case studies and lessons learned",
+          "id": "mt-aerospace-materials-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-ceramic-matrix-composites",
+      "name": "Ceramic-Matrix & Carbon-Carbon Composites",
+      "category": "Aerospace & Extreme-Environment Materials",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Covers the tough high-temperature composites, SiC/SiC, C/SiC and carbon-carbon, used in hot engine parts, nozzles and re-entry structures.",
+      "prerequisites": [
+        "mt-composites",
+        "mt-ceramics"
+      ],
+      "topics": [
+        {
+          "name": "Why monolithic ceramics fail and how fibres make them damage-tolerant",
+          "id": "mt-ceramic-matrix-composites-1"
+        },
+        {
+          "name": "Fibre-matrix interphases: pyrolytic carbon and boron nitride; crack deflection",
+          "id": "mt-ceramic-matrix-composites-2"
+        },
+        {
+          "name": "Ceramic fibres: SiC (Hi-Nicalon, Sylramic), oxide (Nextel) and carbon fibres",
+          "id": "mt-ceramic-matrix-composites-3"
+        },
+        {
+          "name": "Processing: chemical vapour infiltration (CVI)",
+          "id": "mt-ceramic-matrix-composites-4"
+        },
+        {
+          "name": "Processing: polymer infiltration and pyrolysis (PIP) and melt infiltration (MI)",
+          "id": "mt-ceramic-matrix-composites-5"
+        },
+        {
+          "name": "Oxide-oxide CMCs",
+          "id": "mt-ceramic-matrix-composites-6"
+        },
+        {
+          "name": "Carbon-carbon composites: manufacture, properties and oxidation protection",
+          "id": "mt-ceramic-matrix-composites-7"
+        },
+        {
+          "name": "Mechanical behaviour: matrix cracking stress, pseudo-ductility and fatigue",
+          "id": "mt-ceramic-matrix-composites-8"
+        },
+        {
+          "name": "Environmental degradation and environmental barrier coatings",
+          "id": "mt-ceramic-matrix-composites-9"
+        },
+        {
+          "name": "Applications: turbine shrouds and blades, rocket nozzles, brake discs and leading edges",
+          "id": "mt-ceramic-matrix-composites-10"
+        }
+      ]
+    },
+    {
+      "id": "mt-thermal-protection-systems",
+      "name": "Thermal Protection Systems & Ablative Materials",
+      "category": "Aerospace & Extreme-Environment Materials",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Explains the materials that protect spacecraft and missiles from re-entry and propulsion heating, from reusable tiles to charring ablators.",
+      "prerequisites": [
+        "mt-ceramic-matrix-composites",
+        "mt-thermal-properties"
+      ],
+      "topics": [
+        {
+          "name": "Aerothermal environments of re-entry and hypersonic flight; heat-flux and heat-load",
+          "id": "mt-thermal-protection-systems-1"
+        },
+        {
+          "name": "Heat-management strategies: heat sink, radiative, insulative, ablative and transpiration cooling",
+          "id": "mt-thermal-protection-systems-2"
+        },
+        {
+          "name": "Reusable TPS: silica tiles (LI-900), AETB/TUFI, flexible insulation blankets",
+          "id": "mt-thermal-protection-systems-3"
+        },
+        {
+          "name": "Reinforced carbon-carbon leading edges",
+          "id": "mt-thermal-protection-systems-4"
+        },
+        {
+          "name": "Ablative materials: carbon-phenolic, PICA, AVCOAT, SLA-561V and cork-based ablators",
+          "id": "mt-thermal-protection-systems-5"
+        },
+        {
+          "name": "Ablation physics: pyrolysis, char formation, surface recession and blowing",
+          "id": "mt-thermal-protection-systems-6"
+        },
+        {
+          "name": "Ultra-high-temperature ceramics for sharp leading edges",
+          "id": "mt-thermal-protection-systems-7"
+        },
+        {
+          "name": "Rocket nozzle and throat materials: graphite, C/C, C/SiC and refractory metals",
+          "id": "mt-thermal-protection-systems-8"
+        },
+        {
+          "name": "Insulation materials: aerogels and multilayer insulation",
+          "id": "mt-thermal-protection-systems-9"
+        },
+        {
+          "name": "Arc-jet testing and qualification of TPS",
+          "id": "mt-thermal-protection-systems-10"
+        },
+        {
+          "name": "TPS design for Mars entry, lunar return and reusable launch vehicles",
+          "id": "mt-thermal-protection-systems-11"
+        },
+        {
+          "name": "Case studies: Space Shuttle, Apollo, Stardust, Orion and Starship heat shields",
+          "id": "mt-thermal-protection-systems-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-cryogenic-materials",
+      "name": "Materials for Cryogenic Service",
+      "category": "Aerospace & Extreme-Environment Materials",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Covers how materials behave near absolute zero and which ones are used for liquid-hydrogen and liquid-oxygen tanks, superconducting magnets and cryogenic instruments.",
+      "prerequisites": [
+        "mt-fracture-mechanics",
+        "mt-thermal-properties"
+      ],
+      "related": [
+        "ph-cryophysics",
+        "ph-vacuum-cryogenic-systems"
+      ],
+      "topics": [
+        {
+          "name": "Cryogenic environments: LN2, LOX, LH2 and liquid helium",
+          "id": "mt-cryogenic-materials-1"
+        },
+        {
+          "name": "Temperature dependence of strength, toughness and ductility; the ductile-brittle transition",
+          "id": "mt-cryogenic-materials-2"
+        },
+        {
+          "name": "FCC metals at low temperature: austenitic stainless steels, aluminium and copper alloys",
+          "id": "mt-cryogenic-materials-3"
+        },
+        {
+          "name": "Aluminium-lithium alloys for cryogenic propellant tanks",
+          "id": "mt-cryogenic-materials-4"
+        },
+        {
+          "name": "Nickel steels and Invar",
+          "id": "mt-cryogenic-materials-5"
+        },
+        {
+          "name": "Thermal contraction and thermal conductivity at low temperature",
+          "id": "mt-cryogenic-materials-6"
+        },
+        {
+          "name": "Polymers and composites at cryogenic temperatures: embrittlement and microcracking",
+          "id": "mt-cryogenic-materials-7"
+        },
+        {
+          "name": "Hydrogen embrittlement and permeation in LH2 systems",
+          "id": "mt-cryogenic-materials-8"
+        },
+        {
+          "name": "Oxygen compatibility and ignition hazards in LOX systems",
+          "id": "mt-cryogenic-materials-9"
+        },
+        {
+          "name": "Superconducting materials for magnets: Nb-Ti, Nb3Sn, MgB2 and REBCO tapes",
+          "id": "mt-cryogenic-materials-10"
+        },
+        {
+          "name": "Cryogenic insulation and seal materials",
+          "id": "mt-cryogenic-materials-11"
+        },
+        {
+          "name": "Cryogenic testing methods",
+          "id": "mt-cryogenic-materials-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-radiation-nuclear-materials",
+      "name": "Radiation Effects & Nuclear Materials",
+      "category": "Aerospace & Extreme-Environment Materials",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Explains how neutrons, ions and energetic particles damage materials and which materials survive in fission reactors, fusion devices and space.",
+      "prerequisites": [
+        "mt-creep",
+        "ph-nuclear-physics"
+      ],
+      "related": [
+        "ph-nuclear-physics"
+      ],
+      "topics": [
+        {
+          "name": "Radiation-matter interactions: neutrons, ions, electrons and gamma rays",
+          "id": "mt-radiation-nuclear-materials-1"
+        },
+        {
+          "name": "Displacement damage: primary knock-on atoms, cascades and dpa",
+          "id": "mt-radiation-nuclear-materials-2"
+        },
+        {
+          "name": "Radiation-induced point defects, loops and voids",
+          "id": "mt-radiation-nuclear-materials-3"
+        },
+        {
+          "name": "Radiation hardening and embrittlement (DBTT shift in pressure vessel steels)",
+          "id": "mt-radiation-nuclear-materials-4"
+        },
+        {
+          "name": "Void swelling, irradiation creep and irradiation growth",
+          "id": "mt-radiation-nuclear-materials-5"
+        },
+        {
+          "name": "Radiation-induced segregation and precipitation",
+          "id": "mt-radiation-nuclear-materials-6"
+        },
+        {
+          "name": "Transmutation and helium embrittlement",
+          "id": "mt-radiation-nuclear-materials-7"
+        },
+        {
+          "name": "Fission fuel materials: UO2, MOX and accident-tolerant fuels",
+          "id": "mt-radiation-nuclear-materials-8"
+        },
+        {
+          "name": "Cladding and core materials: zirconium alloys, stainless steels and ODS steels",
+          "id": "mt-radiation-nuclear-materials-9"
+        },
+        {
+          "name": "Fusion materials: plasma-facing tungsten, reduced-activation steels and breeder blankets",
+          "id": "mt-radiation-nuclear-materials-10"
+        },
+        {
+          "name": "Radiation effects in polymers, ceramics and semiconductors",
+          "id": "mt-radiation-nuclear-materials-11"
+        },
+        {
+          "name": "Radiation shielding materials",
+          "id": "mt-radiation-nuclear-materials-12"
+        },
+        {
+          "name": "Ion-beam simulation of neutron damage",
+          "id": "mt-radiation-nuclear-materials-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-space-environment-materials",
+      "name": "Space Environment Effects on Materials",
+      "category": "Aerospace & Extreme-Environment Materials",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Covers what the space environment does to materials, from atomic oxygen erosion to radiation and micrometeoroids, and how spacecraft materials are chosen and tested.",
+      "prerequisites": [
+        "mt-aerospace-materials"
+      ],
+      "related": [
+        "ph-space-physics"
+      ],
+      "topics": [
+        {
+          "name": "The space environment: vacuum, thermal cycling, UV, charged particles and debris",
+          "id": "mt-space-environment-materials-1"
+        },
+        {
+          "name": "Outgassing, contamination and ASTM E595 screening",
+          "id": "mt-space-environment-materials-2"
+        },
+        {
+          "name": "Atomic oxygen erosion in low Earth orbit and protective coatings",
+          "id": "mt-space-environment-materials-3"
+        },
+        {
+          "name": "Ultraviolet and particle radiation degradation of polymers and optical coatings",
+          "id": "mt-space-environment-materials-4"
+        },
+        {
+          "name": "Thermal-control materials: coatings, paints, optical solar reflectors and MLI",
+          "id": "mt-space-environment-materials-5"
+        },
+        {
+          "name": "Thermal cycling and dimensional stability",
+          "id": "mt-space-environment-materials-6"
+        },
+        {
+          "name": "Spacecraft charging and electrostatic discharge",
+          "id": "mt-space-environment-materials-7"
+        },
+        {
+          "name": "Cold welding and tribology in vacuum",
+          "id": "mt-space-environment-materials-8"
+        },
+        {
+          "name": "Micrometeoroid and orbital debris shielding (Whipple shields)",
+          "id": "mt-space-environment-materials-9"
+        },
+        {
+          "name": "Radiation effects on spacecraft electronics and shielding choices",
+          "id": "mt-space-environment-materials-10"
+        },
+        {
+          "name": "Planetary surface environments: lunar regolith dust and Martian conditions",
+          "id": "mt-space-environment-materials-11"
+        },
+        {
+          "name": "In-space testing (MISSE) and materials for in-space manufacturing",
+          "id": "mt-space-environment-materials-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-lightweight-structures",
+      "name": "Lightweight Structures: Cellular, Sandwich & Architected Materials",
+      "category": "Lightweight & Protective Structures",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Shows how to make structures as light as possible by combining material choice with shape: foams, honeycombs, sandwich panels, lattices and hybrid materials.",
+      "prerequisites": [
+        "mt-materials-selection",
+        "mt-composites"
+      ],
+      "topics": [
+        {
+          "name": "Lightweighting strategy: material, shape, and structural efficiency",
+          "id": "mt-lightweight-structures-1"
+        },
+        {
+          "name": "Cellular solids: honeycombs and foams; Gibson-Ashby scaling laws",
+          "id": "mt-lightweight-structures-2"
+        },
+        {
+          "name": "Metallic, polymeric and ceramic foams: processing and properties",
+          "id": "mt-lightweight-structures-3"
+        },
+        {
+          "name": "Sandwich panel design: face and core selection, failure-mode maps",
+          "id": "mt-lightweight-structures-4"
+        },
+        {
+          "name": "Architected lattice materials: stretching- vs bending-dominated lattices, Maxwell's criterion",
+          "id": "mt-lightweight-structures-5"
+        },
+        {
+          "name": "Micro- and nano-architected materials",
+          "id": "mt-lightweight-structures-6"
+        },
+        {
+          "name": "Designing hybrid materials: filling holes in property space",
+          "id": "mt-lightweight-structures-7"
+        },
+        {
+          "name": "Topology optimisation and generative design",
+          "id": "mt-lightweight-structures-8"
+        },
+        {
+          "name": "Lightweighting case studies: aircraft, vehicles, bicycles and space structures",
+          "id": "mt-lightweight-structures-9"
+        },
+        {
+          "name": "Lightweight frames for wearable exoskeletons: stiffness, strength and fatigue constraints",
+          "id": "mt-lightweight-structures-10"
+        }
+      ]
+    },
+    {
+      "id": "mt-impact-protective-materials",
+      "name": "Impact-Resistant & Protective Materials",
+      "category": "Lightweight & Protective Structures",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Explains, at a conceptual materials-science level, how materials absorb impact and resist penetration, as used in helmets, body protection and vehicle and spacecraft shielding.",
+      "prerequisites": [
+        "mt-fracture-mechanics",
+        "mt-composites",
+        "mt-ceramics"
+      ],
+      "topics": [
+        {
+          "name": "Material behaviour at high strain rates; strain-rate sensitivity",
+          "id": "mt-impact-protective-materials-1"
+        },
+        {
+          "name": "High-rate testing: split-Hopkinson (Kolsky) bar and drop-weight testing",
+          "id": "mt-impact-protective-materials-2"
+        },
+        {
+          "name": "Stress waves, shock waves and the Hugoniot (conceptual)",
+          "id": "mt-impact-protective-materials-3"
+        },
+        {
+          "name": "Adiabatic shear banding and spall",
+          "id": "mt-impact-protective-materials-4"
+        },
+        {
+          "name": "Energy absorption: crushable foams, honeycombs and crash structures",
+          "id": "mt-impact-protective-materials-5"
+        },
+        {
+          "name": "High-performance fibres and fabrics: aramid, UHMWPE and their energy-absorption mechanisms",
+          "id": "mt-impact-protective-materials-6"
+        },
+        {
+          "name": "Ceramics under impact: comminution, dwell and the role of backing layers",
+          "id": "mt-impact-protective-materials-7"
+        },
+        {
+          "name": "Layered and graded protective systems (conceptual design principles)",
+          "id": "mt-impact-protective-materials-8"
+        },
+        {
+          "name": "Transparent protective materials: laminated glass, polycarbonate, spinel and ALON",
+          "id": "mt-impact-protective-materials-9"
+        },
+        {
+          "name": "Shear-thickening fluids and impact-hardening materials",
+          "id": "mt-impact-protective-materials-10"
+        },
+        {
+          "name": "Head protection materials and injury criteria for helmets",
+          "id": "mt-impact-protective-materials-11"
+        },
+        {
+          "name": "Constitutive and damage models for impact (Johnson-Cook, Johnson-Holmquist)",
+          "id": "mt-impact-protective-materials-12"
+        },
+        {
+          "name": "Standards and test methods for protective equipment",
+          "id": "mt-impact-protective-materials-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-computational-materials-intro",
+      "name": "Introduction to Computational Materials Science",
+      "category": "Computational Materials Science",
+      "level": 3,
+      "priority": "important",
+      "summary": "Introduces modelling across length and time scales and the numerical methods that let materials scientists simulate diffusion, heat flow and structure.",
+      "prerequisites": [
+        "mt-diffusion",
+        "ma-numerical-solutions-of-pdes"
+      ],
+      "related": [
+        "ph-computational-physics"
+      ],
+      "topics": [
+        {
+          "name": "The multiscale landscape: electrons, atoms, microstructure and continuum",
+          "id": "mt-computational-materials-intro-1"
+        },
+        {
+          "name": "Scientific programming for materials (Python, NumPy, visualisation)",
+          "id": "mt-computational-materials-intro-2"
+        },
+        {
+          "name": "Finite-difference solutions of diffusion and heat-flow problems",
+          "id": "mt-computational-materials-intro-3"
+        },
+        {
+          "name": "Introduction to finite element analysis for materials problems",
+          "id": "mt-computational-materials-intro-4"
+        },
+        {
+          "name": "Interatomic potentials and energy minimisation",
+          "id": "mt-computational-materials-intro-5"
+        },
+        {
+          "name": "Random numbers and Monte Carlo sampling",
+          "id": "mt-computational-materials-intro-6"
+        },
+        {
+          "name": "Structure generation and visualisation (supercells, defects, OVITO/VESTA)",
+          "id": "mt-computational-materials-intro-7"
+        },
+        {
+          "name": "Verification, validation and uncertainty in simulation",
+          "id": "mt-computational-materials-intro-8"
+        },
+        {
+          "name": "Materials databases and open data (Materials Project, AFLOW, OQMD)",
+          "id": "mt-computational-materials-intro-9"
+        },
+        {
+          "name": "Workflow tools and high-performance computing basics",
+          "id": "mt-computational-materials-intro-10"
+        }
+      ]
+    },
+    {
+      "id": "mt-dft",
+      "name": "Electronic-Structure Methods & Density Functional Theory",
+      "category": "Computational Materials Science",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Teaches first-principles calculation of materials properties using density functional theory and related quantum-mechanical methods.",
+      "prerequisites": [
+        "mt-computational-materials-intro",
+        "mt-electronic-properties"
+      ],
+      "related": [
+        "ph-computational-physics",
+        "ph-quantum-mechanics"
+      ],
+      "topics": [
+        {
+          "name": "The many-body problem and the Born-Oppenheimer approximation",
+          "id": "mt-dft-1"
+        },
+        {
+          "name": "Hartree-Fock and the limits of wavefunction methods",
+          "id": "mt-dft-2"
+        },
+        {
+          "name": "Hohenberg-Kohn theorems and the Kohn-Sham equations",
+          "id": "mt-dft-3"
+        },
+        {
+          "name": "Exchange-correlation functionals: LDA, GGA, meta-GGA, hybrids and DFT+U",
+          "id": "mt-dft-4"
+        },
+        {
+          "name": "Plane-wave basis sets, pseudopotentials and PAW; k-point sampling and convergence",
+          "id": "mt-dft-5"
+        },
+        {
+          "name": "Computing structures, formation energies and elastic constants",
+          "id": "mt-dft-6"
+        },
+        {
+          "name": "Band structures and densities of states",
+          "id": "mt-dft-7"
+        },
+        {
+          "name": "Defect formation energies and charged defects",
+          "id": "mt-dft-8"
+        },
+        {
+          "name": "Phonons and thermodynamic properties from first principles",
+          "id": "mt-dft-9"
+        },
+        {
+          "name": "Surfaces, adsorption and catalysis",
+          "id": "mt-dft-10"
+        },
+        {
+          "name": "Transition states and diffusion barriers (nudged elastic band)",
+          "id": "mt-dft-11"
+        },
+        {
+          "name": "Beyond DFT: GW, DMFT and van der Waals corrections",
+          "id": "mt-dft-12"
+        },
+        {
+          "name": "Practical codes and workflows (VASP, Quantum ESPRESSO, ASE, pymatgen)",
+          "id": "mt-dft-13"
+        }
+      ]
+    },
+    {
+      "id": "mt-molecular-dynamics-monte-carlo",
+      "name": "Molecular Dynamics & Monte Carlo Simulation",
+      "category": "Computational Materials Science",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Covers atomistic simulation of materials with molecular dynamics and Monte Carlo methods, from interatomic potentials to machine-learned force fields.",
+      "prerequisites": [
+        "mt-computational-materials-intro",
+        "ph-thermodynamics-statistical-mechanics"
+      ],
+      "related": [
+        "ph-computational-physics",
+        "ma-monte-carlo-methods"
+      ],
+      "topics": [
+        {
+          "name": "Statistical mechanics refresher: ensembles and ergodicity",
+          "id": "mt-molecular-dynamics-monte-carlo-1"
+        },
+        {
+          "name": "Interatomic potentials: pair potentials, EAM, Tersoff, ReaxFF and force fields for polymers",
+          "id": "mt-molecular-dynamics-monte-carlo-2"
+        },
+        {
+          "name": "Machine-learned interatomic potentials (GAP, NequIP, MACE)",
+          "id": "mt-molecular-dynamics-monte-carlo-3"
+        },
+        {
+          "name": "Integrating equations of motion: Verlet algorithms and time steps",
+          "id": "mt-molecular-dynamics-monte-carlo-4"
+        },
+        {
+          "name": "Thermostats, barostats and periodic boundary conditions",
+          "id": "mt-molecular-dynamics-monte-carlo-5"
+        },
+        {
+          "name": "Computing properties: diffusion coefficients, RDF, elastic constants and thermal conductivity",
+          "id": "mt-molecular-dynamics-monte-carlo-6"
+        },
+        {
+          "name": "Simulating defects, dislocations, fracture and phase transitions",
+          "id": "mt-molecular-dynamics-monte-carlo-7"
+        },
+        {
+          "name": "Metropolis Monte Carlo and cluster expansions",
+          "id": "mt-molecular-dynamics-monte-carlo-8"
+        },
+        {
+          "name": "Kinetic Monte Carlo for diffusion and growth",
+          "id": "mt-molecular-dynamics-monte-carlo-9"
+        },
+        {
+          "name": "Rare events and accelerated dynamics",
+          "id": "mt-molecular-dynamics-monte-carlo-10"
+        },
+        {
+          "name": "Practical simulation with LAMMPS and analysis with OVITO",
+          "id": "mt-molecular-dynamics-monte-carlo-11"
+        }
+      ]
+    },
+    {
+      "id": "mt-calphad-icme",
+      "name": "CALPHAD & Integrated Computational Materials Engineering",
+      "category": "Computational Materials Science",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Covers computational thermodynamics (CALPHAD) and how linked process-structure-property models (ICME) are used to design alloys and processes faster.",
+      "prerequisites": [
+        "mt-phase-diagrams",
+        "mt-computational-materials-intro"
+      ],
+      "topics": [
+        {
+          "name": "The CALPHAD method: Gibbs energy models for pure elements and solution phases",
+          "id": "mt-calphad-icme-1"
+        },
+        {
+          "name": "Sublattice (compound energy) models for ordered and intermetallic phases",
+          "id": "mt-calphad-icme-2"
+        },
+        {
+          "name": "Thermodynamic database assessment and optimisation",
+          "id": "mt-calphad-icme-3"
+        },
+        {
+          "name": "Multicomponent phase-diagram and equilibrium calculations",
+          "id": "mt-calphad-icme-4"
+        },
+        {
+          "name": "Scheil solidification simulations",
+          "id": "mt-calphad-icme-5"
+        },
+        {
+          "name": "Mobility databases and diffusion simulation (DICTRA-type)",
+          "id": "mt-calphad-icme-6"
+        },
+        {
+          "name": "Precipitation kinetics modelling",
+          "id": "mt-calphad-icme-7"
+        },
+        {
+          "name": "Tools: Thermo-Calc, Pandat, OpenCalphad and pycalphad",
+          "id": "mt-calphad-icme-8"
+        },
+        {
+          "name": "ICME concept: linking process, structure, property and performance models",
+          "id": "mt-calphad-icme-9"
+        },
+        {
+          "name": "Materials Genome Initiative and accelerated alloy design",
+          "id": "mt-calphad-icme-10"
+        },
+        {
+          "name": "ICME case studies: aerospace alloys, AM process optimisation, automotive steels",
+          "id": "mt-calphad-icme-11"
+        },
+        {
+          "name": "Uncertainty quantification and model calibration in ICME",
+          "id": "mt-calphad-icme-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-phase-field-mesoscale",
+      "name": "Phase-Field & Mesoscale Modelling",
+      "category": "Computational Materials Science",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Teaches methods for simulating microstructure evolution and mesoscale mechanics, including phase-field, dislocation dynamics and crystal plasticity.",
+      "prerequisites": [
+        "mt-computational-materials-intro",
+        "mt-interfaces-microstructure-evolution"
+      ],
+      "topics": [
+        {
+          "name": "Why mesoscale modelling: the gap between atoms and continuum",
+          "id": "mt-phase-field-mesoscale-1"
+        },
+        {
+          "name": "Diffuse-interface theory: Ginzburg-Landau free energy and gradient terms",
+          "id": "mt-phase-field-mesoscale-2"
+        },
+        {
+          "name": "Cahn-Hilliard and Allen-Cahn equations and their numerical solution",
+          "id": "mt-phase-field-mesoscale-3"
+        },
+        {
+          "name": "Phase-field models of solidification and dendrite growth",
+          "id": "mt-phase-field-mesoscale-4"
+        },
+        {
+          "name": "Phase-field models of precipitation, grain growth and fracture",
+          "id": "mt-phase-field-mesoscale-5"
+        },
+        {
+          "name": "Cellular automata and Monte Carlo Potts models of microstructure",
+          "id": "mt-phase-field-mesoscale-6"
+        },
+        {
+          "name": "Discrete dislocation dynamics",
+          "id": "mt-phase-field-mesoscale-7"
+        },
+        {
+          "name": "Crystal plasticity finite element method",
+          "id": "mt-phase-field-mesoscale-8"
+        },
+        {
+          "name": "Homogenisation and representative volume elements",
+          "id": "mt-phase-field-mesoscale-9"
+        },
+        {
+          "name": "Coupling to CALPHAD and experiments",
+          "id": "mt-phase-field-mesoscale-10"
+        },
+        {
+          "name": "Tools: MOOSE, PRISMS-PF and DAMASK",
+          "id": "mt-phase-field-mesoscale-11"
+        }
+      ]
+    },
+    {
+      "id": "mt-materials-informatics",
+      "name": "Materials Informatics & Machine Learning",
+      "category": "Computational Materials Science",
+      "level": 4,
+      "priority": "advanced",
+      "summary": "Applies data science and machine learning to materials discovery, property prediction, characterisation and autonomous experimentation.",
+      "prerequisites": [
+        "mt-computational-materials-intro",
+        "ai-core-ml-concepts"
+      ],
+      "related": [
+        "ai-ai-for-science"
+      ],
+      "topics": [
+        {
+          "name": "Materials data: sources, curation, FAIR principles and data quality",
+          "id": "mt-materials-informatics-1"
+        },
+        {
+          "name": "Featurising materials: composition descriptors, structure graphs and fingerprints",
+          "id": "mt-materials-informatics-2"
+        },
+        {
+          "name": "Supervised learning for property prediction",
+          "id": "mt-materials-informatics-3"
+        },
+        {
+          "name": "Graph neural networks for crystals and molecules",
+          "id": "mt-materials-informatics-4"
+        },
+        {
+          "name": "Uncertainty quantification and active learning",
+          "id": "mt-materials-informatics-5"
+        },
+        {
+          "name": "Bayesian optimisation for materials design",
+          "id": "mt-materials-informatics-6"
+        },
+        {
+          "name": "Inverse design and generative models for materials",
+          "id": "mt-materials-informatics-7"
+        },
+        {
+          "name": "High-throughput computation and screening",
+          "id": "mt-materials-informatics-8"
+        },
+        {
+          "name": "Machine learning for microscopy and diffraction data",
+          "id": "mt-materials-informatics-9"
+        },
+        {
+          "name": "Natural-language processing of the materials literature",
+          "id": "mt-materials-informatics-10"
+        },
+        {
+          "name": "Self-driving laboratories and autonomous experimentation",
+          "id": "mt-materials-informatics-11"
+        },
+        {
+          "name": "Pitfalls: data leakage, extrapolation and interpretability",
+          "id": "mt-materials-informatics-12"
+        }
+      ]
+    },
+    {
+      "id": "mt-high-entropy-alloys",
+      "name": "High-Entropy & Compositionally Complex Alloys",
+      "category": "Frontier Materials",
+      "level": 5,
+      "priority": "advanced",
+      "summary": "Explores alloys made from many elements in near-equal amounts, which open a vast new design space for strong, tough and heat-resistant metals.",
+      "prerequisites": [
+        "mt-superalloys-refractory",
+        "mt-calphad-icme"
+      ],
+      "topics": [
+        {
+          "name": "Concept and the four 'core effects' (entropy, lattice distortion, sluggish diffusion, cocktail)",
+          "id": "mt-high-entropy-alloys-1"
+        },
+        {
+          "name": "Phase formation rules and CALPHAD-guided design",
+          "id": "mt-high-entropy-alloys-2"
+        },
+        {
+          "name": "Cantor alloy and FCC HEAs: exceptional cryogenic toughness",
+          "id": "mt-high-entropy-alloys-3"
+        },
+        {
+          "name": "Refractory high-entropy alloys for high-temperature service",
+          "id": "mt-high-entropy-alloys-4"
+        },
+        {
+          "name": "Chemical short-range order and its effect on properties",
+          "id": "mt-high-entropy-alloys-5"
+        },
+        {
+          "name": "Deformation mechanisms: TWIP and TRIP in HEAs",
+          "id": "mt-high-entropy-alloys-6"
+        },
+        {
+          "name": "High-entropy ceramics, oxides and carbides",
+          "id": "mt-high-entropy-alloys-7"
+        },
+        {
+          "name": "High-throughput and machine-learning exploration of HEA space",
+          "id": "mt-high-entropy-alloys-8"
+        }
+      ]
+    },
+    {
+      "id": "mt-2d-materials",
+      "name": "Two-Dimensional Materials",
+      "category": "Frontier Materials",
+      "level": 5,
+      "priority": "advanced",
+      "summary": "Covers atomically thin materials such as graphene and MoS2: their synthesis, extraordinary properties and potential uses.",
+      "prerequisites": [
+        "mt-nanomaterials",
+        "mt-semiconductor-materials"
+      ],
+      "related": [
+        "el-advanced-materials",
+        "ph-quantum-materials",
+        "ph-topological-phases-of-matter"
+      ],
+      "topics": [
+        {
+          "name": "Graphene: structure, Dirac electronic bands and exceptional mechanical and thermal properties",
+          "id": "mt-2d-materials-1"
+        },
+        {
+          "name": "Hexagonal boron nitride and other insulating 2D layers",
+          "id": "mt-2d-materials-2"
+        },
+        {
+          "name": "Transition-metal dichalcogenides (MoS2, WSe2) and their optoelectronics",
+          "id": "mt-2d-materials-3"
+        },
+        {
+          "name": "MXenes, phosphorene and other emerging 2D families",
+          "id": "mt-2d-materials-4"
+        },
+        {
+          "name": "Synthesis: mechanical exfoliation, liquid exfoliation and CVD growth",
+          "id": "mt-2d-materials-5"
+        },
+        {
+          "name": "Transfer, van der Waals heterostructures and twistronics",
+          "id": "mt-2d-materials-6"
+        },
+        {
+          "name": "Characterisation of 2D materials (Raman, AFM, TEM)",
+          "id": "mt-2d-materials-7"
+        },
+        {
+          "name": "Applications: electronics, membranes, composites, sensors and energy storage",
+          "id": "mt-2d-materials-8"
+        }
+      ]
+    },
+    {
+      "id": "mt-metamaterials",
+      "name": "Metamaterials",
+      "category": "Frontier Materials",
+      "level": 5,
+      "priority": "advanced",
+      "summary": "Explores engineered materials whose properties come from their architecture rather than their chemistry: negative index, cloaking, negative Poisson's ratio and more.",
+      "prerequisites": [
+        "mt-lightweight-structures",
+        "mt-optical-photonic-materials"
+      ],
+      "related": [
+        "ph-nanophotonics-plasmonics",
+        "el-advanced-materials"
+      ],
+      "topics": [
+        {
+          "name": "Concept: properties from structure; unit cells and effective-medium theory",
+          "id": "mt-metamaterials-1"
+        },
+        {
+          "name": "Electromagnetic metamaterials: negative permittivity/permeability and negative refraction",
+          "id": "mt-metamaterials-2"
+        },
+        {
+          "name": "Metasurfaces and flat optics",
+          "id": "mt-metamaterials-3"
+        },
+        {
+          "name": "Transformation optics and cloaking",
+          "id": "mt-metamaterials-4"
+        },
+        {
+          "name": "Acoustic and elastic metamaterials; phononic band gaps and vibration isolation",
+          "id": "mt-metamaterials-5"
+        },
+        {
+          "name": "Mechanical metamaterials: auxetics (negative Poisson's ratio), pentamode and programmable materials",
+          "id": "mt-metamaterials-6"
+        },
+        {
+          "name": "Thermal metamaterials",
+          "id": "mt-metamaterials-7"
+        },
+        {
+          "name": "Fabrication routes: lithography, two-photon printing and additive manufacturing",
+          "id": "mt-metamaterials-8"
+        }
+      ]
+    },
+    {
+      "id": "mt-self-healing-materials",
+      "name": "Self-Healing & Adaptive Materials",
+      "category": "Frontier Materials",
+      "level": 5,
+      "priority": "advanced",
+      "summary": "Studies materials that repair damage on their own, extending service life of coatings, composites, concrete and soft robots.",
+      "prerequisites": [
+        "mt-composites",
+        "mt-smart-materials"
+      ],
+      "topics": [
+        {
+          "name": "Damage and healing concepts; healing efficiency",
+          "id": "mt-self-healing-materials-1"
+        },
+        {
+          "name": "Extrinsic healing: microcapsules and vascular networks",
+          "id": "mt-self-healing-materials-2"
+        },
+        {
+          "name": "Intrinsic healing polymers: reversible covalent bonds (Diels-Alder) and supramolecular chemistry",
+          "id": "mt-self-healing-materials-3"
+        },
+        {
+          "name": "Vitrimers and covalent adaptable networks",
+          "id": "mt-self-healing-materials-4"
+        },
+        {
+          "name": "Self-healing composites and coatings",
+          "id": "mt-self-healing-materials-5"
+        },
+        {
+          "name": "Self-healing concrete (bacterial and autogenous)",
+          "id": "mt-self-healing-materials-6"
+        },
+        {
+          "name": "Self-healing metals and ceramics",
+          "id": "mt-self-healing-materials-7"
+        },
+        {
+          "name": "Self-healing soft robots and electronics",
+          "id": "mt-self-healing-materials-8"
+        }
+      ]
+    },
+    {
+      "id": "mt-emerging-materials",
+      "name": "Emerging Materials Frontiers",
+      "category": "Frontier Materials",
+      "level": 5,
+      "priority": "advanced",
+      "summary": "A survey of fast-moving research frontiers across materials science, from quantum materials and halide perovskites to living materials and autonomous discovery.",
+      "prerequisites": [
+        "mt-nanomaterials",
+        "mt-materials-informatics"
+      ],
+      "related": [
+        "ph-quantum-materials",
+        "ai-ai-for-science"
+      ],
+      "topics": [
+        {
+          "name": "Quantum materials for computing: superconducting qubit materials, topological materials and defect qubits",
+          "id": "mt-emerging-materials-1"
+        },
+        {
+          "name": "Halide perovskites beyond photovoltaics",
+          "id": "mt-emerging-materials-2"
+        },
+        {
+          "name": "Metal-organic and covalent-organic frameworks",
+          "id": "mt-emerging-materials-3"
+        },
+        {
+          "name": "Engineered living materials and synthetic-biology-derived materials",
+          "id": "mt-emerging-materials-4"
+        },
+        {
+          "name": "4D printing and programmable matter",
+          "id": "mt-emerging-materials-5"
+        },
+        {
+          "name": "Materials for neuromorphic computing (memristors, phase-change memory)",
+          "id": "mt-emerging-materials-6"
+        },
+        {
+          "name": "Ultra-strong materials: carbon-nanotube fibres, nanolattices and diamond composites",
+          "id": "mt-emerging-materials-7"
+        },
+        {
+          "name": "Room-temperature superconductivity claims and how to evaluate them",
+          "id": "mt-emerging-materials-8"
+        },
+        {
+          "name": "Materials for fusion and next-generation energy",
+          "id": "mt-emerging-materials-9"
+        },
+        {
+          "name": "Space resource utilisation: materials from lunar and Martian regolith",
+          "id": "mt-emerging-materials-10"
+        }
+      ]
+    }
+  ]
+}
