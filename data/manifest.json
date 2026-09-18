@@ -12,5 +12,19 @@
     "materials",
     "aerospace"
   ],
-  "roadmaps": []
+  "roadmaps": [
+    "cosmos",
+    "rocket-science",
+    "astrobiology",
+    "robotics",
+    "iron-man",
+    "electrical-electronics-engineer",
+    "embedded-iot",
+    "computer-engineer",
+    "software-engineer",
+    "ai-engineer",
+    "data-scientist",
+    "quantum",
+    "theoretical-physicist"
+  ]
 }

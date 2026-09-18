@@ -159,7 +159,9 @@
       "level": 1,
       "priority": "core",
       "summary": "The practical toolkit for data work and ML: Python (plus R, SQL, Julia), NumPy, pandas, scikit-learn, notebooks and plotting libraries.",
-      "prerequisites": [],
+      "prerequisites": [
+        "cs-programming-fundamentals"
+      ],
       "topics": [
         {
           "id": "ai-programming-tools-5",
@@ -267,12 +269,13 @@
       "priority": "core",
       "summary": "A practitioner's survey of the linear algebra, calculus, probability and statistics used every day in data science and machine learning.",
       "prerequisites": [
-        "ma-elementary-intermediate-algebra"
+        "ma-precalculus"
       ],
       "related": [
         "ma-linear-algebra",
         "ma-probability-theory",
-        "ma-inferential-statistics"
+        "ma-inferential-statistics",
+        "ai-time-series-forecasting"
       ],
       "topics": [
         {
@@ -396,7 +399,7 @@
       "summary": "Classical problem-solving AI: formulating problems as search, uninformed and heuristic search, adversarial game search, and first looks at constraints and planning.",
       "prerequisites": [
         "ai-core-ai-concepts",
-        "ai-programming-tools"
+        "cs-data-structures"
       ],
       "related": [
         "ai-constraint-satisfaction",
@@ -517,11 +520,11 @@
       "priority": "important",
       "summary": "How AI systems represent facts in propositional and first-order logic and derive new conclusions automatically with inference, SAT solvers and theorem provers.",
       "prerequisites": [
-        "ai-classical-ai-gofai-good-old-fashioned-ai",
-        "ma-logic-proof-theory"
+        "ai-classical-ai-gofai-good-old-fashioned-ai"
       ],
       "related": [
-        "ma-formal-verification"
+        "ma-formal-verification",
+        "ma-logic-proof-theory"
       ],
       "topics": [
         {
@@ -705,7 +708,8 @@
       ],
       "related": [
         "ma-combinatorial-optimization",
-        "ma-integer-programming"
+        "ma-integer-programming",
+        "ai-classical-ai-gofai-good-old-fashioned-ai"
       ],
       "topics": [
         {
@@ -842,7 +846,8 @@
         "ma-probability-theory"
       ],
       "related": [
-        "ma-probabilistic-models"
+        "ma-probabilistic-models",
+        "el-sensor-fusion"
       ],
       "topics": [
         {
@@ -959,7 +964,8 @@
       "related": [
         "ma-econometrics",
         "ma-experimental-design",
-        "ai-business-analytics"
+        "ai-business-analytics",
+        "ma-causal-inference"
       ],
       "topics": [
         {
@@ -1163,7 +1169,8 @@
         "ai-programming-tools"
       ],
       "related": [
-        "ma-foundations-of-machine-learning"
+        "ma-foundations-of-machine-learning",
+        "ai-ml-experimentation-evaluation"
       ],
       "topics": [
         {
@@ -1265,7 +1272,8 @@
         "ai-core-ml-concepts"
       ],
       "related": [
-        "ma-dimensionality-reduction"
+        "ma-dimensionality-reduction",
+        "el-data-collection-labeling"
       ],
       "topics": [
         {
@@ -1379,7 +1387,10 @@
       "related": [
         "ma-linear-methods",
         "ma-kernel-methods",
-        "ai-continual-lifelong-learning"
+        "ai-continual-lifelong-learning",
+        "el-ml-algorithms-for-resource-constrained-devices",
+        "ai-self-supervised-representation-learning",
+        "ai-anomaly-detection"
       ],
       "topics": [
         {
@@ -1673,6 +1684,9 @@
       "prerequisites": [
         "ai-types-of-machine-learning"
       ],
+      "related": [
+        "el-ml-algorithms-for-resource-constrained-devices"
+      ],
       "topics": [
         {
           "id": "ai-ensemble-methods-1",
@@ -1863,7 +1877,8 @@
       "summary": "The building blocks of deep learning: perceptrons and MLPs, activations, losses, backpropagation, initialization and gradient-based optimizers.",
       "prerequisites": [
         "ai-types-of-machine-learning",
-        "ma-calculus"
+        "ma-multivariable-calculus",
+        "ma-linear-algebra"
       ],
       "related": [
         "ma-neural-network-mathematics"
@@ -2008,6 +2023,10 @@
       "summary": "The software used to build and train neural networks: PyTorch, TensorFlow/Keras, JAX and model exchange with ONNX.",
       "prerequisites": [
         "ai-neural-network-foundations"
+      ],
+      "related": [
+        "cs-gpu-programming",
+        "el-ml-frameworks-for-embedded"
       ],
       "topics": [
         {
@@ -2567,7 +2586,8 @@
         "ai-regularization-normalization"
       ],
       "related": [
-        "ai-special-deep-learning-topics"
+        "ai-special-deep-learning-topics",
+        "ai-graph-based-ml"
       ],
       "topics": [
         {
@@ -2705,7 +2725,8 @@
       ],
       "related": [
         "ai-graph-neural-networks",
-        "ma-neural-differential-equations"
+        "ma-neural-differential-equations",
+        "ai-inference-optimization"
       ],
       "topics": [
         {
@@ -2796,12 +2817,13 @@
       "priority": "important",
       "summary": "The optimization theory behind learning: convex and non-convex optimization, stochastic and second-order methods, constraints and convergence.",
       "prerequisites": [
-        "ai-neural-network-foundations",
-        "ma-convex-optimization"
+        "ai-neural-network-foundations"
       ],
       "related": [
         "ma-optimization-algorithms",
-        "ma-gradient-based-optimization"
+        "ma-gradient-based-optimization",
+        "ma-convex-optimization",
+        "ma-nonlinear-programming"
       ],
       "topics": [
         {
@@ -2893,7 +2915,9 @@
         "ma-algorithm-analysis"
       ],
       "related": [
-        "ma-complexity-theory"
+        "ma-complexity-theory",
+        "cs-algorithms",
+        "cs-advanced-algorithms"
       ],
       "topics": [
         {
@@ -3545,6 +3569,9 @@
       "prerequisites": [
         "ai-programming-tools"
       ],
+      "related": [
+        "cs-information-retrieval"
+      ],
       "topics": [
         {
           "id": "ai-text-preprocessing-1",
@@ -3758,7 +3785,9 @@
         "ai-attention-transformers"
       ],
       "related": [
-        "ai-speech-audio-processing"
+        "ai-speech-audio-processing",
+        "cs-information-retrieval",
+        "ai-conversational-ai-voice-assistants"
       ],
       "topics": [
         {
@@ -4154,7 +4183,8 @@
       ],
       "related": [
         "el-image-processing",
-        "el-feature-detection-matching"
+        "el-feature-detection-matching",
+        "el-image-acquisition"
       ],
       "topics": [
         {
@@ -4225,7 +4255,9 @@
         "ai-image-processing-fundamentals"
       ],
       "related": [
-        "el-object-detection-recognition"
+        "el-object-detection-recognition",
+        "el-feature-detection-matching",
+        "ai-convolutional-neural-networks-cnns"
       ],
       "topics": [
         {
@@ -4332,7 +4364,9 @@
       "related": [
         "el-3d-vision",
         "el-stereo-vision-depth",
-        "ai-robot-perception"
+        "ai-robot-perception",
+        "cs-computer-graphics",
+        "cs-virtual-augmented-reality"
       ],
       "topics": [
         {
@@ -4564,7 +4598,8 @@
       ],
       "related": [
         "ai-advanced-nlp",
-        "ai-databases"
+        "ai-databases",
+        "cs-information-retrieval"
       ],
       "topics": [
         {
@@ -4632,7 +4667,8 @@
         "ai-attention-transformers"
       ],
       "related": [
-        "ai-llm-fine-tuning"
+        "ai-llm-fine-tuning",
+        "cs-ai-assisted-software-development"
       ],
       "topics": [
         {
@@ -4822,7 +4858,9 @@
         "ai-llm-application-engineering"
       ],
       "related": [
-        "ai-multi-agent-systems"
+        "ai-multi-agent-systems",
+        "cs-ai-assisted-software-development",
+        "ai-conversational-ai-voice-assistants"
       ],
       "topics": [
         {
@@ -5384,7 +5422,8 @@
       ],
       "related": [
         "ai-business-analytics",
-        "ai-graph-based-ml"
+        "ai-graph-based-ml",
+        "ai-multi-armed-bandits"
       ],
       "topics": [
         {
@@ -5454,7 +5493,8 @@
       ],
       "related": [
         "ma-network-science",
-        "ai-graph-neural-networks"
+        "ai-graph-neural-networks",
+        "ai-recommender-systems"
       ],
       "topics": [
         {
@@ -5497,6 +5537,11 @@
       "prerequisites": [
         "ai-mathematics-statistics",
         "ai-programming-tools"
+      ],
+      "related": [
+        "ma-descriptive-statistics",
+        "cs-information-visualization",
+        "el-analytics-visualization"
       ],
       "topics": [
         {
@@ -5548,7 +5593,10 @@
         "ai-programming-tools"
       ],
       "related": [
-        "ai-retrieval-augmented-generation"
+        "ai-retrieval-augmented-generation",
+        "cs-databases",
+        "cs-nosql-data-systems",
+        "el-data-management"
       ],
       "topics": [
         {
@@ -5642,6 +5690,10 @@
         "ai-types-of-machine-learning",
         "ai-databases"
       ],
+      "related": [
+        "cs-information-retrieval",
+        "ai-anomaly-detection"
+      ],
       "topics": [
         {
           "id": "ai-data-mining-1",
@@ -5685,7 +5737,9 @@
         "ma-inferential-statistics"
       ],
       "related": [
-        "ai-causal-inference"
+        "ai-causal-inference",
+        "ai-time-series-forecasting",
+        "ai-recommender-systems"
       ],
       "topics": [
         {
@@ -5747,7 +5801,8 @@
         "ai-databases"
       ],
       "related": [
-        "el-data-management"
+        "el-data-management",
+        "cs-data-engineering"
       ],
       "topics": [
         {
@@ -5806,6 +5861,11 @@
       "prerequisites": [
         "ai-data-engineering"
       ],
+      "related": [
+        "cs-data-engineering",
+        "cs-distributed-systems",
+        "cs-nosql-data-systems"
+      ],
       "topics": [
         {
           "id": "ai-big-data-technologies-1",
@@ -5860,6 +5920,9 @@
       "summary": "Managing ML work from experiment to production: ML system design, experiment tracking, data and model versioning, registries, pipelines and reproducibility.",
       "prerequisites": [
         "ai-ml-experimentation-evaluation"
+      ],
+      "related": [
+        "cs-devops-cicd"
       ],
       "topics": [
         {
@@ -5929,6 +5992,9 @@
       "summary": "Putting models into production: serving frameworks, APIs, packaging, containers, serverless and edge deployment, batch versus online inference.",
       "prerequisites": [
         "ai-ml-lifecycle-management"
+      ],
+      "related": [
+        "ai-llm-application-engineering"
       ],
       "topics": [
         {
@@ -6008,6 +6074,9 @@
       "summary": "Keeping deployed models healthy: monitoring, data and concept drift detection, alerting, and safe rollout strategies such as shadow and canary deployments.",
       "prerequisites": [
         "ai-model-deployment"
+      ],
+      "related": [
+        "cs-site-reliability-engineering"
       ],
       "topics": [
         {
@@ -6102,6 +6171,9 @@
       "prerequisites": [
         "ai-model-deployment"
       ],
+      "related": [
+        "cs-cloud-computing"
+      ],
       "topics": [
         {
           "id": "ai-cloud-ml-platforms-1",
@@ -6129,11 +6201,15 @@
       "priority": "important",
       "summary": "The chips that run AI: GPU architecture and CUDA, TPUs, FPGAs, AI ASICs, memory and interconnect bottlenecks, and neuromorphic and quantum hardware.",
       "prerequisites": [
-        "ai-neural-network-foundations"
+        "ai-neural-network-foundations",
+        "cs-computer-architecture"
       ],
       "related": [
         "el-hardware-accelerators",
-        "el-neuromorphic-computing"
+        "el-neuromorphic-computing",
+        "cs-advanced-computer-architecture",
+        "cs-gpu-programming",
+        "cs-emerging-systems"
       ],
       "topics": [
         {
@@ -6193,7 +6269,12 @@
       "summary": "Training large models across many accelerators with data, tensor and pipeline parallelism, ZeRO/FSDP and collective communication.",
       "prerequisites": [
         "ai-hardware-for-ai",
-        "ai-deep-learning-frameworks"
+        "ai-deep-learning-frameworks",
+        "cs-parallel-computing"
+      ],
+      "related": [
+        "cs-distributed-systems",
+        "cs-high-performance-computing"
       ],
       "topics": [
         {
@@ -6334,12 +6415,14 @@
       "priority": "important",
       "summary": "Running ML on phones, microcontrollers and embedded boards with TinyML, mobile frameworks and edge accelerators.",
       "prerequisites": [
-        "ai-inference-optimization"
+        "ai-inference-optimization",
+        "el-embedded-systems-fundamentals"
       ],
       "related": [
         "el-tinyml-tiny-machine-learning",
         "el-deep-learning-on-edge",
-        "el-edge-ai-for-vision"
+        "el-edge-ai-for-vision",
+        "el-edge-intelligence"
       ],
       "topics": [
         {
@@ -6401,7 +6484,8 @@
       "summary": "What robots are and how they are built: the sense-plan-act loop, morphologies, degrees of freedom, workspace, components and specifications.",
       "prerequisites": [],
       "related": [
-        "el-robot-types-applications"
+        "el-robot-types-applications",
+        "el-robot-operating-system-ros"
       ],
       "topics": [
         {
@@ -6478,13 +6562,17 @@
       "priority": "core",
       "summary": "The hardware that lets robots move and perceive: electric, hydraulic and pneumatic actuators, transmissions, and proprioceptive and exteroceptive sensors.",
       "prerequisites": [
-        "ai-robot-fundamentals"
+        "ai-robot-fundamentals",
+        "el-basic-electricity",
+        "ph-introductory-mechanics"
       ],
       "related": [
         "el-actuators",
         "el-actuators-drives",
         "el-motor-control",
-        "el-sensor-fusion"
+        "el-sensor-fusion",
+        "me-actuators-drive-trains",
+        "me-mechatronics"
       ],
       "topics": [
         {
@@ -6588,7 +6676,8 @@
       "summary": "How robot software is structured and built with ROS 2, from nodes, topics and transforms to navigation, manipulation and physics simulation.",
       "prerequisites": [
         "ai-robot-fundamentals",
-        "ai-programming-tools"
+        "cs-command-line-shell",
+        "cs-object-oriented-programming"
       ],
       "related": [
         "el-robot-operating-system-ros"
@@ -6666,10 +6755,12 @@
       "prerequisites": [
         "ai-robot-fundamentals",
         "ma-linear-algebra",
-        "ph-classical-mechanics"
+        "me-dynamics"
       ],
       "related": [
-        "el-kinematics-dynamics"
+        "el-kinematics-dynamics",
+        "me-robot-mechanics",
+        "me-kinematics-of-mechanisms"
       ],
       "topics": [
         {
@@ -6740,12 +6831,14 @@
       "priority": "core",
       "summary": "Feedback control for robots: PID, state-space, optimal, nonlinear, robust, adaptive and model-predictive control, plus force and visual servoing.",
       "prerequisites": [
-        "ai-kinematics-dynamics"
+        "ai-kinematics-dynamics",
+        "ma-integral-transforms"
       ],
       "related": [
         "ma-control-theory",
         "el-control-theory",
-        "el-robot-control"
+        "el-robot-control",
+        "me-feedback-control"
       ],
       "topics": [
         {
@@ -6879,7 +6972,9 @@
       ],
       "related": [
         "el-path-planning-navigation",
-        "el-simultaneous-localization-and-mapping-slam"
+        "el-simultaneous-localization-and-mapping-slam",
+        "el-autonomous-navigation-systems",
+        "ai-mobile-robotics"
       ],
       "topics": [
         {
@@ -7019,7 +7114,8 @@
       ],
       "related": [
         "el-perception-sensing",
-        "ai-3d-computer-vision"
+        "ai-3d-computer-vision",
+        "el-simultaneous-localization-and-mapping-slam"
       ],
       "topics": [
         {
@@ -7075,7 +7171,9 @@
         "ai-robot-fundamentals"
       ],
       "related": [
-        "el-robot-types-applications"
+        "el-robot-types-applications",
+        "ai-legged-locomotion",
+        "ai-humanoid-robotics"
       ],
       "topics": [
         {
@@ -7215,7 +7313,8 @@
       "summary": "Wheeled robots that move through the world: locomotion and kinematic models, probabilistic localization, mapping, SLAM and autonomous navigation.",
       "prerequisites": [
         "ai-motion-planning-navigation",
-        "ai-robot-perception"
+        "ai-robot-perception",
+        "ma-probability-theory"
       ],
       "related": [
         "ai-motion-planning-navigation",
@@ -7355,10 +7454,13 @@
       "summary": "Modelling, controlling and automating flying robots, from quadrotor dynamics and flight controllers to vision-based navigation in GPS-denied spaces.",
       "prerequisites": [
         "ai-control-systems",
-        "ai-robot-perception"
+        "ai-robot-perception",
+        "ae-aerospace-dynamics"
       ],
       "related": [
-        "el-avionics-systems"
+        "el-avionics-systems",
+        "ae-flight-dynamics",
+        "ae-uav-drone-engineering"
       ],
       "topics": [
         {
@@ -7426,7 +7528,8 @@
         "ai-control-systems"
       ],
       "related": [
-        "ai-types-of-robots-applications"
+        "ai-types-of-robots-applications",
+        "bi-biomechanics"
       ],
       "topics": [
         {
@@ -7495,7 +7598,8 @@
         "ai-manipulation"
       ],
       "related": [
-        "ai-types-of-robots-applications"
+        "ai-types-of-robots-applications",
+        "me-robot-mechanism-design"
       ],
       "topics": [
         {
@@ -7553,11 +7657,16 @@
       "summary": "Robots built from compliant materials, with soft actuators and sensors, continuum models and control, for safe grasping, medical devices and bio-inspired motion.",
       "prerequisites": [
         "ai-kinematics-dynamics",
-        "ai-actuators-sensors"
+        "ai-actuators-sensors",
+        "mt-polymer-properties"
       ],
       "related": [
         "ph-soft-matter-physics",
-        "el-flexible-printed-electronics"
+        "el-flexible-printed-electronics",
+        "mt-soft-materials",
+        "mt-electroactive-polymers-artificial-muscles",
+        "me-soft-robotics-mechanics",
+        "ai-wearable-robotics-exoskeletons"
       ],
       "topics": [
         {
@@ -7687,6 +7796,10 @@
         "ai-motion-planning-navigation",
         "ai-robot-perception"
       ],
+      "related": [
+        "me-robot-mechanism-design",
+        "me-robot-mechanics"
+      ],
       "topics": [
         {
           "id": "ai-manipulation-6",
@@ -7808,6 +7921,9 @@
       "prerequisites": [
         "ai-actuators-sensors"
       ],
+      "related": [
+        "cs-hci"
+      ],
       "topics": [
         {
           "id": "ai-human-robot-interaction-hri-1",
@@ -7874,12 +7990,16 @@
       "summary": "Robots worn on the body, including powered exoskeletons, soft exosuits and prostheses, that augment or restore human strength and mobility.",
       "prerequisites": [
         "ai-control-systems",
-        "ai-human-robot-interaction-hri"
+        "ai-human-robot-interaction-hri",
+        "bi-biomechanics",
+        "me-machine-design-fundamentals"
       ],
       "related": [
         "el-wearable-technology-deep-dive",
         "el-biomedical-signal-processing",
-        "ai-soft-robotics"
+        "ai-soft-robotics",
+        "me-wearable-mechanisms-exoskeletons",
+        "bi-musculoskeletal-modeling-human-augmentation"
       ],
       "topics": [
         {
@@ -7953,7 +8073,8 @@
       ],
       "related": [
         "el-extended-reality-integration",
-        "el-display-technologies"
+        "el-display-technologies",
+        "cs-virtual-augmented-reality"
       ],
       "topics": [
         {
@@ -8012,6 +8133,9 @@
       "prerequisites": [
         "ai-core-ai-concepts"
       ],
+      "related": [
+        "cs-computing-ethics"
+      ],
       "topics": [
         {
           "id": "ai-ai-governance-policy-9",
@@ -8068,6 +8192,9 @@
       "summary": "Detecting, measuring and mitigating unfair bias in ML systems, with fairness metrics, mitigation methods and algorithmic audits.",
       "prerequisites": [
         "ai-ml-experimentation-evaluation"
+      ],
+      "related": [
+        "cs-computing-ethics"
       ],
       "topics": [
         {
@@ -8332,7 +8459,10 @@
       ],
       "related": [
         "el-privacy-protection",
-        "el-federated-learning"
+        "el-federated-learning",
+        "cs-security-governance-privacy",
+        "cs-advanced-cryptographic-systems",
+        "ai-robustness-security"
       ],
       "topics": [
         {
@@ -8376,7 +8506,8 @@
         "ai-classical-ai-gofai-good-old-fashioned-ai"
       ],
       "related": [
-        "ma-stochastic-optimization"
+        "ma-stochastic-optimization",
+        "ai-swarm-multi-robot-systems"
       ],
       "topics": [
         {
@@ -8449,10 +8580,13 @@
       "priority": "advanced",
       "summary": "AI modelled on the brain: spiking neural networks, neuromorphic computing, brain-computer interfaces, Hebbian learning and predictive coding.",
       "prerequisites": [
-        "ai-neural-network-foundations"
+        "ai-neural-network-foundations",
+        "bi-neuroscience-fundamentals"
       ],
       "related": [
-        "el-neuromorphic-computing"
+        "el-neuromorphic-computing",
+        "bi-computational-neuroscience",
+        "bi-brain-computer-interfaces"
       ],
       "topics": [
         {
@@ -8490,6 +8624,10 @@
       "summary": "Unified computational theories of mind such as ACT-R and Soar, with their memory systems and use in cognitive modelling.",
       "prerequisites": [
         "ai-knowledge-representation-reasoning"
+      ],
+      "related": [
+        "bi-cognitive-neuroscience",
+        "ai-cognitive-ai"
       ],
       "topics": [
         {
@@ -8635,6 +8773,9 @@
       "prerequisites": [
         "ai-regularization-normalization"
       ],
+      "related": [
+        "ai-types-of-machine-learning"
+      ],
       "topics": [
         {
           "id": "ai-continual-lifelong-learning-1",
@@ -8678,7 +8819,11 @@
         "ai-special-deep-learning-topics"
       ],
       "related": [
-        "ph-computational-physics"
+        "ph-computational-physics",
+        "bi-machine-learning-biology",
+        "ch-cheminformatics-ml",
+        "mt-materials-informatics",
+        "ch-automated-ai-driven-chemistry"
       ],
       "topics": [
         {
@@ -8799,7 +8944,8 @@
         "ph-quantum-information-science"
       ],
       "related": [
-        "ma-quantum-computation-theory"
+        "ma-quantum-computation-theory",
+        "cs-quantum-computing"
       ],
       "topics": [
         {

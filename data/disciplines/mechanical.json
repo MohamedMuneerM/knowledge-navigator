@@ -13,7 +13,9 @@
       "level": 1,
       "priority": "core",
       "summary": "A first contact with how mechanical engineers think and work: units, estimation, structured problem solving and a simple design-build-test process.",
-      "prerequisites": [],
+      "prerequisites": [
+        "ma-elementary-intermediate-algebra"
+      ],
       "topics": [
         {
           "name": "What mechanical engineers do: fields, industries and career paths",
@@ -236,11 +238,14 @@
       "summary": "Programming and numerical methods that mechanical engineers use daily to solve equations, fit data and simulate systems.",
       "prerequisites": [
         "me-introduction-to-engineering-mechanical-design",
-        "ma-calculus"
+        "ma-calculus",
+        "cs-programming-fundamentals",
+        "ma-linear-algebra"
       ],
       "related": [
         "ma-numerical-methods-for-calculus",
-        "ph-computational-physics"
+        "ph-computational-physics",
+        "ae-computational-methods-aerospace"
       ],
       "topics": [
         {
@@ -372,7 +377,9 @@
       "level": 1,
       "priority": "core",
       "summary": "The graphical language of engineering: freehand sketching, orthographic and pictorial views, sections, dimensions and reading drawings.",
-      "prerequisites": [],
+      "prerequisites": [
+        "ma-euclidean-geometry"
+      ],
       "topics": [
         {
           "name": "Freehand sketching techniques: lines, circles and proportions",
@@ -487,6 +494,9 @@
           "name": "Product data management (PDM/PLM), revision control and model-based definition (MBD)",
           "id": "me-cad-solid-modeling-13"
         }
+      ],
+      "related": [
+        "cs-geometric-modeling"
       ]
     },
     {
@@ -498,7 +508,8 @@
       "summary": "Specifying and verifying allowable variation: limits and fits, geometric dimensioning and tolerancing, tolerance stack-ups and inspection.",
       "prerequisites": [
         "me-cad-solid-modeling",
-        "me-manufacturing-processes"
+        "me-manufacturing-processes",
+        "ma-descriptive-statistics"
       ],
       "topics": [
         {
@@ -578,7 +589,8 @@
       "summary": "Equilibrium of particles and rigid bodies: forces, moments, free-body diagrams, trusses, frames, friction and section properties.",
       "prerequisites": [
         "me-introduction-to-engineering-mechanical-design",
-        "ma-calculus"
+        "ma-calculus",
+        "ph-introductory-mechanics"
       ],
       "related": [
         "ph-classical-mechanics",
@@ -654,7 +666,8 @@
         "me-statics"
       ],
       "related": [
-        "ph-classical-mechanics"
+        "ph-classical-mechanics",
+        "ae-aerospace-dynamics"
       ],
       "topics": [
         {
@@ -724,10 +737,14 @@
       "summary": "Three-dimensional rigid-body dynamics and the analytical methods used to model and simulate complex machines, vehicles and robots.",
       "prerequisites": [
         "me-dynamics",
-        "ph-classical-mechanics"
+        "ph-classical-mechanics",
+        "ma-linear-algebra"
       ],
       "related": [
-        "ma-classical-mechanics"
+        "ma-classical-mechanics",
+        "ae-attitude-kinematics-dynamics",
+        "ae-flight-dynamics",
+        "cs-computer-animation-simulation"
       ],
       "topics": [
         {
@@ -784,10 +801,16 @@
       "priority": "core",
       "summary": "How the structure of metals, polymers, ceramics and composites determines their properties, and how processing and heat treatment change them.",
       "prerequisites": [
-        "me-introduction-to-engineering-mechanical-design"
+        "me-introduction-to-engineering-mechanical-design",
+        "ch-introductory-chemistry",
+        "mt-intro-to-materials"
       ],
       "related": [
-        "ph-materials-physics"
+        "ph-materials-physics",
+        "mt-atomic-bonding",
+        "mt-crystal-structures",
+        "mt-phase-diagrams",
+        "mt-mechanical-properties"
       ],
       "topics": [
         {
@@ -914,6 +937,10 @@
           "name": "Selection software and databases (e.g. Granta EduPack)",
           "id": "me-materials-selection-10"
         }
+      ],
+      "related": [
+        "mt-materials-selection",
+        "ae-aerospace-materials"
       ]
     },
     {
@@ -927,7 +954,8 @@
         "me-statics"
       ],
       "related": [
-        "ma-solid-mechanics"
+        "ma-solid-mechanics",
+        "mt-mechanical-properties"
       ],
       "topics": [
         {
@@ -1060,6 +1088,9 @@
           "name": "Experimental stress analysis: strain gauges, photoelasticity, digital image correlation",
           "id": "me-advanced-mechanics-of-materials-13"
         }
+      ],
+      "related": [
+        "ae-aerospace-structures"
       ]
     },
     {
@@ -1126,6 +1157,12 @@
           "name": "Nondestructive inspection for cracks (ultrasonic, magnetic particle, dye penetrant, eddy current, radiography)",
           "id": "me-fatigue-fracture-creep-13"
         }
+      ],
+      "related": [
+        "mt-fracture-mechanics",
+        "mt-fatigue-failure-analysis",
+        "mt-creep",
+        "ae-fatigue-fracture-damage-tolerance"
       ]
     },
     {
@@ -1137,7 +1174,8 @@
       "summary": "The rigorous tensor theory of deformable solids, covering elasticity, hyperelasticity, viscoelasticity and plasticity for advanced stress analysis and modelling.",
       "prerequisites": [
         "me-advanced-mechanics-of-materials",
-        "ma-partial-differential-equations-pdes"
+        "ma-partial-differential-equations-pdes",
+        "ma-tensor-analysis"
       ],
       "related": [
         "ma-solid-mechanics"
@@ -1198,7 +1236,8 @@
       "summary": "Designing stiff, strong structures at minimum mass with thin-walled sections, sandwich panels, composite laminates, lattices and structural optimisation.",
       "prerequisites": [
         "me-advanced-mechanics-of-materials",
-        "me-materials-selection"
+        "me-materials-selection",
+        "ma-linear-algebra"
       ],
       "topics": [
         {
@@ -1249,6 +1288,13 @@
           "name": "Frames, shells and protective panels for wearable and mobile machines",
           "id": "me-lightweight-structures-composites-12"
         }
+      ],
+      "related": [
+        "mt-composites",
+        "mt-fibre-composites-mechanics-manufacturing",
+        "mt-lightweight-structures",
+        "ae-composite-structures",
+        "ae-lightweight-structural-design"
       ]
     },
     {
@@ -1260,11 +1306,13 @@
       "summary": "Energy, heat and work in engineering systems: properties of substances, the first and second laws, entropy and exergy.",
       "prerequisites": [
         "me-introduction-to-engineering-mechanical-design",
-        "ma-calculus"
+        "ma-calculus",
+        "ph-introductory-heat-thermodynamics"
       ],
       "related": [
         "ph-thermodynamics-statistical-mechanics",
-        "ma-thermodynamics"
+        "ma-thermodynamics",
+        "ch-chemical-thermodynamics"
       ],
       "topics": [
         {
@@ -1339,7 +1387,8 @@
       "priority": "core",
       "summary": "Applying thermodynamics to power and refrigeration cycles, gas mixtures, psychrometrics, combustion and chemical equilibrium.",
       "prerequisites": [
-        "me-engineering-thermodynamics"
+        "me-engineering-thermodynamics",
+        "ch-introductory-chemistry"
       ],
       "topics": [
         {
@@ -1390,6 +1439,9 @@
           "name": "Exergy analysis of cycles and energy systems",
           "id": "me-applied-thermodynamics-12"
         }
+      ],
+      "related": [
+        "ae-aerospace-thermodynamics"
       ]
     },
     {
@@ -1401,11 +1453,13 @@
       "summary": "Fluid statics and flow for engineers: control-volume analysis, dimensional analysis, pipe flow, drag and lift, and pumps.",
       "prerequisites": [
         "me-dynamics",
-        "me-engineering-thermodynamics"
+        "me-engineering-thermodynamics",
+        "ma-vector-calculus"
       ],
       "related": [
         "ph-fluid-mechanics",
-        "ma-fluid-mechanics"
+        "ma-fluid-mechanics",
+        "ch-transport-phenomena"
       ],
       "topics": [
         {
@@ -1474,7 +1528,9 @@
         "ma-partial-differential-equations-pdes"
       ],
       "related": [
-        "ph-fluid-mechanics"
+        "ph-fluid-mechanics",
+        "ae-compressible-flow-gas-dynamics",
+        "ae-viscous-flow-boundary-layers"
       ],
       "topics": [
         {
@@ -1591,6 +1647,9 @@
           "name": "Mass transfer: Fick's law, diffusion and heat-mass transfer analogies",
           "id": "me-heat-transfer-14"
         }
+      ],
+      "related": [
+        "ch-transport-phenomena"
       ]
     },
     {
@@ -1660,7 +1719,8 @@
       "summary": "The chemistry and physics of flames, burners and fuels, with emphasis on engines, furnaces and pollutant control.",
       "prerequisites": [
         "me-applied-thermodynamics",
-        "me-heat-transfer"
+        "me-heat-transfer",
+        "ch-chemical-kinetics"
       ],
       "topics": [
         {
@@ -1711,6 +1771,11 @@
           "name": "Alternative fuels: hydrogen, ammonia and biofuels",
           "id": "me-combustion-engineering-12"
         }
+      ],
+      "related": [
+        "ch-combustion-chemistry",
+        "ae-combustion-fundamentals",
+        "ae-combustion-instability"
       ]
     },
     {
@@ -1722,7 +1787,8 @@
       "summary": "Building and analysing mathematical models of mechanical, electrical, fluid and thermal systems as the foundation for vibrations, control and mechatronics.",
       "prerequisites": [
         "me-dynamics",
-        "ma-ordinary-differential-equations-odes"
+        "ma-ordinary-differential-equations-odes",
+        "ph-introductory-electricity-magnetism"
       ],
       "related": [
         "ma-systems-theory-control",
@@ -1794,7 +1860,8 @@
       "related": [
         "ph-measurement-instrumentation",
         "el-sensor-interfacing",
-        "el-calibration"
+        "el-calibration",
+        "ae-aerospace-instrumentation"
       ],
       "topics": [
         {
@@ -1864,7 +1931,8 @@
       "related": [
         "el-control-theory",
         "ma-control-theory",
-        "ai-control-systems"
+        "ai-control-systems",
+        "ae-feedback-control-aerospace"
       ],
       "topics": [
         {
@@ -1989,6 +2057,9 @@
           "name": "Balancing of rotors (single- and two-plane)",
           "id": "me-mechanical-vibrations-13"
         }
+      ],
+      "related": [
+        "ph-waves-oscillations"
       ]
     },
     {
@@ -2002,7 +2073,9 @@
         "me-mechanical-vibrations"
       ],
       "related": [
-        "ph-acoustics"
+        "ph-acoustics",
+        "ae-unsteady-aerodynamics-aeroacoustics",
+        "ae-combustion-instability"
       ],
       "topics": [
         {
@@ -2072,7 +2145,9 @@
         "ma-probability-theory"
       ],
       "related": [
-        "ph-chaos-theory-nonlinear-dynamics"
+        "ph-chaos-theory-nonlinear-dynamics",
+        "ae-aeroelasticity",
+        "ae-structural-dynamics-vibration"
       ],
       "topics": [
         {
@@ -2605,6 +2680,9 @@
           "name": "Tribology of polymers and biomedical implants",
           "id": "me-tribology-11"
         }
+      ],
+      "related": [
+        "mt-tribology"
       ]
     },
     {
@@ -2852,6 +2930,11 @@
           "name": "Powder metallurgy and metal injection molding",
           "id": "me-casting-forming-molding-13"
         }
+      ],
+      "related": [
+        "mt-casting-solidification",
+        "mt-deformation-processing",
+        "mt-polymer-processing"
       ]
     },
     {
@@ -2913,6 +2996,9 @@
           "name": "Robotic and automated welding",
           "id": "me-welding-joining-12"
         }
+      ],
+      "related": [
+        "mt-joining"
       ]
     },
     {
@@ -2979,6 +3065,10 @@
           "name": "AM economics and applications (tooling, medical, aerospace, robotics)",
           "id": "me-additive-manufacturing-13"
         }
+      ],
+      "related": [
+        "mt-additive-manufacturing",
+        "ae-aerospace-manufacturing"
       ]
     },
     {
@@ -3123,11 +3213,11 @@
       "summary": "The finite element method for structural, thermal and dynamic analysis, from stiffness matrices to responsible use of commercial codes.",
       "prerequisites": [
         "me-mechanics-of-materials",
-        "me-engineering-computation",
-        "ma-linear-algebra"
+        "me-engineering-computation"
       ],
       "related": [
-        "ma-numerical-solutions-of-pdes"
+        "ma-numerical-solutions-of-pdes",
+        "ae-finite-element-analysis-aerospace"
       ],
       "topics": [
         {
@@ -3205,7 +3295,9 @@
         "ma-numerical-solutions-of-pdes"
       ],
       "related": [
-        "ph-computational-physics"
+        "ph-computational-physics",
+        "ae-computational-fluid-dynamics",
+        "cs-high-performance-computing"
       ],
       "topics": [
         {
@@ -3270,7 +3362,8 @@
         "ma-optimization-algorithms"
       ],
       "related": [
-        "ma-nonlinear-programming"
+        "ma-nonlinear-programming",
+        "ae-multidisciplinary-design-optimization"
       ],
       "topics": [
         {
@@ -3470,7 +3563,8 @@
       ],
       "related": [
         "el-reliability-testing",
-        "el-reliability-fault-tolerance"
+        "el-reliability-fault-tolerance",
+        "ae-aerospace-safety-reliability"
       ],
       "topics": [
         {
@@ -3654,7 +3748,8 @@
       "summary": "Integrating mechanics, electronics, sensors, actuators and embedded control into working electromechanical products.",
       "prerequisites": [
         "me-measurements-instrumentation",
-        "me-feedback-control"
+        "me-feedback-control",
+        "cs-programming-fundamentals"
       ],
       "related": [
         "el-motor-control",
@@ -3919,11 +4014,13 @@
       "summary": "Mechanics applied to the human body: tissue mechanics, muscles and joints, human movement analysis and musculoskeletal modelling.",
       "prerequisites": [
         "me-mechanics-of-materials",
-        "me-dynamics"
+        "me-dynamics",
+        "bi-human-anatomy"
       ],
       "related": [
         "ph-biophysics",
-        "ma-solid-mechanics"
+        "ma-solid-mechanics",
+        "bi-biomechanics"
       ],
       "topics": [
         {
@@ -3988,7 +4085,9 @@
         "me-robot-mechanism-design"
       ],
       "related": [
-        "ai-human-robot-interaction-hri"
+        "ai-human-robot-interaction-hri",
+        "ai-wearable-robotics-exoskeletons",
+        "bi-musculoskeletal-modeling-human-augmentation"
       ],
       "topics": [
         {
@@ -4252,6 +4351,10 @@
           "name": "Mechanical design of rotors: blade stresses, cooling and materials",
           "id": "me-turbomachinery-13"
         }
+      ],
+      "related": [
+        "ae-turbomachinery",
+        "ae-gas-turbine-engines"
       ]
     },
     {
@@ -4266,7 +4369,8 @@
         "me-heat-transfer"
       ],
       "related": [
-        "ph-energy-physics"
+        "ph-energy-physics",
+        "el-power-generation"
       ],
       "topics": [
         {
@@ -4395,12 +4499,18 @@
       "prerequisites": [
         "me-heat-transfer",
         "me-applied-thermodynamics",
-        "el-battery-technologies"
+        "el-battery-technologies",
+        "ch-redox-electrochemistry-basics"
       ],
       "related": [
         "el-battery-management-systems-bms",
         "el-energy-harvesting",
-        "ph-energy-physics"
+        "ph-energy-physics",
+        "ch-battery-chemistry",
+        "ch-fuel-cells-hydrogen",
+        "mt-battery-materials",
+        "ae-spacecraft-power-systems",
+        "ae-electric-aircraft-advanced-air-mobility"
       ],
       "topics": [
         {
@@ -4469,7 +4579,8 @@
       ],
       "related": [
         "el-thermal-management",
-        "el-thermal-design"
+        "el-thermal-design",
+        "ae-spacecraft-thermal-control"
       ],
       "topics": [
         {
@@ -4662,7 +4773,10 @@
       ],
       "related": [
         "el-actuators",
-        "el-energy-harvesting"
+        "el-energy-harvesting",
+        "mt-smart-materials",
+        "mt-shape-memory-alloys",
+        "mt-electroactive-polymers-artificial-muscles"
       ],
       "topics": [
         {
@@ -4719,7 +4833,9 @@
         "me-continuum-mechanics-elasticity-plasticity"
       ],
       "related": [
-        "ph-soft-matter-physics"
+        "ph-soft-matter-physics",
+        "ai-soft-robotics",
+        "mt-soft-materials"
       ],
       "topics": [
         {
@@ -4804,6 +4920,10 @@
           "name": "Computational and inverse design of metamaterials",
           "id": "me-mechanical-metamaterials-8"
         }
+      ],
+      "related": [
+        "mt-metamaterials",
+        "mt-lightweight-structures"
       ]
     },
     {
@@ -4820,7 +4940,8 @@
       "related": [
         "el-mems-devices",
         "el-mems-sensor-technologies",
-        "ph-nanoscience-nanotechnology"
+        "ph-nanoscience-nanotechnology",
+        "mt-nanomaterials"
       ],
       "topics": [
         {

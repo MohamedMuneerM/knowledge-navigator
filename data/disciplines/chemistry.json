@@ -13,7 +13,9 @@
       "level": 1,
       "priority": "core",
       "summary": "First contact with chemistry: matter, atoms, the periodic table, simple bonding, the mole and reactions, for learners with only high-school basics.",
-      "prerequisites": [],
+      "prerequisites": [
+        "ma-elementary-intermediate-algebra"
+      ],
       "topics": [
         {
           "name": "What chemistry studies: matter, properties, physical vs chemical change",
@@ -93,6 +95,9 @@
       "priority": "core",
       "summary": "How to work safely with chemicals and carry out and record basic laboratory measurements.",
       "prerequisites": [],
+      "related": [
+        "bi-laboratory-fundamentals"
+      ],
       "topics": [
         {
           "name": "Lab rules, personal protective equipment and emergency equipment",
@@ -251,6 +256,9 @@
       "summary": "Why atoms bond, how molecules get their shapes, and how bonding controls physical properties.",
       "prerequisites": [
         "ch-atomic-structure-periodicity"
+      ],
+      "related": [
+        "mt-atomic-bonding"
       ],
       "topics": [
         {
@@ -417,7 +425,8 @@
       "priority": "core",
       "summary": "How fast reactions go, rate laws, activation energy, mechanisms and catalysis at general-chemistry level.",
       "prerequisites": [
-        "ch-states-of-matter-solutions"
+        "ch-states-of-matter-solutions",
+        "ma-precalculus"
       ],
       "topics": [
         {
@@ -470,7 +479,8 @@
       "priority": "core",
       "summary": "Dynamic equilibrium, equilibrium constants and how equilibria respond to change.",
       "prerequisites": [
-        "ch-thermochemistry"
+        "ch-thermochemistry",
+        "ma-precalculus"
       ],
       "topics": [
         {
@@ -1832,12 +1842,14 @@
       "summary": "The laws of thermodynamics applied rigorously to phases, mixtures, solutions and chemical equilibrium.",
       "prerequisites": [
         "ch-chemical-equilibrium",
-        "ma-calculus"
+        "ma-multivariable-calculus"
       ],
       "related": [
         "ph-thermodynamics-statistical-mechanics",
         "ma-thermodynamics",
-        "ph-chemical-physics-physical-chemistry"
+        "ph-chemical-physics-physical-chemistry",
+        "mt-thermodynamics-of-materials",
+        "me-engineering-thermodynamics"
       ],
       "topics": [
         {
@@ -1908,12 +1920,17 @@
       "prerequisites": [
         "ch-chemical-bonding-molecular-structure",
         "ma-linear-algebra",
-        "ma-ordinary-differential-equations-odes"
+        "ma-ordinary-differential-equations-odes",
+        "ma-multivariable-calculus",
+        "ph-introductory-waves-sound-light"
       ],
       "related": [
         "ph-quantum-mechanics",
         "ma-quantum-mechanics",
-        "ph-chemical-physics-physical-chemistry"
+        "ph-chemical-physics-physical-chemistry",
+        "ma-mathematical-chemistry",
+        "ph-atomic-physics",
+        "ph-molecular-physics"
       ],
       "topics": [
         {
@@ -1987,7 +2004,8 @@
         "ma-ordinary-differential-equations-odes"
       ],
       "related": [
-        "ph-chemical-physics-physical-chemistry"
+        "ph-chemical-physics-physical-chemistry",
+        "ma-mathematical-chemistry"
       ],
       "topics": [
         {
@@ -2061,7 +2079,7 @@
       ],
       "related": [
         "ph-chemical-physics-physical-chemistry",
-        "ph-modern-optics"
+        "ph-molecular-physics"
       ],
       "topics": [
         {
@@ -2123,7 +2141,8 @@
       "summary": "Connecting molecular energy levels to bulk thermodynamic properties through partition functions.",
       "prerequisites": [
         "ch-chemical-thermodynamics",
-        "ch-quantum-chemistry"
+        "ch-quantum-chemistry",
+        "ma-elementary-probability"
       ],
       "related": [
         "ph-thermodynamics-statistical-mechanics",
@@ -2195,6 +2214,9 @@
         "ch-molecular-spectroscopy",
         "ch-organic-reactions-ii"
       ],
+      "related": [
+        "ea-atmospheric-chemistry"
+      ],
       "topics": [
         {
           "name": "Excited states: singlets, triplets and state diagrams",
@@ -2250,7 +2272,8 @@
         "ch-organic-spectroscopy"
       ],
       "related": [
-        "ph-medical-physics"
+        "ph-medical-physics",
+        "bi-structural-biology"
       ],
       "topics": [
         {
@@ -2474,7 +2497,9 @@
         "ch-quantitative-analysis"
       ],
       "related": [
-        "ph-measurement-instrumentation"
+        "ph-measurement-instrumentation",
+        "ea-analytical-methods-in-geochemistry",
+        "mt-characterization-fundamentals"
       ],
       "topics": [
         {
@@ -2537,6 +2562,9 @@
       "prerequisites": [
         "ch-quantitative-analysis"
       ],
+      "related": [
+        "bi-protein-biochemical-methods"
+      ],
       "topics": [
         {
           "name": "Extraction: liquid-liquid, solid-phase and solid-phase microextraction",
@@ -2593,6 +2621,10 @@
       "summary": "Ionization methods, mass analyzers and tandem MS for identification and quantification from small molecules to proteins.",
       "prerequisites": [
         "ch-instrumental-analysis"
+      ],
+      "related": [
+        "bi-protein-biochemical-methods",
+        "ea-analytical-methods-in-geochemistry"
       ],
       "topics": [
         {
@@ -2699,7 +2731,10 @@
         "ch-instrumental-analysis"
       ],
       "related": [
-        "ph-solid-state-physics"
+        "ph-solid-state-physics",
+        "mt-crystallography-diffraction",
+        "mt-xray-neutron-methods",
+        "bi-structural-biology"
       ],
       "topics": [
         {
@@ -2755,7 +2790,9 @@
         "ch-instrumental-analysis"
       ],
       "related": [
-        "ph-experimental-techniques"
+        "ph-experimental-techniques",
+        "mt-electron-microscopy",
+        "mt-surface-spectroscopy-probe"
       ],
       "topics": [
         {
@@ -2858,7 +2895,8 @@
       ],
       "related": [
         "el-chemical-sensors",
-        "el-biosensors-medical-sensors"
+        "el-biosensors-medical-sensors",
+        "bi-protein-biochemical-methods"
       ],
       "topics": [
         {
@@ -2907,11 +2945,13 @@
       "priority": "important",
       "summary": "Force fields, molecular dynamics and Monte Carlo simulation for predicting structure, dynamics and free energies.",
       "prerequisites": [
-        "ch-statistical-thermodynamics"
+        "ch-statistical-thermodynamics",
+        "cs-programming-fundamentals"
       ],
       "related": [
         "ph-computational-physics",
-        "ma-monte-carlo-methods"
+        "ma-monte-carlo-methods",
+        "mt-molecular-dynamics-monte-carlo"
       ],
       "topics": [
         {
@@ -2971,7 +3011,8 @@
         "ch-quantum-chemistry"
       ],
       "related": [
-        "ph-computational-physics"
+        "ph-computational-physics",
+        "mt-dft"
       ],
       "topics": [
         {
@@ -3043,7 +3084,8 @@
       "related": [
         "ma-mathematical-chemistry",
         "ai-ai-for-science",
-        "ai-graph-based-ml"
+        "ai-graph-based-ml",
+        "mt-materials-informatics"
       ],
       "topics": [
         {
@@ -3096,7 +3138,12 @@
       "priority": "core",
       "summary": "The chemistry of proteins, enzymes, carbohydrates, lipids and nucleic acids and how their structure sets their function.",
       "prerequisites": [
-        "ch-organic-reactions-ii"
+        "ch-organic-reactions-ii",
+        "bi-introductory-biology"
+      ],
+      "related": [
+        "bi-biochemistry",
+        "bi-protein-structure-function"
       ],
       "topics": [
         {
@@ -3159,6 +3206,9 @@
       "prerequisites": [
         "ch-biochemistry-structure-function"
       ],
+      "related": [
+        "bi-metabolism"
+      ],
       "topics": [
         {
           "name": "Bioenergetics: free energy, ATP and coupled reactions",
@@ -3217,6 +3267,10 @@
         "ch-biochemistry-structure-function",
         "ch-physical-organic-chemistry"
       ],
+      "related": [
+        "bi-biochemistry",
+        "bi-protein-structure-function"
+      ],
       "topics": [
         {
           "name": "Sources of catalytic power: transition-state stabilization and proximity",
@@ -3268,7 +3322,9 @@
         "ch-statistical-thermodynamics"
       ],
       "related": [
-        "ph-biophysics"
+        "ph-biophysics",
+        "bi-structural-biology",
+        "bi-protein-structure-function"
       ],
       "topics": [
         {
@@ -3319,6 +3375,9 @@
       "prerequisites": [
         "ch-biochemistry-structure-function",
         "ch-organic-synthesis"
+      ],
+      "related": [
+        "bi-molecular-biology"
       ],
       "topics": [
         {
@@ -3375,7 +3434,11 @@
       "priority": "important",
       "summary": "How drugs and toxic chemicals act on the body and how the body absorbs, transforms and removes them.",
       "prerequisites": [
-        "ch-biochemistry-structure-function"
+        "ch-biochemistry-structure-function",
+        "bi-human-physiology"
+      ],
+      "related": [
+        "bi-pharmacology"
       ],
       "topics": [
         {
@@ -3434,6 +3497,9 @@
       "prerequisites": [
         "ch-pharmacology-toxicology",
         "ch-organic-synthesis"
+      ],
+      "related": [
+        "bi-pharmacology"
       ],
       "topics": [
         {
@@ -3501,6 +3567,9 @@
         "ch-organic-reactions-ii",
         "ch-chemical-kinetics-intro"
       ],
+      "related": [
+        "mt-polymer-structure"
+      ],
       "topics": [
         {
           "name": "Polymer basics: nomenclature, architecture and molecular-weight averages",
@@ -3565,7 +3634,9 @@
       ],
       "related": [
         "ph-solid-state-physics",
-        "ph-materials-physics"
+        "ph-materials-physics",
+        "mt-crystal-structures",
+        "mt-defects"
       ],
       "topics": [
         {
@@ -3630,7 +3701,8 @@
         "ch-statistical-thermodynamics"
       ],
       "related": [
-        "ph-soft-matter-physics"
+        "ph-soft-matter-physics",
+        "mt-polymer-properties"
       ],
       "topics": [
         {
@@ -3683,7 +3755,9 @@
         "ch-polymer-chemistry"
       ],
       "related": [
-        "el-advanced-materials"
+        "el-advanced-materials",
+        "mt-ceramics",
+        "mt-thin-films-coatings"
       ],
       "topics": [
         {
@@ -3745,7 +3819,8 @@
       ],
       "related": [
         "ph-nanoscience-nanotechnology",
-        "ph-nanophotonics-plasmonics"
+        "ph-nanophotonics-plasmonics",
+        "mt-nanomaterials"
       ],
       "topics": [
         {
@@ -3854,7 +3929,9 @@
       "related": [
         "el-semiconductor-physics",
         "el-optoelectronic-devices",
-        "el-cmos-technology"
+        "el-cmos-technology",
+        "mt-semiconductor-materials",
+        "mt-optical-photonic-materials"
       ],
       "topics": [
         {
@@ -3907,11 +3984,16 @@
       "priority": "important",
       "summary": "Chemistry of the fibres, resins, composites, ceramics and coatings used in rockets, armour and extreme environments.",
       "prerequisites": [
-        "ch-materials-chemistry"
+        "ch-materials-chemistry",
+        "mt-composites"
       ],
       "related": [
         "el-advanced-materials",
-        "ph-materials-physics"
+        "ph-materials-physics",
+        "mt-aerospace-materials",
+        "mt-thermal-protection-systems",
+        "mt-impact-protective-materials",
+        "mt-ceramic-matrix-composites"
       ],
       "topics": [
         {
@@ -3979,7 +4061,8 @@
         "ch-chemical-thermodynamics"
       ],
       "related": [
-        "ph-soft-matter-physics"
+        "ph-soft-matter-physics",
+        "mt-soft-materials"
       ],
       "topics": [
         {
@@ -4200,6 +4283,9 @@
         "ch-redox-electrochemistry-basics",
         "ch-chemical-kinetics"
       ],
+      "related": [
+        "mt-electrochemistry"
+      ],
       "topics": [
         {
           "name": "Electrode potentials and electrochemical thermodynamics",
@@ -4265,6 +4351,10 @@
       "prerequisites": [
         "ch-electrochemistry"
       ],
+      "related": [
+        "mt-corrosion",
+        "mt-high-temperature-oxidation"
+      ],
       "topics": [
         {
           "name": "Thermodynamics of corrosion and Pourbaix diagrams",
@@ -4317,7 +4407,8 @@
       ],
       "related": [
         "el-battery-technologies",
-        "el-battery-management-systems-bms"
+        "el-battery-management-systems-bms",
+        "mt-battery-materials"
       ],
       "topics": [
         {
@@ -4394,7 +4485,8 @@
       ],
       "related": [
         "el-energy-innovations",
-        "ph-energy-physics"
+        "ph-energy-physics",
+        "mt-fuel-cell-hydrogen"
       ],
       "topics": [
         {
@@ -4457,7 +4549,8 @@
       ],
       "related": [
         "ph-energy-physics",
-        "el-energy-harvesting"
+        "el-energy-harvesting",
+        "mt-photovoltaic-materials"
       ],
       "topics": [
         {
@@ -4503,6 +4596,9 @@
       "summary": "Composition, refining and properties of fossil, bio- and synthetic fuels, including aviation and rocket kerosene.",
       "prerequisites": [
         "ch-organic-reactions-i"
+      ],
+      "related": [
+        "ea-petroleum-geology"
       ],
       "topics": [
         {
@@ -4560,6 +4656,10 @@
       "summary": "The thermochemistry and chain-reaction kinetics of burning, from flame structure and ignition to pollutants and rocket chambers.",
       "prerequisites": [
         "ch-chemical-kinetics"
+      ],
+      "related": [
+        "ae-combustion-fundamentals",
+        "me-combustion-engineering"
       ],
       "topics": [
         {
@@ -4629,6 +4729,9 @@
       "summary": "The thermochemistry, properties and handling of liquid, solid, hybrid and electric-propulsion propellants, treated conceptually.",
       "prerequisites": [
         "ch-combustion-chemistry"
+      ],
+      "related": [
+        "ae-rocket-propellants-performance"
       ],
       "topics": [
         {
@@ -4712,6 +4815,9 @@
       "summary": "An academic, conceptual treatment of how energetic materials store and release energy, and how they are made safe; no synthesis.",
       "prerequisites": [
         "ch-combustion-chemistry"
+      ],
+      "related": [
+        "ae-solid-rocket-motors"
       ],
       "topics": [
         {
@@ -4821,7 +4927,10 @@
         "ch-redox-electrochemistry-basics"
       ],
       "related": [
-        "el-environmental-chemical-compliance"
+        "el-environmental-chemical-compliance",
+        "ea-water-quality-and-pollution",
+        "ea-contaminants-remediation-and-environmental-health",
+        "ea-biogeochemical-cycles"
       ],
       "topics": [
         {
@@ -4882,7 +4991,9 @@
         "ch-chemical-kinetics"
       ],
       "related": [
-        "ph-atmospheric-environmental-physics"
+        "ph-atmospheric-environmental-physics",
+        "ea-atmospheric-chemistry",
+        "ea-air-pollution-and-air-quality"
       ],
       "topics": [
         {
@@ -4946,6 +5057,11 @@
         "ch-environmental-chemistry",
         "ch-chemical-thermodynamics"
       ],
+      "related": [
+        "ea-aqueous-geochemistry",
+        "ea-chemical-oceanography",
+        "ea-water-quality-and-pollution"
+      ],
       "topics": [
         {
           "name": "Chemical speciation and equilibrium modelling",
@@ -4992,6 +5108,10 @@
         "ch-green-chemistry",
         "ch-heterogeneous-catalysis"
       ],
+      "related": [
+        "ea-subsurface-energy-and-storage",
+        "ea-climate-change-impacts-mitigation-adaptation"
+      ],
       "topics": [
         {
           "name": "CO2 capture chemistry: amine scrubbing, solid sorbents and membranes",
@@ -5037,11 +5157,15 @@
       "prerequisites": [
         "ch-descriptive-inorganic-chemistry",
         "ch-chemical-thermodynamics",
-        "ch-nuclear-radiochemistry"
+        "ch-nuclear-radiochemistry",
+        "ea-mineralogy"
       ],
       "related": [
         "ph-planetary-science",
-        "ph-geophysics"
+        "ph-geophysics",
+        "ea-geochemistry-fundamentals",
+        "ea-isotope-geochemistry",
+        "ea-meteoritics-and-cosmochemistry"
       ],
       "topics": [
         {
@@ -5099,11 +5223,12 @@
       "summary": "Chemistry in space: how molecules form in interstellar clouds, disks, comets and planetary atmospheres, and links to the origin of life.",
       "prerequisites": [
         "ch-molecular-spectroscopy",
-        "ch-chemical-kinetics"
+        "ch-chemical-kinetics",
+        "ph-astrophysics"
       ],
       "related": [
-        "ph-astrophysics",
-        "ph-planetary-science"
+        "ph-planetary-science",
+        "ph-interstellar-medium-star-formation"
       ],
       "topics": [
         {
@@ -5167,7 +5292,8 @@
         "ch-chemical-kinetics-intro"
       ],
       "related": [
-        "ph-nuclear-physics"
+        "ph-nuclear-physics",
+        "ea-isotope-geochemistry"
       ],
       "topics": [
         {
@@ -5233,7 +5359,8 @@
       ],
       "related": [
         "ph-energy-physics",
-        "ph-medical-physics"
+        "ph-medical-physics",
+        "mt-radiation-nuclear-materials"
       ],
       "topics": [
         {
@@ -5337,11 +5464,14 @@
       "summary": "Momentum, heat and mass transfer described by a common set of conservation equations.",
       "prerequisites": [
         "ch-material-energy-balances",
-        "ma-partial-differential-equations-pdes"
+        "ma-mathematical-methods"
       ],
       "related": [
         "ph-fluid-mechanics",
-        "ma-fluid-mechanics"
+        "ma-fluid-mechanics",
+        "me-fluid-mechanics",
+        "me-heat-transfer",
+        "mt-diffusion"
       ],
       "topics": [
         {
@@ -5455,6 +5585,9 @@
         "ch-material-energy-balances",
         "ch-chemical-kinetics"
       ],
+      "related": [
+        "bi-bioprocess-biomanufacturing"
+      ],
       "topics": [
         {
           "name": "Mole balances and ideal reactors: batch, CSTR, PFR and packed bed",
@@ -5511,7 +5644,8 @@
       "summary": "Turning chemistry into a safe, controllable and economic plant: flowsheets, control loops, hazards and costs.",
       "prerequisites": [
         "ch-chemical-reaction-engineering",
-        "ch-separation-processes"
+        "ch-separation-processes",
+        "ma-integral-transforms"
       ],
       "related": [
         "ma-control-theory"
@@ -5570,6 +5704,9 @@
         "ch-descriptive-inorganic-chemistry",
         "ch-organic-reactions-ii"
       ],
+      "related": [
+        "mt-extractive-metallurgy"
+      ],
       "topics": [
         {
           "name": "Structure of the chemical industry and its value chains",
@@ -5626,6 +5763,9 @@
       "summary": "The chemistry of food, crops, agrochemicals and everyday consumer products.",
       "prerequisites": [
         "ch-biochemistry-structure-function"
+      ],
+      "related": [
+        "bi-plant-agricultural-biotech"
       ],
       "topics": [
         {

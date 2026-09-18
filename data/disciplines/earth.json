@@ -203,6 +203,9 @@
           "name": "Environmental ethics, policy and the idea of sustainability",
           "id": "ea-introduction-to-environmental-science-13"
         }
+      ],
+      "related": [
+        "bi-ecology"
       ]
     },
     {
@@ -213,10 +216,13 @@
       "priority": "core",
       "summary": "The crystal chemistry, structure, properties and identification of the minerals that make up the Earth and other planets.",
       "prerequisites": [
-        "ea-physical-geology"
+        "ea-physical-geology",
+        "ch-chemical-bonding-molecular-structure"
       ],
       "related": [
-        "ph-solid-state-physics"
+        "ph-solid-state-physics",
+        "mt-crystal-structures",
+        "mt-crystallography-diffraction"
       ],
       "topics": [
         {
@@ -507,10 +513,12 @@
       "priority": "core",
       "summary": "Chemistry applied to the Earth: where the elements came from, how they are distributed, and the thermodynamic and kinetic rules that move them.",
       "prerequisites": [
-        "ea-physical-geology"
+        "ea-physical-geology",
+        "ch-chemical-equilibrium"
       ],
       "related": [
-        "ph-chemical-physics-physical-chemistry"
+        "ph-chemical-physics-physical-chemistry",
+        "ch-geochemistry-cosmochemistry"
       ],
       "topics": [
         {
@@ -567,7 +575,9 @@
       "priority": "important",
       "summary": "The chemistry of natural waters and their reactions with minerals, gases and life at Earth-surface conditions.",
       "prerequisites": [
-        "ea-geochemistry-fundamentals"
+        "ea-geochemistry-fundamentals",
+        "ch-acids-bases-aqueous-equilibria",
+        "ch-redox-electrochemistry-basics"
       ],
       "topics": [
         {
@@ -610,6 +620,10 @@
           "name": "Geochemical modelling with speciation codes (e.g. PHREEQC)",
           "id": "ea-aqueous-geochemistry-10"
         }
+      ],
+      "related": [
+        "ch-aquatic-chemistry",
+        "ch-environmental-chemistry"
       ]
     },
     {
@@ -623,7 +637,9 @@
         "ea-geochemistry-fundamentals"
       ],
       "related": [
-        "ph-nuclear-physics"
+        "ph-nuclear-physics",
+        "ch-nuclear-radiochemistry",
+        "ch-geochemistry-cosmochemistry"
       ],
       "topics": [
         {
@@ -733,7 +749,8 @@
       "priority": "important",
       "summary": "How carbon, oxygen, nitrogen, phosphorus, sulfur and metals cycle between life, rocks, water and air on timescales from days to aeons.",
       "prerequisites": [
-        "ea-geochemistry-fundamentals"
+        "ea-geochemistry-fundamentals",
+        "ch-organic-structure-bonding"
       ],
       "topics": [
         {
@@ -776,6 +793,10 @@
           "name": "Methane and other greenhouse-gas budgets",
           "id": "ea-biogeochemical-cycles-10"
         }
+      ],
+      "related": [
+        "bi-ecosystem-ecology",
+        "ch-environmental-chemistry"
       ]
     },
     {
@@ -846,7 +867,8 @@
       "priority": "core",
       "summary": "How rocks deform: stress, strain and rheology, and the faults, folds and fabrics they produce.",
       "prerequisites": [
-        "ea-physical-geology"
+        "ea-physical-geology",
+        "ph-introductory-mechanics"
       ],
       "related": [
         "ma-solid-mechanics"
@@ -1399,6 +1421,10 @@
           "name": "Mass extinctions compared",
           "id": "ea-historical-geology-12"
         }
+      ],
+      "related": [
+        "bi-macroevolution-history-of-life",
+        "bi-origin-of-life"
       ]
     },
     {
@@ -1409,7 +1435,8 @@
       "priority": "important",
       "summary": "The study of fossil life: how organisms are preserved, classified and used to understand evolution, ancient environments and time.",
       "prerequisites": [
-        "ea-historical-geology"
+        "ea-historical-geology",
+        "bi-evolutionary-biology"
       ],
       "topics": [
         {
@@ -1456,6 +1483,9 @@
           "name": "Diversity through time and mass extinctions",
           "id": "ea-paleontology-11"
         }
+      ],
+      "related": [
+        "bi-macroevolution-history-of-life"
       ]
     },
     {
@@ -1467,7 +1497,8 @@
       "summary": "How life and the planet have shaped each other, from the earliest microbes to the oxygenation of the atmosphere.",
       "prerequisites": [
         "ea-paleontology",
-        "ea-geochemistry-fundamentals"
+        "ea-geochemistry-fundamentals",
+        "bi-microbiology"
       ],
       "topics": [
         {
@@ -1502,6 +1533,11 @@
           "name": "Life's feedbacks on climate, weathering and the carbon cycle",
           "id": "ea-geobiology-8"
         }
+      ],
+      "related": [
+        "bi-extremophiles",
+        "bi-origin-of-life",
+        "bi-macroevolution-history-of-life"
       ]
     },
     {
@@ -1513,7 +1549,8 @@
       "summary": "The science of landscapes: the processes that erode, transport and deposit material and how landforms evolve over time.",
       "prerequisites": [
         "ea-physical-geology",
-        "ma-calculus"
+        "ma-calculus",
+        "ph-introductory-mechanics"
       ],
       "topics": [
         {
@@ -1624,7 +1661,8 @@
       "priority": "core",
       "summary": "How soils form, what they are made of, and how their physical, chemical and biological properties support ecosystems and agriculture.",
       "prerequisites": [
-        "ea-physical-geology"
+        "ea-physical-geology",
+        "ch-introductory-chemistry"
       ],
       "topics": [
         {
@@ -1675,6 +1713,10 @@
           "name": "Soil survey and mapping; the critical zone concept",
           "id": "ea-soil-science-12"
         }
+      ],
+      "related": [
+        "bi-ecosystem-ecology",
+        "bi-plant-agricultural-biotech"
       ]
     },
     {
@@ -2043,7 +2085,8 @@
       "summary": "The chemistry of seawater and the processes that control it, from nutrients and gases to the ocean carbon system.",
       "prerequisites": [
         "ea-introductory-oceanography",
-        "ea-geochemistry-fundamentals"
+        "ea-geochemistry-fundamentals",
+        "ch-acids-bases-aqueous-equilibria"
       ],
       "topics": [
         {
@@ -2086,6 +2129,9 @@
           "name": "Marine sediment geochemistry and early diagenesis",
           "id": "ea-chemical-oceanography-10"
         }
+      ],
+      "related": [
+        "ch-aquatic-chemistry"
       ]
     },
     {
@@ -2096,7 +2142,8 @@
       "priority": "important",
       "summary": "How marine life is distributed and controlled by physics and chemistry, and how ocean ecosystems function and change.",
       "prerequisites": [
-        "ea-introductory-oceanography"
+        "ea-introductory-oceanography",
+        "bi-ecology"
       ],
       "topics": [
         {
@@ -2135,6 +2182,9 @@
           "name": "Marine ecosystems under warming, acidification and deoxygenation",
           "id": "ea-biological-oceanography-9"
         }
+      ],
+      "related": [
+        "bi-marine-freshwater-biology"
       ]
     },
     {
@@ -2245,7 +2295,8 @@
       "priority": "core",
       "summary": "The atmosphere and its weather: energy, moisture, clouds, winds and the storms and systems that bring day-to-day weather.",
       "prerequisites": [
-        "ea-introduction-to-earth-science"
+        "ea-introduction-to-earth-science",
+        "ph-introductory-heat-thermodynamics"
       ],
       "related": [
         "ph-atmospheric-environmental-physics"
@@ -2379,8 +2430,7 @@
         "ph-fluid-mechanics"
       ],
       "related": [
-        "ph-atmospheric-environmental-physics",
-        "ph-fluid-mechanics"
+        "ph-atmospheric-environmental-physics"
       ],
       "topics": [
         {
@@ -2441,7 +2491,8 @@
         "ma-calculus"
       ],
       "related": [
-        "ph-atmospheric-environmental-physics"
+        "ph-atmospheric-environmental-physics",
+        "ph-radiative-processes"
       ],
       "topics": [
         {
@@ -2490,7 +2541,8 @@
       "priority": "important",
       "summary": "The chemical composition of the atmosphere and the reactions that control ozone, oxidants, aerosols and pollutants.",
       "prerequisites": [
-        "ea-meteorology"
+        "ea-meteorology",
+        "ch-chemical-kinetics-intro"
       ],
       "topics": [
         {
@@ -2529,6 +2581,10 @@
           "name": "Chemistry-climate interactions and short-lived climate forcers",
           "id": "ea-atmospheric-chemistry-9"
         }
+      ],
+      "related": [
+        "ch-atmospheric-chemistry",
+        "ch-photochemistry"
       ]
     },
     {
@@ -2863,6 +2919,9 @@
           "name": "Paleoclimate constraints on climate sensitivity",
           "id": "ea-paleoclimatology-12"
         }
+      ],
+      "related": [
+        "bi-global-change-biology"
       ]
     },
     {
@@ -2877,7 +2936,8 @@
         "ma-numerical-solutions-of-pdes"
       ],
       "related": [
-        "ma-geophysical-environmental-mathematics"
+        "ma-geophysical-environmental-mathematics",
+        "cs-high-performance-computing"
       ],
       "topics": [
         {
@@ -2961,6 +3021,9 @@
           "name": "Climate policy: UNFCCC, the Paris Agreement and carbon pricing",
           "id": "ea-climate-change-impacts-mitigation-adaptation-9"
         }
+      ],
+      "related": [
+        "bi-global-change-biology"
       ]
     },
     {
@@ -3279,6 +3342,10 @@
           "name": "Emission-control technologies",
           "id": "ea-air-pollution-and-air-quality-9"
         }
+      ],
+      "related": [
+        "ch-atmospheric-chemistry",
+        "ch-environmental-chemistry"
       ]
     },
     {
@@ -3337,6 +3404,10 @@
           "name": "Water-quality regulation and total maximum daily loads",
           "id": "ea-water-quality-and-pollution-11"
         }
+      ],
+      "related": [
+        "ch-environmental-chemistry",
+        "ch-aquatic-chemistry"
       ]
     },
     {
@@ -3387,6 +3458,9 @@
           "name": "Environmental justice",
           "id": "ea-contaminants-remediation-and-environmental-health-9"
         }
+      ],
+      "related": [
+        "ch-environmental-chemistry"
       ]
     },
     {
@@ -3497,6 +3571,9 @@
           "name": "Resource estimation and mine environmental impacts",
           "id": "ea-ore-deposits-and-economic-geology-10"
         }
+      ],
+      "related": [
+        "mt-extractive-metallurgy"
       ]
     },
     {
@@ -3508,7 +3585,8 @@
       "summary": "How oil and gas form, migrate and accumulate, and how they are explored for and produced.",
       "prerequisites": [
         "ea-sedimentology-and-stratigraphy",
-        "ea-earth-resources-and-energy"
+        "ea-earth-resources-and-energy",
+        "ch-organic-structure-bonding"
       ],
       "topics": [
         {
@@ -3551,6 +3629,9 @@
           "name": "Reserves, production and decommissioning",
           "id": "ea-petroleum-geology-10"
         }
+      ],
+      "related": [
+        "ch-fuels-petroleum-chemistry"
       ]
     },
     {
@@ -3610,10 +3691,12 @@
       "priority": "important",
       "summary": "Geology applied to construction and infrastructure: site investigation, soil and rock behaviour, and ground hazards.",
       "prerequisites": [
-        "ea-structural-geology"
+        "ea-structural-geology",
+        "me-mechanics-of-materials"
       ],
       "related": [
-        "ma-solid-mechanics"
+        "ma-solid-mechanics",
+        "mt-construction-materials"
       ],
       "topics": [
         {
@@ -3709,6 +3792,9 @@
           "name": "Web mapping and open geodata",
           "id": "ea-geographic-information-systems-11"
         }
+      ],
+      "related": [
+        "cs-information-visualization"
       ]
     },
     {
@@ -3719,11 +3805,13 @@
       "priority": "core",
       "summary": "Observing the Earth from aircraft and satellites: the physics of sensing, image processing and applications.",
       "prerequisites": [
-        "ea-geographic-information-systems"
+        "ea-geographic-information-systems",
+        "ph-introductory-waves-sound-light"
       ],
       "related": [
         "el-space-satellite-systems",
-        "el-imaging-vision-sensors"
+        "el-imaging-vision-sensors",
+        "ae-space-payloads-remote-sensing"
       ],
       "topics": [
         {
@@ -3792,7 +3880,8 @@
         "ea-geographic-information-systems"
       ],
       "related": [
-        "ph-geophysics"
+        "ph-geophysics",
+        "ae-orbit-determination"
       ],
       "topics": [
         {
@@ -3900,7 +3989,8 @@
       "summary": "Statistical and computational tools for Earth and environmental data: uncertainty, regression, time series and spatial statistics.",
       "prerequisites": [
         "ea-introduction-to-earth-science",
-        "ma-inferential-statistics"
+        "ma-inferential-statistics",
+        "cs-programming-fundamentals"
       ],
       "related": [
         "ma-time-series-analysis"
@@ -3965,7 +4055,8 @@
       "summary": "The laboratory instruments and techniques used to measure the chemistry, structure and isotopes of Earth materials.",
       "prerequisites": [
         "ea-mineralogy",
-        "ea-geochemistry-fundamentals"
+        "ea-geochemistry-fundamentals",
+        "ch-quantitative-analysis"
       ],
       "topics": [
         {
@@ -4004,6 +4095,12 @@
           "name": "Standards, calibration and quality assurance",
           "id": "ea-analytical-methods-in-geochemistry-9"
         }
+      ],
+      "related": [
+        "ch-instrumental-analysis",
+        "ch-mass-spectrometry",
+        "mt-electron-microscopy",
+        "mt-xray-neutron-methods"
       ]
     },
     {
@@ -4062,7 +4159,8 @@
       ],
       "related": [
         "ma-geophysical-environmental-mathematics",
-        "ma-mathematical-modeling"
+        "ma-mathematical-modeling",
+        "cs-high-performance-computing"
       ],
       "topics": [
         {
@@ -4111,10 +4209,13 @@
       "priority": "important",
       "summary": "Earth as one planet among many: how the planets and moons formed, differ and evolved, and what that teaches about Earth.",
       "prerequisites": [
-        "ea-introduction-to-earth-science"
+        "ea-introduction-to-earth-science",
+        "ph-introductory-astronomy"
       ],
       "related": [
-        "ph-planetary-science"
+        "ph-planetary-science",
+        "ae-planetary-exploration-systems",
+        "bi-astrobiology"
       ],
       "topics": [
         {
@@ -4171,7 +4272,8 @@
         "ea-physical-geology"
       ],
       "related": [
-        "ph-planetary-science"
+        "ph-planetary-science",
+        "ae-planetary-exploration-systems"
       ],
       "topics": [
         {
@@ -4229,7 +4331,9 @@
         "ea-mineralogy"
       ],
       "related": [
-        "ph-planetary-science"
+        "ph-planetary-science",
+        "ch-geochemistry-cosmochemistry",
+        "ph-celestial-mechanics"
       ],
       "topics": [
         {
@@ -4285,7 +4389,9 @@
       "related": [
         "ph-planetary-science",
         "ph-atmospheric-environmental-physics",
-        "ph-space-physics"
+        "ph-space-physics",
+        "ph-exoplanets",
+        "ae-atmospheric-entry"
       ],
       "topics": [
         {
@@ -4338,7 +4444,9 @@
         "ea-igneous-petrology"
       ],
       "related": [
-        "ph-planetary-science"
+        "ph-planetary-science",
+        "ae-planetary-exploration-systems",
+        "ae-space-resources-surface-systems"
       ],
       "topics": [
         {
@@ -4391,7 +4499,9 @@
         "ea-sedimentology-and-stratigraphy"
       ],
       "related": [
-        "ph-planetary-science"
+        "ph-planetary-science",
+        "ae-planetary-exploration-systems",
+        "ae-space-resources-surface-systems"
       ],
       "topics": [
         {
@@ -4443,7 +4553,10 @@
         "ea-planetary-surfaces-and-impact-cratering"
       ],
       "related": [
-        "ph-planetary-science"
+        "ph-planetary-science",
+        "ph-celestial-mechanics",
+        "ae-planetary-exploration-systems",
+        "ae-space-resources-surface-systems"
       ],
       "topics": [
         {
@@ -4492,7 +4605,12 @@
         "ea-comparative-planetology"
       ],
       "related": [
-        "ph-planetary-science"
+        "ph-planetary-science",
+        "bi-astrobiology",
+        "bi-biosignatures-life-detection",
+        "ph-astrobiology",
+        "ph-exoplanets",
+        "ae-planetary-exploration-systems"
       ],
       "topics": [
         {
@@ -4584,6 +4702,11 @@
           "name": "Resilience and socio-ecological systems",
           "id": "ea-sustainability-science-11"
         }
+      ],
+      "related": [
+        "bi-ecology",
+        "bi-conservation-biology",
+        "mt-sustainability-lca"
       ]
     },
     {

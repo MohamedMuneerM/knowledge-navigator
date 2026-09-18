@@ -14,7 +14,7 @@
       "priority": "core",
       "summary": "The toolkit every physics course assumes: units, estimation, uncertainty, graphs and vectors.",
       "prerequisites": [
-        "ma-elementary-intermediate-algebra"
+        "ma-precalculus"
       ],
       "topics": [
         {
@@ -280,7 +280,8 @@
         "ph-introductory-mechanics"
       ],
       "related": [
-        "el-circuit-theory"
+        "el-circuit-theory",
+        "el-basic-electricity"
       ],
       "topics": [
         {
@@ -354,10 +355,13 @@
       "summary": "Calculus-based mechanics from Newton's laws through the Lagrangian and Hamiltonian formulations used throughout physics.",
       "prerequisites": [
         "ph-introductory-mechanics",
-        "ma-ordinary-differential-equations-odes"
+        "ma-ordinary-differential-equations-odes",
+        "ma-multivariable-calculus"
       ],
       "related": [
-        "ma-classical-mechanics"
+        "ma-classical-mechanics",
+        "me-dynamics",
+        "ma-symplectic-geometry"
       ],
       "topics": [
         {
@@ -470,7 +474,8 @@
       ],
       "related": [
         "ph-acoustics",
-        "ph-classical-optics"
+        "ph-classical-optics",
+        "me-mechanical-vibrations"
       ],
       "topics": [
         {
@@ -548,10 +553,15 @@
       "summary": "The motion of liquids and gases, from hydrostatics to the Navier-Stokes equations, turbulence and compressible flow.",
       "prerequisites": [
         "ph-classical-mechanics",
-        "ma-partial-differential-equations-pdes"
+        "ma-mathematical-methods"
       ],
       "related": [
-        "ma-fluid-mechanics"
+        "ma-fluid-mechanics",
+        "me-fluid-mechanics",
+        "ch-transport-phenomena",
+        "ae-aerodynamics-fundamentals",
+        "me-advanced-fluid-mechanics",
+        "ea-geophysical-fluid-dynamics"
       ],
       "topics": [
         {
@@ -631,6 +641,9 @@
         "ph-waves-oscillations",
         "ph-fluid-mechanics"
       ],
+      "related": [
+        "me-acoustics-noise-control"
+      ],
       "topics": [
         {
           "id": "ph-acoustics-1",
@@ -683,11 +696,12 @@
       "summary": "Calculus-based electromagnetism: electric and magnetic fields, Maxwell's equations and electromagnetic waves.",
       "prerequisites": [
         "ph-introductory-electricity-magnetism",
-        "ma-calculus"
+        "ma-vector-calculus"
       ],
       "related": [
         "ma-electromagnetism",
-        "el-electromagnetics"
+        "el-electromagnetics",
+        "el-electromagnetic-waves"
       ],
       "topics": [
         {
@@ -848,11 +862,17 @@
       "summary": "The laws of thermodynamics and how they emerge from the statistics of huge numbers of particles.",
       "prerequisites": [
         "ph-introductory-heat-thermodynamics",
-        "ph-modern-physics"
+        "ph-modern-physics",
+        "ma-elementary-probability"
       ],
       "related": [
         "ma-thermodynamics",
-        "ma-statistical-mechanics"
+        "ma-statistical-mechanics",
+        "me-engineering-thermodynamics",
+        "ch-chemical-thermodynamics",
+        "ch-statistical-thermodynamics",
+        "mt-thermodynamics-of-materials",
+        "ae-aerospace-thermodynamics"
       ],
       "topics": [
         {
@@ -1098,7 +1118,8 @@
         "ma-linear-algebra"
       ],
       "related": [
-        "ma-quantum-mechanics"
+        "ma-quantum-mechanics",
+        "ch-quantum-chemistry"
       ],
       "topics": [
         {
@@ -1293,7 +1314,8 @@
       "related": [
         "ma-quantum-computation-theory",
         "el-quantum-technologies",
-        "ai-quantum-machine-learning"
+        "ai-quantum-machine-learning",
+        "cs-quantum-computing"
       ],
       "topics": [
         {
@@ -1484,11 +1506,12 @@
       "summary": "Gravity as curved spacetime: Einstein's equations, black holes, gravitational waves and the basis of cosmology.",
       "prerequisites": [
         "ph-special-relativity",
-        "ma-linear-algebra"
+        "ma-tensor-analysis"
       ],
       "related": [
         "ma-relativity",
-        "ma-differential-geometry"
+        "ma-differential-geometry",
+        "ma-riemannian-geometry"
       ],
       "topics": [
         {
@@ -1709,7 +1732,9 @@
         "ma-integral-transforms",
         "ma-boundary-value-problems",
         "ma-functional-analysis",
-        "ma-differential-geometry"
+        "ma-differential-geometry",
+        "ma-mathematical-methods",
+        "ma-solitons-integrable-systems"
       ],
       "topics": [
         {
@@ -1787,7 +1812,9 @@
       ],
       "related": [
         "ma-symmetries-groups-in-physics",
-        "ma-lie-theory"
+        "ma-lie-theory",
+        "ma-representation-theory",
+        "ch-symmetry-group-theory"
       ],
       "topics": [
         {
@@ -1837,13 +1864,18 @@
       "summary": "Solving physics problems numerically: integration of equations, simulation, Monte Carlo and first-principles methods.",
       "prerequisites": [
         "ph-quantum-mechanics",
-        "ph-thermodynamics-statistical-mechanics"
+        "ph-thermodynamics-statistical-mechanics",
+        "cs-programming-fundamentals"
       ],
       "related": [
         "ma-numerical-solutions-of-odes",
         "ma-numerical-solutions-of-pdes",
         "ma-monte-carlo-methods",
-        "ai-ai-for-science"
+        "ai-ai-for-science",
+        "cs-high-performance-computing",
+        "ch-molecular-modeling-simulation",
+        "ch-electronic-structure-theory",
+        "mt-computational-materials-intro"
       ],
       "topics": [
         {
@@ -1916,7 +1948,8 @@
         "ph-advanced-quantum-mechanics"
       ],
       "related": [
-        "ph-advanced-statistical-mechanics"
+        "ph-advanced-statistical-mechanics",
+        "ma-asymptotic-methods"
       ],
       "topics": [
         {
@@ -2088,7 +2121,10 @@
       ],
       "related": [
         "el-optoelectronic-devices",
-        "el-photonics-silicon-photonics"
+        "el-photonics-silicon-photonics",
+        "ma-optics",
+        "el-optical-fiber-communications",
+        "mt-optical-photonic-materials"
       ],
       "topics": [
         {
@@ -2187,7 +2223,10 @@
         "ph-solid-state-physics"
       ],
       "related": [
-        "ph-nanoscience-nanotechnology"
+        "ph-nanoscience-nanotechnology",
+        "ch-nanochemistry",
+        "el-photonics-silicon-photonics",
+        "mt-metamaterials"
       ],
       "topics": [
         {
@@ -2227,6 +2266,9 @@
         "ph-modern-optics",
         "ph-atomic-physics"
       ],
+      "related": [
+        "ch-ultrafast-nonlinear-spectroscopy"
+      ],
       "topics": [
         {
           "id": "ph-ultrafast-physics-1",
@@ -2255,6 +2297,9 @@
       "summary": "The structure and spectra of atoms, from hydrogen fine structure to multi-electron atoms in external fields.",
       "prerequisites": [
         "ph-quantum-mechanics"
+      ],
+      "related": [
+        "ch-quantum-chemistry"
       ],
       "topics": [
         {
@@ -2326,7 +2371,9 @@
         "ph-atomic-physics"
       ],
       "related": [
-        "ph-chemical-physics-physical-chemistry"
+        "ph-chemical-physics-physical-chemistry",
+        "ch-molecular-spectroscopy",
+        "ch-quantum-chemistry"
       ],
       "topics": [
         {
@@ -2490,7 +2537,8 @@
         "ph-quantum-information-science"
       ],
       "related": [
-        "el-advanced-sensing"
+        "el-advanced-sensing",
+        "el-quantum-technologies"
       ],
       "topics": [
         {
@@ -2524,6 +2572,9 @@
       "summary": "The structure of atomic nuclei, radioactive decay, nuclear reactions, fission and fusion.",
       "prerequisites": [
         "ph-quantum-mechanics"
+      ],
+      "related": [
+        "ch-nuclear-radiochemistry"
       ],
       "topics": [
         {
@@ -2678,7 +2729,10 @@
         "ph-thermodynamics-statistical-mechanics"
       ],
       "related": [
-        "el-semiconductor-physics"
+        "el-semiconductor-physics",
+        "mt-electronic-properties",
+        "ch-structural-methods-diffraction",
+        "ch-solid-state-chemistry"
       ],
       "topics": [
         {
@@ -2773,6 +2827,11 @@
       "prerequisites": [
         "ph-thermodynamics-statistical-mechanics"
       ],
+      "related": [
+        "mt-soft-materials",
+        "ch-polymer-physical-chemistry",
+        "ch-colloid-interface-science"
+      ],
       "topics": [
         {
           "id": "ph-soft-matter-physics-1",
@@ -2831,7 +2890,10 @@
         "ph-solid-state-physics"
       ],
       "related": [
-        "ph-nanoscience-nanotechnology"
+        "ph-nanoscience-nanotechnology",
+        "ch-solid-state-chemistry",
+        "ch-high-performance-materials",
+        "el-electrical-materials"
       ],
       "topics": [
         {
@@ -2910,7 +2972,8 @@
         "ph-quantum-mechanics"
       ],
       "related": [
-        "ph-vacuum-cryogenic-systems"
+        "ph-vacuum-cryogenic-systems",
+        "mt-cryogenic-materials"
       ],
       "topics": [
         {
@@ -2940,6 +3003,10 @@
       "summary": "Using the electron spin, not just its charge, to store and process information.",
       "prerequisites": [
         "ph-solid-state-physics"
+      ],
+      "related": [
+        "el-nanoelectronics",
+        "mt-magnetic-materials"
       ],
       "topics": [
         {
@@ -3081,7 +3148,9 @@
         "ph-quantum-many-body-theory"
       ],
       "related": [
-        "ph-topological-phases-of-matter"
+        "ph-topological-phases-of-matter",
+        "ch-emerging-frontiers",
+        "mt-2d-materials"
       ],
       "topics": [
         {
@@ -3556,7 +3625,8 @@
         "ph-modern-physics"
       ],
       "related": [
-        "ph-compact-objects"
+        "ph-compact-objects",
+        "ma-mathematical-aspects-of-astronomy"
       ],
       "topics": [
         {
@@ -3724,7 +3794,8 @@
       "priority": "advanced",
       "summary": "Statistical and computational methods for turning survey data, images and light curves into astrophysical results.",
       "prerequisites": [
-        "ph-observational-astronomy-telescopes"
+        "ph-observational-astronomy-telescopes",
+        "cs-programming-fundamentals"
       ],
       "related": [
         "ma-bayesian-statistics",
@@ -3851,6 +3922,9 @@
         "ph-classical-electromagnetism",
         "ph-thermodynamics-statistical-mechanics",
         "ph-special-relativity"
+      ],
+      "related": [
+        "ea-atmospheric-radiation"
       ],
       "topics": [
         {
@@ -4069,7 +4143,9 @@
         "ph-sun-heliophysics"
       ],
       "related": [
-        "ph-plasma-physics"
+        "ph-plasma-physics",
+        "ae-space-environment",
+        "ea-geomagnetism-and-paleomagnetism"
       ],
       "topics": [
         {
@@ -4190,6 +4266,9 @@
         "ph-stellar-astrophysics",
         "ph-astrophysical-fluid-dynamics"
       ],
+      "related": [
+        "ch-astrochemistry"
+      ],
       "topics": [
         {
           "name": "Phases of the interstellar medium",
@@ -4257,7 +4336,10 @@
         "ph-introductory-astronomy"
       ],
       "related": [
-        "ma-mathematical-aspects-of-astronomy"
+        "ma-mathematical-aspects-of-astronomy",
+        "ae-orbital-mechanics",
+        "ae-orbital-perturbations",
+        "ae-three-body-problem"
       ],
       "topics": [
         {
@@ -4319,7 +4401,14 @@
       ],
       "related": [
         "ph-geophysics",
-        "ph-celestial-mechanics"
+        "ph-celestial-mechanics",
+        "ea-comparative-planetology",
+        "ma-mathematical-aspects-of-astronomy",
+        "ch-geochemistry-cosmochemistry",
+        "ch-astrochemistry",
+        "ea-planetary-surfaces-and-impact-cratering",
+        "ea-planetary-atmospheres-and-climates",
+        "ae-planetary-exploration-systems"
       ],
       "topics": [
         {
@@ -4395,6 +4484,10 @@
         "ph-planetary-science",
         "ph-observational-astronomy-telescopes"
       ],
+      "related": [
+        "ea-planetary-atmospheres-and-climates",
+        "bi-biosignatures-life-detection"
+      ],
       "topics": [
         {
           "name": "History of exoplanet discovery",
@@ -4450,7 +4543,12 @@
       "priority": "advanced",
       "summary": "A physics-side view of life in the Universe: habitability, the search for biosignatures and SETI.",
       "prerequisites": [
-        "ph-exoplanets"
+        "ph-exoplanets",
+        "bi-chemistry-of-life"
+      ],
+      "related": [
+        "bi-astrobiology",
+        "ea-astrobiology-and-planetary-habitability"
       ],
       "topics": [
         {
@@ -5139,7 +5237,11 @@
       "related": [
         "el-test-equipment",
         "el-calibration",
-        "el-sensor-interfacing"
+        "el-sensor-interfacing",
+        "ch-instrumental-analysis",
+        "me-measurements-instrumentation",
+        "ae-aerospace-instrumentation",
+        "el-electrical-measurements"
       ],
       "topics": [
         {
@@ -5187,6 +5289,10 @@
         "ph-measurement-instrumentation",
         "ph-quantum-mechanics"
       ],
+      "related": [
+        "ch-surface-analysis-microscopy",
+        "mt-characterization-fundamentals"
+      ],
       "topics": [
         {
           "id": "ph-experimental-techniques-1",
@@ -5230,7 +5336,8 @@
         "ph-thermodynamics-statistical-mechanics"
       ],
       "related": [
-        "ph-cryophysics"
+        "ph-cryophysics",
+        "mt-cryogenic-materials"
       ],
       "topics": [
         {
@@ -5366,7 +5473,12 @@
       ],
       "related": [
         "el-energy-innovations",
-        "el-battery-technologies"
+        "el-battery-technologies",
+        "ch-fuel-cells-hydrogen",
+        "ch-solar-energy-conversion",
+        "ch-applied-radiochemistry",
+        "me-renewable-energy-systems",
+        "el-power-generation"
       ],
       "topics": [
         {
@@ -5482,10 +5594,15 @@
       "priority": "advanced",
       "summary": "Physics in medicine: imaging, radiotherapy, dosimetry and radiation protection.",
       "prerequisites": [
-        "ph-nuclear-physics"
+        "ph-nuclear-physics",
+        "bi-human-anatomy"
       ],
       "related": [
-        "el-diagnostic-equipment"
+        "el-diagnostic-equipment",
+        "bi-radiation-biology",
+        "ch-magnetic-resonance",
+        "ch-applied-radiochemistry",
+        "bi-neurotechnology-methods"
       ],
       "topics": [
         {
@@ -5535,7 +5652,13 @@
       ],
       "related": [
         "ma-geophysics",
-        "ph-planetary-science"
+        "ph-planetary-science",
+        "ea-solid-earth-geophysics",
+        "ea-seismology",
+        "ma-geophysical-environmental-mathematics",
+        "ch-geochemistry-cosmochemistry",
+        "ea-geodynamics",
+        "ea-geomagnetism-and-paleomagnetism"
       ],
       "topics": [
         {
@@ -5588,7 +5711,12 @@
         "ph-thermodynamics-statistical-mechanics"
       ],
       "related": [
-        "ma-geophysical-environmental-mathematics"
+        "ma-geophysical-environmental-mathematics",
+        "ea-atmospheric-dynamics",
+        "ea-atmospheric-radiation",
+        "ch-atmospheric-chemistry",
+        "ea-meteorology",
+        "ea-climate-dynamics"
       ],
       "topics": [
         {
@@ -5633,7 +5761,15 @@
       "priority": "advanced",
       "summary": "Physical principles of living systems, from protein folding and molecular motors to membranes and neurons.",
       "prerequisites": [
-        "ph-soft-matter-physics"
+        "ph-soft-matter-physics",
+        "bi-molecular-biology"
+      ],
+      "related": [
+        "bi-structural-biology",
+        "bi-biomechanics",
+        "ch-biophysical-chemistry",
+        "bi-membranes-transport-bioelectricity",
+        "bi-protein-structure-function"
       ],
       "topics": [
         {
@@ -5683,7 +5819,16 @@
       "summary": "Physics applied to chemistry: quantum chemistry, reaction dynamics, spectroscopy and surfaces.",
       "prerequisites": [
         "ph-molecular-physics",
-        "ph-thermodynamics-statistical-mechanics"
+        "ph-thermodynamics-statistical-mechanics",
+        "ch-chemical-equilibrium"
+      ],
+      "related": [
+        "ma-mathematical-chemistry",
+        "ch-chemical-thermodynamics",
+        "ch-quantum-chemistry",
+        "ch-chemical-kinetics",
+        "ch-molecular-spectroscopy",
+        "ch-molecular-reaction-dynamics"
       ],
       "topics": [
         {
@@ -5727,7 +5872,11 @@
         "ph-solid-state-physics"
       ],
       "related": [
-        "ph-nanophotonics-plasmonics"
+        "ph-nanophotonics-plasmonics",
+        "mt-nanomaterials",
+        "ch-nanochemistry",
+        "el-nanoelectronics",
+        "me-micro-nano-mechanics"
       ],
       "topics": [
         {
@@ -5805,6 +5954,9 @@
       "summary": "Statistical-physics models of social behaviour, opinions and networks.",
       "prerequisites": [
         "ph-complex-systems-networks"
+      ],
+      "related": [
+        "ma-network-science"
       ],
       "topics": [
         {

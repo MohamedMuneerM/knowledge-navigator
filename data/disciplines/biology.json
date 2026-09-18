@@ -81,7 +81,8 @@
       "priority": "core",
       "summary": "The chemistry a biologist needs: bonds, water, pH, carbon compounds and the structure of the four families of biological macromolecules.",
       "prerequisites": [
-        "bi-introductory-biology"
+        "bi-introductory-biology",
+        "ch-introductory-chemistry"
       ],
       "topics": [
         {
@@ -132,6 +133,9 @@
           "name": "Enzymes as catalysts: active site, substrate and denaturation",
           "id": "bi-chemistry-of-life-12"
         }
+      ],
+      "related": [
+        "ch-atomic-structure-periodicity"
       ]
     },
     {
@@ -275,7 +279,8 @@
       "priority": "important",
       "summary": "How membranes control what enters and leaves the cell, and how ion gradients create the voltages that nerves, muscles and hearts run on.",
       "prerequisites": [
-        "bi-cell-biology"
+        "bi-cell-biology",
+        "ph-introductory-electricity-magnetism"
       ],
       "related": [
         "ph-biophysics"
@@ -576,10 +581,12 @@
       "priority": "core",
       "summary": "The chemistry of living systems from the biology side: protein structure, enzyme kinetics, biomolecules and the energetics that drive metabolism.",
       "prerequisites": [
-        "bi-chemistry-of-life"
+        "bi-chemistry-of-life",
+        "ch-organic-structure-bonding"
       ],
       "related": [
-        "ph-chemical-physics-physical-chemistry"
+        "ph-chemical-physics-physical-chemistry",
+        "ch-biochemistry-structure-function"
       ],
       "topics": [
         {
@@ -700,6 +707,9 @@
           "name": "Metabolic diseases and inborn errors of metabolism",
           "id": "bi-metabolism-14"
         }
+      ],
+      "related": [
+        "ch-metabolism-bioenergetics"
       ]
     },
     {
@@ -713,7 +723,10 @@
         "bi-biochemistry"
       ],
       "related": [
-        "ph-biophysics"
+        "ph-biophysics",
+        "ch-biochemistry-structure-function",
+        "ch-enzymology",
+        "ch-biophysical-chemistry"
       ],
       "topics": [
         {
@@ -774,10 +787,16 @@
       "priority": "advanced",
       "summary": "The methods that reveal 3D molecular structures (X-ray, NMR, cryo-EM, prediction) and what those structures teach us.",
       "prerequisites": [
-        "bi-protein-structure-function"
+        "bi-protein-structure-function",
+        "ch-molecular-spectroscopy"
       ],
       "related": [
-        "ph-biophysics"
+        "ph-biophysics",
+        "ch-structural-methods-diffraction",
+        "ch-magnetic-resonance",
+        "ch-biophysical-chemistry",
+        "mt-xray-neutron-methods",
+        "mt-electron-microscopy"
       ],
       "topics": [
         {
@@ -826,7 +845,8 @@
       "priority": "core",
       "summary": "How traits are inherited and how genes are found and analysed: Mendelian and chromosomal inheritance, mutation, mapping and genetic analysis.",
       "prerequisites": [
-        "bi-cell-biology"
+        "bi-cell-biology",
+        "ma-elementary-probability"
       ],
       "topics": [
         {
@@ -1066,6 +1086,9 @@
           "name": "Data standards, public repositories and reproducibility in omics",
           "id": "bi-omics-10"
         }
+      ],
+      "related": [
+        "ch-mass-spectrometry"
       ]
     },
     {
@@ -1264,7 +1287,10 @@
         "bi-evolutionary-biology"
       ],
       "related": [
-        "ph-planetary-science"
+        "ph-planetary-science",
+        "ea-historical-geology",
+        "ea-paleontology",
+        "ea-geobiology"
       ],
       "topics": [
         {
@@ -1695,6 +1721,10 @@
           "name": "Field methods and ecological sampling",
           "id": "bi-ecology-12"
         }
+      ],
+      "related": [
+        "ea-introduction-to-environmental-science",
+        "ea-sustainability-science"
       ]
     },
     {
@@ -1866,6 +1896,10 @@
           "name": "Remote sensing and flux towers in ecosystem science",
           "id": "bi-ecosystem-ecology-10"
         }
+      ],
+      "related": [
+        "ea-biogeochemical-cycles",
+        "ea-soil-science"
       ]
     },
     {
@@ -1942,10 +1976,12 @@
       "summary": "Life in the oceans, lakes and rivers: plankton, coral reefs, the deep sea, fisheries and the physical conditions that shape aquatic life.",
       "prerequisites": [
         "bi-ecology",
-        "bi-animal-diversity"
+        "bi-animal-diversity",
+        "ea-introductory-oceanography"
       ],
       "related": [
-        "ph-atmospheric-environmental-physics"
+        "ph-atmospheric-environmental-physics",
+        "ea-biological-oceanography"
       ],
       "topics": [
         {
@@ -2046,6 +2082,9 @@
           "name": "Human-wildlife conflict and community-based conservation",
           "id": "bi-conservation-biology-10"
         }
+      ],
+      "related": [
+        "ea-sustainability-science"
       ]
     },
     {
@@ -2057,7 +2096,8 @@
       "summary": "Why species live where they do, and the large-scale patterns in biodiversity across the globe and through time.",
       "prerequisites": [
         "bi-community-ecology",
-        "bi-macroevolution-history-of-life"
+        "bi-macroevolution-history-of-life",
+        "ea-plate-tectonics"
       ],
       "topics": [
         {
@@ -2099,10 +2139,13 @@
       "summary": "How climate change and other human-driven global changes affect organisms, ecosystems and the feedbacks between life and climate.",
       "prerequisites": [
         "bi-ecosystem-ecology",
-        "bi-conservation-biology"
+        "bi-conservation-biology",
+        "ea-climate-system-science"
       ],
       "related": [
-        "ph-atmospheric-environmental-physics"
+        "ph-atmospheric-environmental-physics",
+        "ea-climate-change-impacts-mitigation-adaptation",
+        "ea-paleoclimatology"
       ],
       "topics": [
         {
@@ -2729,6 +2772,10 @@
           "name": "Plant tissue culture and micropropagation",
           "id": "bi-plant-agricultural-biotech-9"
         }
+      ],
+      "related": [
+        "ch-food-agricultural-chemistry",
+        "ea-soil-science"
       ]
     },
     {
@@ -3117,11 +3164,14 @@
       "summary": "Mechanics applied to living things: tissue mechanics, musculoskeletal forces, human gait and animal locomotion.",
       "prerequisites": [
         "bi-muscle-biology",
-        "ph-classical-mechanics"
+        "me-mechanics-of-materials",
+        "me-dynamics"
       ],
       "related": [
         "ph-fluid-mechanics",
-        "ph-soft-matter-physics"
+        "ph-soft-matter-physics",
+        "me-biomechanics",
+        "mt-biological-bioinspired"
       ],
       "topics": [
         {
@@ -3187,13 +3237,17 @@
       "summary": "The biology side of exoskeletons and prosthetics: modelling the body, coupling devices to muscles and nerves, and measuring whether augmentation helps.",
       "prerequisites": [
         "bi-biomechanics",
-        "bi-motor-systems"
+        "bi-motor-systems",
+        "me-robot-mechanics"
       ],
       "related": [
         "ai-human-robot-interaction-hri",
         "el-robot-control",
         "el-wearable-technology-deep-dive",
-        "el-actuators"
+        "el-actuators",
+        "me-wearable-mechanisms-exoskeletons",
+        "ai-wearable-robotics-exoskeletons",
+        "me-biomechanics"
       ],
       "topics": [
         {
@@ -3364,6 +3418,9 @@
           "name": "Stem cell therapies: successes, risks and regulation",
           "id": "bi-stem-cells-regeneration-10"
         }
+      ],
+      "related": [
+        "mt-biomaterials"
       ]
     },
     {
@@ -3969,7 +4026,8 @@
       "prerequisites": [
         "bi-cellular-molecular-neuroscience",
         "ma-ordinary-differential-equations-odes",
-        "ma-probability-theory"
+        "ma-probability-theory",
+        "cs-programming-fundamentals"
       ],
       "related": [
         "ai-neural-network-foundations",
@@ -4266,6 +4324,9 @@
           "name": "Standard curves and basic quantitative assays",
           "id": "bi-laboratory-fundamentals-10"
         }
+      ],
+      "related": [
+        "ch-laboratory-safety-basic-skills"
       ]
     },
     {
@@ -4335,7 +4396,8 @@
       "summary": "Laboratory methods for purifying, detecting, quantifying and characterising proteins and their interactions.",
       "prerequisites": [
         "bi-molecular-biology-techniques",
-        "bi-biochemistry"
+        "bi-biochemistry",
+        "ch-quantitative-analysis"
       ],
       "topics": [
         {
@@ -4374,6 +4436,11 @@
           "name": "Spectroscopic methods: UV-Vis, fluorescence and circular dichroism",
           "id": "bi-protein-biochemical-methods-9"
         }
+      ],
+      "related": [
+        "ch-separation-science",
+        "ch-mass-spectrometry",
+        "ch-bioanalytical-chemistry-sensors"
       ]
     },
     {
@@ -4551,7 +4618,8 @@
       "summary": "The everyday statistics and programming a working biologist needs to design experiments and analyse lab and field data correctly.",
       "prerequisites": [
         "bi-biological-inquiry",
-        "ma-descriptive-statistics"
+        "ma-descriptive-statistics",
+        "cs-programming-fundamentals"
       ],
       "related": [
         "ma-biostatistics",
@@ -4664,6 +4732,9 @@
           "name": "Gene ontology and pathway enrichment analysis",
           "id": "bi-bioinformatics-13"
         }
+      ],
+      "related": [
+        "cs-algorithms"
       ]
     },
     {
@@ -4676,7 +4747,8 @@
       "prerequisites": [
         "bi-bioinformatics",
         "ma-probability-theory",
-        "ma-graph-theory"
+        "ma-graph-theory",
+        "cs-algorithms"
       ],
       "related": [
         "ma-dynamic-programming",
@@ -4730,7 +4802,8 @@
       "summary": "Understanding cells as systems: modelling gene circuits, signaling and metabolic networks and the design principles that make them robust.",
       "prerequisites": [
         "bi-gene-regulation-epigenetics",
-        "ma-ordinary-differential-equations-odes"
+        "ma-ordinary-differential-equations-odes",
+        "cs-programming-fundamentals"
       ],
       "related": [
         "ma-mathematical-biology",
@@ -5008,7 +5081,8 @@
       "summary": "Turning engineered cells into products at scale: fermentation, bioreactors, purification and quality control.",
       "prerequisites": [
         "bi-genetic-engineering-biotechnology",
-        "bi-metabolism"
+        "bi-metabolism",
+        "ch-material-energy-balances"
       ],
       "topics": [
         {
@@ -5047,6 +5121,11 @@
           "name": "Cell and gene therapy manufacturing",
           "id": "bi-bioprocess-biomanufacturing-9"
         }
+      ],
+      "related": [
+        "ch-chemical-reaction-engineering",
+        "ch-transport-phenomena",
+        "ch-separation-processes"
       ]
     },
     {
@@ -5163,6 +5242,10 @@
           "name": "Adverse effects, drug interactions and pharmacovigilance",
           "id": "bi-pharmacology-11"
         }
+      ],
+      "related": [
+        "ch-pharmacology-toxicology",
+        "ch-medicinal-chemistry"
       ]
     },
     {
@@ -5348,7 +5431,9 @@
       "related": [
         "ph-nuclear-physics",
         "ph-medical-physics",
-        "ph-space-physics"
+        "ph-space-physics",
+        "ch-nuclear-radiochemistry",
+        "ae-space-environment"
       ],
       "topics": [
         {
@@ -5452,6 +5537,9 @@
           "name": "Extremophile enzymes in biotechnology",
           "id": "bi-extremophiles-11"
         }
+      ],
+      "related": [
+        "ea-geobiology"
       ]
     },
     {
@@ -5511,6 +5599,11 @@
           "name": "Minimal life, artificial life and synthetic protocells",
           "id": "bi-origin-of-life-11"
         }
+      ],
+      "related": [
+        "ea-historical-geology",
+        "ea-geobiology",
+        "ch-astrochemistry"
       ]
     },
     {
@@ -5526,7 +5619,12 @@
         "ph-planetary-science"
       ],
       "related": [
-        "ph-astrophysics"
+        "ph-astrophysics",
+        "ea-astrobiology-and-planetary-habitability",
+        "ph-astrobiology",
+        "ph-exoplanets",
+        "ea-comparative-planetology",
+        "ae-planetary-exploration-systems"
       ],
       "topics": [
         {
@@ -5622,6 +5720,11 @@
           "name": "Frameworks for claiming life: confidence scales and standards of evidence",
           "id": "bi-biosignatures-life-detection-8"
         }
+      ],
+      "related": [
+        "ea-astrobiology-and-planetary-habitability",
+        "ph-exoplanets",
+        "ae-planetary-exploration-systems"
       ]
     },
     {
@@ -5636,7 +5739,9 @@
         "bi-radiation-biology"
       ],
       "related": [
-        "ph-space-physics"
+        "ph-space-physics",
+        "ae-human-spaceflight-life-support",
+        "ae-space-environment"
       ],
       "topics": [
         {
@@ -5738,6 +5843,9 @@
           "name": "Space omics: NASA GeneLab and the space omics databases",
           "id": "bi-gravitational-space-biology-8"
         }
+      ],
+      "related": [
+        "ae-space-environment"
       ]
     },
     {
@@ -5797,6 +5905,10 @@
           "name": "Stability and control of small closed ecosystems",
           "id": "bi-bioregenerative-life-support-11"
         }
+      ],
+      "related": [
+        "ae-human-spaceflight-life-support",
+        "ae-space-resources-surface-systems"
       ]
     },
     {

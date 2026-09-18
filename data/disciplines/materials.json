@@ -148,7 +148,8 @@
       "priority": "core",
       "summary": "Explains how electrons bind atoms into solids and how bond type controls melting point, stiffness, expansion and conductivity.",
       "prerequisites": [
-        "mt-intro-to-materials"
+        "mt-intro-to-materials",
+        "ch-introductory-chemistry"
       ],
       "topics": [
         {
@@ -199,6 +200,11 @@
           "name": "Acids, bases, oxidation-reduction and solutions for materials engineers",
           "id": "mt-atomic-bonding-12"
         }
+      ],
+      "related": [
+        "ch-atomic-structure-periodicity",
+        "ch-chemical-bonding-molecular-structure",
+        "ch-solid-state-chemistry"
       ]
     },
     {
@@ -264,6 +270,10 @@
           "name": "Polymer crystallinity: chain folding and spherulites",
           "id": "mt-crystal-structures-13"
         }
+      ],
+      "related": [
+        "ea-mineralogy",
+        "ch-solid-state-chemistry"
       ]
     },
     {
@@ -275,11 +285,14 @@
       "summary": "Covers the symmetry language of crystals and the diffraction theory used to determine structure from X-ray, electron and neutron scattering.",
       "prerequisites": [
         "mt-crystal-structures",
-        "ma-linear-algebra"
+        "ma-linear-algebra",
+        "ph-introductory-waves-sound-light"
       ],
       "related": [
         "ph-solid-state-physics",
-        "ma-group-theory"
+        "ma-group-theory",
+        "ea-mineralogy",
+        "ch-structural-methods-diffraction"
       ],
       "topics": [
         {
@@ -431,11 +444,13 @@
       "summary": "Applies the laws of thermodynamics to solids and solutions to predict which phases are stable and what drives change in materials.",
       "prerequisites": [
         "mt-atomic-bonding",
-        "ma-calculus"
+        "ma-multivariable-calculus"
       ],
       "related": [
         "ph-thermodynamics-statistical-mechanics",
-        "ma-thermodynamics"
+        "ma-thermodynamics",
+        "ch-chemical-thermodynamics",
+        "me-engineering-thermodynamics"
       ],
       "topics": [
         {
@@ -573,7 +588,8 @@
         "mt-thermodynamics-of-materials"
       ],
       "related": [
-        "ma-partial-differential-equations-pdes"
+        "ma-partial-differential-equations-pdes",
+        "ch-transport-phenomena"
       ],
       "topics": [
         {
@@ -773,7 +789,8 @@
       "priority": "important",
       "summary": "Provides the electrochemical thermodynamics and kinetics needed for corrosion, batteries, fuel cells, electroplating and extractive metallurgy.",
       "prerequisites": [
-        "mt-thermodynamics-of-materials"
+        "mt-thermodynamics-of-materials",
+        "ch-redox-electrochemistry-basics"
       ],
       "topics": [
         {
@@ -820,6 +837,9 @@
           "name": "Faraday's laws and electrodeposition/electroplating",
           "id": "mt-electrochemistry-11"
         }
+      ],
+      "related": [
+        "ch-electrochemistry"
       ]
     },
     {
@@ -831,10 +851,12 @@
       "summary": "Defines stress, strain, stiffness, strength, ductility and hardness, and shows how they are measured and why they differ between material classes.",
       "prerequisites": [
         "mt-atomic-bonding",
-        "ph-classical-mechanics"
+        "me-statics"
       ],
       "related": [
-        "ma-solid-mechanics"
+        "ma-solid-mechanics",
+        "me-mechanics-of-materials",
+        "me-engineering-materials"
       ],
       "topics": [
         {
@@ -903,7 +925,8 @@
         "mt-defects"
       ],
       "related": [
-        "ma-solid-mechanics"
+        "ma-solid-mechanics",
+        "me-continuum-mechanics-elasticity-plasticity"
       ],
       "topics": [
         {
@@ -1038,6 +1061,9 @@
           "name": "Creep-fatigue interaction",
           "id": "mt-creep-12"
         }
+      ],
+      "related": [
+        "me-fatigue-fracture-creep"
       ]
     },
     {
@@ -1048,10 +1074,13 @@
       "priority": "core",
       "summary": "Explains how cracks cause failure, from Griffith's energy balance to fracture toughness testing and toughening mechanisms.",
       "prerequisites": [
-        "mt-plasticity-strengthening"
+        "mt-plasticity-strengthening",
+        "me-mechanics-of-materials"
       ],
       "related": [
-        "ma-solid-mechanics"
+        "ma-solid-mechanics",
+        "me-fatigue-fracture-creep",
+        "ae-fatigue-fracture-damage-tolerance"
       ],
       "topics": [
         {
@@ -1119,7 +1148,9 @@
         "mt-fracture-mechanics"
       ],
       "related": [
-        "el-reliability-testing"
+        "el-reliability-testing",
+        "me-fatigue-fracture-creep",
+        "ae-fatigue-fracture-damage-tolerance"
       ],
       "topics": [
         {
@@ -1185,7 +1216,8 @@
       ],
       "related": [
         "ph-solid-state-physics",
-        "el-thermal-management"
+        "el-thermal-management",
+        "me-heat-transfer"
       ],
       "topics": [
         {
@@ -1883,6 +1915,10 @@
           "name": "Recycling as metal production: secondary aluminium and steel",
           "id": "mt-extractive-metallurgy-11"
         }
+      ],
+      "related": [
+        "ea-ore-deposits-and-economic-geology",
+        "ch-industrial-chemistry"
       ]
     },
     {
@@ -1936,6 +1972,9 @@
           "name": "Durability, weathering and service life of construction materials",
           "id": "mt-construction-materials-10"
         }
+      ],
+      "related": [
+        "ea-engineering-geology"
       ]
     },
     {
@@ -2003,6 +2042,9 @@
           "name": "Design with brittle materials: proof testing and probabilistic design",
           "id": "mt-ceramics-13"
         }
+      ],
+      "related": [
+        "ch-solid-state-chemistry"
       ]
     },
     {
@@ -2074,10 +2116,12 @@
       "priority": "core",
       "summary": "Introduces how polymer chains are made and how their chemistry, size and architecture determine whether a plastic is soft, tough, clear or crystalline.",
       "prerequisites": [
-        "mt-atomic-bonding"
+        "mt-atomic-bonding",
+        "ch-organic-structure-bonding"
       ],
       "related": [
-        "ph-soft-matter-physics"
+        "ph-soft-matter-physics",
+        "ch-polymer-chemistry"
       ],
       "topics": [
         {
@@ -2142,7 +2186,8 @@
         "mt-mechanical-properties"
       ],
       "related": [
-        "ph-soft-matter-physics"
+        "ph-soft-matter-physics",
+        "ch-polymer-physical-chemistry"
       ],
       "topics": [
         {
@@ -2210,7 +2255,8 @@
         "mt-polymer-properties"
       ],
       "related": [
-        "ph-soft-matter-physics"
+        "ph-soft-matter-physics",
+        "ch-colloid-interface-science"
       ],
       "topics": [
         {
@@ -2314,6 +2360,10 @@
           "name": "Applications in aircraft, automotive, sports goods and wind turbines",
           "id": "mt-composites-12"
         }
+      ],
+      "related": [
+        "me-lightweight-structures-composites",
+        "ae-composite-structures"
       ]
     },
     {
@@ -2325,10 +2375,13 @@
       "summary": "Goes deep into laminate analysis, damage tolerance and manufacturing of advanced fibre composites such as the CFRP used in modern aircraft and rockets.",
       "prerequisites": [
         "mt-composites",
-        "ma-linear-algebra"
+        "ma-linear-algebra",
+        "me-mechanics-of-materials"
       ],
       "related": [
-        "ma-solid-mechanics"
+        "ma-solid-mechanics",
+        "ae-composite-structures",
+        "me-lightweight-structures-composites"
       ],
       "topics": [
         {
@@ -2401,7 +2454,8 @@
       ],
       "related": [
         "ph-experimental-techniques",
-        "ma-experimental-design"
+        "ma-experimental-design",
+        "ch-instrumental-analysis"
       ],
       "topics": [
         {
@@ -2466,7 +2520,10 @@
         "mt-characterization-fundamentals"
       ],
       "related": [
-        "ph-experimental-techniques"
+        "ph-experimental-techniques",
+        "ch-structural-methods-diffraction",
+        "ea-analytical-methods-in-geochemistry",
+        "bi-structural-biology"
       ],
       "topics": [
         {
@@ -2539,7 +2596,9 @@
         "mt-characterization-fundamentals"
       ],
       "related": [
-        "ph-experimental-techniques"
+        "ph-experimental-techniques",
+        "ea-analytical-methods-in-geochemistry",
+        "bi-structural-biology"
       ],
       "topics": [
         {
@@ -2608,7 +2667,8 @@
       ],
       "related": [
         "ph-experimental-techniques",
-        "ph-chemical-physics-physical-chemistry"
+        "ph-chemical-physics-physical-chemistry",
+        "ch-surface-analysis-microscopy"
       ],
       "topics": [
         {
@@ -2717,6 +2777,9 @@
           "name": "Calorimetry for battery safety (accelerating rate calorimetry)",
           "id": "mt-thermal-analysis-10"
         }
+      ],
+      "related": [
+        "ch-instrumental-analysis"
       ]
     },
     {
@@ -2785,7 +2848,8 @@
       "priority": "core",
       "summary": "Explains how molten metal is turned into shapes and how heat flow and solidification control the resulting microstructure and defects.",
       "prerequisites": [
-        "mt-phase-transformations"
+        "mt-phase-transformations",
+        "me-heat-transfer"
       ],
       "topics": [
         {
@@ -2836,6 +2900,9 @@
           "name": "Semi-solid processing (thixocasting, rheocasting)",
           "id": "mt-casting-solidification-12"
         }
+      ],
+      "related": [
+        "me-casting-forming-molding"
       ]
     },
     {
@@ -2847,7 +2914,8 @@
       "summary": "Covers rolling, forging, extrusion, drawing and sheet forming, and how hot and cold working shape both the part and its microstructure.",
       "prerequisites": [
         "mt-plasticity-strengthening",
-        "mt-interfaces-microstructure-evolution"
+        "mt-interfaces-microstructure-evolution",
+        "me-manufacturing-processes"
       ],
       "topics": [
         {
@@ -2894,6 +2962,9 @@
           "name": "Machinability of materials and surface integrity (materials view)",
           "id": "mt-deformation-processing-11"
         }
+      ],
+      "related": [
+        "me-casting-forming-molding"
       ]
     },
     {
@@ -3023,7 +3094,8 @@
       "priority": "important",
       "summary": "Covers how polymers are melted, shaped and solidified by extrusion, moulding and forming, and how processing affects properties.",
       "prerequisites": [
-        "mt-polymer-properties"
+        "mt-polymer-properties",
+        "me-fluid-mechanics"
       ],
       "topics": [
         {
@@ -3070,6 +3142,9 @@
           "name": "Mould-filling simulation",
           "id": "mt-polymer-processing-11"
         }
+      ],
+      "related": [
+        "me-casting-forming-molding"
       ]
     },
     {
@@ -3132,6 +3207,9 @@
           "name": "Residual stress, distortion and post-weld heat treatment; weld qualification",
           "id": "mt-joining-12"
         }
+      ],
+      "related": [
+        "me-welding-joining"
       ]
     },
     {
@@ -3212,7 +3290,8 @@
       "summary": "Covers 3D printing of metals, polymers, ceramics and composites, with focus on process-structure-property relationships and qualification.",
       "prerequisites": [
         "mt-casting-solidification",
-        "mt-powder-processing"
+        "mt-powder-processing",
+        "me-manufacturing-processes"
       ],
       "topics": [
         {
@@ -3267,6 +3346,9 @@
           "name": "In-situ monitoring, qualification and certification of AM parts (e.g. rocket engine components)",
           "id": "mt-additive-manufacturing-13"
         }
+      ],
+      "related": [
+        "me-additive-manufacturing"
       ]
     },
     {
@@ -3332,6 +3414,9 @@
           "name": "Degradation of ceramics and concrete",
           "id": "mt-corrosion-13"
         }
+      ],
+      "related": [
+        "ch-corrosion-science"
       ]
     },
     {
@@ -3400,7 +3485,8 @@
       "priority": "important",
       "summary": "Explains how surfaces in contact interact, why parts wear out, and how materials and lubricants are chosen to control friction and wear.",
       "prerequisites": [
-        "mt-mechanical-properties"
+        "mt-mechanical-properties",
+        "me-mechanics-of-materials"
       ],
       "topics": [
         {
@@ -3443,6 +3529,10 @@
           "name": "Tribology of polymers, ceramics and biomedical joints",
           "id": "mt-tribology-10"
         }
+      ],
+      "related": [
+        "me-tribology",
+        "me-shafts-bearings-seals"
       ]
     },
     {
@@ -3454,7 +3544,8 @@
       "summary": "Teaches the systematic Ashby method for choosing the best material and process for a component using property charts, performance indices and cost.",
       "prerequisites": [
         "mt-mechanical-properties",
-        "mt-thermal-properties"
+        "mt-thermal-properties",
+        "me-mechanics-of-materials"
       ],
       "topics": [
         {
@@ -3509,6 +3600,9 @@
           "name": "Industrial design, aesthetics and perceived attributes of materials",
           "id": "mt-materials-selection-13"
         }
+      ],
+      "related": [
+        "me-materials-selection"
       ]
     },
     {
@@ -3570,6 +3664,9 @@
           "name": "Battery and electronic-waste recycling",
           "id": "mt-sustainability-lca-12"
         }
+      ],
+      "related": [
+        "ea-sustainability-science"
       ]
     },
     {
@@ -3585,7 +3682,9 @@
       ],
       "related": [
         "ph-nanoscience-nanotechnology",
-        "el-advanced-materials"
+        "el-advanced-materials",
+        "ch-nanochemistry",
+        "me-micro-nano-mechanics"
       ],
       "topics": [
         {
@@ -3651,11 +3750,13 @@
       "summary": "Covers materials placed in the body, how the body responds to them, and how scaffolds and biomaterials are designed to repair or replace tissue.",
       "prerequisites": [
         "mt-polymer-properties",
-        "mt-ceramics"
+        "mt-ceramics",
+        "bi-cell-biology"
       ],
       "related": [
         "el-implantable-devices",
-        "ph-biophysics"
+        "ph-biophysics",
+        "bi-stem-cells-regeneration"
       ],
       "topics": [
         {
@@ -3768,6 +3869,9 @@
           "name": "Bioinspired and biomimetic synthesis: freeze casting, layer-by-layer assembly",
           "id": "mt-biological-bioinspired-10"
         }
+      ],
+      "related": [
+        "bi-biomechanics"
       ]
     },
     {
@@ -3783,7 +3887,9 @@
       ],
       "related": [
         "el-battery-technologies",
-        "el-battery-management-systems-bms"
+        "el-battery-management-systems-bms",
+        "ch-battery-chemistry",
+        "me-energy-storage-power-integration"
       ],
       "topics": [
         {
@@ -3888,7 +3994,8 @@
         "mt-ceramics"
       ],
       "related": [
-        "ph-energy-physics"
+        "ph-energy-physics",
+        "ch-fuel-cells-hydrogen"
       ],
       "topics": [
         {
@@ -3942,7 +4049,9 @@
       ],
       "related": [
         "el-optoelectronic-devices",
-        "ph-energy-physics"
+        "ph-energy-physics",
+        "ch-solar-energy-conversion",
+        "me-renewable-energy-systems"
       ],
       "topics": [
         {
@@ -4062,7 +4171,8 @@
       ],
       "related": [
         "el-actuators",
-        "el-mems-devices"
+        "el-mems-devices",
+        "me-smart-materials-artificial-muscles"
       ],
       "topics": [
         {
@@ -4225,6 +4335,11 @@
           "name": "Applications: soft robotics, prosthetics, haptics and wearable assistive suits",
           "id": "mt-electroactive-polymers-artificial-muscles-11"
         }
+      ],
+      "related": [
+        "me-smart-materials-artificial-muscles",
+        "ai-soft-robotics",
+        "me-soft-robotics-mechanics"
       ]
     },
     {
@@ -4288,6 +4403,11 @@
           "name": "Aerospace failure case studies and lessons learned",
           "id": "mt-aerospace-materials-12"
         }
+      ],
+      "related": [
+        "ae-aerospace-materials",
+        "ae-aerospace-structures",
+        "ae-composite-structures"
       ]
     },
     {
@@ -4342,6 +4462,9 @@
           "name": "Applications: turbine shrouds and blades, rocket nozzles, brake discs and leading edges",
           "id": "mt-ceramic-matrix-composites-10"
         }
+      ],
+      "related": [
+        "ch-high-performance-materials"
       ]
     },
     {
@@ -4353,7 +4476,8 @@
       "summary": "Explains the materials that protect spacecraft and missiles from re-entry and propulsion heating, from reusable tiles to charring ablators.",
       "prerequisites": [
         "mt-ceramic-matrix-composites",
-        "mt-thermal-properties"
+        "mt-thermal-properties",
+        "me-heat-transfer"
       ],
       "topics": [
         {
@@ -4404,6 +4528,11 @@
           "name": "Case studies: Space Shuttle, Apollo, Stardust, Orion and Starship heat shields",
           "id": "mt-thermal-protection-systems-12"
         }
+      ],
+      "related": [
+        "ae-thermal-protection-systems",
+        "ae-hypersonic-aerothermodynamics",
+        "ae-atmospheric-entry"
       ]
     },
     {
@@ -4484,7 +4613,7 @@
         "ph-nuclear-physics"
       ],
       "related": [
-        "ph-nuclear-physics"
+        "ch-applied-radiochemistry"
       ],
       "topics": [
         {
@@ -4552,7 +4681,9 @@
         "mt-aerospace-materials"
       ],
       "related": [
-        "ph-space-physics"
+        "ph-space-physics",
+        "ae-space-environment",
+        "ae-spacecraft-thermal-control"
       ],
       "topics": [
         {
@@ -4657,6 +4788,11 @@
           "name": "Lightweight frames for wearable exoskeletons: stiffness, strength and fatigue constraints",
           "id": "mt-lightweight-structures-10"
         }
+      ],
+      "related": [
+        "me-lightweight-structures-composites",
+        "ae-lightweight-structural-design",
+        "me-mechanical-metamaterials"
       ]
     },
     {
@@ -4669,7 +4805,8 @@
       "prerequisites": [
         "mt-fracture-mechanics",
         "mt-composites",
-        "mt-ceramics"
+        "mt-ceramics",
+        "me-dynamics"
       ],
       "topics": [
         {
@@ -4724,6 +4861,9 @@
           "name": "Standards and test methods for protective equipment",
           "id": "mt-impact-protective-materials-13"
         }
+      ],
+      "related": [
+        "me-finite-element-analysis"
       ]
     },
     {
@@ -4735,7 +4875,7 @@
       "summary": "Introduces modelling across length and time scales and the numerical methods that let materials scientists simulate diffusion, heat flow and structure.",
       "prerequisites": [
         "mt-diffusion",
-        "ma-numerical-solutions-of-pdes"
+        "ma-numerical-solutions-of-odes"
       ],
       "related": [
         "ph-computational-physics"
@@ -4796,7 +4936,8 @@
       ],
       "related": [
         "ph-computational-physics",
-        "ph-quantum-mechanics"
+        "ph-quantum-mechanics",
+        "ch-electronic-structure-theory"
       ],
       "topics": [
         {
@@ -4866,7 +5007,8 @@
       ],
       "related": [
         "ph-computational-physics",
-        "ma-monte-carlo-methods"
+        "ma-monte-carlo-methods",
+        "ch-molecular-modeling-simulation"
       ],
       "topics": [
         {
@@ -4986,7 +5128,8 @@
       "summary": "Teaches methods for simulating microstructure evolution and mesoscale mechanics, including phase-field, dislocation dynamics and crystal plasticity.",
       "prerequisites": [
         "mt-computational-materials-intro",
-        "mt-interfaces-microstructure-evolution"
+        "mt-interfaces-microstructure-evolution",
+        "ma-numerical-solutions-of-pdes"
       ],
       "topics": [
         {
@@ -5047,7 +5190,8 @@
         "ai-core-ml-concepts"
       ],
       "related": [
-        "ai-ai-for-science"
+        "ai-ai-for-science",
+        "ch-cheminformatics-ml"
       ],
       "topics": [
         {
@@ -5210,7 +5354,8 @@
       ],
       "related": [
         "ph-nanophotonics-plasmonics",
-        "el-advanced-materials"
+        "el-advanced-materials",
+        "me-mechanical-metamaterials"
       ],
       "topics": [
         {

@@ -75,9 +75,6 @@
       "prerequisites": [
         "cs-computational-thinking"
       ],
-      "related": [
-        "ai-programming-tools"
-      ],
       "topics": [
         {
           "id": "cs-programming-fundamentals-1",
@@ -301,7 +298,8 @@
         "ma-set-theory",
         "ma-graph-theory",
         "ma-enumerative-combinatorics",
-        "ma-elementary-number-theory"
+        "ma-elementary-number-theory",
+        "ma-discrete-mathematics"
       ],
       "topics": [
         {
@@ -763,7 +761,8 @@
         "ma-algorithmic-graph-theory",
         "ma-dynamic-programming",
         "ma-complexity-theory",
-        "ma-combinatorial-optimization"
+        "ma-combinatorial-optimization",
+        "ai-computational-complexity"
       ],
       "topics": [
         {
@@ -841,14 +840,16 @@
       "summary": "Graduate-level algorithm design: randomized, approximation, online, streaming and external-memory algorithms, plus advanced and succinct data structures.",
       "prerequisites": [
         "cs-algorithms",
-        "cs-probability-statistics-for-cs"
+        "cs-probability-statistics-for-cs",
+        "ma-linear-algebra"
       ],
       "related": [
         "ma-complexity-theory",
         "ma-linear-programming",
         "ma-probabilistic-combinatorics",
         "ma-combinatorial-optimization",
-        "ma-discrete-computational-geometry"
+        "ma-discrete-computational-geometry",
+        "ai-computational-complexity"
       ],
       "topics": [
         {
@@ -1450,7 +1451,8 @@
       "related": [
         "el-embedded-cc-best-practices",
         "el-memory-management",
-        "el-bare-metal-programming"
+        "el-bare-metal-programming",
+        "el-programming-languages"
       ],
       "topics": [
         {
@@ -1807,8 +1809,7 @@
       ],
       "related": [
         "el-real-time-operating-systems-rtos",
-        "el-rtos-concepts",
-        "el-embedded-linux"
+        "el-rtos-concepts"
       ],
       "topics": [
         {
@@ -2015,7 +2016,6 @@
         "cs-systems-programming"
       ],
       "related": [
-        "el-ethernet-networking",
         "el-iot-application-protocols",
         "ma-information-communication-theory"
       ],
@@ -2277,7 +2277,8 @@
         "cs-databases"
       ],
       "related": [
-        "ai-big-data-technologies"
+        "ai-big-data-technologies",
+        "ai-databases"
       ],
       "topics": [
         {
@@ -2394,12 +2395,14 @@
       "summary": "How search engines index, rank and evaluate results for text and the web, from inverted indexes and BM25 to learning to rank and dense retrieval.",
       "prerequisites": [
         "cs-algorithms",
-        "cs-probability-statistics-for-cs"
+        "cs-probability-statistics-for-cs",
+        "ma-linear-algebra"
       ],
       "related": [
         "ai-nlp-tasks-applications",
         "ai-text-preprocessing",
-        "ai-data-mining"
+        "ai-data-mining",
+        "ai-retrieval-augmented-generation"
       ],
       "topics": [
         {
@@ -2800,7 +2803,8 @@
         "ma-formal-verification",
         "ma-logic-proof-theory",
         "el-static-analysis-linters",
-        "el-safety-standards"
+        "el-safety-standards",
+        "ae-flight-software"
       ],
       "topics": [
         {
@@ -2999,6 +3003,10 @@
         "cs-concurrent-programming",
         "cs-computer-networks"
       ],
+      "related": [
+        "ai-big-data-technologies",
+        "ai-distributed-training"
+      ],
       "topics": [
         {
           "id": "cs-distributed-systems-1",
@@ -3190,7 +3198,12 @@
         "ma-numerical-linear-algebra",
         "ma-numerical-solutions-of-pdes",
         "ma-error-analysis",
-        "ph-computational-physics"
+        "ph-computational-physics",
+        "ch-molecular-modeling-simulation",
+        "ea-climate-modeling",
+        "me-computational-fluid-dynamics",
+        "ae-computational-fluid-dynamics",
+        "ai-distributed-training"
       ],
       "topics": [
         {
@@ -3498,7 +3511,8 @@
       "related": [
         "el-continuous-integration-continuous-deployment-cicd",
         "el-configuration-management",
-        "el-agile-devops-for-embedded"
+        "el-agile-devops-for-embedded",
+        "ai-ml-lifecycle-management"
       ],
       "topics": [
         {
@@ -3560,7 +3574,8 @@
       ],
       "related": [
         "el-observability-telemetry",
-        "el-logging-monitoring"
+        "el-logging-monitoring",
+        "ai-monitoring-maintenance"
       ],
       "topics": [
         {
@@ -4214,6 +4229,9 @@
         "cs-network-security",
         "cs-application-security"
       ],
+      "related": [
+        "el-threat-mitigation"
+      ],
       "topics": [
         {
           "id": "cs-offensive-security-1",
@@ -4655,7 +4673,8 @@
       ],
       "related": [
         "el-analytics-visualization",
-        "ai-exploratory-data-analysis-eda"
+        "ai-exploratory-data-analysis-eda",
+        "ea-geographic-information-systems"
       ],
       "topics": [
         {
@@ -4778,11 +4797,13 @@
       "priority": "advanced",
       "summary": "Representing and processing 3D shapes: curves and surfaces, meshes, implicit surfaces, discrete differential geometry and reconstruction from scans.",
       "prerequisites": [
-        "cs-computer-graphics"
+        "cs-computer-graphics",
+        "ma-multivariable-calculus"
       ],
       "related": [
         "ma-differential-geometry",
-        "ma-discrete-computational-geometry"
+        "ma-discrete-computational-geometry",
+        "me-cad-solid-modeling"
       ],
       "topics": [
         {
@@ -4832,11 +4853,13 @@
       "summary": "Making things move: keyframe and skeletal animation, kinematics, motion capture and physics simulation of particles, rigid bodies, cloth and fluids.",
       "prerequisites": [
         "cs-computer-graphics",
-        "ma-ordinary-differential-equations-odes"
+        "ma-ordinary-differential-equations-odes",
+        "ph-introductory-mechanics"
       ],
       "related": [
         "ph-classical-mechanics",
-        "ma-numerical-solutions-of-odes"
+        "ma-numerical-solutions-of-odes",
+        "me-advanced-dynamics-multibody"
       ],
       "topics": [
         {
@@ -4894,7 +4917,8 @@
       ],
       "related": [
         "el-extended-reality-integration",
-        "ai-3d-computer-vision"
+        "ai-3d-computer-vision",
+        "ai-wearable-ai-assistants-ar"
       ],
       "topics": [
         {
@@ -5138,7 +5162,8 @@
       "priority": "advanced",
       "summary": "The fast-moving frontier where programs write programs: classic program synthesis, LLM coding assistants and agents, and how to evaluate and safely adopt them.",
       "prerequisites": [
-        "cs-software-maintenance-evolution"
+        "cs-software-maintenance-evolution",
+        "ai-llm-application-engineering"
       ],
       "related": [
         "ai-large-language-models-llms",
@@ -5195,7 +5220,8 @@
         "ma-cryptography"
       ],
       "related": [
-        "ma-elliptic-curves"
+        "ma-elliptic-curves",
+        "ai-privacy-in-ai"
       ],
       "topics": [
         {
@@ -5308,7 +5334,8 @@
       ],
       "related": [
         "ai-fairness-in-ml",
-        "ai-ai-governance-policy"
+        "ai-ai-governance-policy",
+        "el-engineering-ethics-practice"
       ],
       "topics": [
         {

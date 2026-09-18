@@ -13,7 +13,9 @@
       "level": 1,
       "priority": "core",
       "summary": "A first tour of what aerospace engineers do, the vehicles they build and the physics and units they work with.",
-      "prerequisites": [],
+      "prerequisites": [
+        "ma-trigonometry"
+      ],
       "topics": [
         {
           "name": "What aerospace engineering is: aeronautics versus astronautics",
@@ -73,7 +75,8 @@
       "priority": "core",
       "summary": "Explains lift, drag, thrust and weight, how wings and controls work, and how an airplane climbs, turns and lands.",
       "prerequisites": [
-        "ae-introduction-to-aerospace-engineering"
+        "ae-introduction-to-aerospace-engineering",
+        "ph-introductory-mechanics"
       ],
       "topics": [
         {
@@ -142,7 +145,8 @@
       "priority": "core",
       "summary": "A conceptual introduction to rockets: action and reaction, thrust, propellants, staging and why reaching orbit is hard.",
       "prerequisites": [
-        "ae-introduction-to-aerospace-engineering"
+        "ae-introduction-to-aerospace-engineering",
+        "ph-introductory-mechanics"
       ],
       "topics": [
         {
@@ -199,7 +203,8 @@
       "priority": "core",
       "summary": "Introduces what 'space' is, how orbits work, the main orbit types and the harsh environment spacecraft must survive.",
       "prerequisites": [
-        "ae-introduction-to-aerospace-engineering"
+        "ae-introduction-to-aerospace-engineering",
+        "ph-introductory-mechanics"
       ],
       "topics": [
         {
@@ -384,8 +389,8 @@
         "ma-linear-algebra"
       ],
       "related": [
-        "ph-classical-mechanics",
-        "ma-classical-mechanics"
+        "ma-classical-mechanics",
+        "me-dynamics"
       ],
       "topics": [
         {
@@ -454,11 +459,13 @@
       "priority": "core",
       "summary": "Engineering thermodynamics aimed at propulsion and aerodynamics: energy balances, entropy, gas properties and power and propulsion cycles.",
       "prerequisites": [
-        "ma-calculus"
+        "me-engineering-thermodynamics",
+        "ch-introductory-chemistry"
       ],
       "related": [
         "ph-thermodynamics-statistical-mechanics",
-        "ma-thermodynamics"
+        "ma-thermodynamics",
+        "me-applied-thermodynamics"
       ],
       "topics": [
         {
@@ -527,12 +534,14 @@
       "priority": "core",
       "summary": "Classical and state-space control of dynamic systems, with aircraft, rockets and spacecraft as the working examples.",
       "prerequisites": [
-        "ma-ordinary-differential-equations-odes"
+        "ma-ordinary-differential-equations-odes",
+        "ma-linear-algebra"
       ],
       "related": [
         "el-control-theory",
         "ma-control-theory",
-        "ai-control-systems"
+        "ai-control-systems",
+        "me-feedback-control"
       ],
       "topics": [
         {
@@ -606,11 +615,13 @@
       "summary": "Programming and numerical methods (Python or MATLAB) used daily in aerospace analysis: from integrating trajectories to solving linear systems.",
       "prerequisites": [
         "ma-ordinary-differential-equations-odes",
-        "ma-linear-algebra"
+        "ma-linear-algebra",
+        "cs-programming-fundamentals"
       ],
       "related": [
         "ma-numerical-solutions-of-odes",
-        "ph-computational-physics"
+        "ph-computational-physics",
+        "me-engineering-computation"
       ],
       "topics": [
         {
@@ -676,11 +687,13 @@
       "summary": "How aerospace engineers measure pressure, temperature, force, strain, motion and flow, acquire data and quantify uncertainty.",
       "prerequisites": [
         "el-circuit-theory",
-        "ae-introduction-to-aerospace-engineering"
+        "ae-introduction-to-aerospace-engineering",
+        "ma-inferential-statistics"
       ],
       "related": [
         "ph-measurement-instrumentation",
-        "el-signal-conditioning"
+        "el-signal-conditioning",
+        "me-measurements-instrumentation"
       ],
       "topics": [
         {
@@ -742,7 +755,7 @@
       "summary": "The governing principles of aerodynamics: forces and moments, dimensionless parameters and the conservation equations of fluid flow.",
       "prerequisites": [
         "ae-principles-of-flight",
-        "ph-classical-mechanics"
+        "me-fluid-mechanics"
       ],
       "related": [
         "ph-fluid-mechanics",
@@ -896,7 +909,8 @@
         "ae-aerospace-thermodynamics"
       ],
       "related": [
-        "ph-fluid-mechanics"
+        "ph-fluid-mechanics",
+        "me-advanced-fluid-mechanics"
       ],
       "topics": [
         {
@@ -972,7 +986,8 @@
         "ae-incompressible-aerodynamics"
       ],
       "related": [
-        "ph-fluid-mechanics"
+        "ph-fluid-mechanics",
+        "me-advanced-fluid-mechanics"
       ],
       "topics": [
         {
@@ -1151,11 +1166,13 @@
       "prerequisites": [
         "ae-viscous-flow-boundary-layers",
         "ae-compressible-flow-gas-dynamics",
-        "ma-numerical-solutions-of-pdes"
+        "ma-numerical-solutions-of-pdes",
+        "ae-computational-methods-aerospace"
       ],
       "related": [
-        "ma-numerical-solutions-of-pdes",
-        "ph-computational-physics"
+        "ph-computational-physics",
+        "me-computational-fluid-dynamics",
+        "cs-high-performance-computing"
       ],
       "topics": [
         {
@@ -1221,7 +1238,8 @@
       "summary": "Flow above about Mach 5, where thin shock layers, high-temperature gas chemistry and severe heating dominate the design of entry vehicles and hypersonic aircraft.",
       "prerequisites": [
         "ae-compressible-flow-gas-dynamics",
-        "ae-viscous-flow-boundary-layers"
+        "ae-viscous-flow-boundary-layers",
+        "me-heat-transfer"
       ],
       "topics": [
         {
@@ -1337,6 +1355,9 @@
           "name": "Aircraft noise certification",
           "id": "ae-unsteady-aerodynamics-aeroacoustics-12"
         }
+      ],
+      "related": [
+        "me-acoustics-noise-control"
       ]
     },
     {
@@ -1517,6 +1538,9 @@
           "name": "Flight simulation and system identification from flight data",
           "id": "ae-flight-dynamics-11"
         }
+      ],
+      "related": [
+        "me-advanced-dynamics-multibody"
       ]
     },
     {
@@ -1531,7 +1555,8 @@
         "ae-feedback-control-aerospace"
       ],
       "related": [
-        "el-avionics-systems"
+        "el-avionics-systems",
+        "el-state-space-digital-control"
       ],
       "topics": [
         {
@@ -1668,7 +1693,8 @@
       ],
       "related": [
         "ai-motion-planning-navigation",
-        "el-autonomous-navigation-systems"
+        "el-autonomous-navigation-systems",
+        "ai-aerial-robotics-drones"
       ],
       "topics": [
         {
@@ -1890,6 +1916,9 @@
           "name": "Sustainable aviation fuels and hydrogen aircraft concepts",
           "id": "ae-electric-aircraft-advanced-air-mobility-10"
         }
+      ],
+      "related": [
+        "me-energy-storage-power-integration"
       ]
     },
     {
@@ -1900,7 +1929,8 @@
       "priority": "important",
       "summary": "The engineering properties of the metals, composites, ceramics and polymers used in aircraft and spacecraft and how to choose among them.",
       "prerequisites": [
-        "ae-introduction-to-aerospace-engineering"
+        "ae-introduction-to-aerospace-engineering",
+        "me-engineering-materials"
       ],
       "topics": [
         {
@@ -1951,6 +1981,10 @@
           "name": "Material allowables and qualification (MMPDS, CMH-17)",
           "id": "ae-aerospace-materials-12"
         }
+      ],
+      "related": [
+        "mt-aerospace-materials",
+        "me-materials-selection"
       ]
     },
     {
@@ -1961,10 +1995,11 @@
       "priority": "core",
       "summary": "Stress analysis of the thin-walled, stiffened structures used in airframes, rockets and spacecraft.",
       "prerequisites": [
-        "ph-classical-mechanics"
+        "me-mechanics-of-materials"
       ],
       "related": [
-        "ma-solid-mechanics"
+        "ma-solid-mechanics",
+        "me-advanced-mechanics-of-materials"
       ],
       "topics": [
         {
@@ -2033,7 +2068,8 @@
       "priority": "core",
       "summary": "Vibration of structures and their response to dynamic loads, from single-degree-of-freedom systems to launch vibration environments.",
       "prerequisites": [
-        "ae-aerospace-structures"
+        "ae-aerospace-structures",
+        "me-mechanical-vibrations"
       ],
       "topics": [
         {
@@ -2084,6 +2120,9 @@
           "name": "Experimental modal analysis",
           "id": "ae-structural-dynamics-vibration-12"
         }
+      ],
+      "related": [
+        "me-advanced-vibrations-rotordynamics"
       ]
     },
     {
@@ -2098,7 +2137,8 @@
         "ae-computational-methods-aerospace"
       ],
       "related": [
-        "ma-numerical-solutions-of-pdes"
+        "ma-numerical-solutions-of-pdes",
+        "me-finite-element-analysis"
       ],
       "topics": [
         {
@@ -2156,7 +2196,8 @@
       "summary": "Analysis and design of laminated composite structures, which make up most of modern airframes and rocket structures.",
       "prerequisites": [
         "ae-aerospace-structures",
-        "ae-aerospace-materials"
+        "ae-aerospace-materials",
+        "ma-linear-algebra"
       ],
       "topics": [
         {
@@ -2203,6 +2244,11 @@
           "name": "Design allowables and building-block testing",
           "id": "ae-composite-structures-11"
         }
+      ],
+      "related": [
+        "mt-composites",
+        "mt-fibre-composites-mechanics-manufacturing",
+        "me-lightweight-structures-composites"
       ]
     },
     {
@@ -2261,6 +2307,11 @@
           "name": "Structural health monitoring",
           "id": "ae-fatigue-fracture-damage-tolerance-11"
         }
+      ],
+      "related": [
+        "mt-fracture-mechanics",
+        "mt-fatigue-failure-analysis",
+        "me-fatigue-fracture-creep"
       ]
     },
     {
@@ -2271,7 +2322,8 @@
       "priority": "important",
       "summary": "How airframes, engines and rockets are actually made: machining, forming, joining, composites fabrication, additive manufacturing and inspection.",
       "prerequisites": [
-        "ae-aerospace-materials"
+        "ae-aerospace-materials",
+        "me-manufacturing-processes"
       ],
       "topics": [
         {
@@ -2318,6 +2370,10 @@
           "name": "Production rate, cost and supply chain",
           "id": "ae-aerospace-manufacturing-11"
         }
+      ],
+      "related": [
+        "me-additive-manufacturing",
+        "mt-nondestructive-evaluation"
       ]
     },
     {
@@ -2380,6 +2436,9 @@
           "name": "Aeroelasticity of launch vehicles and rotorcraft",
           "id": "ae-aeroelasticity-12"
         }
+      ],
+      "related": [
+        "me-advanced-vibrations-rotordynamics"
       ]
     },
     {
@@ -2430,6 +2489,10 @@
           "name": "Probabilistic and reliability-based design",
           "id": "ae-lightweight-structural-design-9"
         }
+      ],
+      "related": [
+        "me-lightweight-structures-composites",
+        "mt-lightweight-structures"
       ]
     },
     {
@@ -2440,10 +2503,14 @@
       "priority": "important",
       "summary": "The chemistry and physics of burning fuels in engines: thermochemistry, kinetics, flames, sprays and detonations.",
       "prerequisites": [
-        "ae-aerospace-thermodynamics"
+        "ae-aerospace-thermodynamics",
+        "ch-chemical-equilibrium",
+        "ch-chemical-kinetics-intro"
       ],
       "related": [
-        "ph-chemical-physics-physical-chemistry"
+        "ph-chemical-physics-physical-chemistry",
+        "ch-combustion-chemistry",
+        "me-combustion-engineering"
       ],
       "topics": [
         {
@@ -2563,6 +2630,9 @@
           "name": "Engine testing, health monitoring and certification",
           "id": "ae-gas-turbine-engines-14"
         }
+      ],
+      "related": [
+        "me-turbomachinery"
       ]
     },
     {
@@ -2678,6 +2748,10 @@
           "name": "Pumps and cavitation (link to rocket turbopumps)",
           "id": "ae-turbomachinery-11"
         }
+      ],
+      "related": [
+        "me-turbomachinery",
+        "ae-engine-cycles-turbopumps-feed-systems"
       ]
     },
     {
@@ -2867,6 +2941,10 @@
           "name": "Propellant hazards, handling and safety principles",
           "id": "ae-rocket-propellants-performance-12"
         }
+      ],
+      "related": [
+        "ch-propellant-chemistry",
+        "ch-energetic-materials"
       ]
     },
     {
@@ -2932,7 +3010,8 @@
       "summary": "Design of liquid-propellant rocket engines: thrust chambers, injectors, cooling, ignition and engine operation.",
       "prerequisites": [
         "ae-rocket-propellants-performance",
-        "ae-rocket-nozzles-thrust-vector-control"
+        "ae-rocket-nozzles-thrust-vector-control",
+        "me-heat-transfer"
       ],
       "topics": [
         {
@@ -2991,6 +3070,9 @@
           "name": "Case studies: F-1, RS-25, Merlin, Raptor, RD-180",
           "id": "ae-liquid-rocket-engines-14"
         }
+      ],
+      "related": [
+        "ch-propellant-chemistry"
       ]
     },
     {
@@ -3056,6 +3138,10 @@
           "name": "Large boosters: Space Shuttle SRB and SLS boosters; the Challenger O-ring failure",
           "id": "ae-solid-rocket-motors-13"
         }
+      ],
+      "related": [
+        "ch-energetic-materials",
+        "ch-propellant-chemistry"
       ]
     },
     {
@@ -3101,6 +3187,9 @@
           "name": "Hybrid applications: SpaceShipOne/Two, sounding rockets and student rockets",
           "id": "ae-hybrid-rocket-propulsion-8"
         }
+      ],
+      "related": [
+        "ch-propellant-chemistry"
       ]
     },
     {
@@ -3173,7 +3262,8 @@
       "priority": "important",
       "summary": "How propellants get from tanks into the chamber: pressure-fed and pump-fed cycles, turbopump design, pressurisation and tank propellant management.",
       "prerequisites": [
-        "ae-liquid-rocket-engines"
+        "ae-liquid-rocket-engines",
+        "me-turbomachinery"
       ],
       "topics": [
         {
@@ -3236,6 +3326,9 @@
           "name": "Engine control and health monitoring",
           "id": "ae-engine-cycles-turbopumps-feed-systems-15"
         }
+      ],
+      "related": [
+        "ae-turbomachinery"
       ]
     },
     {
@@ -3289,6 +3382,12 @@
           "name": "Modern analysis: CFD-based and reduced-order models",
           "id": "ae-combustion-instability-10"
         }
+      ],
+      "related": [
+        "me-combustion-engineering",
+        "me-acoustics-noise-control",
+        "ph-acoustics",
+        "ch-combustion-chemistry"
       ]
     },
     {
@@ -3303,7 +3402,8 @@
         "ph-classical-electromagnetism"
       ],
       "related": [
-        "ph-space-physics"
+        "ph-space-physics",
+        "ph-plasma-physics"
       ],
       "topics": [
         {
@@ -3472,11 +3572,12 @@
       "summary": "The mathematics of Keplerian orbits: conic sections, orbital elements, time of flight and coordinate frames.",
       "prerequisites": [
         "ae-space-and-orbits-at-a-glance",
-        "ph-classical-mechanics"
+        "ph-classical-mechanics",
+        "ma-linear-algebra"
       ],
       "related": [
-        "ph-classical-mechanics",
-        "ma-mathematical-aspects-of-astronomy"
+        "ma-mathematical-aspects-of-astronomy",
+        "ph-celestial-mechanics"
       ],
       "topics": [
         {
@@ -3658,6 +3759,9 @@
           "name": "Tools: GMAT, Orekit, STK",
           "id": "ae-orbital-perturbations-13"
         }
+      ],
+      "related": [
+        "ph-celestial-mechanics"
       ]
     },
     {
@@ -3934,6 +4038,9 @@
           "name": "Ephemeris models and transition to real missions (JWST, SOHO)",
           "id": "ae-three-body-problem-10"
         }
+      ],
+      "related": [
+        "ph-celestial-mechanics"
       ]
     },
     {
@@ -4487,11 +4594,13 @@
       "priority": "core",
       "summary": "The physical environment of space and its effects on spacecraft: vacuum, thermal, plasma, radiation, atomic oxygen, micrometeoroids and debris.",
       "prerequisites": [
-        "ae-space-and-orbits-at-a-glance"
+        "ae-space-and-orbits-at-a-glance",
+        "ph-introductory-electricity-magnetism"
       ],
       "related": [
         "ph-space-physics",
-        "el-spacecraft-electronics"
+        "el-spacecraft-electronics",
+        "mt-space-environment-materials"
       ],
       "topics": [
         {
@@ -4599,6 +4708,9 @@
           "name": "Case studies: a communications satellite, an Earth observer, a planetary probe",
           "id": "ae-spacecraft-bus-fundamentals-10"
         }
+      ],
+      "related": [
+        "el-space-satellite-systems"
       ]
     },
     {
@@ -4615,7 +4727,8 @@
       "related": [
         "el-battery-technologies",
         "el-power-distribution-management",
-        "el-spacecraft-electronics"
+        "el-spacecraft-electronics",
+        "me-energy-storage-power-integration"
       ],
       "topics": [
         {
@@ -4677,10 +4790,11 @@
       "summary": "Keeping spacecraft components within their temperature limits in the vacuum of space through passive and active thermal design.",
       "prerequisites": [
         "ae-spacecraft-bus-fundamentals",
-        "ae-aerospace-thermodynamics"
+        "me-heat-transfer"
       ],
       "related": [
-        "el-thermal-management"
+        "el-thermal-management",
+        "me-thermal-management-compact-power"
       ],
       "topics": [
         {
@@ -4820,7 +4934,8 @@
       "priority": "core",
       "summary": "The spacecraft's onboard computer system: processors, memory, data buses, telemetry and telecommand, timing and onboard fault protection.",
       "prerequisites": [
-        "ae-spacecraft-bus-fundamentals"
+        "ae-spacecraft-bus-fundamentals",
+        "el-embedded-systems-fundamentals"
       ],
       "related": [
         "el-spacecraft-electronics",
@@ -5179,6 +5294,9 @@
           "name": "Flexible appendages and propellant slosh effects",
           "id": "ae-attitude-kinematics-dynamics-12"
         }
+      ],
+      "related": [
+        "me-advanced-dynamics-multibody"
       ]
     },
     {
@@ -5298,6 +5416,9 @@
           "name": "ADCS for CubeSats",
           "id": "ae-attitude-control-13"
         }
+      ],
+      "related": [
+        "el-state-space-digital-control"
       ]
     },
     {
@@ -5470,6 +5591,9 @@
           "name": "Lessons learned from GN&C failures",
           "id": "ae-gnc-system-design-verification-10"
         }
+      ],
+      "related": [
+        "el-avionics-systems"
       ]
     },
     {
@@ -5484,7 +5608,6 @@
         "ae-aerospace-systems-engineering"
       ],
       "related": [
-        "el-avionics-systems",
         "el-avionics-buses-protocols",
         "el-spacecraft-electronics",
         "el-reliability-fault-tolerance"
@@ -5545,11 +5668,14 @@
       "summary": "Writing and verifying the safety-critical real-time software that flies aircraft, rockets and spacecraft.",
       "prerequisites": [
         "ae-command-data-handling",
-        "el-real-time-concepts"
+        "el-real-time-concepts",
+        "cs-software-engineering-process"
       ],
       "related": [
         "el-real-time-operating-systems-rtos",
-        "el-firmware-development"
+        "el-firmware-development",
+        "cs-program-analysis-verification",
+        "cs-software-testing"
       ],
       "topics": [
         {
@@ -5901,10 +6027,13 @@
       "priority": "important",
       "summary": "Keeping humans alive and productive in space: physiology, life support, habitats, spacesuits, human rating and crew safety.",
       "prerequisites": [
-        "ae-space-mission-design"
+        "ae-space-mission-design",
+        "bi-human-physiology"
       ],
       "related": [
-        "ph-medical-physics"
+        "ph-medical-physics",
+        "bi-space-physiology",
+        "bi-bioregenerative-life-support"
       ],
       "topics": [
         {
@@ -5969,7 +6098,8 @@
         "ae-descent-landing-systems"
       ],
       "related": [
-        "ph-planetary-science"
+        "ph-planetary-science",
+        "ea-comparative-planetology"
       ],
       "topics": [
         {
@@ -6126,6 +6256,10 @@
           "name": "Economics of space resources",
           "id": "ae-space-resources-surface-systems-10"
         }
+      ],
+      "related": [
+        "ea-lunar-geology",
+        "ea-mars-geology"
       ]
     },
     {
@@ -6266,7 +6400,8 @@
       ],
       "related": [
         "el-reliability-fault-tolerance",
-        "el-safety-standards"
+        "el-safety-standards",
+        "me-reliability-safety-engineering"
       ],
       "topics": [
         {
@@ -6573,7 +6708,8 @@
         "ma-nonlinear-programming"
       ],
       "related": [
-        "ma-optimization-algorithms"
+        "ma-optimization-algorithms",
+        "me-design-optimization"
       ],
       "topics": [
         {

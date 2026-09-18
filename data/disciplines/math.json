@@ -955,6 +955,9 @@
       "prerequisites": [
         "ma-abstract-algebra"
       ],
+      "related": [
+        "cs-functional-programming"
+      ],
       "topics": [
         {
           "id": "ma-category-theory-1",
@@ -1013,7 +1016,8 @@
         "ma-elementary-intermediate-algebra"
       ],
       "related": [
-        "ma-introduction-to-proofs"
+        "ma-introduction-to-proofs",
+        "cs-discrete-mathematics"
       ],
       "topics": [
         {
@@ -1641,6 +1645,9 @@
       "prerequisites": [
         "ma-abstract-algebra"
       ],
+      "related": [
+        "ch-symmetry-group-theory"
+      ],
       "topics": [
         {
           "id": "ma-group-theory-2",
@@ -2039,7 +2046,8 @@
       ],
       "related": [
         "ma-error-correcting-codes",
-        "ma-coding-theory-combinatorial-aspects"
+        "ma-coding-theory-combinatorial-aspects",
+        "el-channel-coding"
       ],
       "topics": [
         {
@@ -2461,7 +2469,8 @@
       ],
       "related": [
         "ma-cryptography",
-        "el-cryptography-fundamentals"
+        "el-cryptography-fundamentals",
+        "cs-applied-cryptography"
       ],
       "topics": [
         {
@@ -3147,6 +3156,9 @@
         "ma-complex-analysis",
         "ma-ordinary-differential-equations-odes"
       ],
+      "related": [
+        "ph-mathematical-physics"
+      ],
       "topics": [
         {
           "id": "ma-special-functions-1",
@@ -3288,6 +3300,9 @@
         "ma-measure-theory-integration",
         "ma-general-topology",
         "ma-linear-algebra"
+      ],
+      "related": [
+        "ph-mathematical-physics"
       ],
       "topics": [
         {
@@ -3784,6 +3799,10 @@
       "prerequisites": [
         "ma-ordinary-differential-equations-odes"
       ],
+      "related": [
+        "ph-mathematical-physics",
+        "el-signals-and-systems"
+      ],
       "topics": [
         {
           "id": "ma-integral-transforms-1",
@@ -4009,6 +4028,9 @@
       "prerequisites": [
         "ma-mathematical-methods"
       ],
+      "related": [
+        "ph-mathematical-physics"
+      ],
       "topics": [
         {
           "name": "Two-point boundary value problems",
@@ -4048,7 +4070,8 @@
         "ma-linear-algebra"
       ],
       "related": [
-        "ph-chaos-theory-nonlinear-dynamics"
+        "ph-chaos-theory-nonlinear-dynamics",
+        "me-system-dynamics"
       ],
       "topics": [
         {
@@ -4314,7 +4337,8 @@
         "ma-neural-network-mathematics"
       ],
       "related": [
-        "ai-ai-for-science"
+        "ai-ai-for-science",
+        "ai-special-deep-learning-topics"
       ],
       "topics": [
         {
@@ -4443,6 +4467,10 @@
         "ma-linear-algebra",
         "ma-real-analysis"
       ],
+      "related": [
+        "ph-general-relativity",
+        "ph-mathematical-physics"
+      ],
       "topics": [
         {
           "id": "ma-differential-geometry-1",
@@ -4510,9 +4538,6 @@
       "prerequisites": [
         "ma-vector-calculus",
         "ma-linear-algebra"
-      ],
-      "related": [
-        "ph-general-relativity"
       ],
       "topics": [
         {
@@ -4604,6 +4629,9 @@
       "prerequisites": [
         "ma-algorithm-analysis",
         "ma-linear-algebra"
+      ],
+      "related": [
+        "cs-geometric-modeling"
       ],
       "topics": [
         {
@@ -5632,7 +5660,8 @@
         "ma-descriptive-statistics"
       ],
       "related": [
-        "ai-mathematics-statistics"
+        "ai-mathematics-statistics",
+        "ph-data-analysis-statistics"
       ],
       "topics": [
         {
@@ -5787,6 +5816,9 @@
         "ma-probability-theory",
         "ma-linear-algebra"
       ],
+      "related": [
+        "ph-advanced-statistical-mechanics"
+      ],
       "topics": [
         {
           "id": "ma-stochastic-processes-1",
@@ -5851,7 +5883,10 @@
         "ma-inferential-statistics"
       ],
       "related": [
-        "ai-probabilistic-ml"
+        "ai-probabilistic-ml",
+        "ph-astrostatistics",
+        "ph-data-analysis-statistics",
+        "ai-probabilistic-programming"
       ],
       "topics": [
         {
@@ -5940,6 +5975,9 @@
       "prerequisites": [
         "ma-regression-analysis"
       ],
+      "related": [
+        "ch-chemometrics"
+      ],
       "topics": [
         {
           "name": "Principles: randomisation, replication and blocking",
@@ -5980,6 +6018,9 @@
       "summary": "Modelling data ordered in time: stationarity, ARIMA models, spectral analysis and state-space models.",
       "prerequisites": [
         "ma-regression-analysis"
+      ],
+      "related": [
+        "ph-astrostatistics"
       ],
       "topics": [
         {
@@ -6054,6 +6095,9 @@
       "summary": "Statistics for medicine and biology: survival analysis, clinical trials and epidemiological study design.",
       "prerequisites": [
         "ma-regression-analysis"
+      ],
+      "related": [
+        "bi-quantitative-biology-data-analysis"
       ],
       "topics": [
         {
@@ -6222,6 +6266,9 @@
         "ma-regression-analysis",
         "ma-mathematical-statistics"
       ],
+      "related": [
+        "ai-causal-inference"
+      ],
       "topics": [
         {
           "name": "Potential outcomes and causal effects",
@@ -6371,7 +6418,8 @@
       "priority": "important",
       "summary": "Where numerical errors come from (floating point, truncation and round-off) and how conditioning and stability control them.",
       "prerequisites": [
-        "ma-sequences-series"
+        "ma-sequences-series",
+        "cs-programming-fundamentals"
       ],
       "topics": [
         {
@@ -6580,6 +6628,10 @@
         "ma-numerical-methods-for-calculus",
         "ma-ordinary-differential-equations-odes"
       ],
+      "related": [
+        "ph-computational-physics",
+        "ae-computational-methods-aerospace"
+      ],
       "topics": [
         {
           "id": "ma-numerical-solutions-of-odes-1",
@@ -6623,10 +6675,14 @@
       "priority": "important",
       "summary": "Computing with randomness: random sampling, Monte Carlo integration, variance reduction, MCMC and quasi-Monte Carlo.",
       "prerequisites": [
-        "ma-probability-theory"
+        "ma-probability-theory",
+        "cs-programming-fundamentals"
       ],
       "related": [
-        "ai-monte-carlo-methods"
+        "ai-monte-carlo-methods",
+        "ph-computational-physics",
+        "ch-molecular-modeling-simulation",
+        "mt-molecular-dynamics-monte-carlo"
       ],
       "topics": [
         {
@@ -6768,7 +6824,8 @@
         "ma-partial-differential-equations-pdes"
       ],
       "related": [
-        "ph-computational-physics"
+        "ph-computational-physics",
+        "me-finite-element-analysis"
       ],
       "topics": [
         {
@@ -6932,7 +6989,8 @@
         "ma-stochastic-processes"
       ],
       "related": [
-        "ai-dynamic-programming"
+        "ai-dynamic-programming",
+        "cs-algorithms"
       ],
       "topics": [
         {
@@ -7049,7 +7107,10 @@
       "related": [
         "el-control-theory",
         "ai-control-systems",
-        "ma-systems-theory-control"
+        "ma-systems-theory-control",
+        "me-feedback-control",
+        "ae-feedback-control-aerospace",
+        "ch-process-design-control-safety"
       ],
       "topics": [
         {
@@ -7201,6 +7262,9 @@
         "ma-graph-theory",
         "ma-algorithm-analysis"
       ],
+      "related": [
+        "cs-advanced-algorithms"
+      ],
       "topics": [
         {
           "name": "Shortest paths and spanning trees",
@@ -7282,7 +7346,8 @@
         "ma-control-theory"
       ],
       "related": [
-        "ma-variational-methods"
+        "ma-variational-methods",
+        "el-advanced-control-systems"
       ],
       "topics": [
         {
@@ -7395,10 +7460,12 @@
       "priority": "important",
       "summary": "Measuring algorithm efficiency: asymptotic notation, recurrences, amortised and probabilistic analysis of classic algorithms.",
       "prerequisites": [
-        "ma-discrete-mathematics"
+        "ma-discrete-mathematics",
+        "cs-programming-fundamentals"
       ],
       "related": [
-        "ai-computational-complexity"
+        "ai-computational-complexity",
+        "cs-algorithms"
       ],
       "topics": [
         {
@@ -7449,6 +7516,9 @@
       "prerequisites": [
         "ma-discrete-mathematics"
       ],
+      "related": [
+        "cs-compilers"
+      ],
       "topics": [
         {
           "id": "ma-automata-theory-1",
@@ -7489,6 +7559,9 @@
       "summary": "Grammars and languages: regular and context-free languages, pumping lemmas and the Chomsky hierarchy.",
       "prerequisites": [
         "ma-automata-theory"
+      ],
+      "related": [
+        "cs-compilers"
       ],
       "topics": [
         {
@@ -7573,7 +7646,8 @@
         "ma-algorithm-analysis"
       ],
       "related": [
-        "ai-computational-complexity"
+        "ai-computational-complexity",
+        "cs-advanced-algorithms"
       ],
       "topics": [
         {
@@ -7626,7 +7700,8 @@
         "ma-algorithm-analysis"
       ],
       "related": [
-        "ma-graph-theory"
+        "ma-graph-theory",
+        "cs-advanced-algorithms"
       ],
       "topics": [
         {
@@ -7732,7 +7807,8 @@
       ],
       "related": [
         "el-cryptography-fundamentals",
-        "ma-cryptographic-number-theory"
+        "ma-cryptographic-number-theory",
+        "cs-applied-cryptography"
       ],
       "topics": [
         {
@@ -7790,7 +7866,8 @@
       ],
       "related": [
         "ma-algebraic-coding-theory",
-        "ma-coding-theory-combinatorial-aspects"
+        "ma-coding-theory-combinatorial-aspects",
+        "el-channel-coding"
       ],
       "topics": [
         {
@@ -7829,6 +7906,10 @@
       "prerequisites": [
         "ma-logic-proof-theory",
         "ma-computability-theory"
+      ],
+      "related": [
+        "cs-type-systems-semantics",
+        "cs-functional-programming"
       ],
       "topics": [
         {
@@ -7869,7 +7950,12 @@
       "priority": "advanced",
       "summary": "Proving that programs and proofs are correct: program semantics, model checking and interactive proof assistants.",
       "prerequisites": [
-        "ma-type-theory"
+        "ma-type-theory",
+        "cs-programming-languages"
+      ],
+      "related": [
+        "cs-program-analysis-verification",
+        "el-design-verification"
       ],
       "topics": [
         {
@@ -7961,7 +8047,8 @@
       ],
       "related": [
         "ai-core-ml-concepts",
-        "ma-regression-analysis"
+        "ma-regression-analysis",
+        "ai-types-of-machine-learning"
       ],
       "topics": [
         {
@@ -8174,7 +8261,8 @@
         "ma-functional-analysis"
       ],
       "related": [
-        "ai-core-ml-concepts"
+        "ai-core-ml-concepts",
+        "ai-types-of-machine-learning"
       ],
       "topics": [
         {
@@ -8333,10 +8421,14 @@
       "priority": "advanced",
       "summary": "The mathematical structure of thermodynamics: state functions, exact differentials, entropy and free energies.",
       "prerequisites": [
-        "ma-multivariable-calculus"
+        "ma-multivariable-calculus",
+        "ph-introductory-heat-thermodynamics"
       ],
       "related": [
-        "ph-thermodynamics-statistical-mechanics"
+        "ph-thermodynamics-statistical-mechanics",
+        "ch-chemical-thermodynamics",
+        "me-engineering-thermodynamics",
+        "mt-thermodynamics-of-materials"
       ],
       "topics": [
         {
@@ -8375,11 +8467,13 @@
       "prerequisites": [
         "ma-variational-methods",
         "ma-vector-calculus",
-        "ma-linear-algebra"
+        "ma-linear-algebra",
+        "ph-introductory-mechanics"
       ],
       "related": [
         "ph-classical-mechanics",
-        "ma-symplectic-geometry"
+        "ma-symplectic-geometry",
+        "me-advanced-dynamics-multibody"
       ],
       "topics": [
         {
@@ -8428,11 +8522,13 @@
       "priority": "advanced",
       "summary": "Maxwell's equations as vector-calculus PDEs: electrostatics, magnetostatics, waves and potentials.",
       "prerequisites": [
-        "ma-mathematical-methods"
+        "ma-mathematical-methods",
+        "ph-introductory-electricity-magnetism"
       ],
       "related": [
         "ph-classical-electromagnetism",
-        "el-electromagnetics"
+        "el-electromagnetics",
+        "ph-advanced-electrodynamics"
       ],
       "topics": [
         {
@@ -8471,10 +8567,13 @@
       "prerequisites": [
         "ma-mathematical-methods",
         "ma-probability-theory",
-        "ma-linear-algebra"
+        "ma-linear-algebra",
+        "ph-modern-physics"
       ],
       "related": [
-        "ph-quantum-mechanics"
+        "ph-quantum-mechanics",
+        "ph-advanced-quantum-mechanics",
+        "ch-quantum-chemistry"
       ],
       "topics": [
         {
@@ -8523,7 +8622,9 @@
         "ma-thermodynamics"
       ],
       "related": [
-        "ph-thermodynamics-statistical-mechanics"
+        "ph-thermodynamics-statistical-mechanics",
+        "ph-advanced-statistical-mechanics",
+        "ch-statistical-thermodynamics"
       ],
       "topics": [
         {
@@ -8619,10 +8720,15 @@
       "summary": "Mathematical fluid dynamics: Euler and Navier-Stokes equations, potential flow, boundary layers and turbulence.",
       "prerequisites": [
         "ma-partial-differential-equations-pdes",
-        "ma-tensor-analysis"
+        "ma-tensor-analysis",
+        "ph-introductory-mechanics"
       ],
       "related": [
-        "ph-fluid-mechanics"
+        "ph-fluid-mechanics",
+        "me-advanced-fluid-mechanics",
+        "ch-transport-phenomena",
+        "ea-geophysical-fluid-dynamics",
+        "me-fluid-mechanics"
       ],
       "topics": [
         {
@@ -8672,7 +8778,12 @@
       "summary": "Mathematical theory of deformable solids: stress, strain, linear elasticity and plasticity.",
       "prerequisites": [
         "ma-tensor-analysis",
-        "ma-partial-differential-equations-pdes"
+        "ma-partial-differential-equations-pdes",
+        "me-mechanics-of-materials"
+      ],
+      "related": [
+        "me-continuum-mechanics-elasticity-plasticity",
+        "ae-aerospace-structures"
       ],
       "topics": [
         {
@@ -8755,7 +8866,10 @@
       ],
       "related": [
         "ph-quantum-information-science",
-        "ai-quantum-machine-learning"
+        "ai-quantum-machine-learning",
+        "cs-quantum-computing",
+        "ch-quantum-computing-chemistry",
+        "el-quantum-technologies"
       ],
       "topics": [
         {
@@ -8816,7 +8930,8 @@
       "related": [
         "ph-symmetry-group-theory",
         "ma-representation-theory",
-        "ma-lie-theory"
+        "ma-lie-theory",
+        "ch-symmetry-group-theory"
       ],
       "topics": [
         {
@@ -8861,7 +8976,12 @@
       ],
       "related": [
         "ph-astrophysics",
-        "ph-planetary-science"
+        "ph-planetary-science",
+        "ph-celestial-mechanics",
+        "ae-orbital-mechanics",
+        "ae-orbital-perturbations",
+        "ae-three-body-problem",
+        "ph-positional-astronomy"
       ],
       "topics": [
         {
@@ -8901,7 +9021,10 @@
         "ma-partial-differential-equations-pdes"
       ],
       "related": [
-        "ph-geophysics"
+        "ph-geophysics",
+        "ea-solid-earth-geophysics",
+        "ea-seismology",
+        "ea-geodynamics"
       ],
       "topics": [
         {
@@ -8983,7 +9106,8 @@
         "ma-classical-mechanics"
       ],
       "related": [
-        "ph-mathematical-physics"
+        "ph-mathematical-physics",
+        "ph-chaos-theory-nonlinear-dynamics"
       ],
       "topics": [
         {
@@ -9065,7 +9189,8 @@
       "priority": "advanced",
       "summary": "Mathematical analysis of electrical networks: Kirchhoff's laws, network theorems and transfer functions.",
       "prerequisites": [
-        "ma-integral-transforms"
+        "ma-integral-transforms",
+        "ph-introductory-electricity-magnetism"
       ],
       "related": [
         "el-circuit-theory"
@@ -9188,7 +9313,13 @@
       "summary": "Mathematical models of living systems: populations, epidemics, neurons, ecology and molecular biology.",
       "prerequisites": [
         "ma-dynamical-systems",
-        "ma-mathematical-modeling"
+        "ma-mathematical-modeling",
+        "bi-introductory-biology"
+      ],
+      "related": [
+        "bi-population-ecology",
+        "bi-systems-biology",
+        "bi-population-genetics"
       ],
       "topics": [
         {
@@ -9238,10 +9369,14 @@
       "summary": "Mathematics for chemistry: reaction kinetics and networks, molecular modelling and quantum-chemistry methods.",
       "prerequisites": [
         "ma-dynamical-systems",
-        "ma-quantum-mechanics"
+        "ma-quantum-mechanics",
+        "ch-chemical-kinetics-intro"
       ],
       "related": [
-        "ph-chemical-physics-physical-chemistry"
+        "ph-chemical-physics-physical-chemistry",
+        "ch-quantum-chemistry",
+        "ch-chemical-kinetics",
+        "ch-cheminformatics-ml"
       ],
       "topics": [
         {
@@ -9364,7 +9499,8 @@
       "related": [
         "ai-graph-based-ml",
         "ph-sociophysics",
-        "ma-graph-theory"
+        "ma-graph-theory",
+        "ph-complex-systems-networks"
       ],
       "topics": [
         {
@@ -9423,7 +9559,8 @@
       "related": [
         "el-control-theory",
         "ai-control-systems",
-        "ma-control-theory"
+        "ma-control-theory",
+        "el-state-space-digital-control"
       ],
       "topics": [
         {
@@ -9461,7 +9598,8 @@
       ],
       "related": [
         "el-signal-processing-fundamentals",
-        "el-digital-signal-processing-dsp"
+        "el-digital-signal-processing-dsp",
+        "el-signals-and-systems"
       ],
       "topics": [
         {
@@ -9562,7 +9700,8 @@
         "ma-error-correcting-codes"
       ],
       "related": [
-        "ai-information-theory"
+        "ai-information-theory",
+        "el-digital-communications"
       ],
       "topics": [
         {
@@ -9600,7 +9739,10 @@
       ],
       "related": [
         "ph-atmospheric-environmental-physics",
-        "ph-geophysics"
+        "ph-geophysics",
+        "ea-geophysical-fluid-dynamics",
+        "ea-climate-modeling",
+        "ea-numerical-weather-prediction"
       ],
       "topics": [
         {
@@ -9734,6 +9876,9 @@
       "prerequisites": [
         "ma-algebraic-geometry",
         "ma-symplectic-geometry"
+      ],
+      "related": [
+        "ph-string-theory"
       ],
       "topics": [
         {
@@ -10128,6 +10273,9 @@
       "prerequisites": [
         "ma-calculus",
         "ma-introduction-to-proofs"
+      ],
+      "related": [
+        "ph-physics-education"
       ],
       "topics": [
         {
