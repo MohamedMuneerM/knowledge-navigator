@@ -3,7 +3,7 @@
 ## 1. Verdict
 
 **Before:** the discipline was an empty stub (0 chapters, 0 topics).
-**Now:** 109 chapters and 1,271 topics in 18 categories. The path starts with six level-1 on-ramp chapters and runs to level-4/5 specialist chapters. It covers every topic in the ABET aeronautical and astronautical program criteria and every aerospace-relevant area of the NASA Technology Taxonomy. It is weighted towards rockets and spacecraft, as the owner asked. Aeronautics still gets a full degree's worth of coverage.
+**Now:** 109 chapters and 1,271 topics in 18 categories. The path starts with six level-1 on-ramp chapters and runs to level-4/5 specialist chapters. It covers every topic in the ABET aeronautical and astronautical program criteria and every aerospace-relevant area of the NASA Technology Taxonomy. It is weighted towards rockets and spacecraft, which the project's space roadmaps depend on. Aeronautics still gets a full degree's worth of coverage.
 
 ## 2. Sources checked
 
@@ -102,7 +102,7 @@ Within each category, chapters are ordered by level and then by teaching order.
 
 All 109 chapters are new. Some points worth knowing:
 
-- **Rocket propulsion is split finely**, following the owner's interest and Sutton's structure. It has separate chapters for propellants and thermochemistry, nozzles and TVC, liquid engines, engine cycles and turbopumps, combustion instability, solids, hybrids, testing, electric, nuclear and advanced propulsion.
+- **Rocket propulsion is split finely**, following Sutton's structure and the rocket-science focus. It has separate chapters for propellants and thermochemistry, nozzles and TVC, liquid engines, engine cycles and turbopumps, combustion instability, solids, hybrids, testing, electric, nuclear and advanced propulsion.
 - **Astrodynamics** follows Curtis and graduate courses (GT AE 6353/6357). It runs from the two-body problem through perturbations, OD, RPO, the three-body problem and trajectory optimisation.
 - **Propellants are conceptual only**: selection, performance and hazards. There are no formulations. The amateur rocketry chapter stresses the safety codes, certification and licensing.
 - **Level-1 on-ramp**: six chapters need only high-school maths.
@@ -116,29 +116,7 @@ All 109 chapters are new. Some points worth knowing:
 ## 7. Recommended moves and open questions
 
 - **ph-fluid-mechanics is level 3**, so it can't sit under the level-2 ae-aerodynamics-fundamentals. That chapter depends on ph-classical-mechanics and teaches the fluid basics itself (it lists ph-fluid-mechanics as `related`). Once the mechanical discipline has a level-2 fluid mechanics chapter, that should become the prerequisite.
-- **Links for phase B**, which couldn't be added because the target disciplines are being built now:
-  - ae-aerospace-structures -> mechanics of materials (mechanical)
-  - ae-aerospace-structures -> engineering statics (mechanical)
-  - ae-aerodynamics-fundamentals -> engineering fluid mechanics (mechanical)
-  - ae-aerospace-thermodynamics -> engineering thermodynamics (mechanical), as `related` or as a replacement
-  - ae-spacecraft-thermal-control -> heat transfer (mechanical)
-  - ae-liquid-rocket-engines -> heat transfer (mechanical), for regenerative cooling
-  - ae-structural-dynamics-vibration -> mechanical vibrations (mechanical), `related`
-  - ae-finite-element-analysis-aerospace -> finite element method (mechanical), `related`
-  - ae-aerospace-manufacturing -> manufacturing processes (mechanical), `related`
-  - ae-spacecraft-structures-mechanisms -> machine design / mechanisms (mechanical), `related`
-  - ae-turbomachinery -> turbomachinery / pumps (mechanical), `related`
-  - ae-aerospace-materials -> materials science fundamentals (materials)
-  - ae-composite-structures -> composite materials (materials), `related`
-  - ae-fatigue-fracture-damage-tolerance -> fracture mechanics / mechanical behaviour of materials (materials), `related`
-  - ae-thermal-protection-systems -> ceramics and high-temperature materials (materials), `related`
-  - ae-rocket-propellants-performance -> chemical thermodynamics / energetic materials (chemistry), `related`
-  - ae-combustion-fundamentals -> chemical kinetics (chemistry), `related`
-  - ae-human-spaceflight-life-support -> human physiology (biology), `related`
-  - ae-planetary-exploration-systems -> planetary geology (earth), `related`
-  - ae-flight-software -> software engineering / real-time systems (cs)
-  - ae-computational-methods-aerospace -> programming fundamentals (cs)
 - **Overlaps kept on purpose** (linked with `related`):
   - ae-feedback-control-aerospace overlaps el-control-theory, ma-control-theory and ai-control-systems. It is kept because aerospace courses teach control with flight examples, and the aerospace roadmap needs it inside the discipline.
   - The electronics chapters el-space-satellite-systems and el-spacecraft-electronics are thin summaries of subsystems that are covered in depth here.
-- **Possible legacy clean-up:** ph-classical-mechanics has an "Orbital mechanics" topic, and el-space-satellite-systems has "Orbital mechanics and attitude control". The owner may want those topics to point to ae-orbital-mechanics and ae-attitude-control, since these chapters now cover the subjects in depth.
+- **Possible legacy clean-up:** ph-classical-mechanics has an "Orbital mechanics" topic, and el-space-satellite-systems has "Orbital mechanics and attitude control". Those topics could point to ae-orbital-mechanics and ae-attitude-control, since these chapters now cover the subjects in depth.

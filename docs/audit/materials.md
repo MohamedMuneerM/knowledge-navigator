@@ -4,7 +4,7 @@
 
 **Before:** the discipline was an empty stub with 0 chapters. Some materials topics were scattered across physics (`ph-materials-physics`, `ph-solid-state-physics`, `ph-soft-matter-physics`) and electronics (`el-advanced-materials`, `el-cmos-technology`, `el-battery-technologies`).
 
-**Now:** 83 chapters and about 1,010 topics in 20 categories. The discipline runs from a level-1 "Introduction to Materials" to frontier research. It covers everything in Callister's textbook, Ashby's materials-selection book, the ABET program criteria, the MIT DMSE core and the TMS/MRS technical areas. It also goes deeper into the owner's goal areas: aerospace and extreme-environment materials, lightweight and protective structures, energy materials and smart materials.
+**Now:** 83 chapters and about 1,010 topics in 20 categories. The discipline runs from a level-1 "Introduction to Materials" to frontier research. It covers everything in Callister's textbook, Ashby's materials-selection book, the ABET program criteria, the MIT DMSE core and the TMS/MRS technical areas. It also goes deeper into the areas the project's roadmaps rely on: aerospace and extreme-environment materials, lightweight and protective structures, energy materials and smart materials.
 
 ## 2. Sources checked
 
@@ -91,7 +91,7 @@ The 20 categories go from foundational to applied:
 Grouping decisions:
 
 - **Material classes (categories 6 to 9)** follow Callister's grouping.
-- **Application categories (15 to 18)** reflect the owner's goals, so a roadmap can pick a whole block. Two chapters sit in their material-class category even though they are aerospace-critical: superalloys (Metals & Alloys) and CFRP (Composites).
+- **Application categories (15 to 18)** support the aerospace, Iron Man and energy roadmaps, so a roadmap can pick a whole block. Two chapters sit in their material-class category even though they are aerospace-critical: superalloys (Metals & Alloys) and CFRP (Composites).
 - **Thermal properties** is grouped with the other functional properties but set to level 2, because materials selection depends on it.
 
 ## 5. What was added
@@ -126,23 +126,9 @@ The prerequisite graph has 9 stages, and every prerequisite is at the same or a 
 
 ## 7. Recommended moves and open questions
 
-- **Chapter count:** 83 is above the 40 to 65 guideline. This is deliberate: the owner asked for proper depth in six application areas, which added about 20 specialist chapters. Each one maps to a real course or book section. Candidates to merge if the count must come down:
+- **Chapter count:** 83 is more than a typical materials degree covers. This is deliberate: six application areas get proper depth, which added about 20 specialist chapters. Each one maps to a real course or book section. Candidates to merge if the count must come down:
   - `mt-space-environment-materials` into `mt-radiation-nuclear-materials`
   - `mt-thermal-analysis` into `mt-characterization-fundamentals`
   - `mt-self-healing-materials` into `mt-emerging-materials`
 - **Overlap with physics:** `ph-materials-physics` duplicates parts of this discipline (alloys, ceramics, composites, smart materials). It is linked as `related` from several `mt-` chapters. Physics should consider treating it as a pointer to `materials`.
 - **Overlap with electronics:** `el-advanced-materials` overlaps with `mt-2d-materials` and `mt-emerging-materials`, and `el-battery-technologies` overlaps with `mt-battery-materials`. They are linked via `related`. The mt chapters take the materials-science view and the el chapters the device view.
-- **Phase-B cross-links wanted** (targets don't exist yet):
-  - `mt-atomic-bonding` → general and inorganic chemistry (chemistry)
-  - `mt-polymer-structure` → organic chemistry and polymer chemistry (chemistry)
-  - `mt-electrochemistry` → electrochemistry and physical chemistry (chemistry)
-  - `mt-computational-materials-intro` → programming fundamentals in Python (cs)
-  - `mt-mechanical-properties` → statics and mechanics of materials (mechanical)
-  - `mt-fibre-composites-mechanics-manufacturing` → mechanics of materials / structural analysis (mechanical)
-  - `mt-casting-solidification` → heat transfer and fluid mechanics (mechanical)
-  - `mt-deformation-processing` and `mt-additive-manufacturing` → manufacturing processes (mechanical)
-  - `mt-tribology` → machine elements (mechanical)
-  - `mt-impact-protective-materials` → dynamics / FEA (mechanical)
-  - `mt-thermal-protection-systems` → aerothermodynamics / hypersonics (aerospace)
-  - `mt-aerospace-materials` → aircraft and spacecraft structures (aerospace)
-  - `mt-biomaterials` → cell biology (biology)

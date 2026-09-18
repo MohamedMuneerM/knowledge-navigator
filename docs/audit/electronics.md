@@ -138,7 +138,7 @@ The 32 categories became 26, ordered from foundations through core EE, systems, 
 
 ## 7. Recommended moves / open questions
 
-- **Chapters that are really computer science** (left in place because the discipline is a legacy one): el-version-control, el-build-systems, el-api-architectures, el-data-serialization-formats, el-message-schemas, el-file-formats, el-cloud-computing-for-iot, el-data-management, el-network-security, el-agile-devops-for-embedded, el-project-management. Consider linking them to the new CS discipline in phase B.
+- **Chapters that are really computer science** (left in place because the discipline is a legacy one): el-version-control, el-build-systems, el-api-architectures, el-data-serialization-formats, el-message-schemas, el-file-formats, el-cloud-computing-for-iot, el-data-management, el-network-security, el-agile-devops-for-embedded, el-project-management. They are linked to their Computer Science counterparts via `related`.
 - **Overlaps with AI** (kept, linked via `related`): the robotics chapters (el-kinematics-dynamics, el-robot-control, el-perception-sensing, el-path-planning-navigation, el-simultaneous-localization-and-mapping-slam) and the CV/edge-ML chapters. el-reinforcement-learning and el-federated-learning are mostly AI content.
 - **Overlapping pairs inside this file** (kept, linked via `related`):
   - el-low-power-design / el-low-power-design-strategies
@@ -163,15 +163,5 @@ The 32 categories became 26, ordered from foundations through core EE, systems, 
   - el-cmos-technology / el-semiconductor-fabrication (intro vs in depth)
   - el-debug-interfaces / el-hardware-debugging
   - el-open-source-hardware / el-development-kits-evaluation-boards
-- **Phase-B prerequisites** that could not be added because the CS discipline does not exist yet:
-  - Programming fundamentals / C: el-programming-languages, el-embedded-systems-fundamentals
-  - Operating systems: el-concurrency-synchronization, el-rtos-concepts, el-embedded-linux
-  - Computer networks: el-ethernet-networking, el-iot-application-protocols, el-network-security
-  - Computer architecture (`related`): el-processor-architecture-concepts
-  - Graph algorithms: el-path-planning-navigation
-  - Linux and Python: el-robot-operating-system-ros
-  - Databases: el-data-management
-  - Software testing: el-testing-strategies
-- **Other disciplines that could supply prerequisites later:** materials (el-electrical-materials), mechanical heat transfer (el-thermal-management) and thermodynamics (el-power-generation), aerospace (el-avionics-systems, el-spacecraft-electronics), chemistry/electrochemistry (el-battery-technologies, el-chemical-sensors), biology/physiology (el-biosensors-medical-sensors).
-- **Level 3 is heavy** (about 190 chapters), because most embedded/IoT practice chapters sit at final-year-degree depth. This is deliberate, but the owner may want to lower some practical IoT chapters to level 2.
+- **Level 3 is heavy** (about 190 chapters), because most embedded/IoT practice chapters sit at final-year-degree depth. This is deliberate, though some practical IoT chapters could reasonably move to level 2.
 - **Not added (judged out of scope or too niche):** railway electrification, lighting/illumination engineering, audio/speech processing as a separate chapter (covered partly by DSP and the AI discipline), and the theory of electronic circuit simulation (SPICE algorithms).

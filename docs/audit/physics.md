@@ -71,7 +71,7 @@
 | Galactic and extragalactic astronomy (UAT; astro-ph.GA; Cambridge Stellar Dynamics and Galaxies) | ph-galaxies-galactic-dynamics, ph-galaxy-formation-evolution | ➕ added |
 | Cosmology (UAT; astro-ph.CO; MIT 8.286) | ph-cosmology, ph-advanced-cosmology | ✅ extended / ➕ |
 | High-energy astrophysics (UAT; astro-ph.HE) | ph-compact-objects, ph-astroparticle-physics, ph-gravitational-wave-astronomy, ph-neutrino-astronomy | ➕ / ✅ extended |
-| Spaceflight, rocketry, orbital mechanics for spacecraft | none | ⛔ out of scope: belongs to the aerospace discipline (link in phase B) |
+| Spaceflight, rocketry, orbital mechanics for spacecraft | none | ⛔ out of scope: belongs to the aerospace discipline (linked via `related`) |
 | Pure mathematics methods (calculus, linear algebra, ODE/PDE, complex analysis) | none | ⛔ out of scope: math discipline, used as prerequisites |
 | Circuit design and electronics engineering | none | ⛔ out of scope: electronics discipline, linked via `related` |
 
@@ -139,7 +139,7 @@ Relativity runs Special Relativity → General Relativity → Black Hole Physics
 
 ## 7. Recommended moves / open questions
 
-- **Mathematical methods.** No level-2 "Mathematical Methods for Physicists" chapter was added, to avoid duplicating math. Core physics chapters point straight at ma-calculus, ma-linear-algebra, ma-ordinary-differential-equations-odes and ma-partial-differential-equations-pdes. ph-mathematical-physics is the level-3 physics-flavoured toolbox. In phase B, point ph-classical-electromagnetism and ph-fluid-mechanics at ma-vector-calculus, and point the intro chapters at ma-trigonometry and ma-precalculus.
+- **Mathematical methods.** No level-2 "Mathematical Methods for Physicists" chapter was added, to avoid duplicating math. Core physics chapters point straight at ma-calculus, ma-linear-algebra, ma-ordinary-differential-equations-odes and ma-partial-differential-equations-pdes. ph-mathematical-physics is the level-3 physics-flavoured toolbox. ph-classical-electromagnetism and ph-fluid-mechanics build on ma-vector-calculus, and the introductory chapters on ma-precalculus.
 - **Overlaps kept on purpose and linked:**
   - ph-astrophysics (survey) overlaps the new deep chapters. Topics such as "Black holes" or "Gamma-ray bursts" appear at survey level there and in depth in ph-compact-objects.
   - ph-planetary-science topics "Exoplanets" and "Astrobiology" overlap the new chapters.
@@ -150,7 +150,7 @@ Relativity runs Special Relativity → General Relativity → Black Hole Physics
   - ph-engineering-physics overlaps the electronics discipline.
 - **Recommended moves (not done):**
   - ph-engineering-physics topics on control, power engineering and signal processing belong to electronics or mechanical engineering.
-  - ph-geophysics and ph-atmospheric-environmental-physics overlap the new earth discipline. Link them in phase B.
+  - ph-geophysics and ph-atmospheric-environmental-physics overlap the new earth discipline. They are linked via `related`.
   - ph-chemical-physics-physical-chemistry overlaps the new chemistry discipline.
   - ph-materials-physics and ph-nanoscience-nanotechnology overlap the new materials discipline.
   - ph-biophysics overlaps biology.

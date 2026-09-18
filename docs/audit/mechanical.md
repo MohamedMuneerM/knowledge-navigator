@@ -3,7 +3,7 @@
 ## 1. Verdict
 
 **Before:** the discipline did not exist. The file was an empty stub with no description and no chapters.
-**Now:** 75 chapters with 913 topics and 15 sub-topics (928 items in total) in 19 categories. They run from a level-1 on-ramp (intro to engineering design, how machines work, workshop practice, engineering drawing) to level-5 frontiers (soft robotics, mechanical metamaterials). Every knowledge area in the NCEES FE Mechanical specification and in all three PE Mechanical specifications maps to at least one chapter. So do both ABET "thermal and mechanical systems" requirements and the core and elective course lists of MIT, Georgia Tech and Purdue. The owner's Iron Man suit and robotics goals get dedicated chapters: fluid power, actuators and drive trains, lightweight structures, wearable mechanisms and exoskeletons, compact-system thermal management, and energy-storage integration.
+**Now:** 75 chapters with 913 topics and 15 sub-topics (928 items in total) in 19 categories. They run from a level-1 on-ramp (intro to engineering design, how machines work, workshop practice, engineering drawing) to level-5 frontiers (soft robotics, mechanical metamaterials). Every knowledge area in the NCEES FE Mechanical specification and in all three PE Mechanical specifications maps to at least one chapter. So do both ABET "thermal and mechanical systems" requirements and the core and elective course lists of MIT, Georgia Tech and Purdue. The Iron Man and robotics roadmaps get dedicated chapters: fluid power, actuators and drive trains, lightweight structures, wearable mechanisms and exoskeletons, compact-system thermal management, and energy-storage integration.
 
 ## 2. Sources checked
 
@@ -110,7 +110,7 @@ Fluid Power, Biomechanics & Wearable Systems, and the compact-power chapters in 
 
 ## 5. What was added
 
-All 75 chapters are new: 25 core, 34 important and 16 advanced. By level: 4 at level 1, 11 at level 2, 39 at level 3, 19 at level 4 and 2 at level 5. Chapters driven by the owner's goals:
+All 75 chapters are new: 25 core, 34 important and 16 advanced. By level: 4 at level 1, 11 at level 2, 39 at level 3, 19 at level 4 and 2 at level 5. Chapters driven by the roadmaps:
 
 - `me-hydraulics-pneumatics` and `me-servo-hydraulics-advanced-fluid-power`: EHAs, compact high-pressure hydraulics for legged robots and exoskeletons.
 - `me-actuators-drive-trains`: quasi-direct drive, series elastic actuators, harmonic and cycloidal reducers, cable drives, inertia matching.
@@ -134,18 +134,3 @@ All 75 chapters are new: 25 core, 34 important and 16 advanced. By level: 4 at l
 - `me-mechanical-vibrations` lists both `me-system-dynamics` (which needs `ma-ordinary-differential-equations-odes`) and `ma-linear-algebra`. If the math discipline makes ODEs depend on linear algebra, the validator will flag `ma-linear-algebra` as redundant. It is safe to drop it then.
 - Control theory exists in three places (`el-control-theory`, `ma-control-theory`, `me-feedback-control`). The ME chapter keeps the mechanical-systems focus, and the three are linked with `related`.
 - Robot kinematics overlaps with `ai-kinematics-dynamics` and `el-kinematics-dynamics`. `me-robot-mechanics` is the rigorous mechanics version (screw theory, statics, dynamics, parallel mechanisms), linked with `related`.
-- **Phase B cross-links wanted** (targets did not exist yet):
-  - `me-engineering-materials` → introductory chemistry (chemistry) as prerequisite; materials-science fundamentals (materials) as related
-  - `me-fatigue-fracture-creep` → mechanical behaviour / fracture of materials (materials), related
-  - `me-lightweight-structures-composites` → composite materials (materials) and aerospace structures (aerospace), related
-  - `me-materials-selection`, `me-tribology`, `me-welding-joining`, `me-additive-manufacturing`, `me-casting-forming-molding` → matching materials-processing, surface-engineering and metallurgy chapters (materials), related
-  - `me-smart-materials-artificial-muscles`, `me-mechanical-metamaterials`, `me-micro-nano-mechanics` → functional, architected and nano materials (materials), related
-  - `me-advanced-fluid-mechanics`, `me-computational-fluid-dynamics` → gas dynamics / aerodynamics / CFD (aerospace), related
-  - `me-turbomachinery`, `me-combustion-engineering` → jet and rocket propulsion (aerospace), related
-  - `me-advanced-dynamics-multibody` → flight dynamics and spacecraft attitude dynamics (aerospace), related
-  - `me-advanced-vibrations-rotordynamics` → aeroelasticity (aerospace), related
-  - `me-thermal-management-compact-power` → spacecraft thermal control (aerospace), related
-  - `me-energy-storage-power-integration` → electrochemistry (chemistry), prerequisite
-  - `me-combustion-engineering` → chemical kinetics (chemistry), prerequisite
-  - `me-biomechanics` → human anatomy and physiology (biology), prerequisite
-  - `me-engineering-computation` → programming fundamentals (cs), related or prerequisite

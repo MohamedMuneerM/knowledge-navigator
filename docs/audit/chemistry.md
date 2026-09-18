@@ -4,7 +4,7 @@
 
 **Before:** the discipline was an empty stub, with 0 chapters and no description.
 
-**Now:** the file has 101 chapters and 1,081 topics in 20 categories. They run from a level-1 on-ramp (Introductory Chemistry, Lab Safety) through the five ACS foundation areas and all the usual in-depth and applied areas, and finish with research frontiers. Every chapter has a level, priority, summary and minimal prerequisites. The validator reports 0 errors and 0 warnings. The chapter count is above the rough 50–80 estimate. That is deliberate: chemistry has a large graduate layer (for example organometallic, bioinorganic and magnetic resonance), and the brief also asked for a Chemical Engineering block and for the owner's rocket, suit and cosmos goals (combustion, propellants, energetic materials, batteries, fuel cells, high-performance materials, astrochemistry).
+**Now:** the file has 101 chapters and 1,081 topics in 20 categories. They run from a level-1 on-ramp (Introductory Chemistry, Lab Safety) through the five ACS foundation areas and all the usual in-depth and applied areas, and finish with research frontiers. Every chapter has a level, priority, summary and minimal prerequisites. The validator reports 0 errors and 0 warnings. The chapter count is higher than a typical chemistry degree. That is deliberate: chemistry has a large graduate layer (for example organometallic, bioinorganic and magnetic resonance), and the discipline also includes a Chemical Engineering block and the chemistry behind the rocket, Iron Man and cosmos roadmaps (combustion, propellants, energetic materials, batteries, fuel cells, high-performance materials, astrochemistry).
 
 ## 2. Sources checked
 
@@ -34,11 +34,11 @@
 | Analytical foundation and instrumental analysis (ACS; QAA metrology) | ch-quantitative-analysis, ch-instrumental-analysis, ch-separation-science, ch-mass-spectrometry, ch-electroanalytical-chemistry | ➕ added |
 | Structural and surface analysis, chemometrics, bioanalytical (MIT 5.067/5.069; Cambridge C6) | ch-structural-methods-diffraction, ch-surface-analysis-microscopy, ch-chemometrics, ch-bioanalytical-chemistry-sensors | ➕ added |
 | Computational chemistry and cheminformatics (QAA "computational tools"; MIT 5.697, 5.65) | ch-molecular-modeling-simulation, ch-electronic-structure-theory, ch-cheminformatics-ml | ➕ added |
-| Biochemistry foundation and chemical biology (ACS; MIT 5.07, 5.08, 5.54; Cambridge B3, C4, C9) | ch-biochemistry-structure-function, ch-metabolism-bioenergetics, ch-enzymology, ch-biophysical-chemistry, ch-chemical-biology | ➕ added (links to Biology pending, phase B) |
+| Biochemistry foundation and chemical biology (ACS; MIT 5.07, 5.08, 5.54; Cambridge B3, C4, C9) | ch-biochemistry-structure-function, ch-metabolism-bioenergetics, ch-enzymology, ch-biophysical-chemistry, ch-chemical-biology | ➕ added (linked to Biology) |
 | Medicinal chemistry and pharmacology basics (RSC "medicinal chemistry" degrees; IUPAC Chemistry & Human Health) | ch-pharmacology-toxicology, ch-medicinal-chemistry | ➕ added |
 | Polymer chemistry (IUPAC Polymer Division; Cambridge B9) | ch-polymer-chemistry, ch-polymer-physical-chemistry | ➕ added |
 | Materials, solid-state and nanochemistry (MIT 5.064, 5.381) | ch-solid-state-chemistry, ch-materials-chemistry, ch-nanochemistry, ch-porous-materials, ch-electronic-optical-materials | ➕ added |
-| High-performance materials (owner's suit and rocket goal) | ch-high-performance-materials | ➕ added |
+| High-performance materials (Iron Man and rocket roadmaps) | ch-high-performance-materials | ➕ added |
 | Surface chemistry, colloids, catalysis (Cambridge C10; Gold Book catalysis) | ch-colloid-interface-science, ch-surface-chemistry, ch-heterogeneous-catalysis | ➕ added |
 | Supramolecular chemistry | ch-supramolecular-chemistry | ➕ added |
 | Electrochemistry and energy (MIT 5.065, 5.372; Cambridge C1, C2) | ch-electrochemistry, ch-corrosion-science, ch-battery-chemistry, ch-fuel-cells-hydrogen, ch-solar-energy-conversion | ➕ added |
@@ -85,14 +85,5 @@ All 101 chapters are new. The notable goal-driven ones:
 
 ## 7. Recommended moves / open questions
 
-- **Phase B cross-links** (these targets did not exist yet):
-  - `ch-biochemistry-structure-function`, `ch-metabolism-bioenergetics`, `ch-chemical-biology`, `ch-enzymology` → related to Biology's biochemistry, molecular biology and cell biology chapters.
-  - `ch-pharmacology-toxicology` → Biology physiology/pharmacology.
-  - `ch-solid-state-chemistry`, `ch-materials-chemistry`, `ch-polymer-physical-chemistry`, `ch-high-performance-materials`, `ch-nanochemistry`, `ch-corrosion-science` → related to Materials (crystallography, ceramics, polymers, composites, corrosion).
-  - `ch-high-performance-materials` → prerequisite on Materials' mechanical-behaviour chapter.
-  - `ch-geochemistry-cosmochemistry`, `ch-aquatic-chemistry`, `ch-atmospheric-chemistry`, `ch-environmental-chemistry` → related to Earth (geochemistry, oceanography, atmospheric science, mineralogy).
-  - `ch-propellant-chemistry`, `ch-combustion-chemistry` → related to Aerospace rocket-propulsion chapters. Aerospace propulsion should list `ch-propellant-chemistry` as a prerequisite.
-  - `ch-transport-phenomena`, `ch-combustion-chemistry` → related to Mechanical fluid-mechanics and heat-transfer chapters.
-  - `ch-cheminformatics-ml`, `ch-molecular-modeling-simulation` → CS programming-fundamentals prerequisite.
 - Chemical Engineering is covered here only as an applied introduction (5 chapters). If a full ChemE discipline is ever created, move or link these chapters.
 - The same subject is covered from the physics side by ph-chemical-physics-physical-chemistry, which is linked via `related` from thermodynamics, quantum chemistry, kinetics, spectroscopy and reaction dynamics.

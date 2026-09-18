@@ -3,7 +3,7 @@
 ## 1. Verdict
 
 **Before:** the discipline was an empty stub (0 chapters, 0 topics).
-**Now:** 100 chapters and 1,104 topics in 19 categories. The discipline runs from a level-1 on-ramp (Introductory Biology, Chemistry of Life, Laboratory Fundamentals) to frontier chapters (Brain-Computer Interfaces, Biosignatures & Life Detection). It covers every area of Campbell Biology, Alberts' *Molecular Biology of the Cell*, the MIT Course 7 subject list and the Cambridge NST Part IB biological subjects, plus the owner's space and "Iron Man" interests. The validator reports 0 errors and 0 warnings.
+**Now:** 100 chapters and 1,104 topics in 19 categories. The discipline runs from a level-1 on-ramp (Introductory Biology, Chemistry of Life, Laboratory Fundamentals) to frontier chapters (Brain-Computer Interfaces, Biosignatures & Life Detection). It covers every area of Campbell Biology, Alberts' *Molecular Biology of the Cell*, the MIT Course 7 subject list and the Cambridge NST Part IB biological subjects, plus the space-biology and human-augmentation topics the space and Iron Man roadmaps need. The validator reports 0 errors and 0 warnings.
 
 The chapter count (100) is above the rough 50–80 estimate. Each chapter is still about one university course. Merging further would have pushed real courses (for example Virology into Microbiology, or Motor Systems into Neuroscience) down into topics.
 
@@ -87,7 +87,7 @@ The chapter count (100) is above the rough 50–80 estimate. Each chapter is sti
 | NST IB Mathematical & Computational Biology | Quantitative & Computational Biology category | ➕ added |
 | NST IB Systems Pathophysiology & Pharmacology | bi-pathophysiology-human-disease, bi-pharmacology | ➕ added |
 
-### Scope items from the brief
+### Additional scope items
 
 | Area | Chapters | Status |
 |---|---|---|
@@ -100,7 +100,7 @@ The chapter count (100) is above the rough 50–80 estimate. Each chapter is sti
 | Astrobiology: origin of life, extremophiles, habitability, biosignatures | bi-origin-of-life, bi-extremophiles, bi-astrobiology, bi-biosignatures-life-detection | ➕ added |
 | Space biology: microgravity, radiation, life support | bi-space-physiology, bi-gravitational-space-biology, bi-radiation-biology, bi-bioregenerative-life-support | ➕ added |
 | Biomechanics and neuro-muscular basics for exoskeletons and BCIs | bi-muscle-biology, bi-biomechanics, bi-motor-systems, bi-musculoskeletal-modeling-human-augmentation, bi-neurotechnology-methods, bi-brain-computer-interfaces | ➕ added |
-| Chemistry of biomolecules (overlap with chemistry) | bi-chemistry-of-life, bi-biochemistry, bi-metabolism are written from the biology side | ⚠️ overlap, to be linked in phase B |
+| Chemistry of biomolecules (overlap with chemistry) | bi-chemistry-of-life, bi-biochemistry, bi-metabolism are written from the biology side | ⚠️ overlap, linked to chemistry via `related` |
 | Clinical medicine, veterinary science, nursing | none | ⛔ out of scope: professional disciplines. Pathophysiology and pharmacology cover the underlying science |
 | Psychology beyond cognitive/behavioural neuroscience | none | ⛔ out of scope: separate discipline |
 | Agriculture/animal science, food science | covered only as bi-plant-agricultural-biotech | ⛔ mostly out of scope |
@@ -112,14 +112,14 @@ There were no existing chapters, so nothing was moved. The 19 categories run fro
 
 Some design decisions:
 - **Biomechanics & Human Performance** is its own category (muscle biology, exercise physiology, biomechanics, musculoskeletal modelling and augmentation) because it feeds the Iron Man roadmap.
-- **Astrobiology & Space Biology** is its own category (8 chapters) for the owner's space interest. Its priority is still `advanced`, since that is its weight within biology.
+- **Astrobiology & Space Biology** is its own category (8 chapters) to support the space roadmaps. Its priority is still `advanced`, since that is its weight within biology.
 - Some smaller subjects are topics, not chapters: histology (in Human Anatomy), quantitative genetics (in Population & Quantitative Genetics), mechanobiology (in Biomechanics), tissue engineering (in Stem Cells), toxicology (in Pharmacology), limnology (in Marine & Freshwater Biology), entomology (in Invertebrate Zoology), paleobiology (in Macroevolution), parasitology (in Infectious Disease), nutrition (in Human Physiology), and circadian biology (in Behavioural Neuroscience, Plant Physiology and Space Physiology).
 
 ## 5. What was added
 
 All 100 chapters are new. By priority: 20 core, 48 important, 30 advanced and 2 optional. By level: 4 at level 1, 20 at level 2, 45 at level 3, 29 at level 4 and 2 at level 5.
 
-Notable chapters for the owner's goals:
+Notable chapters for the space and Iron Man roadmaps:
 - **Space:** Radiation Biology, Extremophiles, Origin of Life, Astrobiology, Biosignatures & Life Detection, Human Physiology in Spaceflight (NASA's five hazards, SANS, bone and muscle loss, EVA), Gravitational & Space Cell Biology, Bioregenerative Life Support & Space Agriculture (MELiSSA, Veggie, biomining).
 - **Iron Man (exoskeletons and BCIs):** Muscle Biology (motor units, EMG), Motor Systems & Motor Control, Biomechanics (Hill model, inverse dynamics, gait), Musculoskeletal Modelling & Human Augmentation, Neural Recording, Imaging & Stimulation, and Brain-Computer Interfaces & Neuroprosthetics.
 
@@ -138,12 +138,6 @@ The longest prerequisite chain is 10 stages.
 
 ## 7. Recommended moves / open questions
 
-- **Phase B cross-links.** These are needed once chemistry, earth, cs, aerospace, mechanical and materials exist:
-  - chemistry: Chemistry of Life, Biochemistry, Metabolism, Origin of Life, Pharmacology and Bioprocess should link to general, organic, physical and analytical chemistry.
-  - earth: Macroevolution, Ecosystem Ecology, Marine Biology, Global Change and Biogeography should link to geology, oceanography and climate.
-  - cs: Bioinformatics and Computational Biology Algorithms should link to programming and algorithms.
-  - aerospace: Space Physiology and Bioregenerative Life Support should link to life support.
-  - mechanical/materials: Biomechanics and Human Augmentation should link to solid mechanics, exoskeleton design and biomaterials.
 - **Biostatistics.** The math chapter `ma-biostatistics` stays the home of biostatistics theory. Biology's `bi-quantitative-biology-data-analysis` is the applied lab version and links to it.
 - **Biophysics.** `ph-biophysics` overlaps with Membranes & Bioelectricity, Protein Structure & Function, Structural Biology and Cellular Neuroscience. These are linked via `related`, and no move is needed.
-- **Possible future splits** if the owner wants more depth: Entomology, Ornithology/Mammalogy, Parasitology and Toxicology could each become a chapter.
+- **Possible future splits** if more depth is wanted: Entomology, Ornithology/Mammalogy, Parasitology and Toxicology could each become a chapter.

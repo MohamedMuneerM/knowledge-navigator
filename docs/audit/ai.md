@@ -79,7 +79,7 @@
 | Soft robots (Tedrake manipulation 12) | `ai-soft-robotics` | ➕ |
 | Intelligent vehicles | `ai-autonomous-driving` | ➕ |
 | Perception, SLAM, HRI, robot learning | existing chapters | ✅ (+ VLA models, diffusion policies) |
-| AR/HUD wearable assistants (owner's Iron Man goal) | `ai-wearable-ai-assistants-ar` | ➕ |
+| AR/HUD wearable assistants (Iron Man roadmap) | `ai-wearable-ai-assistants-ar` | ➕ |
 | Medical, field, space, underwater, agricultural, micro robots | `ai-types-of-robots-applications` | ⚠️ survey-level only |
 | Mathematics (linear algebra, calculus, probability, optimization) | `ai-mathematics-statistics` (survey) plus math discipline | ⛔ full courses live in the math discipline |
 | Programming, data structures and algorithms | `ai-programming-tools` (toolkit only) | ⛔ belongs to the CS discipline being created |
@@ -167,16 +167,4 @@ About 200 topics were also added to thin existing chapters. Highlights:
   - `ai-robustness-security` ↔ `ai-privacy-in-ai`
   - `ai-business-analytics` ↔ `ai-causal-inference`
 - **Cross-discipline overlaps** (linked via `related`): robotics chapters ↔ electronics robotics chapters (`el-robot-operating-system-ros`, `el-kinematics-dynamics`, `el-robot-control`, `el-simultaneous-localization-and-mapping-slam`, `el-autonomous-driving`); control ↔ `ma-control-theory` / `el-control-theory`; theory chapters ↔ `ma-information-theory`, `ma-statistical-learning-theory`, `ma-optimization-algorithms`; edge AI ↔ `el-tinyml-tiny-machine-learning`.
-- **Still thin (survey-level only):** medical/surgical, agricultural, space, underwater and micro/nano robotics, all inside `ai-types-of-robots-applications`. Dedicated chapters (e.g. "Medical & Surgical Robotics") could come later if the owner wants them.
-- **Prerequisites wanted in phase B** (targets don't exist yet):
-  - `ai-programming-tools` → programming fundamentals in Python (cs)
-  - `ai-classical-ai-gofai-good-old-fashioned-ai` → data structures & graph algorithms (cs)
-  - `ai-hardware-for-ai` → computer architecture (cs)
-  - `ai-distributed-training` → parallel & distributed computing (cs)
-  - `ai-robot-software-ros` → C++/Linux programming (cs)
-  - `ai-kinematics-dynamics` → mechanisms & rigid-body dynamics (mechanical)
-  - `ai-aerial-robotics-drones` → flight dynamics (aerospace)
-  - `ai-soft-robotics` → polymers & elastomers (materials)
-  - `ai-wearable-robotics-exoskeletons` → human biomechanics & physiology (biology) and machine design (mechanical)
-  - `ai-bio-inspired-ai` → neuroscience (biology)
-  - `ai-ai-for-science` → molecular biology / chemistry basics (biology, chemistry)
+- **Still thin (survey-level only):** medical/surgical, agricultural, space, underwater and micro/nano robotics, all inside `ai-types-of-robots-applications`. Dedicated chapters (e.g. "Medical & Surgical Robotics") could be added later.

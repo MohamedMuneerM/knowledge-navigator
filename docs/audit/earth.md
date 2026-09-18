@@ -4,7 +4,7 @@
 
 **Before:** an empty stub (0 chapters, 0 topics). **Now:** 83 chapters and 854 topics (sub-topics included) in 18 categories. They run from three level-1 on-ramps (Introduction to Earth Science, Physical Geology, Introduction to Environmental Science) up to graduate-level specialisms such as geodynamics, numerical weather prediction, climate modelling and planetary atmospheres. Every area in the AGU sections, the Earth Science Literacy Principles, the NSF GEO divisions and the MIT, Caltech and Stanford course lists maps to at least one chapter. The only exceptions are space physics and aeronomy, which the physics file already covers.
 
-The chapter count is above the orchestrator's rough 40 to 65 estimate. That is deliberate: this discipline combines what universities teach as four or five separate degrees (geology and geophysics, atmospheric science, oceanography, environmental science and planetary science). Most chapters here correspond one-to-one to a real course (MIT 12.xx or Caltech Ge xxx).
+The chapter count is higher than a single degree would have. That is deliberate: this discipline combines what universities teach as four or five separate degrees (geology and geophysics, atmospheric science, oceanography, environmental science and planetary science). Most chapters here correspond one-to-one to a real course (MIT 12.xx or Caltech Ge xxx).
 
 ## 2. Sources checked
 
@@ -122,11 +122,6 @@ All 83 chapters are new. Highlights:
 
 ## 7. Recommended moves / open questions
 
-- **Phase-B links** (the target disciplines didn't exist yet):
-  - Chemistry: general chemistry as a prerequisite for ea-mineralogy and ea-geochemistry-fundamentals; physical chemistry and thermodynamics for ea-geochemistry-fundamentals; aqueous/analytical chemistry for ea-aqueous-geochemistry and ea-analytical-methods-in-geochemistry; organic chemistry for ea-biogeochemical-cycles and ea-petroleum-geology; environmental and atmospheric chemistry for ea-atmospheric-chemistry.
-  - Biology: evolution for ea-paleontology; ecology for ea-introduction-to-environmental-science, ea-biological-oceanography and ea-sustainability-science; microbiology for ea-geobiology and ea-astrobiology-and-planetary-habitability.
-  - Computer science: programming for ea-geoscience-data-analysis.
-  - Aerospace: `related` links from the planetary chapters to spacecraft and mission-design chapters.
 - **Limnology** is covered as topics, not as its own chapter. Add one if the biology file doesn't cover freshwater ecology.
 - **Space physics and aeronomy** stay in physics (`ph-space-physics`).
 - **Too many chapters?** If a smaller count is preferred, the easiest merges are: Chemical + Biological Oceanography; Numerical Weather Prediction into Weather Systems & Forecasting; Geophysical Fluid Dynamics into Atmospheric Dynamics; Basin Analysis into Sedimentology & Stratigraphy.
