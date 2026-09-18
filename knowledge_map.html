@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Knowledge Navigator — Science, Math & Engineering</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,400&family=IBM+Plex+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#080e1a;--bg2:#0d1526;--bg3:#121e33;--bg4:#1a2844;
+  --border:#1e3055;--border2:#2a4070;
+  --text:#c8d8f0;--text2:#7b9cc8;--text3:#4a6a9a;
+  --physics:#38bdf8;--math:#fbbf24;--ai:#34d399;--elec:#fb923c;
+  --physics-dim:rgba(56,189,248,0.15);--math-dim:rgba(251,191,36,0.15);
+  --ai-dim:rgba(52,211,153,0.15);--elec-dim:rgba(251,146,60,0.15);
+  --sidebar-w:290px;--detail-w:320px;--header-h:58px;
+  --radius:8px;--transition:0.2s ease;
+}
+html,body{height:100%;overflow:hidden;font-family:'IBM Plex Sans',sans-serif;background:var(--bg);color:var(--text);font-size:14px}
+
+/* SCROLLBAR */
+::-webkit-scrollbar{width:5px;height:5px}
+::-webkit-scrollbar-track{background:var(--bg2)}
+::-webkit-scrollbar-thumb{background:var(--border2);border-radius:3px}
+
+/* HEADER */
+header{position:fixed;top:0;left:0;right:0;height:var(--header-h);background:var(--bg2);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:12px;padding:0 16px;z-index:100}
+.logo{display:flex;align-items:center;gap:8px;min-width:190px}
+.logo-icon{font-family:'Crimson Pro',serif;font-size:22px;font-weight:600;color:var(--text);letter-spacing:-1px;line-height:1}
+.logo-sub{font-size:10px;font-weight:300;color:var(--text3);text-transform:uppercase;letter-spacing:2px}
+.logo-divider{width:1px;height:30px;background:var(--border)}
+
+.search-wrap{flex:1;position:relative;max-width:520px}
+.search-wrap input{width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:8px 14px 8px 36px;color:var(--text);font-size:13px;font-family:inherit;outline:none;transition:var(--transition)}
+.search-wrap input:focus{border-color:var(--border2);background:var(--bg4)}
+.search-icon{position:absolute;left:11px;top:50%;transform:translateY(-50%);color:var(--text3);pointer-events:none;font-size:14px}
+.search-kbd{position:absolute;right:10px;top:50%;transform:translateY(-50%);background:var(--bg4);border:1px solid var(--border);border-radius:4px;padding:1px 5px;font-size:10px;color:var(--text3);font-family:'JetBrains Mono',monospace}
+
+.search-results{position:absolute;top:calc(100% + 6px);left:0;right:0;background:var(--bg3);border:1px solid var(--border2);border-radius:var(--radius);max-height:480px;overflow-y:auto;display:none;box-shadow:0 8px 32px rgba(0,0,0,0.5);z-index:200}
+.search-results.open{display:block}
+.sr-group{padding:8px 0}
+.sr-group-label{padding:4px 14px 6px;font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:var(--text3)}
+.sr-item{display:flex;align-items:center;gap:10px;padding:7px 14px;cursor:pointer;transition:var(--transition)}
+.sr-item:hover{background:var(--bg4)}
+.sr-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.sr-name{font-size:13px;color:var(--text);flex:1}
+.sr-path{font-size:11px;color:var(--text3);white-space:nowrap}
+.sr-empty{padding:20px 14px;text-align:center;color:var(--text3);font-size:13px}
+.sr-related-tag{font-size:10px;background:var(--bg4);border:1px solid var(--border2);border-radius:3px;padding:1px 5px;color:var(--text2);flex-shrink:0}
+
+.view-tabs{display:flex;gap:3px;background:var(--bg3);border:1px solid var(--border);border-radius:6px;padding:3px}
+.view-tab{padding:4px 12px;border-radius:4px;cursor:pointer;font-size:12px;font-weight:500;color:var(--text2);border:none;background:transparent;transition:var(--transition);white-space:nowrap}
+.view-tab.active{background:var(--bg4);color:var(--text);border:1px solid var(--border2)}
+.view-tab:hover:not(.active){color:var(--text)}
+
+.subject-pills{display:flex;gap:4px;margin-left:4px}
+.subj-pill{padding:4px 10px;border-radius:20px;cursor:pointer;font-size:11px;font-weight:500;border:1px solid transparent;transition:var(--transition);white-space:nowrap;opacity:0.5}
+.subj-pill.active{opacity:1}
+.subj-pill[data-s="physics"]{border-color:var(--physics);color:var(--physics);background:var(--physics-dim)}
+.subj-pill[data-s="math"]{border-color:var(--math);color:var(--math);background:var(--math-dim)}
+.subj-pill[data-s="ai"]{border-color:var(--ai);color:var(--ai);background:var(--ai-dim)}
+.subj-pill[data-s="electronics"]{border-color:var(--elec);color:var(--elec);background:var(--elec-dim)}
+
+/* LAYOUT */
+.layout{display:flex;height:calc(100vh - var(--header-h));margin-top:var(--header-h)}
+
+/* SIDEBAR */
+.sidebar{width:var(--sidebar-w);background:var(--bg2);border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden;flex-shrink:0}
+.sidebar-inner{overflow-y:auto;flex:1;padding:8px 0}
+.subject-section{margin-bottom:2px}
+.subject-header{display:flex;align-items:center;gap:8px;padding:8px 12px;cursor:pointer;border-radius:0;transition:var(--transition);user-select:none}
+.subject-header:hover{background:var(--bg3)}
+.subj-color-bar{width:3px;height:16px;border-radius:2px;flex-shrink:0}
+.subj-name{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:1px;flex:1}
+.subj-count{font-size:10px;color:var(--text3);margin-right:4px}
+.subj-arrow{font-size:10px;color:var(--text3);transition:transform 0.2s}
+.subject-section.open .subj-arrow{transform:rotate(90deg)}
+.chapter-list{display:none;padding:0 0 4px 0}
+.subject-section.open .chapter-list{display:block}
+.chapter-item{display:flex;align-items:center;gap:8px;padding:6px 12px 6px 26px;cursor:pointer;transition:var(--transition);border-left:2px solid transparent}
+.chapter-item:hover{background:var(--bg3)}
+.chapter-item.active{background:var(--bg3)}
+.chapter-name{font-size:12px;color:var(--text2);flex:1;line-height:1.3}
+.chapter-item.active .chapter-name{color:var(--text)}
+.chapter-tag{font-size:9px;font-weight:600;padding:1px 5px;border-radius:3px;flex-shrink:0;text-transform:uppercase;letter-spacing:0.5px}
+.topics-sublist{display:none;padding:2px 0}
+.chapter-item.expanded + .topics-sublist{display:block}
+.topic-item{padding:4px 12px 4px 42px;cursor:pointer;font-size:11px;color:var(--text3);transition:var(--transition);line-height:1.4;display:flex;align-items:center;gap:6px}
+.topic-item:hover{color:var(--text);background:var(--bg3)}
+.topic-item.active{color:var(--text);background:var(--bg4)}
+.topic-item::before{content:'·';color:var(--text3);font-size:14px}
+
+/* MAIN */
+.main{flex:1;overflow:hidden;position:relative}
+.view-panel{position:absolute;inset:0;overflow:auto;display:none}
+.view-panel.active{display:block}
+
+/* BROWSE VIEW */
+#browse-view{padding:20px;background:var(--bg)}
+.browse-header{margin-bottom:20px}
+.browse-title{font-family:'Crimson Pro',serif;font-size:26px;font-weight:300;color:var(--text);margin-bottom:4px}
+.browse-subtitle{font-size:12px;color:var(--text3)}
+.chapter-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.chapter-card{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:14px;cursor:pointer;transition:all var(--transition);position:relative;overflow:hidden}
+.chapter-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;border-radius:2px 0 0 2px}
+.chapter-card:hover{border-color:var(--border2);transform:translateY(-1px);box-shadow:0 4px 16px rgba(0,0,0,0.3)}
+.cc-section{font-size:9px;text-transform:uppercase;letter-spacing:1.5px;font-weight:600;color:var(--text3);margin-bottom:4px}
+.cc-name{font-size:15px;font-weight:500;color:var(--text);margin-bottom:8px;line-height:1.3}
+.cc-topics{display:flex;flex-wrap:wrap;gap:4px}
+.cc-topic{font-size:10px;background:var(--bg3);border:1px solid var(--border);border-radius:3px;padding:2px 6px;color:var(--text3)}
+.cc-more{font-size:10px;color:var(--text3);padding:2px 4px}
+
+/* GRAPH VIEW */
+#graph-view{background:var(--bg);overflow:hidden}
+#graph-svg{width:100%;height:100%;cursor:grab}
+#graph-svg:active{cursor:grabbing}
+.node circle{transition:r 0.2s,opacity 0.2s}
+.node text{pointer-events:none;user-select:none}
+.link{fill:none;transition:stroke-opacity 0.2s}
+.graph-tooltip{position:fixed;background:var(--bg3);border:1px solid var(--border2);border-radius:var(--radius);padding:10px 12px;pointer-events:none;display:none;max-width:220px;z-index:300;box-shadow:0 4px 16px rgba(0,0,0,0.5)}
+.gt-title{font-size:13px;font-weight:600;color:var(--text);margin-bottom:4px}
+.gt-sub{font-size:11px;color:var(--text2);margin-bottom:6px}
+.gt-conns{font-size:10px;color:var(--text3)}
+.graph-legend{position:absolute;bottom:16px;left:16px;background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:10px 14px;display:flex;gap:14px;flex-wrap:wrap}
+.gl-item{display:flex;align-items:center;gap:6px;font-size:11px;color:var(--text2)}
+.gl-dot{width:10px;height:10px;border-radius:50%}
+.graph-hint{position:absolute;top:12px;right:12px;font-size:11px;color:var(--text3);text-align:right;pointer-events:none}
+
+/* DETAIL PANEL */
+.detail-panel{width:var(--detail-w);background:var(--bg2);border-left:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden;flex-shrink:0;transform:translateX(100%);transition:transform 0.25s ease;position:absolute;right:0;top:0;bottom:0;z-index:50}
+.detail-panel.open{transform:translateX(0)}
+.detail-header{padding:14px 16px 10px;border-bottom:1px solid var(--border);flex-shrink:0}
+.detail-close{float:right;background:var(--bg3);border:1px solid var(--border);border-radius:4px;padding:2px 7px;cursor:pointer;font-size:11px;color:var(--text2);transition:var(--transition)}
+.detail-close:hover{background:var(--bg4);color:var(--text)}
+.detail-subject{font-size:10px;text-transform:uppercase;letter-spacing:1.5px;font-weight:600;margin-bottom:4px}
+.detail-name{font-family:'Crimson Pro',serif;font-size:22px;font-weight:400;color:var(--text);line-height:1.2;margin-bottom:2px}
+.detail-chapter{font-size:11px;color:var(--text3)}
+.detail-body{overflow-y:auto;flex:1;padding:14px 16px}
+.detail-section{margin-bottom:16px}
+.detail-section-title{font-size:11px;text-transform:uppercase;letter-spacing:1.5px;font-weight:600;color:var(--text3);margin-bottom:8px;display:flex;align-items:center;gap:6px}
+.detail-section-title::after{content:'';flex:1;height:1px;background:var(--border)}
+.topics-list{display:flex;flex-direction:column;gap:2px}
+.d-topic{padding:6px 10px;background:var(--bg3);border:1px solid var(--border);border-radius:5px;font-size:12px;color:var(--text2);cursor:pointer;transition:var(--transition);display:flex;align-items:center;gap:6px}
+.d-topic:hover{background:var(--bg4);border-color:var(--border2);color:var(--text)}
+.d-topic::before{content:'›';color:var(--text3)}
+.conn-cards{display:flex;flex-direction:column;gap:6px}
+.conn-card{background:var(--bg3);border:1px solid var(--border);border-radius:5px;padding:8px 10px;cursor:pointer;transition:var(--transition)}
+.conn-card:hover{border-color:var(--border2);background:var(--bg4)}
+.conn-card-subject{font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:1px;margin-bottom:2px}
+.conn-card-name{font-size:12px;color:var(--text);font-weight:500;margin-bottom:3px}
+.conn-card-label{font-size:10px;color:var(--text3);line-height:1.4}
+
+/* SEARCH HIGHLIGHT */
+.hl{background:rgba(251,191,36,0.25);color:var(--math);border-radius:2px;padding:0 1px}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .sidebar{width:240px}
+  :root{--detail-w:280px}
+  .subject-pills{display:none}
+}
+@media(max-width:700px){
+  .sidebar{display:none}
+  :root{--detail-w:100vw;--sidebar-w:0px}
+}
+
+/* PULSE ANIMATION FOR SEARCH */
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.5}}
+.searching .search-icon{animation:pulse 1s infinite}
+
+/* FADE IN */
+@keyframes fadeIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+.chapter-card{animation:fadeIn 0.3s ease both}
+.sr-item{animation:fadeIn 0.15s ease both}
+
+/* GRAPH FILTERS */
+.graph-controls{position:absolute;top:12px;left:12px;display:flex;flex-direction:column;gap:6px;z-index:10}
+.gc-btn{background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:5px 10px;font-size:11px;color:var(--text2);cursor:pointer;transition:var(--transition);white-space:nowrap}
+.gc-btn:hover{background:var(--bg3);border-color:var(--border2);color:var(--text)}
+.gc-btn.active{background:var(--bg3);border-color:var(--border2);color:var(--text)}
+
+/* no-results */
+.no-results{display:flex;flex-direction:column;align-items:center;justify-content:center;height:300px;gap:10px;color:var(--text3)}
+.no-results .nr-icon{font-size:36px;opacity:0.3}
+.no-results p{font-size:13px}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div>
+      <div class="logo-icon">∮ knowledge</div>
+      <div class="logo-sub">navigator</div>
+    </div>
+  </div>
+  <div class="logo-divider"></div>
+
+  <div class="search-wrap">
+    <span class="search-icon">⌕</span>
+    <input type="text" id="searchInput" placeholder="Search topics, concepts, algorithms…" autocomplete="off" spellcheck="false">
+    <span class="search-kbd">/ to focus</span>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+
+  <div class="view-tabs">
+    <button class="view-tab" data-view="browse">Browse</button>
+    <button class="view-tab active" data-view="graph">Graph</button>
+  </div>
+
+  <div class="subject-pills">
+    <button class="subj-pill active" data-s="physics">⚛ Physics</button>
+    <button class="subj-pill active" data-s="math">∑ Math</button>
+    <button class="subj-pill active" data-s="ai">🧠 AI/ML</button>
+    <button class="subj-pill active" data-s="electronics">⚡ Electronics</button>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div class="sidebar-inner" id="sidebarTree"></div>
+  </aside>
+
+  <main class="main" id="mainArea">
+    <!-- Browse View -->
+    <div id="browse-view" class="view-panel">
+      <div id="browseContent" style="padding:20px">
+        <div class="browse-header">
+          <div class="browse-title" id="browseTitle">All Chapters</div>
+          <div class="browse-subtitle" id="browseSubtitle">Click any chapter card to explore topics</div>
+        </div>
+        <div class="chapter-cards" id="chapterCards"></div>
+      </div>
+    </div>
+
+    <!-- Graph View -->
+    <div id="graph-view" class="view-panel active">
+      <svg id="graph-svg"></svg>
+      <div class="graph-controls" id="graphControls"></div>
+      <div class="graph-legend">
+        <div class="gl-item"><div class="gl-dot" style="background:var(--physics)"></div>Physics</div>
+        <div class="gl-item"><div class="gl-dot" style="background:var(--math)"></div>Mathematics</div>
+        <div class="gl-item"><div class="gl-dot" style="background:var(--ai)"></div>AI / ML</div>
+        <div class="gl-item"><div class="gl-dot" style="background:var(--elec)"></div>Electronics & IoT</div>
+      </div>
+      <div class="graph-hint">Drag to pan · Scroll to zoom<br>Click node for details · Hover for connections</div>
+    </div>
+  </main>
+
+  <!-- Detail Panel -->
+  <aside class="detail-panel" id="detailPanel">
+    <div class="detail-header">
+      <button class="detail-close" id="detailClose">✕ Close</button>
+      <div class="detail-subject" id="detailSubject"></div>
+      <div class="detail-name" id="detailName"></div>
+      <div class="detail-chapter" id="detailChapter"></div>
+    </div>
+    <div class="detail-body" id="detailBody"></div>
+  </aside>
+</div>
+
+<div class="graph-tooltip" id="graphTooltip"></div>
+
+<script>
+// ============================================================
+// DATA
+// ============================================================
+const SUBJECTS = [
+{
+  id:'physics', name:'Physics', icon:'⚛', color:'var(--physics)', hex:'#38bdf8',
+  chapters:[
+    {id:'p-cm', name:'Classical Mechanics', section:'Classical Physics',
+     topics:['Kinematics','Dynamics','Statics','Newtonian mechanics','Work & energy','Momentum & collisions','Rotational motion','Rigid body dynamics','Oscillations & harmonic motion','Nonlinear dynamics','Gravitation','Lagrangian mechanics','Hamiltonian mechanics','Analytical mechanics','Celestial mechanics','Orbital mechanics','Perturbation theory','Variational principles','Central force problems','Constraints & generalized coordinates']},
+    {id:'p-fm', name:'Fluid Mechanics', section:'Classical Physics',
+     topics:['Hydrostatics','Hydrodynamics','Viscosity','Turbulence','Laminar flow','Navier–Stokes equations','Boundary layers','Compressible flow','Aerodynamics','Magnetohydrodynamics (MHD)','Geophysical fluid dynamics','Continuum mechanics','Non-Newtonian fluids','Vortex dynamics','Cavitation','Multiphase flow']},
+    {id:'p-td', name:'Thermodynamics & Statistical Mechanics', section:'Classical Physics',
+     topics:['Laws of thermodynamics','Heat transfer (conduction, convection, radiation)','Heat engines & refrigerators','Entropy','Thermodynamic potentials (Gibbs, Helmholtz)','Carnot cycle','Phase transitions & phase diagrams','Irreversible thermodynamics','Statistical mechanics','Classical statistics','Quantum statistics (Fermi-Dirac, Bose-Einstein)','Boltzmann distribution','Partition functions','Ensembles (microcanonical, canonical, grand canonical)','Kinetic theory of gases','Fluctuation-dissipation theorem','Transport theory','Non-equilibrium thermodynamics','Information theory & entropy']},
+    {id:'p-em', name:'Classical Electromagnetism', section:'Classical Physics',
+     topics:['Electrostatics','Magnetostatics','Electrodynamics',"Maxwell's equations",'Electromagnetic waves','Electromagnetic field theory','AC/DC circuits','Waveguides & transmission lines','Radiation & antennas','Plasma physics','Dielectrics & polarization','Magnetic materials','Gauge transformations','Retarded potentials','Jefimenko\'s equations']},
+    {id:'p-opt', name:'Classical Optics', section:'Classical Physics',
+     topics:['Geometrical (ray) optics','Wave optics','Interference','Diffraction (Fresnel, Fraunhofer)','Polarization','Optical instruments','Aberrations','Dispersion','Fourier optics','Coherence theory']},
+    {id:'p-chaos', name:'Chaos & Nonlinear Dynamics', section:'Classical Physics',
+     topics:['Dynamical systems','Strange attractors','Deterministic chaos','Lyapunov exponents','Bifurcation theory','Fractals in physics','Solitons','Pattern formation','Applications to weather & climate']},
+    {id:'p-sr', name:'Special Relativity', section:'Modern Physics',
+     topics:['Postulates of special relativity','Lorentz transformations','Time dilation & length contraction','Relativistic energy & momentum','Mass-energy equivalence E=mc²','Relativistic electrodynamics','Minkowski spacetime','Four-vectors','Relativistic Doppler effect','Relativistic kinematics']},
+    {id:'p-gr', name:'General Relativity', section:'Modern Physics',
+     topics:['Principle of equivalence','Curved spacetime','Einstein\'s field equations','Schwarzschild metric','Kerr metric','Geodesics','Gravitational time dilation','Gravitational lensing','Gravitational waves','Cosmological solutions (FLRW metric)','Penrose diagrams','Singularities']},
+    {id:'p-qm', name:'Quantum Mechanics', section:'Modern Physics',
+     topics:['Wave-particle duality','Wave functions & probability','Schrödinger equation','Quantum states & superposition','Uncertainty principle','Angular momentum & spin','Spinors','Quantum tunneling','Measurement & collapse','Scattering theory','Perturbation theory (time-dependent & independent)','WKB approximation','Variational methods','Identical particles & exchange symmetry','Density matrix & mixed states','Decoherence','Bell\'s theorem & EPR paradox','Quantum entanglement','Interpretations of QM (Copenhagen, Many-worlds)']},
+    {id:'p-qft', name:'Quantum Field Theory', section:'Modern Physics',
+     topics:['Second quantization','Fields & field quantization','Feynman diagrams','Renormalization','Gauge theories','Scalar, spinor, vector fields','Path integrals','Symmetry & Noether\'s theorem','Spontaneous symmetry breaking','Quantum electrodynamics (QED)','Quantum chromodynamics (QCD)','Effective field theories','Anomalies','Lattice gauge theory']},
+    {id:'p-pp', name:'Particle Physics', section:'Modern Physics',
+     topics:['Standard Model','Quarks & leptons','Gauge bosons (photon, W, Z, gluons)','Higgs mechanism','Electroweak unification','Strong interactions','Weak interactions','Neutrino physics & oscillations','CP violation','Hadron physics (mesons, baryons)','Quark-gluon plasma','Collider physics','Beyond Standard Model','Supersymmetry','Grand unification']},
+    {id:'p-np', name:'Nuclear Physics', section:'Modern Physics',
+     topics:['Nuclear structure','Nuclear forces','Shell model & liquid drop model','Nuclear decay (alpha, beta, gamma)','Radioactivity','Nuclear fission','Nuclear fusion','Nuclear reactions','Nuclear reactors','Stellar nucleosynthesis','Nuclear astrophysics']},
+    {id:'p-cm2', name:'Condensed Matter Physics', section:'Condensed Matter',
+     topics:['Crystal structures & crystallography','Reciprocal lattice & Brillouin zones','X-ray diffraction','Band theory','Phonons & lattice dynamics','Electrical conductivity','Semiconductors (intrinsic, extrinsic, p-n junctions)','Superconductivity (BCS, Type I/II)','High-temperature superconductivity','Magnetism (ferro-, antiferro-, ferri-, para-, dia-)','Hall effect & quantum Hall effect','Topological insulators','Fermi surfaces','Electron-phonon interactions']},
+    {id:'p-topo', name:'Topological Phases of Matter', section:'Condensed Matter',
+     topics:['Topological insulators','Topological superconductors','Quantum spin Hall effect','Majorana fermions','Weyl & Dirac semimetals','Berry phase & Berry curvature','Topological order']},
+    {id:'p-astro', name:'Astrophysics', section:'Astronomy & Cosmology',
+     topics:['Stellar structure & evolution','White dwarfs','Neutron stars & pulsars','Black holes','Accretion disks','Supernovae','Galaxy formation & evolution','Active galactic nuclei & quasars','Astroparticle physics','High-energy astrophysics','Cosmic rays','Gamma-ray bursts']},
+    {id:'p-cosmo', name:'Cosmology', section:'Astronomy & Cosmology',
+     topics:['Big Bang theory','Inflation','Cosmic microwave background (CMB)','Large-scale structure','Dark matter','Dark energy','Hubble\'s law','Baryogenesis & leptogenesis','Nucleosynthesis','Cosmic strings','Multiverse theories']},
+    {id:'p-qgrav', name:'Quantum Gravity & Black Holes', section:'Emerging',
+     topics:['String theory & M-theory','Loop quantum gravity','Causal dynamical triangulation','Spin foam models','AdS/CFT correspondence','Holographic principle','Black hole thermodynamics','Hawking radiation','Information paradox','Black hole entropy']},
+    {id:'p-modern-opt', name:'Modern Optics & Photonics', section:'Applied Physics',
+     topics:['Lasers & laser physics','Nonlinear optics','Fiber optics','Holography','Photonic crystals','Ultrafast optics','Quantum optics','Squeezed light','Cavity QED','Nanophotonics','Plasmonics','Surface plasmon polaritons']},
+  ]
+},
+{
+  id:'math', name:'Mathematics', icon:'∑', color:'var(--math)', hex:'#fbbf24',
+  chapters:[
+    {id:'m-found', name:'Foundations, Logic & Set Theory', section:'Foundations',
+     topics:['Mathematical logic','Formal logic systems','Proof theory','Axiomatic systems (ZFC)','Cardinal & ordinal numbers','Infinite sets & cardinality','Constructivism','Category theory','Functors & natural transformations','Limits & colimits','Adjoint functors','Topos theory','Higher category theory','Computability theory','Turing machines','Decidability & undecidability','Model theory','First-order logic']},
+    {id:'m-linalg', name:'Linear Algebra', section:'Algebra',
+     topics:['Vector spaces','Linear transformations','Matrix theory','Eigenvalues & eigenvectors','Inner product spaces','Determinants','SVD (Singular Value Decomposition)','Matrix calculus','Linear algebra for ML','Tensor algebra','Exterior algebra','Clifford algebras']},
+    {id:'m-abstr', name:'Abstract Algebra & Group Theory', section:'Algebra',
+     topics:['Groups & subgroups','Rings & ideals','Fields & field extensions','Modules','Galois theory','Finite fields','Algebraic closures','Lie groups & Lie algebras','Lie group representations','Root systems & Weyl groups','Homological algebra','Chain complexes','Derived functors','Ext & Tor','Spectral sequences','Representation theory','Character theory','Geometric group theory']},
+    {id:'m-nt', name:'Number Theory', section:'Algebra',
+     topics:['Prime numbers & divisibility','Modular arithmetic','Riemann zeta function','L-functions','Distribution of primes','Algebraic number fields','Class field theory','Ideal theory','Elliptic curves','Mordell-Weil theorem','Modular forms','Automorphic forms','Fermat\'s Last Theorem','Additive combinatorics','p-adic numbers','Cryptographic number theory','Primality testing','Diophantine equations']},
+    {id:'m-geom', name:'Geometry', section:'Geometry',
+     topics:['Euclidean & coordinate geometry','Non-Euclidean geometry','Hyperbolic geometry','Elliptic geometry','Spherical geometry','Projective geometry','Differential geometry','Curves & surfaces','Riemannian geometry','Finsler geometry','Symplectic geometry','Pseudo-Riemannian geometry','Curvature theory','Geodesics','Algebraic geometry','Affine & projective varieties','Schemes & sheaves','Cohomology in algebraic geometry','Fractal geometry','Tropical geometry','Information geometry']},
+    {id:'m-topo', name:'Topology', section:'Geometry',
+     topics:['Metric spaces','Topological spaces','Compactness & connectedness','Fundamental group','Homotopy theory','Homology & cohomology','Simplicial & CW complexes','Covering spaces','Differential topology','Smooth manifolds','De Rham cohomology','Knot theory','Fiber bundles','Principal & vector bundles','Characteristic classes','Topological data analysis','Persistent homology','Mapper algorithm','Quantum topology']},
+    {id:'m-analysis', name:'Real & Complex Analysis', section:'Analysis',
+     topics:['Differential & integral calculus','Real analysis','Sequences & series','Measure theory','Lebesgue integration','Lp spaces','Complex analysis','Analytic functions','Cauchy\'s theorem','Residue theory','Conformal mappings','Riemann surfaces','Several complex variables','Functional analysis','Banach spaces','Hilbert spaces','Linear operators','Operator algebras','Spectral theory','Distribution theory']},
+    {id:'m-harm', name:'Harmonic Analysis & Special Functions', section:'Analysis',
+     topics:['Fourier series & transforms','Wavelet analysis','Abstract harmonic analysis','Gamma & beta functions','Bessel functions','Legendre polynomials','Hypergeometric functions','Green\'s functions','Potential theory','Harmonic functions','Approximation theory','Polynomial & spline approximation']},
+    {id:'m-ode', name:'Ordinary Differential Equations', section:'Differential Equations',
+     topics:['First-order ODEs','Higher-order ODEs','Linear differential equations','Systems of ODEs','Existence & uniqueness theorems','Sturm-Liouville theory','Asymptotic methods','Perturbation methods','Boundary value problems','Integral equations (Fredholm, Volterra)','Laplace & Fourier transforms']},
+    {id:'m-pde', name:'Partial Differential Equations', section:'Differential Equations',
+     topics:['Elliptic equations (Laplace, Poisson)','Parabolic equations (heat equation)','Hyperbolic equations (wave equation)','Nonlinear PDEs','Variational methods','Euler-Lagrange equations','Solitons & integrable systems','KdV equation','Inverse scattering','Finite element method (FEM)']},
+    {id:'m-dyn', name:'Dynamical Systems & Ergodic Theory', section:'Differential Equations',
+     topics:['Continuous & discrete dynamical systems','Stability theory','Bifurcation theory','Chaos theory','Attractors','Ergodic theory','Measure-preserving systems','Mixing properties','Ergodic theorems','Symbolic dynamics','Neural differential equations','Physics-informed neural networks']},
+    {id:'m-comb', name:'Combinatorics & Discrete Mathematics', section:'Discrete Math',
+     topics:['Permutations & combinations','Generating functions','Recurrence relations','Partition theory','Graph theory','Trees & forests','Planar graphs','Graph coloring','Matching theory','Network flows','Extremal graph theory','Algebraic graph theory','Random graphs','Ramsey theory','Probabilistic method','Matroid theory','Algebraic combinatorics','Coding theory']},
+    {id:'m-prob', name:'Probability Theory', section:'Probability & Statistics',
+     topics:['Probability spaces','Random variables & distributions','Expectation & variance','Law of large numbers','Central limit theorem','Conditional probability','Stochastic processes','Markov chains','Martingales','Brownian motion','Poisson & Lévy processes','Gaussian processes','Stochastic calculus','Itô calculus','Stochastic differential equations']},
+    {id:'m-stat', name:'Statistics & Data Analysis', section:'Probability & Statistics',
+     topics:['Descriptive statistics','Parameter estimation','Hypothesis testing','Confidence intervals','Maximum likelihood estimation','Regression analysis','Bayesian statistics','Time series analysis','Multivariate statistics','Nonparametric statistics','Experimental design (ANOVA)','Biostatistics','Econometrics','Random matrix theory','High-dimensional statistics','Statistical learning theory','PAC learning','VC dimension']},
+    {id:'m-num', name:'Numerical Analysis & Scientific Computing', section:'Applied Math',
+     topics:['Numerical integration (quadrature)','Root-finding algorithms','Numerical linear algebra (LU, QR, SVD)','ODE solvers (Runge-Kutta, multistep)','PDE solvers (FDM, FEM, spectral)','Optimization algorithms','Interpolation & approximation','FFT (Fast Fourier Transform)','Error analysis','Monte Carlo methods','Quasi-Monte Carlo','Molecular dynamics','Density functional theory (DFT)']},
+    {id:'m-opt', name:'Optimization & Control Theory', section:'Applied Math',
+     topics:['Linear programming','Convex optimization','Semidefinite programming','Nonlinear programming','Lagrange multipliers & KKT conditions','Integer programming','Combinatorial optimization','Dynamic programming (Bellman)','Stochastic optimization','Game theory','Nash equilibrium','Optimal control','Calculus of variations','Pontryagin\'s maximum principle','Hamilton-Jacobi equations','Compressed sensing','Optimal transport','Wasserstein distances']},
+    {id:'m-infoth', name:'Information Theory', section:'Applied Math',
+     topics:['Entropy & mutual information','KL divergence','Channel capacity','Source coding','Data compression','Rate-distortion theory','Information bottleneck','Minimum description length','Coding theory (Hamming, Reed-Solomon)','Cryptography (RSA, ECC)','Network information theory']},
+    {id:'m-mathphys', name:'Mathematical Physics Methods', section:'Mathematical Physics',
+     topics:['Differential equations in physics','Complex analysis in physics','Tensor analysis','Differential geometry in physics','Topology in physics','Functional analysis in physics','Integral transforms','Lie groups in physics','Gauge symmetry & Noether\'s theorem','Path integrals','Renormalization group','Conformal field theory','N-body problem','Inverse scattering','Green\'s functions in physics']},
+    {id:'m-tcs', name:'Theoretical Computer Science', section:'Theoretical CS',
+     topics:['Automata theory (finite, pushdown)','Formal languages & Chomsky hierarchy','Complexity theory (P vs NP)','NP-completeness','Computational complexity classes','Church-Turing thesis','Algorithm analysis','Type theory & lambda calculus','Dependent types','Formal verification','Model checking','Cryptography protocols','Error-correcting codes']},
+  ]
+},
+{
+  id:'ai', name:'AI / ML / Data Science', icon:'◈', color:'var(--ai)', hex:'#34d399',
+  chapters:[
+    {id:'ai-classical', name:'Classical AI & Search', section:'Classical AI',
+     topics:['Search algorithms (BFS, DFS, A*, UCS)','Iterative deepening','Local search (hill climbing, simulated annealing)','Monte Carlo Tree Search','Constraint satisfaction & propagation','Minimax & alpha-beta pruning','Game-playing algorithms','Automated planning (STRIPS, HTN)','Knowledge representation','Semantic networks & ontologies','Expert systems & inference engines','Fuzzy logic','Knowledge graphs']},
+    {id:'ai-probai', name:'Probabilistic AI & Causal Inference', section:'Classical AI',
+     topics:['Bayes\' theorem & prior/posterior','Exact & approximate inference','MCMC methods','Variational inference','Bayesian networks','Markov random fields','Factor graphs','Structural causal models','Do-calculus','Counterfactuals','Decision networks','Utility theory','Multi-criteria decision making']},
+    {id:'ai-ml-core', name:'Core Machine Learning', section:'Machine Learning',
+     topics:['ML pipeline & problem formulation','Bias-variance tradeoff','Overfitting & underfitting','L1/L2 regularization','Dropout','Cross-validation','Evaluation metrics (accuracy, F1, AUC-ROC)','Supervised learning','Unsupervised learning','Semi-supervised learning','Self-supervised learning','Transfer learning','Meta-learning','Online learning','Federated learning','Curriculum learning','Continual/lifelong learning']},
+    {id:'ai-ml-alg', name:'ML Algorithms', section:'Machine Learning',
+     topics:['Linear & logistic regression','Ridge/Lasso/Elastic Net','K-Nearest Neighbors','Naive Bayes','Support Vector Machines (SVM)','Decision trees','Random forests','Gradient boosting (XGBoost, LightGBM, CatBoost)','K-Means clustering','Hierarchical clustering','DBSCAN','Gaussian Mixture Models','Anomaly detection','Isolation forest','Association rules (Apriori, FP-Growth)']},
+    {id:'ai-feat', name:'Feature Engineering & AutoML', section:'Machine Learning',
+     topics:['Data cleaning & missing values','Outlier detection & treatment','Feature creation & transformation','Polynomial features','Feature selection (filter, wrapper, embedded)','Dimensionality reduction','PCA & ICA','t-SNE & UMAP','Manifold learning (LLE)','AutoML','Hyperparameter optimization (Bayesian, Hyperband)','Neural Architecture Search (NAS)']},
+    {id:'ai-probml', name:'Probabilistic ML', section:'Machine Learning',
+     topics:['Bayesian machine learning','Gaussian processes','Hidden Markov Models (HMM)','Conditional Random Fields (CRF)','Bayesian neural networks','Variational autoencoders (VAE)','MCMC for ML','Graphical models','Factor graphs','Energy-based models']},
+    {id:'ai-dl', name:'Deep Learning Foundations', section:'Deep Learning',
+     topics:['Perceptrons & MLPs','Feedforward networks','Activation functions (ReLU, GELU, Swish, SiLU)','Softmax','Loss functions (cross-entropy, MSE, triplet)','Backpropagation','SGD, Adam, AdamW, LAMB, Lion','Batch normalization','Layer normalization','RMSNorm','Dropout & weight decay','Data augmentation','Universal approximation theorem','Optimization landscapes','Double descent','Neural tangent kernel','Lottery ticket hypothesis']},
+    {id:'ai-cnn', name:'Convolutional Neural Networks', section:'Deep Learning',
+     topics:['Convolution operations','Pooling layers','Stride & padding','LeNet, AlexNet, VGG, ResNet, DenseNet','EfficientNet, MobileNet, ConvNeXt','Object detection (R-CNN, YOLO, DETR, RetinaNet)','Image segmentation (U-Net, Mask R-CNN, SAM)','NeRF & Neural Radiance Fields','Gaussian splatting','Point cloud networks (PointNet)','3D CNNs']},
+    {id:'ai-rnn', name:'Recurrent Networks & Sequences', section:'Deep Learning',
+     topics:['Vanilla RNN & BPTT','LSTM & GRU','Bidirectional RNNs','Seq2Seq & encoder-decoder','State space models (Mamba, S4)','Structured state spaces','Neural ODEs']},
+    {id:'ai-attn', name:'Attention & Transformers', section:'Deep Learning',
+     topics:['Attention mechanisms','Self-attention','Cross-attention','Multi-head attention','Transformer architecture','Positional encoding','Encoder-only (BERT)','Decoder-only (GPT)','Encoder-decoder (T5)','Vision Transformers (ViT)','FlashAttention','Sparse & linear attention','Efficient transformers']},
+    {id:'ai-llm', name:'Large Language Models', section:'Deep Learning',
+     topics:['Foundation models','BERT & variants (RoBERTa, DeBERTa)','GPT series','LLaMA, Mistral, Mixtral','PaLM, Gemini, Claude','Tokenization (BPE, WordPiece, SentencePiece)','Pretraining objectives (MLM, CLM)','Fine-tuning','PEFT (LoRA, QLoRA, prefix tuning)','RLHF','DPO','Constitutional AI','Instruction tuning','Scaling laws','Emergent capabilities','In-context learning','Chain-of-thought prompting','KV-cache','Speculative decoding','Quantization (INT8, INT4)','Context length extensions (RoPE, ALiBi)']},
+    {id:'ai-gen', name:'Generative Models', section:'Deep Learning',
+     topics:['GANs (DCGAN, StyleGAN, CycleGAN)','Conditional GAN','Variational Autoencoders (VAE)','β-VAE & VQ-VAE','Normalizing flows (RealNVP, Glow)','Diffusion models (DDPM)','Score-based models','Stable Diffusion','DALL-E','Latent diffusion models','Energy-based models','Video generation (Sora, Gen-2)','Video diffusion models']},
+    {id:'ai-gnn', name:'Graph Neural Networks', section:'Deep Learning',
+     topics:['Graph Convolutional Networks (GCN)','Graph Attention Networks (GAT)','GraphSAGE','Message Passing Neural Networks','Graph classification','Link prediction','Node embedding','Knowledge graph completion','Graph generation','Kolmogorov-Arnold Networks (KAN)','Mixture of Experts (MoE)']},
+    {id:'ai-rl', name:'Reinforcement Learning', section:'Reinforcement Learning',
+     topics:['MDPs & Bellman equations','Partially observable MDPs (POMDP)','Exploration vs exploitation','ε-greedy & UCB','Thompson sampling','Q-learning & SARSA','Deep Q-Networks (DQN, DDQN, Dueling)','Rainbow DQN','Distributional RL (C51)','REINFORCE & policy gradient','Actor-Critic (A2C, A3C)','PPO & TRPO','SAC & DDPG','Model-based RL','World models (MuZero, Dreamer)','Hierarchical RL','Multi-agent RL','Inverse RL','Behavioral cloning & DAGGER','Offline RL','Decision Transformer','Meta-RL','Safe RL','AlphaGo, AlphaZero, MuZero']},
+    {id:'ai-nlp', name:'Natural Language Processing', section:'NLP',
+     topics:['Text preprocessing & tokenization','Word embeddings (Word2Vec, GloVe, FastText)','Contextualized embeddings (ELMo, BERT)','Sentiment analysis','Named entity recognition (NER)','Dependency & constituency parsing','Machine translation','Text summarization (extractive, abstractive)','Question answering','RAG (Retrieval-Augmented Generation)','Information extraction','Dialogue systems & chatbots','Speech recognition (ASR)','Text-to-speech (TTS)','Multilingual & cross-lingual NLP','Low-resource NLP']},
+    {id:'ai-cv', name:'Computer Vision', section:'Computer Vision',
+     topics:['Image classification','Object detection & localization','Semantic segmentation','Instance & panoptic segmentation','Pose estimation','Face detection & recognition','OCR','Scene understanding','Video classification','Action recognition','Object tracking','Optical flow','Depth estimation','SLAM','3D reconstruction','Structure from motion','Multi-view geometry','Stereo vision']},
+    {id:'ai-mm', name:'Multimodal AI', section:'Multimodal AI',
+     topics:['Image captioning','Visual question answering (VQA)','CLIP & variants','BLIP, BLIP-2','Flamingo, LLaVA, GPT-4V','Text-to-image (DALL-E, Midjourney, Stable Diffusion)','Text-to-video (Sora)','Text-to-audio','Text-to-3D','Audio-visual learning','Cross-modal attention','Multimodal fusion','Any-to-any models']},
+    {id:'ai-ds', name:'Data Science & Analytics', section:'Data Science',
+     topics:['Python, R, SQL, Julia','NumPy, Pandas, SciPy, scikit-learn','Data visualization (Matplotlib, Plotly, Seaborn)','Exploratory data analysis','Data engineering & pipelines','ETL/ELT processes','Data warehousing & lakes','Big data (Spark, Kafka, Flink)','Time series analysis (ARIMA, Prophet)','A/B testing','Causal inference for business','Customer analytics','Recommendation systems','Forecasting']},
+    {id:'ai-mlops', name:'MLOps & ML Engineering', section:'Data Science',
+     topics:['Experiment tracking (MLflow, Weights & Biases)','Model deployment & serving (TorchServe, Triton)','REST APIs & gRPC','Docker & Kubernetes for ML','Feature stores (Feast, Tecton)','Model monitoring & drift detection','CI/CD for ML (GitHub Actions)','A/B testing in production','Shadow deployment','Cloud ML platforms (SageMaker, Vertex AI, Azure ML)']},
+    {id:'ai-safety', name:'AI Safety, Ethics & Interpretability', section:'AI Safety',
+     topics:['Alignment problem','Reward hacking & goal misgeneralization','Distributional shift','Specification gaming','Scalable oversight','Corrigibility & value learning','Interpretability & XAI','SHAP & LIME','Integrated gradients','Mechanistic interpretability','Probing classifiers','Adversarial examples & adversarial training','Certified robustness','Backdoor attacks','Data poisoning','Fairness metrics (demographic parity, equalized odds)','Bias mitigation','Differential privacy','Federated learning security','AI governance & regulation','Constitutional AI']},
+    {id:'ai-agents', name:'Agents, Frontier AI & AI for Science', section:'Frontier AI',
+     topics:['LLM-based agents','ReAct framework','AutoGPT-style agents','Tool use & function calling','Multi-agent systems','Agent memory systems','Web & code agents','Neuro-symbolic AI','Differentiable programming','Neural theorem proving','World models & physical simulation','Embodied AI','Synthetic data generation','AI for drug discovery','AI for materials science (GNoME)','AI for climate modeling','AlphaFold','Quantum ML','Spiking neural networks','Neuromorphic computing','Continual learning','Theory of mind','Causal & analogical reasoning']},
+    {id:'ai-robo', name:'Robotics & AI', section:'Robotics',
+     topics:['Robot kinematics & dynamics','Denavit-Hartenberg parameters','Jacobian & velocity kinematics','Motion planning (RRT, RRT*, PRM)','A* & Dijkstra for robotics','Trajectory optimization','SLAM (EKF-SLAM, FastSLAM, Graph-SLAM)','Visual SLAM & LiDAR SLAM','Localization (Kalman, particle filter)','Grasping & manipulation','Task & motion planning (TAMP)','RL for robotics','Sim-to-real transfer','Foundation models for robotics','Human-robot interaction','Autonomous vehicles','Drone navigation','Swarm robotics']},
+  ]
+},
+{
+  id:'electronics', name:'Electronics & IoT', icon:'⚡', color:'var(--elec)', hex:'#fb923c',
+  chapters:[
+    {id:'e-fund', name:'Circuit Theory & Fundamentals', section:'Electronics',
+     topics:["Ohm's law, KVL & KCL",'Network theorems (Thevenin, Norton, superposition)','Nodal & mesh analysis','AC & DC circuit analysis','Transient & steady-state analysis','Phasors & impedance','Resonance & Q-factor','Power factor','Complex numbers in circuits','Laplace transforms in circuits','Transfer functions','Signal processing fundamentals','Sampling theorem & Nyquist rate','Aliasing & anti-aliasing']},
+    {id:'e-analog', name:'Analog Electronics', section:'Electronics',
+     topics:['Diodes (Zener, Schottky, PIN, varactor, avalanche)','BJT amplifiers (NPN, PNP)','MOSFETs (JFET, GaN, SiC)','Darlington transistors','Thyristors (SCR, TRIAC, DIAC, IGBT)','Op-amps (inverting, non-inverting, differential)','Instrumentation amplifiers','Comparators & current-sense amps','Isolation amplifiers','Voltage references & bandgap references','Current mirrors','Active filters (Butterworth, Chebyshev, Bessel)','Oscillators (RC, LC, crystal, VCO, PLL)','ADC & DAC (SAR, sigma-delta, flash)','Signal conditioning & sensor interfaces','Noise analysis (thermal, shot, flicker)','Low-noise design']},
+    {id:'e-digital', name:'Digital Electronics & DSP', section:'Electronics',
+     topics:['Logic gates & Boolean algebra','Karnaugh maps','Flip-flops & latches (D, JK, T)','Shift registers & counters','State machines (Moore, Mealy)','Multiplexers & decoders','Memory (SRAM, DRAM, DDR4/5, NOR/NAND Flash)','Clock domains & metastability','Signal integrity','Differential signaling (LVDS, CML)','Eye diagrams','DSP (FIR, IIR filters, FFT)','Windowing & decimation','Multi-rate signal processing']},
+    {id:'e-semi', name:'Semiconductors, ICs & Devices', section:'Electronics',
+     topics:['CMOS fabrication process flow','Photolithography & etching','Ion implantation & CVD','Digital ICs','Analog ICs','Mixed-signal ICs','Application-Specific ICs (ASIC)','SoC architecture & integration','IP cores & on-chip buses (AXI, AHB)','Power management ICs (PMIC)','MEMS devices (accelerometers, gyroscopes, microphones)','Optoelectronics (LED, OLED, VCSEL, photodiodes)','Display technologies (LCD, OLED, e-ink, MIPI DSI)']},
+    {id:'e-mcu', name:'Microcontrollers & Processors', section:'Embedded Systems',
+     topics:['ARM Cortex-M (M0, M3, M4, M7, M33, M55)','ARM Cortex-A & R series','AVR (ATmega, ATtiny)','PIC (8/16/32-bit)','MSP430 (ultra-low-power)','RISC-V cores','ESP32 & ESP8266 (Wi-Fi/BT)','STM32 series','Nordic nRF series','RISC vs CISC','Pipelining & superscalar','Cache hierarchy (L1, L2, L3)','MMU & MPU','Virtual memory','Timers, PWM, DMA, ADC','Interrupt controllers (NVIC, GIC)','JTAG & SWD debug','ETM trace & CoreSight','Low-power modes (sleep, deep sleep)','DVFS & clock gating']},
+    {id:'e-sw', name:'Embedded Software & Firmware', section:'Embedded Systems',
+     topics:['Embedded C & C++','MISRA C & CERT C standards','Bare-metal programming','Direct register manipulation','Bitwise operations','Volatile keyword & memory-mapped I/O','ISR design & polling vs interrupt','Memory management (stack, heap, pools)','Linker scripts & memory sections','Device drivers (character, block, network)','Board Support Packages (BSP)','Firmware architecture patterns','State machines','OTA firmware updates','A/B partitioning','Bootloader design','Secure boot']},
+    {id:'e-rtos', name:'RTOS & Embedded Linux', section:'Embedded Systems',
+     topics:['FreeRTOS','Zephyr RTOS','ThreadX (Azure RTOS)','VxWorks & QNX','Hard vs soft real-time','Task scheduling (preemptive, cooperative)','Priority-based & rate-monotonic scheduling','Earliest Deadline First (EDF)','Context switching','Mutex & semaphores','Event flags & message queues','Priority inversion & solutions','Embedded Linux (PREEMPT_RT)','Yocto Project','Buildroot','Device tree & kernel configuration','Kernel modules & drivers','systemd & init systems','IPC (pipes, sockets, shared memory)','Containers on embedded (Docker, Balena)']},
+    {id:'e-fpga', name:'FPGAs & Hardware Description', section:'Digital Design',
+     topics:['FPGA architecture (LUTs, BRAMs, DSP slices)','Xilinx (Spartan, Artix, Zynq)','Intel/Altera (Cyclone, Stratix)','Lattice (iCE40, ECP5)','VHDL','Verilog & SystemVerilog','Chisel & SpinalHDL','RTL design & simulation','Synthesis & place-and-route','Timing analysis & closure','High-Level Synthesis (HLS - Vitis, Intel HLS)','Soft processors (MicroBlaze, RISC-V cores)','AXI & Wishbone bus protocols','Partial reconfiguration','Hardware acceleration','Multi-FPGA systems']},
+    {id:'e-power', name:'Power Electronics & Energy', section:'Power',
+     topics:['Linear & LDO regulators','Buck (step-down) converters','Boost (step-up) converters','Buck-boost & SEPIC','Flyback & forward converters','SMPS design & control (voltage mode, current mode)','PWM control & compensation','Power Factor Correction (PFC)','AC-DC rectifiers & SMPS','DC-AC inverters (H-bridge, 3-phase)','Li-ion, LiPo, LiFePO4 batteries','Battery Management System (BMS)','SoC/SoH estimation','Cell balancing (passive/active)','Charging (CC-CV, Quick Charge, USB-PD)','Wireless charging (Qi)','Solar charge controllers (MPPT, PWM)','Energy harvesting (solar, thermoelectric, piezo)','Thermal management']},
+    {id:'e-sensors', name:'Sensors, Actuators & Motor Control', section:'Sensing',
+     topics:['IMU (accelerometer, gyroscope, magnetometer, 9-axis)','Temperature (thermistor, RTD, thermocouple, IR)','Humidity & pressure sensors','Air quality (CO2, VOC, PM2.5, ozone)','Optical (photodiode, ambient light, color, UV)','Proximity & distance (LIDAR, ToF, ultrasonic, UWB)','GNSS/GPS modules','PIR & microwave motion','Encoders (rotary, absolute, incremental)','Force & strain gauges (load cells, FSR)','Flow sensors','Biosensors (ECG, SpO2, EEG, glucose)','MEMS sensor technologies','Sensor calibration & compensation','Sensor fusion (Kalman, Madgwick, Mahony)','DC motors (brushed, brushless BLDC)','Stepper & servo motors','H-bridge & motor driver ICs','Field-Oriented Control (FOC)','Sensorless control (back-EMF)']},
+    {id:'e-wire', name:'Wired Communication Protocols', section:'Communication',
+     topics:['UART & RS-232/485/422','SPI (Master-slave, MISO/MOSI)','I²C / TWI (multi-master, addressing)','QSPI','CAN 2.0A/2.0B & CAN FD','LIN (Local Interconnect Network)','FlexRay','Automotive Ethernet (100BASE-T1)','UDS diagnostics (ISO 14229)','Modbus (RTU, ASCII, TCP)','Profibus (DP, PA)','PROFINET & EtherCAT','Ethernet/IP & CANopen','Ethernet (10/100/1000BASE-T)','TCP/IP, UDP, IPv4/IPv6','Time-Sensitive Networking (TSN)','IEEE 1588 PTP','USB (1.1 to 4.0, C, PD)','PCIe, SATA, NVMe','MIPI CSI/DSI','I²S, TDM, S/PDIF']},
+    {id:'e-wireless', name:'Wireless & IoT Communication', section:'Communication',
+     topics:['Bluetooth Classic & BLE (GATT, GAP)','Wi-Fi (802.11 n/ac/ax/be)','Wi-Fi HaLow (sub-1GHz)','Zigbee (802.15.4, mesh)','Thread & Matter (CHIP)','Z-Wave','NFC (passive, active, card emulation)','RFID (LF, HF, UHF)','Ultra-Wideband (UWB) positioning','LoRa & LoRaWAN (chirp spread spectrum)','Sigfox','NB-IoT & LTE-M (3GPP)','4G LTE & 5G NR','5G RedCap for IoT','LEO satellite IoT (Starlink, Swarm)','GNSS (GPS, GLONASS, Galileo, BeiDou)','MQTT & MQTT-SN','CoAP','Software-Defined Radio (SDR)','GNU Radio']},
+    {id:'e-iot', name:'IoT Architecture & Cloud', section:'IoT',
+     topics:['IoT device/sensor layer','Edge computing & local processing','Fog computing & hierarchy','Cloud IoT platforms (AWS IoT Core, Azure IoT Hub, Google Cloud IoT)','ThingsBoard, Particle, Arduino Cloud','Device management & provisioning','Device twins & shadowing','Digital twins (Azure DT, AWS TwinMaker)','FOTA (firmware OTA)','Time-series databases (InfluxDB, TimescaleDB)','NoSQL for IoT (MongoDB, Cassandra)','Stream processing (Kafka, Flink, Kinesis)','Grafana & Kibana dashboards','Anomaly detection for IoT','Predictive maintenance']},
+    {id:'e-sec', name:'Security, Cryptography & Privacy', section:'Security',
+     topics:['Symmetric encryption (AES, ChaCha20)','Asymmetric encryption (RSA, ECC)','Hashing (SHA-256, SHA-3, BLAKE2)','HMAC & digital signatures','Key exchange (Diffie-Hellman, ECDH)','TLS/SSL & DTLS','mTLS (mutual authentication)','Secure boot & Root of Trust','TPM (Trusted Platform Module)','HSM & Secure Element','TEE (Trusted Execution Environment)','PUF (Physically Unclonable Functions)','PKI & certificates','X.509 & EAP','Firmware signing & verification','Side-channel attacks (DPA, timing)','Differential privacy','Blockchain for IoT','GDPR, CCPA, HIPAA compliance','IEC 62443 industrial security']},
+    {id:'e-pcb', name:'PCB Design & Hardware Development', section:'Hardware Design',
+     topics:['Schematic capture (KiCad, Eagle, Altium, OrCAD)','Layer stackup design','Component placement & routing','Impedance control & controlled impedance traces','Differential pairs (USB, Ethernet, PCIe)','Length matching & skew control','Signal integrity analysis','Return path management','Power distribution network (PDN)','Decoupling & bypass capacitors','EMC/EMI design & layout','Shielding (cans, enclosures)','Grounding strategies','Filtering (ferrite beads, CMC)','Thermal design & thermal vias','DFM & DFA','SMT & THT assembly','Reflow & wave soldering','AOI & X-ray inspection','Conformal coating','Component sourcing & BOM','RoHS & REACH compliance']},
+    {id:'e-test', name:'Testing, Debugging & Validation', section:'Testing',
+     topics:['Oscilloscopes (digital, mixed-signal)','Logic analyzers','Spectrum analyzers & VNA','LCR meters','JTAG debugging & GDB','SWD (Serial Wire Debug)','OpenOCD','ETM trace & profiling','Protocol analyzers (CAN, SPI, USB)','Time-domain reflectometry (TDR)','Signal integrity testing','EMC testing (FCC Part 15, CE, CISPR)','Environmental testing (thermal, vibration, humidity)','ICT & flying probe','HIL testing','Boundary scan (IEEE 1149.1)','Automated Test Equipment (ATE)','HALT & HASS','MTBF & FMEA','Unit testing (Unity, Google Test)','Static analysis (cppcheck, clang-tidy)']},
+    {id:'e-auto', name:'Automotive & Safety-Critical Electronics', section:'Specialized',
+     topics:['ECU architecture & domain controllers','Zonal architecture','AUTOSAR Classic & Adaptive','ISO 26262 functional safety','ASIL levels (A-D)','ASPICE','CAN FD & automotive Ethernet','Diagnostic UDS (ISO 14229)','ADAS systems','Adaptive cruise control','Lane keeping & blind spot detection','Automatic emergency braking','Autonomous driving (sensor fusion, HD maps)','V2X communication','EV battery & BMS','Motor controllers & inverters','OBC (on-board charger)','Thermal management for EVs','Hardware-in-the-Loop (HIL)','ISO/SAE 21434 cybersecurity']},
+    {id:'e-med', name:'Medical & Healthcare Electronics', section:'Specialized',
+     topics:['IEC 60601 electrical safety','IEC 62304 software lifecycle','ISO 14971 risk management','ISO 13485 QMS','FDA 510(k) & CE marking','Pacemakers & ICDs','Neurostimulators (DBS, SCS)','Cochlear implants','ECG/EEG/EMG systems','Ultrasound imaging','MRI & CT systems','Patient monitoring (vital signs, SpO2, IBP)','Wearable health monitors','Remote patient monitoring','Biomedical signal processing','QRS detection & ECG analysis','HIPAA compliance','Biocompatibility (ISO 10993)']},
+    {id:'e-tinyml', name:'TinyML & Edge AI', section:'Edge AI',
+     topics:['TensorFlow Lite for Microcontrollers','TensorFlow Lite','Edge Impulse','Model quantization (post-training, QAT)','Structured & unstructured pruning','Knowledge distillation','Binary & ternary networks','MobileNets (v1, v2, v3)','EfficientNet & SqueezeNet','NPU, VPU & Edge TPU','FPGA-based ML acceleration','NVIDIA Jetson & Google Coral','Keyword spotting & wake word','Image classification on MCU','Anomaly detection in sensor data','On-device activity recognition','Gesture recognition','Federated learning on devices','TinyML benchmarking']},
+  ]
+}
+];
+
+const CONNECTIONS = [
+  // Physics ↔ Math
+  {f:'p-qm',t:'m-analysis',l:'Hilbert spaces, spectral theory, operator algebras'},
+  {f:'p-qm',t:'m-linalg',l:'State vectors, eigenvalues, matrix mechanics'},
+  {f:'p-gr',t:'m-geom',l:'Riemannian & pseudo-Riemannian geometry, tensors'},
+  {f:'p-sr',t:'m-geom',l:'Minkowski spacetime, Lorentz group'},
+  {f:'p-cm',t:'m-dyn',l:'Hamiltonian dynamics, phase space, Liouville theorem'},
+  {f:'p-cm',t:'m-ode',l:'Newton\'s equations of motion'},
+  {f:'p-cm',t:'m-opt',l:'Lagrangian, variational principles, least action'},
+  {f:'p-fm',t:'m-pde',l:'Navier-Stokes, Euler equations'},
+  {f:'p-td',t:'m-prob',l:'Statistical ensembles, fluctuations, ergodicity'},
+  {f:'p-td',t:'m-infoth',l:'Boltzmann entropy = Shannon entropy, information theory'},
+  {f:'p-qft',t:'m-topo',l:'Topological field theories, fiber bundles, BRST'},
+  {f:'p-chaos',t:'m-dyn',l:'Bifurcation, strange attractors, Lyapunov exponents'},
+  {f:'p-em',t:'m-analysis',l:'Complex potentials, Green\'s functions, integral equations'},
+  {f:'p-opt',t:'m-harm',l:'Fourier optics, diffraction integrals'},
+  {f:'p-qft',t:'m-abstr',l:'Lie groups, gauge symmetry, representation theory'},
+  {f:'p-topo',t:'m-topo',l:'Berry phase, topological invariants, Chern numbers'},
+  {f:'p-qgrav',t:'m-topo',l:'Loop quantum gravity, spin foams, causal sets'},
+  {f:'p-mathphys',t:'m-mathphys',l:'Mathematical methods shared across both fields'},
+  {f:'p-cm2',t:'m-analysis',l:'Green\'s functions for many-body physics'},
+  {f:'p-np',t:'m-abstr',l:'Nuclear symmetry groups, isospin algebra'},
+  // Physics ↔ AI
+  {f:'p-qm',t:'ai-agents',l:'Quantum computing, quantum ML algorithms'},
+  {f:'p-cm2',t:'ai-agents',l:'AI for materials science, property prediction'},
+  {f:'p-astro',t:'ai-agents',l:'ML for gravitational wave detection, galaxy surveys'},
+  {f:'p-td',t:'ai-probml',l:'Boltzmann machines, energy-based models, free energy'},
+  {f:'p-cm',t:'ai-robo',l:'Rigid body dynamics, trajectory optimization in robotics'},
+  {f:'p-chaos',t:'ai-rl',l:'Chaotic environments, exploration in nonlinear dynamics'},
+  {f:'p-fm',t:'ai-agents',l:'Physics-informed neural networks for fluid simulation'},
+  {f:'p-modern-opt',t:'ai-mm',l:'Photonic computing, optical neural networks'},
+  // Physics ↔ Electronics
+  {f:'p-qm',t:'e-semi',l:'Quantum mechanics of semiconductors, tunneling devices'},
+  {f:'p-cm2',t:'e-semi',l:'Band theory, phonons → transistor operation'},
+  {f:'p-em',t:'e-fund',l:'Maxwell\'s equations → circuit theory (quasi-static limit)'},
+  {f:'p-em',t:'e-analog',l:'EM waves → RF design, antenna theory'},
+  {f:'p-opt',t:'e-sensors',l:'Photodetectors, optical sensing principles'},
+  {f:'p-td',t:'e-power',l:'Carnot efficiency, thermal management limits'},
+  {f:'p-qm',t:'e-tinyml',l:'Quantum-classical hybrid ML on edge devices'},
+  // Math ↔ AI
+  {f:'m-linalg',t:'ai-dl',l:'Weight matrices, SVD for compression, PCA preprocessing'},
+  {f:'m-prob',t:'ai-probml',l:'Probabilistic graphical models, Bayesian inference'},
+  {f:'m-stat',t:'ai-ml-core',l:'Statistical learning theory, estimators, distributions'},
+  {f:'m-opt',t:'ai-dl',l:'Gradient descent, convex optimization, Adam derivation'},
+  {f:'m-comb',t:'ai-gnn',l:'Graph theory → graph neural networks'},
+  {f:'m-prob',t:'ai-rl',l:'MDPs, stochastic processes, Bellman equations'},
+  {f:'m-infoth',t:'ai-llm',l:'Cross-entropy loss, KL divergence, mutual information'},
+  {f:'m-dyn',t:'ai-rl',l:'Dynamical systems perspective on RL, control theory'},
+  {f:'m-opt',t:'ai-rl',l:'Optimal control, Pontryagin, Hamilton-Jacobi-Bellman'},
+  {f:'m-pde',t:'ai-agents',l:'Physics-informed neural networks for PDE solving'},
+  {f:'m-num',t:'ai-agents',l:'AI as surrogate for expensive numerical simulations'},
+  {f:'m-game',t:'ai-rl',l:'Nash equilibrium in multi-agent RL, mechanism design'},
+  {f:'m-harm',t:'ai-cnn',l:'Convolution theorem, Fourier features in kernels'},
+  {f:'m-topo',t:'ai-ml-core',l:'TDA, persistent homology as ML features'},
+  {f:'m-stat',t:'ai-safety',l:'Fairness metrics, statistical hypothesis tests for bias'},
+  {f:'m-abstr',t:'ai-dl',l:'Group-equivariant networks, symmetry in deep learning'},
+  {f:'m-prob',t:'ai-gen',l:'Score matching, diffusion as reverse SDE process'},
+  {f:'m-tcs',t:'ai-ml-core',l:'PAC learning, VC dimension, computational complexity of ML'},
+  {f:'m-infoth',t:'ai-safety',l:'Information-theoretic privacy, compression bounds'},
+  {f:'m-opt',t:'ai-ml-alg',l:'SVM duality, optimization for ML algorithms'},
+  // Math ↔ Electronics
+  {f:'m-analysis',t:'e-fund',l:'Complex analysis → impedance, transfer functions'},
+  {f:'m-opt',t:'e-analog',l:'Filter optimization, minimum-phase design'},
+  {f:'m-infoth',t:'e-wire',l:'Shannon capacity → coding theory → protocol design'},
+  {f:'m-num',t:'e-fpga',l:'Numerical algorithms implemented on FPGAs'},
+  {f:'m-harm',t:'e-digital',l:'Fourier → DSP, FIR/IIR filter design'},
+  {f:'m-ode',t:'e-power',l:'Differential equations → switching converter dynamics'},
+  {f:'m-prob',t:'e-sensors',l:'Kalman filter (optimal Bayes estimation), sensor fusion'},
+  {f:'m-opt',t:'e-rtos',l:'Optimal control embedded in real-time systems'},
+  {f:'m-tcs',t:'e-sec',l:'Cryptographic protocols, P vs NP → security hardness'},
+  {f:'m-linalg',t:'e-digital',l:'Linear algebra → DSP, signal transformations'},
+  // AI ↔ Electronics
+  {f:'ai-cv',t:'e-tinyml',l:'Computer vision models deployed on edge hardware'},
+  {f:'ai-dl',t:'e-tinyml',l:'Neural networks → TinyML quantized deployment'},
+  {f:'ai-ml-alg',t:'e-tinyml',l:'Classical ML on microcontrollers (decision trees, kNN)'},
+  {f:'ai-rl',t:'ai-robo',l:'RL policies for robot control'},
+  {f:'ai-robo',t:'e-sensors',l:'Sensor fusion, localization, perception pipeline'},
+  {f:'ai-mlops',t:'e-iot',l:'IoT data pipelines → cloud ML operations'},
+  {f:'ai-probml',t:'e-sensors',l:'Kalman filtering → Bayesian sensor fusion'},
+  {f:'ai-dl',t:'e-fpga',l:'Neural network hardware acceleration on FPGAs'},
+  {f:'ai-agents',t:'e-iot',l:'Intelligent IoT agents with LLM orchestration'},
+  {f:'ai-safety',t:'e-auto',l:'Functional safety & certified robustness in autonomous systems'},
+  {f:'ai-cv',t:'ai-robo',l:'Computer vision for robot navigation & manipulation'},
+  {f:'ai-nlp',t:'e-tinyml',l:'Keyword spotting, wake word detection on MCUs'},
+  {f:'ai-robo',t:'e-auto',l:'Autonomous driving perception, planning & control'},
+  // Within Physics
+  {f:'p-qm',t:'p-qft',l:'Canonical quantization → quantum field theory'},
+  {f:'p-qft',t:'p-pp',l:'Standard Model, particle interactions'},
+  {f:'p-cm',t:'p-sr',l:'Relativistic mechanics extends classical'},
+  {f:'p-sr',t:'p-gr',l:'Generalization to curved spacetime'},
+  {f:'p-qm',t:'p-cm2',l:'Quantum origins of electronic band structure'},
+  {f:'p-cm2',t:'p-topo',l:'Topological phases from band topology'},
+  {f:'p-gr',t:'p-cosmo',l:'Einstein field equations → Friedmann equations'},
+  {f:'p-gr',t:'p-astro',l:'Black holes, neutron stars, gravitational collapse'},
+  {f:'p-qm',t:'p-qgrav',l:'Quantizing gravity, combining QM & GR'},
+  {f:'p-astro',t:'p-cosmo',l:'Stellar evolution → BBN, dark matter evidence'},
+  // Within Math
+  {f:'m-linalg',t:'m-analysis',l:'Functional analysis generalizes linear algebra to ∞ dim'},
+  {f:'m-abstr',t:'m-geom',l:'Algebraic geometry, group actions on spaces'},
+  {f:'m-abstr',t:'m-topo',l:'Algebraic topology, homology as algebraic invariants'},
+  {f:'m-prob',t:'m-stat',l:'Probability theory is the foundation of statistics'},
+  {f:'m-ode',t:'m-dyn',l:'ODEs define vector fields & dynamical systems'},
+  {f:'m-pde',t:'m-harm',l:'Fourier methods for solving PDEs'},
+  {f:'m-opt',t:'m-game',l:'Optimization in strategic/equilibrium settings'},
+  {f:'m-num',t:'m-pde',l:'Numerical methods (FEM, FDM) for PDE approximation'},
+  {f:'m-found',t:'m-tcs',l:'Computability theory, formal proofs & type theory'},
+  {f:'m-nt',t:'m-infoth',l:'Number theory → cryptography → information security'},
+  // Within AI
+  {f:'ai-attn',t:'ai-llm',l:'Transformers architecture powers LLMs'},
+  {f:'ai-dl',t:'ai-cnn',l:'CNN specializes DL for spatial data'},
+  {f:'ai-dl',t:'ai-rnn',l:'RNN specializes DL for sequential data'},
+  {f:'ai-dl',t:'ai-attn',l:'Attention mechanism extends sequence modeling'},
+  {f:'ai-gen',t:'ai-mm',l:'Generative models → multimodal content creation'},
+  {f:'ai-nlp',t:'ai-llm',l:'NLP tasks → LLM emergent capabilities'},
+  {f:'ai-cv',t:'ai-mm',l:'Vision + language → multimodal AI'},
+  {f:'ai-ml-core',t:'ai-rl',l:'RL uses supervised/unsupervised ML foundations'},
+  {f:'ai-probml',t:'ai-gen',l:'VAEs, diffusion models have probabilistic foundations'},
+  // Within Electronics
+  {f:'e-fund',t:'e-analog',l:'Circuit laws → analog circuit design'},
+  {f:'e-analog',t:'e-digital',l:'ADC/DAC bridge analog & digital domains'},
+  {f:'e-semi',t:'e-mcu',l:'Semiconductor technology → microprocessors'},
+  {f:'e-mcu',t:'e-sw',l:'MCU architecture → embedded software programming'},
+  {f:'e-sw',t:'e-rtos',l:'Bare-metal firmware → RTOS services'},
+  {f:'e-digital',t:'e-fpga',l:'Digital logic design → FPGA implementation'},
+  {f:'e-sensors',t:'e-iot',l:'Sensor data collection → IoT pipelines'},
+  {f:'e-wireless',t:'e-iot',l:'Wireless protocols → IoT connectivity'},
+  {f:'e-mcu',t:'e-tinyml',l:'MCU with NPU → TinyML deployment target'},
+  {f:'e-rtos',t:'e-auto',l:'RTOS → automotive real-time control (AUTOSAR)'},
+  {f:'e-sec',t:'e-iot',l:'Cryptographic security in IoT devices'},
+  {f:'e-pcb',t:'e-test',l:'PCB design → manufacturing → test & validation'},
+  {f:'e-power',t:'e-mcu',l:'Power management → MCU power modes & optimization'},
+];
+
+// Build lookup maps
+const chapterMap = {};
+const subjectMap = {};
+SUBJECTS.forEach(s => {
+  subjectMap[s.id] = s;
+  s.chapters.forEach(ch => {
+    chapterMap[ch.id] = { ...ch, subjectId: s.id, subjectName: s.name, subjectHex: s.hex, subjectColor: s.color };
+  });
+});
+
+// Build connection adjacency (chapter → connected chapters)
+const adjMap = {};
+CONNECTIONS.forEach(c => {
+  if(!adjMap[c.f]) adjMap[c.f] = [];
+  if(!adjMap[c.t]) adjMap[c.t] = [];
+  adjMap[c.f].push({id:c.t, label:c.l});
+  adjMap[c.t].push({id:c.f, label:c.l});
+});
+
+// ============================================================
+// STATE
+// ============================================================
+let state = {
+  view: 'graph',
+  activeSubjects: new Set(['physics','math','ai','electronics']),
+  selectedChapterId: null,
+  selectedTopicName: null,
+  searchQuery: '',
+};
+
+// ============================================================
+// SEARCH
+// ============================================================
+function tokenize(s) {
+  return s.toLowerCase().replace(/[^a-z0-9\s]/g,' ').split(/\s+/).filter(t=>t.length>1);
+}
+
+function scoreMatch(query, candidate) {
+  const q = query.toLowerCase().trim();
+  const c = candidate.toLowerCase().trim();
+  if(c === q) return 100;
+  if(c.startsWith(q)) return 80;
+  if(c.includes(q)) return 60;
+  const qt = tokenize(q);
+  const ct = tokenize(c);
+  let score = 0;
+  qt.forEach(tok => {
+    if(ct.some(x => x.startsWith(tok))) score += 20;
+    else if(ct.some(x => x.includes(tok))) score += 10;
+  });
+  return score;
+}
+
+function doSearch(query) {
+  if(!query || query.length < 2) return null;
+  const results = {direct:[], chapters:[], related:[]};
+
+  SUBJECTS.forEach(s => {
+    s.chapters.forEach(ch => {
+      const chScore = scoreMatch(query, ch.name);
+      if(chScore > 0) {
+        results.chapters.push({
+          type:'chapter', chapter:ch, subject:s, score:chScore,
+          topicCount: ch.topics.length
+        });
+      }
+      ch.topics.forEach(topic => {
+        const tScore = scoreMatch(query, topic);
+        if(tScore > 0) {
+          results.direct.push({
+            type:'topic', topic, chapter:ch, subject:s, score:tScore
+          });
+        }
+      });
+    });
+  });
+
+  // Related: from connected chapters of matched chapters
+  const matchedChapterIds = new Set([
+    ...results.chapters.map(r=>r.chapter.id),
+    ...results.direct.map(r=>r.chapter.id)
+  ]);
+  matchedChapterIds.forEach(chId => {
+    const conns = adjMap[chId] || [];
+    conns.forEach(conn => {
+      if(!matchedChapterIds.has(conn.id) && chapterMap[conn.id]) {
+        const ch = chapterMap[conn.id];
+        const s = subjectMap[ch.subjectId];
+        results.related.push({
+          type:'related', chapter:ch, subject:s,
+          connLabel: conn.label, fromChapterId: chId,
+          score: 30
+        });
+      }
+    });
+  });
+
+  results.direct.sort((a,b)=>b.score-a.score);
+  results.chapters.sort((a,b)=>b.score-a.score);
+  // dedupe related
+  const seenRelated = new Set();
+  results.related = results.related.filter(r => {
+    if(seenRelated.has(r.chapter.id)) return false;
+    seenRelated.add(r.chapter.id);
+    return true;
+  });
+
+  return {
+    direct: results.direct.slice(0,12),
+    chapters: results.chapters.slice(0,6),
+    related: results.related.slice(0,8)
+  };
+}
+
+function renderSearchResults(query) {
+  const el = document.getElementById('searchResults');
+  if(!query || query.length < 2) { el.classList.remove('open'); return; }
+  const res = doSearch(query);
+  if(!res) { el.classList.remove('open'); return; }
+
+  const total = res.direct.length + res.chapters.length + res.related.length;
+  if(total === 0) {
+    el.innerHTML = `<div class="sr-empty">No results for "<strong>${esc(query)}</strong>"</div>`;
+    el.classList.add('open');
+    return;
+  }
+
+  let html = '';
+
+  if(res.chapters.length) {
+    html += `<div class="sr-group"><div class="sr-group-label">📂 Chapters</div>`;
+    res.chapters.forEach(r => {
+      html += `<div class="sr-item" onclick="selectChapter('${r.chapter.id}',true)">
+        <div class="sr-dot" style="background:${r.subject.hex}"></div>
+        <div class="sr-name">${highlightMatch(r.chapter.name, query)}</div>
+        <div class="sr-path">${r.subject.name} › ${r.chapter.section}</div>
+      </div>`;
+    });
+    html += '</div>';
+  }
+
+  if(res.direct.length) {
+    html += `<div class="sr-group"><div class="sr-group-label">◈ Topics</div>`;
+    res.direct.forEach(r => {
+      html += `<div class="sr-item" onclick="selectTopic('${r.chapter.id}','${esc(r.topic)}',true)">
+        <div class="sr-dot" style="background:${r.subject.hex}"></div>
+        <div class="sr-name">${highlightMatch(r.topic, query)}</div>
+        <div class="sr-path">${r.chapter.name}</div>
+      </div>`;
+    });
+    html += '</div>';
+  }
+
+  if(res.related.length) {
+    html += `<div class="sr-group"><div class="sr-group-label">↗ Related Areas</div>`;
+    res.related.forEach(r => {
+      html += `<div class="sr-item" onclick="selectChapter('${r.chapter.id}',true)">
+        <div class="sr-dot" style="background:${r.subject.hex}"></div>
+        <div class="sr-name">${esc(r.chapter.name)}</div>
+        <div class="sr-path">${r.subject.name}</div>
+        <span class="sr-related-tag">related</span>
+      </div>`;
+    });
+    html += '</div>';
+  }
+
+  el.innerHTML = html;
+  el.classList.add('open');
+}
+
+function highlightMatch(text, query) {
+  if(!query) return esc(text);
+  const escaped = esc(text);
+  const q = query.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+  return escaped.replace(new RegExp(`(${q})`, 'gi'), '<span class="hl">$1</span>');
+}
+
+function esc(s) {
+  return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ============================================================
+// SIDEBAR TREE
+// ============================================================
+function renderSidebar() {
+  const el = document.getElementById('sidebarTree');
+  let html = '';
+  SUBJECTS.forEach(s => {
+    const isOpen = state.activeSubjects.has(s.id);
+    html += `<div class="subject-section ${isOpen?'open':''}" id="sec-${s.id}">
+      <div class="subject-header" onclick="toggleSection('${s.id}')">
+        <div class="subj-color-bar" style="background:${s.hex}"></div>
+        <span class="subj-name" style="color:${s.hex}">${s.name}</span>
+        <span class="subj-count">${s.chapters.length}</span>
+        <span class="subj-arrow">›</span>
+      </div>
+      <div class="chapter-list" id="chlist-${s.id}">`;
+
+    s.chapters.forEach(ch => {
+      const isActive = state.selectedChapterId === ch.id;
+      html += `<div class="chapter-item ${isActive?'active':''}" id="ch-${ch.id}" onclick="selectChapter('${ch.id}')">
+        <div class="chapter-tag" style="background:${s.hex}22;color:${s.hex};border:1px solid ${s.hex}44">${ch.section.split(' ')[0].substring(0,4)}</div>
+        <span class="chapter-name">${ch.name}</span>
+      </div>`;
+    });
+    html += `</div></div>`;
+  });
+  el.innerHTML = html;
+}
+
+function toggleSection(subjId) {
+  const sec = document.getElementById('sec-'+subjId);
+  sec.classList.toggle('open');
+}
+
+// ============================================================
+// BROWSE VIEW
+// ============================================================
+function renderBrowse() {
+  const el = document.getElementById('chapterCards');
+  const titleEl = document.getElementById('browseTitle');
+  const subtitleEl = document.getElementById('browseSubtitle');
+
+  let chapters = [];
+  SUBJECTS.forEach(s => {
+    if(state.activeSubjects.has(s.id)) {
+      s.chapters.forEach(ch => chapters.push({ch, s}));
+    }
+  });
+
+  titleEl.textContent = state.selectedChapterId
+    ? (chapterMap[state.selectedChapterId]?.name || 'All Chapters')
+    : 'All Chapters';
+  subtitleEl.textContent = `${chapters.length} chapters · Click to explore topics`;
+
+  el.innerHTML = chapters.map(({ch, s}, i) => {
+    const topicsPreview = ch.topics.slice(0,6);
+    const extra = ch.topics.length - topicsPreview.length;
+    const isActive = state.selectedChapterId === ch.id;
+    return `<div class="chapter-card ${isActive?'selected':''}" 
+      style="animation-delay:${i*0.03}s;${isActive?`border-color:${s.hex};box-shadow:0 0 16px ${s.hex}33`:''}"
+      onclick="selectChapter('${ch.id}')">
+      <div style="position:absolute;left:0;top:0;bottom:0;width:3px;background:${s.hex};border-radius:2px 0 0 2px"></div>
+      <div class="cc-section">${s.name} › ${ch.section}</div>
+      <div class="cc-name">${ch.name}</div>
+      <div class="cc-topics">
+        ${topicsPreview.map(t=>`<span class="cc-topic">${t}</span>`).join('')}
+        ${extra > 0 ? `<span class="cc-more">+${extra} more</span>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ============================================================
+// DETAIL PANEL
+// ============================================================
+function selectChapter(chId, closeSearch=false) {
+  if(closeSearch) {
+    document.getElementById('searchResults').classList.remove('open');
+    document.getElementById('searchInput').value = '';
+  }
+  state.selectedChapterId = chId;
+  state.selectedTopicName = null;
+  showDetailPanel(chId, null);
+  renderSidebar();
+  if(state.view === 'browse') renderBrowse();
+  if(state.view === 'graph') highlightGraphNode(chId);
+}
+
+function selectTopic(chId, topicName, closeSearch=false) {
+  if(closeSearch) {
+    document.getElementById('searchResults').classList.remove('open');
+    document.getElementById('searchInput').value = '';
+  }
+  state.selectedChapterId = chId;
+  state.selectedTopicName = topicName;
+  showDetailPanel(chId, topicName);
+  renderSidebar();
+  if(state.view === 'graph') highlightGraphNode(chId);
+}
+
+function showDetailPanel(chId, topicName) {
+  const ch = chapterMap[chId];
+  if(!ch) return;
+  const s = subjectMap[ch.subjectId];
+
+  document.getElementById('detailSubject').innerHTML = `<span style="color:${s.hex}">${s.icon} ${s.name}</span>`;
+  document.getElementById('detailName').textContent = topicName || ch.name;
+  document.getElementById('detailChapter').textContent = topicName ? `in ${ch.name}` : ch.section;
+
+  const connections = adjMap[chId] || [];
+  let bodyHtml = '';
+
+  if(!topicName) {
+    // Chapter detail
+    bodyHtml += `<div class="detail-section">
+      <div class="detail-section-title">Topics (${ch.topics.length})</div>
+      <div class="topics-list">
+        ${ch.topics.map(t=>`<div class="d-topic" onclick="selectTopic('${chId}','${esc(t)}')">${t}</div>`).join('')}
+      </div>
+    </div>`;
+  } else {
+    // Topic detail - find related topics in same chapter
+    const related = ch.topics.filter(t => t !== topicName).slice(0,8);
+    bodyHtml += `<div class="detail-section">
+      <div class="detail-section-title">Chapter: ${ch.name}</div>
+      <div class="topics-list">
+        <div class="d-topic" style="border-left:3px solid ${s.hex};padding-left:8px;color:var(--text)">${topicName}</div>
+      </div>
+    </div>
+    <div class="detail-section">
+      <div class="detail-section-title">More in this chapter</div>
+      <div class="topics-list">
+        ${related.map(t=>`<div class="d-topic" onclick="selectTopic('${chId}','${esc(t)}')">${t}</div>`).join('')}
+      </div>
+    </div>`;
+  }
+
+  if(connections.length) {
+    bodyHtml += `<div class="detail-section">
+      <div class="detail-section-title">Connected Fields (${connections.length})</div>
+      <div class="conn-cards">`;
+    connections.forEach(conn => {
+      const tch = chapterMap[conn.id];
+      if(!tch) return;
+      const ts = subjectMap[tch.subjectId];
+      bodyHtml += `<div class="conn-card" onclick="selectChapter('${conn.id}')">
+        <div class="conn-card-subject" style="color:${ts.hex}">${ts.icon} ${ts.name}</div>
+        <div class="conn-card-name">${tch.name}</div>
+        <div class="conn-card-label">${conn.label}</div>
+      </div>`;
+    });
+    bodyHtml += `</div></div>`;
+  }
+
+  document.getElementById('detailBody').innerHTML = bodyHtml;
+  document.getElementById('detailPanel').classList.add('open');
+}
+
+function closeDetail() {
+  document.getElementById('detailPanel').classList.remove('open');
+  state.selectedChapterId = null;
+  state.selectedTopicName = null;
+  renderSidebar();
+  if(state.view === 'graph') resetGraphHighlight();
+}
+
+// ============================================================
+// D3 GRAPH
+// ============================================================
+let simulation, svg, linkGroup, nodeGroup, zoomBehavior;
+let graphNodes = [], graphLinks = [];
+let highlightedNode = null;
+
+function initGraph() {
+  const container = document.getElementById('graph-view');
+  const svgEl = document.getElementById('graph-svg');
+  const W = container.clientWidth;
+  const H = container.clientHeight;
+
+  svg = d3.select('#graph-svg')
+    .attr('width', W)
+    .attr('height', H);
+
+  // Define arrow marker (unused now, but good to have)
+  svg.append('defs').append('marker')
+    .attr('id','arrow').attr('viewBox','0 -4 8 8').attr('refX',20).attr('markerWidth',6).attr('markerHeight',6).attr('orient','auto')
+    .append('path').attr('d','M0,-4L8,0L0,4').attr('fill','rgba(255,255,255,0.1)');
+
+  const g = svg.append('g').attr('id','graph-g');
+  linkGroup = g.append('g').attr('id','links');
+  nodeGroup = g.append('g').attr('id','nodes');
+
+  zoomBehavior = d3.zoom()
+    .scaleExtent([0.15, 4])
+    .on('zoom', e => g.attr('transform', e.transform));
+
+  svg.call(zoomBehavior);
+  svg.on('click', e => {
+    if(e.target === svgEl) closeDetail();
+  });
+
+  buildGraphData();
+  renderGraph();
+  buildGraphControls();
+}
+
+function buildGraphData() {
+  graphNodes = [];
+  graphLinks = [];
+  const nodeIds = new Set();
+
+  SUBJECTS.forEach(s => {
+    if(!state.activeSubjects.has(s.id)) return;
+    s.chapters.forEach(ch => {
+      graphNodes.push({
+        id: ch.id, name: ch.name, subjectId: s.id, hex: s.hex,
+        section: ch.section, topicCount: ch.topics.length,
+        r: Math.max(10, Math.min(22, 8 + ch.topics.length * 0.5))
+      });
+      nodeIds.add(ch.id);
+    });
+  });
+
+  CONNECTIONS.forEach(c => {
+    if(nodeIds.has(c.f) && nodeIds.has(c.t)) {
+      graphLinks.push({ source: c.f, target: c.t, label: c.l });
+    }
+  });
+}
+
+function renderGraph() {
+  const container = document.getElementById('graph-view');
+  const W = container.clientWidth || 800;
+  const H = container.clientHeight || 600;
+
+  // Color by subject
+  const colorMap = { physics: '#38bdf8', math: '#fbbf24', ai: '#34d399', electronics: '#fb923c' };
+
+  simulation = d3.forceSimulation(graphNodes)
+    .force('link', d3.forceLink(graphLinks).id(d=>d.id).distance(d=>{
+      // shorter distance for same-subject connections
+      const src = chapterMap[typeof d.source === 'string' ? d.source : d.source.id];
+      const tgt = chapterMap[typeof d.target === 'string' ? d.target : d.target.id];
+      return src?.subjectId === tgt?.subjectId ? 80 : 160;
+    }).strength(0.3))
+    .force('charge', d3.forceManyBody().strength(-280))
+    .force('center', d3.forceCenter(W/2, H/2).strength(0.05))
+    .force('collide', d3.forceCollide(d => d.r + 18).strength(0.8))
+    .force('x', d3.forceX(d => {
+      const map = { physics: W*0.25, math: W*0.75, ai: W*0.75, electronics: W*0.25 };
+      return map[d.subjectId] || W/2;
+    }).strength(0.03))
+    .force('y', d3.forceY(d => {
+      const map = { physics: H*0.35, math: H*0.35, ai: H*0.65, electronics: H*0.65 };
+      return map[d.subjectId] || H/2;
+    }).strength(0.03));
+
+  // Links
+  const link = linkGroup.selectAll('.link').data(graphLinks, d=>`${d.source.id||d.source}-${d.target.id||d.target}`);
+  link.exit().remove();
+  const linkEnter = link.enter().append('line').attr('class','link');
+  const allLinks = linkEnter.merge(link)
+    .attr('stroke', d => {
+      const srcSub = chapterMap[d.source.id || d.source]?.subjectId;
+      const tgtSub = chapterMap[d.target.id || d.target]?.subjectId;
+      if(srcSub === tgtSub) return colorMap[srcSub] || '#4a6a9a';
+      return '#2a4070';
+    })
+    .attr('stroke-width', d => {
+      const srcSub = chapterMap[d.source.id || d.source]?.subjectId;
+      const tgtSub = chapterMap[d.target.id || d.target]?.subjectId;
+      return srcSub === tgtSub ? 1.5 : 0.8;
+    })
+    .attr('stroke-opacity', d => {
+      const srcSub = chapterMap[d.source.id || d.source]?.subjectId;
+      const tgtSub = chapterMap[d.target.id || d.target]?.subjectId;
+      return srcSub === tgtSub ? 0.25 : 0.15;
+    });
+
+  // Nodes
+  const tooltip = document.getElementById('graphTooltip');
+  const nodeGroup2 = nodeGroup.selectAll('.node').data(graphNodes, d=>d.id);
+  nodeGroup2.exit().remove();
+  const nodeEnter = nodeGroup2.enter().append('g').attr('class','node')
+    .call(d3.drag()
+      .on('start', (e,d)=>{ if(!e.active) simulation.alphaTarget(0.3).restart(); d.fx=d.x; d.fy=d.y; })
+      .on('drag', (e,d)=>{ d.fx=e.x; d.fy=e.y; })
+      .on('end', (e,d)=>{ if(!e.active) simulation.alphaTarget(0); d.fx=null; d.fy=null; }));
+
+  nodeEnter.append('circle')
+    .attr('r', d=>d.r)
+    .attr('fill', d=>`${d.hex}22`)
+    .attr('stroke', d=>d.hex)
+    .attr('stroke-width', 1.5);
+
+  // Glow filter
+  const defs = svg.select('defs');
+  const filter = defs.append('filter').attr('id','glow');
+  filter.append('feGaussianBlur').attr('stdDeviation','3').attr('result','coloredBlur');
+  const feMerge = filter.append('feMerge');
+  feMerge.append('feMergeNode').attr('in','coloredBlur');
+  feMerge.append('feMergeNode').attr('in','SourceGraphic');
+
+  nodeEnter.append('text')
+    .attr('text-anchor','middle')
+    .attr('dy','0.35em')
+    .attr('font-size', d => d.r > 16 ? '8.5px' : '7.5px')
+    .attr('font-family','IBM Plex Sans, sans-serif')
+    .attr('font-weight','500')
+    .attr('fill', d=>d.hex)
+    .attr('opacity', 0.9)
+    .attr('pointer-events','none')
+    .each(function(d) {
+      const words = d.name.split(' ');
+      const line1 = words.slice(0, Math.ceil(words.length/2)).join(' ');
+      const line2 = words.slice(Math.ceil(words.length/2)).join(' ');
+      if(words.length > 2 && d.r > 13) {
+        d3.select(this).append('tspan').attr('x',0).attr('dy','-0.55em').text(line1);
+        d3.select(this).append('tspan').attr('x',0).attr('dy','1.1em').text(line2);
+      } else {
+        d3.select(this).text(d.name.length > 14 ? d.name.substring(0,12)+'…' : d.name);
+      }
+    });
+
+  const allNodes = nodeEnter.merge(nodeGroup2);
+  allNodes.select('circle')
+    .attr('r', d=>d.r)
+    .attr('fill', d=>`${d.hex}22`)
+    .attr('stroke', d=>d.hex)
+    .attr('stroke-width', 1.5);
+
+  allNodes.style('cursor','pointer')
+    .on('click', (e, d) => {
+      e.stopPropagation();
+      selectChapter(d.id);
+      highlightGraphNode(d.id);
+    })
+    .on('mouseenter', (e, d) => {
+      // Show tooltip
+      const conns = adjMap[d.id] || [];
+      tooltip.innerHTML = `<div class="gt-title">${d.name}</div>
+        <div class="gt-sub" style="color:${d.hex}">${subjectMap[d.subjectId]?.name} › ${d.section}</div>
+        <div class="gt-conns">${d.topicCount} topics · ${conns.length} connections</div>`;
+      tooltip.style.display = 'block';
+      // Highlight connected nodes
+      const connSet = new Set(conns.map(c=>c.id));
+      connSet.add(d.id);
+      nodeGroup.selectAll('.node circle').attr('opacity', n => connSet.has(n.id) ? 1 : 0.2);
+      nodeGroup.selectAll('.node text').attr('opacity', n => connSet.has(n.id) ? 1 : 0.1);
+      linkGroup.selectAll('.link')
+        .attr('stroke-opacity', l => {
+          const srcId = l.source.id || l.source;
+          const tgtId = l.target.id || l.target;
+          if(srcId === d.id || tgtId === d.id) return 0.8;
+          return 0.03;
+        })
+        .attr('stroke-width', l => {
+          const srcId = l.source.id || l.source;
+          const tgtId = l.target.id || l.target;
+          return (srcId === d.id || tgtId === d.id) ? 2 : 0.5;
+        });
+    })
+    .on('mousemove', e => {
+      tooltip.style.left = (e.clientX + 12) + 'px';
+      tooltip.style.top = (e.clientY - 10) + 'px';
+    })
+    .on('mouseleave', () => {
+      tooltip.style.display = 'none';
+      if(!state.selectedChapterId) resetGraphHighlight();
+    });
+
+  simulation.on('tick', () => {
+    linkGroup.selectAll('.link')
+      .attr('x1', d=>d.source.x).attr('y1', d=>d.source.y)
+      .attr('x2', d=>d.target.x).attr('y2', d=>d.target.y);
+    nodeGroup.selectAll('.node')
+      .attr('transform', d=>`translate(${d.x},${d.y})`);
+  });
+}
+
+function highlightGraphNode(chId) {
+  highlightedNode = chId;
+  const conns = adjMap[chId] || [];
+  const connSet = new Set(conns.map(c=>c.id));
+  connSet.add(chId);
+
+  nodeGroup.selectAll('.node circle')
+    .attr('opacity', d => connSet.has(d.id) ? 1 : 0.2)
+    .attr('r', d => d.id === chId ? d.r * 1.4 : d.r)
+    .attr('stroke-width', d => d.id === chId ? 3 : 1.5)
+    .attr('filter', d => d.id === chId ? 'url(#glow)' : null);
+
+  nodeGroup.selectAll('.node text').attr('opacity', d => connSet.has(d.id) ? 1 : 0.1);
+
+  linkGroup.selectAll('.link')
+    .attr('stroke-opacity', l => {
+      const s = l.source.id || l.source;
+      const t = l.target.id || l.target;
+      return (s === chId || t === chId) ? 0.8 : 0.03;
+    })
+    .attr('stroke-width', l => {
+      const s = l.source.id || l.source;
+      const t = l.target.id || l.target;
+      return (s === chId || t === chId) ? 2 : 0.5;
+    });
+}
+
+function resetGraphHighlight() {
+  highlightedNode = null;
+  nodeGroup.selectAll('.node circle')
+    .attr('opacity', 1).attr('r', d=>d.r).attr('stroke-width', 1.5).attr('filter', null);
+  nodeGroup.selectAll('.node text').attr('opacity', 0.9);
+  linkGroup.selectAll('.link')
+    .attr('stroke-opacity', d => {
+      const srcSub = chapterMap[d.source.id || d.source]?.subjectId;
+      const tgtSub = chapterMap[d.target.id || d.target]?.subjectId;
+      return srcSub === tgtSub ? 0.25 : 0.15;
+    })
+    .attr('stroke-width', d => {
+      const srcSub = chapterMap[d.source.id || d.source]?.subjectId;
+      const tgtSub = chapterMap[d.target.id || d.target]?.subjectId;
+      return srcSub === tgtSub ? 1.5 : 0.8;
+    });
+}
+
+function buildGraphControls() {
+  const el = document.getElementById('graphControls');
+  el.innerHTML = `
+    <button class="gc-btn" onclick="resetZoom()" title="Reset view">⌂ Reset View</button>
+    <button class="gc-btn" onclick="reheat()" title="Reheat simulation">↺ Relayout</button>
+  `;
+}
+
+function resetZoom() {
+  const container = document.getElementById('graph-view');
+  svg.transition().duration(500).call(
+    zoomBehavior.transform,
+    d3.zoomIdentity.translate(container.clientWidth/2, container.clientHeight/2).scale(0.7).translate(-container.clientWidth/2, -container.clientHeight/2)
+  );
+}
+
+function reheat() {
+  simulation.alphaTarget(0.5).restart();
+  setTimeout(() => simulation.alphaTarget(0), 3000);
+}
+
+function updateGraph() {
+  buildGraphData();
+  linkGroup.selectAll('.link').remove();
+  nodeGroup.selectAll('.node').remove();
+  simulation.stop();
+  renderGraph();
+}
+
+// ============================================================
+// VIEW SWITCHING
+// ============================================================
+function switchView(view) {
+  state.view = view;
+  document.querySelectorAll('.view-tab').forEach(b => b.classList.toggle('active', b.dataset.view === view));
+  document.querySelectorAll('.view-panel').forEach(p => p.classList.toggle('active', p.id === view+'-view'));
+  if(view === 'browse') renderBrowse();
+}
+
+// ============================================================
+// SUBJECT FILTER
+// ============================================================
+function toggleSubject(subjId) {
+  const pill = document.querySelector(`.subj-pill[data-s="${subjId}"]`);
+  if(state.activeSubjects.has(subjId)) {
+    if(state.activeSubjects.size > 1) {
+      state.activeSubjects.delete(subjId);
+      pill.classList.remove('active');
+    }
+  } else {
+    state.activeSubjects.add(subjId);
+    pill.classList.add('active');
+  }
+  updateGraph();
+  if(state.view === 'browse') renderBrowse();
+}
+
+// ============================================================
+// EVENT LISTENERS
+// ============================================================
+document.getElementById('searchInput').addEventListener('input', e => {
+  state.searchQuery = e.target.value;
+  renderSearchResults(state.searchQuery);
+});
+
+document.getElementById('searchInput').addEventListener('keydown', e => {
+  if(e.key === 'Escape') {
+    document.getElementById('searchResults').classList.remove('open');
+    document.getElementById('searchInput').value = '';
+    state.searchQuery = '';
+  }
+});
+
+document.addEventListener('click', e => {
+  if(!e.target.closest('.search-wrap')) {
+    document.getElementById('searchResults').classList.remove('open');
+  }
+});
+
+document.addEventListener('keydown', e => {
+  if(e.key === '/' && !e.target.matches('input, textarea')) {
+    e.preventDefault();
+    document.getElementById('searchInput').focus();
+    document.getElementById('searchInput').select();
+  }
+  if(e.key === 'Escape') {
+    closeDetail();
+    document.getElementById('searchResults').classList.remove('open');
+  }
+});
+
+document.querySelectorAll('.view-tab').forEach(b => {
+  b.addEventListener('click', () => switchView(b.dataset.view));
+});
+
+document.querySelectorAll('.subj-pill').forEach(pill => {
+  pill.addEventListener('click', () => toggleSubject(pill.dataset.s));
+});
+
+document.getElementById('detailClose').addEventListener('click', closeDetail);
+
+// ============================================================
+// INIT
+// ============================================================
+window.addEventListener('load', () => {
+  renderSidebar();
+  renderBrowse();
+  // Small delay to ensure container has dimensions
+  setTimeout(initGraph, 100);
+});
+
+window.addEventListener('resize', () => {
+  if(!svg) return;
+  const container = document.getElementById('graph-view');
+  svg.attr('width', container.clientWidth).attr('height', container.clientHeight);
+  if(simulation) {
+    simulation.force('center', d3.forceCenter(container.clientWidth/2, container.clientHeight/2).strength(0.05));
+    simulation.alpha(0.3).restart();
+  }
+});
+</script>
+</body>
+</html>

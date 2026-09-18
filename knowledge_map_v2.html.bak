@@ -1,0 +1,2711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"="width=device-width, initial-scale=1.0">
+<title>Knowledge Navigator — Your Learning Companion</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Improved dark mode with better contrast */
+  --bg: #0a0e1a;
+  --bg2: #131825;
+  --bg3: #1c2333;
+  --bg4: #252d42;
+  --bg5: #2e3850;
+  
+  --border: #2d3548;
+  --border2: #3d4660;
+  --border3: #4d5670;
+  
+  /* Much brighter text for readability */
+  --text: #e8edf5;
+  --text2: #b8c5db;
+  --text3: #8896ab;
+  --text4: #5a6785;
+  
+  /* Subject colors - brighter */
+  --physics: #60c5f8;
+  --math: #fcd34d;
+  --physics-dim: rgba(96, 197, 248, 0.12);
+  --math-dim: rgba(252, 211, 77, 0.12);
+  
+  /* Status colors */
+  --done: #4ade80;
+  --in-progress: #fbbf24;
+  --not-started: #64748b;
+  
+  /* Priority colors */
+  --core: #ef4444;
+  --important: #f97316;
+  --advanced: #8b5cf6;
+  --optional: #64748b;
+  
+  --sidebar-w: 300px;
+  --header-h: 64px;
+  --radius: 10px;
+  --transition: 0.2s ease;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bg5);
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--header-h);
+  background: var(--bg2);
+  border-bottom: 1px solid var(--border2);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 20px;
+  z-index: 1000;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.logo span {
+  font-size: 24px;
+}
+
+.logo-divider {
+  width: 1px;
+  height: 32px;
+  background: var(--border2);
+}
+
+.search-wrap {
+  flex: 1;
+  max-width: 500px;
+  position: relative;
+}
+
+.search-wrap input {
+  width: 100%;
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: 10px 16px 10px 40px;
+  color: var(--text);
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+  transition: var(--transition);
+}
+
+.search-wrap input:focus {
+  border-color: var(--border3);
+  background: var(--bg4);
+  box-shadow: 0 0 0 3px rgba(96, 197, 248, 0.1);
+}
+
+.search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text3);
+  pointer-events: none;
+  font-size: 16px;
+}
+
+.view-tabs {
+  display: flex;
+  gap: 4px;
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: 4px;
+}
+
+.view-tab {
+  padding: 8px 16px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text3);
+  border: none;
+  background: transparent;
+  transition: var(--transition);
+  white-space: nowrap;
+}
+
+.view-tab:hover {
+  color: var(--text2);
+  background: var(--bg4);
+}
+
+.view-tab.active {
+  background: var(--bg4);
+  color: var(--text);
+  border: 1px solid var(--border3);
+}
+
+.header-actions {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border2);
+  background: var(--bg3);
+  color: var(--text2);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn:hover {
+  background: var(--bg4);
+  border-color: var(--border3);
+  color: var(--text);
+}
+
+.btn-primary {
+  background: var(--physics);
+  border-color: var(--physics);
+  color: var(--bg);
+}
+
+.btn-primary:hover {
+  background: #50b5e8;
+  border-color: #50b5e8;
+}
+
+/* Layout */
+.layout {
+  display: flex;
+  height: calc(100vh - var(--header-h));
+  margin-top: var(--header-h);
+}
+
+/* Sidebar */
+.sidebar {
+  width: var(--sidebar-w);
+  background: var(--bg2);
+  border-right: 1px solid var(--border2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sidebar-header {
+  padding: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.sidebar-header h3 {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text3);
+  margin-bottom: 12px;
+}
+
+.progress-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.progress-item {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+}
+
+.progress-num {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.progress-label {
+  font-size: 10px;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.sidebar-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px;
+}
+
+.subject-section {
+  margin-bottom: 8px;
+}
+
+.subject-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: var(--transition);
+  user-select: none;
+}
+
+.subject-header:hover {
+  background: var(--bg4);
+  border-color: var(--border2);
+}
+
+.subject-icon {
+  font-size: 18px;
+}
+
+.subject-name {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.subject-count {
+  font-size: 11px;
+  color: var(--text3);
+  background: var(--bg2);
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+.subject-arrow {
+  color: var(--text3);
+  font-size: 12px;
+  transition: transform 0.2s;
+}
+
+.subject-section.open .subject-arrow {
+  transform: rotate(90deg);
+}
+
+.chapter-list {
+  display: none;
+  padding: 8px 0 0 0;
+  margin-left: 12px;
+}
+
+.subject-section.open .chapter-list {
+  display: block;
+}
+
+.chapter-item {
+  padding: 8px 12px;
+  margin-bottom: 4px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-left: 3px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chapter-item:hover {
+  background: var(--bg4);
+  border-color: var(--border2);
+}
+
+.chapter-item.active {
+  background: var(--bg4);
+  border-left-color: var(--physics);
+}
+
+.chapter-name {
+  flex: 1;
+  font-size: 13px;
+  color: var(--text2);
+  line-height: 1.4;
+}
+
+.chapter-item.active .chapter-name {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.chapter-status {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid var(--border3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  flex-shrink: 0;
+}
+
+.chapter-status.done {
+  background: var(--done);
+  border-color: var(--done);
+  color: var(--bg);
+}
+
+.chapter-status.in-progress {
+  background: var(--in-progress);
+  border-color: var(--in-progress);
+  color: var(--bg);
+}
+
+/* Main Content */
+.main {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  background: var(--bg);
+}
+
+.view-panel {
+  position: absolute;
+  inset: 0;
+  overflow: auto;
+  display: none;
+  padding: 24px;
+}
+
+.view-panel.active {
+  display: block;
+}
+
+/* Roadmap View */
+.roadmap-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.roadmap-header {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.roadmap-header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.roadmap-header p {
+  font-size: 16px;
+  color: var(--text3);
+}
+
+.learning-path {
+  margin-bottom: 48px;
+}
+
+.path-header {
+  margin-bottom: 20px;
+}
+
+.path-name {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.path-desc {
+  font-size: 14px;
+  color: var(--text3);
+}
+
+.path-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  padding-left: 32px;
+}
+
+.path-steps::before {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 20px;
+  bottom: 20px;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--border2), var(--border));
+}
+
+.path-step {
+  background: var(--bg2);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  cursor: pointer;
+  transition: var(--transition);
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.path-step::before {
+  content: '';
+  position: absolute;
+  left: -32px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--bg3);
+  border: 3px solid var(--border2);
+  z-index: 1;
+}
+
+.path-step.done::before {
+  background: var(--done);
+  border-color: var(--done);
+}
+
+.path-step.in-progress::before {
+  background: var(--in-progress);
+  border-color: var(--in-progress);
+}
+
+.path-step:hover {
+  background: var(--bg3);
+  border-color: var(--border3);
+  transform: translateX(4px);
+}
+
+.step-number {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text2);
+  flex-shrink: 0;
+}
+
+.path-step.done .step-number {
+  background: var(--done);
+  border-color: var(--done);
+  color: var(--bg);
+}
+
+.path-step.in-progress .step-number {
+  background: var(--in-progress);
+  border-color: var(--in-progress);
+  color: var(--bg);
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.step-category {
+  font-size: 12px;
+  color: var(--text3);
+  margin-bottom: 8px;
+}
+
+.step-meta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.step-badge {
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.priority-core {
+  background: rgba(239, 68, 68, 0.15);
+  color: var(--core);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.priority-important {
+  background: rgba(249, 115, 22, 0.15);
+  color: var(--important);
+  border: 1px solid rgba(249, 115, 22, 0.3);
+}
+
+.priority-advanced {
+  background: rgba(139, 92, 246, 0.15);
+  color: var(--advanced);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.priority-optional {
+  background: rgba(100, 116, 139, 0.15);
+  color: var(--optional);
+  border: 1px solid rgba(100, 116, 139, 0.3);
+}
+
+.step-topics {
+  font-size: 12px;
+  color: var(--text3);
+}
+
+/* Tree View */
+.tree-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.tree-header {
+  margin-bottom: 24px;
+}
+
+.tree-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  display: flex;
+  gap: 6px;
+}
+
+.filter-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border2);
+  background: var(--bg2);
+  color: var(--text3);
+  font-size: 12px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.filter-btn:hover {
+  background: var(--bg3);
+  color: var(--text2);
+}
+
+.filter-btn.active {
+  background: var(--physics-dim);
+  border-color: var(--physics);
+  color: var(--physics);
+}
+
+.tree-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.tree-chapter {
+  background: var(--bg2);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: var(--transition);
+}
+
+.tree-chapter:hover {
+  border-color: var(--border3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.tree-chapter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 12px;
+}
+
+.tree-chapter-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.tree-chapter-category {
+  font-size: 12px;
+  color: var(--text3);
+}
+
+.tree-chapter-status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid var(--border3);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.tree-chapter-status:hover {
+  border-color: var(--text3);
+}
+
+.tree-chapter-status.done {
+  background: var(--done);
+  border-color: var(--done);
+}
+
+.tree-chapter-status.in-progress {
+  background: var(--in-progress);
+  border-color: var(--in-progress);
+}
+
+.tree-topics {
+  margin-top: 16px;
+}
+
+.tree-topic {
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 13px;
+  color: var(--text2);
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tree-topic:hover {
+  background: var(--bg4);
+  border-color: var(--border2);
+  color: var(--text);
+}
+
+.topic-status {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid var(--border3);
+  flex-shrink: 0;
+}
+
+.topic-status.done {
+  background: var(--done);
+  border-color: var(--done);
+}
+
+.topic-status.in-progress {
+  background: var(--in-progress);
+  border-color: var(--in-progress);
+}
+
+.topic-name {
+  flex: 1;
+}
+
+/* List View */
+.list-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.list-header {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.list-table {
+  background: var(--bg2);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.list-table-header {
+  display: grid;
+  grid-template-columns: 40px 2fr 1fr 120px 100px 100px;
+  gap: 16px;
+  padding: 12px 20px;
+  background: var(--bg3);
+  border-bottom: 1px solid var(--border2);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.list-row {
+  display: grid;
+  grid-template-columns: 40px 2fr 1fr 120px 100px 100px;
+  gap: 16px;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  transition: var(--transition);
+  cursor: pointer;
+  align-items: center;
+}
+
+.list-row:hover {
+  background: var(--bg3);
+}
+
+.list-row:last-child {
+  border-bottom: none;
+}
+
+.row-check {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid var(--border3);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.row-check:hover {
+  border-color: var(--text3);
+}
+
+.row-check.done {
+  background: var(--done);
+  border-color: var(--done);
+}
+
+.row-check.in-progress {
+  background: var(--in-progress);
+  border-color: var(--in-progress);
+}
+
+.row-name {
+  font-size: 14px;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.row-category {
+  font-size: 13px;
+  color: var(--text3);
+}
+
+.row-priority {
+  font-size: 12px;
+}
+
+.row-topics {
+  font-size: 13px;
+  color: var(--text3);
+}
+
+.row-action {
+  display: flex;
+  gap: 8px;
+}
+
+.row-action button {
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border2);
+  background: var(--bg3);
+  color: var(--text3);
+  font-size: 11px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.row-action button:hover {
+  background: var(--bg4);
+  color: var(--text2);
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 2000;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+}
+
+.modal.open {
+  display: flex;
+}
+
+.modal-content {
+  background: var(--bg2);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  max-width: 600px;
+  width: 90%;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.modal-header {
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.modal-close {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  border: 1px solid var(--border2);
+  background: var(--bg3);
+  color: var(--text3);
+  font-size: 18px;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-close:hover {
+  background: var(--bg4);
+  color: var(--text);
+}
+
+.modal-body {
+  padding: 24px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text2);
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: 10px 14px;
+  color: var(--text);
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+  transition: var(--transition);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--border3);
+  background: var(--bg4);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.modal-footer {
+  padding: 16px 24px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.details-section {
+  margin-bottom: 24px;
+}
+
+.details-section h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.topic-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.topic-item {
+  padding: 10px 14px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.topic-item:hover {
+  background: var(--bg4);
+  border-color: var(--border2);
+}
+
+.note-content {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+  font-size: 13px;
+  color: var(--text2);
+  line-height: 1.6;
+  margin-top: 8px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text3);
+}
+
+.empty-state-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  opacity: 0.3;
+}
+
+.empty-state h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: var(--text2);
+}
+
+/* Stats Cards */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.stat-card {
+  background: var(--bg2);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: 20px;
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.stat-card.done .stat-value {
+  color: var(--done);
+}
+
+.stat-card.in-progress .stat-value {
+  color: var(--in-progress);
+}
+
+.stat-card.not-started .stat-value {
+  color: var(--not-started);
+}
+
+.stat-label {
+  font-size: 13px;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Export Menu */
+.export-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: 8px;
+  display: none;
+  min-width: 180px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  z-index: 100;
+}
+
+.export-menu.open {
+  display: block;
+}
+
+.export-menu button {
+  width: 100%;
+  padding: 8px 12px;
+  border: none;
+  background: transparent;
+  color: var(--text2);
+  font-size: 13px;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.export-menu button:hover {
+  background: var(--bg4);
+  color: var(--text);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 260px;
+  }
+  
+  .tree-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  
+  .search-wrap {
+    max-width: 100%;
+  }
+  
+  .header-actions .btn span {
+    display: none;
+  }
+  
+  .view-tabs {
+    display: none;
+  }
+  
+  .list-table-header,
+  .list-row {
+    grid-template-columns: 40px 1fr 100px;
+  }
+  
+  .row-category,
+  .row-priority,
+  .row-topics {
+    display: none;
+  }
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.path-step,
+.tree-chapter,
+.list-row {
+  animation: fadeIn 0.3s ease;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <span>📚</span> Knowledge Navigator
+  </div>
+  <div class="logo-divider"></div>
+  
+  <div class="search-wrap">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="searchInput" placeholder="Search topics, chapters..." autocomplete="off">
+  </div>
+  
+  <div class="view-tabs">
+    <button class="view-tab active" data-view="roadmap">🗺️ Roadmap</button>
+    <button class="view-tab" data-view="tree">🌳 Tree</button>
+    <button class="view-tab" data-view="list">📋 List</button>
+    <button class="view-tab" data-view="graph">🕸️ Graph</button>
+  </div>
+  
+  <div class="header-actions">
+    <div style="position: relative;">
+      <button class="btn" id="exportBtn">
+        ⬇️ <span>Export</span>
+      </button>
+      <div class="export-menu" id="exportMenu">
+        <button onclick="exportJSON()">📄 Export Data (JSON)</button>
+        <button onclick="exportCSV()">📊 Export to Excel (CSV)</button>
+        <button onclick="exportPDF()">📕 Export to PDF</button>
+        <button onclick="importJSON()">⬆️ Import Data (JSON)</button>
+      </div>
+    </div>
+    <button class="btn btn-primary" id="addBtn">
+      ➕ <span>Add Topic</span>
+    </button>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <h3>Your Progress</h3>
+      <div class="progress-summary">
+        <div class="progress-item">
+          <div class="progress-num" id="doneCount" style="color: var(--done)">0</div>
+          <div class="progress-label">Done</div>
+        </div>
+        <div class="progress-item">
+          <div class="progress-num" id="inProgressCount" style="color: var(--in-progress)">0</div>
+          <div class="progress-label">Learning</div>
+        </div>
+        <div class="progress-item">
+          <div class="progress-num" id="totalCount" style="color: var(--text3)">0</div>
+          <div class="progress-label">Total</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="sidebar-content" id="sidebarContent"></div>
+  </aside>
+  
+  <main class="main">
+    <!-- Roadmap View -->
+    <div id="roadmap-view" class="view-panel active">
+      <div class="roadmap-container">
+        <div class="roadmap-header">
+          <h1>Your Learning Roadmap</h1>
+          <p>Follow these curated paths to master each subject systematically</p>
+        </div>
+        
+        <div id="roadmapContent"></div>
+      </div>
+    </div>
+    
+    <!-- Tree View -->
+    <div id="tree-view" class="view-panel">
+      <div class="tree-container">
+        <div class="tree-header">
+          <h1>Knowledge Tree</h1>
+          <p>Browse all topics organized by subject and category</p>
+        </div>
+        
+        <div class="filter-bar">
+          <div class="filter-group">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="core">Core</button>
+            <button class="filter-btn" data-filter="important">Important</button>
+            <button class="filter-btn" data-filter="advanced">Advanced</button>
+          </div>
+          <div class="filter-group">
+            <button class="filter-btn" data-filter="done">✓ Completed</button>
+            <button class="filter-btn" data-filter="in-progress">⏳ Learning</button>
+            <button class="filter-btn" data-filter="not-started">○ Not Started</button>
+          </div>
+        </div>
+        
+        <div class="tree-grid" id="treeContent"></div>
+      </div>
+    </div>
+    
+    <!-- List View -->
+    <div id="list-view" class="view-panel">
+      <div class="list-container">
+        <div class="list-header">
+          <h1>All Chapters</h1>
+        </div>
+        
+        <div class="list-table">
+          <div class="list-table-header">
+            <div></div>
+            <div>Name</div>
+            <div>Category</div>
+            <div>Priority</div>
+            <div>Topics</div>
+            <div>Actions</div>
+          </div>
+          <div id="listContent"></div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Graph View -->
+    <div id="graph-view" class="view-panel">
+      <div style="padding: 40px; text-align: center;">
+        <div class="empty-state">
+          <div class="empty-state-icon">🕸️</div>
+          <h3>Graph visualization coming soon</h3>
+          <p>An improved, more readable connection graph is being developed</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- Topic Details Modal -->
+<div class="modal" id="detailsModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2 id="modalTitle">Chapter Details</h2>
+      <button class="modal-close" onclick="closeModal('detailsModal')">✕</button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<!-- Add/Edit Modal -->
+<div class="modal" id="addModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2 id="addModalTitle">Add New Chapter</h2>
+      <button class="modal-close" onclick="closeModal('addModal')">✕</button>
+    </div>
+    <div class="modal-body">
+      <form id="addForm" onsubmit="saveChapter(event)">
+        <div class="form-group">
+          <label>Subject</label>
+          <select id="addSubject" required>
+            <option value="physics">⚛ Physics</option>
+            <option value="math">∑ Mathematics</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label>Chapter Name</label>
+          <input type="text" id="addName" required placeholder="e.g., Thermodynamics">
+        </div>
+        
+        <div class="form-group">
+          <label>Category</label>
+          <input type="text" id="addCategory" required placeholder="e.g., Classical Physics">
+        </div>
+        
+        <div class="form-group">
+          <label>Priority</label>
+          <select id="addPriority" required>
+            <option value="core">Core - Must learn</option>
+            <option value="important">Important - Recommended</option>
+            <option value="advanced">Advanced - Specialized</option>
+            <option value="optional">Optional - Nice to have</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label>Topics (one per line)</label>
+          <textarea id="addTopics" placeholder="Enter each topic on a new line"></textarea>
+        </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn" onclick="closeModal('addModal')">Cancel</button>
+          <button type="submit" class="btn btn-primary">Save Chapter</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<input type="file" id="importInput" accept=".json" style="display: none;" onchange="handleImport(event)">
+
+<script>
+// ============================================================
+// DATA & STATE
+// ============================================================
+
+// Embedded knowledge base data (no CORS issues!)
+let knowledgeBase = {
+  "version": "2.0.0", 
+  "lastUpdated": "2026-02-22",
+  "subjects": [
+    {
+      "id": "physics",
+      "name": "Physics", 
+      "icon": "⚛",
+      "color": "#60c5f8",
+      "chapters": [
+        {
+          "id": "p-cm",
+          "name": "Classical Mechanics",
+          "category": "Classical Physics",
+          "priority": "core",
+          "prerequisites": [],
+          "topics": [
+            { "id": "p-cm-1", "name": "Kinematics (motion analysis without forces)", "priority": "core" },
+            { "id": "p-cm-2", "name": "Dynamics (forces and their effects)", "priority": "core" },
+            { "id": "p-cm-3", "name": "Statics (equilibrium systems)", "priority": "core" },
+            { "id": "p-cm-4", "name": "Newtonian mechanics", "priority": "core" },
+            { "id": "p-cm-5", "name": "Work, energy, power", "priority": "core" },
+            { "id": "p-cm-6", "name": "Momentum and collisions", "priority": "core" },
+            { "id": "p-cm-7", "name": "Rotational motion", "priority": "important" },
+            { "id": "p-cm-8", "name": "Rigid body dynamics", "priority": "important" },
+            { "id": "p-cm-9", "name": "Oscillations and harmonic motion", "priority": "important" },
+            { "id": "p-cm-10", "name": "Gravitation", "priority": "core" }
+          ]
+        },
+        {
+          "id": "p-qm",
+          "name": "Quantum Mechanics",
+          "category": "Modern Physics",
+          "priority": "core",
+          "prerequisites": ["p-cm"],
+          "topics": [
+            { "id": "p-qm-1", "name": "Wave-particle duality", "priority": "core" },
+            { "id": "p-qm-2", "name": "Wave functions and probability", "priority": "core" },
+            { "id": "p-qm-3", "name": "Schrödinger equation", "priority": "core" },
+            { "id": "p-qm-4", "name": "Quantum states and superposition", "priority": "core" },
+            { "id": "p-qm-5", "name": "Uncertainty principle", "priority": "core" },
+            { "id": "p-qm-6", "name": "Quantum entanglement", "priority": "important" }
+          ]
+        },
+        {
+          "id": "p-applied",
+          "name": "Applied Physics",
+          "category": "Applied Physics",
+          "priority": "important",
+          "prerequisites": ["p-cm"],
+          "topics": [
+            { "id": "p-app-1", "name": "Engineering physics and electronic devices", "priority": "core" },
+            { "id": "p-app-2", "name": "Medical physics and imaging (MRI, CT, PET)", "priority": "important" },
+            { "id": "p-app-3", "name": "Computational physics and numerical methods", "priority": "important" },
+            { "id": "p-app-4", "name": "Atmospheric and environmental physics", "priority": "important" },
+            { "id": "p-app-5", "name": "Energy physics and renewable systems", "priority": "important" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math",
+      "name": "Mathematics",
+      "icon": "∑",
+      "color": "#fbbf24", 
+      "chapters": [
+        {
+          "id": "m-linalg",
+          "name": "Linear Algebra",
+          "category": "Algebra",
+          "priority": "core",
+          "prerequisites": [],
+          "topics": [
+            { "id": "m-la-1", "name": "Vector spaces", "priority": "core" },
+            { "id": "m-la-2", "name": "Linear transformations", "priority": "core" },
+            { "id": "m-la-3", "name": "Matrix theory", "priority": "core" },
+            { "id": "m-la-4", "name": "Eigenvalues and eigenvectors", "priority": "core" },
+            { "id": "m-la-5", "name": "Determinants", "priority": "core" }
+          ]
+        },
+        {
+          "id": "m-calculus",
+          "name": "Calculus",
+          "category": "Analysis",
+          "priority": "core",
+          "prerequisites": [],
+          "topics": [
+            { "id": "m-calc-1", "name": "Differential calculus", "priority": "core" },
+            { "id": "m-calc-2", "name": "Integral calculus", "priority": "core" },
+            { "id": "m-calc-3", "name": "Multivariable calculus", "priority": "core" },
+            { "id": "m-calc-4", "name": "Vector calculus", "priority": "core" }
+          ]
+        },
+        {
+          "id": "m-prob",
+          "name": "Probability Theory",
+          "category": "Statistics",
+          "priority": "core", 
+          "prerequisites": ["m-calculus"],
+          "topics": [
+            { "id": "m-prob-1", "name": "Probability spaces and random variables", "priority": "core" },
+            { "id": "m-prob-2", "name": "Probability distributions", "priority": "core" },
+            { "id": "m-prob-3", "name": "Law of large numbers", "priority": "important" },
+            { "id": "m-prob-4", "name": "Bayesian statistics", "priority": "important" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electronics",
+      "name": "Electronics & IoT",
+      "icon": "🔌",
+      "color": "#10b981",
+      "chapters": [
+        {
+          "id": "e-fundamentals",
+          "name": "Fundamentals & Mathematics", 
+          "category": "Foundation",
+          "priority": "core",
+          "prerequisites": [],
+          "topics": [
+            { "id": "e-fund-1", "name": "Circuit Theory (Ohm's law, Kirchhoff's laws)", "priority": "core" },
+            { "id": "e-fund-2", "name": "AC and DC circuit analysis", "priority": "core" },
+            { "id": "e-fund-3", "name": "Complex numbers and phasors", "priority": "core" },
+            { "id": "e-fund-4", "name": "Signal processing fundamentals", "priority": "core" },
+            { "id": "e-fund-5", "name": "Control theory and PID controllers", "priority": "important" },
+            { "id": "e-fund-6", "name": "Electromagnetics and Maxwell's equations", "priority": "important" },
+            { "id": "e-fund-7", "name": "Semiconductor physics and PN junctions", "priority": "core" }
+          ]
+        },
+        {
+          "id": "e-analog",
+          "name": "Analog Electronics",
+          "category": "Core Electronics",
+          "priority": "core",
+          "prerequisites": ["e-fundamentals"],
+          "topics": [
+            { "id": "e-analog-1", "name": "Passive components (resistors, capacitors, inductors)", "priority": "core" },
+            { "id": "e-analog-2", "name": "Active components (diodes, BJTs, MOSFETs)", "priority": "core" },
+            { "id": "e-analog-3", "name": "Operational amplifiers and applications", "priority": "core" },
+            { "id": "e-analog-4", "name": "Voltage regulators and references", "priority": "important" },
+            { "id": "e-analog-5", "name": "Filters (active and passive)", "priority": "important" },
+            { "id": "e-analog-6", "name": "Data converters (ADC/DAC)", "priority": "core" },
+            { "id": "e-analog-7", "name": "Signal conditioning and amplification", "priority": "important" }
+          ]
+        },
+        {
+          "id": "e-digital",
+          "name": "Digital Electronics",
+          "category": "Core Electronics",
+          "priority": "core", 
+          "prerequisites": ["e-fundamentals"],
+          "topics": [
+            { "id": "e-digital-1", "name": "Logic families (TTL, CMOS)", "priority": "core" },
+            { "id": "e-digital-2", "name": "Combinational logic and Boolean algebra", "priority": "core" },
+            { "id": "e-digital-3", "name": "Sequential logic (flip-flops, registers, counters)", "priority": "core" },
+            { "id": "e-digital-4", "name": "Memory devices (SRAM, DRAM, Flash)", "priority": "important" },
+            { "id": "e-digital-5", "name": "Buses and communication protocols", "priority": "important" },
+            { "id": "e-digital-6", "name": "High-speed digital design", "priority": "advanced" }
+          ]
+        },
+        {
+          "id": "e-microcontrollers",
+          "name": "Microcontrollers & Processors",
+          "category": "Embedded Systems",
+          "priority": "core",
+          "prerequisites": ["e-digital"],
+          "topics": [
+            { "id": "e-mcu-1", "name": "ARM Cortex-M series (M0, M3, M4, M7)", "priority": "core" },
+            { "id": "e-mcu-2", "name": "AVR and PIC microcontrollers", "priority": "important" },
+            { "id": "e-mcu-3", "name": "ESP32/ESP8266 (Wi-Fi/Bluetooth)", "priority": "core" },
+            { "id": "e-mcu-4", "name": "STM32 and Nordic nRF series", "priority": "important" },
+            { "id": "e-mcu-5", "name": "RISC-V architecture", "priority": "advanced" },
+            { "id": "e-mcu-6", "name": "Peripheral controllers (timers, PWM, ADC, DMA)", "priority": "core" },
+            { "id": "e-mcu-7", "name": "Boot process and debugging (JTAG, SWD)", "priority": "important" },
+            { "id": "e-mcu-8", "name": "Low-power design and power modes", "priority": "important" }
+          ]
+        },
+        {
+          "id": "e-firmware",
+          "name": "Embedded Software & Firmware",
+          "category": "Embedded Systems",
+          "priority": "core",
+          "prerequisites": ["e-microcontrollers"],
+          "topics": [
+            { "id": "e-fw-1", "name": "Embedded C programming", "priority": "core" },
+            { "id": "e-fw-2", "name": "Bare-metal programming", "priority": "core" },
+            { "id": "e-fw-3", "name": "Memory management and optimization", "priority": "important" },
+            { "id": "e-fw-4", "name": "Interrupts and real-time programming", "priority": "core" },
+            { "id": "e-fw-5", "name": "Device drivers and HAL", "priority": "important" },
+            { "id": "e-fw-6", "name": "Over-the-air (OTA) updates", "priority": "advanced" }
+          ]
+        },
+        {
+          "id": "e-rtos",
+          "name": "Real-Time Systems (RTOS)",
+          "category": "Embedded Systems",
+          "priority": "important",
+          "prerequisites": ["e-firmware"],
+          "topics": [
+            { "id": "e-rtos-1", "name": "Real-time concepts and scheduling", "priority": "core" },
+            { "id": "e-rtos-2", "name": "FreeRTOS", "priority": "core" },
+            { "id": "e-rtos-3", "name": "Zephyr RTOS", "priority": "important" },
+            { "id": "e-rtos-4", "name": "Task synchronization and IPC", "priority": "important" },
+            { "id": "e-rtos-5", "name": "Embedded Linux", "priority": "advanced" }
+          ]
+        },
+        {
+          "id": "e-comms-wireless",
+          "name": "Wireless Communication & IoT",
+          "category": "Communication",
+          "priority": "core",
+          "prerequisites": ["e-firmware"],
+          "topics": [
+            { "id": "e-wifi-1", "name": "Wi-Fi (802.11) and networking", "priority": "core" },
+            { "id": "e-wifi-2", "name": "Bluetooth Classic and BLE", "priority": "core" },
+            { "id": "e-wifi-3", "name": "Zigbee and Thread mesh networking", "priority": "important" },
+            { "id": "e-wifi-4", "name": "LoRa/LoRaWAN and LPWAN technologies", "priority": "important" },
+            { "id": "e-wifi-5", "name": "Cellular (4G/5G) and NB-IoT", "priority": "advanced" },
+            { "id": "e-wifi-6", "name": "NFC and RFID technologies", "priority": "important" }
+          ]
+        },
+        {
+          "id": "e-sensors", 
+          "name": "Sensors & Actuators",
+          "category": "Interface Devices",
+          "priority": "core",
+          "prerequisites": ["e-analog"],
+          "topics": [
+            { "id": "e-sens-1", "name": "Inertial sensors (accelerometers, gyroscopes, IMUs)", "priority": "core" },
+            { "id": "e-sens-2", "name": "Environmental sensors (temperature, humidity, pressure)", "priority": "core" },
+            { "id": "e-sens-3", "name": "Optical and light sensors", "priority": "important" },
+            { "id": "e-sens-4", "name": "Proximity and distance sensors", "priority": "important" },
+            { "id": "e-sens-5", "name": "Biosensors and medical sensors", "priority": "advanced" },
+            { "id": "e-sens-6", "name": "Motor control and actuators", "priority": "important" },
+            { "id": "e-sens-7", "name": "Sensor fusion and Kalman filtering", "priority": "advanced" }
+          ]
+        },
+        {
+          "id": "e-security",
+          "name": "Security & Privacy",
+          "category": "Security",
+          "priority": "core",
+          "prerequisites": ["e-firmware"],
+          "topics": [
+            { "id": "e-sec-1", "name": "Cryptography fundamentals (AES, RSA)", "priority": "core" },
+            { "id": "e-sec-2", "name": "Secure boot and root of trust", "priority": "core" },
+            { "id": "e-sec-3", "name": "Key management and PKI", "priority": "important" },
+            { "id": "e-sec-4", "name": "TLS/SSL and secure communication", "priority": "core" },
+            { "id": "e-sec-5", "name": "Device identity and authentication", "priority": "important" },
+            { "id": "e-sec-6", "name": "Threat modeling", "priority": "advanced" }
+          ]
+        },
+        {
+          "id": "e-pcb",
+          "name": "PCB Design & Hardware",
+          "category": "Hardware Design",
+          "priority": "core",
+          "prerequisites": ["e-analog", "e-digital"], 
+          "topics": [
+            { "id": "e-pcb-1", "name": "Schematic design and component selection", "priority": "core" },
+            { "id": "e-pcb-2", "name": "PCB layout and routing", "priority": "core" },
+            { "id": "e-pcb-3", "name": "High-speed design and signal integrity", "priority": "important" },
+            { "id": "e-pcb-4", "name": "Power integrity and thermal design", "priority": "important" },
+            { "id": "e-pcb-5", "name": "EMC/EMI design and compliance", "priority": "advanced" },
+            { "id": "e-pcb-6", "name": "Design for Manufacturing (DFM/DFA)", "priority": "important" }
+          ]
+        },
+        {
+          "id": "e-testing",
+          "name": "Testing & Validation",
+          "category": "Development Tools",
+          "priority": "important",
+          "prerequisites": ["e-firmware"],
+          "topics": [
+            { "id": "e-test-1", "name": "Test equipment (oscilloscopes, logic analyzers)", "priority": "core" },
+            { "id": "e-test-2", "name": "Software debugging and trace", "priority": "core" },
+            { "id": "e-test-3", "name": "Protocol debugging and analysis", "priority": "important" },
+            { "id": "e-test-4", "name": "Environmental testing", "priority": "advanced" },
+            { "id": "e-test-5", "name": "Compliance testing", "priority": "important" }
+          ]
+        }
+      ]
+    }
+  ],
+  "learningPaths": {
+    "physics-beginner": {
+      "name": "Physics Fundamentals",
+      "description": "Start here if you're new to physics",
+      "sequence": ["p-cm", "p-qm", "p-applied"]
+    },
+    "electronics-beginner": {
+      "name": "Electronics Fundamentals", 
+      "description": "Complete electronics learning path",
+      "sequence": ["e-fundamentals", "e-analog", "e-digital", "e-microcontrollers", "e-firmware"]
+    },
+    "iot-developer": {
+      "name": "IoT Developer Path",
+      "description": "End-to-end IoT system development", 
+      "sequence": ["e-fundamentals", "e-microcontrollers", "e-firmware", "e-comms-wireless", "e-sensors", "e-security"]
+    },
+    "embedded-engineer": {
+      "name": "Embedded Systems Engineer",
+      "description": "Professional embedded development",
+      "sequence": ["e-analog", "e-digital", "e-microcontrollers", "e-firmware", "e-pcb"]
+    },
+    "math-foundations": {
+      "name": "Mathematical Foundations",
+      "description": "Essential math for science and engineering",
+      "sequence": ["m-linalg", "m-calculus", "m-prob"]
+    }
+  }
+};
+
+let userProgress = {
+  chapters: {}, // chapterId: { status: 'done'|'in-progress'|'not-started', notes: '', startedAt: timestamp }
+  topics: {},   // topicId: { status: '', notes: '', completedAt: timestamp }
+  lastUpdated: null
+};
+
+// Load user progress from localStorage
+function loadKnowledgeBase() {
+  // Data is already embedded above, just load user progress
+  loadUserProgress();
+  render();
+}
+
+// ============================================================
+// LOCAL STORAGE & PERSISTENCE
+// ============================================================
+
+function loadUserProgress() {
+  const saved = localStorage.getItem('knowledgeNavigator_progress');
+  if (saved) {
+    userProgress = JSON.parse(saved);
+  }
+}
+
+function saveUserProgress() {
+  userProgress.lastUpdated = Date.now();
+  localStorage.setItem('knowledgeNavigator_progress', JSON.stringify(userProgress));
+  updateProgressStats();
+}
+
+function getChapterStatus(chapterId) {
+  return userProgress.chapters[chapterId]?.status || 'not-started';
+}
+
+function setChapterStatus(chapterId, status) {
+  if (!userProgress.chapters[chapterId]) {
+    userProgress.chapters[chapterId] = {};
+  }
+  userProgress.chapters[chapterId].status = status;
+  if (status === 'done') {
+    userProgress.chapters[chapterId].completedAt = Date.now();
+  } else if (status === 'in-progress') {
+    userProgress.chapters[chapterId].startedAt = Date.now();
+  }
+  saveUserProgress();
+  render();
+}
+
+function getTopicStatus(topicId) {
+  return userProgress.topics[topicId]?.status || 'not-started';
+}
+
+function setTopicStatus(topicId, status) {
+  if (!userProgress.topics[topicId]) {
+    userProgress.topics[topicId] = {};
+  }
+  userProgress.topics[topicId].status = status;
+  if (status === 'done') {
+    userProgress.topics[topicId].completedAt = Date.now();
+  }
+  saveUserProgress();
+  render();
+}
+
+function getChapterNotes(chapterId) {
+  return userProgress.chapters[chapterId]?.notes || '';
+}
+
+function setChapterNotes(chapterId, notes) {
+  if (!userProgress.chapters[chapterId]) {
+    userProgress.chapters[chapterId] = {};
+  }
+  userProgress.chapters[chapterId].notes = notes;
+  saveUserProgress();
+}
+
+function getTopicNotes(topicId) {
+  return userProgress.topics[topicId]?.notes || '';
+}
+
+function setTopicNotes(topicId, notes) {
+  if (!userProgress.topics[topicId]) {
+    userProgress.topics[topicId] = {};
+  }
+  userProgress.topics[topicId].notes = notes;
+  saveUserProgress();
+}
+
+// ============================================================
+// RENDERING
+// ============================================================
+
+function render() {
+  renderSidebar();
+  renderRoadmap();
+  renderTree();
+  renderList();
+  updateProgressStats();
+}
+
+function renderSidebar() {
+  const container = document.getElementById('sidebarContent');
+  container.innerHTML = '';
+  
+  knowledgeBase.subjects.forEach(subject => {
+    const section = document.createElement('div');
+    section.className = 'subject-section';
+    
+    const header = document.createElement('div');
+    header.className = 'subject-header';
+    header.innerHTML = `
+      <span class="subject-icon">${subject.icon}</span>
+      <span class="subject-name">${subject.name}</span>
+      <span class="subject-count">${subject.chapters.length}</span>
+      <span class="subject-arrow">▸</span>
+    `;
+    header.onclick = () => section.classList.toggle('open');
+    
+    const chapterList = document.createElement('div');
+    chapterList.className = 'chapter-list';
+    
+    subject.chapters.forEach(chapter => {
+      const status = getChapterStatus(chapter.id);
+      const item = document.createElement('div');
+      item.className = 'chapter-item';
+      if (currentChapter === chapter.id) item.classList.add('active');
+      
+      item.innerHTML = `
+        <div class="chapter-status ${status}">
+          ${status === 'done' ? '✓' : status === 'in-progress' ? '⏳' : ''}
+        </div>
+        <span class="chapter-name">${chapter.name}</span>
+      `;
+      
+      item.onclick = () => {
+        currentChapter = chapter.id;
+        showChapterDetails(chapter);
+      };
+      
+      chapterList.appendChild(item);
+    });
+    
+    section.appendChild(header);
+    section.appendChild(chapterList);
+    container.appendChild(section);
+  });
+}
+
+function renderRoadmap() {
+  const container = document.getElementById('roadmapContent');
+  
+  // If search is active, use search results
+  if (isSearchActive) {
+    renderSearchRoadmap();
+    return;
+  }
+  
+  container.innerHTML = '';
+  
+  Object.entries(knowledgeBase.learningPaths).forEach(([pathId, path]) => {
+    const pathDiv = document.createElement('div');
+    pathDiv.className = 'learning-path';
+    
+    pathDiv.innerHTML = `
+      <div class="path-header">
+        <h2 class="path-name">${path.name}</h2>
+        <p class="path-desc">${path.description}</p>
+      </div>
+      <div class="path-steps"></div>
+    `;
+    
+    const stepsContainer = pathDiv.querySelector('.path-steps');
+    
+    path.sequence.forEach((chapterId, index) => {
+      const chapter = findChapter(chapterId);
+      if (!chapter) return;
+      
+      const status = getChapterStatus(chapterId);
+      const step = document.createElement('div');
+      step.className = `path-step ${status}`;
+      step.onclick = () => showChapterDetails(chapter);
+      
+      const priorityClass = chapter.priority ? `priority-${chapter.priority}` : 'priority-important';
+      
+      step.innerHTML = `
+        <div class="step-number">${index + 1}</div>
+        <div class="step-content">
+          <div class="step-name">${chapter.name}</div>
+          <div class="step-category">${chapter.category}</div>
+          <div class="step-meta">
+            <span class="step-badge ${priorityClass}">${chapter.priority || 'important'}</span>
+            <span class="step-topics">${chapter.topics.length} topics</span>
+          </div>
+        </div>
+      `;
+      
+      stepsContainer.appendChild(step);
+    });
+    
+    container.appendChild(pathDiv);
+  });
+}
+
+function renderTree() {
+  const container = document.getElementById('treeContent');
+  
+  // If search is active, use search results
+  if (isSearchActive) {
+    renderSearchTree();
+    return;
+  }
+  
+  container.innerHTML = '';
+  
+  knowledgeBase.subjects.forEach(subject => {
+    subject.chapters.forEach(chapter => {
+      const status = getChapterStatus(chapter.id);
+      const card = document.createElement('div');
+      card.className = 'tree-chapter';
+      card.dataset.priority = chapter.priority || 'important';
+      card.dataset.status = status;
+      
+      const priorityClass = chapter.priority ? `priority-${chapter.priority}` : 'priority-important';
+      
+      card.innerHTML = `
+        <div class="tree-chapter-header">
+          <div>
+            <div class="tree-chapter-name">${chapter.name}</div>
+            <div class="tree-chapter-category">${subject.icon} ${chapter.category}</div>
+          </div>
+          <div class="tree-chapter-status ${status}" onclick="cycleStatus('${chapter.id}', event)"></div>
+        </div>
+        <div class="step-badge ${priorityClass}">${chapter.priority || 'important'}</div>
+        <div class="tree-topics"></div>
+      `;
+      
+      const topicsContainer = card.querySelector('.tree-topics');
+      chapter.topics.slice(0, 5).forEach(topic => {
+        const topicStatus = getTopicStatus(topic.id);
+        const topicDiv = document.createElement('div');
+        topicDiv.className = 'tree-topic';
+        topicDiv.innerHTML = `
+          <div class="topic-status ${topicStatus}" onclick="cycleTopicStatus('${topic.id}', event)"></div>
+          <span class="topic-name">${topic.name}</span>
+        `;
+        topicsContainer.appendChild(topicDiv);
+      });
+      
+      if (chapter.topics.length > 5) {
+        const more = document.createElement('div');
+        more.className = 'tree-topic';
+        more.innerHTML = `<span style="color: var(--text3)">+ ${chapter.topics.length - 5} more topics...</span>`;
+        more.onclick = () => showChapterDetails(chapter);
+        topicsContainer.appendChild(more);
+      }
+      
+      card.onclick = (e) => {
+        if (!e.target.classList.contains('tree-chapter-status') && !e.target.classList.contains('topic-status')) {
+          showChapterDetails(chapter);
+        }
+      };
+      
+      container.appendChild(card);
+    });
+  });
+  
+  applyFilters();
+}
+
+function renderList() {
+  const container = document.getElementById('listContent');
+  
+  // If search is active, use search results
+  if (isSearchActive) {
+    renderSearchList();
+    return;
+  }
+  
+  container.innerHTML = '';
+  
+  const allChapters = [];
+  knowledgeBase.subjects.forEach(subject => {
+    subject.chapters.forEach(chapter => {
+      allChapters.push({ ...chapter, subjectName: subject.name, subjectIcon: subject.icon });
+    });
+  });
+  
+  allChapters.forEach(chapter => {
+    const status = getChapterStatus(chapter.id);
+    const row = document.createElement('div');
+    row.className = 'list-row';
+    
+    const priorityClass = chapter.priority ? `priority-${chapter.priority}` : 'priority-important';
+    
+    row.innerHTML = `
+      <div class="row-check ${status}" onclick="cycleStatus('${chapter.id}', event)"></div>
+      <div class="row-name">${chapter.name}</div>
+      <div class="row-category">${chapter.subjectIcon} ${chapter.category}</div>
+      <div class="row-priority">
+        <span class="step-badge ${priorityClass}">${chapter.priority || 'important'}</span>
+      </div>
+      <div class="row-topics">${chapter.topics.length} topics</div>
+      <div class="row-action">
+        <button onclick="showChapterDetails(findChapter('${chapter.id}'))">View</button>
+      </div>
+    `;
+    
+    container.appendChild(row);
+  });
+}
+
+function updateProgressStats() {
+  const allChapters = [];
+  knowledgeBase.subjects.forEach(subject => {
+    subject.chapters.forEach(chapter => allChapters.push(chapter));
+  });
+  
+  const done = allChapters.filter(ch => getChapterStatus(ch.id) === 'done').length;
+  const inProgress = allChapters.filter(ch => getChapterStatus(ch.id) === 'in-progress').length;
+  
+  document.getElementById('doneCount').textContent = done;
+  document.getElementById('inProgressCount').textContent = inProgress;
+  document.getElementById('totalCount').textContent = allChapters.length;
+}
+
+// ============================================================
+// INTERACTION
+// ============================================================
+
+let currentChapter = null;
+let currentView = 'roadmap';
+let activeFilters = { priority: 'all', status: 'all' };
+
+function cycleStatus(chapterId, event) {
+  event.stopPropagation();
+  const current = getChapterStatus(chapterId);
+  const next = current === 'not-started' ? 'in-progress' : current === 'in-progress' ? 'done' : 'not-started';
+  setChapterStatus(chapterId, next);
+}
+
+function cycleTopicStatus(topicId, event) {
+  event.stopPropagation();
+  const current = getTopicStatus(topicId);
+  const next = current === 'not-started' ? 'in-progress' : current === 'in-progress' ? 'done' : 'not-started';
+  setTopicStatus(topicId, next);
+}
+
+function findChapter(chapterId) {
+  for (const subject of knowledgeBase.subjects) {
+    const chapter = subject.chapters.find(ch => ch.id === chapterId);
+    if (chapter) return chapter;
+  }
+  return null;
+}
+
+function showChapterDetails(chapter) {
+  const modal = document.getElementById('detailsModal');
+  const title = document.getElementById('modalTitle');
+  const body = document.getElementById('modalBody');
+  
+  title.textContent = chapter.name;
+  
+  const status = getChapterStatus(chapter.id);
+  const notes = getChapterNotes(chapter.id);
+  
+  body.innerHTML = `
+    <div class="details-section">
+      <h3>Status & Progress</h3>
+      <div style="display: flex; gap: 8px; margin-top: 8px;">
+        <button class="btn ${status === 'not-started' ? 'btn-primary' : ''}" onclick="setChapterStatus('${chapter.id}', 'not-started'); showChapterDetails(findChapter('${chapter.id}'))">Not Started</button>
+        <button class="btn ${status === 'in-progress' ? 'btn-primary' : ''}" onclick="setChapterStatus('${chapter.id}', 'in-progress'); showChapterDetails(findChapter('${chapter.id}'))">Learning</button>
+        <button class="btn ${status === 'done' ? 'btn-primary' : ''}" onclick="setChapterStatus('${chapter.id}', 'done'); showChapterDetails(findChapter('${chapter.id}'))">Completed</button>
+      </div>
+    </div>
+    
+    <div class="details-section">
+      <h3>Your Notes</h3>
+      <textarea class="form-group textarea" id="chapterNotes" placeholder="Add your notes, links, thoughts..." style="width: 100%; min-height: 100px; background: var(--bg3); border: 1px solid var(--border2); border-radius: var(--radius); padding: 12px; color: var(--text); font-size: 13px; font-family: inherit;">${notes}</textarea>
+      <button class="btn btn-primary" style="margin-top: 8px;" onclick="setChapterNotes('${chapter.id}', document.getElementById('chapterNotes').value); alert('Notes saved!')">Save Notes</button>
+    </div>
+    
+    <div class="details-section">
+      <h3>Topics (${chapter.topics.length})</h3>
+      <div class="topic-list">
+        ${chapter.topics.map(topic => `
+          <div class="topic-item">
+            <div class="topic-status ${getTopicStatus(topic.id)}" onclick="cycleTopicStatus('${topic.id}', event)"></div>
+            <span class="topic-name">${topic.name}</span>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+    
+    ${chapter.prerequisites && chapter.prerequisites.length > 0 ? `
+      <div class="details-section">
+        <h3>Prerequisites</h3>
+        <p style="color: var(--text3); font-size: 13px;">Complete these chapters first: ${chapter.prerequisites.map(id => findChapter(id)?.name || id).join(', ')}</p>
+      </div>
+    ` : ''}
+  `;
+  
+  modal.classList.add('open');
+}
+
+function closeModal(modalId) {
+  document.getElementById(modalId).classList.remove('open');
+}
+
+function switchView(viewName) {
+  currentView = viewName;
+  
+  document.querySelectorAll('.view-tab').forEach(tab => {
+    tab.classList.toggle('active', tab.dataset.view === viewName);
+  });
+  
+  document.querySelectorAll('.view-panel').forEach(panel => {
+    panel.classList.toggle('active', panel.id === `${viewName}-view`);
+  });
+}
+
+function applyFilters() {
+  const cards = document.querySelectorAll('.tree-chapter');
+  
+  cards.forEach(card => {
+    const priority = card.dataset.priority;
+    const status = card.dataset.status;
+    
+    let show = true;
+    
+    if (activeFilters.priority !== 'all' && priority !== activeFilters.priority) {
+      show = false;
+    }
+    
+    if (activeFilters.status !== 'all' && status !== activeFilters.status) {
+      show = false;
+    }
+    
+    card.style.display = show ? 'block' : 'none';
+  });
+}
+
+// ============================================================
+// ADD/EDIT FUNCTIONALITY
+// ============================================================
+
+function saveChapter(event) {
+  event.preventDefault();
+  
+  const subjectId = document.getElementById('addSubject').value;
+  const name = document.getElementById('addName').value;
+  const category = document.getElementById('addCategory').value;
+  const priority = document.getElementById('addPriority').value;
+  const topicsText = document.getElementById('addTopics').value;
+  
+  const topics = topicsText.split('\n').filter(t => t.trim()).map((topicName, index) => ({
+    id: `${subjectId}-custom-${Date.now()}-${index}`,
+    name: topicName.trim(),
+    priority: 'important'
+  }));
+  
+  const newChapter = {
+    id: `${subjectId}-custom-${Date.now()}`,
+    name,
+    category,
+    priority,
+    prerequisites: [],
+    topics
+  };
+  
+  const subject = knowledgeBase.subjects.find(s => s.id === subjectId);
+  if (subject) {
+    subject.chapters.push(newChapter);
+    saveKnowledgeBase();
+    render();
+    closeModal('addModal');
+    alert('Chapter added successfully!');
+    document.getElementById('addForm').reset();
+  }
+}
+
+function saveKnowledgeBase() {
+  // Save to localStorage as backup
+  localStorage.setItem('knowledgeNavigator_data', JSON.stringify(knowledgeBase));
+}
+
+function loadSavedKnowledgeBase() {
+  const saved = localStorage.getItem('knowledgeNavigator_data');
+  if (saved) {
+    knowledgeBase = JSON.parse(saved);
+  }
+}
+
+// ============================================================
+// EXPORT/IMPORT
+// ============================================================
+
+function exportJSON() {
+  const data = {
+    knowledgeBase,
+    userProgress,
+    exportedAt: new Date().toISOString()
+  };
+  
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `knowledge-navigator-backup-${Date.now()}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function exportCSV() {
+  let csv = 'Subject,Chapter,Category,Priority,Status,Topics Count,Notes\n';
+  
+  knowledgeBase.subjects.forEach(subject => {
+    subject.chapters.forEach(chapter => {
+      const status = getChapterStatus(chapter.id);
+      const notes = getChapterNotes(chapter.id).replace(/"/g, '""');
+      csv += `"${subject.name}","${chapter.name}","${chapter.category}","${chapter.priority}","${status}","${chapter.topics.length}","${notes}"\n`;
+    });
+  });
+  
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `knowledge-navigator-${Date.now()}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+async function exportPDF() {
+  alert('Generating PDF... This may take a moment.');
+  
+  // Create a printable version
+  const printContent = document.createElement('div');
+  printContent.style.cssText = 'padding: 40px; background: white; color: black; width: 800px;';
+  
+  let html = '<h1 style="margin-bottom: 20px;">Knowledge Navigator - Learning Progress</h1>';
+  html += `<p style="margin-bottom: 30px; color: #666;">Generated on ${new Date().toLocaleString()}</p>`;
+  
+  knowledgeBase.subjects.forEach(subject => {
+    html += `<h2 style="margin-top: 30px; color: #333;">${subject.icon} ${subject.name}</h2>`;
+    
+    subject.chapters.forEach(chapter => {
+      const status = getChapterStatus(chapter.id);
+      const statusIcon = status === 'done' ? '✅' : status === 'in-progress' ? '⏳' : '⬜';
+      
+      html += `<div style="margin: 15px 0; padding: 10px; border-left: 3px solid #ccc;">`;
+      html += `<h3 style="margin: 0; font-size: 16px;">${statusIcon} ${chapter.name}</h3>`;
+      html += `<p style="margin: 5px 0; color: #666; font-size: 13px;">${chapter.category} • ${chapter.topics.length} topics</p>`;
+      
+      const notes = getChapterNotes(chapter.id);
+      if (notes) {
+        html += `<p style="margin: 10px 0; font-size: 12px; color: #333; font-style: italic;">Notes: ${notes}</p>`;
+      }
+      
+      html += `</div>`;
+    });
+  });
+  
+  printContent.innerHTML = html;
+  document.body.appendChild(printContent);
+  
+  try {
+    const canvas = await html2canvas(printContent);
+    const imgData = canvas.toDataURL('image/png');
+    
+    const pdf = new jspdf.jsPDF('p', 'mm', 'a4');
+    const imgWidth = 210;
+    const pageHeight = 297;
+    const imgHeight = (canvas.height * imgWidth) / canvas.width;
+    let heightLeft = imgHeight;
+    let position = 0;
+    
+    pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+    heightLeft -= pageHeight;
+    
+    while (heightLeft >= 0) {
+      position = heightLeft - imgHeight;
+      pdf.addPage();
+      pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+      heightLeft -= pageHeight;
+    }
+    
+    pdf.save(`knowledge-navigator-${Date.now()}.pdf`);
+  } catch (error) {
+    alert('PDF generation failed. Please try exporting to CSV instead.');
+    console.error(error);
+  } finally {
+    document.body.removeChild(printContent);
+  }
+}
+
+function importJSON() {
+  document.getElementById('importInput').click();
+}
+
+function handleImport(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    try {
+      const data = JSON.parse(e.target.result);
+      
+      if (data.knowledgeBase) {
+        knowledgeBase = data.knowledgeBase;
+        saveKnowledgeBase();
+      }
+      
+      if (data.userProgress) {
+        userProgress = data.userProgress;
+        saveUserProgress();
+      }
+      
+      render();
+      alert('Data imported successfully!');
+    } catch (error) {
+      alert('Failed to import data. Please check the file format.');
+      console.error(error);
+    }
+  };
+  reader.readAsText(file);
+}
+
+// ============================================================
+// SEARCH
+// ============================================================
+
+let searchResults = [];
+let isSearchActive = false;
+
+function setupSearch() {
+  const input = document.getElementById('searchInput');
+  
+  input.addEventListener('input', (e) => {
+    const query = e.target.value.toLowerCase().trim();
+    
+    if (!query) {
+      clearSearch();
+      return;
+    }
+    
+    performSearch(query);
+  });
+}
+
+function performSearch(query) {
+  if (!knowledgeBase?.subjects) return;
+  
+  isSearchActive = true;
+  searchResults = [];
+  
+  // Search through all subjects, chapters, and topics
+  knowledgeBase.subjects.forEach(subject => {
+    subject.chapters.forEach(chapter => {
+      let chapterMatch = false;
+      let matchingTopics = [];
+      
+      // Check if chapter name matches
+      if (chapter.name.toLowerCase().includes(query) || 
+          chapter.category?.toLowerCase().includes(query)) {
+        chapterMatch = true;
+      }
+      
+      // Check topics within the chapter
+      if (chapter.topics) {
+        chapter.topics.forEach(topic => {
+          if (topic.name.toLowerCase().includes(query)) {
+            matchingTopics.push(topic);
+          }
+        });
+      }
+      
+      // If chapter matches or has matching topics, include it
+      if (chapterMatch || matchingTopics.length > 0) {
+        searchResults.push({
+          subject: subject,
+          chapter: chapter,
+          matchType: chapterMatch ? 'chapter' : 'topics',
+          matchingTopics: matchingTopics
+        });
+      }
+    });
+  });
+  
+  renderSearchResults();
+}
+
+function renderSearchResults() {
+  const currentView = document.querySelector('.view-tab.active')?.dataset.view || 'roadmap';
+  
+  if (currentView === 'roadmap') {
+    renderSearchRoadmap();
+  } else if (currentView === 'tree') {
+    renderSearchTree();
+  } else if (currentView === 'list') {
+    renderSearchList();
+  }
+}
+
+function renderSearchRoadmap() {
+  const container = document.getElementById('roadmapContent');
+  if (!container) return;
+  
+  container.innerHTML = '';
+  
+  if (searchResults.length === 0) {
+    const emptyDiv = document.createElement('div');
+    emptyDiv.className = 'empty-state';
+    emptyDiv.innerHTML = `
+      <div class="empty-state-icon">🔍</div>
+      <h3>No results found</h3>
+      <p>Try different keywords or check spelling</p>
+    `;
+    container.appendChild(emptyDiv);
+    return;
+  }
+  
+  searchResults.forEach((result, index) => {
+    const chapter = result.chapter;
+    const status = getChapterStatus(chapter.id);
+    
+    const pathDiv = document.createElement('div');
+    pathDiv.className = 'learning-path';
+    
+    pathDiv.innerHTML = `
+      <div class="path-header">
+        <h2 class="path-name">Search Result ${index + 1}: ${chapter.name}</h2>
+        <p class="path-desc">${result.subject.name} • ${chapter.category} • ${chapter.topics?.length || 0} topics</p>
+      </div>
+      <div class="path-steps"></div>
+    `;
+    
+    const stepsContainer = pathDiv.querySelector('.path-steps');
+    const step = document.createElement('div');
+    step.className = `path-step ${status}`;
+    step.onclick = () => showChapterDetails(chapter);
+    
+    const priorityClass = chapter.priority ? `priority-${chapter.priority}` : 'priority-important';
+    
+    step.innerHTML = `
+      <div class="step-number">${index + 1}</div>
+      <div class="step-content">
+        <div class="step-name">${chapter.name}</div>
+        <div class="step-category">${result.subject.name} • ${chapter.category}</div>
+        <div class="step-meta">
+          <span class="step-badge ${priorityClass}">${chapter.priority || 'important'}</span>
+          <span class="step-topics">${chapter.topics?.length || 0} topics</span>
+          ${result.matchingTopics.length > 0 ? `<span class="step-topics">• ${result.matchingTopics.length} matching topics</span>` : ''}
+        </div>
+      </div>
+    `;
+    
+    stepsContainer.appendChild(step);
+    container.appendChild(pathDiv);
+  });
+}
+
+function renderSearchTree() {
+  const container = document.getElementById('treeContent');
+  if (!container) return;
+  
+  container.innerHTML = '';
+  
+  if (searchResults.length === 0) {
+    const emptyDiv = document.createElement('div');
+    emptyDiv.className = 'empty-state';
+    emptyDiv.innerHTML = `
+      <div class="empty-state-icon">🔍</div>
+      <h3>No results found</h3>
+      <p>Try different keywords or check spelling</p>
+    `;
+    container.appendChild(emptyDiv);
+    return;
+  }
+  
+  searchResults.forEach(result => {
+    const chapter = result.chapter;
+    const status = getChapterStatus(chapter.id);
+    
+    const card = document.createElement('div');
+    card.className = 'tree-chapter';
+    
+    const priorityClass = chapter.priority ? `priority-${chapter.priority}` : 'priority-important';
+    
+    card.innerHTML = `
+      <div class="tree-chapter-header">
+        <div>
+          <div class="tree-chapter-name">${chapter.name}</div>
+          <div class="tree-chapter-category">${result.subject.icon} ${chapter.category}</div>
+        </div>
+        <div class="tree-chapter-status ${status}" onclick="cycleStatus('${chapter.id}', event)"></div>
+      </div>
+      <div class="step-badge ${priorityClass}">${chapter.priority || 'important'}</div>
+      <div class="tree-topics"></div>
+    `;
+    
+    const topicsContainer = card.querySelector('.tree-topics');
+    const topicsToShow = result.matchingTopics.length > 0 ? result.matchingTopics : (chapter.topics || []);
+    
+    topicsToShow.slice(0, 5).forEach(topic => {
+      const topicStatus = getTopicStatus(topic.id);
+      const topicDiv = document.createElement('div');
+      topicDiv.className = 'tree-topic';
+      topicDiv.innerHTML = `
+        <div class="topic-status ${topicStatus}" onclick="cycleTopicStatus('${topic.id}', event)"></div>
+        <span class="topic-name">${topic.name}</span>
+      `;
+      topicsContainer.appendChild(topicDiv);
+    });
+    
+    if (topicsToShow.length > 5) {
+      const more = document.createElement('div');
+      more.className = 'tree-topic';
+      more.innerHTML = `<span style="color: var(--text3)">+ ${topicsToShow.length - 5} more topics...</span>`;
+      more.onclick = () => showChapterDetails(chapter);
+      topicsContainer.appendChild(more);
+    }
+    
+    card.onclick = (e) => {
+      if (!e.target.classList.contains('tree-chapter-status') && !e.target.classList.contains('topic-status')) {
+        showChapterDetails(chapter);
+      }
+    };
+    
+    container.appendChild(card);
+  });
+}
+
+function renderSearchList() {
+  const container = document.getElementById('listContent');
+  if (!container) return;
+  
+  container.innerHTML = '';
+  
+  if (searchResults.length === 0) {
+    const emptyDiv = document.createElement('div');
+    emptyDiv.className = 'empty-state';
+    emptyDiv.innerHTML = `
+      <div class="empty-state-icon">🔍</div>
+      <h3>No results found</h3>
+      <p>Try different keywords or check spelling</p>
+    `;
+    container.appendChild(emptyDiv);
+    return;
+  }
+  
+  searchResults.forEach(result => {
+    const chapter = result.chapter;
+    const status = getChapterStatus(chapter.id);
+    const row = document.createElement('div');
+    row.className = 'list-row';
+    
+    const priorityClass = chapter.priority ? `priority-${chapter.priority}` : 'priority-important';
+    
+    row.innerHTML = `
+      <div class="row-check ${status}" onclick="cycleStatus('${chapter.id}', event)"></div>
+      <div class="row-name">${chapter.name}</div>
+      <div class="row-category">${result.subject.icon} ${chapter.category}</div>
+      <div class="row-priority">
+        <span class="step-badge ${priorityClass}">${chapter.priority || 'important'}</span>
+      </div>
+      <div class="row-topics">${chapter.topics?.length || 0} topics</div>
+      <div class="row-action">
+        <button onclick="showChapterDetails(findChapter('${chapter.id}'))">View Details</button>
+      </div>
+    `;
+    
+    row.onclick = (e) => {
+      if (!e.target.classList.contains('row-check') && !e.target.tagName === 'BUTTON') {
+        showChapterDetails(chapter);
+      }
+    };
+    
+    container.appendChild(row);
+  });
+}
+
+function clearSearch() {
+  isSearchActive = false;
+  searchResults = [];
+  render(); // Re-render current view with full data
+}
+
+// ============================================================
+// EVENT LISTENERS
+// ============================================================
+
+document.querySelectorAll('.view-tab').forEach(tab => {
+  tab.addEventListener('click', () => switchView(tab.dataset.view));
+});
+
+document.getElementById('exportBtn').addEventListener('click', (e) => {
+  e.stopPropagation();
+  document.getElementById('exportMenu').classList.toggle('open');
+});
+
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('#exportBtn') && !e.target.closest('#exportMenu')) {
+    document.getElementById('exportMenu').classList.remove('open');
+  }
+});
+
+document.getElementById('addBtn').addEventListener('click', () => {
+  document.getElementById('addModal').classList.add('open');
+});
+
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const filter = btn.dataset.filter;
+    
+    // Determine if it's priority or status filter
+    if (['all', 'core', 'important', 'advanced', 'optional'].includes(filter)) {
+      // Priority filter
+      document.querySelectorAll('.filter-btn[data-filter="all"], .filter-btn[data-filter="core"], .filter-btn[data-filter="important"], .filter-btn[data-filter="advanced"], .filter-btn[data-filter="optional"]').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeFilters.priority = filter === 'optional' ? 'optional' : filter;
+    } else {
+      // Status filter
+      if (btn.classList.contains('active')) {
+        btn.classList.remove('active');
+        activeFilters.status = 'all';
+      } else {
+        document.querySelectorAll('.filter-btn[data-filter="done"], .filter-btn[data-filter="in-progress"], .filter-btn[data-filter="not-started"]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeFilters.status = filter;
+      }
+    }
+    
+    applyFilters();
+  });
+});
+
+// Keyboard shortcut for search
+document.addEventListener('keydown', (e) => {
+  if (e.key === '/' && !['INPUT', 'TEXTAREA'].includes(e.target.tagName)) {
+    e.preventDefault();
+    document.getElementById('searchInput').focus();
+  }
+  
+  if (e.key === 'Escape') {
+    closeModal('detailsModal');
+    closeModal('addModal');
+  }
+});
+
+// ============================================================
+// INITIALIZATION
+// ============================================================
+
+document.addEventListener('DOMContentLoaded', () => {
+  loadSavedKnowledgeBase();
+  loadKnowledgeBase(); // Now synchronous - data is embedded!
+  setupSearch();
+});
+</script>
+
+</body>
+</html>

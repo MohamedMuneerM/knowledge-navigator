@@ -1,0 +1,323 @@
+{
+  "id": "electronics",
+  "name": "Electronics & IoT",
+  "icon": "🔌",
+  "color": "#10b981",
+  "chapters": [
+    {
+      "id": "e-fundamentals",
+      "name": "Fundamentals & Mathematics",
+      "category": "Foundation",
+      "priority": "core",
+      "prerequisites": [],
+      "topics": [
+        { "id": "e-fund-1", "name": "Circuit Theory (Ohm's law, Kirchhoff's laws, network theorems)", "priority": "core" },
+        { "id": "e-fund-2", "name": "AC and DC circuit analysis", "priority": "core" },
+        { "id": "e-fund-3", "name": "Complex numbers and phasors", "priority": "core" },
+        { "id": "e-fund-4", "name": "Fourier transforms (continuous & discrete)", "priority": "important" },
+        { "id": "e-fund-5", "name": "Laplace transforms and Z-transforms", "priority": "important" },
+        { "id": "e-fund-6", "name": "Linear algebra and matrix operations", "priority": "important" },
+        { "id": "e-fund-7", "name": "Signal processing fundamentals", "priority": "core" },
+        { "id": "e-fund-8", "name": "Sampling theorem and Nyquist rate", "priority": "core" },
+        { "id": "e-fund-9", "name": "Control theory and PID controllers", "priority": "important" },
+        { "id": "e-fund-10", "name": "Electromagnetics and Maxwell's equations", "priority": "important" },
+        { "id": "e-fund-11", "name": "Semiconductor physics and PN junctions", "priority": "core" }
+      ]
+    },
+    {
+      "id": "e-analog",
+      "name": "Analog Electronics",
+      "category": "Core Electronics", 
+      "priority": "core",
+      "prerequisites": ["e-fundamentals"],
+      "topics": [
+        { "id": "e-analog-1", "name": "Passive components (resistors, capacitors, inductors)", "priority": "core" },
+        { "id": "e-analog-2", "name": "Active components (diodes, BJTs, MOSFETs)", "priority": "core" },
+        { "id": "e-analog-3", "name": "Operational amplifiers and applications", "priority": "core" },
+        { "id": "e-analog-4", "name": "Voltage regulators and references", "priority": "important" },
+        { "id": "e-analog-5", "name": "Filters (active and passive)", "priority": "important" },
+        { "id": "e-analog-6", "name": "Oscillators and timing circuits", "priority": "important" },
+        { "id": "e-analog-7", "name": "Data converters (ADC/DAC)", "priority": "core" },
+        { "id": "e-analog-8", "name": "Signal conditioning and amplification", "priority": "important" },
+        { "id": "e-analog-9", "name": "Noise analysis and low-noise design", "priority": "advanced" }
+      ]
+    },
+    {
+      "id": "e-digital",
+      "name": "Digital Electronics", 
+      "category": "Core Electronics",
+      "priority": "core",
+      "prerequisites": ["e-fundamentals"],
+      "topics": [
+        { "id": "e-digital-1", "name": "Logic families (TTL, CMOS)", "priority": "core" },
+        { "id": "e-digital-2", "name": "Combinational logic and Boolean algebra", "priority": "core" },
+        { "id": "e-digital-3", "name": "Sequential logic (flip-flops, registers, counters)", "priority": "core" },
+        { "id": "e-digital-4", "name": "Memory devices (SRAM, DRAM, Flash)", "priority": "important" },
+        { "id": "e-digital-5", "name": "Buses and communication protocols", "priority": "important" },
+        { "id": "e-digital-6", "name": "High-speed digital design and signal integrity", "priority": "advanced" },
+        { "id": "e-digital-7", "name": "Digital signal processing (DSP)", "priority": "advanced" }
+      ]
+    },
+    {
+      "id": "e-microcontrollers",
+      "name": "Microcontrollers & Processors",
+      "category": "Embedded Systems",
+      "priority": "core", 
+      "prerequisites": ["e-digital"],
+      "topics": [
+        { "id": "e-mcu-1", "name": "ARM Cortex-M series (M0, M3, M4, M7)", "priority": "core" },
+        { "id": "e-mcu-2", "name": "AVR and PIC microcontrollers", "priority": "important" },
+        { "id": "e-mcu-3", "name": "ESP32/ESP8266 (Wi-Fi/Bluetooth)", "priority": "core" },
+        { "id": "e-mcu-4", "name": "STM32 and Nordic nRF series", "priority": "important" },
+        { "id": "e-mcu-5", "name": "RISC-V architecture", "priority": "advanced" },
+        { "id": "e-mcu-6", "name": "Processor architecture (RISC vs CISC, pipelining)", "priority": "important" },
+        { "id": "e-mcu-7", "name": "Peripheral controllers (timers, PWM, ADC, DMA)", "priority": "core" },
+        { "id": "e-mcu-8", "name": "Boot process and debugging interfaces (JTAG, SWD)", "priority": "important" },
+        { "id": "e-mcu-9", "name": "Low-power design and power modes", "priority": "important" }
+      ]
+    },
+    {
+      "id": "e-firmware",
+      "name": "Embedded Software & Firmware",
+      "category": "Embedded Systems",
+      "priority": "core",
+      "prerequisites": ["e-microcontrollers"],
+      "topics": [
+        { "id": "e-fw-1", "name": "Embedded C programming", "priority": "core" },
+        { "id": "e-fw-2", "name": "Bare-metal programming", "priority": "core" },
+        { "id": "e-fw-3", "name": "Memory management and optimization", "priority": "important" },
+        { "id": "e-fw-4", "name": "Interrupts and real-time programming", "priority": "core" },
+        { "id": "e-fw-5", "name": "Device drivers and HAL", "priority": "important" },
+        { "id": "e-fw-6", "name": "Firmware architecture and design patterns", "priority": "important" },
+        { "id": "e-fw-7", "name": "Over-the-air (OTA) updates", "priority": "advanced" },
+        { "id": "e-fw-8", "name": "Board Support Packages (BSP)", "priority": "advanced" }
+      ]
+    },
+    {
+      "id": "e-rtos",
+      "name": "Real-Time Systems & Operating Systems",
+      "category": "Embedded Systems",
+      "priority": "important",
+      "prerequisites": ["e-firmware"],
+      "topics": [
+        { "id": "e-rtos-1", "name": "Real-time concepts and scheduling", "priority": "core" },
+        { "id": "e-rtos-2", "name": "FreeRTOS", "priority": "core" },
+        { "id": "e-rtos-3", "name": "Zephyr RTOS", "priority": "important" },
+        { "id": "e-rtos-4", "name": "ThreadX and other commercial RTOS", "priority": "optional" },
+        { "id": "e-rtos-5", "name": "Task synchronization and IPC", "priority": "important" },
+        { "id": "e-rtos-6", "name": "Embedded Linux", "priority": "advanced" },
+        { "id": "e-rtos-7", "name": "Yocto Project and Buildroot", "priority": "advanced" }
+      ]
+    },
+    {
+      "id": "e-fpga",
+      "name": "FPGAs & Hardware Description Languages",
+      "category": "Digital Design",
+      "priority": "advanced",
+      "prerequisites": ["e-digital"],
+      "topics": [
+        { "id": "e-fpga-1", "name": "FPGA architectures (Xilinx, Intel, Lattice)", "priority": "core" },
+        { "id": "e-fpga-2", "name": "VHDL programming", "priority": "core" },
+        { "id": "e-fpga-3", "name": "Verilog and SystemVerilog", "priority": "core" },
+        { "id": "e-fpga-4", "name": "FPGA design flow and tools", "priority": "important" },
+        { "id": "e-fpga-5", "name": "High-Level Synthesis (HLS)", "priority": "advanced" },
+        { "id": "e-fpga-6", "name": "Soft processors and IP cores", "priority": "advanced" }
+      ]
+    },
+    {
+      "id": "e-power",
+      "name": "Power Electronics & Management",
+      "category": "Power Systems",
+      "priority": "important",
+      "prerequisites": ["e-analog"],
+      "topics": [
+        { "id": "e-power-1", "name": "Linear and switching regulators", "priority": "core" },
+        { "id": "e-power-2", "name": "Buck, boost, and buck-boost converters", "priority": "core" },
+        { "id": "e-power-3", "name": "Battery technologies and management", "priority": "core" },
+        { "id": "e-power-4", "name": "Charging circuits and protocols", "priority": "important" },
+        { "id": "e-power-5", "name": "Energy harvesting techniques", "priority": "advanced" },
+        { "id": "e-power-6", "name": "Power factor correction (PFC)", "priority": "advanced" },
+        { "id": "e-power-7", "name": "Thermal management", "priority": "important" }
+      ]
+    },
+    {
+      "id": "e-sensors",
+      "name": "Sensors, Transducers & Actuators",
+      "category": "Interface Devices",
+      "priority": "core",
+      "prerequisites": ["e-analog"],
+      "topics": [
+        { "id": "e-sens-1", "name": "Inertial sensors (accelerometers, gyroscopes, IMUs)", "priority": "core" },
+        { "id": "e-sens-2", "name": "Environmental sensors (temperature, humidity, pressure)", "priority": "core" },
+        { "id": "e-sens-3", "name": "Optical and light sensors", "priority": "important" },
+        { "id": "e-sens-4", "name": "Proximity and distance sensors (ultrasonic, LIDAR)", "priority": "important" },
+        { "id": "e-sens-5", "name": "Biosensors and medical sensors", "priority": "advanced" },
+        { "id": "e-sens-6", "name": "Motor control and actuators", "priority": "important" },
+        { "id": "e-sens-7", "name": "Sensor fusion and Kalman filtering", "priority": "advanced" }
+      ]
+    },
+    {
+      "id": "e-comms-wired",
+      "name": "Wired Communication Protocols",
+      "category": "Communication",
+      "priority": "core",
+      "prerequisites": ["e-digital"],
+      "topics": [
+        { "id": "e-comm-1", "name": "UART, SPI, and I²C protocols", "priority": "core" },
+        { "id": "e-comm-2", "name": "CAN and automotive protocols", "priority": "important" },
+        { "id": "e-comm-3", "name": "Industrial protocols (Modbus, Profibus)", "priority": "important" },
+        { "id": "e-comm-4", "name": "Ethernet and TCP/IP", "priority": "core" },
+        { "id": "e-comm-5", "name": "USB protocols and implementations", "priority": "important" },
+        { "id": "e-comm-6", "name": "High-speed interfaces (PCIe, SATA)", "priority": "advanced" }
+      ]
+    },
+    {
+      "id": "e-comms-wireless",
+      "name": "Wireless Communication & IoT",
+      "category": "Communication", 
+      "priority": "core",
+      "prerequisites": ["e-comms-wired"],
+      "topics": [
+        { "id": "e-wifi-1", "name": "Wi-Fi (802.11) and networking", "priority": "core" },
+        { "id": "e-wifi-2", "name": "Bluetooth Classic and BLE", "priority": "core" },
+        { "id": "e-wifi-3", "name": "Zigbee and Thread mesh networking", "priority": "important" },
+        { "id": "e-wifi-4", "name": "LoRa/LoRaWAN and LPWAN technologies", "priority": "important" },
+        { "id": "e-wifi-5", "name": "Cellular (2G/3G/4G/5G) and NB-IoT", "priority": "advanced" },
+        { "id": "e-wifi-6", "name": "NFC and RFID technologies", "priority": "important" },
+        { "id": "e-wifi-7", "name": "Software-Defined Radio (SDR)", "priority": "advanced" }
+      ]
+    },
+    {
+      "id": "e-iot",
+      "name": "IoT Architectures & Cloud Platforms",
+      "category": "IoT Systems",
+      "priority": "important",
+      "prerequisites": ["e-comms-wireless"],
+      "topics": [
+        { "id": "e-iot-1", "name": "IoT architecture layers and reference models", "priority": "core" },
+        { "id": "e-iot-2", "name": "Edge computing and fog computing", "priority": "important" },
+        { "id": "e-iot-3", "name": "Cloud platforms (AWS IoT, Azure IoT, Google Cloud)", "priority": "important" },
+        { "id": "e-iot-4", "name": "MQTT and CoAP protocols", "priority": "core" },
+        { "id": "e-iot-5", "name": "Device management and digital twins", "priority": "advanced" },
+        { "id": "e-iot-6", "name": "Data management and analytics", "priority": "important" }
+      ]
+    },
+    {
+      "id": "e-security",
+      "name": "Security, Privacy & Trust",
+      "category": "Security",
+      "priority": "core", 
+      "prerequisites": ["e-firmware"],
+      "topics": [
+        { "id": "e-sec-1", "name": "Cryptography fundamentals (AES, RSA, hashing)", "priority": "core" },
+        { "id": "e-sec-2", "name": "Secure boot and root of trust", "priority": "core" },
+        { "id": "e-sec-3", "name": "Key management and PKI", "priority": "important" },
+        { "id": "e-sec-4", "name": "TLS/SSL and secure communication", "priority": "core" },
+        { "id": "e-sec-5", "name": "Device identity and authentication", "priority": "important" },
+        { "id": "e-sec-6", "name": "Firmware and software security", "priority": "important" },
+        { "id": "e-sec-7", "name": "Threat modeling and vulnerability assessment", "priority": "advanced" }
+      ]
+    },
+    {
+      "id": "e-robotics",
+      "name": "Robotics & Control Systems",
+      "category": "Applications",
+      "priority": "advanced",
+      "prerequisites": ["e-sensors", "e-firmware"],
+      "topics": [
+        { "id": "e-robot-1", "name": "Robot types and applications", "priority": "core" },
+        { "id": "e-robot-2", "name": "Kinematics and dynamics", "priority": "important" },
+        { "id": "e-robot-3", "name": "Robot control and PID systems", "priority": "important" },
+        { "id": "e-robot-4", "name": "SLAM and navigation", "priority": "advanced" },
+        { "id": "e-robot-5", "name": "ROS (Robot Operating System)", "priority": "advanced" },
+        { "id": "e-robot-6", "name": "Actuators and motor drives", "priority": "important" }
+      ]
+    },
+    {
+      "id": "e-vision",
+      "name": "Computer Vision & Perception",
+      "category": "AI/ML Applications",
+      "priority": "advanced",
+      "prerequisites": ["e-microcontrollers"],
+      "topics": [
+        { "id": "e-vision-1", "name": "Image acquisition and camera interfaces", "priority": "core" },
+        { "id": "e-vision-2", "name": "Image processing and OpenCV", "priority": "core" },
+        { "id": "e-vision-3", "name": "Object detection and recognition", "priority": "important" },
+        { "id": "e-vision-4", "name": "Stereo vision and depth sensing", "priority": "advanced" },
+        { "id": "e-vision-5", "name": "Edge AI and model optimization", "priority": "advanced" }
+      ]
+    },
+    {
+      "id": "e-ml",
+      "name": "Machine Learning & AI for Embedded",
+      "category": "AI/ML Applications",
+      "priority": "advanced",
+      "prerequisites": ["e-microcontrollers"],
+      "topics": [
+        { "id": "e-ml-1", "name": "TinyML and microcontroller ML", "priority": "core" },
+        { "id": "e-ml-2", "name": "Model optimization (quantization, pruning)", "priority": "important" },
+        { "id": "e-ml-3", "name": "TensorFlow Lite for Microcontrollers", "priority": "core" },
+        { "id": "e-ml-4", "name": "Hardware accelerators (NPU, TPU, GPU)", "priority": "advanced" },
+        { "id": "e-ml-5", "name": "Federated learning and edge AI", "priority": "advanced" }
+      ]
+    },
+    {
+      "id": "e-automotive",
+      "name": "Automotive & Mobility Systems",
+      "category": "Industry Applications",
+      "priority": "advanced",
+      "prerequisites": ["e-comms-wired"],
+      "topics": [
+        { "id": "e-auto-1", "name": "Vehicle electronics architecture", "priority": "core" },
+        { "id": "e-auto-2", "name": "ADAS and autonomous driving systems", "priority": "advanced" },
+        { "id": "e-auto-3", "name": "Electric vehicle (EV) systems", "priority": "important" },
+        { "id": "e-auto-4", "name": "In-vehicle networking (CAN, FlexRay, Automotive Ethernet)", "priority": "important" },
+        { "id": "e-auto-5", "name": "AUTOSAR and safety standards (ISO 26262)", "priority": "advanced" }
+      ]
+    },
+    {
+      "id": "e-medical",
+      "name": "Medical & Healthcare Electronics", 
+      "category": "Industry Applications",
+      "priority": "advanced",
+      "prerequisites": ["e-sensors", "e-security"],
+      "topics": [
+        { "id": "e-med-1", "name": "Medical device regulations (FDA, CE, IEC 60601)", "priority": "core" },
+        { "id": "e-med-2", "name": "Implantable devices (pacemakers, pumps)", "priority": "advanced" },
+        { "id": "e-med-3", "name": "Diagnostic equipment and patient monitoring", "priority": "important" },
+        { "id": "e-med-4", "name": "Telemedicine and digital health", "priority": "important" },
+        { "id": "e-med-5", "name": "Biomedical signal processing", "priority": "advanced" }
+      ]
+    },
+    {
+      "id": "e-pcb",
+      "name": "PCB Design & Hardware Development",
+      "category": "Hardware Design",
+      "priority": "core",
+      "prerequisites": ["e-analog", "e-digital"],
+      "topics": [
+        { "id": "e-pcb-1", "name": "Schematic design and component selection", "priority": "core" },
+        { "id": "e-pcb-2", "name": "PCB layout and routing", "priority": "core" },
+        { "id": "e-pcb-3", "name": "High-speed design and signal integrity", "priority": "important" },
+        { "id": "e-pcb-4", "name": "Power integrity and thermal design", "priority": "important" },
+        { "id": "e-pcb-5", "name": "EMC/EMI design and compliance", "priority": "advanced" },
+        { "id": "e-pcb-6", "name": "Design for Manufacturing (DFM/DFA)", "priority": "important" },
+        { "id": "e-pcb-7", "name": "Prototyping and assembly", "priority": "core" }
+      ]
+    },
+    {
+      "id": "e-testing",
+      "name": "Testing, Validation & Debugging",
+      "category": "Development Tools",
+      "priority": "important",
+      "prerequisites": ["e-firmware"],
+      "topics": [
+        { "id": "e-test-1", "name": "Test equipment (oscilloscopes, logic analyzers)", "priority": "core" },
+        { "id": "e-test-2", "name": "Software debugging and trace", "priority": "core" },
+        { "id": "e-test-3", "name": "Protocol debugging and analysis", "priority": "important" },
+        { "id": "e-test-4", "name": "Environmental and reliability testing", "priority": "advanced" },
+        { "id": "e-test-5", "name": "Regulatory and compliance testing", "priority": "important" }
+      ]
+    }
+  ]
+}

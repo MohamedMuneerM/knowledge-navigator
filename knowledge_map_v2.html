@@ -1,0 +1,3113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"="width=device-width, initial-scale=1.0">
+<title>Knowledge Navigator — Your Learning Companion</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="knowledge_base.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Improved dark mode with better contrast */
+  --bg: #0a0e1a;
+  --bg2: #131825;
+  --bg3: #1c2333;
+  --bg4: #252d42;
+  --bg5: #2e3850;
+  
+  --border: #2d3548;
+  --border2: #3d4660;
+  --border3: #4d5670;
+  
+  /* Much brighter text for readability */
+  --text: #e8edf5;
+  --text2: #b8c5db;
+  --text3: #8896ab;
+  --text4: #5a6785;
+  
+  /* Subject colors - brighter */
+  --physics: #60c5f8;
+  --math: #fcd34d;
+  --physics-dim: rgba(96, 197, 248, 0.12);
+  --math-dim: rgba(252, 211, 77, 0.12);
+  
+  /* Status colors */
+  --done: #4ade80;
+  --in-progress: #fbbf24;
+  --not-started: #64748b;
+  
+  /* Priority colors */
+  --core: #ef4444;
+  --important: #f97316;
+  --advanced: #8b5cf6;
+  --optional: #64748b;
+  
+  --sidebar-w: 300px;
+  --header-h: 64px;
+  --radius: 10px;
+  --transition: 0.2s ease;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bg5);
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--header-h);
+  background: var(--bg2);
+  border-bottom: 1px solid var(--border2);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 20px;
+  z-index: 1000;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.logo span {
+  font-size: 24px;
+}
+
+.logo-divider {
+  width: 1px;
+  height: 32px;
+  background: var(--border2);
+}
+
+.search-wrap {
+  flex: 1;
+  max-width: 500px;
+  position: relative;
+}
+
+.search-wrap input {
+  width: 100%;
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: 10px 16px 10px 40px;
+  color: var(--text);
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+  transition: var(--transition);
+}
+
+.search-wrap input:focus {
+  border-color: var(--border3);
+  background: var(--bg4);
+  box-shadow: 0 0 0 3px rgba(96, 197, 248, 0.1);
+}
+
+.search-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text3);
+  pointer-events: none;
+  font-size: 16px;
+}
+
+.view-tabs {
+  display: flex;
+  gap: 4px;
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: 4px;
+}
+
+.view-tab {
+  padding: 8px 16px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text3);
+  border: none;
+  background: transparent;
+  transition: var(--transition);
+  white-space: nowrap;
+}
+
+.view-tab:hover {
+  color: var(--text2);
+  background: var(--bg4);
+}
+
+.view-tab.active {
+  background: var(--bg4);
+  color: var(--text);
+  border: 1px solid var(--border3);
+}
+
+.header-actions {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border2);
+  background: var(--bg3);
+  color: var(--text2);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn:hover {
+  background: var(--bg4);
+  border-color: var(--border3);
+  color: var(--text);
+}
+
+.btn-primary {
+  background: var(--physics);
+  border-color: var(--physics);
+  color: var(--bg);
+}
+
+.btn-primary:hover {
+  background: #50b5e8;
+  border-color: #50b5e8;
+}
+
+/* Layout */
+.layout {
+  display: flex;
+  height: calc(100vh - var(--header-h));
+  margin-top: var(--header-h);
+}
+
+/* Sidebar */
+.sidebar {
+  width: var(--sidebar-w);
+  background: var(--bg2);
+  border-right: 1px solid var(--border2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sidebar-header {
+  padding: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.sidebar-header h3 {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text3);
+  margin-bottom: 12px;
+}
+
+.progress-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.progress-item {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+}
+
+.progress-num {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.progress-label {
+  font-size: 10px;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.sidebar-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px;
+}
+
+.subject-section {
+  margin-bottom: 8px;
+}
+
+.subject-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: var(--transition);
+  user-select: none;
+}
+
+.subject-header:hover {
+  background: var(--bg4);
+  border-color: var(--border2);
+}
+
+.subject-icon {
+  font-size: 18px;
+}
+
+.subject-name {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.subject-count {
+  font-size: 11px;
+  color: var(--text3);
+  background: var(--bg2);
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+.subject-arrow {
+  color: var(--text3);
+  font-size: 12px;
+  transition: transform 0.2s;
+}
+
+.subject-section.open .subject-arrow {
+  transform: rotate(90deg);
+}
+
+.chapter-list {
+  display: none;
+  padding: 8px 0 0 0;
+  margin-left: 12px;
+}
+
+.subject-section.open .chapter-list {
+  display: block;
+}
+
+.chapter-item {
+  padding: 8px 12px;
+  margin-bottom: 4px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-left: 3px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chapter-item:hover {
+  background: var(--bg4);
+  border-color: var(--border2);
+}
+
+.chapter-item.active {
+  background: var(--bg4);
+  border-left-color: var(--physics);
+}
+
+.chapter-name {
+  flex: 1;
+  font-size: 13px;
+  color: var(--text2);
+  line-height: 1.4;
+}
+
+.chapter-item.active .chapter-name {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.chapter-status {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid var(--border3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  flex-shrink: 0;
+}
+
+.chapter-status.done {
+  background: var(--done);
+  border-color: var(--done);
+  color: var(--bg);
+}
+
+.chapter-status.in-progress {
+  background: var(--in-progress);
+  border-color: var(--in-progress);
+  color: var(--bg);
+}
+
+/* Main Content */
+.main {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  background: var(--bg);
+}
+
+.view-panel {
+  position: absolute;
+  inset: 0;
+  overflow: auto;
+  display: none;
+  padding: 24px;
+}
+
+.view-panel.active {
+  display: block;
+}
+
+/* Roadmap View */
+.roadmap-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.roadmap-header {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.roadmap-header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.roadmap-header p {
+  font-size: 16px;
+  color: var(--text3);
+}
+
+.learning-path {
+  margin-bottom: 48px;
+}
+
+.path-header {
+  margin-bottom: 20px;
+}
+
+.path-name {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.path-desc {
+  font-size: 14px;
+  color: var(--text3);
+}
+
+.path-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  padding-left: 32px;
+}
+
+.path-steps::before {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 20px;
+  bottom: 20px;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--border2), var(--border));
+}
+
+.path-step {
+  background: var(--bg2);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  cursor: pointer;
+  transition: var(--transition);
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.path-step::before {
+  content: '';
+  position: absolute;
+  left: -32px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--bg3);
+  border: 3px solid var(--border2);
+  z-index: 1;
+}
+
+.path-step.done::before {
+  background: var(--done);
+  border-color: var(--done);
+}
+
+.path-step.in-progress::before {
+  background: var(--in-progress);
+  border-color: var(--in-progress);
+}
+
+.path-step:hover {
+  background: var(--bg3);
+  border-color: var(--border3);
+  transform: translateX(4px);
+}
+
+.step-number {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text2);
+  flex-shrink: 0;
+}
+
+.path-step.done .step-number {
+  background: var(--done);
+  border-color: var(--done);
+  color: var(--bg);
+}
+
+.path-step.in-progress .step-number {
+  background: var(--in-progress);
+  border-color: var(--in-progress);
+  color: var(--bg);
+}
+
+.step-content {
+  flex: 1;
+}
+
+.step-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.step-category {
+  font-size: 12px;
+  color: var(--text3);
+  margin-bottom: 8px;
+}
+
+.step-meta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.step-badge {
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.priority-core {
+  background: rgba(239, 68, 68, 0.15);
+  color: var(--core);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.priority-important {
+  background: rgba(249, 115, 22, 0.15);
+  color: var(--important);
+  border: 1px solid rgba(249, 115, 22, 0.3);
+}
+
+.priority-advanced {
+  background: rgba(139, 92, 246, 0.15);
+  color: var(--advanced);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+}
+
+.priority-optional {
+  background: rgba(100, 116, 139, 0.15);
+  color: var(--optional);
+  border: 1px solid rgba(100, 116, 139, 0.3);
+}
+
+.step-topics {
+  font-size: 12px;
+  color: var(--text3);
+}
+
+/* Tree View */
+.tree-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.tree-header {
+  margin-bottom: 24px;
+}
+
+.tree-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  display: flex;
+  gap: 6px;
+}
+
+.filter-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border2);
+  background: var(--bg2);
+  color: var(--text3);
+  font-size: 12px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.filter-btn:hover {
+  background: var(--bg3);
+  color: var(--text2);
+}
+
+.filter-btn.active {
+  background: var(--physics-dim);
+  border-color: var(--physics);
+  color: var(--physics);
+}
+
+.tree-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.tree-chapter {
+  background: var(--bg2);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: var(--transition);
+}
+
+.tree-chapter:hover {
+  border-color: var(--border3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.tree-chapter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 12px;
+}
+
+.tree-chapter-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.tree-chapter-category {
+  font-size: 12px;
+  color: var(--text3);
+}
+
+.tree-chapter-status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid var(--border3);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.tree-chapter-status:hover {
+  border-color: var(--text3);
+}
+
+.tree-chapter-status.done {
+  background: var(--done);
+  border-color: var(--done);
+}
+
+.tree-chapter-status.in-progress {
+  background: var(--in-progress);
+  border-color: var(--in-progress);
+}
+
+.tree-topics {
+  margin-top: 16px;
+}
+
+.tree-topic {
+  padding: 8px 12px;
+  margin-bottom: 6px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 13px;
+  color: var(--text2);
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tree-topic:hover {
+  background: var(--bg4);
+  border-color: var(--border2);
+  color: var(--text);
+}
+
+.topic-status {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid var(--border3);
+  flex-shrink: 0;
+}
+
+.topic-status.done {
+  background: var(--done);
+  border-color: var(--done);
+}
+
+.topic-status.in-progress {
+  background: var(--in-progress);
+  border-color: var(--in-progress);
+}
+
+.topic-name {
+  flex: 1;
+}
+
+/* List View */
+.list-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.list-header {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.list-table {
+  background: var(--bg2);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.list-table-header {
+  display: grid;
+  grid-template-columns: 40px 2fr 1fr 120px 100px 100px;
+  gap: 16px;
+  padding: 12px 20px;
+  background: var(--bg3);
+  border-bottom: 1px solid var(--border2);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.list-row {
+  display: grid;
+  grid-template-columns: 40px 2fr 1fr 120px 100px 100px;
+  gap: 16px;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  transition: var(--transition);
+  cursor: pointer;
+  align-items: center;
+}
+
+.list-row:hover {
+  background: var(--bg3);
+}
+
+.list-row:last-child {
+  border-bottom: none;
+}
+
+.row-check {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 2px solid var(--border3);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.row-check:hover {
+  border-color: var(--text3);
+}
+
+.row-check.done {
+  background: var(--done);
+  border-color: var(--done);
+}
+
+.row-check.in-progress {
+  background: var(--in-progress);
+  border-color: var(--in-progress);
+}
+
+.row-name {
+  font-size: 14px;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.row-category {
+  font-size: 13px;
+  color: var(--text3);
+}
+
+.row-priority {
+  font-size: 12px;
+}
+
+.row-topics {
+  font-size: 13px;
+  color: var(--text3);
+}
+
+.row-action {
+  display: flex;
+  gap: 8px;
+}
+
+.row-action button {
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border2);
+  background: var(--bg3);
+  color: var(--text3);
+  font-size: 11px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.row-action button:hover {
+  background: var(--bg4);
+  color: var(--text2);
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 2000;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+}
+
+.modal.open {
+  display: flex;
+}
+
+.modal-content {
+  background: var(--bg2);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  max-width: 600px;
+  width: 90%;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.modal-header {
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.modal-close {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  border: 1px solid var(--border2);
+  background: var(--bg3);
+  color: var(--text3);
+  font-size: 18px;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-close:hover {
+  background: var(--bg4);
+  color: var(--text);
+}
+
+.modal-body {
+  padding: 24px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text2);
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: 10px 14px;
+  color: var(--text);
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+  transition: var(--transition);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: var(--border3);
+  background: var(--bg4);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.modal-footer {
+  padding: 16px 24px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.details-section {
+  margin-bottom: 24px;
+}
+
+.details-section h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.topic-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.topic-item {
+  padding: 10px 14px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.topic-item:hover {
+  background: var(--bg4);
+  border-color: var(--border2);
+}
+
+.note-content {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+  font-size: 13px;
+  color: var(--text2);
+  line-height: 1.6;
+  margin-top: 8px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text3);
+}
+
+.empty-state-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  opacity: 0.3;
+}
+
+.empty-state h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: var(--text2);
+}
+
+/* Stats Cards */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.stat-card {
+  background: var(--bg2);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: 20px;
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.stat-card.done .stat-value {
+  color: var(--done);
+}
+
+.stat-card.in-progress .stat-value {
+  color: var(--in-progress);
+}
+
+.stat-card.not-started .stat-value {
+  color: var(--not-started);
+}
+
+.stat-label {
+  font-size: 13px;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Export Menu */
+.export-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: 8px;
+  display: none;
+  min-width: 180px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  z-index: 100;
+}
+
+.export-menu.open {
+  display: block;
+}
+
+.export-menu button {
+  width: 100%;
+  padding: 8px 12px;
+  border: none;
+  background: transparent;
+  color: var(--text2);
+  font-size: 13px;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.export-menu button:hover {
+  background: var(--bg4);
+  color: var(--text);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .sidebar {
+    width: 260px;
+  }
+  
+  .tree-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  
+  .search-wrap {
+    max-width: 100%;
+  }
+  
+  .header-actions .btn span {
+    display: none;
+  }
+  
+  .view-tabs {
+    display: none;
+  }
+  
+  .list-table-header,
+  .list-row {
+    grid-template-columns: 40px 1fr 100px;
+  }
+  
+  .row-category,
+  .row-priority,
+  .row-topics {
+    display: none;
+  }
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.path-step,
+.tree-chapter,
+.list-row {
+  animation: fadeIn 0.3s ease;
+}
+
+/* ── Subject filter bar ── */
+.subject-filter-bar {
+  display: flex;
+  gap: 8px;
+  padding: 14px 24px 10px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg2);
+}
+.subject-chip {
+  padding: 5px 14px;
+  border-radius: 20px;
+  border: 1px solid var(--border2);
+  background: var(--bg3);
+  color: var(--text2);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.subject-chip:hover { background: var(--border2); color: var(--text); }
+.subject-chip.active { color: #fff; border-color: transparent; }
+.subject-chip[data-subject="all"].active { background: var(--accent); }
+.subject-chip[data-subject="physics"].active { background: #60c5f8; color: #000; }
+.subject-chip[data-subject="math"].active   { background: #fbbf24; color: #000; }
+.subject-chip[data-subject="ai"].active     { background: #a78bfa; color: #fff; }
+.subject-chip[data-subject="electronics"].active { background: #34d399; color: #000; }
+
+/* ── Roadmap all-chapters layout ── */
+.subject-section-roadmap { margin-bottom: 36px; }
+.subject-section-roadmap-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 0 10px;
+  border-bottom: 2px solid var(--border);
+  margin-bottom: 16px;
+}
+.subject-section-roadmap-header h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+.subject-chapter-count {
+  font-size: 12px;
+  color: var(--text3);
+  background: var(--bg3);
+  padding: 2px 9px;
+  border-radius: 12px;
+}
+.chapter-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+}
+.chapter-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  cursor: pointer;
+  transition: all 0.15s;
+  position: relative;
+}
+.chapter-card:hover { border-color: var(--accent); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
+.chapter-card.done { border-left: 3px solid var(--done); }
+.chapter-card.in-progress { border-left: 3px solid var(--in-progress); }
+.chapter-card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+.chapter-card-title { font-size: 13px; font-weight: 600; color: var(--text); line-height: 1.4; }
+.chapter-card-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; margin-top: 4px; background: var(--border2); }
+.chapter-card-dot.done { background: var(--done); }
+.chapter-card-dot.in-progress { background: var(--in-progress); }
+.chapter-card-meta { font-size: 11px; color: var(--text3); display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+
+/* ── List view filter bar ── */
+.list-filter-bar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 24px;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+  background: var(--bg2);
+}
+.list-filter-bar .filter-group { display: flex; gap: 6px; flex-wrap: wrap; }
+.list-search { flex: 1; min-width: 140px; }
+.list-search input {
+  width: 100%;
+  padding: 6px 12px;
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-size: 12px;
+}
+
+/* ── Modal tabs ── */
+.modal-tabs {
+  display: flex;
+  gap: 2px;
+  padding: 16px 20px 0;
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+.modal-tab {
+  padding: 8px 16px;
+  border-radius: 6px 6px 0 0;
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--text3);
+  border: 1px solid transparent;
+  border-bottom: none;
+  background: none;
+  transition: all 0.15s;
+}
+.modal-tab:hover { color: var(--text); background: var(--bg3); }
+.modal-tab.active { color: var(--text); background: var(--bg2); border-color: var(--border); margin-bottom: -1px; }
+.modal-tab-pane { display: none; padding: 20px 20px 4px; }
+.modal-tab-pane.active { display: block; }
+
+/* ── Links system ── */
+.links-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+.link-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--bg3);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+.link-item a { color: var(--accent); text-decoration: none; font-size: 13px; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.link-item a:hover { text-decoration: underline; }
+.link-delete { background: none; border: none; color: var(--text3); cursor: pointer; font-size: 16px; padding: 0 4px; line-height: 1; }
+.link-delete:hover { color: #ef4444; }
+.add-link-row { display: flex; gap: 8px; margin-top: 4px; }
+.add-link-row input {
+  flex: 1;
+  padding: 8px 12px;
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-size: 13px;
+}
+.add-link-label { font-size: 11px; color: var(--text3); margin-bottom: 4px; }
+
+/* ── Resource/photo attachments ── */
+.resources-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; margin-bottom: 14px; }
+.resource-thumb {
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+}
+.resource-thumb img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; cursor: zoom-in; }
+.resource-delete {
+  position: absolute;
+  top: 4px; right: 4px;
+  background: rgba(0,0,0,0.65);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+.resource-upload-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px;
+  background: var(--bg3);
+  border: 2px dashed var(--border2);
+  border-radius: var(--radius);
+  cursor: pointer;
+  color: var(--text3);
+  font-size: 13px;
+  transition: all 0.15s;
+}
+.resource-upload-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ── Topic detail list ── */
+.topic-list-detail { display: flex; flex-direction: column; gap: 4px; }
+.topic-item-detail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 10px;
+  border-radius: 6px;
+  transition: background 0.15s;
+  cursor: pointer;
+}
+.topic-item-detail:hover { background: var(--bg3); }
+.topic-dot {
+  width: 12px; height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  border: 2px solid var(--border2);
+  transition: all 0.15s;
+}
+.topic-dot.done { background: var(--done); border-color: var(--done); }
+.topic-dot.in-progress { background: var(--in-progress); border-color: var(--in-progress); }
+.topic-dot.not-started { background: transparent; }
+.topic-name-detail { font-size: 13px; color: var(--text2); flex: 1; }
+
+/* ── Learning session panel ── */
+.session-panel {
+  position: fixed;
+  bottom: 20px; right: 20px;
+  width: 320px;
+  background: var(--bg2);
+  border: 1px solid var(--border2);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.45);
+  z-index: 1100;
+  overflow: hidden;
+  transition: transform 0.3s, opacity 0.3s;
+}
+.session-panel.minimized { transform: translateY(calc(100% - 52px)); }
+.session-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  background: var(--bg3);
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  user-select: none;
+}
+.session-header-title { flex: 1; font-size: 13px; font-weight: 600; color: var(--text); }
+.session-timer { font-family: monospace; font-size: 15px; color: var(--accent); font-weight: bold; }
+.session-minimize { background: none; border: none; color: var(--text3); cursor: pointer; font-size: 16px; padding: 0; }
+.session-body { padding: 14px 16px; max-height: 380px; overflow-y: auto; }
+.session-chapter-display { margin-bottom: 12px; }
+.session-chapter-name { font-size: 14px; font-weight: 600; color: var(--text); margin-bottom: 3px; }
+.session-subject-label { font-size: 12px; color: var(--text3); }
+.session-topics { display: flex; flex-direction: column; gap: 5px; margin-bottom: 12px; }
+.session-topic-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text2);
+  cursor: pointer;
+  padding: 4px 0;
+}
+.session-topic-item input[type=checkbox] { accent-color: var(--accent); width: 14px; height: 14px; cursor: pointer; flex-shrink: 0; }
+.session-topic-item.checked { color: var(--text3); text-decoration: line-through; }
+.session-notes-area {
+  width: 100%;
+  min-height: 70px;
+  background: var(--bg3);
+  border: 1px solid var(--border2);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  color: var(--text);
+  font-size: 12px;
+  font-family: inherit;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+.session-progress-bar { height: 4px; background: var(--border); border-radius: 2px; overflow: hidden; margin-bottom: 10px; }
+.session-progress-fill { height: 4px; background: var(--accent); border-radius: 2px; transition: width 0.3s; }
+.session-footer { display: flex; gap: 8px; padding: 0 0 0 0; }
+.session-launch-btn {
+  position: fixed;
+  bottom: 20px; right: 20px;
+  width: 52px; height: 52px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.35);
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+.session-launch-btn:hover { transform: scale(1.07); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <span>📚</span> Knowledge Navigator
+  </div>
+  <div class="logo-divider"></div>
+  
+  <div class="search-wrap">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="searchInput" placeholder="Search topics, chapters..." autocomplete="off">
+  </div>
+  
+  <div class="view-tabs">
+    <button class="view-tab active" data-view="roadmap">🗺️ Roadmap</button>
+    <button class="view-tab" data-view="tree">🌳 Tree</button>
+    <button class="view-tab" data-view="list">📋 List</button>
+    <button class="view-tab" data-view="graph">🕸️ Graph</button>
+  </div>
+  
+  <div class="header-actions">
+    <div style="position: relative;">
+      <button class="btn" id="exportBtn">
+        ⬇️ <span>Export</span>
+      </button>
+      <div class="export-menu" id="exportMenu">
+        <button onclick="exportJSON()">📄 Export Data (JSON)</button>
+        <button onclick="exportCSV()">📊 Export to Excel (CSV)</button>
+        <button onclick="exportPDF()">📕 Export to PDF</button>
+        <button onclick="importJSON()">⬆️ Import Data (JSON)</button>
+      </div>
+    </div>
+    <button class="btn btn-primary" id="addBtn">
+      ➕ <span>Add Topic</span>
+    </button>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <h3>Your Progress</h3>
+      <div class="progress-summary">
+        <div class="progress-item">
+          <div class="progress-num" id="doneCount" style="color: var(--done)">0</div>
+          <div class="progress-label">Done</div>
+        </div>
+        <div class="progress-item">
+          <div class="progress-num" id="inProgressCount" style="color: var(--in-progress)">0</div>
+          <div class="progress-label">Learning</div>
+        </div>
+        <div class="progress-item">
+          <div class="progress-num" id="totalCount" style="color: var(--text3)">0</div>
+          <div class="progress-label">Total</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="sidebar-content" id="sidebarContent"></div>
+  </aside>
+  
+  <main class="main">
+    <!-- Roadmap View -->
+    <div id="roadmap-view" class="view-panel active">
+      <div class="roadmap-container">
+        <div class="roadmap-header">
+          <h1>Your Learning Roadmap</h1>
+          <p>All chapters by subject — click any card to open notes and track progress</p>
+        </div>
+
+        <div class="subject-filter-bar" id="roadmapSubjectFilter"></div>
+
+        <div id="roadmapContent"></div>
+      </div>
+    </div>
+    
+    <!-- Tree View -->
+    <div id="tree-view" class="view-panel">
+      <div class="tree-container">
+        <div class="tree-header">
+          <h1>Knowledge Tree</h1>
+          <p>Browse all topics organized by subject and category</p>
+        </div>
+        
+        <div class="subject-filter-bar" id="treeSubjectFilter"></div>
+
+        <div class="filter-bar">
+          <div class="filter-group" id="treePriorityFilters">
+            <button class="filter-btn active" data-filter="all">All Priorities</button>
+            <button class="filter-btn" data-filter="core">Core</button>
+            <button class="filter-btn" data-filter="important">Important</button>
+            <button class="filter-btn" data-filter="advanced">Advanced</button>
+          </div>
+          <div class="filter-group" id="treeStatusFilters">
+            <button class="filter-btn" data-filter="done">✓ Completed</button>
+            <button class="filter-btn" data-filter="in-progress">⏳ Learning</button>
+            <button class="filter-btn" data-filter="not-started">○ Not Started</button>
+          </div>
+        </div>
+        
+        <div class="tree-grid" id="treeContent"></div>
+      </div>
+    </div>
+    
+    <!-- List View -->
+    <div id="list-view" class="view-panel">
+      <div class="list-container">
+        <div class="list-header">
+          <h1>All Chapters</h1>
+        </div>
+
+        <div class="subject-filter-bar" id="listSubjectFilter"></div>
+
+        <div class="list-filter-bar">
+          <div class="filter-group" id="listPriorityFilters">
+            <button class="filter-btn active" data-filter="all" data-scope="list-priority">All</button>
+            <button class="filter-btn" data-filter="core" data-scope="list-priority">Core</button>
+            <button class="filter-btn" data-filter="important" data-scope="list-priority">Important</button>
+            <button class="filter-btn" data-filter="advanced" data-scope="list-priority">Advanced</button>
+          </div>
+          <div class="filter-group" id="listStatusFilters">
+            <button class="filter-btn" data-filter="done" data-scope="list-status">✓ Done</button>
+            <button class="filter-btn" data-filter="in-progress" data-scope="list-status">⏳ Learning</button>
+            <button class="filter-btn" data-filter="not-started" data-scope="list-status">○ Not Started</button>
+          </div>
+          <div class="list-search">
+            <input type="text" id="listSearchInput" placeholder="Filter chapters..." oninput="applyListFilters()">
+          </div>
+        </div>
+        
+        <div class="list-table">
+          <div class="list-table-header">
+            <div></div>
+            <div>Name</div>
+            <div>Category</div>
+            <div>Priority</div>
+            <div>Topics</div>
+            <div>Actions</div>
+          </div>
+          <div id="listContent"></div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Graph View -->
+    <div id="graph-view" class="view-panel">
+      <div style="padding: 40px; text-align: center;">
+        <div class="empty-state">
+          <div class="empty-state-icon">🕸️</div>
+          <h3>Graph visualization coming soon</h3>
+          <p>An improved, more readable connection graph is being developed</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- Topic Details Modal -->
+<div class="modal" id="detailsModal" style="align-items: flex-start; padding-top: 40px;">
+  <div class="modal-content" style="max-width: 720px; max-height: 88vh; display: flex; flex-direction: column;">
+    <div class="modal-header">
+      <div style="flex:1">
+        <h2 id="modalTitle" style="margin-bottom:3px">Chapter Details</h2>
+        <div id="modalSubtitle" style="font-size:12px;color:var(--text3)"></div>
+      </div>
+      <button id="modalStartSession" class="btn btn-primary" style="margin-right:10px;font-size:12px;padding:6px 12px" onclick="startSessionFromModal()">▶ Study Session</button>
+      <button class="modal-close" onclick="closeModal('detailsModal')">✕</button>
+    </div>
+    <div class="modal-tabs" id="modalTabs">
+      <button class="modal-tab active" data-tab="overview" onclick="switchModalTab('overview')">📋 Overview</button>
+      <button class="modal-tab" data-tab="notes" onclick="switchModalTab('notes')">📝 Notes</button>
+      <button class="modal-tab" data-tab="links" onclick="switchModalTab('links')">🔗 Links</button>
+      <button class="modal-tab" data-tab="resources" onclick="switchModalTab('resources')">📎 Resources</button>
+    </div>
+    <div id="modalBody" style="overflow-y:auto;flex:1"></div>
+  </div>
+</div>
+
+<!-- Add/Edit Modal -->
+<div class="modal" id="addModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2 id="addModalTitle">Add New Chapter</h2>
+      <button class="modal-close" onclick="closeModal('addModal')">✕</button>
+    </div>
+    <div class="modal-body">
+      <form id="addForm" onsubmit="saveChapter(event)">
+        <div class="form-group">
+          <label>Subject</label>
+          <select id="addSubject" required>
+            <!-- Populated dynamically from knowledgeBase.subjects -->
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label>Chapter Name</label>
+          <input type="text" id="addName" required placeholder="e.g., Thermodynamics">
+        </div>
+        
+        <div class="form-group">
+          <label>Category</label>
+          <input type="text" id="addCategory" required placeholder="e.g., Classical Physics">
+        </div>
+        
+        <div class="form-group">
+          <label>Priority</label>
+          <select id="addPriority" required>
+            <option value="core">Core - Must learn</option>
+            <option value="important">Important - Recommended</option>
+            <option value="advanced">Advanced - Specialized</option>
+            <option value="optional">Optional - Nice to have</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+          <label>Topics (one per line)</label>
+          <textarea id="addTopics" placeholder="Enter each topic on a new line"></textarea>
+        </div>
+        
+        <div class="modal-footer">
+          <button type="button" class="btn" onclick="closeModal('addModal')">Cancel</button>
+          <button type="submit" class="btn btn-primary">Save Chapter</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<input type="file" id="importInput" accept=".json" style="display: none;" onchange="handleImport(event)">
+<input type="file" id="photoInput" accept="image/*" multiple style="display: none;" onchange="handlePhotoUpload(event)">
+
+<!-- Learning Session Panel -->
+<div class="session-panel" id="sessionPanel" style="display:none">
+  <div class="session-header" onclick="toggleSessionMinimize()">
+    <span style="font-size:16px">🎯</span>
+    <span class="session-header-title" id="sessionHeaderTitle">Study Session</span>
+    <span class="session-timer" id="sessionTimer">00:00</span>
+    <button class="session-minimize" id="sessionMinBtn" onclick="event.stopPropagation(); toggleSessionMinimize()">▼</button>
+  </div>
+  <div class="session-body" id="sessionBody">
+    <div class="session-chapter-display">
+      <div class="session-chapter-name" id="sessionChapterName">—</div>
+      <div class="session-subject-label" id="sessionSubjectLabel"></div>
+    </div>
+    <div class="session-progress-bar"><div class="session-progress-fill" id="sessionProgressFill" style="width:0%"></div></div>
+    <div class="session-topics" id="sessionTopicList"></div>
+    <textarea class="session-notes-area" id="sessionNotes" placeholder="Quick session notes..."></textarea>
+    <div class="session-footer">
+      <button class="btn btn-primary" style="flex:1" onclick="saveSessionNotes()">Save Notes</button>
+      <button class="btn" style="flex:1" onclick="endSession()">End Session</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ============================================================
+// DATA & STATE
+// ============================================================
+
+// Knowledge base loaded from knowledge_base.js
+let knowledgeBase = (typeof knowledgeBaseData !== "undefined")
+  ? knowledgeBaseData
+  : { version: "error", subjects: [], learningPaths: {} };
+
+let userProgress = {
+  chapters: {}, // chapterId: { status: 'done'|'in-progress'|'not-started', notes: '', startedAt: timestamp }
+  topics: {},   // topicId: { status: '', notes: '', completedAt: timestamp }
+  lastUpdated: null
+};
+
+// Load user progress from localStorage
+function loadKnowledgeBase() {
+  // knowledgeBase is loaded from knowledge_base.js (or fallback inline)
+  loadUserProgress();
+  populateSubjectDropdowns();
+  render();
+}
+
+function populateSubjectDropdowns() {
+  const sel = document.getElementById('addSubject');
+  if (!sel) return;
+  sel.innerHTML = '';
+  knowledgeBase.subjects.forEach(s => {
+    const opt = document.createElement('option');
+    opt.value = s.id;
+    opt.textContent = s.icon + ' ' + s.name;
+    sel.appendChild(opt);
+  });
+  populateSubjectFilters();
+}
+
+function populateSubjectFilters() {
+  const bars = [
+    { el: document.getElementById('roadmapSubjectFilter'), filterKey: 'roadmap' },
+    { el: document.getElementById('treeSubjectFilter'),    filterKey: 'tree'    },
+    { el: document.getElementById('listSubjectFilter'),    filterKey: 'list'    },
+  ];
+  bars.forEach(({ el, filterKey }) => {
+    if (!el) return;
+    el.innerHTML = '';
+    const allBtn = document.createElement('button');
+    allBtn.className = 'subject-chip active';
+    allBtn.dataset.subject = 'all';
+    allBtn.dataset.scope = filterKey;
+    allBtn.textContent = 'All Subjects';
+    allBtn.onclick = () => setSubjectFilter('all', filterKey, el);
+    el.appendChild(allBtn);
+    knowledgeBase.subjects.forEach(s => {
+      const btn = document.createElement('button');
+      btn.className = 'subject-chip';
+      btn.dataset.subject = s.id;
+      btn.dataset.scope = filterKey;
+      btn.textContent = s.icon + ' ' + s.name;
+      btn.onclick = () => setSubjectFilter(s.id, filterKey, el);
+      el.appendChild(btn);
+    });
+  });
+}
+
+function setSubjectFilter(subjectId, scope, barEl) {
+  barEl.querySelectorAll('.subject-chip').forEach(b => b.classList.toggle('active', b.dataset.subject === subjectId));
+  if (scope === 'list') {
+    activeListFilters.subject = subjectId;
+    applyListFilters();
+  } else {
+    activeFilters.subject = subjectId;
+    if (scope === 'roadmap') renderRoadmap();
+    else if (scope === 'tree') applyFilters();
+  }
+}
+
+// ============================================================
+// LOCAL STORAGE & PERSISTENCE
+// ============================================================
+
+function loadUserProgress() {
+  const saved = localStorage.getItem('knowledgeNavigator_progress');
+  if (saved) {
+    userProgress = JSON.parse(saved);
+  }
+}
+
+function saveUserProgress() {
+  userProgress.lastUpdated = Date.now();
+  localStorage.setItem('knowledgeNavigator_progress', JSON.stringify(userProgress));
+  updateProgressStats();
+}
+
+function getChapterStatus(chapterId) {
+  return userProgress.chapters[chapterId]?.status || 'not-started';
+}
+
+function setChapterStatus(chapterId, status) {
+  if (!userProgress.chapters[chapterId]) {
+    userProgress.chapters[chapterId] = {};
+  }
+  userProgress.chapters[chapterId].status = status;
+  if (status === 'done') {
+    userProgress.chapters[chapterId].completedAt = Date.now();
+  } else if (status === 'in-progress') {
+    userProgress.chapters[chapterId].startedAt = Date.now();
+  }
+  saveUserProgress();
+  render();
+}
+
+function getTopicStatus(topicId) {
+  return userProgress.topics[topicId]?.status || 'not-started';
+}
+
+function setTopicStatus(topicId, status) {
+  if (!userProgress.topics[topicId]) {
+    userProgress.topics[topicId] = {};
+  }
+  userProgress.topics[topicId].status = status;
+  if (status === 'done') {
+    userProgress.topics[topicId].completedAt = Date.now();
+  }
+  saveUserProgress();
+  render();
+}
+
+function getChapterNotes(chapterId) {
+  return userProgress.chapters[chapterId]?.notes || '';
+}
+
+function setChapterNotes(chapterId, notes) {
+  if (!userProgress.chapters[chapterId]) {
+    userProgress.chapters[chapterId] = {};
+  }
+  userProgress.chapters[chapterId].notes = notes;
+  saveUserProgress();
+}
+
+function getTopicNotes(topicId) {
+  return userProgress.topics[topicId]?.notes || '';
+}
+
+function setTopicNotes(topicId, notes) {
+  if (!userProgress.topics[topicId]) {
+    userProgress.topics[topicId] = {};
+  }
+  userProgress.topics[topicId].notes = notes;
+  saveUserProgress();
+}
+
+function getChapterLinks(chapterId) {
+  return userProgress.chapters[chapterId]?.links || [];
+}
+
+function setChapterLinks(chapterId, links) {
+  if (!userProgress.chapters[chapterId]) userProgress.chapters[chapterId] = {};
+  userProgress.chapters[chapterId].links = links;
+  saveUserProgress();
+}
+
+function getChapterPhotos(chapterId) {
+  return userProgress.chapters[chapterId]?.photos || [];
+}
+
+function setChapterPhotos(chapterId, photos) {
+  if (!userProgress.chapters[chapterId]) userProgress.chapters[chapterId] = {};
+  userProgress.chapters[chapterId].photos = photos;
+  saveUserProgress();
+}
+
+// ============================================================
+// RENDERING
+// ============================================================
+
+function render() {
+  renderSidebar();
+  renderRoadmap();
+  renderTree();
+  renderList();
+  updateProgressStats();
+}
+
+function renderSidebar() {
+  const container = document.getElementById('sidebarContent');
+  container.innerHTML = '';
+  
+  knowledgeBase.subjects.forEach(subject => {
+    const section = document.createElement('div');
+    section.className = 'subject-section';
+    
+    const header = document.createElement('div');
+    header.className = 'subject-header';
+    header.innerHTML = `
+      <span class="subject-icon">${subject.icon}</span>
+      <span class="subject-name">${subject.name}</span>
+      <span class="subject-count">${subject.chapters.length}</span>
+      <span class="subject-arrow">▸</span>
+    `;
+    header.onclick = () => section.classList.toggle('open');
+    
+    const chapterList = document.createElement('div');
+    chapterList.className = 'chapter-list';
+    
+    subject.chapters.forEach(chapter => {
+      const status = getChapterStatus(chapter.id);
+      const item = document.createElement('div');
+      item.className = 'chapter-item';
+      if (currentChapter === chapter.id) item.classList.add('active');
+      
+      item.innerHTML = `
+        <div class="chapter-status ${status}">
+          ${status === 'done' ? '✓' : status === 'in-progress' ? '⏳' : ''}
+        </div>
+        <span class="chapter-name">${chapter.name}</span>
+      `;
+      
+      item.onclick = () => {
+        currentChapter = chapter.id;
+        showChapterDetails(chapter);
+      };
+      
+      chapterList.appendChild(item);
+    });
+    
+    section.appendChild(header);
+    section.appendChild(chapterList);
+    container.appendChild(section);
+  });
+}
+
+function renderRoadmap() {
+  const container = document.getElementById('roadmapContent');
+
+  if (isSearchActive) {
+    renderSearchRoadmap();
+    return;
+  }
+
+  container.innerHTML = '';
+
+  const subjectsToShow = activeFilters.subject === 'all'
+    ? knowledgeBase.subjects
+    : knowledgeBase.subjects.filter(s => s.id === activeFilters.subject);
+
+  if (subjectsToShow.length === 0) {
+    container.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📭</div><h3>No subjects match the filter</h3></div>';
+    return;
+  }
+
+  subjectsToShow.forEach(subject => {
+    const section = document.createElement('div');
+    section.className = 'subject-section-roadmap';
+
+    const header = document.createElement('div');
+    header.className = 'subject-section-roadmap-header';
+    header.innerHTML = `
+      <span style="font-size:20px">${subject.icon}</span>
+      <h2>${subject.name}</h2>
+      <span class="subject-chapter-count">${subject.chapters.length} chapters</span>
+      <span class="subject-chapter-count" style="margin-left:auto">
+        ${subject.chapters.reduce((a,c)=>a+c.topics.length,0)} topics
+      </span>
+    `;
+    section.appendChild(header);
+
+    const grid = document.createElement('div');
+    grid.className = 'chapter-card-grid';
+
+    subject.chapters.forEach(chapter => {
+      const status = getChapterStatus(chapter.id);
+      const priorityClass = chapter.priority ? `priority-${chapter.priority}` : 'priority-important';
+      const doneTopics = chapter.topics.filter(t => getTopicStatus(t.id) === 'done').length;
+      const pct = chapter.topics.length > 0 ? Math.round(doneTopics / chapter.topics.length * 100) : 0;
+
+      const card = document.createElement('div');
+      card.className = `chapter-card ${status}`;
+      card.innerHTML = `
+        <div class="chapter-card-top">
+          <div class="chapter-card-title">${chapter.name}</div>
+          <div class="chapter-card-dot ${status}"></div>
+        </div>
+        <div class="chapter-card-meta">
+          <span class="step-badge ${priorityClass}">${chapter.priority || 'important'}</span>
+          <span>${chapter.topics.length} topics</span>
+          ${pct > 0 ? `<span style="color:var(--done)">${pct}%</span>` : ''}
+          <span style="color:var(--text3);font-size:10px">${chapter.category}</span>
+        </div>
+      `;
+      card.onclick = () => showChapterDetails(chapter);
+      grid.appendChild(card);
+    });
+
+    section.appendChild(grid);
+    container.appendChild(section);
+  });
+}
+
+function renderTree() {
+  const container = document.getElementById('treeContent');
+  
+  // If search is active, use search results
+  if (isSearchActive) {
+    renderSearchTree();
+    return;
+  }
+  
+  container.innerHTML = '';
+  
+  knowledgeBase.subjects.forEach(subject => {
+    subject.chapters.forEach(chapter => {
+      const status = getChapterStatus(chapter.id);
+      const card = document.createElement('div');
+      card.className = 'tree-chapter';
+      card.dataset.priority = chapter.priority || 'important';
+      card.dataset.status = status;
+      card.dataset.subject = subject.id;
+      
+      const priorityClass = chapter.priority ? `priority-${chapter.priority}` : 'priority-important';
+      
+      card.innerHTML = `
+        <div class="tree-chapter-header">
+          <div>
+            <div class="tree-chapter-name">${chapter.name}</div>
+            <div class="tree-chapter-category">${subject.icon} ${chapter.category}</div>
+          </div>
+          <div class="tree-chapter-status ${status}" onclick="cycleStatus('${chapter.id}', event)"></div>
+        </div>
+        <div class="step-badge ${priorityClass}">${chapter.priority || 'important'}</div>
+        <div class="tree-topics"></div>
+      `;
+      
+      const topicsContainer = card.querySelector('.tree-topics');
+      chapter.topics.slice(0, 5).forEach(topic => {
+        const topicStatus = getTopicStatus(topic.id);
+        const topicDiv = document.createElement('div');
+        topicDiv.className = 'tree-topic';
+        topicDiv.innerHTML = `
+          <div class="topic-status ${topicStatus}" onclick="cycleTopicStatus('${topic.id}', event)"></div>
+          <span class="topic-name">${topic.name}</span>
+        `;
+        topicsContainer.appendChild(topicDiv);
+      });
+      
+      if (chapter.topics.length > 5) {
+        const more = document.createElement('div');
+        more.className = 'tree-topic';
+        more.innerHTML = `<span style="color: var(--text3)">+ ${chapter.topics.length - 5} more topics...</span>`;
+        more.onclick = () => showChapterDetails(chapter);
+        topicsContainer.appendChild(more);
+      }
+      
+      card.onclick = (e) => {
+        if (!e.target.classList.contains('tree-chapter-status') && !e.target.classList.contains('topic-status')) {
+          showChapterDetails(chapter);
+        }
+      };
+      
+      container.appendChild(card);
+    });
+  });
+  
+  applyFilters();
+}
+
+function renderList() {
+  const container = document.getElementById('listContent');
+  
+  // If search is active, use search results
+  if (isSearchActive) {
+    renderSearchList();
+    return;
+  }
+  
+  container.innerHTML = '';
+  
+  const allChapters = [];
+  knowledgeBase.subjects.forEach(subject => {
+    subject.chapters.forEach(chapter => {
+      allChapters.push({ ...chapter, subjectName: subject.name, subjectIcon: subject.icon, subjectId: subject.id });
+    });
+  });
+
+  allChapters.forEach(chapter => {
+    const status = getChapterStatus(chapter.id);
+    const row = document.createElement('div');
+    row.className = 'list-row';
+    row.dataset.priority = chapter.priority || 'important';
+    row.dataset.status   = status;
+    row.dataset.subject  = chapter.subjectId;
+    row.dataset.name     = chapter.name.toLowerCase();
+
+    const priorityClass = chapter.priority ? `priority-${chapter.priority}` : 'priority-important';
+    
+    row.innerHTML = `
+      <div class="row-check ${status}" onclick="cycleStatus('${chapter.id}', event)"></div>
+      <div class="row-name">${chapter.name}</div>
+      <div class="row-category">${chapter.subjectIcon} ${chapter.category}</div>
+      <div class="row-priority">
+        <span class="step-badge ${priorityClass}">${chapter.priority || 'important'}</span>
+      </div>
+      <div class="row-topics">${chapter.topics.length} topics</div>
+      <div class="row-action">
+        <button onclick="showChapterDetails(findChapter('${chapter.id}'))">View</button>
+      </div>
+    `;
+    
+    container.appendChild(row);
+  });
+}
+
+function updateProgressStats() {
+  const allChapters = [];
+  knowledgeBase.subjects.forEach(subject => {
+    subject.chapters.forEach(chapter => allChapters.push(chapter));
+  });
+  
+  const done = allChapters.filter(ch => getChapterStatus(ch.id) === 'done').length;
+  const inProgress = allChapters.filter(ch => getChapterStatus(ch.id) === 'in-progress').length;
+  
+  document.getElementById('doneCount').textContent = done;
+  document.getElementById('inProgressCount').textContent = inProgress;
+  document.getElementById('totalCount').textContent = allChapters.length;
+}
+
+// ============================================================
+// INTERACTION
+// ============================================================
+
+let currentChapter = null;
+let currentView = 'roadmap';
+let activeFilters = { priority: 'all', status: 'all', subject: 'all' };
+let activeListFilters = { priority: 'all', status: 'all', subject: 'all' };
+let _currentModalChapterId = null;
+let _currentModalTab = 'overview';
+
+function cycleStatus(chapterId, event) {
+  event.stopPropagation();
+  const current = getChapterStatus(chapterId);
+  const next = current === 'not-started' ? 'in-progress' : current === 'in-progress' ? 'done' : 'not-started';
+  setChapterStatus(chapterId, next);
+}
+
+function cycleTopicStatus(topicId, event) {
+  event.stopPropagation();
+  const current = getTopicStatus(topicId);
+  const next = current === 'not-started' ? 'in-progress' : current === 'in-progress' ? 'done' : 'not-started';
+  setTopicStatus(topicId, next);
+}
+
+function findChapter(chapterId) {
+  for (const subject of knowledgeBase.subjects) {
+    const chapter = subject.chapters.find(ch => ch.id === chapterId);
+    if (chapter) return chapter;
+  }
+  return null;
+}
+
+function showChapterDetails(chapter) {
+  if (!chapter) return;
+  _currentModalChapterId = chapter.id;
+  _currentModalTab = 'overview'; // always reset to overview on new chapter
+
+  const modal    = document.getElementById('detailsModal');
+  const title    = document.getElementById('modalTitle');
+  const subtitle = document.getElementById('modalSubtitle');
+
+  // Find subject for this chapter
+  const subject = knowledgeBase.subjects.find(s => s.chapters.some(c => c.id === chapter.id));
+  title.textContent = chapter.name;
+  subtitle.textContent = (subject ? subject.icon + ' ' + subject.name + ' · ' : '') + chapter.category;
+
+  modal.classList.add('open');
+  switchModalTab(_currentModalTab || 'overview');
+}
+
+function switchModalTab(tab) {
+  _currentModalTab = tab;
+  const chapterId = _currentModalChapterId;
+  const chapter   = findChapter(chapterId);
+  if (!chapter) return;
+
+  // Update tab buttons
+  document.querySelectorAll('.modal-tab').forEach(b => b.classList.toggle('active', b.dataset.tab === tab));
+
+  const body = document.getElementById('modalBody');
+  body.innerHTML = '';
+
+  const pane = document.createElement('div');
+  pane.className = 'modal-tab-pane active';
+
+  if (tab === 'overview') {
+    const status = getChapterStatus(chapterId);
+    const doneTopics = chapter.topics.filter(t => getTopicStatus(t.id) === 'done').length;
+    const pct = chapter.topics.length > 0 ? Math.round(doneTopics / chapter.topics.length * 100) : 0;
+
+    pane.innerHTML = `
+      <div class="details-section">
+        <h3>Status</h3>
+        <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap">
+          <button class="btn ${status==='not-started'?'btn-primary':''}" onclick="setChapterStatus('${chapterId}','not-started');switchModalTab('overview')">Not Started</button>
+          <button class="btn ${status==='in-progress'?'btn-primary':''}" onclick="setChapterStatus('${chapterId}','in-progress');switchModalTab('overview')">Learning</button>
+          <button class="btn ${status==='done'?'btn-primary':''}" onclick="setChapterStatus('${chapterId}','done');switchModalTab('overview')">Completed</button>
+        </div>
+      </div>
+      <div class="details-section" style="margin-top:16px">
+        <h3 style="margin-bottom:10px">Topics (${chapter.topics.length}) &nbsp;<span style="font-size:12px;color:var(--text3)">${doneTopics} done · ${pct}%</span></h3>
+        <div class="topic-list-detail" id="topicListDetail"></div>
+      </div>
+      ${chapter.prerequisites?.length ? `
+        <div class="details-section" style="margin-top:16px">
+          <h3>Prerequisites</h3>
+          <p style="color:var(--text3);font-size:13px;margin-top:6px">${chapter.prerequisites.map(id => findChapter(id)?.name || id).join(' → ')}</p>
+        </div>` : ''}
+    `;
+
+    const topicListEl = pane.querySelector('#topicListDetail');
+    chapter.topics.forEach(topic => {
+      const ts = getTopicStatus(topic.id);
+      const item = document.createElement('div');
+      item.className = 'topic-item-detail';
+      item.innerHTML = `
+        <div class="topic-dot ${ts}" onclick="cycleTopicStatus('${topic.id}',event);switchModalTab('overview')" title="Click to cycle status"></div>
+        <span class="topic-name-detail">${topic.name}</span>
+      `;
+      topicListEl.appendChild(item);
+    });
+
+  } else if (tab === 'notes') {
+    const notes = getChapterNotes(chapterId);
+    pane.innerHTML = `
+      <div class="details-section">
+        <h3 style="margin-bottom:10px">Chapter Notes</h3>
+        <textarea id="chapterNotesTA" style="width:100%;min-height:220px;background:var(--bg3);border:1px solid var(--border2);border-radius:var(--radius);padding:12px;color:var(--text);font-size:13px;font-family:inherit;resize:vertical" placeholder="Write your notes, summaries, key points...">${notes}</textarea>
+        <button class="btn btn-primary" style="margin-top:10px" onclick="setChapterNotes('${chapterId}',document.getElementById('chapterNotesTA').value);showToast('Notes saved!')">Save Notes</button>
+      </div>
+    `;
+
+  } else if (tab === 'links') {
+    const links = getChapterLinks(chapterId);
+    pane.innerHTML = `
+      <div class="details-section">
+        <h3 style="margin-bottom:10px">Saved Links</h3>
+        <div class="links-list" id="linksList">${links.map((l,i) => `
+          <div class="link-item">
+            <a href="${l.url}" target="_blank" rel="noopener">${l.label || l.url}</a>
+            <button class="link-delete" onclick="deleteLink('${chapterId}',${i})">✕</button>
+          </div>`).join('')}
+        </div>
+        <div class="add-link-label">Add a link</div>
+        <div class="add-link-row">
+          <input id="linkLabel" placeholder="Label (optional)">
+          <input id="linkUrl" placeholder="https://...">
+          <button class="btn btn-primary" onclick="addLink('${chapterId}')">Add</button>
+        </div>
+      </div>
+    `;
+
+  } else if (tab === 'resources') {
+    const photos = getChapterPhotos(chapterId);
+    pane.innerHTML = `
+      <div class="details-section">
+        <h3 style="margin-bottom:10px">Attachments &amp; Photos</h3>
+        <div class="resources-grid" id="resourcesGrid">${photos.map((p,i) => `
+          <div class="resource-thumb">
+            <img src="${p.data}" alt="${p.name}" onclick="viewPhoto('${chapterId}',${i})">
+            <button class="resource-delete" onclick="deletePhoto('${chapterId}',${i})">✕</button>
+          </div>`).join('')}
+        </div>
+        <label class="resource-upload-btn" for="photoInput" onclick="document.getElementById('photoInput').dataset.chapter='${chapterId}'">
+          📎 Upload photo or image
+        </label>
+      </div>
+    `;
+  }
+
+  body.appendChild(pane);
+}
+
+function addLink(chapterId) {
+  const label = document.getElementById('linkLabel')?.value.trim();
+  const url   = document.getElementById('linkUrl')?.value.trim();
+  if (!url) return;
+  const links = getChapterLinks(chapterId);
+  links.push({ url, label: label || url });
+  setChapterLinks(chapterId, links);
+  switchModalTab('links');
+}
+
+function deleteLink(chapterId, index) {
+  const links = getChapterLinks(chapterId);
+  links.splice(index, 1);
+  setChapterLinks(chapterId, links);
+  switchModalTab('links');
+}
+
+function handlePhotoUpload(event) {
+  const chapterId = document.getElementById('photoInput').dataset.chapter;
+  if (!chapterId) return;
+  const files = Array.from(event.target.files);
+  const photos = getChapterPhotos(chapterId);
+  let loaded = 0;
+  files.forEach(file => {
+    const reader = new FileReader();
+    reader.onload = e => {
+      photos.push({ name: file.name, data: e.target.result });
+      loaded++;
+      if (loaded === files.length) {
+        setChapterPhotos(chapterId, photos);
+        switchModalTab('resources');
+      }
+    };
+    reader.readAsDataURL(file);
+  });
+  event.target.value = '';
+}
+
+function deletePhoto(chapterId, index) {
+  const photos = getChapterPhotos(chapterId);
+  photos.splice(index, 1);
+  setChapterPhotos(chapterId, photos);
+  switchModalTab('resources');
+}
+
+function viewPhoto(chapterId, index) {
+  const photos = getChapterPhotos(chapterId);
+  const p = photos[index];
+  if (!p) return;
+  window.open(p.data, '_blank');
+}
+
+function showToast(msg) {
+  let t = document.getElementById('toastMsg');
+  if (!t) {
+    t = document.createElement('div');
+    t.id = 'toastMsg';
+    t.style.cssText = 'position:fixed;bottom:80px;left:50%;transform:translateX(-50%);background:var(--accent);color:#fff;padding:8px 18px;border-radius:8px;font-size:13px;z-index:9999;pointer-events:none;transition:opacity .4s';
+    document.body.appendChild(t);
+  }
+  t.textContent = msg;
+  t.style.opacity = '1';
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => { t.style.opacity = '0'; }, 2000);
+}
+
+function startSessionFromModal() {
+  const chapter = findChapter(_currentModalChapterId);
+  if (!chapter) return;
+  closeModal('detailsModal');
+  startSession(chapter);
+}
+
+// ============================================================
+// LEARNING SESSION
+// ============================================================
+
+let _sessionTimer = null;
+let _sessionSeconds = 0;
+let _sessionChapterId = null;
+let _sessionMinimized = false;
+
+function startSession(chapter) {
+  _sessionChapterId = chapter.id;
+  _sessionSeconds   = 0;
+  _sessionMinimized = false;
+
+  const subject = knowledgeBase.subjects.find(s => s.chapters.some(c => c.id === chapter.id));
+
+  // Populate panel UI
+  document.getElementById('sessionHeaderTitle').textContent = '🎯 Study Session';
+  document.getElementById('sessionChapterName').textContent = chapter.name;
+  document.getElementById('sessionSubjectLabel').textContent = subject ? subject.icon + ' ' + subject.name : '';
+
+  // Pre-load notes
+  document.getElementById('sessionNotes').value = getChapterNotes(chapter.id);
+
+  // Mark chapter as in-progress if not started
+  if (getChapterStatus(chapter.id) === 'not-started') {
+    setChapterStatus(chapter.id, 'in-progress');
+  }
+
+  // Build topic checklist
+  const topicList = document.getElementById('sessionTopicList');
+  topicList.innerHTML = '';
+  chapter.topics.forEach(topic => {
+    const isDone = getTopicStatus(topic.id) === 'done';
+    const item = document.createElement('label');
+    item.className = `session-topic-item${isDone ? ' checked' : ''}`;
+    item.innerHTML = `
+      <input type="checkbox" ${isDone ? 'checked' : ''} onchange="sessionToggleTopic('${topic.id}', this.checked, this.closest('label'))">
+      <span>${topic.name}</span>
+    `;
+    topicList.appendChild(item);
+  });
+
+  updateSessionProgress();
+
+  // Show panel
+  const panel = document.getElementById('sessionPanel');
+  panel.style.display = 'block';
+  panel.classList.remove('minimized');
+
+  // Start timer
+  if (_sessionTimer) clearInterval(_sessionTimer);
+  _sessionTimer = setInterval(() => {
+    _sessionSeconds++;
+    const m = String(Math.floor(_sessionSeconds / 60)).padStart(2, '0');
+    const s = String(_sessionSeconds % 60).padStart(2, '0');
+    document.getElementById('sessionTimer').textContent = m + ':' + s;
+  }, 1000);
+}
+
+function sessionToggleTopic(topicId, checked, labelEl) {
+  setTopicStatus(topicId, checked ? 'done' : 'not-started');
+  labelEl.classList.toggle('checked', checked);
+  updateSessionProgress();
+  // Refresh tree/list status dots without full re-render
+  document.querySelectorAll(`[onclick*="${topicId}"]`).forEach(el => {
+    el.className = el.className.replace(/\b(done|in-progress|not-started)\b/, checked ? 'done' : 'not-started');
+  });
+}
+
+function updateSessionProgress() {
+  if (!_sessionChapterId) return;
+  const chapter = findChapter(_sessionChapterId);
+  if (!chapter) return;
+  const done = chapter.topics.filter(t => getTopicStatus(t.id) === 'done').length;
+  const pct  = chapter.topics.length > 0 ? (done / chapter.topics.length * 100) : 0;
+  document.getElementById('sessionProgressFill').style.width = pct + '%';
+}
+
+function toggleSessionMinimize() {
+  _sessionMinimized = !_sessionMinimized;
+  const panel = document.getElementById('sessionPanel');
+  panel.classList.toggle('minimized', _sessionMinimized);
+  document.getElementById('sessionMinBtn').textContent = _sessionMinimized ? '▲' : '▼';
+}
+
+function saveSessionNotes() {
+  if (!_sessionChapterId) return;
+  const notes = document.getElementById('sessionNotes').value;
+  setChapterNotes(_sessionChapterId, notes);
+  showToast('Session notes saved!');
+}
+
+function endSession() {
+  if (_sessionTimer) { clearInterval(_sessionTimer); _sessionTimer = null; }
+  saveSessionNotes();
+  const panel = document.getElementById('sessionPanel');
+  panel.style.display = 'none';
+  _sessionChapterId = null;
+  _sessionSeconds   = 0;
+  showToast('Session ended. Great work!');
+  render();
+}
+
+function closeModal(modalId) {
+  document.getElementById(modalId).classList.remove('open');
+}
+
+function switchView(viewName) {
+  currentView = viewName;
+  
+  document.querySelectorAll('.view-tab').forEach(tab => {
+    tab.classList.toggle('active', tab.dataset.view === viewName);
+  });
+  
+  document.querySelectorAll('.view-panel').forEach(panel => {
+    panel.classList.toggle('active', panel.id === `${viewName}-view`);
+  });
+}
+
+function applyFilters() {
+  const cards = document.querySelectorAll('.tree-chapter');
+
+  cards.forEach(card => {
+    const priority = card.dataset.priority;
+    const status   = card.dataset.status;
+    const subject  = card.dataset.subject;
+
+    let show = true;
+
+    if (activeFilters.priority !== 'all' && priority !== activeFilters.priority) show = false;
+    if (activeFilters.status  !== 'all' && status  !== activeFilters.status)   show = false;
+    if (activeFilters.subject !== 'all' && subject !== activeFilters.subject)  show = false;
+
+    card.style.display = show ? 'block' : 'none';
+  });
+}
+
+function applyListFilters() {
+  const listSearch = (document.getElementById('listSearchInput')?.value || '').toLowerCase();
+
+  document.querySelectorAll('#listContent .list-row').forEach(row => {
+    const priority = row.dataset.priority;
+    const status   = row.dataset.status;
+    const subject  = row.dataset.subject;
+    const name     = (row.dataset.name || '').toLowerCase();
+
+    let show = true;
+    if (activeListFilters.priority !== 'all' && priority !== activeListFilters.priority) show = false;
+    if (activeListFilters.status  !== 'all' && status  !== activeListFilters.status)    show = false;
+    if (activeListFilters.subject !== 'all' && subject !== activeListFilters.subject)   show = false;
+    if (listSearch && !name.includes(listSearch)) show = false;
+
+    row.style.display = show ? '' : 'none';
+  });
+}
+
+// ============================================================
+// ADD/EDIT FUNCTIONALITY
+// ============================================================
+
+function saveChapter(event) {
+  event.preventDefault();
+  
+  const subjectId = document.getElementById('addSubject').value;
+  const name = document.getElementById('addName').value;
+  const category = document.getElementById('addCategory').value;
+  const priority = document.getElementById('addPriority').value;
+  const topicsText = document.getElementById('addTopics').value;
+  
+  const topics = topicsText.split('\n').filter(t => t.trim()).map((topicName, index) => ({
+    id: `${subjectId}-custom-${Date.now()}-${index}`,
+    name: topicName.trim(),
+    priority: 'important'
+  }));
+  
+  const newChapter = {
+    id: `${subjectId}-custom-${Date.now()}`,
+    name,
+    category,
+    priority,
+    prerequisites: [],
+    topics
+  };
+  
+  const subject = knowledgeBase.subjects.find(s => s.id === subjectId);
+  if (subject) {
+    subject.chapters.push(newChapter);
+    saveKnowledgeBase();
+    render();
+    closeModal('addModal');
+    alert('Chapter added successfully!');
+    document.getElementById('addForm').reset();
+  }
+}
+
+function saveKnowledgeBase() {
+  // Save to localStorage as backup
+  localStorage.setItem('knowledgeNavigator_data', JSON.stringify(knowledgeBase));
+}
+
+function loadSavedKnowledgeBase() {
+  const saved = localStorage.getItem('knowledgeNavigator_data');
+  if (saved) {
+    knowledgeBase = JSON.parse(saved);
+  }
+}
+
+// ============================================================
+// EXPORT/IMPORT
+// ============================================================
+
+function exportJSON() {
+  const data = {
+    knowledgeBase,
+    userProgress,
+    exportedAt: new Date().toISOString()
+  };
+  
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `knowledge-navigator-backup-${Date.now()}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function exportCSV() {
+  let csv = 'Subject,Chapter,Category,Priority,Status,Topics Count,Notes\n';
+  
+  knowledgeBase.subjects.forEach(subject => {
+    subject.chapters.forEach(chapter => {
+      const status = getChapterStatus(chapter.id);
+      const notes = getChapterNotes(chapter.id).replace(/"/g, '""');
+      csv += `"${subject.name}","${chapter.name}","${chapter.category}","${chapter.priority}","${status}","${chapter.topics.length}","${notes}"\n`;
+    });
+  });
+  
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `knowledge-navigator-${Date.now()}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+async function exportPDF() {
+  alert('Generating PDF... This may take a moment.');
+  
+  // Create a printable version
+  const printContent = document.createElement('div');
+  printContent.style.cssText = 'padding: 40px; background: white; color: black; width: 800px;';
+  
+  let html = '<h1 style="margin-bottom: 20px;">Knowledge Navigator - Learning Progress</h1>';
+  html += `<p style="margin-bottom: 30px; color: #666;">Generated on ${new Date().toLocaleString()}</p>`;
+  
+  knowledgeBase.subjects.forEach(subject => {
+    html += `<h2 style="margin-top: 30px; color: #333;">${subject.icon} ${subject.name}</h2>`;
+    
+    subject.chapters.forEach(chapter => {
+      const status = getChapterStatus(chapter.id);
+      const statusIcon = status === 'done' ? '✅' : status === 'in-progress' ? '⏳' : '⬜';
+      
+      html += `<div style="margin: 15px 0; padding: 10px; border-left: 3px solid #ccc;">`;
+      html += `<h3 style="margin: 0; font-size: 16px;">${statusIcon} ${chapter.name}</h3>`;
+      html += `<p style="margin: 5px 0; color: #666; font-size: 13px;">${chapter.category} • ${chapter.topics.length} topics</p>`;
+      
+      const notes = getChapterNotes(chapter.id);
+      if (notes) {
+        html += `<p style="margin: 10px 0; font-size: 12px; color: #333; font-style: italic;">Notes: ${notes}</p>`;
+      }
+      
+      html += `</div>`;
+    });
+  });
+  
+  printContent.innerHTML = html;
+  document.body.appendChild(printContent);
+  
+  try {
+    const canvas = await html2canvas(printContent);
+    const imgData = canvas.toDataURL('image/png');
+    
+    const pdf = new jspdf.jsPDF('p', 'mm', 'a4');
+    const imgWidth = 210;
+    const pageHeight = 297;
+    const imgHeight = (canvas.height * imgWidth) / canvas.width;
+    let heightLeft = imgHeight;
+    let position = 0;
+    
+    pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+    heightLeft -= pageHeight;
+    
+    while (heightLeft >= 0) {
+      position = heightLeft - imgHeight;
+      pdf.addPage();
+      pdf.addImage(imgData, 'PNG', 0, position, imgWidth, imgHeight);
+      heightLeft -= pageHeight;
+    }
+    
+    pdf.save(`knowledge-navigator-${Date.now()}.pdf`);
+  } catch (error) {
+    alert('PDF generation failed. Please try exporting to CSV instead.');
+    console.error(error);
+  } finally {
+    document.body.removeChild(printContent);
+  }
+}
+
+function importJSON() {
+  document.getElementById('importInput').click();
+}
+
+function handleImport(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  
+  const reader = new FileReader();
+  reader.onload = (e) => {
+    try {
+      const data = JSON.parse(e.target.result);
+      
+      if (data.knowledgeBase) {
+        knowledgeBase = data.knowledgeBase;
+        saveKnowledgeBase();
+      }
+      
+      if (data.userProgress) {
+        userProgress = data.userProgress;
+        saveUserProgress();
+      }
+      
+      render();
+      alert('Data imported successfully!');
+    } catch (error) {
+      alert('Failed to import data. Please check the file format.');
+      console.error(error);
+    }
+  };
+  reader.readAsText(file);
+}
+
+// ============================================================
+// SEARCH
+// ============================================================
+
+let searchResults = [];
+let isSearchActive = false;
+
+function setupSearch() {
+  const input = document.getElementById('searchInput');
+  
+  input.addEventListener('input', (e) => {
+    const query = e.target.value.toLowerCase().trim();
+    
+    if (!query) {
+      clearSearch();
+      return;
+    }
+    
+    performSearch(query);
+  });
+}
+
+function performSearch(query) {
+  if (!knowledgeBase?.subjects) return;
+  
+  isSearchActive = true;
+  searchResults = [];
+  
+  // Search through all subjects, chapters, and topics
+  knowledgeBase.subjects.forEach(subject => {
+    subject.chapters.forEach(chapter => {
+      let chapterMatch = false;
+      let matchingTopics = [];
+      
+      // Check if chapter name matches
+      if (chapter.name.toLowerCase().includes(query) || 
+          chapter.category?.toLowerCase().includes(query)) {
+        chapterMatch = true;
+      }
+      
+      // Check topics within the chapter
+      if (chapter.topics) {
+        chapter.topics.forEach(topic => {
+          if (topic.name.toLowerCase().includes(query)) {
+            matchingTopics.push(topic);
+          }
+        });
+      }
+      
+      // If chapter matches or has matching topics, include it
+      if (chapterMatch || matchingTopics.length > 0) {
+        searchResults.push({
+          subject: subject,
+          chapter: chapter,
+          matchType: chapterMatch ? 'chapter' : 'topics',
+          matchingTopics: matchingTopics
+        });
+      }
+    });
+  });
+  
+  renderSearchResults();
+}
+
+function renderSearchResults() {
+  const currentView = document.querySelector('.view-tab.active')?.dataset.view || 'roadmap';
+  
+  if (currentView === 'roadmap') {
+    renderSearchRoadmap();
+  } else if (currentView === 'tree') {
+    renderSearchTree();
+  } else if (currentView === 'list') {
+    renderSearchList();
+  }
+}
+
+function renderSearchRoadmap() {
+  const container = document.getElementById('roadmapContent');
+  if (!container) return;
+  
+  container.innerHTML = '';
+  
+  if (searchResults.length === 0) {
+    const emptyDiv = document.createElement('div');
+    emptyDiv.className = 'empty-state';
+    emptyDiv.innerHTML = `
+      <div class="empty-state-icon">🔍</div>
+      <h3>No results found</h3>
+      <p>Try different keywords or check spelling</p>
+    `;
+    container.appendChild(emptyDiv);
+    return;
+  }
+  
+  searchResults.forEach((result, index) => {
+    const chapter = result.chapter;
+    const status = getChapterStatus(chapter.id);
+    
+    const pathDiv = document.createElement('div');
+    pathDiv.className = 'learning-path';
+    
+    pathDiv.innerHTML = `
+      <div class="path-header">
+        <h2 class="path-name">Search Result ${index + 1}: ${chapter.name}</h2>
+        <p class="path-desc">${result.subject.name} • ${chapter.category} • ${chapter.topics?.length || 0} topics</p>
+      </div>
+      <div class="path-steps"></div>
+    `;
+    
+    const stepsContainer = pathDiv.querySelector('.path-steps');
+    const step = document.createElement('div');
+    step.className = `path-step ${status}`;
+    step.onclick = () => showChapterDetails(chapter);
+    
+    const priorityClass = chapter.priority ? `priority-${chapter.priority}` : 'priority-important';
+    
+    step.innerHTML = `
+      <div class="step-number">${index + 1}</div>
+      <div class="step-content">
+        <div class="step-name">${chapter.name}</div>
+        <div class="step-category">${result.subject.name} • ${chapter.category}</div>
+        <div class="step-meta">
+          <span class="step-badge ${priorityClass}">${chapter.priority || 'important'}</span>
+          <span class="step-topics">${chapter.topics?.length || 0} topics</span>
+          ${result.matchingTopics.length > 0 ? `<span class="step-topics">• ${result.matchingTopics.length} matching topics</span>` : ''}
+        </div>
+      </div>
+    `;
+    
+    stepsContainer.appendChild(step);
+    container.appendChild(pathDiv);
+  });
+}
+
+function renderSearchTree() {
+  const container = document.getElementById('treeContent');
+  if (!container) return;
+  
+  container.innerHTML = '';
+  
+  if (searchResults.length === 0) {
+    const emptyDiv = document.createElement('div');
+    emptyDiv.className = 'empty-state';
+    emptyDiv.innerHTML = `
+      <div class="empty-state-icon">🔍</div>
+      <h3>No results found</h3>
+      <p>Try different keywords or check spelling</p>
+    `;
+    container.appendChild(emptyDiv);
+    return;
+  }
+  
+  searchResults.forEach(result => {
+    const chapter = result.chapter;
+    const status = getChapterStatus(chapter.id);
+    
+    const card = document.createElement('div');
+    card.className = 'tree-chapter';
+    
+    const priorityClass = chapter.priority ? `priority-${chapter.priority}` : 'priority-important';
+    
+    card.innerHTML = `
+      <div class="tree-chapter-header">
+        <div>
+          <div class="tree-chapter-name">${chapter.name}</div>
+          <div class="tree-chapter-category">${result.subject.icon} ${chapter.category}</div>
+        </div>
+        <div class="tree-chapter-status ${status}" onclick="cycleStatus('${chapter.id}', event)"></div>
+      </div>
+      <div class="step-badge ${priorityClass}">${chapter.priority || 'important'}</div>
+      <div class="tree-topics"></div>
+    `;
+    
+    const topicsContainer = card.querySelector('.tree-topics');
+    const topicsToShow = result.matchingTopics.length > 0 ? result.matchingTopics : (chapter.topics || []);
+    
+    topicsToShow.slice(0, 5).forEach(topic => {
+      const topicStatus = getTopicStatus(topic.id);
+      const topicDiv = document.createElement('div');
+      topicDiv.className = 'tree-topic';
+      topicDiv.innerHTML = `
+        <div class="topic-status ${topicStatus}" onclick="cycleTopicStatus('${topic.id}', event)"></div>
+        <span class="topic-name">${topic.name}</span>
+      `;
+      topicsContainer.appendChild(topicDiv);
+    });
+    
+    if (topicsToShow.length > 5) {
+      const more = document.createElement('div');
+      more.className = 'tree-topic';
+      more.innerHTML = `<span style="color: var(--text3)">+ ${topicsToShow.length - 5} more topics...</span>`;
+      more.onclick = () => showChapterDetails(chapter);
+      topicsContainer.appendChild(more);
+    }
+    
+    card.onclick = (e) => {
+      if (!e.target.classList.contains('tree-chapter-status') && !e.target.classList.contains('topic-status')) {
+        showChapterDetails(chapter);
+      }
+    };
+    
+    container.appendChild(card);
+  });
+}
+
+function renderSearchList() {
+  const container = document.getElementById('listContent');
+  if (!container) return;
+  
+  container.innerHTML = '';
+  
+  if (searchResults.length === 0) {
+    const emptyDiv = document.createElement('div');
+    emptyDiv.className = 'empty-state';
+    emptyDiv.innerHTML = `
+      <div class="empty-state-icon">🔍</div>
+      <h3>No results found</h3>
+      <p>Try different keywords or check spelling</p>
+    `;
+    container.appendChild(emptyDiv);
+    return;
+  }
+  
+  searchResults.forEach(result => {
+    const chapter = result.chapter;
+    const status = getChapterStatus(chapter.id);
+    const row = document.createElement('div');
+    row.className = 'list-row';
+    
+    const priorityClass = chapter.priority ? `priority-${chapter.priority}` : 'priority-important';
+    
+    row.innerHTML = `
+      <div class="row-check ${status}" onclick="cycleStatus('${chapter.id}', event)"></div>
+      <div class="row-name">${chapter.name}</div>
+      <div class="row-category">${result.subject.icon} ${chapter.category}</div>
+      <div class="row-priority">
+        <span class="step-badge ${priorityClass}">${chapter.priority || 'important'}</span>
+      </div>
+      <div class="row-topics">${chapter.topics?.length || 0} topics</div>
+      <div class="row-action">
+        <button onclick="showChapterDetails(findChapter('${chapter.id}'))">View Details</button>
+      </div>
+    `;
+    
+    row.onclick = (e) => {
+      if (!e.target.classList.contains('row-check') && !e.target.tagName === 'BUTTON') {
+        showChapterDetails(chapter);
+      }
+    };
+    
+    container.appendChild(row);
+  });
+}
+
+function clearSearch() {
+  isSearchActive = false;
+  searchResults = [];
+  render(); // Re-render current view with full data
+}
+
+// ============================================================
+// EVENT LISTENERS
+// ============================================================
+
+document.querySelectorAll('.view-tab').forEach(tab => {
+  tab.addEventListener('click', () => switchView(tab.dataset.view));
+});
+
+document.getElementById('exportBtn').addEventListener('click', (e) => {
+  e.stopPropagation();
+  document.getElementById('exportMenu').classList.toggle('open');
+});
+
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('#exportBtn') && !e.target.closest('#exportMenu')) {
+    document.getElementById('exportMenu').classList.remove('open');
+  }
+});
+
+document.getElementById('addBtn').addEventListener('click', () => {
+  document.getElementById('addModal').classList.add('open');
+});
+
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const filter = btn.dataset.filter;
+    const scope  = btn.dataset.scope || 'tree';
+
+    if (scope.startsWith('list-')) {
+      // ── List view filters ──
+      const group = scope === 'list-priority' ? 'listPriorityFilters' : 'listStatusFilters';
+      document.querySelectorAll(`#${group} .filter-btn`).forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      if (scope === 'list-priority') activeListFilters.priority = filter;
+      else activeListFilters.status = filter;
+      applyListFilters();
+    } else {
+      // ── Tree view filters ──
+      const isPriority = ['all', 'core', 'important', 'advanced', 'optional'].includes(filter);
+      if (isPriority) {
+        document.querySelectorAll('#treePriorityFilters .filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeFilters.priority = filter;
+      } else {
+        if (btn.classList.contains('active')) {
+          btn.classList.remove('active');
+          activeFilters.status = 'all';
+        } else {
+          document.querySelectorAll('#treeStatusFilters .filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          activeFilters.status = filter;
+        }
+      }
+      applyFilters();
+    }
+  });
+});
+
+// Keyboard shortcut for search
+document.addEventListener('keydown', (e) => {
+  if (e.key === '/' && !['INPUT', 'TEXTAREA'].includes(e.target.tagName)) {
+    e.preventDefault();
+    document.getElementById('searchInput').focus();
+  }
+  
+  if (e.key === 'Escape') {
+    closeModal('detailsModal');
+    closeModal('addModal');
+  }
+});
+
+// ============================================================
+// INITIALIZATION
+// ============================================================
+
+document.addEventListener('DOMContentLoaded', () => {
+  loadSavedKnowledgeBase();
+  loadKnowledgeBase(); // Now synchronous - data is embedded!
+  setupSearch();
+});
+</script>
+
+</body>
+</html>
